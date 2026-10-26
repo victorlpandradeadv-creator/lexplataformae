@@ -1,0 +1,22 @@
+{
+  "descricao": "As nove epígrafes da tese, na ordem em que aparecem. Emulam as nove Musas e formam um arco do medo à fermata (p. 78). As letras não são reproduzidas no site.",
+  "playlist": {
+    "titulo": "Objeto Imaterial de Consumo (OIC)",
+    "autor": "Victor Andrade",
+    "url": "https://open.spotify.com/playlist/35U1fRVLPlpPGAlsmqyLAS",
+    "embed": "https://open.spotify.com/embed/playlist/35U1fRVLPlpPGAlsmqyLAS",
+    "conferida_em": "2026-10-26",
+    "observacao": "Ordem das faixas conferida contra a tese. Nove de nove, na mesma sequência."
+  },
+  "epigrafes": [
+    {"ordem": 1, "abre": "Abertura", "artista": "Lily Allen", "faixa": "The Fear", "ano": 2009, "pagina_pdf": 12, "pre_textual": true},
+    {"ordem": 2, "abre": "1 Introdução", "artista": "Lorde", "faixa": "The Love Club", "ano": 2012, "pagina_pdf": 22, "pre_textual": true},
+    {"ordem": 3, "abre": "2 Do desenho metodológico e do protocolo de observação", "artista": "Danni Carlos", "faixa": "Coisas Que Eu Sei", "ano": 2008, "pagina_pdf": 46, "pagina_impressa": 44},
+    {"ordem": 4, "abre": "3 Tecnologia, plataformas e a ordem econômica tecno-midiática do consumo digital", "artista": "Christina Aguilera", "faixa": "Birds of Prey", "ano": 2010, "pagina_pdf": 84, "pagina_impressa": 82},
+    {"ordem": 5, "abre": "4 Semiótica e governança de fruição no consumo imaterial contínuo", "artista": "MARINA", "faixa": "Oh No!", "ano": 2010, "pagina_pdf": 262, "pagina_impressa": 260},
+    {"ordem": 6, "abre": "5 Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae", "artista": "K/DA", "faixa": "Villain", "ano": 2020, "pagina_pdf": 392, "pagina_impressa": 390},
+    {"ordem": 7, "abre": "6 Da tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil", "artista": "Zélia Duncan", "faixa": "Diz Nos Meus Olhos (Inclemência)", "ano": 2005, "pagina_pdf": 502, "pagina_impressa": 500},
+    {"ordem": 8, "abre": "7 Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma", "artista": "Marisa Monte", "faixa": "Infinito Particular", "ano": 2006, "pagina_pdf": 714, "pagina_impressa": 712},
+    {"ordem": 9, "abre": "8 Conclusão", "artista": "Pitty", "faixa": "Temporal", "ano": 2003, "pagina_pdf": 792, "pagina_impressa": 790}
+  ]
+}

@@ -1,0 +1,62 @@
+<!--
+  Player das epígrafes. Componente isolado, pronto para entrar no site.
+
+  Regras do projeto aplicadas aqui
+  - Nada do Spotify carrega antes do clique. Até lá, o visitante não é rastreado.
+  - O player nunca toca sozinho. O iframe não recebe permissão de autoplay.
+  - O visitante é avisado, antes do clique, de que o Spotify passará a receber dados da visita.
+  - As letras não são reproduzidas. A música chega pelo player licenciado do Spotify.
+
+  Fonte dos dados em dados/epigrafes.json.
+-->
+<section class="epigrafes" aria-labelledby="epigrafes-titulo">
+  <h2 id="epigrafes-titulo">As nove epígrafes</h2>
+  <p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. <a href="#tese-2-6">Seção 2.6 da tese, p. 73 a 78.</a></p>
+
+  <ol class="epigrafes-lista">
+    <li>Lily Allen, <cite>The Fear</cite> (2009)</li>
+    <li>Lorde, <cite>The Love Club</cite> (2012)</li>
+    <li>Danni Carlos, <cite>Coisas Que Eu Sei</cite> (2008)</li>
+    <li>Christina Aguilera, <cite>Birds of Prey</cite> (2010)</li>
+    <li>MARINA, <cite>Oh No!</cite> (2010)</li>
+    <li>K/DA, <cite>Villain</cite> (2020)</li>
+    <li>Zélia Duncan, <cite>Diz Nos Meus Olhos (Inclemência)</cite> (2005)</li>
+    <li>Marisa Monte, <cite>Infinito Particular</cite> (2006)</li>
+    <li>Pitty, <cite>Temporal</cite> (2003)</li>
+  </ol>
+
+  <div class="epigrafes-player" data-embed="https://open.spotify.com/embed/playlist/35U1fRVLPlpPGAlsmqyLAS">
+    <button type="button" class="epigrafes-carregar">Ouvir a playlist no Spotify</button>
+    <p class="epigrafes-aviso">Ao carregar o player, o Spotify passa a receber dados desta visita. Nada toca sem que você aperte o play. Prefere não carregar aqui? <a href="https://open.spotify.com/playlist/35U1fRVLPlpPGAlsmqyLAS" rel="noopener">Abra a playlist direto no Spotify</a>.</p>
+  </div>
+</section>
+
+<style>
+  .epigrafes-player { margin-top: 1rem; }
+  .epigrafes-carregar {
+    font: inherit;
+    padding: 0.6rem 1rem;
+    border: 1px solid currentColor;
+    border-radius: 6px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  .epigrafes-carregar:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+  .epigrafes-aviso { font-size: 0.875rem; opacity: 0.8; }
+  .epigrafes-player iframe { width: 100%; height: 452px; border: 0; border-radius: 12px; }
+</style>
+
+<script>
+  document.querySelectorAll('.epigrafes-player').forEach(function (caixa) {
+    var botao = caixa.querySelector('.epigrafes-carregar');
+    botao.addEventListener('click', function () {
+      var quadro = document.createElement('iframe');
+      quadro.src = caixa.dataset.embed;
+      quadro.title = 'Playlist das epígrafes da tese no Spotify';
+      quadro.allow = 'clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+      quadro.loading = 'lazy';
+      caixa.replaceChildren(quadro);
+    });
+  });
+</script>

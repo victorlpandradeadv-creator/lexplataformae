@@ -52,6 +52,10 @@ As nove epígrafes emulam as nove Musas e formam um arco "do medo à fermata" (p
 
 No site, as letras não são reproduzidas. A música entra por player incorporado do Spotify, a partir de playlist do autor. O player só carrega quando o visitante clica, para não rastrear ninguém antes do consentimento, e nunca toca sozinho.
 
+- Playlist do autor, "Objeto Imaterial de Consumo (OIC)", em https://open.spotify.com/playlist/35U1fRVLPlpPGAlsmqyLAS. Ordem conferida contra a tese em 26/10/2026. Nove de nove, na mesma sequência.
+- Dados em `dados/epigrafes.json`, com a página de cada epígrafe.
+- Componente pronto em `componentes/player-epigrafes.html`. Testado. Nenhum pedido ao Spotify antes do clique.
+
 ## Infraestrutura
 
 - Hospedagem prevista no GitHub Pages, a partir deste repositório público.
