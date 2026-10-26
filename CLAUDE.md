@@ -35,7 +35,22 @@ O site tem cinco camadas.
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
 - Licença. Até a decisão, todos os direitos reservados. Proposta em estudo, MIT para o código e CC BY 4.0 para o conteúdo próprio, com exclusão expressa de material de terceiros.
-- Se rascunhos de conteúdo podem ficar públicos no repositório antes da revisão.
+
+## Decisões tomadas
+
+- 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
+
+## Arquivos
+
+- `tese/andrade-2026-tese-oic-lex-plataformae.pdf` é a fonte de verdade. Página impressa = página do PDF - 2.
+- `conceitos/` guarda as fichas dos conceitos.
+- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py <arquivos.md>`. Commit só com zero falhas.
+
+## Epígrafes
+
+As nove epígrafes emulam as nove Musas e formam um arco "do medo à fermata" (p. 78). Abertura, Lily Allen, The Fear (2009). Introdução, Lorde, The Love Club (2012). Cap. 2, Danni Carlos, Coisas Que Eu Sei (2008). Cap. 3, Christina Aguilera, Birds of Prey (2010). Cap. 4, MARINA, Oh No! (2010). Cap. 5, K/DA, Villain (2020). Cap. 6, Zélia Duncan, Diz Nos Meus Olhos (Inclemência) (2005). Cap. 7, Marisa Monte, Infinito Particular (2006). Cap. 8, Pitty, Temporal (2003).
+
+No site, as letras não são reproduzidas. A música entra por player incorporado do Spotify, a partir de playlist do autor. O player só carrega quando o visitante clica, para não rastrear ninguém antes do consentimento, e nunca toca sozinho.
 
 ## Infraestrutura
 
