@@ -274,3 +274,9 @@ a.pg { text-decoration: none; color: var(--tinta-2); }
 a.pg:hover { color: var(--acento); border-color: var(--acento); }
 .folha-cabeca h1 strong { font-weight: inherit; }
 @media (max-width: 640px) { .sumario li a { grid-template-columns: 3.6rem minmax(0, 1fr); } .citacao-longa { margin-left: 1rem; } .notas ol { padding-left: 2.4rem; } }
+
+/* Alvos de toque. Mínimo de 24px pela WCAG 2.2 (2.5.8), e 44px em telas de toque. */
+.topo-marca, .topo nav a, .trilha a, .voltar, .chave, .vizinhos a, .ler-pdf a, .gemeos a, .campo-gemeo a { display: inline-flex; align-items: center; min-height: 32px; }
+@media (pointer: coarse) {
+  .topo-marca, .topo nav a, .trilha a, .voltar, .chave, .vizinhos a, .ler-pdf a, .outros a, .fora a, .lugares a, .gemeos a, .campo-gemeo a { min-height: 44px; display: inline-flex; align-items: center; }
+}
