@@ -164,6 +164,7 @@ def main():
         margem = min((x for x in set(corpo12) if corpo12.count(x) > 3), default=85) if corpo12 else 85
         marca_pendente = f'<span class="pg-marca" id="p{impressa}">p. {impressa}</span>'
         em_notas = False
+        vazio_pendente = False
 
         for y, x, spans in linhas:
             if y < 60:
@@ -189,8 +190,11 @@ def main():
             if em_notas:
                 continue
             if not visiveis:
+                # A linha vazia só fecha o parágrafo se vier texto do corpo depois dela na mesma página.
+                # A linha vazia antes das notas de rodapé não fecha nada, e o parágrafo que atravessa
+                # a virada de página continua no mesmo bloco, com a marca da página no meio.
                 if titulo_em_curso is None:
-                    fechar_bloco()
+                    vazio_pendente = True
                 continue
 
             # Título de seção, conferido contra o sumário.
@@ -225,6 +229,9 @@ def main():
             if atual is None:
                 continue
             atual["pagina_fim"] = impressa
+            if vazio_pendente:
+                fechar_bloco()
+                vazio_pendente = False
 
             h = html_spans(spans, 8.5)
             tamanho = primeiro["size"]
@@ -237,7 +244,9 @@ def main():
             else:
                 abrir_bloco("p")
                 acrescentar(h)
-        if not em_notas and bloco is None and marca_pendente and atual is not None:
+        if not em_notas and marca_pendente and atual is not None:
+            # Página sem texto do corpo. A marca fica solta, para que a página tenha âncora.
+            fechar_bloco()
             atual["blocos"].append({"tipo": "marca", "html": marca_pendente})
             marca_pendente = None
     fechar_bloco()
