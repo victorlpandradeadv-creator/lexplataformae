@@ -35,8 +35,9 @@ SLUGS = {
     "Integridade pessoal": "integridade-pessoal",
 }
 
-# A Lex Plataformae é um dos nove e também o campo onde os outros operam.
-CAMPO = "lex-plataformae"
+# Os nove conceitos não são numerados. São independentes e, sob o OIC, funcionam
+# de forma integrada (nota do autor, 26/10/2026). O OIC é o eixo de integração.
+EIXO = "oic"
 
 # Pares que aparecem colados nos percursos.
 # OIC e feixe são gêmeos por decisão do autor em 26/10/2026.
@@ -128,15 +129,15 @@ def ler_ficha():
     for bloco in re.split(r"^## ", texto, flags=re.M)[1:]:
         linhas = bloco.split("\n")
         titulo = linhas[0].strip()
-        numerado = re.match(r"^(\d+)\. (.+)$", titulo)
+        numerado = re.match(r"^Conceito\. (.+)$", titulo)
         roteiro = re.match(r"^Roteiro\. (.+)$", titulo)
         bens = re.match(r"^Bens protegidos\. (.+)$", titulo)
         if numerado:
-            nome, tipo, numero = numerado.group(2), "conceito", int(numerado.group(1))
+            nome, tipo = numerado.group(1), "conceito"
         elif roteiro:
-            nome, tipo, numero = roteiro.group(1), "roteiro", None
+            nome, tipo = roteiro.group(1), "roteiro"
         elif bens:
-            nome, tipo, numero = bens.group(1), "bens", None
+            nome, tipo = bens.group(1), "bens"
         else:
             continue
         campos, atual = [], None
@@ -159,8 +160,7 @@ def ler_ficha():
             "id": SLUGS[nome],
             "nome": nome,
             "tipo": tipo,
-            "numero": numero,
-            "campo": SLUGS[nome] == CAMPO,
+            "eixo": SLUGS[nome] == EIXO,
             "par": par_de(SLUGS[nome]),
             "secao": SECAO_ROTEIRO.get(SLUGS[nome]),
             "campos": campos,

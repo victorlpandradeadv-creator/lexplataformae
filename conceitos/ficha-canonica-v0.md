@@ -1,10 +1,10 @@
-# Ficha canônica dos conceitos · v0.2
+# Ficha canônica dos conceitos · v0.3
 
 Unidade de revisão do lexplataformae.com.br. Rascunho para validação do autor.
 
 ## Como ler
 
-O Atlas tem nove conceitos, na numeração definida pelo autor em 26/10/2026. A Lex Plataformae é, ao mesmo tempo, um dos nove e o campo onde os outros acontecem. Cada conceito traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
+O Atlas tem nove conceitos. Por decisão do autor em 26/10/2026, eles não são numerados. Todos são independentes, mas, sob o OIC, funcionam de forma integrada. Cada conceito traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
 
 Toda citação é literal e foi conferida por script contra o texto da tese. As páginas seguem a numeração impressa. Notas de rodapé foram suprimidas das citações e as supressões de trecho estão marcadas com [...].
 
@@ -28,7 +28,9 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 ---
 
-## 1. Objeto Imaterial de Consumo (OIC)
+## Conceito. Objeto Imaterial de Consumo (OIC)
+
+**Nota do autor.** Acréscimo posterior à tese, de 26/10/2026. Todos os conceitos são independentes, mas, sob o OIC, funcionam de forma integrada.
 
 **Função no regime.** Qualifica o objeto. É o gatilho dos demais parâmetros. "Esse parâmetro exerce, assim, função de gatilho para os demais." (p. 719)
 
@@ -55,9 +57,9 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 ---
 
-## 2. Lex Plataformae
+## Conceito. Lex Plataformae
 
-**Função no regime.** Conceito e campo. É a ordenação dentro da qual todos os outros conceitos operam. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800). Ela é aquilo contra o que o regime se arma.
+**Função no regime.** Nomeia a ordenação privada sob a qual o OIC é fornecido, como diz o próprio título da tese. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800).
 
 **Definição canônica proposta**
 
@@ -82,7 +84,7 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 ---
 
-## 3. Vulnerabilidade semiótica
+## Conceito. Vulnerabilidade semiótica
 
 **Função no regime.** Localiza a assimetria (p. 800). Na exposição do capítulo 5, é o ponto de partida. "Apresentá-la primeiro não é arbitrariedade expositiva" (p. 394).
 
@@ -113,7 +115,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 4. Teleologia abusiva
+## Conceito. Teleologia abusiva
 
 **Função no regime.** Identifica o ilícito (p. 800). É o critério da finalidade. Depende da vulnerabilidade semiótica e do OIC. "A sua formulação depende das duas categorias anteriores." (p. 394)
 
@@ -142,7 +144,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 5. Ilícito de arquitetura
+## Conceito. Ilícito de arquitetura
 
 **Função no regime.** Nomeia a forma do ilícito. É a arquitetura lida como conduta. "O núcleo do parâmetro está em tratar a arquitetura como conduta." (p. 732) A tese não o define de modo autônomo. Ele aparece sempre ao lado da teleologia abusiva, que a conclusão chama de "categoria de ilícito de arquitetura" (p. 794). O 7.1.2 o trata como "hipótese mais ampla de ilícito arquitetural" (p. 746). Leitura proposta, a confirmar. O ilícito de arquitetura é o gênero. A teleologia abusiva é o critério que o identifica pela finalidade.
 
@@ -168,7 +170,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 6. Antecipação hipercuratorial
+## Conceito. Antecipação hipercuratorial
 
 **Função no regime.** Lê a expectativa governada (p. 800).
 
@@ -191,7 +193,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 7. Auditabilidade aberta
+## Conceito. Auditabilidade aberta
 
 **Função no regime.** Controla a alteração (p. 800). Critério de legitimidade.
 
@@ -212,7 +214,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 8. Equivalência de valor funcional
+## Conceito. Equivalência de valor funcional
 
 **Função no regime.** Controla a alteração (p. 800). Também orienta o remédio (p. 731).
 
@@ -235,7 +237,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## 9. Feixe de fruição governada
+## Conceito. Feixe de fruição governada
 
 **Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
 
@@ -347,7 +349,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 ## O que ainda precisa da assinatura do Senhor
 
-1. **Uma ordem ou três percursos.** A sugestão é manter as três, cada uma com nome próprio. O percurso do consumidor (5.1), o percurso do julgador (7.1.1) e o percurso do regime (conclusão).
+1. **Os três percursos.** Como os conceitos são independentes, as três ordens da tese passam a ser leituras, sem numeração, e pertencem ao Roteiro. O 7.1.1 fala em "sequência decisória escalonada" (p. 716-717), o que vale para os enunciados, que são os passos do Roteiro, e não para os conceitos do Atlas. Manter as três leituras ou retirá-las?
 2. **A definição canônica de cada conceito.** Aprovar ou trocar por uma das concorrentes.
 3. **A lacuna da antecipação hipercuratorial.** O site declara que a tese não traz critério negativo geral, ou o Senhor escreve um? Se escrever, o texto entra marcado como acréscimo posterior, com data, como a nota sobre a integridade pessoal.
 4. **Ilícito de arquitetura e teleologia abusiva.** A leitura proposta é que o primeiro é o gênero e a segunda o critério da finalidade. Nos percursos, os dois aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).

@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
 <style>
-  /* Layout. Um campo quadriculado (a Lex Plataformae) contém o percurso numerado dos conceitos. Cada conceito abre uma folha de leitura com âncoras de página. */
+  /* Layout. Um quadro quadriculado, o OIC, integra conceitos independentes e sem numeração. Abaixo, as três leituras da tese. Cada conceito abre uma folha de leitura com âncoras de página. */
   :root {
     --papel: #f4f5f8;
     --folha: #fbfbfd;
@@ -104,6 +104,16 @@
   .campo-nome { font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: 1.35rem; margin: 0; }
   .campo-nome a { color: var(--tinta); }
   .campo-def { margin: 0; color: var(--tinta-2); }
+  .campo-gemeo { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; font-family: var(--f-display); font-weight: 650; }
+  .campo-gemeo a { color: var(--tinta); }
+  .grade-conceitos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 0.6rem; }
+  .cartao { display: grid; gap: 0.35rem; height: 100%; padding: 0.9rem 1rem; background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); color: var(--tinta); text-decoration: none; }
+  .cartao b { font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; line-height: 1.2; }
+  .cartao span { font-style: italic; color: var(--tinta-2); font-size: 0.98rem; line-height: 1.4; }
+  .cartao span .pg { font-style: normal; }
+  .cartao:hover { border-color: var(--acento); }
+  .cartao:hover b { color: var(--acento); }
+  .leituras .percursos { margin-top: 0.25rem; }
 
   .percursos { border: 0; margin: 0; padding: 0; display: grid; gap: 0.75rem; min-width: 0; }
   .percursos legend { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); padding: 0; margin-bottom: 0.5rem; }
@@ -122,10 +132,9 @@
   /* Sequência */
   .sequencia { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; position: relative; }
   .passo {
-    display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.75rem; align-items: start;
+    display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.75rem; align-items: start;
     background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 0.85rem 1rem;
   }
-  .passo-n { font-family: var(--f-dado); font-size: 0.95rem; color: var(--tinta-2); padding-top: 0.15rem; font-variant-numeric: tabular-nums; }
   .passo-corpo { display: grid; gap: 0.2rem; min-width: 0; }
   .passo-nome { font-family: var(--f-display); font-weight: 700; font-size: 1.1rem; line-height: 1.2; }
   .passo-nome a { color: var(--tinta); text-decoration: none; }
@@ -177,12 +186,17 @@
   .nao-e { border-left-style: dashed; }
   .nota-autor { background: var(--nota); border: 1px solid var(--nota-borda); border-radius: var(--raio); padding: 1rem 1.1rem; display: grid; gap: 0.4rem; max-width: var(--medida); }
   .nota-autor .sobrelinha { color: var(--tinta-2); }
+  .nota-autor p { margin: 0; }
   .lugares { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
   .lugares li { font-family: var(--f-dado); font-size: 0.8rem; border: 1px solid var(--linha); border-radius: 3px; padding: 0.15rem 0.5rem; background: var(--folha); }
   .nos-percursos { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
   .nos-percursos li { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 0.25rem 1rem; padding-block: 0.4rem; border-top: 1px solid var(--linha); }
   .nos-percursos b { font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; }
   .nos-percursos span { font-style: italic; color: var(--tinta-2); }
+  .outros { display: grid; gap: 0.6rem; border-top: 1px solid var(--linha); padding-top: 1rem; }
+  .outros h2 { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .outros ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .outros a { font-family: var(--f-display); font-size: 0.9rem; text-decoration: none; border: 1px solid var(--linha); border-radius: 999px; padding: 0.2rem 0.75rem; background: var(--folha); display: inline-block; }
   .vizinhos { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-family: var(--f-display); font-size: 0.95rem; border-top: 1px solid var(--linha); padding-top: 1rem; }
 
   .rodape { border-top: 1px solid var(--linha); padding-block: 1.5rem 2.5rem; display: grid; gap: 0.5rem; font-size: 0.9rem; color: var(--tinta-2); }
@@ -200,10 +214,11 @@
   body.desnudo .legenda-desnudo { display: block; }
   body.desnudo .sequencia { gap: 1.9rem; padding-top: 1.4rem; }
   body.desnudo .campo { padding-top: 2.6rem; }
+  body.desnudo .grade-conceitos { padding-top: 1.4rem; }
 
   @media (max-width: 640px) {
     .seletor { grid-template-columns: minmax(0, 1fr); }
-    .passo { grid-template-columns: 2rem minmax(0, 1fr); padding: 0.75rem; }
+    .passo { padding: 0.75rem; }
     .nos-percursos li { grid-template-columns: minmax(0, 1fr); }
   }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
@@ -211,7 +226,7 @@
 
 <div class="moldura">
   <div class="faixa" data-arq="rascunho · nada vai ao ar sem o autor">
-    <span>Protótipo v0.2 · rascunho para revisão do autor</span>
+    <span>Protótipo v0.3 · rascunho para revisão do autor</span>
     <span>Citações conferidas por script contra a tese</span>
   </div>
 
@@ -269,9 +284,27 @@
   }
 
   /* ---------- Atlas ---------- */
+  function primeiraFrase(texto) {
+    var m = String(texto).match(/^(.*?[^p]\.)(?:\s|$)/);
+    return m ? m[1] : texto;
+  }
+  function emOrdem(lista) {
+    return lista.slice().sort(function (a, b) { return a.nome.localeCompare(b.nome, 'pt-BR'); });
+  }
+
   function renderAtlas() {
-    var lp = porId['lex-plataformae'];
-    var lpDef = campo(lp, 'Definição canônica proposta').citacoes[0];
+    var oic = porId['oic'];
+    var oicDef = campo(oic, 'Definição canônica proposta').citacoes[0];
+    var nota = campo(oic, 'Nota do autor');
+    var notaTexto = nota ? nota.texto.replace(/^Acréscimo posterior à tese, de [\d\/]+\.\s*/, '') : '';
+    var gemeo = oic.par ? porId[oic.par.id] : null;
+    var independentes = emOrdem(D.conceitos.filter(function (c) {
+      return c.tipo === 'conceito' && !c.eixo && !(oic.par && c.id === oic.par.id);
+    }));
+    var cartoes = independentes.map(function (c) {
+      var f = campo(c, 'Função no regime');
+      return '<li><a class="cartao" href="#' + c.id + '"><b>' + esc(c.nome) + '</b><span>' + comAncoras(primeiraFrase(f ? f.texto : '')) + '</span></a></li>';
+    }).join('');
     var ab = D.abertura;
     var opcoes = Object.keys(D.percursos).map(function (k) {
       var p = D.percursos[k];
@@ -292,18 +325,26 @@
         '<blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“' + esc(ab.texto) + '”' + pg(ab.ref) + '</blockquote>' +
       '</section>' +
 
-      '<section class="campo" aria-labelledby="campo-nome" data-arq="campo · a ordenação privada dentro da qual tudo acontece">' +
+      '<section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">' +
         '<div class="campo-topo">' +
-          '<p class="campo-rotulo">O campo · conceito 2 de 9</p>' +
-          '<h2 class="campo-nome" id="campo-nome"><a href="#lex-plataformae">Lex Plataformae</a></h2>' +
-          '<p class="campo-def">“' + esc(lpDef.texto) + '”' + pg(lpDef.ref) + '</p>' +
+          '<p class="campo-rotulo">Sob o OIC</p>' +
+          '<h2 class="campo-nome" id="eixo-nome"><a href="#oic">' + esc(oic.nome) + '</a></h2>' +
+          (gemeo ? '<p class="campo-gemeo"><span class="gemeos-sinal">gêmeos</span> <a href="#' + gemeo.id + '">' + esc(gemeo.nome) + '</a></p>' : '') +
+          '<p class="campo-def">“' + esc(oicDef.texto) + '”' + pg(oicDef.ref) + '</p>' +
+          (notaTexto ? '<div class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor · 26/10/2026</p><p>' + esc(notaTexto) + '</p></div>' : '') +
         '</div>' +
+        '<ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">' + cartoes + '</ul>' +
+      '</section>' +
+
+      '<section class="secao leituras" aria-labelledby="leituras-titulo">' +
+        '<h2 id="leituras-titulo">Três leituras da tese</h2>' +
+        '<p>A tese também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>' +
         '<fieldset class="percursos">' +
-          '<legend>Escolha um percurso. A tese organiza os conceitos de três maneiras.</legend>' +
+          '<legend>Escolha uma leitura</legend>' +
           '<div class="seletor">' + opcoes + '</div>' +
           '<p class="logica" id="logica" aria-live="polite"></p>' +
         '</fieldset>' +
-        '<ol class="sequencia" id="sequencia" data-arq="percurso · ordem declarada pela tese, não pelo site"></ol>' +
+        '<ul class="sequencia" id="sequencia" data-arq="leitura · ordem do texto da tese, não hierarquia"></ul>' +
         '<div class="fora" id="fora"></div>' +
       '</section>' +
 
@@ -364,7 +405,7 @@
       li.setAttribute('data-arq', 'fora do Atlas · passo do Roteiro');
       corpo = '<span class="passo-tipo">passo do Roteiro · ' + esc(extra.secao) + '</span><span class="passo-nome">' + esc(extra.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
     }
-    li.innerHTML = '<span class="passo-n" aria-hidden="true">' + String(n).padStart(2, '0') + '</span><span class="passo-corpo">' + corpo + '</span>';
+    li.innerHTML = '<span class="passo-corpo">' + corpo + '</span>';
   }
 
   function renderSequencia(animar) {
@@ -388,7 +429,7 @@
 
     var presentes = {};
     p.sequencia.forEach(function (s) { presentes[s.id] = 1; if (s.par) presentes[s.par] = 1; });
-    var ausentes = D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !c.campo && !presentes[c.id]; });
+    var ausentes = emOrdem(D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !presentes[c.id]; }));
     var fora = document.getElementById('fora');
     fora.innerHTML = ausentes.length
       ? '<p>Fora deste percurso</p><ul>' + ausentes.map(function (c) { return '<li><a href="#' + c.id + '">' + esc(c.nome) + '</a></li>'; }).join('') + '</ul>'
@@ -412,8 +453,8 @@
     var partes = [];
     var eyebrow = c.tipo === 'roteiro' ? 'Fora do Atlas · passo do Roteiro · ' + c.secao
       : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas'
-      : 'Conceito ' + c.numero + ' de 9' + (c.campo ? ' · o campo' : '');
-    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.2 · aguarda o autor</span>';
+      : c.eixo ? 'Conceito · eixo de integração dos demais' : 'Conceito';
+    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.3 · aguarda o autor</span>';
     if (c.par) selos += '<a class="selo gemeo" href="#' + c.par.id + '">' + (c.par.rotulo === 'gêmeos' ? 'Gêmeo de ' : 'Em par com ') + esc(nomeDe(c.par.id)) + '</a>';
 
     c.campos.forEach(function (f) {
@@ -443,26 +484,22 @@
     var linhas = [];
     Object.keys(D.percursos).forEach(function (k) {
       var p = D.percursos[k];
-      p.sequencia.forEach(function (s, i) {
-        if (s.id === c.id || s.par === c.id) linhas.push('<li><b>' + esc(p.nome) + ' · passo ' + (i + 1) + '</b><span>' + esc(s.papel) + '</span></li>');
+      p.sequencia.forEach(function (s) {
+        if (s.id === c.id || s.par === c.id) linhas.push('<li><b>' + esc(p.nome) + '</b><span>' + esc(s.papel) + '</span></li>');
       });
     });
-    if (c.campo) {
-      partes.push('<section class="bloco"><h2>Nos percursos</h2><p>É o campo de todos os percursos. Não aparece como passo em nenhuma das três sequências da tese, porque todas acontecem dentro dela.</p></section>');
-    } else if (linhas.length) {
-      partes.push('<section class="bloco"><h2>Nos percursos</h2><ul class="nos-percursos">' + linhas.join('') + '</ul></section>');
+    if (linhas.length) {
+      partes.push('<section class="bloco"><h2>Nas leituras da tese</h2><ul class="nos-percursos">' + linhas.join('') + '</ul></section>');
     } else if (c.tipo === 'conceito') {
-      partes.push('<section class="bloco"><h2>Nos percursos</h2><p>Não integra nenhuma das três sequências da tese.</p></section>');
+      partes.push('<section class="bloco"><h2>Nas leituras da tese</h2><p>Não aparece em nenhuma das três sequências da tese.</p></section>');
     }
 
     var viz = '';
     if (c.tipo === 'conceito') {
-      var lista = D.conceitos.filter(function (x) { return x.tipo === 'conceito'; });
-      var i = lista.indexOf(c);
-      var ant = lista[i - 1], prox = lista[i + 1];
-      viz = '<nav class="vizinhos" aria-label="Outros conceitos">' +
-        (ant ? '<a href="#' + ant.id + '">← ' + esc(ant.nome) + '</a>' : '<span></span>') +
-        (prox ? '<a href="#' + prox.id + '">' + esc(prox.nome) + ' →</a>' : '<span></span>') + '</nav>';
+      var outros = D.conceitos.filter(function (x) { return x.tipo === 'conceito' && x.id !== c.id && !x.eixo; });
+      var lista = (c.eixo ? [] : [porId['oic']]).concat(emOrdem(outros));
+      viz = '<nav class="outros" aria-label="Os outros conceitos"><h2>Os outros conceitos</h2><ul>' +
+        lista.map(function (x) { return '<li><a href="#' + x.id + '">' + esc(x.nome) + '</a></li>'; }).join('') + '</ul></nav>';
     }
 
     vista.innerHTML =

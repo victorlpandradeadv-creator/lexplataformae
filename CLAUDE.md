@@ -30,7 +30,7 @@ O site tem cinco camadas.
 
 ## Decisões pendentes do autor
 
-- Uma ordem canônica ou três percursos. A tese tem três ordens (5.1, 7.1.1 e conclusão).
+- Manter ou retirar as três leituras da tese na página do Atlas.
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
 - Leitura proposta para ilícito de arquitetura e teleologia abusiva. O primeiro como gênero, a segunda como critério da finalidade. Nos percursos aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).
@@ -38,8 +38,9 @@ O site tem cinco camadas.
 
 ## Decisões tomadas
 
-- 26/10/2026. Os nove conceitos do Atlas, na numeração do autor. 1 Objeto Imaterial de Consumo (OIC). 2 Lex Plataformae. 3 Vulnerabilidade semiótica. 4 Teleologia abusiva. 5 Ilícito de arquitetura. 6 Antecipação hipercuratorial. 7 Auditabilidade aberta. 8 Equivalência de valor funcional. 9 Feixe de fruição governada.
-- 26/10/2026. A Lex Plataformae é um dos nove e também o campo onde os outros operam. Na página, ela é o fundo do Atlas, não um passo dos percursos.
+- 26/10/2026. Os nove conceitos do Atlas, sem numeração. Objeto Imaterial de Consumo (OIC), Lex Plataformae, vulnerabilidade semiótica, teleologia abusiva, ilícito de arquitetura, antecipação hipercuratorial, auditabilidade aberta, equivalência de valor funcional e feixe de fruição governada.
+- 26/10/2026. Nota do autor, a publicar como acréscimo posterior à tese. "Todos os conceitos são independentes, mas, sob o OIC, funcionam de forma integrada." Na página, o OIC é o eixo que enquadra os demais, que aparecem sem número, sem hierarquia e em ordem alfabética. A Lex Plataformae é um conceito como os outros.
+- 26/10/2026. As três ordens da tese (5.1, 7.1.1 e conclusão) viram leituras, sem numeração, e pertencem ao Roteiro. A sequência decisória do 7.1.1 vale para os enunciados, não para os conceitos do Atlas.
 - 26/10/2026. Função social da propriedade intelectual e recomposição funcional com correção de regime saem do Atlas e seguem como passos do Roteiro (7.1.1.9 e 7.1.1.10). Suas fichas ficam preservadas.
 - 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
 - 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Nota do autor, a publicar como acréscimo posterior à tese. "Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la." O lastro na tese está sobretudo no 6.1.3 (p. 534-536).

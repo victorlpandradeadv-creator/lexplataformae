@@ -9,14 +9,18 @@
    "id": "oic",
    "nome": "Objeto Imaterial de Consumo (OIC)",
    "tipo": "conceito",
-   "numero": 1,
-   "campo": false,
+   "eixo": true,
    "par": {
     "id": "feixe-de-fruicao-governada",
     "rotulo": "gêmeos"
    },
    "secao": null,
    "campos": [
+    {
+     "rotulo": "Nota do autor",
+     "texto": "Acréscimo posterior à tese, de 26/10/2026. Todos os conceitos são independentes, mas, sob o OIC, funcionam de forma integrada.",
+     "citacoes": []
+    },
     {
      "rotulo": "Função no regime",
      "texto": "Qualifica o objeto. É o gatilho dos demais parâmetros. \"Esse parâmetro exerce, assim, função de gatilho para os demais.\" (p. 719)",
@@ -76,14 +80,13 @@
    "id": "lex-plataformae",
    "nome": "Lex Plataformae",
    "tipo": "conceito",
-   "numero": 2,
-   "campo": true,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
     {
      "rotulo": "Função no regime",
-     "texto": "Conceito e campo. É a ordenação dentro da qual todos os outros conceitos operam. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800). Ela é aquilo contra o que o regime se arma.",
+     "texto": "Nomeia a ordenação privada sob a qual o OIC é fornecido, como diz o próprio título da tese. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800).",
      "citacoes": []
     },
     {
@@ -139,8 +142,7 @@
    "id": "vulnerabilidade-semiotica",
    "nome": "Vulnerabilidade semiótica",
    "tipo": "conceito",
-   "numero": 3,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
@@ -206,8 +208,7 @@
    "id": "teleologia-abusiva",
    "nome": "Teleologia abusiva",
    "tipo": "conceito",
-   "numero": 4,
-   "campo": false,
+   "eixo": false,
    "par": {
     "id": "ilicito-de-arquitetura",
     "rotulo": "par"
@@ -276,8 +277,7 @@
    "id": "ilicito-de-arquitetura",
    "nome": "Ilícito de arquitetura",
    "tipo": "conceito",
-   "numero": 5,
-   "campo": false,
+   "eixo": false,
    "par": {
     "id": "teleologia-abusiva",
     "rotulo": "par"
@@ -342,8 +342,7 @@
    "id": "antecipacao-hipercuratorial",
    "nome": "Antecipação hipercuratorial",
    "tipo": "conceito",
-   "numero": 6,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
@@ -397,8 +396,7 @@
    "id": "auditabilidade-aberta",
    "nome": "Auditabilidade aberta",
    "tipo": "conceito",
-   "numero": 7,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
@@ -448,8 +446,7 @@
    "id": "equivalencia-de-valor-funcional",
    "nome": "Equivalência de valor funcional",
    "tipo": "conceito",
-   "numero": 8,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
@@ -503,8 +500,7 @@
    "id": "feixe-de-fruicao-governada",
    "nome": "Feixe de fruição governada",
    "tipo": "conceito",
-   "numero": 9,
-   "campo": false,
+   "eixo": false,
    "par": {
     "id": "oic",
     "rotulo": "gêmeos"
@@ -579,8 +575,7 @@
    "id": "funcao-social-da-pi",
    "nome": "Função social da propriedade intelectual",
    "tipo": "roteiro",
-   "numero": null,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": "7.1.1.9",
    "campos": [
@@ -639,8 +634,7 @@
    "id": "recomposicao-funcional",
    "nome": "Recomposição funcional e correção de regime",
    "tipo": "roteiro",
-   "numero": null,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": "7.1.1.10",
    "campos": [
@@ -703,8 +697,7 @@
    "id": "integridade-pessoal",
    "nome": "Integridade pessoal",
    "tipo": "bens",
-   "numero": null,
-   "campo": false,
+   "eixo": false,
    "par": null,
    "secao": null,
    "campos": [
