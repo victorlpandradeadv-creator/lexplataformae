@@ -1,0 +1,520 @@
+{
+ "descricao": "Proposta de cores do Claude, de 27/10/2026, para decisão do autor. Nada aplicado ao site. Valores em hexadecimal calculados a partir de OKLCH, guardados em fonte_oklch.",
+ "areas": {
+  "direito": {
+   "nome": "Direito",
+   "destaque": "#cd171e",
+   "destaque_escuro": "#d42325",
+   "texto": "#862723",
+   "texto_escuro": "#f5bab2",
+   "fundo": "#f8dbd7",
+   "fundo_escuro": "#4b2a26"
+  },
+  "economia": {
+   "nome": "Economia política",
+   "destaque": "#ffb348",
+   "destaque_escuro": "#ffb348",
+   "texto": "#6e461a",
+   "texto_escuro": "#eccb9e",
+   "fundo": "#fcefe1",
+   "fundo_escuro": "#51422f"
+  },
+  "tecnica": {
+   "nome": "Técnica e mídia",
+   "destaque": "#50bfbe",
+   "destaque_escuro": "#50bfbe",
+   "texto": "#1b575a",
+   "texto_escuro": "#a8d9d8",
+   "fundo": "#e2f1f0",
+   "fundo_escuro": "#314443"
+  },
+  "antropologia": {
+   "nome": "Antropologia do consumo",
+   "destaque": "#7da04b",
+   "destaque_escuro": "#7da04b",
+   "texto": "#3d4e2b",
+   "texto_escuro": "#c2d6ac",
+   "fundo": "#e5ecde",
+   "fundo_escuro": "#363e2d"
+  },
+  "semiotica": {
+   "nome": "Semiótica e linguagem",
+   "destaque": "#7e53bc",
+   "destaque_escuro": "#8459c3",
+   "texto": "#503975",
+   "texto_escuro": "#cebeef",
+   "fundo": "#e5dff2",
+   "fundo_escuro": "#373045"
+  },
+  "poder": {
+   "nome": "Poder e subjetividade",
+   "destaque": "#a8347f",
+   "destaque_escuro": "#b5418b",
+   "texto": "#66294e",
+   "texto_escuro": "#e8bbd3",
+   "fundo": "#f0dbe6",
+   "fundo_escuro": "#432c39"
+  },
+  "laboratorio": {
+   "nome": "Objeto e laboratório",
+   "destaque": "#dbd7d0",
+   "destaque_escuro": "#dbd7d0",
+   "texto": "#45423e",
+   "texto_escuro": "#cccac7",
+   "fundo": "#f5f4f3",
+   "fundo_escuro": "#494847"
+  }
+ },
+ "telas": {
+  "orientacao": {
+   "claro": {
+    "papel": "#faf6ef",
+    "folha": "#fdfcf8",
+    "tinta": "#211c17",
+    "tinta2": "#615953",
+    "linha": "#dcd7cf"
+   },
+   "escuro": {
+    "papel": "#17130f",
+    "folha": "#1e1a16",
+    "tinta": "#ebe7e1",
+    "tinta2": "#a9a49c",
+    "linha": "#37322e"
+   }
+  },
+  "doutrina": {
+   "claro": {
+    "papel": "#f0f5f9",
+    "folha": "#fafcfe",
+    "tinta": "#161b22",
+    "tinta2": "#535c66",
+    "linha": "#cfd5da"
+   },
+   "escuro": {
+    "papel": "#131a23",
+    "folha": "#1a212a",
+    "tinta": "#e4e8ed",
+    "tinta2": "#a4acb4",
+    "linha": "#333b45"
+   }
+  },
+  "ciencia": {
+   "claro": {
+    "papel": "#f7fbfc",
+    "folha": "#ffffff",
+    "tinta": "#13161a",
+    "tinta2": "#53595f",
+    "linha": "#d2d8dd",
+    "traco": "#51565b",
+    "grade": "#d5e4ec"
+   },
+   "escuro": {
+    "papel": "#121416",
+    "folha": "#191b1c",
+    "tinta": "#e9ebee",
+    "tinta2": "#a9afb4",
+    "linha": "#35383c",
+    "traco": "#b8bec5",
+    "grade": "#1e2123"
+   }
+  },
+  "ficha": {
+   "claro": {
+    "papel": "#faf3df",
+    "tinta": "#251e18",
+    "tinta2": "#61564d",
+    "pauta": "#bcd5e5"
+   },
+   "escuro": {
+    "papel": "#29231a",
+    "tinta": "#ede7d9",
+    "tinta2": "#b1aa9d",
+    "pauta": "#2e404b"
+   }
+  }
+ },
+ "marca": {
+  "claro": "#efebb1",
+  "escuro": "#564e1b"
+ },
+ "fonte_oklch": {
+  "areas": {
+   "direito": {
+    "destaque": [
+     0.54,
+     0.21,
+     27
+    ],
+    "texto": [
+     0.42,
+     0.13,
+     27
+    ],
+    "texto_escuro": [
+     0.84,
+     0.07,
+     27
+    ]
+   },
+   "economia": {
+    "destaque": [
+     0.82,
+     0.15,
+     72
+    ],
+    "texto": [
+     0.43,
+     0.08,
+     65
+    ],
+    "texto_escuro": [
+     0.86,
+     0.07,
+     75
+    ]
+   },
+   "tecnica": {
+    "destaque": [
+     0.74,
+     0.1,
+     195
+    ],
+    "texto": [
+     0.42,
+     0.06,
+     200
+    ],
+    "texto_escuro": [
+     0.85,
+     0.05,
+     195
+    ]
+   },
+   "antropologia": {
+    "destaque": [
+     0.66,
+     0.12,
+     128
+    ],
+    "texto": [
+     0.4,
+     0.06,
+     130
+    ],
+    "texto_escuro": [
+     0.85,
+     0.06,
+     128
+    ]
+   },
+   "semiotica": {
+    "destaque": [
+     0.54,
+     0.16,
+     300
+    ],
+    "texto": [
+     0.4,
+     0.1,
+     300
+    ],
+    "texto_escuro": [
+     0.83,
+     0.07,
+     300
+    ]
+   },
+   "poder": {
+    "destaque": [
+     0.52,
+     0.17,
+     345
+    ],
+    "texto": [
+     0.38,
+     0.1,
+     345
+    ],
+    "texto_escuro": [
+     0.84,
+     0.06,
+     345
+    ]
+   },
+   "laboratorio": {
+    "destaque": [
+     0.88,
+     0.01,
+     80
+    ],
+    "texto": [
+     0.38,
+     0.008,
+     80
+    ],
+    "texto_escuro": [
+     0.84,
+     0.005,
+     80
+    ]
+   }
+  },
+  "telas": {
+   "orientacao": {
+    "claro": {
+     "papel": [
+      0.975,
+      0.01,
+      85
+     ],
+     "folha": [
+      0.99,
+      0.005,
+      85
+     ],
+     "tinta": [
+      0.23,
+      0.012,
+      60
+     ],
+     "tinta2": [
+      0.47,
+      0.015,
+      60
+     ],
+     "linha": [
+      0.88,
+      0.012,
+      80
+     ]
+    },
+    "escuro": {
+     "papel": [
+      0.19,
+      0.01,
+      60
+     ],
+     "folha": [
+      0.22,
+      0.01,
+      60
+     ],
+     "tinta": [
+      0.93,
+      0.01,
+      80
+     ],
+     "tinta2": [
+      0.72,
+      0.012,
+      75
+     ],
+     "linha": [
+      0.32,
+      0.01,
+      60
+     ]
+    }
+   },
+   "doutrina": {
+    "claro": {
+     "papel": [
+      0.968,
+      0.007,
+      240
+     ],
+     "folha": [
+      0.99,
+      0.003,
+      240
+     ],
+     "tinta": [
+      0.22,
+      0.015,
+      255
+     ],
+     "tinta2": [
+      0.47,
+      0.02,
+      255
+     ],
+     "linha": [
+      0.87,
+      0.01,
+      245
+     ]
+    },
+    "escuro": {
+     "papel": [
+      0.215,
+      0.02,
+      252
+     ],
+     "folha": [
+      0.245,
+      0.02,
+      252
+     ],
+     "tinta": [
+      0.93,
+      0.008,
+      250
+     ],
+     "tinta2": [
+      0.74,
+      0.015,
+      250
+     ],
+     "linha": [
+      0.35,
+      0.02,
+      252
+     ]
+    }
+   },
+   "ciencia": {
+    "claro": {
+     "papel": [
+      0.985,
+      0.004,
+      230
+     ],
+     "folha": [
+      1.0,
+      0,
+      0
+     ],
+     "tinta": [
+      0.2,
+      0.01,
+      250
+     ],
+     "tinta2": [
+      0.46,
+      0.012,
+      250
+     ],
+     "linha": [
+      0.88,
+      0.01,
+      240
+     ],
+     "traco": [
+      0.45,
+      0.01,
+      250
+     ],
+     "grade": [
+      0.91,
+      0.02,
+      230
+     ]
+    },
+    "escuro": {
+     "papel": [
+      0.19,
+      0.004,
+      250
+     ],
+     "folha": [
+      0.22,
+      0.004,
+      250
+     ],
+     "tinta": [
+      0.94,
+      0.005,
+      250
+     ],
+     "tinta2": [
+      0.75,
+      0.01,
+      250
+     ],
+     "linha": [
+      0.34,
+      0.008,
+      250
+     ],
+     "traco": [
+      0.8,
+      0.012,
+      250
+     ],
+     "grade": [
+      0.245,
+      0.006,
+      250
+     ]
+    }
+   },
+   "ficha": {
+    "claro": {
+     "papel": [
+      0.965,
+      0.028,
+      92
+     ],
+     "tinta": [
+      0.24,
+      0.015,
+      60
+     ],
+     "tinta2": [
+      0.46,
+      0.02,
+      60
+     ],
+     "pauta": [
+      0.86,
+      0.035,
+      235
+     ]
+    },
+    "escuro": {
+     "papel": [
+      0.26,
+      0.018,
+      80
+     ],
+     "tinta": [
+      0.93,
+      0.02,
+      88
+     ],
+     "tinta2": [
+      0.74,
+      0.02,
+      85
+     ],
+     "pauta": [
+      0.36,
+      0.03,
+      235
+     ]
+    }
+   }
+  },
+  "marca": {
+   "claro": [
+    0.93,
+    0.075,
+    105
+   ],
+   "escuro": [
+    0.42,
+    0.07,
+    100
+   ]
+  }
+ },
+ "tese": {
+  "nome": "A tese",
+  "chapado": "#002fa7",
+  "sobre_chapado": "#ffffff",
+  "texto": "#002fa7",
+  "texto_escuro": "#a1bdf9",
+  "marca_escuro": "#497ef7",
+  "referencia": "International Klein Blue, aproximação em tela"
+ }
+}

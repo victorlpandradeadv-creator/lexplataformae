@@ -1,0 +1,115 @@
+{
+ "descricao": "Dispositivos que a tese cita sem transcrever, com o texto em vigor copiado do site do Planalto. Acréscimo posterior à tese, de 27/10/2026, por orientação do autor. Não é texto da tese e não passa pelo script de conferência das citações.",
+ "consulta": "2026-10-27",
+ "regras": [
+  "Texto em vigor, sem a redação revogada que a página mostra riscada.",
+  "Notas de redação entre parênteses mantidas como estão na página.",
+  "Ordinal sobrescrito da página escrito como º (§ 1º).",
+  "Levantamento das remissões feito por script sobre o corpo e as notas da tese. Os dispositivos que a tese já transcreve ficam em estrutura/inventario-dispositivos-transcritos.json."
+ ],
+ "dispositivos": [
+  {
+   "diploma": "Código de Defesa do Consumidor (Lei nº 8.078, de 11 de setembro de 1990)",
+   "sigla": "CDC",
+   "artigo": "51",
+   "partes": [
+    "caput",
+    "IV",
+    "XIII"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+   "na_tese": "Arts. 51, IV, e 51, XIII, citados no corpo do 5.1.5 e em notas do 5.1.5, 6.1.2, 6.2.1.1, 6.2.4.2, 6.3.2, 6.4.1, 6.4.3 e 6.5.2.",
+   "texto": [
+    "Art. 51. São nulas de pleno direito, entre outras, as cláusulas contratuais relativas ao fornecimento de produtos e serviços que:",
+    "IV - estabeleçam obrigações consideradas iníquas, abusivas, que coloquem o consumidor em desvantagem exagerada, ou sejam incompatíveis com a boa-fé ou a eqüidade;",
+    "XIII - autorizem o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato, após sua celebração;"
+   ]
+  },
+  {
+   "diploma": "Constituição da República Federativa do Brasil de 1988",
+   "sigla": "CF",
+   "artigo": "173",
+   "partes": [
+    "integral"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+   "na_tese": "Citado no corpo do 6.1.4, na remissão que o marco legal dos jogos eletrônicos faz ao art. 173 da Constituição.",
+   "texto": [
+    "Art. 173. Ressalvados os casos previstos nesta Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.",
+    "§ 1º A lei estabelecerá o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias que explorem atividade econômica de produção ou comercialização de bens ou de prestação de serviços, dispondo sobre: (Redação dada pela Emenda Constitucional nº 19, de 1998)",
+    "I - sua função social e formas de fiscalização pelo Estado e pela sociedade; (Incluído pela Emenda Constitucional nº 19, de 1998)",
+    "II - a sujeição ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários; (Incluído pela Emenda Constitucional nº 19, de 1998)",
+    "III - licitação e contratação de obras, serviços, compras e alienações, observados os princípios da administração pública; (Incluído pela Emenda Constitucional nº 19, de 1998)",
+    "IV - a constituição e o funcionamento dos conselhos de administração e fiscal, com a participação de acionistas minoritários; (Incluído pela Emenda Constitucional nº 19, de 1998)",
+    "V - os mandatos, a avaliação de desempenho e a responsabilidade dos administradores. (Incluído pela Emenda Constitucional nº 19, de 1998)",
+    "§ 2º As empresas públicas e as sociedades de economia mista não poderão gozar de privilégios fiscais não extensivos às do setor privado.",
+    "§ 3º A lei regulamentará as relações da empresa pública com o Estado e a sociedade.",
+    "§ 4º A lei reprimirá o abuso do poder econômico que vise à dominação dos mercados, à eliminação da concorrência e ao aumento arbitrário dos lucros.",
+    "§ 5º A lei, sem prejuízo da responsabilidade individual dos dirigentes da pessoa jurídica, estabelecerá a responsabilidade desta, sujeitando-a às punições compatíveis com sua natureza, nos atos praticados contra a ordem econômica e financeira e contra a economia popular."
+   ]
+  },
+  {
+   "diploma": "Código Civil (Lei nº 10.406, de 10 de janeiro de 2002)",
+   "sigla": "CC",
+   "artigo": "79 a 103",
+   "partes": [
+    "integral"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+   "na_tese": "Citados em bloco na nota 636 do 6.2.2, como pano de fundo classificatório geral dos bens.",
+   "texto": [
+    "CAPÍTULO I Dos Bens Considerados em Si Mesmos",
+    "Seção I Dos Bens Imóveis",
+    "Art. 79. São bens imóveis o solo e tudo quanto se lhe incorporar natural ou artificialmente.",
+    "Art. 80. Consideram-se imóveis para os efeitos legais:",
+    "I - os direitos reais sobre imóveis e as ações que os asseguram;",
+    "II - o direito à sucessão aberta.",
+    "Art. 81. Não perdem o caráter de imóveis:",
+    "I - as edificações que, separadas do solo, mas conservando a sua unidade, forem removidas para outro local;",
+    "II - os materiais provisoriamente separados de um prédio, para nele se reempregarem.",
+    "Seção II Dos Bens Móveis",
+    "Art. 82. São móveis os bens suscetíveis de movimento próprio, ou de remoção por força alheia, sem alteração da substância ou da destinação econômico-social.",
+    "Art. 83. Consideram-se móveis para os efeitos legais:",
+    "I - as energias que tenham valor econômico;",
+    "II - os direitos reais sobre objetos móveis e as ações correspondentes;",
+    "III - os direitos pessoais de caráter patrimonial e respectivas ações.",
+    "Art. 84. Os materiais destinados a alguma construção, enquanto não forem empregados, conservam sua qualidade de móveis; readquirem essa qualidade os provenientes da demolição de algum prédio.",
+    "Seção III Dos Bens Fungíveis e Consumíveis",
+    "Art. 85. São fungíveis os móveis que podem substituir-se por outros da mesma espécie, qualidade e quantidade.",
+    "Art. 86. São consumíveis os bens móveis cujo uso importa destruição imediata da própria substância, sendo também considerados tais os destinados à alienação.",
+    "Seção IV Dos Bens Divisíveis",
+    "Art. 87. Bens divisíveis são os que se podem fracionar sem alteração na sua substância, diminuição considerável de valor, ou prejuízo do uso a que se destinam.",
+    "Art. 88. Os bens naturalmente divisíveis podem tornar-se indivisíveis por determinação da lei ou por vontade das partes.",
+    "Seção V Dos Bens Singulares e Coletivos",
+    "Art. 89. São singulares os bens que, embora reunidos, se consideram de per si, independentemente dos demais.",
+    "Art. 90. Constitui universalidade de fato a pluralidade de bens singulares que, pertinentes à mesma pessoa, tenham destinação unitária.",
+    "Parágrafo único. Os bens que formam essa universalidade podem ser objeto de relações jurídicas próprias.",
+    "Art. 91. Constitui universalidade de direito o complexo de relações jurídicas, de uma pessoa, dotadas de valor econômico.",
+    "CAPÍTULO II Dos Bens Reciprocamente Considerados",
+    "Art. 92. Principal é o bem que existe sobre si, abstrata ou concretamente; acessório, aquele cuja existência supõe a do principal.",
+    "Art. 93. São pertenças os bens que, não constituindo partes integrantes, se destinam, de modo duradouro, ao uso, ao serviço ou ao aformoseamento de outro.",
+    "Art. 94. Os negócios jurídicos que dizem respeito ao bem principal não abrangem as pertenças, salvo se o contrário resultar da lei, da manifestação de vontade, ou das circunstâncias do caso.",
+    "Art. 95. Apesar de ainda não separados do bem principal, os frutos e produtos podem ser objeto de negócio jurídico.",
+    "Art. 96. As benfeitorias podem ser voluptuárias, úteis ou necessárias.",
+    "§ 1º São voluptuárias as de mero deleite ou recreio, que não aumentam o uso habitual do bem, ainda que o tornem mais agradável ou sejam de elevado valor.",
+    "§ 2º São úteis as que aumentam ou facilitam o uso do bem.",
+    "§ 3º São necessárias as que têm por fim conservar o bem ou evitar que se deteriore.",
+    "Art. 97. Não se consideram benfeitorias os melhoramentos ou acréscimos sobrevindos ao bem sem a intervenção do proprietário, possuidor ou detentor.",
+    "CAPÍTULO III Dos Bens Públicos",
+    "Art. 98. São públicos os bens do domínio nacional pertencentes às pessoas jurídicas de direito público interno; todos os outros são particulares, seja qual for a pessoa a que pertencerem.",
+    "Art. 99. São bens públicos:",
+    "I - os de uso comum do povo, tais como rios, mares, estradas, ruas e praças;",
+    "II - os de uso especial, tais como edifícios ou terrenos destinados a serviço ou estabelecimento da administração federal, estadual, territorial ou municipal, inclusive os de suas autarquias;",
+    "III - os dominicais, que constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal, ou real, de cada uma dessas entidades.",
+    "Parágrafo único. Não dispondo a lei em contrário, consideram-se dominicais os bens pertencentes às pessoas jurídicas de direito público a que se tenha dado estrutura de direito privado.",
+    "Art. 100. Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem a sua qualificação, na forma que a lei determinar.",
+    "Art. 101. Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.",
+    "Art. 102. Os bens públicos não estão sujeitos a usucapião.",
+    "Art. 103. O uso comum dos bens públicos pode ser gratuito ou retribuído, conforme for estabelecido legalmente pela entidade a cuja administração pertencerem."
+   ]
+  }
+ ],
+ "fora": [
+  "Art. 48 do ADCT. Aparece só dentro do texto do art. 1º do CDC, que a tese transcreve, e não como remissão da própria tese."
+ ]
+}
