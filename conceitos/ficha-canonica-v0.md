@@ -1,10 +1,10 @@
-# Ficha canônica dos conceitos · v0.3
+# Ficha canônica dos conceitos · v0.4
 
 Unidade de revisão do lexplataformae.com.br. Rascunho para validação do autor.
 
 ## Como ler
 
-O Atlas tem nove conceitos. Por decisão do autor em 26/10/2026, eles não são numerados. Todos são independentes, mas, sob o OIC, funcionam de forma integrada. Cada conceito traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
+O Atlas tem nove conceitos, sem numeração. Cada um tem definição e limites próprios. Todos operam articulados no regime do OIC, e o campo "Sob o OIC" mostra, com o texto da tese, como cada um se liga a ele. Cada conceito traz também a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
 
 Toda citação é literal e foi conferida por script contra o texto da tese. As páginas seguem a numeração impressa. Notas de rodapé foram suprimidas das citações e as supressões de trecho estão marcadas com [...].
 
@@ -30,9 +30,15 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 ## Conceito. Objeto Imaterial de Consumo (OIC)
 
-**Nota do autor.** Acréscimo posterior à tese, de 26/10/2026. Todos os conceitos são independentes, mas, sob o OIC, funcionam de forma integrada.
-
 **Função no regime.** Qualifica o objeto. É o gatilho dos demais parâmetros. "Esse parâmetro exerce, assim, função de gatilho para os demais." (p. 719)
+
+**Como integra os demais**
+
+> Sem essa articulação interna, cada categoria poderia ser lida isoladamente, como rótulo conceitual de um problema específico, e perderia a capacidade de operar como linguagem unificada para abusos por desenho, degradações relevantes e respostas proporcionais. (p. 394)
+
+> Sem a correta qualificação do objeto como fruição imaterial governada, os parâmetros subsequentes tendem a perder aderência, porque auditabilidade, equivalência funcional, teleologia abusiva e remédios de recomposição pressupõem justamente a existência de um vínculo em que a utilidade consumida depende de administração continuada do ambiente. (p. 719)
+
+> O OIC só cumpre função dogmática quando opera como filtro e como roteiro. (p. 428)
 
 **Definição canônica proposta**
 
@@ -61,6 +67,12 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 **Função no regime.** Nomeia a ordenação privada sob a qual o OIC é fornecido, como diz o próprio título da tese. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800).
 
+**Sob o OIC**
+
+> A Lex Plataformae designa esse regime em funcionamento, no qual regra, implementação e enforcement organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC. (p. 364)
+
+> É por tal fator que a Lex Plataformae deve ser tratada como normatividade prática em operação, uma vez que a regra implementada se torna o modo real de existência do objeto e, por consequência, o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema. (p. 372)
+
 **Definição canônica proposta**
 
 > A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
@@ -87,6 +99,12 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 ## Conceito. Vulnerabilidade semiótica
 
 **Função no regime.** Localiza a assimetria (p. 800). Na exposição do capítulo 5, é o ponto de partida. "Apresentá-la primeiro não é arbitrariedade expositiva" (p. 394).
+
+**Sob o OIC**
+
+> É nessa assimetria de produção de sentido que se prepara a categoria da vulnerabilidade semiótica, entendida como desvantagem estrutural na gramática de significados que orienta a relação do sujeito com o objeto imaterial de consumo. (p. 104)
+
+> Sem entender que o consumidor habita um ambiente cuja inteligibilidade é parcialmente reservada ao fornecedor, a definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo apareceria como mera descrição técnica do bem digital, e não como categoria que organiza imputação, prova e recomposição sob o Código de Defesa do Consumidor. (p. 394)
 
 **Definição canônica proposta**
 
@@ -119,6 +137,10 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Função no regime.** Identifica o ilícito (p. 800). É o critério da finalidade. Depende da vulnerabilidade semiótica e do OIC. "A sua formulação depende das duas categorias anteriores." (p. 394)
 
+**Sob o OIC**
+
+> Não há teleologia abusiva juridicamente capturável sem a assimetria estrutural que ela explora, nem sem o feixe de fruição que ela degrada, razão pela qual o teste de cinco requisitos cumulativos, desenvolvido na subseção própria, só se torna aplicável quando a vulnerabilidade semiótica e o OIC já foram dogmaticamente fixados. (p. 394-395)
+
 **Definição canônica proposta**
 
 > A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
@@ -148,6 +170,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Função no regime.** Nomeia a forma do ilícito. É a arquitetura lida como conduta. "O núcleo do parâmetro está em tratar a arquitetura como conduta." (p. 732) A tese não o define de modo autônomo. Ele aparece sempre ao lado da teleologia abusiva, que a conclusão chama de "categoria de ilícito de arquitetura" (p. 794). O 7.1.2 o trata como "hipótese mais ampla de ilícito arquitetural" (p. 746). Leitura proposta, a confirmar. O ilícito de arquitetura é o gênero. A teleologia abusiva é o critério que o identifica pela finalidade.
 
+**Sob o OIC**
+
+> O OIC incorpora essa camada, mas adiciona outra: a leitura da arquitetura como conduta e da teleologia abusiva como vício de concepção do regime de fruição governada. (p. 573)
+
+> Em serviços digitais contínuos que administram Objetos Imateriais de Consumo, a prestação não se exaure no texto contratual nem se deixa compreender sem a governança que a executa. (p. 664)
+
 **Definição canônica proposta**
 
 > Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura. (p. 664)
@@ -174,6 +202,10 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Função no regime.** Lê a expectativa governada (p. 800).
 
+**Sob o OIC**
+
+> Essa antecipação é economicamente relevante para os OIC porque sustenta a conversão da expectativa em valor presente, alterando a própria lógica de decisão e de permanência do consumidor. (p. 316)
+
 **Definição canônica proposta**
 
 > Antecipação hipercuratorial designa uma técnica econômico-semiológica pela qual a plataforma produz futuro consumível por curadoria contínua, definindo o que virá, o que desaparecerá, o que retornará e o que será elevado ao estatuto de "evento". (p. 313)
@@ -197,6 +229,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Função no regime.** Controla a alteração (p. 800). Critério de legitimidade.
 
+**Sob o OIC**
+
+> A auditabilidade aberta nasce, assim, como resposta direta à opacidade funcional típica dos OICs. (p. 636)
+
+> Por isso, em OICs, auditabilidade aberta e equivalência funcional não operam sobre um objeto tomado em abstração, mas sobre o regime de fruição concretamente governado. (p. 663)
+
 **Definição canônica proposta**
 
 > Auditabilidade aberta significa a existência de condições mínimas de verificabilidade sobre aspectos relevantes do fornecimento, de modo que órgãos de tutela, Judiciário, peritos e, em certa medida, os próprios consumidores possam reconstruir a relação entre promessa, alteração, sanção, impacto funcional e justificação apresentada pelo fornecedor. (p. 727)
@@ -217,6 +255,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 ## Conceito. Equivalência de valor funcional
 
 **Função no regime.** Controla a alteração (p. 800). Também orienta o remédio (p. 731).
+
+**Sob o OIC**
+
+> A equivalência de valor funcional opera como critério de licitude das alterações unilaterais promovidas em serviços digitais contínuos que administram Objetos Imateriais de Consumo. (p. 648)
+
+> A equivalência de valor funcional, portanto, constitui o núcleo material de controle da mutabilidade em objetos imateriais de consumo. (p. 731)
 
 **Definição canônica proposta**
 
@@ -240,6 +284,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 ## Conceito. Feixe de fruição governada
 
 **Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
+
+**Sob o OIC**
+
+> [...] a definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo [...] (p. 394)
+
+> O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)
 
 **Definição canônica proposta**
 
@@ -328,9 +378,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 **Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Integra a camada de bens protegidos, que é o papel que o 5.1 lhe atribui. Na engrenagem do 5.1, "a integridade pessoal descreve os bens protegidos" (p. 395).
 
-**Nota do autor.** Acréscimo posterior à tese, de 26/10/2026. Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la.
-
-**Lastro na tese.** A nota encontra apoio sobretudo no 6.1.3, mais amplo que a definição do 5.1.4.
+**Lastro na tese.** A integridade pessoal tem lastro mais largo no 6.1.3, onde a lesão se mede pelo atributo da personalidade atingido, do que na definição do 5.1.4.
 
 > [...] quando a lesão é compreendida não a partir do sofrimento subjetivamente experimentado, mas do atributo da personalidade objetivamente atingido. (p. 534)
 

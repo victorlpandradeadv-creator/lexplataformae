@@ -20,6 +20,7 @@ O site tem cinco camadas.
 - Citações são literais e conferidas por script contra o texto da tese antes de qualquer envio.
 - Nada vai ao ar sem a leitura e a aprovação do autor.
 - Todo conteúdo que não esteja na tese de 2026 recebe data e marca de acréscimo posterior.
+- Orientações do autor na conversa não viram texto do site. Servem para reler a tese e mostrar o que ela já diz. Só entra como acréscimo posterior o que o autor mandar publicar.
 - O site não pode ter nenhum padrão escuro de interface. Deve passar nos próprios critérios de auditabilidade aberta e equivalência de valor funcional.
 - A identidade do projeto é acadêmica. A assinatura é de Victor L. P. Andrade. Escritório e empresas, se aparecerem, ficam em segundo plano.
 
@@ -39,11 +40,11 @@ O site tem cinco camadas.
 ## Decisões tomadas
 
 - 26/10/2026. Os nove conceitos do Atlas, sem numeração. Objeto Imaterial de Consumo (OIC), Lex Plataformae, vulnerabilidade semiótica, teleologia abusiva, ilícito de arquitetura, antecipação hipercuratorial, auditabilidade aberta, equivalência de valor funcional e feixe de fruição governada.
-- 26/10/2026. Nota do autor, a publicar como acréscimo posterior à tese. "Todos os conceitos são independentes, mas, sob o OIC, funcionam de forma integrada." Na página, o OIC é o eixo que enquadra os demais, que aparecem sem número, sem hierarquia e em ordem alfabética. A Lex Plataformae é um conceito como os outros.
+- 26/10/2026. Orientação do autor, que não é nota para publicar. Os conceitos são independentes e funcionam integrados sob o OIC. O site mostra isso só com o texto da tese. O OIC é o eixo da página inicial, com a passagem da p. 719 sobre os parâmetros que perdem aderência sem a qualificação do objeto. Cada ficha traz o campo "Sob o OIC" com os trechos que ligam o conceito ao OIC, e a do OIC traz "Como integra os demais". Os demais conceitos aparecem sem número, sem hierarquia e em ordem alfabética. A Lex Plataformae é um conceito como os outros.
 - 26/10/2026. As três ordens da tese (5.1, 7.1.1 e conclusão) viram leituras, sem numeração, e pertencem ao Roteiro. A sequência decisória do 7.1.1 vale para os enunciados, não para os conceitos do Atlas.
 - 26/10/2026. Função social da propriedade intelectual e recomposição funcional com correção de regime saem do Atlas e seguem como passos do Roteiro (7.1.1.9 e 7.1.1.10). Suas fichas ficam preservadas.
 - 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
-- 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Nota do autor, a publicar como acréscimo posterior à tese. "Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la." O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
+- 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Orientação do autor, que não é nota para publicar. Integridade pessoal se refere à integridade da personalidade civil, e tudo o que integra a personalidade civil pode integrá-la. O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
 
 ## Arquivos
@@ -56,6 +57,7 @@ O site tem cinco camadas.
 - `ferramentas/gerar_site.py` gera o site publicável em `docs/`, a partir de `dados/atlas.json`. Cada página sai com o texto completo no HTML, legível sem JavaScript. Rodar sempre depois de `gerar_dados.py`. Nunca editar `docs/` à mão.
 - `site/atlas.js` e `site/extra.css` são as fontes do script e dos acréscimos de estilo do site. O estilo base vem do `<style>` de `prototipo/modelo.html`.
 - `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.
+- Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese.
 - `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py <arquivos.md>`. Commit só com zero falhas.
 
 ## Epígrafes

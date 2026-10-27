@@ -229,15 +229,15 @@ def html_passo(passo, base):
 def gerar_inicio():
     padrao = "regime"
     oic_def = canonica(EIXO)
-    nota = campo(EIXO, "Nota do autor")
-    nota_txt = re.sub(r"^Acréscimo posterior à tese, de [\d/]+\.\s*", "", nota["texto"]) if nota else ""
+    integra = campo(EIXO, "Como integra os demais")
+    gatilho = next((q for q in integra["citacoes"] if q["ref"] == "p. 719"), None) if integra else None
     gemeo = POR_ID[EIXO["par"]["id"]] if EIXO.get("par") else None
     independentes = em_ordem([c for c in conceitos_do_atlas() if c is not EIXO and not (gemeo and c is gemeo)])
     base = "conceitos/"
 
     cartoes = "".join(
         f'<li><a class="cartao" href="{base}{c["id"]}/"><b>{esc(c["nome"])}</b>'
-        f'<span>{com_ancoras(primeira_frase((campo(c, "Função no regime") or {"texto": ""})["texto"]), "")}</span></a></li>'
+        f'<span>{com_ancoras(primeira_frase((campo(c, "Função no regime") or {"texto": ""})["texto"]))}</span></a></li>'
         for c in independentes
     )
     opcoes = "".join(
@@ -279,11 +279,10 @@ def gerar_inicio():
 
     <section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
       <div class="campo-topo">
-        <p class="campo-rotulo">Sob o OIC</p>
         <h2 class="campo-nome" id="eixo-nome"><a href="{base}{EIXO["id"]}/">{esc(EIXO["nome"])}</a></h2>
         {f'<p class="campo-gemeo"><span class="gemeos-sinal">gêmeos</span> <a href="{base}{gemeo["id"]}/">{esc(gemeo["nome"])}</a></p>' if gemeo else ""}
         <p class="campo-def">“{esc(oic_def["texto"])}”{pg(oic_def["ref"], "", oic_def["texto"])}</p>
-        {f'<div class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor · 26/10/2026</p><p>{esc(nota_txt)}</p></div>' if nota_txt else ""}
+        {f'<blockquote class="citacao integra" data-arq="citação literal · como os conceitos se articulam no regime do OIC"><p>“{esc(gatilho["texto"])}”{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
       </div>
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes}</ul>
     </section>
@@ -382,7 +381,7 @@ def gerar_conceito(c):
             bloco += f"<p>{com_ancoras(f['texto'], prefixo)}</p>"
         for q in f["citacoes"]:
             if r == "Definição canônica proposta":
-                bloco += ('<blockquote class="citacao canonica" data-arq="citação literal · conferida por script contra a tese">'
+                bloco += ('<blockquote class="canonica" data-arq="citação literal · conferida por script contra a tese">'
                           f'<p><mark>{esc(q["texto"])}</mark>{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>')
             else:
                 classe = "citacao nao-e" if r == "O que não é" else "citacao"
@@ -589,7 +588,7 @@ def gerar_auxiliares():
         "de Victor Luiz Pereira de Andrade (Victor L. P. Andrade), UNESP, Franca, 2026. Toda citação do site é transcrição literal "
         "da tese, com a página indicada. Acréscimos posteriores à tese são marcados e datados.",
         "",
-        "Os nove conceitos são independentes e, sob o OIC, funcionam de forma integrada (nota do autor, 26/10/2026).",
+        "Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, " + "“" + (lambda q: q["texto"] if q else "")(next((q for q in (campo(EIXO, "Como integra os demais") or {"citacoes": []})["citacoes"] if q["ref"] == "p. 719"), None)) + "” (p. 719)",
         "",
         "## Conceitos",
         "",
