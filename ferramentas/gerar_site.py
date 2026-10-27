@@ -142,18 +142,31 @@ def conceitos_do_atlas():
 
 
 LEGENDA = {
-    "mista": ("Arquitetura à mostra. Abaixo de cada trecho simplificado aparecem as passagens do texto integral que ele condensa, "
-              "com a página exata. Os contornos tracejados mostram as peças da página e de onde cada uma vem."),
-    "interna": ("Camada de estudo. Aqui o texto vem como está no original, com as páginas, as notas e as referências. "
-                "Os contornos tracejados mostram as peças da página e de onde cada uma vem. Desligue a chave para voltar à superfície."),
+    "mista": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
+              "As caixas com números de página levam ao trecho exato do texto integral."),
+    "interna": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
+                "Para a leitura longa, sem etiquetas, volte ao degrau Texto."),
 }
+
+# A chave tem três degraus. A superfície fala com o leigo. O texto abre o conteúdo extra, limpo.
+# A arquitetura acrescenta as etiquetas e os contornos que mostram como a página é feita.
+DEGRAUS = ("Superfície", "Texto", "Arquitetura")
+
+
+def chave_mestra(nivel):
+    radios = "".join(
+        f'<input type="radio" name="nivel" id="nivel-{i}" value="{i}"{" checked" if i == nivel else ""}>'
+        f'<label for="nivel-{i}">{nome}</label>'
+        for i, nome in enumerate(DEGRAUS))
+    return (f'<div class="chave-mestra" role="radiogroup" aria-labelledby="chave-nome">'
+            f'<span class="chave-nome" id="chave-nome">Desnudar</span><span class="degraus">{radios}</span></div>')
 
 
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None):
     """Monta a página.
 
-    camada 'mista' tem texto limpo na superfície e a arquitetura sob o botão de desnudar.
-    camada 'interna' é página de estudo, que já abre desnuda. Desligar a chave leva de volta à superfície.
+    camada 'mista' tem texto limpo na superfície, o conteúdo extra no degrau Texto e as etiquetas no degrau Arquitetura.
+    camada 'interna' é página de estudo, que já abre no degrau Texto. Escolher a superfície leva de volta a ela.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
     canonico = BASE + "/" + caminho
@@ -161,9 +174,10 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     interna = camada == "interna"
     inicio = prefixo or "./"
     sup = superficie if superficie is not None else inicio
-    lembrar = ("" if interna else
-               "<script>try{if(localStorage.getItem('lexp-desnudo')==='1'){document.getElementById('desnudar').checked=true;"
-               "document.body.classList.add('desnudo')}}catch(e){}</script>")
+    # Antes da primeira pintura, a página assume o degrau que o leitor escolheu. As páginas de estudo nunca abrem abaixo do texto.
+    lembrar = ("<script>(function(){var n=0;try{n=parseInt(localStorage.getItem('lexp-nivel'),10)||0}catch(e){}"
+               f"if(n<{1 if interna else 0})n={1 if interna else 0};if(n>2)n=2;var r=document.getElementById('nivel-'+n);if(r)r.checked=true;"
+               "document.body.classList.toggle('aberto',n>0);document.body.classList.toggle('desnudo',n>1)})()</script>")
     legenda = LEGENDA["interna" if interna else "mista"]
     cartao = imagem if imagem and (RAIZ / "site" / "cartoes" / f"{imagem}.png").exists() else "inicio"
     # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
@@ -192,15 +206,11 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <link rel="alternate" type="application/json" href="{prefixo}dados/atlas.json" title="Dados do Atlas">
 {ld}
 </head>
-<body class="{'desnudo' if interna else ''}" data-camada="{camada}" data-superficie="{esc(sup)}">
-<label class="chave-mestra" for="desnudar">
-  <input type="checkbox" id="desnudar"{' checked' if interna else ''}>
-  <span class="interruptor" aria-hidden="true"></span>
-  <span class="chave-texto"><b class="desligado">Desnudar a arquitetura</b><b class="ligado">Arquitetura à mostra</b><small class="desligado">Veja de onde vem cada frase</small><small class="ligado">{'Desligue para voltar à superfície' if interna else 'Desligue para voltar ao texto limpo'}</small></span>
-</label>
+<body class="{'aberto' if interna else ''}" data-camada="{camada}" data-superficie="{esc(sup)}">
+{chave_mestra(1 if interna else 0)}
 {lembrar}
 <div class="moldura">
-  <div class="faixa interno" data-arq="versão · o site cresce em público e cada mudança fica registrada">
+  <div class="faixa arq" data-arq="versão · o site cresce em público e cada mudança fica registrada">
     <span>Versão {VERSAO} · em construção</span>
   </div>
   <header class="topo">
@@ -263,7 +273,7 @@ EXTERNA = carregar_externa()
 
 
 def expansao(cits, prefixo):
-    """Os trechos literais que um bloco simples condensa. Só aparecem quando o leitor desnuda a página."""
+    """Os trechos literais que um bloco simples condensa. Aparecem a partir do degrau Texto."""
     if not cits:
         return ""
     return ('<div class="interno expansao" data-arq="de onde vem · trechos literais, com a página">'
@@ -285,8 +295,11 @@ def ext_html(pag, campo_, prefixo, classe=""):
 
 
 def botao_desnudar():
-    return ('<label class="botao convite-botao" for="desnudar"><span class="desligado">Desnudar a arquitetura</span>'
-            '<span class="ligado">Voltar ao texto limpo</span></label>')
+    """O convite dentro da página leva ao degrau seguinte. Do último, volta à superfície."""
+    return ('<span class="convite-botoes">'
+            '<label class="botao convite-botao so-0" for="nivel-1">Ver o texto por trás</label>'
+            '<label class="botao convite-botao so-1" for="nivel-2">Desnudar a arquitetura</label>'
+            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à superfície</label></span>')
 
 
 def html_passo(passo, base):
@@ -1815,7 +1828,9 @@ img { max-width: 100%; }
     extra = (RAIZ / "site" / "extra.css").read_text(encoding="utf-8")
     assets = SAIDA / "assets"
     (assets / "fontes").mkdir(parents=True, exist_ok=True)
-    (assets / "estilo.css").write_text(fontes + css + "\n" + extra, encoding="utf-8")
+    # O degrau Arquitetura vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.
+    estilo = (fontes + css + "\n" + extra).replace("body.desnudo", ":is(body.desnudo, body:has(#nivel-2:checked))")
+    (assets / "estilo.css").write_text(estilo, encoding="utf-8")
     for arq in (RAIZ / "ferramentas" / "fontes").iterdir():
         shutil.copy(arq, assets / "fontes" / arq.name)
     shutil.copy(RAIZ / "site" / "atlas.js", assets / "atlas.js")
