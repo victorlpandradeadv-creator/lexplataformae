@@ -26,6 +26,19 @@
    ]
   },
   {
+   "diploma": "Código de Defesa do Consumidor (Lei nº 8.078, de 11 de setembro de 1990)",
+   "sigla": "CDC",
+   "artigo": "48",
+   "partes": [
+    "integral"
+   ],
+   "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+   "na_tese": "Citado no 6.2.1.1, na leitura que a tese faz do Manual de direito do consumidor. Faltou na primeira versão deste arquivo, porque o levantamento confundiu essa remissão com o art. 48 do ADCT que aparece dentro do art. 1º do CDC. Acrescentado em 27/10/2026.",
+   "texto": [
+    "Art. 48. As declarações de vontade constantes de escritos particulares, recibos e pré-contratos relativos às relações de consumo vinculam o fornecedor, ensejando inclusive execução específica, nos termos do art. 84 e parágrafos."
+   ]
+  },
+  {
    "diploma": "Constituição da República Federativa do Brasil de 1988",
    "sigla": "CF",
    "artigo": "173",
@@ -110,6 +123,6 @@
   }
  ],
  "fora": [
-  "Art. 48 do ADCT. Aparece só dentro do texto do art. 1º do CDC, que a tese transcreve, e não como remissão da própria tese."
+  "Art. 48 do ADCT. Aparece dentro do texto do art. 1º do CDC, que a tese transcreve na nota 488, e não como remissão da própria tese."
  ]
 }

@@ -80,7 +80,7 @@ Toda seção está no corpus, em texto integral. Esta tabela mostra em que outra
 | 6.2.4.1 | Da abstenção ao uso da terminologia “vulnerabilidade digital” | 584 a 590 | Dogmática (Seções do capítulo 6) |
 | 6.2.4.1.1 | Da revisão crítica da literatura recente | 590 a 601 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.2 | Da linguagem, código e consentimento viciado por sentido | 601 a 605 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.2.4.3 | Da operacionalização da vulnerabilidade semiótica em OICs | 605 a 609 | Dogmática (Seções do capítulo 6) |
+| 6.2.4.3 | Da operacionalização da vulnerabilidade semiótica em OICs | 605 a 609 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.3.1 | O caso dos presentes irregulares | 609 a 618 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
 | 6.2.4.4 | Da informação excessiva às práticas de transparência performática: dever de informar e adequação informativa | 618 a 623 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.5 | Da publicidade enganosa por arquitetura semiótica | 623 a 629 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |

@@ -31,6 +31,85 @@
     });
   }
 
+  /* O balão de referência. Fora de Ciência a página não fica à vista. Ao passar o mouse, tocar ou chegar pelo teclado,
+     o balão mostra a referência e oferece copiar o trecho com ela. O botão diz o que leva, e nada é acrescentado à cópia sem o clique. */
+  var REFERENCIA = 'Victor L. P. Andrade, Do regime jurídico do Objeto Imaterial de Consumo sob a Lex Plataformae, 2026';
+  var conteineres = [];
+  document.querySelectorAll('[data-ref]').forEach(function (el) { conteineres.push(el); });
+  document.querySelectorAll('.pg').forEach(function (pg) {
+    var c = pg.closest('blockquote, .campo-def, li, dd, p');
+    if (c && !c.hasAttribute('data-ref') && conteineres.indexOf(c) < 0) conteineres.push(c);
+  });
+  var aberto = null, fechar = null;
+  function dadosDe(c) {
+    var ref = c.getAttribute('data-ref'), alvo = c.getAttribute('data-alvo');
+    var pg = c.querySelector(':scope > .pg, :scope > p > .pg, .pg');
+    if (!ref && pg) { ref = pg.textContent.trim(); alvo = pg.getAttribute('href'); }
+    return { ref: ref, alvo: alvo, autoria: c.getAttribute('data-autoria'), obra: c.getAttribute('data-obra') };
+  }
+  function textoDe(c) {
+    var copia = c.cloneNode(true);
+    copia.querySelectorAll('.pg, .nota-ref, .pg-marca, .balao-ref, .lei-ref, .autor-tag').forEach(function (e) { e.remove(); });
+    return copia.textContent.replace(/\s+/g, ' ').replace(/^[“"]|[”"]$/g, '').trim();
+  }
+  function citacao(d) {
+    if (d.obra) return d.obra + (d.ref ? ', ' + d.ref : '') + '.';
+    return REFERENCIA + (d.ref ? ', ' + d.ref : '') + '.';
+  }
+  function copiar(texto, botao) {
+    var feito = function () { botao.textContent = 'Copiado'; setTimeout(function () { botao.textContent = 'Copiar com referência'; }, 1800); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texto).then(feito, function () { reserva(texto); feito(); });
+    } else { reserva(texto); feito(); }
+  }
+  function reserva(texto) {
+    var t = document.createElement('textarea');
+    t.value = texto; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0';
+    document.body.appendChild(t); t.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    t.remove();
+  }
+  function mostrarBalao(c) {
+    if (aberto === c) { clearTimeout(fechar); return; }
+    esconderBalao(true);
+    var d = dadosDe(c);
+    if (!d.ref && !d.obra) return;
+    var b = document.createElement('span');
+    b.className = 'balao-ref';
+    b.setAttribute('role', 'note');
+    var url = d.alvo ? new URL(d.alvo, window.location.href).href : window.location.href;
+    b.innerHTML = (d.autoria ? '<span class="balao-autoria"></span>' : '') + '<span class="balao-citacao"></span>' +
+      '<span class="balao-acoes"><button type="button">Copiar com referência</button>' + (d.alvo ? '<a>Ir ao trecho</a>' : '') + '</span>';
+    if (d.autoria) b.querySelector('.balao-autoria').textContent = d.autoria;
+    b.querySelector('.balao-citacao').textContent = citacao(d);
+    if (d.alvo) b.querySelector('a').setAttribute('href', d.alvo);
+    b.querySelector('button').addEventListener('click', function (ev) {
+      ev.stopPropagation();
+      copiar('“' + textoDe(c) + '”\n' + citacao(d) + '\n' + url, ev.currentTarget);
+    });
+    c.classList.add('com-ref');
+    c.appendChild(b);
+    aberto = c;
+  }
+  function esconderBalao(agora) {
+    clearTimeout(fechar);
+    var feche = function () { if (aberto) { var b = aberto.querySelector(':scope > .balao-ref'); if (b) b.remove(); aberto = null; } };
+    if (agora) feche(); else fechar = setTimeout(feche, 280);
+  }
+  conteineres.forEach(function (c) {
+    c.addEventListener('pointerenter', function (ev) { if (ev.pointerType === 'mouse') mostrarBalao(c); });
+    c.addEventListener('pointerleave', function (ev) { if (ev.pointerType === 'mouse') esconderBalao(false); });
+    c.addEventListener('focusin', function () { mostrarBalao(c); });
+    c.addEventListener('focusout', function (ev) { if (!c.contains(ev.relatedTarget)) esconderBalao(false); });
+    c.addEventListener('click', function (ev) {
+      if (ev.target.closest('a, button, .balao-ref')) return;
+      var sel = window.getSelection && String(window.getSelection());
+      if (sel) return;
+      if (aberto === c) esconderBalao(true); else mostrarBalao(c);
+    });
+  });
+  document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') esconderBalao(true); });
+
   document.querySelectorAll('.epigrafes-player').forEach(function (caixa) {
     var botao = caixa.querySelector('.epigrafes-carregar');
     if (!botao) return;

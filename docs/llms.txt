@@ -49,6 +49,10 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 - [Da tutela coletiva sob auditabilidade aberta](https://lexplataformae.com.br/laboratorio/tutela-coletiva/): seção 7.2.5 da tese, desdobramento da tipologia
 - [Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma](https://lexplataformae.com.br/laboratorio/consumidor-equiparado/): seção 7.2.6 da tese, desdobramento da tipologia
 
+## Legislação
+
+- [Legislação](https://lexplataformae.com.br/legislacao/): os artigos de lei que a tese transcreve ou cita, com o texto integral, por lei. O que a tese cita sem transcrever vem do site do Planalto, com data e marca de acréscimo posterior.
+
 ## Método, fundamentos e dogmática
 
 - [Dogmática](https://lexplataformae.com.br/dogmatica/): os capítulos 5 e 6 da tese, pela abertura de cada um, com os autores declarados, os conceitos de cada trecho e o índice dos dispositivos legais citados com o nome da lei.
