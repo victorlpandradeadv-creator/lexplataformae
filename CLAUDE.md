@@ -25,7 +25,7 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 - Todo conteúdo que não esteja na tese de 2026 recebe data e marca de acréscimo posterior.
 - Orientações do autor na conversa não viram texto do site. Servem para reler a tese e mostrar o que ela já diz. Só entra como acréscimo posterior o que o autor mandar publicar.
 - O site não pode ter nenhum padrão escuro de interface. Deve passar nos próprios critérios de auditabilidade aberta e equivalência de valor funcional.
-- A identidade do projeto é acadêmica. A assinatura é de Victor L. P. Andrade. Escritório e empresas, se aparecerem, ficam em segundo plano.
+- A identidade do projeto é acadêmica. A assinatura é de Victor L. P. Andrade, mas desde 27/10/2026 o nome aparece por último, na camada mais interna (itens 2 e 3 da lista de desenvolvimento). Escritório e empresas, se aparecerem, ficam em segundo plano.
 
 ## Estilo
 
@@ -36,6 +36,11 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 
 1. 27/10/2026. Desnudar a arquitetura como protagonista do site. Orientação do autor. O site foi pensado para tornar a tese acessível e é propaganda de ideias, da tese em si. A primeira vista mostra só as ideias, numa versão limpa da teoria, simplificada o bastante para instruir e, ao mesmo tempo, para gerar dúvida, de modo que o leitor queira apertar o botão. Fundamentação, bases, referências, páginas e qualquer indicação de estrutura que não seja a própria ideia só aparecem quando o leitor aperta o botão. Ao desnudar, o texto se expande com as referências, as notas e as informações derivadas diretamente da tese. O site não pode se perder no personagem. Precisa entender o próprio conceito.
    - Leitura para execução, a confirmar com o autor. O botão deixa o canto do cabeçalho e vira o gesto central de cada página. Método, Fundamentos, Dogmática, o corpus, as âncoras de página, as notas, as contagens e o índice de dispositivos passam para o lado desnudo. O texto da primeira vista é escrito novo e fala em nome do autor. Cada frase dele aponta, no modo desnudo, para os trechos da tese que condensa, e passa pela leitura do autor antes de ir ao ar. A primeira vista pode provocar dúvida, mas não pode prometer o que a expansão não entrega. O botão é a auditabilidade aberta do próprio site, e a passagem de uma vista à outra tem de guardar equivalência de valor funcional.
+
+2. 27/10/2026. O nome do autor não é a primeira coisa que o leitor lê. A última coisa que o leitor fica sabendo é que tudo deriva de uma tese de doutorado do autor. Orientação do autor.
+   - Leitura para execução, a confirmar com o autor. Saem da primeira vista o nome, a sobrelinha "Tese de doutorado · UNESP · 2026" e a referência completa do rodapé. Na camada interna a fonte aparece pelas páginas e pelo texto integral, sem destaque para autoria nem para a natureza de tese. O nome fica por último, mas nunca escondido. Há sempre um caminho visível até ele, e nada no site se apresenta como voz neutra ou de terceiro. Nos metadados para buscadores e robôs de IA a autoria continua declarada, para que a tese seja citada com o nome certo.
+3. 27/10/2026. Três camadas. Orientação do autor. A camada externa simplifica e torna a teoria acessível. A camada interna aprofunda e embasa, e é a que o botão de desnudar abre. A camada mais interna se alcança explorando o nome e o perfil do autor no site. Ela mostra a trajetória do trabalho, liga a tese a outras obras da carreira do autor e encaminha o leitor, ao final, ao LinkedIn do autor, com links também para o Lattes e o ORCID.
+   - Pendências para executar. Os três links do autor. A lista das obras a ligar, que só entra com a palavra do autor. Ligar ou não a assinatura Galvão D'Andrade, que é identidade autoral separada, fica com o autor.
 
 ## Decisões pendentes do autor
 
