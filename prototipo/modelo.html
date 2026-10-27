@@ -225,7 +225,6 @@
 <div class="moldura">
   <div class="faixa" data-arq="rascunho · nada vai ao ar sem o autor">
     <span>Protótipo v0.3 · rascunho para revisão do autor</span>
-    <span>Citações conferidas por script contra a tese</span>
   </div>
 
   <header class="topo">
@@ -320,7 +319,7 @@
         '<p class="sobrelinha">Tese de doutorado · UNESP · 2026</p>' +
         '<h1 class="marca" id="titulo">Lex Plataformae</h1>' +
         '<p class="lema">Atlas do regime jurídico do Objeto Imaterial de Consumo. A partir da tese de Victor L. P. Andrade.</p>' +
-        '<blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“' + esc(ab.texto) + '”' + pg(ab.ref) + '</blockquote>' +
+        '<blockquote class="frase" data-arq="citação literal · a frase que abre o percurso">“' + esc(ab.texto) + '”' + pg(ab.ref) + '</blockquote>' +
       '</section>' +
 
       '<section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">' +
@@ -469,7 +468,7 @@
       if (f.texto) html += '<p>' + comAncoras(f.texto) + '</p>';
       f.citacoes.forEach(function (q) {
         if (r === 'Definição canônica proposta') {
-          html += '<blockquote class="canonica" data-arq="citação literal · conferida por script contra a tese"><p><mark>' + esc(q.texto) + '</mark>' + pg(q.ref) + '</p></blockquote>';
+          html += '<blockquote class="canonica" data-arq="citação literal · definição proposta"><p><mark>' + esc(q.texto) + '</mark>' + pg(q.ref) + '</p></blockquote>';
         } else {
           html += '<blockquote class="citacao' + (r === 'O que não é' ? ' nao-e' : '') + '"><p>' + esc(q.texto) + pg(q.ref) + '</p></blockquote>';
         }

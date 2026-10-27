@@ -202,7 +202,6 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <div class="moldura">
   <div class="faixa interno" data-arq="versão · o site cresce em público e cada mudança fica registrada">
     <span>Versão {VERSAO} · em construção</span>
-    <span>Citações conferidas por script contra o texto integral</span>
   </div>
   <header class="topo">
     <a class="topo-marca" href="{inicio}">Lex Plataformae</a>
@@ -267,7 +266,7 @@ def expansao(cits, prefixo):
     """Os trechos literais que um bloco simples condensa. Só aparecem quando o leitor desnuda a página."""
     if not cits:
         return ""
-    return ('<div class="interno expansao" data-arq="de onde vem · trechos literais conferidos por script">'
+    return ('<div class="interno expansao" data-arq="de onde vem · trechos literais, com a página">'
             + "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in cits)
             + "</div>")
 
@@ -494,7 +493,7 @@ def gerar_conceito(c):
             bloco += f"<p>{com_ancoras(f['texto'], prefixo)}</p>"
         for q in f["citacoes"]:
             if r == "Definição canônica proposta":
-                bloco += ('<blockquote class="canonica" data-arq="citação literal · conferida por script contra a tese">'
+                bloco += ('<blockquote class="canonica" data-arq="citação literal · definição proposta">'
                           f'<p><mark>{esc(q["texto"])}</mark>{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>')
             else:
                 classe = "citacao nao-e" if r == "O que não é" else "citacao"
@@ -1118,8 +1117,8 @@ def indice_destaques(achados, titulo="Em frases da tese"):
     if not achados:
         return ""
     itens = "".join(f'<li><a href="#{ident}">{esc(t["texto"])}</a> {pg(t["ref"])}</li>' for t, ident in achados)
-    return (f'<nav class="bloco indice-destaques" aria-label="{esc(titulo)}" data-arq="seleção editorial · texto literal conferido por script">'
-            f'<h2>{esc(titulo)}</h2><p class="nota-camada">Os trechos marcados foram escolhidos pelo site. O texto é da tese e foi conferido por script.</p><ol>{itens}</ol></nav>')
+    return (f'<nav class="bloco indice-destaques" aria-label="{esc(titulo)}" data-arq="seleção editorial · trechos marcados no texto">'
+            f'<h2>{esc(titulo)}</h2><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{itens}</ol></nav>')
 
 
 def gerar_diretrizes():
@@ -1149,7 +1148,7 @@ def gerar_diretrizes():
         f'<h1>{esc(sec["titulo"])}</h1><div class="texto">{blocos_simples(d["abertura"], sec["slug"], prefixo)}</div>'
         f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção na tese</a></p></header>'
         + nav_roteiro("7.1.3", prefixo)
-        + f'<nav class="bloco indice-roteiro indice-diretrizes" aria-label="As dez diretrizes" data-arq="seleção editorial · texto literal conferido por script"><h2>As dez diretrizes</h2><p class="nota-camada">Cada diretriz traz a frase que o site marcou no texto. O texto é da tese e foi conferido por script.</p><ol>{"".join(indice)}</ol></nav>'
+        + f'<nav class="bloco indice-roteiro indice-diretrizes" aria-label="As dez diretrizes" data-arq="seleção editorial · trechos marcados no texto"><h2>As dez diretrizes</h2><p class="nota-camada">Cada diretriz traz a frase que o site marcou no texto.</p><ol>{"".join(indice)}</ol></nav>'
         + "".join(secoes)
         + (f'<section class="bloco"><h2>As diretrizes em conjunto</h2><div class="texto">{blocos_simples(d["fecho"], sec["slug"], prefixo)}</div></section>' if d["fecho"] else "")
         + "</article>")
@@ -1274,7 +1273,7 @@ def gerar_laboratorio():
             texto_sub, achados = texto_marcado(s1["blocos"], s1["slug"], prefixo, destaques("7.2.7.1"), contador())
             lista = "".join(f'<li><a href="#{ident}">{esc(t["texto"])}</a> {pg(t["ref"])}</li>' for t, ident in achados)
             sub = (f'<section class="campo-caso subcaso" id="subcaso" data-arq="subcaso · texto integral do {esc(s1["n"])}"><h2>Subcaso · {esc(s1["n"])} {esc(s1["titulo"])}</h2>'
-                   + (f'<nav class="indice-destaques" aria-label="O subcaso em frases da tese"><h3>Em frases da tese</h3><p class="nota-camada">Os trechos marcados foram escolhidos pelo site. O texto é da tese e foi conferido por script.</p><ol>{lista}</ol></nav>' if lista else "")
+                   + (f'<nav class="indice-destaques" aria-label="O subcaso em frases da tese"><h3>Em frases da tese</h3><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{lista}</ol></nav>' if lista else "")
                    + f'<div class="texto">{texto_sub}</div>'
                    f'<p class="ler-pdf"><a href="{prefixo}tese/{s1["slug"]}/">Ler o subcaso na tese, com as notas</a></p></section>')
         notas = ""
