@@ -8,7 +8,10 @@ Este arquivo é a memória do projeto. Toda sessão que trabalhar aqui deve lê-
 
 Desde 27/10/2026 (versão 0.5) o site se lê em três camadas, por orientação do autor.
 
-- **Camada externa, a superfície.** Fala com o leigo. Página inicial, as nove ideias e o Laboratório com as quatro famílias, em texto simples, fenômeno antes do nome, sem nome do autor nem menção a tese. O texto vem de `conteudo/camada-externa.md`. No menu aparecem só Conceitos e Laboratório.
+- **Camada externa, a superfície.** Fala com o leigo. Página inicial, o percurso da skin, as nove ideias e o Laboratório com as quatro famílias, em texto simples, fenômeno antes do nome, sem nome do autor nem menção a tese. O texto vem de `conteudo/camada-externa.md` e de `conteudo/percurso.md`. No menu aparecem só Percurso, Conceitos e Laboratório.
+  - Desde 27/10/2026 (versão 0.6), por orientação do autor, a superfície é uma versão acessível da tese inteira, e não só do núcleo. Gira em torno da compra de uma skin e se abre para o resto. É provocativa e fala com a experiência do leitor, em segunda pessoa. Traz excertos didáticos (Uma imagem, Como funciona, Um caso) e todos os conceitos que a tese instrumentaliza, com os nove autorais em destaque.
+  - O percurso tem onze partes em `docs/percurso/`, cada uma aberta por uma pergunta e fechada pela pergunta da parte seguinte. A compra, o desejo, o dono, as regras, o normal, a mudança, o desenho, a lei, a resposta, além do jogo e o nome. Os nove conceitos autorais entram como bloco `nome <id>`, com destaque e link para a ficha. Os conceitos instrumentais entram como bloco `termo <Nome>`, sem nome de autor na superfície, porque autores e referências ficam do degrau Texto para dentro. As famílias do Laboratório entram como bloco `familia <slug>`.
+  - As páginas das nove ideias trazem também os blocos imagem, mecanismo e caso, e a lista das partes do percurso em que a ideia aparece.
 - **Camada interna, a arquitetura.** Fala com o jurista e com o especialista. Abre com a chave Desnudar, que fica fixa no pé da tela em todas as páginas e, desde 27/10/2026, tem três degraus, por orientação do autor. O site expande em conteúdo antes de expandir em análise.
   - Degrau Superfície. Só a camada externa.
   - Degrau Texto. O conteúdo extra da tese, limpo, sem nada em laranja. Debaixo de cada bloco simples aparecem os trechos literais que ele condensa, com a página em caixa cinza. Aparecem também o conteúdo completo das fichas, as três leituras, as epígrafes por capítulo e os itens Método, Fundamentos, Dogmática, Roteiro e Texto integral no menu. Classe `interno`.
@@ -56,6 +59,8 @@ As partes do site, dentro dessas camadas.
 
 4. Feito em 27/10/2026, versão 0.5. A solenidade metodológica fica por trás do botão. Até o leigo precisa entender minimamente o texto do site principal. O desnudamento é ferramenta de estudo e aprofundamento, sobretudo para juristas e para quem é da área temática. Orientação do autor.
    - Leitura para execução, a confirmar com o autor. Cada camada tem o seu leitor. A externa fala com o leigo. A interna fala com o jurista e com o especialista. A mais interna fala com quem quer saber de quem é a ideia. Os nomes dos nove conceitos também são vocabulário técnico, e na camada externa cada um chega depois do fenômeno que nomeia, contado em palavras comuns e com exemplo tirado da própria tese. A faixa de versão e de conferência por script, as âncoras de página, as contagens e a legenda técnica do modo desnudo saem da primeira vista. A legibilidade do texto externo pode ser medida pelo índice de Flesch adaptado ao português, com meta de leitura fácil, e conferida com pelo menos um leitor leigo.
+5. Feito em 27/10/2026, versão 0.6. A versão acessível ficou crua demais. O leitor entendia sem entender nada. Orientação do autor. Expandir com excertos didáticos que aprofundam a explicação, usam analogias aplicáveis ou expõem mecanismos. Ser provocativa e questionadora, para o leitor pensar na própria experiência. Girar em torno da compra de uma skin e expandir daí para o resto. Ser versão acessível da tese inteira, com todos os conceitos instrumentalizados e os nove autorais em destaque. Feito com o percurso da skin e com os blocos didáticos das nove ideias. A primeira missão continua sendo achar tudo na tese. Cada imagem e cada caso se ancora em trecho literal.
+6. Feito em 27/10/2026, versão 0.6. Gradação da chave de desnudar. O site expande em conteúdo antes de expandir em análise. O degrau intermediário revela o conteúdo extra da tese sem o texto laranja. Orientação do autor, que pediu opções de nome. Ficou Superfície, Texto e Arquitetura. Alternativas apresentadas ao autor, Ler, Aprofundar e Desnudar, Superfície, Fonte e Arquitetura, Vestida, Despida e Desnuda.
 
 ## Decisões pendentes do autor
 
@@ -63,6 +68,8 @@ As partes do site, dentro dessas camadas.
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
 - Leitura proposta para ilícito de arquitetura e teleologia abusiva. O primeiro como gênero, a segunda como critério da finalidade. Nos percursos aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).
+- Texto do percurso da skin e dos blocos didáticos das nove ideias, rascunho do Claude de 27/10/2026, no ar para revisão.
+- Nomes dos três degraus da chave.
 - Seleção dos destaques em `estrutura/destaques.md`. Feita pelo Claude em 27/10/2026, aguarda a revisão do autor.
 - Licença. Até a decisão, todos os direitos reservados. Proposta em estudo, MIT para o código e CC BY 4.0 para o conteúdo próprio, com exclusão expressa de material de terceiros.
 
@@ -89,13 +96,14 @@ As partes do site, dentro dessas camadas.
 - `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.
 - Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese. O detector lê mal `!important` em altura de linha, e por isso a superfície evita esse recurso.
 - `conteudo/camada-externa.md` guarda o texto simples da superfície, página por página e bloco por bloco, cada bloco com os trechos literais que condensa. Rascunho do Claude de 27/10/2026, publicado para revisão do autor no ar. Em cada conceito, a primeira frase do bloco nome é o próprio nome.
-- `ferramentas/gerar_cartoes.py` gera as imagens de compartilhamento, 1200 x 630, em `site/cartoes/`, a partir dos textos da superfície. Cada cartão traz a pergunta da página e o nome da ideia, sem o nome do autor, salvo o da página do autor. O gerador do site copia os cartões e declara cada um nas metatags. Rodar de novo sempre que a superfície mudar.
-- `ferramentas/medir_legibilidade.py` mede a superfície pelo índice de Flesch adaptado ao português (Martins e colegas, 1996), com contagem de sílabas aproximada. Meta de leitura fácil, de 50 para cima. Em 27/10/2026, 16 de 16 páginas na meta e 72 no conjunto.
+- `conteudo/percurso.md` guarda as onze partes do percurso da skin, no mesmo formato, com blocos em ordem (texto, imagem, mecanismo, caso, nome, termo, familia) e a pergunta que fecha cada parte. Rascunho do Claude de 27/10/2026, publicado para revisão do autor no ar.
+- `ferramentas/gerar_cartoes.py` gera as imagens de compartilhamento, 1200 x 630, em `site/cartoes/`, a partir dos textos da superfície. Cada cartão traz a pergunta da página e o nome da ideia ou a parte do percurso, sem o nome do autor, salvo o da página do autor. O gerador do site copia os cartões e declara cada um nas metatags. Rodar de novo sempre que a superfície mudar.
+- `ferramentas/medir_legibilidade.py` mede a superfície pelo índice de Flesch adaptado ao português (Martins e colegas, 1996), com contagem de sílabas aproximada. Meta de leitura fácil, de 50 para cima. Lê a camada externa e o percurso. Em 27/10/2026, com o percurso, 27 de 27 páginas na meta e 73 no conjunto.
 - `estrutura/destaques.md` guarda os trechos literais que as páginas das camadas marcam no texto da tese, por seção e, no 7.1.3, por diretriz. A seleção é do site e a página diz isso ao leitor. O texto é conferido por script.
 - A lista dos autores declarados nas aberturas dos capítulos 3 e 4 fica em `AUTORES`, em `ferramentas/gerar_site.py`, com o nome como a abertura o escreve, o sobrenome que a contagem procura e a chave da lista de referências. Grant McCraken aparece com a grafia da abertura do capítulo 3. A lista de referências grafa MCCRACKEN.
 - A lista dos autores da abertura do capítulo 5 fica em `AUTORES_5`. O índice de dispositivos usa `PADRAO_DISPOSITIVO`, em `ferramentas/gerar_site.py`, e só reconhece artigo com o nome da lei na mesma frase. Conferência de 27/10/2026, 53 frases e 57 remissões a artigo, em cinco leis.
 - `estrutura/cobertura.md` é gerado por `gerar_site.py` e mostra em que camadas cada seção da tese já tem lugar. Não editar à mão.
-- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md conteudo/camada-externa.md`. Commit só com zero falhas.
+- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md conteudo/camada-externa.md conteudo/percurso.md`. Commit só com zero falhas. Desde 27/10/2026 o script aceita palavra composta partida no hífen do fim da linha (vale-tudo), trata º e ª antes de número de nota e não come decimais como 26.3. Conferência do mesmo dia, 541 citações, zero falhas.
 
 ## Epígrafes
 
@@ -111,7 +119,7 @@ No site, as letras não são reproduzidas. A música entra por player incorporad
 
 - Hospedagem no GitHub Pages, a partir da pasta `docs/` do ramo `main`. O arquivo `docs/CNAME` fixa o domínio.
 - Leitura por máquina em `docs/robots.txt` (aberto a robôs de IA), `docs/sitemap.xml`, `docs/llms.txt`, `docs/dados/atlas.json` e marcação schema.org (Thesis, DefinedTermSet e DefinedTerm) em cada página.
-- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção. Em 27/10/2026 a versão passou a 0.4, com Roteiro e Laboratório, e no mesmo dia a 0.5, com as três camadas.
+- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção. Em 27/10/2026 a versão passou a 0.4, com Roteiro e Laboratório, no mesmo dia a 0.5, com as três camadas, e a 0.6, com o percurso da skin e a chave em três degraus.
 - 27/10/2026. Site no ar em https://lexplataformae.com.br, com HTTPS, servido pelo GitHub Pages. Domínio verificado na conta do autor.
 - O ambiente de trabalho do Claude não alcança o domínio pelo terminal. Para conferir o site no ar, usar a ferramenta de busca de páginas, que pede autorização ao autor.
 - DNS no Registro.br. Registros A do domínio raiz para 185.199.108.153, 185.199.109.153, 185.199.110.153 e 185.199.111.153. CNAME de www para victorlpandradeadv-creator.github.io. TXT de verificação do GitHub Pages na conta do autor.

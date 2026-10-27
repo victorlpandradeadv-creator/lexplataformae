@@ -1,7 +1,7 @@
 """Mede a legibilidade dos textos da camada externa pelo índice de Flesch adaptado ao português.
 
 Uso
-    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md]
+    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md conteudo/percurso.md]
 
 Fórmula de Martins e colegas (1996), adaptada ao português.
     248,835 - 1,015 x (palavras por frase) - 84,6 x (sílabas por palavra)
@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-ARQ = Path(sys.argv[1]) if len(sys.argv) > 1 else RAIZ / "conteudo" / "camada-externa.md"
+ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.md", RAIZ / "conteudo" / "percurso.md"]
 META = 50
 
 VOGAIS = "aeiouáéíóúâêôãõàüy"
@@ -65,7 +65,9 @@ def blocos(arq):
 
 
 def main():
-    dados = blocos(ARQ)
+    dados = {}
+    for arq in ARQS:
+        dados.update(blocos(arq))
     todo, abaixo = [], []
     for pagina, campos in dados.items():
         texto = " ".join(" ".join(v) for v in campos.values())

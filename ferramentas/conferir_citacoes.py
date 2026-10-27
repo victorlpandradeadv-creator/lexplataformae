@@ -30,11 +30,14 @@ def normalizar(texto, fonte=False):
         texto = texto.replace(a, b)
     if fonte:
         # remove chamadas de nota de rodapé coladas ao texto
-        texto = re.sub(r'(?<=[A-Za-zÀ-ú\.,;:"])\d{1,3}(?=[\s,\.])', "", texto)
+        # (depois de ponto, só quando o ponto fecha uma palavra, para não comer decimais como 26.3)
+        texto = re.sub(r'(?:(?<=[A-Za-zÀ-úºª,;:"])|(?<=[A-Za-zÀ-úºª"]\.))\d{1,3}(?=[\s,\.])', "", texto)
     return re.sub(r"\s+", " ", texto).strip()
 
 
-def paginas():
+def paginas(manter_hifen=False):
+    """Texto de cada página impressa. O hífen no fim da linha some ao juntar as linhas, como na
+    separação silábica. Com manter_hifen, ele fica, como nas palavras compostas (vale-tudo)."""
     bruto = subprocess.run(
         ["pdftotext", "-layout", str(PDF), "-"], capture_output=True, text=True, check=True
     ).stdout.split("\f")
@@ -47,7 +50,7 @@ def paginas():
                 texto += "\n"
                 continue
             if texto.endswith("-") and not texto.endswith(" -"):
-                texto = texto[:-1] + linha
+                texto = (texto if manter_hifen else texto[:-1]) + linha
             else:
                 texto += (" " if texto and not texto.endswith("\n") else "") + linha
         texto = re.sub(r"^\s*" + str(impressa) + r"\s*\n", "", texto)
@@ -80,25 +83,26 @@ def atravessa_pagina(fragmento, ref, por_pagina):
     return False
 
 
+def achado(fragmento, ref, por_pagina):
+    if ref == "Resumo":
+        palheiro = normalizar(" ".join(por_pagina.values()), fonte=True)
+    else:
+        numeros = [int(x) for x in ref[3:].split("-")]
+        palheiro = normalizar(
+            " ".join(por_pagina.get(n, "") for n in range(numeros[0], numeros[-1] + 1)),
+            fonte=True,
+        )
+    return fragmento in palheiro or atravessa_pagina(fragmento, ref, por_pagina)
+
+
 def main(arquivos):
-    por_pagina = paginas()
-    inteiro = normalizar(" ".join(por_pagina.values()), fonte=True)
+    versoes = (paginas(), paginas(manter_hifen=True))
     total = falhas = 0
     for arquivo in arquivos:
         for trecho, ref in citacoes(Path(arquivo).read_text(encoding="utf-8")):
             total += 1
-            if ref == "Resumo":
-                palheiro = inteiro
-            else:
-                numeros = [int(x) for x in ref[3:].split("-")]
-                palheiro = normalizar(
-                    " ".join(por_pagina.get(n, "") for n in range(numeros[0], numeros[-1] + 1)),
-                    fonte=True,
-                )
             for fragmento in (f.strip(" .,") for f in trecho.split("[...]")):
-                if len(fragmento) > 8 and normalizar(fragmento) not in palheiro and not atravessa_pagina(
-                    normalizar(fragmento), ref, por_pagina
-                ):
+                if len(fragmento) > 8 and not any(achado(normalizar(fragmento), ref, v) for v in versoes):
                     falhas += 1
                     print(f"NÃO ENCONTRADA  {arquivo}  {ref}  {fragmento[:100]}")
     print(f"{total} citações conferidas, {falhas} não encontradas.")

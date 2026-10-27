@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.5"
+VERSAO = "0.6"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -217,6 +217,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     <a class="topo-marca" href="{inicio}">Lex Plataformae</a>
     <nav aria-label="Seções">
       <ul>
+        <li><a href="{prefixo}#percurso">Percurso</a></li>
         <li><a href="{prefixo}#conceitos">Conceitos</a></li>
         <li><a href="{prefixo}laboratorio/">Laboratório</a></li>
         <li class="interno"><a href="{prefixo}metodo/">Método</a></li>
@@ -270,6 +271,47 @@ def carregar_externa():
 
 
 EXTERNA = carregar_externa()
+
+
+# Percurso. A superfície conta a tese inteira a partir da compra de uma skin, em conteudo/percurso.md.
+def carregar_percurso():
+    arq = RAIZ / "conteudo" / "percurso.md"
+    partes, atual, bloco = [], None, None
+    if not arq.exists():
+        return partes
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = {"slug": linha[3:].strip(), "titulo": "", "resumo": "", "pergunta": "", "blocos": []}
+            partes.append(atual)
+            bloco = None
+            continue
+        if linha.startswith("### ") and atual is not None:
+            tipo, _, arg = linha[4:].strip().partition(" ")
+            bloco = {"tipo": tipo, "arg": arg.strip(), "paragrafos": [], "citacoes": []}
+            if tipo not in ("titulo", "resumo", "pergunta"):
+                atual["blocos"].append(bloco)
+            continue
+        if not (atual and bloco) or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", linha)
+        if m:
+            bloco["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif bloco["tipo"] in ("titulo", "resumo", "pergunta"):
+            atual[bloco["tipo"]] = (atual[bloco["tipo"]] + " " + linha.strip()).strip()
+        else:
+            bloco["paragrafos"].append(linha.strip())
+    return partes
+
+
+PERCURSO = carregar_percurso()
+ROTULOS_PERCURSO = {"imagem": "Uma imagem", "mecanismo": "Como funciona", "caso": "Um caso",
+                    "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo"}
+
+
+def partes_com_ideia(cid):
+    """As partes do percurso em que uma das nove ideias aparece com nome próprio."""
+    return [(i, parte) for i, parte in enumerate(PERCURSO, 1)
+            if any(b["tipo"] == "nome" and b["arg"] == cid for b in parte["blocos"])]
 
 
 def expansao(cits, prefixo):
@@ -328,6 +370,92 @@ def html_passo(passo, base):
         classe, arq = "passo fantasma", ' data-arq="fora do Atlas · passo do Roteiro"'
     corpo += f'<span class="passo-papel">{esc(passo["papel"])}</span>'
     return f'<li class="{classe}" data-chave="{esc(passo["id"])}"{arq}><span class="passo-corpo">{corpo}</span></li>'
+
+
+def mapa_percurso(base, contexto):
+    """A lista das partes do percurso, com a pergunta e o resumo de cada uma."""
+    if not PERCURSO:
+        return ""
+    itens = "".join(
+        f'<li><a href="{base}{parte["slug"]}/"><span class="parte-num">{i}</span>'
+        f'<span class="parte-titulo">{esc(parte["titulo"])}</span><span class="parte-resumo">{esc(parte["resumo"])}</span></a></li>'
+        for i, parte in enumerate(PERCURSO, 1))
+    cabeca = (f'<h2 class="campo-titulo" id="percurso-titulo">Siga a skin</h2>' if contexto == "inicio"
+              else f'<h1 class="chamada" id="percurso-titulo">Siga a skin</h1>')
+    return (f'<section class="secao percurso-mapa" id="percurso" aria-labelledby="percurso-titulo">{cabeca}'
+            f'<div class="campo-texto">{ext_html("inicio", "percurso", "")}</div>'
+            f'<ol class="partes">{itens}</ol>'
+            f'<p><a class="botao" href="{base}{PERCURSO[0]["slug"]}/">Começar pela compra</a></p></section>')
+
+
+def no_percurso(cid, prefixo):
+    achados = partes_com_ideia(cid)
+    if not achados:
+        return ""
+    return ('<section class="ext no-percurso"><p class="rotulo-ext">No percurso da skin</p><ul class="partes-curtas">'
+            + "".join(f'<li><a href="{prefixo}percurso/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+                      for i, parte in achados)
+            + "</ul></section>")
+
+
+def bloco_percurso(b, prefixo):
+    tipo, arg = b["tipo"], b["arg"]
+    texto = "".join(f"<p>{esc(t)}</p>" for t in b["paragrafos"])
+    exp = expansao(b["citacoes"], prefixo)
+    rotulo = ROTULOS_PERCURSO.get(tipo)
+    if tipo == "nome":
+        c = POR_ID[arg]
+        return (f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">{rotulo}</span>'
+                f'<a href="{prefixo}conceitos/{arg}/">{esc(c["nome"])}</a></h2>{texto}'
+                f'<p class="ver-ideia"><a href="{prefixo}conceitos/{arg}/">A ideia inteira</a></p>{exp}</section>')
+    if tipo == "termo":
+        return (f'<section class="ext termo"><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}</span>{esc(arg)}</h2>'
+                f'{texto}{exp}</section>')
+    if tipo == "familia":
+        titulo = ext_texto(arg, "titulo") or arg
+        return (f'<section class="ext termo familia"><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}</span>'
+                f'<a href="{prefixo}laboratorio/{arg}/">{esc(titulo)}</a></h2>{texto}{exp}</section>')
+    if tipo in ("imagem", "mecanismo", "caso"):
+        return f'<section class="ext didatico {tipo}"><p class="rotulo-ext">{rotulo}</p>{texto}{exp}</section>'
+    return f'<section class="ext">{texto}{exp}</section>'
+
+
+def gerar_percurso():
+    total = len(PERCURSO)
+    raiz = SAIDA / "percurso"
+    raiz.mkdir(parents=True, exist_ok=True)
+    corpo = f'<article class="folha percurso-indice">{mapa_percurso("", "indice")}</article>'
+    (raiz / "index.html").write_text(
+        pagina("Siga a skin · Lex Plataformae", "Você comprou uma skin. Ela é sua? Onze perguntas, do clique de compra ao que a lei pode fazer.",
+               corpo, "../", "percurso/", camada="mista", imagem="inicio"), encoding="utf-8")
+    prefixo = "../../"
+    for i, parte in enumerate(PERCURSO, 1):
+        anterior = PERCURSO[i - 2] if i > 1 else None
+        seguinte = PERCURSO[i] if i < total else None
+        if seguinte:
+            avancar = f'<a class="botao" href="../{seguinte["slug"]}/">Seguir para a parte {i + 1}</a>'
+        else:
+            avancar = f'<a class="botao" href="{prefixo}#conceitos">Ver as nove ideias</a>'
+        vizinhos = ('<nav class="vizinhos" aria-label="Partes do percurso">'
+                    + (f'<a href="../{anterior["slug"]}/">← {esc(anterior["titulo"])}</a>' if anterior else f'<a href="{prefixo}">← Início</a>')
+                    + (f'<a href="../{seguinte["slug"]}/">{esc(seguinte["titulo"])} →</a>' if seguinte else "")
+                    + "</nav>")
+        corpo = (f'<article class="folha percurso-parte">'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}#percurso">Percurso</a> · Parte {i} de {total}</p>'
+                 f'<header class="folha-cabeca ext-cabeca"><h1>{esc(parte["titulo"])}</h1></header>'
+                 + "".join(bloco_percurso(b, prefixo) for b in parte["blocos"])
+                 + f'<section class="ext duvida"><p class="pergunta-final">{esc(parte["pergunta"])}</p>'
+                 f'<div class="acoes">{avancar}{botao_desnudar()}</div></section>'
+                 + vizinhos + "</article>")
+        jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": parte["titulo"], "inLanguage": "pt-BR",
+                  "url": f'{BASE}/percurso/{parte["slug"]}/', "isBasedOn": BASE + "/#tese",
+                  "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+        destino = raiz / parte["slug"]
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / "index.html").write_text(
+            pagina(f'{parte["titulo"]} · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do percurso da skin.',
+                   corpo, prefixo, f'percurso/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}'),
+            encoding="utf-8")
 
 
 def gerar_inicio():
@@ -391,6 +519,8 @@ def gerar_inicio():
     <section class="secao problema" aria-label="O problema">
       {ext_html("inicio", "problema", "")}
     </section>
+
+    {mapa_percurso("percurso/", "inicio")}
 
     <section class="campo" id="conceitos" aria-labelledby="conceitos-titulo">
       <h2 class="campo-titulo" id="conceitos-titulo">As ideias</h2>
@@ -466,7 +596,7 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "Você pagou. E o que recebeu continua mudando. Nove ideias para entender o que acontece com o que se compra no mundo digital."
+    desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove ideias para dar nome a isso."
     (SAIDA / "index.html").write_text(pagina("Lex Plataformae", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
 
@@ -568,8 +698,12 @@ def gerar_conceito(c):
             + bloco_ext("fenomeno", classe="fenomeno")
             + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span>{esc(c["nome"])}</h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
+            + bloco_ext("imagem", "Uma imagem", "didatico imagem")
+            + bloco_ext("mecanismo", "Como funciona", "didatico mecanismo")
+            + bloco_ext("caso", "Um caso", "didatico caso")
             + bloco_ext("importa", "Por que importa")
             + bloco_ext("limite", "Até onde vai", "limite")
+            + no_percurso(c["id"], prefixo)
             + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))
         arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · a ideia no texto integral">'
                        f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobre)}</p><h2 class="titulo-interno">{esc(c["nome"])}</h2><div class="selos">{selos}</div></header>'
@@ -1848,7 +1982,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/autor/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/", BASE + "/percurso/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/autor/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -1860,6 +1994,12 @@ def gerar_auxiliares():
         "da tese, com a página indicada. Acréscimos posteriores à tese são marcados e datados.",
         "",
         "Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, " + "“" + (lambda q: q["texto"] if q else "")(next((q for q in (campo(EIXO, "Como integra os demais") or {"citacoes": []})["citacoes"] if q["ref"] == "p. 719"), None)) + "” (p. 719)",
+        "",
+        "## Percurso",
+        "",
+        "A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.",
+        "",
+    ] + [f"- [{parte['titulo']}]({BASE}/percurso/{parte['slug']}/): {parte['resumo']}" for parte in PERCURSO] + [
         "",
         "## Conceitos",
         "",
@@ -1974,6 +2114,7 @@ def main():
     SAIDA.mkdir()
     gerar_estilo()
     gerar_inicio()
+    gerar_percurso()
     for c in D["conceitos"]:
         gerar_conceito(c)
     gerar_tese()

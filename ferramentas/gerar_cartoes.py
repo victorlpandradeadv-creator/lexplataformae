@@ -3,8 +3,8 @@
 Uso
     python3 ferramentas/gerar_cartoes.py
 
-Cada cartão traz a pergunta ou a chamada da página, como está em conteudo/camada-externa.md,
-e o nome da ideia quando houver. Nenhum cartão traz o nome do autor, salvo o da página do autor.
+Cada cartão traz a pergunta ou a chamada da página, como está em conteudo/camada-externa.md
+e em conteudo/percurso.md, e o nome da ideia ou a parte do percurso quando houver. Nenhum cartão traz o nome do autor, salvo o da página do autor.
 O gerador do site copia os cartões para docs/assets/cartoes/ e declara cada um nas metatags.
 Rodar de novo sempre que os textos da superfície mudarem.
 """
@@ -34,10 +34,26 @@ def externa():
     return dados
 
 
+def percurso():
+    partes, atual, campo = [], None, None
+    for linha in (RAIZ / "conteudo" / "percurso.md").read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = {"slug": linha[3:].strip(), "titulo": ""}
+            partes.append(atual)
+        elif linha.startswith("### "):
+            campo = linha[4:].strip()
+        elif atual and campo == "titulo" and linha.strip() and not atual["titulo"]:
+            atual["titulo"] = linha.strip()
+    return partes
+
+
 def cartoes():
     e = externa()
     nomes = {c["id"]: c["nome"] for c in json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))["conceitos"]}
-    lista = [("inicio", " ".join(e["inicio"]["chamada"]), "Nove ideias sobre o consumo digital")]
+    lista = [("inicio", " ".join(e["inicio"]["chamada"]), "Um percurso pelo consumo digital")]
+    partes = percurso()
+    for i, parte in enumerate(partes, 1):
+        lista.append((f"percurso-{parte['slug']}", parte["titulo"], f"Percurso da skin · parte {i} de {len(partes)}"))
     for cid in e.get("cartoes", {}):
         if cid in e and e[cid].get("titulo"):
             lista.append((cid, e[cid]["titulo"][0], nomes.get(cid, "")))
