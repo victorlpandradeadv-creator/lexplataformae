@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.3"
+VERSAO = "0.4"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -173,7 +173,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
       <ul>
         <li><a href="{prefixo}">Atlas</a></li>
         <li><a href="{prefixo}roteiro/">Roteiro</a></li>
-        <li class="em-breve">Laboratório<small>em breve</small></li>
+        <li><a href="{prefixo}laboratorio/">Laboratório</a></li>
         <li><a href="{prefixo}#epigrafes">Epígrafes</a></li>
         <li><a href="{prefixo}tese/">A tese</a></li>
       </ul>
@@ -682,6 +682,103 @@ def gerar_roteiro():
     (pasta / "index.html").write_text(pagina("Roteiro · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
 
 
+# Laboratório. As famílias de plataforma do 7.2, na sequência que a própria tese declara para cada uma.
+FAMILIAS = [
+    ("7.2.1", "funcionalidade-cognitiva"),
+    ("7.2.2", "infraestrutura-e-intermediacao"),
+    ("7.2.3", "produtividade-gig-economy"),
+    ("7.2.7", "administracao-de-confianca"),
+]
+CAMPOS_FAMILIA = [
+    ("Mecanismo de governança", None),
+    ("Vulnerabilidade central, promessas e perdas", r"vulnerabilidade central"),
+    ("Evidências, prova e pontos de cegueira", r"padrão probatório|evidência compatível"),
+    ("Consequência dogmática possível", r"consequência dogmática possível"),
+]
+DESDOBRAMENTOS = ["7.2.4", "7.2.5", "7.2.6"]
+LABORATORIO_ORIGEM = ["2.3", "5.2.2", "5.2.4", "6.1.2.1", "6.2.4.3.1"]
+
+
+def campos_da_familia(sec):
+    """Distribui os parágrafos da seção pelos quatro passos que o 7.2 declara, sem cortar nenhum."""
+    campos = [[rotulo, []] for rotulo, _ in CAMPOS_FAMILIA]
+    atual = 0
+    for b in sec["blocos"]:
+        if b["tipo"] == "marca":
+            continue
+        t = html.unescape(re.sub(r"<[^>]+>", "", b["html"]))
+        for i in range(len(CAMPOS_FAMILIA) - 1, atual, -1):
+            padrao = CAMPOS_FAMILIA[i][1]
+            if padrao and re.search(padrao, t, re.I):
+                atual = i
+                break
+        campos[atual][1].append(b)
+    return campos
+
+
+def gerar_laboratorio():
+    if not all(n in POR_NUMERO for n, _ in FAMILIAS):
+        return
+    pasta = SAIDA / "laboratorio"
+    pasta.mkdir(exist_ok=True)
+    intro = POR_NUMERO.get("7.2")
+    fecho = POR_NUMERO.get("7.3")
+    sequencia = next((b["html"] for b in intro["blocos"] if "Para manter essa comparabilidade" in b["html"]), "") if intro else ""
+    triade = next((b["html"] for b in fecho["blocos"] if "Ao manter distinguíveis" in b["html"]), "") if fecho else ""
+
+    cartoes = []
+    for num, slug in FAMILIAS:
+        sec = POR_NUMERO[num]
+        prefixo = "../../"
+        partes = []
+        for rotulo, blocos in campos_da_familia(sec):
+            if not blocos:
+                continue
+            corpo_campo = "".join(
+                f'<blockquote class="citacao-longa">{html_do_corpus(b["html"], sec["slug"], prefixo)}</blockquote>' if b["tipo"] == "citacao"
+                else f'<p>{html_do_corpus(b["html"], sec["slug"], prefixo)}</p>' for b in blocos)
+            partes.append(f'<section class="campo-caso" data-arq="passo declarado pelo 7.2 · texto literal"><h2>{esc(rotulo)}</h2><div class="texto">{corpo_campo}</div></section>')
+        sub = ""
+        if num == "7.2.7" and "7.2.7.1" in POR_NUMERO:
+            s1 = POR_NUMERO["7.2.7.1"]
+            primeiro = next((b["html"] for b in s1["blocos"] if b["tipo"] == "p"), "")
+            sub = (f'<section class="campo-caso"><h2>Subcaso · {esc(s1["n"])} {esc(s1["titulo"])}</h2><div class="texto"><p>{html_do_corpus(primeiro, s1["slug"], prefixo)}</p>'
+                   f'<p><a href="{prefixo}tese/{s1["slug"]}/">Ler o subcaso inteiro na tese</a></p></div></section>')
+        notas = ""
+        refs = set(re.findall(r'id="r(\d+)"', " ".join(b["html"] for b in sec["blocos"])))
+        if refs:
+            notas = f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/#notas-titulo">Notas desta seção na tese</a></p>'
+        corpo = (f'<article class="folha leitura laboratorio"><nav class="trilha" aria-label="Você está em"><a href="../">Laboratório</a></nav>'
+                 f'<header class="folha-cabeca"><p class="sobrelinha">Família de plataforma · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</p>'
+                 f'<h1>{esc(sec["titulo"])}</h1><p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção na tese</a></p>{notas}</header>'
+                 + "".join(partes) + sub + "</article>")
+        jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
+                  "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+        destino = pasta / slug
+        destino.mkdir(exist_ok=True)
+        primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
+        (destino / "index.html").write_text(
+            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld),
+            encoding="utf-8")
+        cartoes.append(f'<li><a class="cartao" href="{slug}/"><b>{esc(sec["titulo"])}</b><span>{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
+
+    desdob = "".join(f'<li><a href="../tese/{POR_NUMERO[n]["slug"]}/">{esc(n)} {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in DESDOBRAMENTOS if n in POR_NUMERO)
+    origem = "".join(f'<li><a href="../tese/{POR_NUMERO[n]["slug"]}/">{esc(n)} {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in LABORATORIO_ORIGEM if n in POR_NUMERO)
+    corpo = (
+        '<article class="folha leitura laboratorio">'
+        '<header class="folha-cabeca"><p class="sobrelinha">Laboratório · 7.2 e 7.3 da tese</p><h1>Laboratório</h1>'
+        + (f"<p>{html_do_corpus(sequencia, intro['slug'], '../')}</p>" if sequencia else "") + "</header>"
+        + f'<section class="bloco"><h2>As famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'
+        + (f'<section class="bloco"><h2>O que as famílias mostram</h2><blockquote class="citacao"><p>{html_do_corpus(triade, fecho["slug"], "../")}</p></blockquote></section>' if triade else "")
+        + (f'<section class="bloco"><h2>Desdobramentos da tipologia</h2><ul class="lista-simples">{desdob}</ul></section>' if desdob else "")
+        + (f'<section class="bloco"><h2>O laboratório de origem</h2><p>O ecossistema da Riot Games e League of Legends, em que a tese foi densificada.</p><ul class="lista-simples">{origem}</ul></section>' if origem else "")
+        + "</article>")
+    desc = "As famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos. Mecanismo, vulnerabilidade central, evidência e consequência dogmática possível, em texto literal."
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Laboratório · Lex Plataformae", "inLanguage": "pt-BR",
+              "url": BASE + "/laboratorio/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld), encoding="utf-8")
+
+
 def gerar_estilo():
     modelo = (RAIZ / "prototipo" / "modelo.html").read_text(encoding="utf-8")
     css = re.search(r"<style>(.*?)</style>", modelo, re.S).group(1)
@@ -712,7 +809,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/"]
+    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/laboratorio/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -732,6 +829,8 @@ def gerar_auxiliares():
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
     linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal."]
+    linhas += ["", "## Laboratório", "", f"- [Laboratório]({BASE}/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal."]
+    linhas += [f"- [{POR_NUMERO[n]['titulo']}]({BASE}/laboratorio/{slug}/): seção {n} da tese" for n, slug in FAMILIAS if n in POR_NUMERO]
     linhas += ["", "## A tese, seção por seção", "", f"- [Sumário e resumo]({BASE}/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção."]
     linhas += [f"- [{rotulo_secao(x)}]({BASE}/tese/{x['slug']}/): p. {x['pagina_inicio']} a {x['pagina_fim']}" for x in SECOES]
     linhas += ["", "## Tese", "", f"- [Tese completa em PDF]({BASE}/tese/{PDF_NOME}): {TITULO_TESE}. Doutorado em Direito, UNESP, 2026.",
@@ -758,6 +857,7 @@ def main():
         gerar_conceito(c)
     gerar_tese()
     gerar_roteiro()
+    gerar_laboratorio()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")

@@ -11,7 +11,7 @@ O site tem cinco camadas.
 1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé.
 2. **Atlas.** Uma página por conceito, com definição literal, função no regime, critério delimitador e seções de apoio. Os conceitos são os substantivos da tese.
 3. **Roteiro.** Feito em 27/10/2026, em `docs/roteiro/`. Os onze blocos de enquadramento do 7.1.2 (a a k), na ordem da tese e em texto literal, cada um com as partes que a própria tese usa. Quando incide, dever de fornecimento, prova mínima exigível, qualificação jurídica e consequência institucional. O bloco k não traz consequência institucional em frase própria. Abre com o portão de entrada, os quatro campos cumulativos do OIC (p. 428-429), e com a passagem do 7.1.1 sobre a sequência decisória. Fecha com o parágrafo do 7.1.2 que diz que o quadro não mecaniza a decisão. Cada bloco liga ao enunciado do 7.1.1 e aos conceitos do Atlas, e cada ficha aponta de volta para o seu bloco. O bloco g não tem enunciado próprio no 7.1.1.
-4. **Laboratório.** Casos em fichas de três campos, no formato do 7.3 (p. 788). Mecanismo de modulação lesiva, problema probatório e racionalidade de recomposição. O laboratório nunca conclui que algo "é abusivo".
+4. **Laboratório.** Feito em 27/10/2026, em `docs/laboratorio/`. As quatro famílias de plataforma do 7.2 que seguem a sequência declarada pela tese (7.2.1 funcionalidade cognitiva, 7.2.2 infraestrutura e intermediação, 7.2.3 produtividade sob a gig economy e 7.2.7 administração de confiança, com o 7.2.7.1 como subcaso). Cada uma em quatro passos, com os parágrafos da tese distribuídos sem corte. Mecanismo de governança. Vulnerabilidade central, promessas e perdas. Evidências, prova e pontos de cegueira. Consequência dogmática possível. A página inicial traz a passagem do 7.3 sobre mecanismo, prova e recomposição, os desdobramentos (7.2.4 a 7.2.6) e o laboratório de origem na Riot Games. Casos do autor, como o das loot boxes, só entram quando ele mandar. O laboratório nunca conclui que algo "é abusivo".
 5. **Leitura por máquina.** HTML estático, glossário estruturado, marcação de termos definidos, llms.txt e robots.txt aberto a robôs de IA.
 
 ## Regras inegociáveis
@@ -74,7 +74,7 @@ No site, as letras não são reproduzidas. A música entra por player incorporad
 
 - Hospedagem no GitHub Pages, a partir da pasta `docs/` do ramo `main`. O arquivo `docs/CNAME` fixa o domínio.
 - Leitura por máquina em `docs/robots.txt` (aberto a robôs de IA), `docs/sitemap.xml`, `docs/llms.txt`, `docs/dados/atlas.json` e marcação schema.org (Thesis, DefinedTermSet e DefinedTerm) em cada página.
-- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção.
+- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção. Em 27/10/2026 a versão passou a 0.4, com Roteiro e Laboratório.
 - 27/10/2026. Site no ar em https://lexplataformae.com.br, com HTTPS, servido pelo GitHub Pages. Domínio verificado na conta do autor.
 - O ambiente de trabalho do Claude não alcança o domínio pelo terminal. Para conferir o site no ar, usar a ferramenta de busca de páginas, que pede autorização ao autor.
 - DNS no Registro.br. Registros A do domínio raiz para 185.199.108.153, 185.199.109.153, 185.199.110.153 e 185.199.111.153. CNAME de www para victorlpandradeadv-creator.github.io. TXT de verificação do GitHub Pages na conta do autor.

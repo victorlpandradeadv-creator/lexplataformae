@@ -20,6 +20,14 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 
 - [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.
 
+## Laboratório
+
+- [Laboratório](https://lexplataformae.com.br/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal.
+- [Dos OICs de funcionalidade cognitiva e regime de informação](https://lexplataformae.com.br/laboratorio/funcionalidade-cognitiva/): seção 7.2.1 da tese
+- [Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/laboratorio/infraestrutura-e-intermediacao/): seção 7.2.2 da tese
+- [Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/laboratorio/produtividade-gig-economy/): seção 7.2.3 da tese
+- [Da administração de confiança à neutralização de conflitos por arquitetura](https://lexplataformae.com.br/laboratorio/administracao-de-confianca/): seção 7.2.7 da tese
+
 ## A tese, seção por seção
 
 - [Sumário e resumo](https://lexplataformae.com.br/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção.
