@@ -16,6 +16,10 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 - [Teleologia abusiva](https://lexplataformae.com.br/conceitos/teleologia-abusiva/): A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
 - [Vulnerabilidade semiótica](https://lexplataformae.com.br/conceitos/vulnerabilidade-semiotica/): A vulnerabilidade semiótica pode ser definida, em síntese, como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente. (p. 396)
 
+## Roteiro
+
+- [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.
+
 ## A tese, seção por seção
 
 - [Sumário e resumo](https://lexplataformae.com.br/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção.

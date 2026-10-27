@@ -172,7 +172,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
     <nav aria-label="Seções">
       <ul>
         <li><a href="{prefixo}">Atlas</a></li>
-        <li class="em-breve">Roteiro<small>em breve</small></li>
+        <li><a href="{prefixo}roteiro/">Roteiro</a></li>
         <li class="em-breve">Laboratório<small>em breve</small></li>
         <li><a href="{prefixo}#epigrafes">Epígrafes</a></li>
         <li><a href="{prefixo}tese/">A tese</a></li>
@@ -398,6 +398,11 @@ def gerar_conceito(c):
     elif c["tipo"] == "conceito":
         partes.append('<section class="bloco"><h2>Nas leituras da tese</h2><p>Não aparece em nenhuma das três sequências da tese.</p></section>')
 
+    letras = [l for l, (_, ids) in ROTEIRO_MAPA.items() if c["id"] in ids]
+    if letras and POR_NUMERO.get("7.1.2"):
+        partes.append('<section class="bloco"><h2>No Roteiro</h2><ul class="lugares">'
+                      + "".join(f'<li><a href="{prefixo}roteiro/#{l}">Bloco {l}</a></li>' for l in letras) + "</ul></section>")
+
     if c["tipo"] == "conceito":
         outros = em_ordem([x for x in conceitos_do_atlas() if x is not c and not x.get("eixo")])
         lista = ([] if c.get("eixo") else [EIXO]) + outros
@@ -547,6 +552,136 @@ def resumir_texto(t):
     return resumo(t)
 
 
+# Roteiro. Os blocos de enquadramento do 7.1.2, na ordem da tese, todos em texto literal.
+ROTEIRO_MAPA = {
+    "a": ("7.1.1.1", ["oic", "feixe-de-fruicao-governada"]),
+    "b": ("7.1.1.2", ["vulnerabilidade-semiotica"]),
+    "c": ("7.1.1.3", []),
+    "d": ("7.1.1.4", ["antecipacao-hipercuratorial"]),
+    "e": ("7.1.1.5", ["auditabilidade-aberta"]),
+    "f": ("7.1.1.6", ["equivalencia-de-valor-funcional"]),
+    "g": (None, []),
+    "h": ("7.1.1.7", ["teleologia-abusiva", "ilicito-de-arquitetura"]),
+    "i": ("7.1.1.8", []),
+    "j": ("7.1.1.9", ["funcao-social-da-pi"]),
+    "k": ("7.1.1.10", ["recomposicao-funcional"]),
+}
+PARTES_ROTEIRO = [
+    ("Quando incide", r"Sempre que"),
+    ("Dever de fornecimento", r"O dever (?:de fornecimento )?correspondente"),
+    ("Prova mínima exigível", r"A prova mínima exigível"),
+    ("Qualificação jurídica", r"A qualificação jurídica"),
+    ("Consequência institucional", r'A (?:<span class="pg-marca"[^>]*>[^<]*</span>\s*)?consequência institucional'),
+]
+
+
+def html_do_corpus(h, slug, prefixo):
+    """Reaproveita um trecho do corpus noutra página. Marcas e notas viram links para o corpus, sem ids repetidos."""
+    h = re.sub(r'<span class="pg-marca" id="p(\d+)"[^>]*>(p\. \d+)</span>',
+               lambda m: f'<a class="pg-marca" href="{prefixo}tese/{slug}/#p{m.group(1)}">{m.group(2)}</a>', h)
+    h = re.sub(r'<sup class="nota-ref"><a href="#n(\d+)" id="r\d+">(\d+)</a></sup>',
+               lambda m: f'<sup class="nota-ref"><a href="{prefixo}tese/{slug}/#n{m.group(1)}">{m.group(2)}</a></sup>', h)
+    return h
+
+
+def blocos_do_roteiro():
+    sec = POR_NUMERO.get("7.1.2")
+    if not sec:
+        return None
+    itens, atual, abertura, fecho = [], None, [], None
+    for b in sec["blocos"]:
+        t = html.unescape(re.sub(r"<[^>]+>", "", b["html"])).strip()
+        m = re.match(r"^([a-k])\) (.+?)[;.]\s*$", t)
+        if m:
+            atual = {"letra": m.group(1), "titulo": m.group(2), "html": ""}
+            itens.append(atual)
+            continue
+        if t.startswith("Esse quadro"):
+            fecho = b["html"]
+            continue
+        if atual is None:
+            if b["tipo"] == "p":
+                abertura.append(b["html"])
+            continue
+        atual["html"] += " " + b["html"]
+    inicios = "|".join(f"(?:{r})" for _, r in PARTES_ROTEIRO)
+    for it in itens:
+        pedacos = [x.strip() for x in re.split(f"(?=(?:{inicios}))", it["html"]) if x.strip()]
+        partes, pendente = [], ""
+        for pedaco in pedacos:
+            sem_marca = re.sub(r'^(<span class="pg-marca"[^>]*>[^<]*</span>\s*)+', "", pedaco)
+            if not sem_marca.strip():
+                pendente += pedaco + " "
+                continue
+            pedaco, pendente = pendente + pedaco, ""
+            rotulo = next((r for r, padrao in PARTES_ROTEIRO if re.match(padrao, sem_marca)), None)
+            if rotulo is None and partes:
+                partes[-1][1] += " " + pedaco
+            else:
+                partes.append([rotulo or "Quando incide", pedaco])
+        it["partes"] = partes
+    return {"secao": sec, "abertura": abertura, "itens": itens, "fecho": fecho}
+
+
+def gerar_roteiro():
+    r = blocos_do_roteiro()
+    if not r:
+        return
+    prefixo = "../"
+    slug = r["secao"]["slug"]
+    campos = POR_NUMERO.get("5.1.2.3")
+    portao = []
+    if campos:
+        texto = " ".join(b["html"] for b in campos["blocos"])
+        for inicio in ("O primeiro campo", "O segundo campo", "O terceiro campo", "O quarto campo", "A incidência não se decide"):
+            m = re.search(re.escape(inicio) + r".*?\.(?=\s|$)", texto)
+            if m:
+                portao.append(html_do_corpus(m.group(0), campos["slug"], prefixo))
+    enunciados = POR_NUMERO.get("7.1.1")
+    intro_711 = ""
+    if enunciados:
+        texto = " ".join(b["html"] for b in enunciados["blocos"])
+        m = re.search(r"Os enunciados não devem ser lidos.*?passo subsequente\.", texto)
+        if m:
+            intro_711 = html_do_corpus(m.group(0), enunciados["slug"], prefixo)
+
+    secoes = []
+    for it in r["itens"]:
+        num, ids = ROTEIRO_MAPA.get(it["letra"], (None, []))
+        ligacoes = []
+        if num and num in POR_NUMERO:
+            ligacoes.append(f'<a href="{prefixo}tese/{POR_NUMERO[num]["slug"]}/">Enunciado {num} na tese</a>')
+        ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{esc(POR_ID[i]["nome"])}</a>' for i in ids if i in POR_ID]
+        dl = "".join(f"<dt>{esc(rot)}</dt><dd>{html_do_corpus(h, slug, prefixo)}</dd>" for rot, h in it["partes"])
+        secoes.append(
+            f'<section class="bloco-roteiro" id="{it["letra"]}" aria-labelledby="titulo-{it["letra"]}">'
+            f'<h2 id="titulo-{it["letra"]}"><span class="letra">{it["letra"]})</span> {esc(it["titulo"])}</h2>'
+            f'<dl class="partes" data-arq="texto literal do 7.1.2 · cinco partes da tese">{dl}</dl>'
+            + (f'<p class="ligacoes">{" · ".join(ligacoes)}</p>' if ligacoes else "")
+            + "</section>")
+    lista_portao = "".join(f"<li>{x}</li>" for x in portao[:4])
+    regra_portao = f"<p>{portao[4]}</p>" if len(portao) > 4 else ""
+    indice = "".join(f'<li><a href="#{it["letra"]}"><span class="letra">{it["letra"]})</span> {esc(it["titulo"])}</a></li>' for it in r["itens"])
+    corpo = (
+        '<article class="folha leitura roteiro">'
+        '<header class="folha-cabeca"><p class="sobrelinha">Roteiro · 7.1.2 da tese</p><h1>Roteiro</h1>'
+        + "".join(f"<p>{html_do_corpus(a, slug, prefixo)}</p>" for a in r["abertura"][1:2]) +
+        '</header>'
+        + (f'<section class="bloco"><h2>Por que a ordem importa</h2><blockquote class="citacao"><p>{intro_711}</p></blockquote></section>' if intro_711 else "")
+        + (f'<section class="bloco portao" data-arq="portão · os quatro campos cumulativos do OIC"><h2>O portão de entrada</h2><ol>{lista_portao}</ol>{regra_portao}</section>' if lista_portao else "")
+        + f'<nav class="bloco indice-roteiro" aria-label="Blocos do roteiro"><h2>Os onze blocos</h2><ol>{indice}</ol></nav>'
+        + "".join(secoes)
+        + (f'<section class="bloco"><h2>O que o roteiro não faz</h2><blockquote class="citacao"><p>{html_do_corpus(r["fecho"], slug, prefixo)}</p></blockquote></section>' if r["fecho"] else "")
+        + '</article>'
+    )
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Roteiro · Lex Plataformae", "inLanguage": "pt-BR",
+              "url": BASE + "/roteiro/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    pasta = SAIDA / "roteiro"
+    pasta.mkdir(exist_ok=True)
+    desc = "Os onze blocos de enquadramento da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal."
+    (pasta / "index.html").write_text(pagina("Roteiro · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
+
+
 def gerar_estilo():
     modelo = (RAIZ / "prototipo" / "modelo.html").read_text(encoding="utf-8")
     css = re.search(r"<style>(.*?)</style>", modelo, re.S).group(1)
@@ -577,7 +712,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES]
+    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/"]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -596,6 +731,7 @@ def gerar_auxiliares():
     for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]):
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
+    linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal."]
     linhas += ["", "## A tese, seção por seção", "", f"- [Sumário e resumo]({BASE}/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção."]
     linhas += [f"- [{rotulo_secao(x)}]({BASE}/tese/{x['slug']}/): p. {x['pagina_inicio']} a {x['pagina_fim']}" for x in SECOES]
     linhas += ["", "## Tese", "", f"- [Tese completa em PDF]({BASE}/tese/{PDF_NOME}): {TITULO_TESE}. Doutorado em Direito, UNESP, 2026.",
@@ -621,6 +757,7 @@ def main():
     for c in D["conceitos"]:
         gerar_conceito(c)
     gerar_tese()
+    gerar_roteiro()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")
