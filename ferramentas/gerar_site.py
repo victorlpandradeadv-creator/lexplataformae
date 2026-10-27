@@ -167,7 +167,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     legenda = LEGENDA["interna" if interna else "mista"]
     cartao = imagem if imagem and (RAIZ / "site" / "cartoes" / f"{imagem}.png").exists() else "inicio"
     # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
-    assinatura = "" if caminho == "autor/" else f'<p class="assinatura">Quem está por trás destas ideias? <a href="{prefixo}autor/">Victor L. P. Andrade</a></p>'
+    assinatura = "" if caminho == "autor/" else f'<p class="assinatura"><a href="{prefixo}autor/">Sobre o autor</a></p>'
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -1915,7 +1915,7 @@ def gerar_autor():
     pasta = SAIDA / "autor"
     pasta.mkdir(exist_ok=True)
     (pasta / "index.html").write_text(
-        pagina("Victor L. P. Andrade · Lex Plataformae", "Quem está por trás destas ideias. A tese de doutorado de onde vem tudo o que está no site.",
+        pagina("Victor L. P. Andrade · Lex Plataformae", "Sobre o autor. A tese de doutorado de onde vem tudo o que está no site.",
                corpo, prefixo, "autor/", jsonld, camada="externa", imagem="autor"), encoding="utf-8")
 
 
