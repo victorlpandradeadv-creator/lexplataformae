@@ -6,7 +6,7 @@
 (function () {
   var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* A chave de desnudar é a protagonista do site e tem três degraus. 0 é a superfície, 1 abre o texto, 2 mostra a arquitetura.
+  /* A chave de desnudar é a protagonista do site e tem três degraus. 0 é Conhecer, 1 é Verificar, que abre o texto, e 2 é Despir, que mostra a arquitetura.
      A escolha acompanha a navegação. As páginas de estudo nunca ficam abaixo do texto, e escolher a superfície nelas leva de volta a ela. */
   var degraus = document.querySelectorAll('input[name="nivel"]');
   if (degraus.length) {

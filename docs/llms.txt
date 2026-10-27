@@ -8,16 +8,16 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 
 A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.
 
-- [O que você comprou, afinal?](https://lexplataformae.com.br/percurso/a-compra/): O botão diz comprar. O contrato diz outra coisa.
+- [O que você comprou, afinal?](https://lexplataformae.com.br/percurso/a-compra/): O botão diz comprar, mas o contrato diz outra coisa.
 - [Por que essa skin vale tanto?](https://lexplataformae.com.br/percurso/o-desejo/): Ela é um sinal que todo mundo lá dentro sabe ler.
-- [Quem ganha com o seu clique?](https://lexplataformae.com.br/percurso/o-dono/): A loja não vende uma coisa. Vende passagem.
+- [Quem ganha com o seu clique?](https://lexplataformae.com.br/percurso/o-dono/): A loja não vende uma coisa, vende passagem.
 - [Quem manda depois da compra?](https://lexplataformae.com.br/percurso/as-regras/): A regra que vale é a que está rodando.
-- [Por que tudo isso parece normal?](https://lexplataformae.com.br/percurso/o-normal/): A técnica parece neutra. Ela tem dono e direção.
-- [E se a sua skin mudar amanhã?](https://lexplataformae.com.br/percurso/a-mudanca/): Ela continua na conta. Já não é a mesma.
+- [Por que tudo isso parece normal?](https://lexplataformae.com.br/percurso/o-normal/): A técnica parece neutra, mas tem dono e direção.
+- [E se a sua skin mudar amanhã?](https://lexplataformae.com.br/percurso/a-mudanca/): Ela continua na conta, mas já não é a mesma.
 - [E se a perda fizer parte do plano?](https://lexplataformae.com.br/percurso/o-desenho/): Quando a perda vira rotina, o problema está no desenho.
-- [A lei já tem resposta?](https://lexplataformae.com.br/percurso/a-lei/): Mais do que parece. O espaço estava aberto desde 1990.
+- [A lei já tem resposta?](https://lexplataformae.com.br/percurso/a-lei/): Mais do que parece, porque o espaço estava aberto desde 1990.
 - [E quando dá errado?](https://lexplataformae.com.br/percurso/a-resposta/): Antes do dinheiro, devolver o que foi tirado.
-- [Isso só acontece nos jogos?](https://lexplataformae.com.br/percurso/alem-do-jogo/): Não. O jogo só mostra tudo mais nítido.
+- [Isso só acontece nos jogos?](https://lexplataformae.com.br/percurso/alem-do-jogo/): Não, o jogo só mostra tudo mais nítido.
 - [Por que dar nome a tudo isso?](https://lexplataformae.com.br/percurso/o-nome/): Porque o que tem nome pode ser cobrado.
 
 ## Conceitos

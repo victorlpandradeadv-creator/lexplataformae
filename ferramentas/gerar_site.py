@@ -145,12 +145,13 @@ LEGENDA = {
     "mista": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
               "As caixas com números de página levam ao trecho exato do texto integral."),
     "interna": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
-                "Para a leitura longa, sem etiquetas, volte ao degrau Texto."),
+                "Para a leitura longa, sem etiquetas, volte ao degrau Verificar."),
 }
 
-# A chave tem três degraus. A superfície fala com o leigo. O texto abre o conteúdo extra, limpo.
-# A arquitetura acrescenta as etiquetas e os contornos que mostram como a página é feita.
-DEGRAUS = ("Superfície", "Texto", "Arquitetura")
+# A chave tem três degraus, com os nomes escolhidos pelo autor em 27/10/2026.
+# Conhecer é a superfície, que fala com o leigo. Verificar abre o conteúdo extra da tese, limpo.
+# Despir acrescenta as etiquetas e os contornos que mostram como a página é feita.
+DEGRAUS = ("Conhecer", "Verificar", "Despir")
 
 
 def chave_mestra(nivel):
@@ -165,8 +166,8 @@ def chave_mestra(nivel):
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None):
     """Monta a página.
 
-    camada 'mista' tem texto limpo na superfície, o conteúdo extra no degrau Texto e as etiquetas no degrau Arquitetura.
-    camada 'interna' é página de estudo, que já abre no degrau Texto. Escolher a superfície leva de volta a ela.
+    camada 'mista' tem texto limpo no degrau Conhecer, o conteúdo extra no degrau Verificar e as etiquetas no degrau Despir.
+    camada 'interna' é página de estudo, que já abre no degrau Verificar. Escolher Conhecer leva de volta à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
     canonico = BASE + "/" + caminho
@@ -304,6 +305,70 @@ def carregar_percurso():
 
 
 PERCURSO = carregar_percurso()
+
+
+# Ilustrações conceituais. O plano fica em estrutura/ilustracoes.md e os arquivos em site/ilustracoes/<id>.webp.
+# Sem arquivo, o lugar aparece só no degrau Despir, como ilustração prevista.
+ILUSTRACOES_DIR = RAIZ / "site" / "ilustracoes"
+EXTENSOES = (".webp", ".avif", ".png", ".jpg")
+AVISO_IA = "Ilustração conceitual feita com IA."
+
+
+def carregar_ilustracoes():
+    arq = RAIZ / "estrutura" / "ilustracoes.md"
+    pecas, atual, campo_ = {}, None, None
+    if not arq.exists():
+        return pecas
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = pecas.setdefault(linha[3:].strip(), {"citacoes": []})
+            campo_ = None
+            continue
+        if linha.startswith("### ") and atual is not None:
+            campo_ = linha[4:].strip()
+            continue
+        if atual is None or not campo_ or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+        if m:
+            atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        else:
+            atual[campo_] = (atual.get(campo_, "") + " " + linha.strip()).strip()
+    return pecas
+
+
+ILUSTRACOES = carregar_ilustracoes()
+ILUSTRACOES_USADAS = set()
+
+
+def arquivo_ilustracao(ident):
+    for ext in EXTENSOES:
+        f = ILUSTRACOES_DIR / f"{ident}{ext}"
+        if f.exists():
+            return f
+    return None
+
+
+def figura(ident, prefixo):
+    """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir."""
+    peca = ILUSTRACOES.get(ident)
+    if not peca:
+        return ""
+    ILUSTRACOES_USADAS.add(ident)
+    formato = "formato-4x3" if peca.get("formato", "").startswith("4") else "formato-16x9"
+    arq = arquivo_ilustracao(ident)
+    if not arq:
+        return (f'<figure class="ilustracao prevista arq {formato}" data-arq="ilustração prevista · {esc(ident)}">'
+                f'<p>{esc(peca.get("ideia", ""))}</p></figure>')
+    from PIL import Image
+    with Image.open(arq) as im:
+        largura, altura = im.size
+    escuro = next((ILUSTRACOES_DIR / f"{ident}-escuro{ext}" for ext in EXTENSOES if (ILUSTRACOES_DIR / f"{ident}-escuro{ext}").exists()), None)
+    fonte = f'<source media="(prefers-color-scheme: dark)" srcset="{prefixo}assets/ilustracoes/{escuro.name}">' if escuro else ""
+    return (f'<figure class="ilustracao {formato}"><picture>{fonte}'
+            f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{esc(peca.get("alt", ""))}" width="{largura}" height="{altura}" loading="lazy" decoding="async"></picture>'
+            f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
+            + expansao(peca["citacoes"], prefixo) + "</figure>")
 ROTULOS_PERCURSO = {"imagem": "Uma imagem", "mecanismo": "Como funciona", "caso": "Um caso",
                     "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo"}
 
@@ -315,7 +380,7 @@ def partes_com_ideia(cid):
 
 
 def expansao(cits, prefixo):
-    """Os trechos literais que um bloco simples condensa. Aparecem a partir do degrau Texto."""
+    """Os trechos literais que um bloco simples condensa. Aparecem a partir do degrau Verificar."""
     if not cits:
         return ""
     return ('<div class="interno expansao" data-arq="de onde vem · trechos literais, com a página">'
@@ -337,11 +402,11 @@ def ext_html(pag, campo_, prefixo, classe=""):
 
 
 def botao_desnudar():
-    """O convite dentro da página leva ao degrau seguinte. Do último, volta à superfície."""
+    """O convite dentro da página leva ao degrau seguinte. Do último, volta à primeira vista."""
     return ('<span class="convite-botoes">'
-            '<label class="botao convite-botao so-0" for="nivel-1">Ver o texto por trás</label>'
-            '<label class="botao convite-botao so-1" for="nivel-2">Desnudar a arquitetura</label>'
-            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à superfície</label></span>')
+            '<label class="botao convite-botao so-0" for="nivel-1">Verificar de onde vem</label>'
+            '<label class="botao convite-botao so-1" for="nivel-2">Despir a arquitetura</label>'
+            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à primeira vista</label></span>')
 
 
 def html_passo(passo, base):
@@ -415,6 +480,8 @@ def bloco_percurso(b, prefixo):
         titulo = ext_texto(arg, "titulo") or arg
         return (f'<section class="ext termo familia"><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}</span>'
                 f'<a href="{prefixo}laboratorio/{arg}/">{esc(titulo)}</a></h2>{texto}{exp}</section>')
+    if tipo == "ilustracao":
+        return figura(arg, prefixo)
     if tipo in ("imagem", "mecanismo", "caso"):
         return f'<section class="ext didatico {tipo}"><p class="rotulo-ext">{rotulo}</p>{texto}{exp}</section>'
     return f'<section class="ext">{texto}{exp}</section>'
@@ -443,6 +510,7 @@ def gerar_percurso():
         corpo = (f'<article class="folha percurso-parte">'
                  f'<p class="sobrelinha-ext"><a href="{prefixo}#percurso">Percurso</a> · Parte {i} de {total}</p>'
                  f'<header class="folha-cabeca ext-cabeca"><h1>{esc(parte["titulo"])}</h1></header>'
+                 + figura(f'parte-{parte["slug"]}', prefixo)
                  + "".join(bloco_percurso(b, prefixo) for b in parte["blocos"])
                  + f'<section class="ext duvida"><p class="pergunta-final">{esc(parte["pergunta"])}</p>'
                  f'<div class="acoes">{avancar}{botao_desnudar()}</div></section>'
@@ -515,6 +583,8 @@ def gerar_inicio():
       <div class="lema">{ext_html("inicio", "abertura", "")}</div>
       <blockquote class="frase interno" data-arq="citação literal · a frase que abre o percurso">“{esc(ab["texto"])}”{pg(ab["ref"], "", ab["texto"])}</blockquote>
     </section>
+
+    {figura("inicio", "")}
 
     <section class="secao problema" aria-label="O problema">
       {ext_html("inicio", "problema", "")}
@@ -698,6 +768,7 @@ def gerar_conceito(c):
             + bloco_ext("fenomeno", classe="fenomeno")
             + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span>{esc(c["nome"])}</h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
+            + figura(f'ideia-{c["id"]}', prefixo)
             + bloco_ext("imagem", "Uma imagem", "didatico imagem")
             + bloco_ext("mecanismo", "Como funciona", "didatico mecanismo")
             + bloco_ext("caso", "Um caso", "didatico caso")
@@ -1433,6 +1504,7 @@ def gerar_laboratorio():
             externo = (f'<a class="voltar" href="../">← Laboratório</a>'
                        f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(slug, "titulo"))}</h1></header>'
                        f'<section class="ext">{ext_html(slug, "resumo", prefixo)}</section>'
+                       + figura(f"familia-{slug}", prefixo) +
                        f'<section class="ext duvida">{botao_desnudar()}</section>')
         corpo = (f'<article class="folha leitura laboratorio">{externo}'
                  f'<div class="interno arquitetura" data-arq="arquitetura · a família de plataforma no texto integral">'
@@ -1476,6 +1548,7 @@ def gerar_laboratorio():
         '<article class="folha leitura laboratorio">'
         f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Laboratório</p><h1>{esc(ext_texto("laboratorio", "titulo"))}</h1></header>'
         f'<section class="ext">{ext_html("laboratorio", "abertura", "../")}</section>'
+        + figura("laboratorio", "../")
         + f'<section class="bloco"><h2>Quatro famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'
         f'<section class="ext limite"><p class="rotulo-ext">Até onde vai</p>{ext_html("laboratorio", "limite", "../")}</section>'
         f'<section class="ext duvida">{botao_desnudar()}</section>'
@@ -1962,12 +2035,17 @@ img { max-width: 100%; }
     extra = (RAIZ / "site" / "extra.css").read_text(encoding="utf-8")
     assets = SAIDA / "assets"
     (assets / "fontes").mkdir(parents=True, exist_ok=True)
-    # O degrau Arquitetura vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.
+    # O degrau Despir vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.
     estilo = (fontes + css + "\n" + extra).replace("body.desnudo", ":is(body.desnudo, body:has(#nivel-2:checked))")
     (assets / "estilo.css").write_text(estilo, encoding="utf-8")
     for arq in (RAIZ / "ferramentas" / "fontes").iterdir():
         shutil.copy(arq, assets / "fontes" / arq.name)
     shutil.copy(RAIZ / "site" / "atlas.js", assets / "atlas.js")
+    if ILUSTRACOES_DIR.exists():
+        (assets / "ilustracoes").mkdir(exist_ok=True)
+        for arq in ILUSTRACOES_DIR.iterdir():
+            if arq.suffix in EXTENSOES:
+                shutil.copy(arq, assets / "ilustracoes" / arq.name)
     if (RAIZ / "site" / "cartoes").exists():
         (assets / "cartoes").mkdir(exist_ok=True)
         for arq in (RAIZ / "site" / "cartoes").glob("*.png"):
@@ -2133,6 +2211,10 @@ def main():
     for texto, ref in sorted(todos - DESTAQUES_USADOS):
         print(f"Destaque sem lugar no site  {ref}  {texto[:70]}")
     print(f"{len(todos & DESTAQUES_USADOS)} de {len(todos)} destaques marcados no texto")
+    prontas = sum(1 for i in ILUSTRACOES if arquivo_ilustracao(i))
+    print(f"Ilustrações  {len(ILUSTRACOES)} previstas, {prontas} com arquivo, {len(ILUSTRACOES_USADAS)} com lugar no site")
+    for i in sorted(set(ILUSTRACOES) - ILUSTRACOES_USADAS):
+        print(f"Ilustração sem lugar no site  {i}")
     gerar_cobertura()
 
 
