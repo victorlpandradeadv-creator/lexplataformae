@@ -6,7 +6,7 @@ Este arquivo é a memória do projeto. Toda sessão que trabalhar aqui deve lê-
 
 ## Arquitetura
 
-O site tem sete camadas.
+O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundamentos, Dogmática, Roteiro, Laboratório, Epígrafes e A tese.
 
 1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé. O índice da tese traz o plano da obra nas palavras da introdução (p. 42), com o lugar de cada capítulo no site. Cada seção mostra as páginas das camadas que a trazem.
 2. **Atlas.** Uma página por conceito, com definição literal, função no regime, critério delimitador e seções de apoio. Os conceitos são os substantivos da tese.
@@ -14,7 +14,8 @@ O site tem sete camadas.
 4. **Laboratório.** Feito em 27/10/2026, em `docs/laboratorio/`. As quatro famílias de plataforma do 7.2 que seguem a sequência declarada pela tese (7.2.1 funcionalidade cognitiva, 7.2.2 infraestrutura e intermediação, 7.2.3 produtividade sob a gig economy e 7.2.7 administração de confiança, com o 7.2.7.1 como subcaso). Cada uma em quatro passos, com os parágrafos da tese distribuídos sem corte. Mecanismo de governança. Vulnerabilidade central, promessas e perdas. Evidências, prova e pontos de cegueira. Consequência dogmática possível. A página inicial traz o teste da abertura do capítulo 7, a passagem do 7.3 sobre mecanismo, prova e recomposição e o laboratório de origem na Riot Games, com o recorte da introdução (p. 36-37). Os desdobramentos (7.2.4 concorrência, 7.2.5 tutela coletiva e 7.2.6 consumidor equiparado) têm página própria em texto integral. O subcaso 7.2.7.1 aparece inteiro na página do 7.2.7. Casos do autor, como o das loot boxes, só entram quando ele mandar. O laboratório nunca conclui que algo "é abusivo".
 5. **Fundamentos.** Feito em 27/10/2026, em `docs/fundamentos/`. Os capítulos 3 e 4, organizados pela declaração que abre cada capítulo. No capítulo 3, os três conjuntos conceituais (p. 83-85). No capítulo 4, os quatro parágrafos que nomeiam autores e funções (p. 261-263). Cada conjunto traz o parágrafo literal, os autores que ele nomeia, as seções em que a tese cita cada um, pela contagem mecânica do sobrenome no texto e nas notas, e as obras do autor na lista de referências. Abre com a passagem do capítulo 2 sobre o uso não exegético dos conceitos (p. 47). Fecha cada capítulo com a lista das suas seções.
 6. **Método.** Feito em 27/10/2026, em `docs/metodo/`. O capítulo 2, que a tese apresenta como os elementos que tornam a investigação auditável (p. 47). Traz a distinção entre objeto e instrumentos (p. 46-47), cada parte do protocolo com o primeiro parágrafo da sua seção, e as três camadas de informação do 2.4.
-7. **Leitura por máquina.** HTML estático, glossário estruturado, marcação de termos definidos, llms.txt e robots.txt aberto a robôs de IA.
+7. **Dogmática.** Feito em 27/10/2026, em `docs/dogmatica/`. Os capítulos 5 e 6, pela abertura de cada um, parágrafo a parágrafo e em texto literal. Os parágrafos da abertura do capítulo 5 que nomeiam autores (Rizzatto Nunes, Larenz, Ferraz Jr., Ávila, Claudia Lima Marques, Wada, Reale e Unger) trazem as seções que os citam e as obras na lista de referências. Cada parágrafo traz os conceitos do Atlas que nomeia. Abre com a base normativa do 2.2 (p. 54). Fecha com o índice dos dispositivos legais citados em toda a tese, só os que trazem o nome da lei na mesma frase.
+8. **Leitura por máquina.** HTML estático, glossário estruturado, marcação de termos definidos, llms.txt e robots.txt aberto a robôs de IA.
 
 ## Regras inegociáveis
 
@@ -48,7 +49,7 @@ O site tem sete camadas.
 - 26/10/2026. Função social da propriedade intelectual e recomposição funcional com correção de regime saem do Atlas e seguem como passos do Roteiro (7.1.1.9 e 7.1.1.10). Suas fichas ficam preservadas.
 - 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
 - 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Orientação do autor, que não é nota para publicar. Integridade pessoal se refere à integridade da personalidade civil, e tudo o que integra a personalidade civil pode integrá-la. O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
-- 27/10/2026. Tudo o que está na tese será trazido, com o tempo, para a estrutura do site. O corpus já tem o texto integral. As camadas devem chegar a todas as seções. O mapa do caminho está em `estrutura/cobertura.md`, refeito a cada geração do site. Em 27/10/2026, capítulo 7 e conclusão completos, 59 de 116 seções com lugar numa camada. No mesmo dia, com Fundamentos e Método, capítulos 2, 3 e 4 completos e 89 de 116. Faltam partes dos capítulos 5 e 6.
+- 27/10/2026. Tudo o que está na tese será trazido, com o tempo, para a estrutura do site. O corpus já tem o texto integral. As camadas devem chegar a todas as seções. O mapa do caminho está em `estrutura/cobertura.md`, refeito a cada geração do site. Em 27/10/2026, capítulo 7 e conclusão completos, 59 de 116 seções com lugar numa camada. No mesmo dia, com Fundamentos e Método, capítulos 2, 3 e 4 completos e 89 de 116. Com Dogmática, 116 de 116. Toda seção da tese tem lugar em alguma camada além do corpus.
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
 
 ## Arquivos
@@ -64,6 +65,7 @@ O site tem sete camadas.
 - Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese.
 - `estrutura/destaques.md` guarda os trechos literais que as páginas das camadas marcam no texto da tese, por seção e, no 7.1.3, por diretriz. A seleção é do site e a página diz isso ao leitor. O texto é conferido por script.
 - A lista dos autores declarados nas aberturas dos capítulos 3 e 4 fica em `AUTORES`, em `ferramentas/gerar_site.py`, com o nome como a abertura o escreve, o sobrenome que a contagem procura e a chave da lista de referências. Grant McCraken aparece com a grafia da abertura do capítulo 3. A lista de referências grafa MCCRACKEN.
+- A lista dos autores da abertura do capítulo 5 fica em `AUTORES_5`. O índice de dispositivos usa `PADRAO_DISPOSITIVO`, em `ferramentas/gerar_site.py`, e só reconhece artigo com o nome da lei na mesma frase. Conferência de 27/10/2026, 53 frases e 57 remissões a artigo, em cinco leis.
 - `estrutura/cobertura.md` é gerado por `gerar_site.py` e mostra em que camadas cada seção da tese já tem lugar. Não editar à mão.
 - `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md`. Commit só com zero falhas.
 

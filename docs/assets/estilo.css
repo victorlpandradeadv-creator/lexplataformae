@@ -376,3 +376,24 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
   .eixo { padding: 1rem; }
 }
 @media (pointer: coarse) { .secoes-cap li > a { min-height: 44px; } }
+
+/* Dogmática */
+.paragrafo-anotado { display: grid; gap: 0.5rem; }
+.paragrafo-anotado .citacao { margin: 0; }
+.dispositivos { display: grid; gap: 1.25rem; }
+.dispositivos .lei { display: grid; gap: 0.5rem; }
+.dispositivos .lei h3 { font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; margin: 0; }
+.artigos { list-style: none; margin: 0; padding: 0; display: grid; }
+.artigos li { display: grid; grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); gap: 0.25rem 1rem; padding-top: 0.45rem; padding-bottom: 0.45rem; border-bottom: 1px solid var(--linha); align-items: baseline; }
+.artigos .artigo { font-family: var(--f-dado); font-size: 0.85rem; }
+.artigos .onde { font-family: var(--f-display); font-size: 0.9rem; line-height: 1.6; }
+@media (max-width: 640px) { .artigos li { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 1180px) and (min-width: 641px) { .topo nav ul { column-gap: 0.8rem; } .topo { column-gap: 1rem; } }
+.secoes-cap li > a { grid-template-columns: minmax(4.2rem, max-content) minmax(0, 1fr); }
+.secoes-cap .nivel-4 > a { padding-left: 3rem; }
+.secoes-cap .nivel-5 > a { padding-left: 4rem; }
+@media (max-width: 640px) {
+  .secoes-cap li[class] > a { padding-left: 0; grid-template-columns: minmax(3.4rem, max-content) minmax(0, 1fr); }
+  .secoes-cap li { grid-template-columns: minmax(0, 1fr); }
+  .secoes-cap .pag { padding-left: 0; }
+}
