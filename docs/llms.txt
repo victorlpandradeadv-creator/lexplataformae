@@ -19,6 +19,8 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 ## Roteiro
 
 - [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.
+- [Diretrizes de controle](https://lexplataformae.com.br/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.
+- [Cidadania digital e limites](https://lexplataformae.com.br/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral.
 
 ## Laboratório
 
@@ -27,10 +29,13 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 - [Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/laboratorio/infraestrutura-e-intermediacao/): seção 7.2.2 da tese
 - [Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/laboratorio/produtividade-gig-economy/): seção 7.2.3 da tese
 - [Da administração de confiança à neutralização de conflitos por arquitetura](https://lexplataformae.com.br/laboratorio/administracao-de-confianca/): seção 7.2.7 da tese
+- [Da concorrência sob a Lex Plataformae](https://lexplataformae.com.br/laboratorio/concorrencia/): seção 7.2.4 da tese, desdobramento da tipologia
+- [Da tutela coletiva sob auditabilidade aberta](https://lexplataformae.com.br/laboratorio/tutela-coletiva/): seção 7.2.5 da tese, desdobramento da tipologia
+- [Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma](https://lexplataformae.com.br/laboratorio/consumidor-equiparado/): seção 7.2.6 da tese, desdobramento da tipologia
 
 ## A tese, seção por seção
 
-- [Sumário e resumo](https://lexplataformae.com.br/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção.
+- [Sumário, resumo e plano da tese](https://lexplataformae.com.br/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção.
 - [1 INTRODUÇÃO](https://lexplataformae.com.br/tese/1/): p. 21 a 42
 - [2 DO DESENHO METODOLÓGICO E DO PROTOCOLO DE OBSERVAÇÃO](https://lexplataformae.com.br/tese/2/): p. 45 a 47
 - [2.1 Da estratégia teórico-metodológica](https://lexplataformae.com.br/tese/2-1/): p. 47 a 54

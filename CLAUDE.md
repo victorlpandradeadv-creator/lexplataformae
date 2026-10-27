@@ -8,10 +8,10 @@ Este arquivo é a memória do projeto. Toda sessão que trabalhar aqui deve lê-
 
 O site tem cinco camadas.
 
-1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé.
+1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé. O índice da tese traz o plano da obra nas palavras da introdução (p. 42), com o lugar de cada capítulo no site. Cada seção mostra as páginas das camadas que a trazem.
 2. **Atlas.** Uma página por conceito, com definição literal, função no regime, critério delimitador e seções de apoio. Os conceitos são os substantivos da tese.
-3. **Roteiro.** Feito em 27/10/2026, em `docs/roteiro/`. Os onze blocos de enquadramento do 7.1.2 (a a k), na ordem da tese e em texto literal, cada um com as partes que a própria tese usa. Quando incide, dever de fornecimento, prova mínima exigível, qualificação jurídica e consequência institucional. O bloco k não traz consequência institucional em frase própria. Abre com o portão de entrada, os quatro campos cumulativos do OIC (p. 428-429), e com a passagem do 7.1.1 sobre a sequência decisória. Fecha com o parágrafo do 7.1.2 que diz que o quadro não mecaniza a decisão. Cada bloco liga ao enunciado do 7.1.1 e aos conceitos do Atlas, e cada ficha aponta de volta para o seu bloco. O bloco g não tem enunciado próprio no 7.1.1.
-4. **Laboratório.** Feito em 27/10/2026, em `docs/laboratorio/`. As quatro famílias de plataforma do 7.2 que seguem a sequência declarada pela tese (7.2.1 funcionalidade cognitiva, 7.2.2 infraestrutura e intermediação, 7.2.3 produtividade sob a gig economy e 7.2.7 administração de confiança, com o 7.2.7.1 como subcaso). Cada uma em quatro passos, com os parágrafos da tese distribuídos sem corte. Mecanismo de governança. Vulnerabilidade central, promessas e perdas. Evidências, prova e pontos de cegueira. Consequência dogmática possível. A página inicial traz a passagem do 7.3 sobre mecanismo, prova e recomposição, os desdobramentos (7.2.4 a 7.2.6) e o laboratório de origem na Riot Games. Casos do autor, como o das loot boxes, só entram quando ele mandar. O laboratório nunca conclui que algo "é abusivo".
+3. **Roteiro.** Feito em 27/10/2026, em `docs/roteiro/`. Os onze blocos de enquadramento do 7.1.2 (a a k), na ordem da tese e em texto literal, cada um com as partes que a própria tese usa. Quando incide, dever de fornecimento, prova mínima exigível, qualificação jurídica e consequência institucional. O bloco k não traz consequência institucional em frase própria. Abre com o portão de entrada, os quatro campos cumulativos do OIC (p. 428-429), e com a passagem do 7.1.1 sobre a sequência decisória. Fecha com o parágrafo do 7.1.2 que diz que o quadro não mecaniza a decisão. Cada bloco liga ao enunciado do 7.1.1 e aos conceitos do Atlas, e cada ficha aponta de volta para o seu bloco. O bloco g não tem enunciado próprio no 7.1.1. Desde 27/10/2026 o Roteiro tem três partes, uma por seção do 7.1. Os blocos do 7.1.2 em `docs/roteiro/`, as dez diretrizes do 7.1.3 em `docs/roteiro/diretrizes/`, cada uma com o seu texto integral, e o 7.1.4 em `docs/roteiro/limites/`.
+4. **Laboratório.** Feito em 27/10/2026, em `docs/laboratorio/`. As quatro famílias de plataforma do 7.2 que seguem a sequência declarada pela tese (7.2.1 funcionalidade cognitiva, 7.2.2 infraestrutura e intermediação, 7.2.3 produtividade sob a gig economy e 7.2.7 administração de confiança, com o 7.2.7.1 como subcaso). Cada uma em quatro passos, com os parágrafos da tese distribuídos sem corte. Mecanismo de governança. Vulnerabilidade central, promessas e perdas. Evidências, prova e pontos de cegueira. Consequência dogmática possível. A página inicial traz o teste da abertura do capítulo 7, a passagem do 7.3 sobre mecanismo, prova e recomposição e o laboratório de origem na Riot Games, com o recorte da introdução (p. 36-37). Os desdobramentos (7.2.4 concorrência, 7.2.5 tutela coletiva e 7.2.6 consumidor equiparado) têm página própria em texto integral. O subcaso 7.2.7.1 aparece inteiro na página do 7.2.7. Casos do autor, como o das loot boxes, só entram quando ele mandar. O laboratório nunca conclui que algo "é abusivo".
 5. **Leitura por máquina.** HTML estático, glossário estruturado, marcação de termos definidos, llms.txt e robots.txt aberto a robôs de IA.
 
 ## Regras inegociáveis
@@ -35,6 +35,7 @@ O site tem cinco camadas.
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
 - Leitura proposta para ilícito de arquitetura e teleologia abusiva. O primeiro como gênero, a segunda como critério da finalidade. Nos percursos aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).
+- Seleção dos destaques em `estrutura/destaques.md`. Feita pelo Claude em 27/10/2026, aguarda a revisão do autor.
 - Licença. Até a decisão, todos os direitos reservados. Proposta em estudo, MIT para o código e CC BY 4.0 para o conteúdo próprio, com exclusão expressa de material de terceiros.
 
 ## Decisões tomadas
@@ -45,6 +46,7 @@ O site tem cinco camadas.
 - 26/10/2026. Função social da propriedade intelectual e recomposição funcional com correção de regime saem do Atlas e seguem como passos do Roteiro (7.1.1.9 e 7.1.1.10). Suas fichas ficam preservadas.
 - 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
 - 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Orientação do autor, que não é nota para publicar. Integridade pessoal se refere à integridade da personalidade civil, e tudo o que integra a personalidade civil pode integrá-la. O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
+- 27/10/2026. Tudo o que está na tese será trazido, com o tempo, para a estrutura do site. O corpus já tem o texto integral. As camadas devem chegar a todas as seções. O mapa do caminho está em `estrutura/cobertura.md`, refeito a cada geração do site. Em 27/10/2026, capítulo 7 e conclusão completos, 59 de 116 seções com lugar numa camada.
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
 
 ## Arquivos
@@ -58,7 +60,9 @@ O site tem cinco camadas.
 - `site/atlas.js` e `site/extra.css` são as fontes do script e dos acréscimos de estilo do site. O estilo base vem do `<style>` de `prototipo/modelo.html`.
 - `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.
 - Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese.
-- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py <arquivos.md>`. Commit só com zero falhas.
+- `estrutura/destaques.md` guarda os trechos literais que as páginas das camadas marcam no texto da tese, por seção e, no 7.1.3, por diretriz. A seleção é do site e a página diz isso ao leitor. O texto é conferido por script.
+- `estrutura/cobertura.md` é gerado por `gerar_site.py` e mostra em que camadas cada seção da tese já tem lugar. Não editar à mão.
+- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md`. Commit só com zero falhas.
 
 ## Epígrafes
 

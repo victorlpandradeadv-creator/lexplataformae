@@ -76,3 +76,37 @@ a.pg-marca { text-decoration: none; }
 .laboratorio .campo-caso { display: grid; gap: 0.6rem; padding-top: 1.25rem; border-top: 1px solid var(--linha); }
 .laboratorio .campo-caso h2 { font-family: var(--f-dado); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--tinta-2); margin: 0; line-height: 1.4; }
 .lista-simples { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.4rem; }
+
+/* Destaques e termos nomeados */
+mark.destaque { background: linear-gradient(transparent 12%, var(--marca) 12%, var(--marca) 88%, transparent 88%); color: inherit; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding-inline: 0.1em; scroll-margin-top: 4rem; }
+mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
+.nomeados { border-top: 1px dashed var(--linha); padding-top: 0.6rem; display: grid; gap: 0.35rem; }
+.nomeados .sobrelinha, .plano-site .sobrelinha { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+.nomeados ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-family: var(--f-display); font-size: 0.9rem; }
+.vezes { font-family: var(--f-dado); font-size: 0.75rem; color: var(--tinta-2); }
+.nota-camada { margin: 0; font-size: 0.95rem; color: var(--tinta-2); }
+.indice-destaques ol { margin: 0; padding-left: 1.4rem; display: grid; gap: 0.6rem; }
+.indice-destaques h3 { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--tinta-2); margin: 0 0 0.5rem; }
+.indice-destaques a { color: var(--tinta); }
+.indice-diretrizes li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.25rem 1rem; align-items: baseline; }
+.indice-diretrizes li a { display: grid; gap: 0.2rem; text-decoration: none; color: var(--tinta); }
+.indice-diretrizes li a b { font-family: var(--f-display); font-weight: 700; }
+.indice-diretrizes li a:hover span { text-decoration: underline; }
+.partes-roteiro ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; }
+.partes-roteiro a { font-family: var(--f-display); text-decoration: none; }
+.partes-roteiro a[aria-current="page"] { color: var(--tinta); font-weight: 700; }
+.partes-roteiro .num { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); margin-right: 0.4rem; }
+.subcaso .texto p { margin: 0 0 1rem; }
+
+/* Plano da tese */
+.plano-lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.25rem; }
+.plano-lista > li { display: grid; gap: 0.5rem; padding-top: 1rem; border-top: 1px solid var(--linha); }
+.plano-caps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.25rem; }
+.plano-caps a { font-family: var(--f-display); font-weight: 700; text-decoration: none; color: var(--tinta); }
+.plano-caps a:hover { text-decoration: underline; }
+.plano-caps .num { font-family: var(--f-dado); font-weight: 500; font-size: 0.8rem; color: var(--tinta-2); margin-right: 0.4rem; }
+.plano-caps .pag { font-family: var(--f-dado); font-size: 0.75rem; color: var(--tinta-2); }
+.plano-site { margin: 0; font-family: var(--f-display); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.3rem 0.6rem; align-items: baseline; }
+.plano .citacao { margin: 0; }
+@media (max-width: 640px) { .indice-diretrizes li { grid-template-columns: minmax(0, 1fr); } }
+@media (pointer: coarse) { .partes-roteiro a, .plano-caps a, .nomeados a, .indice-destaques a { display: inline-flex; align-items: center; min-height: 44px; } }
