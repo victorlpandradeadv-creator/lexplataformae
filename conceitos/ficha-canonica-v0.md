@@ -1,10 +1,10 @@
-# Ficha canônica dos conceitos · v0.1
+# Ficha canônica dos conceitos · v0.2
 
 Unidade de revisão do lexplataformae.com.br. Rascunho para validação do autor.
 
 ## Como ler
 
-O Atlas tem um campo e nove conceitos. A Lex Plataformae é o campo onde tudo acontece e dá nome ao site. Dentro dela estão os nove conceitos. Cada um traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
+O Atlas tem nove conceitos, na numeração definida pelo autor em 26/10/2026. A Lex Plataformae é, ao mesmo tempo, um dos nove e o campo onde os outros acontecem. Cada conceito traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
 
 Toda citação é literal e foi conferida por script contra o texto da tese. As páginas seguem a numeração impressa. Notas de rodapé foram suprimidas das citações e as supressões de trecho estão marcadas com [...].
 
@@ -25,32 +25,6 @@ Não há contradição. São três leituras com propósitos distintos. A primeir
 ### 2. Cada conceito tem várias definições.
 
 A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, com ênfases diferentes (p. 281, 321, 330, 396 e 719-720). Num livro isso é riqueza. Num site, é preciso uma definição canônica e as demais como facetas.
-
----
-
-## Campo. Lex Plataformae
-
-**Função no regime.** O campo. Não é etapa do raciocínio, é a ordenação dentro da qual todas as etapas acontecem. A frase-regime da conclusão não a inclui entre os conceitos (p. 800). Ela é aquilo contra o que o regime se arma.
-
-**Definição canônica proposta**
-
-> A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
-
-**Formulações concorrentes**
-
-> [...] designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas. (p. 27)
-
-> A Lex Plataformae designa esse regime em funcionamento, no qual regra, implementação e enforcement organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC. (p. 364)
-
-> [...] ordenação privada fundada em arquitetura, curadoria, sanção e mutação unilateral, ora denominada Lex Plataformae [...] (Resumo)
-
-**O que não é**
-
-> A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público. (p. 28)
-
-> Aqui o ponto não é converter a plataforma em Estado [...] (p. 366)
-
-**Onde vive.** Introdução (p. 27-28), 4.2.4, 4.2.5, 5.2.4, 6.1.2.
 
 ---
 
@@ -78,35 +52,33 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 **Onde vive.** 5.1.2 e subseções, 6.2.3, 7.1.1.1.
 
+
 ---
 
-## 2. Feixe de fruição governada
+## 2. Lex Plataformae
 
-**Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
+**Função no regime.** Conceito e campo. É a ordenação dentro da qual todos os outros conceitos operam. Não é etapa de nenhuma das três sequências da tese, e a frase-regime da conclusão não a enumera (p. 800). Ela é aquilo contra o que o regime se arma.
 
 **Definição canônica proposta**
 
-> A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho. (p. 426)
+> A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
 
 **Formulações concorrentes**
 
-> O feixe de fruição aparece, então, como coleção de posições acessíveis mediante um identificador institucional e uma infraestrutura que estabiliza o que é visível, utilizável e reconhecível no ecossistema. (p. 408-409)
+> [...] designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas. (p. 27)
 
-> [...] a identificação de um feixe de utilidades imateriais que só se realiza sob condições continuamente organizadas pelo fornecedor. (p. 717)
+> A Lex Plataformae designa esse regime em funcionamento, no qual regra, implementação e enforcement organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC. (p. 364)
 
-> O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
-
-**Formulação para o nível introdutório**
-
-> O valor de uso do feixe, nessa condição, não é estoque, é fluxo. (p. 409)
+> [...] ordenação privada fundada em arquitetura, curadoria, sanção e mutação unilateral, ora denominada Lex Plataformae [...] (Resumo)
 
 **O que não é**
 
-> O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos. (p. 428)
+> A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público. (p. 28)
 
-> O quarto limite abrange variações ordinárias do ecossistema que não configuram degradação relevante e persistente do feixe, como atualizações, ajustes de interface, medidas antiabuso, moderação regular e instabilidades pontuais. (p. 434)
+> Aqui o ponto não é converter a plataforma em Estado [...] (p. 366)
 
-**Onde vive.** Resumo e palavras-chave, 5.1.2, 5.1.2.3 (p. 428-434), 5.1.2.4, 7.1.1.1 (p. 717).
+**Onde vive.** Introdução (p. 27-28), 4.2.4, 4.2.5, 5.2.4, 6.1.2.
+
 
 ---
 
@@ -138,9 +110,65 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 4.1.5, 4.2.6, 5.1.1, 6.2.4 (incluindo 6.2.4.1, a recusa do termo "vulnerabilidade digital"), 7.1.1.2.
 
+
 ---
 
-## 4. Antecipação hipercuratorial
+## 4. Teleologia abusiva
+
+**Função no regime.** Identifica o ilícito (p. 800). É o critério da finalidade. Depende da vulnerabilidade semiótica e do OIC. "A sua formulação depende das duas categorias anteriores." (p. 394)
+
+**Definição canônica proposta**
+
+> A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
+
+**Formulações concorrentes**
+
+> A teleologia abusiva ocupa esse lugar como ilícito de arquitetura, isto é, como modo de imputação que alcança finalidades exploratórias inscritas no desenho técnico-organizacional do serviço, e não apenas em comandos contratuais textuais. (p. 394)
+
+> [...] a abusividade pode decorrer não apenas de falhas episódicas, mas da própria finalidade inscrita na arquitetura do negócio quando concebida para explorar a vulnerabilidade semiótica do consumidor. (Resumo)
+
+> A teleologia abusiva designa, no regime do CDC, uma forma qualificada de ilicitude em que a exploração da vulnerabilidade não aparece como desvio episódico do funcionamento do serviço, mas como finalidade incorporada ao seu próprio programa de operação. (p. 665)
+
+**O que não é**
+
+> Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. (p. 732)
+
+> A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
+
+> [...] a teleologia abusiva não se confunde com opção empresarial apenas severa, com design discutível ou com arquitetura simplesmente eficiente para o fornecedor. (p. 666)
+
+**Onde vive.** 3.2.5, 5.1.3, 6.4, 6.4.1, 7.1.1.7.
+
+
+---
+
+## 5. Ilícito de arquitetura
+
+**Função no regime.** Nomeia a forma do ilícito. É a arquitetura lida como conduta. "O núcleo do parâmetro está em tratar a arquitetura como conduta." (p. 732) A tese não o define de modo autônomo. Ele aparece sempre ao lado da teleologia abusiva, que a conclusão chama de "categoria de ilícito de arquitetura" (p. 794). O 7.1.2 o trata como "hipótese mais ampla de ilícito arquitetural" (p. 746). Leitura proposta, a confirmar. O ilícito de arquitetura é o gênero. A teleologia abusiva é o critério que o identifica pela finalidade.
+
+**Definição canônica proposta**
+
+> Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura. (p. 664)
+
+**Formulações concorrentes**
+
+> Quando indução, extração e normalização de perdas se incorporam de maneira estável ao desenho do ecossistema, o problema deixa de ser apenas de inadimplemento fragmentário e passa a configurar ilícito teleológico de arquitetura. (p. 732)
+
+> É nesse sentido que o ilícito teleológico de arquitetura pode ser qualificado como conduta juridicamente imputável. (p. 733)
+
+> [...] a arquitetura do serviço pode organizar a fruição, mas não pode fazê-lo como programa estável de exploração. (p. 665)
+
+**O que não é**
+
+> O que se põe em questão não é o design enquanto estilo, linguagem visual ou estética de interface [...] (p. 664)
+
+> É esse deslocamento que permite qualificar o ilícito de arquitetura sem sair da gramática do CDC e sem cair na tentação de inventar um direito paralelo para plataformas. (p. 665)
+
+**Onde vive.** 5.1.3, 6.4, 6.4.1, 7.1.1.7, 7.1.2 (p. 746-747), Conclusão (p. 794).
+
+---
+
+## 6. Antecipação hipercuratorial
 
 **Função no regime.** Lê a expectativa governada (p. 800).
 
@@ -160,33 +188,10 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 4.1.4, onde nasce. Depois 6.2.5, 7.1.1.4 (p. 725, dentro do parâmetro da oferta e da publicidade) e 7.2.7.1.
 
----
-
-## 5. Teleologia abusiva
-
-**Função no regime.** Identifica o ilícito (p. 800). Depende da vulnerabilidade semiótica e do OIC. "A sua formulação depende das duas categorias anteriores." (p. 394)
-
-**Definição canônica proposta**
-
-> A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
-
-**Formulações concorrentes**
-
-> A teleologia abusiva ocupa esse lugar como ilícito de arquitetura, isto é, como modo de imputação que alcança finalidades exploratórias inscritas no desenho técnico-organizacional do serviço, e não apenas em comandos contratuais textuais. (p. 394)
-
-> [...] a abusividade pode decorrer não apenas de falhas episódicas, mas da própria finalidade inscrita na arquitetura do negócio quando concebida para explorar a vulnerabilidade semiótica do consumidor. (Resumo)
-
-**O que não é**
-
-> Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. (p. 732)
-
-> A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
-
-**Onde vive.** 3.2.5, 5.1.3, 6.4, 7.1.1.7.
 
 ---
 
-## 6. Auditabilidade aberta
+## 7. Auditabilidade aberta
 
 **Função no regime.** Controla a alteração (p. 800). Critério de legitimidade.
 
@@ -204,9 +209,10 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 5.1.5, 6.3.1, 6.3.3, 7.1.1.5, 7.2.5.
 
+
 ---
 
-## 7. Equivalência de valor funcional
+## 8. Equivalência de valor funcional
 
 **Função no regime.** Controla a alteração (p. 800). Também orienta o remédio (p. 731).
 
@@ -226,9 +232,47 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 5.1.5, 6.3.2, 7.1.1.6.
 
+
 ---
 
-## 8. Função social da propriedade intelectual
+## 9. Feixe de fruição governada
+
+**Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
+
+**Definição canônica proposta**
+
+> A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho. (p. 426)
+
+**Formulações concorrentes**
+
+> O feixe de fruição aparece, então, como coleção de posições acessíveis mediante um identificador institucional e uma infraestrutura que estabiliza o que é visível, utilizável e reconhecível no ecossistema. (p. 408-409)
+
+> [...] a identificação de um feixe de utilidades imateriais que só se realiza sob condições continuamente organizadas pelo fornecedor. (p. 717)
+
+> O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
+
+**Formulação para o nível introdutório**
+
+> O valor de uso do feixe, nessa condição, não é estoque, é fluxo. (p. 409)
+
+**O que não é**
+
+> O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos. (p. 428)
+
+> O quarto limite abrange variações ordinárias do ecossistema que não configuram degradação relevante e persistente do feixe, como atualizações, ajustes de interface, medidas antiabuso, moderação regular e instabilidades pontuais. (p. 434)
+
+**Onde vive.** Resumo e palavras-chave, 5.1.2, 5.1.2.3 (p. 428-434), 5.1.2.4, 7.1.1.1 (p. 717).
+
+
+---
+
+## Fora do Atlas, dentro do Roteiro
+
+Alguns passos das sequências da tese não são conceitos do Atlas, mas continuam no Roteiro. O dever de informar como adequação verificável (7.1.1.3). A publicidade e a oferta como gestão de sentido controlável (7.1.1.4). A prova e a distribuição dinâmica do ônus (7.1.1.8). A função social da propriedade intelectual (7.1.1.9). A recomposição funcional e a correção de regime (7.1.1.10). As fichas dos dois últimos ficam abaixo, preservadas.
+
+## Roteiro. Função social da propriedade intelectual
+
+**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Continua como passo do Roteiro (7.1.1.9).
 
 **Função no regime.** Contém a exclusividade (p. 800). A conclusão fala em "função social da propriedade e da propriedade intelectual".
 
@@ -248,9 +292,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 3.2.4, 6.5 e subseções, 7.1.1.9.
 
+
 ---
 
-## 9. Recomposição funcional e correção de regime
+## Roteiro. Recomposição funcional e correção de regime
+
+**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Continua como passo do Roteiro (7.1.1.10).
 
 **Função no regime.** Reorganiza o remédio (p. 800). É o fecho do regime. "Esse parâmetro cumpre, assim, função de fechamento do regime." (p. 740)
 
@@ -271,6 +318,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 > A indenização pecuniária permanece, evidentemente, como remédio legítimo e em muitos casos indispensável. O parâmetro aqui formulado não a elimina. (p. 741)
 
 **Onde vive.** 7.1.1.10, 7.3, Conclusão (p. 797-798).
+
 
 ---
 
@@ -294,14 +342,12 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Onde vive.** 5.1.4, 6.1.3, 7.1.4.
 
+
 ---
-
-## Fora do Atlas, dentro do Roteiro
-
-Três enunciados do 7.1.1 não são conceitos próprios, mas são passos obrigatórios da sequência decisória. O dever de informar como adequação verificável (7.1.1.3). A publicidade e a oferta como gestão de sentido controlável (7.1.1.4). A prova e a distribuição dinâmica do ônus (7.1.1.8). Eles vivem no Roteiro, não no Atlas.
 
 ## O que ainda precisa da assinatura do Senhor
 
 1. **Uma ordem ou três percursos.** A sugestão é manter as três, cada uma com nome próprio. O percurso do consumidor (5.1), o percurso do julgador (7.1.1) e o percurso do regime (conclusão).
 2. **A definição canônica de cada conceito.** Aprovar ou trocar por uma das concorrentes.
 3. **A lacuna da antecipação hipercuratorial.** O site declara que a tese não traz critério negativo geral, ou o Senhor escreve um? Se escrever, o texto entra marcado como acréscimo posterior, com data, como a nota sobre a integridade pessoal.
+4. **Ilícito de arquitetura e teleologia abusiva.** A leitura proposta é que o primeiro é o gênero e a segunda o critério da finalidade. Nos percursos, os dois aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).

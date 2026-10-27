@@ -31,11 +31,32 @@ SLUGS = {
     "Função social da propriedade intelectual": "funcao-social-da-pi",
     "Recomposição funcional e correção de regime": "recomposicao-funcional",
     "Feixe de fruição governada": "feixe-de-fruicao-governada",
+    "Ilícito de arquitetura": "ilicito-de-arquitetura",
     "Integridade pessoal": "integridade-pessoal",
 }
 
-# Gêmeo do OIC, por decisão do autor em 26/10/2026. Aparece colado ao OIC em todo percurso.
-GEMEOS = {"oic": "feixe-de-fruicao-governada"}
+# A Lex Plataformae é um dos nove e também o campo onde os outros operam.
+CAMPO = "lex-plataformae"
+
+# Pares que aparecem colados nos percursos.
+# OIC e feixe são gêmeos por decisão do autor em 26/10/2026.
+# Teleologia abusiva e ilícito de arquitetura andam juntos em todos os títulos da tese (5.1.3, 6.4, 7.1.1.7).
+PARES = {
+    "oic": ("feixe-de-fruicao-governada", "gêmeos"),
+    "teleologia-abusiva": ("ilicito-de-arquitetura", "par"),
+}
+
+# Seção do 7.1.1 de cada conceito que saiu do Atlas e segue no Roteiro.
+SECAO_ROTEIRO = {"funcao-social-da-pi": "7.1.1.9", "recomposicao-funcional": "7.1.1.10"}
+
+
+def par_de(cid):
+    if cid in PARES:
+        return {"id": PARES[cid][0], "rotulo": PARES[cid][1]}
+    for k, (outro, rotulo) in PARES.items():
+        if outro == cid:
+            return {"id": k, "rotulo": rotulo}
+    return None
 
 # Passos dos percursos que não são conceitos do Atlas.
 PASSOS = {
@@ -108,12 +129,12 @@ def ler_ficha():
         linhas = bloco.split("\n")
         titulo = linhas[0].strip()
         numerado = re.match(r"^(\d+)\. (.+)$", titulo)
-        campo = re.match(r"^Campo\. (.+)$", titulo)
+        roteiro = re.match(r"^Roteiro\. (.+)$", titulo)
         bens = re.match(r"^Bens protegidos\. (.+)$", titulo)
         if numerado:
             nome, tipo, numero = numerado.group(2), "conceito", int(numerado.group(1))
-        elif campo:
-            nome, tipo, numero = campo.group(1), "campo", None
+        elif roteiro:
+            nome, tipo, numero = roteiro.group(1), "roteiro", None
         elif bens:
             nome, tipo, numero = bens.group(1), "bens", None
         else:
@@ -139,7 +160,9 @@ def ler_ficha():
             "nome": nome,
             "tipo": tipo,
             "numero": numero,
-            "gemeo": GEMEOS.get(SLUGS[nome]) or next((k for k, v in GEMEOS.items() if v == SLUGS[nome]), None),
+            "campo": SLUGS[nome] == CAMPO,
+            "par": par_de(SLUGS[nome]),
+            "secao": SECAO_ROTEIRO.get(SLUGS[nome]),
             "campos": campos,
         })
     return conceitos
@@ -166,7 +189,8 @@ def main():
         for item, _ in p["sequencia"]:
             assert item in ids, f"conceito desconhecido no percurso {chave}: {item}"
         percursos[chave] = {**p, "trecho": trechos[chave],
-                            "sequencia": [{"id": i, "papel": papel, "par": GEMEOS.get(i)} for i, papel in p["sequencia"]]}
+                            "sequencia": [{"id": i, "papel": papel, "par": (PARES[i][0] if i in PARES else None),
+                                           "par_rotulo": (PARES[i][1] if i in PARES else None)} for i, papel in p["sequencia"]]}
     dados = {
         "versao": "v0",
         "abertura": trechos["abertura"],

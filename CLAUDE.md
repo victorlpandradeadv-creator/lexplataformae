@@ -33,11 +33,14 @@ O site tem cinco camadas.
 - Uma ordem canônica ou três percursos. A tese tem três ordens (5.1, 7.1.1 e conclusão).
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
+- Leitura proposta para ilícito de arquitetura e teleologia abusiva. O primeiro como gênero, a segunda como critério da finalidade. Nos percursos aparecem lado a lado, porque a tese nunca os separa nos títulos (5.1.3, 6.4, 7.1.1.7).
 - Licença. Até a decisão, todos os direitos reservados. Proposta em estudo, MIT para o código e CC BY 4.0 para o conteúdo próprio, com exclusão expressa de material de terceiros.
 
 ## Decisões tomadas
 
-- 26/10/2026. O Atlas tem nove conceitos. OIC, feixe de fruição governada, vulnerabilidade semiótica, antecipação hipercuratorial, teleologia abusiva, auditabilidade aberta, equivalência de valor funcional, função social da propriedade intelectual e recomposição funcional com correção de regime. A Lex Plataformae é o campo onde os nove acontecem e dá nome ao site. Esta última parte é leitura adotada, a confirmar com o autor.
+- 26/10/2026. Os nove conceitos do Atlas, na numeração do autor. 1 Objeto Imaterial de Consumo (OIC). 2 Lex Plataformae. 3 Vulnerabilidade semiótica. 4 Teleologia abusiva. 5 Ilícito de arquitetura. 6 Antecipação hipercuratorial. 7 Auditabilidade aberta. 8 Equivalência de valor funcional. 9 Feixe de fruição governada.
+- 26/10/2026. A Lex Plataformae é um dos nove e também o campo onde os outros operam. Na página, ela é o fundo do Atlas, não um passo dos percursos.
+- 26/10/2026. Função social da propriedade intelectual e recomposição funcional com correção de regime saem do Atlas e seguem como passos do Roteiro (7.1.1.9 e 7.1.1.10). Suas fichas ficam preservadas.
 - 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
 - 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Nota do autor, a publicar como acréscimo posterior à tese. "Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la." O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.

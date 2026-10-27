@@ -211,7 +211,7 @@
 
 <div class="moldura">
   <div class="faixa" data-arq="rascunho · nada vai ao ar sem o autor">
-    <span>Protótipo v0.1 · rascunho para revisão do autor</span>
+    <span>Protótipo v0.2 · rascunho para revisão do autor</span>
     <span>Citações conferidas por script contra a tese</span>
   </div>
 
@@ -294,7 +294,7 @@
 
       '<section class="campo" aria-labelledby="campo-nome" data-arq="campo · a ordenação privada dentro da qual tudo acontece">' +
         '<div class="campo-topo">' +
-          '<p class="campo-rotulo">O campo</p>' +
+          '<p class="campo-rotulo">O campo · conceito 2 de 9</p>' +
           '<h2 class="campo-nome" id="campo-nome"><a href="#lex-plataformae">Lex Plataformae</a></h2>' +
           '<p class="campo-def">“' + esc(lpDef.texto) + '”' + pg(lpDef.ref) + '</p>' +
         '</div>' +
@@ -345,11 +345,16 @@
       li.removeAttribute('data-arq');
       var nomeHtml = '<a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>';
       if (passo.par && porId[passo.par]) {
+        var dica = passo.par_rotulo === 'gêmeos' ? 'Gêmeos por decisão do autor' : 'A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7';
         nomeHtml = '<span class="gemeos"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>' +
-          '<span class="gemeos-sinal" title="O feixe é gêmeo do OIC">gêmeos</span>' +
+          '<span class="gemeos-sinal" title="' + esc(dica) + '">' + esc(passo.par_rotulo) + '</span>' +
           '<a href="#' + passo.par + '">' + esc(porId[passo.par].nome) + '</a></span>';
       }
       corpo = '<span class="passo-nome">' + nomeHtml + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    } else if (conceito && conceito.tipo === 'roteiro') {
+      li.className = 'passo fantasma';
+      li.setAttribute('data-arq', 'fora do Atlas · segue como passo do Roteiro');
+      corpo = '<span class="passo-tipo">fora do Atlas · passo do Roteiro · ' + esc(conceito.secao) + '</span><span class="passo-nome"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a></span><span class="passo-papel">' + esc(passo.papel) + '</span>';
     } else if (conceito && conceito.tipo === 'bens') {
       li.className = 'passo fantasma';
       li.setAttribute('data-arq', 'fora do Atlas · camada de bens protegidos');
@@ -383,7 +388,7 @@
 
     var presentes = {};
     p.sequencia.forEach(function (s) { presentes[s.id] = 1; if (s.par) presentes[s.par] = 1; });
-    var ausentes = D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !presentes[c.id]; });
+    var ausentes = D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !c.campo && !presentes[c.id]; });
     var fora = document.getElementById('fora');
     fora.innerHTML = ausentes.length
       ? '<p>Fora deste percurso</p><ul>' + ausentes.map(function (c) { return '<li><a href="#' + c.id + '">' + esc(c.nome) + '</a></li>'; }).join('') + '</ul>'
@@ -405,9 +410,11 @@
   /* ---------- Folha do conceito ---------- */
   function renderConceito(c) {
     var partes = [];
-    var eyebrow = c.tipo === 'campo' ? 'O campo' : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas' : 'Conceito ' + c.numero + ' de 9';
-    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.1 · aguarda o autor</span>';
-    if (c.gemeo) selos += '<a class="selo gemeo" href="#' + c.gemeo + '">Gêmeo de ' + esc(nomeDe(c.gemeo)) + '</a>';
+    var eyebrow = c.tipo === 'roteiro' ? 'Fora do Atlas · passo do Roteiro · ' + c.secao
+      : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas'
+      : 'Conceito ' + c.numero + ' de 9' + (c.campo ? ' · o campo' : '');
+    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.2 · aguarda o autor</span>';
+    if (c.par) selos += '<a class="selo gemeo" href="#' + c.par.id + '">' + (c.par.rotulo === 'gêmeos' ? 'Gêmeo de ' : 'Em par com ') + esc(nomeDe(c.par.id)) + '</a>';
 
     c.campos.forEach(function (f) {
       var r = f.rotulo;
@@ -440,7 +447,9 @@
         if (s.id === c.id || s.par === c.id) linhas.push('<li><b>' + esc(p.nome) + ' · passo ' + (i + 1) + '</b><span>' + esc(s.papel) + '</span></li>');
       });
     });
-    if (linhas.length) {
+    if (c.campo) {
+      partes.push('<section class="bloco"><h2>Nos percursos</h2><p>É o campo de todos os percursos. Não aparece como passo em nenhuma das três sequências da tese, porque todas acontecem dentro dela.</p></section>');
+    } else if (linhas.length) {
       partes.push('<section class="bloco"><h2>Nos percursos</h2><ul class="nos-percursos">' + linhas.join('') + '</ul></section>');
     } else if (c.tipo === 'conceito') {
       partes.push('<section class="bloco"><h2>Nos percursos</h2><p>Não integra nenhuma das três sequências da tese.</p></section>');
