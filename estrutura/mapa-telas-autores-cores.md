@@ -60,7 +60,41 @@ Consequências para o que já existe.
 - **Despir.** Passa a concentrar toda a estrutura que hoje está espalhada entre Verificar e Despir. É a única tela em que página, referência e autor ficam sempre à vista.
 - **Menu.** Conhecer mostra Percurso, Conceitos e Laboratório. Verificar acrescenta o que serve à operação, como Roteiro e Dogmática. Despir acrescenta o que serve à crítica, como Método, Fundamentos, Texto integral, Autores e Referências.
 
-# 3. Fonte, página e referência
+# 3. Sem tese à vista nas telas do leigo e do técnico
+
+Orientação do autor de 27/10/2026, recebida depois da primeira versão deste mapa. Nas telas do leigo e do técnico, o site não fica referenciando a tese. Pode oferecer a leitura integral, discretamente. Números de seção não aparecem, porque atrapalham o raciocínio de quem não está dentro da tese e não seguem ordem lógica longe dela. O técnico provavelmente vai copiar a citação da tese e colar na petição. O leigo vai ver os números como poluição.
+
+## Medição do que está no ar
+
+Contei o texto visível em dez páginas, nas telas Conhecer e Verificar.
+
+| Página | Tela | Números de seção | Páginas da tese | A palavra tese | Referências entre parênteses |
+|---|---|---|---|---|---|
+| Página inicial | Conhecer | 0 | 0 | 0 | 0 |
+| Página inicial | Verificar | 4 | 15 | 0 | 0 |
+| Percurso, parte 1 | Verificar | 0 | 14 | 0 | 1 |
+| Percurso, parte 8 | Verificar | 0 | 16 | 0 | 3 |
+| Ideia do OIC | Verificar | 5 | 22 | 4 | 0 |
+| Ideia da teleologia abusiva | Verificar | 6 | 19 | 3 | 0 |
+| Laboratório | Verificar | 8 | 7 | 0 | 0 |
+| Família da funcionalidade cognitiva | Verificar | 1 | 4 | 1 | 1 |
+| Roteiro | Verificar | 14 | 8 | 13 | 0 |
+| Diretrizes | Verificar | 4 | 15 | 1 | 0 |
+| Dogmática | Verificar | 150 | 69 | 12 | 0 |
+
+Conhecer já está limpa. Verificar é onde está o problema, e o pior caso é justamente o Roteiro, que é a ferramenta principal do técnico.
+
+## Princípios para as duas telas
+
+- **Nenhum número de seção, nenhuma página à vista e nenhuma menção à tese no corpo do texto.** A ordem e os números da tese ficam só em Despir.
+- **Leitura integral oferecida com discrição.** Um único acesso ao texto integral, no rodapé ou no menu, sem chamar atenção no meio do raciocínio.
+- **Organização por situação, e não pela ordem da tese.** O técnico procura o problema que tem nas mãos.
+  - Os onze blocos do Roteiro, que hoje têm títulos na linguagem da tese, viram situações. Por exemplo "Quando a atualização tirou o valor do que foi comprado", "Quando punir é fácil e contestar é difícil", "Como provar quando a prova está com a plataforma" e "O que pedir".
+  - Esses títulos são só um exemplo e passam pela leitura do autor.
+- **O capítulo 7 como fonte principal.** O Roteiro e o Laboratório sustentam a maior parte do que o leigo e o técnico precisam. O conteúdo das outras seções entra em grande quantidade, só que tecido no texto, sem número e sem remissão.
+- **Citação pronta para a petição.** Ao passar o mouse ou tocar num trecho, o técnico recebe a citação inteira para copiar, com o trecho literal, a referência completa da tese e a página. Isso atende o técnico e também garante que quem copia leve a referência.
+
+# 4. Fonte, página e referência
 
 - **Hoje.** Cada trecho citado vem seguido da caixa com a página. Muitos trechos trazem dentro a referência entre parênteses, como (Riot Games, 2024e) ou (Nunes, 2018, [p. 508-509]).
 - **Regra nova.** Em Conhecer e em Verificar, nenhuma fonte dentro do texto. A página e a referência aparecem só quando o leitor passa o mouse. Em Despir, tudo fica à vista.
@@ -68,7 +102,7 @@ Consequências para o que já existe.
 - **Referências dentro dos trechos literais.** O texto continua literal no HTML, e a conferência por script não muda. Em Conhecer e em Verificar, os parênteses da referência viram um sinal discreto que abre o balão. Em Despir, aparecem por extenso.
 - **Cópia.** O autor quer que quem copia receba a referência. Há duas saídas. A primeira é a referência completa no balão, ao passar o mouse. A segunda é acrescentar a referência ao texto copiado. Essa segunda saída precisa ser anunciada ao leitor, senão vira o padrão escuro que o site proíbe.
 
-# 4. Os autores
+# 5. Os autores
 
 ## Números
 
@@ -117,7 +151,7 @@ O percurso tem 46 blocos "Um nome para isso". O mapa mostra que eles não são t
 
 A classificação de gamificação e de economia da atenção é a mais incerta. A dos dez derivados precisa da confirmação do autor.
 
-# 5. Estruturas que ainda não existem
+# 6. Estruturas que ainda não existem
 
 1. **Áreas.** Um arquivo com a lista de áreas, a cor de cada uma e o lugar de cada autor. Decisão do autor.
 2. **Referências.** Uma seção que imita a lista da tese, com as 301 entradas na ordem e na forma da ABNT, cada uma com o tipo, a área, as seções e páginas em que aparece e os conceitos que sustenta.
@@ -140,7 +174,7 @@ A classificação de gamificação e de economia da atenção é a mais incerta.
 7. **Fecho de direitos em Conhecer.** Texto novo, para o leigo, ao fim de cada parte do percurso e de cada ideia. Diz o que a tese entende que o fornecedor deve e o que o consumidor pode pedir.
 8. **Paletas por tela.** Três paletas gerais, uma por tela, cada uma com versão clara e escura. São seis combinações para testar.
 
-# 6. Onde a cor age hoje
+# 7. Onde a cor age hoje
 
 Tudo isso será refeito com as cores novas.
 
@@ -150,7 +184,7 @@ Tudo isso será refeito com as cores novas.
 - **Blocos.** O preto aparece no topo de Um caso. O cinza aparece nas bordas dos termos e nas caixas de página.
 - **Fora das páginas.** Os cartões de compartilhamento usam o azul e o laranja, e o plano das ilustrações já previa a paleta antiga.
 
-# 7. Primeira hipótese de cores, para conversar
+# 8. Primeira hipótese de cores, para conversar
 
 Não é decisão. É o ponto de partida que o autor pediu, com a justificativa de cada escolha.
 
@@ -168,7 +202,7 @@ Não é decisão. É o ponto de partida que o autor pediu, com a justificativa d
 - **Balões e páginas de autor.** Têm a aparência de ficha de biblioteca. Fundo de papel de arquivo, tinta escura, uma faixa na cor da área do autor, o nome dele pequeno e destacado e a referência em letra de máquina.
 - **Cuidados.** Cada área terá dois tons, um claro para destaque e um escuro para texto, com contraste mínimo de leitura. Nenhuma informação dependerá só da cor, porque o nome da área vai sempre junto. A paleta passará por teste de daltonismo, e o par entre vermelho e verde musgo é o mais delicado.
 
-# 8. Decisões que o mapa pede ao autor
+# 9. Decisões que o mapa pede ao autor
 
 1. A lista de áreas e o lugar de cada autor, com atenção a Cohen, Warat, Gnerre, Warren e Brandeis, Grau e Han.
 2. Se os dez conceitos derivados ganham estatuto próprio ao lado dos nove.
@@ -178,4 +212,6 @@ Não é decisão. É o ponto de partida que o autor pediu, com a justificativa d
 6. A divisão do menu por tela.
 7. Como funciona a referência na cópia de texto.
 8. Se a lista da tese fica intocada e as ampliações ficam datadas e à parte.
-9. Quais citações de autores entram nos balões. O levantamento automático já tem as 802 citações formais por autor e seção e pode virar a lista de trabalho.
+9. Os títulos por situação para os blocos do Roteiro na tela do técnico.
+10. Onde fica o acesso discreto ao texto integral nas telas do leigo e do técnico.
+11. Quais citações de autores entram nos balões. O levantamento automático já tem as 802 citações formais por autor e seção e pode virar a lista de trabalho.
