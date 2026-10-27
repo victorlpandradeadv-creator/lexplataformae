@@ -110,3 +110,43 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
 .plano .citacao { margin: 0; }
 @media (max-width: 640px) { .indice-diretrizes li { grid-template-columns: minmax(0, 1fr); } }
 @media (pointer: coarse) { .partes-roteiro a, .plano-caps a, .nomeados a, .indice-destaques a { display: inline-flex; align-items: center; min-height: 44px; } }
+
+/* Fundamentos e Método */
+.capitulo-fund { display: grid; gap: 1.25rem; padding-top: 1.5rem; border-top: 1px solid var(--linha); scroll-margin-top: 4rem; }
+.capitulo-fund > .sobrelinha { margin: 0; }
+.capitulo-fund > h2 { font-family: var(--f-display); font-weight: 750; font-size: clamp(1.15rem, 2.2vw, 1.4rem); line-height: 1.3; margin: 0; text-wrap: balance; }
+.capitulo-fund > h2 a { color: var(--tinta); text-decoration: none; }
+.capitulo-fund > h2 a:hover { text-decoration: underline; }
+.abertura-cap, .fecho-cap, .eixos { display: grid; gap: 1rem; }
+.abertura-cap .citacao, .fecho-cap .citacao, .eixo .citacao, .parte-metodo .citacao { margin: 0; }
+.eixo { display: grid; gap: 0.75rem; padding: 1.25rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--folha); scroll-margin-top: 4rem; }
+.eixo h3 { font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; line-height: 1.35; margin: 0; }
+.autores { margin: 0; display: grid; gap: 0.9rem; }
+.autor { display: grid; gap: 0.3rem; padding-top: 0.75rem; border-top: 1px dashed var(--linha); }
+.autor dt { font-family: var(--f-display); font-weight: 700; }
+.autor dd { margin: 0; display: grid; gap: 0.4rem; }
+.autor .onde { margin: 0; font-family: var(--f-display); font-size: 0.9rem; line-height: 1.7; }
+.refs { margin: 0; padding-left: 1.1rem; font-size: 0.92rem; line-height: 1.45; color: var(--tinta-2); display: grid; gap: 0.3rem; overflow-wrap: anywhere; }
+.onde .sobrelinha, .cita .sobrelinha { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--tinta-2); margin-right: 0.35rem; }
+.secoes-cap { display: grid; gap: 0.5rem; }
+.secoes-cap h3, .lista-metodo + h3 { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+.secoes-cap ol { list-style: none; margin: 0; padding: 0; display: grid; }
+.secoes-cap li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.25rem 1rem; align-items: baseline; padding-top: 0.55rem; padding-bottom: 0.55rem; border-bottom: 1px solid var(--linha); }
+.secoes-cap li > a { display: grid; grid-template-columns: 4.2rem minmax(0, 1fr); gap: 0.5rem; color: var(--tinta); text-decoration: none; min-height: 32px; align-items: baseline; }
+.secoes-cap li > a:hover .tit { text-decoration: underline; }
+.secoes-cap .num, .secoes-cap .pag { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.secoes-cap .cita { grid-column: 1 / -1; padding-left: 4.7rem; font-family: var(--f-display); font-size: 0.85rem; line-height: 1.6; color: var(--tinta-2); }
+.secoes-cap .nivel-2 > a { padding-left: 1rem; }
+.secoes-cap .nivel-3 > a { padding-left: 2rem; }
+.lista-metodo { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.25rem; }
+.parte-metodo { display: grid; gap: 0.6rem; padding-top: 1rem; border-top: 1px solid var(--linha); scroll-margin-top: 4rem; }
+.parte-metodo h3 { font-family: var(--f-display); font-weight: 700; font-size: 1.1rem; line-height: 1.35; margin: 0; }
+.parte-metodo .num { font-family: var(--f-dado); font-weight: 500; font-size: 0.85rem; color: var(--tinta-2); margin-right: 0.3rem; }
+.parte-metodo.nivel-2 { margin-left: 1.5rem; }
+@media (max-width: 640px) {
+  .secoes-cap .cita { padding-left: 0; }
+  .secoes-cap li > a { grid-template-columns: 3.4rem minmax(0, 1fr); }
+  .parte-metodo.nivel-2 { margin-left: 0.75rem; }
+  .eixo { padding: 1rem; }
+}
+@media (pointer: coarse) { .secoes-cap li > a { min-height: 44px; } }

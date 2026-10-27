@@ -174,6 +174,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
         <li><a href="{prefixo}">Atlas</a></li>
         <li><a href="{prefixo}roteiro/">Roteiro</a></li>
         <li><a href="{prefixo}laboratorio/">Laboratório</a></li>
+        <li><a href="{prefixo}fundamentos/">Fundamentos</a></li>
+        <li><a href="{prefixo}metodo/">Método</a></li>
         <li><a href="{prefixo}#epigrafes">Epígrafes</a></li>
         <li><a href="{prefixo}tese/">A tese</a></li>
       </ul>
@@ -462,7 +464,7 @@ def rotulo_secao(sec):
 PLANO_INICIOS = [("Após a exposição", ["1", "2"]), ("A terceira seção", ["3"]), ("A quarta seção", ["4"]),
                   ("Ao longo de tais seções", None), ("Na quinta seção", ["5"]), ("A sexta seção", ["6"]),
                   ("A sétima seção", ["7"]), ("Ao final, a oitava seção", ["8"])]
-CAMADA_ENDERECO = {"Atlas": "", "Roteiro": "roteiro/", "Laboratório": "laboratorio/", "Epígrafes": "#epigrafes"}
+CAMADA_ENDERECO = {"Atlas": "", "Roteiro": "roteiro/", "Laboratório": "laboratorio/", "Fundamentos": "fundamentos/", "Método": "metodo/", "Epígrafes": "#epigrafes"}
 
 
 def plano_da_tese(prefixo, usos, por_secao):
@@ -609,11 +611,13 @@ def gerar_tese():
                      + "</ol></section>")
         aqui = por_secao.get(sec["slug"], [])
         conceitos_aqui = ""
-        if aqui:
-            conceitos_aqui = ('<aside class="conceitos-aqui" data-arq="atlas · conceitos que vivem nesta seção">'
-                              '<p class="sobrelinha">Conceitos do Atlas nesta seção</p><ul>'
-                              + "".join(f'<li><a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in em_ordem(aqui))
-                              + "</ul></aside>")
+        for tipo, rotulo in (("conceito", "Conceitos do Atlas nesta seção"), ("roteiro", "Passos do Roteiro com ficha nesta seção"), ("bens", "Bens protegidos nesta seção")):
+            deste = [c for c in aqui if c["tipo"] == tipo]
+            if deste:
+                conceitos_aqui += (f'<aside class="conceitos-aqui" data-arq="fichas · conceitos que vivem nesta seção">'
+                                   f'<p class="sobrelinha">{rotulo}</p><ul>'
+                                   + "".join(f'<li><a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in em_ordem(deste))
+                                   + "</ul></aside>")
         if usos.get(sec["slug"]):
             conceitos_aqui += ('<aside class="conceitos-aqui camadas-aqui" data-arq="estrutura · páginas das camadas que trazem esta seção">'
                                '<p class="sobrelinha">Esta seção nas camadas do site</p><ul>'
@@ -1190,6 +1194,222 @@ def gerar_laboratorio():
     (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld), encoding="utf-8")
 
 
+def paragrafos(sec):
+    """Blocos de texto da seção, cada um com a página em que começa e a página em que termina."""
+    pagina_atual = sec["pagina_inicio"]
+    saida = []
+    for b in sec["blocos"]:
+        marcas = [int(x) for x in re.findall(r'id="p(\d+)"', b["html"])]
+        if b["tipo"] == "marca":
+            pagina_atual = marcas[-1] if marcas else pagina_atual
+            continue
+        m = re.match(r'\s*<span class="pg-marca" id="p(\d+)"', b["html"])
+        inicio = int(m.group(1)) if m else pagina_atual
+        fim = marcas[-1] if marcas else inicio
+        saida.append({"bloco": b, "inicio": inicio, "fim": fim,
+                      "ref": f"p. {inicio}" if inicio == fim else f"p. {inicio}-{fim}"})
+        pagina_atual = fim
+    return saida
+
+
+def citado(par, sec, prefixo, html_trecho=None, classe="citacao"):
+    """Um parágrafo da tese em citação, com a âncora da página que leva ao trecho exato."""
+    h = html_trecho if html_trecho is not None else par["bloco"]["html"]
+    return f'<blockquote class="{classe}"><p>{html_do_corpus(h, sec["slug"], prefixo)} {pg(par["ref"], prefixo, _plano(h)[:90])}</p></blockquote>'
+
+
+def ref_do_pedaco(h, inicio):
+    marcas = [int(x) for x in re.findall(r'id="p(\d+)"', h)]
+    m = re.match(r'\s*<span class="pg-marca" id="p(\d+)"', h)
+    comeco = int(m.group(1)) if m else inicio
+    fim = marcas[-1] if marcas else comeco
+    return f"p. {comeco}" if comeco == fim else f"p. {comeco}-{fim}"
+
+
+def paragrafo_por_inicio(sec, inicio):
+    return next((p for p in paragrafos(sec) if _plano(p["bloco"]["html"]).strip().startswith(inicio)), None)
+
+
+# Método. O capítulo 2, que a tese apresenta como os elementos que tornam a investigação auditável (p. 47).
+METODO = ["2.1", "2.2", "2.3", "2.4", "2.4.1", "2.4.2", "2.4.3", "2.5", "2.6", "2.7"]
+METODO_LIGACOES = {"2.3": ("O laboratório de origem", "laboratorio/#origem"), "2.6": ("As epígrafes", "#epigrafes")}
+
+
+def gerar_metodo():
+    cap = POR_NUMERO.get("2")
+    if not cap or not all(n in POR_NUMERO for n in METODO):
+        return
+    prefixo = "../"
+    auditavel = paragrafo_por_inicio(cap, "Aqui são reunidos")
+    objeto = paragrafo_por_inicio(cap, "Para manter controlável")
+    camadas_info = paragrafo_por_inicio(POR_NUMERO["2.4"], "Para preservar proporcionalidade")
+    itens = []
+    for n in METODO:
+        sec = POR_NUMERO[n]
+        primeiro = next(iter(paragrafos(sec)), None)
+        ligacao = ""
+        if n in METODO_LIGACOES:
+            rotulo, caminho = METODO_LIGACOES[n]
+            ligacao = f' · <a href="{prefixo}{caminho}">{esc(rotulo)} no site</a>'
+        nivel = n.count(".")
+        itens.append(
+            f'<li class="parte-metodo nivel-{nivel}" id="m{n.replace(".", "-")}">'
+            f'<h3><span class="num">{esc(n)}</span> {esc(sec["titulo"])}</h3>'
+            + (citado(primeiro, sec, prefixo) if primeiro else "")
+            + f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção</a> · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}{ligacao}</p></li>')
+    corpo = (
+        '<article class="folha leitura metodo">'
+        f'<header class="folha-cabeca"><p class="sobrelinha">Método · capítulo 2 da tese · p. {cap["pagina_inicio"]} a {POR_NUMERO["2.7"]["pagina_fim"]}</p><h1>Método</h1>'
+        + (citado(auditavel, cap, prefixo, classe="citacao") if auditavel else "")
+        + f'<p class="ler-pdf"><a href="{prefixo}tese/{cap["slug"]}/">Ler a abertura do capítulo na tese</a></p></header>'
+        + (f'<section class="bloco"><h2>Objeto e instrumentos</h2>{citado(objeto, cap, prefixo)}'
+           f'<p class="nota-camada">Os autores que a tese mobiliza como instrumentos estão organizados em <a href="{prefixo}fundamentos/">Fundamentos</a>.</p></section>' if objeto else "")
+        + '<section class="bloco"><h2>O protocolo</h2><p class="nota-camada">Cada parte do capítulo 2 aparece com o primeiro parágrafo da seção, na ordem da tese.</p>'
+        + f'<ol class="lista-metodo">{"".join(itens)}</ol></section>'
+        + (f'<section class="bloco"><h2>As três camadas de informação</h2>{citado(camadas_info, POR_NUMERO["2.4"], prefixo)}</section>' if camadas_info else "")
+        + "</article>")
+    desc = "O desenho metodológico e o protocolo de observação da tese, capítulo 2, em texto literal. Estratégia, recorte, fontes, procedimentos de leitura e limites."
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Método · Lex Plataformae", "inLanguage": "pt-BR",
+              "url": BASE + "/metodo/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    pasta = SAIDA / "metodo"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Método · Lex Plataformae", desc, corpo, prefixo, "metodo/", jsonld), encoding="utf-8")
+
+
+# Fundamentos. Os capítulos 3 e 4, organizados pelos conjuntos de autores e pelas funções que a abertura de cada capítulo declara.
+# A contagem de citações é mecânica, pelo sobrenome no texto e nas notas de cada seção.
+AUTORES = [
+    ("Jacques Ellul", r"\bEllul\b", "ELLUL"), ("Neil Postman", r"\bPostman\b", "POSTMAN"),
+    ("Willem H. Vanderburg", r"\bVanderburg\b", "VANDERBURG"), ("Andrew Feenberg", r"\bFeenberg\b", "FEENBERG"),
+    ("Yanis Varoufakis", r"\bVaroufakis\b", "VAROUFAKIS"), ("Ladislau Dowbor", r"\bDowbor\b", "DOWBOR"),
+    ("Karl Marx", r"\bMarx\b", "MARX"), ("Mary Douglas", r"\bDouglas\b", "DOUGLAS"),
+    ("Baron Isherwood", r"\bIsherwood\b", "ISHERWOOD"), ("Arjun Appadurai", r"\bAppadurai\b", "APPADURAI"),
+    ("Igor Kopytoff", r"\bKopytoff\b", "KOPYTOFF"), ("Grant McCraken", r"\bMcCrac?ken\b", "MCCRACKEN"),
+    ("Umberto Eco", r"\bEco\b", "ECO"), ("Guy Debord", r"\bDebord\b", "DEBORD"),
+    ("Jean Baudrillard", r"\bBaudrillard\b", "BAUDRILLARD"), ("Julie E. Cohen", r"\bCohen\b", "COHEN"),
+    ("Luis Alberto Warat", r"\bWarat\b", "WARAT"), ("Maurizio Gnerre", r"\bGnerre\b", "GNERRE"),
+    ("Samuel D. Warren II", r"\bWarren\b", "WARREN"), ("Louis D. Brandeis", r"\bBrandeis\b", "BRANDEIS"),
+    ("Byung-Chul Han", r"\bHan\b", "HAN"), ("Eros Roberto Grau", r"\bGrau\b", "GRAU"),
+]
+# Onde começa cada conjunto ou eixo na abertura do capítulo. No capítulo 3 a tese os chama de conjuntos.
+EIXOS = {
+    "3": {"abertura": ["O consumo digital", "Essa ambiência"], "lema": "Para descrever esse pano de fundo",
+          "eixos": [("Primeiro conjunto", "O primeiro reconstrói"), ("Segundo conjunto", "O segundo conjunto"), ("Terceiro conjunto", "O terceiro conjunto")],
+          "fecho": ["Desse percurso resulta"]},
+    "4": {"abertura": ["A ordem econômica tecno-midiática"], "lema": None,
+          "eixos": [(None, "Para tornar esse regime cognoscível"), (None, "Esse plano semiótico"), (None, "A assimetria que interessa"), (None, "O problema jurídico se adensa")],
+          "fecho": ["Nesse contexto, a assimetria", "O objetivo, aqui"]},
+}
+
+
+def citacoes_do_autor(padrao):
+    """Seções em que o sobrenome aparece, no texto ou nas notas, na ordem da tese."""
+    saida = []
+    for sec in SECOES:
+        if sec["slug"] == "referencias":
+            continue
+        n = len(re.findall(padrao, TEXTO_SECAO[sec["slug"]])) + sum(len(re.findall(padrao, t)) for _, _, t in NOTAS_SECAO[sec["slug"]])
+        if n:
+            saida.append((sec, n))
+    return saida
+
+
+def referencias_do_autor(chave):
+    ref = next((s for s in SECOES if s["slug"] == "referencias"), None)
+    if not ref:
+        return []
+    padrao = re.compile(rf"^{chave},|; {chave},")
+    return [b["html"] for b in ref["blocos"] if b["tipo"] == "p" and padrao.search(_plano(b["html"]).strip())]
+
+
+def autores_no_trecho(texto):
+    achados = [(texto.find(nome), nome, padrao, chave) for nome, padrao, chave in AUTORES if nome in texto]
+    return [(nome, padrao, chave) for _, nome, padrao, chave in sorted(achados)]
+
+
+def gerar_fundamentos():
+    if not all(n in POR_NUMERO for n in EIXOS):
+        return
+    prefixo = "../"
+    por_secao = conceitos_por_secao()
+    nao_exegese = paragrafo_por_inicio(POR_NUMERO["2"], "Nessa chave, a opção por uma abordagem não exegética")
+    blocos_cap, mencionados = [], []
+    for num, conf in EIXOS.items():
+        cap = POR_NUMERO[num]
+        pars = paragrafos(cap)
+        abertura = "".join(citado(p, cap, prefixo) for inicio in conf["abertura"] for p in pars if _plano(p["bloco"]["html"]).strip().startswith(inicio))
+        lema = ""
+        cartoes = []
+        for i, (rotulo, inicio) in enumerate(conf["eixos"]):
+            par = next((p for p in pars if inicio in _plano(p["bloco"]["html"])), None)
+            if not par:
+                continue
+            h = par["bloco"]["html"]
+            if conf["lema"] and _plano(h).strip().startswith(conf["lema"]):
+                corte = h.find(inicio)
+                antes = h[:corte].strip()
+                lema = citado({**par, "ref": ref_do_pedaco(antes, par["inicio"])}, cap, prefixo, antes)
+                h = h[corte:]
+                par = {**par, "ref": ref_do_pedaco(h, par["inicio"])}
+            autores = autores_no_trecho(_plano(h))
+            linhas = []
+            for nome, padrao, chave in autores:
+                mencionados.append(nome)
+                onde = citacoes_do_autor(padrao)
+                lista_onde = ", ".join(f'<a href="{prefixo}tese/{s["slug"]}/">{esc(s["n"] or s["titulo"].capitalize())}</a> <span class="vezes">{n}×</span>' for s, n in onde)
+                refs = "".join(f"<li>{h_ref}</li>" for h_ref in referencias_do_autor(chave))
+                linhas.append(f'<div class="autor"><dt>{esc(nome)}</dt><dd><p class="onde"><span class="sobrelinha">Onde a tese o cita</span> {lista_onde}</p>'
+                              + (f'<ul class="refs" aria-label="Obras de {esc(nome)} na lista de referências">{refs}</ul>' if refs else "") + "</dd></div>")
+            titulo = rotulo or " · ".join(nome for nome, _, _ in autores)
+            cartoes.append(f'<article class="eixo" id="eixo-{num}-{i + 1}" data-arq="abertura do capítulo {num} · texto literal e contagem mecânica">'
+                           f'<h3>{esc(titulo)}</h3>{citado(par, cap, prefixo, h)}<dl class="autores">{"".join(linhas)}</dl></article>')
+        fecho = "".join(citado(p, cap, prefixo) for inicio in conf["fecho"] for p in pars if _plano(p["bloco"]["html"]).strip().startswith(inicio))
+        secoes = []
+        for sec in SECOES:
+            if not (sec["n"] or "").startswith(num + "."):
+                continue
+            cont = []
+            for nome, padrao, _ in AUTORES:
+                n = len(re.findall(padrao, TEXTO_SECAO[sec["slug"]])) + sum(len(re.findall(padrao, t)) for _, _, t in NOTAS_SECAO[sec["slug"]])
+                if n >= 2:
+                    cont.append((n, nome))
+            cont.sort(key=lambda x: -x[0])
+            cita = (f'<span class="cita"><span class="sobrelinha">Cita</span> ' + ", ".join(f'{esc(nome)} <span class="vezes">{n}×</span>' for n, nome in cont[:4]) + "</span>") if cont else ""
+            conc = por_secao.get(sec["slug"], [])
+            atlas = ""
+            for tipo, rotulo in (("conceito", "No Atlas"), ("roteiro", "No Roteiro"), ("bens", "Bens protegidos")):
+                deste = [c for c in conc if c["tipo"] == tipo]
+                if deste:
+                    atlas += (f'<span class="cita"><span class="sobrelinha">{rotulo}</span> '
+                              + ", ".join(f'<a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a>' for c in em_ordem(deste)) + "</span>")
+            secoes.append(f'<li class="nivel-{sec["n"].count(".")}"><a href="{prefixo}tese/{sec["slug"]}/"><span class="num">{esc(sec["n"])}</span> <span class="tit">{esc(sec["titulo"])}</span></a>'
+                          f'<span class="pag">p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span>{cita}{atlas}</li>')
+        blocos_cap.append(
+            f'<section class="bloco capitulo-fund" id="cap-{num}" aria-labelledby="titulo-cap-{num}">'
+            f'<p class="sobrelinha">Capítulo {num} · p. {cap["pagina_inicio"]} a {cap["pagina_fim"]}</p>'
+            f'<h2 id="titulo-cap-{num}"><a href="{prefixo}tese/{cap["slug"]}/">{esc(cap["titulo"])}</a></h2>'
+            f'<div class="abertura-cap">{abertura}{lema}</div>'
+            f'<div class="eixos">{"".join(cartoes)}</div>'
+            f'<div class="fecho-cap">{fecho}</div>'
+            f'<nav class="secoes-cap" aria-label="Seções do capítulo {num}"><h3>As seções do capítulo</h3><p class="nota-camada">Autores da abertura citados ao menos duas vezes na seção, pela contagem do sobrenome, e fichas do site que apontam a seção como lugar do conceito.</p><ol>{"".join(secoes)}</ol></nav>'
+            "</section>")
+    indice = "".join(f'<li><a href="#cap-{n}">Capítulo {n} · {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in EIXOS)
+    corpo = (
+        '<article class="folha leitura fundamentos">'
+        '<header class="folha-cabeca"><p class="sobrelinha">Fundamentos · capítulos 3 e 4 da tese</p><h1>Fundamentos</h1>'
+        + (citado(nao_exegese, POR_NUMERO["2"], prefixo, classe="citacao") if nao_exegese else "")
+        + f'<p class="nota-camada">Cada capítulo abre declarando os autores que mobiliza e a função de cada um. A página segue essa declaração, em texto literal. A distinção entre objeto e instrumentos está no <a href="{prefixo}metodo/">Método</a>.</p>'
+        + f'<nav class="indice-roteiro" aria-label="Capítulos"><ol>{indice}</ol></nav></header>'
+        + "".join(blocos_cap) + "</article>")
+    desc = "Os capítulos 3 e 4 da tese, organizados pelos autores e funções que a abertura de cada capítulo declara, com as seções em que cada autor é citado e as obras da lista de referências."
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Fundamentos · Lex Plataformae", "inLanguage": "pt-BR",
+              "url": BASE + "/fundamentos/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE},
+              "mentions": [{"@type": "Person", "name": nome} for nome in dict.fromkeys(mencionados)]}
+    pasta = SAIDA / "fundamentos"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Fundamentos · Lex Plataformae", desc, corpo, prefixo, "fundamentos/", jsonld), encoding="utf-8")
+
+
 _NOMEACOES = {}
 
 
@@ -1234,6 +1454,15 @@ def usos_por_secao():
                 lista.append((camada, rotulo, caminho))
 
     junta("1", "A tese", "O plano da tese", "tese/#plano")
+    junta("2", "Método", "Abertura do capítulo e objeto e instrumentos", "metodo/")
+    junta("2", "Fundamentos", "O uso não exegético dos conceitos", "fundamentos/")
+    for num in METODO:
+        junta(num, "Método", "O protocolo", f"metodo/#m{num.replace('.', '-')}")
+    for cap in EIXOS:
+        junta(cap, "Fundamentos", f"Abertura do capítulo {cap}", f"fundamentos/#cap-{cap}")
+        for sec in SECOES:
+            if (sec["n"] or "").startswith(cap + "."):
+                junta(sec["n"], "Fundamentos", f"Seções do capítulo {cap}", f"fundamentos/#cap-{cap}")
     junta("1", "Laboratório", "O laboratório de origem", "laboratorio/#origem")
     junta("2.6", "Epígrafes", "As nove epígrafes", "#epigrafes")
     junta("5.1.2.3", "Roteiro", "O portão de entrada", "roteiro/#portao")
@@ -1296,7 +1525,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -1321,6 +1550,9 @@ def gerar_auxiliares():
     linhas += ["", "## Laboratório", "", f"- [Laboratório]({BASE}/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal."]
     linhas += [f"- [{POR_NUMERO[n]['titulo']}]({BASE}/laboratorio/{slug}/): seção {n} da tese" for n, slug in FAMILIAS if n in POR_NUMERO]
     linhas += [f"- [{POR_NUMERO[n]['titulo']}]({BASE}/laboratorio/{slug}/): seção {n} da tese, desdobramento da tipologia" for n, slug in DESDOBRAMENTOS if n in POR_NUMERO]
+    linhas += ["", "## Fundamentos e método", "",
+               f"- [Fundamentos]({BASE}/fundamentos/): os capítulos 3 e 4 da tese, organizados pelos autores e funções que a abertura de cada capítulo declara, com as seções em que cada autor é citado e as obras da lista de referências.",
+               f"- [Método]({BASE}/metodo/): o desenho metodológico e o protocolo de observação do capítulo 2, em texto literal."]
     linhas += ["", "## A tese, seção por seção", "", f"- [Sumário, resumo e plano da tese]({BASE}/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção."]
     linhas += [f"- [{rotulo_secao(x)}]({BASE}/tese/{x['slug']}/): p. {x['pagina_inicio']} a {x['pagina_fim']}" for x in SECOES]
     linhas += ["", "## Tese", "", f"- [Tese completa em PDF]({BASE}/tese/{PDF_NOME}): {TITULO_TESE}. Doutorado em Direito, UNESP, 2026.",
@@ -1353,7 +1585,7 @@ def gerar_cobertura():
             continue
         camadas = []
         if por_secao.get(sec["slug"]):
-            camadas.append("Atlas (" + ", ".join(c["nome"] for c in em_ordem(por_secao[sec["slug"]])) + ")")
+            camadas.append("Fichas (" + ", ".join(c["nome"] for c in em_ordem(por_secao[sec["slug"]])) + ")")
         for camada, rotulo, _ in usos.get(sec["slug"], []):
             item = f"{camada} ({rotulo})"
             if item not in camadas:
@@ -1384,6 +1616,8 @@ def main():
     gerar_diretrizes()
     gerar_limites()
     gerar_laboratorio()
+    gerar_fundamentos()
+    gerar_metodo()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")
