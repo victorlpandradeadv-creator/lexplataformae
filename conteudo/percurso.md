@@ -185,10 +185,16 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 
 E nem todo incômodo vira direito. Essa ideia não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
 
+Há também casos que ficam de fora desde o começo. Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, segue as regras comuns de serviço. Uma plataforma que só funciona como vitrine, sem governar de verdade o que você usa, também tende a ficar de fora. E uma mudança só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra não basta.
+
 > sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
 > nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
 > A categoria não amplia indefinidamente o ilícito nem moraliza escolhas técnicas. (p. 426)
 > A reconfigurabilidade do ambiente não transforma qualquer atualização, ajuste de interface, mudança de ranqueamento ou escolha ordinária de curadoria em ilicitude. O que se torna juridicamente relevante é a degradação significativa, persistente e reconhecível por critérios, aquela que altera o núcleo de utilidade economicamente ofertada ou rebaixa, de modo estrutural, as condições de fruição que deram sentido à aquisição. (p. 426)
+> O primeiro limite é o acesso pontual sem posição de fruição sustentada. (p. 433)
+> O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida (p. 434)
+> O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido. (p. 434)
+> Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas (p. 434)
 
 ### texto
 
@@ -942,9 +948,13 @@ Agora, um cuidado importante. Nem toda mudança é perda, e mudar não é ilegal
 
 Por isso a pergunta não é se a empresa pode mudar alguma coisa. Ela pode. A pergunta é em que condições uma mudança continua compatível com o que foi prometido e com o valor que você comprou.
 
+E vale um cuidado a mais para quem comprou uma skin. Uma mudança só de aparência, em regra, não basta. Ela passa a importar quando o valor simbólico da skin fazia parte do centro do que foi vendido, ou quando a mudança se soma a outros sinais de um padrão que aponta para explorar quem usa.
+
 > A mutabilidade, por si, não é ilícita. (p. 729)
 > alterações graduais do motor gráfico, do orçamento de memória do jogo, das rotinas de carregamento e do próprio equilíbrio técnico podem, por necessidade de performance e compatibilidade, modificar o modo como o item se apresenta (p. 439)
 > A questão deixa de ser se mudanças são possíveis e passa a ser em que condições elas podem ser tratadas como compatíveis com a promessa e com a preservação do valor relevante. (p. 330)
+> O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido. (p. 434)
+> Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas, salvo quando, no caso concreto, componham um conjunto convergente de sinais apto a sustentar reconhecimento objetivo de ilícito arquitetural por indícios estruturais de teleologia abusiva. (p. 434)
 
 ### nome equivalencia-de-valor-funcional
 
