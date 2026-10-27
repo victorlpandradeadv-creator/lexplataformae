@@ -32,6 +32,11 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 - A prosa do site e as mensagens ao autor não usam ponto e vírgula, dois pontos nem travessão. Frases curtas e separadas. Citações literais da tese ficam como estão.
 - Português primeiro. Versão inglesa do glossário em etapa posterior, sob a mesma assinatura acadêmica.
 
+## Lista de desenvolvimento
+
+1. 27/10/2026. Desnudar a arquitetura como protagonista do site. Orientação do autor. O site foi pensado para tornar a tese acessível e é propaganda de ideias, da tese em si. A primeira vista mostra só as ideias, numa versão limpa da teoria, simplificada o bastante para instruir e, ao mesmo tempo, para gerar dúvida, de modo que o leitor queira apertar o botão. Fundamentação, bases, referências, páginas e qualquer indicação de estrutura que não seja a própria ideia só aparecem quando o leitor aperta o botão. Ao desnudar, o texto se expande com as referências, as notas e as informações derivadas diretamente da tese. O site não pode se perder no personagem. Precisa entender o próprio conceito.
+   - Leitura para execução, a confirmar com o autor. O botão deixa o canto do cabeçalho e vira o gesto central de cada página. Método, Fundamentos, Dogmática, o corpus, as âncoras de página, as notas, as contagens e o índice de dispositivos passam para o lado desnudo. O texto da primeira vista é escrito novo e fala em nome do autor. Cada frase dele aponta, no modo desnudo, para os trechos da tese que condensa, e passa pela leitura do autor antes de ir ao ar. A primeira vista pode provocar dúvida, mas não pode prometer o que a expansão não entrega. O botão é a auditabilidade aberta do próprio site, e a passagem de uma vista à outra tem de guardar equivalência de valor funcional.
+
 ## Decisões pendentes do autor
 
 - Manter ou retirar as três leituras da tese na página do Atlas.
