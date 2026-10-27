@@ -8,7 +8,7 @@ Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a 
 
 A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.
 
-- [O que você comprou, afinal?](https://lexplataformae.com.br/percurso/a-compra/): O botão diz comprar, mas o contrato diz outra coisa.
+- [O que você comprou, afinal?](https://lexplataformae.com.br/percurso/a-compra/): O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some.
 - [Por que essa skin vale tanto?](https://lexplataformae.com.br/percurso/o-desejo/): Ela é um sinal que todo mundo lá dentro sabe ler.
 - [Quem ganha com o seu clique?](https://lexplataformae.com.br/percurso/o-dono/): A loja não vende uma coisa, vende passagem.
 - [Quem manda depois da compra?](https://lexplataformae.com.br/percurso/as-regras/): A regra que vale é a que está rodando.
@@ -19,6 +19,21 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 - [E quando dá errado?](https://lexplataformae.com.br/percurso/a-resposta/): Antes do dinheiro, devolver o que foi tirado.
 - [Isso só acontece nos jogos?](https://lexplataformae.com.br/percurso/alem-do-jogo/): Não, o jogo só mostra tudo mais nítido.
 - [Por que dar nome a tudo isso?](https://lexplataformae.com.br/percurso/o-nome/): Porque o que tem nome pode ser cobrado.
+
+## Seus direitos
+
+- [Seus direitos](https://lexplataformae.com.br/direitos/): o que a plataforma deve e o que o consumidor pode pedir, em linguagem simples, uma situação por bloco, com os trechos literais da tese por baixo.
+- [O que você comprou é produto, mesmo sem nada nas mãos](https://lexplataformae.com.br/direitos/#a)
+- [A plataforma não pode montar a experiência para você não entender](https://lexplataformae.com.br/direitos/#b)
+- [A informação precisa servir para alguma coisa](https://lexplataformae.com.br/direitos/#c)
+- [O que foi prometido precisa ser entregue](https://lexplataformae.com.br/direitos/#d)
+- [Mudança relevante precisa deixar rastro](https://lexplataformae.com.br/direitos/#e)
+- [Mudou, tem que manter o que valia](https://lexplataformae.com.br/direitos/#f)
+- [Punição precisa de motivo e de chance de defesa](https://lexplataformae.com.br/direitos/#g)
+- [Quando a perda é regra, o problema é o desenho](https://lexplataformae.com.br/direitos/#h)
+- [A prova que está com a plataforma tem que aparecer](https://lexplataformae.com.br/direitos/#i)
+- [Ser dona da obra não é desculpa para tudo](https://lexplataformae.com.br/direitos/#j)
+- [Primeiro devolver, depois indenizar](https://lexplataformae.com.br/direitos/#k)
 
 ## Conceitos
 

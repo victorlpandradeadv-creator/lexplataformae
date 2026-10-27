@@ -2,7 +2,7 @@
 
 O percurso da skin. A superfície do site conta a tese inteira a partir de uma compra comum, a de uma skin num jogo online, e se abre aos poucos para o resto do consumo digital. Cada parte responde a uma pergunta e deixa outra no ar.
 
-Formato. Cada parte começa com `## slug`. Os campos `titulo` e `resumo` vêm primeiro. Depois vêm os blocos, na ordem em que aparecem na página. Os tipos são `texto`, `imagem` (uma analogia), `mecanismo` (como funciona), `caso` (um caso da própria tese), `nome <id>` (uma das nove ideias, com o id do Atlas), `termo <Nome>` (um conceito que a tese toma de outros campos) `pergunta` (a pergunta que fecha a parte e abre a seguinte) e `ilustracao <id>` (o lugar de uma peça ilustrativa prevista em `estrutura/ilustracoes.md`, sem texto). Cada bloco traz, logo abaixo, os trechos literais que condensa. No site os trechos aparecem a partir do modo Doutrina.
+Formato. Cada parte começa com `## slug`. Os campos `titulo` e `resumo` vêm primeiro. Depois vêm os blocos, na ordem em que aparecem na página. Os tipos são `texto`, `imagem` (uma analogia), `mecanismo` (como funciona), `caso` (um caso da própria tese), `nome <id>` (uma das nove ideias, com o id do Atlas), `termo <Nome>` (um conceito que a tese toma de outros campos), `limite` (até onde vai a proteção), `teste` (como saber se é o seu caso), `pergunta` (a pergunta que fecha a parte e abre a seguinte) e `ilustracao <id>` (o lugar de uma peça ilustrativa prevista em `estrutura/ilustracoes.md`, sem texto). Cada bloco traz, logo abaixo, os trechos literais que condensa. No site os trechos aparecem a partir do modo Doutrina.
 
 Regras. As mesmas da camada externa. Fenômeno antes do nome. Frases curtas. Nada de dois pontos, ponto e vírgula ou travessão. Nenhuma frase diz o que os trechos não dizem. O texto não fala em tese nem em autor, e os nomes dos autores citados só aparecem nos trechos. Conferência literal com `python3 ferramentas/conferir_citacoes.py conteudo/percurso.md`. Legibilidade com `python3 ferramentas/medir_legibilidade.py`.
 
@@ -16,90 +16,193 @@ O que você comprou, afinal?
 
 ### resumo
 
-O botão diz comprar, mas o contrato diz outra coisa.
+O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some.
 
 ### texto
 
-Você abriu a loja do jogo, escolheu a skin e apertou comprar. O dinheiro saiu da sua conta e a skin entrou no seu inventário, ao lado das outras, como numa coleção. Para qualquer pessoa, comprar quer dizer que a coisa passa a ser sua, que ela fica e que você manda nela de algum jeito. E colecionar é juntar, completar a série, mostrar e guardar a história de cada peça.
+Comece pela cena mais comum. Você abriu a loja do jogo, escolheu uma skin e apertou o botão que diz comprar. O dinheiro saiu do seu cartão e, poucos segundos depois, a skin apareceu no seu inventário, ao lado das outras que você já tinha.
+
+Repare na palavra do botão, porque ela não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
 
 > utilizam o verbo “comprar” sob o significado de se estar adquirindo algo que passa a ser “seu”, no sentido de que se espera estabilidade mínima, permanência e alguma forma de controle sobre o que foi adquirido (p. 400-401)
-> Colecionar não significa apenas reunir itens. Significa ordenar um acervo, reconhecer raridade, comparar valor, preservar histórico, completar séries, exibir pertencimento e construir uma relação de continuidade entre sujeito e objeto. (p. 401)
+> Sua estrutura clássica é a troca de coisa por preço (p. 400)
+> Mesmo quando se sabe que se trata de um item digital, o idioma da compra e venda aciona automaticamente essa expectativa típica e funciona como atalho de interpretação. (p. 401)
 
 ### texto
 
-Agora abra os termos de uso, porque lá a mesma skin não aparece como compra. Ela aparece como conteúdo virtual, entregue por uma licença de acesso que fica ligada à sua conta. Enquanto a tela fala em comprar, o contrato fala em acesso, com condições e administrado pela empresa. Ninguém precisa ter lido errado para que isso aconteça, já que é o próprio ambiente que usa uma palavra na vitrine e outra no contrato.
+O jogo reforça essa leitura com outra palavra, coleção. O seu inventário não aparece como uma lista de arquivos, e sim como um acervo, arrumado para você completar séries, reconhecer o que é raro, comparar e exibir. Quem coleciona guarda a história de cada peça e cria com aquilo que juntou uma ligação que dura no tempo.
+
+Por isso, quando uma conta é bloqueada ou um item perde a função que tinha, a perda não atinge só um arquivo solto. Ela atinge a coleção inteira, que só faz sentido enquanto o jogo continua reconhecendo e mostrando aquelas peças do jeito que você conheceu.
+
+> Colecionar não significa apenas reunir itens. Significa ordenar um acervo, reconhecer raridade, comparar valor, preservar histórico, completar séries, exibir pertencimento e construir uma relação de continuidade entre sujeito e objeto. (p. 401)
+> Por isso, eventual bloqueio de conta, remoção de item, alteração substancial de funcionalidade ou desvalorização arquitetural do acervo não atinge apenas uma unidade digital destacável. Atinge a inteligibilidade da própria coleção como feixe de fruição continuada, cujo valor depende de reconhecimento interno, estabilidade mínima e preservação da relação entre o consumidor, seus itens e o ecossistema que lhes atribui sentido. (p. 401)
+
+### texto
+
+Agora faça o que quase ninguém faz e abra os termos de uso, o contrato que você aceitou ao criar a conta. Lá a mesma skin não aparece como compra. Ela aparece como conteúdo virtual, que a empresa oferece por meio de uma licença limitada e revogável, presa à sua conta.
+
+Licença, aqui, quer dizer permissão de uso. Revogável quer dizer que essa permissão pode ser retirada, e o próprio contrato avisa que, se a conta for encerrada, a licença é cancelada na hora. Ou seja, a tela fala a língua da compra, enquanto o contrato fala a língua de um acesso com condições, administrado pela empresa.
 
 > Os Termos de Serviço descrevem os mesmos itens como “Conteúdo Virtual” oferecido sob licença de acesso vinculada à conta (Riot Games, 2024e). A consequência é que aquilo que a interface apresenta como “compra”, o instrumento contratual requalifica como acesso condicionado e institucionalmente administrado. (p. 401)
+> ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
+> Em linguagem simples, isso significa que o acesso ao ecossistema é estruturado como permissão de uso condicionada, e não como propriedade de um bem autônomo. (p. 408)
+
+### texto
+
+Talvez você pense que a culpa é sua, por não ter lido. Não é esse o ponto. O que acontece é que o próprio jogo conduz a sua decisão com uma palavra que promete aquisição, enquanto guarda no contrato um regime que não corresponde ao sentido comum de comprar.
+
+E não adianta dizer que a informação estava lá. Uma informação pode existir no contrato e mesmo assim não orientar ninguém, quando é a tela que conduz a experiência na hora da escolha. Você decide pela gramática da compra, mas usa o que comprou pela gramática da licença revogável.
+
 > O ponto não é afirmar que o consumidor “não leu” ou “não entendeu”, mas reconhecer que o próprio ecossistema organiza a decisão por um signo que enquadra a relação como contrato típico, enquanto reserva, no plano jurídico, um regime que não coincide com o sentido ordinário do verbo “comprar”. (p. 401)
+> A assimetria relevante não é apenas falta de informação, pois a informação pode existir e, ainda assim, não operar como orientação prática quando a linguagem da interface governa a experiência e estabiliza expectativas em tempo real. (p. 401)
+> porque o consumidor decide sob a gramática do “comprar”, mas a fruição se realiza sob a gramática da “licença revogável” associada à conta (p. 401-402)
+
+### limite
+
+Isso não quer dizer que a palavra comprar seja ilegal. O jogo pode usar as palavras de costume, e ninguém precisa trocar o botão. O problema começa quando não sobra, por trás da palavra, nenhuma estabilidade mínima naquilo que você comprou. Aí a comparação com a compra fica falsa, a expectativa que você tinha com razão é quebrada e só então aparece o ilícito, ou seja, algo que o direito não aceita.
+
+Por isso a saída não é proibir a palavra. É exigir que a empresa responda pelas mudanças que faz, deixando registro delas, e que preserve uma função equivalente quando a mudança for legítima.
+
+> Isso não serve de fundamento para afirmar que o uso da palavra “comprar” se mostra, por si só e isoladamente, ilícito. (p. 402)
+> A questão é que, sem um núcleo que respeite a estabilidade mínima do bem, até mesmo o paralelo superficial se torna falso e, portanto, conduz à quebra da legítima expectativa de fruição, somente assim configurando a ilicitude. (p. 402)
+> Não se trata de impedir o uso de expressões típicas, mas sim de garantir o mínimo atendimento à expectativa por via da fixação de responsabilidade pela auditabilidade de alterações e exigência de preservação de funcionalidade equivalente em caso de legítima alteração. (p. 402)
 
 ### mecanismo
 
-Tudo o que você junta fica preso à conta. Personagens, skins, emotes e a moeda do jogo só funcionam ali dentro e não saem com você, porque a conta é a peça que segura tudo. Se ela for encerrada, a licença cai junto e você perde o acesso à conta, aos dados e ao conteúdo, inclusive à moeda que pagou. Quando a empresa entende que havia motivo, essa perda é definitiva e vem sem reembolso.
+Para entender o que você tem, olhe para a sua conta. Ela não é só login e senha. É nela que ficam juntos o seu inventário, o seu progresso, o seu nome de jogador e os sinais pelos quais os outros reconhecem você no jogo. Personagens, skins, emotes e a moeda do jogo só funcionam presos a ela e não podem ser levados para fora.
 
+É por isso que a conta segura tudo. Se alguém invadir a sua conta, você precisa abrir um chamado para que a empresa a recupere, o que mostra que ela é um registro que a empresa guarda e administra. E se a empresa encerrar a conta por entender que houve motivo, você perde o acesso a ela e aos dados ligados a ela. Perde também o conteúdo virtual, inclusive a moeda que pagou, e perde sem reembolso.
+
+O contrato também não faz diferença entre quem passou anos juntando itens e quem acabou de chegar. A conta não fica mais sua porque recebeu dez mil horas de dedicação ou um dinheiro equivalente ao de um carro popular.
+
+> Ela não se resume a uma credencial de login. Ela é o ponto organizacional que mantém unido o feixe de fruição, porque concentra, em um mesmo registro institucional, o inventário de conteúdos virtuais licenciados, os marcadores de progressão, os identificadores sociais e os sinais de reputação pelos quais a presença do usuário é lida, exibida e reconhecida no ambiente. (p. 408)
 > Campeões, skins, emotes e moeda do jogo integram o catálogo de bens que só se tornam fruíveis como licença de acesso associada à conta, e não como coisas transportáveis para fora dela (p. 408)
-> A conta, desse modo, funciona como infraestrutura jurídica mínima do feixe de fruição (p. 408)
+> Em orientação oficial, a Riot reconhece a hipótese de conta comprometida e afirma que, nesse caso, o usuário deve abrir um ticket para recuperá-la (p. 409)
 > Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
+> O contrato não distingue quem passou anos acumulando sinais de pertencimento e quem acabou de entrar (p. 153)
+> porque recebeu dez mil horas de dedicação ao longo de quinze anos, nem porque recebeu investimento compatível ao custo de um carro popular (p. 154)
 
 ### imagem
 
-Pense numa catraca. Você não leva a skin para casa, mas paga para passar e para continuar do lado de dentro. O que se compra, na prática, é uma permissão de ficar, e permissão pode ser retirada.
+Pense numa catraca, dessas de estação de metrô. O que você comprou existe e tem valor, mas só dá para usar do lado de dentro, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.
 
-> não se compra apenas um item, mas a permissão revogável de permanecer dentro de um ecossistema de signos (p. 186)
+O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamento comprasse só uma tolerância para ficar lá dentro, que pode ser retirada a qualquer momento. Mas a catraca muda as condições de uso e não apaga o que você comprou.
+
+> como forma de mercadoria cuja fruição é subordinada a catracas contratuais e tecnológicas (p. 186)
+> E a conta, longe de ser um bem do consumidor, é descrita como um espaço privado cujo “direito” de uso se resume a uma permissão pessoal e revogável, que não se confunde com propriedade. (p. 153)
 > Compra-se, na prática, uma tolerância de acesso que pode ser retirada (p. 153)
 
 ### ilustracao imagem-catraca
 
+### texto
+
+E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas que dá para identificar, e esse reconhecimento desmonta a ideia de que nada foi entregue.
+
+> A empresa define expressamente “Conteúdo Virtual” como conjunto que inclui moeda do jogo, campeões, skins, emotes, acessórios e outros itens associados à conta (p. 566)
+> e admite que esse conteúdo pode ser obtido não só por compra clássica, mas também por ganho, recompensa, presente ou outras dinâmicas internas do ecossistema (p. 566)
+> Primeiro, porque evidencia que o próprio desenho contratual reconhece um núcleo identificável de fruição associado à conta, o que desmonta a tese pueril de inexistência jurídica do objeto. (p. 566)
+
+### termo Bens digitais
+
+Coisas sem corpo também podem ser bens. Uma informação organizada no computador pode ter utilidade própria e fazer parte dos seus interesses, mesmo quando não vale dinheiro de imediato. Uma vez reconhecida como bem, ela pode ser usada, aproveitada, passada adiante e protegida pelo direito.
+
+Esse ponto de partida é indispensável. Sem ele, valeria a ideia tosca de que tudo o que não se segura com a mão é leve, descartável e pode sumir pela simples vontade de quem vende. Mas ele não resolve tudo. Saber que a skin é um bem ainda não diz o que acontece quando a plataforma muda o jogo ou mexe na função do item. Nem diz o que vale quando ela decide sozinha, ao longo do tempo, como o item pode ser usado.
+
+> pode assumir utilidade própria, integrar a esfera de interesses do sujeito e, por isso, ser tratada como bem incorpóreo juridicamente relevante, com ou sem conteúdo econômico imediato (p. 565)
+> uma vez admitidos como bens, esses ativos se tornam suscetíveis de apropriação, circulação, fruição e tutela (p. 565)
+> Esse ponto de partida é correto e indispensável. Sem ele, o debate sobre consumo digital contínuo ficaria refém da ficção tosca segundo a qual tudo o que não se segura com a mão seria juridicamente leve, dissolúvel e descartável por simples vontade do fornecedor. (p. 565)
+> mesmo reconhecendo apropriação e circulação, ela não esgota os conflitos de fruição contínua, mutabilidade unilateral e governança funcional em ambiente de plataforma (p. 566)
+
 ### nome feixe-de-fruicao-governada
 
-Então o que você tem? Não é só uma imagem colada no personagem, e sim um conjunto de coisas que a skin deixa você fazer e ser. Com ela você joga a partida, é vista pelos outros, mostra a sua coleção e diz algo sobre quem você é ali dentro. Cada parte desse conjunto depende de regras que a plataforma vai ajustando com o tempo.
+Então o que, exatamente, você tem? Não é só uma imagem colada no personagem. É um conjunto de coisas que a skin deixa você fazer e ser dentro do jogo. Com ela você joga a partida, aparece para os outros, completa a coleção e diz algo sobre quem você é naquele lugar.
+
+Cada uma dessas coisas depende de o jogo continuar funcionando de um certo jeito. A skin precisa que o jogo siga capaz de desenhar o modelo, os efeitos e as animações, que mudam a cada atualização. E o que ela significa depende de os outros jogadores a verem e a reconhecerem. Por isso, mais do que uma coisa parada, o que você tem é uma posição de uso que a plataforma mantém e vai ajustando ao longo do tempo.
 
 > O consumidor não compra apenas uma “imagem” acoplada ao personagem. Ele adquire uma posição de fruição que só se realiza se o ambiente do jogo continuar capaz de renderizar modelos, efeitos, animações e interfaces que são reconfigurados a cada ciclo de patches e ajustes do sistema (p. 439)
 > feixe de funcionalidades e significações administradas ao longo da relação (p. 426)
 > O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
+> A fruição deixa de ser simples habilitação inicial e passa a ser posição sustentada no ecossistema (p. 426)
 
 ### imagem
 
-Dinheiro guardado na gaveta é estoque, e água correndo no cano é fluxo. A skin se parece mais com a água, porque o valor dela não fica guardado em lugar nenhum e depende de servidores ligados e de um ambiente mantido todos os dias. Se o jogo sai do ar, a skin continua na conta, mas naquela hora não serve para nada.
+Dinheiro guardado numa gaveta é estoque. Fica lá, parado, e amanhã continua sendo dinheiro. Água correndo num cano é fluxo, porque só chega à sua torneira enquanto alguém mantém a rede funcionando. A skin se parece mais com a água.
+
+O valor dela não fica guardado num canto só seu. Depende de servidores ligados, de conexão e de um ambiente que a empresa mantém todos os dias. Tanto é assim que a própria empresa publica uma página que mostra se o serviço está funcionando. Quando o jogo cai, a skin continua na conta, mas naquela hora não serve para nada, porque o lugar onde ela funciona parou.
 
 > O valor de uso do feixe, nessa condição, não é estoque, é fluxo. Ele exige continuidade de servidores, conectividade institucional e manutenção do ambiente. (p. 409)
+> A Riot mantém uma página oficial de status do serviço, com mensagens atuais e histórico de ocorrências (p. 409)
 > Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar. (p. 409)
 
 ### ilustracao imagem-estoque-fluxo
 
-### termo Bens digitais
-
-Coisas sem corpo também podem ser bens, com utilidade própria e lugar entre os seus interesses, mesmo quando não valem dinheiro de imediato. Uma vez reconhecidas como bens, elas podem ser usadas, aproveitadas, passadas adiante e protegidas. Não dar para segurar algo com a mão não torna esse algo leve, descartável ou apagável pela vontade de quem vende.
-
-> pode assumir utilidade própria, integrar a esfera de interesses do sujeito e, por isso, ser tratada como bem incorpóreo juridicamente relevante, com ou sem conteúdo econômico imediato (p. 565)
-> uma vez admitidos como bens, esses ativos se tornam suscetíveis de apropriação, circulação, fruição e tutela (p. 565)
-> Sem ele, o debate sobre consumo digital contínuo ficaria refém da ficção tosca segundo a qual tudo o que não se segura com a mão seria juridicamente leve, dissolúvel e descartável por simples vontade do fornecedor. (p. 565)
-
 ### texto
 
-Por isso a expressão licença revogável merece desconfiança, já que ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério.
+Junte tudo isso e fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
 
 > afasta, logo de saída, a fraude semântica da “licença revogável” como fórmula capaz de evaporar tudo o que já foi economicamente incorporado à esfera do usuário (p. 566)
 > Se há objeto virtual identificável, associado à conta e fruído no ecossistema, há juridicidade a ser levada a sério, ainda que a plataforma tente recobri-la com vocabulário de precariedade. (p. 566)
 
 ### nome oic
 
-A lei brasileira já tinha deixado espaço para isso. Em 1990, o Código de Defesa do Consumidor disse que produto pode ser imaterial, e a frase ficou lá, como um terreno demarcado que ninguém ocupou. O Objeto Imaterial de Consumo ocupa esse terreno. Sempre que o que você usa é uma posição que a plataforma mantém dia após dia, há produto imaterial, e a lei do consumidor vale para ele.
+A lei brasileira já tinha deixado espaço para isso. Em 1990, o Código de Defesa do Consumidor disse que produto é qualquer bem, material ou imaterial. A porta estava aberta para bens que circulam sem corpo e que dependem de condições técnicas mantidas o tempo todo. Mas a maneira de pensar o produto continuou presa ao objeto físico, ou a uma entrega que começa e termina num instante.
 
-> [...] do Código de Defesa do Consumidor já contém a abertura normativa necessária ao reconhecimento de bens que circulam sem suporte corpóreo estável e cuja fruição depende de condições técnicas e organizacionais contínuas. (p. 24)
+Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de Consumo é a construção feita nesse terreno. Ele dá nome ao caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar.
+
+Quando é assim, existe produto imaterial no sentido da lei do consumidor. O serviço não some dessa conta, porque aparece como o modo pelo qual a empresa mantém, atualiza e molda aquilo que você comprou. Por isso perde força a velha briga sobre se o caso é de produto ou de serviço. A pergunta que importa passa a ser como a empresa organiza a entrega contínua do que vendeu e se esse jeito de fornecer preserva ou estraga o que você adquiriu.
+
+> Produto é qualquer bem, móvel ou imóvel, material ou imaterial (p. 24)
+> do Código de Defesa do Consumidor já contém a abertura normativa necessária ao reconhecimento de bens que circulam sem suporte corpóreo estável e cuja fruição depende de condições técnicas e organizacionais contínuas. (p. 24)
+> essa expansibilidade do Direito do Consumidor brasileiro tem sido freada por uma ontologia estritamente material, a qual insiste em reduzir o produto à entrega de um suporte físico ou de uma prestação discreta e finalizável (p. 24)
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
+> Importa reconhecer situações em que a utilidade economicamente fruída depende estruturalmente de ambiente administrado, modulado e mutável por governança privada (p. 717)
 > O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
+> A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. Por isso, a antiga pergunta sobre se o caso envolve produto ou serviço, tomada em chave excludente, perde grande parte de sua utilidade analítica. O problema passa a ser a estrutura do fornecimento e o modo como ela organiza, preserva ou degrada a experiência adquirida. (p. 718)
+
+### teste
+
+Nem tudo o que é digital entra nessa categoria, e é bom saber disso antes de reclamar. O que decide não é o item ser digital nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende de um ambiente que a plataforma governa. Quatro perguntas ajudam a ver isso, e o seu caso precisa responder sim a todas elas.
+
+A primeira é o que foi prometido. Não basta dizer que havia algum conteúdo disponível. É preciso dizer qual utilidade foi vendida, ou seja, o que a skin deveria deixar você fazer e significar, e isso não se tira de slogans nem de listas de enfeite.
+
+A segunda é se a compra abriu uma posição que dura. No consumo contínuo, comprar não é receber um pacote e pronto. É ganhar um lugar no jogo que precisa continuar existindo para que a coisa sirva.
+
+A terceira é se a plataforma governa esse lugar de verdade. Não basta haver tecnologia no meio do caminho. É preciso que existam regras internas, escolhas sobre o que aparece e punições que moldam o seu uso e trazem consequências para você.
+
+A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua, mas o que você tinha é rebaixado, esvaziado ou reorganizado contra o que foi prometido. Uma instabilidade de um dia ou um ajuste neutro na tela não contam.
+
+> O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
+> impedindo que qualquer relação digital com aparência de continuidade seja absorvida pela categoria e impedindo, também, que o fornecedor expulse o conflito do CDC por rotulagem estratégica (p. 428)
+> A pergunta relevante não é se houve um “conteúdo” disponível em algum momento, mas qual utilidade foi economicamente ofertada em termos de funcionalidades e significações que, no regime do OIC, constituem o adquirido. (p. 428)
+> O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos. (p. 428)
+> Em consumo contínuo, a aquisição inaugura uma posição no ecossistema e não uma entrega exaurida em um instante. (p. 428)
+> O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor. (p. 428)
+> Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada (p. 429)
+> O roteiro de qualificação deve exigir a demonstração de um padrão de degradação que não se confunde com variações ordinárias, instabilidades pontuais ou ajustes neutros de interface. (p. 429)
+> pela presença cumulativa de elementos verificáveis do regime (p. 429)
+
+### limite
+
+E nem todo incômodo vira direito. Essa ideia não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
+
+> sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
+> nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
+> A categoria não amplia indefinidamente o ilícito nem moraliza escolhas técnicas. (p. 426)
+> A reconfigurabilidade do ambiente não transforma qualquer atualização, ajuste de interface, mudança de ranqueamento ou escolha ordinária de curadoria em ilicitude. O que se torna juridicamente relevante é a degradação significativa, persistente e reconhecível por critérios, aquela que altera o núcleo de utilidade economicamente ofertada ou rebaixa, de modo estrutural, as condições de fruição que deram sentido à aquisição. (p. 426)
 
 ### texto
 
-Terreno baldio tem custo. Quando falta nome para uma perda, ninguém consegue mostrá-la nem cobrar por ela, e o risco, que deveria frear, vira custo de operação. É assim que toda lacuna que dura tende a virar modelo de negócio.
+Por que ter um nome faz tanta diferença? Porque, quando falta palavra para uma perda, fica difícil mostrá-la, prová-la e cobrar alguém por ela. E esse vazio não fica parado. Ele vira espaço para a empresa ganhar.
 
-> Ela produz efeitos institucionais previsíveis, porque toda lacuna dogmática estável tende a ser convertida em modelo de negócio. (p. 25)
+Pense numa regra cuja multa quase nunca é aplicada. Se a fiscalização é rara e a punição é improvável, o risco deixa de frear e passa a ter preço, como se fosse só mais um custo da operação. É assim que toda lacuna que dura tende a virar modelo de negócio. Dar nome ao que você perde é o primeiro passo para que essa perda possa ser vista e cobrada.
+
 > Quando faltam categorias capazes de tornar certas perdas juridicamente visíveis, de nomeá-las, demonstrá-las e imputá-las, o espaço da irresponsabilidade não permanece neutro e passa a funcionar como margem de otimização. (p. 25)
 > Quando a fiscalização é rara e a sanção é improvável, o risco deixa de atuar como freio e passa a ser precificado, como se fosse apenas custo operacional. (p. 25)
+> Ela produz efeitos institucionais previsíveis, porque toda lacuna dogmática estável tende a ser convertida em modelo de negócio. (p. 25)
 
 ### pergunta
 
-Se a skin é uma permissão de ficar, por que ela vale tanto?
+Se a skin só funciona lá dentro, de onde vem o valor que ela tem para você?
 
 ## o-desejo
 

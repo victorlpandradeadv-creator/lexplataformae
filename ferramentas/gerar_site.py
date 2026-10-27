@@ -168,13 +168,13 @@ def chave_mestra(nivel):
 # O menu de cada modo. Rascunho de 27/10/2026, a pedido do autor, que critica depois.
 # Cada item tem o endereço e os modos em que aparece. Em Ciência os itens dos outros modos aparecem numa segunda linha.
 MENU = [
-    ("Percurso", "percurso/", (0,)), ("Ideias", "#conceitos", (0,)), ("Outras plataformas", "laboratorio/", (0,)),
+    ("Percurso", "percurso/", (0,)), ("Ideias", "#conceitos", (0,)), ("Seus direitos", "direitos/", (0,)), ("Outras plataformas", "laboratorio/", (0,)),
     ("Situações", "roteiro/", (1,)), ("Diretrizes", "roteiro/diretrizes/", (1,)), ("Plataformas", "laboratorio/", (1,)),
     ("Conceitos", "#conceitos", (1,)), ("Legislação", "legislacao/", (1,)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
     ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
-MENU_SEGUNDA = [("Percurso", "percurso/"), ("Ideias", "#conceitos"), ("Situações", "roteiro/"), ("Diretrizes", "roteiro/diretrizes/"),
+MENU_SEGUNDA = [("Percurso", "percurso/"), ("Ideias", "#conceitos"), ("Seus direitos", "direitos/"), ("Situações", "roteiro/"), ("Diretrizes", "roteiro/diretrizes/"),
                 ("Plataformas", "laboratorio/"), ("Legislação", "legislacao/")]
 
 
@@ -189,7 +189,7 @@ def menu_html(prefixo):
 
 
 # Páginas que o gerador escreve. O menu só mostra endereço que existe.
-PAGINAS_PRONTAS = {"percurso/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
+PAGINAS_PRONTAS = {"percurso/", "direitos/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
                    "autores/", "referencias/", "objeto-e-instrumentos/"}
 
 
@@ -334,6 +334,97 @@ def carregar_percurso():
 PERCURSO = carregar_percurso()
 
 
+# Direitos. O que a plataforma deve e o que o leitor pode pedir, em conteudo/direitos.md, uma situação do quadro por bloco.
+# Os campos de cada direito, na ordem em que aparecem, com o rótulo que o leitor vê.
+CAMPOS_DIREITO = {"quando": "Quando acontece", "deve": "O que a plataforma deve", "mostrar": "O que ajuda a mostrar",
+                  "pedir": "O que você pode pedir", "limite": "Até onde vai"}
+
+
+def carregar_direitos():
+    arq = RAIZ / "conteudo" / "direitos.md"
+    dados, atual, campo_ = {}, None, None
+    if not arq.exists():
+        return dados
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = dados.setdefault(linha[3:].strip(), {"titulo": "", "paragrafos": [], "citacoes": [], "partes": [], "ideias": [],
+                                                          **{k: [] for k in CAMPOS_DIREITO}})
+            campo_ = None
+            continue
+        if linha.startswith("### ") and atual is not None:
+            campo_ = linha[4:].strip()
+            continue
+        if atual is None or not campo_ or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+        if m:
+            atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif campo_ == "titulo":
+            atual["titulo"] = (atual["titulo"] + " " + linha.strip()).strip()
+        elif campo_ in ("partes", "ideias"):
+            atual[campo_] += [x.strip() for x in linha.split(",") if x.strip()]
+        elif campo_ in CAMPOS_DIREITO:
+            atual[campo_].append(linha.strip())
+        else:
+            atual["paragrafos"].append(linha.strip())
+    return dados
+
+
+DIREITOS = carregar_direitos()
+LETRAS_DIREITOS = [k for k in DIREITOS if len(k) == 1]
+
+
+def direito_html(letra, prefixo, nivel="h3", ancora=False):
+    """Um direito, com o título, o texto simples e os trechos que ele condensa. Em Doutrina, o caminho até a situação inteira."""
+    d = DIREITOS[letra]
+    ident = f' id="{letra}"' if ancora else ""
+    partes = "".join(f'<div class="direito-parte parte-{k}"><dt>{rotulo}</dt><dd>' + "".join(f"<p>{esc(t)}</p>" for t in d[k]) + "</dd></div>"
+                     for k, rotulo in CAMPOS_DIREITO.items() if d[k])
+    return (f'<section class="ext direito"{ident}><{nivel} class="direito-titulo">{esc(d["titulo"])}</{nivel}>'
+            + "".join(f"<p>{esc(t)}</p>" for t in d["paragrafos"])
+            + (f'<dl class="direito-partes">{partes}</dl>' if partes else "")
+            + expansao(d["citacoes"], prefixo)
+            + f'<p class="ver-situacao interno"><a href="{prefixo}roteiro/#{letra}">A situação inteira, para quem vai operar</a></p></section>')
+
+
+def secao_direitos(letras, prefixo):
+    """O fecho de direitos de uma página do percurso ou de uma ideia."""
+    if not letras:
+        return (f'<section class="ext direitos-curto"><p class="rotulo-ext">O que você pode exigir</p>'
+                f'<p class="ver-direitos"><a href="{prefixo}direitos/">Os seus direitos, um por um</a></p></section>')
+    return ('<section class="direitos" aria-label="O que você pode exigir"><p class="rotulo-ext">O que você pode exigir</p>'
+            + "".join(direito_html(l, prefixo) for l in letras)
+            + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
+
+
+def direitos_da_parte(slug):
+    return [l for l in LETRAS_DIREITOS if slug in DIREITOS[l]["partes"]]
+
+
+def direitos_da_ideia(cid):
+    return [l for l in LETRAS_DIREITOS if cid in DIREITOS[l]["ideias"]]
+
+
+def gerar_direitos():
+    prefixo = "../"
+    intro = DIREITOS.get("intro", {"paragrafos": [], "citacoes": []})
+    indice = "".join(f'<li><a href="#{l}">{esc(DIREITOS[l]["titulo"])}</a></li>' for l in LETRAS_DIREITOS)
+    corpo = (f'<article class="folha direitos-pagina"><header class="folha-cabeca ext-cabeca"><h1>Seus direitos</h1></header>'
+             f'<section class="ext">' + "".join(f"<p>{esc(t)}</p>" for t in intro["paragrafos"]) + expansao(intro["citacoes"], prefixo) + "</section>"
+             f'<nav class="direitos-indice" aria-label="Os direitos"><ol>{indice}</ol></nav>'
+             + "".join(direito_html(l, prefixo, "h2", ancora=True) for l in LETRAS_DIREITOS)
+             + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
+             + "</article>")
+    destino = SAIDA / "direitos"
+    destino.mkdir(parents=True, exist_ok=True)
+    jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": "Seus direitos", "inLanguage": "pt-BR",
+              "url": f"{BASE}/direitos/", "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+    (destino / "index.html").write_text(
+        pagina("Seus direitos · Lex Plataformae",
+               "O que a plataforma deve a quem compra itens, contas e acessos digitais, e o que você pode pedir quando alguma coisa dá errado.",
+               corpo, prefixo, "direitos/", jsonld, camada="mista"), encoding="utf-8")
+
+
 # Ilustrações conceituais. O plano fica em estrutura/ilustracoes.md e os arquivos em site/ilustracoes/<id>.webp.
 # Sem arquivo, o lugar aparece só no degrau Despir, como ilustração prevista.
 ILUSTRACOES_DIR = RAIZ / "site" / "ilustracoes"
@@ -397,7 +488,8 @@ def figura(ident, prefixo):
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
             + expansao(peca["citacoes"], prefixo) + "</figure>")
 ROTULOS_PERCURSO = {"imagem": "Uma imagem", "mecanismo": "Como funciona", "caso": "Um caso",
-                    "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo"}
+                    "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo",
+                    "limite": "Até onde vai", "teste": "Como saber se é o seu caso"}
 
 # Cores e áreas. A proposta está em estrutura/cores.json e foi aprovada pelo autor em 27/10/2026.
 CORES = json.loads((RAIZ / "estrutura" / "cores.json").read_text(encoding="utf-8"))
@@ -542,8 +634,10 @@ def bloco_percurso(b, prefixo):
                 f'<a href="{prefixo}laboratorio/{arg}/">{esc(titulo)}</a></h2>{texto}{exp}</section>')
     if tipo == "ilustracao":
         return figura(arg, prefixo)
-    if tipo in ("imagem", "mecanismo", "caso"):
+    if tipo in ("imagem", "mecanismo", "caso", "teste"):
         return f'<section class="ext didatico {tipo}"><p class="rotulo-ext">{rotulo}</p>{texto}{exp}</section>'
+    if tipo == "limite":
+        return f'<section class="ext limite"><p class="rotulo-ext">{rotulo}</p>{texto}{exp}</section>'
     return f'<section class="ext">{texto}{exp}</section>'
 
 
@@ -572,6 +666,7 @@ def gerar_percurso():
                  f'<header class="folha-cabeca ext-cabeca"><h1>{esc(parte["titulo"])}</h1></header>'
                  + figura(f'parte-{parte["slug"]}', prefixo)
                  + "".join(bloco_percurso(b, prefixo) for b in parte["blocos"])
+                 + secao_direitos(direitos_da_parte(parte["slug"]), prefixo)
                  + f'<section class="ext duvida"><p class="pergunta-final">{esc(parte["pergunta"])}</p>'
                  f'<div class="acoes">{avancar}{botao_desnudar()}</div></section>'
                  + vizinhos + "</article>")
@@ -834,6 +929,7 @@ def gerar_conceito(c):
             + bloco_ext("caso", "Um caso", "didatico caso")
             + bloco_ext("importa", "Por que importa")
             + bloco_ext("limite", "Até onde vai", "limite")
+            + (secao_direitos(direitos_da_ideia(c["id"]), prefixo) if direitos_da_ideia(c["id"]) else "")
             + no_percurso(c["id"], prefixo)
             + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))
         arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · a ideia no texto integral">'
@@ -2878,7 +2974,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/", BASE + "/percurso/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -2896,6 +2992,11 @@ def gerar_auxiliares():
         "A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.",
         "",
     ] + [f"- [{parte['titulo']}]({BASE}/percurso/{parte['slug']}/): {parte['resumo']}" for parte in PERCURSO] + [
+        "",
+        "## Seus direitos",
+        "",
+        f"- [Seus direitos]({BASE}/direitos/): o que a plataforma deve e o que o consumidor pode pedir, em linguagem simples, uma situação por bloco, com os trechos literais da tese por baixo.",
+    ] + [f"- [{DIREITOS[l]['titulo']}]({BASE}/direitos/#{l})" for l in LETRAS_DIREITOS] + [
         "",
         "## Conceitos",
         "",
@@ -3012,6 +3113,7 @@ def main():
     gerar_estilo()
     gerar_inicio()
     gerar_percurso()
+    gerar_direitos()
     for c in D["conceitos"]:
         gerar_conceito(c)
     gerar_tese()

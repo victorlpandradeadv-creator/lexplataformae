@@ -111,9 +111,9 @@ B
 
 ### ideia
 
-Uma catraca na entrada de um jardim. Do lado de dentro, a figura de armadura brilhante. A catraca não fica na saída, fica no caminho de quem quer continuar lá dentro.
+Uma catraca na entrada de um jardim. Do lado de dentro, a figura de armadura brilhante. A catraca não fica na saída, fica no caminho de quem quer continuar lá dentro. A figura existe e é de quem a comprou, e a catraca só controla as condições de uso.
 
-> não se compra apenas um item, mas a permissão revogável de permanecer dentro de um ecossistema de signos (p. 186)
+> como forma de mercadoria cuja fruição é subordinada a catracas contratuais e tecnológicas (p. 186)
 
 ### alt
 
@@ -121,7 +121,7 @@ Catraca na entrada de um jardim, com uma figura de armadura brilhante do lado de
 
 ### legenda
 
-Você paga para continuar do lado de dentro.
+O que você comprou existe, mas só se usa do lado de dentro.
 
 ### estado
 

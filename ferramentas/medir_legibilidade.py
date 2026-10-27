@@ -20,7 +20,7 @@ ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.m
                                            RAIZ / "conteudo" / "direitos.md"]
 META = 50
 # Campos que guardam endereços, e não texto para o leitor.
-IGNORAR = {"partes", "ideias"}
+IGNORAR = {"partes", "ideias", "titulo"}
 
 VOGAIS = "aeiouáéíóúâêôãõàüy"
 FORTES = set("aeoáéóâêôãõàíú")
