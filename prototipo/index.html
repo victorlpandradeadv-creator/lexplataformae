@@ -1,0 +1,502 @@
+<title>Lex Plataformae</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Atlas do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae, a partir da tese de doutorado de Victor L. P. Andrade (UNESP, 2026).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<style>
+  /* Layout. Um campo quadriculado (a Lex Plataformae) contém o percurso numerado dos conceitos. Cada conceito abre uma folha de leitura com âncoras de página. */
+  :root {
+    --papel: #f4f5f8;
+    --folha: #fbfbfd;
+    --tinta: #14161b;
+    --tinta-2: #555b69;
+    --linha: #d7dbe3;
+    --campo: #eceef3;
+    --grade: rgba(20, 22, 27, 0.055);
+    --acento: #2b3fcc;
+    --acento-suave: rgba(43, 63, 204, 0.08);
+    --marca: rgba(241, 222, 76, 0.55);
+    --nota: #fff7d6;
+    --nota-borda: #e6d27a;
+    --desnudo: #c2410c;
+    --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --f-texto: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --f-dado: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --medida: 66ch;
+    --raio: 4px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #0f1116; --folha: #13161d; --tinta: #e7e9ef; --tinta-2: #9aa1b1; --linha: #2a2f3b;
+      --campo: #151821; --grade: rgba(231, 233, 239, 0.05); --acento: #9aa8ff; --acento-suave: rgba(154, 168, 255, 0.1);
+      --marca: rgba(201, 181, 58, 0.28); --nota: #221f12; --nota-borda: #6b5f22; --desnudo: #fb923c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --papel: #0f1116; --folha: #13161d; --tinta: #e7e9ef; --tinta-2: #9aa1b1; --linha: #2a2f3b;
+    --campo: #151821; --grade: rgba(231, 233, 239, 0.05); --acento: #9aa8ff; --acento-suave: rgba(154, 168, 255, 0.1);
+    --marca: rgba(201, 181, 58, 0.28); --nota: #221f12; --nota-borda: #6b5f22; --desnudo: #fb923c;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--f-texto);
+    font-size: 1.125rem;
+    line-height: 1.55;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  a { color: var(--acento); text-underline-offset: 0.18em; }
+  a:focus-visible, button:focus-visible, input:focus-visible + label { outline: 2px solid var(--acento); outline-offset: 3px; }
+  .moldura { max-width: 1120px; margin-inline: auto; }
+
+  /* Faixa de status */
+  .faixa {
+    font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.02em;
+    color: var(--tinta-2); border-bottom: 1px solid var(--linha);
+    padding-block: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; justify-content: space-between;
+  }
+
+  /* Topo */
+  .topo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; padding-block: 1rem; }
+  .topo-marca { font-family: var(--f-display); font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: 0.95rem; letter-spacing: 0.02em; color: var(--tinta); text-decoration: none; }
+  .topo nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-family: var(--f-display); font-size: 0.875rem; }
+  .topo nav a { color: var(--tinta); text-decoration: none; }
+  .topo nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; }
+  .em-breve { color: var(--tinta-2); }
+  .em-breve small { font-family: var(--f-dado); font-size: 0.7rem; margin-left: 0.3em; }
+  .chave { display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); cursor: pointer; }
+  .chave input { accent-color: var(--desnudo); width: 1rem; height: 1rem; }
+
+  /* Abertura */
+  .abertura { padding-block: 2.5rem 2rem; display: grid; gap: 1.25rem; }
+  .sobrelinha { font-family: var(--f-dado); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .marca {
+    font-family: var(--f-display); font-stretch: 125%; font-weight: 800; text-transform: uppercase;
+    font-size: clamp(2rem, 8.6vw, 5.5rem); line-height: 0.92; letter-spacing: -0.01em; margin: 0; text-wrap: balance;
+  }
+  .lema { font-size: clamp(1.15rem, 2.4vw, 1.45rem); margin: 0; max-width: 40ch; }
+  .frase { margin: 0; max-width: 46ch; font-size: clamp(1.25rem, 2.8vw, 1.75rem); line-height: 1.35; font-style: italic; }
+  .frase .pg { font-style: normal; }
+
+  /* Âncora de página */
+  .pg {
+    font-family: var(--f-dado); font-size: 0.72em; font-weight: 500; white-space: nowrap;
+    border: 1px solid var(--linha); border-radius: 3px; padding: 0.05em 0.4em; color: var(--tinta-2);
+    vertical-align: 0.12em; margin-left: 0.25em;
+  }
+
+  /* Campo */
+  .campo {
+    position: relative; border: 1px solid var(--linha); border-radius: var(--raio);
+    background-color: var(--campo);
+    background-image: linear-gradient(var(--grade) 1px, transparent 1px), linear-gradient(90deg, var(--grade) 1px, transparent 1px);
+    background-size: 24px 24px;
+    padding: clamp(1rem, 3vw, 2rem); display: grid; gap: 1.5rem; margin-bottom: 3rem;
+  }
+  .campo-topo { display: grid; gap: 0.5rem; max-width: var(--medida); }
+  .campo-rotulo { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .campo-nome { font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: 1.35rem; margin: 0; }
+  .campo-nome a { color: var(--tinta); }
+  .campo-def { margin: 0; color: var(--tinta-2); }
+
+  .percursos { border: 0; margin: 0; padding: 0; display: grid; gap: 0.75rem; min-width: 0; }
+  .percursos legend { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); padding: 0; margin-bottom: 0.5rem; }
+  .seletor { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+  .seletor input { position: absolute; opacity: 0; pointer-events: none; }
+  .seletor label {
+    display: grid; gap: 0.15rem; padding: 0.7rem 0.85rem; border: 1px solid var(--linha); border-radius: var(--raio);
+    background: var(--folha); cursor: pointer; min-width: 0;
+  }
+  .seletor label b { font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; }
+  .seletor label span { font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .seletor input:checked + label { border-color: var(--acento); box-shadow: inset 0 0 0 1px var(--acento); background: var(--acento-suave); }
+  .logica { margin: 0; max-width: var(--medida); }
+  .logica q { font-style: italic; quotes: "“" "”"; }
+
+  /* Sequência */
+  .sequencia { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; position: relative; }
+  .passo {
+    display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.75rem; align-items: start;
+    background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 0.85rem 1rem;
+  }
+  .passo-n { font-family: var(--f-dado); font-size: 0.95rem; color: var(--tinta-2); padding-top: 0.15rem; font-variant-numeric: tabular-nums; }
+  .passo-corpo { display: grid; gap: 0.2rem; min-width: 0; }
+  .passo-nome { font-family: var(--f-display); font-weight: 700; font-size: 1.1rem; line-height: 1.2; }
+  .passo-nome a { color: var(--tinta); text-decoration: none; }
+  .passo-nome a:hover { text-decoration: underline; }
+  .passo-papel { font-style: italic; color: var(--tinta-2); font-size: 1rem; }
+  .gemeos { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 0.6rem; }
+  .gemeos-sinal { font-family: var(--f-dado); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--tinta-2); border: 1px solid var(--linha); border-radius: 999px; padding: 0.05rem 0.5rem; }
+  .passo.fantasma { background: transparent; border-style: dashed; }
+  .passo.fantasma .passo-nome { font-weight: 600; color: var(--tinta-2); }
+  .passo-tipo { font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .fora { display: grid; gap: 0.5rem; }
+  .fora p { margin: 0; font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); }
+  .fora ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .fora a { font-family: var(--f-display); font-size: 0.85rem; text-decoration: none; color: var(--tinta-2); border: 1px solid var(--linha); border-radius: 999px; padding: 0.2rem 0.7rem; background: var(--folha); display: inline-block; }
+  .fora a:hover { color: var(--tinta); }
+
+  /* Epígrafes */
+  .secao { padding-block: 1rem 3rem; display: grid; gap: 1rem; }
+  .secao h2 { font-family: var(--f-display); font-stretch: 115%; font-weight: 750; font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0; text-wrap: balance; }
+  .secao > p { margin: 0; max-width: var(--medida); }
+  .epigrafes { list-style: none; counter-reset: musa; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 0.5rem 1.5rem; }
+  .epigrafes li { counter-increment: musa; display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: 0.5rem; padding-block: 0.55rem; border-top: 1px solid var(--linha); }
+  .epigrafes li::before { content: counter(musa); font-family: var(--f-dado); color: var(--tinta-2); font-size: 0.9rem; padding-top: 0.1rem; }
+  .epigrafes cite { font-style: italic; }
+  .epigrafes small { display: block; font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .ouvir { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1rem; }
+  .botao {
+    font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; color: var(--folha); background: var(--tinta);
+    border-radius: var(--raio); padding: 0.6rem 1rem; text-decoration: none; display: inline-block;
+  }
+  .aviso { font-size: 0.9rem; color: var(--tinta-2); margin: 0; max-width: 60ch; }
+
+  /* Folha do conceito */
+  .folha { padding-block: 1.5rem 3rem; display: grid; gap: 2rem; max-width: 820px; }
+  .voltar { font-family: var(--f-display); font-size: 0.9rem; }
+  .folha-cabeca { display: grid; gap: 0.6rem; }
+  .folha-cabeca h1 { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(1.9rem, 5.5vw, 3.2rem); line-height: 1.02; margin: 0; text-wrap: balance; }
+  .selos { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .selo { font-family: var(--f-dado); font-size: 0.72rem; border: 1px solid var(--linha); border-radius: 999px; padding: 0.15rem 0.6rem; color: var(--tinta-2); }
+  .selo.gemeo { border-color: var(--acento); color: var(--acento); text-decoration: none; }
+  .bloco { display: grid; gap: 0.75rem; }
+  .bloco h2 { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .bloco p { margin: 0; max-width: var(--medida); }
+  .citacao { margin: 0; max-width: var(--medida); padding-left: 1rem; border-left: 2px solid var(--linha); }
+  .citacao p { margin: 0; }
+  .canonica { border-left: 0; padding-left: 0; }
+  .canonica p { font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.42; }
+  .canonica mark { background: linear-gradient(transparent 12%, var(--marca) 12%, var(--marca) 88%, transparent 88%); color: inherit; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding-inline: 0.1em; }
+  .nao-e { border-left-style: dashed; }
+  .nota-autor { background: var(--nota); border: 1px solid var(--nota-borda); border-radius: var(--raio); padding: 1rem 1.1rem; display: grid; gap: 0.4rem; max-width: var(--medida); }
+  .nota-autor .sobrelinha { color: var(--tinta-2); }
+  .lugares { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .lugares li { font-family: var(--f-dado); font-size: 0.8rem; border: 1px solid var(--linha); border-radius: 3px; padding: 0.15rem 0.5rem; background: var(--folha); }
+  .nos-percursos { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+  .nos-percursos li { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 0.25rem 1rem; padding-block: 0.4rem; border-top: 1px solid var(--linha); }
+  .nos-percursos b { font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; }
+  .nos-percursos span { font-style: italic; color: var(--tinta-2); }
+  .vizinhos { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-family: var(--f-display); font-size: 0.95rem; border-top: 1px solid var(--linha); padding-top: 1rem; }
+
+  .rodape { border-top: 1px solid var(--linha); padding-block: 1.5rem 2.5rem; display: grid; gap: 0.5rem; font-size: 0.9rem; color: var(--tinta-2); }
+  .rodape p { margin: 0; max-width: 80ch; }
+
+  /* Desnudamento arquitetural (5.2.4). Mostra como a página é feita e de onde vem cada afirmação. */
+  body.desnudo [data-arq] { outline: 1px dashed var(--desnudo); outline-offset: 4px; position: relative; }
+  body.desnudo [data-arq]::after {
+    content: attr(data-arq); position: absolute; left: 0; top: -1.45rem; z-index: 2;
+    font-family: var(--f-dado); font-size: 0.66rem; font-style: normal; font-weight: 500; letter-spacing: 0; text-transform: none;
+    color: var(--desnudo); background: var(--papel); padding: 0.05rem 0.3rem; white-space: nowrap; max-width: 92vw; overflow: hidden; text-overflow: ellipsis;
+  }
+  body.desnudo .pg[data-arq]::after { content: none; }
+  .legenda-desnudo { display: none; font-family: var(--f-dado); font-size: 0.75rem; color: var(--desnudo); border: 1px dashed var(--desnudo); border-radius: var(--raio); padding: 0.5rem 0.75rem; margin-bottom: 1rem; }
+  body.desnudo .legenda-desnudo { display: block; }
+  body.desnudo .sequencia { gap: 1.9rem; padding-top: 1.4rem; }
+  body.desnudo .campo { padding-top: 2.6rem; }
+
+  @media (max-width: 640px) {
+    .seletor { grid-template-columns: minmax(0, 1fr); }
+    .passo { grid-template-columns: 2rem minmax(0, 1fr); padding: 0.75rem; }
+    .nos-percursos li { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<div class="moldura">
+  <div class="faixa" data-arq="rascunho · nada vai ao ar sem o autor">
+    <span>Protótipo v0.1 · rascunho para revisão do autor</span>
+    <span>Citações conferidas por script contra a tese</span>
+  </div>
+
+  <header class="topo">
+    <a class="topo-marca" href="#atlas">Lex Plataformae</a>
+    <nav aria-label="Seções">
+      <ul>
+        <li><a href="#atlas" id="nav-atlas" aria-current="page">Atlas</a></li>
+        <li class="em-breve">Roteiro<small>em breve</small></li>
+        <li class="em-breve">Laboratório<small>em breve</small></li>
+        <li><a href="#epigrafes" id="nav-epigrafes">Epígrafes</a></li>
+      </ul>
+    </nav>
+    <label class="chave" for="desnudar">
+      <input type="checkbox" id="desnudar">
+      Desnudar a arquitetura
+    </label>
+  </header>
+
+  <p class="legenda-desnudo" role="note">Arquitetura à mostra. Cada contorno tracejado é uma peça da página, e a etiqueta diz o que ela é e de onde vem. As caixas em volta dos números de página são âncoras na tese. Nada nesta página afirma algo sem apontar a página que sustenta.</p>
+  <main id="vista"></main>
+
+  <footer class="rodape">
+    <p>ANDRADE, Victor Luiz Pereira de. Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae. A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>
+    <p>Todo texto entre aspas é transcrição literal da tese, com a página indicada. Acréscimos posteriores à tese aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>
+  </footer>
+</div>
+
+<script id="dados" type="application/json">{"versao": "v0", "abertura": {"texto": "Nomear não é poetizar. Nomear é deslocar o poder de um regime de autoevidência para um regime de contestabilidade.", "ref": "p. 792"}, "conceitos": [{"id": "lex-plataformae", "nome": "Lex Plataformae", "tipo": "campo", "numero": null, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "O campo. Não é etapa do raciocínio, é a ordenação dentro da qual todas as etapas acontecem. A frase-regime da conclusão não a inclui entre os conceitos (p. 800). Ela é aquilo contra o que o regime se arma.", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada.", "ref": "p. 27"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "[...] designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas.", "ref": "p. 27"}, {"texto": "A Lex Plataformae designa esse regime em funcionamento, no qual regra, implementação e enforcement organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC.", "ref": "p. 364"}, {"texto": "[...] ordenação privada fundada em arquitetura, curadoria, sanção e mutação unilateral, ora denominada Lex Plataformae [...]", "ref": "Resumo"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público.", "ref": "p. 28"}, {"texto": "Aqui o ponto não é converter a plataforma em Estado [...]", "ref": "p. 366"}]}, {"rotulo": "Onde vive", "texto": "Introdução (p. 27-28), 4.2.4, 4.2.5, 5.2.4, 6.1.2.", "citacoes": []}]}, {"id": "oic", "nome": "Objeto Imaterial de Consumo (OIC)", "tipo": "conceito", "numero": 1, "gemeo": "feixe-de-fruicao-governada", "campos": [{"rotulo": "Função no regime", "texto": "Qualifica o objeto. É o gatilho dos demais parâmetros. \"Esse parâmetro exerce, assim, função de gatilho para os demais.\" (p. 719)", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC.", "ref": "p. 718"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "[...] propõe-se a categoria de Objeto Imaterial de Consumo (OIC) como conceito-infraestrutura apto a concretizar a noção de produto imaterial prevista no art. 3º, § 1º, do Código de Defesa do Consumidor enquanto feixe de fruição governada.", "ref": "Resumo"}, {"texto": "O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado.", "ref": "p. 719"}]}, {"rotulo": "Critérios de entrada", "texto": "Quatro campos cumulativos (p. 428-429). O objeto prometido como feixe de fruição. A posição de fruição sustentada. A governança infraestrutural como modo de execução do fornecimento. A possibilidade típica de degradação relevante sem ruptura total. A incidência se decide \"pela presença cumulativa de elementos verificáveis do regime\" (p. 429). Este é o portão de entrada do Roteiro.", "citacoes": []}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "A mera existência de moderação, rankings, regras comunitárias ou ajustes de interface não basta para acionar o operador do OIC.", "ref": "p. 430"}, {"texto": "Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição.", "ref": "p. 430"}]}, {"rotulo": "Onde vive", "texto": "5.1.2 e subseções, 6.2.3, 7.1.1.1.", "citacoes": []}]}, {"id": "feixe-de-fruicao-governada", "nome": "Feixe de fruição governada", "tipo": "conceito", "numero": 2, "gemeo": "oic", "campos": [{"rotulo": "Função no regime", "texto": "Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da \"definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo\" (p. 394).", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho.", "ref": "p. 426"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "O feixe de fruição aparece, então, como coleção de posições acessíveis mediante um identificador institucional e uma infraestrutura que estabiliza o que é visível, utilizável e reconhecível no ecossistema.", "ref": "p. 408-409"}, {"texto": "[...] a identificação de um feixe de utilidades imateriais que só se realiza sob condições continuamente organizadas pelo fornecedor.", "ref": "p. 717"}, {"texto": "O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo.", "ref": "p. 252"}]}, {"rotulo": "Formulação para o nível introdutório", "texto": "", "citacoes": [{"texto": "O valor de uso do feixe, nessa condição, não é estoque, é fluxo.", "ref": "p. 409"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos.", "ref": "p. 428"}, {"texto": "O quarto limite abrange variações ordinárias do ecossistema que não configuram degradação relevante e persistente do feixe, como atualizações, ajustes de interface, medidas antiabuso, moderação regular e instabilidades pontuais.", "ref": "p. 434"}]}, {"rotulo": "Onde vive", "texto": "Resumo e palavras-chave, 5.1.2, 5.1.2.3 (p. 428-434), 5.1.2.4, 7.1.1.1 (p. 717).", "citacoes": []}]}, {"id": "vulnerabilidade-semiotica", "nome": "Vulnerabilidade semiótica", "tipo": "conceito", "numero": 3, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Localiza a assimetria (p. 800). Na exposição do capítulo 5, é o ponto de partida. \"Apresentá-la primeiro não é arbitrariedade expositiva\" (p. 394).", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A vulnerabilidade semiótica pode ser definida, em síntese, como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente.", "ref": "p. 396"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "A vulnerabilidade semiótica descreve, nesse plano, uma perda estrutural de capacidade de verificação, e não um defeito de atenção do consumidor.", "ref": "p. 281"}, {"texto": "Vulnerabilidade semiótica designa a exposição estrutural do consumidor ao controle unilateral, pela plataforma, das condições que fazem a promessa valer como entrega quando o bem é uma posição de fruição e não uma coisa autônoma.", "ref": "p. 321"}, {"texto": "Vulnerabilidade semiótica nomeia, assim, esse tipo de perda estrutural de demonstrabilidade que ocorre quando sentido, cena, equivalência e tempo integram materialmente o que é colocado em circulação e permanecem sob administração unilateral do ecossistema.", "ref": "p. 330"}, {"texto": "O termo não designa ingenuidade, credulidade ou deficiência cultural do consumidor. Designa um mecanismo de poder inscrito na arquitetura do fornecimento [...]", "ref": "p. 719-720"}]}, {"rotulo": "O que não é", "texto": "O segundo trecho responde a uma pergunta que o site vai receber com frequência. Vulnerabilidade semiótica não é assimetria informacional.", "citacoes": [{"texto": "Não basta que o caso envolva interface, algoritmo ou ambiente online.", "ref": "p. 721"}, {"texto": "O problema desloca-se, então, do \"saber mais\" para o \"poder orientar-se e reagir\".", "ref": "p. 396"}]}, {"rotulo": "Onde vive", "texto": "4.1.5, 4.2.6, 5.1.1, 6.2.4 (incluindo 6.2.4.1, a recusa do termo \"vulnerabilidade digital\"), 7.1.1.2.", "citacoes": []}]}, {"id": "antecipacao-hipercuratorial", "nome": "Antecipação hipercuratorial", "tipo": "conceito", "numero": 4, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Lê a expectativa governada (p. 800).", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "Antecipação hipercuratorial designa uma técnica econômico-semiológica pela qual a plataforma produz futuro consumível por curadoria contínua, definindo o que virá, o que desaparecerá, o que retornará e o que será elevado ao estatuto de \"evento\".", "ref": "p. 313"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "A antecipação hipercuratorial, nesse sentido, não é ornamento de marketing, mas técnica de governo do tempo que monetiza a expectativa como forma regular de manutenção do valor.", "ref": "p. 316"}, {"texto": "[...] práticas de antecipação hipercuratorial, pelas quais a plataforma projeta imagens de desempenho, recompensa e experiência futura sem oferecer, na mesma medida, condições reais de verificação e controle pelo consumidor.", "ref": "p. 34"}]}, {"rotulo": "O que não é", "texto": "Pendência. Não encontrei, para este conceito, um critério negativo geral como os que a tese oferece aos demais. O mais próximo trata da extensão aos rumores.", "citacoes": [{"texto": "[...] o controle do OIC precisa alcançar também as zonas informalizadas de administração da expectativa, sempre que elas deixem de ser ruído comunitário espontâneo e passem a integrar, funcionalmente, a governança do desejo, da espera e do planejamento de consumo.", "ref": "p. 787"}]}, {"rotulo": "Onde vive", "texto": "4.1.4, onde nasce. Depois 6.2.5, 7.1.1.4 (p. 725, dentro do parâmetro da oferta e da publicidade) e 7.2.7.1.", "citacoes": []}]}, {"id": "teleologia-abusiva", "nome": "Teleologia abusiva", "tipo": "conceito", "numero": 5, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Identifica o ilícito (p. 800). Depende da vulnerabilidade semiótica e do OIC. \"A sua formulação depende das duas categorias anteriores.\" (p. 394)", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura.", "ref": "p. 732"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "A teleologia abusiva ocupa esse lugar como ilícito de arquitetura, isto é, como modo de imputação que alcança finalidades exploratórias inscritas no desenho técnico-organizacional do serviço, e não apenas em comandos contratuais textuais.", "ref": "p. 394"}, {"texto": "[...] a abusividade pode decorrer não apenas de falhas episódicas, mas da própria finalidade inscrita na arquitetura do negócio quando concebida para explorar a vulnerabilidade semiótica do consumidor.", "ref": "Resumo"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada.", "ref": "p. 732"}, {"texto": "A teleologia abusiva não pode funcionar como coringa moral.", "ref": "p. 456"}]}, {"rotulo": "Onde vive", "texto": "3.2.5, 5.1.3, 6.4, 7.1.1.7.", "citacoes": []}]}, {"id": "auditabilidade-aberta", "nome": "Auditabilidade aberta", "tipo": "conceito", "numero": 6, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Controla a alteração (p. 800). Critério de legitimidade.", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "Auditabilidade aberta significa a existência de condições mínimas de verificabilidade sobre aspectos relevantes do fornecimento, de modo que órgãos de tutela, Judiciário, peritos e, em certa medida, os próprios consumidores possam reconstruir a relação entre promessa, alteração, sanção, impacto funcional e justificação apresentada pelo fornecedor.", "ref": "p. 727"}]}, {"rotulo": "Formulação curta", "texto": "", "citacoes": [{"texto": "Não transparência total, mas transparência suficiente.", "ref": "p. 728"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "A expressão não designa abertura irrestrita de código-fonte, exposição integral da arquitetura tecnológica ou renúncia generalizada a segredos empresariais.", "ref": "p. 727"}]}, {"rotulo": "Onde vive", "texto": "5.1.5, 6.3.1, 6.3.3, 7.1.1.5, 7.2.5.", "citacoes": []}]}, {"id": "equivalencia-de-valor-funcional", "nome": "Equivalência de valor funcional", "tipo": "conceito", "numero": 7, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Controla a alteração (p. 800). Também orienta o remédio (p. 731).", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "O que importa é a preservação substancial do papel exercido pelo objeto na experiência adquirida, considerando sua utilidade concreta no ecossistema, sua inserção relacional no ambiente de uso e, quando juridicamente relevante, sua densidade identitária ou simbólica.", "ref": "p. 729"}]}, {"rotulo": "Formulação para o nível introdutório", "texto": "", "citacoes": [{"texto": "Um objeto pode continuar existindo e, ainda assim, já não ser, em sentido jurídico relevante, aquilo que foi adquirido.", "ref": "p. 795"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "A mutabilidade, por si, não é ilícita.", "ref": "p. 729"}, {"texto": "Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço.", "ref": "p. 730"}]}, {"rotulo": "Onde vive", "texto": "5.1.5, 6.3.2, 7.1.1.6.", "citacoes": []}]}, {"id": "funcao-social-da-pi", "nome": "Função social da propriedade intelectual", "tipo": "conceito", "numero": 8, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Contém a exclusividade (p. 800). A conclusão fala em \"função social da propriedade e da propriedade intelectual\".", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A propriedade intelectual protege o ecossistema, mas não absolve sua governança.", "ref": "p. 739"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "Nesses contextos, a exclusividade não é apenas título jurídico sobre um ativo. É também infraestrutura de poder privado sobre acesso, permanência, modulação, atualização e contestação da experiência do consumidor.", "ref": "p. 738"}, {"texto": "O CDC não elimina a propriedade intelectual. A propriedade intelectual não suspende o CDC.", "ref": "p. 738"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "Isso não representa absorção da propriedade intelectual pelo CDC nem redução de seu regime à lógica consumerista.", "ref": "p. 738"}]}, {"rotulo": "Onde vive", "texto": "3.2.4, 6.5 e subseções, 7.1.1.9.", "citacoes": []}]}, {"id": "recomposicao-funcional", "nome": "Recomposição funcional e correção de regime", "tipo": "conceito", "numero": 9, "gemeo": null, "campos": [{"rotulo": "Função no regime", "texto": "Reorganiza o remédio (p. 800). É o fecho do regime. \"Esse parâmetro cumpre, assim, função de fechamento do regime.\" (p. 740)", "citacoes": []}, {"rotulo": "Definição canônica proposta", "texto": "", "citacoes": [{"texto": "A tutela prioritária, sempre que técnica e juridicamente viável, deve buscar recomposição funcional da fruição e correção do regime que a tornou inadequada.", "ref": "p. 739"}]}, {"rotulo": "Formulações concorrentes", "texto": "", "citacoes": [{"texto": "A correção de regime, ao contrário, permite tratar o dano como arquitetural e não apenas como episódio.", "ref": "p. 741"}, {"texto": "Isso não é tutela adequada. É monetização automática do abuso.", "ref": "p. 797"}]}, {"rotulo": "O que não é", "texto": "", "citacoes": [{"texto": "O critério não é a reprodução literal do estado pretérito a qualquer custo, mas a restituição funcionalmente adequada da experiência lesada [...]", "ref": "p. 740"}, {"texto": "A indenização pecuniária permanece, evidentemente, como remédio legítimo e em muitos casos indispensável. O parâmetro aqui formulado não a elimina.", "ref": "p. 741"}]}, {"rotulo": "Onde vive", "texto": "7.1.1.10, 7.3, Conclusão (p. 797-798).", "citacoes": []}]}, {"id": "integridade-pessoal", "nome": "Integridade pessoal", "tipo": "bens", "numero": null, "gemeo": null, "campos": [{"rotulo": "Situação", "texto": "Fora do Atlas, por decisão do autor em 26/10/2026. Integra a camada de bens protegidos, que é o papel que o 5.1 lhe atribui. Na engrenagem do 5.1, \"a integridade pessoal descreve os bens protegidos\" (p. 395).", "citacoes": []}, {"rotulo": "Nota do autor", "texto": "Acréscimo posterior à tese, de 26/10/2026. Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la.", "citacoes": []}, {"rotulo": "Lastro na tese", "texto": "A nota encontra apoio sobretudo no 6.1.3, mais amplo que a definição do 5.1.4.", "citacoes": [{"texto": "[...] quando a lesão é compreendida não a partir do sofrimento subjetivamente experimentado, mas do atributo da personalidade objetivamente atingido.", "ref": "p. 534"}, {"texto": "A experiência digital pode atingir dimensões de integridade pessoal juridicamente relevantes justamente porque proteção de dados, autodeterminação informacional e livre desenvolvimento da personalidade integram o núcleo existencial da pessoa em ambiente informacional [...]", "ref": "p. 535"}, {"texto": "[...] para a própria integridade da personalidade em ambientes digitalmente governados.", "ref": "p. 800"}]}, {"rotulo": "Definição do 5.1.4", "texto": "", "citacoes": [{"texto": "Integridade pessoal, no regime do Objeto Imaterial de Consumo, não designa estado emocional nem desconforto subjetivo decorrente de frustrações ordinárias do mercado. Designa a preservação de condições mínimas de agência, continuidade e orientação prática do consumidor dentro de um ambiente técnico-organizacional que administra, de modo permanente, as possibilidades de fruição.", "ref": "p. 457"}]}, {"rotulo": "Onde vive", "texto": "5.1.4, 6.1.3, 7.1.4.", "citacoes": []}]}], "passos": {"dever-de-informar": {"nome": "Dever de informar", "secao": "7.1.1.3", "tipo": "roteiro"}, "publicidade-e-oferta": {"nome": "Publicidade e oferta", "secao": "7.1.1.4", "tipo": "roteiro"}, "prova-e-onus": {"nome": "Prova e ônus", "secao": "7.1.1.8", "tipo": "roteiro"}}, "percursos": {"consumidor": {"nome": "Percurso do consumidor", "onde": "5.1", "fonte": "p. 394-395", "logica": "Expõe os conceitos a partir da posição de quem consome.", "sequencia": [{"id": "vulnerabilidade-semiotica", "papel": "descreve a condição", "par": null}, {"id": "oic", "papel": "descreve o objeto", "par": "feixe-de-fruicao-governada"}, {"id": "teleologia-abusiva", "papel": "descreve o ilícito", "par": null}, {"id": "integridade-pessoal", "papel": "descreve os bens protegidos", "par": null}, {"id": "auditabilidade-aberta", "papel": "critério operacional de verificação e recomposição", "par": null}, {"id": "equivalencia-de-valor-funcional", "papel": "critério operacional de verificação e recomposição", "par": null}], "trecho": {"texto": "O ponto de partida não é o objeto, mas a posição do consumidor que esse objeto encontra.", "ref": "p. 394"}}, "julgador": {"nome": "Percurso do julgador", "onde": "7.1.1", "fonte": "p. 716-717", "logica": "Decide passo a passo. Cada parâmetro prepara o seguinte.", "sequencia": [{"id": "oic", "papel": "qualificação do objeto e do regime de fruição", "par": "feixe-de-fruicao-governada"}, {"id": "vulnerabilidade-semiotica", "papel": "governança do sentido e da inteligibilidade do vínculo", "par": null}, {"id": "dever-de-informar", "papel": "organização da expectativa, da escolha e da contestação", "par": null}, {"id": "publicidade-e-oferta", "papel": "organização da expectativa, da escolha e da contestação", "par": null}, {"id": "auditabilidade-aberta", "papel": "critério de verificação, contenção e imputação", "par": null}, {"id": "equivalencia-de-valor-funcional", "papel": "critério de verificação, contenção e imputação", "par": null}, {"id": "teleologia-abusiva", "papel": "critério de verificação, contenção e imputação", "par": null}, {"id": "prova-e-onus", "papel": "critério de verificação, contenção e imputação", "par": null}, {"id": "funcao-social-da-pi", "papel": "fecho operacional. Limite da exclusividade privada", "par": null}, {"id": "recomposicao-funcional", "papel": "fecho operacional. Forma adequada de resposta ao conflito", "par": null}], "trecho": {"texto": "Os enunciados não devem ser lidos como inventário horizontal de conceitos. Sua função é organizar sequência decisória escalonada, na qual cada parâmetro prepara a incidência do seguinte e limita o campo de variação interpretativa do passo subsequente.", "ref": "p. 716-717"}}, "regime": {"nome": "Percurso do regime", "onde": "Conclusão", "fonte": "p. 800", "logica": "Resume o regime inteiro numa frase, conceito por conceito.", "sequencia": [{"id": "oic", "papel": "qualifica o produto imaterial", "par": "feixe-de-fruicao-governada"}, {"id": "vulnerabilidade-semiotica", "papel": "localiza a assimetria relevante", "par": null}, {"id": "antecipacao-hipercuratorial", "papel": "lê a expectativa governada", "par": null}, {"id": "teleologia-abusiva", "papel": "identifica o ilícito", "par": null}, {"id": "auditabilidade-aberta", "papel": "controla as alterações", "par": null}, {"id": "equivalencia-de-valor-funcional", "papel": "controla as alterações", "par": null}, {"id": "funcao-social-da-pi", "papel": "contém a exclusividade", "par": null}, {"id": "recomposicao-funcional", "papel": "reorganiza os remédios", "par": null}], "trecho": {"texto": "O regime se propõe a articular coerentemente a qualificação do produto imaterial pelo Objeto Imaterial de Consumo, a localização da assimetria relevante pela vulnerabilidade semiótica, a leitura da expectativa governada pela antecipação hipercuratorial, a identificação do ilícito pela teleologia abusiva, o controle das alterações pela auditabilidade aberta e pela equivalência de valor funcional, a contenção da exclusividade pela função social da propriedade e da propriedade intelectual e a reorganização dos remédios em torno da recomposição funcional e da correção de regime.", "ref": "p. 800"}}}, "epigrafes": {"descricao": "As nove epígrafes da tese, na ordem em que aparecem. Emulam as nove Musas e formam um arco do medo à fermata (p. 78). As letras não são reproduzidas no site.", "playlist": {"titulo": "Objeto Imaterial de Consumo (OIC)", "autor": "Victor Andrade", "url": "https://open.spotify.com/playlist/35U1fRVLPlpPGAlsmqyLAS", "embed": "https://open.spotify.com/embed/playlist/35U1fRVLPlpPGAlsmqyLAS", "conferida_em": "2026-10-26", "observacao": "Ordem das faixas conferida contra a tese. Nove de nove, na mesma sequência."}, "epigrafes": [{"ordem": 1, "abre": "Abertura", "artista": "Lily Allen", "faixa": "The Fear", "ano": 2009, "pagina_pdf": 12, "pre_textual": true}, {"ordem": 2, "abre": "1 Introdução", "artista": "Lorde", "faixa": "The Love Club", "ano": 2012, "pagina_pdf": 22, "pre_textual": true}, {"ordem": 3, "abre": "2 Do desenho metodológico e do protocolo de observação", "artista": "Danni Carlos", "faixa": "Coisas Que Eu Sei", "ano": 2008, "pagina_pdf": 46, "pagina_impressa": 44}, {"ordem": 4, "abre": "3 Tecnologia, plataformas e a ordem econômica tecno-midiática do consumo digital", "artista": "Christina Aguilera", "faixa": "Birds of Prey", "ano": 2010, "pagina_pdf": 84, "pagina_impressa": 82}, {"ordem": 5, "abre": "4 Semiótica e governança de fruição no consumo imaterial contínuo", "artista": "MARINA", "faixa": "Oh No!", "ano": 2010, "pagina_pdf": 262, "pagina_impressa": 260}, {"ordem": 6, "abre": "5 Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae", "artista": "K/DA", "faixa": "Villain", "ano": 2020, "pagina_pdf": 392, "pagina_impressa": 390}, {"ordem": 7, "abre": "6 Da tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil", "artista": "Zélia Duncan", "faixa": "Diz Nos Meus Olhos (Inclemência)", "ano": 2005, "pagina_pdf": 502, "pagina_impressa": 500}, {"ordem": 8, "abre": "7 Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma", "artista": "Marisa Monte", "faixa": "Infinito Particular", "ano": 2006, "pagina_pdf": 714, "pagina_impressa": 712}, {"ordem": 9, "abre": "8 Conclusão", "artista": "Pitty", "faixa": "Temporal", "ano": 2003, "pagina_pdf": 792, "pagina_impressa": 790}]}}</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('dados').textContent);
+  var porId = {};
+  D.conceitos.forEach(function (c) { porId[c.id] = c; });
+  var vista = document.getElementById('vista');
+  var percursoAtual = 'regime';
+  try { var salvo = localStorage.getItem('lex-percurso'); if (salvo && D.percursos[salvo]) percursoAtual = salvo; } catch (e) {}
+  var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function esc(t) {
+    return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function pg(ref) { return '<span class="pg" data-arq="âncora · página da tese">' + esc(ref) + '</span>'; }
+  function comAncoras(texto) {
+    return esc(texto).replace(/\((p\. [\d\-]+|Resumo)\)/g, function (_, r) { return pg(r); });
+  }
+  function campo(c, rotulo) {
+    for (var i = 0; i < c.campos.length; i++) if (c.campos[i].rotulo === rotulo) return c.campos[i];
+    return null;
+  }
+  function nomeDe(id) {
+    if (porId[id]) return porId[id].nome;
+    if (D.passos[id]) return D.passos[id].nome;
+    return id;
+  }
+
+  /* ---------- Atlas ---------- */
+  function renderAtlas() {
+    var lp = porId['lex-plataformae'];
+    var lpDef = campo(lp, 'Definição canônica proposta').citacoes[0];
+    var ab = D.abertura;
+    var opcoes = Object.keys(D.percursos).map(function (k) {
+      var p = D.percursos[k];
+      return '<input type="radio" name="percurso" id="percurso-' + k + '" value="' + k + '"' + (k === percursoAtual ? ' checked' : '') + '>' +
+        '<label for="percurso-' + k + '"><b>' + esc(p.nome) + '</b><span>' + esc(p.onde) + ' · ' + esc(p.fonte) + '</span></label>';
+    }).join('');
+
+    var ep = D.epigrafes;
+    var musas = ep.epigrafes.map(function (e) {
+      return '<li><div>' + esc(e.artista) + ', <cite>' + esc(e.faixa) + '</cite> (' + e.ano + ')<small>abre ' + esc(e.abre) + '</small></div></li>';
+    }).join('');
+
+    vista.innerHTML =
+      '<section class="abertura" aria-labelledby="titulo">' +
+        '<p class="sobrelinha">Tese de doutorado · UNESP · 2026</p>' +
+        '<h1 class="marca" id="titulo">Lex Plataformae</h1>' +
+        '<p class="lema">Atlas do regime jurídico do Objeto Imaterial de Consumo. A partir da tese de Victor L. P. Andrade.</p>' +
+        '<blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“' + esc(ab.texto) + '”' + pg(ab.ref) + '</blockquote>' +
+      '</section>' +
+
+      '<section class="campo" aria-labelledby="campo-nome" data-arq="campo · a ordenação privada dentro da qual tudo acontece">' +
+        '<div class="campo-topo">' +
+          '<p class="campo-rotulo">O campo</p>' +
+          '<h2 class="campo-nome" id="campo-nome"><a href="#lex-plataformae">Lex Plataformae</a></h2>' +
+          '<p class="campo-def">“' + esc(lpDef.texto) + '”' + pg(lpDef.ref) + '</p>' +
+        '</div>' +
+        '<fieldset class="percursos">' +
+          '<legend>Escolha um percurso. A tese organiza os conceitos de três maneiras.</legend>' +
+          '<div class="seletor">' + opcoes + '</div>' +
+          '<p class="logica" id="logica" aria-live="polite"></p>' +
+        '</fieldset>' +
+        '<ol class="sequencia" id="sequencia" data-arq="percurso · ordem declarada pela tese, não pelo site"></ol>' +
+        '<div class="fora" id="fora"></div>' +
+      '</section>' +
+
+      '<section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">' +
+        '<h2 id="epigrafes-titulo">As nove epígrafes</h2>' +
+        '<p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. Seção 2.6 da tese' + pg('p. 73-78') + '</p>' +
+        '<ol class="epigrafes">' + musas + '</ol>' +
+        '<div class="ouvir" data-arq="terceiro · o Spotify só carrega depois do clique">' +
+          '<a class="botao" href="' + esc(ep.playlist.url) + '" target="_blank" rel="noopener">Ouvir a playlist no Spotify</a>' +
+          '<p class="aviso">No site, o player toca aqui mesmo e só carrega depois do seu clique. Nesta prévia, o Spotify não pode ser incorporado, então o botão abre a playlist em outra aba.</p>' +
+        '</div>' +
+      '</section>';
+
+    document.querySelectorAll('input[name="percurso"]').forEach(function (r) {
+      r.addEventListener('change', function () {
+        percursoAtual = r.value;
+        try { localStorage.setItem('lex-percurso', percursoAtual); } catch (e) {}
+        renderSequencia(true);
+      });
+    });
+    renderSequencia(false);
+  }
+
+  var nos = {};
+  function noDoPasso(passo) {
+    var chave = passo.id;
+    if (nos[chave]) return nos[chave];
+    var li = document.createElement('li');
+    li.dataset.chave = chave;
+    nos[chave] = li;
+    return li;
+  }
+  function preencherPasso(li, passo, n) {
+    var conceito = porId[passo.id];
+    var extra = D.passos[passo.id];
+    var corpo;
+    if (conceito && conceito.tipo === 'conceito') {
+      li.className = 'passo';
+      li.removeAttribute('data-arq');
+      var nomeHtml = '<a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>';
+      if (passo.par && porId[passo.par]) {
+        nomeHtml = '<span class="gemeos"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>' +
+          '<span class="gemeos-sinal" title="O feixe é gêmeo do OIC">gêmeos</span>' +
+          '<a href="#' + passo.par + '">' + esc(porId[passo.par].nome) + '</a></span>';
+      }
+      corpo = '<span class="passo-nome">' + nomeHtml + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    } else if (conceito && conceito.tipo === 'bens') {
+      li.className = 'passo fantasma';
+      li.setAttribute('data-arq', 'fora do Atlas · camada de bens protegidos');
+      corpo = '<span class="passo-tipo">bens protegidos · 5.1.4 e 6.1.3</span><span class="passo-nome"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a></span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    } else {
+      li.className = 'passo fantasma';
+      li.setAttribute('data-arq', 'fora do Atlas · passo do Roteiro');
+      corpo = '<span class="passo-tipo">passo do Roteiro · ' + esc(extra.secao) + '</span><span class="passo-nome">' + esc(extra.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    }
+    li.innerHTML = '<span class="passo-n" aria-hidden="true">' + String(n).padStart(2, '0') + '</span><span class="passo-corpo">' + corpo + '</span>';
+  }
+
+  function renderSequencia(animar) {
+    var lista = document.getElementById('sequencia');
+    var p = D.percursos[percursoAtual];
+    var antes = {};
+    if (animar && !reduzir) {
+      Array.prototype.forEach.call(lista.children, function (li) { antes[li.dataset.chave] = li.getBoundingClientRect(); });
+    }
+    var frag = document.createDocumentFragment();
+    p.sequencia.forEach(function (passo, i) {
+      var li = noDoPasso(passo);
+      preencherPasso(li, passo, i + 1);
+      frag.appendChild(li);
+    });
+    lista.innerHTML = '';
+    lista.appendChild(frag);
+    lista.setAttribute('aria-label', p.nome);
+
+    document.getElementById('logica').innerHTML = esc(p.logica) + ' <q>' + esc(p.trecho.texto) + '</q>' + pg(p.trecho.ref);
+
+    var presentes = {};
+    p.sequencia.forEach(function (s) { presentes[s.id] = 1; if (s.par) presentes[s.par] = 1; });
+    var ausentes = D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !presentes[c.id]; });
+    var fora = document.getElementById('fora');
+    fora.innerHTML = ausentes.length
+      ? '<p>Fora deste percurso</p><ul>' + ausentes.map(function (c) { return '<li><a href="#' + c.id + '">' + esc(c.nome) + '</a></li>'; }).join('') + '</ul>'
+      : '';
+
+    if (animar && !reduzir) {
+      Array.prototype.forEach.call(lista.children, function (li) {
+        var a = antes[li.dataset.chave];
+        var b = li.getBoundingClientRect();
+        if (a) {
+          li.animate([{ transform: 'translateY(' + (a.top - b.top) + 'px)' }, { transform: 'none' }], { duration: 420, easing: 'cubic-bezier(.2,.7,.2,1)' });
+        } else {
+          li.animate([{ opacity: 0, transform: 'translateX(-8px)' }, { opacity: 1, transform: 'none' }], { duration: 320, easing: 'ease-out' });
+        }
+      });
+    }
+  }
+
+  /* ---------- Folha do conceito ---------- */
+  function renderConceito(c) {
+    var partes = [];
+    var eyebrow = c.tipo === 'campo' ? 'O campo' : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas' : 'Conceito ' + c.numero + ' de 9';
+    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.1 · aguarda o autor</span>';
+    if (c.gemeo) selos += '<a class="selo gemeo" href="#' + c.gemeo + '">Gêmeo de ' + esc(nomeDe(c.gemeo)) + '</a>';
+
+    c.campos.forEach(function (f) {
+      var r = f.rotulo;
+      if (r === 'Onde vive') {
+        var itens = f.texto.replace(/\.$/, '').split(/,\s*(?![^()]*\))/).map(function (s) { return '<li>' + esc(s.trim()) + '</li>'; }).join('');
+        partes.push('<section class="bloco"><h2>Onde vive na tese</h2><ul class="lugares" data-arq="âncora · seções da tese">' + itens + '</ul></section>');
+        return;
+      }
+      if (r === 'Nota do autor') {
+        partes.push('<section class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor</p><p>' + esc(f.texto) + '</p></section>');
+        return;
+      }
+      var html = '<section class="bloco"><h2>' + esc(r) + '</h2>';
+      if (f.texto) html += '<p>' + comAncoras(f.texto) + '</p>';
+      f.citacoes.forEach(function (q) {
+        if (r === 'Definição canônica proposta') {
+          html += '<blockquote class="citacao canonica" data-arq="citação literal · conferida por script contra a tese"><p><mark>' + esc(q.texto) + '</mark>' + pg(q.ref) + '</p></blockquote>';
+        } else {
+          html += '<blockquote class="citacao' + (r === 'O que não é' ? ' nao-e' : '') + '"><p>' + esc(q.texto) + pg(q.ref) + '</p></blockquote>';
+        }
+      });
+      html += '</section>';
+      partes.push(html);
+    });
+
+    var linhas = [];
+    Object.keys(D.percursos).forEach(function (k) {
+      var p = D.percursos[k];
+      p.sequencia.forEach(function (s, i) {
+        if (s.id === c.id || s.par === c.id) linhas.push('<li><b>' + esc(p.nome) + ' · passo ' + (i + 1) + '</b><span>' + esc(s.papel) + '</span></li>');
+      });
+    });
+    if (linhas.length) {
+      partes.push('<section class="bloco"><h2>Nos percursos</h2><ul class="nos-percursos">' + linhas.join('') + '</ul></section>');
+    } else if (c.tipo === 'conceito') {
+      partes.push('<section class="bloco"><h2>Nos percursos</h2><p>Não integra nenhuma das três sequências da tese.</p></section>');
+    }
+
+    var viz = '';
+    if (c.tipo === 'conceito') {
+      var lista = D.conceitos.filter(function (x) { return x.tipo === 'conceito'; });
+      var i = lista.indexOf(c);
+      var ant = lista[i - 1], prox = lista[i + 1];
+      viz = '<nav class="vizinhos" aria-label="Outros conceitos">' +
+        (ant ? '<a href="#' + ant.id + '">← ' + esc(ant.nome) + '</a>' : '<span></span>') +
+        (prox ? '<a href="#' + prox.id + '">' + esc(prox.nome) + ' →</a>' : '<span></span>') + '</nav>';
+    }
+
+    vista.innerHTML =
+      '<article class="folha">' +
+        '<a class="voltar" href="#atlas">← Voltar ao Atlas</a>' +
+        '<header class="folha-cabeca"><p class="sobrelinha">' + esc(eyebrow) + '</p><h1>' + esc(c.nome) + '</h1><div class="selos">' + selos + '</div></header>' +
+        partes.join('') + viz +
+      '</article>';
+  }
+
+  /* ---------- Rotas ---------- */
+  function rota() {
+    var h = (location.hash || '').replace('#', '');
+    var navAtlas = document.getElementById('nav-atlas');
+    var navEp = document.getElementById('nav-epigrafes');
+    navEp.removeAttribute('aria-current');
+    if (porId[h]) {
+      navAtlas.removeAttribute('aria-current');
+      renderConceito(porId[h]);
+      window.scrollTo(0, 0);
+      document.title = porId[h].nome + ' · Lex Plataformae';
+      return;
+    }
+    navAtlas.setAttribute('aria-current', 'page');
+    document.title = 'Lex Plataformae';
+    if (!document.getElementById('sequencia')) { nos = {}; renderAtlas(); }
+    if (h === 'epigrafes') {
+      navAtlas.removeAttribute('aria-current');
+      navEp.setAttribute('aria-current', 'page');
+      var alvo = document.getElementById('epigrafes');
+      if (alvo) alvo.scrollIntoView({ behavior: reduzir ? 'auto' : 'smooth' });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }
+  window.addEventListener('hashchange', function () {
+    if (!porId[(location.hash || '').replace('#', '')]) vista.innerHTML = '';
+    rota();
+  });
+
+  var chave = document.getElementById('desnudar');
+  chave.addEventListener('change', function () { document.body.classList.toggle('desnudo', chave.checked); });
+
+  rota();
+})();
+</script>

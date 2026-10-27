@@ -1,0 +1,502 @@
+<title>Lex Plataformae</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Atlas do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae, a partir da tese de doutorado de Victor L. P. Andrade (UNESP, 2026).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap">
+<style>
+  /* Layout. Um campo quadriculado (a Lex Plataformae) contém o percurso numerado dos conceitos. Cada conceito abre uma folha de leitura com âncoras de página. */
+  :root {
+    --papel: #f4f5f8;
+    --folha: #fbfbfd;
+    --tinta: #14161b;
+    --tinta-2: #555b69;
+    --linha: #d7dbe3;
+    --campo: #eceef3;
+    --grade: rgba(20, 22, 27, 0.055);
+    --acento: #2b3fcc;
+    --acento-suave: rgba(43, 63, 204, 0.08);
+    --marca: rgba(241, 222, 76, 0.55);
+    --nota: #fff7d6;
+    --nota-borda: #e6d27a;
+    --desnudo: #c2410c;
+    --f-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --f-texto: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --f-dado: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --medida: 66ch;
+    --raio: 4px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #0f1116; --folha: #13161d; --tinta: #e7e9ef; --tinta-2: #9aa1b1; --linha: #2a2f3b;
+      --campo: #151821; --grade: rgba(231, 233, 239, 0.05); --acento: #9aa8ff; --acento-suave: rgba(154, 168, 255, 0.1);
+      --marca: rgba(201, 181, 58, 0.28); --nota: #221f12; --nota-borda: #6b5f22; --desnudo: #fb923c;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --papel: #0f1116; --folha: #13161d; --tinta: #e7e9ef; --tinta-2: #9aa1b1; --linha: #2a2f3b;
+    --campo: #151821; --grade: rgba(231, 233, 239, 0.05); --acento: #9aa8ff; --acento-suave: rgba(154, 168, 255, 0.1);
+    --marca: rgba(201, 181, 58, 0.28); --nota: #221f12; --nota-borda: #6b5f22; --desnudo: #fb923c;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: var(--f-texto);
+    font-size: 1.125rem;
+    line-height: 1.55;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  a { color: var(--acento); text-underline-offset: 0.18em; }
+  a:focus-visible, button:focus-visible, input:focus-visible + label { outline: 2px solid var(--acento); outline-offset: 3px; }
+  .moldura { max-width: 1120px; margin-inline: auto; }
+
+  /* Faixa de status */
+  .faixa {
+    font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.02em;
+    color: var(--tinta-2); border-bottom: 1px solid var(--linha);
+    padding-block: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; justify-content: space-between;
+  }
+
+  /* Topo */
+  .topo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; padding-block: 1rem; }
+  .topo-marca { font-family: var(--f-display); font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: 0.95rem; letter-spacing: 0.02em; color: var(--tinta); text-decoration: none; }
+  .topo nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-family: var(--f-display); font-size: 0.875rem; }
+  .topo nav a { color: var(--tinta); text-decoration: none; }
+  .topo nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; }
+  .em-breve { color: var(--tinta-2); }
+  .em-breve small { font-family: var(--f-dado); font-size: 0.7rem; margin-left: 0.3em; }
+  .chave { display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); cursor: pointer; }
+  .chave input { accent-color: var(--desnudo); width: 1rem; height: 1rem; }
+
+  /* Abertura */
+  .abertura { padding-block: 2.5rem 2rem; display: grid; gap: 1.25rem; }
+  .sobrelinha { font-family: var(--f-dado); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .marca {
+    font-family: var(--f-display); font-stretch: 125%; font-weight: 800; text-transform: uppercase;
+    font-size: clamp(2rem, 8.6vw, 5.5rem); line-height: 0.92; letter-spacing: -0.01em; margin: 0; text-wrap: balance;
+  }
+  .lema { font-size: clamp(1.15rem, 2.4vw, 1.45rem); margin: 0; max-width: 40ch; }
+  .frase { margin: 0; max-width: 46ch; font-size: clamp(1.25rem, 2.8vw, 1.75rem); line-height: 1.35; font-style: italic; }
+  .frase .pg { font-style: normal; }
+
+  /* Âncora de página */
+  .pg {
+    font-family: var(--f-dado); font-size: 0.72em; font-weight: 500; white-space: nowrap;
+    border: 1px solid var(--linha); border-radius: 3px; padding: 0.05em 0.4em; color: var(--tinta-2);
+    vertical-align: 0.12em; margin-left: 0.25em;
+  }
+
+  /* Campo */
+  .campo {
+    position: relative; border: 1px solid var(--linha); border-radius: var(--raio);
+    background-color: var(--campo);
+    background-image: linear-gradient(var(--grade) 1px, transparent 1px), linear-gradient(90deg, var(--grade) 1px, transparent 1px);
+    background-size: 24px 24px;
+    padding: clamp(1rem, 3vw, 2rem); display: grid; gap: 1.5rem; margin-bottom: 3rem;
+  }
+  .campo-topo { display: grid; gap: 0.5rem; max-width: var(--medida); }
+  .campo-rotulo { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .campo-nome { font-family: var(--f-display); font-stretch: 110%; font-weight: 700; font-size: 1.35rem; margin: 0; }
+  .campo-nome a { color: var(--tinta); }
+  .campo-def { margin: 0; color: var(--tinta-2); }
+
+  .percursos { border: 0; margin: 0; padding: 0; display: grid; gap: 0.75rem; min-width: 0; }
+  .percursos legend { font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); padding: 0; margin-bottom: 0.5rem; }
+  .seletor { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; }
+  .seletor input { position: absolute; opacity: 0; pointer-events: none; }
+  .seletor label {
+    display: grid; gap: 0.15rem; padding: 0.7rem 0.85rem; border: 1px solid var(--linha); border-radius: var(--raio);
+    background: var(--folha); cursor: pointer; min-width: 0;
+  }
+  .seletor label b { font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; }
+  .seletor label span { font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .seletor input:checked + label { border-color: var(--acento); box-shadow: inset 0 0 0 1px var(--acento); background: var(--acento-suave); }
+  .logica { margin: 0; max-width: var(--medida); }
+  .logica q { font-style: italic; quotes: "“" "”"; }
+
+  /* Sequência */
+  .sequencia { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; position: relative; }
+  .passo {
+    display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: 0.75rem; align-items: start;
+    background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); padding: 0.85rem 1rem;
+  }
+  .passo-n { font-family: var(--f-dado); font-size: 0.95rem; color: var(--tinta-2); padding-top: 0.15rem; font-variant-numeric: tabular-nums; }
+  .passo-corpo { display: grid; gap: 0.2rem; min-width: 0; }
+  .passo-nome { font-family: var(--f-display); font-weight: 700; font-size: 1.1rem; line-height: 1.2; }
+  .passo-nome a { color: var(--tinta); text-decoration: none; }
+  .passo-nome a:hover { text-decoration: underline; }
+  .passo-papel { font-style: italic; color: var(--tinta-2); font-size: 1rem; }
+  .gemeos { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 0.6rem; }
+  .gemeos-sinal { font-family: var(--f-dado); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--tinta-2); border: 1px solid var(--linha); border-radius: 999px; padding: 0.05rem 0.5rem; }
+  .passo.fantasma { background: transparent; border-style: dashed; }
+  .passo.fantasma .passo-nome { font-weight: 600; color: var(--tinta-2); }
+  .passo-tipo { font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .fora { display: grid; gap: 0.5rem; }
+  .fora p { margin: 0; font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); }
+  .fora ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .fora a { font-family: var(--f-display); font-size: 0.85rem; text-decoration: none; color: var(--tinta-2); border: 1px solid var(--linha); border-radius: 999px; padding: 0.2rem 0.7rem; background: var(--folha); display: inline-block; }
+  .fora a:hover { color: var(--tinta); }
+
+  /* Epígrafes */
+  .secao { padding-block: 1rem 3rem; display: grid; gap: 1rem; }
+  .secao h2 { font-family: var(--f-display); font-stretch: 115%; font-weight: 750; font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 0; text-wrap: balance; }
+  .secao > p { margin: 0; max-width: var(--medida); }
+  .epigrafes { list-style: none; counter-reset: musa; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 0.5rem 1.5rem; }
+  .epigrafes li { counter-increment: musa; display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: 0.5rem; padding-block: 0.55rem; border-top: 1px solid var(--linha); }
+  .epigrafes li::before { content: counter(musa); font-family: var(--f-dado); color: var(--tinta-2); font-size: 0.9rem; padding-top: 0.1rem; }
+  .epigrafes cite { font-style: italic; }
+  .epigrafes small { display: block; font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+  .ouvir { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1rem; }
+  .botao {
+    font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; color: var(--folha); background: var(--tinta);
+    border-radius: var(--raio); padding: 0.6rem 1rem; text-decoration: none; display: inline-block;
+  }
+  .aviso { font-size: 0.9rem; color: var(--tinta-2); margin: 0; max-width: 60ch; }
+
+  /* Folha do conceito */
+  .folha { padding-block: 1.5rem 3rem; display: grid; gap: 2rem; max-width: 820px; }
+  .voltar { font-family: var(--f-display); font-size: 0.9rem; }
+  .folha-cabeca { display: grid; gap: 0.6rem; }
+  .folha-cabeca h1 { font-family: var(--f-display); font-stretch: 112%; font-weight: 800; font-size: clamp(1.9rem, 5.5vw, 3.2rem); line-height: 1.02; margin: 0; text-wrap: balance; }
+  .selos { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .selo { font-family: var(--f-dado); font-size: 0.72rem; border: 1px solid var(--linha); border-radius: 999px; padding: 0.15rem 0.6rem; color: var(--tinta-2); }
+  .selo.gemeo { border-color: var(--acento); color: var(--acento); text-decoration: none; }
+  .bloco { display: grid; gap: 0.75rem; }
+  .bloco h2 { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+  .bloco p { margin: 0; max-width: var(--medida); }
+  .citacao { margin: 0; max-width: var(--medida); padding-left: 1rem; border-left: 2px solid var(--linha); }
+  .citacao p { margin: 0; }
+  .canonica { border-left: 0; padding-left: 0; }
+  .canonica p { font-size: clamp(1.25rem, 2.6vw, 1.6rem); line-height: 1.42; }
+  .canonica mark { background: linear-gradient(transparent 12%, var(--marca) 12%, var(--marca) 88%, transparent 88%); color: inherit; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding-inline: 0.1em; }
+  .nao-e { border-left-style: dashed; }
+  .nota-autor { background: var(--nota); border: 1px solid var(--nota-borda); border-radius: var(--raio); padding: 1rem 1.1rem; display: grid; gap: 0.4rem; max-width: var(--medida); }
+  .nota-autor .sobrelinha { color: var(--tinta-2); }
+  .lugares { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .lugares li { font-family: var(--f-dado); font-size: 0.8rem; border: 1px solid var(--linha); border-radius: 3px; padding: 0.15rem 0.5rem; background: var(--folha); }
+  .nos-percursos { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+  .nos-percursos li { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 0.25rem 1rem; padding-block: 0.4rem; border-top: 1px solid var(--linha); }
+  .nos-percursos b { font-family: var(--f-display); font-weight: 650; font-size: 0.95rem; }
+  .nos-percursos span { font-style: italic; color: var(--tinta-2); }
+  .vizinhos { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-family: var(--f-display); font-size: 0.95rem; border-top: 1px solid var(--linha); padding-top: 1rem; }
+
+  .rodape { border-top: 1px solid var(--linha); padding-block: 1.5rem 2.5rem; display: grid; gap: 0.5rem; font-size: 0.9rem; color: var(--tinta-2); }
+  .rodape p { margin: 0; max-width: 80ch; }
+
+  /* Desnudamento arquitetural (5.2.4). Mostra como a página é feita e de onde vem cada afirmação. */
+  body.desnudo [data-arq] { outline: 1px dashed var(--desnudo); outline-offset: 4px; position: relative; }
+  body.desnudo [data-arq]::after {
+    content: attr(data-arq); position: absolute; left: 0; top: -1.45rem; z-index: 2;
+    font-family: var(--f-dado); font-size: 0.66rem; font-style: normal; font-weight: 500; letter-spacing: 0; text-transform: none;
+    color: var(--desnudo); background: var(--papel); padding: 0.05rem 0.3rem; white-space: nowrap; max-width: 92vw; overflow: hidden; text-overflow: ellipsis;
+  }
+  body.desnudo .pg[data-arq]::after { content: none; }
+  .legenda-desnudo { display: none; font-family: var(--f-dado); font-size: 0.75rem; color: var(--desnudo); border: 1px dashed var(--desnudo); border-radius: var(--raio); padding: 0.5rem 0.75rem; margin-bottom: 1rem; }
+  body.desnudo .legenda-desnudo { display: block; }
+  body.desnudo .sequencia { gap: 1.9rem; padding-top: 1.4rem; }
+  body.desnudo .campo { padding-top: 2.6rem; }
+
+  @media (max-width: 640px) {
+    .seletor { grid-template-columns: minmax(0, 1fr); }
+    .passo { grid-template-columns: 2rem minmax(0, 1fr); padding: 0.75rem; }
+    .nos-percursos li { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<div class="moldura">
+  <div class="faixa" data-arq="rascunho · nada vai ao ar sem o autor">
+    <span>Protótipo v0.1 · rascunho para revisão do autor</span>
+    <span>Citações conferidas por script contra a tese</span>
+  </div>
+
+  <header class="topo">
+    <a class="topo-marca" href="#atlas">Lex Plataformae</a>
+    <nav aria-label="Seções">
+      <ul>
+        <li><a href="#atlas" id="nav-atlas" aria-current="page">Atlas</a></li>
+        <li class="em-breve">Roteiro<small>em breve</small></li>
+        <li class="em-breve">Laboratório<small>em breve</small></li>
+        <li><a href="#epigrafes" id="nav-epigrafes">Epígrafes</a></li>
+      </ul>
+    </nav>
+    <label class="chave" for="desnudar">
+      <input type="checkbox" id="desnudar">
+      Desnudar a arquitetura
+    </label>
+  </header>
+
+  <p class="legenda-desnudo" role="note">Arquitetura à mostra. Cada contorno tracejado é uma peça da página, e a etiqueta diz o que ela é e de onde vem. As caixas em volta dos números de página são âncoras na tese. Nada nesta página afirma algo sem apontar a página que sustenta.</p>
+  <main id="vista"></main>
+
+  <footer class="rodape">
+    <p>ANDRADE, Victor Luiz Pereira de. Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae. A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>
+    <p>Todo texto entre aspas é transcrição literal da tese, com a página indicada. Acréscimos posteriores à tese aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>
+  </footer>
+</div>
+
+<script id="dados" type="application/json">__DADOS_ATLAS__</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('dados').textContent);
+  var porId = {};
+  D.conceitos.forEach(function (c) { porId[c.id] = c; });
+  var vista = document.getElementById('vista');
+  var percursoAtual = 'regime';
+  try { var salvo = localStorage.getItem('lex-percurso'); if (salvo && D.percursos[salvo]) percursoAtual = salvo; } catch (e) {}
+  var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function esc(t) {
+    return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function pg(ref) { return '<span class="pg" data-arq="âncora · página da tese">' + esc(ref) + '</span>'; }
+  function comAncoras(texto) {
+    return esc(texto).replace(/\((p\. [\d\-]+|Resumo)\)/g, function (_, r) { return pg(r); });
+  }
+  function campo(c, rotulo) {
+    for (var i = 0; i < c.campos.length; i++) if (c.campos[i].rotulo === rotulo) return c.campos[i];
+    return null;
+  }
+  function nomeDe(id) {
+    if (porId[id]) return porId[id].nome;
+    if (D.passos[id]) return D.passos[id].nome;
+    return id;
+  }
+
+  /* ---------- Atlas ---------- */
+  function renderAtlas() {
+    var lp = porId['lex-plataformae'];
+    var lpDef = campo(lp, 'Definição canônica proposta').citacoes[0];
+    var ab = D.abertura;
+    var opcoes = Object.keys(D.percursos).map(function (k) {
+      var p = D.percursos[k];
+      return '<input type="radio" name="percurso" id="percurso-' + k + '" value="' + k + '"' + (k === percursoAtual ? ' checked' : '') + '>' +
+        '<label for="percurso-' + k + '"><b>' + esc(p.nome) + '</b><span>' + esc(p.onde) + ' · ' + esc(p.fonte) + '</span></label>';
+    }).join('');
+
+    var ep = D.epigrafes;
+    var musas = ep.epigrafes.map(function (e) {
+      return '<li><div>' + esc(e.artista) + ', <cite>' + esc(e.faixa) + '</cite> (' + e.ano + ')<small>abre ' + esc(e.abre) + '</small></div></li>';
+    }).join('');
+
+    vista.innerHTML =
+      '<section class="abertura" aria-labelledby="titulo">' +
+        '<p class="sobrelinha">Tese de doutorado · UNESP · 2026</p>' +
+        '<h1 class="marca" id="titulo">Lex Plataformae</h1>' +
+        '<p class="lema">Atlas do regime jurídico do Objeto Imaterial de Consumo. A partir da tese de Victor L. P. Andrade.</p>' +
+        '<blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“' + esc(ab.texto) + '”' + pg(ab.ref) + '</blockquote>' +
+      '</section>' +
+
+      '<section class="campo" aria-labelledby="campo-nome" data-arq="campo · a ordenação privada dentro da qual tudo acontece">' +
+        '<div class="campo-topo">' +
+          '<p class="campo-rotulo">O campo</p>' +
+          '<h2 class="campo-nome" id="campo-nome"><a href="#lex-plataformae">Lex Plataformae</a></h2>' +
+          '<p class="campo-def">“' + esc(lpDef.texto) + '”' + pg(lpDef.ref) + '</p>' +
+        '</div>' +
+        '<fieldset class="percursos">' +
+          '<legend>Escolha um percurso. A tese organiza os conceitos de três maneiras.</legend>' +
+          '<div class="seletor">' + opcoes + '</div>' +
+          '<p class="logica" id="logica" aria-live="polite"></p>' +
+        '</fieldset>' +
+        '<ol class="sequencia" id="sequencia" data-arq="percurso · ordem declarada pela tese, não pelo site"></ol>' +
+        '<div class="fora" id="fora"></div>' +
+      '</section>' +
+
+      '<section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">' +
+        '<h2 id="epigrafes-titulo">As nove epígrafes</h2>' +
+        '<p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. Seção 2.6 da tese' + pg('p. 73-78') + '</p>' +
+        '<ol class="epigrafes">' + musas + '</ol>' +
+        '<div class="ouvir" data-arq="terceiro · o Spotify só carrega depois do clique">' +
+          '<a class="botao" href="' + esc(ep.playlist.url) + '" target="_blank" rel="noopener">Ouvir a playlist no Spotify</a>' +
+          '<p class="aviso">No site, o player toca aqui mesmo e só carrega depois do seu clique. Nesta prévia, o Spotify não pode ser incorporado, então o botão abre a playlist em outra aba.</p>' +
+        '</div>' +
+      '</section>';
+
+    document.querySelectorAll('input[name="percurso"]').forEach(function (r) {
+      r.addEventListener('change', function () {
+        percursoAtual = r.value;
+        try { localStorage.setItem('lex-percurso', percursoAtual); } catch (e) {}
+        renderSequencia(true);
+      });
+    });
+    renderSequencia(false);
+  }
+
+  var nos = {};
+  function noDoPasso(passo) {
+    var chave = passo.id;
+    if (nos[chave]) return nos[chave];
+    var li = document.createElement('li');
+    li.dataset.chave = chave;
+    nos[chave] = li;
+    return li;
+  }
+  function preencherPasso(li, passo, n) {
+    var conceito = porId[passo.id];
+    var extra = D.passos[passo.id];
+    var corpo;
+    if (conceito && conceito.tipo === 'conceito') {
+      li.className = 'passo';
+      li.removeAttribute('data-arq');
+      var nomeHtml = '<a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>';
+      if (passo.par && porId[passo.par]) {
+        nomeHtml = '<span class="gemeos"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>' +
+          '<span class="gemeos-sinal" title="O feixe é gêmeo do OIC">gêmeos</span>' +
+          '<a href="#' + passo.par + '">' + esc(porId[passo.par].nome) + '</a></span>';
+      }
+      corpo = '<span class="passo-nome">' + nomeHtml + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    } else if (conceito && conceito.tipo === 'bens') {
+      li.className = 'passo fantasma';
+      li.setAttribute('data-arq', 'fora do Atlas · camada de bens protegidos');
+      corpo = '<span class="passo-tipo">bens protegidos · 5.1.4 e 6.1.3</span><span class="passo-nome"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a></span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    } else {
+      li.className = 'passo fantasma';
+      li.setAttribute('data-arq', 'fora do Atlas · passo do Roteiro');
+      corpo = '<span class="passo-tipo">passo do Roteiro · ' + esc(extra.secao) + '</span><span class="passo-nome">' + esc(extra.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>';
+    }
+    li.innerHTML = '<span class="passo-n" aria-hidden="true">' + String(n).padStart(2, '0') + '</span><span class="passo-corpo">' + corpo + '</span>';
+  }
+
+  function renderSequencia(animar) {
+    var lista = document.getElementById('sequencia');
+    var p = D.percursos[percursoAtual];
+    var antes = {};
+    if (animar && !reduzir) {
+      Array.prototype.forEach.call(lista.children, function (li) { antes[li.dataset.chave] = li.getBoundingClientRect(); });
+    }
+    var frag = document.createDocumentFragment();
+    p.sequencia.forEach(function (passo, i) {
+      var li = noDoPasso(passo);
+      preencherPasso(li, passo, i + 1);
+      frag.appendChild(li);
+    });
+    lista.innerHTML = '';
+    lista.appendChild(frag);
+    lista.setAttribute('aria-label', p.nome);
+
+    document.getElementById('logica').innerHTML = esc(p.logica) + ' <q>' + esc(p.trecho.texto) + '</q>' + pg(p.trecho.ref);
+
+    var presentes = {};
+    p.sequencia.forEach(function (s) { presentes[s.id] = 1; if (s.par) presentes[s.par] = 1; });
+    var ausentes = D.conceitos.filter(function (c) { return c.tipo === 'conceito' && !presentes[c.id]; });
+    var fora = document.getElementById('fora');
+    fora.innerHTML = ausentes.length
+      ? '<p>Fora deste percurso</p><ul>' + ausentes.map(function (c) { return '<li><a href="#' + c.id + '">' + esc(c.nome) + '</a></li>'; }).join('') + '</ul>'
+      : '';
+
+    if (animar && !reduzir) {
+      Array.prototype.forEach.call(lista.children, function (li) {
+        var a = antes[li.dataset.chave];
+        var b = li.getBoundingClientRect();
+        if (a) {
+          li.animate([{ transform: 'translateY(' + (a.top - b.top) + 'px)' }, { transform: 'none' }], { duration: 420, easing: 'cubic-bezier(.2,.7,.2,1)' });
+        } else {
+          li.animate([{ opacity: 0, transform: 'translateX(-8px)' }, { opacity: 1, transform: 'none' }], { duration: 320, easing: 'ease-out' });
+        }
+      });
+    }
+  }
+
+  /* ---------- Folha do conceito ---------- */
+  function renderConceito(c) {
+    var partes = [];
+    var eyebrow = c.tipo === 'campo' ? 'O campo' : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas' : 'Conceito ' + c.numero + ' de 9';
+    var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.1 · aguarda o autor</span>';
+    if (c.gemeo) selos += '<a class="selo gemeo" href="#' + c.gemeo + '">Gêmeo de ' + esc(nomeDe(c.gemeo)) + '</a>';
+
+    c.campos.forEach(function (f) {
+      var r = f.rotulo;
+      if (r === 'Onde vive') {
+        var itens = f.texto.replace(/\.$/, '').split(/,\s*(?![^()]*\))/).map(function (s) { return '<li>' + esc(s.trim()) + '</li>'; }).join('');
+        partes.push('<section class="bloco"><h2>Onde vive na tese</h2><ul class="lugares" data-arq="âncora · seções da tese">' + itens + '</ul></section>');
+        return;
+      }
+      if (r === 'Nota do autor') {
+        partes.push('<section class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor</p><p>' + esc(f.texto) + '</p></section>');
+        return;
+      }
+      var html = '<section class="bloco"><h2>' + esc(r) + '</h2>';
+      if (f.texto) html += '<p>' + comAncoras(f.texto) + '</p>';
+      f.citacoes.forEach(function (q) {
+        if (r === 'Definição canônica proposta') {
+          html += '<blockquote class="citacao canonica" data-arq="citação literal · conferida por script contra a tese"><p><mark>' + esc(q.texto) + '</mark>' + pg(q.ref) + '</p></blockquote>';
+        } else {
+          html += '<blockquote class="citacao' + (r === 'O que não é' ? ' nao-e' : '') + '"><p>' + esc(q.texto) + pg(q.ref) + '</p></blockquote>';
+        }
+      });
+      html += '</section>';
+      partes.push(html);
+    });
+
+    var linhas = [];
+    Object.keys(D.percursos).forEach(function (k) {
+      var p = D.percursos[k];
+      p.sequencia.forEach(function (s, i) {
+        if (s.id === c.id || s.par === c.id) linhas.push('<li><b>' + esc(p.nome) + ' · passo ' + (i + 1) + '</b><span>' + esc(s.papel) + '</span></li>');
+      });
+    });
+    if (linhas.length) {
+      partes.push('<section class="bloco"><h2>Nos percursos</h2><ul class="nos-percursos">' + linhas.join('') + '</ul></section>');
+    } else if (c.tipo === 'conceito') {
+      partes.push('<section class="bloco"><h2>Nos percursos</h2><p>Não integra nenhuma das três sequências da tese.</p></section>');
+    }
+
+    var viz = '';
+    if (c.tipo === 'conceito') {
+      var lista = D.conceitos.filter(function (x) { return x.tipo === 'conceito'; });
+      var i = lista.indexOf(c);
+      var ant = lista[i - 1], prox = lista[i + 1];
+      viz = '<nav class="vizinhos" aria-label="Outros conceitos">' +
+        (ant ? '<a href="#' + ant.id + '">← ' + esc(ant.nome) + '</a>' : '<span></span>') +
+        (prox ? '<a href="#' + prox.id + '">' + esc(prox.nome) + ' →</a>' : '<span></span>') + '</nav>';
+    }
+
+    vista.innerHTML =
+      '<article class="folha">' +
+        '<a class="voltar" href="#atlas">← Voltar ao Atlas</a>' +
+        '<header class="folha-cabeca"><p class="sobrelinha">' + esc(eyebrow) + '</p><h1>' + esc(c.nome) + '</h1><div class="selos">' + selos + '</div></header>' +
+        partes.join('') + viz +
+      '</article>';
+  }
+
+  /* ---------- Rotas ---------- */
+  function rota() {
+    var h = (location.hash || '').replace('#', '');
+    var navAtlas = document.getElementById('nav-atlas');
+    var navEp = document.getElementById('nav-epigrafes');
+    navEp.removeAttribute('aria-current');
+    if (porId[h]) {
+      navAtlas.removeAttribute('aria-current');
+      renderConceito(porId[h]);
+      window.scrollTo(0, 0);
+      document.title = porId[h].nome + ' · Lex Plataformae';
+      return;
+    }
+    navAtlas.setAttribute('aria-current', 'page');
+    document.title = 'Lex Plataformae';
+    if (!document.getElementById('sequencia')) { nos = {}; renderAtlas(); }
+    if (h === 'epigrafes') {
+      navAtlas.removeAttribute('aria-current');
+      navEp.setAttribute('aria-current', 'page');
+      var alvo = document.getElementById('epigrafes');
+      if (alvo) alvo.scrollIntoView({ behavior: reduzir ? 'auto' : 'smooth' });
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }
+  window.addEventListener('hashchange', function () {
+    if (!porId[(location.hash || '').replace('#', '')]) vista.innerHTML = '';
+    rota();
+  });
+
+  var chave = document.getElementById('desnudar');
+  chave.addEventListener('change', function () { document.body.classList.toggle('desnudo', chave.checked); });
+
+  rota();
+})();
+</script>
