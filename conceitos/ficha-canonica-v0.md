@@ -1,16 +1,16 @@
-# Ficha canônica dos conceitos · v0
+# Ficha canônica dos conceitos · v0.1
 
-Primeira unidade de revisão do lexplataformae.com.br. Rascunho para validação do autor. Nada daqui vai ao ar sem assinatura.
+Unidade de revisão do lexplataformae.com.br. Rascunho para validação do autor.
 
 ## Como ler
 
-Cada conceito traz cinco campos. A função no regime. A definição canônica proposta. As formulações concorrentes que a tese também oferece. O que o conceito não é. E onde ele vive na tese.
+O Atlas tem um campo e nove conceitos. A Lex Plataformae é o campo onde tudo acontece e dá nome ao site. Dentro dela estão os nove conceitos. Cada um traz a função no regime, a definição canônica proposta, as formulações concorrentes que a tese também oferece, o que o conceito não é e onde ele vive na tese.
 
-Toda citação é literal e foi conferida por script contra o texto extraído do PDF. As páginas seguem a numeração impressa. Notas de rodapé foram suprimidas das citações e as supressões de trecho estão marcadas com [...].
+Toda citação é literal e foi conferida por script contra o texto da tese. As páginas seguem a numeração impressa. Notas de rodapé foram suprimidas das citações e as supressões de trecho estão marcadas com [...].
 
 A regra de seleção da definição canônica foi simples. Preferi a frase em que a tese define expressamente, com verbos como "designa", "significa" ou "pode ser definida". Quando havia duas, preferi o 7.1.1, que a própria tese apresenta como a forma "citável" do regime (p. 716).
 
-## O que a leitura revelou antes dos conceitos
+## O que a leitura revelou
 
 ### 1. A tese não tem uma ordem. Tem três.
 
@@ -20,21 +20,17 @@ A regra de seleção da definição canônica foi simples. Preferi a frase em qu
 | 7.1.1 (p. 716-717 e p. 740) | OIC, vulnerabilidade semiótica, informação, publicidade, auditabilidade, equivalência, teleologia abusiva, prova, propriedade intelectual, remédios | Sequência decisória. O OIC é o gatilho (p. 719) |
 | Conclusão (p. 800) | OIC, vulnerabilidade semiótica, antecipação hipercuratorial, teleologia abusiva, auditabilidade e equivalência, função social da P.I., recomposição | Enumeração funcional do regime |
 
-Não há contradição. São três leituras com propósitos distintos. A primeira expõe, a segunda decide e a terceira resume. O site pode honrar as três como percursos sobre os mesmos conceitos.
+Não há contradição. São três leituras com propósitos distintos. A primeira expõe, a segunda decide e a terceira resume. A proposta é que o site honre as três como percursos sobre os mesmos conceitos.
 
-### 2. O conjunto não fecha em nove por si só.
+### 2. Cada conceito tem várias definições.
 
-O 5.1 declara cinco categorias estruturantes e inclui a integridade pessoal como "os bens protegidos" (p. 395). A frase-regime da conclusão não a menciona. Já a antecipação hipercuratorial está na conclusão, mas não é categoria do 5.1 nem dá título a enunciado do 7.1.1. Somando a Lex Plataformae como campo, há dez candidatos. A ficha traz os dez e marca a integridade pessoal como "em decisão".
-
-### 3. Cada conceito tem várias definições.
-
-A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, com ênfases diferentes (p. 281, 321, 330, 396 e 719-720). Num livro isso é riqueza. Num site, é preciso uma definição canônica e as demais como facetas. Do contrário, cada página do site citará uma versão diferente do mesmo conceito.
+A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, com ênfases diferentes (p. 281, 321, 330, 396 e 719-720). Num livro isso é riqueza. Num site, é preciso uma definição canônica e as demais como facetas.
 
 ---
 
-## 1. Lex Plataformae
+## Campo. Lex Plataformae
 
-**Função no regime.** O campo. Não é etapa do raciocínio, é a ordenação dentro da qual todas as etapas acontecem. Leitura minha. A frase-regime da conclusão não inclui a Lex Plataformae (p. 800). Ela é aquilo contra o que o regime se arma.
+**Função no regime.** O campo. Não é etapa do raciocínio, é a ordenação dentro da qual todas as etapas acontecem. A frase-regime da conclusão não a inclui entre os conceitos (p. 800). Ela é aquilo contra o que o regime se arma.
 
 **Definição canônica proposta**
 
@@ -58,7 +54,7 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 ---
 
-## 2. Objeto Imaterial de Consumo (OIC)
+## 1. Objeto Imaterial de Consumo (OIC)
 
 **Função no regime.** Qualifica o objeto. É o gatilho dos demais parâmetros. "Esse parâmetro exerce, assim, função de gatilho para os demais." (p. 719)
 
@@ -81,6 +77,36 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 > Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição. (p. 430)
 
 **Onde vive.** 5.1.2 e subseções, 6.2.3, 7.1.1.1.
+
+---
+
+## 2. Feixe de fruição governada
+
+**Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
+
+**Definição canônica proposta**
+
+> A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho. (p. 426)
+
+**Formulações concorrentes**
+
+> O feixe de fruição aparece, então, como coleção de posições acessíveis mediante um identificador institucional e uma infraestrutura que estabiliza o que é visível, utilizável e reconhecível no ecossistema. (p. 408-409)
+
+> [...] a identificação de um feixe de utilidades imateriais que só se realiza sob condições continuamente organizadas pelo fornecedor. (p. 717)
+
+> O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
+
+**Formulação para o nível introdutório**
+
+> O valor de uso do feixe, nessa condição, não é estoque, é fluxo. (p. 409)
+
+**O que não é**
+
+> O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos. (p. 428)
+
+> O quarto limite abrange variações ordinárias do ecossistema que não configuram degradação relevante e persistente do feixe, como atualizações, ajustes de interface, medidas antiabuso, moderação regular e instabilidades pontuais. (p. 434)
+
+**Onde vive.** Resumo e palavras-chave, 5.1.2, 5.1.2.3 (p. 428-434), 5.1.2.4, 7.1.1.1 (p. 717).
 
 ---
 
@@ -248,17 +274,25 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ---
 
-## Em decisão. Integridade pessoal e identidade simbólica
+## Bens protegidos. Integridade pessoal
 
-**Função no regime.** Descreve os bens protegidos. Na engrenagem do 5.1, "a integridade pessoal descreve os bens protegidos" (p. 395). É categoria estruturante do 5.1, mas não aparece na frase-regime da conclusão.
+**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Integra a camada de bens protegidos, que é o papel que o 5.1 lhe atribui. Na engrenagem do 5.1, "a integridade pessoal descreve os bens protegidos" (p. 395).
 
-**Definição canônica proposta**
+**Nota do autor.** Acréscimo posterior à tese, de 26/10/2026. Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la.
+
+**Lastro na tese.** A nota encontra apoio sobretudo no 6.1.3, mais amplo que a definição do 5.1.4.
+
+> [...] quando a lesão é compreendida não a partir do sofrimento subjetivamente experimentado, mas do atributo da personalidade objetivamente atingido. (p. 534)
+
+> A experiência digital pode atingir dimensões de integridade pessoal juridicamente relevantes justamente porque proteção de dados, autodeterminação informacional e livre desenvolvimento da personalidade integram o núcleo existencial da pessoa em ambiente informacional [...] (p. 535)
+
+> [...] para a própria integridade da personalidade em ambientes digitalmente governados. (p. 800)
+
+**Definição do 5.1.4**
 
 > Integridade pessoal, no regime do Objeto Imaterial de Consumo, não designa estado emocional nem desconforto subjetivo decorrente de frustrações ordinárias do mercado. Designa a preservação de condições mínimas de agência, continuidade e orientação prática do consumidor dentro de um ambiente técnico-organizacional que administra, de modo permanente, as possibilidades de fruição. (p. 457)
 
-**O que não é.** Está na própria definição. Não é estado emocional nem desconforto subjetivo.
-
-**Onde vive.** 5.1.4, 6.1.3 (com a continuidade biográfica), 7.1.4.
+**Onde vive.** 5.1.4, 6.1.3, 7.1.4.
 
 ---
 
@@ -266,9 +300,8 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 Três enunciados do 7.1.1 não são conceitos próprios, mas são passos obrigatórios da sequência decisória. O dever de informar como adequação verificável (7.1.1.3). A publicidade e a oferta como gestão de sentido controlável (7.1.1.4). A prova e a distribuição dinâmica do ônus (7.1.1.8). Eles vivem no Roteiro, não no Atlas.
 
-## O que precisa da assinatura do Senhor
+## O que ainda precisa da assinatura do Senhor
 
-1. **Nove ou dez.** A integridade pessoal entra no Atlas como décimo conceito ou fica como camada de bens protegidos?
-2. **Uma ordem ou três percursos.** Minha sugestão é manter as três, cada uma com nome próprio. O percurso do consumidor (5.1), o percurso do julgador (7.1.1) e o percurso do regime (conclusão).
-3. **A definição canônica de cada conceito.** Aprovar ou trocar por uma das concorrentes.
-4. **A lacuna da antecipação hipercuratorial.** O site declara que a tese não traz critério negativo geral, ou o Senhor escreve um? Se escrever, o texto precisa ser marcado como posterior à tese. Tudo o que não estiver na tese de 2026 deve trazer data e marca de acréscimo. É a equivalência de valor funcional aplicada ao próprio site.
+1. **Uma ordem ou três percursos.** A sugestão é manter as três, cada uma com nome próprio. O percurso do consumidor (5.1), o percurso do julgador (7.1.1) e o percurso do regime (conclusão).
+2. **A definição canônica de cada conceito.** Aprovar ou trocar por uma das concorrentes.
+3. **A lacuna da antecipação hipercuratorial.** O site declara que a tese não traz critério negativo geral, ou o Senhor escreve um? Se escrever, o texto entra marcado como acréscimo posterior, com data, como a nota sobre a integridade pessoal.

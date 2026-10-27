@@ -30,7 +30,6 @@ O site tem cinco camadas.
 
 ## Decisões pendentes do autor
 
-- Nove ou dez conceitos. A integridade pessoal entra no Atlas ou fica como camada de bens protegidos.
 - Uma ordem canônica ou três percursos. A tese tem três ordens (5.1, 7.1.1 e conclusão).
 - Definição canônica de cada conceito.
 - Lacuna da antecipação hipercuratorial, que não tem critério negativo geral na tese.
@@ -38,12 +37,17 @@ O site tem cinco camadas.
 
 ## Decisões tomadas
 
+- 26/10/2026. O Atlas tem nove conceitos. OIC, feixe de fruição governada, vulnerabilidade semiótica, antecipação hipercuratorial, teleologia abusiva, auditabilidade aberta, equivalência de valor funcional, função social da propriedade intelectual e recomposição funcional com correção de regime. A Lex Plataformae é o campo onde os nove acontecem e dá nome ao site. Esta última parte é leitura adotada, a confirmar com o autor.
+- 26/10/2026. O feixe de fruição governada é gêmeo do OIC e aparece colado a ele em todos os percursos.
+- 26/10/2026. A integridade pessoal fica fora do Atlas, na camada de bens protegidos. Nota do autor, a publicar como acréscimo posterior à tese. "Integridade pessoal se refere à integridade da personalidade civil. Tudo o que integra a personalidade civil pode integrá-la." O lastro na tese está sobretudo no 6.1.3 (p. 534-536).
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
 
 ## Arquivos
 
 - `tese/andrade-2026-tese-oic-lex-plataformae.pdf` é a fonte de verdade. Página impressa = página do PDF - 2.
 - `conceitos/` guarda as fichas dos conceitos.
+- `conceitos/percursos.md` guarda os trechos que fundamentam os três percursos e a frase de abertura.
+- `ferramentas/gerar_dados.py` lê as fichas e gera `dados/atlas.json` e `prototipo/index.html`. Nenhum texto citado é escrito à mão no site.
 - `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py <arquivos.md>`. Commit só com zero falhas.
 
 ## Epígrafes

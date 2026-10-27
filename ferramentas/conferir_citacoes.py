@@ -62,6 +62,24 @@ def citacoes(markdown):
         yield m.group(1), m.group(2)
 
 
+def atravessa_pagina(fragmento, ref, por_pagina):
+    """Aceita trecho contínuo que a virada de página separa com notas de rodapé no meio.
+
+    Exige que a primeira parte esteja na página N e a segunda na página N+1.
+    """
+    if ref == "Resumo" or "-" not in ref:
+        return False
+    numeros = [int(x) for x in ref[3:].split("-")]
+    palavras = fragmento.split(" ")
+    for n in range(numeros[0], numeros[-1]):
+        antes = normalizar(por_pagina.get(n, ""), fonte=True)
+        depois = normalizar(por_pagina.get(n + 1, ""), fonte=True)
+        for k in range(3, len(palavras) - 2):
+            if " ".join(palavras[:k]) in antes and " ".join(palavras[k:]) in depois:
+                return True
+    return False
+
+
 def main(arquivos):
     por_pagina = paginas()
     inteiro = normalizar(" ".join(por_pagina.values()), fonte=True)
@@ -78,7 +96,9 @@ def main(arquivos):
                     fonte=True,
                 )
             for fragmento in (f.strip(" .,") for f in trecho.split("[...]")):
-                if len(fragmento) > 8 and normalizar(fragmento) not in palheiro:
+                if len(fragmento) > 8 and normalizar(fragmento) not in palheiro and not atravessa_pagina(
+                    normalizar(fragmento), ref, por_pagina
+                ):
                     falhas += 1
                     print(f"NÃO ENCONTRADA  {arquivo}  {ref}  {fragmento[:100]}")
     print(f"{total} citações conferidas, {falhas} não encontradas.")
