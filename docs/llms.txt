@@ -1,0 +1,25 @@
+# Lex Plataformae
+
+> Atlas do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae, a partir da tese de doutorado de Victor Luiz Pereira de Andrade (Victor L. P. Andrade), UNESP, Franca, 2026. Toda citação do site é transcrição literal da tese, com a página indicada. Acréscimos posteriores à tese são marcados e datados.
+
+Os nove conceitos são independentes e, sob o OIC, funcionam de forma integrada (nota do autor, 26/10/2026).
+
+## Conceitos
+
+- [Objeto Imaterial de Consumo (OIC)](https://lexplataformae.com.br/conceitos/oic/): O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
+- [Antecipação hipercuratorial](https://lexplataformae.com.br/conceitos/antecipacao-hipercuratorial/): Antecipação hipercuratorial designa uma técnica econômico-semiológica pela qual a plataforma produz futuro consumível por curadoria contínua, definindo o que virá, o que desaparecerá, o que retornará e o que será elevado ao estatuto de "evento". (p. 313)
+- [Auditabilidade aberta](https://lexplataformae.com.br/conceitos/auditabilidade-aberta/): Auditabilidade aberta significa a existência de condições mínimas de verificabilidade sobre aspectos relevantes do fornecimento, de modo que órgãos de tutela, Judiciário, peritos e, em certa medida, os próprios consumidores possam reconstruir a relação entre promessa, alteração, sanção, impacto funcional e justificação apresentada pelo fornecedor. (p. 727)
+- [Equivalência de valor funcional](https://lexplataformae.com.br/conceitos/equivalencia-de-valor-funcional/): O que importa é a preservação substancial do papel exercido pelo objeto na experiência adquirida, considerando sua utilidade concreta no ecossistema, sua inserção relacional no ambiente de uso e, quando juridicamente relevante, sua densidade identitária ou simbólica. (p. 729)
+- [Feixe de fruição governada](https://lexplataformae.com.br/conceitos/feixe-de-fruicao-governada/): A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho. (p. 426)
+- [Ilícito de arquitetura](https://lexplataformae.com.br/conceitos/ilicito-de-arquitetura/): Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura. (p. 664)
+- [Lex Plataformae](https://lexplataformae.com.br/conceitos/lex-plataformae/): A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
+- [Teleologia abusiva](https://lexplataformae.com.br/conceitos/teleologia-abusiva/): A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
+- [Vulnerabilidade semiótica](https://lexplataformae.com.br/conceitos/vulnerabilidade-semiotica/): A vulnerabilidade semiótica pode ser definida, em síntese, como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente. (p. 396)
+
+## Tese
+
+- [Tese completa em PDF](https://lexplataformae.com.br/tese/andrade-2026-tese-oic-lex-plataformae.pdf): Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae: a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. Doutorado em Direito, UNESP, 2026.
+
+## Dados
+
+- [atlas.json](https://lexplataformae.com.br/dados/atlas.json): conceitos, definições, critérios delimitadores, seções e leituras, em JSON.

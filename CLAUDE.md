@@ -52,6 +52,9 @@ O site tem cinco camadas.
 - `conceitos/` guarda as fichas dos conceitos.
 - `conceitos/percursos.md` guarda os trechos que fundamentam os três percursos e a frase de abertura.
 - `ferramentas/gerar_dados.py` lê as fichas e gera `dados/atlas.json` e `prototipo/index.html`. Nenhum texto citado é escrito à mão no site.
+- `ferramentas/gerar_site.py` gera o site publicável em `docs/`, a partir de `dados/atlas.json`. Cada página sai com o texto completo no HTML, legível sem JavaScript. Rodar sempre depois de `gerar_dados.py`. Nunca editar `docs/` à mão.
+- `site/atlas.js` e `site/extra.css` são as fontes do script e dos acréscimos de estilo do site. O estilo base vem do `<style>` de `prototipo/modelo.html`.
+- `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.
 - `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py <arquivos.md>`. Commit só com zero falhas.
 
 ## Epígrafes
@@ -66,6 +69,8 @@ No site, as letras não são reproduzidas. A música entra por player incorporad
 
 ## Infraestrutura
 
-- Hospedagem prevista no GitHub Pages, a partir deste repositório público.
-- O DNS no Registro.br ainda não aponta para lugar nenhum. Antes de apontar, verificar o domínio no GitHub para evitar sequestro do domínio.
+- Hospedagem no GitHub Pages, a partir da pasta `docs/` do ramo `main`. O arquivo `docs/CNAME` fixa o domínio.
+- Leitura por máquina em `docs/robots.txt` (aberto a robôs de IA), `docs/sitemap.xml`, `docs/llms.txt`, `docs/dados/atlas.json` e marcação schema.org (Thesis, DefinedTermSet e DefinedTerm) em cada página.
+- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção.
+- DNS no Registro.br. Registros A do domínio raiz para 185.199.108.153, 185.199.109.153, 185.199.110.153 e 185.199.111.153. CNAME de www para victorlpandradeadv-creator.github.io. TXT de verificação do GitHub Pages na conta do autor.
 - Evitar proxy da Cloudflare, que bloqueia robôs de IA por padrão em domínios novos.
