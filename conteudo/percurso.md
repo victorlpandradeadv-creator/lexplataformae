@@ -592,7 +592,7 @@ A terceira é a aplicação. São os mecanismos que graduam punições, restring
 
 ### nome lex-plataformae
 
-O nome em latim quer dizer, ao pé da letra, a lei da plataforma. Não é um contrato parado na gaveta. É uma ordem que roda como programa, que mira um resultado econômico e que parece natural de tanto ser repetida.
+Em latim, que é onde o nome nasceu, ela se chama Lex Plataformae, e plataformae quer dizer da plataforma. Mas a lei da plataforma não é um contrato parado na gaveta. É uma ordem que roda como programa, que mira um resultado econômico e que parece natural de tanto ser repetida.
 
 Ela define as regras, decide o que é visto e o que fica escondido, aplica as punições e até estabelece como se prova alguma coisa lá dentro. E não só anuncia as regras. Ela classifica, registra, recomenda, bloqueia, restringe e muda o próprio ambiente em que você tenta usar o que comprou.
 

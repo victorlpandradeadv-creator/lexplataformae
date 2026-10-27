@@ -249,9 +249,10 @@ Dentro de uma plataforma, alguém decide o que você pode fazer, o que os outros
 
 ### nome
 
-Lex Plataformae. É a lei da plataforma, que não é um contrato parado, mas uma ordem que roda como sistema, mira resultado econômico e parece natural de tanto ser repetida.
+Lei da plataforma. O nome em latim é Lex Plataformae, e plataformae quer dizer da plataforma. Não é um contrato parado, mas uma ordem que roda como sistema, mira resultado econômico e parece natural de tanto ser repetida.
 
 > A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
+> A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma” (p. 27)
 
 ### imagem
 

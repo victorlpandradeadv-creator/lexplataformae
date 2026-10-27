@@ -133,6 +133,32 @@ def resumo(texto, limite=158):
     return corte + "…"
 
 
+# Nome em português dos conceitos, para as telas Informação e Doutrina. A tese usa o nome em latim, que segue em Ciência
+# e no nome do site. Decisão do autor de 27/10/2026, acréscimo posterior à tese.
+NOME_COMUM = {"lex-plataformae": "lei da plataforma"}
+DATA_NOME_COMUM = "27/10/2026"
+
+
+def nome_comum(c, maiuscula=True):
+    comum = NOME_COMUM.get(c["id"])
+    if not comum:
+        return c["nome"]
+    return comum[0].upper() + comum[1:] if maiuscula else comum
+
+
+def nome_html(c, maiuscula=True):
+    """O nome do conceito como o leitor vê em cada modo. Só muda onde há nome em português."""
+    if c["id"] not in NOME_COMUM:
+        return esc(c["nome"])
+    return (f'<span class="em-modo modo-0 modo-1">{esc(nome_comum(c, maiuscula))}</span>'
+            f'<span class="em-modo modo-2">{esc(c["nome"])}</span>')
+
+
+def nome_titulo(c):
+    """O nome para o título da aba e para os buscadores."""
+    return f'{nome_comum(c)} ({c["nome"]})' if c["id"] in NOME_COMUM else c["nome"]
+
+
 def url_conceito(cid):
     return f"{BASE}/conceitos/{cid}/"
 
@@ -618,7 +644,7 @@ def bloco_percurso(b, prefixo):
     if tipo == "nome":
         c = POR_ID[arg]
         return (f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">{rotulo}</span>'
-                f'<a href="{prefixo}conceitos/{arg}/">{esc(c["nome"])}</a></h2>{texto}'
+                f'<a href="{prefixo}conceitos/{arg}/">{nome_html(c)}</a></h2>{texto}'
                 f'<p class="ver-ideia"><a href="{prefixo}conceitos/{arg}/">A ideia inteira</a></p>{exp}</section>')
     if tipo == "termo":
         derivado = arg in DERIVADOS
@@ -727,7 +753,7 @@ def gerar_inicio():
         # O cartão do OIC dispensa a expansão, porque a definição literal aparece logo abaixo dele.
         exp = "" if c is EIXO else expansao(bloco.get("citacoes", []), "")
         return (f'<li><a class="cartao cartao-ideia{classe}" href="{base}{c["id"]}/"><span class="cartao-frase">{esc(frase)}</span>'
-                f'<b>{esc(c["nome"])}</b></a>{exp}</li>')
+                f'<b>{nome_html(c)}</b></a>{exp}</li>')
 
     eixo_cartoes = cartao(EIXO, " cartao-eixo") + (cartao(gemeo, " cartao-eixo") if gemeo else "")
     cartoes = "".join(cartao(c) for c in independentes)
@@ -838,7 +864,7 @@ def gerar_conceito(c):
     selos = f'<span class="selo" data-arq="versão · o conteúdo segue em revisão pelo autor">Versão {VERSAO}</span>'
     if c.get("par"):
         rot = "Em par com "
-        selos += f'<a class="selo gemeo" href="{base}{c["par"]["id"]}/">{rot}{esc(POR_ID[c["par"]["id"]]["nome"])}</a>'
+        selos += f'<a class="selo gemeo" href="{base}{c["par"]["id"]}/">{rot}{nome_html(POR_ID[c["par"]["id"]])}</a>'
 
     partes = []
     for f in c["campos"]:
@@ -897,11 +923,12 @@ def gerar_conceito(c):
         outros = em_ordem([x for x in conceitos_do_atlas() if x is not c and not x.get("eixo")])
         lista = ([] if c.get("eixo") else [EIXO]) + outros
         outros_nav = ('<nav class="outros" aria-label="As outras ideias"><h2>As outras ideias</h2><ul>'
-                      + "".join(f'<li><a href="{base}{x["id"]}/">{esc(x["nome"])}</a></li>' for x in lista) + "</ul></nav>")
+                      + "".join(f'<li><a href="{base}{x["id"]}/">{nome_html(x)}</a></li>' for x in lista) + "</ul></nav>")
 
     e = EXTERNA.get(c["id"]) if c["tipo"] == "conceito" else None
     can = canonica(c)
     jsonld = {"@context": "https://schema.org", "@type": "DefinedTerm", "@id": url_conceito(c["id"]), "name": c["nome"],
+              **({"alternateName": nome_comum(c, False)} if c["id"] in NOME_COMUM else {}),
               "description": can["texto"] if can else "", "url": url_conceito(c["id"]), "inLanguage": "pt-BR",
               "inDefinedTermSet": {"@type": "DefinedTermSet", "@id": BASE + "/#atlas", "name": "Atlas Lex Plataformae"},
               "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
@@ -922,7 +949,7 @@ def gerar_conceito(c):
             f'<a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(c["id"], "titulo"))}</h1></header>'
             + bloco_ext("fenomeno", classe="fenomeno")
-            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span><span class="chapado">{esc(c["nome"])}</span></h2>'
+            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span><span class="chapado">{nome_html(c)}</span></h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
             + figura(f'ideia-{c["id"]}', prefixo)
             + bloco_ext("imagem", "Uma imagem", "didatico imagem")
@@ -933,21 +960,29 @@ def gerar_conceito(c):
             + (secao_direitos(direitos_da_ideia(c["id"]), prefixo) if direitos_da_ideia(c["id"]) else "")
             + no_percurso(c["id"], prefixo)
             + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))
+        nota_nome = ""
+        if c["id"] in NOME_COMUM:
+            genitivo = "A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma”"
+            nota_nome = ('<section class="nota-autor ciencia" data-arq="acréscimo posterior · fora do texto da tese de 2026">'
+                         f'<p class="sobrelinha">Nome em português · acréscimo de {DATA_NOME_COMUM}</p>'
+                         f'<p>Desde {DATA_NOME_COMUM}, nos modos Informação e Doutrina, o site chama este conceito de {esc(nome_comum(c, False))}, '
+                         f'a tradução literal do nome em latim. O nome {esc(c["nome"])} segue neste modo e no nome do site.</p>'
+                         f'<blockquote class="citacao"><p>{esc(genitivo)}{pg("p. 27", prefixo, genitivo)}</p></blockquote></section>')
         arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · a ideia no texto integral">'
-                       f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h2 class="titulo-interno">{esc(c["nome"])}</h2><div class="selos ciencia">{selos}</div></header>'
-                       + "".join(partes) + "</div>")
+                       f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h2 class="titulo-interno">{nome_html(c)}</h2><div class="selos ciencia">{selos}</div></header>'
+                       + nota_nome + "".join(partes) + "</div>")
         corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
         desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
         (destino / "index.html").write_text(
-            pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
+            pagina(f'{nome_titulo(c)} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
         return
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
-             f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h1>{esc(c["nome"])}</h1><div class="selos ciencia">{selos}</div></header>'
+             f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h1>{nome_html(c)}</h1><div class="selos ciencia">{selos}</div></header>'
              + "".join(partes) + outros_nav + "</article>")
     desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
-        pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
+        pagina(f'{nome_titulo(c)} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
 
 
 def conceitos_por_secao():
@@ -1139,7 +1174,7 @@ def gerar_tese():
             if deste:
                 conceitos_aqui += (f'<aside class="conceitos-aqui" data-arq="fichas · conceitos que vivem nesta seção">'
                                    f'<p class="sobrelinha">{rotulo}</p><ul>'
-                                   + "".join(f'<li><a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in em_ordem(deste))
+                                   + "".join(f'<li><a href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a></li>' for c in em_ordem(deste))
                                    + "</ul></aside>")
         if usos.get(sec["slug"]):
             conceitos_aqui += ('<aside class="conceitos-aqui camadas-aqui ciencia" data-arq="estrutura · páginas das camadas que trazem esta seção">'
@@ -1358,7 +1393,7 @@ def nomeados_html(contagem, prefixo):
     if not contagem:
         return ""
     ordem = sorted(contagem, key=lambda cid: (cid != EIXO["id"], POR_ID[cid]["nome"].casefold()))
-    itens = "".join(f'<li><a href="{prefixo}conceitos/{cid}/">{esc(POR_ID[cid]["nome"])}</a> <span class="vezes">{contagem[cid]}×</span></li>' for cid in ordem)
+    itens = "".join(f'<li><a href="{prefixo}conceitos/{cid}/">{nome_html(POR_ID[cid])}</a> <span class="vezes">{contagem[cid]}×</span></li>' for cid in ordem)
     return ('<aside class="nomeados ciencia" data-arq="contagem mecânica · termos do Atlas e do Roteiro que o trecho nomeia">'
             f'<p class="sobrelinha">Conceitos que o trecho nomeia</p><ul>{itens}</ul></aside>')
 
@@ -1441,7 +1476,7 @@ def gerar_roteiro():
         ligacoes = []
         if num and num in POR_NUMERO:
             ligacoes.append(f'<a class="ciencia" href="{prefixo}tese/{POR_NUMERO[num]["slug"]}/">Enunciado {num} na tese</a>')
-        ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{esc(POR_ID[i]["nome"])}</a>' for i in ids if i in POR_ID]
+        ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{nome_html(POR_ID[i])}</a>' for i in ids if i in POR_ID]
         dl = "".join(f'<dt>{esc(rot)}</dt><dd data-ref="{esc(ref)}" data-alvo="{prefixo}tese/{slug}/#p{re.match(r"p. (\d+)", ref).group(1)}">{html_do_corpus(h, slug, prefixo)}</dd>'
                      for rot, h, ref in it["partes"])
         secoes.append(
@@ -1940,7 +1975,7 @@ def fichas_html(conc, prefixo):
         deste = [c for c in conc if c["tipo"] == tipo]
         if deste:
             saida += (f'<span class="cita"><span class="sobrelinha">{rotulo}</span> '
-                      + ", ".join(f'<a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a>' for c in em_ordem(deste)) + "</span>")
+                      + ", ".join(f'<a href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in em_ordem(deste)) + "</span>")
     return saida
 
 
@@ -2735,7 +2770,7 @@ def gerar_objeto_instrumentos():
                       f'<p class="rotulo-ext">Instrumentos no percurso</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
                       f'<p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
     juridicos = sorted(t for t, ar in AREA_TERMO.items() if ar == "direito")
-    nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
+    nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
     dez = "".join(termo_link(t, "nome-derivado") for t in sorted(DERIVADOS))
     corpo = (
         '<article class="folha leitura objeto-instrumentos">'
