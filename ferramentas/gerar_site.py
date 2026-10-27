@@ -734,7 +734,7 @@ def gerar_inicio():
 
     corpo = f"""
     <section class="abertura" aria-labelledby="titulo">
-      <h1 class="chamada" id="titulo">{esc(ext_texto("inicio", "chamada"))}</h1>
+      <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
       <div class="lema">{ext_html("inicio", "abertura", "")}</div>
       <blockquote class="frase interno" data-arq="citação literal · a frase que abre o percurso">“{esc(ab["texto"])}”{pg(ab["ref"], "", ab["texto"])}</blockquote>
     </section>
@@ -822,6 +822,7 @@ def gerar_inicio():
         ],
     }
     desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove ideias para dar nome a isso."
+    corpo = f'<div class="pagina-inicio">{corpo}</div>'
     (SAIDA / "index.html").write_text(pagina("Lex Plataformae", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
 

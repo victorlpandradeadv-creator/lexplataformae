@@ -500,3 +500,27 @@ h2.direito-titulo { font-size: 1.5rem; }
 .direitos-pagina .direito { scroll-margin-top: 1rem; }
 .didatico.teste { background: var(--folha); border: 1px solid var(--linha); border-left: 3px solid var(--tese); }
 @media (max-width: 640px) { .direito { padding: 1rem; } .direitos-indice a { min-height: 44px; } }
+
+/* Página inicial. O título quebra depois de cada frase, e o texto ganha uma medida mais larga. Orientação do autor de 27/10/2026. */
+.pagina-inicio { --medida: 78ch; display: contents; }
+.pagina-inicio .chamada { max-width: none; text-wrap: wrap; font-size: clamp(1.35rem, 6.1vw, 4rem); }
+.chamada-linha { display: block; }
+.pagina-inicio .lema { max-width: 64ch; }
+
+/* A chave Modo fica menor, no canto direito, com fundo translúcido. Orientação do autor de 27/10/2026. */
+body { padding-bottom: 4.5rem; }
+.chave-mestra {
+  left: auto; right: calc(1rem + env(safe-area-inset-right)); transform: none;
+  min-height: 0; gap: 0.45rem; padding: 0.22rem 0.22rem 0.22rem 0.75rem;
+  background: color-mix(in srgb, var(--tinta) 68%, transparent);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2); backdrop-filter: blur(10px) saturate(1.2);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
+.chave-nome { font-size: 0.62rem; }
+.degraus label { min-height: 32px; padding: 0 0.62rem; font-size: 0.8rem; }
+@media (max-width: 640px) { .chave-mestra { left: auto; right: 0.75rem; justify-content: flex-end; } }
+@media (max-width: 420px) {
+  .chave-mestra { padding-left: 0.22rem; }
+  .degraus { flex: none; }
+  .degraus label { flex: none; padding: 0 0.55rem; font-size: 0.78rem; }
+}

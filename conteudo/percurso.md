@@ -212,89 +212,165 @@ Por que essa skin vale tanto?
 
 ### resumo
 
-Ela é um sinal que todo mundo lá dentro sabe ler.
+Ela é um sinal que todo mundo lá dentro sabe ler, e quem cuida dos sinais é a plataforma.
 
 ### texto
 
-A skin muda o visual do personagem, os efeitos e as animações em cada partida, e há quem invista nela dinheiro, tempo e atenção. Por que tanto? Porque lá dentro ela é um sinal que todo mundo sabe ler, que diz quem você é e a que grupo pertence. Você não compra só uma função, compra pertencimento, prestígio e reconhecimento.
+Uma skin muda o visual do personagem, os efeitos e as animações, e faz isso de novo em cada partida. Tem gente que coloca nela muito dinheiro, muitas horas e muita atenção. Visto de fora, parece exagero pagar caro por uma roupa que não existe fora da tela.
+
+Visto de dentro, faz sentido, porque lá a skin é um sinal que todo mundo sabe ler. Ela diz quem você é, quanto tempo você tem de jogo e a que grupo você pertence. Quem compra uma skin rara não compra só um efeito bonito, e sim pertencimento, prestígio e a chance de ser reconhecido pelos outros.
 
 > A forma, a leitura visual, a lógica de transformação e a experiência estética acontecem como desempenho repetido em cada partida. (p. 439)
 > Um item cosmético raro ou um personagem reconfigurado valem porque operam como signo social legível, marcador de identidade e ponto de pertencimento dentro de uma gramática proprietária. (p. 104)
-> o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção (p. 104)
 > O que se consome, nesse tipo de ambiente, não é apenas função técnica, mas pertencimento, prestígio e reconhecimento mediado por signos. (p. 105)
+
+### texto
+
+É por isso que a sua frustração, quando a skin muda, não é capricho. Imagine que uma atualização altere a aparência dela, os efeitos, a raridade que todo mundo enxergava ou o lugar dela na economia do jogo. A skin continua na sua conta, com o mesmo nome, mas deixa de encaixar no mundo do jogo do jeito que encaixava, e era esse encaixe que dava valor a todo o tempo, dinheiro e atenção que você colocou ali.
+
+O direito pode olhar para isso de dois jeitos. Pode tratar como um desgosto pessoal, coisa de quem se apega demais, ou pode tratar como a piora de algo cujo centro é feito de sentido e de relação com os outros. Essa segunda leitura é a que permite levar a perda a sério.
+
+> Quando uma atualização altera aparência, efeitos, raridade percebida ou inserção econômica, pode se desfazer a compatibilidade entre experiência, narrativa e reconhecimento. A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
+> Quando a plataforma reescreve esses signos, a permanência nominal do objeto na conta pode conviver com o esvaziamento daquilo que ele significava e entregava. (p. 105)
+> Esse enquadramento interessa ao problema jurídico porque permite descrever a lesão como degradação de um feixe de fruição cujo núcleo é semiótico e relacional, e não como mera frustração subjetiva. (p. 105)
 
 ### termo Valor como julgamento
 
-O preço da loja diz pouco, porque o valor de uma coisa não mora dentro dela. Ele é um julgamento que as pessoas fazem e que a troca confirma. Por isso a pergunta que importa não é quanto custa, mas o que faz algo parecer desejável, comparável e raro.
+O preço da loja diz pouco sobre o valor da skin, porque o valor de uma coisa não mora dentro dela. Ele é um julgamento que as pessoas fazem e que a troca, real ou imaginada, confirma. Uma skin vale porque muita gente a deseja, a compara com outras e a considera rara.
+
+Por isso a pergunta que importa não é quanto custa, e sim o que faz algo parecer desejável, comparável e raro. E aqui está o ponto, porque quem decide o catálogo, a raridade e as regras de visibilidade é a plataforma. Quem administra essas coisas administra, na prática, as condições do próprio valor.
 
 > a pergunta relevante deixa de ser “quanto custa” e passa a ser “quais molduras fazem algo aparecer como desejável, comparável e raro”, porque o valor não é inerente ao objeto, mas um julgamento produzido por sujeitos e endossado por uma troca real ou imaginada (p. 250)
+> Se o valor é efeito de reconhecimento situado, administrar catálogo, raridade e regras de visibilidade (curadoria, janelas, critérios) é administrar as condições práticas do próprio valor. (p. 251)
 
 ### termo Consumo como ritual
 
-As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que a gente se alinha com uns, se separa de outros e dá sentido ao que vive. Por isso ficar fora desse circuito não é só um desconforto, é perder voz e perder opções.
+As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que a gente se alinha com uns, se separa de outros e dá sentido ao que vive. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.
+
+Ficar fora desse circuito, por isso, não é só um desconforto, porque significa perder voz e perder opções. Quando você pensa em sair de um jogo, o custo não é só o dinheiro que ficou para trás, mas também o risco de se isolar e de enfraquecer laços que foram feitos ali dentro.
 
 > Douglas e Isherwood (1996, p. xxiv) descrevem bens como dispositivos de alinhamento e de fronteira. (p. 251)
 > bens funcionam como marcas públicas que erguem cercas contra indesejados, consolidando solidariedades (p. 251)
 > Ficar fora do alcance desse sistema não é um desconforto subjetivo. É risco de silenciamento prático, redução de voz e de opções futuras (p. 251)
 > bens como adjuntos rituais e o consumo como processo ritual cuja função é produzir sentido no fluxo instável dos acontecimentos (p. 254)
+> o que permite ler o custo de saída não apenas como perda patrimonial, mas como risco de isolamento e enfraquecimento de vínculo (p. 249)
+
+### imagem
+
+Pense numa música, em que uma nota sozinha não diz quase nada e a música está na relação entre as notas. Com as coisas que a gente consome acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.
+
+Por isso, quando a plataforma mexe no conjunto, mexe no sentido de cada peça. Lançar uma skin nova pode mudar o que a sua dizia, mesmo que ninguém tenha tocado nela. Quem cuida da vitrine cuida também da linguagem que faz o seu item significar alguma coisa.
+
+> O item isolado é semanticamente incompleto, pois o sentido emerge da posição recíproca entre bens, como ocorre em uma gramática ou em uma harmonia musical. (p. 249)
+> Bens operam como hardware e software de um sistema informacional no qual o significado emerge das relações entre coisas, e não de uma essência grudada em cada objeto (p. 249)
+> Regular curadoria e janelas de circulação equivale a regular a gramática pela qual valor e pertencimento são expressos, porque altera as relações que fazem o acervo “dizer” algo. (p. 249)
+> Não se entrega apenas um item. Mantêm-se, ou reordenam-se, as condições de linguagem que fazem esse item existir como diferença socialmente legível dentro desse ecossistema. (p. 249)
 
 ### termo Transferência de significado
 
-De onde vem o sentido da skin? Ele é despejado nela. O trailer, o evento, a vitrine e a história em volta ligam a skin a um clima e a um tipo de pessoa, como se a publicidade fosse um cano por onde o significado chega às coisas.
+De onde vem o sentido da skin? Ele não nasce nela, é despejado nela. O trailer, o evento, a vitrine e a história em volta ligam a skin a um clima, a um tipo de pessoa e a um momento. A publicidade funciona como um cano por onde o significado escorre até as coisas.
+
+E esse sentido estraga com o tempo. Parte do que uma skin significa vence, como um alimento, e por isso a renovação não é opcional. Sempre vai haver uma coleção nova, um trailer novo e um evento novo para despejar sentido fresco nas coisas e tirar o brilho das antigas.
 
 > A publicidade funciona como conduto pelo qual o significado se despeja continuamente nos bens (p. 256)
+> A renovação não é opcional porque parte do significado é perecível. (p. 256)
 > Neles, a forma de apresentação e a dramaturgia da oferta, expressa em vitrines, trailers, eventos e narrativas de atualização permanente, torna-se componente constitutivo da experiência consumida. (p. 99)
 
 ### termo Espetáculo
 
-O espetáculo não é um monte de imagens, mas gente se relacionando por meio de imagens. Na partida, a skin é vista, comparada e comentada, e o valor dela se faz nessa cena que nunca para.
+O espetáculo não é um monte de imagens, e sim gente se relacionando por meio de imagens. Numa partida, a sua skin é vista, comparada e comentada, e o valor dela se faz nessa cena que não para nunca.
+
+Isso quer dizer que a promessa da skin não fica parada na loja, porque circula como cena social, em que uns olham e outros são olhados. É essa vitrine permanente que mantém o desejo aceso e faz você querer continuar ali.
 
 > o espetáculo não é conjunto de imagens, mas relação social entre pessoas mediada por imagens (p. 282)
 > o espetáculo pode ser mobilizado para compreender plataformas como ambientes em que a promessa do OIC circula como cena social contínua, isto é, como dinâmica de visibilidade e de comparação que estabiliza desejo e permanência como parte do próprio valor (p. 282)
 
 ### termo Gamificação
 
-Nível, ranque, conquista, contador. Quando tudo vira placar, o que importa passa a ser estar bem colocado e em dia, e ficar deixa de ser lazer para virar tarefa.
+Nível, ranque, conquista, contador de vitórias. Quando tudo vira placar, a experiência deixa de ser só vivida e passa a ser medida o tempo inteiro, de modo que o que importa passa a ser estar bem colocado e em dia.
 
+Aí ficar no jogo deixa de ser só lazer e vira tarefa. Permanecer significa continuar no ranking, atualizado e visível numa escala que o próprio jogo administra. E a plataforma transforma esse controle do tempo em urgência, com janelas e oportunidades que pressionam você a decidir de novo e de novo.
+
+> A vida prática deixa de ser apenas vivida e passa a ser acompanhada por índices de posição, sinais de desempenho e parâmetros de progresso que tornam a comparação permanente e cumulativa. (p. 289)
+> Nesse regime, a permanência ganha forma de tarefa, porque permanecer passa a significar manter-se sob ranqueamento, passível de atualização e legível no interior de uma escala que o próprio ecossistema administra. (p. 289)
 > A gamificação da vida cotidiana, nessa chave, não é um artifício lúdico adicionado ao consumo, mas a tradução do valor em placares de relevância, nos quais o que importa é estar situado e atualizado em tempo real. (p. 289)
-> Nesse regime, a permanência ganha forma de tarefa (p. 289)
+> a plataforma transforma a governança do tempo e da visibilidade em urgência prática, ao organizar janelas e oportunidades como pressão recorrente de decisão (p. 289)
+
+### mecanismo
+
+Junte tudo isso e aparece uma regra silenciosa. Se o que você pode perder é o momento certo, o status e o pertencimento, faltar passa a custar caro. Quem some por umas semanas perde posição, perde o evento e perde a skin que só estava à venda naquela janela.
+
+A ausência deixa de ser uma pausa e vira uma queda que dá para medir. E o risco não está só no item, mas no sentido do que se perde e no calendário, que transforma atraso em desvantagem, mesmo quando a skin continua lá, tecnicamente acessível.
+
+> Quando o risco eficiente é perder timing, status e pertencimento, a disciplina de presença se instala como técnica de governo do tempo. A ausência deixa de ser mera interrupção e passa a produzir queda mensurável, apagamento progressivo e descontinuidade prática, tornando a permanência a forma racional de evitar perda. (p. 254)
+> É semiótico porque depende do sentido social do que se perde, e temporal porque funciona por janelas, calendários, ciclos e ritmos que convertem atraso em desvantagem objetiva mesmo quando o objeto imaterial permanece tecnicamente acessível. (p. 254)
 
 ### termo Economia da atenção
 
-O que falta nesse mercado não é skin, porque cópia digital não acaba. O que acaba é o seu tempo de tela, e quanto mais você fica, mais a plataforma observa, testa e ajusta os gatilhos que fazem você voltar.
+O que falta nesse mercado não é skin, já que uma cópia digital não acaba, e por isso, se deixasse tudo à vontade, o preço tenderia a cair. Para cobrar, a empresa precisa criar escassez por decisão própria.
+
+O que de fato acaba é o seu tempo de tela. Quanto mais você fica, mais a plataforma consegue observar como você se comporta, testar estímulos e ajustar os gatilhos que fazem você voltar. É essa previsibilidade que sustenta o passe, a assinatura, o evento imperdível e a oferta que gira toda semana.
 
 > no mercado de bens imateriais, a reprodutibilidade tenderia a dissolver o preço, de modo que a renda depende de reintroduzir escassez por decisão institucional (p. 234)
-> O recurso escasso decisivo não é a disponibilidade técnica do bem, mas o tempo de exposição do usuário. A retenção fornece volume para observação, perfilização, teste contínuo de estímulos e calibragem de gatilhos. (p. 249)
+> O recurso escasso decisivo não é a disponibilidade técnica do bem, mas o tempo de exposição do usuário. A retenção fornece volume para observação, perfilização, teste contínuo de estímulos e calibragem de gatilhos. É essa previsibilidade que estabiliza extração por assinatura, passe, “evento imperdível”, rotatividade de oferta e pedágios sucessivos. (p. 249)
 
 ### termo Biografia das coisas
 
-Coisas também têm biografia. Uma skin nasce rara, fica comum num relançamento, sai do catálogo e volta num evento, e cada virada muda o que ela vale e o status de quem a tem, sem que ela suma da sua conta. Quem escreve essa biografia é a plataforma.
+Coisas também têm biografia, e comprar uma coisa não define o que ela vai ser depois. Uma skin nasce rara, fica comum num relançamento, sai do catálogo e volta num evento, e cada virada muda o que ela vale e o status de quem a tem. Tudo isso acontece sem que ela suma da sua conta.
 
+Quem escreve essa biografia é a plataforma. Ela aposenta itens, muda a raridade, restringe a forma de conseguir, reposiciona por evento e reorganiza o que aparece em destaque. O seu nome continua ligado à skin, mas a história dela, que é o que sustenta o prestígio e a promessa, foi reescrita por outra pessoa.
+
+> O fato de um objeto ser comprado ou trocado nada diz sobre seu estatuto posterior (p. 253)
 > Para o objeto imaterial de consumo, isso descreve com precisão por que reworks, relançamentos, banalizações e reposicionamentos alteram valor e status sem que o item “desapareça”. (p. 253)
-> Em plataformas, essa singularização assume forma de aposentadoria de catálogo, mudança de raridade, restrição de obtenção, reposicionamento por evento, recodificação por meta e rearranjo de critérios de exibição. Mantém-se a titularidade nominal do usuário, mas reordena-se materialmente a biografia cultural do item (p. 254)
+> Em plataformas, essa singularização assume forma de aposentadoria de catálogo, mudança de raridade, restrição de obtenção, reposicionamento por evento, recodificação por meta e rearranjo de critérios de exibição. Mantém-se a titularidade nominal do usuário, mas reordena-se materialmente a biografia cultural do item, que é o que sustenta utilidade social, prestígio e equivalência entre promessa e entrega. (p. 254)
 
 ### caso
 
-Veja como a raridade pode ser fabricada. Num jogo online, a empresa criou uma prateleira acima do topo do catálogo para skins que chamou de Exaltadas e apresentou como hiperexclusivas. Para tentar uma, você compra fichas com 400 da moeda do jogo e sorteia, com chance muito baixa e garantia só no octogésimo sorteio, enquanto tudo fica à venda por tempo limitado. Aqui, ser exclusivo não é algo que a comunidade reconhece com o tempo, é regra escrita no sistema.
+Veja como a raridade pode ser fabricada. Num jogo online, a empresa criou uma nova prateleira acima do topo do catálogo, para skins que chamou de Exaltadas, e as apresentou como hiperexclusivas, quase artigos de luxo.
+
+Para tentar uma, você não compra a skin, e sim fichas que custam 400 da moeda do jogo e que valem um sorteio. A chance de tirar a skin é muito baixa, a garantia só vem no octogésimo sorteio e tudo fica à venda por tempo limitado. Esse modelo de sorteio de itens, que imita as máquinas de cápsulas, costuma esconder o custo real da compra atrás da moeda intermediária e de probabilidades difíceis de enxergar.
+
+O que chama a atenção é de onde vem a exclusividade. Ela não é algo que a comunidade passa a reconhecer com o tempo, porque é regra escrita no sistema. O prestígio vem da regra que controla o acesso, e não de a skin entregar necessariamente mais do que as outras.
 
 > a criação do tier Exalted e do espaço de aquisição denominado Sanctum, apresentado como prateleira “acima” do topo tradicional do catálogo (p. 298)
-> A justificativa institucional enquadra Exalted como conjunto de “hyper-exclusive skins” (p. 299)
-> O Sanctum é descrito como uma loja exclusiva em que o usuário compra Ancient Sparks por 400 RP e as utiliza para sortear conteúdos raros, com “bandeira” específica para skins Exaltadas, além de rotação temporal e ausência de garantia de retorno (Riot Games, 2025d). (p. 299)
+> A justificativa institucional enquadra Exalted como conjunto de “hyper-exclusive skins”, isto é, bens explicitamente descritos como luxo dentro do catálogo (p. 299)
+> O Sanctum é descrito como uma loja exclusiva em que o usuário compra Ancient Sparks (p. 299)
+> por 400 RP e as utiliza para sortear conteúdos raros, com “bandeira” específica para skins Exaltadas, além de rotação temporal e ausência de garantia de retorno (Riot Games, 2025d). (p. 299)
 > skins Exaltadas são o único conteúdo de Tier S da bandeira correspondente, com chance extremamente baixa e garantia apenas no octogésimo sorteio, além de disponibilidade por tempo limitado (p. 299)
+> Modelo de monetização baseado em sorteios aleatórios de itens virtuais, inspirado em máquinas de venda de cápsulas (gashapon). (p. 299)
+> muitas vezes ocultando o custo real da aquisição por meio de moedas intermediárias e opacidade estatística (p. 299)
 > A consequência é que a exclusividade deixa de ser inferência social e passa a ser arquitetura. O prestígio é produzido por regra, não por lastro material necessário. (p. 299)
 
 ### termo Simulacro
 
-E se a skin mudar, mas continuar parecendo topo de linha? O valor pode ser mantido por sinais de entrega, como um selo, uma raridade ou um lugar no catálogo, e o circuito continua girando mesmo quando o que você usava de fato já mudou.
+E se a skin mudar por dentro, mas continuar parecendo topo de linha? Isso pode acontecer, porque o valor pode ser mantido por sinais de entrega, como um selo, uma moldura de raridade ou um lugar de destaque no catálogo. Enquanto os sinais continuam lá, a promessa parece cumprida e o circuito segue girando.
+
+O risco está no que esses sinais escondem. A plataforma pode manter a aparência de continuidade e, ao mesmo tempo, mudar efeitos, restrições, formas de acesso e desempenho. Com a fachada igual, fica muito difícil provar que algo foi perdido. O problema, portanto, não é a skin ter valor simbólico, e sim a aparência servir para apagar a prova de que a promessa deixou de ser cumprida.
 
 > o valor pode ser mantido por sinais de entrega e por critérios de equivalência visíveis, o que autoriza tratar o simulacro como mecanismo capaz de preservar o circuito econômico do OIC mesmo quando a fruição relevante se altera (p. 296)
+> Quando a equivalência se estabiliza por sinais de entrega, como etiqueta, classe, moldura de raridade, posição exibível e comensurabilidade interna, a continuidade pública pode funcionar como substituto da preservação da fruição relevante (p. 313)
+> ainda que se alterem, por dentro, restrições, efeitos, modos de acesso e condições de performance que constituíam a posição adquirida (p. 313)
+> O problema jurídico não é o simbólico, mas a neutralização prática da prova do nexo entre promessa e fruição, o que exige critérios de rastreabilidade e controle substantivo da equivalência. (p. 313)
 
 ### nome antecipacao-hipercuratorial
 
-E tem o que ainda nem chegou. A plataforma anuncia o próximo evento, a skin que vai voltar, a que vai sumir e a próxima temporada, até que o presente vira uma sala de espera. Você fica de prontidão para a próxima chance, enquanto a espera já é vendida como se fosse entrega.
+E tem o que ainda nem chegou. A plataforma anuncia o próximo evento, a skin que vai voltar, a que vai sumir e a próxima temporada. Solta trailers curtos e enigmáticos, mostra o planejamento do ano e marca datas. O futuro deixa de ser só uma expectativa sua e vira um calendário que a empresa organiza e vende.
+
+Com isso o presente vira uma sala de espera. Você fica de prontidão para o próximo ciclo, a próxima atualização e a próxima oportunidade. E a espera passa a fazer parte do que você consome, como se o anúncio já fosse um pedaço da entrega. A plataforma não vende só o agora, vende também a sua permanência à espera do que vem.
 
 > Antecipação hipercuratorial designa uma técnica econômico-semiológica pela qual a plataforma produz futuro consumível por curadoria contínua, definindo o que virá, o que desaparecerá, o que retornará e o que será elevado ao estatuto de “evento”. (p. 313)
+> O consumidor é mantido em prontidão contínua para “o próximo ciclo”, “a próxima atualização”, “a próxima oportunidade” (p. 314)
 > O presente deixa de ser o lugar de uma entrega estabilizada e torna-se uma antecâmara governada (p. 314)
+> Assim, a plataforma não vende apenas o “agora”, posto que ela também vende a permanência orientada ao “por vir”, convertendo expectativa em ativo e transformando a espera em componente material da fruição. (p. 314)
+> Em vez de o futuro aparecer como simples expectativa do consumidor, ele é produzido como calendário institucional e como repertório de sinais, com recortes de lançamento, previsões de cronograma, teasers e atualizações que se tornam, na prática, parte daquilo que sustenta permanência e decisão. (p. 314)
+
+### limite
+
+Nada disso quer dizer que desejar uma skin seja um erro, nem que toda propaganda, todo sorteio ou toda vitrine bonita seja ilegal. Vender, convencer e administrar um jogo não são abusos por si sós. O que importa aqui é outra coisa. Como o valor da skin é feito de sinais, e como quem controla os sinais é a plataforma, ela pode mexer no valor do que você comprou sem tocar no item. É isso que precisa poder ser visto, comparado e cobrado.
+
+> nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
+> O que importa para o argumento do simulacro não é a moralização do gacha (p. 299)
+> A contribuição jurídica do simulacro, portanto, não é tratar o consumo como ilusão, mas tornar nomeável o deslocamento prático do critério de adimplemento. (p. 313)
 
 ### pergunta
 
@@ -308,41 +384,69 @@ Quem ganha com o seu clique?
 
 ### resumo
 
-A loja não vende uma coisa, vende passagem.
+Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio.
 
 ### texto
 
-Volte à loja. Quem a montou também controla o jogo, as regras, as atualizações e o que aparece para os outros. A skin continua na sua conta, mas quem decide quanto ela serve, quanto ela brilha e até quando ela vale é a plataforma. E ficar custa mais do que o próximo pagamento, porque custa atenção, adaptação e dependência.
+Volte à loja e repare em quem a montou. É a mesma empresa que controla o jogo, as regras, as atualizações e o que aparece para os outros jogadores. A skin continua na sua conta, e no papel ela é sua, mas quem decide quanto ela serve, quanto ela brilha e até quando ela vale é a plataforma.
+
+Isso muda o que custa estar ali. Ficar não custa só o próximo pagamento, porque custa também atenção, adaptação, perda de equivalência quando as coisas mudam e uma dependência que não acaba. E a empresa não ganha só no momento da compra. Ganha administrando o lugar todos os dias, com raridade inventada, ciclos de atualização e mudanças de sentido que empurram você para mais uma rodada de gastos.
 
 > A plataforma opera como senhorio de infraestrutura: controla o ambiente, as regras, as atualizações e a visibilidade do que ali adquire valor. (p. 146)
 > o consumidor, embora preserve titularidade formal sobre itens vinculados à conta, permanece submetido ao poder unilateral de modular utilidade, prestígio e condições de fruição. O custo não se expressa apenas em novo pagamento, mas também em atenção, adaptação, perda de equivalência e dependência contínua do território administrado. (p. 146)
+> A renda não se extrai apenas no ato de compra, mas na gestão contínua do território digital, onde escassez artificial, ciclos de atualização e reconfiguração de signos reorganizam desejos e empurram o sujeito para novas rodadas de gasto e recomposição de status. (p. 146)
 
 ### termo Tecnofeudalismo
 
-No feudo havia senhores e servos, e na nuvem os donos da infraestrutura fazem o papel de novos senhores. Você não deixa de consumir, mas cada vez que participa ajuda a fazer crescer o mesmo poder que governa você. É por isso que se fala em servos da nuvem.
+No feudo havia senhores, que eram donos da terra, e servos, que viviam e trabalhavam nela segundo as regras do senhor. Há quem diga que hoje a terra virou nuvem. Os donos dos servidores, das plataformas e dos algoritmos fazem o papel dos novos senhores, e quem usa esses lugares vive segundo as regras deles.
+
+Você não deixa de consumir por causa disso. O ponto é que, cada vez que participa, ajuda a fazer crescer o mesmo poder que governa você. É por isso que se fala em servos da nuvem. E, no caso do jogo, o feudo nem é uma figura de linguagem, porque ele tem nome e endereço, que é a sua conta.
 
 > O autor argumenta que o sistema capitalista estaria em vias de ser substituído pelo que denomina “tecnofeudalismo”, no qual o capital deixa de se apresentar prioritariamente como propriedade material e passa a concentrar-se “na nuvem”, isto é, em ativos digitais, plataformas online e algoritmos. (p. 142)
 > O autor reintroduz uma gramática feudal para descrever o presente, na qual os proprietários do capital na nuvem figuram como novos senhores feudais, enquanto os demais retornam à condição de servos. (p. 151)
 > Daí a força da imagem feudal: consumidores e usuários tornam-se “servos da nuvem” não porque deixam de consumir, mas porque sua participação passa a reproduzir o próprio capital que os governa. (p. 146)
+> O feudo não é uma metáfora do ambiente digital. Ele é uma conta. (p. 153)
 
-### caso
+### mecanismo
 
-Olhe a moeda do jogo. Os termos admitem que a empresa pode, às vezes, mudar o que essa moeda compra, inclusive pedindo mais moedas pela mesma skin, e o mesmo contrato diz que o conteúdo guardado nos servidores dela, inclusive o da sua conta, não tem valor. Se no papel o acervo não vale nada, a inflação lá dentro passa por coisa natural, já que quem define a moeda e o valor é o mesmo que vende.
+Compare com uma compra comum. Quando você compra uma geladeira, ela vai para a sua casa e passa a existir longe do alcance de quem vendeu, pelo menos enquanto durar o que se espera de uma geladeira. A loja ganha uma vez e pronto.
 
-> O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade (Riot Games, 2024e). (p. 176)
-> O contrato nega expressamente qualquer valor atribuído a dados residentes nos servidores operados ou controlados pela Riot, incluindo Conteúdo do Jogo e Conteúdo Virtual associado à conta. (p. 176)
-> Se o acervo é juridicamente descrito como não tendo valor, a inflação interna e a perda do poder de compra passam a ser tratadas como variação natural do feudo, não como deterioração de uma posição econômica relevante para o consumidor (p. 176-177)
+Com a skin é diferente, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa.
+
+> Na economia industrial, o consumidor paga para adquirir um bem cuja existência, uma vez comprada, tende a se estabilizar fora do alcance do fornecedor, ao menos dentro de expectativas razoáveis de durabilidade e de disciplina dos vícios. (p. 210)
+> ele ingressa em um regime de acesso em que o objeto se mantém funcional apenas dentro da infraestrutura que não controla, atravessado por atualizações, balanceamentos, encerramentos de eventos, rotatividade de catálogo, reconfigurações de moeda interna e mudanças de política (p. 210)
+> A consequência é que a plataforma deixa de monetizar apenas a entrega de um bem e passa a monetizar o controle do acesso e do tempo. (p. 209)
+> vende passagem, permanência e previsibilidade em um ambiente por ela mesma governado (p. 209)
 
 ### termo Economia de pedágio
 
-Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. No jogo, esse pedágio não é cobrado uma vez só, porque a plataforma cobra pela entrada, pela pressa, pela comodidade, pela diferença, pela volta e, acima de tudo, pela proteção contra um risco que ela mesma criou.
+Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. Isso tem nome, economia de pedágio. Os serviços podem até ser úteis, mas o lucro vem principalmente do ponto de passagem que ninguém consegue evitar.
+
+No jogo, esse pedágio não é cobrado uma vez só. A plataforma cobra pela entrada, cobra pela pressa de quem quer chegar antes, cobra pela comodidade, cobra pelo que distingue você dos outros e cobra pela volta de um item que tinha saído. E, acima de tudo, cobra pela proteção contra um risco que ela mesma criou, como o medo de perder a próxima janela.
 
 > Os rentistas ganham não tanto pelos serviços que prestam, como pela obrigação de todos passarem pelas suas catracas. (p. 185)
+> Muitos serviços são úteis, ou até necessários, mas geram lucros desproporcionais relativamente ao aporte (p. 185)
 > A plataforma monetiza o acesso em camadas: cobra pelo ingresso, cobra pela aceleração, cobra pela conveniência, cobra pela diferenciação simbólica, cobra pelo retorno e, sobretudo, cobra pela mitigação do risco que ela mesma fabrica. (p. 210)
+> O pedágio não se apresenta apenas como preço de entrada. Ele reaparece como cobrança reiterada pela permanência, organizada em torno do tempo, da atenção e da previsibilidade de ciclos. (p. 210)
+
+### caso
+
+Olhe agora para a moeda do jogo, aquela que você compra com dinheiro de verdade para depois trocar por skins. Os termos de uso admitem que a empresa pode, às vezes, mudar o que essa moeda compra, inclusive pedindo mais moedas pela mesma skin. Quem define a moeda, o catálogo e o preço é a mesma empresa, e por isso ela consegue subir aos poucos os preços lá dentro sem enfrentar a concorrência de um mercado aberto.
+
+O mesmo contrato dá um passo além e diz que os dados guardados nos servidores da empresa, inclusive o conteúdo da sua conta, não têm valor nenhum. Repare no efeito. Se no papel o seu acervo não vale nada, a inflação lá dentro passa por coisa natural, e não por uma perda que você sofreu. E, como se não bastasse, o contrato tenta limitar a responsabilidade da empresa ao que você pagou nos doze meses anteriores ao problema, justamente num lugar em que o valor vem de anos de acúmulo.
+
+> O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade (Riot Games, 2024e). (p. 176)
+> o fornecedor passa a calibrar o nível geral de valores praticados, elevando gradualmente referências de preço e deslocando ancoragens de aceitabilidade sem enfrentar a disciplina típica de mercados com oferta e demanda abertas (p. 176)
+> O contrato nega expressamente qualquer valor atribuído a dados residentes nos servidores operados ou controlados pela Riot, incluindo Conteúdo do Jogo e Conteúdo Virtual associado à conta. (p. 176)
+> Se o acervo é juridicamente descrito como não tendo valor, a inflação interna e a perda do poder de compra passam a ser tratadas como variação natural do feudo, não como deterioração de uma posição econômica relevante para o consumidor (p. 176-177)
+> A cláusula de limitação prevê que a responsabilidade total pode ser limitada aos valores pagos pelo usuário nos 12 meses anteriores ao surgimento da causa (p. 177)
+> tenta rebaixar a resposta civil por perdas a um cálculo que ignora justamente o que torna o feudo eficiente, que é o acúmulo prolongado, a dependência e o custo de saída (p. 177)
 
 ### imagem
 
-Pense numa torneira pingando. Cada gota não parece nada, mas no fim do mês a conta chega. Muitas plataformas não vivem só de cobranças grandes, e sim de pequenos eventos, pequenas decisões e pequenas perdas, espalhados em escala e quase invisíveis um a um. Somados, eles pesam, enquanto cada um fica pequeno demais para valer uma briga.
+Pense numa torneira pingando. Cada gota não parece nada, mas no fim do mês a conta chega. Muitas plataformas não vivem só de cobranças grandes e visíveis. Vivem também de pequenos eventos, pequenas decisões e pequenas perdas, espalhados por milhões de pessoas e quase invisíveis um a um.
+
+Somados, eles pesam muito. Mas cada um fica pequeno demais para valer uma briga, e é aí que está o truque. O lucro vem da repetição em escala, sempre abaixo do ponto em que alguém se daria ao trabalho de reclamar ou de punir.
 
 > O motor de muitos ecossistemas digitais não é apenas a cobrança ostensiva, mas a drenagem por microeventos, microdecisões e microperdas, distribuídas em escala e diluídas a ponto de se tornarem quase invisíveis, embora cumulativamente relevantes. (p. 26)
 > no qual o lucro se realiza não por margem alta em poucas unidades, mas por escala e repetição abaixo do limiar punível (p. 26)
@@ -352,54 +456,100 @@ Pense numa torneira pingando. Cada gota não parece nada, mas no fim do mês a c
 
 ### mecanismo
 
-Como algo que se copia de graça fica raro? Por desenho. A plataforma cria janelas, rotações, níveis, eventos de temporada, passes, contagens regressivas e pacotes limitados e depois chama tudo isso de raro, exclusivo, última chance, colecionável ou edição especial. Assim, o que não era escasso passa a ser.
+Como algo que se copia de graça fica raro? Uma skin digital poderia ser vendida a todo mundo, para sempre, sem acabar. Se ela some, volta só às vezes ou vira última chance, isso não é natureza do objeto. É escolha da empresa.
 
+A plataforma cria janelas de venda, rotações de loja, níveis de raridade, eventos de temporada, passes, contagens regressivas e pacotes limitados. Depois transforma esse arranjo numa história, com palavras como raro, exclusivo, última chance, colecionável e edição especial. Assim, o que não era escasso passa a ser, por desenho.
+
+> Em objetos digitais, o custo marginal de reprodução tende a cair drasticamente e, em tese, a disponibilidade poderia expandir-se sem exigir capacidade produtiva comparável à fábrica, à logística e à extração de insumos. (p. 209)
+> não se está diante de condição natural do objeto, mas de escolha institucional deliberada, de modo que a escassez não aparece como fato, mas como projeto (p. 209)
 > A plataforma cria janelas, rotações, tiers, eventos sazonais, passes, contagens regressivas, pacotes limitados e mecanismos de aquisição condicionada. Em seguida, converte esse arranjo em narrativa, falando em “raridade”, “exclusivo”, “última chance”, “colecionável” e “edição especial”. (p. 209)
 > O não-escasso é transformado em escasso por desenho (p. 209)
 
+### caso
+
+Imagine que você pagou caro por uma skin porque ela era exclusiva, e a exclusividade fazia parte do preço. Meses depois, a mesma skin volta numa loja alternativa, numa moeda especial ou numa promoção agressiva, por bem menos. E ninguém tinha avisado você, de um jeito claro, na hora da compra, que a exclusividade tinha prazo.
+
+Nesse caso, o valor do que você recebeu foi refeito para trás, e a sua expectativa legítima foi frustrada. Isso pode ser tratado como publicidade enganosa por omissão e como descumprimento da oferta. A resposta pode incluir devolver o que foi pago, abater o preço ou compensar com algo que cumpra a mesma função, e ainda perdas e danos se houver prejuízo a mais. Não é desconforto seu, é uma perda que a lei do consumidor sabe tratar.
+
+> Se, passado um período, o mesmo item reaparece em loja alternativa, em moeda especial, em promoção agressiva ou por preço significativamente inferior, e se a limitação temporal da exclusividade não foi informada de modo adequado e compreensível no momento da aquisição, ocorre reconfiguração retroativa do valor entregue, com frustração de expectativa legítima e violação de transparência. (p. 214)
+> com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta (p. 214)
+> A consequência jurídica não se esgota em desconforto subjetivo, pois a alteração posterior do atributo que justificou o preço pode demandar recomposição material por vias típicas do consumo, por restituição, abatimento ou compensação funcional equivalente, e pode ainda abrir espaço para perdas e danos quando demonstrado prejuízo adicional decorrente do engano posicional. (p. 214)
+
 ### texto
 
-E de que risco você precisa se proteger? Não é o de a skin quebrar, mas o de ficar para trás, não pertencer, perder status, ver a skin sair de circulação e ver a imagem que você construiu lá dentro perder valor. Esse risco não é natural, porque é calibrado com temporadas, metas e missões.
+E de que risco você precisa se proteger? Não é o de a skin quebrar, como uma geladeira com defeito. É o risco de ficar para trás, de não pertencer, de perder status, de ver a skin que você queria sair de circulação e de ver a imagem que você construiu lá dentro perder valor.
 
+Esse risco não é natural, porque é calibrado pela plataforma. Ela organiza o tempo em temporadas, metas e missões, roda o catálogo, cria sistemas de progresso que exigem horas de repetição e aplica punições automáticas. As missões mostram bem o mecanismo, porque funcionam na base do faça algo e receba algo e transformam o seu tempo em moeda sem nunca chamar isso de trabalho. Ninguém obriga você a comprar, e mesmo assim a pressão está lá, feita de dependência e de medo de perder. O consumo vira administração de ansiedade.
+
+> Em ambientes de fruição contínua, o risco mais eficaz não é o risco do produto “não funcionar”, que corresponderia a uma gramática clássica de vício de qualidade por inadequação. (p. 211)
 > O risco decisivo é o risco de perda de oportunidade, o risco de ficar para trás, o risco de não pertencer, o risco de perder status, o risco de ver o objeto desejado sair de circulação e o risco de a identidade simbólica construída no ecossistema sofrer depreciação. Esse risco não é natural. (p. 211)
-> Ele é calibrado pela plataforma por meio de uma arquitetura temporal, com temporadas, splits, metas e missões. (p. 211)
+> Ele é calibrado pela plataforma por meio de uma arquitetura temporal, com temporadas, splits, metas e missões. Também é calibrado por uma arquitetura de oferta, com rotatividade, exclusões programadas e catálogos variáveis. Soma-se uma arquitetura de recompensa, com sistemas de progressão e grind, e uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas. (p. 211)
+> é o gesto típico de transformar tempo em moeda sem jamais chamá-lo de trabalho (p. 211)
+> A coerção não aparece como violência, nem como proibição direta, nem como imposição explícita de compra (p. 210)
+> O consumo, nesse registro, vira administração de ansiedade. (p. 210)
 
 ### termo Teleologia arquitetural
 
-Nada disso é acidente de marketing, e sim escolha de desenho com uma direção. A raridade inventada faz parte de uma finalidade embutida na arquitetura, que aparece no jeito como a tela organiza o que você vê, o que você calcula e o risco que você sente.
+Teleologia quer dizer finalidade, aquilo para o que uma coisa serve. Aqui, a palavra diz que nada disso é acidente de marketing. São escolhas de desenho que apontam para uma direção, que é tirar mais valor de quem está ali, e não só organizar bem algo que fosse naturalmente limitado.
 
-> Por isso, a escassez artificial deve ser compreendida como parte de uma teleologia arquitetural. (p. 214)
+Essa finalidade não fica escondida num documento secreto. Ela aparece no jeito como a tela organiza o que você vê, o que você calcula e o risco que você sente. E ganha importância para o direito quando deixa de ser só estratégia comercial e passa a esconder ou frustrar a correspondência entre o que foi prometido e o que foi entregue.
+
+> Por isso, a escassez artificial deve ser compreendida como parte de uma teleologia arquitetural. Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado (p. 214)
+> e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
 > A teleologia arquitetural não se manifesta apenas em cláusulas e políticas, mas na forma como a interface organiza visibilidade, cálculo e risco. (p. 214)
 
 ### termo Trabalho invisível
 
-E tem o trabalho que ninguém chama de trabalho. Você testa versões novas, aponta falhas, posta, comenta, faz guia, grava vídeo e transmite, e tudo isso dá visibilidade ao jogo e mantém o desejo aceso. Quem faz isso como criador de conteúdo parece autônomo, mas funciona como a face pública do próprio negócio, numa produção que aparece como participação.
+E tem o trabalho que ninguém chama de trabalho. Você testa versões novas do jogo antes de saírem, aponta falhas, manda sugestões, posta, comenta, cria memes, escreve guias, grava vídeos e faz transmissões. Tudo isso dá visibilidade ao jogo, explica o catálogo para os outros e mantém o desejo aceso.
+
+Para a empresa, isso vale muito, porque reduz o custo de testar o jogo e funciona como propaganda. Mas o contrato trata as suas ideias como algo que a empresa pode usar livremente, sem pagar nada. E quem faz isso como criador de conteúdo parece um pequeno empreendedor independente, quando na prática funciona como a face pública do próprio negócio, sob regras que a empresa pode mudar ou retirar. É produção que aparece como participação.
 
 > O usuário, aqui, não é só medido, ele é mobilizado como força de trabalho distribuída que reduz custo de controle de qualidade, amplia a superfície de detecção de bugs e alimenta a inteligência organizacional do fornecedor, produzindo uma produtividade que não aparece como trabalho, mas como participação (p. 218)
+> ao reservar para si o uso livre de ideias, sugestões e materiais criativos enviados pelo usuário, sem que isso gere contrapartida econômica, indenização ou dever de reconhecimento (p. 218)
 > gerado pelo próprio usuário, como posts, comentários, transmissões, memes, guias e avaliações, que se converte em motor de visibilidade e recomendação e funciona, na prática, como trabalho invisível de produção e de marketing do OIC (p. 219)
 > Entre as formas mais ostensivas desse trabalho invisível está o trabalho dos criadores de conteúdo, streamers e influenciadores que orbitam o ecossistema como se fossem “microempreendedores” autônomos, quando, na prática, funcionam como uma face pública intensa do exterior incorporado. (p. 219)
+> a própria possibilidade de monetizar conteúdo dependem de regras privadas, revogáveis e seletivas (p. 219)
 
 ### termo Lumpemproletariado digital
 
-Quem produz valor assim fica num lugar estranho, porque participa muito da produção, mas fora de qualquer categoria de trabalho, emprego ou prestação de serviço. Seu progresso, seu status e seu acesso dependem das decisões de outro, como os de um trabalhador, sem que o direito reconheça isso. Você é consumidor e, ao mesmo tempo, mão de obra.
+Quem produz valor assim fica num lugar estranho. Participa muito da produção, mas fora de qualquer categoria de trabalho, de emprego ou de prestação de serviço. Não tem contrato, não tem salário e não é reconhecido como alguém que trabalha.
+
+Ao mesmo tempo, o seu progresso, o seu status, a sua reputação e até o seu acesso dependem das decisões de outro, como os de um trabalhador que vive sob condições definidas pelo patrão. A palavra lumpemproletariado nomeia quem trabalha à margem, sem os direitos de quem trabalha. Aplicada aqui, ela descreve alguém que é consumidor e, ao mesmo tempo, mão de obra, sem que o direito enxergue essa segunda parte.
 
 > Desse ponto de vista, o consumidor aproxima-se de um lumpemproletariado digital: participa intensamente da produção de valor, mas o faz em um plano opaco, fora das categorias tradicionais de trabalho, contrato de emprego ou prestação de serviços. (p. 223)
 > Quando o progresso, o status, a reputação e a própria continuidade de acesso ao Objeto Imaterial de Consumo se tornam dependentes de decisões unilaterais da plataforma, o consumidor se vê em posição análoga à do trabalhador submetido a condições de vida definidas por outrem, mas sem que o direito o reconheça como tal. (p. 223)
+> O “servo da nuvem” produz sem contrato, sem salário e sem reconhecimento como trabalho. (p. 223)
 > uma forma específica de exploração do consumidor que, contextualmente, também se caracteriza como força de trabalho externa incorporada (o “consumidor-trabalhador”) (p. 143)
 
 ### termo Propriedade intelectual como cerca
 
-A lei que protege a criação também pode virar cerca. Quando ela se junta a licenças, contas, travas de cópia e catálogos, o incentivo a criar dá lugar a um bloqueio em que circular vira infração e aproveitar vira autorização. E a disputa entre empresas deixa de ser por produto melhor para ser por quem cerca mais e prende melhor.
+A propriedade intelectual é o conjunto de direitos que protege criações, como o desenho de uma skin, a música de um jogo e o código que faz tudo funcionar. Ela existe para incentivar quem cria. Mas, num jogo online, ela faz mais do que proteger a obra. Ela ajuda a empresa a definir quem pode usar o quê, por quanto tempo e em que condições.
 
-> Quando essa decisão se acopla a contratos de licença, contas, DRM, catálogos e mecanismos de autenticação, o incentivo à criação cede espaço a uma tecnologia de bloqueio, o que faz com que a circulação seja tratada como infração e a fruição se converta em autorização. Nesse contexto, a concorrência deixa de ser apenas disputa por produto e passa a ser disputa por cercamentos. (p. 234)
+Quando esses direitos se juntam a licenças, contas, travas contra cópia, catálogos e senhas, o incentivo a criar pode virar uma cerca. Circular vira infração e aproveitar vira autorização. Por isso a propriedade intelectual não aparece aqui como um detalhe de fora, e sim como uma peça da própria estrutura que fecha o jogo e o seu acervo dentro dele. E a disputa entre empresas muda, porque deixa de ser por produto melhor e passa a ser por quem cerca mais e prende melhor.
+
+> Nesse cenário, a propriedade intelectual comparece como infraestrutura de governança semiótica e técnica. Ela não apenas protege criações, mas contribui para delimitar usos, restringir reconfigurações e consolidar a autoridade do fornecedor sobre as condições de fruição (p. 130)
+> Quando essa decisão se acopla a contratos de licença, contas, DRM (p. 234)
+> catálogos e mecanismos de autenticação, o incentivo à criação cede espaço a uma tecnologia de bloqueio, o que faz com que a circulação seja tratada como infração e a fruição se converta em autorização. Nesse contexto, a concorrência deixa de ser apenas disputa por produto e passa a ser disputa por cercamentos. (p. 234)
+> É aqui que os direitos de propriedade intelectual deixam de aparecer como título jurídico periférico e passam a operar como componente material da arquitetura de fechamento. (p. 234)
 > o valor competitivo não se concentra na “qualidade” de um bem isolado, mas na capacidade de manter o consumidor preso a uma gramática proprietária de pertencimento, progresso e distinção (p. 232)
 
 ### termo Cativeiro identitário
 
-Então por que não ir embora? Porque sair custa mais do que dinheiro. Você perde o reconhecimento, a reputação e a história que construiu ali, registrada em ranques, acervos e sinais de distinção, e o pedágio deixa de ser o preço de um item para virar a taxa que mantém o seu lugar.
+Então por que não ir embora? Porque sair custa mais do que dinheiro. Ao sair, você perde o reconhecimento, a reputação e a história que construiu ali, registrada em ranques, acervos, históricos e sinais de distinção que só existem dentro daquele jogo.
+
+Essa dependência não é fraqueza sua nem coisa da sua cabeça. Ela vem do jeito como o lugar é montado, porque é a plataforma que define o que conta como valor, como pertencimento e como progresso, e que pode rebaixar ou apagar tudo isso. Com o tempo, o pedágio deixa de ser o preço de um item e vira a taxa que mantém o seu lugar. Dar nome a isso não cria um bem novo. Serve para que essa forma de perda possa ser vista e controlada.
 
 > Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema. (p. 225)
+> A dependência, nesse registro, não é psicológica no sentido individualizante, mas institucional e semiótica, porque decorre de um regime de visibilidade e de sanção que define o que conta como valor, pertença e progresso legítimo e, correlatamente, define como isso pode ser rebaixado, apagado ou desautorizado. (p. 225)
+> Em termos jurídico-consumeristas, a relevância do conceito não é criar um bem novo, mas tornar controlável uma forma específica de perda no fato do consumo (p. 225)
 > O resultado é um cativeiro identitário, no qual o pedágio se estabiliza como taxa de manutenção do lugar, não como preço pontual de um item. (p. 258)
+
+### limite
+
+Nada disso torna ilegal ter uma loja, uma moeda própria, eventos ou itens raros. Criar escassez é estratégia comercial, e a estratégia, sozinha, não é ilícita. Ela passa a importar para o direito quando esconde ou frustra a correspondência entre o que foi prometido e o que foi entregue, como no caso da exclusividade que tinha prazo e ninguém avisou.
+
+> e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
+> nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
 
 ### pergunta
 
@@ -413,18 +563,27 @@ Quem manda depois da compra?
 
 ### resumo
 
-A regra que vale é a que está rodando.
+A regra que vale não é só a que está escrita, é a que está rodando.
 
 ### texto
 
-Você aceitou os termos, mas as regras que pesam no seu dia a dia quase nunca estão só ali. Elas estão na tela que mostra um caminho e esconde outro, no chat que é cortado e na punição que chega. O texto promete e o sistema executa, e quem aplica a punição é quem escreveu a regra.
+Quando criou a conta, você aceitou os termos de uso. Parece que as regras do jogo estão todas ali, naquele texto comprido. Mas as regras que pesam no seu dia a dia quase nunca estão só no papel.
 
+Elas estão na tela que mostra um caminho e esconde outro, no chat que é cortado no meio da partida e na punição que chega sem aviso. O texto promete e o sistema executa. E quem aplica a punição é a mesma empresa que escreveu a regra, desenhou a tela e guarda os registros do que aconteceu. Por isso, quando há um conflito, ele raramente é só sobre o que diz uma cláusula. É sobre quem governa o que é possível fazer lá dentro.
+
+> Essa normatividade não se limita às cláusulas contratuais que regem a relação no plano formal, uma vez que se materializa em desenho de interface, padrões de escolha, fricções seletivas e mecanismos de enforcement (p. 27)
 > o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
 > núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
 
 ### mecanismo
 
-A regra da plataforma funciona em três camadas. Primeiro vem o texto, com termos, políticas e regras de conduta. Depois vem o desenho, que transforma o texto em telas, fluxos e limites técnicos e decide o que é possível antes de qualquer discussão. Por último vem a aplicação, que gradua punições, corta visibilidade, suspende funções e, no extremo, expulsa. Uma regra só pesa de verdade quando atravessa as três.
+A regra da plataforma funciona em três camadas, uma por cima da outra.
+
+A primeira é o texto. São os termos de uso, as políticas de conduta, as regras de moderação e os critérios para participar. Ali estão as permissões, as proibições e o que se espera de você.
+
+A segunda é o desenho. É quando o texto vira tela, botão, caminho, limite de acesso e critério de visibilidade. Nessa camada, a regra deixa de ser uma frase e passa a decidir o que é possível antes de qualquer discussão. Se a tela não tem o botão, não adianta o contrato permitir.
+
+A terceira é a aplicação. São os mecanismos que graduam punições, restringem funções, diminuem a sua visibilidade, suspendem a conta e, no extremo, expulsam você. Uma regra só pesa de verdade quando atravessa as três camadas, porque só então ela muda o que você pode fazer e o que acontece com você.
 
 > A primeira é o texto normativo interno, formado por termos de serviço, políticas de conduta, regras de moderação e critérios declarados de participação (p. 364)
 > A segunda é a camada de arquitetura e implementação, na qual tais enunciados deixam de ser simples declarações e se convertem em configuração de possibilidades por meio de interface, fluxos, padrões de acesso, parâmetros de visibilidade e restrições técnicas que delimitam o intervalo do possível antes de qualquer disputa interpretativa. (p. 365)
@@ -433,85 +592,137 @@ A regra da plataforma funciona em três camadas. Primeiro vem o texto, com termo
 
 ### nome lex-plataformae
 
-É a lei da plataforma, que não é um contrato parado na gaveta, mas uma ordem que roda como programa, mira resultado econômico e parece natural de tanto ser repetida. Ela define as regras, o que é visto, as punições e até o jeito de provar alguma coisa lá dentro.
+O nome em latim quer dizer, ao pé da letra, a lei da plataforma. Não é um contrato parado na gaveta. É uma ordem que roda como programa, que mira um resultado econômico e que parece natural de tanto ser repetida.
 
+Ela define as regras, decide o que é visto e o que fica escondido, aplica as punições e até estabelece como se prova alguma coisa lá dentro. E não só anuncia as regras. Ela classifica, registra, recomenda, bloqueia, restringe e muda o próprio ambiente em que você tenta usar o que comprou.
+
+O nome vem de outra expressão antiga, a lei dos mercadores, que designava as regras que os comerciantes criavam entre si, sem depender de lei de nenhum país. A diferença é que aqui o centro não é a prática de muitos comerciantes. É uma empresa só, que controla a porta de entrada, o jeito como você entende o que acontece e as condições em que você pode usar o que é seu.
+
+> A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma” (p. 27)
 > A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
 > designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas. (p. 27)
+> Ela não apenas interpreta comportamentos, mas classifica, registra, prioriza, invisibiliza, recomenda, bloqueia, expulsa, restringe, monetiza e reconfigura o próprio ambiente em que o usuário tenta exercer a fruição do objeto adquirido. (p. 27)
+> especialmente a Lex Mercatoria, expressão usada para designar um corpo a-nacional de regras e princípios associado à prática do comércio internacional (p. 27)
+> designa uma ordem privada cujo centro não é apenas a circulação mercantil entre atores, mas o controle da infraestrutura de acesso, da inteligibilidade da experiência e das condições concretas de exercício da posição do usuário (p. 28)
+
+### texto
+
+Repare numa coisa que essa lei faz bem, que é parecer costume. Uma prática que se repete muitas vezes passa a parecer normal, como se todo mundo tivesse concordado com ela. Só que, numa plataforma, a repetição pode ser só o efeito de um desenho que uma empresa escolheu sozinha e que você não tinha como recusar.
+
+Por isso, o fato de algo sempre ter sido assim no jogo não prova que seja legítimo. Muitas vezes, o que parece hábito do mercado já é produto de uma escolha unilateral, que se firmou porque ninguém tinha alternativa.
+
+> Na plataforma, a repetição de práticas e soluções não deve ser lida ingenuamente como sinal suficiente de legitimidade normativa. Muitas vezes, aquilo que se apresenta como hábito do mercado ou costume do ecossistema já é produto de desenho unilateral, de assimetria informacional estrutural e de naturalização de escolhas previamente filtradas pela própria arquitetura. (p. 28)
+> A crítica é relevante porque impede romantizar, sob a linguagem do costume, o que em verdade pode corresponder à estabilização técnica de imposições privadas. (p. 28)
 
 ### caso
 
-Veja um sistema de reputação, em que a conduta vira nota. Num jogo, quem se comporta bem ganha benefícios, enquanto quem é punido perde o chat, trava o progresso e fica sem certas recompensas até provar que mudou. A punição não passa por tribunal nenhum, porque está no próprio sistema e mexe no que você pode fazer e ganhar.
+Veja como funciona um sistema de reputação, em que o seu comportamento vira nota. Num jogo online, a empresa criou um sistema de Honra. Quem se comporta de forma esportiva ganha benefícios, e quem se comporta mal recebe menos recompensas e perde parte do direito de falar no chat.
+
+Quando você é punido, com suspensão temporária ou corte do chat, a sua nota cai, o seu progresso trava e a conta fica sem certas recompensas até você mostrar, de forma consistente, que mudou. E a empresa diz que a nota reflete o comportamento dentro e fora do jogo. Nada disso passa por tribunal nenhum. A punição está embutida no próprio sistema e mexe no que você pode fazer, ganhar e mostrar.
 
 > Em documentação oficial, a Riot apresenta a Honra como sistema que recompensa conduta esportiva com benefícios adicionais e penaliza comportamentos inadequados com recompensas reduzidas e privilégios de comunicação limitados (p. 343)
 > Em paralelo, a empresa afirma que penalidades como suspensão temporária e restrições de chat derrubam o nível de Honra, travam o progresso no sistema e tornam a conta inelegível para recompensas vinculadas ao regime de Hextech Crafting até que haja demonstração consistente de “reforma” comportamental (p. 343)
+> O suporte oficial descreve a Honra como reflexo geral do comportamento “dentro e fora de jogo” (p. 355)
+
+### texto
+
+Isso não quer dizer que a empresa sabote os jogadores de propósito, e ninguém precisa provar isso. O ponto é mais simples. A empresa monta o jogo, mede as partidas, controla os canais de conversa e define os critérios de punição, mas não mostra a você como esses critérios funcionam na mesma medida em que aplica os efeitos deles.
+
+Por isso, num conflito, a pergunta não é só se você quebrou uma regra. É também se os critérios usados para dizer que você quebrou, e para punir, são legítimos.
+
+> O ponto, portanto, não está em sustentar, sem prova interna, uma tese maximalista de sabotagem deliberada, mas em reconhecer que a empresa governa um ambiente competitivo estruturalmente opaco, probabilístico e administrado por critérios internos cuja inteligibilidade aprofundada não é compartilhada com o consumidor na mesma medida em que seus efeitos lhe são impostos. (p. 343)
+> Nessa chave, a questão central deixa de ser saber apenas se o usuário infringiu uma regra e passa a incluir a legitimidade dos próprios critérios pelos quais o desvio é produzido, lido e punido. (p. 343)
 
 ### termo Arquitetura de escolha
 
-Ninguém proíbe você de nada. O caminho esperado só fica mais fácil, mais premiado e mais visível, enquanto o outro fica mais caro, mais frustrante e mais escondido. Escolher, lá dentro, é andar por trilhas que alguém desenhou.
+Ninguém proíbe você de nada. O caminho que a empresa quer que você siga só fica mais fácil, mais premiado e mais visível, enquanto o outro fica mais caro, mais frustrante e mais escondido.
+
+É como um supermercado que coloca o doce na altura dos olhos e o legume no fundo da loja. Você continua livre para escolher, mas escolhe dentro de um percurso que alguém desenhou. No jogo, isso vai além das opções que aparecem na tela, porque inclui as consequências que tornam um caminho recompensado e o outro penoso.
 
 > arquitetura de escolha não se resume à apresentação de opções, porque envolve também a administração das consequências que tornam certas trajetórias mais fluidas, recompensadas e legíveis, enquanto outras se tornam mais custosas, frustrantes ou marginais (p. 337)
+> A dominação informacional, assim, não incide apenas sobre o que o consumidor sabe, mas sobre a própria economia prática de suas possibilidades de agir. (p. 337)
 
 ### termo Poder informacional
 
-Esse poder não precisa de polícia. Ele cria dependência, molda condutas e faz certos jeitos de participar parecerem normais, com meios técnicos que vão muito além do contrato. E quanto mais simples a tela, mais difícil fica enxergar a complexidade que decide por trás dela.
+Esse poder não precisa de polícia. Ele cria dependência, molda o seu comportamento e faz certos jeitos de participar parecerem normais. E usa meios técnicos que vão muito além do contrato.
+
+Há um detalhe que torna tudo mais difícil de ver. Quanto mais simples a tela, mais escondida fica a complexidade que decide por trás dela. Você vê um botão limpo e uma cor amigável, e não vê os cálculos e os julgamentos que estão rodando.
 
 > Cohen é mobilizada para descrever a plataforma como forma de poder organizador que produz dependências, estrutura condutas e naturaliza padrões de participação por meios técnicos e institucionais que não se esgotam no contrato. (p. 262)
 > Isso se torna mais agudo quando os sistemas exibem simplicidade na superfície e complexidade no funcionamento interno, o que dificulta traduzir julgamentos subjacentes para formas adequadas à compreensão pública (p. 340)
 
 ### termo Normatividade prática
 
-O que se chama de condição de uso ou de regra interna pode funcionar como ordem de verdade, imposta por quem tem poder sobre o lugar. E o mercado não é uma coisa da natureza, é a ordem que ele mesmo instaura.
+Uma regra não precisa vir do Congresso para funcionar como regra. O que a empresa chama de condição de uso ou de regra interna pode funcionar como ordem de verdade, imposta por quem tem poder sobre o lugar. Ela organiza acessos, permanência e punições e produz efeitos sobre muita gente ao mesmo tempo.
+
+Por isso não basta dizer que tudo é só liberdade de contratar. E o mercado não é uma coisa da natureza que funciona sozinho, porque é a ordem que ele mesmo instaura.
 
 > Eros Roberto Grau contribui para reconhecer que a normatividade pode operar como ordem efetiva imposta por organização dotada de poder, permitindo qualificar como governança prática aquilo que se apresenta como “condição de uso” ou “regra interna” (p. 263)
+> pois organizam acessos, permanência e sanções com capacidade concreta de impor padrões e produzir efeitos coletivos, sem neutralizar o fenômeno como simples exercício formal de autonomia contratual (p. 364)
 > a advertência de que “prevalece a ordem jurídica do mercado”, entendida não como algo que o mercado seja ontologicamente, mas como “a ordem que ele instaura” (p. 378)
 
 ### termo Psicopolítica
 
-O ranque não manda você jogar mais, é você que quer subir. Como o cálculo que mede você é secreto e o que aparece é só a posição, você corre atrás de um critério que não vê, e o lazer vira autoexploração. E não basta fazer mais, porque é preciso ser do jeito certo para continuar tendo direito a tudo.
+O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que dê para acompanhar. O que você vê é a posição, e o cálculo fica escondido.
+
+Então você corre atrás de um critério que não enxerga, por vontade própria, e o lazer vira autoexploração. Ninguém precisa ameaçar você, porque o próprio medo de cair faz você investir mais tempo e mais atenção. E não basta fazer mais. É preciso também ser do jeito certo, comportado e bem avaliado, para continuar tendo direito à experiência inteira.
 
 > Ao explicar o sistema, o suporte oficial afirma que o MMR é secreto e que o ranque existe como mecanismo para traduzir esse MMR em uma forma acessível e progressiva para o jogador (p. 354)
 > A liberdade do jogador se organiza como busca voluntária por adequação ao critério que o mede, mesmo quando o critério é opaco (p. 354)
 > Por isso, a escalada ranqueada tende a transformar o lazer em regime de autoexploração racional. (p. 354)
+> A disciplina, aqui, não se apresenta como proibição, mas como convocação permanente a investir tempo, atenção e desempenho para não perder comensurabilidade pública no ambiente. (p. 354)
 > a psicopolítica não se manifesta apenas como incentivo para “fazer mais”, mas também como indução para “ser do jeito certo” se o objetivo for permanecer elegível à experiência plena do ecossistema (p. 355)
 
 ### caso
 
-A lei da plataforma pode ir além da tela. Para proteger a competição, um jogo passou a exigir um programa antitrapaça que roda na camada mais profunda do sistema operacional, liga junto com o computador e pode impedir o jogo se for desligado, e os termos admitem monitorar o uso no seu próprio aparelho. Assim a regra deixa de valer só durante a partida e passa a alcançar a sua máquina.
+A lei da plataforma pode ir além da tela e chegar ao seu computador. Para proteger a competição contra trapaças, um jogo passou a exigir um programa antitrapaça que roda na camada mais profunda do sistema operacional, a mesma que controla o funcionamento da máquina. Esse programa liga junto com o computador, antes mesmo de você abrir o jogo, e pode impedir que você jogue se for desligado ou removido.
+
+Os termos de uso ainda admitem que a empresa monitore o uso dos serviços no seu próprio aparelho, e não só nos servidores dela. O problema aqui vai além do incômodo com um programa invasivo. A regra deixa de valer só durante a partida e passa a redesenhar até onde você manda no seu próprio equipamento.
 
 > Quando a proteção do ambiente concorrencial do OIC passa a depender de software carregado em nível de kernel, isto é, na camada mais profunda e privilegiada do sistema operacional (p. 521)
 > o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo, com possibilidade de impedir o uso do serviço caso seja desativado ou removido (p. 521)
 > A Riot admite contratualmente a possibilidade de monitorar ativamente o uso de seus serviços não apenas em seus próprios servidores, mas também no computador ou dispositivo do consumidor (p. 521)
-> O que está em jogo é a redefinição das fronteiras materiais de soberania do usuário sobre seu próprio equipamento. (p. 521)
+> Esse dado desloca o problema jurídico para além da irritação intuitiva com software “intrusivo”. O que está em jogo é a redefinição das fronteiras materiais de soberania do usuário sobre seu próprio equipamento. (p. 521)
 
 ### termo Consumidor-cidadão
 
-Então você não é só cliente, porque sua presença lá dentro depende de regras de pertencimento e de continuidade que outro fixa. Você é cidadão num sentido preciso, não de um país, mas de um ambiente governado por regras, desenho e punições.
+Então você não é só cliente. É consumidor, porque comprou e tem uma expectativa legítima de usar o que comprou. Mas a sua presença lá dentro depende de regras de pertencimento e de continuidade que outro fixa, e de punições que mudam a sua posição.
+
+Por isso se diz que você também é cidadão, num sentido bem preciso. Não cidadão de um país, com nacionalidade e Constituição, e sim participante de um ambiente governado por regras, desenho e punições. Quando a empresa muda essas condições sozinha, ela muda, na prática, aquilo que você está usando.
 
 > Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem transferido. (p. 379)
+> É consumidor porque existe aquisição e expectativa legítima de fruição. (p. 379)
 > sentido analítico de que sua presença no ambiente depende de condições de pertencimento e continuidade fixadas por governança privada (p. 380)
-> A cidadania aqui não diz respeito a nacionalidade, soberania ou estatuto constitucional clássico. (p. 380)
+> A cidadania aqui não diz respeito a nacionalidade, soberania ou estatuto constitucional clássico. Ela designa condições práticas de participação e permanência em um ambiente governado por regras internas, arquitetura e enforcement, no qual a alteração unilateral dessas condições reconfigura, na prática, o próprio objeto fruído. (p. 380)
 
 ### termo Cidadania digital
 
-Cidadania digital, aqui, não é cartilha de bom comportamento, e sim uma lente para ver o que pode ser governado no ambiente conectado sem jogar a culpa no usuário.
+Cidadania digital, aqui, não é uma cartilha de bom comportamento na internet. É uma lente para enxergar o que pode ser governado num ambiente conectado, como o acesso, a comunicação, o comércio e a segurança, sem transformar todo problema em culpa de quem usa.
 
 > Para delimitar o que está em jogo sem inflar o argumento, mobiliza-se o conceito de cidadania digital como parâmetro, e não como cartilha. (p. 380)
 > Sua formulação permite tratar cidadania digital como grade operacional do que pode ser governado no ambiente conectado, sem transformar a discussão em culpa do usuário. (p. 380)
+> acesso digital (digital access), comércio digital (digital commerce), comunicação digital (digital communication) (p. 380)
 
 ### termo Categorias que acompanham a técnica
 
-Isso já aconteceu antes. Invenções e negócios novos criaram formas novas de intrusão, e o direito preso a esquemas antigos não conseguia alcançá-las, até que se defendeu um direito à privacidade, o direito de ser deixado em paz. Ajustar as categorias, nesses casos, não é moralismo, é manter o poder novo sob controle.
+Isso já aconteceu antes. No fim do século dezenove, a fotografia instantânea e os jornais em expansão passaram a invadir a vida das pessoas de um jeito que o direito antigo não alcançava. Foi aí que se defendeu um direito à privacidade, o direito de ser deixado em paz.
+
+Ajustar as categorias do direito, nesses casos, não é moralismo nem implicância com a tecnologia. É manter sob controle os efeitos de formas novas de poder e de intrusão, quando a técnica muda a escala em que as pessoas ficam vulneráveis.
 
 > Warren e Brandeis ([201-?]) sustentam que invenções recentes e práticas empresariais em expansão intensificaram formas de intrusão que o ordenamento, se permanecer preso a esquemas anteriores, não consegue capturar adequadamente. (p. 347)
 > os autores defendem o reconhecimento de um direito à privacidade enquanto legítimo direito de ser deixado em paz (p. 347-348)
 > Quando o ambiente técnico reorganiza a vulnerabilidade em escala, a reconstrução jurídica não é moralismo, mas resposta necessária para manter controláveis, em termos institucionais, os efeitos de novas formas de poder e de intrusão. (p. 348)
 
-### texto
+### limite
 
-A plataforma não vira Estado por isso, nem fica acima da lei do país. A pergunta é outra. Se o conflito deixou de ser sobre cláusulas e passou a ser sobre quem governa o possível, quem confere esse governo?
+A plataforma não vira um Estado por isso, nem fica acima da lei do país. A lei da plataforma não substitui as leis brasileiras. Ela é uma camada de regras privadas que fica entre você e o que você comprou, e que o direito não pode tratar como simples cenário técnico. Também não se trata de levar qualquer briga de jogo para a Constituição.
 
-> A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público. (p. 28)
+O que se pede é proporcional ao poder que a empresa exerce. Transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos que dê para conferir, um caminho real para contestar e a recomposição do que foi perdido.
+
+> A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público. Ela designa, antes, a camada normativa privada que se interpõe entre o sujeito e a fruição, organizando a experiência concreta do consumo por meios que o Direito não pode tratar como simples pano de fundo tecnológico. (p. 28)
 > Isso não implica equiparar plataforma a Estado nem constitucionalizar toda disputa privada (p. 348)
+> Essa caracterização bloqueia a constitucionalização genérica do litígio e evita o salto estatizante. (p. 380)
+> Por isso, impõem-se parâmetros proporcionais de transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição. (p. 364)
 
 ### pergunta
 
