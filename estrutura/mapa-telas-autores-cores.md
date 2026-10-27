@@ -132,37 +132,42 @@ Como fica na tela.
 
 A lista de referências da tese tem 301 entradas.
 
-- **117 entradas de pessoas,** com 91 primeiros autores diferentes.
+- **117 entradas de pessoas,** com 91 primeiros autores na contagem automática. Um deles não é pessoa. A entrada CRASHS começa pelo título de uma discussão de fórum, e por isso são 90 pessoas.
 - **184 entradas de instituições e fontes do laboratório.**
   - 99 são da Riot Games.
   - 14 são da League of Legends Wiki.
   - 11 são legislação.
   - As demais são comunidade, imprensa e empresas.
-- **802 citações formais de autores pessoas no corpo da tese,** pelo padrão sobrenome e ano.
-- **23 obras da lista nunca aparecem pelo nome no texto.** A maior parte é imprensa e comunidade usadas como evidência do laboratório, além de Durkheim, Varian, Doctorow, Grinover, Pasqualotto e Mittica. Para o expert, isso importa.
+- **1.924 citações formais de autores pessoas,** pelo padrão sobrenome e ano. São 802 no corpo do texto e 1.122 nas notas de rodapé. A primeira contagem leu só o corpo e deixou as notas de fora, e o autor apontou o erro com Durkheim, que está no rodapé.
+- **A maior parte do diálogo com os autores está nas notas.** Isso pesa na escolha das citações para os balões, porque muito do que explica um conceito mora no rodapé.
+- **17 autores aparecem só nas notas.** Durkheim, Varian, Doctorow, Pasqualotto e Mittica, além de doze fontes de imprensa e comunidade do laboratório.
+- **Seis entradas da lista não aparecem pelo nome nem no texto nem nas notas.**
+  - Quatro são matérias de imprensa sobre as skins Gun Goddess Miss Fortune e Pulsefire Ezreal (Asarch, Augustine, Dedmon e Lee).
+  - Uma é a dissertação de Rosalem.
+  - A sexta é o volume coletivo organizado por Grinover, que a tese cita pelos capítulos, com Benjamin, Denari, Filomeno e Nery Jr.
+- **Uma grafia diverge.** A tese cita "Allen apud Vicent, 2018" na nota 27 do 2.6 (p. 76), e a lista de referências grafa VINCENT.
+- O levantamento está em `estrutura/inventario-autores.json`, com corpo e notas separados por autor e por seção.
 
-## Agrupamento provisório por área
+## Áreas dos autores
 
-Proposta minha, a partir do que a tese diz de cada autor nas aberturas dos capítulos 3 e 4 e da lista de áreas da p. 46. A decisão é do autor.
+Decisão do autor de 27/10/2026. O agrupamento proposto fica como estava, com as confirmações abaixo.
 
-| Área | Autores | Citações | Principais |
-|---|---|---|---|
-| Direito | 49 | 441 | Marques 66, Cohen 34, Ferraz Jr. 32, Miragem 29, Barbosa 25, Benjamin 22, Brandeis 19, Bessa 18, Nunes 18, Grau 17 |
-| Economia política | 4 | 107 | Dowbor 85, Varoufakis 18, Marx 4 |
-| Técnica e mídia | 5 | 105 | Ellul 29, Feenberg 29, Vanderburg 26, Postman 21 |
-| Semiótica e linguagem | 5 | 97 | Eco 42, Debord 25, Baudrillard 22, Warat 6, Gnerre 2 |
-| Poder e subjetividade | 4 | 28 | Han 13, Ribble 9, Lesnovski 3, Jalovaara 3 |
-| Antropologia do consumo | 6 | 22 | Douglas 9, Appadurai 4, McCracken 4, Kopytoff 3, Helal 2 |
-| Imprensa e comunidade, do laboratório | 18 | 2 | Evidência do objeto, não instrumento |
+| Área | Autores | Citações | No corpo | Nas notas | Principais |
+|---|---|---|---|---|---|
+| Direito | 49 | 1.160 | 441 | 719 | Marques 201, Barbosa 93, Miragem 76, Benjamin 73, Bessa 68, Ferraz Jr. 51, Cohen 40, Brandeis 36, Canavez 34, Nunes 33 |
+| Economia política | 4 | 337 | 107 | 230 | Dowbor 181, Varoufakis 126, Marx 16, Varian 14 |
+| Técnica e mídia | 5 | 156 | 105 | 51 | Feenberg 59, Ellul 41, Vanderburg 28, Postman 27, Doctorow 1 |
+| Semiótica e linguagem | 5 | 154 | 97 | 57 | Eco 53, Debord 43, Baudrillard 28, Warat 22, Gnerre 8 |
+| Antropologia do consumo | 6 | 51 | 22 | 29 | Douglas 14, Durkheim 10, Appadurai 9, Kopytoff 8, McCracken 8, Helal 2 |
+| Poder e subjetividade | 4 | 39 | 28 | 11 | Han 17, Ribble 10, Lesnovski 7, Jalovaara 5 |
+| Imprensa e comunidade, do laboratório | 18 | 27 | 2 | 25 | Evidência do objeto, não instrumento |
 
-Os casos que pedem decisão.
+Os casos decididos.
 
-- **Cohen.** É jurista, mas a tese a usa como teoria do poder informacional. Direito ou Poder e subjetividade?
-- **Warat e Gnerre.** Warat é jurista e Gnerre é linguista. A tese os usa pela diferença de linguagens. Pus os dois em Semiótica e linguagem.
-- **Warren e Brandeis.** São juristas, usados como matriz metodológica. Pus em Direito.
-- **Grau.** É jurista, usado como teoria da normatividade privada. Pus em Direito.
-- **Han.** A tese o usa pela psicopolítica. Pus em Poder e subjetividade, com cidadania digital e arquitetura de escolha.
-- **Eco.** Aparece duas vezes, na semiótica e no método. Pela regra da área por função, cada citação levaria a cor da sua função.
+- **Cohen, Warren, Brandeis e Grau ficam no Direito.**
+- **Warat e Gnerre ficam em Semiótica e linguagem.**
+- **Eco fica com a cor da semiótica,** inclusive quando a tese o usa no método.
+- **Han fica em Poder e subjetividade,** como proposto.
 
 ## O que os termos do percurso são de fato
 
@@ -177,7 +182,7 @@ A classificação de gamificação e de economia da atenção é a mais incerta.
 
 # 6. Estruturas que ainda não existem
 
-1. **Áreas.** Um arquivo com a lista de áreas, a cor de cada uma e o lugar de cada autor. Decisão do autor.
+1. **Áreas.** Um arquivo com a lista de áreas, a cor de cada uma e o lugar de cada autor. O lugar de cada autor foi decidido em 27/10/2026. As cores ainda não.
 2. **Referências.** Uma seção que imita a lista da tese, com as 301 entradas na ordem e na forma da ABNT, cada uma com o tipo, a área, as seções e páginas em que aparece e os conceitos que sustenta.
    - A lista da tese de 2026 fica intocada como base.
    - O que o site integrar depois entra numa parte própria de ampliações, com data e marca de acréscimo posterior, como manda a regra do projeto.
@@ -228,7 +233,7 @@ Não é decisão. É o ponto de partida que o autor pediu, com a justificativa d
 
 # 9. Decisões que o mapa pede ao autor
 
-1. A lista de áreas e o lugar de cada autor, com atenção a Cohen, Warat, Gnerre, Warren e Brandeis, Grau e Han.
+1. Decidido em 27/10/2026. As áreas e o lugar de cada autor ficam como na seção 5.
 2. Se os dez conceitos derivados ganham estatuto próprio ao lado dos nove.
 3. Se a tese fica na família do vermelho ou ganha cor própria.
 4. Se as três telas correspondem às três camadas de informação do 2.4.
@@ -239,4 +244,4 @@ Não é decisão. É o ponto de partida que o autor pediu, com a justificativa d
 9. Os títulos por situação para os blocos do Roteiro na tela do técnico.
 10. Onde fica o acesso discreto ao texto integral nas telas do leigo e do técnico.
 11. Se os dispositivos citados sem transcrição entram com o texto oficial, datado e marcado como acréscimo, ou ficam de fora até a palavra do autor.
-12. Quais citações de autores entram nos balões. O levantamento automático já tem as 802 citações formais por autor e seção e pode virar a lista de trabalho.
+12. Quais citações de autores entram nos balões. O levantamento automático já tem as 1.924 citações formais por autor e seção, no corpo e nas notas, e pode virar a lista de trabalho.
