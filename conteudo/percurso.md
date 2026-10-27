@@ -538,8 +538,9 @@ Isso está previsto. Os termos dizem que a empresa pode alterar, atualizar, susp
 
 ### caso
 
-Veja uma sequência real. Uma personagem chegou ao jogo junto com uma série de animação, em data marcada. Durante um ano, a força dela ficou no centro das discussões e recebeu intervenções seguidas. No fim do ano, ela ganhou uma janela de prestígio ligada a um cosmético raro, com data de abertura anunciada. No começo do ano seguinte, uma atualização trocou o mecanismo central que a protegia por um escudo e tirou dela a imunidade a dano. Ninguém precisa adivinhar a intenção de quem decidiu. A sequência basta para ver que o equilíbrio do jogo também regula quem fica no centro e quanto vale, no mesmo compasso dos ciclos de prestígio.
+Veja uma sequência real. Uma personagem chegou ao jogo ligada ao universo de uma série de animação, em data marcada. Durante um ano, a força dela ficou no centro das discussões e recebeu intervenções seguidas. No fim do ano, ela ganhou uma janela de prestígio ligada a um cosmético raro, com data de abertura anunciada. No começo do ano seguinte, uma atualização trocou o mecanismo central que a protegia por um escudo e tirou dela a imunidade a dano. Ninguém precisa adivinhar a intenção de quem decidiu. A sequência basta para ver que o equilíbrio do jogo também regula quem fica no centro e quanto vale, no mesmo compasso dos ciclos de prestígio.
 
+> A introdução oficial da personagem foi apresentada como marco narrativo e temporal associado ao universo de Arcane, com data de disponibilização institucionalmente fixada (p. 131-132)
 > O episódio envolvendo a campeã Mel permite observar, com maior nitidez, como a racionalidade técnica do balanceamento pode operar acoplada à economia simbólica do ecossistema, sem que seja necessário atribuir intenção subjetiva ao decisor. (p. 131)
 > sua força e o tipo de interação defensiva que seu kit permitia passaram a ser objeto recorrente de avaliação pública e de intervenção técnica (p. 132)
 > já no ciclo de fim de ano, essa centralidade se conectou a uma janela de prestígio vinculada a conteúdo cosmético raro, com data de abertura publicamente registrada (p. 132)
@@ -833,7 +834,7 @@ Se o seu caso é só um sintoma, consertar o seu caso não basta. Quando o mesmo
 
 ### termo Consumidor equiparado
 
-E quem não comprou nada, mas depende do mesmo ambiente? O vendedor que só alcança clientes pela loja da plataforma, por exemplo. A lei permite proteger quem fica exposto às práticas comerciais e ao governo da plataforma em situação de vulnerabilidade. Não é todo participante. É quem está exposto de verdade.
+E quem não comprou nada, mas depende do mesmo ambiente? O vendedor que depende da loja da plataforma, por exemplo. A lei permite proteger quem fica exposto às práticas comerciais e ao governo da plataforma em situação de vulnerabilidade. Não é todo participante. É quem está exposto de verdade.
 
 > o regime se mostra plenamente pertinente quando o objeto imaterial em questão é o feixe de fruição em posição sustentada explorado como produto no mercado B2B pela detentora e oferecido, por via da plataforma marketplace, ao seller (vendedor) (p. 434)
 > encontra-se exposto às práticas comerciais, aos métodos de fornecimento e aos mecanismos de governança privada do ambiente em condição de vulnerabilidade juridicamente relevante (p. 779)
