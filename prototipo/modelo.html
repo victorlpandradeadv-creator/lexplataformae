@@ -325,7 +325,7 @@
       '<section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">' +
         '<div class="campo-topo">' +
           '<h2 class="campo-nome" id="eixo-nome"><a href="#oic">' + esc(oic.nome) + '</a></h2>' +
-          (gemeo ? '<p class="campo-gemeo"><span class="gemeos-sinal">gêmeos</span> <a href="#' + gemeo.id + '">' + esc(gemeo.nome) + '</a></p>' : '') +
+          (gemeo ? '<p class="campo-gemeo"><span class="gemeos-sinal">enquanto</span> <a href="#' + gemeo.id + '">' + esc(gemeo.nome) + '</a></p>' : '') +
           '<p class="campo-def">“' + esc(oicDef.texto) + '”' + pg(oicDef.ref) + '</p>' +
           (notaTexto ? '<div class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor · 26/10/2026</p><p>' + esc(notaTexto) + '</p></div>' : '') +
         '</div>' +
@@ -382,7 +382,7 @@
       li.removeAttribute('data-arq');
       var nomeHtml = '<a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>';
       if (passo.par && porId[passo.par]) {
-        var dica = passo.par_rotulo === 'gêmeos' ? 'Gêmeos por decisão do autor' : 'A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7';
+        var dica = passo.par_rotulo === 'enquanto' ? 'O resumo da tese propõe o OIC enquanto feixe de fruição governada' : 'A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7';
         nomeHtml = '<span class="gemeos"><a href="#' + conceito.id + '">' + esc(conceito.nome) + '</a>' +
           '<span class="gemeos-sinal" title="' + esc(dica) + '">' + esc(passo.par_rotulo) + '</span>' +
           '<a href="#' + passo.par + '">' + esc(porId[passo.par].nome) + '</a></span>';
@@ -451,7 +451,7 @@
       : c.tipo === 'bens' ? 'Bens protegidos · fora do Atlas'
       : c.eixo ? 'Conceito · eixo de integração dos demais' : 'Conceito';
     var selos = '<span class="selo" data-arq="rascunho · aguarda a aprovação do autor">Rascunho v0.3 · aguarda o autor</span>';
-    if (c.par) selos += '<a class="selo gemeo" href="#' + c.par.id + '">' + (c.par.rotulo === 'gêmeos' ? 'Gêmeo de ' : 'Em par com ') + esc(nomeDe(c.par.id)) + '</a>';
+    if (c.par) selos += '<a class="selo gemeo" href="#' + c.par.id + '">' + 'Em par com ' + esc(nomeDe(c.par.id)) + '</a>';
 
     c.campos.forEach(function (f) {
       var r = f.rotulo;

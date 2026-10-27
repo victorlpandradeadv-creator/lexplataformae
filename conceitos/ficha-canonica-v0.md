@@ -283,7 +283,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 ## Conceito. Feixe de fruição governada
 
-**Função no regime.** Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
+**Função no regime.** Aparece sempre ao lado do OIC. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da "definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo" (p. 394).
 
 **Sob o OIC**
 

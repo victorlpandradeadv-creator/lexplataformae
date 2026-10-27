@@ -40,10 +40,10 @@ SLUGS = {
 EIXO = "oic"
 
 # Pares que aparecem colados nos percursos.
-# OIC e feixe são gêmeos por decisão do autor em 26/10/2026.
+# OIC e feixe aparecem lado a lado. O resumo da tese propõe o OIC "enquanto feixe de fruição governada".
 # Teleologia abusiva e ilícito de arquitetura andam juntos em todos os títulos da tese (5.1.3, 6.4, 7.1.1.7).
 PARES = {
-    "oic": ("feixe-de-fruicao-governada", "gêmeos"),
+    "oic": ("feixe-de-fruicao-governada", "enquanto"),
     "teleologia-abusiva": ("ilicito-de-arquitetura", "par"),
 }
 

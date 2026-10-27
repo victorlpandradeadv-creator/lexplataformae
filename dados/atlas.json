@@ -12,7 +12,7 @@
    "eixo": true,
    "par": {
     "id": "feixe-de-fruicao-governada",
-    "rotulo": "gêmeos"
+    "rotulo": "enquanto"
    },
    "secao": null,
    "campos": [
@@ -606,13 +606,13 @@
    "eixo": false,
    "par": {
     "id": "oic",
-    "rotulo": "gêmeos"
+    "rotulo": "enquanto"
    },
    "secao": null,
    "campos": [
     {
      "rotulo": "Função no regime",
-     "texto": "Gêmeo do OIC, por decisão do autor em 26/10/2026. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da \"definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo\" (p. 394).",
+     "texto": "Aparece sempre ao lado do OIC. O OIC nomeia a categoria jurídica. O feixe nomeia o que ela contém, a fruição governada que constitui o adquirido. A própria tese define um pelo outro, ao falar da \"definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo\" (p. 394).",
      "citacoes": []
     },
     {
@@ -893,7 +893,7 @@
      "id": "oic",
      "papel": "descreve o objeto",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "gêmeos"
+     "par_rotulo": "enquanto"
     },
     {
      "id": "teleologia-abusiva",
@@ -935,7 +935,7 @@
      "id": "oic",
      "papel": "qualificação do objeto e do regime de fruição",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "gêmeos"
+     "par_rotulo": "enquanto"
     },
     {
      "id": "vulnerabilidade-semiotica",
@@ -1007,7 +1007,7 @@
      "id": "oic",
      "papel": "qualifica o produto imaterial",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "gêmeos"
+     "par_rotulo": "enquanto"
     },
     {
      "id": "vulnerabilidade-semiotica",

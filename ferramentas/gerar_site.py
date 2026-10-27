@@ -299,7 +299,7 @@ def html_passo(passo, base):
     if c and c["tipo"] == "conceito":
         nome = link(c["id"], c["nome"])
         if passo.get("par") and passo["par"] in POR_ID:
-            dica = "Gêmeos por decisão do autor" if passo["par_rotulo"] == "gêmeos" else "A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7"
+            dica = "O resumo da tese propõe o OIC enquanto feixe de fruição governada" if passo["par_rotulo"] == "enquanto" else "A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7"
             nome = (f'<span class="gemeos">{link(c["id"], c["nome"])}<span class="gemeos-sinal" title="{esc(dica)}">'
                     f'{esc(passo["par_rotulo"])}</span>{link(passo["par"], POR_ID[passo["par"]]["nome"])}</span>')
         corpo, classe, arq = f'<span class="passo-nome">{nome}</span>', "passo", ""
@@ -382,7 +382,7 @@ def gerar_inicio():
     <section class="campo" id="conceitos" aria-labelledby="conceitos-titulo">
       <h2 class="campo-titulo" id="conceitos-titulo">As ideias</h2>
       <div class="campo-texto">{ext_html("inicio", "nome", "")}</div>
-      <ul class="eixo-cartoes" data-arq="eixo · o OIC e o feixe de fruição governada, gêmeos">{eixo_cartoes}</ul>
+      <ul class="eixo-cartoes" data-arq="eixo · o OIC enquanto feixe de fruição governada">{eixo_cartoes}</ul>
       <div class="campo-topo interno" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
         <p class="campo-def">“{esc(oic_def["texto"])}”{pg(oic_def["ref"], "", oic_def["texto"])}</p>
         {f'<blockquote class="citacao integra"><p>“{esc(gatilho["texto"])}”{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
@@ -468,7 +468,7 @@ def gerar_conceito(c):
         sobre = "Conceito · eixo de integração dos demais" if c.get("eixo") else "Conceito"
     selos = f'<span class="selo" data-arq="versão · o conteúdo segue em revisão pelo autor">Versão {VERSAO}</span>'
     if c.get("par"):
-        rot = "Gêmeo de " if c["par"]["rotulo"] == "gêmeos" else "Em par com "
+        rot = "Em par com "
         selos += f'<a class="selo gemeo" href="{base}{c["par"]["id"]}/">{rot}{esc(POR_ID[c["par"]["id"]]["nome"])}</a>'
 
     partes = []
