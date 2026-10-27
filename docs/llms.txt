@@ -16,6 +16,127 @@ Os nove conceitos são independentes e, sob o OIC, funcionam de forma integrada 
 - [Teleologia abusiva](https://lexplataformae.com.br/conceitos/teleologia-abusiva/): A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
 - [Vulnerabilidade semiótica](https://lexplataformae.com.br/conceitos/vulnerabilidade-semiotica/): A vulnerabilidade semiótica pode ser definida, em síntese, como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente. (p. 396)
 
+## A tese, seção por seção
+
+- [Sumário e resumo](https://lexplataformae.com.br/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção.
+- [1 INTRODUÇÃO](https://lexplataformae.com.br/tese/1/): p. 21 a 42
+- [2 DO DESENHO METODOLÓGICO E DO PROTOCOLO DE OBSERVAÇÃO](https://lexplataformae.com.br/tese/2/): p. 45 a 47
+- [2.1 Da estratégia teórico-metodológica](https://lexplataformae.com.br/tese/2-1/): p. 47 a 54
+- [2.2 Do recorte teórico-normativo e setorial](https://lexplataformae.com.br/tese/2-2/): p. 54 a 56
+- [2.3 Do ecossistema de referência e estratégia de exemplificação](https://lexplataformae.com.br/tese/2-3/): p. 56 a 59
+- [2.4 Das fontes empíricas e técnicas de coleta](https://lexplataformae.com.br/tese/2-4/): p. 59 a 61
+- [2.4.1 Da observação institucional situada em ambiente digital](https://lexplataformae.com.br/tese/2-4-1/): p. 61 a 63
+- [2.4.2 Da análise documental de termos de uso e políticas internas](https://lexplataformae.com.br/tese/2-4-2/): p. 63 a 66
+- [2.4.3 Do levantamento de manifestações públicas de usuários](https://lexplataformae.com.br/tese/2-4-3/): p. 66 a 70
+- [2.5 Dos procedimentos para leitura e análise de termos contratuais](https://lexplataformae.com.br/tese/2-5/): p. 70 a 73
+- [2.6 Das epígrafes como registro sintomático e recurso hermenêutico](https://lexplataformae.com.br/tese/2-6/): p. 73 a 78
+- [2.7 Das limitações da pesquisa e seu potencial de generalização](https://lexplataformae.com.br/tese/2-7/): p. 78 a 80
+- [3 TECNOLOGIA, PLATAFORMAS E A ORDEM ECONÔMICA TECNO-MIDIÁTICA DO CONSUMO DIGITAL](https://lexplataformae.com.br/tese/3/): p. 83 a 85
+- [3.1 Técnica, mídia e vida cotidiana](https://lexplataformae.com.br/tese/3-1/): p. 85 a 92
+- [3.1.1 Autonomia da técnica e reorganização da vida social](https://lexplataformae.com.br/tese/3-1-1/): p. 92 a 98
+- [3.1.2 Mídia, entretenimento e reconfiguração da epistemologia](https://lexplataformae.com.br/tese/3-1-2/): p. 98 a 104
+- [3.1.3 Técnica incorporada às rotinas e dessimbolização da experiência](https://lexplataformae.com.br/tese/3-1-3/): p. 104 a 120
+- [3.1.4 A tecnologia enquanto construção social e a racionalidade política do design](https://lexplataformae.com.br/tese/3-1-4/): p. 120 a 137
+- [3.1.5 O ambiente tecno-midiático como condição de possibilidade do OIC](https://lexplataformae.com.br/tese/3-1-5/): p. 137 a 139
+- [3.2 Arquitetura econômica das plataformas digitais](https://lexplataformae.com.br/tese/3-2/): p. 139 a 145
+- [3.2.1 Capitalismo industrial e tecnofeudalismo](https://lexplataformae.com.br/tese/3-2-1/): p. 145 a 183
+- [3.2.2 O rentismo informacional sob plataformas](https://lexplataformae.com.br/tese/3-2-2/): p. 183 a 208
+- [3.2.3 Extração de valor, escassez artificial e o consumidor como exterior incorporado](https://lexplataformae.com.br/tese/3-2-3/): p. 208 a 232
+- [3.2.4 A mutação da dinâmica concorrencial imaterial a partir da propriedade intelectual](https://lexplataformae.com.br/tese/3-2-4/): p. 232 a 243
+- [3.2.5 O modelo de negócios e a teleologia arquitetural das plataformas](https://lexplataformae.com.br/tese/3-2-5/): p. 243 a 247
+- [3.2.6 Regimes de valor, produção de sentido e economia da atenção nas plataformas](https://lexplataformae.com.br/tese/3-2-6/): p. 247 a 259
+- [4 SEMIÓTICA E GOVERNANÇA DE FRUIÇÃO NO CONSUMO IMATERIAL CONTÍNUO](https://lexplataformae.com.br/tese/4/): p. 261 a 264
+- [4.1 Semiótica, espetáculo e simulacro nas economias de atenção](https://lexplataformae.com.br/tese/4-1/): p. 264 a 266
+- [4.1.1 Sistemas de signos e a produção de sentido em plataformas digitais](https://lexplataformae.com.br/tese/4-1-1/): p. 266 a 281
+- [4.1.2 A sociedade do espetáculo e a gamificação da vida cotidiana](https://lexplataformae.com.br/tese/4-1-2/): p. 281 a 295
+- [4.1.3 O simulacro e o valor dos bens digitais](https://lexplataformae.com.br/tese/4-1-3/): p. 295 a 313
+- [4.1.4 Promessa curada, raridade e captura de valor](https://lexplataformae.com.br/tese/4-1-4/): p. 313 a 320
+- [4.1.5 Semiose controlada e vulnerabilidade semiótica](https://lexplataformae.com.br/tese/4-1-5/): p. 320 a 330
+- [4.2 Dominação informacional, poder privado e subjetividade](https://lexplataformae.com.br/tese/4-2/): p. 330 a 334
+- [4.2.1 Arquitetura de escolha e dominação informacional](https://lexplataformae.com.br/tese/4-2-1/): p. 334 a 347
+- [4.2.2 Poder econômico privado e ordem constitucional](https://lexplataformae.com.br/tese/4-2-2/): p. 347 a 351
+- [4.2.3 Psicopolítica, autoexploração e cativeiro identitário](https://lexplataformae.com.br/tese/4-2-3/): p. 351 a 363
+- [4.2.4 Regras privadas, enforcement e a governança da plataforma](https://lexplataformae.com.br/tese/4-2-4/): p. 363 a 379
+- [4.2.5 O consumidor-cidadão sob a Lex Plataformae](https://lexplataformae.com.br/tese/4-2-5/): p. 379 a 386
+- [4.2.6 A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais](https://lexplataformae.com.br/tese/4-2-6/): p. 386 a 389
+- [5 DO REGIME JURÍDICO DO OBJETO IMATERIAL DE CONSUMO (OIC) SOB A LEX PLATAFORMAE](https://lexplataformae.com.br/tese/5/): p. 391 a 394
+- [5.1 Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo](https://lexplataformae.com.br/tese/5-1/): p. 394 a 395
+- [5.1.1 Da vulnerabilidade semiótica como conceito operativo](https://lexplataformae.com.br/tese/5-1-1/): p. 395 a 407
+- [5.1.2 Do Objeto Imaterial de Consumo como conceito-infraestrutura](https://lexplataformae.com.br/tese/5-1-2/): p. 407 a 411
+- [5.1.2.1 Da relevância normativa do OIC e sua inserção na disciplina do consumo](https://lexplataformae.com.br/tese/5-1-2-1/): p. 411 a 423
+- [5.1.2.2 Da qualificação funcional do OIC e sua coerência sistemática ao CDC](https://lexplataformae.com.br/tese/5-1-2-2/): p. 423 a 427
+- [5.1.2.3 Dos critérios de reconhecimento do OIC e dos limites de aplicação da categoria](https://lexplataformae.com.br/tese/5-1-2-3/): p. 427 a 435
+- [5.1.2.4 Da fruição continuada e a utilidade da dicotomia produto-serviço no CDC](https://lexplataformae.com.br/tese/5-1-2-4/): p. 435 a 444
+- [5.1.3 Da teleologia abusiva e o ilícito de arquitetura em plataformas](https://lexplataformae.com.br/tese/5-1-3/): p. 444 a 456
+- [5.1.4 Da integridade pessoal, identidade simbólica e cidadania digital](https://lexplataformae.com.br/tese/5-1-4/): p. 456 a 469
+- [5.1.5 Da auditabilidade aberta e equivalência de valor funcional como critérios de legitimidade e de recomposição em serviços digitais contínuos](https://lexplataformae.com.br/tese/5-1-5/): p. 469 a 482
+- [5.2 Dos modelos de negócios de base digital e tipologia preliminar de Objetos Imateriais de Consumo](https://lexplataformae.com.br/tese/5-2/): p. 482 a 484
+- [5.2.1 Dos games-as-a-service, marketplaces e outros ecossistemas de OIC](https://lexplataformae.com.br/tese/5-2-1/): p. 485 a 488
+- [5.2.2 Das categorias de objetos imateriais de consumo em plataformas de jogos](https://lexplataformae.com.br/tese/5-2-2/): p. 488 a 492
+- [5.2.3 Do Marco Legal dos Jogos Eletrônicos e enquadramento preliminar](https://lexplataformae.com.br/tese/5-2-3/): p. 493 a 496
+- [5.2.4 Do locus ilustrativo à formulação de parâmetros gerais: o desnudamento arquitetural da Lex Plataformae](https://lexplataformae.com.br/tese/5-2-4/): p. 497 a 499
+- [6 DA TUTELA DA VULNERABILIDADE SEMIÓTICA DO CONSUMIDOR À LUZ DA ORDEM CONSTITUCIONAL E ECONÔMICA DO BRASIL](https://lexplataformae.com.br/tese/6/): p. 501 a 502
+- [6.1 Da ordem econômica, da proteção do consumidor, e dos poderes de plataforma](https://lexplataformae.com.br/tese/6-1/): p. 502 a 504
+- [6.1.1 Da matriz constitucional: a defesa do consumidor sob a ordem econômica brasileira](https://lexplataformae.com.br/tese/6-1-1/): p. 504 a 512
+- [6.1.2 Da eficácia horizontal dos direitos fundamentais e a relevância pública dos poderes da Lex Plataformae](https://lexplataformae.com.br/tese/6-1-2/): p. 512 a 520
+- [6.1.2.1 Das fronteiras físicas da soberania: o Vanguard como caso de estudo](https://lexplataformae.com.br/tese/6-1-2-1/): p. 520 a 534
+- [6.1.3 Da integridade pessoal, identidade simbólica e continuidade biográfica como bens jurídicos de referência](https://lexplataformae.com.br/tese/6-1-3/): p. 534 a 543
+- [6.1.4 Da regulação setorial e o Marco Legal dos Jogos Eletrônicos](https://lexplataformae.com.br/tese/6-1-4/): p. 543 a 548
+- [6.2 Do CDC como infraestrutura normativa do regime do OIC](https://lexplataformae.com.br/tese/6-2/): p. 549 a 550
+- [6.2.1 Do produto, serviço e vulnerabilidade fática sob o CDC](https://lexplataformae.com.br/tese/6-2-1/): p. 550 a 557
+- [6.2.1.1 Da dicotomia produto-serviço, contratos cativos de longa duração e o fornecimento contínuo de OICs](https://lexplataformae.com.br/tese/6-2-1-1/): p. 557 a 564
+- [6.2.2 Da doutrina dos bens digitais e o regime do Objeto Imaterial de Consumo](https://lexplataformae.com.br/tese/6-2-2/): p. 565 a 574
+- [6.2.3 Do Objeto Imaterial de Consumo como concretização do produto imaterial do art. 3º, §1º do Código de Defesa do Consumidor](https://lexplataformae.com.br/tese/6-2-3/): p. 574 a 579
+- [6.2.4 Da vulnerabilidade semiótica como forma contemporânea de vulnerabilidade fática](https://lexplataformae.com.br/tese/6-2-4/): p. 579 a 584
+- [6.2.4.1 Da abstenção ao uso da terminologia “vulnerabilidade digital”](https://lexplataformae.com.br/tese/6-2-4-1/): p. 584 a 590
+- [6.2.4.1.1 Da revisão crítica da literatura recente](https://lexplataformae.com.br/tese/6-2-4-1-1/): p. 590 a 601
+- [6.2.4.2 Da linguagem, código e consentimento viciado por sentido](https://lexplataformae.com.br/tese/6-2-4-2/): p. 601 a 605
+- [6.2.4.3 Da operacionalização da vulnerabilidade semiótica em OICs](https://lexplataformae.com.br/tese/6-2-4-3/): p. 605 a 609
+- [6.2.4.3.1 O caso dos presentes irregulares](https://lexplataformae.com.br/tese/6-2-4-3-1/): p. 609 a 618
+- [6.2.4.4 Da informação excessiva às práticas de transparência performática: dever de informar e adequação informativa](https://lexplataformae.com.br/tese/6-2-4-4/): p. 618 a 623
+- [6.2.4.5 Da publicidade enganosa por arquitetura semiótica](https://lexplataformae.com.br/tese/6-2-4-5/): p. 623 a 629
+- [6.2.5 Da informação, publicidade e práticas abusivas em contextos sob antecipação hipercuratorial](https://lexplataformae.com.br/tese/6-2-5/): p. 629 a 634
+- [6.3 Da auditabilidade aberta e equivalência de valor funcional enquanto critérios de legitimidade para arquiteturas de plataforma](https://lexplataformae.com.br/tese/6-3/): p. 635 a 639
+- [6.3.1 Do conceito jurídico de auditabilidade aberta em serviços digitais contínuos](https://lexplataformae.com.br/tese/6-3-1/): p. 639 a 648
+- [6.3.2 Da equivalência de valor funcional como parâmetro de licitude de alterações](https://lexplataformae.com.br/tese/6-3-2/): p. 648 a 656
+- [6.3.3 Dos mecanismos apropriados à viabilização de procedimentos de auditabilidade aberta e avaliação de equivalência funcional](https://lexplataformae.com.br/tese/6-3-3/): p. 656 a 663
+- [6.4 Da teleologia abusiva e ilícito de arquitetura em serviços digitais contínuos](https://lexplataformae.com.br/tese/6-4/): p. 663 a 665
+- [6.4.1 Do ilícito de teleologia abusiva: vício de concepção e prática abusiva](https://lexplataformae.com.br/tese/6-4-1/): p. 665 a 669
+- [6.4.2 Das técnicas de captura por escassez, risco e dependência](https://lexplataformae.com.br/tese/6-4-2/): p. 669 a 674
+- [6.4.3 Do enquadramento em vícios de qualidade, cláusulas e práticas abusivas](https://lexplataformae.com.br/tese/6-4-3/): p. 674 a 679
+- [6.5 Da função social da propriedade intelectual à governança semiótica dos objetos imateriais de consumo](https://lexplataformae.com.br/tese/6-5/): p. 679 a 681
+- [6.5.1 Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica](https://lexplataformae.com.br/tese/6-5-1/): p. 681 a 695
+- [6.5.2 Da tensão entre exclusividade, proteção do consumidor e integridade dos OICs](https://lexplataformae.com.br/tese/6-5-2/): p. 695 a 703
+- [6.5.3 Da função social da propriedade intelectual em plataformas de OIC](https://lexplataformae.com.br/tese/6-5-3/): p. 703 a 710
+- [7 DA TIPOLOGIA DOS MODELOS DE INCIDÊNCIA DO OBJETO IMATERIAL DE CONSUMO EM DIFERENTES CATEGORIAS FUNCIONAIS DE PLATAFORMA](https://lexplataformae.com.br/tese/7/): p. 713 a 714
+- [7.1 Dos parâmetros de controlabilidade do OIC](https://lexplataformae.com.br/tese/7-1/): p. 714 a 716
+- [7.1.1 Dos enunciados operacionais de controlabilidade do OIC](https://lexplataformae.com.br/tese/7-1-1/): p. 716 a 717
+- [7.1.1.1 Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada](https://lexplataformae.com.br/tese/7-1-1-1/): p. 717 a 719
+- [7.1.1.2 Dos parâmetros da vulnerabilidade semiótica como mecanismo](https://lexplataformae.com.br/tese/7-1-1-2/): p. 719 a 721
+- [7.1.1.3 Dos parâmetros do dever de informar como adequação verificável](https://lexplataformae.com.br/tese/7-1-1-3/): p. 722 a 724
+- [7.1.1.4 Dos parâmetros da publicidade e oferta como gestão de sentido controlável](https://lexplataformae.com.br/tese/7-1-1-4/): p. 724 a 726
+- [7.1.1.5 Dos parâmetros de auditabilidade aberta para controle sem abertura indiscriminada de código](https://lexplataformae.com.br/tese/7-1-1-5/): p. 726 a 729
+- [7.1.1.6 Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável](https://lexplataformae.com.br/tese/7-1-1-6/): p. 729 a 731
+- [7.1.1.7 Dos parâmetros de teleologia abusiva e o ilícito de arquitetura enquanto conduta](https://lexplataformae.com.br/tese/7-1-1-7/): p. 731 a 734
+- [7.1.1.8 Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural](https://lexplataformae.com.br/tese/7-1-1-8/): p. 734 a 737
+- [7.1.1.9 Dos parâmetros de compatibilização entre o CDC e os direitos de propriedade intelectual à luz da primazia da função social e dos limites constitucionais brasileiros](https://lexplataformae.com.br/tese/7-1-1-9/): p. 737 a 739
+- [7.1.1.10 Dos parâmetros para remédios adequados à primazia da recomposição funcional e correção de regime](https://lexplataformae.com.br/tese/7-1-1-10/): p. 739 a 742
+- [7.1.2 Da qualificação jurídica e deveres de fornecimento do OIC](https://lexplataformae.com.br/tese/7-1-2/): p. 742 a 748
+- [7.1.3 Das diretrizes para controle de arquitetura e governança](https://lexplataformae.com.br/tese/7-1-3/): p. 748 a 752
+- [7.1.4 Da cidadania digital e limites ao poder privado de plataforma](https://lexplataformae.com.br/tese/7-1-4/): p. 752 a 755
+- [7.2 Dos modelos típicos de plataforma e incidência do OIC](https://lexplataformae.com.br/tese/7-2/): p. 755 a 757
+- [7.2.1 Dos OICs de funcionalidade cognitiva e regime de informação](https://lexplataformae.com.br/tese/7-2-1/): p. 757 a 760
+- [7.2.2 Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/tese/7-2-2/): p. 760 a 765
+- [7.2.3 Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/tese/7-2-3/): p. 765 a 769
+- [7.2.4 Da concorrência sob a Lex Plataformae](https://lexplataformae.com.br/tese/7-2-4/): p. 769 a 773
+- [7.2.5 Da tutela coletiva sob auditabilidade aberta](https://lexplataformae.com.br/tese/7-2-5/): p. 773 a 777
+- [7.2.6 Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma](https://lexplataformae.com.br/tese/7-2-6/): p. 777 a 780
+- [7.2.7 Da administração de confiança à neutralização de conflitos por arquitetura](https://lexplataformae.com.br/tese/7-2-7/): p. 780 a 783
+- [7.2.7.1 Da governança sobre rumores em antecipação hipercuratorial](https://lexplataformae.com.br/tese/7-2-7-1/): p. 783 a 787
+- [7.3 Dos padrões recorrentes de fricção, prova e recomposição](https://lexplataformae.com.br/tese/7-3/): p. 787 a 789
+- [8 CONCLUSÃO](https://lexplataformae.com.br/tese/8/): p. 791 a 802
+- [Referências](https://lexplataformae.com.br/tese/referencias/): p. 803 a 829
+
 ## Tese
 
 - [Tese completa em PDF](https://lexplataformae.com.br/tese/andrade-2026-tese-oic-lex-plataformae.pdf): Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae: a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. Doutorado em Direito, UNESP, 2026.

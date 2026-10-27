@@ -8,7 +8,7 @@ Este arquivo é a memória do projeto. Toda sessão que trabalhar aqui deve lê-
 
 O site tem cinco camadas.
 
-1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios.
+1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé.
 2. **Atlas.** Uma página por conceito, com definição literal, função no regime, critério delimitador e seções de apoio. Os conceitos são os substantivos da tese.
 3. **Roteiro.** Os dez enunciados do 7.1.1 como percurso guiado. Os enunciados são os verbos da tese. O portão de entrada são os quatro campos cumulativos do OIC (p. 428-429).
 4. **Laboratório.** Casos em fichas de três campos, no formato do 7.3 (p. 788). Mecanismo de modulação lesiva, problema probatório e racionalidade de recomposição. O laboratório nunca conclui que algo "é abusivo".
@@ -52,6 +52,7 @@ O site tem cinco camadas.
 - `conceitos/` guarda as fichas dos conceitos.
 - `conceitos/percursos.md` guarda os trechos que fundamentam os três percursos e a frase de abertura.
 - `ferramentas/gerar_dados.py` lê as fichas e gera `dados/atlas.json` e `prototipo/index.html`. Nenhum texto citado é escrito à mão no site.
+- `ferramentas/extrair_corpus.py` extrai a tese em 117 seções para `dados/corpus.json`, com PyMuPDF. Separa corpo, citações longas e notas pelo tamanho da fonte. Marca o início de cada página impressa. Quando uma seção começa no meio de uma página, repete a marca no início da seção. Não transcreve as páginas de epígrafe. Conferência de 26/10/2026, 819 notas e 819 chamadas, todas pareadas, e todas as citações das fichas encontradas na página certa.
 - `ferramentas/gerar_site.py` gera o site publicável em `docs/`, a partir de `dados/atlas.json`. Cada página sai com o texto completo no HTML, legível sem JavaScript. Rodar sempre depois de `gerar_dados.py`. Nunca editar `docs/` à mão.
 - `site/atlas.js` e `site/extra.css` são as fontes do script e dos acréscimos de estilo do site. O estilo base vem do `<style>` de `prototipo/modelo.html`.
 - `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.

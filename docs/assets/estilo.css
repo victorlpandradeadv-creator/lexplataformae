@@ -235,3 +235,42 @@ button.botao:focus-visible { outline: 2px solid var(--acento); outline-offset: 3
 .sobre { padding-block: 0 3rem; display: grid; gap: 0.75rem; max-width: var(--medida); }
 .sobre h2 { font-family: var(--f-display); font-stretch: 115%; font-weight: 750; font-size: clamp(1.25rem, 2.6vw, 1.6rem); margin: 0; }
 .sobre p { margin: 0; }
+
+/* Corpus da tese */
+.leitura { max-width: 760px; }
+.leitura .texto p { margin: 0 0 1rem; max-width: var(--medida); }
+.leitura .texto { font-size: 1.1rem; line-height: 1.62; }
+.citacao-longa { margin: 0 0 1rem 2rem; font-size: 0.98rem; line-height: 1.5; color: var(--tinta); max-width: 58ch; }
+.pg-marca {
+  display: inline-block; font-family: var(--f-dado); font-size: 0.7rem; font-weight: 500; font-style: normal;
+  color: var(--tinta-2); border: 1px solid var(--linha); border-radius: 3px; padding: 0 0.35em; margin: 0 0.3em;
+  vertical-align: 0.15em; scroll-margin-top: 4rem;
+}
+.pg-marca:target { background: var(--marca); color: var(--tinta); border-color: var(--tinta-2); }
+.marca-solta { margin: 0 0 0.5rem; }
+.nota-ref a { text-decoration: none; font-family: var(--f-dado); font-size: 0.75em; padding-inline: 0.1em; }
+.nota-ref { scroll-margin-top: 4rem; }
+.notas { border-top: 1px solid var(--linha); padding-top: 1rem; display: grid; gap: 0.5rem; }
+.notas h2, .conceitos-aqui .sobrelinha { font-family: var(--f-dado); font-size: 0.78rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); margin: 0; }
+.notas ol { margin: 0; padding-left: 3.2rem; font-size: 0.95rem; line-height: 1.5; display: grid; gap: 0.5rem; }
+.notas li { scroll-margin-top: 4rem; overflow-wrap: anywhere; }
+.notas li:target { background: var(--marca); }
+.notas .volta { text-decoration: none; font-family: var(--f-dado); }
+.trilha { font-family: var(--f-display); font-size: 0.85rem; color: var(--tinta-2); display: flex; flex-wrap: wrap; gap: 0.2rem 0.4rem; }
+.trilha a { color: var(--tinta-2); }
+.ler-pdf { margin: 0; font-family: var(--f-display); font-size: 0.9rem; }
+.epigrafe-ref, .conceitos-aqui { border: 1px dashed var(--linha); border-radius: var(--raio); padding: 0.75rem 1rem; display: grid; gap: 0.4rem; }
+.epigrafe-ref p { margin: 0; }
+.conceitos-aqui ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.conceitos-aqui a { font-family: var(--f-display); font-size: 0.9rem; }
+.sumario ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15rem; }
+.sumario li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: baseline; padding-block: 0.25rem; border-bottom: 1px solid var(--linha); }
+.sumario li a { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr); gap: 0.5rem; color: var(--tinta); text-decoration: none; }
+.sumario li a:hover .tit { text-decoration: underline; }
+.sumario .num, .sumario .pag { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); font-variant-numeric: tabular-nums; }
+.sumario .nivel-0 .tit { font-family: var(--f-display); font-weight: 700; }
+.sumario .nivel-2 a { padding-left: 1rem; } .sumario .nivel-3 a { padding-left: 2rem; } .sumario .nivel-4 a { padding-left: 3rem; }
+a.pg { text-decoration: none; color: var(--tinta-2); }
+a.pg:hover { color: var(--acento); border-color: var(--acento); }
+.folha-cabeca h1 strong { font-weight: inherit; }
+@media (max-width: 640px) { .sumario li a { grid-template-columns: 3.6rem minmax(0, 1fr); } .citacao-longa { margin-left: 1rem; } .notas ol { padding-left: 2.4rem; } }

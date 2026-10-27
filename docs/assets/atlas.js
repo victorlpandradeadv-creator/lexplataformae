@@ -33,7 +33,12 @@
   function esc(t) {
     return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
-  function pg(ref) { return '<span class="pg" data-arq="âncora · página da tese">' + esc(ref) + '</span>'; }
+  function pg(ref) {
+    var m = /^p\. (\d+)/.exec(ref);
+    var slug = m && D.paginas ? D.paginas[m[1]] : null;
+    if (slug) return '<a class="pg" href="tese/' + slug + '/#p' + m[1] + '" data-arq="âncora · leva ao trecho exato da tese">' + esc(ref) + '</a>';
+    return '<span class="pg" data-arq="âncora · página da tese">' + esc(ref) + '</span>';
+  }
   function link(id, nome) { return '<a href="' + base + id + '/">' + esc(nome) + '</a>'; }
 
   function corpoDoPasso(passo) {
@@ -80,7 +85,9 @@
     lista.innerHTML = '';
     lista.appendChild(frag);
     lista.setAttribute('aria-label', p.nome);
-    document.getElementById('logica').innerHTML = esc(p.logica) + ' <q>' + esc(p.trecho.texto) + '</q>' + pg(p.trecho.ref);
+    var alvo = D.alvos && D.alvos[chaveLeitura];
+    var chip = alvo ? '<a class="pg" href="' + alvo + '" data-arq="âncora · leva ao trecho exato da tese">' + esc(p.trecho.ref) + '</a>' : pg(p.trecho.ref);
+    document.getElementById('logica').innerHTML = esc(p.logica) + ' <q>' + esc(p.trecho.texto) + '</q>' + chip;
 
     var presentes = {};
     p.sequencia.forEach(function (s) { presentes[s.id] = 1; if (s.par) presentes[s.par] = 1; });

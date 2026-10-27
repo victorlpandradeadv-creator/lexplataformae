@@ -22,6 +22,14 @@ VERSAO = "0.3"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
+_corpus = RAIZ / "dados" / "corpus.json"
+C = json.loads(_corpus.read_text(encoding="utf-8")) if _corpus.exists() else {"secoes": []}
+SECOES = C["secoes"]
+POR_NUMERO = {s["n"]: s for s in SECOES if s["n"]}
+PAG2SLUG = {}
+for _s in SECOES:
+    for _p in _s.get("paginas", []):
+        PAG2SLUG.setdefault(_p, _s["slug"])
 POR_ID = {c["id"]: c for c in D["conceitos"]}
 EIXO = next(c for c in D["conceitos"] if c.get("eixo"))
 
@@ -33,12 +41,69 @@ def esc(t):
     return html.escape(str(t), quote=True)
 
 
-def pg(ref):
+def _plano(h):
+    h = re.sub(r'<sup class="nota-ref">.*?</sup>', "", h)
+    h = re.sub(r'<span class="pg-marca"[^>]*>.*?</span>', " ", h)
+    t = html.unescape(re.sub(r"<[^>]+>", "", h)).replace("“", '"').replace("”", '"')
+    return re.sub(r"\s+", " ", t)
+
+
+TEXTO_SECAO = {s["slug"]: _plano(" ".join(b["html"] for b in s["blocos"])) for s in SECOES}
+NOTAS_SECAO = {s["slug"]: [(n["n"], n["pagina"], _plano(n["html"])) for n in s["notas"]] for s in SECOES}
+SECOES_DA_PAGINA = {}
+for _s in SECOES:
+    for _p in _s.get("paginas", []):
+        SECOES_DA_PAGINA.setdefault(_p, []).append(_s["slug"])
+
+
+def destino_pagina(ref, prefixo, texto=None):
+    """Endereço do trecho da tese a que a referência aponta.
+
+    Quando a referência acompanha uma citação, procura a seção que contém o
+    trecho, porque uma mesma página pode abrigar o fim de uma seção e o
+    começo de outra.
+    """
+    if ref == "Resumo":
+        return f"{prefixo}tese/#resumo"
+    m = re.match(r"p\. (\d+)", ref)
+    if not m or int(m.group(1)) not in PAG2SLUG:
+        return None
+    n = int(m.group(1))
+    slug = PAG2SLUG[n]
+    if texto:
+        pedaco = re.sub(r"\s+", " ", max(texto.split("[...]"), key=len).strip(" .,").replace("“", '"').replace("”", '"'))[:60]
+        for candidato in SECOES_DA_PAGINA.get(n, []):
+            if pedaco and pedaco in TEXTO_SECAO[candidato]:
+                return f"{prefixo}tese/{candidato}/#p{n}"
+        # O trecho pode estar numa nota de rodapé da página.
+        for slug_nota, notas in NOTAS_SECAO.items():
+            for num, pagina_nota, texto_nota in notas:
+                if pagina_nota == n and pedaco and pedaco in texto_nota:
+                    return f"{prefixo}tese/{slug_nota}/#n{num}"
+    return f"{prefixo}tese/{slug}/#p{n}"
+
+
+def pg(ref, prefixo=None, texto=None):
+    alvo = destino_pagina(ref, prefixo, texto) if prefixo is not None else None
+    if alvo:
+        return f'<a class="pg" href="{alvo}" data-arq="âncora · leva ao trecho exato da tese">{esc(ref)}</a>'
     return f'<span class="pg" data-arq="âncora · página da tese">{esc(ref)}</span>'
 
 
-def com_ancoras(texto):
-    return re.sub(r"\((p\. [\d\-]+|Resumo)\)", lambda m: pg(m.group(1)), esc(texto))
+def com_ancoras(texto, prefixo=None):
+    return re.sub(r"\((p\. [\d\-]+|Resumo)\)", lambda m: pg(m.group(1), prefixo), esc(texto))
+
+
+def secao_de_lugar(lugar):
+    """Encontra a seção da tese citada num item de 'Onde vive'."""
+    m = re.match(r"(\d+(?:\.\d+)*)", lugar)
+    if m and m.group(1) in POR_NUMERO:
+        return POR_NUMERO[m.group(1)]
+    if lugar.startswith("Introdução"):
+        return POR_NUMERO.get("1")
+    if lugar.startswith("Conclusão"):
+        return POR_NUMERO.get("8")
+    return None
 
 
 def campo(c, rotulo):
@@ -110,7 +175,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
         <li class="em-breve">Roteiro<small>em breve</small></li>
         <li class="em-breve">Laboratório<small>em breve</small></li>
         <li><a href="{prefixo}#epigrafes">Epígrafes</a></li>
-        <li><a href="{prefixo}tese/{PDF_NOME}">Tese em PDF</a></li>
+        <li><a href="{prefixo}tese/">A tese</a></li>
       </ul>
     </nav>
     <label class="chave" for="desnudar">
@@ -172,7 +237,7 @@ def gerar_inicio():
 
     cartoes = "".join(
         f'<li><a class="cartao" href="{base}{c["id"]}/"><b>{esc(c["nome"])}</b>'
-        f'<span>{com_ancoras(primeira_frase((campo(c, "Função no regime") or {"texto": ""})["texto"]))}</span></a></li>'
+        f'<span>{com_ancoras(primeira_frase((campo(c, "Função no regime") or {"texto": ""})["texto"]), "")}</span></a></li>'
         for c in independentes
     )
     opcoes = "".join(
@@ -193,6 +258,8 @@ def gerar_inicio():
         "passos": D["passos"],
         "ordem": ordem_atlas,
         "conceitos": {c["id"]: {"nome": c["nome"], "tipo": c["tipo"], "secao": c.get("secao")} for c in D["conceitos"]},
+        "paginas": {str(k): v for k, v in PAG2SLUG.items()},
+        "alvos": {k: destino_pagina(p["trecho"]["ref"], "", p["trecho"]["texto"]) for k, p in D["percursos"].items()},
     }
 
     ep = D["epigrafes"]
@@ -207,7 +274,7 @@ def gerar_inicio():
       <p class="sobrelinha">Tese de doutorado · UNESP · 2026</p>
       <h1 class="marca" id="titulo">Lex Plataformae</h1>
       <p class="lema">Atlas do regime jurídico do Objeto Imaterial de Consumo. A partir da tese de Victor L. P. Andrade.</p>
-      <blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“{esc(ab["texto"])}”{pg(ab["ref"])}</blockquote>
+      <blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“{esc(ab["texto"])}”{pg(ab["ref"], "", ab["texto"])}</blockquote>
     </section>
 
     <section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
@@ -215,7 +282,7 @@ def gerar_inicio():
         <p class="campo-rotulo">Sob o OIC</p>
         <h2 class="campo-nome" id="eixo-nome"><a href="{base}{EIXO["id"]}/">{esc(EIXO["nome"])}</a></h2>
         {f'<p class="campo-gemeo"><span class="gemeos-sinal">gêmeos</span> <a href="{base}{gemeo["id"]}/">{esc(gemeo["nome"])}</a></p>' if gemeo else ""}
-        <p class="campo-def">“{esc(oic_def["texto"])}”{pg(oic_def["ref"])}</p>
+        <p class="campo-def">“{esc(oic_def["texto"])}”{pg(oic_def["ref"], "", oic_def["texto"])}</p>
         {f'<div class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026"><p class="sobrelinha">Nota do autor · 26/10/2026</p><p>{esc(nota_txt)}</p></div>' if nota_txt else ""}
       </div>
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes}</ul>
@@ -227,7 +294,7 @@ def gerar_inicio():
       <fieldset class="percursos">
         <legend>Escolha uma leitura</legend>
         <div class="seletor">{opcoes}</div>
-        <p class="logica" id="logica" aria-live="polite">{esc(p["logica"])} <q>{esc(p["trecho"]["texto"])}</q>{pg(p["trecho"]["ref"])}</p>
+        <p class="logica" id="logica" aria-live="polite">{esc(p["logica"])} <q>{esc(p["trecho"]["texto"])}</q>{pg(p["trecho"]["ref"], "", p["trecho"]["texto"])}</p>
       </fieldset>
       <ul class="sequencia" id="sequencia" data-base="{base}" aria-label="{esc(p["nome"])}" data-arq="leitura · ordem do texto da tese, não hierarquia">{passos}</ul>
       <div class="fora" id="fora">{fora}</div>
@@ -236,7 +303,7 @@ def gerar_inicio():
 
     <section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">
       <h2 id="epigrafes-titulo">As nove epígrafes</h2>
-      <p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. Seção 2.6 da tese{pg("p. 73-78")}</p>
+      <p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. Seção 2.6 da tese{pg("p. 73-78", "")}</p>
       <ol class="epigrafes">{musas}</ol>
       <div class="epigrafes-player" data-embed="{esc(ep["playlist"]["embed"])}" data-arq="terceiro · o Spotify só carrega depois do clique">
         <div class="ouvir">
@@ -298,8 +365,13 @@ def gerar_conceito(c):
         r = f["rotulo"]
         if r == "Onde vive":
             itens = re.split(r",\s*(?![^()]*\))", f["texto"].rstrip("."))
-            partes.append('<section class="bloco"><h2>Onde vive na tese</h2><ul class="lugares" data-arq="âncora · seções da tese">'
-                          + "".join(f"<li>{esc(i.strip())}</li>" for i in itens) + "</ul></section>")
+            lis = []
+            for i in itens:
+                sec = secao_de_lugar(i.strip())
+                rotulo = esc(i.strip())
+                lis.append(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{rotulo}</a></li>' if sec else f"<li>{rotulo}</li>")
+            partes.append('<section class="bloco"><h2>Onde vive na tese</h2><ul class="lugares" data-arq="âncora · seções da tese, com link para o texto">'
+                          + "".join(lis) + "</ul></section>")
             continue
         if r == "Nota do autor":
             partes.append('<section class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026">'
@@ -307,14 +379,14 @@ def gerar_conceito(c):
             continue
         bloco = f'<section class="bloco"><h2>{esc(r)}</h2>'
         if f["texto"]:
-            bloco += f"<p>{com_ancoras(f['texto'])}</p>"
+            bloco += f"<p>{com_ancoras(f['texto'], prefixo)}</p>"
         for q in f["citacoes"]:
             if r == "Definição canônica proposta":
                 bloco += ('<blockquote class="citacao canonica" data-arq="citação literal · conferida por script contra a tese">'
-                          f'<p><mark>{esc(q["texto"])}</mark>{pg(q["ref"])}</p></blockquote>')
+                          f'<p><mark>{esc(q["texto"])}</mark>{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>')
             else:
                 classe = "citacao nao-e" if r == "O que não é" else "citacao"
-                bloco += f'<blockquote class="{classe}"><p>{esc(q["texto"])}{pg(q["ref"])}</p></blockquote>'
+                bloco += f'<blockquote class="{classe}"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>'
         partes.append(bloco + "</section>")
 
     linhas = []
@@ -347,6 +419,135 @@ def gerar_conceito(c):
         pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
 
 
+def conceitos_por_secao():
+    """Para cada seção da tese, os conceitos do site que a citam em 'Onde vive'."""
+    mapa = {}
+    for c in D["conceitos"]:
+        f = campo(c, "Onde vive")
+        if not f:
+            continue
+        for i in re.split(r",\s*(?![^()]*\))", f["texto"].rstrip(".")):
+            sec = secao_de_lugar(i.strip())
+            if sec:
+                mapa.setdefault(sec["slug"], [])
+                if c not in mapa[sec["slug"]]:
+                    mapa[sec["slug"]].append(c)
+    return mapa
+
+
+def ancestrais(sec):
+    n = sec["n"]
+    if not n:
+        return []
+    partes = n.split(".")
+    return [POR_NUMERO[".".join(partes[:k])] for k in range(1, len(partes)) if ".".join(partes[:k]) in POR_NUMERO]
+
+
+def rotulo_secao(sec):
+    return f'{sec["n"]} {sec["titulo"]}' if sec["n"] else sec["titulo"].capitalize()
+
+
+def gerar_tese():
+    if not SECOES:
+        return
+    pasta = SAIDA / "tese"
+    pasta.mkdir(exist_ok=True)
+    por_secao = conceitos_por_secao()
+
+    # Índice da tese, com resumo e sumário.
+    itens = []
+    for sec in SECOES:
+        nivel = sec["n"].count(".") if sec["n"] else 0
+        itens.append(f'<li class="nivel-{nivel}"><a href="{sec["slug"]}/"><span class="num">{esc(sec["n"])}</span>'
+                     f'<span class="tit">{esc(sec["titulo"])}</span></a><span class="pag">p. {sec["pagina_inicio"]}</span></li>')
+    resumo = C.get("resumo")
+    bloco_resumo = ""
+    if resumo:
+        chaves = "".join(f"<li>{esc(k)}</li>" for k in resumo["palavras_chave"])
+        bloco_resumo = (f'<section class="bloco" id="resumo"><h2>Resumo</h2><p>{esc(resumo["texto"])}</p>'
+                        f'<ul class="lugares">{chaves}</ul></section>')
+    abertura = "".join(f'<li>{esc(e["artista"])}, <cite>{esc(e["faixa"])}</cite> ({e["ano"]})</li>' for e in C.get("epigrafe_abertura", []))
+    corpo = (
+        '<article class="folha leitura">'
+        '<header class="folha-cabeca"><p class="sobrelinha">A tese · texto integral, seção por seção</p>'
+        f'<h1>{esc(TITULO_TESE)}</h1>'
+        '<p>Victor Luiz Pereira de Andrade. Tese de doutorado em Direito. Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, Franca. '
+        'Orientadora Prof.ª Dr.ª Luciana Lopes Canavez. Defesa em 30 de março de 2026.</p>'
+        f'<p><a class="botao" href="{PDF_NOME}">Baixar a tese em PDF</a></p></header>'
+        f'{bloco_resumo}'
+        '<section class="bloco"><h2>Como ler aqui</h2><p>O texto de cada seção é o da tese, extraído do PDF e conferido por script. '
+        'Cada página impressa está marcada no ponto em que começa, e as notas de rodapé vêm ao fim de cada seção. '
+        'As letras das epígrafes não são reproduzidas no site. Elas estão no PDF.'
+        + (f' A abertura da tese traz a epígrafe de {abertura.replace("<li>", "").replace("</li>", "")}.' if abertura else "") +
+        '</p></section>'
+        f'<nav class="bloco sumario" aria-label="Sumário"><h2>Sumário</h2><ol>{"".join(itens)}</ol></nav>'
+        '</article>'
+    )
+    jsonld = {"@context": "https://schema.org", "@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE,
+              "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}, "datePublished": "2026",
+              "inLanguage": "pt-BR", "abstract": resumo["texto"] if resumo else None,
+              "keywords": resumo["palavras_chave"] if resumo else None, "url": BASE + "/tese/"}
+    (pasta / "index.html").write_text(
+        pagina("A tese · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld),
+        encoding="utf-8")
+
+    # Uma página por seção.
+    for i, sec in enumerate(SECOES):
+        prefixo = "../../"
+        trilha = ['<a href="../">A tese</a>'] + [f'<a href="../{a["slug"]}/">{esc(rotulo_secao(a))}</a>' for a in ancestrais(sec)]
+        faixa_pag = f'p. {sec["pagina_inicio"]}' + (f' a {sec["pagina_fim"]}' if sec["pagina_fim"] != sec["pagina_inicio"] else "")
+        partes = []
+        for e in sec.get("epigrafes", []):
+            partes.append(f'<aside class="epigrafe-ref" data-arq="epígrafe · letra omitida no site">'
+                          f'<p class="sobrelinha">Epígrafe</p><p>{esc(e["artista"])}, <cite>{esc(e["faixa"])}</cite> ({e["ano"]}). '
+                          f'A letra não é reproduzida no site. <a href="../{PDF_NOME}#page={e["pagina_pdf"]}">Ler no PDF</a>.</p></aside>')
+        for b in sec["blocos"]:
+            if b["tipo"] == "citacao":
+                partes.append(f'<blockquote class="citacao-longa">{b["html"]}</blockquote>')
+            elif b["tipo"] == "marca":
+                partes.append(f'<p class="marca-solta">{b["html"]}</p>')
+            else:
+                partes.append(f"<p>{b['html']}</p>")
+        notas = ""
+        if sec["notas"]:
+            notas = ('<section class="notas" aria-labelledby="notas-titulo"><h2 id="notas-titulo">Notas</h2><ol>'
+                     + "".join(f'<li id="n{n["n"]}" value="{n["n"]}">{n["html"]} <a class="volta" href="#r{n["n"]}" aria-label="Voltar à chamada da nota {n["n"]}">↩</a></li>' for n in sec["notas"])
+                     + "</ol></section>")
+        aqui = por_secao.get(sec["slug"], [])
+        conceitos_aqui = ""
+        if aqui:
+            conceitos_aqui = ('<aside class="conceitos-aqui" data-arq="atlas · conceitos que vivem nesta seção">'
+                              '<p class="sobrelinha">Conceitos do Atlas nesta seção</p><ul>'
+                              + "".join(f'<li><a href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in em_ordem(aqui))
+                              + "</ul></aside>")
+        ant = SECOES[i - 1] if i > 0 else None
+        prox = SECOES[i + 1] if i + 1 < len(SECOES) else None
+        viz = ('<nav class="vizinhos" aria-label="Seções vizinhas">'
+               + (f'<a href="../{ant["slug"]}/">← {esc(rotulo_secao(ant))}</a>' if ant else "<span></span>")
+               + (f'<a href="../{prox["slug"]}/">{esc(rotulo_secao(prox))} →</a>' if prox else "<span></span>") + "</nav>")
+        titulo = sec.get("titulo_html") or esc(rotulo_secao(sec))
+        corpo = (f'<article class="folha leitura"><nav class="trilha" aria-label="Você está em">{" › ".join(trilha)}</nav>'
+                 f'<header class="folha-cabeca"><p class="sobrelinha">{"Seção " + esc(sec["n"]) if sec["n"] else "Referências"} · {faixa_pag}</p>'
+                 f'<h1>{titulo}</h1>'
+                 f'<p class="ler-pdf"><a href="../{PDF_NOME}#page={sec["pagina_inicio"] + C.get("deslocamento", 2)}">Ver esta seção no PDF</a></p></header>'
+                 f'{conceitos_aqui}<div class="texto">{"".join(partes)}</div>{notas}{viz}</article>')
+        texto_puro = html.unescape(re.sub(r"<[^>]+>", " ", " ".join(b["html"] for b in sec["blocos"][:3])))
+        texto_puro = re.sub(r"\bp\. \d+\b", " ", texto_puro)
+        jsonld = {"@context": "https://schema.org", "@type": "Chapter", "name": rotulo_secao(sec), "inLanguage": "pt-BR",
+                  "pageStart": sec["pagina_inicio"], "pageEnd": sec["pagina_fim"], "url": f'{BASE}/tese/{sec["slug"]}/',
+                  "isPartOf": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE},
+                  "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+        destino = pasta / sec["slug"]
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / "index.html").write_text(
+            pagina(f'{rotulo_secao(sec)} · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld),
+            encoding="utf-8")
+
+
+def resumir_texto(t):
+    return resumo(t)
+
+
 def gerar_estilo():
     modelo = (RAIZ / "prototipo" / "modelo.html").read_text(encoding="utf-8")
     css = re.search(r"<style>(.*?)</style>", modelo, re.S).group(1)
@@ -377,7 +578,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]]
+    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -396,6 +597,8 @@ def gerar_auxiliares():
     for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]):
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
+    linhas += ["", "## A tese, seção por seção", "", f"- [Sumário e resumo]({BASE}/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção."]
+    linhas += [f"- [{rotulo_secao(x)}]({BASE}/tese/{x['slug']}/): p. {x['pagina_inicio']} a {x['pagina_fim']}" for x in SECOES]
     linhas += ["", "## Tese", "", f"- [Tese completa em PDF]({BASE}/tese/{PDF_NOME}): {TITULO_TESE}. Doutorado em Direito, UNESP, 2026.",
                "", "## Dados", "", f"- [atlas.json]({BASE}/dados/atlas.json): conceitos, definições, critérios delimitadores, seções e leituras, em JSON.", ""]
     (SAIDA / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
@@ -418,6 +621,7 @@ def main():
     gerar_inicio()
     for c in D["conceitos"]:
         gerar_conceito(c)
+    gerar_tese()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")
