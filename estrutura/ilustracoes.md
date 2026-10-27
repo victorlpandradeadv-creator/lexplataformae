@@ -1,6 +1,6 @@
 # Ilustrações conceituais
 
-Plano das peças ilustrativas que o site vai receber quando a estrutura estiver pronta. Orientação do autor de 27/10/2026. As peças serão produzidas com IA e entram nos lugares previstos aqui. Plano do Claude, à espera da revisão do autor.
+Plano das peças ilustrativas que o site vai receber quando a estrutura estiver pronta. Orientação do autor de 27/10/2026. As peças serão produzidas com IA e entram nos lugares previstos aqui. Plano do Claude, à espera da revisão do autor. Em 27/10/2026, a direção de arte passou para a paleta aprovada, e duas peças foram refeitas. A da compra deixou de dizer que nada sai da loja, e a da teleologia abusiva deixou de sugerir intenção.
 
 Cada peça tem um endereço fixo no site. Enquanto o arquivo não existe, o lugar aparece só no degrau Despir, como contorno tracejado com a etiqueta "ilustração prevista". Quando o arquivo chega em `site/ilustracoes/`, o gerador põe a figura no lugar, com o texto alternativo e a legenda daqui, sem mexer em mais nada.
 
@@ -12,7 +12,7 @@ Proposta do Claude, para o autor decidir.
 
 - Ilustração conceitual e não cena. Cada peça é uma metáfora visual da ideia, com poucos elementos e muito espaço vazio.
 - Traço de ilustração editorial, com linha fina e volumes chapados, sem fotorrealismo, sem brilho de videogame e sem estética de anúncio.
-- Paleta do próprio site. Fundo claro no tom do papel (#f4f5f8), traço em tinta escura (#14161b) e o azul do site (#2b3fcc) como cor de destaque. O laranja (#c2410c) fica reservado ao que é estrutura escondida, como fios, engrenagens e linhas de projeto, porque no site o laranja já marca a arquitetura.
+- Paleta do próprio site, refeita em 27/10/2026 sobre as cores aprovadas pelo autor. Fundo no papel quente do modo Informação (#faf6ef) e traço em tinta escura (#211c17). O azul Klein da tese (#002fa7), sempre chapado, marca só o que foi comprado ou prometido, como a armadura, o item ou o terreno. A estrutura escondida, como fios, engrenagens e linhas de projeto, vem em traço tracejado cinza (#615953), do jeito que a estrutura aparece no modo Ciência. Nenhuma cor de área entra nas ilustrações, porque as áreas são estrutura do modo Ciência.
 - Nenhum texto dentro da imagem. Nada de palavras, números, logotipos, marcas, interfaces reais ou símbolos de empresas.
 - Nenhum personagem, skin, mapa, item ou elemento visual de jogo real. A skin é sempre uma roupa ou armadura inventada, sem semelhança com personagens existentes. Nenhuma pessoa real.
 - Pessoas aparecem como silhuetas ou figuras sem rosto definido, de idades e corpos variados.
@@ -79,7 +79,7 @@ A
 
 ### ideia
 
-Alguém recebe uma caixa de presente com uma peça de armadura dentro, mas a fita da caixa é um cordão comprido que volta para a loja e não se solta. A peça nunca sai de lá.
+Alguém recebe uma caixa de presente com uma peça de armadura dentro. A peça chega às mãos de quem comprou, mas a fita da caixa é um cordão comprido que volta para a loja e não se solta.
 
 > Campeões, skins, emotes e moeda do jogo integram o catálogo de bens que só se tornam fruíveis como licença de acesso associada à conta, e não como coisas transportáveis para fora dela (p. 408)
 
@@ -89,7 +89,7 @@ Mãos recebem uma caixa de presente cuja fita é um cordão comprido que volta p
 
 ### legenda
 
-O que você comprou não sai da loja.
+Chegou até você, mas continua preso à loja.
 
 ### estado
 
@@ -655,17 +655,18 @@ A
 
 ### ideia
 
-Uma árvore vista em corte. Em cima, folhas e frutos comuns. Embaixo, as raízes se juntam numa seta que aponta para uma pessoa pequena ao lado.
+Uma escada vista de lado, em que um degrau de cada lance é sempre mais alto que os outros. Uma régua encostada mostra que a diferença se repete, sempre no mesmo lugar.
 
-> É um defeito de finalidade, um pecado cravado na raiz do projeto. (p. 32)
+> O segundo requisito é a reprodução como padrão. O desvio não pode ser episódio isolado, erro contingente ou exceção operacional. (p. 448)
+> O que se controla não é uma vontade íntima, mas um programa reconhecível (p. 732)
 
 ### alt
 
-Árvore em corte cujas raízes formam uma seta apontada para uma pessoa pequena.
+Escada vista de lado com um degrau mais alto em cada lance e uma régua que mede a diferença repetida.
 
 ### legenda
 
-A finalidade está na raiz do projeto.
+Não é preciso adivinhar a intenção, basta medir o padrão.
 
 ### estado
 

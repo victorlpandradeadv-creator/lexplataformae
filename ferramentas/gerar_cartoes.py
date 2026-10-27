@@ -18,6 +18,11 @@ from playwright.sync_api import sync_playwright
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "site" / "cartoes"
 FONTES = RAIZ / "ferramentas" / "fontes"
+# As cores do cartão são as do modo Informação, claro, com o azul Klein da tese. Paleta aprovada pelo autor em 27/10/2026.
+_C = json.loads((RAIZ / "estrutura" / "cores.json").read_text(encoding="utf-8"))
+INFO, TESE = _C["telas"]["informacao"]["claro"], _C["tese"]
+# Nome em português dos conceitos que o têm, como no modo Informação do site. Decisão do autor de 27/10/2026.
+NOME_COMUM = {"lex-plataformae": "Lei da plataforma"}
 
 
 def externa():
@@ -49,7 +54,7 @@ def percurso():
 
 def cartoes():
     e = externa()
-    nomes = {c["id"]: c["nome"] for c in json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))["conceitos"]}
+    nomes = {c["id"]: NOME_COMUM.get(c["id"], c["nome"]) for c in json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))["conceitos"]}
     lista = [("inicio", " ".join(e["inicio"]["chamada"]), "Um percurso pelo consumo digital")]
     partes = percurso()
     for i, parte in enumerate(partes, 1):
@@ -72,18 +77,18 @@ def pagina(frase, rotulo):
 @font-face {{ font-family: "Newsreader"; font-style: italic; font-weight: 200 800; src: url({f}/newsreader-latin-opsz-italic.woff2) format("woff2"); }}
 @font-face {{ font-family: "IBM Plex Mono"; font-weight: 500; src: url({f}/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); }}
 html, body {{ margin: 0; width: 1200px; height: 630px; }}
-body {{ box-sizing: border-box; padding: 64px 72px; background: #f4f5f8; color: #14161b; display: grid; grid-template-rows: auto 1fr auto; font-family: "Archivo", sans-serif;
-  background-image: linear-gradient(rgba(20,22,27,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(20,22,27,0.045) 1px, transparent 1px); background-size: 30px 30px; }}
-.marca {{ font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: 26px; letter-spacing: 0.02em; }}
+body {{ box-sizing: border-box; padding: 64px 72px; background: {INFO["papel"]}; color: {INFO["tinta"]}; display: grid; grid-template-rows: auto 1fr auto; font-family: "Archivo", sans-serif; }}
+.marca {{ display: inline-flex; flex-direction: column; align-items: center; justify-self: start; line-height: 1.05; font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: 26px; letter-spacing: 0.02em; }}
+.marca small {{ font-size: 0.5em; font-weight: 400; letter-spacing: 0.08em; }}
 .frase {{ align-self: center; font-stretch: 108%; font-weight: 800; font-size: 72px; line-height: 1.08; letter-spacing: -0.01em; max-width: 980px; text-wrap: balance; margin: 0; }}
-.pe {{ display: flex; justify-content: space-between; align-items: end; gap: 32px; border-top: 2px solid #14161b; padding-top: 22px; }}
-.rotulo {{ font-family: "Newsreader", serif; font-style: italic; font-size: 32px; line-height: 1.2; color: #2b3fcc; }}
-.url {{ font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 22px; color: #555b69; white-space: nowrap; }}
+.pe {{ display: flex; justify-content: space-between; align-items: end; gap: 32px; border-top: 2px solid {INFO["tinta"]}; padding-top: 22px; }}
+.rotulo {{ font-family: "Newsreader", serif; font-style: italic; font-size: 32px; line-height: 1.2; color: {TESE["texto"]}; }}
+.url {{ font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 22px; color: {INFO["tinta2"]}; white-space: nowrap; }}
 .chave {{ display: inline-flex; align-items: center; gap: 12px; }}
-.chave i {{ display: inline-block; width: 44px; height: 26px; border-radius: 99px; background: #c2410c; position: relative; }}
-.chave i::after {{ content: ""; position: absolute; top: 4px; right: 4px; width: 18px; height: 18px; border-radius: 50%; background: #f4f5f8; }}
+.chave i {{ display: inline-block; width: 44px; height: 26px; border-radius: 99px; background: {TESE["chapado"]}; position: relative; }}
+.chave i::after {{ content: ""; position: absolute; top: 4px; right: 4px; width: 18px; height: 18px; border-radius: 50%; background: {INFO["papel"]}; }}
 </style></head><body>
-<div class="marca">Lex Plataformae</div>
+<div class="marca"><small>Projeto</small>Lex Plataformae</div>
 <p class="frase" id="frase">{html.escape(frase)}</p>
 <div class="pe"><span class="rotulo">{html.escape(rotulo)}</span><span class="url chave"><i></i>lexplataformae.com.br</span></div>
 </body></html>"""

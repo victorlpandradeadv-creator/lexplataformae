@@ -307,7 +307,7 @@ Quatro pontas, cada uma na sua cor, só em Ciência. O objeto em cinza cru, a le
 
 ## Depois da decisão
 
-O plano das ilustrações em `estrutura/ilustracoes.md` será refeito sobre a paleta escolhida, assim como os cartões de compartilhamento.
+Feito em 27/10/2026. Os cartões de compartilhamento usam o papel e a tinta do modo Informação, o azul Klein e a palavra Projeto sobre o nome. A direção de arte do plano das ilustrações passou para a paleta aprovada.
 
 # 9. Decisões que o mapa pede ao autor
 
@@ -315,12 +315,12 @@ Respostas do autor de 27/10/2026.
 
 1. Decidido. As áreas e o lugar de cada autor ficam como na seção 5.
 2. Decidido. Os dez conceitos derivados ganham estatuto próprio ao lado dos nove.
-3. Decidido em parte. A tese tem cor própria, fora dos grupos, de preferência uma cor conhecida por motivo externo. A proposta do azul Klein está na seção 8 e espera a palavra do autor.
+3. Decidido. A tese tem cor própria, fora dos grupos, o azul Klein da seção 8, aprovado pelo autor com a paleta em 27/10/2026.
 4. Decidido. As três telas não correspondem às três camadas do 2.4, que tratam do estatuto da evidência. Ver a seção 1.
 5. Decidido. A chave passa a se chamar Modo, com Informação, Doutrina e Ciência. Orientação foi o primeiro nome do modo do leigo.
 6. Rascunho na seção 2, para a crítica do autor.
 7. Decidido. Referência mínima, sem padrão de associação. Rascunho do formato na seção 4.
-8. Pergunta do autor, qual lista. É a lista de referências da tese, a que começa na p. 803. A proposta é que ela entre no site como está e que o que o site acrescentar depois fique numa parte separada, com data. Espera a palavra do autor.
+8. Feito na versão 0.7. A lista de referências da tese, a que começa na p. 803, entra no site como está, em `referencias/`, e o que o site acrescentar depois fica na parte Ampliações, com data.
 9. Rascunho na seção 3, para a crítica do autor.
 10. Decidido. Bloco próprio no canto superior direito, ou no inferior direito, claro com letra escura. Proposta de que o bloco sempre contrarie a página, porque o site segue a preferência do aparelho.
 11. Decidido e feito. Texto oficial do Planalto em `estrutura/dispositivos-planalto.json`.
@@ -328,5 +328,17 @@ Respostas do autor de 27/10/2026.
 
 Novas perguntas.
 
-13. A cor da tese. Azul Klein ou outra referência externa.
-14. Se o site deve ser escuro para todos os leitores, como o autor o vê, ou continuar seguindo a preferência do aparelho.
+13. Decidido. Azul Klein, com a paleta aprovada em 27/10/2026.
+14. Decidido em 27/10/2026, com a concordância do autor à proposta da seção 8. O site continua seguindo a preferência do aparelho, claro ou escuro, em todos os modos.
+
+# 10. Achados na lista de referências
+
+Levantamento automático de 27/10/2026, feito ao ligar cada citação do texto à lista de referências. A lista da tese fica intocada no site, como decidido no item 8. O que fazer com cada achado é decisão do autor.
+
+- **Trindade, 2021.** Citado duas vezes, sem entrada correspondente na lista.
+- **Freitas, Riva Sobrado de.** Grafado em minúsculas e fora da ordem alfabética, na p. 826.
+- **Vicent.** Erro de digitação na nota 27, p. 76. A lista grafa VINCENT.
+- **Brasil, [2025a].** Data com erro de digitação numa citação.
+- **League of Legends Wiki.** As citações usam letras (a, b, c) que as entradas da lista não trazem. O site liga essas citações a uma entrada sem título, marcada como incerta.
+- **Burawoy.** Ficou na área Objeto e laboratório, pela falta de outra mais próxima. Vale o autor conferir.
+

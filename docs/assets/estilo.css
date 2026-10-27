@@ -708,6 +708,8 @@ body { font-family: var(--f-display); font-size: 1.06rem; line-height: 1.6; }
 .topo .topo-marca { flex-direction: column; align-items: center; justify-content: center; line-height: 1.05; }
 .topo-projeto { font-size: 0.5em; font-weight: 400; letter-spacing: 0.08em; }
 .topo-nome { font-size: 1em; }
+/* O nome cresce para 22px, e Projeto, com metade, fica em 11px, o mínimo de leitura. Os dois mantêm a proporção. Decisão do autor de 27/10/2026. */
+.topo .topo-marca { font-size: 1.375rem; }
 
 /* Seus direitos. Cada direito em cinco partes, do que acontece até onde vai. */
 .direitos { display: grid; gap: 1.25rem; max-width: var(--medida); margin-top: 1rem; padding-top: 1.25rem; border-top: 3px solid var(--tese); }
@@ -757,6 +759,8 @@ body { padding-bottom: 4.5rem; }
 .ficha { border-radius: 0; }
 body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .didatico.teste { border-radius: 0 var(--raio) var(--raio) 0; }
+/* Com o nome maior, o menu desce para a segunda linha até 900px, e o bloco do texto integral fica no alto, à direita. */
+@media (max-width: 900px) { .topo-marca { order: 1; } .integral { order: 2; margin-left: auto; } .menu-modo { order: 3; flex-basis: 100%; } }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
