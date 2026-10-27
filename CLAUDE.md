@@ -42,6 +42,9 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 3. 27/10/2026. Três camadas. Orientação do autor. A camada externa simplifica e torna a teoria acessível. A camada interna aprofunda e embasa, e é a que o botão de desnudar abre. A camada mais interna se alcança explorando o nome e o perfil do autor no site. Ela mostra a trajetória do trabalho, liga a tese a outras obras da carreira do autor e encaminha o leitor, ao final, ao LinkedIn do autor, com links também para o Lattes e o ORCID.
    - Pendências para executar. Os três links do autor. A lista das obras a ligar, que só entra com a palavra do autor. Ligar ou não a assinatura Galvão D'Andrade, que é identidade autoral separada, fica com o autor.
 
+4. 27/10/2026. A solenidade metodológica fica por trás do botão. Até o leigo precisa entender minimamente o texto do site principal. O desnudamento é ferramenta de estudo e aprofundamento, sobretudo para juristas e para quem é da área temática. Orientação do autor.
+   - Leitura para execução, a confirmar com o autor. Cada camada tem o seu leitor. A externa fala com o leigo. A interna fala com o jurista e com o especialista. A mais interna fala com quem quer saber de quem é a ideia. Os nomes dos nove conceitos também são vocabulário técnico, e na camada externa cada um chega depois do fenômeno que nomeia, contado em palavras comuns e com exemplo tirado da própria tese. A faixa de versão e de conferência por script, as âncoras de página, as contagens e a legenda técnica do modo desnudo saem da primeira vista. A legibilidade do texto externo pode ser medida pelo índice de Flesch adaptado ao português, com meta de leitura fácil, e conferida com pelo menos um leitor leigo.
+
 ## Decisões pendentes do autor
 
 - Manter ou retirar as três leituras da tese na página do Atlas.
