@@ -2524,7 +2524,7 @@ def _dados_cita(achados, prefixo):
         else:
             url = f'{prefixo}referencias/#{e["id"]}'
         obra = ", ".join(x for x in (e["autoria"], e["titulo"]) if x)
-        itens.append({"autoria": e["autoria"], "obra": obra, "pagina": a["pagina"], "url": url, "area": e["area"]})
+        itens.append({"autoria": e["autoria"], "obra": obra, "pagina": a["pagina"], "url": url, "area": e["area"], "pessoa": bool(e["pessoa"])})
     return itens
 
 
@@ -2568,7 +2568,8 @@ def com_autores(corpo, prefixo):
             estilo = f' style="--area:var(--a-{area});--area-t:var(--a-{area}-t)"'
             sinal = "" if nome_antes else (
                 f'<span class="cita-sinal" data-cita="{dados}"{estilo} aria-hidden="true">'
-                + esc(" · ".join(dict.fromkeys(re.sub(r"^.* ", "", i_["autoria"]) if i_["autoria"] else "fonte" for i_ in itens[:2])))
+                # Pessoa aparece pelo sobrenome. Empresa, órgão ou site aparece pelo nome inteiro, que é como a citação o chama.
+                + esc(" · ".join(dict.fromkeys((re.sub(r"^.* ", "", i_["autoria"]) if i_["pessoa"] else i_["autoria"]) if i_["autoria"] else "fonte" for i_ in itens[:2])))
                 + ("" if len(itens) <= 2 else f" +{len(itens) - 2}") + "</span>")
             return f'{sinal}<span class="cita-grupo" data-cita="{dados}"{estilo}>{m.group(0)}</span>'
         pedacos[i] = re.sub(r"\(([^()<>]{3,400})\)", troca, pedaco)

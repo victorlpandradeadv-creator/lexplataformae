@@ -135,7 +135,7 @@ O que você recebe quando paga por algo digital?
 
 Quem compra uma geladeira leva a geladeira para casa. A partir daí, ela funciona longe de quem vendeu, e a loja só volta a entrar na história se aparecer um defeito.
 
-Com muita coisa digital não é assim. Quem compra um item num jogo, uma assinatura num aplicativo ou um acesso numa plataforma também compra algo, mas o uso disso continua dependendo, todos os dias, de um ambiente que a empresa mantém, ajusta e pode mudar. O que você tem só funciona do lado de dentro, sob as regras de quem governa o lugar.
+Com muita coisa digital não é assim. Quem compra um item num jogo, uma assinatura num aplicativo ou um acesso numa plataforma também compra algo. Mas o uso disso continua dependendo, todos os dias, de um ambiente que a empresa mantém, ajusta e pode mudar. O que você tem só funciona do lado de dentro, sob as regras de quem governa o lugar.
 
 As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e cujo defeito dá para ver olhando. Elas não dão conta, sozinhas, de um produto que continua sendo mexido depois da venda. O que decide se você está nesse tipo de situação não é o item ser digital, nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende do ambiente que a plataforma governa.
 
@@ -145,7 +145,7 @@ As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e c
 
 ### nome
 
-Objeto Imaterial de Consumo, ou OIC. É o nome desse tipo de produto, em que o que conta não é só a imagem que aparece na tela, mas a posição de uso que você passa a ocupar e que a plataforma sustenta dia após dia.
+Objeto Imaterial de Consumo, ou OIC. É o nome desse tipo de produto. Nele, o que conta não é só a imagem que aparece na tela, mas a posição de uso que você passa a ocupar e que a plataforma sustenta dia após dia.
 
 Repare que o nome não diz que você comprou menos. Diz que você comprou um produto, no sentido da lei do consumidor, cujo fornecimento continua depois da compra. O serviço que a plataforma presta não apaga o produto. Ele é justamente o jeito de manter, atualizar e moldar o que foi vendido.
 
@@ -200,7 +200,7 @@ A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que co
 
 Dar nome muda o que a lei consegue ver, e isso tem efeito em dois lugares.
 
-No primeiro, a empresa deixa de conseguir tirar o caso da lei do consumidor só dizendo que presta um serviço ou que deu uma licença de uso, como se essas palavras bastassem para tornar o que você comprou algo precário.
+No primeiro, a empresa deixa de conseguir tirar o caso da lei do consumidor só dizendo que presta um serviço ou que deu uma licença de uso. Essas palavras não bastam para tornar precário o que você comprou.
 
 No segundo, muda o centro da discussão. Em vez de olhar só o contrato que você aceitou num dia, olha-se o uso que você faz, todos os dias, do que comprou. O contrato continua importando, mas não explica sozinho uma relação que se realiza o tempo todo por meios que vão muito além do texto. Assim, ser imaterial deixa de servir de desculpa para a plataforma não responder pelo que entrega.
 
@@ -238,7 +238,7 @@ O que exatamente você comprou?
 
 Um item num jogo não é só uma imagem. Ele serve para alguma coisa nas partidas, aparece para os outros jogadores, conta para a sua reputação e diz algo sobre quem você é naquele lugar. Uma skin rara, por exemplo, é bonita, mas também mostra há quanto tempo você joga e a que grupo pertence.
 
-Tudo isso junto é o que você comprou. E cada uma dessas partes depende de regras que a plataforma ajusta ao longo do tempo, como o que fica visível, em que ordem as coisas aparecem, quais sinais contam como conquista e o que acontece com quem quebra uma regra.
+Tudo isso junto é o que você comprou. E cada uma dessas partes depende de regras que a plataforma ajusta ao longo do tempo. São regras sobre o que fica visível, em que ordem as coisas aparecem, quais sinais contam como conquista e o que acontece com quem quebra uma regra.
 
 > O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
 > o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação, acoplado a permissões e limites de uso, a regimes de visibilidade e ordenação, a métricas e sinais de reconhecimento, e a mecanismos de curadoria e enforcement executados por desenho. (p. 426)
@@ -374,7 +374,7 @@ Quando você é punido, com suspensão temporária ou corte do chat, a sua nota 
 
 Quando a regra que vale é a que está rodando, a disputa deixa de ser só sobre o texto do contrato e passa a ser sobre quem governa o que é possível fazer ali dentro.
 
-Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele, como transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos que dê para conferir, um caminho real para contestar e a recomposição do que foi perdido.
+Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele. Entre eles estão transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos que dê para conferir, um caminho real para contestar e a recomposição do que foi perdido.
 
 > o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
 > Por isso, impõem-se parâmetros proporcionais de transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição. (p. 364)
@@ -461,7 +461,7 @@ E isso muda a forma de tratar o conflito. Em vez de discutir se você foi atento
 
 Isso não é chamar você de ingênuo nem de incapaz diante da tecnologia. E não basta haver tela, algoritmo ou internet no meio para o problema existir.
 
-A desvantagem que conta é a que aparece quando o governo do sentido atua de forma estrutural sobre o que você consegue entender, comparar, prever e contestar, num ambiente em que quem organiza os sinais também tem o poder de mudar, punir e ajustar a relação.
+A desvantagem que conta é a que aparece quando o controle do sentido pesa de forma estrutural sobre o que você consegue entender, comparar, prever e contestar. Isso acontece num ambiente em que quem organiza os sinais também tem o poder de mudar, punir e ajustar a relação.
 
 > O termo não designa ingenuidade, credulidade ou deficiência cultural do consumidor. (p. 719-720)
 > Tampouco se trata de pressupor incapacidade absoluta diante do digital. (p. 720)
@@ -490,7 +490,7 @@ Escassez encenada, urgência fabricada, promessa de progresso, ameaça de perder
 
 ### nome
 
-Teleologia abusiva. Teleologia quer dizer finalidade, aquilo para o que uma coisa aponta. A finalidade é abusiva quando o jeito de fornecer o serviço passa a apontar, na prática, para explorar a fragilidade de quem usa, para esconder o que se perde ou para transformar cada mudança numa forma de prender e de cobrar.
+Teleologia abusiva. Teleologia quer dizer finalidade, aquilo para o que uma coisa aponta. A finalidade é abusiva quando o jeito de fornecer o serviço passa a apontar, na prática, para explorar a fragilidade de quem usa. Ou para esconder o que se perde, ou para transformar cada mudança numa forma de prender e de cobrar.
 
 O ponto decisivo é que ninguém precisa adivinhar intenções. Não se investiga o que se passava na cabeça de alguém na empresa. O que se olha é a finalidade que aparece no próprio funcionamento, pelo padrão que se repete, pela coerência entre as peças e pelo efeito que se produz de novo e de novo.
 
@@ -565,7 +565,7 @@ Uma infração pode estar no desenho de um aplicativo?
 
 Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que dá para sublinhar e mostrar ao juiz. Mas há casos em que nenhuma cláusula, sozinha, é o problema.
 
-O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas, um caminho para cancelar que parece feito para você desistir, equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Cada peça parece pequena. Juntas, funcionam como método.
+O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas e um caminho para cancelar que parece feito para você desistir. E também equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Cada peça parece pequena. Juntas, funcionam como método.
 
 > O ilícito não nasce, portanto, de um episódio singular que pode ser tratado como acidente. Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração. (p. 666)
 > Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura. (p. 664)
@@ -733,7 +733,7 @@ Ela controla o desenho do ambiente, os critérios das mudanças, os registros do
 
 ### nome
 
-Auditabilidade aberta. Auditar é conferir, e o nome descreve um padrão de transparência que serve para alguma coisa. É a exigência de condições mínimas para que juízes, peritos, órgãos de defesa do consumidor e, em certa medida, o próprio consumidor consigam reconstruir a história entre o que foi prometido, o que mudou, a punição aplicada, o efeito sobre o uso e a justificativa que a empresa deu.
+Auditabilidade aberta. Auditar é conferir, e o nome descreve um padrão de transparência que serve para alguma coisa. É a exigência de condições mínimas para que juízes, peritos, órgãos de defesa do consumidor e, em certa medida, o próprio consumidor consigam reconstruir a história do que aconteceu. Essa história liga o que foi prometido, o que mudou, a punição aplicada, o efeito sobre o uso e a justificativa que a empresa deu.
 
 Vale entender de onde ela vem. Não é uma lei nova com nome próprio, nem um direito que surgiu do nada. É um desdobramento de deveres que a lei do consumidor já tem, como o dever de informar, a boa-fé e a facilitação da defesa do consumidor. Ela serve para que a informação não cumpra o seu papel só no papel, escondida em documentos enormes, avisos e históricos de atualização que ninguém consegue achar nem ligar ao que aconteceu.
 
@@ -813,7 +813,7 @@ Mas às vezes, depois de uma atualização, o item continua lá e já não serve
 
 Equivalência de valor funcional. É o teste que pergunta se, depois da mudança, o produto ainda cumpre o mesmo papel na sua experiência.
 
-O teste é exigente. Não basta o item continuar funcionando, nem manter os mesmos números em algum atributo isolado. O que conta é o papel inteiro que ele tinha, o que inclui a utilidade concreta no jogo, o lugar que ele ocupa entre os outros usuários e, quando isso importa para o direito, o que ele significa para quem o tem. Um item pode continuar na conta e abrir normalmente, e ainda assim ter perdido aquilo que justificou a compra.
+O teste é exigente. Não basta o item continuar funcionando, nem manter os mesmos números em algum atributo isolado. O que conta é o papel inteiro que ele tinha. Isso inclui a utilidade concreta no jogo, o lugar que ele ocupa entre os outros usuários e, quando isso importa para o direito, o que ele significa para quem o tem. Um item pode continuar na conta e abrir normalmente, e ainda assim ter perdido aquilo que justificou a compra.
 
 > O que importa é a preservação substancial do papel exercido pelo objeto na experiência adquirida, considerando sua utilidade concreta no ecossistema, sua inserção relacional no ambiente de uso e, quando juridicamente relevante, sua densidade identitária ou simbólica. (p. 729)
 > A equivalência de valor funcional não se reduz à manutenção de desempenho técnico em sentido estrito, nem à preservação quantitativa de atributos isolados. Seu conteúdo é mais exigente. (p. 729)
@@ -831,7 +831,7 @@ Nas plataformas, o corte raramente vem com esse nome. Aparece como alcance menor
 
 ### mecanismo
 
-Para fazer o teste, compara-se o antes e o depois. Examinam-se as versões que importam, identifica-se o centro da utilidade que foi atingido e avalia-se o papel do objeto na experiência, olhando a utilidade, o lugar que ele ocupa entre os outros e, quando importa, o que ele significa.
+Para fazer o teste, compara-se o antes e o depois. Examinam-se as versões que importam e identifica-se o centro da utilidade que foi atingido. Depois, avalia-se o papel do objeto na experiência, olhando a utilidade, o lugar que ele ocupa entre os outros e, quando importa, o que ele significa.
 
 Algumas perguntas ajudam. A atualização tirou uma função importante? Enfraqueceu o item a ponto de ele perder a utilidade que você pagou para ter? Mudou a tela de um jeito que bagunça o uso de todo dia? Redefiniu regras de modo a rebaixar o que tinha sido prometido como equivalente? Se a resposta for sim, a plataforma podia mudar, mas deveria ter preservado o valor do que você tinha ou aberto espaço para uma recomposição. E você não precisa provar que é dono pleno do item para reclamar disso.
 

@@ -751,6 +751,13 @@ body { padding-bottom: 4.5rem; }
   .degraus label { flex: none; padding: 0 0.55rem; font-size: 0.78rem; }
 }
 
+/* O nome do conceito em cada modo herda a cor e o corpo de onde está, inclusive nos cartões. */
+.cartao b span, .chapado span, .nome-conceito a span { color: inherit; font-size: inherit; font-style: inherit; line-height: inherit; }
+/* Auditoria de 27/10/2026. As fichas de autor ficam retas, e o sobrenome do autor nas citações não fica abaixo de 11px. */
+.ficha { border-radius: 0; }
+body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
+.didatico.teste { border-radius: 0 var(--raio) var(--raio) 0; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

@@ -232,7 +232,7 @@ Visto de dentro, faz sentido, porque lá a skin é um sinal que todo mundo sabe 
 
 ### texto
 
-É por isso que a sua frustração, quando a skin muda, não é capricho. Imagine que uma atualização altere a aparência dela, os efeitos, a raridade que todo mundo enxergava ou o lugar dela na economia do jogo. A skin continua na sua conta, com o mesmo nome, mas deixa de encaixar no mundo do jogo do jeito que encaixava, e era esse encaixe que dava valor a todo o tempo, dinheiro e atenção que você colocou ali.
+É por isso que a sua frustração, quando a skin muda, não é capricho. Imagine que uma atualização altere a aparência dela, os efeitos, a raridade que todo mundo enxergava ou o lugar dela na economia do jogo. A skin continua na sua conta, com o mesmo nome, mas deixa de encaixar no mundo do jogo do jeito que encaixava. E era esse encaixe que dava valor a todo o tempo, dinheiro e atenção que você colocou ali.
 
 O direito pode olhar para isso de dois jeitos. Pode tratar como um desgosto pessoal, coisa de quem se apega demais, ou pode tratar como a piora de algo cujo centro é feito de sentido e de relação com os outros. Essa segunda leitura é a que permite levar a perda a sério.
 
@@ -632,7 +632,7 @@ Quando você é punido, com suspensão temporária ou corte do chat, a sua nota 
 
 ### texto
 
-Isso não quer dizer que a empresa sabote os jogadores de propósito, e ninguém precisa provar isso. O ponto é mais simples. A empresa monta o jogo, mede as partidas, controla os canais de conversa e define os critérios de punição, mas não mostra a você como esses critérios funcionam na mesma medida em que aplica os efeitos deles.
+Isso não quer dizer que a empresa sabote os jogadores de propósito, e ninguém precisa provar isso. O ponto é mais simples. A empresa monta o jogo, mede as partidas, controla os canais de conversa e define os critérios de punição. Mas não mostra a você como esses critérios funcionam, na mesma medida em que aplica os efeitos deles.
 
 Por isso, num conflito, a pergunta não é só se você quebrou uma regra. É também se os critérios usados para dizer que você quebrou, e para punir, são legítimos.
 
@@ -831,7 +831,7 @@ A diferença é quem escreve a regra, que no trânsito é a lei. Dentro do jogo,
 
 Lembra da compra na vitrine e da licença no contrato? Esse atrito, simples e fácil de conferir, é o retrato mais claro de uma desvantagem que vai além de saber ou não saber.
 
-Você pode ler cada linha dos termos de uso e continuar sem conseguir conferir se recebeu o que foi prometido. Não por falta de atenção, e sim porque o sentido das coisas lá dentro, o que vale, o que é raro e o que conta como erro, é fixado por regras e registros que a plataforma controla. É ela que decide quais ligações entre as coisas ficam visíveis e quais caminhos de leitura ficam abertos para você.
+Você pode ler cada linha dos termos de uso e continuar sem conseguir conferir se recebeu o que foi prometido. Não por falta de atenção. É que o sentido das coisas lá dentro é fixado por regras e registros que a plataforma controla, inclusive o que vale, o que é raro e o que conta como erro. É ela que decide quais ligações entre as coisas ficam visíveis e quais caminhos de leitura ficam abertos para você.
 
 Por isso o problema deixa de ser saber mais e passa a ser conseguir se orientar e reagir. Quando o ambiente controla o que aparece, o que é reconhecido e como as consequências são distribuídas, fica mais difícil planejar, prever o que vai acontecer e contestar uma decisão. O que você tem diante de si é uma desigualdade de entendimento e de capacidade de agir, criada pelo jeito como a plataforma governa o lugar.
 
@@ -1061,7 +1061,7 @@ A raridade encenada, a pressa fabricada, a promessa de progresso, o medo de perd
 
 ### nome teleologia-abusiva
 
-Teleologia quer dizer finalidade. Ela vira abusiva quando o jeito de fornecer o serviço passa a apontar, na prática, para explorar a fragilidade de quem usa, para esconder o que se perde ou para transformar cada mudança numa forma de prender e de cobrar.
+Teleologia quer dizer finalidade. Ela vira abusiva quando o jeito de fornecer o serviço passa a apontar, na prática, para explorar a fragilidade de quem usa. Ou para esconder o que se perde, ou para transformar cada mudança numa forma de prender e de cobrar.
 
 O ponto mais importante aqui é que ninguém precisa adivinhar intenções. Não se investiga o que se passava na cabeça de alguém na empresa, nem se condena toda forma de vender, de convencer ou de administrar um jogo. O que se olha é para onde o desenho aponta, pelo padrão que se repete, pela coerência entre as peças e pelo efeito que ele produz de novo e de novo.
 
@@ -1106,7 +1106,7 @@ E há finalidades legítimas que a plataforma pode e deve perseguir, como a segu
 
 Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que dá para sublinhar. Mas, às vezes, nenhuma cláusula sozinha é o problema.
 
-O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas, um caminho para cancelar que parece feito para você desistir, equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Quando essas peças funcionam juntas como método, de modo estável, o problema já não está só no texto. Está no desenho.
+O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas e um caminho para cancelar que parece feito para você desistir. E também equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Quando essas peças funcionam juntas como método, de modo estável, o problema já não está só no texto. Está no desenho.
 
 Por isso se diz que, nesses casos, o desenho também é conduta. A forma como o serviço foi montado é tratada como algo que a empresa faz, e pelo qual responde, e não como um cenário neutro onde as coisas simplesmente acontecem.
 
@@ -1239,7 +1239,7 @@ A defesa do consumidor, aliás, é ao mesmo tempo direito fundamental e princíp
 
 Direitos fundamentais são aqueles que a Constituição garante a todas as pessoas, como a liberdade e a igualdade. Durante muito tempo se pensou neles como uma proteção contra o Estado. Hoje se reconhece que eles também valem nas relações entre particulares, e é isso que a expressão eficácia horizontal quer dizer.
 
-Isso importa porque o poder que pesa sobre você nem sempre vem do governo. Uma empresa que organiza, em grande escala, o seu acesso, a sua permanência, a sua visibilidade, a sua reputação e até as suas chances de provar e de contestar também pode ferir a sua liberdade e a sua igualdade. E a liberdade de contratar não pode servir de biombo para esconder relações tão desiguais.
+Isso importa porque o poder que pesa sobre você nem sempre vem do governo. Pense numa empresa que organiza, em grande escala, o seu acesso, a sua permanência, a sua visibilidade, a sua reputação e até as suas chances de provar e de contestar. Ela também pode ferir a sua liberdade e a sua igualdade. E a liberdade de contratar não pode servir de biombo para esconder relações tão desiguais.
 
 > nas relações privadas contemporâneas, a sujeição relevante já não provém apenas do Estado. Ela também emerge de centros privados de poder capazes de organizar acesso, permanência, visibilidade, reputação, prova e contestação em escala suficiente para afetar, de modo estrutural, a liberdade prática e a igualdade material do sujeito submetido à relação. (p. 512)
 > a autonomia privada não pode funcionar como biombo para blindar arranjos materialmente assimétricos (p. 512)
@@ -1313,7 +1313,7 @@ Repare na diferença que isso faz. Você deixa de dizer só eu não entendi e pa
 
 ### mecanismo
 
-E a lei já tem ferramentas para o resto. Uma delas é a inversão do ônus da prova. Normalmente, quem alega um fato precisa prová-lo. Na relação de consumo, o juiz pode inverter esse peso a favor do consumidor, e, quando o serviço é muito técnico e o fornecedor domina tudo, essa inversão muitas vezes é o único jeito de a proteção funcionar.
+E a lei já tem ferramentas para o resto. Uma delas é a inversão do ônus da prova. Normalmente, quem alega um fato precisa prová-lo. Na relação de consumo, o juiz pode inverter esse peso a favor do consumidor. E, quando o serviço é muito técnico e o fornecedor domina tudo, essa inversão muitas vezes é o único jeito de a proteção funcionar.
 
 Há outras. O juiz pode mandar a plataforma guardar as evidências e exibir documentos. E pode dividir o trabalho de provar de outro jeito quando uma parte tem muita dificuldade e a outra tem muita facilidade de produzir a prova.
 
@@ -1329,7 +1329,7 @@ Nada disso é automático. Há quem defenda que a inversão deveria valer sempre
 
 ### termo Recomposição funcional
 
-E o que se pede, afinal? Antes de dinheiro, que se devolva o que foi tirado. Isso pode ser restaurar o seu acesso, rever ou desfazer a punição, devolver à skin a função que ela tinha, preservar o seu histórico, oferecer um substituto que cumpra o mesmo papel e corrigir o procedimento que causou o problema.
+E o que se pede, afinal? Antes de dinheiro, que se devolva o que foi tirado. Isso pode ser restaurar o seu acesso, rever ou desfazer a punição e devolver à skin a função que ela tinha. Pode ser também preservar o seu histórico, oferecer um substituto que cumpra o mesmo papel e corrigir o procedimento que causou o problema.
 
 A razão é simples. Quando o que você perdeu foi a possibilidade de continuar usando algo, uma indenização sozinha costuma ser um remédio pobre. Ela põe um número no lugar da perda, mas não devolve a conta, o histórico nem o lugar que você tinha no jogo.
 
@@ -1402,7 +1402,7 @@ Não, o jogo só mostra tudo mais nítido.
 
 ### texto
 
-Talvez você nem jogue. Pense então no assistente de inteligência artificial que você usa para estudar ou trabalhar, na loja virtual onde você compra, no aplicativo que distribui corridas e entregas e no atendimento simpático que faz a sua reclamação parecer exagero.
+Talvez você nem jogue. Pense então no assistente de inteligência artificial que você usa para estudar ou trabalhar e na loja virtual onde você compra. Pense no aplicativo que distribui corridas e entregas e no atendimento simpático que faz a sua reclamação parecer exagero.
 
 O jogo foi o ponto de partida porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora do jogo, os mesmos efeitos costumam vir embrulhados como coisa inevitável, e por isso ficam mais difíceis de enxergar.
 

@@ -76,7 +76,7 @@ Essa fragilidade não tem a ver com ingenuidade, falta de atenção ou pouca int
 
 ### deve
 
-Não montar a experiência de um jeito que só a plataforma entende. O desenho do ambiente precisa respeitar a boa-fé, a transparência e a possibilidade real de você compreender o que está usando.
+Não montar a experiência de um jeito que só a plataforma entende. O desenho do ambiente precisa respeitar a boa-fé, que é o dever de lealdade entre as partes, a transparência e a possibilidade real de você compreender o que está usando.
 
 ### mostrar
 
@@ -211,7 +211,7 @@ Os registros essenciais do sistema, o histórico das versões que importam, os r
 
 ### pedir
 
-Que esses registros sejam preservados e mostrados e que haja perícia sobre pontos delimitados. Que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma.
+Que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha.
 
 ### limite
 
@@ -257,7 +257,7 @@ Que utilidade o item tinha antes, o que mudou, qual foi o impacto concreto da mu
 
 ### pedir
 
-Em primeiro lugar, que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço.
+Em primeiro lugar, que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço, que é o nome que a lei dá ao problema que torna algo menos útil do que deveria ser.
 
 ### limite
 
@@ -387,7 +387,7 @@ Quanto mais o que aconteceu depende do que só a plataforma registra, menos razo
 
 ### pedir
 
-Que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor e um dever reforçado de a plataforma colaborar com a prova.
+Que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor, que fazem certos fatos valerem como verdadeiros até prova em contrário, e um dever reforçado de a plataforma colaborar com a prova.
 
 ### limite
 
@@ -422,7 +422,7 @@ Vale entender o papel desses direitos. A propriedade intelectual não aparece aq
 
 ### deve
 
-Usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social e pelos limites que a Constituição impõe a quem exerce poder privado.
+Usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social, que é a ideia de que esses direitos existem também para servir ao interesse da sociedade. E se faz pelos limites que a Constituição impõe a quem exerce poder privado.
 
 ### mostrar
 
@@ -437,6 +437,7 @@ Que a lei do consumidor continue valendo. Na prática, isso pode significar um e
 A empresa continua dona do jogo, da arte e do código, e isso vale no campo próprio desses direitos. Ninguém pede que ela abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
+> subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
 > Nesse cenário, a propriedade intelectual comparece como infraestrutura de governança semiótica e técnica. Ela não apenas protege criações, mas contribui para delimitar usos, restringir reconfigurações e consolidar a autoridade do fornecedor sobre as condições de fruição (p. 130)
 > Licenças e restrições técnicas não são tratadas apenas como conteúdo contratual (p. 54)
 > que delimita o que pode ser usado, por quanto tempo, em que condições (p. 54)
