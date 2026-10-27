@@ -94,6 +94,30 @@ Conhecer já está limpa. Verificar é onde está o problema, e o pior caso é j
 - **O capítulo 7 como fonte principal.** O Roteiro e o Laboratório sustentam a maior parte do que o leigo e o técnico precisam. O conteúdo das outras seções entra em grande quantidade, só que tecido no texto, sem número e sem remissão.
 - **Citação pronta para a petição.** Ao passar o mouse ou tocar num trecho, o técnico recebe a citação inteira para copiar, com o trecho literal, a referência completa da tese e a página. Isso atende o técnico e também garante que quem copia leve a referência.
 
+## A lei na tela do técnico
+
+Orientação do autor de 27/10/2026. Verificar é a tela do técnico, e por isso os artigos de lei podem e devem aparecer, com o texto integral de cada dispositivo em rodapé, para que a pessoa não precise abrir a lei. O que não entra é o processo científico e acadêmico. Lei é ferramenta de trabalho do advogado. Método, justificativa, autores, teoria e números de seção não são.
+
+O que a tese já oferece para isso.
+
+- **77 notas de rodapé da tese transcrevem dispositivos por inteiro.** São 71 artigos diferentes, de 11 diplomas.
+  - O Código de Defesa do Consumidor tem 21 artigos transcritos. Entre eles estão os arts. 2º, 3º, 4º, 6º, 7º, 14, 18, 20, 26, 29, 30, 31, 35, 38, 39, 46, 47 e 84.
+  - A Constituição tem os arts. 1º, 3º, 5º e 170.
+  - O Código Civil tem os arts. 421, 422 e 481.
+  - O Código de Processo Civil tem os arts. 373 e 396 a 400.
+  - A Lei Geral de Proteção de Dados tem os arts. 6º, 7º, 8º, 18 e 46.
+  - O marco legal dos jogos eletrônicos tem os arts. 1º a 6º, 11 e 12.
+  - O Estatuto Digital da Criança e do Adolescente tem os arts. 1º, 5º, 20, 22, 29 e 40.
+  - Também há artigos da lei de propriedade industrial, da lei de direitos autorais, da lei do software e do decreto que designa a ANPD.
+- **Esses textos são literais e conferíveis pelo mesmo script das citações.** O rodapé do técnico pode sair deles sem nenhuma fonte externa. O levantamento está em `estrutura/inventario-dispositivos-transcritos.json`.
+- **Alguns dispositivos são citados no corpo sem transcrição.** É o caso do art. 51 do Código de Defesa do Consumidor, com o inciso XIII sobre modificação unilateral, do art. 173 da Constituição e dos arts. 1º, 48 e 54 do Código de Defesa do Consumidor. Para esses, o texto viria da fonte oficial, com a data da consulta e a marca de acréscimo posterior, ou da palavra do autor.
+
+Como fica na tela.
+
+- No corpo, o artigo aparece como o advogado o escreve, por exemplo art. 6º, VIII, do CDC.
+- No rodapé da página, o texto integral do dispositivo, na redação que a tese transcreve.
+- Nenhum rodapé traz número de seção, página da tese ou nome de autor.
+
 # 4. Fonte, página e referência
 
 - **Hoje.** Cada trecho citado vem seguido da caixa com a página. Muitos trechos trazem dentro a referência entre parênteses, como (Riot Games, 2024e) ou (Nunes, 2018, [p. 508-509]).
@@ -214,4 +238,5 @@ Não é decisão. É o ponto de partida que o autor pediu, com a justificativa d
 8. Se a lista da tese fica intocada e as ampliações ficam datadas e à parte.
 9. Os títulos por situação para os blocos do Roteiro na tela do técnico.
 10. Onde fica o acesso discreto ao texto integral nas telas do leigo e do técnico.
-11. Quais citações de autores entram nos balões. O levantamento automático já tem as 802 citações formais por autor e seção e pode virar a lista de trabalho.
+11. Se os dispositivos citados sem transcrição entram com o texto oficial, datado e marcado como acréscimo, ou ficam de fora até a palavra do autor.
+12. Quais citações de autores entram nos balões. O levantamento automático já tem as 802 citações formais por autor e seção e pode virar a lista de trabalho.
