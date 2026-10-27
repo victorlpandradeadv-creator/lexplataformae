@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.4"
+VERSAO = "0.5"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -141,9 +141,30 @@ def conceitos_do_atlas():
     return [c for c in D["conceitos"] if c["tipo"] == "conceito"]
 
 
-def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
+LEGENDA = {
+    "mista": ("Arquitetura à mostra. Abaixo de cada trecho simplificado aparecem as passagens do texto integral que ele condensa, "
+              "com a página exata. Os contornos tracejados mostram as peças da página e de onde cada uma vem."),
+    "interna": ("Camada de estudo. Aqui o texto vem como está no original, com as páginas, as notas e as referências. "
+                "Os contornos tracejados mostram as peças da página e de onde cada uma vem. Desligue a chave para voltar à superfície."),
+}
+
+
+def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None):
+    """Monta a página.
+
+    camada 'mista' tem texto limpo na superfície e a arquitetura sob o botão de desnudar.
+    camada 'interna' é página de estudo, que já abre desnuda. Desligar a chave leva de volta à superfície.
+    camada 'externa' não tem arquitetura própria a mostrar.
+    """
     canonico = BASE + "/" + caminho
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
+    interna = camada == "interna"
+    inicio = prefixo or "./"
+    sup = superficie if superficie is not None else inicio
+    lembrar = ("" if interna else
+               "<script>try{if(localStorage.getItem('lexp-desnudo')==='1'){document.getElementById('desnudar').checked=true;"
+               "document.body.classList.add('desnudo')}}catch(e){}</script>")
+    legenda = LEGENDA["interna" if interna else "mista"]
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -151,6 +172,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(descricao)}">
+<meta name="author" content="Victor L. P. Andrade">
 <link rel="canonical" href="{esc(canonico)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lex Plataformae">
@@ -162,44 +184,102 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None):
 <link rel="alternate" type="application/json" href="{prefixo}dados/atlas.json" title="Dados do Atlas">
 {ld}
 </head>
-<body>
+<body class="{'desnudo' if interna else ''}" data-camada="{camada}" data-superficie="{esc(sup)}">
+<label class="chave-mestra" for="desnudar">
+  <input type="checkbox" id="desnudar"{' checked' if interna else ''}>
+  <span class="interruptor" aria-hidden="true"></span>
+  <span class="chave-texto"><b class="desligado">Desnudar a arquitetura</b><b class="ligado">Arquitetura à mostra</b><small class="desligado">Veja de onde vem cada frase</small><small class="ligado">{'Desligue para voltar à superfície' if interna else 'Desligue para voltar ao texto limpo'}</small></span>
+</label>
+{lembrar}
 <div class="moldura">
-  <div class="faixa" data-arq="versão · o site cresce em público e cada mudança fica registrada">
+  <div class="faixa interno" data-arq="versão · o site cresce em público e cada mudança fica registrada">
     <span>Versão {VERSAO} · em construção</span>
-    <span>Citações conferidas por script contra a tese</span>
+    <span>Citações conferidas por script contra o texto integral</span>
   </div>
   <header class="topo">
-    <a class="topo-marca" href="{prefixo}">Lex Plataformae</a>
+    <a class="topo-marca" href="{inicio}">Lex Plataformae</a>
     <nav aria-label="Seções">
       <ul>
-        <li><a href="{prefixo}">Atlas</a></li>
-        <li><a href="{prefixo}metodo/">Método</a></li>
-        <li><a href="{prefixo}fundamentos/">Fundamentos</a></li>
-        <li><a href="{prefixo}dogmatica/">Dogmática</a></li>
-        <li><a href="{prefixo}roteiro/">Roteiro</a></li>
+        <li><a href="{prefixo}#conceitos">Conceitos</a></li>
         <li><a href="{prefixo}laboratorio/">Laboratório</a></li>
-        <li><a href="{prefixo}#epigrafes">Epígrafes</a></li>
-        <li><a href="{prefixo}tese/">A tese</a></li>
+        <li class="interno"><a href="{prefixo}metodo/">Método</a></li>
+        <li class="interno"><a href="{prefixo}fundamentos/">Fundamentos</a></li>
+        <li class="interno"><a href="{prefixo}dogmatica/">Dogmática</a></li>
+        <li class="interno"><a href="{prefixo}roteiro/">Roteiro</a></li>
+        <li class="interno"><a href="{prefixo}tese/">Texto integral</a></li>
       </ul>
     </nav>
-    <label class="chave" for="desnudar">
-      <input type="checkbox" id="desnudar">
-      Desnudar a arquitetura
-    </label>
   </header>
-  <p class="legenda-desnudo" role="note">Arquitetura à mostra. Cada contorno tracejado é uma peça da página, e a etiqueta diz o que ela é e de onde vem. As caixas em volta dos números de página são âncoras na tese. Nada nesta página afirma algo sem apontar a página que sustenta.</p>
+  <p class="legenda-desnudo" role="note">{esc(legenda)}</p>
   <main>
 {corpo}
   </main>
   <footer class="rodape">
-    <p>ANDRADE, Victor Luiz Pereira de. Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae. A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026. <a href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a>.</p>
-    <p>Todo texto entre aspas é transcrição literal da tese, com a página indicada. Acréscimos posteriores à tese aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="{REPO}">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
+    <div class="interno rodape-estudo">
+      <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="{REPO}">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
+    </div>
+    <p class="assinatura">Quem está por trás destas ideias? <a href="{prefixo}autor/">Victor L. P. Andrade</a></p>
   </footer>
 </div>
 <script src="{prefixo}assets/atlas.js" defer></script>
 </body>
 </html>
 """
+
+
+# Camada externa. Texto simples da primeira vista, em conteudo/camada-externa.md, com os trechos que cada bloco condensa.
+def carregar_externa():
+    arq = RAIZ / "conteudo" / "camada-externa.md"
+    dados, pag, campo_ = {}, None, None
+    if not arq.exists():
+        return dados
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            pag, campo_ = linha[3:].strip(), None
+            dados.setdefault(pag, {})
+            continue
+        if linha.startswith("### ") and pag:
+            campo_ = linha[4:].strip()
+            dados[pag][campo_] = {"paragrafos": [], "citacoes": []}
+            continue
+        if not (pag and campo_):
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", linha)
+        if m:
+            dados[pag][campo_]["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif linha.strip():
+            dados[pag][campo_]["paragrafos"].append(linha.strip())
+    return dados
+
+
+EXTERNA = carregar_externa()
+
+
+def expansao(cits, prefixo):
+    """Os trechos literais que um bloco simples condensa. Só aparecem quando o leitor desnuda a página."""
+    if not cits:
+        return ""
+    return ('<div class="interno expansao" data-arq="de onde vem · trechos literais conferidos por script">'
+            + "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in cits)
+            + "</div>")
+
+
+def ext_texto(pag, campo_):
+    b = EXTERNA.get(pag, {}).get(campo_)
+    return " ".join(b["paragrafos"]) if b else ""
+
+
+def ext_html(pag, campo_, prefixo, classe=""):
+    b = EXTERNA.get(pag, {}).get(campo_)
+    if not b:
+        return ""
+    atributo = f' class="{classe}"' if classe else ""
+    return "".join(f"<p{atributo}>{esc(t)}</p>" for t in b["paragrafos"]) + expansao(b["citacoes"], prefixo)
+
+
+def botao_desnudar():
+    return ('<label class="botao convite-botao" for="desnudar"><span class="desligado">Desnudar a arquitetura</span>'
+            '<span class="ligado">Voltar ao texto limpo</span></label>')
 
 
 def html_passo(passo, base):
@@ -239,11 +319,6 @@ def gerar_inicio():
     independentes = em_ordem([c for c in conceitos_do_atlas() if c is not EIXO and not (gemeo and c is gemeo)])
     base = "conceitos/"
 
-    cartoes = "".join(
-        f'<li><a class="cartao" href="{base}{c["id"]}/"><b>{esc(c["nome"])}</b>'
-        f'<span>{com_ancoras(primeira_frase((campo(c, "Função no regime") or {"texto": ""})["texto"]))}</span></a></li>'
-        for c in independentes
-    )
     opcoes = "".join(
         f'<input type="radio" name="percurso" id="percurso-{k}" value="{k}"{" checked" if k == padrao else ""}>'
         f'<label for="percurso-{k}"><b>{esc(p["nome"])}</b><span>{esc(p["onde"])} · {esc(p["fonte"])}</span></label>'
@@ -273,41 +348,67 @@ def gerar_inicio():
     )
     ab = D["abertura"]
 
+    cart = EXTERNA.get("cartoes", {})
+
+    def cartao(c, classe=""):
+        bloco = cart.get(c["id"], {})
+        frase = bloco.get("paragrafos", [""])[0] if bloco.get("paragrafos") else ""
+        # O cartão do OIC dispensa a expansão, porque a definição literal aparece logo abaixo dele.
+        exp = "" if c is EIXO else expansao(bloco.get("citacoes", []), "")
+        return (f'<li><a class="cartao{classe}" href="{base}{c["id"]}/"><span class="cartao-frase">{esc(frase)}</span>'
+                f'<b>{esc(c["nome"])}</b></a>{exp}</li>')
+
+    eixo_cartoes = cartao(EIXO, " cartao-eixo") + (cartao(gemeo, " cartao-eixo") if gemeo else "")
+    cartoes = "".join(cartao(c) for c in independentes)
+
     corpo = f"""
     <section class="abertura" aria-labelledby="titulo">
-      <p class="sobrelinha">Tese de doutorado · UNESP · 2026</p>
-      <h1 class="marca" id="titulo">Lex Plataformae</h1>
-      <p class="lema">Atlas do regime jurídico do Objeto Imaterial de Consumo. A partir da tese de Victor L. P. Andrade.</p>
-      <blockquote class="frase" data-arq="citação literal · conferida por script contra a tese">“{esc(ab["texto"])}”{pg(ab["ref"], "", ab["texto"])}</blockquote>
+      <h1 class="chamada" id="titulo">{esc(ext_texto("inicio", "chamada"))}</h1>
+      <div class="lema">{ext_html("inicio", "abertura", "")}</div>
+      <blockquote class="frase interno" data-arq="citação literal · a frase que abre o percurso">“{esc(ab["texto"])}”{pg(ab["ref"], "", ab["texto"])}</blockquote>
     </section>
 
-    <section class="campo" aria-labelledby="eixo-nome" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
-      <div class="campo-topo">
-        <h2 class="campo-nome" id="eixo-nome"><a href="{base}{EIXO["id"]}/">{esc(EIXO["nome"])}</a></h2>
-        {f'<p class="campo-gemeo"><span class="gemeos-sinal">gêmeos</span> <a href="{base}{gemeo["id"]}/">{esc(gemeo["nome"])}</a></p>' if gemeo else ""}
+    <section class="secao problema" aria-label="O problema">
+      {ext_html("inicio", "problema", "")}
+    </section>
+
+    <section class="campo" id="conceitos" aria-labelledby="conceitos-titulo">
+      <h2 class="campo-titulo" id="conceitos-titulo">As ideias</h2>
+      <div class="campo-texto">{ext_html("inicio", "nome", "")}</div>
+      <ul class="eixo-cartoes" data-arq="eixo · o OIC e o feixe de fruição governada, gêmeos">{eixo_cartoes}</ul>
+      <div class="campo-topo interno" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
         <p class="campo-def">“{esc(oic_def["texto"])}”{pg(oic_def["ref"], "", oic_def["texto"])}</p>
-        {f'<blockquote class="citacao integra" data-arq="citação literal · como os conceitos se articulam no regime do OIC"><p>“{esc(gatilho["texto"])}”{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
+        {f'<blockquote class="citacao integra"><p>“{esc(gatilho["texto"])}”{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
       </div>
+      <div class="campo-texto">{ext_html("inicio", "mapa", "")}</div>
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes}</ul>
     </section>
 
-    <section class="secao leituras" aria-labelledby="leituras-titulo">
-      <h2 id="leituras-titulo">Três leituras da tese</h2>
-      <p>A tese também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>
+    <section class="convite" aria-label="Desnudar a arquitetura">
+      {ext_html("inicio", "convite", "")}
+      {botao_desnudar()}
+    </section>
+
+    <section class="secao leituras interno" aria-labelledby="leituras-titulo">
+      <h2 id="leituras-titulo">Três leituras do texto integral</h2>
+      <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>
       <fieldset class="percursos">
         <legend>Escolha uma leitura</legend>
         <div class="seletor">{opcoes}</div>
         <p class="logica" id="logica" aria-live="polite">{esc(p["logica"])} <q>{esc(p["trecho"]["texto"])}</q>{pg(p["trecho"]["ref"], "", p["trecho"]["texto"])}</p>
       </fieldset>
-      <ul class="sequencia" id="sequencia" data-base="{base}" aria-label="{esc(p["nome"])}" data-arq="leitura · ordem do texto da tese, não hierarquia">{passos}</ul>
+      <ul class="sequencia" id="sequencia" data-base="{base}" aria-label="{esc(p["nome"])}" data-arq="leitura · ordem do texto, não hierarquia">{passos}</ul>
       <div class="fora" id="fora">{fora}</div>
       <script type="application/json" id="leituras-dados">{json.dumps(dados_leituras, ensure_ascii=False).replace("</", "<\\/")}</script>
     </section>
 
     <section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">
-      <h2 id="epigrafes-titulo">As nove epígrafes</h2>
-      <p>A tese abre cada etapa com uma canção. São nove, como as nove Musas. Juntas, fazem o mesmo percurso do argumento, do medo à fermata. Seção 2.6 da tese{pg("p. 73-78", "")}</p>
-      <ol class="epigrafes">{musas}</ol>
+      <h2 id="epigrafes-titulo">Trilha sonora</h2>
+      {ext_html("inicio", "trilha", "")}
+      <div class="interno" data-arq="epígrafes · uma canção abre cada etapa do texto integral">
+        <p>Cada etapa do texto integral abre com uma destas canções. São nove, como as nove Musas. A ordem faz o mesmo percurso do argumento.{pg("p. 73-78", "")}</p>
+        <ol class="epigrafes">{musas}</ol>
+      </div>
       <div class="epigrafes-player" data-embed="{esc(ep["playlist"]["embed"])}" data-arq="terceiro · o Spotify só carrega depois do clique">
         <div class="ouvir">
           <button type="button" class="botao epigrafes-carregar">Ouvir a playlist aqui</button>
@@ -345,8 +446,8 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "Atlas do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae, a partir da tese de doutorado de Victor L. P. Andrade (UNESP, 2026)."
-    (SAIDA / "index.html").write_text(pagina("Lex Plataformae", desc, corpo, "", "", jsonld), encoding="utf-8")
+    desc = "Você pagou. E o que recebeu continua mudando. Nove ideias para entender o que acontece com o que se compra no mundo digital."
+    (SAIDA / "index.html").write_text(pagina("Lex Plataformae", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
 
 def gerar_conceito(c):
@@ -415,22 +516,54 @@ def gerar_conceito(c):
                       + "".join(f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a> <span class="vezes">{esc(det)}</span></li>' for rotulo, caminho, det in nomes["Laboratório"])
                       + "</ul></section>")
 
+    outros_nav = ""
     if c["tipo"] == "conceito":
         outros = em_ordem([x for x in conceitos_do_atlas() if x is not c and not x.get("eixo")])
         lista = ([] if c.get("eixo") else [EIXO]) + outros
-        partes.append('<nav class="outros" aria-label="Os outros conceitos"><h2>Os outros conceitos</h2><ul>'
+        outros_nav = ('<nav class="outros" aria-label="As outras ideias"><h2>As outras ideias</h2><ul>'
                       + "".join(f'<li><a href="{base}{x["id"]}/">{esc(x["nome"])}</a></li>' for x in lista) + "</ul></nav>")
 
-    corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}">← Voltar ao Atlas</a>'
-             f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobre)}</p><h1>{esc(c["nome"])}</h1><div class="selos">{selos}</div></header>'
-             + "".join(partes) + "</article>")
+    e = EXTERNA.get(c["id"]) if c["tipo"] == "conceito" else None
     can = canonica(c)
-    desc = resumo(can["texto"]) if can else c["nome"]
     jsonld = {"@context": "https://schema.org", "@type": "DefinedTerm", "@id": url_conceito(c["id"]), "name": c["nome"],
               "description": can["texto"] if can else "", "url": url_conceito(c["id"]), "inLanguage": "pt-BR",
-              "inDefinedTermSet": {"@type": "DefinedTermSet", "@id": BASE + "/#atlas", "name": "Atlas Lex Plataformae"}}
+              "inDefinedTermSet": {"@type": "DefinedTermSet", "@id": BASE + "/#atlas", "name": "Atlas Lex Plataformae"},
+              "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
     destino = SAIDA / "conceitos" / c["id"]
     destino.mkdir(parents=True, exist_ok=True)
+
+    if e:
+        def bloco_ext(campo_, rotulo=None, classe=""):
+            b = e.get(campo_)
+            if not b:
+                return ""
+            return (f'<section class="ext {classe}">' + (f'<p class="rotulo-ext">{esc(rotulo)}</p>' if rotulo else "")
+                    + "".join(f"<p>{esc(t)}</p>" for t in b["paragrafos"]) + expansao(b["citacoes"], prefixo) + "</section>")
+        nome_b = e.get("nome", {"paragrafos": [], "citacoes": []})
+        resto = re.sub(r"^.*?[.!?]\s+", "", " ".join(nome_b["paragrafos"]), count=1)
+        duvida = ext_texto(c["id"], "duvida")
+        externo = (
+            f'<a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
+            f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(c["id"], "titulo"))}</h1></header>'
+            + bloco_ext("fenomeno", classe="fenomeno")
+            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span>{esc(c["nome"])}</h2>'
+            + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
+            + bloco_ext("importa", "Por que importa")
+            + bloco_ext("limite", "Até onde vai", "limite")
+            + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))
+        arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · a ideia no texto integral">'
+                       f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobre)}</p><h2 class="titulo-interno">{esc(c["nome"])}</h2><div class="selos">{selos}</div></header>'
+                       + "".join(partes) + "</div>")
+        corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
+        desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
+        (destino / "index.html").write_text(
+            pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista"), encoding="utf-8")
+        return
+
+    corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
+             f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobre)}</p><h1>{esc(c["nome"])}</h1><div class="selos">{selos}</div></header>'
+             + "".join(partes) + outros_nav + "</article>")
+    desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
         pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
 
@@ -566,13 +699,11 @@ def gerar_tese():
     abertura = "".join(f'<li>{esc(e["artista"])}, <cite>{esc(e["faixa"])}</cite> ({e["ano"]})</li>' for e in C.get("epigrafe_abertura", []))
     corpo = (
         '<article class="folha leitura">'
-        '<header class="folha-cabeca"><p class="sobrelinha">A tese · texto integral, seção por seção</p>'
+        '<header class="folha-cabeca"><p class="sobrelinha">Texto integral · seção por seção</p>'
         f'<h1>{esc(TITULO_TESE)}</h1>'
-        '<p>Victor Luiz Pereira de Andrade. Tese de doutorado em Direito. Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, Franca. '
-        'Orientadora Prof.ª Dr.ª Luciana Lopes Canavez. Defesa em 30 de março de 2026.</p>'
-        f'<p><a class="botao" href="{PDF_NOME}">Baixar a tese em PDF</a></p></header>'
+        f'<p><a class="botao" href="{PDF_NOME}">Baixar o texto integral em PDF</a></p></header>'
         f'{bloco_resumo}'
-        '<section class="bloco"><h2>Como ler aqui</h2><p>O texto de cada seção é o da tese, extraído do PDF e conferido por script. '
+        '<section class="bloco"><h2>Como ler aqui</h2><p>O texto de cada seção é o do original, extraído do PDF e conferido por script. '
         'Cada página impressa está marcada no ponto em que começa, e as notas de rodapé vêm ao fim de cada seção. '
         'As letras das epígrafes não são reproduzidas no site. Elas estão no PDF.'
         + (f' A abertura da tese traz a epígrafe de {abertura.replace("<li>", "").replace("</li>", "")}.' if abertura else "") +
@@ -586,13 +717,13 @@ def gerar_tese():
               "inLanguage": "pt-BR", "abstract": resumo["texto"] if resumo else None,
               "keywords": resumo["palavras_chave"] if resumo else None, "url": BASE + "/tese/"}
     (pasta / "index.html").write_text(
-        pagina("A tese · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld),
+        pagina("Texto integral · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld),
         encoding="utf-8")
 
     # Uma página por seção.
     for i, sec in enumerate(SECOES):
         prefixo = "../../"
-        trilha = ['<a href="../">A tese</a>'] + [f'<a href="../{a["slug"]}/">{esc(rotulo_secao(a))}</a>' for a in ancestrais(sec)]
+        trilha = ['<a href="../">Texto integral</a>'] + [f'<a href="../{a["slug"]}/">{esc(rotulo_secao(a))}</a>' for a in ancestrais(sec)]
         faixa_pag = f'p. {sec["pagina_inicio"]}' + (f' a {sec["pagina_fim"]}' if sec["pagina_fim"] != sec["pagina_inicio"] else "")
         partes = []
         for e in sec.get("epigrafes", []):
@@ -1142,19 +1273,27 @@ def gerar_laboratorio():
         refs = set(re.findall(r'id="r(\d+)"', " ".join(b["html"] for b in sec["blocos"])))
         if refs:
             notas = f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/#notas-titulo">Notas desta seção na tese</a></p>'
-        corpo = (f'<article class="folha leitura laboratorio"><nav class="trilha" aria-label="Você está em"><a href="../">Laboratório</a></nav>'
+        e = EXTERNA.get(slug, {})
+        externo = ""
+        if e.get("titulo"):
+            externo = (f'<a class="voltar" href="../">← Laboratório</a>'
+                       f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(slug, "titulo"))}</h1></header>'
+                       f'<section class="ext">{ext_html(slug, "resumo", prefixo)}</section>'
+                       f'<section class="ext duvida">{botao_desnudar()}</section>')
+        corpo = (f'<article class="folha leitura laboratorio">{externo}'
+                 f'<div class="interno arquitetura" data-arq="arquitetura · a família de plataforma no texto integral">'
                  f'<header class="folha-cabeca"><p class="sobrelinha">Família de plataforma · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</p>'
-                 f'<h1>{esc(sec["titulo"])}</h1><p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção na tese</a></p>{notas}</header>'
-                 + "".join(partes) + sub + "</article>")
+                 f'<h2 class="titulo-interno">{esc(sec["titulo"])}</h2><p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção no texto integral</a></p>{notas}</header>'
+                 + "".join(partes) + sub + "</div></article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
         destino = pasta / slug
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld),
+            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista"),
             encoding="utf-8")
-        cartoes.append(f'<li><a class="cartao" href="{slug}/"><b>{esc(sec["titulo"])}</b><span>{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
+        cartoes.append(f'<li><a class="cartao" href="{slug}/"><span class="cartao-frase">{esc(ext_texto(slug, "titulo"))}</span><b>{esc(sec["titulo"])}</b></a></li>')
 
     # Os desdobramentos da tipologia, cada um em página própria, em texto integral.
     cartoes_desdob = []
@@ -1172,7 +1311,7 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld),
+            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, superficie="../"),
             encoding="utf-8")
         cartoes_desdob.append(f'<li><a class="cartao" href="{slug}/"><b>{esc(sec["titulo"])}</b><span>{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
 
@@ -1181,19 +1320,25 @@ def gerar_laboratorio():
     origem = "".join(f'<li><a href="../tese/{POR_NUMERO[n]["slug"]}/">{esc(n)} {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in LABORATORIO_ORIGEM if n in POR_NUMERO)
     corpo = (
         '<article class="folha leitura laboratorio">'
-        '<header class="folha-cabeca"><p class="sobrelinha">Laboratório · capítulo 7 da tese</p><h1>Laboratório</h1>'
+        f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Laboratório</p><h1>{esc(ext_texto("laboratorio", "titulo"))}</h1></header>'
+        f'<section class="ext">{ext_html("laboratorio", "abertura", "../")}</section>'
+        + f'<section class="bloco"><h2>Quatro famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'
+        f'<section class="ext limite"><p class="rotulo-ext">Até onde vai</p>{ext_html("laboratorio", "limite", "../")}</section>'
+        f'<section class="ext duvida">{botao_desnudar()}</section>'
+        '<div class="interno arquitetura" data-arq="arquitetura · o laboratório no texto integral">'
+        '<header class="folha-cabeca"><p class="sobrelinha">Laboratório · capítulo 7 do texto integral</p><h2 class="titulo-interno">A tipologia por dentro</h2>'
         + (f"<p>{html_do_corpus(sequencia, intro['slug'], '../')}</p>" if sequencia else "") + "</header>"
         + (f'<section class="bloco"><h2>O teste</h2><blockquote class="citacao"><p>{html_do_corpus(teste, sec7["slug"], "../")}</p></blockquote></section>' if teste else "")
-        + f'<section class="bloco"><h2>As famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'
         + (f'<section class="bloco"><h2>Desdobramentos da tipologia</h2><ul class="grade-conceitos">{"".join(cartoes_desdob)}</ul></section>' if cartoes_desdob else "")
         + (f'<section class="bloco"><h2>O que as famílias mostram</h2><blockquote class="citacao"><p>{html_do_corpus(triade, fecho["slug"], "../")}</p></blockquote></section>' if triade else "")
         + (f'<section class="bloco"><h2>O que muda quando o regime incide</h2><blockquote class="citacao"><p>{html_do_corpus(muda, fecho["slug"], "../")}</p></blockquote></section>' if muda else "")
         + (f'<section class="bloco" id="origem"><h2>O laboratório de origem</h2>{locus_html("../")}<ul class="lista-simples">{origem}</ul></section>' if origem else "")
-        + "</article>")
+        + "</div></article>")
     desc = "As famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos. Mecanismo, vulnerabilidade central, evidência e consequência dogmática possível, em texto literal."
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Laboratório · Lex Plataformae", "inLanguage": "pt-BR",
               "url": BASE + "/laboratorio/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
-    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld), encoding="utf-8")
+    desc = ext_texto("laboratorio", "abertura") or desc
+    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld, camada="mista"), encoding="utf-8")
 
 
 def paragrafos(sec):
@@ -1677,7 +1822,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/"] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/autor/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -1709,6 +1854,7 @@ def gerar_auxiliares():
     linhas += ["", "## A tese, seção por seção", "", f"- [Sumário, resumo e plano da tese]({BASE}/tese/): texto integral da tese em HTML, com a página impressa marcada e as notas ao fim de cada seção."]
     linhas += [f"- [{rotulo_secao(x)}]({BASE}/tese/{x['slug']}/): p. {x['pagina_inicio']} a {x['pagina_fim']}" for x in SECOES]
     linhas += ["", "## Tese", "", f"- [Tese completa em PDF]({BASE}/tese/{PDF_NOME}): {TITULO_TESE}. Doutorado em Direito, UNESP, 2026.",
+               f"- [Autor]({BASE}/autor/): Victor L. P. Andrade, a referência completa da tese e a trajetória do trabalho.",
                "", "## Dados", "", f"- [atlas.json]({BASE}/dados/atlas.json): conceitos, definições, critérios delimitadores, seções e leituras, em JSON.", ""]
     (SAIDA / "llms.txt").write_text("\n".join(linhas), encoding="utf-8")
     (SAIDA / "dados").mkdir(exist_ok=True)
@@ -1718,8 +1864,40 @@ def gerar_auxiliares():
     shutil.copy(RAIZ / "tese" / PDF_NOME, SAIDA / "tese" / PDF_NOME)
     corpo = ('<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p>'
              '<h1>Este endereço não existe</h1></header><p>Talvez o conceito tenha mudado de endereço. '
-             '<a href="/">Volte ao Atlas</a> e procure por ele.</p></article>')
-    (SAIDA / "404.html").write_text(pagina("Página não encontrada · Lex Plataformae", "Página não encontrada.", corpo, "/", "404.html"), encoding="utf-8")
+             '<a href="/#conceitos">Volte às ideias</a> e procure por ele.</p></article>')
+    (SAIDA / "404.html").write_text(pagina("Página não encontrada · Lex Plataformae", "Página não encontrada.", corpo, "/", "404.html", camada="externa"), encoding="utf-8")
+
+
+TRAJETORIA = ["A percepção de que o consumo digital", "Esta tese não nasce", "Essa dificuldade de ignorar"]
+
+
+def gerar_autor():
+    """A camada mais interna. Quem chega aqui fica sabendo, por último, que tudo deriva de uma tese de doutorado."""
+    prefixo = "../"
+    intro = POR_NUMERO.get("1")
+    trajetoria = ""
+    if intro:
+        pars = [p for p in paragrafos(intro) if any(_plano(p["bloco"]["html"]).strip().startswith(t) for t in TRAJETORIA)]
+        trajetoria = "".join(citado(p, intro, prefixo) for p in pars)
+    corpo = (
+        '<article class="folha autor-pagina">'
+        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás destas ideias</p><h1>Victor L. P. Andrade</h1></header>'
+        '<section class="ext"><p>Tudo o que você leu neste site deriva de uma tese de doutorado em Direito, '
+        'apresentada à Universidade Estadual Paulista e defendida em 30 de março de 2026, sob a orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
+        '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>. '
+        'A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. '
+        'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
+        f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
+        + (f'<section class="bloco"><h2>Como este trabalho nasceu</h2>{trajetoria}</section>' if trajetoria else "")
+        + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": BASE + "/autor/",
+              "mainEntity": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade", "alternateName": "Victor L. P. Andrade"},
+              "about": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    pasta = SAIDA / "autor"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(
+        pagina("Victor L. P. Andrade · Lex Plataformae", "Quem está por trás destas ideias. A tese de doutorado de onde vem tudo o que está no site.",
+               corpo, prefixo, "autor/", jsonld, camada="externa"), encoding="utf-8")
 
 
 def gerar_cobertura():
@@ -1772,6 +1950,7 @@ def main():
     gerar_fundamentos()
     gerar_metodo()
     gerar_dogmatica()
+    gerar_autor()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")

@@ -1,14 +1,30 @@
 /* Lex Plataformae. Interações do site.
    O conteúdo já chega completo no HTML. Este script só acrescenta três coisas.
-   1. A chave que desnuda a arquitetura da página.
+   1. A chave que desnuda a arquitetura da página, protagonista do site.
    2. A troca entre as três leituras da tese na página inicial.
    3. O player das epígrafes, que só carrega o Spotify depois do clique. */
 (function () {
   var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+  /* A chave de desnudar é a protagonista do site. Na superfície, o leitor liga e desliga, e a escolha
+     acompanha a navegação. Nas páginas de estudo, que já abrem desnudas, desligar leva de volta à superfície. */
   var chave = document.getElementById('desnudar');
   if (chave) {
-    chave.addEventListener('change', function () { document.body.classList.toggle('desnudo', chave.checked); });
+    var interna = document.body.getAttribute('data-camada') === 'interna';
+    var lembrar = function (v) { try { localStorage.setItem('lexp-desnudo', v ? '1' : '0'); } catch (e) {} };
+    if (!interna) {
+      try { if (localStorage.getItem('lexp-desnudo') === '1') chave.checked = true; } catch (e) {}
+    }
+    document.body.classList.toggle('desnudo', chave.checked);
+    chave.addEventListener('change', function () {
+      if (interna && !chave.checked) {
+        lembrar(false);
+        window.location.href = document.body.getAttribute('data-superficie') || '/';
+        return;
+      }
+      document.body.classList.toggle('desnudo', chave.checked);
+      lembrar(chave.checked);
+    });
   }
 
   document.querySelectorAll('.epigrafes-player').forEach(function (caixa) {

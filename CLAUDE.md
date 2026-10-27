@@ -6,7 +6,13 @@ Este arquivo é a memória do projeto. Toda sessão que trabalhar aqui deve lê-
 
 ## Arquitetura
 
-O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundamentos, Dogmática, Roteiro, Laboratório, Epígrafes e A tese.
+Desde 27/10/2026 (versão 0.5) o site se lê em três camadas, por orientação do autor.
+
+- **Camada externa, a superfície.** Fala com o leigo. Página inicial, as nove ideias e o Laboratório com as quatro famílias, em texto simples, fenômeno antes do nome, sem nome do autor nem menção a tese. O texto vem de `conteudo/camada-externa.md`. No menu aparecem só Conceitos e Laboratório.
+- **Camada interna, a arquitetura.** Fala com o jurista e com o especialista. Abre com a chave Desnudar a arquitetura, que fica fixa no pé da tela em todas as páginas. Debaixo de cada bloco simples aparecem os trechos literais que ele condensa, com a página. Aparecem também o conteúdo completo das fichas, as três leituras, as epígrafes por capítulo, a faixa de versão e os itens Método, Fundamentos, Dogmática, Roteiro e Texto integral no menu. As páginas que são só arquitetura (corpus, Roteiro, Método, Fundamentos, Dogmática, desdobramentos do Laboratório e fichas fora do Atlas) já abrem desnudas, sem os contornos tracejados, e desligar a chave leva de volta à superfície. A escolha do leitor fica guardada no navegador. Sem JavaScript a chave funciona pelo CSS.
+- **Camada mais interna, o autor.** Em `docs/autor/`, alcançada pelo nome no rodapé de todas as páginas, sob a pergunta "Quem está por trás destas ideias?". Ali o leitor fica sabendo, por último, que tudo deriva da tese de doutorado. Traz a referência completa, o PDF e a trajetória do trabalho nas palavras da introdução (p. 21-22).
+
+As partes do site, dentro dessas camadas.
 
 1. **Corpus.** A tese dividida em seções citáveis, cada uma com endereço e página próprios. Feito em 26/10/2026, em `docs/tese/`. Toda âncora de página do Atlas leva ao trecho exato, no corpo ou na nota de rodapé. O índice da tese traz o plano da obra nas palavras da introdução (p. 42), com o lugar de cada capítulo no site. Cada seção mostra as páginas das camadas que a trazem.
 2. **Atlas.** Uma página por conceito, com definição literal, função no regime, critério delimitador e seções de apoio. Os conceitos são os substantivos da tese.
@@ -21,7 +27,7 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 
 - Toda frase explicativa do site se ancora em página da tese. Não há relação entre conceitos sem página que a afirme.
 - Citações são literais e conferidas por script contra o texto da tese antes de qualquer envio.
-- Nada vai ao ar sem a leitura e a aprovação do autor.
+- Nada vai ao ar sem a leitura e a aprovação do autor. Desde 27/10/2026, enquanto o site não tiver tráfego relevante, o autor manda publicar e revisa no ar.
 - Todo conteúdo que não esteja na tese de 2026 recebe data e marca de acréscimo posterior.
 - Orientações do autor na conversa não viram texto do site. Servem para reler a tese e mostrar o que ela já diz. Só entra como acréscimo posterior o que o autor mandar publicar.
 - O site não pode ter nenhum padrão escuro de interface. Deve passar nos próprios critérios de auditabilidade aberta e equivalência de valor funcional.
@@ -34,15 +40,15 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 
 ## Lista de desenvolvimento
 
-1. 27/10/2026. Desnudar a arquitetura como protagonista do site. Orientação do autor. O site foi pensado para tornar a tese acessível e é propaganda de ideias, da tese em si. A primeira vista mostra só as ideias, numa versão limpa da teoria, simplificada o bastante para instruir e, ao mesmo tempo, para gerar dúvida, de modo que o leitor queira apertar o botão. Fundamentação, bases, referências, páginas e qualquer indicação de estrutura que não seja a própria ideia só aparecem quando o leitor aperta o botão. Ao desnudar, o texto se expande com as referências, as notas e as informações derivadas diretamente da tese. O site não pode se perder no personagem. Precisa entender o próprio conceito.
+1. Feito em 27/10/2026, versão 0.5. Desnudar a arquitetura como protagonista do site. Orientação do autor. O site foi pensado para tornar a tese acessível e é propaganda de ideias, da tese em si. A primeira vista mostra só as ideias, numa versão limpa da teoria, simplificada o bastante para instruir e, ao mesmo tempo, para gerar dúvida, de modo que o leitor queira apertar o botão. Fundamentação, bases, referências, páginas e qualquer indicação de estrutura que não seja a própria ideia só aparecem quando o leitor aperta o botão. Ao desnudar, o texto se expande com as referências, as notas e as informações derivadas diretamente da tese. O site não pode se perder no personagem. Precisa entender o próprio conceito.
    - Leitura para execução, a confirmar com o autor. O botão deixa o canto do cabeçalho e vira o gesto central de cada página. Método, Fundamentos, Dogmática, o corpus, as âncoras de página, as notas, as contagens e o índice de dispositivos passam para o lado desnudo. O texto da primeira vista é escrito novo e fala em nome do autor. Cada frase dele aponta, no modo desnudo, para os trechos da tese que condensa, e passa pela leitura do autor antes de ir ao ar. A primeira vista pode provocar dúvida, mas não pode prometer o que a expansão não entrega. O botão é a auditabilidade aberta do próprio site, e a passagem de uma vista à outra tem de guardar equivalência de valor funcional.
 
-2. 27/10/2026. O nome do autor não é a primeira coisa que o leitor lê. A última coisa que o leitor fica sabendo é que tudo deriva de uma tese de doutorado do autor. Orientação do autor.
+2. Feito em 27/10/2026, versão 0.5. O nome do autor não é a primeira coisa que o leitor lê. A última coisa que o leitor fica sabendo é que tudo deriva de uma tese de doutorado do autor. Orientação do autor.
    - Leitura para execução, a confirmar com o autor. Saem da primeira vista o nome, a sobrelinha "Tese de doutorado · UNESP · 2026" e a referência completa do rodapé. Na camada interna a fonte aparece pelas páginas e pelo texto integral, sem destaque para autoria nem para a natureza de tese. O nome fica por último, mas nunca escondido. Há sempre um caminho visível até ele, e nada no site se apresenta como voz neutra ou de terceiro. Nos metadados para buscadores e robôs de IA a autoria continua declarada, para que a tese seja citada com o nome certo.
 3. 27/10/2026. Três camadas. Orientação do autor. A camada externa simplifica e torna a teoria acessível. A camada interna aprofunda e embasa, e é a que o botão de desnudar abre. A camada mais interna se alcança explorando o nome e o perfil do autor no site. Ela mostra a trajetória do trabalho, liga a tese a outras obras da carreira do autor e encaminha o leitor, ao final, ao LinkedIn do autor, com links também para o Lattes e o ORCID.
-   - Pendências para executar. Os três links do autor. A lista das obras a ligar, que só entra com a palavra do autor. Ligar ou não a assinatura Galvão D'Andrade, que é identidade autoral separada, fica com o autor.
+   - Página do autor feita em 27/10/2026. Pendências para executar. Os três links do autor, que a busca na web não encontrou com segurança. A lista das obras a ligar, que só entra com a palavra do autor. Ligar ou não a assinatura Galvão D'Andrade, que é identidade autoral separada, fica com o autor.
 
-4. 27/10/2026. A solenidade metodológica fica por trás do botão. Até o leigo precisa entender minimamente o texto do site principal. O desnudamento é ferramenta de estudo e aprofundamento, sobretudo para juristas e para quem é da área temática. Orientação do autor.
+4. Feito em 27/10/2026, versão 0.5. A solenidade metodológica fica por trás do botão. Até o leigo precisa entender minimamente o texto do site principal. O desnudamento é ferramenta de estudo e aprofundamento, sobretudo para juristas e para quem é da área temática. Orientação do autor.
    - Leitura para execução, a confirmar com o autor. Cada camada tem o seu leitor. A externa fala com o leigo. A interna fala com o jurista e com o especialista. A mais interna fala com quem quer saber de quem é a ideia. Os nomes dos nove conceitos também são vocabulário técnico, e na camada externa cada um chega depois do fenômeno que nomeia, contado em palavras comuns e com exemplo tirado da própria tese. A faixa de versão e de conferência por script, as âncoras de página, as contagens e a legenda técnica do modo desnudo saem da primeira vista. A legibilidade do texto externo pode ser medida pelo índice de Flesch adaptado ao português, com meta de leitura fácil, e conferida com pelo menos um leitor leigo.
 
 ## Decisões pendentes do autor
@@ -75,12 +81,14 @@ O site tem oito camadas. O menu segue a ordem da tese. Atlas, Método, Fundament
 - `ferramentas/gerar_site.py` gera o site publicável em `docs/`, a partir de `dados/atlas.json`. Cada página sai com o texto completo no HTML, legível sem JavaScript. Rodar sempre depois de `gerar_dados.py`. Nunca editar `docs/` à mão.
 - `site/atlas.js` e `site/extra.css` são as fontes do script e dos acréscimos de estilo do site. O estilo base vem do `<style>` de `prototipo/modelo.html`.
 - `ferramentas/fontes/` guarda as fontes servidas pelo próprio site (Archivo, Newsreader e IBM Plex Mono, sob SIL Open Font License), para não haver requisição ao Google.
-- Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese.
+- Auditoria de design com o detector do Impeccable (`npx impeccable detect --json docs`), autorizada pelo autor em 26/10/2026, sempre com `DO_NOT_TRACK=1`. Falsos positivos conhecidos, a grade do modo de desnudar e termos em inglês citados pela própria tese. O detector lê mal `!important` em altura de linha, e por isso a superfície evita esse recurso.
+- `conteudo/camada-externa.md` guarda o texto simples da superfície, página por página e bloco por bloco, cada bloco com os trechos literais que condensa. Rascunho do Claude de 27/10/2026, publicado para revisão do autor no ar. Em cada conceito, a primeira frase do bloco nome é o próprio nome.
+- `ferramentas/medir_legibilidade.py` mede a superfície pelo índice de Flesch adaptado ao português (Martins e colegas, 1996), com contagem de sílabas aproximada. Meta de leitura fácil, de 50 para cima. Em 27/10/2026, 16 de 16 páginas na meta e 72 no conjunto.
 - `estrutura/destaques.md` guarda os trechos literais que as páginas das camadas marcam no texto da tese, por seção e, no 7.1.3, por diretriz. A seleção é do site e a página diz isso ao leitor. O texto é conferido por script.
 - A lista dos autores declarados nas aberturas dos capítulos 3 e 4 fica em `AUTORES`, em `ferramentas/gerar_site.py`, com o nome como a abertura o escreve, o sobrenome que a contagem procura e a chave da lista de referências. Grant McCraken aparece com a grafia da abertura do capítulo 3. A lista de referências grafa MCCRACKEN.
 - A lista dos autores da abertura do capítulo 5 fica em `AUTORES_5`. O índice de dispositivos usa `PADRAO_DISPOSITIVO`, em `ferramentas/gerar_site.py`, e só reconhece artigo com o nome da lei na mesma frase. Conferência de 27/10/2026, 53 frases e 57 remissões a artigo, em cinco leis.
 - `estrutura/cobertura.md` é gerado por `gerar_site.py` e mostra em que camadas cada seção da tese já tem lugar. Não editar à mão.
-- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md`. Commit só com zero falhas.
+- `ferramentas/conferir_citacoes.py` confere toda citação literal contra a tese. Rodar antes de qualquer commit com conteúdo, com `python3 ferramentas/conferir_citacoes.py conceitos/ficha-canonica-v0.md conceitos/percursos.md estrutura/destaques.md conteudo/camada-externa.md`. Commit só com zero falhas.
 
 ## Epígrafes
 
@@ -96,7 +104,7 @@ No site, as letras não são reproduzidas. A música entra por player incorporad
 
 - Hospedagem no GitHub Pages, a partir da pasta `docs/` do ramo `main`. O arquivo `docs/CNAME` fixa o domínio.
 - Leitura por máquina em `docs/robots.txt` (aberto a robôs de IA), `docs/sitemap.xml`, `docs/llms.txt`, `docs/dados/atlas.json` e marcação schema.org (Thesis, DefinedTermSet e DefinedTerm) em cada página.
-- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção. Em 27/10/2026 a versão passou a 0.4, com Roteiro e Laboratório.
+- 26/10/2026. O autor autorizou a publicação da versão 0.3 em construção. Em 27/10/2026 a versão passou a 0.4, com Roteiro e Laboratório, e no mesmo dia a 0.5, com as três camadas.
 - 27/10/2026. Site no ar em https://lexplataformae.com.br, com HTTPS, servido pelo GitHub Pages. Domínio verificado na conta do autor.
 - O ambiente de trabalho do Claude não alcança o domínio pelo terminal. Para conferir o site no ar, usar a ferramenta de busca de páginas, que pede autorização ao autor.
 - DNS no Registro.br. Registros A do domínio raiz para 185.199.108.153, 185.199.109.153, 185.199.110.153 e 185.199.111.153. CNAME de www para victorlpandradeadv-creator.github.io. TXT de verificação do GitHub Pages na conta do autor.

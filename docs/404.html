@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Página não encontrada · Lex Plataformae</title>
 <meta name="description" content="Página não encontrada.">
+<meta name="author" content="Victor L. P. Andrade">
 <link rel="canonical" href="https://lexplataformae.com.br/404.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lex Plataformae">
@@ -16,38 +17,41 @@
 <link rel="alternate" type="application/json" href="/dados/atlas.json" title="Dados do Atlas">
 
 </head>
-<body>
+<body class="" data-camada="externa" data-superficie="/">
+<label class="chave-mestra" for="desnudar">
+  <input type="checkbox" id="desnudar">
+  <span class="interruptor" aria-hidden="true"></span>
+  <span class="chave-texto"><b class="desligado">Desnudar a arquitetura</b><b class="ligado">Arquitetura à mostra</b><small class="desligado">Veja de onde vem cada frase</small><small class="ligado">Desligue para voltar ao texto limpo</small></span>
+</label>
+<script>try{if(localStorage.getItem('lexp-desnudo')==='1'){document.getElementById('desnudar').checked=true;document.body.classList.add('desnudo')}}catch(e){}</script>
 <div class="moldura">
-  <div class="faixa" data-arq="versão · o site cresce em público e cada mudança fica registrada">
-    <span>Versão 0.4 · em construção</span>
-    <span>Citações conferidas por script contra a tese</span>
+  <div class="faixa interno" data-arq="versão · o site cresce em público e cada mudança fica registrada">
+    <span>Versão 0.5 · em construção</span>
+    <span>Citações conferidas por script contra o texto integral</span>
   </div>
   <header class="topo">
     <a class="topo-marca" href="/">Lex Plataformae</a>
     <nav aria-label="Seções">
       <ul>
-        <li><a href="/">Atlas</a></li>
-        <li><a href="/metodo/">Método</a></li>
-        <li><a href="/fundamentos/">Fundamentos</a></li>
-        <li><a href="/dogmatica/">Dogmática</a></li>
-        <li><a href="/roteiro/">Roteiro</a></li>
+        <li><a href="/#conceitos">Conceitos</a></li>
         <li><a href="/laboratorio/">Laboratório</a></li>
-        <li><a href="/#epigrafes">Epígrafes</a></li>
-        <li><a href="/tese/">A tese</a></li>
+        <li class="interno"><a href="/metodo/">Método</a></li>
+        <li class="interno"><a href="/fundamentos/">Fundamentos</a></li>
+        <li class="interno"><a href="/dogmatica/">Dogmática</a></li>
+        <li class="interno"><a href="/roteiro/">Roteiro</a></li>
+        <li class="interno"><a href="/tese/">Texto integral</a></li>
       </ul>
     </nav>
-    <label class="chave" for="desnudar">
-      <input type="checkbox" id="desnudar">
-      Desnudar a arquitetura
-    </label>
   </header>
-  <p class="legenda-desnudo" role="note">Arquitetura à mostra. Cada contorno tracejado é uma peça da página, e a etiqueta diz o que ela é e de onde vem. As caixas em volta dos números de página são âncoras na tese. Nada nesta página afirma algo sem apontar a página que sustenta.</p>
+  <p class="legenda-desnudo" role="note">Arquitetura à mostra. Abaixo de cada trecho simplificado aparecem as passagens do texto integral que ele condensa, com a página exata. Os contornos tracejados mostram as peças da página e de onde cada uma vem.</p>
   <main>
-<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p><h1>Este endereço não existe</h1></header><p>Talvez o conceito tenha mudado de endereço. <a href="/">Volte ao Atlas</a> e procure por ele.</p></article>
+<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p><h1>Este endereço não existe</h1></header><p>Talvez o conceito tenha mudado de endereço. <a href="/#conceitos">Volte às ideias</a> e procure por ele.</p></article>
   </main>
   <footer class="rodape">
-    <p>ANDRADE, Victor Luiz Pereira de. Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae. A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026. <a href="/tese/andrade-2026-tese-oic-lex-plataformae.pdf">Ler a tese completa em PDF</a>.</p>
-    <p>Todo texto entre aspas é transcrição literal da tese, com a página indicada. Acréscimos posteriores à tese aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="https://github.com/victorlpandradeadv-creator/lexplataformae">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
+    <div class="interno rodape-estudo">
+      <p><a href="/tese/andrade-2026-tese-oic-lex-plataformae.pdf">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="https://github.com/victorlpandradeadv-creator/lexplataformae">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
+    </div>
+    <p class="assinatura">Quem está por trás destas ideias? <a href="/autor/">Victor L. P. Andrade</a></p>
   </footer>
 </div>
 <script src="/assets/atlas.js" defer></script>
