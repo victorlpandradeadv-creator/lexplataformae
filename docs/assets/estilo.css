@@ -399,7 +399,7 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
 }
 .capitulo-fund > h2 { text-transform: none; letter-spacing: normal; }
 
-/* Três modos. Orientação fala com o leigo, Doutrina com o técnico e Ciência com o expert.
+/* Três modos. Informação fala com o leigo, Doutrina com o técnico e Ciência com o expert.
    Funciona sem JavaScript, pelos botões de rádio. .interno aparece a partir de Doutrina.
    .ciencia e .arq só aparecem em Ciência. .em-modo aparece só nos modos que a classe modo-N indica. */
 body:has(#nivel-0:checked) .interno { display: none !important; }
@@ -587,7 +587,7 @@ body:has(#nivel-2:checked) .campo { background-image: none; }
 .area-rotulo { font-family: var(--f-dado); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: none; color: var(--area-t, var(--tinta-2)); }
 body:has(#nivel-2:checked) .termo[style*="--area"] { border-left: 6px solid var(--area); }
 
-/* Versão 0.7, etapa 2. Orientação e Doutrina sem número de seção nem página à vista.
+/* Versão 0.7, etapa 2. Informação e Doutrina sem número de seção nem página à vista.
    A página e a referência aparecem ao passar o mouse, ao tocar ou pelo teclado. Ciência mostra tudo. */
 body:not(:has(#nivel-2:checked)) .num-secao { display: none; }
 body:not(:has(#nivel-2:checked)) :is(.pg, .pg-marca):not(:focus) {
@@ -633,7 +633,7 @@ body:not(:has(#nivel-2:checked)):not(:has(.texto-integral)) .nota-ref { display:
 .artigo-lei h3 { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 1rem; color: var(--a-direito-t); }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
-/* Tokens globais e o modo Orientação, que é o padrão. */
+/* Tokens globais e o modo Informação, que é o padrão. */
 :root {
   --tese: #002fa7;
   --tese-sobre: #ffffff;

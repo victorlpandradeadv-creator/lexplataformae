@@ -149,9 +149,9 @@ LEGENDA = {
 }
 
 # A chave se chama Modo e tem três posições, com os nomes indicados pelo autor em 27/10/2026.
-# Orientação fala com o leigo que consome e quer saber seus direitos. Doutrina fala com o técnico que vai advogar.
+# Informação fala com o leigo que consome e quer saber seus direitos. Doutrina fala com o técnico que vai advogar.
 # Ciência fala com o expert que quer testar a teoria e saber de onde saiu cada coisa, e só ela mostra a estrutura inteira.
-DEGRAUS = ("Orientação", "Doutrina", "Ciência")
+DEGRAUS = ("Informação", "Doutrina", "Ciência")
 # O nível mínimo de cada tipo de página. Escolher um modo abaixo dele leva à página de superfície indicada.
 NIVEL_MINIMO = {"mista": 0, "externa": 0, "interna": 1, "ciencia": 2}
 
@@ -194,8 +194,8 @@ PAGINAS_PRONTAS = {"percurso/", "laboratorio/", "roteiro/", "roteiro/diretrizes/
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True):
     """Monta a página.
 
-    camada 'mista' abre em Orientação e ganha conteúdo em Doutrina e estrutura em Ciência.
-    camada 'interna' é página do técnico, que abre no mínimo em Doutrina. Escolher Orientação leva à superfície.
+    camada 'mista' abre em Informação e ganha conteúdo em Doutrina e estrutura em Ciência.
+    camada 'interna' é página do técnico, que abre no mínimo em Doutrina. Escolher Informação leva à superfície.
     camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
@@ -453,11 +453,11 @@ def ext_html(pag, campo_, prefixo, classe=""):
 
 
 def botao_desnudar():
-    """O convite dentro da página leva ao modo seguinte. Do último, volta à Orientação."""
+    """O convite dentro da página leva ao modo seguinte. Do último, volta à Informação."""
     return ('<span class="convite-botoes">'
             '<label class="botao convite-botao so-0" for="nivel-1">Abrir a Doutrina</label>'
             '<label class="botao convite-botao so-1" for="nivel-2">Abrir a Ciência</label>'
-            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à Orientação</label></span>')
+            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à Informação</label></span>')
 
 
 def html_passo(passo, base):

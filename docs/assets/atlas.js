@@ -1,12 +1,12 @@
 /* Lex Plataformae. Interações do site.
    O conteúdo já chega completo no HTML. Este script só acrescenta interação.
-   1. A chave Modo, com Orientação, Doutrina e Ciência.
+   1. A chave Modo, com Informação, Doutrina e Ciência.
    2. A troca entre as três leituras da tese na página inicial.
    3. O player das epígrafes, que só carrega o Spotify depois do clique. */
 (function () {
   var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* A chave Modo tem três posições. 0 é Orientação, para o leigo, 1 é Doutrina, para o técnico, e 2 é Ciência, para o expert.
+  /* A chave Modo tem três posições. 0 é Informação, para o leigo, 1 é Doutrina, para o técnico, e 2 é Ciência, para o expert.
      A escolha acompanha a navegação. Cada página tem um modo mínimo, e escolher um modo abaixo dele leva à página de superfície. */
   var degraus = document.querySelectorAll('input[name="nivel"]');
   if (degraus.length) {

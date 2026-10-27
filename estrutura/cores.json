@@ -66,7 +66,7 @@
   }
  },
  "telas": {
-  "orientacao": {
+  "informacao": {
    "claro": {
     "papel": "#faf6ef",
     "folha": "#fdfcf8",
@@ -260,7 +260,7 @@
    }
   },
   "telas": {
-   "orientacao": {
+   "informacao": {
     "claro": {
      "papel": [
       0.975,

@@ -4,7 +4,7 @@ Mapa do Claude, de 27/10/2026, feito a pedido do autor antes de qualquer mudanç
 
 Orientações do autor recebidas em 27/10/2026, que motivam o mapa. As cores serão repensadas do zero. Cada área de conhecimento que a tese mobiliza terá uma cor de destaque clara e uma cor neutra mais escura para o texto, e o Direito fica com o vermelho. O site precisa carregar o movimento metodológico entre objeto e instrumento. As citações de autores necessárias à compreensão dos conceitos virão para o site, em balões e em páginas próprias, com uma seção de referências que imite a da tese e possa crescer com o que o site integrar à teoria. O padrão geral de cores muda conforme a tela de desnudamento, e os balões e as páginas de autores têm um grupo de cores próprio. A fonte não aparece dentro dos textos. Página e referência só aparecem quando o leitor passa o mouse, salvo na tela Despir. Cada tela fala com um leitor. Conhecer fala com o leigo que quer saber seus direitos porque consome OIC. Verificar fala com o técnico, que quer operar o sistema para advogar dentro dele. Despir fala com o expert, que quer testar as teorias e hipóteses e precisa saber de onde saiu cada coisa. O leigo e o técnico não querem método, justificativa nem referência. Só a tela Despir carrega a estrutura integral.
 
-Nomes dos modos. Em 27/10/2026 o autor indicou que a chave passa a se chamar Modo, com Orientação, Doutrina e Ciência no lugar de Conhecer, Verificar e Despir. Orientação é a tela do leigo, Doutrina a do técnico e Ciência a do expert. As seções abaixo que foram escritas antes disso mantêm os nomes antigos.
+Nomes dos modos. Em 27/10/2026 o autor indicou que a chave passa a se chamar Modo, com Orientação, Doutrina e Ciência no lugar de Conhecer, Verificar e Despir. No mesmo dia, Orientação virou Informação, porque dava a ideia errada. Informação é a tela do leigo, Doutrina a do técnico e Ciência a do expert. As seções abaixo que foram escritas antes disso mantêm os nomes antigos.
 
 # 1. O que a tese já diz sobre isso
 
@@ -62,7 +62,7 @@ Consequências para o que já existe.
 - **Verificar.** Hoje esta tela mostra os trechos literais embaixo de cada bloco, a ficha completa e o menu de estudo. É o oposto do que o técnico quer. Os trechos literais, as fichas, as leituras e o menu de estudo passam para Despir. Verificar ganha uma camada nova, escrita para operar, que traduz o Roteiro, as diretrizes, a prova mínima e os remédios em instruções inteligíveis. O nome Verificar foi escolhido quando a tela ainda era a das fontes. O autor indicou Doutrina em 27/10/2026.
 - **Despir.** Passa a concentrar toda a estrutura que hoje está espalhada entre Verificar e Despir. É a única tela em que página, referência e autor ficam sempre à vista.
 - **Menu.** Rascunho de 27/10/2026, a pedido do autor, que critica depois. Cada modo tem o seu menu, e o texto integral fica fora dele, no bloco do canto superior direito.
-  - Orientação. Percurso, Ideias, Outras plataformas e Seus direitos. Ideias é o Atlas na voz do leigo. Outras plataformas é o Laboratório. Seus direitos reúne os fechos de direitos do percurso e das ideias, que ainda vão ser escritos.
+  - Informação. Percurso, Ideias, Outras plataformas e Seus direitos. Ideias é o Atlas na voz do leigo. Outras plataformas é o Laboratório. Seus direitos reúne os fechos de direitos do percurso e das ideias, que ainda vão ser escritos.
   - Doutrina. Situações, Diretrizes, Plataformas, Conceitos e Legislação. Situações é o Roteiro com os títulos da seção 3. Plataformas são as famílias do Laboratório lidas para operar. Legislação traz os dispositivos com o texto integral.
   - Ciência. Método, Fundamentos, Dogmática, Objeto e instrumentos, Autores e Referências. Como o expert quer ver tudo, os itens dos outros dois modos aparecem também, numa segunda linha.
 
@@ -291,7 +291,7 @@ Os tons foram ajustados por cálculo para se separarem também sob os três tipo
 
 ## Os três modos
 
-- **Orientação.** Papel quente e só o azul da tese. Nenhuma cor de área, porque a área é estrutura.
+- **Informação.** Papel quente e só o azul da tese. Nenhuma cor de área, porque a área é estrutura.
 - **Doutrina.** Papel frio, de arquivo de trabalho, e o vermelho do Direito para o que é operação, como dever, prova, pedido e lei.
 - **Ciência.** Prancheta com grade fina, estrutura em tracejado neutro, páginas à vista e todas as cores de área. A primeira hipótese punha Ciência sempre em fundo azul-escuro. Saiu por dois motivos. O azul Klein some sobre azul, e forçar fundo escuro em quem lê no claro cansa a leitura longa. A grade e o tracejado já dizem que a operação mudou.
 - **Claro e escuro.** Cada modo tem as duas versões, e o site segue a preferência do aparelho. O autor vê o site escuro, e o mostruário abre assim.
@@ -317,7 +317,7 @@ Respostas do autor de 27/10/2026.
 2. Decidido. Os dez conceitos derivados ganham estatuto próprio ao lado dos nove.
 3. Decidido em parte. A tese tem cor própria, fora dos grupos, de preferência uma cor conhecida por motivo externo. A proposta do azul Klein está na seção 8 e espera a palavra do autor.
 4. Decidido. As três telas não correspondem às três camadas do 2.4, que tratam do estatuto da evidência. Ver a seção 1.
-5. Indicado. A chave passa a se chamar Modo, com Orientação, Doutrina e Ciência.
+5. Decidido. A chave passa a se chamar Modo, com Informação, Doutrina e Ciência. Orientação foi o primeiro nome do modo do leigo.
 6. Rascunho na seção 2, para a crítica do autor.
 7. Decidido. Referência mínima, sem padrão de associação. Rascunho do formato na seção 4.
 8. Pergunta do autor, qual lista. É a lista de referências da tese, a que começa na p. 803. A proposta é que ela entre no site como está e que o que o site acrescentar depois fique numa parte separada, com data. Espera a palavra do autor.

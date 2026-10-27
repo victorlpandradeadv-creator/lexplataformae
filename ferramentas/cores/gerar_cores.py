@@ -15,7 +15,7 @@ AREAS = {  # destaque (L,C,h), texto claro, texto escuro
 }
 TESE = dict(nome='A tese', chapado='#002fa7', sobre_chapado='#ffffff', texto='#002fa7', texto_escuro=(0.80,0.09,265), marca_escuro=(0.62,0.19,264))
 TELAS = {
- 'orientacao': {'claro': dict(papel=(0.975,0.010,85), folha=(0.99,0.005,85), tinta=(0.23,0.012,60), tinta2=(0.47,0.015,60), linha=(0.88,0.012,80)),
+ 'informacao': {'claro': dict(papel=(0.975,0.010,85), folha=(0.99,0.005,85), tinta=(0.23,0.012,60), tinta2=(0.47,0.015,60), linha=(0.88,0.012,80)),
               'escuro':dict(papel=(0.19,0.010,60), folha=(0.22,0.010,60), tinta=(0.93,0.010,80), tinta2=(0.72,0.012,75), linha=(0.32,0.01,60))},
  'doutrina':{'claro': dict(papel=(0.968,0.007,240), folha=(0.99,0.003,240), tinta=(0.22,0.015,255), tinta2=(0.47,0.02,255), linha=(0.87,0.01,245)),
               'escuro':dict(papel=(0.215,0.02,252), folha=(0.245,0.02,252), tinta=(0.93,0.008,250), tinta2=(0.74,0.015,250), linha=(0.35,0.02,252))},

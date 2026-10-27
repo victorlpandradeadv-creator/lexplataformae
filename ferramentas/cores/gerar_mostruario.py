@@ -43,17 +43,17 @@ DEZ = ["teleologia arquitetural", "cativeiro identitário", "consumidor-cidadão
        "consentimento viciado por sentido", "publicidade enganosa por arquitetura semiótica",
        "continuidade biográfica", "recomposição funcional", "correção de regime", "dano-arquitetura"]
 MENU = {
-    "orientacao": ["Percurso", "Ideias", "Outras plataformas", "Seus direitos"],
+    "informacao": ["Percurso", "Ideias", "Outras plataformas", "Seus direitos"],
     "doutrina": ["Situações", "Diretrizes", "Plataformas", "Conceitos", "Legislação"],
     "ciencia": ["Método", "Fundamentos", "Dogmática", "Objeto e instrumentos", "Autores", "Referências"],
 }
-NOME_MODO = {"orientacao": "Orientação", "doutrina": "Doutrina", "ciencia": "Ciência"}
+NOME_MODO = {"informacao": "Informação", "doutrina": "Doutrina", "ciencia": "Ciência"}
 REF_TESE = "Victor L. P. Andrade, Do regime jurídico do Objeto Imaterial de Consumo sob a Lex Plataformae, 2026"
 
 
 def vars_tela(modo, tom):
     t = T[modo][tom]
-    oposto = T["orientacao"]["claro" if tom == "escuro" else "escuro"]
+    oposto = T["informacao"]["claro" if tom == "escuro" else "escuro"]
     v = {"--papel": t["papel"], "--folha": t.get("folha", t["papel"]), "--tinta": t["tinta"], "--tinta2": t["tinta2"],
          "--linha": t["linha"], "--inv-papel": oposto["papel"], "--inv-tinta": oposto["tinta"],
          "--tese-texto": TESE["texto"] if tom == "claro" else TESE["texto_escuro"],
@@ -67,7 +67,7 @@ def vars_tela(modo, tom):
     for k in ORDEM:
         v[f"--{k}"] = A[k]["destaque"] if tom == "claro" else A[k]["destaque_escuro"]
         v[f"--{k}-t"] = A[k]["texto"] if tom == "claro" else A[k]["texto_escuro"]
-    v["--modo-cor"] = {"orientacao": TESE["chapado"], "doutrina": v["--dir-marca"], "ciencia": v.get("--traco", t["tinta2"])}[modo]
+    v["--modo-cor"] = {"informacao": TESE["chapado"], "doutrina": v["--dir-marca"], "ciencia": v.get("--traco", t["tinta2"])}[modo]
     v["--modo-tinta"] = "#ffffff" if modo != "ciencia" else t["papel"]
     return ";".join(f"{k}:{val}" for k, val in v.items())
 
@@ -83,7 +83,7 @@ def pe(modo):
     return f'<footer class="t-modo"><span class="t-rotulo">Modo</span>{chips}</footer>'
 
 
-def corpo_orientacao():
+def corpo_informacao():
     return """
 <p class="t-sobre">Parte 1 · A compra</p>
 <h3 class="t-titulo">O que você comprou, afinal?</h3>
@@ -131,7 +131,7 @@ def corpo_ciencia():
 """
 
 
-CORPOS = {"orientacao": corpo_orientacao, "doutrina": corpo_doutrina, "ciencia": corpo_ciencia}
+CORPOS = {"informacao": corpo_informacao, "doutrina": corpo_doutrina, "ciencia": corpo_ciencia}
 
 
 def tela(modo, tom):
@@ -179,7 +179,7 @@ def daltonismo(tom):
 
 def tabela_contraste():
     linhas = []
-    for m in ("orientacao", "doutrina", "ciencia", "ficha"):
+    for m in ("informacao", "doutrina", "ciencia", "ficha"):
         for tom in ("escuro", "claro"):
             t = T[m][tom]
             nome = NOME_MODO.get(m, "Balões e páginas de autor")
@@ -191,7 +191,7 @@ def tabela_contraste():
 
 chips_nove = "".join(f'<span class="oic">{e(n)}</span>' for n in NOVE)
 chips_dez = "".join(f'<span class="derivado">{e(n)}</span>' for n in DEZ)
-OR = T["orientacao"]
+OR = T["informacao"]
 
 pagina = f"""<!doctype html>
 <html lang="pt-BR">
@@ -345,12 +345,12 @@ a {{ color:inherit; }}
 <div class="areas">{''.join(cartao_area(k) for k in ORDEM)}</div>
 
 <h2>Os três modos</h2>
-<p class="nota">Orientação usa papel quente e só o azul da tese. Doutrina usa papel frio, de arquivo de trabalho, e o vermelho do Direito para o que é operação, como dever, prova, pedido e lei. Ciência é uma prancheta com grade, onde a estrutura aparece em tracejado neutro e todas as cores de área entram. O laranja de hoje sai.</p>
+<p class="nota">Informação usa papel quente e só o azul da tese. Doutrina usa papel frio, de arquivo de trabalho, e o vermelho do Direito para o que é operação, como dever, prova, pedido e lei. Ciência é uma prancheta com grade, onde a estrutura aparece em tracejado neutro e todas as cores de área entram. O laranja de hoje sai.</p>
 <p class="nota">O bloco do texto integral fica no canto superior direito e sempre contraria a página. Na página escura ele é claro com letra escura. Na página clara ele é escuro com letra clara.</p>
-{''.join(f'<section class="modo"><div class="modo-cab"><h3>{NOME_MODO[m]}</h3><span>{ {"orientacao": "o leigo que quer saber seus direitos", "doutrina": "o técnico que vai advogar", "ciencia": "o expert que quer testar a teoria"}[m] }</span></div><div class="par">{tela(m, "escuro")}{tela(m, "claro")}</div></section>' for m in ("orientacao", "doutrina", "ciencia"))}
+{''.join(f'<section class="modo"><div class="modo-cab"><h3>{NOME_MODO[m]}</h3><span>{ {"informacao": "o leigo que quer saber seus direitos", "doutrina": "o técnico que vai advogar", "ciencia": "o expert que quer testar a teoria"}[m] }</span></div><div class="par">{tela(m, "escuro")}{tela(m, "claro")}</div></section>' for m in ("informacao", "doutrina", "ciencia"))}
 
 <h2>A referência na cópia</h2>
-<p class="nota">Versão mínima, sem padrão de associação. Quem copia um trecho em Orientação ou em Doutrina leva isto.</p>
+<p class="nota">Versão mínima, sem padrão de associação. Quem copia um trecho em Informação ou em Doutrina leva isto.</p>
 <div class="copia">“Sempre que a utilidade consumida depender estruturalmente de ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização da experiência, estará configurado o campo de incidência do OIC.”
 {e(REF_TESE)}, p. 743.
 lexplataformae.com.br/tese/7-1-2/#p743</div>
