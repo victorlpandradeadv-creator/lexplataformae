@@ -703,6 +703,12 @@ body { font-family: var(--f-display); font-size: 1.06rem; line-height: 1.6; }
 .conceitos-lista a.chapado { display: inline-block; }
 .autores-lista a { color: var(--area-t, var(--tinta)); }
 
+/* A palavra Projeto fica sobre o nome, centrada, sem negrito e com metade do tamanho, enquanto o autor não der o título por pronto.
+   O tamanho é relativo ao do nome, e por isso os dois crescem juntos. Orientação do autor de 27/10/2026. */
+.topo .topo-marca { flex-direction: column; align-items: center; justify-content: center; line-height: 1.05; }
+.topo-projeto { font-size: 0.5em; font-weight: 400; letter-spacing: 0.08em; }
+.topo-nome { font-size: 1em; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

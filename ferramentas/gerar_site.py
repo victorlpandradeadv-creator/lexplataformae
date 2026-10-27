@@ -252,7 +252,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     <span>Versão {VERSAO} · em construção</span>
   </div>
   <header class="topo">
-    <a class="topo-marca" href="{inicio}">Lex Plataformae</a>
+    <a class="topo-marca" href="{inicio}"><span class="topo-projeto">Projeto</span><span class="topo-nome">Lex Plataformae</span></a>
     {menu_html(prefixo)}
     <a class="integral" href="{prefixo}tese/">Texto integral</a>
   </header>

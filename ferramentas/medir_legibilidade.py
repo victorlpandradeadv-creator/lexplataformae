@@ -1,7 +1,7 @@
 """Mede a legibilidade dos textos da camada externa pelo índice de Flesch adaptado ao português.
 
 Uso
-    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md conteudo/percurso.md]
+    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md conteudo/percurso.md conteudo/direitos.md]
 
 Fórmula de Martins e colegas (1996), adaptada ao português.
     248,835 - 1,015 x (palavras por frase) - 84,6 x (sílabas por palavra)
@@ -16,8 +16,11 @@ import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.md", RAIZ / "conteudo" / "percurso.md"]
+ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.md", RAIZ / "conteudo" / "percurso.md",
+                                           RAIZ / "conteudo" / "direitos.md"]
 META = 50
+# Campos que guardam endereços, e não texto para o leitor.
+IGNORAR = {"partes", "ideias"}
 
 VOGAIS = "aeiouáéíóúâêôãõàüy"
 FORTES = set("aeoáéóâêôãõàíú")
@@ -55,11 +58,14 @@ def blocos(arq):
     for linha in arq.read_text(encoding="utf-8").splitlines():
         if linha.startswith("## "):
             pagina, campo = linha[3:].strip(), None
+            # Os blocos de direitos têm nomes curtos, de uma letra, e ganham o nome do arquivo para não se misturar com as outras páginas.
+            if arq.stem == "direitos":
+                pagina = f"direitos-{pagina}"
             continue
         if linha.startswith("### "):
             campo = linha[4:].strip()
             continue
-        if pagina and campo and linha.strip() and not linha.startswith(">"):
+        if pagina and campo and campo not in IGNORAR and linha.strip() and not linha.startswith(">"):
             saida.setdefault(pagina, {}).setdefault(campo, []).append(linha.strip())
     return saida
 
