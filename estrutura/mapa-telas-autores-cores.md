@@ -93,6 +93,7 @@ Conhecer já está limpa. Verificar é onde está o problema, e o pior caso é j
   - Esses títulos são só um exemplo e passam pela leitura do autor.
 - **O capítulo 7 como fonte principal.** O Roteiro e o Laboratório sustentam a maior parte do que o leigo e o técnico precisam. O conteúdo das outras seções entra em grande quantidade, só que tecido no texto, sem número e sem remissão.
 - **Citação pronta para a petição.** Ao passar o mouse ou tocar num trecho, o técnico recebe a citação inteira para copiar, com o trecho literal, a referência completa da tese e a página. Isso atende o técnico e também garante que quem copia leve a referência.
+- **O conceito com maiúsculas, a coisa com minúsculas.** Orientação do autor de 27/10/2026. Objeto Imaterial de Consumo é o nome do conceito na teoria que o funda. Quando o texto trata da skin do leitor ou de um caso concreto, ela é um objeto imaterial de consumo, em minúsculas, ou um OIC. O texto operacional do técnico e o fecho de direitos do leigo falam quase sempre da coisa, e por isso usam a forma em minúsculas.
 
 ## A lei na tela do técnico
 

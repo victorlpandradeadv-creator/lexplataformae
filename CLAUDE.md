@@ -48,6 +48,7 @@ As partes do site, dentro dessas camadas.
 - A superfície do site é coloquial e fala diretamente com o leitor, mas precisa soar humana. Desde 27/10/2026, por orientação do autor, as frases se ligam por coordenação e subordinação onde o ponto final picava o texto (e, mas, porque, que, quando, enquanto, já que, de modo que). Frases curtas ficam só onde dão ritmo. Em 27/10/2026, média de 17 a 20 palavras por frase e legibilidade fácil em todas as páginas.
 - A conferência das citações por script aparece uma única vez no site, no "Como ler aqui" do texto integral. Nenhuma etiqueta, faixa ou nota repete essa informação. Orientação do autor de 27/10/2026.
 - Português primeiro. Versão inglesa do glossário em etapa posterior, sob a mesma assinatura acadêmica.
+- Maiúsculas do OIC, por orientação do autor de 27/10/2026. Objeto Imaterial de Consumo, com maiúsculas, é o nome próprio do conceito e só se escreve assim quando o texto fala da categoria que a teoria funda. Quando o texto aplica a categoria a uma coisa concreta, como a skin de alguém, uma conta ou um caso levado a juízo, a forma é objeto imaterial de consumo, em minúsculas. A sigla OIC serve aos dois usos. Vale sobretudo para o texto operacional de Verificar e para o fecho de direitos de Conhecer. Citações literais ficam como estão, e a tese também usa as duas formas. Em 27/10/2026, as seis ocorrências da forma longa na prosa do site nomeiam o conceito e ficam com maiúsculas.
 
 ## Lista de desenvolvimento
 
