@@ -22,27 +22,17 @@
 <link rel="alternate" type="application/json" href="../dados/atlas.json" title="Dados do Atlas">
 
 </head>
-<body class="" data-camada="mista" data-superficie="../">
-<div class="chave-mestra" role="radiogroup" aria-labelledby="chave-nome"><span class="chave-nome" id="chave-nome">Desnudar</span><span class="degraus"><input type="radio" name="nivel" id="nivel-0" value="0" checked><label for="nivel-0">Conhecer</label><input type="radio" name="nivel" id="nivel-1" value="1"><label for="nivel-1">Verificar</label><input type="radio" name="nivel" id="nivel-2" value="2"><label for="nivel-2">Despir</label></span></div>
+<body class="" data-camada="mista" data-minimo="0" data-superficie="../">
+<div class="chave-mestra" role="radiogroup" aria-labelledby="chave-nome"><span class="chave-nome" id="chave-nome">Modo</span><span class="degraus"><input type="radio" name="nivel" id="nivel-0" value="0" checked><label for="nivel-0">Orientação</label><input type="radio" name="nivel" id="nivel-1" value="1"><label for="nivel-1">Doutrina</label><input type="radio" name="nivel" id="nivel-2" value="2"><label for="nivel-2">Ciência</label></span></div>
 <script>(function(){var n=0;try{n=parseInt(localStorage.getItem('lexp-nivel'),10)||0}catch(e){}if(n<0)n=0;if(n>2)n=2;var r=document.getElementById('nivel-'+n);if(r)r.checked=true;document.body.classList.toggle('aberto',n>0);document.body.classList.toggle('desnudo',n>1)})()</script>
 <div class="moldura">
   <div class="faixa arq" data-arq="versão · o site cresce em público e cada mudança fica registrada">
-    <span>Versão 0.6 · em construção</span>
+    <span>Versão 0.7 · em construção</span>
   </div>
   <header class="topo">
     <a class="topo-marca" href="../">Lex Plataformae</a>
-    <nav aria-label="Seções">
-      <ul>
-        <li><a href="../#percurso">Percurso</a></li>
-        <li><a href="../#conceitos">Conceitos</a></li>
-        <li><a href="../laboratorio/">Laboratório</a></li>
-        <li class="interno"><a href="../metodo/">Método</a></li>
-        <li class="interno"><a href="../fundamentos/">Fundamentos</a></li>
-        <li class="interno"><a href="../dogmatica/">Dogmática</a></li>
-        <li class="interno"><a href="../roteiro/">Roteiro</a></li>
-        <li class="interno"><a href="../tese/">Texto integral</a></li>
-      </ul>
-    </nav>
+    <nav class="menu-modo" aria-label="Seções"><ul><li class="em-modo modo-0"><a href="../percurso/">Percurso</a></li><li class="em-modo modo-0"><a href="../#conceitos">Ideias</a></li><li class="em-modo modo-0"><a href="../laboratorio/">Outras plataformas</a></li><li class="em-modo modo-1"><a href="../roteiro/">Situações</a></li><li class="em-modo modo-1"><a href="../roteiro/diretrizes/">Diretrizes</a></li><li class="em-modo modo-1"><a href="../laboratorio/">Plataformas</a></li><li class="em-modo modo-1"><a href="../#conceitos">Conceitos</a></li><li class="em-modo modo-2"><a href="../metodo/">Método</a></li><li class="em-modo modo-2"><a href="../fundamentos/">Fundamentos</a></li><li class="em-modo modo-2"><a href="../dogmatica/">Dogmática</a></li></ul><ul class="em-modo modo-2 menu-segunda" aria-label="Os outros modos"><li><a href="../percurso/">Percurso</a></li><li><a href="../#conceitos">Ideias</a></li><li><a href="../roteiro/">Situações</a></li><li><a href="../roteiro/diretrizes/">Diretrizes</a></li><li><a href="../laboratorio/">Plataformas</a></li></ul></nav>
+    <a class="integral" href="../tese/">Texto integral</a>
   </header>
   <p class="legenda-desnudo" role="note">Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. As caixas com números de página levam ao trecho exato do texto integral.</p>
   <main>

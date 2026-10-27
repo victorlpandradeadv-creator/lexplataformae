@@ -1,6 +1,6 @@
 # Camada externa
 
-Textos da primeira vista do site, em linguagem simples, para o leitor leigo. Cada bloco traz, logo abaixo, os trechos literais da tese que ele condensa. No site, o texto simples aparece sempre. Os trechos aparecem a partir do degrau Verificar da chave de desnudar.
+Textos da primeira vista do site, em linguagem simples, para o leitor leigo. Cada bloco traz, logo abaixo, os trechos literais da tese que ele condensa. No site, o texto simples aparece sempre. Os trechos aparecem a partir do modo Doutrina da chave Modo.
 
 Convenções. Em cada conceito, a primeira frase do bloco nome é o próprio nome, que o site mostra em destaque. Os títulos são perguntas e não levam âncora.
 
@@ -49,7 +49,7 @@ No caminho aparecem nove ideias com nome próprio e outras que vêm de outros ca
 
 ### convite
 
-Tudo aqui foi simplificado, e por baixo de cada frase existe o texto de onde ela saiu, com a página exata. A chave no pé da tela abre isso aos poucos. Em Verificar você vê os trechos, e em Despir vê como cada peça foi montada.
+Tudo aqui foi simplificado, mas por baixo de cada frase existe o texto de onde ela saiu. A chave no pé da tela troca o modo de leitura. Em Doutrina aparecem os trechos prontos para quem vai defender um direito, e em Ciência você vê de onde saiu cada coisa e como cada peça foi montada.
 
 ### trilha
 

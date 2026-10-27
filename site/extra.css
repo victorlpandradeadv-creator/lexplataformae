@@ -173,10 +173,14 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
 }
 .capitulo-fund > h2 { text-transform: none; letter-spacing: normal; }
 
-/* Três degraus. Conhecer é a superfície, que fala com o leigo. Verificar abre o conteúdo extra, limpo.
-   Despir acrescenta as etiquetas e os contornos. Funciona sem JavaScript, pelos botões de rádio. */
+/* Três modos. Orientação fala com o leigo, Doutrina com o técnico e Ciência com o expert.
+   Funciona sem JavaScript, pelos botões de rádio. .interno aparece a partir de Doutrina.
+   .ciencia e .arq só aparecem em Ciência. .em-modo aparece só nos modos que a classe modo-N indica. */
 body:has(#nivel-0:checked) .interno { display: none !important; }
-body:not(:has(#nivel-2:checked)) .arq { display: none !important; }
+body:not(:has(#nivel-2:checked)) :is(.arq, .ciencia) { display: none !important; }
+body:has(#nivel-0:checked) .em-modo:not(.modo-0),
+body:has(#nivel-1:checked) .em-modo:not(.modo-1),
+body:has(#nivel-2:checked) .em-modo:not(.modo-2) { display: none !important; }
 body:has(#nivel-0:checked) :is(.so-1, .so-2),
 body:has(#nivel-1:checked) :is(.so-0, .so-2),
 body:has(#nivel-2:checked) :is(.so-0, .so-1) { display: none !important; }
@@ -201,9 +205,8 @@ body { padding-bottom: 6.5rem; }
   font-weight: 650; font-size: 0.9rem; line-height: 1.2; cursor: pointer; white-space: nowrap; transition: background 0.2s, color 0.2s;
 }
 .degraus label:hover { background: color-mix(in srgb, var(--papel) 14%, transparent); }
-.degraus input:checked + label { background: var(--papel); color: var(--tinta); }
-.degraus #nivel-2:checked + label { background: var(--desnudo); color: var(--papel); }
-.degraus input:focus-visible + label { outline: 3px solid var(--desnudo); outline-offset: 2px; }
+.degraus input:checked + label { background: var(--modo); color: var(--modo-tinta); }
+.degraus input:focus-visible + label { outline: 3px solid var(--papel); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .degraus label { transition: none; } }
 .convite-botoes { display: contents; }
 .convite-botao { cursor: pointer; }
@@ -310,3 +313,50 @@ body.desnudo .faixa { padding-inline: 0.5rem; margin-top: 1.7rem; }
 .ilustracao.prevista.formato-4x3 { aspect-ratio: 4 / 3; }
 .ilustracao.prevista p { margin: 0; max-width: 52ch; font-family: var(--f-dado); font-size: 0.8rem; line-height: 1.5; color: var(--tinta-2); text-align: center; }
 @media (max-width: 640px) { .ilustracao.prevista { aspect-ratio: auto; min-height: 12rem; } }
+
+/* Versão 0.7. Cores por modo, tese em azul Klein e áreas em filetes. Proposta aprovada pelo autor em 27/10/2026. */
+
+/* Topo. O menu muda com o modo, e o texto integral fica num bloco que sempre contraria a página. */
+.topo { flex-wrap: wrap; }
+.menu-modo { flex: 1 1 auto; display: grid; gap: 0.2rem; min-width: 0; }
+.menu-modo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-family: var(--f-display); font-size: 0.875rem; }
+.menu-modo a { color: var(--tinta); text-decoration: none; }
+.menu-modo a:hover { text-decoration: underline; }
+.menu-segunda { font-size: 0.8rem !important; }
+.menu-segunda a { color: var(--tinta-2) !important; }
+.integral {
+  margin-left: auto; font-family: var(--f-display); font-weight: 700; font-size: 0.85rem; line-height: 1.2;
+  background: var(--inv-papel); color: var(--inv-tinta); padding: 0.55rem 0.85rem; border-radius: 3px; text-decoration: none; white-space: nowrap;
+  display: inline-flex; align-items: center; min-height: 40px;
+}
+.integral:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+.integral:focus-visible { outline: 2px solid var(--modo); outline-offset: 3px; }
+@media (max-width: 640px) { .topo-marca { order: 1; } .integral { order: 2; } .menu-modo { order: 3; flex-basis: 100%; } }
+
+/* Ciência é uma prancheta. Grade fina no papel, estrutura em tracejado neutro. */
+body:has(#nivel-2:checked) {
+  background-image: linear-gradient(var(--grade) 1px, transparent 1px), linear-gradient(90deg, var(--grade) 1px, transparent 1px);
+  background-size: 24px 24px; background-attachment: local;
+}
+body:has(#nivel-2:checked) .campo { background-image: none; }
+
+/* A tese é chapada em azul Klein. Os nove conceitos em bloco cheio, os dez derivados em contorno. */
+.chapado, .nome-conceito a, .cartao b {
+  background: var(--tese); color: var(--tese-sobre); text-decoration: none; padding: 0.05em 0.35em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 1px;
+}
+.nome-conceito a:hover, .cartao:hover b { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; color: var(--tese-sobre); }
+.cartao b { justify-self: start; font-size: 0.95rem; line-height: 1.5; }
+.cartao:hover { border-color: var(--tese-linha); }
+.nome-conceito { color: var(--tinta); }
+.nome-conceito > a, .nome-conceito > .chapado, .nome-termo > .nome-derivado { justify-self: start; }
+.nome-ext { border-left: 6px solid var(--tese); }
+.nome-derivado {
+  color: var(--tese-texto); box-shadow: inset 0 0 0 1.5px var(--tese-linha); padding: 0.05em 0.35em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 1px;
+}
+.termo.derivado { border-left-color: var(--tese-linha); }
+
+/* Áreas. Em Ciência, cada termo ganha o filete e o nome da sua área. */
+.area-rotulo { font-family: var(--f-dado); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: none; color: var(--area-t, var(--tinta-2)); }
+body:has(#nivel-2:checked) .termo[style*="--area"] { border-left: 6px solid var(--area); }

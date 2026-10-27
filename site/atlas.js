@@ -1,16 +1,16 @@
 /* Lex Plataformae. Interações do site.
-   O conteúdo já chega completo no HTML. Este script só acrescenta três coisas.
-   1. A chave de três degraus que desnuda a página, protagonista do site.
+   O conteúdo já chega completo no HTML. Este script só acrescenta interação.
+   1. A chave Modo, com Orientação, Doutrina e Ciência.
    2. A troca entre as três leituras da tese na página inicial.
    3. O player das epígrafes, que só carrega o Spotify depois do clique. */
 (function () {
   var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* A chave de desnudar é a protagonista do site e tem três degraus. 0 é Conhecer, 1 é Verificar, que abre o texto, e 2 é Despir, que mostra a arquitetura.
-     A escolha acompanha a navegação. As páginas de estudo nunca ficam abaixo do texto, e escolher a superfície nelas leva de volta a ela. */
+  /* A chave Modo tem três posições. 0 é Orientação, para o leigo, 1 é Doutrina, para o técnico, e 2 é Ciência, para o expert.
+     A escolha acompanha a navegação. Cada página tem um modo mínimo, e escolher um modo abaixo dele leva à página de superfície. */
   var degraus = document.querySelectorAll('input[name="nivel"]');
   if (degraus.length) {
-    var interna = document.body.getAttribute('data-camada') === 'interna';
+    var minimo = parseInt(document.body.getAttribute('data-minimo') || '0', 10) || 0;
     var aplicar = function (n) {
       document.body.classList.toggle('aberto', n > 0);
       document.body.classList.toggle('desnudo', n > 1);
@@ -22,7 +22,7 @@
       r.addEventListener('change', function () {
         var n = parseInt(r.value, 10);
         lembrar(n);
-        if (interna && n === 0) {
+        if (n < minimo) {
           window.location.href = document.body.getAttribute('data-superficie') || '/';
           return;
         }

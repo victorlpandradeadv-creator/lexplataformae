@@ -18,7 +18,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.6"
+VERSAO = "0.7"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -145,13 +145,15 @@ LEGENDA = {
     "mista": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
               "As caixas com números de página levam ao trecho exato do texto integral."),
     "interna": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
-                "Para a leitura longa, sem etiquetas, volte ao degrau Verificar."),
+                "Para a leitura longa, sem etiquetas, volte ao modo Doutrina."),
 }
 
-# A chave tem três degraus, com os nomes escolhidos pelo autor em 27/10/2026.
-# Conhecer é a superfície, que fala com o leigo. Verificar abre o conteúdo extra da tese, limpo.
-# Despir acrescenta as etiquetas e os contornos que mostram como a página é feita.
-DEGRAUS = ("Conhecer", "Verificar", "Despir")
+# A chave se chama Modo e tem três posições, com os nomes indicados pelo autor em 27/10/2026.
+# Orientação fala com o leigo que consome e quer saber seus direitos. Doutrina fala com o técnico que vai advogar.
+# Ciência fala com o expert que quer testar a teoria e saber de onde saiu cada coisa, e só ela mostra a estrutura inteira.
+DEGRAUS = ("Orientação", "Doutrina", "Ciência")
+# O nível mínimo de cada tipo de página. Escolher um modo abaixo dele leva à página de superfície indicada.
+NIVEL_MINIMO = {"mista": 0, "externa": 0, "interna": 1, "ciencia": 2}
 
 
 def chave_mestra(nivel):
@@ -160,24 +162,52 @@ def chave_mestra(nivel):
         f'<label for="nivel-{i}">{nome}</label>'
         for i, nome in enumerate(DEGRAUS))
     return (f'<div class="chave-mestra" role="radiogroup" aria-labelledby="chave-nome">'
-            f'<span class="chave-nome" id="chave-nome">Desnudar</span><span class="degraus">{radios}</span></div>')
+            f'<span class="chave-nome" id="chave-nome">Modo</span><span class="degraus">{radios}</span></div>')
+
+
+# O menu de cada modo. Rascunho de 27/10/2026, a pedido do autor, que critica depois.
+# Cada item tem o endereço e os modos em que aparece. Em Ciência os itens dos outros modos aparecem numa segunda linha.
+MENU = [
+    ("Percurso", "percurso/", (0,)), ("Ideias", "#conceitos", (0,)), ("Outras plataformas", "laboratorio/", (0,)),
+    ("Situações", "roteiro/", (1,)), ("Diretrizes", "roteiro/diretrizes/", (1,)), ("Plataformas", "laboratorio/", (1,)),
+    ("Conceitos", "#conceitos", (1,)), ("Legislação", "legislacao/", (1,)),
+    ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
+]
+MENU_SEGUNDA = [("Percurso", "percurso/"), ("Ideias", "#conceitos"), ("Situações", "roteiro/"), ("Diretrizes", "roteiro/diretrizes/"),
+                ("Plataformas", "laboratorio/"), ("Legislação", "legislacao/")]
+
+
+def menu_html(prefixo):
+    def existe(caminho):
+        return caminho.startswith("#") or caminho in PAGINAS_PRONTAS
+    itens = "".join(f'<li class="em-modo {" ".join(f"modo-{m}" for m in modos)}"><a href="{prefixo}{caminho}">{esc(rotulo)}</a></li>'
+                    for rotulo, caminho, modos in MENU if existe(caminho))
+    segunda = "".join(f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a></li>' for rotulo, caminho in MENU_SEGUNDA if existe(caminho))
+    return (f'<nav class="menu-modo" aria-label="Seções"><ul>{itens}</ul>'
+            f'<ul class="em-modo modo-2 menu-segunda" aria-label="Os outros modos">{segunda}</ul></nav>')
+
+
+# Páginas que o gerador escreve. O menu só mostra endereço que existe.
+PAGINAS_PRONTAS = {"percurso/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/"}
 
 
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None):
     """Monta a página.
 
-    camada 'mista' tem texto limpo no degrau Conhecer, o conteúdo extra no degrau Verificar e as etiquetas no degrau Despir.
-    camada 'interna' é página de estudo, que já abre no degrau Verificar. Escolher Conhecer leva de volta à superfície.
+    camada 'mista' abre em Orientação e ganha conteúdo em Doutrina e estrutura em Ciência.
+    camada 'interna' é página do técnico, que abre no mínimo em Doutrina. Escolher Orientação leva à superfície.
+    camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
     canonico = BASE + "/" + caminho
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
-    interna = camada == "interna"
+    minimo = NIVEL_MINIMO[camada]
+    interna = minimo > 0
     inicio = prefixo or "./"
     sup = superficie if superficie is not None else inicio
-    # Antes da primeira pintura, a página assume o degrau que o leitor escolheu. As páginas de estudo nunca abrem abaixo do texto.
+    # Antes da primeira pintura, a página assume o modo que o leitor escolheu, nunca abaixo do mínimo da página.
     lembrar = ("<script>(function(){var n=0;try{n=parseInt(localStorage.getItem('lexp-nivel'),10)||0}catch(e){}"
-               f"if(n<{1 if interna else 0})n={1 if interna else 0};if(n>2)n=2;var r=document.getElementById('nivel-'+n);if(r)r.checked=true;"
+               f"if(n<{minimo})n={minimo};if(n>2)n=2;var r=document.getElementById('nivel-'+n);if(r)r.checked=true;"
                "document.body.classList.toggle('aberto',n>0);document.body.classList.toggle('desnudo',n>1)})()</script>")
     legenda = LEGENDA["interna" if interna else "mista"]
     cartao = imagem if imagem and (RAIZ / "site" / "cartoes" / f"{imagem}.png").exists() else "inicio"
@@ -207,8 +237,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <link rel="alternate" type="application/json" href="{prefixo}dados/atlas.json" title="Dados do Atlas">
 {ld}
 </head>
-<body class="{'aberto' if interna else ''}" data-camada="{camada}" data-superficie="{esc(sup)}">
-{chave_mestra(1 if interna else 0)}
+<body class="{'aberto' if interna else ''}{' desnudo' if minimo > 1 else ''}" data-camada="{camada}" data-minimo="{minimo}" data-superficie="{esc(sup)}">
+{chave_mestra(minimo)}
 {lembrar}
 <div class="moldura">
   <div class="faixa arq" data-arq="versão · o site cresce em público e cada mudança fica registrada">
@@ -216,18 +246,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   </div>
   <header class="topo">
     <a class="topo-marca" href="{inicio}">Lex Plataformae</a>
-    <nav aria-label="Seções">
-      <ul>
-        <li><a href="{prefixo}#percurso">Percurso</a></li>
-        <li><a href="{prefixo}#conceitos">Conceitos</a></li>
-        <li><a href="{prefixo}laboratorio/">Laboratório</a></li>
-        <li class="interno"><a href="{prefixo}metodo/">Método</a></li>
-        <li class="interno"><a href="{prefixo}fundamentos/">Fundamentos</a></li>
-        <li class="interno"><a href="{prefixo}dogmatica/">Dogmática</a></li>
-        <li class="interno"><a href="{prefixo}roteiro/">Roteiro</a></li>
-        <li class="interno"><a href="{prefixo}tese/">Texto integral</a></li>
-      </ul>
-    </nav>
+    {menu_html(prefixo)}
+    <a class="integral" href="{prefixo}tese/">Texto integral</a>
   </header>
   <p class="legenda-desnudo" role="note">{esc(legenda)}</p>
   <main>
@@ -372,6 +392,34 @@ def figura(ident, prefixo):
 ROTULOS_PERCURSO = {"imagem": "Uma imagem", "mecanismo": "Como funciona", "caso": "Um caso",
                     "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo"}
 
+# Cores e áreas. A proposta está em estrutura/cores.json e foi aprovada pelo autor em 27/10/2026.
+CORES = json.loads((RAIZ / "estrutura" / "cores.json").read_text(encoding="utf-8"))
+AREA_NOME = {k: a["nome"] for k, a in CORES["areas"].items()}
+# Os dez conceitos que a tese deriva, fora dos nove. Ganharam estatuto próprio ao lado dos nove, por decisão do autor de 27/10/2026.
+DERIVADOS = {"Teleologia arquitetural", "Cativeiro identitário", "Consumidor-cidadão", "Transparência performática",
+             "Consentimento viciado por sentido", "Publicidade enganosa por arquitetura", "Continuidade biográfica",
+             "Recomposição funcional", "Correção de regime", "Dano-arquitetura"}
+# A área de cada termo do percurso, pela seção da tese de onde vem o trecho e pelo lugar do autor decidido em 27/10/2026.
+# As categorias jurídicas ficam no Direito. Os derivados são da tese. Nerf é palavra do próprio objeto.
+AREA_TERMO = {
+    "Valor como julgamento": "antropologia", "Consumo como ritual": "antropologia", "Transferência de significado": "antropologia",
+    "Biografia das coisas": "antropologia",
+    "Espetáculo": "semiotica", "Gamificação": "semiotica", "Simulacro": "semiotica", "Códigos de leitura": "semiotica",
+    "Economia da atenção": "economia", "Tecnofeudalismo": "economia", "Economia de pedágio": "economia", "Trabalho invisível": "economia",
+    "Lumpemproletariado digital": "economia", "Propriedade intelectual como cerca": "economia",
+    "Arquitetura de escolha": "poder", "Psicopolítica": "poder", "Cidadania digital": "poder",
+    "Autonomia da técnica": "tecnica", "Mídia como forma de vida": "tecnica", "Dessimbolização": "tecnica", "Código técnico": "tecnica",
+    "Poder informacional": "direito", "Normatividade prática": "direito", "Categorias que acompanham a técnica": "direito",
+    "Bens digitais": "direito", "Contratos cativos": "direito", "Padrões obscuros": "direito", "Vulnerabilidade do consumidor": "direito",
+    "Lei do software": "direito", "Ordem econômica": "direito", "Eficácia horizontal dos direitos fundamentais": "direito",
+    "Função social da propriedade intelectual": "direito", "Marco legal dos jogos": "direito", "Consumidor equiparado": "direito",
+    "Concorrência": "direito", "Nerf": "laboratorio",
+}
+
+
+def estilo_area(area):
+    return f' style="--area:var(--a-{area});--area-t:var(--a-{area}-t)"' if area else ""
+
 
 def partes_com_ideia(cid):
     """As partes do percurso em que uma das nove ideias aparece com nome próprio."""
@@ -402,11 +450,11 @@ def ext_html(pag, campo_, prefixo, classe=""):
 
 
 def botao_desnudar():
-    """O convite dentro da página leva ao degrau seguinte. Do último, volta à primeira vista."""
+    """O convite dentro da página leva ao modo seguinte. Do último, volta à Orientação."""
     return ('<span class="convite-botoes">'
-            '<label class="botao convite-botao so-0" for="nivel-1">Verificar de onde vem</label>'
-            '<label class="botao convite-botao so-1" for="nivel-2">Despir a arquitetura</label>'
-            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à primeira vista</label></span>')
+            '<label class="botao convite-botao so-0" for="nivel-1">Abrir a Doutrina</label>'
+            '<label class="botao convite-botao so-1" for="nivel-2">Abrir a Ciência</label>'
+            '<label class="botao convite-botao so-2" for="nivel-0">Voltar à Orientação</label></span>')
 
 
 def html_passo(passo, base):
@@ -474,7 +522,12 @@ def bloco_percurso(b, prefixo):
                 f'<a href="{prefixo}conceitos/{arg}/">{esc(c["nome"])}</a></h2>{texto}'
                 f'<p class="ver-ideia"><a href="{prefixo}conceitos/{arg}/">A ideia inteira</a></p>{exp}</section>')
     if tipo == "termo":
-        return (f'<section class="ext termo"><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}</span>{esc(arg)}</h2>'
+        derivado = arg in DERIVADOS
+        area = AREA_TERMO.get(arg)
+        nome = f'<span class="nome-derivado">{esc(arg)}</span>' if derivado else esc(arg)
+        rot_area = (f' <span class="area-rotulo ciencia">· {esc(AREA_NOME[area])}</span>' if area
+                    else ' <span class="area-rotulo ciencia">· conceito derivado da tese</span>' if derivado else "")
+        return (f'<section class="ext termo{" derivado" if derivado else ""}"{estilo_area(area)}><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}{rot_area}</span>{nome}</h2>'
                 f'{texto}{exp}</section>')
     if tipo == "familia":
         titulo = ext_texto(arg, "titulo") or arg
@@ -766,7 +819,7 @@ def gerar_conceito(c):
             f'<a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(c["id"], "titulo"))}</h1></header>'
             + bloco_ext("fenomeno", classe="fenomeno")
-            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span>{esc(c["nome"])}</h2>'
+            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span><span class="chapado">{esc(c["nome"])}</span></h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
             + figura(f'ideia-{c["id"]}', prefixo)
             + bloco_ext("imagem", "Uma imagem", "didatico imagem")
@@ -942,7 +995,7 @@ def gerar_tese():
               "inLanguage": "pt-BR", "abstract": resumo["texto"] if resumo else None,
               "keywords": resumo["palavras_chave"] if resumo else None, "url": BASE + "/tese/"}
     (pasta / "index.html").write_text(
-        pagina("Texto integral · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld),
+        pagina("Texto integral · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld, camada="mista"),
         encoding="utf-8")
 
     # Uma página por seção.
@@ -1001,7 +1054,7 @@ def gerar_tese():
         destino = pasta / sec["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{rotulo_secao(sec)} · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld),
+            pagina(f'{rotulo_secao(sec)} · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld, camada="mista"),
             encoding="utf-8")
 
 
@@ -1647,7 +1700,7 @@ def gerar_metodo():
               "url": BASE + "/metodo/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "metodo"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Método · Lex Plataformae", desc, corpo, prefixo, "metodo/", jsonld), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Método · Lex Plataformae", desc, corpo, prefixo, "metodo/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 # Fundamentos. Os capítulos 3 e 4, organizados pelos conjuntos de autores e pelas funções que a abertura de cada capítulo declara.
@@ -1789,7 +1842,7 @@ def gerar_fundamentos():
               "mentions": [{"@type": "Person", "name": nome} for nome in dict.fromkeys(mencionados)]}
     pasta = SAIDA / "fundamentos"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Fundamentos · Lex Plataformae", desc, corpo, prefixo, "fundamentos/", jsonld), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Fundamentos · Lex Plataformae", desc, corpo, prefixo, "fundamentos/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 # Dispositivos. Artigos que a tese cita com o nome da lei na mesma frase. Remissões sem o nome da lei ficam de fora.
@@ -1922,7 +1975,7 @@ def gerar_dogmatica():
               + [{"@type": "Legislation", "name": lei} for lei in leis]}
     pasta = SAIDA / "dogmatica"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Dogmática · Lex Plataformae", desc, corpo, prefixo, "dogmatica/", jsonld), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Dogmática · Lex Plataformae", desc, corpo, prefixo, "dogmatica/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 _NOMEACOES = {}
@@ -2033,6 +2086,8 @@ body { margin: 0; }
 img { max-width: 100%; }
 """
     extra = (RAIZ / "site" / "extra.css").read_text(encoding="utf-8")
+    # As cores vêm de estrutura/cores.json, por ferramentas/cores/gerar_css.py, e entram por último.
+    extra += "\n" + (RAIZ / "site" / "cores.css").read_text(encoding="utf-8")
     assets = SAIDA / "assets"
     (assets / "fontes").mkdir(parents=True, exist_ok=True)
     # O degrau Despir vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.

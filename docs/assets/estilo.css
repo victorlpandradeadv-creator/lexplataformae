@@ -399,10 +399,14 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
 }
 .capitulo-fund > h2 { text-transform: none; letter-spacing: normal; }
 
-/* Três degraus. Conhecer é a superfície, que fala com o leigo. Verificar abre o conteúdo extra, limpo.
-   Despir acrescenta as etiquetas e os contornos. Funciona sem JavaScript, pelos botões de rádio. */
+/* Três modos. Orientação fala com o leigo, Doutrina com o técnico e Ciência com o expert.
+   Funciona sem JavaScript, pelos botões de rádio. .interno aparece a partir de Doutrina.
+   .ciencia e .arq só aparecem em Ciência. .em-modo aparece só nos modos que a classe modo-N indica. */
 body:has(#nivel-0:checked) .interno { display: none !important; }
-body:not(:has(#nivel-2:checked)) .arq { display: none !important; }
+body:not(:has(#nivel-2:checked)) :is(.arq, .ciencia) { display: none !important; }
+body:has(#nivel-0:checked) .em-modo:not(.modo-0),
+body:has(#nivel-1:checked) .em-modo:not(.modo-1),
+body:has(#nivel-2:checked) .em-modo:not(.modo-2) { display: none !important; }
 body:has(#nivel-0:checked) :is(.so-1, .so-2),
 body:has(#nivel-1:checked) :is(.so-0, .so-2),
 body:has(#nivel-2:checked) :is(.so-0, .so-1) { display: none !important; }
@@ -427,9 +431,8 @@ body { padding-bottom: 6.5rem; }
   font-weight: 650; font-size: 0.9rem; line-height: 1.2; cursor: pointer; white-space: nowrap; transition: background 0.2s, color 0.2s;
 }
 .degraus label:hover { background: color-mix(in srgb, var(--papel) 14%, transparent); }
-.degraus input:checked + label { background: var(--papel); color: var(--tinta); }
-.degraus #nivel-2:checked + label { background: var(--desnudo); color: var(--papel); }
-.degraus input:focus-visible + label { outline: 3px solid var(--desnudo); outline-offset: 2px; }
+.degraus input:checked + label { background: var(--modo); color: var(--modo-tinta); }
+.degraus input:focus-visible + label { outline: 3px solid var(--papel); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .degraus label { transition: none; } }
 .convite-botoes { display: contents; }
 .convite-botao { cursor: pointer; }
@@ -536,3 +539,331 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
 .ilustracao.prevista.formato-4x3 { aspect-ratio: 4 / 3; }
 .ilustracao.prevista p { margin: 0; max-width: 52ch; font-family: var(--f-dado); font-size: 0.8rem; line-height: 1.5; color: var(--tinta-2); text-align: center; }
 @media (max-width: 640px) { .ilustracao.prevista { aspect-ratio: auto; min-height: 12rem; } }
+
+/* Versão 0.7. Cores por modo, tese em azul Klein e áreas em filetes. Proposta aprovada pelo autor em 27/10/2026. */
+
+/* Topo. O menu muda com o modo, e o texto integral fica num bloco que sempre contraria a página. */
+.topo { flex-wrap: wrap; }
+.menu-modo { flex: 1 1 auto; display: grid; gap: 0.2rem; min-width: 0; }
+.menu-modo ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-family: var(--f-display); font-size: 0.875rem; }
+.menu-modo a { color: var(--tinta); text-decoration: none; }
+.menu-modo a:hover { text-decoration: underline; }
+.menu-segunda { font-size: 0.8rem !important; }
+.menu-segunda a { color: var(--tinta-2) !important; }
+.integral {
+  margin-left: auto; font-family: var(--f-display); font-weight: 700; font-size: 0.85rem; line-height: 1.2;
+  background: var(--inv-papel); color: var(--inv-tinta); padding: 0.55rem 0.85rem; border-radius: 3px; text-decoration: none; white-space: nowrap;
+  display: inline-flex; align-items: center; min-height: 40px;
+}
+.integral:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+.integral:focus-visible { outline: 2px solid var(--modo); outline-offset: 3px; }
+@media (max-width: 640px) { .topo-marca { order: 1; } .integral { order: 2; } .menu-modo { order: 3; flex-basis: 100%; } }
+
+/* Ciência é uma prancheta. Grade fina no papel, estrutura em tracejado neutro. */
+body:has(#nivel-2:checked) {
+  background-image: linear-gradient(var(--grade) 1px, transparent 1px), linear-gradient(90deg, var(--grade) 1px, transparent 1px);
+  background-size: 24px 24px; background-attachment: local;
+}
+body:has(#nivel-2:checked) .campo { background-image: none; }
+
+/* A tese é chapada em azul Klein. Os nove conceitos em bloco cheio, os dez derivados em contorno. */
+.chapado, .nome-conceito a, .cartao b {
+  background: var(--tese); color: var(--tese-sobre); text-decoration: none; padding: 0.05em 0.35em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 1px;
+}
+.nome-conceito a:hover, .cartao:hover b { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.15em; color: var(--tese-sobre); }
+.cartao b { justify-self: start; font-size: 0.95rem; line-height: 1.5; }
+.cartao:hover { border-color: var(--tese-linha); }
+.nome-conceito { color: var(--tinta); }
+.nome-conceito > a, .nome-conceito > .chapado, .nome-termo > .nome-derivado { justify-self: start; }
+.nome-ext { border-left: 6px solid var(--tese); }
+.nome-derivado {
+  color: var(--tese-texto); box-shadow: inset 0 0 0 1.5px var(--tese-linha); padding: 0.05em 0.35em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 1px;
+}
+.termo.derivado { border-left-color: var(--tese-linha); }
+
+/* Áreas. Em Ciência, cada termo ganha o filete e o nome da sua área. */
+.area-rotulo { font-family: var(--f-dado); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: none; color: var(--area-t, var(--tinta-2)); }
+body:has(#nivel-2:checked) .termo[style*="--area"] { border-left: 6px solid var(--area); }
+
+/* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
+/* Tokens globais e o modo Orientação, que é o padrão. */
+:root {
+  --tese: #002fa7;
+  --tese-sobre: #ffffff;
+  --tese-texto: #002fa7;
+  --tese-linha: #002fa7;
+  --a-direito: #cd171e;
+  --a-direito-t: #862723;
+  --a-direito-f: #f8dbd7;
+  --a-economia: #ffb348;
+  --a-economia-t: #6e461a;
+  --a-economia-f: #fcefe1;
+  --a-tecnica: #50bfbe;
+  --a-tecnica-t: #1b575a;
+  --a-tecnica-f: #e2f1f0;
+  --a-antropologia: #7da04b;
+  --a-antropologia-t: #3d4e2b;
+  --a-antropologia-f: #e5ecde;
+  --a-semiotica: #7e53bc;
+  --a-semiotica-t: #503975;
+  --a-semiotica-f: #e5dff2;
+  --a-poder: #a8347f;
+  --a-poder-t: #66294e;
+  --a-poder-f: #f0dbe6;
+  --a-laboratorio: #dbd7d0;
+  --a-laboratorio-t: #45423e;
+  --a-laboratorio-f: #f5f4f3;
+  --f-papel: #faf3df;
+  --f-tinta: #251e18;
+  --f-tinta-2: #61564d;
+  --f-pauta: #bcd5e5;
+  --papel: #faf6ef;
+  --folha: #fdfcf8;
+  --tinta: #211c17;
+  --tinta-2: #615953;
+  --linha: #dcd7cf;
+  --campo: #efebe4;
+  --grade: transparent;
+  --acento: #002fa7;
+  --acento-suave: #dfe3ea;
+  --traco: #615953;
+  --desnudo: #615953;
+  --marca: #efebb1;
+  --modo: #002fa7;
+  --modo-tinta: #ffffff;
+  --inv-papel: #17130f;
+  --inv-tinta: #ebe7e1;
+  --nota: #f5f1d4;
+  --nota-borda: #e7e3be;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) {
+  --tese: #002fa7;
+  --tese-sobre: #ffffff;
+  --tese-texto: #a1bdf9;
+  --tese-linha: #497ef7;
+  --a-direito: #d42325;
+  --a-direito-t: #f5bab2;
+  --a-direito-f: #4b2a26;
+  --a-economia: #ffb348;
+  --a-economia-t: #eccb9e;
+  --a-economia-f: #51422f;
+  --a-tecnica: #50bfbe;
+  --a-tecnica-t: #a8d9d8;
+  --a-tecnica-f: #314443;
+  --a-antropologia: #7da04b;
+  --a-antropologia-t: #c2d6ac;
+  --a-antropologia-f: #363e2d;
+  --a-semiotica: #8459c3;
+  --a-semiotica-t: #cebeef;
+  --a-semiotica-f: #373045;
+  --a-poder: #b5418b;
+  --a-poder-t: #e8bbd3;
+  --a-poder-f: #432c39;
+  --a-laboratorio: #dbd7d0;
+  --a-laboratorio-t: #cccac7;
+  --a-laboratorio-f: #494847;
+  --f-papel: #29231a;
+  --f-tinta: #ede7d9;
+  --f-tinta-2: #b1aa9d;
+  --f-pauta: #2e404b;
+  --papel: #17130f;
+  --folha: #1e1a16;
+  --tinta: #ebe7e1;
+  --tinta-2: #a9a49c;
+  --linha: #37322e;
+  --campo: #221d19;
+  --grade: transparent;
+  --acento: #a1bdf9;
+  --acento-suave: #232122;
+  --traco: #a9a49c;
+  --desnudo: #a9a49c;
+  --marca: #564e1b;
+  --modo: #002fa7;
+  --modo-tinta: #ffffff;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #322c16;
+  --nota-borda: #494326;
+  color-scheme: dark;
+}
+}
+:root[data-theme="dark"] {
+  --tese: #002fa7;
+  --tese-sobre: #ffffff;
+  --tese-texto: #a1bdf9;
+  --tese-linha: #497ef7;
+  --a-direito: #d42325;
+  --a-direito-t: #f5bab2;
+  --a-direito-f: #4b2a26;
+  --a-economia: #ffb348;
+  --a-economia-t: #eccb9e;
+  --a-economia-f: #51422f;
+  --a-tecnica: #50bfbe;
+  --a-tecnica-t: #a8d9d8;
+  --a-tecnica-f: #314443;
+  --a-antropologia: #7da04b;
+  --a-antropologia-t: #c2d6ac;
+  --a-antropologia-f: #363e2d;
+  --a-semiotica: #8459c3;
+  --a-semiotica-t: #cebeef;
+  --a-semiotica-f: #373045;
+  --a-poder: #b5418b;
+  --a-poder-t: #e8bbd3;
+  --a-poder-f: #432c39;
+  --a-laboratorio: #dbd7d0;
+  --a-laboratorio-t: #cccac7;
+  --a-laboratorio-f: #494847;
+  --f-papel: #29231a;
+  --f-tinta: #ede7d9;
+  --f-tinta-2: #b1aa9d;
+  --f-pauta: #2e404b;
+  --papel: #17130f;
+  --folha: #1e1a16;
+  --tinta: #ebe7e1;
+  --tinta-2: #a9a49c;
+  --linha: #37322e;
+  --campo: #221d19;
+  --grade: transparent;
+  --acento: #a1bdf9;
+  --acento-suave: #232122;
+  --traco: #a9a49c;
+  --desnudo: #a9a49c;
+  --marca: #564e1b;
+  --modo: #002fa7;
+  --modo-tinta: #ffffff;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #322c16;
+  --nota-borda: #494326;
+  color-scheme: dark;
+}
+/* Modo doutrina. */
+body:has(#nivel-1:checked) {
+  --papel: #f0f5f9;
+  --folha: #fafcfe;
+  --tinta: #161b22;
+  --tinta-2: #535c66;
+  --linha: #cfd5da;
+  --campo: #e4eaee;
+  --grade: transparent;
+  --acento: #862723;
+  --acento-suave: #e7e0e2;
+  --traco: #535c66;
+  --desnudo: #535c66;
+  --marca: #efebb1;
+  --modo: #cd171e;
+  --modo-tinta: #ffffff;
+  --inv-papel: #17130f;
+  --inv-tinta: #ebe7e1;
+  --nota: #eff1d9;
+  --nota-borda: #e2e2c3;
+}
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) body:has(#nivel-1:checked) {
+  --papel: #131a23;
+  --folha: #1a212a;
+  --tinta: #e4e8ed;
+  --tinta-2: #a4acb4;
+  --linha: #333b45;
+  --campo: #1e252f;
+  --grade: transparent;
+  --acento: #f5bab2;
+  --acento-suave: #262830;
+  --traco: #a4acb4;
+  --desnudo: #a4acb4;
+  --marca: #564e1b;
+  --modo: #d42325;
+  --modo-tinta: #ffffff;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #303124;
+  --nota-borda: #484731;
+}
+}
+:root[data-theme="dark"] body:has(#nivel-1:checked) {
+  --papel: #131a23;
+  --folha: #1a212a;
+  --tinta: #e4e8ed;
+  --tinta-2: #a4acb4;
+  --linha: #333b45;
+  --campo: #1e252f;
+  --grade: transparent;
+  --acento: #f5bab2;
+  --acento-suave: #262830;
+  --traco: #a4acb4;
+  --desnudo: #a4acb4;
+  --marca: #564e1b;
+  --modo: #d42325;
+  --modo-tinta: #ffffff;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #303124;
+  --nota-borda: #484731;
+}
+/* Modo ciencia. */
+body:has(#nivel-2:checked) {
+  --papel: #f7fbfc;
+  --folha: #ffffff;
+  --tinta: #13161a;
+  --tinta-2: #53595f;
+  --linha: #d2d8dd;
+  --campo: #eaeff1;
+  --grade: #dfecf2;
+  --acento: #13161a;
+  --acento-suave: #dde1e2;
+  --traco: #51565b;
+  --desnudo: #51565b;
+  --marca: #efebb1;
+  --modo: #51565b;
+  --modo-tinta: #f7fbfc;
+  --inv-papel: #17130f;
+  --inv-tinta: #ebe7e1;
+  --nota: #f3f4db;
+  --nota-borda: #e3e4c4;
+}
+@media (prefers-color-scheme: dark) {
+:root:not([data-theme="light"]) body:has(#nivel-2:checked) {
+  --papel: #121416;
+  --folha: #191b1c;
+  --tinta: #e9ebee;
+  --tinta-2: #a9afb4;
+  --linha: #35383c;
+  --campo: #1e2023;
+  --grade: #1e2123;
+  --acento: #e9ebee;
+  --acento-suave: #232528;
+  --traco: #b8bec5;
+  --desnudo: #b8bec5;
+  --marca: #564e1b;
+  --modo: #b8bec5;
+  --modo-tinta: #121416;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #2f2d1c;
+  --nota-borda: #48452c;
+}
+}
+:root[data-theme="dark"] body:has(#nivel-2:checked) {
+  --papel: #121416;
+  --folha: #191b1c;
+  --tinta: #e9ebee;
+  --tinta-2: #a9afb4;
+  --linha: #35383c;
+  --campo: #1e2023;
+  --grade: #1e2123;
+  --acento: #e9ebee;
+  --acento-suave: #232528;
+  --traco: #b8bec5;
+  --desnudo: #b8bec5;
+  --marca: #564e1b;
+  --modo: #b8bec5;
+  --modo-tinta: #121416;
+  --inv-papel: #faf6ef;
+  --inv-tinta: #211c17;
+  --nota: #2f2d1c;
+  --nota-borda: #48452c;
+}
