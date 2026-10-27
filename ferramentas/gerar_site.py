@@ -149,7 +149,7 @@ LEGENDA = {
 }
 
 
-def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None):
+def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None):
     """Monta a página.
 
     camada 'mista' tem texto limpo na superfície e a arquitetura sob o botão de desnudar.
@@ -165,6 +165,9 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
                "<script>try{if(localStorage.getItem('lexp-desnudo')==='1'){document.getElementById('desnudar').checked=true;"
                "document.body.classList.add('desnudo')}}catch(e){}</script>")
     legenda = LEGENDA["interna" if interna else "mista"]
+    cartao = imagem if imagem and (RAIZ / "site" / "cartoes" / f"{imagem}.png").exists() else "inicio"
+    # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
+    assinatura = "" if caminho == "autor/" else f'<p class="assinatura">Quem está por trás destas ideias? <a href="{prefixo}autor/">Victor L. P. Andrade</a></p>'
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -180,6 +183,11 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <meta property="og:description" content="{esc(descricao)}">
 <meta property="og:url" content="{esc(canonico)}">
 <meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="{BASE}/assets/cartoes/{cartao}.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(titulo)}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="{prefixo}assets/estilo.css">
 <link rel="alternate" type="application/json" href="{prefixo}dados/atlas.json" title="Dados do Atlas">
 {ld}
@@ -218,7 +226,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     <div class="interno rodape-estudo">
       <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="{REPO}">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
     </div>
-    <p class="assinatura">Quem está por trás destas ideias? <a href="{prefixo}autor/">Victor L. P. Andrade</a></p>
+    {assinatura}
   </footer>
 </div>
 <script src="{prefixo}assets/atlas.js" defer></script>
@@ -557,7 +565,7 @@ def gerar_conceito(c):
         corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
         desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
         (destino / "index.html").write_text(
-            pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista"), encoding="utf-8")
+            pagina(f'{c["nome"]} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
         return
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
@@ -1291,7 +1299,7 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista"),
+            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista", imagem=slug),
             encoding="utf-8")
         cartoes.append(f'<li><a class="cartao" href="{slug}/"><span class="cartao-frase">{esc(ext_texto(slug, "titulo"))}</span><b>{esc(sec["titulo"])}</b></a></li>')
 
@@ -1338,7 +1346,7 @@ def gerar_laboratorio():
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Laboratório · Lex Plataformae", "inLanguage": "pt-BR",
               "url": BASE + "/laboratorio/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     desc = ext_texto("laboratorio", "abertura") or desc
-    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld, camada="mista"), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld, camada="mista", imagem="laboratorio"), encoding="utf-8")
 
 
 def paragrafos(sec):
@@ -1812,6 +1820,10 @@ img { max-width: 100%; }
     for arq in (RAIZ / "ferramentas" / "fontes").iterdir():
         shutil.copy(arq, assets / "fontes" / arq.name)
     shutil.copy(RAIZ / "site" / "atlas.js", assets / "atlas.js")
+    if (RAIZ / "site" / "cartoes").exists():
+        (assets / "cartoes").mkdir(exist_ok=True)
+        for arq in (RAIZ / "site" / "cartoes").glob("*.png"):
+            shutil.copy(arq, assets / "cartoes" / arq.name)
 
 
 def gerar_auxiliares():
@@ -1869,6 +1881,9 @@ def gerar_auxiliares():
 
 
 TRAJETORIA = ["A percepção de que o consumo digital", "Esta tese não nasce", "Essa dificuldade de ignorar"]
+# Perfis do autor, informados por ele em 27/10/2026. O ORCID fica para outro momento.
+AUTOR_LATTES = "https://lattes.cnpq.br/3172009565979544"
+AUTOR_LINKEDIN = "https://www.linkedin.com/in/victorlpandrade/"
 
 
 def gerar_autor():
@@ -1889,15 +1904,20 @@ def gerar_autor():
         'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + (f'<section class="bloco"><h2>Como este trabalho nasceu</h2>{trajetoria}</section>' if trajetoria else "")
+        + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do percurso</h2>'
+        f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
+        '<p>Para conversar sobre estas ideias, o caminho é o LinkedIn.</p>'
+        f'<p class="acoes"><a class="botao" href="{AUTOR_LINKEDIN}" rel="me noopener">Victor L. P. Andrade no LinkedIn</a></p></section>'
         + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": BASE + "/autor/",
-              "mainEntity": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade", "alternateName": "Victor L. P. Andrade"},
+              "mainEntity": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade", "alternateName": "Victor L. P. Andrade",
+                             "sameAs": [AUTOR_LATTES, AUTOR_LINKEDIN]},
               "about": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "autor"
     pasta.mkdir(exist_ok=True)
     (pasta / "index.html").write_text(
         pagina("Victor L. P. Andrade · Lex Plataformae", "Quem está por trás destas ideias. A tese de doutorado de onde vem tudo o que está no site.",
-               corpo, prefixo, "autor/", jsonld, camada="externa"), encoding="utf-8")
+               corpo, prefixo, "autor/", jsonld, camada="externa", imagem="autor"), encoding="utf-8")
 
 
 def gerar_cobertura():
