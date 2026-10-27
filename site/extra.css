@@ -405,3 +405,74 @@ body:not(:has(#nivel-2:checked)):not(:has(.texto-integral)) .nota-ref { display:
 .artigos-lei { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1rem; }
 .artigo-lei { display: grid; gap: 0.4rem; scroll-margin-top: 4rem; }
 .artigo-lei h3 { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 1rem; color: var(--a-direito-t); }
+
+/* Versão 0.7, etapa 3. Balões de autor. Em Informação e Doutrina, a referência entre parênteses dá lugar ao nome do autor,
+   pequeno e na cor de texto da sua área. Em Ciência, a referência fica por extenso, sublinhada na cor da área. */
+.cita-sinal { display: none; }
+body:not(:has(#nivel-2:checked)) .cita-sinal {
+  display: inline; position: relative; font-family: var(--f-display); font-style: normal; font-weight: 700; font-size: 0.6em; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--area-t, var(--tinta-2)); vertical-align: 0.5em; margin-left: 0.2em; cursor: help; white-space: nowrap;
+}
+body:not(:has(#nivel-2:checked)) .cita-grupo:not(:focus-within) {
+  position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+body:has(#nivel-2:checked) .cita-grupo { text-decoration: underline; text-decoration-color: var(--area); text-decoration-thickness: 2px; text-underline-offset: 0.22em; cursor: help; }
+.cita-grupo, .cita-sinal { position: relative; }
+:is(.cita-grupo, .cita-sinal) > .balao-ref { left: 0; right: auto; top: calc(100% + 0.25rem); font-size: 0.75rem; }
+.balao-autores { gap: 0.6rem; min-width: min(18rem, 80vw); }
+.balao-ref { white-space: normal; }
+.balao-item { display: grid; gap: 0.15rem; padding-left: 0.55rem; border-left: 3px solid var(--area); }
+.balao-item .balao-autoria { color: inherit; }
+.balao-item a { justify-self: start; }
+
+/* A voz do site em Archivo e o texto da tese em Newsreader, sempre que aparece literalmente. Decisão do autor de 27/10/2026. */
+body { font-family: var(--f-display); font-size: 1.06rem; line-height: 1.6; }
+:is(blockquote, .citacao, .canonica, .frase, .campo-def, .texto, .partes dd, .notas, .lei-texto, .ficha blockquote, .titulo-tese, .logica q) { font-family: var(--f-texto); }
+.texto-integral .texto { font-size: 1.12rem; }
+.ext p { font-size: 1.06rem; line-height: 1.62; }
+.problema p { font-size: clamp(1.08rem, 1.9vw, 1.22rem); }
+.lema p, .campo-texto p, .convite p { font-size: 1.08rem; }
+.cartao span, .cartao .cartao-frase, .passo-papel, .nos-percursos span, .didatico.imagem > p:not(.rotulo-ext) { font-style: normal; }
+.ext p.pergunta-final { font-style: normal; font-weight: 650; font-size: 1.28rem; line-height: 1.4; }
+.didatico.imagem > p:not(.rotulo-ext) { color: var(--tinta); }
+
+/* Balões e páginas de autor. Ficha de biblioteca, com filete na cor da área, nome pequeno em cima e referência em letra de máquina. */
+.chip-area { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--f-dado); font-size: 0.75rem; letter-spacing: 0.04em; text-transform: none; color: var(--area-t); }
+.chip-area::before { content: ""; width: 0.9rem; height: 0.9rem; border-radius: 2px; background: var(--area); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--area-t) 30%, transparent); }
+.fichas { display: grid; gap: 0.9rem; }
+.ficha {
+  margin: 0; background: var(--f-papel); color: var(--f-tinta); border-top: 6px solid var(--area); border-radius: 2px;
+  padding: 0.6rem 0.9rem 0.6rem; display: grid; gap: 0.35rem; max-width: var(--medida);
+}
+.ficha .autor { font-family: var(--f-display); font-size: 0.68rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; color: var(--area-t); }
+.ficha blockquote { margin: 0; font-size: 1rem; line-height: 1.6em; background-image: linear-gradient(to bottom, transparent calc(1.6em - 1px), var(--f-pauta) calc(1.6em - 1px)); background-size: 100% 1.6em; }
+.ficha blockquote p { margin: 0; }
+.ficha .ref { margin: 0; font-family: var(--f-dado); font-size: 0.7rem; border-top: 1px dashed var(--f-tinta-2); padding-top: 0.35rem; }
+.ficha .ref a { color: var(--f-tinta-2); text-decoration: none; }
+.ficha .ref a:hover { text-decoration: underline; }
+.autor-citado .folha-cabeca h1 { border-left: 8px solid var(--area); padding-left: 0.6rem; }
+.refs-autor { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.5rem; font-family: var(--f-texto); font-size: 0.98rem; overflow-wrap: anywhere; }
+.area-autores { border-top: 4px solid var(--area); padding-top: 0.75rem; }
+.area-autores h2 { color: var(--area-t) !important; }
+.lista-autores { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-family: var(--f-display); }
+.lista-referencias { margin: 0; padding-left: 2.6rem; display: grid; gap: 0.9rem; }
+.lista-referencias li { scroll-margin-top: 4rem; padding-left: 0.6rem; border-left: 3px solid var(--area); }
+.lista-referencias li:target { background: var(--acento-suave); }
+.lista-referencias .entrada { margin: 0; font-family: var(--f-texto); font-size: 0.98rem; line-height: 1.5; overflow-wrap: anywhere; }
+.meta-ref { margin: 0.2rem 0 0; display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; align-items: center; font-family: var(--f-display); font-size: 0.82rem; }
+@media (max-width: 640px) { .lista-referencias { padding-left: 1.8rem; } }
+
+/* Objeto e instrumentos. */
+.movimento-geral { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.4rem; }
+.movimento-geral > div { border-top: 6px solid var(--area); background: var(--folha); border-left: 1px solid var(--linha); border-right: 1px solid var(--linha); border-bottom: 1px solid var(--linha); padding: 0.5rem 0.6rem 0.6rem; }
+.movimento-geral small { display: block; font-family: var(--f-dado); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--tinta-2); }
+.movimento-geral b { font-family: var(--f-display); font-size: 0.88rem; line-height: 1.3; display: block; }
+@media (max-width: 640px) { .movimento-geral { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.etapa { border-top: 4px solid var(--area, var(--linha)); padding-top: 0.8rem; }
+.tese-etapa { border-top-color: var(--tese); }
+.lentes { display: grid; gap: 0.9rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.lente { border-top: 6px solid var(--area); background: var(--folha); border: 1px solid var(--linha); border-top-width: 6px; border-top-color: var(--area); padding: 0.7rem 0.9rem; display: grid; gap: 0.4rem; align-content: start; }
+.lente h3 { margin: 0; font-family: var(--f-display); font-weight: 750; font-size: 1.05rem; color: var(--area-t); }
+.termos-lista, .autores-lista, .conceitos-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem; font-family: var(--f-display); font-size: 0.92rem; }
+.conceitos-lista a.chapado { display: inline-block; }
+.autores-lista a { color: var(--area-t, var(--tinta)); }

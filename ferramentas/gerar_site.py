@@ -172,6 +172,7 @@ MENU = [
     ("Situações", "roteiro/", (1,)), ("Diretrizes", "roteiro/diretrizes/", (1,)), ("Plataformas", "laboratorio/", (1,)),
     ("Conceitos", "#conceitos", (1,)), ("Legislação", "legislacao/", (1,)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
+    ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
 MENU_SEGUNDA = [("Percurso", "percurso/"), ("Ideias", "#conceitos"), ("Situações", "roteiro/"), ("Diretrizes", "roteiro/diretrizes/"),
                 ("Plataformas", "laboratorio/"), ("Legislação", "legislacao/")]
@@ -188,7 +189,8 @@ def menu_html(prefixo):
 
 
 # Páginas que o gerador escreve. O menu só mostra endereço que existe.
-PAGINAS_PRONTAS = {"percurso/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/"}
+PAGINAS_PRONTAS = {"percurso/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
+                   "autores/", "referencias/", "objeto-e-instrumentos/"}
 
 
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True):
@@ -201,6 +203,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     """
     canonico = BASE + "/" + caminho
     # Cada artigo citado com o nome da lei ganha o texto integral em rodapé. O texto integral da tese fica como está.
+    # Cada citação de autor ou fonte da lista de referências vira balão. Vale também para o texto integral.
+    corpo = com_autores(corpo, prefixo)
     if lei:
         corpo = com_lei(corpo, prefixo)
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
@@ -2192,6 +2196,476 @@ def gerar_legislacao():
     (pasta / "index.html").write_text(pagina("Legislação · Lex Plataformae", desc, corpo, prefixo, "legislacao/", jsonld, superficie=prefixo, lei=False), encoding="utf-8")
 
 
+# Autores e referências. A lista de referências da tese entra no site como está, em Ciência, com a área de cada entrada.
+# As citações do texto viram balões. Em Informação e Doutrina, os parênteses da referência dão lugar a um sinal discreto
+# com o nome do autor, e a referência completa aparece ao passar o mouse ou tocar. Em Ciência, os parênteses ficam por extenso.
+_MARCA_REF = r'<span class="pg-marca" id="p(\d+)"[^>]*>p\. \d+</span>'
+_INICIO_ENTRADA = re.compile(r"^\s*(?:<strong>)?[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ][A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ'’&\-\. ]*?[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ…\.](?:</strong>)?[,.]")
+AREA_INVENTARIO = {"Direito": "direito", "Economia política": "economia", "Técnica e mídia": "tecnica", "Antropologia do consumo": "antropologia",
+                   "Semiótica e linguagem": "semiotica", "Poder e subjetividade": "poder", "Imprensa e comunidade (laboratório)": "laboratorio"}
+# Autores que o inventário de 27/10/2026 não alcançou, porque a entrada vinha colada a outra na virada de página ou fora da caixa alta.
+AREA_EXTRA = {"FREITAS": "direito", "BURAWOY": "laboratorio", "WILDE": "laboratorio"}
+# Grafias da tese que divergem da lista de referências.
+GRAFIAS = {"VICENT": "VINCENT", "MCCRAKEN": "MCCRACKEN"}
+_REFS = []
+_AUTORES = {}
+ENTIDADES = {"BRASIL": "Brasil", "RIOT GAMES": "Riot Games", "LEAGUE OF LEGENDS WIKI": "League of Legends Wiki"}
+
+
+def _chave_nome(t):
+    t = re.sub(r"\s*(?:et al\.?|…|\.\.\.)\s*$", "", t.strip())
+    t = t.upper().strip(" .,…")
+    return GRAFIAS.get(t, t)
+
+
+def _chave_titulo(t):
+    """Entrada que começa pelo título é citada pela primeira palavra, como CRASHS… ou COMO…."""
+    return _chave_nome(t.split()[0]) if t else t
+
+
+def referencias():
+    """As entradas da lista de referências da tese, na ordem e na forma da tese, separadas também quando a virada de página as colou."""
+    if _REFS:
+        return _REFS
+    ref = POR_SLUG.get("referencias")
+    if not ref:
+        return _REFS
+    inv = json.loads((RAIZ / "estrutura" / "inventario-autores.json").read_text(encoding="utf-8"))["autores"]
+    area_sob = {_chave_nome(a["sob"]): AREA_INVENTARIO.get(a["area"], "laboratorio") for a in inv}
+    nome_sob = {a["sob"]: a["nome"] for a in inv}
+    pagina_ = ref["pagina_inicio"]
+    for b in ref["blocos"]:
+        pedacos = re.split(f"({_MARCA_REF})", b["html"])
+        atual, i = None, 0
+        while i < len(pedacos):
+            p_ = pedacos[i]
+            if re.fullmatch(_MARCA_REF, p_ or ""):
+                pagina_ = int(pedacos[i + 1])
+                seguinte = pedacos[i + 2] if i + 2 < len(pedacos) else ""
+                if atual is not None and _texto_cru(atual["html"]).endswith(".") and _INICIO_ENTRADA.match(seguinte):
+                    _REFS.append(atual)
+                    atual = None
+                elif atual is not None:
+                    atual["html"] += p_
+                i += 2
+                continue
+            if p_.strip():
+                if atual is None:
+                    atual = {"html": p_.strip(), "pagina": pagina_}
+                else:
+                    atual["html"] += p_
+            i += 1
+        if atual is not None:
+            _REFS.append(atual)
+    for n, e in enumerate(_REFS, 1):
+        t = _texto_cru(e["html"])
+        e.update(n=n, texto=t, id=f"ref-{n}")
+        m = re.match(r"^([A-Za-zÁÉÍÓÚÂÊÔÃÕÇÜáéíóúâêôãõçü'\-\. ]+?), (?=[A-ZÁÉÍÓÚ][a-zà-ú]|[A-Z]\.)", t)
+        pessoa = bool(m) and not t.startswith(("BRASIL", "RIOT GAMES", "LEAGUE OF LEGENDS"))
+        primeira_parte = re.match(r"^([^,.]+)", t).group(1)
+        titulo_na_frente = not pessoa and primeira_parte != primeira_parte.upper()
+        e["chave"] = _chave_nome(m.group(1)) if pessoa else (_chave_titulo(primeira_parte) if titulo_na_frente else _chave_nome(primeira_parte))
+        e["pessoa"] = pessoa
+        e["anos"] = {a + l for a, l in re.findall(r"\[?(\d{4}\??|\d{3}-\?)\]?([a-z]?)(?![\w])", t)} | {a + l for a, l in re.findall(r"\[?(\d{4}|\d{3}-\?)\]?([a-z]?)\b", t)} | {a for a, l in re.findall(r"\[?(\d{4}|\d{3}-\?)\]?([a-z]?)\b", t)}
+        if pessoa:
+            # O bloco dos autores termina no primeiro ponto que não fecha uma inicial, ou onde começa o título em negrito.
+            negrito = len(_texto_cru(e["html"].split("<strong>")[0])) if "<strong>" in e["html"] else len(t)
+            corte = next((mm.start() for mm in re.finditer(r"\. ", t) if not re.search(r"(?:\b[A-Z]|\bJR|\bJr)$", t[:mm.start()])), len(t))
+            if negrito < corte:
+                corte = t.rfind(".", 0, negrito + 1)
+            # Prenome com mais de cinco palavras é sinal de que o título começou depois de uma inicial.
+            ultimo = t[:corte].split(";")[-1]
+            if "," in ultimo and len(ultimo.split(",", 1)[1].split()) > 5:
+                base = len(t[:corte]) - len(ultimo)
+                inicial = re.search(r"\b[A-Z]\.\s", ultimo.split(",", 1)[1])
+                if inicial:
+                    corte = base + len(ultimo.split(",", 1)[0]) + 1 + inicial.end() - 2
+            bloco_autores, resto = t[:corte + 1], t[corte + 1:].strip()
+            nomes = []
+            for parte in re.split(r";\s*", re.sub(r"\s*\((?:org|coord|ed|orgs|coords|eds)\.\)", "", bloco_autores)):
+                if "," in parte:
+                    sob, dado = [x.strip() for x in parte.split(",", 1)]
+                    dado = dado.rstrip(".") + ("." if re.search(r"\b[A-Z]\.?$", dado.rstrip(".")) else "")
+                    etal = bool(re.search(r"\bet al\.?$", dado))
+                    dado = re.sub(r"\s*\bet al\.?$", "", dado)
+                    sob_ex = nome_sob.get(sob.upper()) or " ".join(w if w.lower() in ("de", "da", "do", "dos", "das", "e") else (w.capitalize() if not w.upper().startswith("JR") else "Jr.") for w in sob.lower().split())
+                    nomes.append(f"{dado} {sob_ex}".strip() + (" et al." if etal else ""))
+                elif parte.strip():
+                    nomes.append(parte.strip())
+            e["nomes"] = nomes
+            titulo = re.split(r"\.\s+(?=In:|[A-Z0-9])", resto, maxsplit=1)[0].strip(" .")
+            e["titulo"] = titulo
+            e["area"] = area_sob.get(e["chave"]) or AREA_EXTRA.get(e["chave"], "laboratorio")
+        else:
+            e["nomes"] = []
+            primeira, _, resto = t.partition(". ")
+            entidade = primeira == primeira.upper()
+            e["titulo"] = (resto.split(". ")[0] if entidade and resto else primeira).strip(" .")
+            e["area"] = "direito" if t.startswith("BRASIL") else "laboratorio"
+            e["entidade"] = ENTIDADES.get(e["chave"], primeira.strip(" .")) if entidade else ""
+        e["autoria"] = ((" e ".join([", ".join(e["nomes"][:-1]), e["nomes"][-1]]) if len(e["nomes"]) > 1 else e["nomes"][0])
+                        if e["nomes"] else e.get("entidade", ""))
+    return _REFS
+
+
+def slug_autor(nome):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def autores_pessoas():
+    """Cada primeiro autor pessoa da lista, com as entradas, a área e a página própria."""
+    if _AUTORES:
+        return _AUTORES
+    for e in referencias():
+        if not e["pessoa"]:
+            continue
+        a = _AUTORES.setdefault(e["chave"], {"chave": e["chave"], "entradas": [], "area": e["area"]})
+        a["entradas"].append(e)
+    for a in _AUTORES.values():
+        primeiro = a["entradas"][0]["nomes"][0] if a["entradas"][0]["nomes"] else a["chave"].title()
+        a["nome"] = re.sub(r"\s+et al\.$", "", primeiro)
+        a["slug"] = slug_autor(a["nome"])
+        # O próprio autor da tese aparece por último, na página do autor, e não ganha página entre os autores citados.
+        a["proprio"] = a["chave"] == "ANDRADE" and a["nome"].startswith("Victor")
+    return _AUTORES
+
+
+def _entrada_para(chave, ano):
+    candidatas = [e for e in referencias() if e["chave"] == chave]
+    if not candidatas:
+        return None
+    ano_limpo = ano.replace("[", "").replace("]", "")
+    for e in candidatas:
+        if ano_limpo in e["anos"] or ano in e["anos"]:
+            return e
+    if len(candidatas) == 1:
+        return candidatas[0]
+    # A lista da tese às vezes não traz a letra que a citação usa, como em [202-?]h. O balão fica com a fonte, sem arriscar o título.
+    base = candidatas[0]
+    return {**base, "titulo": "", "id": base["id"], "incerta": True}
+
+
+_ANO = r"(?<![\w-])(?:\[?\d{4}\??\]?[a-z]?|\[\d{3}-\?\][a-z]?)"
+
+
+def unidades_citacao(conteudo, nome_antes=None):
+    """As citações dentro de um parêntese, cada uma com a entrada da lista que ela indica."""
+    achados, pendentes = [], []
+    for tok in re.split(r";\s*", conteudo):
+        tok = tok.strip()
+        if not tok:
+            continue
+        m = re.match(rf"^(.*?)(?:,\s*|\s+)?({_ANO})(?:,\s*(.*))?$", tok)
+        if m and re.search(r"\d", m.group(2)):
+            nomes = m.group(1).strip(" ,")
+            if " apud " in nomes:
+                nomes = nomes.split(" apud ")[-1]
+            principal = (pendentes[0] if pendentes else re.split(r",\s*| e ", nomes)[0]) if (nomes or pendentes) else nome_antes
+            if principal and " apud " in principal:
+                principal = principal.split(" apud ")[-1]
+            pendentes = []
+            if not principal:
+                continue
+            e = _entrada_para(_chave_nome(principal), m.group(2))
+            if e:
+                achados.append({"entrada": e, "pagina": (m.group(3) or "").strip()})
+            continue
+        if re.match(r"^\[?p\.|^\d", tok) and achados:
+            achados[-1]["pagina"] = (achados[-1]["pagina"] + "; " + tok).strip("; ")
+            continue
+        if re.match(r"^[A-ZÁÉÍÓÚ][\wÀ-ú'\-\. ]{1,40}$", tok):
+            pendentes.append(tok)
+    return achados
+
+
+def _dados_cita(achados, prefixo):
+    itens = []
+    for a in achados:
+        e = a["entrada"]
+        autor = autores_pessoas().get(e["chave"]) if e["pessoa"] else None
+        if autor and autor.get("proprio"):
+            url = f"{prefixo}autor/"
+        elif autor:
+            url = f'{prefixo}autores/{autor["slug"]}/'
+        else:
+            url = f'{prefixo}referencias/#{e["id"]}'
+        obra = ", ".join(x for x in (e["autoria"], e["titulo"]) if x)
+        itens.append({"autoria": e["autoria"], "obra": obra, "pagina": a["pagina"], "url": url, "area": e["area"]})
+    return itens
+
+
+_NOME = r"[A-ZÁÉÍÓÚ][\wÀ-ú\-]+(?: Jr\.)?"
+
+
+def _nome_antes(antes):
+    """Na citação narrativa, como Douglas e Isherwood (1996, p. xxiv), o autor vem antes do parêntese. Vale o primeiro nome."""
+    mm = re.search(rf"({_NOME})(?:,\s*{_NOME})*(?:\s+e\s+{_NOME})?(?: et al\.)?\s*$", antes)
+    return mm.group(1) if mm else None
+
+
+def com_autores(corpo, prefixo):
+    """Marca as citações do texto. Fora de links, scripts e títulos. A cada parêntese com referência resolvida, um balão."""
+    pedacos = re.split(r"(<[^>]+>)", corpo)
+    fora = 0
+    salta = ("script", "style", "a", "title", "h1", "h2", "h3", "figcaption", "button", "label")
+    for i, pedaco in enumerate(pedacos):
+        if pedaco.startswith("<"):
+            m = re.match(r"<(/?)([a-zA-Z0-9]+)", pedaco)
+            if m and m.group(2).lower() in salta and not pedaco.endswith("/>"):
+                fora = max(0, fora + (-1 if m.group(1) else 1))
+            continue
+        if fora or "(" not in pedaco:
+            continue
+
+        def troca(m):
+            conteudo = m.group(1)
+            if not re.search(r"\d{3}", conteudo):
+                return m.group(0)
+            antes = pedaco[max(0, m.start() - 60):m.start()]
+            nome_antes = None
+            if re.match(rf"^\s*{_ANO}", conteudo):
+                nome_antes = _nome_antes(antes)
+            achados = unidades_citacao(conteudo, nome_antes)
+            if not achados:
+                return m.group(0)
+            itens = _dados_cita(achados, prefixo)
+            dados = esc(json.dumps(itens, ensure_ascii=False))
+            area = itens[0]["area"]
+            estilo = f' style="--area:var(--a-{area});--area-t:var(--a-{area}-t)"'
+            sinal = "" if nome_antes else (
+                f'<span class="cita-sinal" data-cita="{dados}"{estilo} aria-hidden="true">'
+                + esc(" · ".join(dict.fromkeys(re.sub(r"^.* ", "", i_["autoria"]) if i_["autoria"] else "fonte" for i_ in itens[:2])))
+                + ("" if len(itens) <= 2 else f" +{len(itens) - 2}") + "</span>")
+            return f'{sinal}<span class="cita-grupo" data-cita="{dados}"{estilo}>{m.group(0)}</span>'
+        pedacos[i] = re.sub(r"\(([^()<>]{3,400})\)", troca, pedaco)
+    return "".join(pedacos)
+
+
+_CITACOES = []
+
+
+def citacoes_do_corpus():
+    """Cada citação resolvida do texto integral, com a frase em que aparece, a página e o endereço exato."""
+    if _CITACOES:
+        return _CITACOES
+    marca = re.compile(r'<span class="pg-marca" id="p(\d+)"[^>]*>[^<]*</span>')
+    fronteira = re.compile(r'(?<=[a-zà-ú\)”"\]])[.?!]\s+(?=[A-ZÁÉÍÓÚ“"])')
+
+    def frases(texto):
+        cortes = [0] + [m.end() for m in fronteira.finditer(texto)] + [len(texto)]
+        return [(cortes[k], cortes[k + 1]) for k in range(len(cortes) - 1)]
+
+    def registra(texto, paginas, sec, ancora_de):
+        for m in re.finditer(r"\(([^()]{3,400})\)", texto):
+            conteudo = m.group(1)
+            if not re.search(r"\d{3}", conteudo):
+                continue
+            nome_antes = _nome_antes(texto[max(0, m.start() - 60):m.start()]) if re.match(rf"^\s*{_ANO}", conteudo) else None
+            achados = unidades_citacao(conteudo, nome_antes)
+            if not achados:
+                continue
+            ini, fim = next(((a, b) for a, b in frases(texto) if a <= m.start() < b), (0, len(texto)))
+            pagina_ = next((pg_ for pos, pg_ in reversed(paginas) if pos <= ini), paginas[0][1] if paginas else sec["pagina_inicio"])
+            pagina_fim = next((pg_ for pos, pg_ in reversed(paginas) if pos < fim), pagina_)
+            ref = f"p. {pagina_}" if pagina_fim == pagina_ else f"p. {pagina_}-{pagina_fim}"
+            for a in achados:
+                _CITACOES.append({"entrada": a["entrada"]["id"], "chave": a["entrada"]["chave"], "pessoa": a["entrada"]["pessoa"],
+                                  "frase": texto[ini:fim].strip(), "pagina": pagina_, "ref": ref, "slug": sec["slug"], "ancora": ancora_de(pagina_),
+                                  "secao": sec["n"] or sec["titulo"]})
+
+    for sec in SECOES:
+        if sec["slug"] == "referencias":
+            continue
+        for b in sec["blocos"]:
+            if b["tipo"] == "marca":
+                continue
+            r = ref_bloco(b)
+            inicio = r[2] if r else sec["pagina_inicio"]
+            h = re.sub(r'<sup class="nota-ref">.*?</sup>', "", b["html"])
+            texto, paginas, pos = "", [(0, inicio)], 0
+            for parte in re.split(r'(<span class="pg-marca" id="p\d+"[^>]*>[^<]*</span>)', h):
+                mm = marca.match(parte)
+                if mm:
+                    paginas.append((len(texto), int(mm.group(1))))
+                    continue
+                texto += html.unescape(re.sub(r"<[^>]+>", "", parte))
+            texto = re.sub(r"\s+", " ", texto)
+            registra(texto, paginas, sec, lambda pg_: f"#p{pg_}")
+        for n in sec["notas"]:
+            registra(_texto_cru(n["html"]), [(0, n["pagina"])], sec, lambda pg_, n=n: f'#n{n["n"]}')
+    return _CITACOES
+
+
+ORDEM_AREAS = ["direito", "economia", "tecnica", "antropologia", "semiotica", "poder", "laboratorio"]
+
+
+def chip_area(area):
+    return f'<span class="chip-area"{estilo_area(area)}>{esc(AREA_NOME[area])}</span>'
+
+
+def ficha_citacao(c, nome, area, prefixo, autoria=None, obra=None):
+    """Um balão de autor em forma de ficha. O nome pequeno em cima, o trecho da tese e a página."""
+    return (f'<figure class="ficha"{estilo_area(area)}><figcaption class="autor">{esc(nome)}</figcaption>'
+            f'<blockquote data-ref="{esc(c["ref"])}" data-alvo="{prefixo}tese/{c["slug"]}/{c["ancora"]}"><p>{esc(c["frase"])}</p></blockquote>'
+            f'<p class="ref"><a href="{prefixo}tese/{c["slug"]}/{c["ancora"]}">{esc(c["ref"])} · {esc(c["secao"])}</a></p></figure>')
+
+
+def gerar_autores():
+    """As páginas de autor, em Ciência. Uma por primeiro autor pessoa da lista de referências, com as obras e cada trecho que o cita."""
+    autores = autores_pessoas()
+    cits = citacoes_do_corpus()
+    por_chave = {}
+    for c in cits:
+        if c["pessoa"]:
+            por_chave.setdefault(c["chave"], []).append(c)
+    declarados = {chave: nome for nome, _, chave in AUTORES + AUTORES_5}
+    raiz = SAIDA / "autores"
+    raiz.mkdir(exist_ok=True)
+    grupos = {}
+    for chave, a in autores.items():
+        if a.get("proprio"):
+            continue
+        grupos.setdefault(a["area"], []).append(a)
+        prefixo = "../../"
+        lista = por_chave.get(chave, [])
+        vistos, fichas = set(), []
+        for c in lista:
+            k = (c["frase"], c["slug"])
+            if k in vistos:
+                continue
+            vistos.add(k)
+            e = next(x for x in a["entradas"] if x["id"] == c["entrada"])
+            fichas.append(ficha_citacao(c, e["autoria"], a["area"], prefixo, obra=", ".join(x for x in (e["autoria"], e["titulo"]) if x)))
+        obras = "".join(f'<li id="{e["id"]}">{html_do_corpus(e["html"], "referencias", prefixo)}</li>' for e in a["entradas"])
+        declarado = ""
+        if chave in declarados or chave.replace(" JR", " JR.") in declarados:
+            cap = "fundamentos/" if any(chave.startswith(k.rstrip(".")) for _, _, k in AUTORES) else "dogmatica/"
+            declarado = f'<p class="nota-camada">A abertura de capítulo que declara a função deste autor está em <a href="{prefixo}{cap}">{"Fundamentos" if cap.startswith("f") else "Dogmática"}</a>.</p>'
+        corpo = (f'<article class="folha leitura autor-citado"{estilo_area(a["area"])}>'
+                 f'<nav class="trilha" aria-label="Você está em"><a href="../">Autores</a></nav>'
+                 f'<header class="folha-cabeca"><p class="sobrelinha">{chip_area(a["area"])}</p><h1>{esc(a["nome"])}</h1>{declarado}</header>'
+                 f'<section class="bloco"><h2>Na lista de referências</h2><ul class="refs-autor">{obras}</ul></section>'
+                 f'<section class="bloco"><h2>Onde a tese o cita</h2><p class="nota-camada">{len(fichas)} trechos, na ordem da tese.</p>'
+                 f'<div class="fichas">{"".join(fichas)}</div></section></article>')
+        jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": f'{BASE}/autores/{a["slug"]}/',
+                  "mainEntity": {"@type": "Person", "name": a["nome"]}, "isPartOf": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+        destino = raiz / a["slug"]
+        destino.mkdir(parents=True, exist_ok=True)
+        a["citacoes"] = len(fichas)
+        (destino / "index.html").write_text(
+            pagina(f'{a["nome"]} · Autores · Lex Plataformae', f'{a["nome"]} na tese. As obras da lista de referências e os {len(fichas)} trechos em que a tese o cita.',
+                   corpo, prefixo, f'autores/{a["slug"]}/', jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+    secoes = []
+    for area in ORDEM_AREAS:
+        lista = sorted(grupos.get(area, []), key=lambda a: -a.get("citacoes", 0))
+        if not lista:
+            continue
+        itens = "".join(f'<li><a href="{a["slug"]}/">{esc(a["nome"])}</a> <span class="vezes">{a.get("citacoes", 0)}</span></li>' for a in lista)
+        secoes.append(f'<section class="bloco area-autores"{estilo_area(area)}><h2>{esc(AREA_NOME[area])}</h2><ul class="lista-autores">{itens}</ul></section>')
+    corpo = ('<article class="folha leitura autores-indice"><header class="folha-cabeca"><h1>Autores</h1>'
+             '<p>Os autores da lista de referências, pela área em que a tese os mobiliza, com o número de trechos que os citam.</p></header>'
+             + "".join(secoes) + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "url": BASE + "/autores/", "name": "Autores · Lex Plataformae"}
+    (raiz / "index.html").write_text(pagina("Autores · Lex Plataformae", "Os autores que a tese cita, por área, com os trechos em que aparecem.",
+                                            corpo, "../", "autores/", jsonld, camada="ciencia", superficie="../"), encoding="utf-8")
+
+
+def gerar_referencias():
+    """A lista de referências da tese, como está, com a área e as citações de cada entrada. As ampliações do site ficam à parte, com data."""
+    prefixo = "../"
+    cont = {}
+    for c in citacoes_do_corpus():
+        cont[c["entrada"]] = cont.get(c["entrada"], 0) + 1
+    autores = autores_pessoas()
+    itens = []
+    for e in referencias():
+        autor = autores.get(e["chave"]) if e["pessoa"] else None
+        destino = ""
+        if autor and autor.get("proprio"):
+            destino = f'<a href="{prefixo}autor/">Sobre o autor</a>'
+        elif autor:
+            destino = f'<a href="{prefixo}autores/{autor["slug"]}/">Página do autor</a>'
+        n = cont.get(e["id"], 0)
+        meta = f'{chip_area(e["area"])} <span class="vezes">{n} {"citação" if n == 1 else "citações"}</span> {destino}'
+        itens.append(f'<li id="{e["id"]}"{estilo_area(e["area"])}><p class="entrada">{html_do_corpus(e["html"], "referencias", prefixo)}</p><p class="meta-ref">{meta}</p></li>')
+    corpo = ('<article class="folha leitura referencias"><header class="folha-cabeca"><h1>Referências</h1>'
+             f'<p>A lista de referências da tese, na ordem e na forma em que está no <a href="{prefixo}tese/referencias/">texto integral</a>, '
+             'com a área de cada entrada e o número de vezes em que o texto a cita.</p></header>'
+             f'<section class="bloco"><h2>A lista da tese</h2><ol class="lista-referencias">{"".join(itens)}</ol></section>'
+             '<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior. Por enquanto, nada.</p></section>'
+             "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "url": BASE + "/referencias/", "name": "Referências · Lex Plataformae",
+              "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    pasta = SAIDA / "referencias"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Referências · Lex Plataformae", "A lista de referências da tese, com a área de cada entrada e as citações.",
+                                             corpo, prefixo, "referencias/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+
+
+def gerar_objeto_instrumentos():
+    """O movimento metodológico da tese entre objeto e instrumentos, em Ciência. O objeto sem cor, as lentes na cor de cada área,
+    a qualificação no vermelho do Direito e os conceitos da tese no azul Klein."""
+    prefixo = "../"
+    cap = POR_NUMERO.get("2")
+    if not cap:
+        return
+    trechos = "".join(citado(par, cap, prefixo) for inicio in ("Para manter controlável", "Quando um conceito é mobilizado")
+                      for par in [paragrafo_por_inicio(cap, inicio)] if par)
+    onde = {}
+    for parte in PERCURSO:
+        for b in parte["blocos"]:
+            if b["tipo"] == "termo":
+                onde.setdefault(b["arg"], parte)
+    def termo_link(nome, classe=""):
+        parte = onde.get(nome)
+        alvo = f'{prefixo}percurso/{parte["slug"]}/' if parte else None
+        rotulo = f'<span class="{classe}">{esc(nome)}</span>' if classe else esc(nome)
+        return f'<li><a href="{alvo}">{rotulo}</a></li>' if alvo else f"<li>{rotulo}</li>"
+    autores = [a for a in autores_pessoas().values() if not a.get("proprio")]
+    cont = {}
+    for c in citacoes_do_corpus():
+        if c["pessoa"]:
+            cont[c["chave"]] = cont.get(c["chave"], 0) + 1
+    def autores_da_area(area, limite=12):
+        lista = sorted((a for a in autores if a["area"] == area), key=lambda a: -cont.get(a["chave"], 0))[:limite]
+        return "".join(f'<li><a href="{prefixo}autores/{a["slug"]}/">{esc(a["nome"])}</a></li>' for a in lista)
+    lentes = []
+    for area in ("tecnica", "economia", "antropologia", "semiotica", "poder"):
+        termos = sorted(t for t, ar in AREA_TERMO.items() if ar == area)
+        lentes.append(f'<section class="lente"{estilo_area(area)}><h3>{esc(AREA_NOME[area])}</h3>'
+                      f'<p class="rotulo-ext">Instrumentos no percurso</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
+                      f'<p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
+    juridicos = sorted(t for t, ar in AREA_TERMO.items() if ar == "direito")
+    nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{esc(c["nome"])}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
+    dez = "".join(termo_link(t, "nome-derivado") for t in sorted(DERIVADOS))
+    corpo = (
+        '<article class="folha leitura objeto-instrumentos">'
+        '<header class="folha-cabeca"><h1>Objeto e instrumentos</h1>' + trechos + '</header>'
+        '<div class="movimento-geral" aria-label="O movimento">'
+        f'<div{estilo_area("laboratorio")}><small>Objeto</small><b>O regime da plataforma, visto no laboratório</b></div>'
+        '<div style="--area:var(--a-economia)"><small>Lente</small><b>A área que o lê</b></div>'
+        f'<div{estilo_area("direito")}><small>Qualificação</small><b>A categoria jurídica</b></div>'
+        '<div style="--area:var(--tese-linha)"><small>Tese</small><b>O conceito que a tese nomeia</b></div></div>'
+        f'<section class="bloco etapa"{estilo_area("laboratorio")}><h2>O objeto</h2>'
+        f'<p>O laboratório de origem e as famílias de plataforma estão em <a href="{prefixo}laboratorio/">Plataformas</a>. '
+        f'A palavra do próprio objeto que o percurso usa é</p><ul class="termos-lista">{termo_link("Nerf")}</ul>'
+        f'<p class="rotulo-ext">Fontes do laboratório</p><ul class="autores-lista">{autores_da_area("laboratorio", 8)}</ul></section>'
+        f'<section class="bloco etapa"><h2>As lentes</h2><div class="lentes">{"".join(lentes)}</div></section>'
+        f'<section class="bloco etapa"{estilo_area("direito")}><h2>A qualificação</h2><p class="rotulo-ext">Categorias jurídicas no percurso</p>'
+        f'<ul class="termos-lista">{"".join(termo_link(t) for t in juridicos)}</ul><p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area("direito", 16)}</ul></section>'
+        '<section class="bloco etapa tese-etapa"><h2>A tese</h2><p class="rotulo-ext">Os nove conceitos</p>'
+        f'<ul class="conceitos-lista">{nove}</ul><p class="rotulo-ext">Os dez conceitos derivados</p><ul class="termos-lista">{dez}</ul></section>'
+        "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "url": BASE + "/objeto-e-instrumentos/", "name": "Objeto e instrumentos · Lex Plataformae",
+              "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    pasta = SAIDA / "objeto-e-instrumentos"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Objeto e instrumentos · Lex Plataformae", "O movimento da tese entre o objeto e as lentes de outras áreas, até a qualificação jurídica e os conceitos da tese.",
+                                             corpo, prefixo, "objeto-e-instrumentos/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+
+
 # Dogmática. Os capítulos 5 e 6, pela abertura de cada um. A do capítulo 5 nomeia autores e a função de cada um, como as dos capítulos 3 e 4.
 DOGMATICA = ["5", "6"]
 AUTORES_5 = [
@@ -2404,7 +2878,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/", BASE + "/percurso/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autor/"] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/", BASE + "/percurso/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -2549,6 +3023,9 @@ def main():
     gerar_metodo()
     gerar_dogmatica()
     gerar_legislacao()
+    gerar_autores()
+    gerar_referencias()
+    gerar_objeto_instrumentos()
     gerar_autor()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))

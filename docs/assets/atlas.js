@@ -35,13 +35,16 @@
      o balão mostra a referência e oferece copiar o trecho com ela. O botão diz o que leva, e nada é acrescentado à cópia sem o clique. */
   var REFERENCIA = 'Victor L. P. Andrade, Do regime jurídico do Objeto Imaterial de Consumo sob a Lex Plataformae, 2026';
   var conteineres = [];
-  document.querySelectorAll('[data-ref]').forEach(function (el) { conteineres.push(el); });
+  document.querySelectorAll('[data-ref], [data-cita]').forEach(function (el) { conteineres.push(el); });
   document.querySelectorAll('.pg').forEach(function (pg) {
     var c = pg.closest('blockquote, .campo-def, li, dd, p');
     if (c && !c.hasAttribute('data-ref') && conteineres.indexOf(c) < 0) conteineres.push(c);
   });
   var aberto = null, fechar = null;
   function dadosDe(c) {
+    if (c.hasAttribute('data-cita')) {
+      try { return { itens: JSON.parse(c.getAttribute('data-cita')) }; } catch (e) { return {}; }
+    }
     var ref = c.getAttribute('data-ref'), alvo = c.getAttribute('data-alvo');
     var pg = c.querySelector(':scope > .pg, :scope > p > .pg, .pg');
     if (!ref && pg) { ref = pg.textContent.trim(); alvo = pg.getAttribute('href'); }
@@ -49,7 +52,7 @@
   }
   function textoDe(c) {
     var copia = c.cloneNode(true);
-    copia.querySelectorAll('.pg, .nota-ref, .pg-marca, .balao-ref, .lei-ref, .autor-tag').forEach(function (e) { e.remove(); });
+    copia.querySelectorAll('.pg, .nota-ref, .pg-marca, .balao-ref, .lei-ref, .cita-sinal').forEach(function (e) { e.remove(); });
     return copia.textContent.replace(/\s+/g, ' ').replace(/^[“"]|[”"]$/g, '').trim();
   }
   function citacao(d) {
@@ -69,10 +72,54 @@
     try { document.execCommand('copy'); } catch (e) {}
     t.remove();
   }
+  function balaoDeAutores(c, itens) {
+    var b = document.createElement('span');
+    b.className = 'balao-ref balao-autores';
+    b.setAttribute('role', 'note');
+    var linhas = [];
+    itens.forEach(function (i) {
+      var l = document.createElement('span');
+      l.className = 'balao-item';
+      l.style.setProperty('--area', 'var(--a-' + i.area + ')');
+      l.style.setProperty('--area-t', 'var(--a-' + i.area + '-t)');
+      var a = document.createElement('span'); a.className = 'balao-autoria'; a.textContent = i.autoria || 'Fonte';
+      var o = document.createElement('span'); o.className = 'balao-citacao'; o.textContent = (i.obra || '') + (i.pagina ? ', ' + i.pagina : '') + '.';
+      var v = document.createElement('a'); v.href = i.url; v.textContent = /autores\/|autor\//.test(i.url) ? 'Ver o autor' : 'Ver a referência';
+      l.appendChild(a); l.appendChild(o); l.appendChild(v);
+      b.appendChild(l);
+      linhas.push((i.obra || '') + (i.pagina ? ', ' + i.pagina : '') + '.');
+    });
+    var acoes = document.createElement('span'); acoes.className = 'balao-acoes';
+    var botao = document.createElement('button'); botao.type = 'button'; botao.textContent = 'Copiar referência';
+    botao.addEventListener('click', function (ev) {
+      ev.stopPropagation();
+      var bt = ev.currentTarget;
+      var feito = function () { bt.textContent = 'Copiado'; setTimeout(function () { bt.textContent = 'Copiar referência'; }, 1800); };
+      var texto = linhas.join('\n');
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(texto).then(feito, function () { reserva(texto); feito(); });
+      else { reserva(texto); feito(); }
+    });
+    acoes.appendChild(botao); b.appendChild(acoes);
+    return b;
+  }
+  function encaixar(b) {
+    var r = b.getBoundingClientRect();
+    if (r.right > window.innerWidth - 8) b.style.left = Math.min(0, window.innerWidth - 8 - r.right) + 'px';
+    if (r.left < 8) b.style.left = (8 - r.left) + 'px';
+  }
   function mostrarBalao(c) {
     if (aberto === c) { clearTimeout(fechar); return; }
     esconderBalao(true);
     var d = dadosDe(c);
+    if (d.itens) {
+      if (!d.itens.length) return;
+      var ba = balaoDeAutores(c, d.itens);
+      c.classList.add('com-ref');
+      c.appendChild(ba);
+      encaixar(ba);
+      aberto = c;
+      return;
+    }
     if (!d.ref && !d.obra) return;
     var b = document.createElement('span');
     b.className = 'balao-ref';
