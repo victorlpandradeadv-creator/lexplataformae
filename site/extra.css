@@ -171,3 +171,4 @@ mark.destaque:target { outline: 2px solid var(--acento); outline-offset: 2px; }
   .secoes-cap li { grid-template-columns: minmax(0, 1fr); }
   .secoes-cap .pag { padding-left: 0; }
 }
+.capitulo-fund > h2 { text-transform: none; letter-spacing: normal; }
