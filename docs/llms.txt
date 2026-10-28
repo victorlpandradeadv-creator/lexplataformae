@@ -47,6 +47,20 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 - [Teleologia abusiva](https://lexplataformae.com.br/conceitos/teleologia-abusiva/): A teleologia abusiva descreve, assim, situação em que a finalidade prática do arranjo de fornecimento se afasta dos limites juridicamente toleráveis e passa a orientar o ambiente para exploração estrutural da vulnerabilidade, para obscurecimento relevante da fruição ou para conversão recorrente da mutabilidade em tecnologia de captura. (p. 732)
 - [Vulnerabilidade semiótica](https://lexplataformae.com.br/conceitos/vulnerabilidade-semiotica/): A vulnerabilidade semiótica pode ser definida, em síntese, como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente. (p. 396)
 
+## Conceitos derivados
+
+Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem.
+- [Cativeiro identitário](https://lexplataformae.com.br/conceitos/cativeiro-identitario/)
+- [Consentimento viciado por sentido](https://lexplataformae.com.br/conceitos/consentimento-viciado-por-sentido/)
+- [Consumidor-cidadão](https://lexplataformae.com.br/conceitos/consumidor-cidadao/)
+- [Continuidade biográfica](https://lexplataformae.com.br/conceitos/continuidade-biografica/)
+- [Correção de regime](https://lexplataformae.com.br/conceitos/recomposicao-funcional/)
+- [Dano-arquitetura](https://lexplataformae.com.br/conceitos/dano-arquitetura/)
+- [Publicidade enganosa por arquitetura](https://lexplataformae.com.br/conceitos/publicidade-enganosa-por-arquitetura/)
+- [Recomposição funcional](https://lexplataformae.com.br/conceitos/recomposicao-funcional/)
+- [Teleologia arquitetural](https://lexplataformae.com.br/conceitos/teleologia-arquitetural/)
+- [Transparência performática](https://lexplataformae.com.br/conceitos/transparencia-performatica/)
+
 ## Roteiro
 
 - [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.

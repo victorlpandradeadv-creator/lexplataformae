@@ -12,6 +12,7 @@ import html
 import json
 import re
 import shutil
+import unicodedata
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -228,6 +229,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     camada 'externa' não tem arquitetura própria a mostrar.
     """
     canonico = BASE + "/" + caminho
+    descricao = resumo(descricao)
     # Cada artigo citado com o nome da lei ganha o texto integral em rodapé. O texto integral da tese fica como está.
     # Cada citação de autor ou fonte da lista de referências vira balão. Vale também para o texto integral.
     corpo = com_autores(corpo, prefixo)
@@ -488,7 +490,7 @@ def gerar_direitos():
     jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": "Seus direitos", "inLanguage": "pt-BR",
               "url": f"{BASE}/direitos/", "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
     (destino / "index.html").write_text(
-        pagina("Seus direitos · Lex Plataformae",
+        pagina("Seus direitos ao comprar itens, contas e acessos digitais · Lex Plataformae",
                "O que a plataforma deve a quem compra itens, contas e acessos digitais, e o que você pode pedir quando alguma coisa dá errado.",
                corpo, prefixo, "direitos/", jsonld, camada="mista"), encoding="utf-8")
 
@@ -566,6 +568,18 @@ AREA_NOME = {k: a["nome"] for k, a in CORES["areas"].items()}
 DERIVADOS = {"Teleologia arquitetural", "Cativeiro identitário", "Consumidor-cidadão", "Transparência performática",
              "Consentimento viciado por sentido", "Publicidade enganosa por arquitetura", "Continuidade biográfica",
              "Recomposição funcional", "Correção de regime", "Dano-arquitetura"}
+FICHA_DERIVADO = {"Recomposição funcional": "recomposicao-funcional", "Correção de regime": "recomposicao-funcional"}
+
+
+def slug_derivado(nome):
+    return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", nome.lower()).encode("ascii", "ignore").decode()).strip("-")
+
+
+def caminho_derivado(nome):
+    """A página de um conceito derivado. Os que já têm ficha apontam para ela."""
+    return f'conceitos/{FICHA_DERIVADO.get(nome) or slug_derivado(nome)}/'
+
+
 # A área de cada termo do percurso, pela seção da tese de onde vem o trecho e pelo lugar do autor decidido em 27/10/2026.
 # As categorias jurídicas ficam no Direito. Os derivados são da tese. Nerf é palavra do próprio objeto.
 AREA_TERMO = {
@@ -694,8 +708,10 @@ def bloco_percurso(b, prefixo):
         nome = f'<span class="nome-derivado">{esc(arg)}</span>' if derivado else esc(arg)
         rot_area = (f' <span class="area-rotulo ciencia">· {esc(AREA_NOME[area])}</span>' if area
                     else ' <span class="area-rotulo ciencia">· conceito derivado da tese</span>' if derivado else "")
-        return (f'<section class="ext termo{" derivado" if derivado else ""}"{estilo_area(area)}><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}{rot_area}</span>{nome}</h2>'
-                f'{texto}{exp}</section>')
+        ident = f' id="termo-{slug_derivado(arg)}"' if derivado else ""
+        pagina_derivado = (f'<p class="ver-ideia interno"><a href="{prefixo}{caminho_derivado(arg)}">A página do conceito</a></p>' if derivado else "")
+        return (f'<section class="ext termo{" derivado" if derivado else ""}"{ident}{estilo_area(area)}><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}{rot_area}</span>{nome}</h2>'
+                f'{texto}{pagina_derivado}{exp}</section>')
     if tipo == "familia":
         titulo = ext_texto(arg, "titulo") or arg
         return (f'<section class="ext termo familia"><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}</span>'
@@ -715,7 +731,7 @@ def gerar_percurso():
     raiz.mkdir(parents=True, exist_ok=True)
     corpo = f'<article class="folha percurso-indice">{mapa_percurso("", "indice")}</article>'
     (raiz / "index.html").write_text(
-        pagina("Siga a skin · Lex Plataformae", "Você comprou uma skin. Ela é sua? Onze perguntas, do clique de compra ao que a lei pode fazer.",
+        pagina("Siga a skin, da compra ao que a lei pode fazer · Lex Plataformae", "Você comprou uma skin. Ela é sua? Onze perguntas, do clique de compra ao que a lei pode fazer.",
                corpo, "../", "percurso/", camada="mista", imagem="inicio"), encoding="utf-8")
     prefixo = "../../"
     for i, parte in enumerate(PERCURSO, 1):
@@ -744,7 +760,7 @@ def gerar_percurso():
         destino = raiz / parte["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{parte["titulo"]} · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do percurso da skin.',
+            pagina(f'{parte["titulo"]} · Siga a skin · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do percurso da skin.',
                    corpo, prefixo, f'percurso/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}'),
             encoding="utf-8")
 
@@ -891,7 +907,7 @@ def gerar_inicio():
     }
     desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove ideias para dar nome a isso."
     corpo = f'<div class="pagina-inicio">{corpo}</div>'
-    (SAIDA / "index.html").write_text(pagina("Lex Plataformae", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
+    (SAIDA / "index.html").write_text(pagina("Lex Plataformae · Você comprou uma skin. Ela é sua?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
 
 def gerar_conceito(c):
@@ -1016,7 +1032,7 @@ def gerar_conceito(c):
         corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
         desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
         (destino / "index.html").write_text(
-            pagina(f'{nome_titulo(c)} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
+            pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
         return
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todas as ideias</a>'
@@ -1024,7 +1040,7 @@ def gerar_conceito(c):
              + "".join(partes) + outros_nav + "</article>")
     desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
-        pagina(f'{nome_titulo(c)} · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
+        pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
 
 
 def conceitos_por_secao():
@@ -1184,7 +1200,7 @@ def gerar_tese():
               "inLanguage": "pt-BR", "abstract": resumo["texto"] if resumo else None,
               "keywords": resumo["palavras_chave"] if resumo else None, "url": BASE + "/tese/"}
     (pasta / "index.html").write_text(
-        pagina("Texto integral · Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld, camada="mista", lei=False),
+        pagina("Texto integral · Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld, camada="mista", lei=False),
         encoding="utf-8")
 
     # Uma página por seção.
@@ -1245,7 +1261,7 @@ def gerar_tese():
         destino = pasta / sec["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{rotulo_secao(sec)} · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld, camada="mista", lei=False),
+            pagina(f'{rotulo_secao(sec)} · Texto integral · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld, camada="mista", lei=False),
             encoding="utf-8")
 
 
@@ -1562,7 +1578,7 @@ def gerar_roteiro():
     pasta = SAIDA / "roteiro"
     pasta.mkdir(exist_ok=True)
     desc = "Onze situações para quem vai advogar, cada uma com um guia para operar, com fatos típicos, prova, fundamento normativo e cuidados, e o quadro em texto literal."
-    (pasta / "index.html").write_text(pagina("Situações · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Situações para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
 
 
 # As partes do Roteiro, uma página para cada seção do 7.1 que a tese organiza como instrumento de aplicação.
@@ -1659,7 +1675,7 @@ def gerar_diretrizes():
     destino = SAIDA / "roteiro" / "diretrizes"
     destino.mkdir(parents=True, exist_ok=True)
     desc = "As dez diretrizes da tese para o controle de arquitetura e governança em plataformas, em texto literal, com o trecho que enuncia cada uma."
-    (destino / "index.html").write_text(pagina(f'Diretrizes de controle · Roteiro · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld), encoding="utf-8")
+    (destino / "index.html").write_text(pagina('Diretrizes de controle das plataformas digitais · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld), encoding="utf-8")
 
 
 def pagina_lida(sec, prefixo, trilha, sobrelinha, chave, topo=""):
@@ -1687,7 +1703,7 @@ def gerar_limites():
     destino = SAIDA / "roteiro" / "limites"
     destino.mkdir(parents=True, exist_ok=True)
     desc = "Cidadania digital e limites ao poder privado de plataforma, a seção que fecha o 7.1 da tese, em texto integral."
-    (destino / "index.html").write_text(pagina("Cidadania digital e limites · Roteiro · Lex Plataformae", desc, corpo, prefixo, "roteiro/limites/", jsonld), encoding="utf-8")
+    (destino / "index.html").write_text(pagina("Cidadania digital e limites ao poder da plataforma · Lex Plataformae", desc, corpo, prefixo, "roteiro/limites/", jsonld), encoding="utf-8")
 
 
 # Laboratório. As famílias de plataforma do 7.2, na sequência que a própria tese declara para cada uma.
@@ -1801,7 +1817,7 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista", imagem=slug),
+            pagina(f'{ext_texto(slug, "titulo") or sec["titulo"]} · Plataformas · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista", imagem=slug),
             encoding="utf-8")
         cartoes.append(f'<li><a class="cartao" href="{slug}/"><span class="cartao-frase">{esc(ext_texto(slug, "titulo"))}</span><b>{esc(sec["titulo"])}</b></a></li>')
 
@@ -1821,7 +1837,7 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Laboratório · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, superficie="../"),
+            pagina(f'{sec["titulo"]} · Plataformas · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, superficie="../"),
             encoding="utf-8")
         cartoes_desdob.append(f'<li><a class="cartao" href="{slug}/"><b>{esc(sec["titulo"])}</b><span class="ciencia">{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
 
@@ -1849,7 +1865,7 @@ def gerar_laboratorio():
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Laboratório · Lex Plataformae", "inLanguage": "pt-BR",
               "url": BASE + "/laboratorio/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     desc = ext_texto("laboratorio", "abertura") or desc
-    (pasta / "index.html").write_text(pagina("Laboratório · Lex Plataformae", desc, corpo, "../", "laboratorio/", jsonld, camada="mista", imagem="laboratorio"), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina(f'{ext_texto("laboratorio", "titulo") or "Laboratório"} · Plataformas · Lex Plataformae', desc, corpo, "../", "laboratorio/", jsonld, camada="mista", imagem="laboratorio"), encoding="utf-8")
 
 
 def paragrafos(sec):
@@ -1955,7 +1971,7 @@ def gerar_metodo():
               "url": BASE + "/metodo/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "metodo"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Método · Lex Plataformae", desc, corpo, prefixo, "metodo/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Método da pesquisa · Lex Plataformae", desc, corpo, prefixo, "metodo/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 # Fundamentos. Os capítulos 3 e 4, organizados pelos conjuntos de autores e pelas funções que a abertura de cada capítulo declara.
@@ -2097,7 +2113,7 @@ def gerar_fundamentos():
               "mentions": [{"@type": "Person", "name": nome} for nome in dict.fromkeys(mencionados)]}
     pasta = SAIDA / "fundamentos"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Fundamentos · Lex Plataformae", desc, corpo, prefixo, "fundamentos/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Fundamentos teóricos · Lex Plataformae", desc, corpo, prefixo, "fundamentos/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 # Dispositivos. Artigos que a tese cita com o nome da lei na mesma frase. Remissões sem o nome da lei ficam de fora.
@@ -2373,7 +2389,7 @@ def gerar_legislacao():
     pasta = SAIDA / "legislacao"
     pasta.mkdir(exist_ok=True)
     desc = "Os artigos de lei que a tese usa, com o texto integral, organizados por lei, para quem vai advogar."
-    (pasta / "index.html").write_text(pagina("Legislação · Lex Plataformae", desc, corpo, prefixo, "legislacao/", jsonld, superficie=prefixo, lei=False), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Legislação citada, com o texto integral dos artigos · Lex Plataformae", desc, corpo, prefixo, "legislacao/", jsonld, superficie=prefixo, lei=False), encoding="utf-8")
 
 
 # Autores e referências. A lista de referências da tese entra no site como está, em Ciência, com a área de cada entrada.
@@ -2749,7 +2765,7 @@ def gerar_autores():
              '<p>Os autores da lista de referências, pela área em que a tese os mobiliza, com o número de trechos que os citam.</p></header>'
              + "".join(secoes) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "url": BASE + "/autores/", "name": "Autores · Lex Plataformae"}
-    (raiz / "index.html").write_text(pagina("Autores · Lex Plataformae", "Os autores que a tese cita, por área, com os trechos em que aparecem.",
+    (raiz / "index.html").write_text(pagina("Autores citados, por área · Lex Plataformae", "Os autores que a tese cita, por área, com os trechos em que aparecem.",
                                             corpo, "../", "autores/", jsonld, camada="ciencia", superficie="../"), encoding="utf-8")
 
 
@@ -2781,7 +2797,7 @@ def gerar_referencias():
               "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "referencias"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Referências · Lex Plataformae", "A lista de referências da tese, com a área de cada entrada e as citações.",
+    (pasta / "index.html").write_text(pagina("Referências bibliográficas · Lex Plataformae", "A lista de referências da tese, com a área de cada entrada e as citações.",
                                              corpo, prefixo, "referencias/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
@@ -2820,7 +2836,7 @@ def gerar_objeto_instrumentos():
                       f'<p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
     juridicos = sorted(t for t, ar in AREA_TERMO.items() if ar == "direito")
     nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
-    dez = "".join(termo_link(t, "nome-derivado") for t in sorted(DERIVADOS))
+    dez = "".join(f'<li><a href="{prefixo}{caminho_derivado(t)}"><span class="nome-derivado">{esc(t)}</span></a></li>' for t in sorted(DERIVADOS))
     corpo = (
         '<article class="folha leitura objeto-instrumentos">'
         '<header class="folha-cabeca"><h1>Objeto e instrumentos</h1>' + trechos + '</header>'
@@ -2919,7 +2935,7 @@ def gerar_dogmatica():
               + [{"@type": "Legislation", "name": lei} for lei in leis]}
     pasta = SAIDA / "dogmatica"
     pasta.mkdir(exist_ok=True)
-    (pasta / "index.html").write_text(pagina("Dogmática · Lex Plataformae", desc, corpo, prefixo, "dogmatica/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Dogmática jurídica · Lex Plataformae", desc, corpo, prefixo, "dogmatica/", jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
 
 
 _NOMEACOES = {}
@@ -3059,7 +3075,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS]
+    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -3089,6 +3105,8 @@ def gerar_auxiliares():
     for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]):
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
+    linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem."]
+    linhas += [f"- [{t}]({BASE}/{caminho_derivado(t)})" for t in sorted(DERIVADOS)]
     linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.",
                f"- [Diretrizes de controle]({BASE}/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.",
                f"- [Cidadania digital e limites]({BASE}/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral."]
@@ -3121,6 +3139,66 @@ TRAJETORIA = ["A percepção de que o consumo digital", "Esta tese não nasce", 
 # Perfis do autor, informados por ele em 27/10/2026. O ORCID fica para outro momento.
 AUTOR_LATTES = "https://lattes.cnpq.br/3172009565979544"
 AUTOR_LINKEDIN = "https://www.linkedin.com/in/victorlpandrade/"
+
+
+def ocorrencias_do_nome(nome):
+    """As seções do texto integral que usam o nome, no corpo e nas notas, com a contagem."""
+    padrao = re.compile(re.escape(nome).replace(r"\ ", r"\s+").replace(r"\-", r"-\s*"), re.I)
+    achados = []
+    for sec in SECOES:
+        n = len(padrao.findall(TEXTO_SECAO[sec["slug"]])) + sum(len(padrao.findall(t)) for _, _, t in NOTAS_SECAO[sec["slug"]])
+        if n:
+            achados.append((sec, n))
+    return achados
+
+
+def gerar_derivados():
+    """Uma página para cada conceito derivado que a tese nomeia e que ainda não tem ficha.
+
+    O texto da página é o literal da tese. A explicação simples fica no percurso, onde o termo aparece em contexto.
+    """
+    prefixo = "../../"
+    onde = {}
+    for parte in PERCURSO:
+        for b in parte["blocos"]:
+            if b["tipo"] == "termo" and b["arg"] in DERIVADOS:
+                onde.setdefault(b["arg"], (parte, b))
+    nomes = sorted(DERIVADOS)
+    for nome in nomes:
+        if nome in FICHA_DERIVADO or nome not in onde:
+            continue
+        slug = slug_derivado(nome)
+        parte, bloco = onde[nome]
+        no_percurso = f'{prefixo}percurso/{parte["slug"]}/#termo-{slug}'
+        trechos = "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in bloco["citacoes"])
+        achados = ocorrencias_do_nome(nome)
+        lista = "".join(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{esc(rotulo_secao(sec))}</a> <span class="vezes">{n}×</span></li>' for sec, n in achados)
+        outros = "".join(f'<li><a href="{prefixo}{caminho_derivado(t)}"><span class="nome-derivado">{esc(t)}</span></a></li>' for t in nomes if t != nome)
+        corpo = (
+            '<article class="folha leitura derivado-pagina">'
+            f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
+            f'<h1><span class="nome-derivado">{esc(nome)}</span></h1></header>'
+            f'<section class="bloco"><h2>O que é</h2>{trechos}</section>'
+            f'<section class="bloco"><h2>Em palavras simples</h2><p>Explicado no percurso da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></section>'
+            + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
+            + f'<nav class="bloco" aria-label="Os outros conceitos derivados"><h2>Os outros conceitos derivados</h2><ul class="termos-lista">{outros}</ul>'
+            f'<p><a href="{prefixo}objeto-e-instrumentos/">Os nove conceitos e os dez derivados</a></p></nav>'
+            '</article>')
+        url = f"{BASE}/{caminho_derivado(nome)}"
+        com_nome = [q["texto"] for q in bloco["citacoes"] if nome.lower() in q["texto"].lower()]
+        primeiro = (com_nome or [q["texto"] for q in bloco["citacoes"]] or [nome])[0]
+        jsonld = {"@context": "https://schema.org", "@type": "DefinedTerm", "@id": url, "name": nome, "description": primeiro, "url": url,
+                  "inLanguage": "pt-BR", "inDefinedTermSet": {"@type": "DefinedTermSet", "@id": BASE + "/#atlas", "name": "Atlas Lex Plataformae"},
+                  "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+        destino = SAIDA / "conceitos" / slug
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / "index.html").write_text(
+            pagina(f"{nome} · Conceitos · Lex Plataformae", primeiro, corpo, prefixo, caminho_derivado(nome), jsonld,
+                   superficie=f'{prefixo}percurso/{parte["slug"]}/'), encoding="utf-8")
+
+
+def paginas_derivadas():
+    return sorted({caminho_derivado(t) for t in DERIVADOS})
 
 
 def gerar_autor():
@@ -3213,6 +3291,7 @@ def main():
     gerar_autores()
     gerar_referencias()
     gerar_objeto_instrumentos()
+    gerar_derivados()
     gerar_autor()
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))

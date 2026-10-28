@@ -549,3 +549,8 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .roteiro .operar > .rotulo-ext { color: var(--tese-texto); font-weight: 600; }
 .operar-parte dd p { margin: 0; }
 body.desnudo .roteiro .rotulo-quadro { margin-bottom: 1.4rem; }
+
+/* Conceitos derivados. Uma página para cada um, com o texto literal que o define. */
+.derivado-pagina h1 .nome-derivado { font-size: inherit; }
+.derivado-pagina .secoes-lista { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.35rem; font-family: var(--f-display); font-size: 0.95rem; }
+.derivado-pagina .termos-lista { margin: 0; }

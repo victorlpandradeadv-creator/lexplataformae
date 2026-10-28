@@ -291,7 +291,7 @@ Punição precisa de motivo e de chance de defesa
 
 ### quando
 
-Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de reclamar dependem de punições que ninguém explica. Ou de dificuldades colocadas só para alguns, de um custo alto demais para reagir ou de um caminho de volta muito mais difícil do que o de ida. Pense na conta bloqueada sem explicação, com um caminho de contestação que não leva a lugar nenhum.
+Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de reclamar dependem de punições que ninguém explica. Ou de dificuldades colocadas só para alguns, de um custo alto demais para reagir ou de um caminho de volta muito mais difícil do que o de ida. Pense na conta bloqueada ou banida sem explicação, com um caminho de contestação que não leva a lugar nenhum. Quando a conta é encerrada, vai junto o acesso a tudo o que estava nela, inclusive o que você comprou.
 
 ### deve
 
@@ -314,6 +314,8 @@ A plataforma tem poder de punir, mas ter esse poder não basta. A punição prec
 > A prova mínima exigível recai sobre registros de sanção, fluxo de contestação, critérios mobilizados, dificuldades estruturais de reversão e impactos concretos da medida sobre a continuidade da experiência. (p. 746)
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 > Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
+> uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas (p. 211)
+> o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
 
 ### partes
 
