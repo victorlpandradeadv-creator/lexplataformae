@@ -12,6 +12,8 @@ Formato. `## intro` abre a página. Cada situação começa com `## <letra>`, co
 
 Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro em texto literal, em cinco partes. O parâmetro é a ideia que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso.
 
+O CDC funciona como a infraestrutura normativa dessas situações. Não se trata de inventar um novo código nem de enxertar um regime estranho no texto legal, e sim de ler as categorias do sistema pelo modo real como o fornecimento acontece, em que governar o ambiente é governar a própria fruição.
+
 O quadro não mecaniza a decisão. Ele organiza a passagem entre a estrutura de governança, o dever violado, a exigência probatória mínima, a qualificação jurídica e a consequência possível.
 
 A prova mínima de cada situação indica o que torna o conflito demonstrável com prova possível e inferências controláveis, para que a discussão não dependa de acesso integral a algoritmos, registros e regras internas da plataforma.
@@ -20,12 +22,15 @@ A prova mínima de cada situação indica o que torna o conflito demonstrável c
 > Ele organiza, em linguagem consultável, a passagem entre estrutura de governança, dever violado, exigência probatória mínima, qualificação jurídica e consequência institucional possível. (p. 748)
 > Critérios de incidência não podem depender de acesso integral a algoritmo, logs e regras internas como condição de possibilidade, pois isso converteria o OIC em categoria impraticável, reservada a casos excepcionais. (p. 429)
 > Para o OIC, os critérios devem operar com prova possível e inferências controláveis (p. 429)
+> Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal. (p. 549)
+> desde que suas categorias sejam lidas a partir do modo real de prestação do fornecimento (p. 549)
+> O CDC já oferece linguagem suficiente para enfrentar esse problema, desde que se aceite que, no consumo digital contínuo, governar o ambiente é governar a própria fruição. (p. 550)
 
 ## a
 
 ### fatos
 
-Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo.
+Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo. Nos jogos, o objeto pode ser de aparência, de progressão, de acesso e permanência, de funcionalidade, de tempo ou de reputação, e um mesmo item costuma combinar mais de um desses tipos. Essa tipologia é interna ao laboratório dos jogos, e não classificação geral de plataformas.
 
 ### demonstrar
 
@@ -33,11 +38,11 @@ A dependência estrutural da utilidade em relação ao ambiente governado, a for
 
 ### fundamento
 
-O art. 3º, § 1º, do CDC já admite produto imaterial. Sempre que a utilidade consumida se apresenta como posição de fruição sustentada por governança privada contínua, há produto imaterial no sentido desse dispositivo, e a dimensão de serviço não afasta o controle da fruição.
+O art. 3º, § 1º, do CDC já admite produto imaterial. Sempre que a utilidade consumida se apresenta como posição de fruição sustentada por governança privada contínua, há produto imaterial no sentido desse dispositivo, e a dimensão de serviço não afasta o controle da fruição. Os termos de uso que reconhecem um conteúdo virtual associado à conta, como moeda, skins e outros itens, ajudam a provar a existência do objeto, mas não esgotam o seu regime. O OIC não substitui o produto imaterial do art. 3º, § 1º, do CDC, mas o concretiza no consumo contínuo e governado. A definição legal de produto funciona como cláusula de abrangência, que impede a fuga da tutela quando o objeto não tem suporte físico.
 
 ### cuidados
 
-Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha.
+Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha. Discutir se o caso é de produto ou de serviço não resolve a questão. A distinção continua útil para calibrar consequências específicas, mas não define o regime inteiro. O Marco Legal dos Jogos Eletrônicos, a Lei nº 14.852/2024, reconhece o setor como atividade econômica e cultural, mas o enquadramento setorial ajuda a ver o mercado e não basta para controlar a governança, de modo que não substitui o CDC.
 
 > A prova mínima exigível recai sobre a demonstração da dependência estrutural da utilidade em relação ao ecossistema governado, da forma de disponibilização da experiência e da posição concreta do consumidor no vínculo. (p. 743)
 > impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal (p. 743)
@@ -50,6 +55,22 @@ Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso 
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas (p. 434)
 > O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC. (p. 435)
 > A consequência institucional possível consiste na abertura dos filtros subsequentes do regime (p. 743)
+> A primeira categoria é a dos objetos cosmético-ornamentais. (p. 489)
+> A segunda categoria é a dos objetos de progressão. (p. 489)
+> A terceira categoria é a dos objetos de acesso e permanência. (p. 489)
+> A quarta categoria é a dos objetos de funcionalidade. (p. 490)
+> A quinta categoria é a dos objetos de tempo. (p. 490)
+> A sexta categoria é a dos objetos de reputação. (p. 490)
+> As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo. (p. 492)
+> Essa tipologia é deliberadamente interna ao laboratório de jogos e não se oferece como classificação geral de plataformas. (p. 489)
+> Os Termos de Serviço da Riot Games reconhecem expressamente um núcleo de “Conteúdo Virtual” associado à conta, composto por moeda do jogo, skins, emotes, acessórios e outros itens (p. 575)
+> A cláusula ajuda a provar a existência do objeto. Não esgota o seu regime. (p. 575)
+> O OIC não substitui o produto imaterial do art. 3º, § 1º. Ele o concretiza em contexto de consumo contínuo e governado. (p. 579)
+> A dicotomia produto-serviço segue relevante, mas como variável instrumental para calibrar consequências específicas, não como totem definidor do regime inteiro. (p. 557)
+> Um marco suficiente para registrar esse dado é a Lei 14.852/2024 (p. 493)
+> O enquadramento setorial ajuda a ver o mercado; não basta para controlar a governança. (p. 548)
+> A existência de regulação setorial não substitui a infraestrutura consumerista (p. 548)
+> A definição legal de produto no art. 3º, §1º, do CDC opera como cláusula de abrangência que impede a fuga da tutela protetiva quando o objeto não se apresenta sob a forma de suporte físico. (p. 411)
 
 ## b
 
@@ -116,15 +137,15 @@ Fruição precedida por ciclos curados de antecipação, promessa, escassez suge
 
 ### demonstrar
 
-O ambiente promocional, as peças de comunicação, as saliências simbólicas, o contexto de apresentação do objeto e a relação entre a promessa antecedente e a fruição posterior. Servem peças promocionais, postagens, campanhas, influenciadores, avisos, asteriscos, remissões em cascata e letras miúdas.
+O ambiente promocional, as peças de comunicação, as saliências simbólicas, o contexto de apresentação do objeto e a relação entre a promessa antecedente e a fruição posterior. Servem peças promocionais, postagens, campanhas, influenciadores, avisos, asteriscos, remissões em cascata e letras miúdas. As perguntas são como a expectativa foi produzida, em que momento as condições relevantes foram reveladas, com que destaque apareceram, qual foi a sequência entre promessa e aceitação e se havia meios reais de compreender e comparar a oferta.
 
 ### fundamento
 
-O art. 30 do CDC torna vinculante toda informação suficientemente precisa, e a apresentação na vitrine digital pode configurar oferta. O art. 35 do CDC permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 38 do CDC atribui a quem patrocina a publicidade o ônus de provar a veracidade e a correção da informação.
+O art. 30 do CDC torna vinculante toda informação suficientemente precisa, e a apresentação na vitrine digital pode configurar oferta. O art. 35 do CDC permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 38 do CDC atribui a quem patrocina a publicidade o ônus de provar a veracidade e a correção da informação. Na antecipação curada da oferta, a omissão relevante aparece quando o essencial é deslocado para fora do foco da decisão. A publicidade é enganosa quando a utilidade ou a equivalência construída pelo ambiente promocional não encontra correspondência verificável na fruição. E é abusiva quando o desenho explora de modo sistemático a vulnerabilidade, comprimindo a deliberação por urgência artificial, recompensa simbólica e fragmentação das condições relevantes.
 
 ### cuidados
 
-Não basta a insistência da propaganda. O que conta é o nexo entre a promessa antecedente e a fruição posterior. A comunicação só entra como elemento de teleologia abusiva quando articulada a um programa exploratório mais amplo.
+Não basta a insistência da propaganda. O que conta é o nexo entre a promessa antecedente e a fruição posterior. A comunicação só entra como elemento de teleologia abusiva quando articulada a um programa exploratório mais amplo. Nem toda técnica de persuasão é ilícita, porque o mercado pode promover, dramatizar e organizar interesse. Mas a ilicitude pode estar na articulação entre elementos que, vistos separadamente, parecem neutros, e não só numa peça falsa ou numa cláusula isolada.
 
 > Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará materialmente a oferta. (p. 744-745)
 > Se, passado um período, o mesmo item reaparece em loja alternativa, em moeda especial, em promoção agressiva ou por preço significativamente inferior, e se a limitação temporal da exclusividade não foi informada de modo adequado e compreensível no momento da aquisição, ocorre reconfiguração retroativa do valor entregue, com frustração de expectativa legítima e violação de transparência. (p. 214)
@@ -136,6 +157,12 @@ Não basta a insistência da propaganda. O que conta é o nexo entre a promessa 
 > que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos (p. 540)
 > É precisamente por tal motivo que o art. 38 do CDC, aqui, se mostra tão importante. O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem a patrocina (p. 627)
 > quando articulada a programa exploratório mais amplo, elemento de teleologia abusiva (p. 745)
+> O jurista precisa perguntar como a expectativa foi produzida, em que momento as condições relevantes foram reveladas, com que destaque apareceram, qual foi a sequência efetiva entre promessa e aceitação (p. 633)
+> A omissão relevante aparece quando o essencial é deliberadamente deslocado para fora do foco decisório. (p. 631)
+> A publicidade enganosa, por sua vez, manifesta-se quando a imagem de utilidade ou equivalência construída pelo ambiente promocional não encontra correspondência verificável na experiência efetiva de fruição (p. 631)
+> A publicidade abusiva, por fim, comparece quando o desenho do ambiente explora de maneira sistemática a vulnerabilidade do consumidor, comprimindo seu espaço de deliberação por urgência artificial, recompensa simbólica, ritualização do aceite e fragmentação das condições relevantes. (p. 631)
+> O mercado pode promover, persuadir, dramatizar e organizar interesse. (p. 631)
+> Em contextos de antecipação hipercuratorial, a ilicitude pode residir precisamente na articulação entre elementos que, vistos separadamente, parecem neutros (p. 632)
 
 ## e
 
@@ -221,6 +248,10 @@ O art. 39 do CDC veda práticas abusivas, inclusive deixar o cumprimento da obri
 
 A plataforma tem poder de sancionar, mas a simples existência formal desse poder não basta. A sanção com impacto material exige motivação verificável, coerência decisória e vias inteligíveis de contestação. A pergunta não é só se o usuário infringiu a regra, mas também se são legítimos os critérios pelos quais o desvio é produzido, lido e punido.
 
+### caso
+
+No caso dos presentes irregulares, a plataforma reagiu a fraudes de pagamento desativando por longo período a função oficial de presentes no servidor brasileiro, suprimindo ativos recebidos e aplicando bloqueios e restaurações regressivas de contas, inclusive sobre destinatários que não participaram conscientemente da fraude. O caso permite formular cinco alegações. A primeira é a de inadequação do serviço por falha na segurança do ambiente transacional, com redistribuição do risco ao consumidor. A segunda é a de violação da confiança legítima, porque a função de presentes era canal oficial. A terceira é a de abusividade da resposta privada, por presunção ampliada de má-fé e falta de individualização das condutas. A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para tornar a fruição precária e negar recomposição. A quinta é a de assimetria probatória, que exige preservar trilhas, históricos de transação, a origem dos itens removidos e os critérios do rollback. Os pedidos vão da restauração dos ativos, quando a boa-fé não foi afastada por prova individualizada, à exibição dos registros e à correção da informação sobre canais legítimos de aquisição.
+
 > Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
 > uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas (p. 211)
 > A prova mínima exigível recai sobre registros de sanção, fluxo de contestação, critérios mobilizados, dificuldades estruturais de reversão e impactos concretos da medida sobre a continuidade da experiência. (p. 746)
@@ -230,6 +261,15 @@ A plataforma tem poder de sancionar, mas a simples existência formal desse pode
 > A qualificação jurídica possível pode envolver prática abusiva, defeito do serviço quando houver comprometimento da segurança jurídica e procedimental da fruição, além de integração a hipótese mais ampla de ilícito arquitetural. (p. 746)
 > Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
 > Nessa chave, a questão central deixa de ser saber apenas se o usuário infringiu uma regra e passa a incluir a legitimidade dos próprios critérios pelos quais o desvio é produzido, lido e punido. (p. 343)
+> A empresa desativou por longo período a funcionalidade de presentes no servidor brasileiro, suprimiu ativos recebidos e operou restaurações regressivas ou bloqueios em contas atingidas (p. 611)
+> inclusive sobre usuários que não participaram conscientemente da fraude (p. 610)
+> Em chave dogmática, o Caso dos Presentes Irregulares permite formular alegações bastante precisas. (p. 617)
+> A primeira é a de inadequação do serviço por falha na segurança e na governança do ambiente transacional, com posterior redistribuição abusiva do risco ao consumidor. (p. 617)
+> A segunda é a de violação da confiança legítima, porque a própria plataforma oferecia a funcionalidade de gifting como canal ordinário e institucionalizado de circulação de conteúdo. (p. 617)
+> A terceira é a de abusividade da resposta privada, por presunção ampliada de má-fé e ausência de individualização confiável das condutas. (p. 617)
+> A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para transformar a fruição em tolerância absolutamente precária e para negar recomposição. (p. 617)
+> A quinta é a de assimetria probatória, com necessidade de preservação de trilhas, históricos de transação, origem dos itens removidos, critérios utilizados para rollback e justificativa individualizada das medidas adotadas. (p. 617)
+> restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição (p. 617)
 
 ## h
 
@@ -317,11 +357,11 @@ A relação entre a prerrogativa invocada e o aspecto concreto do conflito, most
 
 ### fundamento
 
-O art. 5º, XXIX, da Constituição liga a proteção das criações industriais, das marcas e de outros signos ao interesse social e ao desenvolvimento, e não protege a exclusividade como fim em si. A propriedade se submete à função social, e a defesa do consumidor integra a ordem econômica. Os arts. 7º e 8º da Lei nº 9.609/1998 impõem ao fornecedor de software deveres de informação e de suporte durante a validade técnica.
+O art. 5º, XXIX, da Constituição liga a proteção das criações industriais, das marcas e de outros signos ao interesse social e ao desenvolvimento, e não protege a exclusividade como fim em si. A propriedade se submete à função social, e a defesa do consumidor integra a ordem econômica. Os arts. 7º e 8º da Lei nº 9.609/1998 impõem ao fornecedor de software deveres de informação e de suporte durante a validade técnica. A proteção do programa de computador no Brasil segue regime especial predominantemente autoral, e não lógica patentária sobre função, método ou resultado, de modo que o controle técnico da infraestrutura não se converte em poder total sobre a experiência consumida.
 
 ### cuidados
 
-A propriedade intelectual continua válida no seu plano próprio e não é veto geral ao CDC. A compatibilização se faz por auditabilidade delimitada, com instrumentos que preservam o sigilo, como o segredo de justiça, pelo controle da equivalência funcional e pela sujeição do exercício da exclusividade aos deveres de adequação, transparência e recomposição.
+A propriedade intelectual continua válida no seu plano próprio e não é veto geral ao CDC. A compatibilização se faz por auditabilidade delimitada, com instrumentos que preservam o sigilo, como o segredo de justiça, pelo controle da equivalência funcional e pela sujeição do exercício da exclusividade aos deveres de adequação, transparência e recomposição. No encerramento do serviço ou no desligamento definitivo de servidores, a precariedade formal da licença não autoriza o sacrifício integral do que foi incorporado à trajetória do consumidor. A saída deve ser compatibilizada, tanto quanto técnica e juridicamente possível, com continuidade, portabilidade, recomposição funcional ou cessão da operação. A infraestrutura de propriedade intelectual também não é homogênea. Marcas, direitos autorais, software e sinais distintivos não conferem o mesmo tipo nem a mesma extensão de exclusividade, e por isso o controle técnico do ambiente não decorre de uma soberania unitária sobre a experiência consumida. A exclusividade não se confunde com imunidade contra a auditabilidade.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
 > “são dados de uso interno”, “são informações não acessíveis ao público” (p. 660)
@@ -335,6 +375,13 @@ A propriedade intelectual continua válida no seu plano próprio e não é veto 
 > A qualificação jurídica possível preserva a validade da propriedade intelectual em seu plano próprio, mas afasta sua invocação como veto geral à incidência do CDC. (p. 747)
 > consequência institucional consiste em compatibilizar exclusividade e tutela consumerista por meio de auditabilidade delimitada, controle da equivalência funcional e sujeição do exercício da PI aos deveres de adequação, transparência e recomposição. (p. 748)
 > A própria disciplina jurídica prevê segredo de justiça, o que restringe o acesso de terceiros a informações sensíveis, como o código-fonte (p. 643)
+> Como a proteção do programa no Brasil não se estrutura sob lógica patentária ampla sobre função, método ou resultado, mas sob regime especial predominantemente autoral, é incompatível com a Constituição converter controle técnico da infraestrutura em poder total sobre a experiência consumida. (p. 706)
+> Esse limite ganha contorno particularmente nítido em hipóteses de encerramento de atividades, descontinuação de serviços ou desligamento definitivo de servidores. (p. 709)
+> a precariedade formal das licenças de uso já não pode ser lida como autorização automática para o sacrifício integral de objetos imateriais de consumo incorporados à trajetória do consumidor (p. 709)
+> Se o encerramento do serviço se impõe, a ordem constitucional exige que ele seja compatibilizado, tanto quanto técnica e juridicamente possível, com soluções de continuidade, portabilidade, recomposição funcional, cessão da operação ou outras medidas idôneas (p. 709)
+> A infraestrutura de propriedade intelectual que sustenta a plataforma não é homogênea. Marcas, direitos autorais, software, sinais distintivos, interfaces e institutos conexos não conferem o mesmo tipo nem a mesma extensão de exclusividade. (p. 682)
+> O ordenamento brasileiro não autoriza tratar todo controle técnico do ambiente como se decorresse de uma soberania unitária e irrestrita sobre a experiência consumida. (p. 682)
+> A exclusividade não se confunde com imunidade contra auditabilidade. (p. 695)
 
 ## k
 

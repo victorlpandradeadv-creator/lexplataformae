@@ -427,7 +427,7 @@ def secao_direitos(letras, prefixo):
 
 # Para operar. O guia da Doutrina para cada situação do Roteiro, em conteudo/operar.md.
 CAMPOS_OPERAR = {"fatos": "Fatos típicos", "demonstrar": "Como demonstrar", "fundamento": "Fundamento normativo",
-                 "cuidados": "Pressupostos e cuidados"}
+                 "cuidados": "Pressupostos e cuidados", "caso": "Um caso"}
 
 
 def carregar_operar():
@@ -1533,6 +1533,7 @@ def gerar_roteiro():
         num, ids = ROTEIRO_MAPA.get(it["letra"], (None, []))
         ligacoes = []
         if num and num in POR_NUMERO:
+            ligacoes.append(f'<a href="{prefixo}roteiro/parametros/#parametro-{it["letra"]}">O parâmetro</a>')
             ligacoes.append(f'<a class="ciencia" href="{prefixo}tese/{POR_NUMERO[num]["slug"]}/">Enunciado {num} na tese</a>')
         ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{nome_html(POR_ID[i])}</a>' for i in ids if i in POR_ID]
         dl = "".join(f'<dt>{esc(rot)}</dt><dd data-ref="{esc(ref)}" data-alvo="{prefixo}tese/{slug}/#p{re.match(r"p. (\d+)", ref).group(1)}">{html_do_corpus(h, slug, prefixo)}</dd>'
@@ -1582,11 +1583,11 @@ def gerar_roteiro():
 
 
 # As partes do Roteiro, uma página para cada seção do 7.1 que a tese organiza como instrumento de aplicação.
-ROTEIRO_PARTES = [("7.1.2", "roteiro/"), ("7.1.3", "roteiro/diretrizes/"), ("7.1.4", "roteiro/limites/")]
+ROTEIRO_PARTES = [("7.1.1", "roteiro/parametros/"), ("7.1.2", "roteiro/"), ("7.1.3", "roteiro/diretrizes/"), ("7.1.4", "roteiro/limites/")]
 ORDINAIS = ["primeira", "segunda", "terceira", "quarta", "quinta", "sexta", "sétima", "oitava", "nona", "décima"]
 
 
-ROTEIRO_ROTULOS = {"7.1.2": "Situações", "7.1.3": "Diretrizes de controle", "7.1.4": "Limites ao poder da plataforma"}
+ROTEIRO_ROTULOS = {"7.1.1": "Parâmetros", "7.1.2": "Situações", "7.1.3": "Diretrizes de controle", "7.1.4": "Limites ao poder da plataforma"}
 
 
 def nav_roteiro(atual, prefixo, lema=""):
@@ -1637,6 +1638,42 @@ def indice_destaques(achados, titulo="Em frases da tese"):
     itens = "".join(f'<li><a href="#{ident}">{esc(t["texto"])}</a> {pg(t["ref"])}</li>' for t, ident in achados)
     return (f'<nav class="bloco indice-destaques" aria-label="{esc(titulo)}" data-arq="seleção editorial · trechos marcados no texto">'
             f'<h2>{esc(titulo)}</h2><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{itens}</ol></nav>')
+
+
+def gerar_parametros():
+    """Os dez enunciados do 7.1.1, em texto integral, cada um com o título da situação do quadro que ele prepara."""
+    s71, s711 = POR_NUMERO.get("7.1"), POR_NUMERO.get("7.1.1")
+    if not s71 or not s711:
+        return
+    prefixo = "../../"
+    secoes, indice = [], []
+    for letra, (num, _) in ROTEIRO_MAPA.items():
+        sec = POR_NUMERO.get(num) if num else None
+        if not sec:
+            continue
+        titulo = SITUACOES.get(letra, sec["titulo"])
+        indice.append(f'<li><a href="#parametro-{letra}">{esc(titulo)}</a></li>')
+        secoes.append(
+            f'<section class="bloco-roteiro" id="parametro-{letra}" aria-labelledby="titulo-parametro-{letra}">'
+            f'<h2 id="titulo-parametro-{letra}">{esc(titulo)}</h2>'
+            f'<p class="titulo-tese ciencia"><span class="letra">{esc(num)}</span> {esc(sec["titulo"])}</p>'
+            f'<div class="texto">{blocos_simples(sec["blocos"], sec["slug"], prefixo)}</div>'
+            f'<p class="ligacoes"><a href="{prefixo}roteiro/#{letra}">A situação no quadro</a></p>'
+            f'{nomeados_html(termos_em(texto_de(sec["blocos"])), prefixo)}</section>')
+    corpo = (
+        '<article class="folha leitura roteiro">'
+        f'<header class="folha-cabeca"><p class="sobrelinha ciencia">Roteiro · 7.1 e 7.1.1 · p. {s71["pagina_inicio"]} a {POR_NUMERO["7.1.1.10"]["pagina_fim"] if "7.1.1.10" in POR_NUMERO else s711["pagina_fim"]}</p>'
+        f'<h1>Parâmetros</h1><div class="texto">{blocos_simples(s71["blocos"], s71["slug"], prefixo)}</div></header>'
+        + nav_roteiro("7.1.1", prefixo)
+        + f'<section class="bloco"><h2>A ordem dos parâmetros</h2><div class="texto">{blocos_simples(s711["blocos"], s711["slug"], prefixo)}</div></section>'
+        + f'<nav class="bloco indice-roteiro" aria-label="Os parâmetros"><h2>Os dez parâmetros</h2><ol>{"".join(indice)}</ol></nav>'
+        + "".join(secoes) + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Parâmetros · Lex Plataformae", "inLanguage": "pt-BR",
+              "url": BASE + "/roteiro/parametros/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
+    destino = SAIDA / "roteiro" / "parametros"
+    destino.mkdir(parents=True, exist_ok=True)
+    desc = "Os dez parâmetros que preparam cada situação de conflito com plataformas digitais, em sequência e em texto literal."
+    (destino / "index.html").write_text(pagina("Parâmetros para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/parametros/", jsonld), encoding="utf-8")
 
 
 def gerar_diretrizes():
@@ -3009,6 +3046,11 @@ def usos_por_secao():
         if num:
             junta(num, "Roteiro", f"Bloco {letra} do enquadramento", f"roteiro/#{letra}")
     junta("7.1.2", "Roteiro", "Os onze blocos de enquadramento", "roteiro/")
+    junta("7.1", "Roteiro", "Parâmetros", "roteiro/parametros/")
+    junta("7.1.1", "Roteiro", "Parâmetros", "roteiro/parametros/")
+    for letra, (num, _) in ROTEIRO_MAPA.items():
+        if num:
+            junta(num, "Roteiro", "Parâmetros", f"roteiro/parametros/#parametro-{letra}")
     junta("7.1.3", "Roteiro", "As dez diretrizes de controle", "roteiro/diretrizes/")
     junta("7.1.4", "Roteiro", "Cidadania digital e limites", "roteiro/limites/")
     junta("7", "Laboratório", "O teste", "laboratorio/")
@@ -3075,7 +3117,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -3108,6 +3150,7 @@ def gerar_auxiliares():
     linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem."]
     linhas += [f"- [{t}]({BASE}/{caminho_derivado(t)})" for t in sorted(DERIVADOS)]
     linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.",
+               f"- [Parâmetros]({BASE}/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, em texto integral.",
                f"- [Diretrizes de controle]({BASE}/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.",
                f"- [Cidadania digital e limites]({BASE}/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral."]
     linhas += ["", "## Laboratório", "", f"- [Laboratório]({BASE}/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal."]
@@ -3235,16 +3278,67 @@ def gerar_autor():
                corpo, prefixo, "autor/", jsonld, camada="externa", imagem="autor"), encoding="utf-8")
 
 
+# Cobertura por modo. Cada citação dos textos de cada modo volta à seção da tese de onde vem.
+FONTES_MODO = {
+    "Informação": ["conteudo/percurso.md", "conteudo/camada-externa.md", "conteudo/direitos.md"],
+    "Doutrina": ["conteudo/operar.md", "conceitos/ficha-canonica-v0.md"],
+}
+
+
+def _norm_cob(t):
+    t = unicodedata.normalize("NFC", t)
+    for a, b in (("“", '"'), ("”", '"'), ("‘", "'"), ("’", "'"), ("\xad", "")):
+        t = t.replace(a, b)
+    t = re.sub(r'(?<=[A-Za-zÀ-úºª,;:"\.])\d{1,3}(?=[\s,\.;:])', "", t)
+    return re.sub(r"\s+", " ", t).strip().lower()
+
+
+def secao_da_citacao(texto, ref, textos):
+    """A seção em que o trecho está. Procura o texto e, se não achar, usa a página."""
+    pedacos = [f.strip() for f in re.split(r"\[\s*(?:\.\.\.|…)\s*\]", texto) if len(f.strip()) > 12]
+    alvo = _norm_cob(max(pedacos, key=len) if pedacos else texto)[:70]
+    achadas = [x for x in SECOES if alvo and alvo in textos[x["slug"]]]
+    if not achadas:
+        m = re.match(r"p\. (\d+)", ref or "")
+        if m:
+            pag = int(m.group(1))
+            achadas = [x for x in SECOES if x["pagina_inicio"] <= pag <= x["pagina_fim"]]
+    return max(achadas, key=lambda x: len(x["n"] or "")) if achadas else None
+
+
+def cobertura_por_modo():
+    textos = {x["slug"]: _norm_cob(TEXTO_SECAO[x["slug"]] + " " + " ".join(t for _, _, t in NOTAS_SECAO[x["slug"]])) for x in SECOES}
+    contagem = {}
+    for modo, arqs in FONTES_MODO.items():
+        for arq in arqs:
+            caminho = RAIZ / arq
+            if not caminho.exists():
+                continue
+            for m in re.finditer(r"^> (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", caminho.read_text(encoding="utf-8"), re.M):
+                sec = secao_da_citacao(m.group(1), m.group(2), textos)
+                if sec:
+                    contagem.setdefault(sec["slug"], {}).setdefault(modo, 0)
+                    contagem[sec["slug"]][modo] += 1
+    # Seções que a Doutrina traz em texto integral.
+    integral = ({"7", "7.1", "7.1.1", "7.1.2", "7.1.3", "7.1.4", "7.2", "7.3", "7.2.7.1"} | {n for n, _ in FAMILIAS + DESDOBRAMENTOS}
+                | {n for n, _ in ROTEIRO_MAPA.values() if n})
+    return contagem, integral
+
+
 def gerar_cobertura():
     """Escreve estrutura/cobertura.md, com o lugar de cada seção da tese nas camadas do site.
     O autor determinou em 27/10/2026 que tudo o que está na tese será trazido para a estrutura do site.
     Este mapa mostra o caminho percorrido e o que falta."""
     por_secao, usos = conceitos_por_secao(), usos_por_secao()
+    por_modo, integral = cobertura_por_modo()
     linhas = ["# Cobertura da tese nas camadas do site", "",
               "Arquivo gerado por `ferramentas/gerar_site.py`. Não editar à mão.", "",
               "Toda seção está no corpus, em texto integral. Esta tabela mostra em que outras camadas cada seção já tem lugar. "
               "Seção sem camada ainda não foi trazida para a estrutura.", "",
-              "| Seção | Título | Páginas | Camadas |", "|---|---|---|---|"]
+              "As colunas Informação e Doutrina contam os trechos literais que os textos de cada modo condensam e que vêm da seção. "
+              "Informação conta o percurso, as ideias e Seus direitos. Doutrina conta o Guia para operar e as fichas, e marca com integral "
+              "as seções que a Doutrina traz inteiras, como as situações, as diretrizes e as plataformas.", "",
+              "| Seção | Título | Páginas | Informação | Doutrina | Camadas |", "|---|---|---|---|---|---|"]
     com, sem = 0, []
     for sec in SECOES:
         if sec["slug"] == "referencias":
@@ -3261,12 +3355,17 @@ def gerar_cobertura():
         else:
             sem.append(sec)
         titulo = sec["titulo"].replace("|", "/")
-        linhas.append(f'| {sec["n"] or "-"} | {titulo} | {sec["pagina_inicio"]} a {sec["pagina_fim"]} | {"; ".join(camadas) or "corpus apenas"} |')
+        pm = por_modo.get(sec["slug"], {})
+        dout = "integral" if (sec["n"] or "") in integral else str(pm.get("Doutrina", 0))
+        linhas.append(f'| {sec["n"] or "-"} | {titulo} | {sec["pagina_inicio"]} a {sec["pagina_fim"]} | {pm.get("Informação", 0)} | {dout} | {"; ".join(camadas) or "corpus apenas"} |')
     total = com + len(sem)
-    linhas[6:6] = [f"{com} de {total} seções já têm lugar em alguma camada. Faltam {len(sem)}.", ""]
+    sem_info = [x for x in SECOES if x["slug"] != "referencias" and not por_modo.get(x["slug"], {}).get("Informação")]
+    sem_dout = [x for x in SECOES if x["slug"] != "referencias" and not por_modo.get(x["slug"], {}).get("Doutrina") and (x["n"] or "") not in integral]
+    linhas[6:6] = [f"{com} de {total} seções já têm lugar em alguma camada. Faltam {len(sem)}.", "",
+                   f"Na Informação, {total - len(sem_info)} de {total} seções têm algum trecho condensado. Na Doutrina, {total - len(sem_dout)} de {total}.", ""]
     (RAIZ / "estrutura").mkdir(exist_ok=True)
     (RAIZ / "estrutura" / "cobertura.md").write_text("\n".join(linhas) + "\n", encoding="utf-8")
-    print(f"Cobertura  {com} de {total} seções com lugar numa camada")
+    print(f"Cobertura  {com} de {total} seções com lugar numa camada, {total - len(sem_info)} na Informação e {total - len(sem_dout)} na Doutrina")
 
 
 def main():
@@ -3281,6 +3380,7 @@ def main():
         gerar_conceito(c)
     gerar_tese()
     gerar_roteiro()
+    gerar_parametros()
     gerar_diretrizes()
     gerar_limites()
     gerar_laboratorio()

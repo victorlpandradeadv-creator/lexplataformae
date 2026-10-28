@@ -433,7 +433,7 @@ Se a restrição que a empresa invoca é mesmo necessária para proteger o jogo 
 
 ### pedir
 
-Que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição.
+Que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
 
 ### limite
 
@@ -448,6 +448,7 @@ Os direitos de propriedade intelectual sobre o jogo, a arte e o código continua
 > A prova mínima exigível recai sobre a relação entre a prerrogativa invocada e o aspecto concreto do conflito, demonstrando-se se a restrição é realmente necessária à proteção do ativo ou se opera, em verdade, como imunização indevida da governança. (p. 747)
 > A qualificação jurídica possível preserva a validade da propriedade intelectual em seu plano próprio, mas afasta sua invocação como veto geral à incidência do CDC. (p. 747)
 > consequência institucional consiste em compatibilizar exclusividade e tutela consumerista por meio de auditabilidade delimitada, controle da equivalência funcional e sujeição do exercício da PI aos deveres de adequação, transparência e recomposição. (p. 748)
+> O direito de explorar, encerrar ou reorganizar atividade econômica não se confunde com um suposto direito de aniquilar, sem deveres de transição, preservação ou transferência, a fruição funcional já estabilizada na esfera do consumidor. (p. 709)
 
 ### partes
 

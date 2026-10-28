@@ -64,6 +64,7 @@ Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literai
 ## Roteiro
 
 - [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.
+- [Parâmetros](https://lexplataformae.com.br/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, em texto integral.
 - [Diretrizes de controle](https://lexplataformae.com.br/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.
 - [Cidadania digital e limites](https://lexplataformae.com.br/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral.
 

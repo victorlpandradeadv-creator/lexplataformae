@@ -159,6 +159,27 @@ Quando é assim, existe produto imaterial no sentido da lei do consumidor. O ser
 > O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
 > A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. Por isso, a antiga pergunta sobre se o caso envolve produto ou serviço, tomada em chave excludente, perde grande parte de sua utilidade analítica. O problema passa a ser a estrutura do fornecimento e o modo como ela organiza, preserva ou degrada a experiência adquirida. (p. 718)
 
+### mecanismo
+
+Dentro de um jogo, o que se compra pode ter formas bem diferentes, e vale saber de qual delas é a sua. Há o que vale pela aparência, como a skin, que mostra algo aos outros e marca o seu lugar no jogo. E há o que vale como caminho, como o passe de um evento, em que você não recebe um prêmio pronto, e sim o direito de percorrer uma trilha de metas e recompensas.
+
+Também há o que garante a sua entrada e a sua permanência, como a conta, que na prática funciona como uma posição que pode ser retirada. Há as funções, como permissões e facilidades de uso que fazem parte do que você paga. Há o tempo, com temporadas, prazos e itens que só voltam à loja de vez em quando, ou nunca mais. E há a reputação, o reconhecimento que o próprio jogo mede, por exemplo pela sua conduta, e que pode travar recompensas quando cai.
+
+Na vida real essas formas se misturam, e uma skin de edição limitada vale ao mesmo tempo pela aparência e pelo tempo. Separar uma da outra ajuda a ver o que exatamente foi atingido quando algo muda, mesmo que o item continue lá.
+
+> A primeira categoria é a dos objetos cosmético-ornamentais. São OICs cuja utilidade não se esgota em atributos funcionais de desempenho, pois incorpora valor simbólico realizado como distinção, pertencimento e reconhecimento no ecossistema. (p. 489)
+> A segunda categoria é a dos objetos de progressão. (p. 489)
+> Um primeiro exemplo, típico de objeto de progressão, é o passe de evento, no qual a aquisição não se dirige a um resultado pronto, mas ao acesso a uma trajetória metrificada de marcos e recompensas (p. 491)
+> A terceira categoria é a dos objetos de acesso e permanência. (p. 489)
+> de modo que a fruição assume, na prática, a forma de posição revogável (p. 489)
+> A quarta categoria é a dos objetos de funcionalidade. São capacidades instrumentais disponibilizadas ao consumidor sob parâmetros técnicos e normativos administrados pelo fornecedor, como permissões de uso, utilidades de conveniência, possibilidades de configuração e capacidades de conversão (p. 490)
+> A quinta categoria é a dos objetos de tempo. Ela abrange estruturas temporais que condicionam quando, por quanto tempo e sob quais janelas a fruição pode ocorrer, como regimes de validade, temporadas, ciclos de disponibilidade e limites de frequência. (p. 490)
+> certas categorias de skins são tratadas como “legado” ou “limitadas”, com variações sobre se retornam ou não à loja e sob quais condições, de modo que a utilidade simbólica do adquirido passa a depender, também, de uma temporalidade institucionalmente administrada (p. 491)
+> A sexta categoria é a dos objetos de reputação. Correspondem a posições de reconhecimento instituídas pelo ecossistema por métricas, critérios de validação e dispositivos de visibilidade. (p. 490)
+> penalidades de comportamento podem travar a progressão reputacional e afetar, de forma prática, o acesso a recompensas associadas à criação de espólios (p. 492)
+> As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo. Elas fornecem linguagem comparável para decompor arranjos híbridos em dimensões controláveis e localizar, com precisão, quais aspectos foram afetados por uma modulação relevante. (p. 492)
+> Essa tipologia é deliberadamente interna ao laboratório de jogos e não se oferece como classificação geral de plataformas. (p. 489)
+
 ### teste
 
 Nem tudo o que é digital entra nessa categoria, e é bom saber disso antes de reclamar. O que decide não é o item ser digital nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende de um ambiente que a plataforma governa. Quatro perguntas ajudam a ver isso, e o seu caso precisa responder sim a todas elas.
@@ -1259,6 +1280,17 @@ Por isso, ser dono da obra não basta, sozinho, para justificar mudar sem limite
 > A disciplina infraconstitucional da propriedade intelectual patrimonial não recebe, portanto, um cheque em branco constitucional; recebe uma moldura finalística. (p. 702)
 > Assim, a mera titularidade de um direito de PI não basta para legitimar, por si só, mutabilidade unilateral da fruição, opacidade decisória, sanção privada incontrastável ou destruição de utilidades incorporadas ao vínculo de consumo contínuo. (p. 702-703)
 
+### texto
+
+E se o jogo fechar? Um dia a empresa pode encerrar o serviço ou desligar os servidores de vez. Mesmo assim, o fato de tudo estar guardado na estrutura dela não transforma o seu histórico, a sua coleção, o seu progresso e a sua reputação em coisas sem valor, que podem simplesmente sumir.
+
+A empresa tem o direito de encerrar ou reorganizar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro. Se o fim for inevitável, a saída precisa vir com algum cuidado, tanto quanto for possível. Pode ser manter o serviço de outro jeito, deixar você levar o que é seu para outro lugar, recompor o que se perdeu ou passar a operação adiante.
+
+> Esse limite ganha contorno particularmente nítido em hipóteses de encerramento de atividades, descontinuação de serviços ou desligamento definitivo de servidores. (p. 709)
+> Históricos, bibliotecas, progressões, identidades projetadas, posições reputacionais e investimentos de longa duração não podem ser tratados como resíduos sem densidade apenas porque se encontram tecnicamente alojados em infraestrutura alheia. (p. 709)
+> O direito de explorar, encerrar ou reorganizar atividade econômica não se confunde com um suposto direito de aniquilar, sem deveres de transição, preservação ou transferência, a fruição funcional já estabilizada na esfera do consumidor. (p. 709)
+> Se o encerramento do serviço se impõe, a ordem constitucional exige que ele seja compatibilizado, tanto quanto técnica e juridicamente possível, com soluções de continuidade, portabilidade, recomposição funcional, cessão da operação ou outras medidas idôneas (p. 709)
+
 ### termo Marco legal dos jogos
 
 Desde 2024, o Brasil tem uma lei que reconhece os jogos eletrônicos como atividade econômica e cultural com importância própria. Ela inclui os jogos baixados ou jogados por transmissão pela internet, e deixa claro que jogar não é passatempo menor nem assunto fora do alcance da lei.
@@ -1329,6 +1361,27 @@ Nada disso é automático. Há quem defenda que a inversão deveria valer sempre
 > Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido. (p. 736)
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 > O sinal mínimo de prova exige comparação funcional entre o antes e o depois, exame de versões relevantes, identificação do núcleo de utilidade afetado e avaliação do papel do objeto na experiência (p. 672)
+
+### caso
+
+Veja um caso que mostra como o risco pode cair no seu colo. Num jogo online, mandar presentes aos amigos era uma função oficial, que a própria empresa oferecia dentro do jogo, com regras e limites. Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo normal, seguro e vantajoso, e ninguém deixava claro o que era permitido, tolerado ou proibido.
+
+Quando apareceram fraudes com cartões, a empresa desligou a função de presentes no Brasil por um longo período, retirou itens recebidos e bloqueou contas ou as voltou a um estado anterior. A medida atingiu também quem tinha recebido presentes de boa-fé, sem saber de fraude nenhuma. E quem perdeu skins ficou com a tarefa de provar, item por item, de onde veio cada uma, com extratos antigos, e-mails e capturas que tivesse guardado.
+
+O caso ajuda a entender três coisas. A empresa já conhecia o risco de fraude, e por isso esse risco faz parte da atividade dela e não pode ser tratado como culpa de quem recebeu o presente. Uma licença revogável no contrato não basta para jogar sobre você a falha do sistema. E daí nascem pedidos concretos, como devolver o que foi retirado quando nenhuma prova individual afasta a sua boa-fé, guardar e mostrar os registros e corrigir a informação sobre onde comprar com segurança.
+
+> a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio (p. 610)
+> materiais promocionais e vitrines digitais apresentavam a compra externa de moeda virtual como prática ordinária, segura, vantajosa e compatível com o ecossistema do jogo (p. 612)
+> A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido. (p. 612)
+> fraude vinculada a cartão clonado (p. 612)
+> A empresa desativou por longo período a funcionalidade de presentes no servidor brasileiro, suprimiu ativos recebidos e operou restaurações regressivas ou bloqueios em contas atingidas (p. 611)
+> inclusive sobre usuários que não participaram conscientemente da fraude (p. 610)
+> o usuário passa a depender de extratos antigos, e-mails dispersos, capturas pretéritas e memória reconstruída para provar que determinado conteúdo integrava legitimamente sua posição de fruição (p. 616)
+> transfere ao jogador o encargo quase arqueológico de reconstituir item por item aquilo que já fazia parte de sua esfera de fruição (p. 616)
+> Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão (p. 610)
+> O risco passa a integrar o círculo profissional da própria operação econômica. (p. 611)
+> O ponto dogmático central, porém, é que esse vocabulário contratual não basta para converter o consumidor em destinatário legítimo do risco sistêmico. (p. 615)
+> restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição (p. 617)
 
 ### termo Recomposição funcional
 
