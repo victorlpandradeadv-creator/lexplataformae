@@ -45,7 +45,7 @@ Que o caso seja tratado pela lei do consumidor, com o que você comprou visto co
 
 ### limite
 
-Esse é o primeiro passo, e não o fim do caso. Reconhecer o produto abre a porta para os outros deveres desta página, mas cada um deles ainda depende do que aconteceu com você.
+Esse é o primeiro passo, e não o fim do caso. Reconhecer o produto abre a porta para os outros deveres desta página, mas cada um deles ainda depende do que aconteceu com você. Você não precisa enquadrar todo problema nessa categoria para ter proteção.
 
 > Sempre que a utilidade consumida depender estruturalmente de ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização da experiência, estará configurado o campo de incidência do OIC. (p. 743)
 > O dever de fornecimento correspondente é o de assegurar fruição funcionalmente acessível, inteligível e preservada dentro dos limites da legítima mutabilidade do ambiente. (p. 743)
@@ -53,6 +53,7 @@ Esse é o primeiro passo, e não o fim do caso. Reconhecer o produto abre a port
 > A qualificação jurídica daí resultante é a de produto imaterial submetido ao regime do art. 3º, § 1º, do CDC, sem que a dimensão prestacional do vínculo afaste o controle da fruição como núcleo do fornecimento. (p. 743)
 > A consequência institucional possível consiste na abertura dos filtros subsequentes do regime, impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal. (p. 743)
 > A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. (p. 718)
+> O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC. (p. 435)
 
 ### partes
 
@@ -203,7 +204,7 @@ Quando a plataforma muda algo importante no seu acesso, no desempenho do item, n
 
 Manter o mínimo de verificabilidade, o que quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa.
 
-Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê. E não obriga a empresa a abrir o código do jogo nem a entregar os segredos dela, porque há formas de examinar o caso que preservam o que precisa ser protegido.
+Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê. Isso não exige abrir todo o código do jogo nem tornar públicos os segredos da empresa. O exame deve se limitar ao que importa para o caso, preservando o sigilo necessário.
 
 ### mostrar
 
@@ -344,7 +345,7 @@ O padrão, o fato de ele se repetir e a forma como as peças do ambiente se comb
 
 ### pedir
 
-Mais do que o conserto de um episódio. Você pode pedir que os caminhos do jogo sejam refeitos, que a transparência aumente e que o desenho seja corrigido. Como o problema atinge todo mundo que passa por ali, também cabem medidas estruturais ou coletivas.
+Mais do que o conserto de um episódio. Você pode pedir que os caminhos do jogo sejam refeitos, que a transparência aumente e que o desenho seja corrigido. Quando esse desenho produz um padrão de lesão que se repete, a resposta também pode alcançar a estrutura que o reproduz.
 
 ### limite
 
@@ -434,7 +435,7 @@ Que a lei do consumidor continue valendo. Na prática, isso pode significar um e
 
 ### limite
 
-A empresa continua dona do jogo, da arte e do código, e isso vale no campo próprio desses direitos. Ninguém pede que ela abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
+Os direitos de propriedade intelectual sobre o jogo, a arte e o código continuam protegidos. Ninguém pede que ela abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
 > subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
@@ -456,7 +457,7 @@ o-dono
 
 ### titulo
 
-Primeiro devolver, depois indenizar
+A resposta deve recompor o que você perdeu
 
 ### quando
 

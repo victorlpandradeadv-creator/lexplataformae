@@ -37,7 +37,7 @@ O art. 3º, § 1º, do CDC já admite produto imaterial. Sempre que a utilidade 
 
 ### cuidados
 
-Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. A qualificação abre os filtros seguintes e não decide o caso sozinha.
+Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha.
 
 > A prova mínima exigível recai sobre a demonstração da dependência estrutural da utilidade em relação ao ecossistema governado, da forma de disponibilização da experiência e da posição concreta do consumidor no vínculo. (p. 743)
 > impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal (p. 743)
@@ -48,6 +48,7 @@ Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso 
 > O primeiro limite é o acesso pontual sem posição de fruição sustentada. (p. 433)
 > O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida (p. 434)
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas (p. 434)
+> O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC. (p. 435)
 > A consequência institucional possível consiste na abertura dos filtros subsequentes do regime (p. 743)
 
 ## b
@@ -90,7 +91,7 @@ O que foi mostrado, em que momento, com qual saliência e por quais canais, e se
 
 ### fundamento
 
-O art. 31 do CDC exige informações corretas, claras, precisas e ostensivas na oferta e na apresentação. O art. 46 do CDC afasta a obrigação do consumidor sem oportunidade real de conhecimento prévio ou diante de redação que dificulte a compreensão. Os §§ 3º e 4º do art. 54 do CDC exigem contratos de adesão claros e cláusulas limitativas em destaque. O art. 47 do CDC, com o art. 51, IV, do CDC, orienta a interpretação conforme a boa-fé.
+O art. 31 do CDC exige informações corretas, claras, precisas e ostensivas na oferta e na apresentação. O art. 46 do CDC afasta a obrigação do consumidor sem oportunidade real de conhecimento prévio ou diante de redação que dificulte a compreensão. Os §§ 3º e 4º do art. 54 do CDC exigem contratos de adesão claros e cláusulas limitativas em destaque. O art. 47 do CDC determina a interpretação das cláusulas de maneira mais favorável ao consumidor. Essa regra se articula ao controle de abusividade previsto no art. 51, IV, do CDC.
 
 ### cuidados
 
@@ -102,6 +103,7 @@ O ponto decisivo não é provar que o texto estava lá, e sim aferir se o sentid
 > A oferta e a apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas e ostensivas (p. 601)
 > Do mesmo modo, contratos de consumo não obrigam o consumidor quando não lhe é dada oportunidade real de conhecimento prévio do conteúdo, nem quando são redigidos de modo a dificultar a compreensão de seu sentido e alcance (p. 601)
 > É justamente isso que o art. 54, sob os parágrafos 3º e 4º, do CDC explicita. Contratos de adesão devem ser redigidos em termos claros, com caracteres ostensivos e legíveis, de modo a facilitar sua compreensão, e cláusulas limitativas de direito precisam ser redigidas com destaque, permitindo imediata e fácil compreensão (p. 621)
+> As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor. (p. 511)
 > o art. 47 do CDC, em conjunto com a cláusula geral do art. 51, IV, permite interpretar as cláusulas predispostas (p. 605)
 > O ponto decisivo, portanto, não está em provar que “o texto estava lá”, mas em aferir se o sentido juridicamente relevante era cognoscível em termos reais. (p. 601)
 > A qualificação jurídica tende a incidir como vício de qualidade informacional do fornecimento, prática abusiva por obscurecimento funcional e, conforme o caso, suporte para invalidade de cláusulas ou de limitações incompatíveis com a expectativa legitimamente formada. (p. 744)
@@ -151,7 +153,7 @@ A auditabilidade aberta é parâmetro, e não instituto estranho ao sistema. É 
 
 ### cuidados
 
-O pedido precisa ser cirúrgico, e não uma pescaria processual. O requerimento indica, de modo tão completo quanto possível, o documento ou registro, a sua finalidade probatória e as circunstâncias que mostram que ele está com a parte, como o histórico de versões de um item, a trilha de telas da compra ou a categoria e o motivo da sanção. Se o fornecedor negar que tem o documento, cabe demonstrar por outros meios que a negativa é falsa. Se a recusa for injustificada, o juiz pode admitir como verdadeiros os fatos que o documento provaria. O parâmetro não alcança ajuste microscópico nem exige abrir o código-fonte.
+O pedido precisa ser cirúrgico, e não uma pescaria processual. O requerimento indica, de modo tão completo quanto possível, o documento ou registro, a sua finalidade probatória e as circunstâncias que mostram que ele está com a parte, como o histórico de versões de um item, a trilha de telas da compra ou a categoria e o motivo da sanção. Se o fornecedor negar que possui o documento, o requerente pode demonstrar por outros meios que essa negativa não corresponde à verdade. Se a recusa for injustificada, o juiz pode admitir como verdadeiros os fatos que o documento provaria. O parâmetro não alcança qualquer ajuste microscópico. A auditabilidade não exige abertura integral do código-fonte nem afasta o exame tecnicamente delimitado sob proteção de sigilo.
 
 > Sempre que alterações relevantes de acesso, desempenho, utilidade, regra de funcionamento ou sanção incidirem sobre a fruição sem preservação de trilhas mínimas de reconstrução institucional, haverá violação do parâmetro de auditabilidade aberta. (p. 745)
 > “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público” ou “não temos capacidade de reconstruir o procedimento” (p. 660)
@@ -183,7 +185,7 @@ O art. 51, XIII, do CDC torna nula a cláusula que autoriza a modificação unil
 
 ### cuidados
 
-A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre as versões nem congela o serviço. Alterações predominantemente estéticas, em regra, ficam de fora, salvo quando compõem um conjunto convergente de sinais. Não é preciso demonstrar domínio pleno sobre o objeto. A resposta prioriza recomposição funcional, reversão técnica, substituição equivalente e correção da forma de atualizar.
+A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre as versões nem congela o serviço. Alterações predominantemente estéticas, em regra, ficam de fora, salvo quando integram um conjunto convergente de sinais que sustente o reconhecimento de ilícito arquitetural por indícios estruturais de teleologia abusiva. Não é preciso demonstrar domínio pleno sobre o objeto. A resposta prioriza recomposição funcional, reversão técnica, substituição equivalente e correção da forma de atualizar.
 
 > A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida, mudanças de interface que desorganizam o uso ordinário, redefinições de regras que rebaixam a equivalência do que foi prometido (p. 637)
 > O consumidor continua formalmente “dentro” do ecossistema, continua com a conta, continua vendo o objeto, continua podendo acessar a plataforma. Ainda assim, a utilidade fruída pode ser substancialmente rebaixada (p. 635)
@@ -245,7 +247,7 @@ O art. 39 do CDC veda práticas abusivas, como prevalecer-se da fraqueza do cons
 
 ### cuidados
 
-Os cinco requisitos são cumulativos, ou seja, finalidade inscrita no desenho, padrão, exploração de assimetrias do arranjo, opacidade com baixa contestabilidade e efeito relevante. A categoria não depende de intenção psicológica e não funciona como coringa moral. Finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema, afastam a qualificação.
+Os cinco requisitos são cumulativos. Finalidade exploratória inscrita na arquitetura, reprodução como padrão, exploração de vulnerabilidades estruturais, opacidade combinada com baixa contestabilidade e impacto substancial e persistente sobre o feixe de fruição. A categoria não depende de intenção psicológica e não funciona como coringa moral. A análise deve demonstrar a orientação dominante do arranjo à exploração da vulnerabilidade e à captura desproporcional de valor, distinguindo-a das finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema.
 
 > Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva. (p. 746)
 > Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração. (p. 666)
@@ -263,7 +265,8 @@ Os cinco requisitos são cumulativos, ou seja, finalidade inscrita no desenho, p
 > Para que essa qualificação permaneça controlável e não se converta em rótulo elástico, ela deve assumir a forma de um teste composto por elementos cumulativos (p. 448)
 > A categoria não depende de imputar intenção psicológica subjetiva nem de localizar um único ato como causa suficiente (p. 448)
 > A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
-> e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema (p. 456)
+> A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total. (p. 455)
+> Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema. (p. 456)
 
 ## i
 
@@ -281,7 +284,7 @@ O art. 6º do CDC inclui a facilitação da defesa entre os direitos básicos, e
 
 ### cuidados
 
-A distribuição diversa do ônus depende de decisão fundamentada. Há doutrina que pede inversão automática em toda relação digital, porque hoje ela depende do juiz, mas essa proposta protege em bloco em vez de recortar o mecanismo que produz a assimetria. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria.
+A distribuição dinâmica prevista no art. 373, § 1º, do CPC depende de decisão fundamentada. Na publicidade, o art. 38 do CDC já atribui ao patrocinador o ônus de provar a veracidade e a correção da comunicação. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria.
 
 > Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor. (p. 659)
 > do ponto de vista do consumidor, consiste em apresentação plausível da experiência lesiva, de sua inserção no ecossistema e dos elementos de contexto acessíveis (p. 747)
