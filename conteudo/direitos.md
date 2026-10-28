@@ -435,7 +435,7 @@ Que a lei do consumidor continue valendo. Na prática, isso pode significar um e
 
 ### limite
 
-Os direitos de propriedade intelectual sobre o jogo, a arte e o código continuam protegidos. Ninguém pede que ela abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
+Os direitos de propriedade intelectual sobre o jogo, a arte e o código continuam protegidos. Ninguém pede que a empresa abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
 > subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)

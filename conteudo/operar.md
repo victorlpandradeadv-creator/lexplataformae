@@ -247,7 +247,7 @@ O art. 39 do CDC veda práticas abusivas, como prevalecer-se da fraqueza do cons
 
 ### cuidados
 
-Os cinco requisitos são cumulativos. Finalidade exploratória inscrita na arquitetura, reprodução como padrão, exploração de vulnerabilidades estruturais, opacidade combinada com baixa contestabilidade e impacto substancial e persistente sobre o feixe de fruição. A categoria não depende de intenção psicológica e não funciona como coringa moral. A análise deve demonstrar a orientação dominante do arranjo à exploração da vulnerabilidade e à captura desproporcional de valor, distinguindo-a das finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema.
+Os cinco requisitos são cumulativos. São eles a teleologia inscrita no desenho, a reprodução como padrão, a exploração de vulnerabilidades estruturais, a opacidade combinada com baixa contestabilidade e o efeito juridicamente relevante sobre o feixe de fruição. A categoria não depende de intenção psicológica e não funciona como coringa moral. A análise deve demonstrar a orientação dominante do arranjo à exploração da vulnerabilidade e à captura desproporcional de valor, distinguindo-a das finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema.
 
 > Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva. (p. 746)
 > Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração. (p. 666)
@@ -265,6 +265,11 @@ Os cinco requisitos são cumulativos. Finalidade exploratória inscrita na arqui
 > Para que essa qualificação permaneça controlável e não se converta em rótulo elástico, ela deve assumir a forma de um teste composto por elementos cumulativos (p. 448)
 > A categoria não depende de imputar intenção psicológica subjetiva nem de localizar um único ato como causa suficiente (p. 448)
 > A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
+> O primeiro requisito é a teleologia inscrita. (p. 448)
+> O segundo requisito é a reprodução como padrão. (p. 448)
+> O terceiro requisito é a exploração de vulnerabilidades estruturais. (p. 449)
+> O quarto requisito é a opacidade combinada com baixa contestabilidade. (p. 455)
+> O quinto requisito é o efeito juridicamente relevante sobre o feixe de fruição. (p. 455)
 > A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total. (p. 455)
 > Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema. (p. 456)
 

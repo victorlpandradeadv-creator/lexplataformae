@@ -217,12 +217,15 @@ Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, não p
 
 Mudanças só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra também ficam de fora. E a simples existência de moderação, rankings, regras da comunidade ou ajustes de tela não basta. Atualizações comuns, curadoria regular e medidas contra fraude fazem parte da vida normal do serviço. O que conta é a piora séria e duradoura do que foi prometido.
 
+Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa ideia, e você continua protegido por esse caminho.
+
 > O primeiro limite é o acesso pontual sem posição de fruição sustentada. (p. 433)
 > O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida (p. 434)
 > O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido. (p. 434)
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas (p. 434)
 > A mera existência de moderação, rankings, regras comunitárias ou ajustes de interface não basta para acionar o operador do OIC. (p. 430)
 > Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição. (p. 430)
+> O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC. (p. 435)
 
 ### duvida
 

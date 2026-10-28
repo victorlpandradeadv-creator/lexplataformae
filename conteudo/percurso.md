@@ -187,6 +187,8 @@ E nem todo incômodo vira direito. Essa ideia não serve para transformar qualqu
 
 Há também casos que ficam de fora desde o começo. Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, segue as regras comuns de serviço. Uma plataforma que só funciona como vitrine, sem governar de verdade o que você usa, também tende a ficar de fora. E uma mudança só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra não basta.
 
+Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa ideia, e você continua protegido por esse caminho.
+
 > sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
 > nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
 > A categoria não amplia indefinidamente o ilícito nem moraliza escolhas técnicas. (p. 426)
@@ -195,6 +197,7 @@ Há também casos que ficam de fora desde o começo. Um serviço que acontece um
 > O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida (p. 434)
 > O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido. (p. 434)
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas (p. 434)
+> O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC. (p. 435)
 
 ### texto
 
