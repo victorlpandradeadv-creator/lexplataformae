@@ -781,6 +781,9 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .derivado-pagina .secoes-lista { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.35rem; font-family: var(--f-display); font-size: 0.95rem; }
 .derivado-pagina .termos-lista { margin: 0; }
 
+/* Expansão cujos trechos já aparecem na ficha da mesma página. Fora da Ciência, ela some inteira. */
+body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display: none; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

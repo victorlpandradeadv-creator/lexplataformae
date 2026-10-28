@@ -155,6 +155,10 @@ def nome_html(c, maiuscula=True):
             f'<span class="em-modo modo-2">{esc(c["nome"])}</span>')
 
 
+CAMPOS_SO_CIENCIA = {"Situação", "Lastro na tese"}  # inteiros na Ciência, com as citações
+PADRAO_META = re.compile(r"\btese\b|\b\d+\.\d+(?:\.\d+)*\b|decisão do autor", re.I)
+
+
 def nome_titulo(c):
     """O nome para o título da aba e para os buscadores."""
     return f'{nome_comum(c)} ({c["nome"]})' if c["id"] in NOME_COMUM else c["nome"]
@@ -220,6 +224,35 @@ PAGINAS_PRONTAS = {"percurso/", "direitos/", "laboratorio/", "roteiro/", "roteir
                    "autores/", "referencias/", "objeto-e-instrumentos/"}
 
 
+_BQ = re.compile(r'<blockquote class="citacao(?: nao-e)?"><p>(.*?)(?=<a class="pg"|<span class="pg"|</p>)', re.S)
+
+
+def _chave_bq(t):
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", t))).strip().lower()
+
+
+def sem_citacao_repetida(corpo):
+    """A mesma citação não aparece duas vezes na mesma tela. Na Doutrina, a repetida fica só na Ciência.
+
+    Numa página de conceito, a ficha guarda o texto literal, e o trecho que se repete debaixo de um bloco simples sai da Doutrina.
+    Nas demais páginas, a segunda ocorrência sai da Doutrina. Em Ciência tudo aparece, para o rastreio de cada bloco.
+    """
+    corte = corpo.find('<div class="interno arquitetura"')
+    depois = {_chave_bq(m.group(1)) for m in _BQ.finditer(corpo, corte)} if corte >= 0 else set()
+    vistos = set()
+
+    def troca(m):
+        chave = _chave_bq(m.group(1))
+        na_ficha = corte >= 0 and m.start() < corte and any(chave in d for d in depois)
+        repetida = na_ficha or chave in vistos
+        if not na_ficha:
+            vistos.add(chave)
+        if not repetida or len(chave) <= 40:
+            return m.group(0)
+        return re.sub(r'<blockquote class="(citacao(?: nao-e)?)">', r'<blockquote class="\1 ciencia">', m.group(0), count=1)
+    return _BQ.sub(troca, corpo)
+
+
 def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True):
     """Monta a página.
 
@@ -232,6 +265,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     descricao = resumo(descricao)
     # Cada artigo citado com o nome da lei ganha o texto integral em rodapé. O texto integral da tese fica como está.
     # Cada citação de autor ou fonte da lista de referências vira balão. Vale também para o texto integral.
+    corpo = sem_citacao_repetida(corpo)
     corpo = com_autores(corpo, prefixo)
     if lei:
         corpo = com_lei(corpo, prefixo)
@@ -941,9 +975,19 @@ def gerar_conceito(c):
             partes.append('<section class="nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026">'
                           f'<p class="sobrelinha">Nota do autor</p><p>{esc(f["texto"])}</p></section>')
             continue
-        bloco = f'<section class="bloco"><h2>{esc(r)}</h2>'
+        # Notas sobre a estrutura da tese e sobre decisões do site ficam na Ciência. A Doutrina não fica referenciando a tese.
+        meta_inteiro = r in CAMPOS_SO_CIENCIA or (f["texto"] or "").startswith("Pendência")
+        if r in CAMPOS_SO_CIENCIA or (meta_inteiro and not f["citacoes"]):
+            bloco = f'<section class="bloco ciencia"><h2>{esc(r)}</h2>'
+        else:
+            bloco = f'<section class="bloco"><h2>{esc(r)}</h2>'
         if f["texto"]:
-            bloco += f"<p>{com_ancoras(f['texto'], prefixo)}</p>"
+            if meta_inteiro:
+                bloco += f'<p class="ciencia">{com_ancoras(f["texto"], prefixo)}</p>'
+            else:
+                bloco += "<p>" + " ".join(
+                    f'<span class="ciencia">{com_ancoras(fr, prefixo)}</span>' if PADRAO_META.search(fr) else com_ancoras(fr, prefixo)
+                    for fr in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚ"“])', f["texto"])) + "</p>"
         for q in f["citacoes"]:
             if r == "Definição canônica proposta":
                 bloco += ('<blockquote class="canonica" data-arq="citação literal · definição proposta">'
@@ -969,7 +1013,7 @@ def gerar_conceito(c):
     itens_rot += [f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a> <span class="vezes">{esc(det)}</span></li>' for rotulo, caminho, det in nomes.get("Roteiro", [])]
     if itens_rot:
         partes.append('<section class="bloco"><h2>Nas situações</h2>'
-                      + ('<p class="nota-camada">Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais páginas aparecem porque a tese nomeia o conceito no trecho.</p>' if nomes.get("Roteiro") and letras else "")
+                      + ('<p class="nota-camada ciencia">Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais páginas aparecem porque a tese nomeia o conceito no trecho.</p>' if nomes.get("Roteiro") and letras else "")
                       + '<ul class="lugares">' + "".join(itens_rot) + "</ul></section>")
     if nomes.get("Laboratório"):
         partes.append('<section class="bloco ciencia"><h2>No Laboratório</h2><p class="nota-camada">Páginas em que a tese nomeia o conceito, com o número de vezes.</p><ul class="lugares">'
@@ -1081,6 +1125,8 @@ def rotulo_secao_html(sec):
 PLANO_INICIOS = [("Após a exposição", ["1", "2"]), ("A terceira seção", ["3"]), ("A quarta seção", ["4"]),
                   ("Ao longo de tais seções", None), ("Na quinta seção", ["5"]), ("A sexta seção", ["6"]),
                   ("A sétima seção", ["7"]), ("Ao final, a oitava seção", ["8"])]
+# O nome que o leitor vê para cada camada, como no menu de cada modo. As chaves internas continuam as mesmas.
+ROTULO_CAMADA = {"Atlas": "Conceitos", "Roteiro": "Para operar", "Laboratório": "Plataformas"}
 CAMADA_ENDERECO = {"Atlas": "", "Roteiro": "roteiro/", "Laboratório": "laboratorio/", "Fundamentos": "fundamentos/", "Método": "metodo/", "Dogmática": "dogmatica/", "Epígrafes": "#epigrafes"}
 
 
@@ -1151,7 +1197,7 @@ def plano_da_tese(prefixo, usos, por_secao):
                 if n not in nomes:
                     nomes.append(n)
         no_site = ('<p class="plano-site"><span class="sobrelinha">No site</span> '
-                   + " · ".join(f'<a href="{prefixo}{CAMADA_ENDERECO[n]}">{esc(n)}</a>' for n in nomes) + "</p>") if nomes else ""
+                   + " · ".join(f'<a href="{prefixo}{CAMADA_ENDERECO[n]}">{esc(ROTULO_CAMADA.get(n, n))}</a>' for n in nomes) + "</p>") if nomes else ""
         lis.append(f'<li><ul class="plano-caps">{caps}</ul><blockquote class="citacao"><p>{html_do_corpus(limpo, intro["slug"], prefixo)}{pg(ref, prefixo, _plano(limpo))}</p></blockquote>{no_site}</li>')
     abertura = f'<blockquote class="citacao"><p>{html_do_corpus(lead[1], intro["slug"], prefixo)}{pg(lead[2], prefixo, _plano(lead[1]))}</p></blockquote>' if lead else ""
     return (f'<section class="bloco plano" id="plano" data-arq="estrutura · o plano da obra nas palavras da introdução"><h2>O plano da tese</h2>{abertura}'
@@ -1227,7 +1273,7 @@ def gerar_tese():
                      + "</ol></section>")
         aqui = por_secao.get(sec["slug"], [])
         conceitos_aqui = ""
-        for tipo, rotulo in (("conceito", "Conceitos do Atlas nesta seção"), ("roteiro", "Passos do Roteiro com ficha nesta seção"), ("bens", "Bens protegidos nesta seção")):
+        for tipo, rotulo in (("conceito", "Conceitos do Atlas nesta seção"), ("roteiro", "Parâmetros com ficha nesta seção"), ("bens", "Bens protegidos nesta seção")):
             deste = [c for c in aqui if c["tipo"] == tipo]
             if deste:
                 conceitos_aqui += (f'<aside class="conceitos-aqui" data-arq="fichas · conceitos que vivem nesta seção">'
@@ -1237,7 +1283,7 @@ def gerar_tese():
         if usos.get(sec["slug"]):
             conceitos_aqui += ('<aside class="conceitos-aqui camadas-aqui ciencia" data-arq="estrutura · páginas das camadas que trazem esta seção">'
                                '<p class="sobrelinha">Esta seção nas camadas do site</p><ul>'
-                               + "".join(f'<li><a href="{prefixo}{caminho}">{esc(camada)} · {esc(rotulo)}</a></li>' for camada, rotulo, caminho in usos[sec["slug"]])
+                               + "".join(f'<li><a href="{prefixo}{caminho}">{esc(ROTULO_CAMADA.get(camada, camada))} · {esc(rotulo)}</a></li>' for camada, rotulo, caminho in usos[sec["slug"]])
                                + "</ul></aside>")
         ant = SECOES[i - 1] if i > 0 else None
         prox = SECOES[i + 1] if i + 1 < len(SECOES) else None
@@ -1632,7 +1678,7 @@ def blocos_simples(blocos, slug, prefixo):
         else f'<p{attrs_ref(b, prefixo)}>{html_do_corpus(b["html"], slug, prefixo)}</p>' for b in blocos)
 
 
-def indice_destaques(achados, titulo="Em frases da tese"):
+def indice_destaques(achados, titulo="Em frases do texto integral"):
     if not achados:
         return ""
     itens = "".join(f'<li><a href="#{ident}">{esc(t["texto"])}</a> {pg(t["ref"])}</li>' for t, ident in achados)
@@ -1698,7 +1744,7 @@ def gerar_diretrizes():
             f'{nomeados_html(termos_em(texto_de(blocos)), prefixo)}</section>')
     corpo = (
         '<article class="folha leitura roteiro">'
-        '<nav class="trilha" aria-label="Você está em"><a href="../">Roteiro</a></nav>'
+        '<nav class="trilha" aria-label="Você está em"><a href="../">Situações</a></nav>'
         f'<header class="folha-cabeca"><p class="sobrelinha ciencia">Roteiro · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</p>'
         f'<h1>{esc(sec["titulo"])}</h1><div class="texto">{blocos_simples(d["abertura"], sec["slug"], prefixo)}</div>'
         f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
@@ -1723,7 +1769,7 @@ def pagina_lida(sec, prefixo, trilha, sobrelinha, chave, topo=""):
         f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobrelinha)}<span class="ciencia"> · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></p>'
         f'<h1>{esc(sec["titulo"])}</h1><p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral, com as notas</a></p></header>'
         + topo + indice_destaques(achados)
-        + f'<section class="bloco"><h2>O texto da tese</h2><div class="texto">{texto}</div></section>'
+        + f'<section class="bloco"><h2>O texto integral</h2><div class="texto">{texto}</div></section>'
         + nomeados_html(termos_em(texto_de(sec["blocos"])), prefixo))
 
 
@@ -1733,7 +1779,7 @@ def gerar_limites():
         return
     prefixo = "../../"
     corpo = ('<article class="folha leitura roteiro">'
-             + pagina_lida(sec, prefixo, '<a href="../">Roteiro</a>', "Roteiro", "7.1.4", nav_roteiro("7.1.4", prefixo))
+             + pagina_lida(sec, prefixo, '<a href="../">Situações</a>', "Para operar", "7.1.4", nav_roteiro("7.1.4", prefixo))
              + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
               "url": BASE + "/roteiro/limites/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -1828,7 +1874,7 @@ def gerar_laboratorio():
             texto_sub, achados = texto_marcado(s1["blocos"], s1["slug"], prefixo, destaques("7.2.7.1"), contador())
             lista = "".join(f'<li><a href="#{ident}">{esc(t["texto"])}</a> {pg(t["ref"])}</li>' for t, ident in achados)
             sub = (f'<section class="campo-caso subcaso" id="subcaso" data-arq="subcaso · texto integral do {esc(s1["n"])}"><h2>Subcaso · <span class="num-secao">{esc(s1["n"])} </span>{esc(s1["titulo"])}</h2>'
-                   + (f'<nav class="indice-destaques" aria-label="O subcaso em frases da tese"><h3>Em frases da tese</h3><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{lista}</ol></nav>' if lista else "")
+                   + (f'<nav class="indice-destaques" aria-label="O subcaso em frases do texto integral"><h3>Em frases do texto integral</h3><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{lista}</ol></nav>' if lista else "")
                    + f'<div class="texto">{texto_sub}</div>'
                    f'<p class="ler-pdf"><a href="{prefixo}tese/{s1["slug"]}/">Ler o subcaso no texto integral, com as notas</a></p></section>')
         notas = ""
@@ -1866,7 +1912,7 @@ def gerar_laboratorio():
             continue
         prefixo = "../../"
         corpo = ('<article class="folha leitura laboratorio">'
-                 + pagina_lida(sec, prefixo, '<a href="../">Laboratório</a>', "Desdobramento da tipologia", num)
+                 + pagina_lida(sec, prefixo, '<a href="../">Plataformas</a>', "Desdobramento da tipologia", num)
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -1883,7 +1929,7 @@ def gerar_laboratorio():
     origem = "".join(f'<li><a href="../tese/{POR_NUMERO[n]["slug"]}/">{esc(n)} {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in LABORATORIO_ORIGEM if n in POR_NUMERO)
     corpo = (
         '<article class="folha leitura laboratorio">'
-        f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Laboratório</p><h1>{esc(ext_texto("laboratorio", "titulo"))}</h1></header>'
+        f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Plataformas</p><h1>{esc(ext_texto("laboratorio", "titulo"))}</h1></header>'
         f'<section class="ext">{ext_html("laboratorio", "abertura", "../")}</section>'
         + figura("laboratorio", "../")
         + f'<section class="bloco"><h2>Quatro famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'

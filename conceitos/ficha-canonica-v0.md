@@ -50,7 +50,7 @@ A vulnerabilidade semiótica, por exemplo, é definida pelo menos cinco vezes, c
 
 > O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
 
-**Critérios de entrada.** Quatro campos cumulativos (p. 428-429). O objeto prometido como feixe de fruição. A posição de fruição sustentada. A governança infraestrutural como modo de execução do fornecimento. A possibilidade típica de degradação relevante sem ruptura total. A incidência se decide "pela presença cumulativa de elementos verificáveis do regime" (p. 429). Este é o portão de entrada do Roteiro.
+**Critérios de entrada.** Quatro campos cumulativos (p. 428-429). O objeto prometido como feixe de fruição. A posição de fruição sustentada. A governança infraestrutural como modo de execução do fornecimento. A possibilidade típica de degradação relevante sem ruptura total. A incidência se decide "pela presença cumulativa de elementos verificáveis do regime" (p. 429). Este é o portão de entrada das situações.
 
 **O que não é**
 

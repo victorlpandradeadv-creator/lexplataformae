@@ -554,3 +554,6 @@ body.desnudo .roteiro .rotulo-quadro { margin-bottom: 1.4rem; }
 .derivado-pagina h1 .nome-derivado { font-size: inherit; }
 .derivado-pagina .secoes-lista { margin: 0; padding-left: 1.2rem; display: grid; gap: 0.35rem; font-family: var(--f-display); font-size: 0.95rem; }
 .derivado-pagina .termos-lista { margin: 0; }
+
+/* Expansão cujos trechos já aparecem na ficha da mesma página. Fora da Ciência, ela some inteira. */
+body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display: none; }
