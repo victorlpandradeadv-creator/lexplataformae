@@ -423,6 +423,48 @@ def secao_direitos(letras, prefixo):
             + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
 
 
+# Para operar. O guia da Doutrina para cada situação do Roteiro, em conteudo/operar.md.
+CAMPOS_OPERAR = {"fatos": "Fatos típicos", "demonstrar": "Como demonstrar", "fundamento": "Fundamento normativo",
+                 "cuidados": "Pressupostos e cuidados"}
+
+
+def carregar_operar():
+    arq = RAIZ / "conteudo" / "operar.md"
+    dados, atual, campo_ = {}, None, None
+    if not arq.exists():
+        return dados
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = dados.setdefault(linha[3:].strip(), {"texto": [], "citacoes": [], **{k: [] for k in CAMPOS_OPERAR}})
+            campo_ = None
+            continue
+        if linha.startswith("### ") and atual is not None:
+            campo_ = linha[4:].strip()
+            continue
+        if atual is None or not campo_ or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+        if m:
+            atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif campo_ in atual:
+            atual[campo_].append(linha.strip())
+    return dados
+
+
+OPERAR = carregar_operar()
+
+
+def operar_html(letra, prefixo):
+    """O guia para operar uma situação. Os trechos que ele condensa ficam à vista só na Ciência."""
+    o = OPERAR.get(letra)
+    if not o:
+        return ""
+    partes = "".join(f'<div class="operar-parte parte-{k}"><dt>{rotulo}</dt><dd>' + "".join(f"<p>{esc(t)}</p>" for t in o[k]) + "</dd></div>"
+                     for k, rotulo in CAMPOS_OPERAR.items() if o[k])
+    return (f'<section class="operar" aria-label="Guia para operar"><p class="rotulo-ext">Guia para operar</p>'
+            f'<dl class="operar-partes">{partes}</dl>' + expansao(o["citacoes"], prefixo, "ciencia") + "</section>")
+
+
 def direitos_da_parte(slug):
     return [l for l in LETRAS_DIREITOS if slug in DIREITOS[l]["partes"]]
 
@@ -552,11 +594,11 @@ def partes_com_ideia(cid):
             if any(b["tipo"] == "nome" and b["arg"] == cid for b in parte["blocos"])]
 
 
-def expansao(cits, prefixo):
-    """Os trechos literais que um bloco simples condensa. Aparecem a partir do degrau Verificar."""
+def expansao(cits, prefixo, modo="interno"):
+    """Os trechos literais que um bloco simples condensa. Aparecem a partir da Doutrina, ou só na Ciência."""
     if not cits:
         return ""
-    return ('<div class="interno expansao" data-arq="de onde vem · trechos literais, com a página">'
+    return (f'<div class="{modo} expansao" data-arq="de onde vem · trechos literais, com a página">'
             + "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in cits)
             + "</div>")
 
@@ -1245,7 +1287,7 @@ PORTAO_TITULO = "Isto é um objeto imaterial de consumo?"
 PARTES_ROTEIRO = [
     ("Quando incide", r"Sempre que"),
     ("Dever de fornecimento", r"O dever (?:de fornecimento )?correspondente"),
-    ("Prova mínima exigível", r"A prova mínima exigível"),
+    ("Prova mínima", r"A prova mínima exigível"),
     ("Qualificação jurídica", r"A qualificação jurídica"),
     ("Consequência institucional", r'A (?:<span class="pg-marca"[^>]*>[^<]*</span>\s*)?consequência institucional'),
 ]
@@ -1483,6 +1525,8 @@ def gerar_roteiro():
             f'<section class="bloco-roteiro" id="{it["letra"]}" aria-labelledby="titulo-{it["letra"]}">'
             f'<h2 id="titulo-{it["letra"]}">{esc(SITUACOES.get(it["letra"], it["titulo"]))}</h2>'
             f'<p class="titulo-tese ciencia"><span class="letra">{it["letra"]})</span> {esc(it["titulo"])}</p>'
+            + operar_html(it["letra"], prefixo)
+            + '<p class="rotulo-ext rotulo-quadro">O quadro, em texto literal</p>'
             f'<dl class="partes" data-arq="texto literal do 7.1.2 · cinco partes da tese">{dl}</dl>'
             + (f'<p class="ligacoes">{" · ".join(ligacoes)}</p>' if ligacoes else "")
             + "</section>")
@@ -1496,12 +1540,16 @@ def gerar_roteiro():
         m = re.search(r"A passagem do regime.*?contextos distintos\.", primeiro)
         if m:
             grade = f'<blockquote class="citacao"><p>{html_do_corpus(m.group(0), s71["slug"], prefixo)}{pg("p. 714", prefixo, _plano(m.group(0)))}</p></blockquote>'
+    intro = OPERAR.get("intro")
+    como_usar = (f'<section class="bloco como-usar"><h2>Como usar</h2>' + "".join(f"<p>{esc(t)}</p>" for t in intro["texto"])
+                 + expansao(intro["citacoes"], prefixo, "ciencia") + "</section>") if intro else ""
     corpo = (
         '<article class="folha leitura roteiro">'
         '<header class="folha-cabeca"><p class="sobrelinha ciencia">Roteiro · 7.1.2 da tese</p><h1>Situações</h1>'
         + "".join(f"<p>{html_do_corpus(a, slug, prefixo)}</p>" for a in r["abertura"][1:2]) +
         '</header>'
         + nav_roteiro("7.1.2", prefixo, grade)
+        + como_usar
         + (f'<section class="bloco"><h2>Por que a ordem importa</h2><blockquote class="citacao"><p>{intro_711}</p></blockquote></section>' if intro_711 else "")
         + (f'<section class="bloco portao" id="portao" data-arq="portão · os quatro campos cumulativos do OIC"><h2>{esc(PORTAO_TITULO)}</h2><ol>{lista_portao}</ol>{regra_portao}</section>' if lista_portao else "")
         + f'<nav class="bloco indice-roteiro" aria-label="As situações"><h2>As onze situações</h2><ol>{indice}</ol></nav>'
@@ -1513,7 +1561,7 @@ def gerar_roteiro():
               "url": BASE + "/roteiro/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "roteiro"
     pasta.mkdir(exist_ok=True)
-    desc = "Onze situações para quem vai advogar, cada uma com quando incide, o dever do fornecedor, a prova mínima, a qualificação jurídica e a consequência, em texto literal."
+    desc = "Onze situações para quem vai advogar, cada uma com um guia para operar, com fatos típicos, prova, fundamento normativo e cuidados, e o quadro em texto literal."
     (pasta / "index.html").write_text(pagina("Situações · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
 
 

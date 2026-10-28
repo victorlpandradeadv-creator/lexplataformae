@@ -535,3 +535,17 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .didatico.teste { border-radius: 0 var(--raio) var(--raio) 0; }
 /* Com o nome maior, o menu desce para a segunda linha até 900px, e o bloco do texto integral fica no alto, à direita. */
 @media (max-width: 900px) { .topo-marca { order: 1; } .integral { order: 2; margin-left: auto; } .menu-modo { order: 3; flex-basis: 100%; } }
+
+/* Roteiro. O guia para operar cada situação vem antes do quadro em texto literal. */
+.roteiro .operar { display: grid; gap: 0.6rem; padding: 1rem 1.25rem; background: var(--folha); border: 1px solid var(--linha); border-radius: var(--raio); max-width: calc(var(--medida) + 2.5rem); }
+.operar-partes { display: grid; gap: 0.9rem; margin: 0; }
+.operar-parte { display: grid; gap: 0.3rem; }
+.operar-parte dt { font-family: var(--f-dado); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); }
+.operar-parte dd { margin: 0; display: grid; gap: 0.6rem; max-width: var(--medida); }
+.operar-parte.parte-fundamento dd { border-left: 3px solid var(--tese); padding-left: 0.85rem; }
+.roteiro .rotulo-quadro { margin: 0.5rem 0 0; }
+.roteiro .como-usar p { max-width: var(--medida); }
+@media (max-width: 640px) { .roteiro .operar { padding: 1rem; } }
+.roteiro .operar > .rotulo-ext { color: var(--tese-texto); font-weight: 600; }
+.operar-parte dd p { margin: 0; }
+body.desnudo .roteiro .rotulo-quadro { margin-bottom: 1.4rem; }
