@@ -583,9 +583,12 @@ body:has(#nivel-2:checked) .campo { background-image: none; }
 }
 .termo.derivado { border-left-color: var(--tese-linha); }
 
-/* Áreas. Em Ciência, cada termo ganha o filete e o nome da sua área. */
-.area-rotulo { font-family: var(--f-dado); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: none; color: var(--area-t, var(--tinta-2)); }
-body:has(#nivel-2:checked) .termo[style*="--area"] { border-left: 6px solid var(--area); }
+/* Áreas reconhecíveis por nome e cor nos três modos. */
+.area-rotulo { font-family: var(--f-dado); font-size: 0.95rem; letter-spacing: normal; text-transform: none; color: var(--area-t, var(--tinta-2)); }
+.termo[style*="--area"] { border-left: 4px solid var(--area); }
+.termo[style*="--area"] .nome-termo { color: var(--area-t); }
+.termo .area-rotulo { display: block; margin-top: 0.3rem; }
+.termo[id] { scroll-margin-top: 1.5rem; }
 
 /* Versão 0.7, etapa 2. Informação e Doutrina sem número de seção nem página à vista.
    A página e a referência aparecem ao passar o mouse, ao tocar ou pelo teclado. Ciência mostra tudo. */
@@ -783,6 +786,17 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 
 /* Expansão cujos trechos já aparecem na ficha da mesma página. Fora da Ciência, ela some inteira. */
 body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display: none; }
+
+/* Consulta dos conceitos por área, com retorno ao contexto do percurso. */
+.instrumentos-indice { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.instrumentos-indice a { min-height: 44px; display: inline-flex; align-items: center; font-size: 1rem; }
+.instrumentos-area { border-left: 4px solid var(--area, var(--tese-linha)); padding-left: 1.25rem; scroll-margin-top: 1.5rem; }
+.instrumentos-area > h2 { color: var(--area-t, var(--tese-texto)); }
+.instrumentos-lista { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 2rem; }
+.instrumentos-lista h3 { font-family: var(--f-display); font-size: 1.125rem; color: var(--area-t, var(--tese-texto)); margin: 0; }
+.instrumentos-lista p { margin: 0.3rem 0 0; }
+.instrumentos-lista a { display: inline-block; padding-block: 0.4rem; }
+@media (max-width: 640px) { .instrumentos-lista { grid-template-columns: 1fr; } }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

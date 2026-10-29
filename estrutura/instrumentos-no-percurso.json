@@ -1,0 +1,1016 @@
+[
+  {
+    "nome": "Bens digitais",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-compra",
+    "ancora": "termo-bens-digitais",
+    "fontes": [
+      {
+        "texto": "pode assumir utilidade própria, integrar a esfera de interesses do sujeito e, por isso, ser tratada como bem incorpóreo juridicamente relevante, com ou sem conteúdo econômico imediato",
+        "ref": "p. 565"
+      },
+      {
+        "texto": "uma vez admitidos como bens, esses ativos se tornam suscetíveis de apropriação, circulação, fruição e tutela",
+        "ref": "p. 565"
+      },
+      {
+        "texto": "Esse ponto de partida é correto e indispensável. Sem ele, o debate sobre consumo digital contínuo ficaria refém da ficção tosca segundo a qual tudo o que não se segura com a mão seria juridicamente leve, dissolúvel e descartável por simples vontade do fornecedor.",
+        "ref": "p. 565"
+      },
+      {
+        "texto": "mesmo reconhecendo apropriação e circulação, ela não esgota os conflitos de fruição contínua, mutabilidade unilateral e governança funcional em ambiente de plataforma",
+        "ref": "p. 566"
+      }
+    ]
+  },
+  {
+    "nome": "Valor como julgamento",
+    "area": "antropologia",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-valor-como-julgamento",
+    "fontes": [
+      {
+        "texto": "a pergunta relevante deixa de ser “quanto custa” e passa a ser “quais molduras fazem algo aparecer como desejável, comparável e raro”, porque o valor não é inerente ao objeto, mas um julgamento produzido por sujeitos e endossado por uma troca real ou imaginada",
+        "ref": "p. 250"
+      },
+      {
+        "texto": "Se o valor é efeito de reconhecimento situado, administrar catálogo, raridade e regras de visibilidade (curadoria, janelas, critérios) é administrar as condições práticas do próprio valor.",
+        "ref": "p. 251"
+      }
+    ]
+  },
+  {
+    "nome": "Consumo como ritual",
+    "area": "antropologia",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-consumo-como-ritual",
+    "fontes": [
+      {
+        "texto": "Douglas e Isherwood (1996, p. xxiv) descrevem bens como dispositivos de alinhamento e de fronteira.",
+        "ref": "p. 251"
+      },
+      {
+        "texto": "bens funcionam como marcas públicas que erguem cercas contra indesejados, consolidando solidariedades",
+        "ref": "p. 251"
+      },
+      {
+        "texto": "Ficar fora do alcance desse sistema não é um desconforto subjetivo. É risco de silenciamento prático, redução de voz e de opções futuras",
+        "ref": "p. 251"
+      },
+      {
+        "texto": "bens como adjuntos rituais e o consumo como processo ritual cuja função é produzir sentido no fluxo instável dos acontecimentos",
+        "ref": "p. 254"
+      },
+      {
+        "texto": "o que permite ler o custo de saída não apenas como perda patrimonial, mas como risco de isolamento e enfraquecimento de vínculo",
+        "ref": "p. 249"
+      }
+    ]
+  },
+  {
+    "nome": "Transferência de significado",
+    "area": "antropologia",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-transferencia-de-significado",
+    "fontes": [
+      {
+        "texto": "A publicidade funciona como conduto pelo qual o significado se despeja continuamente nos bens",
+        "ref": "p. 256"
+      },
+      {
+        "texto": "A renovação não é opcional porque parte do significado é perecível.",
+        "ref": "p. 256"
+      },
+      {
+        "texto": "Neles, a forma de apresentação e a dramaturgia da oferta, expressa em vitrines, trailers, eventos e narrativas de atualização permanente, torna-se componente constitutivo da experiência consumida.",
+        "ref": "p. 99"
+      }
+    ]
+  },
+  {
+    "nome": "Espetáculo",
+    "area": "semiotica",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-espetaculo",
+    "fontes": [
+      {
+        "texto": "o espetáculo não é conjunto de imagens, mas relação social entre pessoas mediada por imagens",
+        "ref": "p. 282"
+      },
+      {
+        "texto": "o espetáculo pode ser mobilizado para compreender plataformas como ambientes em que a promessa do OIC circula como cena social contínua, isto é, como dinâmica de visibilidade e de comparação que estabiliza desejo e permanência como parte do próprio valor",
+        "ref": "p. 282"
+      }
+    ]
+  },
+  {
+    "nome": "Gamificação",
+    "area": "semiotica",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-gamificacao",
+    "fontes": [
+      {
+        "texto": "A vida prática deixa de ser apenas vivida e passa a ser acompanhada por índices de posição, sinais de desempenho e parâmetros de progresso que tornam a comparação permanente e cumulativa.",
+        "ref": "p. 289"
+      },
+      {
+        "texto": "Nesse regime, a permanência ganha forma de tarefa, porque permanecer passa a significar manter-se sob ranqueamento, passível de atualização e legível no interior de uma escala que o próprio ecossistema administra.",
+        "ref": "p. 289"
+      },
+      {
+        "texto": "A gamificação da vida cotidiana, nessa chave, não é um artifício lúdico adicionado ao consumo, mas a tradução do valor em placares de relevância, nos quais o que importa é estar situado e atualizado em tempo real.",
+        "ref": "p. 289"
+      },
+      {
+        "texto": "a plataforma transforma a governança do tempo e da visibilidade em urgência prática, ao organizar janelas e oportunidades como pressão recorrente de decisão",
+        "ref": "p. 289"
+      }
+    ]
+  },
+  {
+    "nome": "Economia da atenção",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-economia-da-atencao",
+    "fontes": [
+      {
+        "texto": "no mercado de bens imateriais, a reprodutibilidade tenderia a dissolver o preço, de modo que a renda depende de reintroduzir escassez por decisão institucional",
+        "ref": "p. 234"
+      },
+      {
+        "texto": "O recurso escasso decisivo não é a disponibilidade técnica do bem, mas o tempo de exposição do usuário. A retenção fornece volume para observação, perfilização, teste contínuo de estímulos e calibragem de gatilhos. É essa previsibilidade que estabiliza extração por assinatura, passe, “evento imperdível”, rotatividade de oferta e pedágios sucessivos.",
+        "ref": "p. 249"
+      }
+    ]
+  },
+  {
+    "nome": "Biografia das coisas",
+    "area": "antropologia",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-biografia-das-coisas",
+    "fontes": [
+      {
+        "texto": "O fato de um objeto ser comprado ou trocado nada diz sobre seu estatuto posterior",
+        "ref": "p. 253"
+      },
+      {
+        "texto": "Para o objeto imaterial de consumo, isso descreve com precisão por que reworks, relançamentos, banalizações e reposicionamentos alteram valor e status sem que o item “desapareça”.",
+        "ref": "p. 253"
+      },
+      {
+        "texto": "Em plataformas, essa singularização assume forma de aposentadoria de catálogo, mudança de raridade, restrição de obtenção, reposicionamento por evento, recodificação por meta e rearranjo de critérios de exibição. Mantém-se a titularidade nominal do usuário, mas reordena-se materialmente a biografia cultural do item, que é o que sustenta utilidade social, prestígio e equivalência entre promessa e entrega.",
+        "ref": "p. 254"
+      }
+    ]
+  },
+  {
+    "nome": "Simulacro",
+    "area": "semiotica",
+    "derivado": false,
+    "percurso": "o-desejo",
+    "ancora": "termo-simulacro",
+    "fontes": [
+      {
+        "texto": "o valor pode ser mantido por sinais de entrega e por critérios de equivalência visíveis, o que autoriza tratar o simulacro como mecanismo capaz de preservar o circuito econômico do OIC mesmo quando a fruição relevante se altera",
+        "ref": "p. 296"
+      },
+      {
+        "texto": "Quando a equivalência se estabiliza por sinais de entrega, como etiqueta, classe, moldura de raridade, posição exibível e comensurabilidade interna, a continuidade pública pode funcionar como substituto da preservação da fruição relevante",
+        "ref": "p. 313"
+      },
+      {
+        "texto": "ainda que se alterem, por dentro, restrições, efeitos, modos de acesso e condições de performance que constituíam a posição adquirida",
+        "ref": "p. 313"
+      },
+      {
+        "texto": "O problema jurídico não é o simbólico, mas a neutralização prática da prova do nexo entre promessa e fruição, o que exige critérios de rastreabilidade e controle substantivo da equivalência.",
+        "ref": "p. 313"
+      }
+    ]
+  },
+  {
+    "nome": "Tecnofeudalismo",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-dono",
+    "ancora": "termo-tecnofeudalismo",
+    "fontes": [
+      {
+        "texto": "O autor argumenta que o sistema capitalista estaria em vias de ser substituído pelo que denomina “tecnofeudalismo”, no qual o capital deixa de se apresentar prioritariamente como propriedade material e passa a concentrar-se “na nuvem”, isto é, em ativos digitais, plataformas online e algoritmos.",
+        "ref": "p. 142"
+      },
+      {
+        "texto": "O autor reintroduz uma gramática feudal para descrever o presente, na qual os proprietários do capital na nuvem figuram como novos senhores feudais, enquanto os demais retornam à condição de servos.",
+        "ref": "p. 151"
+      },
+      {
+        "texto": "Daí a força da imagem feudal: consumidores e usuários tornam-se “servos da nuvem” não porque deixam de consumir, mas porque sua participação passa a reproduzir o próprio capital que os governa.",
+        "ref": "p. 146"
+      },
+      {
+        "texto": "O feudo não é uma metáfora do ambiente digital. Ele é uma conta.",
+        "ref": "p. 153"
+      }
+    ]
+  },
+  {
+    "nome": "Economia de pedágio",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-dono",
+    "ancora": "termo-economia-de-pedagio",
+    "fontes": [
+      {
+        "texto": "Os rentistas ganham não tanto pelos serviços que prestam, como pela obrigação de todos passarem pelas suas catracas.",
+        "ref": "p. 185"
+      },
+      {
+        "texto": "Muitos serviços são úteis, ou até necessários, mas geram lucros desproporcionais relativamente ao aporte",
+        "ref": "p. 185"
+      },
+      {
+        "texto": "A plataforma monetiza o acesso em camadas: cobra pelo ingresso, cobra pela aceleração, cobra pela conveniência, cobra pela diferenciação simbólica, cobra pelo retorno e, sobretudo, cobra pela mitigação do risco que ela mesma fabrica.",
+        "ref": "p. 210"
+      },
+      {
+        "texto": "O pedágio não se apresenta apenas como preço de entrada. Ele reaparece como cobrança reiterada pela permanência, organizada em torno do tempo, da atenção e da previsibilidade de ciclos.",
+        "ref": "p. 210"
+      }
+    ]
+  },
+  {
+    "nome": "Teleologia arquitetural",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-dono",
+    "ancora": "termo-teleologia-arquitetural",
+    "fontes": [
+      {
+        "texto": "Por isso, a escassez artificial deve ser compreendida como parte de uma teleologia arquitetural. Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado",
+        "ref": "p. 214"
+      },
+      {
+        "texto": "e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada",
+        "ref": "p. 214"
+      },
+      {
+        "texto": "A teleologia arquitetural não se manifesta apenas em cláusulas e políticas, mas na forma como a interface organiza visibilidade, cálculo e risco.",
+        "ref": "p. 214"
+      }
+    ]
+  },
+  {
+    "nome": "Trabalho invisível",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-dono",
+    "ancora": "termo-trabalho-invisivel",
+    "fontes": [
+      {
+        "texto": "O usuário, aqui, não é só medido, ele é mobilizado como força de trabalho distribuída que reduz custo de controle de qualidade, amplia a superfície de detecção de bugs e alimenta a inteligência organizacional do fornecedor, produzindo uma produtividade que não aparece como trabalho, mas como participação",
+        "ref": "p. 218"
+      },
+      {
+        "texto": "ao reservar para si o uso livre de ideias, sugestões e materiais criativos enviados pelo usuário, sem que isso gere contrapartida econômica, indenização ou dever de reconhecimento",
+        "ref": "p. 218"
+      },
+      {
+        "texto": "gerado pelo próprio usuário, como posts, comentários, transmissões, memes, guias e avaliações, que se converte em motor de visibilidade e recomendação e funciona, na prática, como trabalho invisível de produção e de marketing do OIC",
+        "ref": "p. 219"
+      },
+      {
+        "texto": "Entre as formas mais ostensivas desse trabalho invisível está o trabalho dos criadores de conteúdo, streamers e influenciadores que orbitam o ecossistema como se fossem “microempreendedores” autônomos, quando, na prática, funcionam como uma face pública intensa do exterior incorporado.",
+        "ref": "p. 219"
+      },
+      {
+        "texto": "a própria possibilidade de monetizar conteúdo dependem de regras privadas, revogáveis e seletivas",
+        "ref": "p. 219"
+      }
+    ]
+  },
+  {
+    "nome": "Lumpemproletariado digital",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-dono",
+    "ancora": "termo-lumpemproletariado-digital",
+    "fontes": [
+      {
+        "texto": "Desse ponto de vista, o consumidor aproxima-se de um lumpemproletariado digital: participa intensamente da produção de valor, mas o faz em um plano opaco, fora das categorias tradicionais de trabalho, contrato de emprego ou prestação de serviços.",
+        "ref": "p. 223"
+      },
+      {
+        "texto": "Quando o progresso, o status, a reputação e a própria continuidade de acesso ao Objeto Imaterial de Consumo se tornam dependentes de decisões unilaterais da plataforma, o consumidor se vê em posição análoga à do trabalhador submetido a condições de vida definidas por outrem, mas sem que o direito o reconheça como tal.",
+        "ref": "p. 223"
+      },
+      {
+        "texto": "O “servo da nuvem” produz sem contrato, sem salário e sem reconhecimento como trabalho.",
+        "ref": "p. 223"
+      },
+      {
+        "texto": "uma forma específica de exploração do consumidor que, contextualmente, também se caracteriza como força de trabalho externa incorporada (o “consumidor-trabalhador”)",
+        "ref": "p. 143"
+      }
+    ]
+  },
+  {
+    "nome": "Propriedade intelectual como cerca",
+    "area": "economia",
+    "derivado": false,
+    "percurso": "o-dono",
+    "ancora": "termo-propriedade-intelectual-como-cerca",
+    "fontes": [
+      {
+        "texto": "Nesse cenário, a propriedade intelectual comparece como infraestrutura de governança semiótica e técnica. Ela não apenas protege criações, mas contribui para delimitar usos, restringir reconfigurações e consolidar a autoridade do fornecedor sobre as condições de fruição",
+        "ref": "p. 130"
+      },
+      {
+        "texto": "Quando essa decisão se acopla a contratos de licença, contas, DRM",
+        "ref": "p. 234"
+      },
+      {
+        "texto": "catálogos e mecanismos de autenticação, o incentivo à criação cede espaço a uma tecnologia de bloqueio, o que faz com que a circulação seja tratada como infração e a fruição se converta em autorização. Nesse contexto, a concorrência deixa de ser apenas disputa por produto e passa a ser disputa por cercamentos.",
+        "ref": "p. 234"
+      },
+      {
+        "texto": "É aqui que os direitos de propriedade intelectual deixam de aparecer como título jurídico periférico e passam a operar como componente material da arquitetura de fechamento.",
+        "ref": "p. 234"
+      },
+      {
+        "texto": "o valor competitivo não se concentra na “qualidade” de um bem isolado, mas na capacidade de manter o consumidor preso a uma gramática proprietária de pertencimento, progresso e distinção",
+        "ref": "p. 232"
+      }
+    ]
+  },
+  {
+    "nome": "Cativeiro identitário",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-dono",
+    "ancora": "termo-cativeiro-identitario",
+    "fontes": [
+      {
+        "texto": "Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema.",
+        "ref": "p. 225"
+      },
+      {
+        "texto": "A dependência, nesse registro, não é psicológica no sentido individualizante, mas institucional e semiótica, porque decorre de um regime de visibilidade e de sanção que define o que conta como valor, pertença e progresso legítimo e, correlatamente, define como isso pode ser rebaixado, apagado ou desautorizado.",
+        "ref": "p. 225"
+      },
+      {
+        "texto": "Em termos jurídico-consumeristas, a relevância do conceito não é criar um bem novo, mas tornar controlável uma forma específica de perda no fato do consumo",
+        "ref": "p. 225"
+      },
+      {
+        "texto": "O resultado é um cativeiro identitário, no qual o pedágio se estabiliza como taxa de manutenção do lugar, não como preço pontual de um item.",
+        "ref": "p. 258"
+      }
+    ]
+  },
+  {
+    "nome": "Arquitetura de escolha",
+    "area": "poder",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-arquitetura-de-escolha",
+    "fontes": [
+      {
+        "texto": "arquitetura de escolha não se resume à apresentação de opções, porque envolve também a administração das consequências que tornam certas trajetórias mais fluidas, recompensadas e legíveis, enquanto outras se tornam mais custosas, frustrantes ou marginais",
+        "ref": "p. 337"
+      },
+      {
+        "texto": "A dominação informacional, assim, não incide apenas sobre o que o consumidor sabe, mas sobre a própria economia prática de suas possibilidades de agir.",
+        "ref": "p. 337"
+      }
+    ]
+  },
+  {
+    "nome": "Poder informacional",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-poder-informacional",
+    "fontes": [
+      {
+        "texto": "Cohen é mobilizada para descrever a plataforma como forma de poder organizador que produz dependências, estrutura condutas e naturaliza padrões de participação por meios técnicos e institucionais que não se esgotam no contrato.",
+        "ref": "p. 262"
+      },
+      {
+        "texto": "Isso se torna mais agudo quando os sistemas exibem simplicidade na superfície e complexidade no funcionamento interno, o que dificulta traduzir julgamentos subjacentes para formas adequadas à compreensão pública",
+        "ref": "p. 340"
+      }
+    ]
+  },
+  {
+    "nome": "Normatividade prática",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-normatividade-pratica",
+    "fontes": [
+      {
+        "texto": "Eros Roberto Grau contribui para reconhecer que a normatividade pode operar como ordem efetiva imposta por organização dotada de poder, permitindo qualificar como governança prática aquilo que se apresenta como “condição de uso” ou “regra interna”",
+        "ref": "p. 263"
+      },
+      {
+        "texto": "pois organizam acessos, permanência e sanções com capacidade concreta de impor padrões e produzir efeitos coletivos, sem neutralizar o fenômeno como simples exercício formal de autonomia contratual",
+        "ref": "p. 364"
+      },
+      {
+        "texto": "a advertência de que “prevalece a ordem jurídica do mercado”, entendida não como algo que o mercado seja ontologicamente, mas como “a ordem que ele instaura”",
+        "ref": "p. 378"
+      }
+    ]
+  },
+  {
+    "nome": "Psicopolítica",
+    "area": "poder",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-psicopolitica",
+    "fontes": [
+      {
+        "texto": "Ao explicar o sistema, o suporte oficial afirma que o MMR é secreto e que o ranque existe como mecanismo para traduzir esse MMR em uma forma acessível e progressiva para o jogador",
+        "ref": "p. 354"
+      },
+      {
+        "texto": "A liberdade do jogador se organiza como busca voluntária por adequação ao critério que o mede, mesmo quando o critério é opaco",
+        "ref": "p. 354"
+      },
+      {
+        "texto": "Por isso, a escalada ranqueada tende a transformar o lazer em regime de autoexploração racional.",
+        "ref": "p. 354"
+      },
+      {
+        "texto": "A disciplina, aqui, não se apresenta como proibição, mas como convocação permanente a investir tempo, atenção e desempenho para não perder comensurabilidade pública no ambiente.",
+        "ref": "p. 354"
+      },
+      {
+        "texto": "a psicopolítica não se manifesta apenas como incentivo para “fazer mais”, mas também como indução para “ser do jeito certo” se o objetivo for permanecer elegível à experiência plena do ecossistema",
+        "ref": "p. 355"
+      }
+    ]
+  },
+  {
+    "nome": "Consumidor-cidadão",
+    "area": null,
+    "derivado": true,
+    "percurso": "as-regras",
+    "ancora": "termo-consumidor-cidadao",
+    "fontes": [
+      {
+        "texto": "Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem transferido.",
+        "ref": "p. 379"
+      },
+      {
+        "texto": "É consumidor porque existe aquisição e expectativa legítima de fruição.",
+        "ref": "p. 379"
+      },
+      {
+        "texto": "sentido analítico de que sua presença no ambiente depende de condições de pertencimento e continuidade fixadas por governança privada",
+        "ref": "p. 380"
+      },
+      {
+        "texto": "A cidadania aqui não diz respeito a nacionalidade, soberania ou estatuto constitucional clássico. Ela designa condições práticas de participação e permanência em um ambiente governado por regras internas, arquitetura e enforcement, no qual a alteração unilateral dessas condições reconfigura, na prática, o próprio objeto fruído.",
+        "ref": "p. 380"
+      }
+    ]
+  },
+  {
+    "nome": "Cidadania digital",
+    "area": "poder",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-cidadania-digital",
+    "fontes": [
+      {
+        "texto": "Para delimitar o que está em jogo sem inflar o argumento, mobiliza-se o conceito de cidadania digital como parâmetro, e não como cartilha.",
+        "ref": "p. 380"
+      },
+      {
+        "texto": "Sua formulação permite tratar cidadania digital como grade operacional do que pode ser governado no ambiente conectado, sem transformar a discussão em culpa do usuário.",
+        "ref": "p. 380"
+      },
+      {
+        "texto": "acesso digital (digital access), comércio digital (digital commerce), comunicação digital (digital communication)",
+        "ref": "p. 380"
+      }
+    ]
+  },
+  {
+    "nome": "Categorias que acompanham a técnica",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "as-regras",
+    "ancora": "termo-categorias-que-acompanham-a-tecnica",
+    "fontes": [
+      {
+        "texto": "Warren e Brandeis ([201-?]) sustentam que invenções recentes e práticas empresariais em expansão intensificaram formas de intrusão que o ordenamento, se permanecer preso a esquemas anteriores, não consegue capturar adequadamente.",
+        "ref": "p. 347"
+      },
+      {
+        "texto": "os autores defendem o reconhecimento de um direito à privacidade enquanto legítimo direito de ser deixado em paz",
+        "ref": "p. 347-348"
+      },
+      {
+        "texto": "Quando o ambiente técnico reorganiza a vulnerabilidade em escala, a reconstrução jurídica não é moralismo, mas resposta necessária para manter controláveis, em termos institucionais, os efeitos de novas formas de poder e de intrusão.",
+        "ref": "p. 348"
+      }
+    ]
+  },
+  {
+    "nome": "Autonomia da técnica",
+    "area": "tecnica",
+    "derivado": false,
+    "percurso": "o-normal",
+    "ancora": "termo-autonomia-da-tecnica",
+    "fontes": [
+      {
+        "texto": "Jacques Ellul (1968) descreve a técnica como um sistema que deixa de operar como simples instrumento e passa a se apresentar como realidade própria, já não limitada a ser meio, mas capaz de impor sua lógica como objeto em si",
+        "ref": "p. 86"
+      },
+      {
+        "texto": "Essa dinâmica se orienta pela eficiência e tende a selecionar automaticamente o método mais eficaz, de modo que, uma vez medido e estabelecido o critério de eficiência, a técnica se consolida e se expande por sua própria força",
+        "ref": "p. 86"
+      },
+      {
+        "texto": "Nesse cenário, valores e finalidades perdem centralidade porque a racionalidade técnica opera como máquina de instrumentalização, convertendo tudo em meio e deslocando o critério de decisão para a performance do método e para aquilo que funciona melhor",
+        "ref": "p. 86"
+      }
+    ]
+  },
+  {
+    "nome": "Mídia como forma de vida",
+    "area": "tecnica",
+    "derivado": false,
+    "percurso": "o-normal",
+    "ancora": "termo-midia-como-forma-de-vida",
+    "fontes": [
+      {
+        "texto": "a televisão, ao substituir a palavra impressa como principal meio de comunicação pública, reorganiza a forma do discurso e, com isso, reconfigura o próprio conteúdo cultural",
+        "ref": "p. 89"
+      },
+      {
+        "texto": "No campo político, a lógica visual desloca o peso do argumento para aparência, performance e administração de impressões",
+        "ref": "p. 89"
+      },
+      {
+        "texto": "Neil Postman desloca o problema para a mídia enquanto forma de vida, mostrando que os meios de comunicação alteram critérios de relevância, inteligibilidade e verdade socialmente praticável.",
+        "ref": "p. 85-86"
+      },
+      {
+        "texto": "Personalização, ranqueamento e metrificação não constituem meras funcionalidades, pois materializam critérios de valor e visibilidade que orientam comportamento em escala.",
+        "ref": "p. 90"
+      }
+    ]
+  },
+  {
+    "nome": "Dessimbolização",
+    "area": "tecnica",
+    "derivado": false,
+    "percurso": "o-normal",
+    "ancora": "termo-dessimbolizacao",
+    "fontes": [
+      {
+        "texto": "empresas mobilizam símbolos culturais para atribuir a produtos materiais a capacidade ilusória de satisfazer necessidades emocionais e sociais",
+        "ref": "p. 90"
+      },
+      {
+        "texto": "a dessimbolização cultural representa o processo de enfraquecimento da capacidade humana de se atribuir significado às experiências, resultando em uma compreensão fragmentada e empobrecida da vida como um todo",
+        "ref": "p. 90"
+      },
+      {
+        "texto": "a dessimbolização não atua apenas no discurso publicitário, mas se acopla a arquiteturas técnicas que administram visibilidade, repetição e recompensa",
+        "ref": "p. 91"
+      },
+      {
+        "texto": "A manipulação semiótica, portanto, não se dá apenas pelo conteúdo das mensagens, mas pela forma de sua distribuição e pela lógica de interface que define quando, como e para quem certos signos aparecem.",
+        "ref": "p. 91"
+      }
+    ]
+  },
+  {
+    "nome": "Código técnico",
+    "area": "tecnica",
+    "derivado": false,
+    "percurso": "o-normal",
+    "ancora": "termo-codigo-tecnico",
+    "fontes": [
+      {
+        "texto": "A crítica de Andrew Feenberg impede que esse diagnóstico seja recebido como fatalismo.",
+        "ref": "p. 86"
+      },
+      {
+        "texto": "Se a tecnologia é construção social, as mediações concretas importam juridicamente: interfaces, fricções, permissões, incentivos e punições materializam finalidades sociais e econômicas em artefatos e plataformas.",
+        "ref": "p. 86"
+      },
+      {
+        "texto": "Por isso, a arquitetura técnica não é mero suporte da relação de consumo",
+        "ref": "p. 86"
+      },
+      {
+        "texto": "Se o código técnico é determinado por atores, ele é politicamente situado e economicamente orientável e, por isso, suas teleologias podem ser reconstruídas e criticadas.",
+        "ref": "p. 135"
+      }
+    ]
+  },
+  {
+    "nome": "Códigos de leitura",
+    "area": "semiotica",
+    "derivado": false,
+    "percurso": "o-normal",
+    "ancora": "termo-codigos-de-leitura",
+    "fontes": [
+      {
+        "texto": "a contribuição de Umberto Eco permite compreender como códigos e convenções tornam legível a prestação e organizam a expectativa do consumidor",
+        "ref": "p. 261"
+      },
+      {
+        "texto": "Há assimetria de sentido, ligada ao controle de códigos de leitura, categorias e classificações que definem o que conta como diferença relevante.",
+        "ref": "p. 322"
+      }
+    ]
+  },
+  {
+    "nome": "Transparência performática",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-normal",
+    "ancora": "termo-transparencia-performatica",
+    "fontes": [
+      {
+        "texto": "Camadas sucessivas de documentos, links serializados, remissões cruzadas, linguagem excessivamente técnica, destaque visual invertido, disclaimers em cascata e deslocamento do conteúdo relevante para zonas improváveis do fluxo de contratação podem produzir o mesmo efeito jurídico da omissão.",
+        "ref": "p. 619"
+      },
+      {
+        "texto": "O consumidor recebe texto, mas não recebe orientação. A plataforma encena abertura informacional enquanto mantém, sob aparência de conformidade, um regime de ruído.",
+        "ref": "p. 619-620"
+      },
+      {
+        "texto": "A transparência performática não consiste em ausência de informação, mas em excesso, dispersão e hierarquização defeituosa do conteúdo essencial.",
+        "ref": "p. 620"
+      }
+    ]
+  },
+  {
+    "nome": "Consentimento viciado por sentido",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-normal",
+    "ancora": "termo-consentimento-viciado-por-sentido",
+    "fontes": [
+      {
+        "texto": "Ele adere dentro de uma moldura de linguagem que já o coloca fora do centro de inteligibilidade da relação. É nesse ponto que se pode falar em consentimento viciado por sentido. Não se trata de erro factual pontual, como confundir um preço ou um prazo isolado.",
+        "ref": "p. 603"
+      },
+      {
+        "texto": "O consumidor recebe o texto, mas não recebe acesso real ao código que organiza seu significado.",
+        "ref": "p. 603"
+      },
+      {
+        "texto": "Trata-se de incapacidade controlada.",
+        "ref": "p. 603"
+      },
+      {
+        "texto": "estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes",
+        "ref": "p. 604"
+      }
+    ]
+  },
+  {
+    "nome": "Nerf",
+    "area": "laboratorio",
+    "derivado": false,
+    "percurso": "a-mudanca",
+    "ancora": "termo-nerf",
+    "fontes": [
+      {
+        "texto": "o nerf, entendido como enfraquecimento tecnicamente deliberado de atributos, habilidades ou itens, por meio de patch, para tornar algo menos poderoso no funcionamento prático do jogo",
+        "ref": "p. 328"
+      },
+      {
+        "texto": "O nerf é o caso-limite porque mostra, com precisão, como a continuidade do nome e do acesso pode funcionar como prova autojustificante, enquanto a entrega relevante se desloca naquilo que o ambiente conta como potência e utilidade.",
+        "ref": "p. 329"
+      }
+    ]
+  },
+  {
+    "nome": "Contratos cativos",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-mudanca",
+    "ancora": "termo-contratos-cativos",
+    "fontes": [
+      {
+        "texto": "a prestação não se esgota na adesão inicial, e o vínculo passa a ser estruturado por dependência prática, assimetria permanente, confiança sedimentada e poder renovado de imposição do fornecedor ao longo do tempo",
+        "ref": "p. 559"
+      },
+      {
+        "texto": "Em contratos cativos, o chamado “consenso” superveniente frequentemente não passa de adesão forçada ao novo estado de coisas, especialmente quando o consumidor já está investido na relação e depende do ecossistema para continuar fruindo aquilo que adquiriu.",
+        "ref": "p. 654-655"
+      },
+      {
+        "texto": "o poder de alterar, modular ou reconfigurar a prestação não pode ser exercido de modo a frustrar a função que justificou a aquisição original pelo consumidor",
+        "ref": "p. 561"
+      },
+      {
+        "texto": "No plano mais clássico do CDC, essa vedação já aparece de forma suficientemente clara. É nula a cláusula que autorize modificação unilateral do conteúdo ou da qualidade da prestação após a contratação",
+        "ref": "p. 561"
+      }
+    ]
+  },
+  {
+    "nome": "Padrões obscuros",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "o-desenho",
+    "ancora": "termo-padroes-obscuros",
+    "fontes": [
+      {
+        "texto": "padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas",
+        "ref": "p. 405"
+      },
+      {
+        "texto": "várias dessas disposições estão relacionadas a padrões obscuros, o que nos permite concluir que sob o quadro legal brasileiro é possível sancionar vários casos de desenho enganoso",
+        "ref": "p. 405"
+      },
+      {
+        "texto": "o design é recolocado no seu lugar correto, como prática comercial economicamente orientada e juridicamente qualificável, e não como neutralidade estética",
+        "ref": "p. 432"
+      },
+      {
+        "texto": "defaults, fricções, urgências fabricadas, rotas de cancelamento hostis",
+        "ref": "p. 666"
+      }
+    ]
+  },
+  {
+    "nome": "Publicidade enganosa por arquitetura",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-desenho",
+    "ancora": "termo-publicidade-enganosa-por-arquitetura",
+    "fontes": [
+      {
+        "texto": "Em termos mais simples, a comunicação não precisa mentir para enganar. Basta que ela administre o enquadramento interpretativo de forma suficientemente assimétrica. A publicidade pode dizer a verdade em pedaços e ainda assim mentir no conjunto.",
+        "ref": "p. 626"
+      },
+      {
+        "texto": "Esse é o núcleo da publicidade enganosa por arquitetura semiótica. A arquitetura do anúncio passa a ser juridicamente relevante quando o fornecedor estrutura a compreensão do consumidor de modo a reforçar o lado positivo da experiência e empurrar o lado oneroso, mutável ou limitado para fora do foco",
+        "ref": "p. 626"
+      },
+      {
+        "texto": "pelo deslocamento das condições relevantes para disclaimers, camadas de baixa visibilidade, links posteriores ou zonas discursivas que não integram de modo útil o momento decisório",
+        "ref": "p. 626"
+      }
+    ]
+  },
+  {
+    "nome": "Continuidade biográfica",
+    "area": null,
+    "derivado": true,
+    "percurso": "o-desenho",
+    "ancora": "termo-continuidade-biografica",
+    "fontes": [
+      {
+        "texto": "não se perde apenas item isolado, mas a posição global de fruição, o histórico, o inventário, a trajetória e a continuidade prática de inserção no ecossistema",
+        "ref": "p. 540-541"
+      },
+      {
+        "texto": "Ela é resultado biográfico produzido por escolhas reiteradas, desempenho, investimento de tempo, aquisição, cooperação, acúmulo de sinais de pertencimento e permanência no ecossistema. Ainda que essa construção ocorra sob mediação da Lex Plataformae, continua sendo atribuível ao consumidor como expressão de continuidade biográfica no interior do regime de fornecimento.",
+        "ref": "p. 537"
+      },
+      {
+        "texto": "a integridade do consumidor pode incluir preservação de condições mínimas de continuidade biográfica e estabilidade de inserção simbólica, e não só o reembolso de uma compra frustrada",
+        "ref": "p. 537"
+      }
+    ]
+  },
+  {
+    "nome": "Vulnerabilidade do consumidor",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-vulnerabilidade-do-consumidor",
+    "fontes": [
+      {
+        "texto": "a vulnerabilidade fática do consumidor, reconhecida expressamente no art. 4º, I, do CDC, assume nos ambientes digitais uma forma própria, ligada à mediação por signos, interfaces e critérios privados de visibilidade e fruição",
+        "ref": "p. 34"
+      },
+      {
+        "texto": "justificando deveres reforçados de transparência, lealdade e informação",
+        "ref": "p. 183"
+      }
+    ]
+  },
+  {
+    "nome": "Lei do software",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-lei-do-software",
+    "fontes": [
+      {
+        "texto": "A Lei nº 9.609/1998 (Brasil, [1998]) não descreve apenas exclusividade e licenciamento como cercamento de utilidades, mas estrutura deveres positivos do fornecedor ligados ao ciclo de vida técnico do software.",
+        "ref": "p. 51"
+      },
+      {
+        "texto": "O art. 7º impõe que o contrato de licença, o documento fiscal e os suportes e embalagens indiquem, de forma facilmente legível, o prazo de validade técnica da versão comercializada, e o art. 8º converte esse prazo em obrigação de assegurar serviços técnicos complementares relativos ao adequado funcionamento do programa durante a validade técnica, inclusive quando houver retirada de circulação comercial",
+        "ref": "p. 51"
+      }
+    ]
+  },
+  {
+    "nome": "Ordem econômica",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-ordem-economica",
+    "fontes": [
+      {
+        "texto": "A atividade econômica, no modelo de 1988, não se organiza como espaço de soberania patrimonial irrestrita, porque a livre iniciativa comparece desde a base republicana sob vínculo com a dignidade da pessoa humana e com os valores sociais que a conformam.",
+        "ref": "p. 504"
+      },
+      {
+        "texto": "A defesa do consumidor como direito fundamental e princípio da ordem econômica já oferece base suficiente para enquadrar, sem artificialidade, formas privadas de governo que produzem efeitos amplos e reiterados sobre a experiência de fruição, ainda que não se confundam com poder estatal.",
+        "ref": "p. 502"
+      },
+      {
+        "texto": "Livre iniciativa, inovação e titularidade tecnológica não operam como salvo-condutos para inauditabilidade, irresponsabilidade blindada ou imunização contratual do fornecedor.",
+        "ref": "p. 512"
+      }
+    ]
+  },
+  {
+    "nome": "Eficácia horizontal dos direitos fundamentais",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-eficacia-horizontal-dos-direitos-fundamentais",
+    "fontes": [
+      {
+        "texto": "nas relações privadas contemporâneas, a sujeição relevante já não provém apenas do Estado. Ela também emerge de centros privados de poder capazes de organizar acesso, permanência, visibilidade, reputação, prova e contestação em escala suficiente para afetar, de modo estrutural, a liberdade prática e a igualdade material do sujeito submetido à relação.",
+        "ref": "p. 512"
+      },
+      {
+        "texto": "a autonomia privada não pode funcionar como biombo para blindar arranjos materialmente assimétricos",
+        "ref": "p. 512"
+      },
+      {
+        "texto": "violações relevantes a direitos fundamentais não partem apenas do Estado, mas também de sujeitos privados dotados de poder econômico, informacional e organizacional",
+        "ref": "p. 24"
+      }
+    ]
+  },
+  {
+    "nome": "Função social da propriedade intelectual",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-funcao-social-da-propriedade-intelectual",
+    "fontes": [
+      {
+        "texto": "o art. 5º, XXIX não outorga prerrogativa patrimonial autojustificada, nem protege a exclusividade como fim em si.",
+        "ref": "p. 702"
+      },
+      {
+        "texto": "subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País",
+        "ref": "p. 702"
+      },
+      {
+        "texto": "A disciplina infraconstitucional da propriedade intelectual patrimonial não recebe, portanto, um cheque em branco constitucional; recebe uma moldura finalística.",
+        "ref": "p. 702"
+      },
+      {
+        "texto": "Assim, a mera titularidade de um direito de PI não basta para legitimar, por si só, mutabilidade unilateral da fruição, opacidade decisória, sanção privada incontrastável ou destruição de utilidades incorporadas ao vínculo de consumo contínuo.",
+        "ref": "p. 702-703"
+      }
+    ]
+  },
+  {
+    "nome": "Marco legal dos jogos",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-lei",
+    "ancora": "termo-marco-legal-dos-jogos",
+    "fontes": [
+      {
+        "texto": "Um marco suficiente para registrar esse dado é a Lei 14.852/2024 (Brasil, [2024]b), tomada aqui como referência de reconhecimento institucional da indústria de jogos eletrônicos como atividade econômica e cultural com relevância própria.",
+        "ref": "p. 493"
+      },
+      {
+        "texto": "fornece definição normativa do que conta como jogo eletrônico, incluindo obras audiovisuais interativas desenvolvidas como programa de computador, dispositivos e acessórios, e softwares consumidos por download ou streaming",
+        "ref": "p. 543"
+      },
+      {
+        "texto": "A lei afirma a liberdade de fabricação, importação, comercialização, desenvolvimento e uso comercial dos jogos eletrônicos, mas o faz sob remissão expressa ao art. 173 da Constituição e à legislação vigente.",
+        "ref": "p. 544"
+      },
+      {
+        "texto": "afirma que os jogos eletrônicos devem ser pensados à luz do respeito aos direitos fundamentais e aos valores democráticos, da defesa do consumidor, da proteção integral da criança e do adolescente, e da preservação da privacidade, da proteção de dados pessoais",
+        "ref": "p. 544"
+      },
+      {
+        "texto": "o marco não consagra um vale-tudo setorial fantasiado de modernidade simpática",
+        "ref": "p. 544"
+      }
+    ]
+  },
+  {
+    "nome": "Recomposição funcional",
+    "area": null,
+    "derivado": true,
+    "percurso": "a-resposta",
+    "ancora": "termo-recomposicao-funcional",
+    "fontes": [
+      {
+        "texto": "Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização.",
+        "ref": "p. 751"
+      },
+      {
+        "texto": "a simples condenação pecuniária tende a operar como remédio pobre e estruturalmente ineficaz",
+        "ref": "p. 751"
+      },
+      {
+        "texto": "O que se exige, sempre que possível, é restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança.",
+        "ref": "p. 751"
+      }
+    ]
+  },
+  {
+    "nome": "Correção de regime",
+    "area": null,
+    "derivado": true,
+    "percurso": "a-resposta",
+    "ancora": "termo-correcao-de-regime",
+    "fontes": [
+      {
+        "texto": "A correção de regime, ao contrário, permite tratar o dano como arquitetural e não apenas como episódio. Com isso, torna-se possível justificar tutela inibitória, medidas estruturais, providências coletivas e até mecanismos de compliance compulsório compatíveis com auditabilidade aberta e controle institucional da fruição.",
+        "ref": "p. 741"
+      },
+      {
+        "texto": "A primazia da recomposição funcional e da correção de regime impede que a tutela consumerista se limite a precificar danos enquanto preserva intacta a máquina que os produz.",
+        "ref": "p. 742"
+      }
+    ]
+  },
+  {
+    "nome": "Dano-arquitetura",
+    "area": null,
+    "derivado": true,
+    "percurso": "a-resposta",
+    "ancora": "termo-dano-arquitetura",
+    "fontes": [
+      {
+        "texto": "Em ambientes de plataforma, a fonte lesiva pode residir no próprio desenho do regime de fornecimento, de modo que a unidade do problema não decorre primariamente da repetição empírica de episódios",
+        "ref": "p. 774"
+      },
+      {
+        "texto": "Refere-se a lesão produzida pelo próprio desenho do regime de fornecimento, e por isso dotada de unidade funcional suficiente para justificar tratamento institucional coletivo.",
+        "ref": "p. 774"
+      }
+    ]
+  },
+  {
+    "nome": "Consumidor equiparado",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-resposta",
+    "ancora": "termo-consumidor-equiparado",
+    "fontes": [
+      {
+        "texto": "o regime se mostra plenamente pertinente quando o objeto imaterial em questão é o feixe de fruição em posição sustentada explorado como produto no mercado B2B pela detentora e oferecido, por via da plataforma marketplace, ao seller (vendedor)",
+        "ref": "p. 434"
+      },
+      {
+        "texto": "encontra-se exposto às práticas comerciais, aos métodos de fornecimento e aos mecanismos de governança privada do ambiente em condição de vulnerabilidade juridicamente relevante",
+        "ref": "p. 779"
+      },
+      {
+        "texto": "Nem todo participante de ecossistema de plataforma será consumidor equiparado.",
+        "ref": "p. 780"
+      }
+    ]
+  },
+  {
+    "nome": "Concorrência",
+    "area": "direito",
+    "derivado": false,
+    "percurso": "a-resposta",
+    "ancora": "termo-concorrencia",
+    "fontes": [
+      {
+        "texto": "Ele fornece gramática de entrada para compreender quando a arquitetura da experiência do consumidor já se tornou, simultaneamente, arquitetura da vantagem competitiva.",
+        "ref": "p. 771"
+      }
+    ]
+  }
+]

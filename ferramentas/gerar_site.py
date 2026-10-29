@@ -761,10 +761,10 @@ def bloco_percurso(b, prefixo):
         derivado = arg in DERIVADOS
         area = AREA_TERMO.get(arg)
         nome = f'<span class="nome-derivado">{esc(arg)}</span>' if derivado else esc(arg)
-        rot_area = (f' <span class="area-rotulo ciencia">· {esc(AREA_NOME[area])}</span>' if area
+        rot_area = (f' <span class="area-rotulo">{esc(AREA_NOME[area])}</span>' if area
                     else ' <span class="area-rotulo ciencia">· conceito derivado da tese</span>' if derivado else "")
-        ident = f' id="termo-{slug_derivado(arg)}"' if derivado else ""
-        pagina_derivado = (f'<p class="ver-ideia interno"><a href="{prefixo}{caminho_derivado(arg)}">A página do conceito</a></p>' if derivado else "")
+        ident = f' id="termo-{slug_derivado(arg)}"'
+        pagina_derivado = (f'<p class="ver-ideia interno"><a href="{prefixo}{caminho_derivado(arg)}">A página do conceito</a></p>' if derivado else f'<p class="ver-ideia"><a href="{prefixo}instrumentos/#{area}">Outros conceitos de {esc(AREA_NOME[area])}</a></p>' if area else "")
         return (f'<section class="ext termo{" derivado" if derivado else ""}"{ident}{estilo_area(area)}><h2 class="nome-termo"><span class="rotulo-ext">{rotulo}{rot_area}</span>{nome}</h2>'
                 f'{texto}{pagina_derivado}{exp}</section>')
     if tipo == "familia":
@@ -896,6 +896,7 @@ def gerar_inicio():
       </div>
       <div class="campo-texto">{ext_html("inicio", "mapa", "")}</div>
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes}</ul>
+      <p class="ver-ideia"><a href="instrumentos/">Outros conceitos que ajudam a entender o percurso</a></p>
     </section>
 
     <section class="convite" aria-label="Desnudar a arquitetura">
@@ -2921,7 +2922,7 @@ def gerar_objeto_instrumentos():
                 onde.setdefault(b["arg"], parte)
     def termo_link(nome, classe=""):
         parte = onde.get(nome)
-        alvo = f'{prefixo}percurso/{parte["slug"]}/' if parte else None
+        alvo = f'{prefixo}percurso/{parte["slug"]}/#termo-{slug_derivado(nome)}' if parte else None
         rotulo = f'<span class="{classe}">{esc(nome)}</span>' if classe else esc(nome)
         return f'<li><a href="{alvo}">{rotulo}</a></li>' if alvo else f"<li>{rotulo}</li>"
     autores = [a for a in autores_pessoas().values() if not a.get("proprio")]
@@ -3184,7 +3185,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -3214,6 +3215,7 @@ def gerar_auxiliares():
     for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]):
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
+    linhas += ["", "## Conceitos complementares e instrumentais", "", f"- [Conceitos por área]({BASE}/instrumentos/): índice dos termos do percurso, com links para as explicações em contexto. Instrumentos e categorias jurídicas por área, derivados e vocabulário do objeto em grupos próprios."]
     linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem."]
     linhas += [f"- [{t}]({BASE}/{caminho_derivado(t)})" for t in sorted(DERIVADOS)]
     linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.",
@@ -3260,6 +3262,46 @@ def ocorrencias_do_nome(nome):
         if n:
             achados.append((sec, n))
     return achados
+
+
+def gerar_instrumentos():
+    """Índice de consulta por área, sem destacar as explicações do seu contexto."""
+    prefixo = "../"
+    termos = {}
+    inventario = []
+    for parte in PERCURSO:
+        for bloco in parte["blocos"]:
+            if bloco["tipo"] != "termo":
+                continue
+            nome = bloco["arg"]
+            if nome not in AREA_TERMO and nome not in DERIVADOS:
+                raise ValueError(f"Termo sem classificação de área ou derivação: {nome}")
+            if not bloco["citacoes"] or not bloco["paragrafos"]:
+                raise ValueError(f"Termo sem explicação ou fonte: {nome}")
+            termos.setdefault(nome, []).append(parte)
+            inventario.append({"nome": nome, "area": AREA_TERMO.get(nome), "derivado": nome in DERIVADOS,
+                               "percurso": parte["slug"], "ancora": "termo-" + slug_derivado(nome),
+                               "fontes": bloco["citacoes"]})
+    def item(nome):
+        links = "".join(f'<a href="{prefixo}percurso/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(p["titulo"])}</a>' for p in termos[nome])
+        return f'<li><h3>{esc(nome)}</h3><p>{links}</p></li>'
+    areas = [a for a in AREA_NOME if any(AREA_TERMO.get(n) == a for n in termos)]
+    indice = "".join(f'<li{estilo_area(a)}><a class="chip-area" href="#{a}">{esc(AREA_NOME[a])}</a></li>' for a in areas)
+    grupos = "".join(f'<section class="instrumentos-area" id="{a}"{estilo_area(a)}><h2>{esc(AREA_NOME[a])}</h2>'
+                      f'<ul class="instrumentos-lista">{"".join(item(n) for n in sorted(termos) if AREA_TERMO.get(n) == a)}</ul></section>' for a in areas)
+    derivados = "".join(item(n) for n in sorted(termos) if n in DERIVADOS)
+    corpo = ('<article class="folha instrumentos-pagina"><header class="folha-cabeca"><h1>Conceitos que ajudam a entender o percurso</h1>'
+             '<p>Escolha uma área e siga o link de cada conceito para ler a explicação no percurso da skin.</p></header>'
+             f'<nav aria-label="Áreas dos conceitos"><ul class="instrumentos-indice">{indice}<li><a href="#derivados">Conceitos derivados</a></li></ul></nav>'
+             + grupos + f'<section class="instrumentos-area derivados" id="derivados"><h2>Conceitos derivados</h2><ul class="instrumentos-lista">{derivados}</ul></section>'
+             f'<nav class="acoes" aria-label="Outros caminhos"><a href="{prefixo}#conceitos">As nove ideias</a>'
+             f'<a class="ciencia" href="{prefixo}objeto-e-instrumentos/">Objeto e instrumentos</a></nav></article>')
+    pasta = SAIDA / "instrumentos"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Conceitos por área do conhecimento · Lex Plataformae",
+        "Encontre os conceitos complementares, instrumentais e derivados e leia cada explicação no contexto do percurso da skin.",
+        corpo, prefixo, "instrumentos/", camada="mista"), encoding="utf-8")
+    (RAIZ / "estrutura" / "instrumentos-no-percurso.json").write_text(json.dumps(inventario, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def gerar_derivados():
@@ -3458,6 +3500,7 @@ def main():
     gerar_autores()
     gerar_referencias()
     gerar_objeto_instrumentos()
+    gerar_instrumentos()
     gerar_derivados()
     gerar_autor()
     gerar_auxiliares()
