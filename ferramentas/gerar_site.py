@@ -398,8 +398,28 @@ PERCURSO = carregar_percurso()
 
 # Direitos. O que a plataforma deve e o que o leitor pode pedir, em conteudo/direitos.md, uma situação do quadro por bloco.
 # Os campos de cada direito, na ordem em que aparecem, com o rótulo que o leitor vê.
-CAMPOS_DIREITO = {"quando": "Quando acontece", "deve": "O que a plataforma deve", "mostrar": "O que ajuda a mostrar",
-                  "pedir": "O que você pode pedir", "limite": "Até onde vai"}
+CAMPOS_DIREITO = {"quando": "Como reconhecer esta situação?", "deve": "O que a plataforma deve assegurar neste caso?",
+                  "mostrar": "Como demonstrar o que aconteceu?", "pedir": "Que solução pode caber neste caso?",
+                  "limite": "Quais são os limites dessa proteção?"}
+
+# Perguntas concretas preservam a orientação comum dos blocos.
+PERGUNTAS_DIREITO = {
+    "a": {"mostrar": "Como mostrar o que você comprou e como usa?"},
+    "b": {"mostrar": "Como mostrar o caminho que levou à sua decisão?"},
+    "c": {"mostrar": "Como mostrar o que foi informado e o que faltou?"},
+    "d": {"mostrar": "Como comparar a promessa com o que foi entregue?"},
+    "e": {"mostrar": "Que registros permitem entender a mudança ou a punição?"},
+    "f": {"mostrar": "Como mostrar o que mudou na utilidade do item?",
+          "pedir": "Que solução pode recompor a utilidade perdida?"},
+    "g": {"mostrar": "Como documentar a punição e a tentativa de contestar?",
+          "pedir": "Que revisão pode ser pedida para a punição?"},
+    "h": {"mostrar": "Como mostrar que o problema forma um padrão?"},
+    "i": {"mostrar": "O que você pode mostrar e o que está com a plataforma?",
+          "pedir": "Como distribuir a prova conforme o acesso aos registros?"},
+    "j": {"mostrar": "Como avaliar a justificativa para a restrição?"},
+    "k": {"mostrar": "Como ligar a perda ao que a plataforma fez?",
+          "pedir": "Que solução pode restaurar o que foi perdido?"},
+}
 
 
 def carregar_direitos():
@@ -440,7 +460,7 @@ def direito_html(letra, prefixo, nivel="h3", ancora=False):
     """Um direito, com o título, o texto simples e os trechos que ele condensa. Em Doutrina, o caminho até a situação inteira."""
     d = DIREITOS[letra]
     ident = f' id="{letra}"' if ancora else ""
-    partes = "".join(f'<div class="direito-parte parte-{k}"><dt>{rotulo}</dt><dd>' + "".join(f"<p>{esc(t)}</p>" for t in d[k]) + "</dd></div>"
+    partes = "".join(f'<div class="direito-parte parte-{k}"><dt>{esc(PERGUNTAS_DIREITO.get(letra, {}).get(k, rotulo))}</dt><dd>' + "".join(f"<p>{esc(t)}</p>" for t in d[k]) + "</dd></div>"
                      for k, rotulo in CAMPOS_DIREITO.items() if d[k])
     return (f'<section class="ext direito"{ident}><{nivel} class="direito-titulo">{esc(d["titulo"])}</{nivel}>'
             + "".join(f"<p>{esc(t)}</p>" for t in d["paragrafos"])
@@ -452,16 +472,17 @@ def direito_html(letra, prefixo, nivel="h3", ancora=False):
 def secao_direitos(letras, prefixo):
     """O fecho de direitos de uma página do percurso ou de uma ideia."""
     if not letras:
-        return (f'<section class="ext direitos-curto"><p class="rotulo-ext">O que você pode exigir</p>'
+        return (f'<section class="ext direitos-curto"><p class="rotulo-ext">Que proteção pode caber nesta situação?</p>'
                 f'<p class="ver-direitos"><a href="{prefixo}direitos/">Os seus direitos, um por um</a></p></section>')
-    return ('<section class="direitos" aria-label="O que você pode exigir"><p class="rotulo-ext">O que você pode exigir</p>'
+    return ('<section class="direitos" aria-label="Que proteção pode caber nesta situação?"><p class="rotulo-ext">Que proteção pode caber nesta situação?</p>'
             + "".join(direito_html(l, prefixo) for l in letras)
             + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
 
 
 # Para operar. O guia da Doutrina para cada situação do Roteiro, em conteudo/operar.md.
-CAMPOS_OPERAR = {"fatos": "Fatos típicos", "demonstrar": "Como demonstrar", "fundamento": "Fundamento normativo",
-                 "cuidados": "Pressupostos e cuidados", "caso": "Um caso"}
+CAMPOS_OPERAR = {"fatos": "Quais fatos precisam ser examinados?", "demonstrar": "Como demonstrar o problema?",
+                 "fundamento": "Qual é o fundamento jurídico?", "cuidados": "Quais pressupostos e limites precisam ser conferidos?",
+                 "caso": "Como isso aparece em um caso concreto?"}
 
 
 def carregar_operar():
@@ -591,9 +612,9 @@ def figura(ident, prefixo):
             f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{esc(peca.get("alt", ""))}" width="{largura}" height="{altura}" loading="lazy" decoding="async"></picture>'
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
             + expansao(peca["citacoes"], prefixo) + "</figure>")
-ROTULOS_PERCURSO = {"imagem": "Uma imagem", "mecanismo": "Como funciona", "caso": "Um caso",
+ROTULOS_PERCURSO = {"imagem": "Como imaginar isso?", "mecanismo": "Como isso funciona?", "caso": "Como isso aparece na prática?",
                     "nome": "Isso tem nome", "termo": "Um nome para isso", "familia": "Fora do jogo",
-                    "limite": "Até onde vai", "teste": "Como saber se é o seu caso"}
+                    "limite": "Quais são os limites?", "teste": "Como saber se é o seu caso?"}
 
 # Cores e áreas. A proposta está em estrutura/cores.json e foi aprovada pelo autor em 27/10/2026.
 CORES = json.loads((RAIZ / "estrutura" / "cores.json").read_text(encoding="utf-8"))
@@ -1054,11 +1075,11 @@ def gerar_conceito(c):
             + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span><span class="chapado">{nome_html(c)}</span></h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
             + figura(f'ideia-{c["id"]}', prefixo)
-            + bloco_ext("imagem", "Uma imagem", "didatico imagem")
-            + bloco_ext("mecanismo", "Como funciona", "didatico mecanismo")
-            + bloco_ext("caso", "Um caso", "didatico caso")
-            + bloco_ext("importa", "Por que importa")
-            + bloco_ext("limite", "Até onde vai", "limite")
+            + bloco_ext("imagem", "Como imaginar isso?", "didatico imagem")
+            + bloco_ext("mecanismo", "Como isso funciona?", "didatico mecanismo")
+            + bloco_ext("caso", "Como isso aparece na prática?", "didatico caso")
+            + bloco_ext("importa", "Por que isso importa?")
+            + bloco_ext("limite", "Quais são os limites?", "limite")
             + (secao_direitos(direitos_da_ideia(c["id"]), prefixo) if direitos_da_ideia(c["id"]) else "")
             + no_percurso(c["id"], prefixo)
             + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))

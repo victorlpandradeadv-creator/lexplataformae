@@ -160,3 +160,5 @@ No site, as letras não são reproduzidas. A música entra por player incorporad
 - O ambiente de trabalho do Claude não alcança o domínio pelo terminal. Para conferir o site no ar, usar a ferramenta de busca de páginas, que pede autorização ao autor.
 - DNS no Registro.br. Registros A do domínio raiz para 185.199.108.153, 185.199.109.153, 185.199.110.153 e 185.199.111.153. CNAME de www para victorlpandradeadv-creator.github.io. TXT de verificação do GitHub Pages na conta do autor.
 - Evitar proxy da Cloudflare, que bloqueia robôs de IA por padrão em domínios novos.
+
+- 28/10/2026. Por escolha do autor, os subtítulos explicativos privilegiam perguntas orientadoras, com perguntas específicas quando ajudam a identificar o problema. Direitos, percurso, ideias e Guia para operar usam caixa normal, corpo de 1,125 rem, peso 700 e cor de texto principal. Os blocos de direitos e do guia têm mais espaço. Os pedidos relativos a punições e restauração explicitam condições já fundamentadas nas citações. Não transformar possibilidades de resposta em garantia de resultado.

@@ -85,7 +85,7 @@ O caminho que você percorreu dentro do jogo até a compra ou até o problema, o
 
 ### pedir
 
-Que o problema seja tratado como questão do ambiente, e não como descuido seu. A partir daí a plataforma passa a ter deveres mais fortes de informar, de anunciar com clareza e de apresentar provas. Conforme o caso, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
+Que o problema seja tratado como questão do ambiente, e não como descuido seu. Se essa dependência dos sinais da plataforma ficar demonstrada, podem incidir deveres reforçados de informar, anunciar com clareza e apresentar provas. Conforme o caso, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
 
 ### limite
 
@@ -303,7 +303,7 @@ Os registros da punição, o caminho de contestação que existia, os critérios
 
 ### pedir
 
-Que a punição seja revista ou desfeita, que a plataforma cumpra deveres de procedimento e que crie ou melhore um caminho real de contestação. Quando o problema se repete com muita gente, também dá para pedir que o sistema de punição como um todo seja corrigido.
+Se a punição não tiver motivo verificável ou um caminho razoável de contestação, pode caber sua revisão ou reversão. Você também pode pedir que a plataforma cumpra deveres de procedimento e que crie ou melhore um caminho real de contestação. Quando o problema se repete com muita gente, também dá para pedir que o sistema de punição como um todo seja corrigido.
 
 ### limite
 
@@ -476,7 +476,7 @@ A ligação entre a decisão ou o mecanismo da plataforma e a perda que você so
 
 ### pedir
 
-Primeiro, que a plataforma devolva o que tirou. Isso pode ser restaurar o acesso, desfazer uma punição, preservar o seu histórico, trocar por algo que cumpra a mesma função, ajustar as regras e impedir que o problema continue. Quando o dano revela um padrão que se repete, também cabe pedir a correção da estrutura que o produz.
+A prioridade é recuperar o que foi perdido, quando isso for viável. A solução precisa corresponder à perda demonstrada e às possibilidades de restauração. Isso pode ser restaurar o acesso, desfazer uma punição, preservar o seu histórico, trocar por algo que cumpra a mesma função, ajustar as regras e impedir que o problema continue. Quando o dano revela um padrão que se repete, também cabe pedir a correção da estrutura que o produz.
 
 ### limite
 
