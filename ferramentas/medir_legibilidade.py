@@ -1,7 +1,7 @@
 """Mede a legibilidade dos textos da camada externa pelo índice de Flesch adaptado ao português.
 
 Uso
-    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md conteudo/percurso.md conteudo/direitos.md]
+    python3 ferramentas/medir_legibilidade.py [conteudo/camada-externa.md conteudo/percurso.md conteudo/direitos.md conteudo/problemas.md]
 
 Fórmula de Martins e colegas (1996), adaptada ao português.
     248,835 - 1,015 x (palavras por frase) - 84,6 x (sílabas por palavra)
@@ -17,10 +17,10 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.md", RAIZ / "conteudo" / "percurso.md",
-                                           RAIZ / "conteudo" / "direitos.md"]
+                                           RAIZ / "conteudo" / "direitos.md", RAIZ / "conteudo" / "problemas.md"]
 META = 50
 # Campos que guardam endereços, e não texto para o leitor.
-IGNORAR = {"partes", "ideias", "titulo"}
+IGNORAR = {"partes", "ideias", "titulo", "blocos", "direitos", "relacionados"}
 
 VOGAIS = "aeiouáéíóúâêôãõàüy"
 FORTES = set("aeoáéóâêôãõàíú")
@@ -59,8 +59,8 @@ def blocos(arq):
         if linha.startswith("## "):
             pagina, campo = linha[3:].strip(), None
             # Os blocos de direitos têm nomes curtos, de uma letra, e ganham o nome do arquivo para não se misturar com as outras páginas.
-            if arq.stem == "direitos":
-                pagina = f"direitos-{pagina}"
+            if arq.stem in ("direitos", "problemas"):
+                pagina = f"{arq.stem}-{pagina}"
             continue
         if linha.startswith("### "):
             campo = linha[4:].strip()

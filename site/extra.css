@@ -506,6 +506,11 @@ h2.direito-titulo { font-size: 1.5rem; }
 .didatico.teste { background: var(--folha); border: 1px solid var(--linha); border-left: 3px solid var(--tese); }
 @media (max-width: 640px) { .direito { padding: 1rem; } .direitos-indice a { min-height: 44px; } }
 
+/* Por problema. A lista de problemas não tem número, e cada página junta blocos do percurso e direitos. Rascunho de 03/11/2026. */
+.problemas-lista a { grid-template-columns: minmax(0, 1fr); }
+.problemas-curto .partes-curtas a, .outros-problemas .partes-curtas a { font-weight: 650; line-height: 1.35; }
+.problema-pagina .direitos { margin-top: 0.5rem; }
+
 /* Página inicial. O título quebra depois de cada frase, e o texto ganha uma medida mais larga. Orientação do autor de 27/10/2026. */
 .pagina-inicio { --medida: 78ch; display: contents; }
 .pagina-inicio .chamada { max-width: none; text-wrap: wrap; font-size: clamp(1.35rem, 6.1vw, 4rem); }

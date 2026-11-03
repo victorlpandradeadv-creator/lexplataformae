@@ -530,12 +530,127 @@ def direitos_da_ideia(cid):
     return [l for l in LETRAS_DIREITOS if cid in DIREITOS[l]["ideias"]]
 
 
+# Por problema. Páginas para quem chega com um problema concreto, em conteudo/problemas.md. Rascunho de 03/11/2026.
+# Cada página junta blocos que já estão no percurso e os direitos que se aplicam. Só o título e a abertura são novos.
+def carregar_problemas():
+    arq = RAIZ / "conteudo" / "problemas.md"
+    dados, atual, campo_ = {}, None, None
+    if not arq.exists():
+        return dados
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            slug = linha[3:].strip()
+            atual = dados.setdefault(slug, {"slug": slug, "titulo": "", "abertura": [], "citacoes": [], "blocos": [], "direitos": [], "relacionados": []})
+            campo_ = None
+            continue
+        if linha.startswith("### ") and atual is not None:
+            campo_ = linha[4:].strip()
+            continue
+        if atual is None or not campo_ or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+        if m:
+            atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif campo_ == "titulo":
+            atual["titulo"] = (atual["titulo"] + " " + linha.strip()).strip()
+        elif campo_ == "abertura":
+            atual["abertura"].append(linha.strip())
+        elif campo_ == "blocos":
+            parte, _, inicio = linha.partition("|")
+            atual["blocos"].append((parte.strip(), inicio.strip()))
+        elif campo_ in ("direitos", "relacionados"):
+            atual[campo_] += [x.strip() for x in linha.split(",") if x.strip()]
+    return dados
+
+
+PROBLEMAS = carregar_problemas()
+
+
+def bloco_do_percurso(slug, inicio):
+    """O bloco do percurso cuja primeira frase começa com o texto indicado, e o número da parte."""
+    for i, parte in enumerate(PERCURSO, 1):
+        if parte["slug"] != slug:
+            continue
+        for b in parte["blocos"]:
+            if b["paragrafos"] and b["paragrafos"][0].startswith(inicio):
+                return i, parte, b
+    raise SystemExit(f"Problema com bloco que não existe no percurso  {slug}  {inicio}")
+
+
+def cuidado_html(prefixo):
+    """O aviso de Seus direitos de que nada é fórmula pronta nem garantia de resultado, com os trechos que o sustentam."""
+    intro = DIREITOS.get("intro", {"paragrafos": [], "citacoes": []})
+    texto = next((t for t in intro["paragrafos"] if t.startswith("Leia com um cuidado")), "")
+    if not texto:
+        return ""
+    cits = [q for q in intro["citacoes"] if q["ref"] in ("p. 748", "p. 788")]
+    return f'<section class="ext limite"><p class="rotulo-ext">Isso garante o resultado?</p><p>{esc(texto)}</p>{expansao(cits, prefixo)}</section>'
+
+
+def lista_problemas(slugs, prefixo, classe="partes-curtas"):
+    return (f'<ul class="{classe}">' + "".join(f'<li><a href="{prefixo}problemas/{s}/">{esc(PROBLEMAS[s]["titulo"])}</a></li>' for s in slugs) + "</ul>")
+
+
+def gerar_problemas():
+    if not PROBLEMAS:
+        return
+    raiz = SAIDA / "problemas"
+    raiz.mkdir(parents=True, exist_ok=True)
+    itens = "".join(f'<li><a href="{p["slug"]}/"><span class="parte-titulo">{esc(p["titulo"])}</span>'
+                    f'<span class="parte-resumo">{esc(primeira_frase(p["abertura"][0]))}</span></a></li>' for p in PROBLEMAS.values())
+    corpo = (f'<article class="folha problemas-pagina"><p class="sobrelinha-ext"><a href="../direitos/">Seus direitos</a></p>'
+             f'<header class="folha-cabeca ext-cabeca"><h1>Qual é o seu problema?</h1></header>'
+             f'<ul class="partes problemas-lista">{itens}</ul>'
+             + cuidado_html("../")
+             + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="../direitos/">Todos os seus direitos</a>{botao_desnudar()}</div></section></article>')
+    jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "headline": "Qual é o seu problema?", "inLanguage": "pt-BR",
+              "url": f"{BASE}/problemas/", "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+    (raiz / "index.html").write_text(
+        pagina("Problemas comuns com contas, itens e jogos digitais · Lex Plataformae",
+               "Conta bloqueada, item alterado, jogo encerrado e outros problemas comuns, com o que a plataforma deve e o que você pode pedir.",
+               corpo, "../", "problemas/", jsonld, camada="mista", imagem="problemas"), encoding="utf-8")
+    prefixo = "../../"
+    for p in PROBLEMAS.values():
+        blocos, partes = [], {}
+        for slug, inicio in p["blocos"]:
+            i, parte, b = bloco_do_percurso(slug, inicio)
+            blocos.append(bloco_percurso(b, prefixo))
+            partes.setdefault(i, parte)
+        no_percurso = ('<section class="ext no-percurso"><p class="rotulo-ext">Onde isso aparece no percurso da skin?</p><ul class="partes-curtas">'
+                       + "".join(f'<li><a href="{prefixo}percurso/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+                                 for i, parte in sorted(partes.items()))
+                       + "</ul></section>")
+        direitos = ('<section class="direitos" aria-label="Que proteção pode caber nesta situação?"><p class="rotulo-ext">Que proteção pode caber nesta situação?</p>'
+                    + "".join(direito_html(l, prefixo, "h2") for l in p["direitos"])
+                    + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
+        outros = (f'<section class="ext outros-problemas"><p class="rotulo-ext">Outros problemas parecidos</p>{lista_problemas(p["relacionados"], prefixo)}'
+                  f'<p class="ver-direitos"><a href="{prefixo}problemas/">Todos os problemas</a></p></section>') if p["relacionados"] else ""
+        corpo = (f'<article class="folha problema-pagina">'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}direitos/">Seus direitos</a> · <a href="{prefixo}problemas/">Por problema</a></p>'
+                 f'<header class="folha-cabeca ext-cabeca"><h1>{esc(p["titulo"])}</h1></header>'
+                 f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in p["abertura"]) + expansao(p["citacoes"], prefixo) + "</section>"
+                 + "".join(blocos) + direitos + no_percurso + cuidado_html(prefixo) + outros
+                 + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
+                 + "</article>")
+        jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": p["titulo"], "inLanguage": "pt-BR",
+                  "url": f'{BASE}/problemas/{p["slug"]}/', "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+        destino = raiz / p["slug"]
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / "index.html").write_text(
+            pagina(f'{p["titulo"]} · Lex Plataformae', " ".join(p["abertura"]), corpo, prefixo, f'problemas/{p["slug"]}/', jsonld, camada="mista",
+                   imagem=f'problema-{p["slug"]}'),
+            encoding="utf-8")
+
+
 def gerar_direitos():
     prefixo = "../"
     intro = DIREITOS.get("intro", {"paragrafos": [], "citacoes": []})
     indice = "".join(f'<li><a href="#{l}">{esc(DIREITOS[l]["titulo"])}</a></li>' for l in LETRAS_DIREITOS)
+    problemas = (f'<nav class="ext problemas-curto" aria-label="Por problema"><p class="rotulo-ext">Qual é o seu problema?</p>'
+                 f'{lista_problemas(PROBLEMAS, prefixo)}</nav>') if PROBLEMAS else ""
     corpo = (f'<article class="folha direitos-pagina"><header class="folha-cabeca ext-cabeca"><h1>Seus direitos</h1></header>'
              f'<section class="ext">' + "".join(f"<p>{esc(t)}</p>" for t in intro["paragrafos"]) + expansao(intro["citacoes"], prefixo) + "</section>"
+             + problemas +
              f'<nav class="direitos-indice" aria-label="Os direitos"><ol>{indice}</ol></nav>'
              + "".join(direito_html(l, prefixo, "h2", ancora=True) for l in LETRAS_DIREITOS)
              + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
@@ -3185,7 +3300,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/"] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/", BASE + "/problemas/"] + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -3208,6 +3323,11 @@ def gerar_auxiliares():
         "",
         f"- [Seus direitos]({BASE}/direitos/): o que a plataforma deve e o que o consumidor pode pedir, em linguagem simples, uma situação por bloco, com os trechos literais da tese por baixo.",
     ] + [f"- [{DIREITOS[l]['titulo']}]({BASE}/direitos/#{l})" for l in LETRAS_DIREITOS] + [
+        "",
+        "## Por problema",
+        "",
+        f"- [Qual é o seu problema?]({BASE}/problemas/): problemas comuns de quem compra itens, contas e acessos digitais, cada um com os blocos do percurso e os direitos que se aplicam.",
+    ] + [f"- [{p['titulo']}]({BASE}/problemas/{p['slug']}/)" for p in PROBLEMAS.values()] + [
         "",
         "## Conceitos",
         "",
@@ -3389,7 +3509,7 @@ def gerar_autor():
 
 # Cobertura por modo. Cada citação dos textos de cada modo volta à seção da tese de onde vem.
 FONTES_MODO = {
-    "Informação": ["conteudo/percurso.md", "conteudo/camada-externa.md", "conteudo/direitos.md"],
+    "Informação": ["conteudo/percurso.md", "conteudo/camada-externa.md", "conteudo/direitos.md", "conteudo/problemas.md"],
     "Doutrina": ["conteudo/operar.md", "conceitos/ficha-canonica-v0.md"],
 }
 
@@ -3485,6 +3605,7 @@ def main():
     gerar_inicio()
     gerar_percurso()
     gerar_direitos()
+    gerar_problemas()
     for c in D["conceitos"]:
         gerar_conceito(c)
     gerar_tese()

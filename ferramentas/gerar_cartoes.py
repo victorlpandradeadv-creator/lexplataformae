@@ -52,6 +52,23 @@ def percurso():
     return partes
 
 
+def problemas():
+    """Os títulos das páginas por problema, em conteudo/problemas.md."""
+    lista, atual, campo = [], None, None
+    arq = RAIZ / "conteudo" / "problemas.md"
+    if not arq.exists():
+        return lista
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            atual = {"slug": linha[3:].strip(), "titulo": ""}
+            lista.append(atual)
+        elif linha.startswith("### "):
+            campo = linha[4:].strip()
+        elif atual and campo == "titulo" and linha.strip() and not atual["titulo"]:
+            atual["titulo"] = linha.strip()
+    return lista
+
+
 def cartoes():
     e = externa()
     nomes = {c["id"]: NOME_COMUM.get(c["id"], c["nome"]) for c in json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))["conceitos"]}
@@ -62,6 +79,10 @@ def cartoes():
     for cid in e.get("cartoes", {}):
         if cid in e and e[cid].get("titulo"):
             lista.append((cid, e[cid]["titulo"][0], nomes.get(cid, "")))
+    if problemas():
+        lista.append(("problemas", "Qual é o seu problema?", "Seus direitos · por problema"))
+    for prob in problemas():
+        lista.append((f"problema-{prob['slug']}", prob["titulo"], "Seus direitos · por problema"))
     lista.append(("laboratorio", e["laboratorio"]["titulo"][0], "Laboratório"))
     for fam in ("funcionalidade-cognitiva", "infraestrutura-e-intermediacao", "produtividade-gig-economy", "administracao-de-confianca"):
         if fam in e and e[fam].get("titulo"):

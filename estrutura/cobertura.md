@@ -14,7 +14,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 |---|---|---|---|---|---|
 | 1 | INTRODUÇÃO | 21 a 42 | 53 | 5 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
 | 2 | DO DESENHO METODOLÓGICO E DO PROTOCOLO DE OBSERVAÇÃO | 45 a 47 | 0 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
-| 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 2 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
+| 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 4 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
 | 2.2 | Do recorte teórico-normativo e setorial | 54 a 56 | 2 | 0 | Método (O protocolo); Dogmática (A base normativa); Dogmática (Dispositivos citados) |
 | 2.3 | Do ecossistema de referência e estratégia de exemplificação | 56 a 59 | 0 | 0 | Método (O protocolo); Laboratório (O laboratório de origem) |
 | 2.4 | Das fontes empíricas e técnicas de coleta | 59 a 61 | 0 | 0 | Método (O protocolo) |
@@ -54,15 +54,15 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
 | 5 | DO REGIME JURÍDICO DO OBJETO IMATERIAL DE CONSUMO (OIC) SOB A LEX PLATAFORMAE | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1 | Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo | 394 a 395 | 3 | 5 | Dogmática (Seções do capítulo 5); Atlas (Três leituras da tese) |
-| 5.1.1 | Da vulnerabilidade semiótica como conceito operativo | 395 a 407 | 29 | 2 | Fichas (Vulnerabilidade semiótica); Dogmática (Seções do capítulo 5) |
-| 5.1.2 | Do Objeto Imaterial de Consumo como conceito-infraestrutura | 407 a 411 | 17 | 4 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
+| 5.1.1 | Da vulnerabilidade semiótica como conceito operativo | 395 a 407 | 30 | 2 | Fichas (Vulnerabilidade semiótica); Dogmática (Seções do capítulo 5) |
+| 5.1.2 | Do Objeto Imaterial de Consumo como conceito-infraestrutura | 407 a 411 | 19 | 4 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.1 | Da relevância normativa do OIC e sua inserção na disciplina do consumo | 411 a 423 | 1 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.2 | Da qualificação funcional do OIC e sua coerência sistemática ao CDC | 423 a 427 | 9 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.3 | Dos critérios de reconhecimento do OIC e dos limites de aplicação da categoria | 427 a 435 | 43 | 15 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados); Roteiro (O portão de entrada) |
 | 5.1.2.4 | Da fruição continuada e a utilidade da dicotomia produto-serviço no CDC | 435 a 444 | 6 | 1 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5) |
 | 5.1.3 | Da teleologia abusiva e o ilícito de arquitetura em plataformas | 444 a 456 | 19 | 11 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 5) |
 | 5.1.4 | Da integridade pessoal, identidade simbólica e cidadania digital | 456 a 469 | 3 | 1 | Fichas (Integridade pessoal); Dogmática (Seções do capítulo 5) |
-| 5.1.5 | Da auditabilidade aberta e equivalência de valor funcional como critérios de legitimidade e de recomposição em serviços digitais contínuos | 469 a 482 | 10 | 1 | Fichas (Auditabilidade aberta, Equivalência de valor funcional); Dogmática (Seções do capítulo 5) |
+| 5.1.5 | Da auditabilidade aberta e equivalência de valor funcional como critérios de legitimidade e de recomposição em serviços digitais contínuos | 469 a 482 | 11 | 1 | Fichas (Auditabilidade aberta, Equivalência de valor funcional); Dogmática (Seções do capítulo 5) |
 | 5.2 | Dos modelos de negócios de base digital e tipologia preliminar de Objetos Imateriais de Consumo | 482 a 484 | 1 | 1 | Dogmática (Seções do capítulo 5) |
 | 5.2.1 | Dos games-as-a-service, marketplaces e outros ecossistemas de OIC | 485 a 488 | 2 | 3 | Dogmática (Seções do capítulo 5) |
 | 5.2.2 | Das categorias de objetos imateriais de consumo em plataformas de jogos | 488 a 492 | 12 | 8 | Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
@@ -85,12 +85,12 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.2.4.1.1 | Da revisão crítica da literatura recente | 590 a 601 | 1 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.2 | Da linguagem, código e consentimento viciado por sentido | 601 a 605 | 4 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.3 | Da operacionalização da vulnerabilidade semiótica em OICs | 605 a 609 | 5 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.2.4.3.1 | O caso dos presentes irregulares | 609 a 618 | 12 | 9 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
+| 6.2.4.3.1 | O caso dos presentes irregulares | 609 a 618 | 17 | 9 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
 | 6.2.4.4 | Da informação excessiva às práticas de transparência performática: dever de informar e adequação informativa | 618 a 623 | 3 | 1 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.5 | Da publicidade enganosa por arquitetura semiótica | 623 a 629 | 3 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.5 | Da informação, publicidade e práticas abusivas em contextos sob antecipação hipercuratorial | 629 a 634 | 3 | 6 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.3 | Da auditabilidade aberta e equivalência de valor funcional enquanto critérios de legitimidade para arquiteturas de plataforma | 635 a 639 | 18 | 4 | Dogmática (Seções do capítulo 6) |
-| 6.3.1 | Do conceito jurídico de auditabilidade aberta em serviços digitais contínuos | 639 a 648 | 14 | 6 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
+| 6.3.1 | Do conceito jurídico de auditabilidade aberta em serviços digitais contínuos | 639 a 648 | 15 | 6 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.3.2 | Da equivalência de valor funcional como parâmetro de licitude de alterações | 648 a 656 | 7 | 2 | Fichas (Equivalência de valor funcional); Dogmática (Seções do capítulo 6) |
 | 6.3.3 | Dos mecanismos apropriados à viabilização de procedimentos de auditabilidade aberta e avaliação de equivalência funcional | 656 a 663 | 5 | 14 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.4 | Da teleologia abusiva e ilícito de arquitetura em serviços digitais contínuos | 663 a 665 | 15 | 4 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6) |
@@ -100,7 +100,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.5 | Da função social da propriedade intelectual à governança semiótica dos objetos imateriais de consumo | 679 a 681 | 1 | 3 | Fichas (Função social da propriedade intelectual); Dogmática (Seções do capítulo 6) |
 | 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 1 | 3 | Dogmática (Seções do capítulo 6) |
 | 6.5.2 | Da tensão entre exclusividade, proteção do consumidor e integridade dos OICs | 695 a 703 | 5 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.5.3 | Da função social da propriedade intelectual em plataformas de OIC | 703 a 710 | 5 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
+| 6.5.3 | Da função social da propriedade intelectual em plataformas de OIC | 703 a 710 | 6 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 7 | DA TIPOLOGIA DOS MODELOS DE INCIDÊNCIA DO OBJETO IMATERIAL DE CONSUMO EM DIFERENTES CATEGORIAS FUNCIONAIS DE PLATAFORMA | 713 a 714 | 0 | integral | Laboratório (O teste) |
 | 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | integral | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
 | 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | integral | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
@@ -109,13 +109,13 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7.1.1.3 | Dos parâmetros do dever de informar como adequação verificável | 722 a 724 | 0 | integral | Roteiro (Bloco c do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.4 | Dos parâmetros da publicidade e oferta como gestão de sentido controlável | 724 a 726 | 0 | integral | Fichas (Antecipação hipercuratorial); Roteiro (Bloco d do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.5 | Dos parâmetros de auditabilidade aberta para controle sem abertura indiscriminada de código | 726 a 729 | 7 | integral | Fichas (Auditabilidade aberta); Roteiro (Bloco e do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.6 | Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável | 729 a 731 | 13 | integral | Fichas (Equivalência de valor funcional); Roteiro (Bloco f do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.6 | Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável | 729 a 731 | 14 | integral | Fichas (Equivalência de valor funcional); Roteiro (Bloco f do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.7 | Dos parâmetros de teleologia abusiva e o ilícito de arquitetura enquanto conduta | 731 a 734 | 14 | integral | Fichas (Ilícito de arquitetura, Teleologia abusiva); Roteiro (Bloco h do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.8 | Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural | 734 a 737 | 6 | integral | Roteiro (Bloco i do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.8 | Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural | 734 a 737 | 8 | integral | Roteiro (Bloco i do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.9 | Dos parâmetros de compatibilização entre o CDC e os direitos de propriedade intelectual à luz da primazia da função social e dos limites constitucionais brasileiros | 737 a 739 | 0 | integral | Fichas (Função social da propriedade intelectual); Roteiro (Bloco j do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.10 | Dos parâmetros para remédios adequados à primazia da recomposição funcional e correção de regime | 739 a 742 | 6 | integral | Fichas (Recomposição funcional e correção de regime); Roteiro (Bloco k do enquadramento); Roteiro (Parâmetros) |
-| 7.1.2 | Da qualificação jurídica e deveres de fornecimento do OIC | 742 a 748 | 66 | integral | Fichas (Ilícito de arquitetura); Dogmática (Dispositivos citados); Roteiro (Os onze blocos de enquadramento) |
-| 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 4 | integral | Roteiro (As dez diretrizes de controle) |
+| 7.1.2 | Da qualificação jurídica e deveres de fornecimento do OIC | 742 a 748 | 78 | integral | Fichas (Ilícito de arquitetura); Dogmática (Dispositivos citados); Roteiro (Os onze blocos de enquadramento) |
+| 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 5 | integral | Roteiro (As dez diretrizes de controle) |
 | 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | integral | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
 | 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 8 | integral | Laboratório (A sequência de cada família) |
 | 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 9 | integral | Laboratório (Família de plataforma) |
