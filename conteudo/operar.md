@@ -30,7 +30,7 @@ A prova mínima de cada situação indica o que torna o conflito demonstrável c
 
 ### fatos
 
-Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo. Nos jogos, o objeto pode ser de aparência, de progressão, de acesso e permanência, de funcionalidade, de tempo ou de reputação, e um mesmo item costuma combinar mais de um desses tipos. Essa tipologia é interna ao laboratório dos jogos, e não classificação geral de plataformas.
+Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo. Nos jogos, o objeto pode ser de aparência, de progressão, de acesso e permanência, de funcionalidade, de tempo ou de reputação, e um mesmo item costuma combinar mais de um desses tipos. Essa tipologia é interna ao laboratório dos jogos, e não classificação geral de plataformas. Os mesmos traços aparecem em três modelos de negócio, os jogos operados como serviço, os marketplaces e os serviços de inteligência artificial fornecidos por plataforma. Em todos, a fruição depende da operação contínua de um ambiente governado privadamente. No marketplace, porém, nem toda mediação digital converte o bem em objeto imaterial de consumo.
 
 ### demonstrar
 
@@ -42,7 +42,7 @@ O art. 3º, § 1º, do CDC já admite produto imaterial. Sempre que a utilidade 
 
 ### cuidados
 
-Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha. Discutir se o caso é de produto ou de serviço não resolve a questão. A distinção continua útil para calibrar consequências específicas, mas não define o regime inteiro. O Marco Legal dos Jogos Eletrônicos, a Lei nº 14.852/2024, reconhece o setor como atividade econômica e cultural, mas o enquadramento setorial ajuda a ver o mercado e não basta para controlar a governança, de modo que não substitui o CDC.
+Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha. Discutir se o caso é de produto ou de serviço não resolve a questão. A distinção continua útil para calibrar consequências específicas, mas não define o regime inteiro. O Marco Legal dos Jogos Eletrônicos, a Lei nº 14.852/2024, reconhece o setor como atividade econômica e cultural, mas o enquadramento setorial ajuda a ver o mercado e não basta para controlar a governança, de modo que não substitui o CDC. A regra de leitura é que a entrega inicial não esgota o cumprimento, e a execução continuada não apaga o objeto.
 
 > A prova mínima exigível recai sobre a demonstração da dependência estrutural da utilidade em relação ao ecossistema governado, da forma de disponibilização da experiência e da posição concreta do consumidor no vínculo. (p. 743)
 > impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal (p. 743)
@@ -63,6 +63,7 @@ Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso 
 > A sexta categoria é a dos objetos de reputação. (p. 490)
 > As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo. (p. 492)
 > Essa tipologia é deliberadamente interna ao laboratório de jogos e não se oferece como classificação geral de plataformas. (p. 489)
+> A tipologia proposta, portanto, não cumpre função classificatória externa nem pretende esgotar a realidade por nomes. Sua utilidade é interna e operativa. (p. 482)
 > Os Termos de Serviço da Riot Games reconhecem expressamente um núcleo de “Conteúdo Virtual” associado à conta, composto por moeda do jogo, skins, emotes, acessórios e outros itens (p. 575)
 > A cláusula ajuda a provar a existência do objeto. Não esgota o seu regime. (p. 575)
 > O OIC não substitui o produto imaterial do art. 3º, § 1º. Ele o concretiza em contexto de consumo contínuo e governado. (p. 579)
@@ -71,6 +72,10 @@ Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso 
 > O enquadramento setorial ajuda a ver o mercado; não basta para controlar a governança. (p. 548)
 > A existência de regulação setorial não substitui a infraestrutura consumerista (p. 548)
 > A definição legal de produto no art. 3º, §1º, do CDC opera como cláusula de abrangência que impede a fuga da tutela protetiva quando o objeto não se apresenta sob a forma de suporte físico. (p. 411)
+> Esses traços se manifestam, com particular nitidez, em três modelos de negócios digitais: jogos operados como serviço, marketplaces e serviços de inteligência artificial fornecidos por plataforma. (p. 486)
+> em todos, a fruição depende da operação contínua de ambiente técnico-organizacional governado privadamente (p. 488)
+> Não se afirma, com isso, que toda mediação digital converta automaticamente qualquer bem em OIC. (p. 487)
+> A entrega inicial não esgota o cumprimento, e a execução continuada não apaga o objeto. (p. 444)
 
 ## b
 
@@ -88,7 +93,7 @@ O art. 4º, I, do CDC reconhece a vulnerabilidade do consumidor, que nos ambient
 
 ### cuidados
 
-A vulnerabilidade semiótica não é atributo genérico do digital nem presume incapacidade do consumidor. Exige governança do sentido que atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação. Articulada a outros elementos, pode fundamentar a redistribuição do ônus da prova.
+A vulnerabilidade semiótica não é atributo genérico do digital nem presume incapacidade do consumidor. Exige governança do sentido que atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação. Articulada a outros elementos, pode fundamentar a redistribuição do ônus da prova. A expressão vulnerabilidade digital nomeia o cenário em que a lesão ocorre, mas não isola o mecanismo. A vulnerabilidade semiótica mira a administração desigual do sentido e, por isso, disciplina melhor a prova e prepara melhor o remédio. Ela não é traço psicológico do consumidor, e sim mecanismo estrutural de poder.
 
 > A prova mínima exigível envolve reconstrução da jornada do usuário, da arquitetura informacional do ambiente, das saliências comunicacionais, dos caminhos de compreensão e dos registros disponíveis para reconstituir a formação da expectativa. (p. 744)
 > capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração (p. 607)
@@ -99,6 +104,11 @@ A vulnerabilidade semiótica não é atributo genérico do digital nem presume i
 > Não basta que o caso envolva interface, algoritmo ou ambiente online. É necessário que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição. (p. 721)
 > Tampouco se trata de pressupor incapacidade absoluta diante do digital. (p. 720)
 > quando articulada a outros elementos, fundamento para redistribuição dinâmica do ônus probatório (p. 744)
+> Ela nomeia o ambiente em que a lesão ocorre, mas não isola o mecanismo juridicamente relevante da assimetria. (p. 584)
+> A categoria mira um mecanismo, não um cenário. (p. 588)
+> O problema juridicamente relevante passa a ser a administração desigual do sentido (p. 588)
+> A categoria recorta melhor o mecanismo, disciplina melhor a prova e prepara melhor o remédio. (p. 590)
+> a vulnerabilidade semiótica não se confunde com traço psicológico do consumidor, sinônimo genérico de fragilidade digital ou mera descrição ambiental da vida em rede. Trata-se de mecanismo estrutural de poder (p. 501)
 
 ## c
 
@@ -172,15 +182,19 @@ Alteração relevante de acesso, desempenho, utilidade, regra de funcionamento o
 
 ### demonstrar
 
-Logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados, o suficiente para tornar a controvérsia cognoscível. Quase tudo isso está com o fornecedor, e por isso o caminho costuma ser pedir a exibição.
+Logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados, o suficiente para tornar a controvérsia cognoscível. Quase tudo isso está com o fornecedor, e por isso o caminho costuma ser pedir a exibição. Servem também os elementos atribuíveis ao fornecedor e publicamente recuperáveis, como registros de atualização, razões declaradas para as mudanças, políticas de acesso e critérios internos de sanção.
 
 ### fundamento
 
-A auditabilidade aberta é parâmetro, e não instituto estranho ao sistema. É desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do art. 6º do CDC. O regime de exibição de documento ou coisa dos arts. 396 a 400 do CPC é a via mais direta para operá-la.
+A auditabilidade aberta é parâmetro, e não instituto estranho ao sistema. É desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do art. 6º do CDC. O regime de exibição de documento ou coisa dos arts. 396 a 400 do CPC é a via mais direta para operá-la. Ela é o patamar mínimo de verificabilidade externa que transforma modulações opacas em matéria de contraditório, prova e decisão.
 
 ### cuidados
 
 O pedido precisa ser cirúrgico, e não uma pescaria processual. O requerimento indica, de modo tão completo quanto possível, o documento ou registro, a sua finalidade probatória e as circunstâncias que mostram que ele está com a parte, como o histórico de versões de um item, a trilha de telas da compra ou a categoria e o motivo da sanção. Se o fornecedor negar que possui o documento, o requerente pode demonstrar por outros meios que essa negativa não corresponde à verdade. Se a recusa for injustificada, o juiz pode admitir como verdadeiros os fatos que o documento provaria. O parâmetro não alcança qualquer ajuste microscópico. A auditabilidade não exige abertura integral do código-fonte nem afasta o exame tecnicamente delimitado sob proteção de sigilo.
+
+### caso
+
+No caso Vanguard, a proteção contra trapaças passou a depender de software carregado no núcleo do sistema operacional, iniciado com o computador e mantido como condição da fruição. A governança da plataforma chega, assim, ao próprio equipamento do consumidor. O interesse em preservar a integridade competitiva é legítimo, mas a questão é se ele basta para autorizar essa expansão sem controle reforçado. Os arts. 8º, 10 e 12 do CDC alcançam o risco que a arquitetura transfere ao equipamento, e o art. 6º da Lei nº 13.709/2018 exige finalidade, necessidade e transparência no tratamento de dados. O ponto não é afirmar a ilicitude automática do software, e sim recusar a sua imunização jurídica. Segurança alegada não substitui segurança juridicamente demonstrada, e a auditabilidade aberta impede que a plataforma se oculte atrás de opacidade técnica e de segredo industrial.
 
 > Sempre que alterações relevantes de acesso, desempenho, utilidade, regra de funcionamento ou sanção incidirem sobre a fruição sem preservação de trilhas mínimas de reconstrução institucional, haverá violação do parâmetro de auditabilidade aberta. (p. 745)
 > “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público” ou “não temos capacidade de reconstruir o procedimento” (p. 660)
@@ -195,12 +209,22 @@ O pedido precisa ser cirúrgico, e não uma pescaria processual. O requerimento 
 > autoriza o juiz a admitir como verdadeiros os fatos que o documento serviria para provar (p. 660)
 > Auditabilidade aberta não é exigível diante de qualquer ajuste microscópico, qualquer mudança cosmética ou qualquer oscilação irrelevante do serviço. (p. 642)
 > A exigência de auditabilidade aberta não se confunde com abertura integral do código-fonte nem com supressão do sigilo técnico do software. (p. 643)
+> entre os quais se incluem registros de atualização, racionalidades declaradas de mudança, políticas de acesso e critérios internos de sanção (p. 498-499)
+> Auditabilidade aberta designa o patamar mínimo de verificabilidade externa capaz de transformar modulações opacas em matéria suscetível de contraditório, prova e decisão. (p. 469)
+> O caso do anti-cheat Vanguard expõe, de forma particularmente nítida, uma mutação qualitativa na governança privada do objeto imaterial de consumo. (p. 520)
+> o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo (p. 521)
+> A questão jurídica séria nunca foi se existe interesse legítimo em preservar a integridade competitiva; claro que existe. A questão é outra: se esse interesse basta para autorizar, sem controle reforçado, a expansão do poder técnico do fornecedor sobre a base material do equipamento do consumidor. (p. 532)
+> O CDC não permite invisibilizar o Vanguard como se fosse mera opção de engenharia. (p. 532)
+> O ponto aqui não é afirmar automaticamente a ilicitude total do anti-cheat em kernel, mas recusar sua imunização jurídica. (p. 533)
+> O tratamento de dados vinculado ao Vanguard não pode ser justificado em bloco pela rubrica genérica de “segurança”, porque precisa observar finalidade legítima, específica, explícita e informada (p. 533)
+> Segurança alegada não substitui segurança juridicamente demonstrada. (p. 533)
+> o que reforça a necessidade de auditabilidade aberta como exigência mínima para que a plataforma não se oculte atrás de opacidade técnica e de segredo industrial (p. 499)
 
 ## f
 
 ### fatos
 
-Nerfs que esvaziam utilidade adquirida, remoção de funcionalidades relevantes, mudanças de interface que desorganizam o uso ordinário e redefinições de regras que rebaixam a equivalência prometida. O consumidor continua com a conta e com o acesso, mas a utilidade fruída foi substancialmente rebaixada.
+Nerfs que esvaziam utilidade adquirida, remoção de funcionalidades relevantes, mudanças de interface que desorganizam o uso ordinário e redefinições de regras que rebaixam a equivalência prometida. O consumidor continua com a conta e com o acesso, mas a utilidade fruída foi substancialmente rebaixada. A perda pode atingir a integridade funcional, ligada ao desempenho e à utilidade entregue, ou a integridade simbólica, ligada a pertencimento, reputação e distinção, quando esses elementos integram a prestação tal como oferecida.
 
 ### demonstrar
 
@@ -212,7 +236,7 @@ O art. 51, XIII, do CDC torna nula a cláusula que autoriza a modificação unil
 
 ### cuidados
 
-A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre as versões nem congela o serviço. Alterações predominantemente estéticas, em regra, ficam de fora, salvo quando integram um conjunto convergente de sinais que sustente o reconhecimento de ilícito arquitetural por indícios estruturais de teleologia abusiva. Não é preciso demonstrar domínio pleno sobre o objeto. A resposta prioriza recomposição funcional, reversão técnica, substituição equivalente e correção da forma de atualizar.
+A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre as versões nem congela o serviço. Alterações predominantemente estéticas, em regra, ficam de fora, salvo quando integram um conjunto convergente de sinais que sustente o reconhecimento de ilícito arquitetural por indícios estruturais de teleologia abusiva. Não é preciso demonstrar domínio pleno sobre o objeto. A resposta prioriza recomposição funcional, reversão técnica, substituição equivalente e correção da forma de atualizar. A pergunta decisiva não é se o item ainda existe em sentido formal, e sim se a equivalência prática do que foi adquirido continua reconhecível. Por isso substitutos simbólicos vazios não bastam como recomposição.
 
 > A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida, mudanças de interface que desorganizam o uso ordinário, redefinições de regras que rebaixam a equivalência do que foi prometido (p. 637)
 > O consumidor continua formalmente “dentro” do ecossistema, continua com a conta, continua vendo o objeto, continua podendo acessar a plataforma. Ainda assim, a utilidade fruída pode ser substancialmente rebaixada (p. 635)
@@ -229,6 +253,9 @@ A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas, salvo quando, no caso concreto, componham um conjunto convergente de sinais apto a sustentar reconhecimento objetivo de ilícito arquitetural por indícios estruturais de teleologia abusiva. (p. 434)
 > Não é preciso demonstrar domínio pleno sobre o objeto para sustentar que a fruição adquirida não pode ser rebaixada arbitrariamente. (p. 637)
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
+> A integridade funcional, ligada ao desempenho, às condições de uso e à utilidade efetivamente entregue. E a integridade simbólica, ligada a pertencimento, reputação, distinção e promessas de identidade mediadas por signos e equivalências internas do ambiente, quando esses elementos integram a prestação tal como oferecida e percebida. (p. 391)
+> a questão decisiva não é se algo “ainda existe” em sentido formal, mas se a equivalência prática do adquirido permanece reconhecível e operatória (p. 498)
+> deveres de recomposição que não se satisfaçam com substitutos simbólicos vazios (p. 498)
 
 ## g
 
@@ -242,7 +269,7 @@ Registros de sanção, fluxo de contestação, critérios mobilizados, dificulda
 
 ### fundamento
 
-O art. 39 do CDC veda práticas abusivas, inclusive deixar o cumprimento da obrigação ao exclusivo critério do fornecedor. A cláusula-barreira, que dificulta o exercício da pretensão sem justificativa plausível, contraria o art. 51, IV, do CDC. Conforme o caso, há defeito do serviço quando se compromete a segurança jurídica e procedimental da fruição.
+O art. 39 do CDC veda práticas abusivas, inclusive deixar o cumprimento da obrigação ao exclusivo critério do fornecedor. A cláusula-barreira, que dificulta o exercício da pretensão sem justificativa plausível, contraria o art. 51, IV, do CDC. Conforme o caso, há defeito do serviço quando se compromete a segurança jurídica e procedimental da fruição. A defesa do consumidor, como direito fundamental e princípio da ordem econômica, já basta para enquadrar formas privadas de governo que produzem efeitos amplos e reiterados sobre a fruição, ainda que não se confundam com poder estatal.
 
 ### cuidados
 
@@ -270,6 +297,7 @@ No caso dos presentes irregulares, a plataforma reagiu a fraudes de pagamento de
 > A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para transformar a fruição em tolerância absolutamente precária e para negar recomposição. (p. 617)
 > A quinta é a de assimetria probatória, com necessidade de preservação de trilhas, históricos de transação, origem dos itens removidos, critérios utilizados para rollback e justificativa individualizada das medidas adotadas. (p. 617)
 > restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição (p. 617)
+> A defesa do consumidor como direito fundamental e princípio da ordem econômica já oferece base suficiente para enquadrar, sem artificialidade, formas privadas de governo que produzem efeitos amplos e reiterados sobre a experiência de fruição, ainda que não se confundam com poder estatal. (p. 502)
 
 ## h
 
@@ -283,7 +311,7 @@ O padrão, a sua replicabilidade, a coordenação entre mecanismos e o impacto r
 
 ### fundamento
 
-O art. 39 do CDC veda práticas abusivas, como prevalecer-se da fraqueza do consumidor. O art. 51, IV, do CDC, lido a partir da cláusula-barreira, permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica. O art. 84 do CDC sustenta a tutela específica, e diante de padrão reiterado o sistema pede também tutela inibitória. O art. 29 do CDC alcança quem está exposto às práticas da plataforma.
+O art. 39 do CDC veda práticas abusivas, como prevalecer-se da fraqueza do consumidor. O art. 51, IV, do CDC, lido a partir da cláusula-barreira, permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica. O art. 84 do CDC sustenta a tutela específica, e diante de padrão reiterado o sistema pede também tutela inibitória. O art. 29 do CDC alcança quem está exposto às práticas da plataforma. O enquadramento no CDC passa por três portas. A primeira é o vício de qualidade, quando o programa produz perda relevante de adequação, continuidade ou equivalência da fruição. A segunda são as práticas abusivas, quando escassez artificial, urgência fabricada e fricções assimétricas operam de modo previsível e repetido. A terceira são as cláusulas abusivas, quando o programa ganha forma em termos, políticas e aceites predispostos. Não é preciso sair do CDC nem inventar um direito paralelo das plataformas.
 
 ### cuidados
 
@@ -312,6 +340,11 @@ Os cinco requisitos são cumulativos. São eles a teleologia inscrita no desenho
 > O quinto requisito é o efeito juridicamente relevante sobre o feixe de fruição. (p. 455)
 > A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total. (p. 455)
 > Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema. (p. 456)
+> O primeiro eixo de enquadramento recai sobre o vício de qualidade, sempre que o programa de funcionamento do serviço produz perda relevante de adequação, continuidade ou equivalência funcional da fruição. (p. 674)
+> O segundo eixo de enquadramento recai sobre as práticas abusivas, e é nele que a teleologia abusiva aparece com mais força como método reiterado de exploração. (p. 676)
+> Quando escassez artificial, urgência fabricada, ciclos de promessa, fabricação de risco, fricções assimétricas e reversibilidade dificultada operam de modo previsível e repetido (p. 676)
+> O terceiro eixo é o das cláusulas abusivas, sempre que o programa exploratório ganha institucionalização contratual em termos, políticas e aceites predispostos. (p. 677)
+> Ele não exige sair do CDC nem inventar um direito paralelo das plataformas. Vício, defeito, prática abusiva e cláusula abusiva continuam sendo as portas do sistema. (p. 679)
 
 ## i
 
@@ -361,7 +394,7 @@ O art. 5º, XXIX, da Constituição liga a proteção das criações industriais
 
 ### cuidados
 
-A propriedade intelectual continua válida no seu plano próprio e não é veto geral ao CDC. A compatibilização se faz por auditabilidade delimitada, com instrumentos que preservam o sigilo, como o segredo de justiça, pelo controle da equivalência funcional e pela sujeição do exercício da exclusividade aos deveres de adequação, transparência e recomposição. No encerramento do serviço ou no desligamento definitivo de servidores, a precariedade formal da licença não autoriza o sacrifício integral do que foi incorporado à trajetória do consumidor. A saída deve ser compatibilizada, tanto quanto técnica e juridicamente possível, com continuidade, portabilidade, recomposição funcional ou cessão da operação. A infraestrutura de propriedade intelectual também não é homogênea. Marcas, direitos autorais, software e sinais distintivos não conferem o mesmo tipo nem a mesma extensão de exclusividade, e por isso o controle técnico do ambiente não decorre de uma soberania unitária sobre a experiência consumida. A exclusividade não se confunde com imunidade contra a auditabilidade.
+A propriedade intelectual continua válida no seu plano próprio e não é veto geral ao CDC. A compatibilização se faz por auditabilidade delimitada, com instrumentos que preservam o sigilo, como o segredo de justiça, pelo controle da equivalência funcional e pela sujeição do exercício da exclusividade aos deveres de adequação, transparência e recomposição. No encerramento do serviço ou no desligamento definitivo de servidores, a precariedade formal da licença não autoriza o sacrifício integral do que foi incorporado à trajetória do consumidor. A saída deve ser compatibilizada, tanto quanto técnica e juridicamente possível, com continuidade, portabilidade, recomposição funcional ou cessão da operação. A infraestrutura de propriedade intelectual também não é homogênea. Marcas, direitos autorais, software e sinais distintivos não conferem o mesmo tipo nem a mesma extensão de exclusividade, e por isso o controle técnico do ambiente não decorre de uma soberania unitária sobre a experiência consumida. A exclusividade não se confunde com imunidade contra a auditabilidade. A propriedade intelectual só interessa aqui na medida em que organiza poder sobre a fruição. Ela não deve ser reduzida nem demonizada, mas a sua exclusividade não autoriza opacidade, mutabilidade oportunista ou blindagem contra controle.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
 > “são dados de uso interno”, “são informações não acessíveis ao público” (p. 660)
@@ -382,6 +415,9 @@ A propriedade intelectual continua válida no seu plano próprio e não é veto 
 > A infraestrutura de propriedade intelectual que sustenta a plataforma não é homogênea. Marcas, direitos autorais, software, sinais distintivos, interfaces e institutos conexos não conferem o mesmo tipo nem a mesma extensão de exclusividade. (p. 682)
 > O ordenamento brasileiro não autoriza tratar todo controle técnico do ambiente como se decorresse de uma soberania unitária e irrestrita sobre a experiência consumida. (p. 682)
 > A exclusividade não se confunde com imunidade contra auditabilidade. (p. 695)
+> A propriedade intelectual só interessa, aqui, na medida em que organiza poder sobre a fruição. (p. 680)
+> Nesse quadro, a propriedade intelectual não deve ser reduzida nem demonizada. (p. 680)
+> O ponto é apenas recusar sua leitura como autorização automática para opacidade, para mutabilidade oportunista ou para blindagem contra controle. (p. 680)
 
 ## k
 

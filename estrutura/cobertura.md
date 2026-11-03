@@ -6,7 +6,7 @@ Toda seção está no corpus, em texto integral. Esta tabela mostra em que outra
 
 116 de 116 seções já têm lugar em alguma camada. Faltam 0.
 
-Na Informação, 86 de 116 seções têm algum trecho condensado. Na Doutrina, 75 de 116.
+Na Informação, 95 de 116 seções têm algum trecho condensado. Na Doutrina, 86 de 116.
 
 As colunas Informação e Doutrina contam os trechos literais que os textos de cada modo condensam e que vêm da seção. Informação conta o percurso, as ideias e Seus direitos. Doutrina conta o Guia para operar e as fichas, e marca com integral as seções que a Doutrina traz inteiras, como as situações, as diretrizes e as plataformas.
 
@@ -52,36 +52,36 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 16 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 8 | 0 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
-| 5 | DO REGIME JURÍDICO DO OBJETO IMATERIAL DE CONSUMO (OIC) SOB A LEX PLATAFORMAE | 391 a 394 | 3 | 0 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
+| 5 | DO REGIME JURÍDICO DO OBJETO IMATERIAL DE CONSUMO (OIC) SOB A LEX PLATAFORMAE | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1 | Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo | 394 a 395 | 3 | 5 | Dogmática (Seções do capítulo 5); Atlas (Três leituras da tese) |
 | 5.1.1 | Da vulnerabilidade semiótica como conceito operativo | 395 a 407 | 29 | 2 | Fichas (Vulnerabilidade semiótica); Dogmática (Seções do capítulo 5) |
 | 5.1.2 | Do Objeto Imaterial de Consumo como conceito-infraestrutura | 407 a 411 | 17 | 4 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
-| 5.1.2.1 | Da relevância normativa do OIC e sua inserção na disciplina do consumo | 411 a 423 | 0 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
+| 5.1.2.1 | Da relevância normativa do OIC e sua inserção na disciplina do consumo | 411 a 423 | 1 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.2 | Da qualificação funcional do OIC e sua coerência sistemática ao CDC | 423 a 427 | 9 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.3 | Dos critérios de reconhecimento do OIC e dos limites de aplicação da categoria | 427 a 435 | 43 | 15 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados); Roteiro (O portão de entrada) |
-| 5.1.2.4 | Da fruição continuada e a utilidade da dicotomia produto-serviço no CDC | 435 a 444 | 6 | 0 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5) |
+| 5.1.2.4 | Da fruição continuada e a utilidade da dicotomia produto-serviço no CDC | 435 a 444 | 6 | 1 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5) |
 | 5.1.3 | Da teleologia abusiva e o ilícito de arquitetura em plataformas | 444 a 456 | 19 | 11 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 5) |
-| 5.1.4 | Da integridade pessoal, identidade simbólica e cidadania digital | 456 a 469 | 0 | 1 | Fichas (Integridade pessoal); Dogmática (Seções do capítulo 5) |
-| 5.1.5 | Da auditabilidade aberta e equivalência de valor funcional como critérios de legitimidade e de recomposição em serviços digitais contínuos | 469 a 482 | 10 | 0 | Fichas (Auditabilidade aberta, Equivalência de valor funcional); Dogmática (Seções do capítulo 5) |
-| 5.2 | Dos modelos de negócios de base digital e tipologia preliminar de Objetos Imateriais de Consumo | 482 a 484 | 0 | 0 | Dogmática (Seções do capítulo 5) |
-| 5.2.1 | Dos games-as-a-service, marketplaces e outros ecossistemas de OIC | 485 a 488 | 0 | 0 | Dogmática (Seções do capítulo 5) |
+| 5.1.4 | Da integridade pessoal, identidade simbólica e cidadania digital | 456 a 469 | 3 | 1 | Fichas (Integridade pessoal); Dogmática (Seções do capítulo 5) |
+| 5.1.5 | Da auditabilidade aberta e equivalência de valor funcional como critérios de legitimidade e de recomposição em serviços digitais contínuos | 469 a 482 | 10 | 1 | Fichas (Auditabilidade aberta, Equivalência de valor funcional); Dogmática (Seções do capítulo 5) |
+| 5.2 | Dos modelos de negócios de base digital e tipologia preliminar de Objetos Imateriais de Consumo | 482 a 484 | 1 | 1 | Dogmática (Seções do capítulo 5) |
+| 5.2.1 | Dos games-as-a-service, marketplaces e outros ecossistemas de OIC | 485 a 488 | 2 | 3 | Dogmática (Seções do capítulo 5) |
 | 5.2.2 | Das categorias de objetos imateriais de consumo em plataformas de jogos | 488 a 492 | 12 | 8 | Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
 | 5.2.3 | Do Marco Legal dos Jogos Eletrônicos e enquadramento preliminar | 493 a 496 | 1 | 1 | Dogmática (Seções do capítulo 5) |
-| 5.2.4 | Do locus ilustrativo à formulação de parâmetros gerais: o desnudamento arquitetural da Lex Plataformae | 497 a 499 | 1 | 0 | Fichas (Lex Plataformae); Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
-| 6 | DA TUTELA DA VULNERABILIDADE SEMIÓTICA DO CONSUMIDOR À LUZ DA ORDEM CONSTITUCIONAL E ECONÔMICA DO BRASIL | 501 a 502 | 1 | 0 | Dogmática (Abertura do capítulo 6) |
-| 6.1 | Da ordem econômica, da proteção do consumidor, e dos poderes de plataforma | 502 a 504 | 1 | 0 | Dogmática (Seções do capítulo 6) |
+| 5.2.4 | Do locus ilustrativo à formulação de parâmetros gerais: o desnudamento arquitetural da Lex Plataformae | 497 a 499 | 1 | 4 | Fichas (Lex Plataformae); Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
+| 6 | DA TUTELA DA VULNERABILIDADE SEMIÓTICA DO CONSUMIDOR À LUZ DA ORDEM CONSTITUCIONAL E ECONÔMICA DO BRASIL | 501 a 502 | 1 | 1 | Dogmática (Abertura do capítulo 6) |
+| 6.1 | Da ordem econômica, da proteção do consumidor, e dos poderes de plataforma | 502 a 504 | 1 | 1 | Dogmática (Seções do capítulo 6) |
 | 6.1.1 | Da matriz constitucional: a defesa do consumidor sob a ordem econômica brasileira | 504 a 512 | 2 | 6 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.1.2 | Da eficácia horizontal dos direitos fundamentais e a relevância pública dos poderes da Lex Plataformae | 512 a 520 | 2 | 4 | Fichas (Lex Plataformae); Dogmática (Seções do capítulo 6) |
-| 6.1.2.1 | Das fronteiras físicas da soberania: o Vanguard como caso de estudo | 520 a 534 | 4 | 0 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
+| 6.1.2.1 | Das fronteiras físicas da soberania: o Vanguard como caso de estudo | 520 a 534 | 4 | 7 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
 | 6.1.3 | Da integridade pessoal, identidade simbólica e continuidade biográfica como bens jurídicos de referência | 534 a 543 | 4 | 9 | Fichas (Integridade pessoal); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.1.4 | Da regulação setorial e o Marco Legal dos Jogos Eletrônicos | 543 a 548 | 4 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.2 | Do CDC como infraestrutura normativa do regime do OIC | 549 a 550 | 0 | 3 | Dogmática (Seções do capítulo 6) |
+| 6.2 | Do CDC como infraestrutura normativa do regime do OIC | 549 a 550 | 2 | 3 | Dogmática (Seções do capítulo 6) |
 | 6.2.1 | Do produto, serviço e vulnerabilidade fática sob o CDC | 550 a 557 | 1 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.1.1 | Da dicotomia produto-serviço, contratos cativos de longa duração e o fornecimento contínuo de OICs | 557 a 564 | 3 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.2 | Da doutrina dos bens digitais e o regime do Objeto Imaterial de Consumo | 565 a 574 | 11 | 1 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.2.3 | Do Objeto Imaterial de Consumo como concretização do produto imaterial do art. 3º, §1º do Código de Defesa do Consumidor | 574 a 579 | 0 | 3 | Fichas (Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
+| 6.2.3 | Do Objeto Imaterial de Consumo como concretização do produto imaterial do art. 3º, §1º do Código de Defesa do Consumidor | 574 a 579 | 3 | 3 | Fichas (Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4 | Da vulnerabilidade semiótica como forma contemporânea de vulnerabilidade fática | 579 a 584 | 1 | 1 | Fichas (Vulnerabilidade semiótica); Dogmática (Seções do capítulo 6) |
-| 6.2.4.1 | Da abstenção ao uso da terminologia “vulnerabilidade digital” | 584 a 590 | 3 | 0 | Dogmática (Seções do capítulo 6) |
+| 6.2.4.1 | Da abstenção ao uso da terminologia “vulnerabilidade digital” | 584 a 590 | 3 | 4 | Dogmática (Seções do capítulo 6) |
 | 6.2.4.1.1 | Da revisão crítica da literatura recente | 590 a 601 | 1 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.2 | Da linguagem, código e consentimento viciado por sentido | 601 a 605 | 4 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.3 | Da operacionalização da vulnerabilidade semiótica em OICs | 605 a 609 | 5 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
@@ -96,9 +96,9 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.4 | Da teleologia abusiva e ilícito de arquitetura em serviços digitais contínuos | 663 a 665 | 15 | 4 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6) |
 | 6.4.1 | Do ilícito de teleologia abusiva: vício de concepção e prática abusiva | 665 a 669 | 10 | 6 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.4.2 | Das técnicas de captura por escassez, risco e dependência | 669 a 674 | 11 | 1 | Dogmática (Seções do capítulo 6) |
-| 6.4.3 | Do enquadramento em vícios de qualidade, cláusulas e práticas abusivas | 674 a 679 | 0 | 3 | Dogmática (Seções do capítulo 6) |
-| 6.5 | Da função social da propriedade intelectual à governança semiótica dos objetos imateriais de consumo | 679 a 681 | 0 | 0 | Fichas (Função social da propriedade intelectual); Dogmática (Seções do capítulo 6) |
-| 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 0 | 3 | Dogmática (Seções do capítulo 6) |
+| 6.4.3 | Do enquadramento em vícios de qualidade, cláusulas e práticas abusivas | 674 a 679 | 6 | 8 | Dogmática (Seções do capítulo 6) |
+| 6.5 | Da função social da propriedade intelectual à governança semiótica dos objetos imateriais de consumo | 679 a 681 | 1 | 3 | Fichas (Função social da propriedade intelectual); Dogmática (Seções do capítulo 6) |
+| 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 1 | 3 | Dogmática (Seções do capítulo 6) |
 | 6.5.2 | Da tensão entre exclusividade, proteção do consumidor e integridade dos OICs | 695 a 703 | 5 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.5.3 | Da função social da propriedade intelectual em plataformas de OIC | 703 a 710 | 5 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 7 | DA TIPOLOGIA DOS MODELOS DE INCIDÊNCIA DO OBJETO IMATERIAL DE CONSUMO EM DIFERENTES CATEGORIAS FUNCIONAIS DE PLATAFORMA | 713 a 714 | 0 | integral | Laboratório (O teste) |

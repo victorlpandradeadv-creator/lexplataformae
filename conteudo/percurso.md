@@ -49,6 +49,17 @@ Licença, aqui, quer dizer permissão de uso. Revogável quer dizer que essa per
 
 ### texto
 
+E repare num detalhe que joga a seu favor. Os mesmos termos que falam em licença reconhecem que há um conteúdo virtual ligado à sua conta, feito de moeda do jogo, skins, emotes e outros itens. E admitem que você pode tê-lo comprado, ganhado ou recebido de presente.
+
+Isso ajuda a provar que o que você tem existe e pode ser identificado. O contrato mostra que o objeto está lá, mas não decide sozinho que regras valem para ele. E a lei do consumidor chama de produto também o que não tem corpo, de modo que a falta de um suporte físico não tira o item da proteção.
+
+> Os Termos de Serviço da Riot Games reconhecem expressamente um núcleo de “Conteúdo Virtual” associado à conta, composto por moeda do jogo, skins, emotes, acessórios e outros itens, e admitem que essa formação pode ocorrer por compra, ganho, presente ou outras dinâmicas internas do ecossistema. (p. 575)
+> A cláusula ajuda a provar a existência do objeto. Não esgota o seu regime. (p. 575)
+> A definição legal de produto no art. 3º, §1º, do CDC opera como cláusula de abrangência que impede a fuga da tutela protetiva quando o objeto não se apresenta sob a forma de suporte físico. (p. 411)
+> A lei não condiciona o produto à corporeidade, nem o prende à imagem da coisa tangível entregue de uma vez por todas. (p. 574)
+
+### texto
+
 Talvez você pense que a culpa é sua, por não ter lido. Não é esse o ponto. O que acontece é que o próprio jogo conduz a sua decisão com uma palavra que promete aquisição, enquanto guarda no contrato um regime que não corresponde ao sentido comum de comprar.
 
 E não adianta dizer que a informação estava lá. Uma informação pode existir no contrato e mesmo assim não orientar ninguém, quando é a tela que conduz a experiência na hora da escolha. Você decide pela gramática da compra, mas usa o que comprou pela gramática da licença revogável.
@@ -733,6 +744,14 @@ Cidadania digital, aqui, não é uma cartilha de bom comportamento na internet. 
 > Sua formulação permite tratar cidadania digital como grade operacional do que pode ser governado no ambiente conectado, sem transformar a discussão em culpa do usuário. (p. 380)
 > acesso digital (digital access), comércio digital (digital commerce), comunicação digital (digital communication) (p. 380)
 
+### texto
+
+E o que está em jogo também é você. Num jogo, o seu lugar depende de ser visto, reconhecido e de pertencer a um grupo, de modo que perder reputação, visibilidade ou reconhecimento não é um simples desagrado. Essa perda pode atingir o centro do que você usa mesmo quando o acesso continua, e o desafio é medi-la com critérios objetivos.
+
+> Em ecossistemas digitais, o valor ofertado e fruído não se exaure em utilidades instrumentais, porque depende de regimes de visibilidade, reconhecimento, pertencimento e reputação (p. 456)
+> O ponto que se impõe, agora, é definir perdas relevantes que não podem ser rebaixadas a “desagrado” nem tratadas como efeito colateral. (p. 456)
+> O problema é torná-las juridicamente tratáveis com recortes objetivos e critérios de controlabilidade, inclusive para capturar perdas que atingem o feixe de fruição mesmo quando não há interrupção total (p. 457)
+
 ### termo Categorias que acompanham a técnica
 
 Isso já aconteceu antes. No fim do século dezenove, a fotografia instantânea e os jornais em expansão passaram a invadir a vida das pessoas de um jeito que o direito antigo não alcançava. Foi aí que se defendeu um direito à privacidade, o direito de ser deixado em paz.
@@ -1189,6 +1208,19 @@ Não é qualquer chateação que chega a esse ponto, e por isso é preciso mostr
 > Em hipóteses qualificadas, a perda de conta, histórico ou trajetória pode configurar dano moral por lesão à personalidade, especialmente quando atinge de modo objetivável continuidade biográfica, pertencimento institucionalizado no ecossistema ou lastros relevantes de reputação e memória, e não mero dissabor subjetivo. (p. 541)
 > Quando tudo muda e o consumidor não se sente o mesmo, não se trata de drama subjetivo ou mero dissabor. É a consequência previsível de um regime em que o valor de uso, o valor simbólico e a continuidade da fruição ficam sujeitos à governança de terceiros. (p. 21)
 
+### texto
+
+E a lei do consumidor já tem as portas para isso. Quando o desenho tira utilidade do que você comprou, a porta é o vício, que é o defeito de qualidade. Quando ele empurra a sua escolha com escassez inventada, pressa fabricada e dificuldades só para um lado, a porta é a prática abusiva. E quando tudo isso vira regra escrita nos termos, a porta é a cláusula abusiva.
+
+Não é preciso inventar um direito novo para as plataformas. O que muda é o que essas portas passam a enxergar, que deixa de ser só o episódio e passa a ser o padrão que produz a perda.
+
+> O primeiro eixo de enquadramento recai sobre o vício de qualidade, sempre que o programa de funcionamento do serviço produz perda relevante de adequação, continuidade ou equivalência funcional da fruição. (p. 674)
+> O segundo eixo de enquadramento recai sobre as práticas abusivas, e é nele que a teleologia abusiva aparece com mais força como método reiterado de exploração. (p. 676)
+> Quando escassez artificial, urgência fabricada, ciclos de promessa, fabricação de risco, fricções assimétricas e reversibilidade dificultada operam de modo previsível e repetido (p. 676)
+> O terceiro eixo é o das cláusulas abusivas, sempre que o programa exploratório ganha institucionalização contratual em termos, políticas e aceites predispostos. (p. 677)
+> Ele não exige sair do CDC nem inventar um direito paralelo das plataformas. (p. 679)
+> É assim que o controle jurídico deixa de mirar apenas o episódio e passa a atingir o padrão de governança que produz, reforça ou normaliza a lesão. (p. 679)
+
 ### pergunta
 
 Se a lei precisa enxergar tudo isso, ela já tem como?
@@ -1210,6 +1242,9 @@ Talvez você esteja pensando que falta uma lei nova, só para jogos e plataforma
 A ideia de objeto imaterial de consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ela é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
 
 > Em vez de propor um microssistema regulatório autônomo para “jogos eletrônicos” ou “plataformas digitais”, o que se está a propor é uma demonstração de que o Objeto Imaterial de Consumo é uma forma de atualização interpretativa que, em termos dogmáticos, já é interna ao próprio CDC e derivada dos princípios constitucionais que o informam (p. 36)
+> Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal. (p. 549)
+> O CDC já oferece linguagem suficiente para enfrentar esse problema, desde que se aceite que, no consumo digital contínuo, governar o ambiente é governar a própria fruição. (p. 550)
+
 
 ### termo Vulnerabilidade do consumidor
 
@@ -1275,10 +1310,15 @@ A Constituição protege invenções, marcas e outras criações. Mas ela amarra
 
 Por isso, ser dono da obra não basta, sozinho, para justificar mudar sem limite o que você usa, decidir em segredo ou punir sem chance de contestação. A propriedade intelectual recebe da Constituição uma moldura com finalidade, e não um cheque em branco. A empresa continua dona do jogo, mas exerce esse direito dentro dessa moldura.
 
+Ela também não fica do lado de fora. Na prática, a propriedade intelectual ajuda a montar o próprio ambiente, porque é por ela que a plataforma define o que pode ser acessado, mantido, mudado, retirado e contestado.
+
 > o art. 5º, XXIX não outorga prerrogativa patrimonial autojustificada, nem protege a exclusividade como fim em si. (p. 702)
 > subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
 > A disciplina infraconstitucional da propriedade intelectual patrimonial não recebe, portanto, um cheque em branco constitucional; recebe uma moldura finalística. (p. 702)
 > Assim, a mera titularidade de um direito de PI não basta para legitimar, por si só, mutabilidade unilateral da fruição, opacidade decisória, sanção privada incontrastável ou destruição de utilidades incorporadas ao vínculo de consumo contínuo. (p. 702-703)
+> Opera, na prática, como parte da infraestrutura jurídica pela qual a plataforma define o que pode ser acessado, mantido, alterado, retirado, auditado e contestado. (p. 680)
+> Eles não operam apenas como escudos patrimoniais destacados da experiência de consumo, mas como técnicas jurídicas de organização do próprio ambiente em que a fruição se torna possível, reconhecível e economicamente explorável. (p. 681)
+
 
 ### texto
 
@@ -1464,6 +1504,9 @@ O jogo foi o ponto de partida porque ali tudo aparece mais nítido. A conta, a m
 
 > como a indústria do entretenimento interativo, em razão da prestação contínua que a caracteriza, opera como superfície ostensiva de exposição da Lex Plataformae (p. 497)
 > fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
+> Esses traços se manifestam, com particular nitidez, em três modelos de negócios digitais: jogos operados como serviço, marketplaces e serviços de inteligência artificial fornecidos por plataforma. (p. 486)
+> O recorte por plataformas de jogos eletrônicos atende a razão metodológica, e não a preferência temática. Esses ecossistemas tendem a concentrar, em alta resolução, elementos definidores do regime do OIC (p. 484)
+
 
 ### texto
 
@@ -1525,6 +1568,8 @@ A pergunta é sempre a mesma, em qualquer lugar. Dá para saber o que foi promet
 
 > nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição (p. 755)
 > Nem toda relação economicamente mediada por tecnologia justificará incidência do CDC. (p. 780)
+> Não se afirma, com isso, que toda mediação digital converta automaticamente qualquer bem em OIC. (p. 487)
+
 
 ### pergunta
 
