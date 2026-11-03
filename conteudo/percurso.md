@@ -1239,7 +1239,7 @@ Mais do que parece, porque o espaço estava aberto desde 1990.
 
 Talvez você esteja pensando que falta uma lei nova, só para jogos e plataformas digitais. Não é bem assim. O que falta, na maior parte dos casos, é ler a lei que já existe com os olhos certos.
 
-A ideia de objeto imaterial de consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ela é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
+A ideia de Objeto Imaterial de Consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ela é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
 
 > Em vez de propor um microssistema regulatório autônomo para “jogos eletrônicos” ou “plataformas digitais”, o que se está a propor é uma demonstração de que o Objeto Imaterial de Consumo é uma forma de atualização interpretativa que, em termos dogmáticos, já é interna ao próprio CDC e derivada dos princípios constitucionais que o informam (p. 36)
 > Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal. (p. 549)
