@@ -490,7 +490,7 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
   .degraus { flex: 1; }
   .degraus label { flex: 1; padding: 0 0.5rem; font-size: 0.85rem; }
 }
-:is(body.desnudo, body:has(#nivel-2:checked)) .faixa { padding-inline: 0.5rem; margin-top: 1.7rem; }
+:is(body.desnudo, body:has(#nivel-2:checked)) .faixa { padding-inline: 0.75rem; margin-top: 1.7rem; }
 .nome-conceito { line-height: 1.3; }
 .ext-cabeca h1 { line-height: 1.3; }
 .titulo-interno { line-height: 1.3; }
@@ -513,8 +513,8 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
 .didatico.imagem { padding: 0.2rem 0 0.2rem 1.25rem; border-left: 3px solid var(--acento); border-radius: 0; }
 .didatico.imagem > p:not(.rotulo-ext) { font-style: italic; }
 .didatico.mecanismo { background: var(--folha); border: 1px solid var(--linha); }
-.didatico.caso { background: var(--folha); border: 1px solid var(--linha); border-top: 3px solid var(--tinta); }
-.termo { padding-left: 1.25rem; border-left: 3px solid var(--linha); }
+.didatico.caso { background: var(--folha); border: 1px solid var(--linha); border-top: 3px solid var(--tinta); border-radius: 0; }
+.termo { padding-left: 1.25rem; border-left: 2px solid var(--linha); }
 .nome-termo { margin: 0; display: grid; gap: 0.3rem; font-family: var(--f-display); font-stretch: 106%; font-weight: 720; font-size: clamp(1.2rem, 2.6vw, 1.45rem); line-height: 1.3; color: var(--tinta); }
 .nome-termo a, .nome-conceito a { color: inherit; text-decoration-thickness: 1px; }
 .ext p.ver-ideia { font-family: var(--f-display); font-size: 0.95rem; font-weight: 650; }
@@ -576,7 +576,8 @@ body:has(#nivel-2:checked) .campo { background-image: none; }
 .cartao-ideia:hover { border-color: var(--tese-linha); }
 .nome-conceito { color: var(--tinta); }
 .nome-conceito > a, .nome-conceito > .chapado, .nome-termo > .nome-derivado { justify-self: start; }
-.nome-ext { border-left: 6px solid var(--tese); }
+/* Auditoria de design de 03/11/2026. O nome em destaque já vem chapado na cor da tese, e a caixa ganha só o contorno nessa cor, sem filete lateral. */
+.nome-ext { border-color: var(--tese-linha); }
 .nome-derivado {
   color: var(--tese-texto); box-shadow: inset 0 0 0 1.5px var(--tese-linha); padding: 0.05em 0.35em;
   box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 1px;
@@ -585,7 +586,7 @@ body:has(#nivel-2:checked) .campo { background-image: none; }
 
 /* Áreas reconhecíveis por nome e cor nos três modos. */
 .area-rotulo { font-family: var(--f-dado); font-size: 0.95rem; letter-spacing: normal; text-transform: none; color: var(--area-t, var(--tinta-2)); }
-.termo[style*="--area"] { border-left: 4px solid var(--area); }
+.termo[style*="--area"] { border-left: 2px solid var(--area); }
 .termo[style*="--area"] .nome-termo { color: var(--area-t); }
 .termo .area-rotulo { display: block; margin-top: 0.3rem; }
 .termo[id] { scroll-margin-top: 1.5rem; }
@@ -605,7 +606,7 @@ body:not(:has(#nivel-2:checked)):not(:has(.texto-integral)) .nota-ref { display:
   background: var(--inv-papel); color: var(--inv-tinta); box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
   font-family: var(--f-dado); font-size: 0.75rem; line-height: 1.45; font-style: normal; font-weight: 400; text-transform: none; letter-spacing: 0;
 }
-.balao-ref .balao-autoria { font-family: var(--f-display); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.balao-ref .balao-autoria { font-family: var(--f-display); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.01em; }
 .balao-ref .balao-acoes { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; align-items: center; }
 .balao-ref button {
   font-family: var(--f-display); font-weight: 700; font-size: 0.75rem; color: inherit; background: transparent; cursor: pointer;
@@ -626,7 +627,7 @@ body:not(:has(#nivel-2:checked)):not(:has(.texto-integral)) .nota-ref { display:
 .lei-rotulo .volta { text-decoration: none; font-family: var(--f-dado); font-weight: 400; }
 .lei-texto { margin: 0; padding-left: 0.9rem; border-left: 2px solid var(--a-direito); font-size: 0.98rem; line-height: 1.5; }
 .lei-texto p { margin: 0 0 0.3rem; }
-.lei-fonte { margin: 0; font-family: var(--f-dado); font-size: 0.72rem; color: var(--tinta-2); }
+.lei-fonte { margin: 0; font-family: var(--f-dado); font-size: 0.75rem; color: var(--tinta-2); }
 .lei-fonte.acrescimo { color: var(--tinta); }
 .legislacao .lei-grupo { display: grid; gap: 0.75rem; padding-top: 1.25rem; border-top: 1px solid var(--linha); scroll-margin-top: 4rem; }
 .legislacao .lei-grupo > h2 { font-family: var(--f-display); font-weight: 750; font-size: 1.3rem; letter-spacing: 0; text-transform: none; color: var(--tinta); }
@@ -650,7 +651,7 @@ body:has(#nivel-2:checked) .cita-grupo { text-decoration: underline; text-decora
 :is(.cita-grupo, .cita-sinal) > .balao-ref { left: 0; right: auto; top: calc(100% + 0.25rem); font-size: 0.75rem; }
 .balao-autores { gap: 0.6rem; min-width: min(18rem, 80vw); }
 .balao-ref { white-space: normal; }
-.balao-item { display: grid; gap: 0.15rem; padding-left: 0.55rem; border-left: 3px solid var(--area); }
+.balao-item { display: grid; gap: 0.15rem; padding-left: 0.55rem; border-left: 2px solid var(--area); }
 .balao-item .balao-autoria { color: inherit; }
 .balao-item a { justify-self: start; }
 
@@ -670,22 +671,22 @@ body { font-family: var(--f-display); font-size: 1.06rem; line-height: 1.6; }
 .chip-area::before { content: ""; width: 0.9rem; height: 0.9rem; border-radius: 2px; background: var(--area); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--area-t) 30%, transparent); }
 .fichas { display: grid; gap: 0.9rem; }
 .ficha {
-  margin: 0; background: var(--f-papel); color: var(--f-tinta); border-top: 6px solid var(--area); border-radius: 2px;
+  margin: 0; background: var(--f-papel); color: var(--f-tinta); border-top: 6px solid var(--area); border-radius: 0;
   padding: 0.6rem 0.9rem 0.6rem; display: grid; gap: 0.35rem; max-width: var(--medida);
 }
-.ficha .autor { font-family: var(--f-display); font-size: 0.68rem; font-weight: 750; letter-spacing: 0.07em; text-transform: uppercase; color: var(--area-t); }
+.ficha .autor { font-family: var(--f-display); font-size: 0.8rem; font-weight: 750; letter-spacing: 0.01em; color: var(--area-t); }
 .ficha blockquote { margin: 0; font-size: 1rem; line-height: 1.6em; background-image: linear-gradient(to bottom, transparent calc(1.6em - 1px), var(--f-pauta) calc(1.6em - 1px)); background-size: 100% 1.6em; }
 .ficha blockquote p { margin: 0; }
-.ficha .ref { margin: 0; font-family: var(--f-dado); font-size: 0.7rem; border-top: 1px dashed var(--f-tinta-2); padding-top: 0.35rem; }
+.ficha .ref { margin: 0; font-family: var(--f-dado); font-size: 0.75rem; border-top: 1px dashed var(--f-tinta-2); padding-top: 0.35rem; }
 .ficha .ref a { color: var(--f-tinta-2); text-decoration: none; }
 .ficha .ref a:hover { text-decoration: underline; }
-.autor-citado .folha-cabeca h1 { border-left: 8px solid var(--area); padding-left: 0.6rem; }
+.autor-citado .folha-cabeca h1::before { content: ""; display: block; width: 2.5rem; height: 6px; background: var(--area); margin-bottom: 0.75rem; }
 .refs-autor { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.5rem; font-family: var(--f-texto); font-size: 0.98rem; overflow-wrap: anywhere; }
 .area-autores { border-top: 4px solid var(--area); padding-top: 0.75rem; }
 .area-autores h2 { color: var(--area-t) !important; }
 .lista-autores { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-family: var(--f-display); }
 .lista-referencias { margin: 0; padding-left: 2.6rem; display: grid; gap: 0.9rem; }
-.lista-referencias li { scroll-margin-top: 4rem; padding-left: 0.6rem; border-left: 3px solid var(--area); }
+.lista-referencias li { scroll-margin-top: 4rem; padding-left: 0.6rem; border-left: 2px solid var(--area); }
 .lista-referencias li:target { background: var(--acento-suave); }
 .lista-referencias .entrada { margin: 0; font-family: var(--f-texto); font-size: 0.98rem; line-height: 1.5; overflow-wrap: anywhere; }
 .meta-ref { margin: 0.2rem 0 0; display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; align-items: center; font-family: var(--f-display); font-size: 0.82rem; }
@@ -694,7 +695,7 @@ body { font-family: var(--f-display); font-size: 1.06rem; line-height: 1.6; }
 /* Objeto e instrumentos. */
 .movimento-geral { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.4rem; }
 .movimento-geral > div { border-top: 6px solid var(--area); background: var(--folha); border-left: 1px solid var(--linha); border-right: 1px solid var(--linha); border-bottom: 1px solid var(--linha); padding: 0.5rem 0.6rem 0.6rem; }
-.movimento-geral small { display: block; font-family: var(--f-dado); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--tinta-2); }
+.movimento-geral small { display: block; font-family: var(--f-dado); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--tinta-2); }
 .movimento-geral b { font-family: var(--f-display); font-size: 0.88rem; line-height: 1.3; display: block; }
 @media (max-width: 640px) { .movimento-geral { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .etapa { border-top: 4px solid var(--area, var(--linha)); padding-top: 0.8rem; }
@@ -723,13 +724,13 @@ h2.direito-titulo { font-size: 1.5rem; }
 .direito-parte { display: grid; gap: 0.65rem; }
 .direito-parte dt { font-family: var(--f-display); font-size: 1.125rem; font-weight: 700; letter-spacing: normal; text-transform: none; color: var(--tinta); display: block; line-height: 1.4; }
 .direito-parte dd { margin: 0; display: grid; gap: 0.6rem; }
-.direito-parte.parte-pedir dd { border-left: 3px solid var(--tese); padding-left: 0.85rem; }
+.direito-parte.parte-pedir dd { border-left: 2px solid var(--tese); padding-left: 0.85rem; }
 .direito-parte.parte-limite dd p { color: var(--tinta); }
 .ver-direitos, .ver-situacao { font-family: var(--f-display); font-size: 0.95rem; font-weight: 650; margin: 0; }
 .direitos-indice ol { display: grid; gap: 0.35rem; padding-left: 1.4rem; margin: 0; max-width: var(--medida); }
 .direitos-indice a { display: inline-flex; min-height: 32px; align-items: center; }
 .direitos-pagina .direito { scroll-margin-top: 1rem; }
-.didatico.teste { background: var(--folha); border: 1px solid var(--linha); border-left: 3px solid var(--tese); }
+.didatico.teste { background: var(--acento-suave); border: 1px solid var(--linha); }
 @media (max-width: 640px) { .direito { padding: 1rem; } .direitos-indice a { min-height: 44px; } }
 
 /* Por problema. A lista de problemas não tem número, e cada página junta blocos do percurso e direitos. Rascunho de 03/11/2026. */
@@ -766,7 +767,6 @@ body { padding-bottom: 4.5rem; }
 /* Auditoria de 27/10/2026. As fichas de autor ficam retas, e o sobrenome do autor nas citações não fica abaixo de 11px. */
 .ficha { border-radius: 0; }
 body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
-.didatico.teste { border-radius: 0 var(--raio) var(--raio) 0; }
 /* Com o nome maior, o menu desce para a segunda linha até 900px, e o bloco do texto integral fica no alto, à direita. */
 @media (max-width: 900px) { .topo-marca { order: 1; } .integral { order: 2; margin-left: auto; } .menu-modo { order: 3; flex-basis: 100%; } }
 
@@ -776,7 +776,7 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .operar-parte { display: grid; gap: 0.65rem; }
 .operar-parte dt { font-family: var(--f-display); font-size: 1.125rem; font-weight: 700; letter-spacing: normal; text-transform: none; color: var(--tinta); display: block; line-height: 1.4; }
 .operar-parte dd { margin: 0; display: grid; gap: 0.6rem; max-width: var(--medida); }
-.operar-parte.parte-fundamento dd { border-left: 3px solid var(--tese); padding-left: 0.85rem; }
+.operar-parte.parte-fundamento dd { border-left: 2px solid var(--tese); padding-left: 0.85rem; }
 .roteiro .rotulo-quadro { margin: 0.5rem 0 0; }
 .roteiro .como-usar p { max-width: var(--medida); }
 @media (max-width: 640px) { .roteiro .operar { padding: 1rem; } }
@@ -795,13 +795,16 @@ body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display
 /* Consulta dos conceitos por área, com retorno ao contexto do percurso. */
 .instrumentos-indice { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
 .instrumentos-indice a { min-height: 44px; display: inline-flex; align-items: center; font-size: 1rem; }
-.instrumentos-area { border-left: 4px solid var(--area, var(--tese-linha)); padding-left: 1.25rem; scroll-margin-top: 1.5rem; }
-.instrumentos-area > h2 { color: var(--area-t, var(--tese-texto)); }
+.instrumentos-area { border-left: 2px solid var(--area, var(--tese-linha)); padding-left: 1.25rem; scroll-margin-top: 1.5rem; }
+.instrumentos-area > h2 { color: var(--area-t, var(--tese-texto)); font-size: clamp(1.35rem, 3vw, 1.6rem); }
 .instrumentos-lista { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 2rem; }
 .instrumentos-lista h3 { font-family: var(--f-display); font-size: 1.125rem; color: var(--area-t, var(--tese-texto)); margin: 0; }
 .instrumentos-lista p { margin: 0.3rem 0 0; }
 .instrumentos-lista a { display: inline-block; padding-block: 0.4rem; }
 @media (max-width: 640px) { .instrumentos-lista { grid-template-columns: 1fr; } }
+
+/* Auditoria de design de 03/11/2026. Em Objeto e instrumentos, cada etapa tem título de seção, maior que o texto, e não rótulo pequeno. */
+.objeto-instrumentos .etapa > h2 { font-family: var(--f-display); font-size: clamp(1.3rem, 2.6vw, 1.5rem); font-weight: 720; letter-spacing: normal; text-transform: none; line-height: 1.3; color: var(--area-t, var(--tinta)); }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
