@@ -96,7 +96,7 @@ Isso não quer dizer que todo jogo complicado viole direitos, nem que você seja
 > Quem controla a forma pela qual o objeto é tornado inteligível frequentemente controla também os registros pelos quais essa inteligibilidade pode ser reconstruída em caso de conflito. (p. 720)
 > O dever correspondente é o de não organizar a experiência por meio de assimetria estrutural de sentido incompatível com boa-fé, transparência e legibilidade da fruição. (p. 744)
 > A prova mínima exigível envolve reconstrução da jornada do usuário, da arquitetura informacional do ambiente, das saliências comunicacionais, dos caminhos de compreensão e dos registros disponíveis para reconstituir a formação da expectativa. (p. 744)
-> capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
+> A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
 > O relevante aí não é a memória subjetiva do usuário (p. 607)
 > A qualificação jurídica possível pode sustentar prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante e, quando articulada a outros elementos, fundamento para redistribuição dinâmica do ônus probatório. (p. 744)
 > A consequência institucional consiste em reconduzir o conflito à governança do ambiente, evitando moralização da conduta do consumidor e permitindo incidência de deveres reforçados de informação, publicidade e prova. (p. 744)
@@ -221,7 +221,7 @@ Não é qualquer ajuste pequeno, mudança só de aparência ou oscilação sem i
 > Sempre que alterações relevantes de acesso, desempenho, utilidade, regra de funcionamento ou sanção incidirem sobre a fruição sem preservação de trilhas mínimas de reconstrução institucional, haverá violação do parâmetro de auditabilidade aberta. (p. 745)
 > O dever de fornecimento correspondente é o de manter verificabilidade mínima sobre o que foi alterado, quando o foi, por que motivo foi justificado e quais efeitos funcionalmente relevantes produziu. (p. 745)
 > É por essa razão que auditabilidade aberta deve ser entendida como desdobramento interno do dever de informação e não como instituto estranho ao microssistema. (p. 641)
-> um desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do consumidor (p. 648)
+> Um standard de verificabilidade mínima, compatível com a proteção do software e do segredo empresarial, mas incompatível com a blindagem opaca da execução; um desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do consumidor (p. 648)
 > A exigência de auditabilidade aberta não se confunde com abertura integral do código-fonte nem com supressão do sigilo técnico do software. (p. 643)
 > A prova mínima exigível consiste em logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados suficientes para tornar a controvérsia cognoscível. (p. 745)
 > A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou sanção com base em inteligibilidade institucional mínima. (p. 745)
@@ -265,7 +265,7 @@ Em primeiro lugar, que a função volte. Isso pode ser desfazer a mudança quand
 A plataforma pode atualizar o jogo, e ninguém exige que o item fique idêntico para sempre nem que o jogo pare no tempo. Muitas mudanças são, de fato, a evolução natural do ambiente. O problema é a mudança que joga sobre você o custo de piorar de forma séria o que você comprou, sem uma recomposição à altura.
 
 > Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional. (p. 745)
-> nerfs que esvaziam utilidade adquirida (p. 637)
+> A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida (p. 637)
 > O consumidor continua formalmente “dentro” do ecossistema, continua com a conta, continua vendo o objeto, continua podendo acessar a plataforma. Ainda assim, a utilidade fruída pode ser substancialmente rebaixada (p. 635)
 > O dever de fornecimento correspondente é o de preservar, em termos substanciais, o papel funcional, relacional e, quando juridicamente relevante, simbólico do objeto na experiência do consumidor. (p. 745)
 > A prova mínima exigível requer demonstração da utilidade anteriormente incorporada ao vínculo, da mudança ocorrida, do impacto funcional concreto da alteração e da insuficiência de eventual recomposição oferecida. (p. 745-746)
@@ -273,7 +273,7 @@ A plataforma pode atualizar o jogo, e ninguém exige que o item fique idêntico 
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
 > Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
 > O que o parâmetro recusa não é a mudança em si, mas sua instrumentalização para transferir ao consumidor o custo de reconfigurações que destroem ou rebaixam significativamente a utilidade adquirida sem recomposição compatível. (p. 730)
-> costumam ser narrados como evolução natural do ambiente. Em muitos casos, de fato, podem sê-lo. (p. 730)
+> Nerfs, remoções, reworks, migrações, mudanças de regra, reordenação de acessos, reconfiguração de interfaces e supressão de funcionalidades costumam ser narrados como evolução natural do ambiente. Em muitos casos, de fato, podem sê-lo. (p. 730)
 
 ### partes
 
@@ -314,8 +314,8 @@ A plataforma tem poder de punir, mas ter esse poder não basta. A punição prec
 > A prova mínima exigível recai sobre registros de sanção, fluxo de contestação, critérios mobilizados, dificuldades estruturais de reversão e impactos concretos da medida sobre a continuidade da experiência. (p. 746)
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 > Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
-> uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas (p. 211)
-> o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
+> Soma-se uma arquitetura de recompensa, com sistemas de progressão e grind, e uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas (p. 211)
+> [...] inclusive ao chamado Conteúdo Virtual, ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
 
 ### partes
 
@@ -398,7 +398,7 @@ Isso não dispensa você de contar uma história coerente, que pareça verdadeir
 
 > Sempre que a plataforma concentrar os elementos essenciais para narrar, demonstrar e reconstruir o conflito, a disciplina probatória deverá reconhecer que a verificabilidade integra o próprio regime legítimo do fornecimento. (p. 747)
 > O dever correspondente é o de preservar e exibir registros mínimos necessários à reconstrução do evento controvertido. (p. 747)
-> do ponto de vista do consumidor, consiste em apresentação plausível da experiência lesiva, de sua inserção no ecossistema e dos elementos de contexto acessíveis (p. 747)
+> A prova mínima exigível, do ponto de vista do consumidor, consiste em apresentação plausível da experiência lesiva, de sua inserção no ecossistema e dos elementos de contexto acessíveis (p. 747)
 > do ponto de vista do fornecedor, exige-se exibição de trilhas, logs, históricos, versões e justificativas tecnicamente delimitadas (p. 747)
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 > A qualificação jurídica possível envolve redistribuição dinâmica do ônus da prova, presunções favoráveis ao consumidor e reforço do dever de cooperação (p. 747)
@@ -440,7 +440,7 @@ Que a lei do consumidor continue valendo. Na prática, isso pode significar um e
 Os direitos de propriedade intelectual sobre o jogo, a arte e o código continuam protegidos. Ninguém pede que a empresa abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
-> subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
+> Ao contrário, subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
 > Nesse cenário, a propriedade intelectual comparece como infraestrutura de governança semiótica e técnica. Ela não apenas protege criações, mas contribui para delimitar usos, restringir reconfigurações e consolidar a autoridade do fornecedor sobre as condições de fruição (p. 130)
 > Licenças e restrições técnicas não são tratadas apenas como conteúdo contratual (p. 54)
 > que delimita o que pode ser usado, por quanto tempo, em que condições (p. 54)
@@ -485,7 +485,7 @@ O dinheiro não sai da conversa. A indenização continua possível, inclusive p
 > Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração. (p. 748)
 > O dever correspondente é o de estruturar a tutela em conformidade com a natureza da perda, mirando a fruição afetada e não apenas sua tradução monetária residual. (p. 748)
 > A prova mínima exigível envolve demonstração do nexo entre o mecanismo de governança e a perda funcional, bem como da possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental. (p. 748)
-> restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente, ajustes de governança, tutela inibitória e correção estrutural quando o dano revelar padrão repetível (p. 748)
+> A qualificação jurídica possível varia conforme a incidência principal do caso, mas a consequência institucional deve privilegiar restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente, ajustes de governança, tutela inibitória e correção estrutural quando o dano revelar padrão repetível (p. 748)
 > Nessas hipóteses, a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes. O que se recusa é sua transformação em resposta automática e preferencial em qualquer hipótese, como se a lesão ao OIC pudesse ser sempre adequadamente traduzida em cifra sem consideração pela estrutura da fruição comprometida. (p. 742)
 
 ### partes

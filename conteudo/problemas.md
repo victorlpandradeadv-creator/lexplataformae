@@ -16,7 +16,7 @@ Minha conta foi bloqueada ou banida. E o que eu comprei?
 
 Perder a conta é perder também o acesso ao que você comprou dentro dela. A plataforma pode punir, mas a punição precisa ter um motivo que se possa conferir e deixar espaço para a sua defesa.
 
-> o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
+> [...] inclusive ao chamado Conteúdo Virtual, ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
 > Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
 > O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição. (p. 746)
 
@@ -43,7 +43,7 @@ O item que eu comprei mudou numa atualização. E agora?
 
 Atualizar o jogo faz parte do serviço. A pergunta é se a atualização tirou do item a função que fez você comprar, porque, nesse caso, a primeira resposta é devolver essa função ou trocar por algo equivalente.
 
-> mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
+> Essa formulação dá o encaixe fino para a equivalência de valor funcional: mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
 > Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
 > Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional. (p. 745)
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
@@ -72,11 +72,11 @@ Um item que recebi de presente foi retirado da minha conta. E agora?
 
 Quando a troca de presentes é uma função oficial do jogo, a fraude que passa por ela é um risco do próprio negócio, e não de quem recebeu. Sem prova contra você em particular, cabe pedir de volta o que foi retirado.
 
-> a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio (p. 610)
+> Ao contrário, a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio (p. 610)
 > Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão (p. 610)
 > O risco passa a integrar o círculo profissional da própria operação econômica. (p. 611)
 > O ponto dogmático central, porém, é que esse vocabulário contratual não basta para converter o consumidor em destinatário legítimo do risco sistêmico. (p. 615)
-> restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta (p. 617)
+> O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta (p. 617)
 
 ### blocos
 

@@ -469,7 +469,7 @@ body { padding-bottom: 6.5rem; }
 @media (max-width: 640px) { .ext p.pergunta-final { font-size: 1.2rem; } }
 .expansao { display: grid; gap: 0.6rem; }
 :is(body.desnudo, body:has(#nivel-2:checked)) .expansao { padding-left: 1rem; border-left: 2px solid var(--desnudo); }
-.expansao .citacao { margin: 0; font-size: 0.98rem; }
+.expansao .citacao { margin: 0; }
 .arquitetura { display: grid; gap: 1.75rem; padding-top: 1.75rem; border-top: 1px solid var(--linha); }
 :is(body.desnudo, body:has(#nivel-2:checked)) .arquitetura { border-top: 2px dashed var(--desnudo); }
 .titulo-interno { font-family: var(--f-display); font-stretch: 108%; font-weight: 760; font-size: clamp(1.4rem, 3.2vw, 2rem); line-height: 1.15; margin: 0; text-wrap: balance; }
@@ -790,7 +790,7 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 .derivado-pagina .termos-lista { margin: 0; }
 
 /* Expansão cujos trechos já aparecem na ficha da mesma página. Fora da Ciência, ela some inteira. */
-body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display: none; }
+body:not(:has(#nivel-2:checked)) .expansao:not(:has(> blockquote:not(.ciencia))) { display: none; }
 
 /* Consulta dos conceitos por área, com retorno ao contexto do percurso. */
 .instrumentos-indice { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
@@ -805,6 +805,30 @@ body:not(:has(#nivel-2:checked)) .expansao:not(:has(> :not(.ciencia))) { display
 
 /* Auditoria de design de 03/11/2026. Em Objeto e instrumentos, cada etapa tem título de seção, maior que o texto, e não rótulo pequeno. */
 .objeto-instrumentos .etapa > h2 { font-family: var(--f-display); font-size: clamp(1.3rem, 2.6vw, 1.5rem); font-weight: 720; letter-spacing: normal; text-transform: none; line-height: 1.3; color: var(--area-t, var(--tinta)); }
+
+/* Auditoria de estrutura de 04/11/2026. Uma só regra de voz. A voz do site fica na letra de texto, e todo trecho literal
+   usa o mesmo componente, com o mesmo corpo em qualquer lugar. Toda troca de voz vem anunciada pelo mesmo rótulo. */
+blockquote.citacao, blockquote.citacao p { font-size: 1.0625rem; line-height: 1.6; }
+.citacao.nao-e { border-left-style: solid; }
+:is(.ext, .lema, .problema, .campo-topo, .folha-cabeca, .bloco, .expansao, main) p.rotulo-fonte, p.rotulo-fonte { margin: 0; font-family: var(--f-dado); font-size: 0.78rem; line-height: 1.4; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-2); max-width: none; }
+.expansao > .rotulo-fonte { margin-bottom: -0.15rem; }
+.rotulo-fonte + .texto, .rotulo-fonte + blockquote { margin-top: 0.5rem; }
+.rotulo-fonte + .texto > :first-child { margin-top: 0; }
+.frase-literal { font-family: var(--f-texto); }
+.abertura-pagina { margin: 0.75rem 0 0; max-width: var(--medida); font-size: 1.125rem; line-height: 1.55; color: var(--tinta); }
+.folha-cabeca .abertura-pagina + .rotulo-fonte { margin-top: 1.25rem; }
+.saidas { margin-top: 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--linha); }
+.conceito-pagina > .arquitetura { margin-top: 3rem; padding-top: 1.5rem; border-top: 3px solid var(--tese); }
+
+/* Trilha sonora. A página das epígrafes, com uma pergunta por seção e as nove canções em lista. 04/11/2026. */
+.epigrafes-pagina { display: grid; gap: 1.75rem; }
+.pergunta-secao { margin: 0; font-family: var(--f-display); font-size: 1.125rem; font-weight: 700; line-height: 1.4; color: var(--tinta); }
+.cancoes { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; max-width: var(--medida); border-top: 1px solid var(--linha); }
+.cancao { display: grid; gap: 0.6rem; padding-top: 1.25rem; border-bottom: 1px solid var(--linha); padding-bottom: 1.25rem; }
+.cancao p { margin: 0; }
+.cancao-nome { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); align-items: baseline; font-family: var(--f-display); font-weight: 700; font-size: 1.125rem; line-height: 1.35; }
+.cancao-nome cite { font-style: italic; }
+.cancao-capitulo { font-family: var(--f-dado); font-size: 0.78rem; color: var(--tinta-2); }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

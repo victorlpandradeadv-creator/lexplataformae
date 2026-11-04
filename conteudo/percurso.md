@@ -24,7 +24,7 @@ Comece pela cena mais comum. Você abriu a loja do jogo, escolheu uma skin e ape
 
 Repare na palavra do botão, porque ela não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
 
-> utilizam o verbo “comprar” sob o significado de se estar adquirindo algo que passa a ser “seu”, no sentido de que se espera estabilidade mínima, permanência e alguma forma de controle sobre o que foi adquirido (p. 400-401)
+> Tanto o senso comum quanto até mesmo o próprio Código Civil brasileiro utilizam o verbo “comprar” sob o significado de se estar adquirindo algo que passa a ser “seu”, no sentido de que se espera estabilidade mínima, permanência e alguma forma de controle sobre o que foi adquirido (p. 400-401)
 > Sua estrutura clássica é a troca de coisa por preço (p. 400)
 > Mesmo quando se sabe que se trata de um item digital, o idioma da compra e venda aciona automaticamente essa expectativa típica e funciona como atalho de interpretação. (p. 401)
 
@@ -44,7 +44,7 @@ Agora faça o que quase ninguém faz e abra os termos de uso, o contrato que voc
 Licença, aqui, quer dizer permissão de uso. Revogável quer dizer que essa permissão pode ser retirada, e o próprio contrato avisa que, se a conta for encerrada, a licença é cancelada na hora. Ou seja, a tela fala a língua da compra, enquanto o contrato fala a língua de um acesso com condições, administrado pela empresa.
 
 > Os Termos de Serviço descrevem os mesmos itens como “Conteúdo Virtual” oferecido sob licença de acesso vinculada à conta (Riot Games, 2024e). A consequência é que aquilo que a interface apresenta como “compra”, o instrumento contratual requalifica como acesso condicionado e institucionalmente administrado. (p. 401)
-> ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
+> A própria disciplina contratual do serviço dá forma a esse arranjo ao estabelecer que o acesso aos Serviços, inclusive ao chamado Conteúdo Virtual, ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados (p. 408)
 > Em linguagem simples, isso significa que o acesso ao ecossistema é estruturado como permissão de uso condicionada, e não como propriedade de um bem autônomo. (p. 408)
 
 ### texto
@@ -66,7 +66,7 @@ E não adianta dizer que a informação estava lá. Uma informação pode existi
 
 > O ponto não é afirmar que o consumidor “não leu” ou “não entendeu”, mas reconhecer que o próprio ecossistema organiza a decisão por um signo que enquadra a relação como contrato típico, enquanto reserva, no plano jurídico, um regime que não coincide com o sentido ordinário do verbo “comprar”. (p. 401)
 > A assimetria relevante não é apenas falta de informação, pois a informação pode existir e, ainda assim, não operar como orientação prática quando a linguagem da interface governa a experiência e estabiliza expectativas em tempo real. (p. 401)
-> porque o consumidor decide sob a gramática do “comprar”, mas a fruição se realiza sob a gramática da “licença revogável” associada à conta (p. 401-402)
+> O resultado é uma desigualdade objetiva de decodificação e de agência, porque o consumidor decide sob a gramática do “comprar”, mas a fruição se realiza sob a gramática da “licença revogável” associada à conta (p. 401-402)
 
 ### limite
 
@@ -99,7 +99,7 @@ Pense numa catraca, dessas de estação de metrô. O que você comprou existe e 
 
 O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamento comprasse só uma tolerância para ficar lá dentro, que pode ser retirada a qualquer momento. Mas a catraca muda as condições de uso e não apaga o que você comprou.
 
-> como forma de mercadoria cuja fruição é subordinada a catracas contratuais e tecnológicas (p. 186)
+> O OIC, como concretização do produto imaterial no sentido do art. 3º, §1º, do CDC, aparece aqui não como conteúdo neutro, mas como forma de mercadoria cuja fruição é subordinada a catracas contratuais e tecnológicas (p. 186)
 > E a conta, longe de ser um bem do consumidor, é descrita como um espaço privado cujo “direito” de uso se resume a uma permissão pessoal e revogável, que não se confunde com propriedade. (p. 153)
 > Compra-se, na prática, uma tolerância de acesso que pode ser retirada (p. 153)
 
@@ -119,10 +119,10 @@ Coisas sem corpo também podem ser bens. Uma informação organizada no computad
 
 Esse ponto de partida é indispensável. Sem ele, valeria a ideia tosca de que tudo o que não se segura com a mão é leve, descartável e pode sumir pela simples vontade de quem vende. Mas ele não resolve tudo. Saber que a skin é um bem ainda não diz o que acontece quando a plataforma muda o jogo ou mexe na função do item. Nem diz o que vale quando ela decide sozinha, ao longo do tempo, como o item pode ser usado.
 
-> pode assumir utilidade própria, integrar a esfera de interesses do sujeito e, por isso, ser tratada como bem incorpóreo juridicamente relevante, com ou sem conteúdo econômico imediato (p. 565)
-> uma vez admitidos como bens, esses ativos se tornam suscetíveis de apropriação, circulação, fruição e tutela (p. 565)
+> A informação digitalmente organizada pode assumir utilidade própria, integrar a esfera de interesses do sujeito e, por isso, ser tratada como bem incorpóreo juridicamente relevante, com ou sem conteúdo econômico imediato (p. 565)
+> Também é um ganho real dessa moldura reconhecer que, uma vez admitidos como bens, esses ativos se tornam suscetíveis de apropriação, circulação, fruição e tutela (p. 565)
 > Esse ponto de partida é correto e indispensável. Sem ele, o debate sobre consumo digital contínuo ficaria refém da ficção tosca segundo a qual tudo o que não se segura com a mão seria juridicamente leve, dissolúvel e descartável por simples vontade do fornecedor. (p. 565)
-> mesmo reconhecendo apropriação e circulação, ela não esgota os conflitos de fruição contínua, mutabilidade unilateral e governança funcional em ambiente de plataforma (p. 566)
+> A insuficiência não estaria na incapacidade dessa moldura para reconhecer o ativo, mas no fato de que, mesmo reconhecendo apropriação e circulação, ela não esgota os conflitos de fruição contínua, mutabilidade unilateral e governança funcional em ambiente de plataforma (p. 566)
 
 ### nome feixe-de-fruicao-governada
 
@@ -131,7 +131,7 @@ Então o que, exatamente, você tem? Não é só uma imagem colada no personagem
 Cada uma dessas coisas depende de o jogo continuar funcionando de um certo jeito. A skin precisa que o jogo siga capaz de desenhar o modelo, os efeitos e as animações, que mudam a cada atualização. E o que ela significa depende de os outros jogadores a verem e a reconhecerem. Por isso, mais do que uma coisa parada, o que você tem é uma posição de uso que a plataforma mantém e vai ajustando ao longo do tempo.
 
 > O consumidor não compra apenas uma “imagem” acoplada ao personagem. Ele adquire uma posição de fruição que só se realiza se o ambiente do jogo continuar capaz de renderizar modelos, efeitos, animações e interfaces que são reconfigurados a cada ciclo de patches e ajustes do sistema (p. 439)
-> feixe de funcionalidades e significações administradas ao longo da relação (p. 426)
+> A partir desse operador, o objeto pode ser descrito como feixe de funcionalidades e significações administradas ao longo da relação (p. 426)
 > O OIC não se comporta como “bem” apenas por uma utilidade funcional isolada, mas como feixe funcional e semiótico, em que a fruição depende de operações de legibilidade pública e reconhecimento coletivo. (p. 252)
 > A fruição deixa de ser simples habilitação inicial e passa a ser posição sustentada no ecossistema (p. 426)
 
@@ -163,8 +163,8 @@ Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de 
 Quando é assim, existe produto imaterial no sentido da lei do consumidor. O serviço não some dessa conta, porque aparece como o modo pelo qual a empresa mantém, atualiza e molda aquilo que você comprou. Por isso perde força a velha briga sobre se o caso é de produto ou de serviço. A pergunta que importa passa a ser como a empresa organiza a entrega contínua do que vendeu e se esse jeito de fornecer preserva ou estraga o que você adquiriu.
 
 > Produto é qualquer bem, móvel ou imóvel, material ou imaterial (p. 24)
-> do Código de Defesa do Consumidor já contém a abertura normativa necessária ao reconhecimento de bens que circulam sem suporte corpóreo estável e cuja fruição depende de condições técnicas e organizacionais contínuas. (p. 24)
-> essa expansibilidade do Direito do Consumidor brasileiro tem sido freada por uma ontologia estritamente material, a qual insiste em reduzir o produto à entrega de um suporte físico ou de uma prestação discreta e finalizável (p. 24)
+> O Artigo 3º, §1º, do Código de Defesa do Consumidor já contém a abertura normativa necessária ao reconhecimento de bens que circulam sem suporte corpóreo estável e cuja fruição depende de condições técnicas e organizacionais contínuas. (p. 24)
+> É necessário reconhecer, entretanto, que essa expansibilidade do Direito do Consumidor brasileiro tem sido freada por uma ontologia estritamente material, a qual insiste em reduzir o produto à entrega de um suporte físico ou de uma prestação discreta e finalizável (p. 24)
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 > Importa reconhecer situações em que a utilidade economicamente fruída depende estruturalmente de ambiente administrado, modulado e mutável por governança privada (p. 717)
 > O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
@@ -182,12 +182,12 @@ Na vida real essas formas se misturam, e uma skin de edição limitada vale ao m
 > A segunda categoria é a dos objetos de progressão. (p. 489)
 > Um primeiro exemplo, típico de objeto de progressão, é o passe de evento, no qual a aquisição não se dirige a um resultado pronto, mas ao acesso a uma trajetória metrificada de marcos e recompensas (p. 491)
 > A terceira categoria é a dos objetos de acesso e permanência. (p. 489)
-> de modo que a fruição assume, na prática, a forma de posição revogável (p. 489)
+> Trata-se de OICs marcados por dependência intensa de conta, credenciais e elegibilidade, de modo que a fruição assume, na prática, a forma de posição revogável (p. 489)
 > A quarta categoria é a dos objetos de funcionalidade. São capacidades instrumentais disponibilizadas ao consumidor sob parâmetros técnicos e normativos administrados pelo fornecedor, como permissões de uso, utilidades de conveniência, possibilidades de configuração e capacidades de conversão (p. 490)
 > A quinta categoria é a dos objetos de tempo. Ela abrange estruturas temporais que condicionam quando, por quanto tempo e sob quais janelas a fruição pode ocorrer, como regimes de validade, temporadas, ciclos de disponibilidade e limites de frequência. (p. 490)
-> certas categorias de skins são tratadas como “legado” ou “limitadas”, com variações sobre se retornam ou não à loja e sob quais condições, de modo que a utilidade simbólica do adquirido passa a depender, também, de uma temporalidade institucionalmente administrada (p. 491)
+> Em linguagem operacional acessível ao público, certas categorias de skins são tratadas como “legado” ou “limitadas”, com variações sobre se retornam ou não à loja e sob quais condições, de modo que a utilidade simbólica do adquirido passa a depender, também, de uma temporalidade institucionalmente administrada (p. 491)
 > A sexta categoria é a dos objetos de reputação. Correspondem a posições de reconhecimento instituídas pelo ecossistema por métricas, critérios de validação e dispositivos de visibilidade. (p. 490)
-> penalidades de comportamento podem travar a progressão reputacional e afetar, de forma prática, o acesso a recompensas associadas à criação de espólios (p. 492)
+> O sistema de honra opera como mecanismo de reconhecimento comparável e socialmente inteligível, mas, ao mesmo tempo, como disciplina cotidiana, pois penalidades de comportamento podem travar a progressão reputacional e afetar, de forma prática, o acesso a recompensas associadas à criação de espólios (p. 492)
 > As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo. Elas fornecem linguagem comparável para decompor arranjos híbridos em dimensões controláveis e localizar, com precisão, quais aspectos foram afetados por uma modulação relevante. (p. 492)
 > Essa tipologia é deliberadamente interna ao laboratório de jogos e não se oferece como classificação geral de plataformas. (p. 489)
 
@@ -204,14 +204,14 @@ A terceira é se a plataforma governa esse lugar de verdade. Não basta haver te
 A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua, mas o que você tinha é rebaixado, esvaziado ou reorganizado contra o que foi prometido. Uma instabilidade de um dia ou um ajuste neutro na tela não contam.
 
 > O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
-> impedindo que qualquer relação digital com aparência de continuidade seja absorvida pela categoria e impedindo, também, que o fornecedor expulse o conflito do CDC por rotulagem estratégica (p. 428)
+> Como filtro, define o que entra e o que permanece fora do campo de incidência, impedindo que qualquer relação digital com aparência de continuidade seja absorvida pela categoria e impedindo, também, que o fornecedor expulse o conflito do CDC por rotulagem estratégica (p. 428)
 > A pergunta relevante não é se houve um “conteúdo” disponível em algum momento, mas qual utilidade foi economicamente ofertada em termos de funcionalidades e significações que, no regime do OIC, constituem o adquirido. (p. 428)
 > O critério não se satisfaz com listas ornamentais de funcionalidades nem com slogans publicitários genéricos. (p. 428)
 > Em consumo contínuo, a aquisição inaugura uma posição no ecossistema e não uma entrega exaurida em um instante. (p. 428)
 > O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor. (p. 428)
 > Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada (p. 429)
 > O roteiro de qualificação deve exigir a demonstração de um padrão de degradação que não se confunde com variações ordinárias, instabilidades pontuais ou ajustes neutros de interface. (p. 429)
-> pela presença cumulativa de elementos verificáveis do regime (p. 429)
+> A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime (p. 429)
 
 ### limite
 
@@ -221,8 +221,8 @@ Há também casos que ficam de fora desde o começo. Um serviço que acontece um
 
 Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa ideia, e você continua protegido por esse caminho.
 
-> sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
-> nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
+> Reconhecê-la significa tratar como juridicamente relevantes os elementos que definem a permanência do consumidor no regime de fruição, sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
+> O filtro do OIC não pode ignorar os traços estruturais do consumo governado por plataforma nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
 > A categoria não amplia indefinidamente o ilícito nem moraliza escolhas técnicas. (p. 426)
 > A reconfigurabilidade do ambiente não transforma qualquer atualização, ajuste de interface, mudança de ranqueamento ou escolha ordinária de curadoria em ilicitude. O que se torna juridicamente relevante é a degradação significativa, persistente e reconhecível por critérios, aquela que altera o núcleo de utilidade economicamente ofertada ou rebaixa, de modo estrutural, as condições de fruição que deram sentido à aquisição. (p. 426)
 > O primeiro limite é o acesso pontual sem posição de fruição sustentada. (p. 433)
@@ -281,7 +281,7 @@ O preço da loja diz pouco sobre o valor da skin, porque o valor de uma coisa n�
 
 Por isso a pergunta que importa não é quanto custa, e sim o que faz algo parecer desejável, comparável e raro. E aqui está o ponto, porque quem decide o catálogo, a raridade e as regras de visibilidade é a plataforma. Quem administra essas coisas administra, na prática, as condições do próprio valor.
 
-> a pergunta relevante deixa de ser “quanto custa” e passa a ser “quais molduras fazem algo aparecer como desejável, comparável e raro”, porque o valor não é inerente ao objeto, mas um julgamento produzido por sujeitos e endossado por uma troca real ou imaginada (p. 250)
+> A consequência é que a pergunta relevante deixa de ser “quanto custa” e passa a ser “quais molduras fazem algo aparecer como desejável, comparável e raro”, porque o valor não é inerente ao objeto, mas um julgamento produzido por sujeitos e endossado por uma troca real ou imaginada (p. 250)
 > Se o valor é efeito de reconhecimento situado, administrar catálogo, raridade e regras de visibilidade (curadoria, janelas, critérios) é administrar as condições práticas do próprio valor. (p. 251)
 
 ### termo Consumo como ritual
@@ -291,10 +291,10 @@ As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e ou
 Ficar fora desse circuito, por isso, não é só um desconforto, porque significa perder voz e perder opções. Quando você pensa em sair de um jogo, o custo não é só o dinheiro que ficou para trás, mas também o risco de se isolar e de enfraquecer laços que foram feitos ali dentro.
 
 > Douglas e Isherwood (1996, p. xxiv) descrevem bens como dispositivos de alinhamento e de fronteira. (p. 251)
-> bens funcionam como marcas públicas que erguem cercas contra indesejados, consolidando solidariedades (p. 251)
+> A vida social se organiza por sinais de adesão e de exclusão, e bens funcionam como marcas públicas que erguem cercas contra indesejados, consolidando solidariedades (p. 251)
 > Ficar fora do alcance desse sistema não é um desconforto subjetivo. É risco de silenciamento prático, redução de voz e de opções futuras (p. 251)
-> bens como adjuntos rituais e o consumo como processo ritual cuja função é produzir sentido no fluxo instável dos acontecimentos (p. 254)
-> o que permite ler o custo de saída não apenas como perda patrimonial, mas como risco de isolamento e enfraquecimento de vínculo (p. 249)
+> Douglas e Isherwood (1996, p. 43) formulam isso ao tratar bens como adjuntos rituais e o consumo como processo ritual cuja função é produzir sentido no fluxo instável dos acontecimentos (p. 254)
+> [...] vocabulário para descrever o objeto imaterial de consumo como algo cuja utilidade social depende de legibilidade social e pertencimento no interior de um ecossistema administrado, o que permite ler o custo de saída não apenas como perda patrimonial, mas como risco de isolamento e enfraquecimento de vínculo (p. 249)
 
 ### imagem
 
@@ -323,8 +323,8 @@ O espetáculo não é um monte de imagens, e sim gente se relacionando por meio 
 
 Isso quer dizer que a promessa da skin não fica parada na loja, porque circula como cena social, em que uns olham e outros são olhados. É essa vitrine permanente que mantém o desejo aceso e faz você querer continuar ali.
 
-> o espetáculo não é conjunto de imagens, mas relação social entre pessoas mediada por imagens (p. 282)
-> o espetáculo pode ser mobilizado para compreender plataformas como ambientes em que a promessa do OIC circula como cena social contínua, isto é, como dinâmica de visibilidade e de comparação que estabiliza desejo e permanência como parte do próprio valor (p. 282)
+> Debord formula tal perspectiva ao afirmar que o espetáculo não é conjunto de imagens, mas relação social entre pessoas mediada por imagens (p. 282)
+> Assim, o espetáculo pode ser mobilizado para compreender plataformas como ambientes em que a promessa do OIC circula como cena social contínua, isto é, como dinâmica de visibilidade e de comparação que estabiliza desejo e permanência como parte do próprio valor (p. 282)
 
 ### termo Gamificação
 
@@ -335,7 +335,7 @@ Aí ficar no jogo deixa de ser só lazer e vira tarefa. Permanecer significa con
 > A vida prática deixa de ser apenas vivida e passa a ser acompanhada por índices de posição, sinais de desempenho e parâmetros de progresso que tornam a comparação permanente e cumulativa. (p. 289)
 > Nesse regime, a permanência ganha forma de tarefa, porque permanecer passa a significar manter-se sob ranqueamento, passível de atualização e legível no interior de uma escala que o próprio ecossistema administra. (p. 289)
 > A gamificação da vida cotidiana, nessa chave, não é um artifício lúdico adicionado ao consumo, mas a tradução do valor em placares de relevância, nos quais o que importa é estar situado e atualizado em tempo real. (p. 289)
-> a plataforma transforma a governança do tempo e da visibilidade em urgência prática, ao organizar janelas e oportunidades como pressão recorrente de decisão (p. 289)
+> Com essa base, torna-se possível explicar como a plataforma transforma a governança do tempo e da visibilidade em urgência prática, ao organizar janelas e oportunidades como pressão recorrente de decisão (p. 289)
 
 ### mecanismo
 
@@ -352,7 +352,7 @@ O que falta nesse mercado não é skin, já que uma cópia digital não acaba, e
 
 O que de fato acaba é o seu tempo de tela. Quanto mais você fica, mais a plataforma consegue observar como você se comporta, testar estímulos e ajustar os gatilhos que fazem você voltar. É essa previsibilidade que sustenta o passe, a assinatura, o evento imperdível e a oferta que gira toda semana.
 
-> no mercado de bens imateriais, a reprodutibilidade tenderia a dissolver o preço, de modo que a renda depende de reintroduzir escassez por decisão institucional (p. 234)
+> O ponto econômico decisivo é simples e direto, pois, no mercado de bens imateriais, a reprodutibilidade tenderia a dissolver o preço, de modo que a renda depende de reintroduzir escassez por decisão institucional (p. 234)
 > O recurso escasso decisivo não é a disponibilidade técnica do bem, mas o tempo de exposição do usuário. A retenção fornece volume para observação, perfilização, teste contínuo de estímulos e calibragem de gatilhos. É essa previsibilidade que estabiliza extração por assinatura, passe, “evento imperdível”, rotatividade de oferta e pedágios sucessivos. (p. 249)
 
 ### termo Biografia das coisas
@@ -373,13 +373,13 @@ Para tentar uma, você não compra a skin, e sim fichas que custam 400 da moeda 
 
 O que chama a atenção é de onde vem a exclusividade. Ela não é algo que a comunidade passa a reconhecer com o tempo, porque é regra escrita no sistema. O prestígio vem da regra que controla o acesso, e não de a skin entregar necessariamente mais do que as outras.
 
-> a criação do tier Exalted e do espaço de aquisição denominado Sanctum, apresentado como prateleira “acima” do topo tradicional do catálogo (p. 298)
+> Um exemplo contemporâneo de como signos de entrega podem ser artificialmente reordenados para sustentar valor, comensurabilidade e prestígio é a criação do tier Exalted e do espaço de aquisição denominado Sanctum, apresentado como prateleira “acima” do topo tradicional do catálogo (p. 298)
 > A justificativa institucional enquadra Exalted como conjunto de “hyper-exclusive skins”, isto é, bens explicitamente descritos como luxo dentro do catálogo (p. 299)
 > O Sanctum é descrito como uma loja exclusiva em que o usuário compra Ancient Sparks (p. 299)
 > por 400 RP e as utiliza para sortear conteúdos raros, com “bandeira” específica para skins Exaltadas, além de rotação temporal e ausência de garantia de retorno (Riot Games, 2025d). (p. 299)
-> skins Exaltadas são o único conteúdo de Tier S da bandeira correspondente, com chance extremamente baixa e garantia apenas no octogésimo sorteio, além de disponibilidade por tempo limitado (p. 299)
+> A descrição oficial do Sanctum registra que skins Exaltadas são o único conteúdo de Tier S da bandeira correspondente, com chance extremamente baixa e garantia apenas no octogésimo sorteio, além de disponibilidade por tempo limitado (p. 299)
 > Modelo de monetização baseado em sorteios aleatórios de itens virtuais, inspirado em máquinas de venda de cápsulas (gashapon). (p. 299)
-> muitas vezes ocultando o custo real da aquisição por meio de moedas intermediárias e opacidade estatística (p. 299)
+> Sob a perspectiva dos OIC, representa arquitetura de extração que condiciona a fruição de bens desejados a mecanismos probabilísticos e sorteios sucessivos, muitas vezes ocultando o custo real da aquisição por meio de moedas intermediárias e opacidade estatística (p. 299)
 > A consequência é que a exclusividade deixa de ser inferência social e passa a ser arquitetura. O prestígio é produzido por regra, não por lastro material necessário. (p. 299)
 
 ### termo Simulacro
@@ -388,9 +388,9 @@ E se a skin mudar por dentro, mas continuar parecendo topo de linha? Isso pode a
 
 O risco está no que esses sinais escondem. A plataforma pode manter a aparência de continuidade e, ao mesmo tempo, mudar efeitos, restrições, formas de acesso e desempenho. Com a fachada igual, fica muito difícil provar que algo foi perdido. O problema, portanto, não é a skin ter valor simbólico, e sim a aparência servir para apagar a prova de que a promessa deixou de ser cumprida.
 
-> o valor pode ser mantido por sinais de entrega e por critérios de equivalência visíveis, o que autoriza tratar o simulacro como mecanismo capaz de preservar o circuito econômico do OIC mesmo quando a fruição relevante se altera (p. 296)
+> Com isso, torna-se possível sustentar, sem reduzir o argumento a denúncia de ilusão, que o valor pode ser mantido por sinais de entrega e por critérios de equivalência visíveis, o que autoriza tratar o simulacro como mecanismo capaz de preservar o circuito econômico do OIC mesmo quando a fruição relevante se altera (p. 296)
 > Quando a equivalência se estabiliza por sinais de entrega, como etiqueta, classe, moldura de raridade, posição exibível e comensurabilidade interna, a continuidade pública pode funcionar como substituto da preservação da fruição relevante (p. 313)
-> ainda que se alterem, por dentro, restrições, efeitos, modos de acesso e condições de performance que constituíam a posição adquirida (p. 313)
+> [...] a continuidade pública pode funcionar como substituto da preservação da fruição relevante, de modo que recompor passa a significar conservar sintomas reconhecíveis de persistência, ainda que se alterem, por dentro, restrições, efeitos, modos de acesso e condições de performance que constituíam a posição adquirida (p. 313)
 > O problema jurídico não é o simbólico, mas a neutralização prática da prova do nexo entre promessa e fruição, o que exige critérios de rastreabilidade e controle substantivo da equivalência. (p. 313)
 
 ### nome antecipacao-hipercuratorial
@@ -409,7 +409,7 @@ Com isso o presente vira uma sala de espera. Você fica de prontidão para o pr�
 
 Nada disso quer dizer que desejar uma skin seja um erro, nem que toda propaganda, todo sorteio ou toda vitrine bonita seja ilegal. Vender, convencer e administrar um jogo não são abusos por si sós. O que importa aqui é outra coisa. Como o valor da skin é feito de sinais, e como quem controla os sinais é a plataforma, ela pode mexer no valor do que você comprou sem tocar no item. É isso que precisa poder ser visto, comparado e cobrado.
 
-> nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
+> Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
 > O que importa para o argumento do simulacro não é a moralização do gacha (p. 299)
 > A contribuição jurídica do simulacro, portanto, não é tratar o consumo como ilusão, mas tornar nomeável o deslocamento prático do critério de adimplemento. (p. 313)
 
@@ -434,7 +434,7 @@ Volte à loja e repare em quem a montou. É a mesma empresa que controla o jogo,
 Isso muda o que custa estar ali. Ficar não custa só o próximo pagamento, porque custa também atenção, adaptação, perda de equivalência quando as coisas mudam e uma dependência que não acaba. E a empresa não ganha só no momento da compra. Ganha administrando o lugar todos os dias, com raridade inventada, ciclos de atualização e mudanças de sentido que empurram você para mais uma rodada de gastos.
 
 > A plataforma opera como senhorio de infraestrutura: controla o ambiente, as regras, as atualizações e a visibilidade do que ali adquire valor. (p. 146)
-> o consumidor, embora preserve titularidade formal sobre itens vinculados à conta, permanece submetido ao poder unilateral de modular utilidade, prestígio e condições de fruição. O custo não se expressa apenas em novo pagamento, mas também em atenção, adaptação, perda de equivalência e dependência contínua do território administrado. (p. 146)
+> O “capital na nuvem” aparece como domínio sobre acesso, reputação e permanência, de modo que o consumidor, embora preserve titularidade formal sobre itens vinculados à conta, permanece submetido ao poder unilateral de modular utilidade, prestígio e condições de fruição. O custo não se expressa apenas em novo pagamento, mas também em atenção, adaptação, perda de equivalência e dependência contínua do território administrado. (p. 146)
 > A renda não se extrai apenas no ato de compra, mas na gestão contínua do território digital, onde escassez artificial, ciclos de atualização e reconfiguração de signos reorganizam desejos e empurram o sujeito para novas rodadas de gasto e recomposição de status. (p. 146)
 
 ### termo Tecnofeudalismo
@@ -455,9 +455,9 @@ Compare com uma compra comum. Quando você compra uma geladeira, ela vai para a 
 Com a skin é diferente, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa.
 
 > Na economia industrial, o consumidor paga para adquirir um bem cuja existência, uma vez comprada, tende a se estabilizar fora do alcance do fornecedor, ao menos dentro de expectativas razoáveis de durabilidade e de disciplina dos vícios. (p. 210)
-> ele ingressa em um regime de acesso em que o objeto se mantém funcional apenas dentro da infraestrutura que não controla, atravessado por atualizações, balanceamentos, encerramentos de eventos, rotatividade de catálogo, reconfigurações de moeda interna e mudanças de política (p. 210)
+> O consumidor não compra uma “coisa” e a leva consigo; ele ingressa em um regime de acesso em que o objeto se mantém funcional apenas dentro da infraestrutura que não controla, atravessado por atualizações, balanceamentos, encerramentos de eventos, rotatividade de catálogo, reconfigurações de moeda interna e mudanças de política (p. 210)
 > A consequência é que a plataforma deixa de monetizar apenas a entrega de um bem e passa a monetizar o controle do acesso e do tempo. (p. 209)
-> vende passagem, permanência e previsibilidade em um ambiente por ela mesma governado (p. 209)
+> Ela não vende uma “coisa”, vende passagem, permanência e previsibilidade em um ambiente por ela mesma governado (p. 209)
 
 ### termo Economia de pedágio
 
@@ -477,11 +477,11 @@ Olhe agora para a moeda do jogo, aquela que você compra com dinheiro de verdade
 O mesmo contrato dá um passo além e diz que os dados guardados nos servidores da empresa, inclusive o conteúdo da sua conta, não têm valor nenhum. Repare no efeito. Se no papel o seu acervo não vale nada, a inflação lá dentro passa por coisa natural, e não por uma perda que você sofreu. E, como se não bastasse, o contrato tenta limitar a responsabilidade da empresa ao que você pagou nos doze meses anteriores ao problema, justamente num lugar em que o valor vem de anos de acúmulo.
 
 > O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade (Riot Games, 2024e). (p. 176)
-> o fornecedor passa a calibrar o nível geral de valores praticados, elevando gradualmente referências de preço e deslocando ancoragens de aceitabilidade sem enfrentar a disciplina típica de mercados com oferta e demanda abertas (p. 176)
+> Ao definir o catálogo, modular escassez, gerir janelas de oportunidade e operar moedas internas, pacotes e conversões, o fornecedor passa a calibrar o nível geral de valores praticados, elevando gradualmente referências de preço e deslocando ancoragens de aceitabilidade sem enfrentar a disciplina típica de mercados com oferta e demanda abertas (p. 176)
 > O contrato nega expressamente qualquer valor atribuído a dados residentes nos servidores operados ou controlados pela Riot, incluindo Conteúdo do Jogo e Conteúdo Virtual associado à conta. (p. 176)
 > Se o acervo é juridicamente descrito como não tendo valor, a inflação interna e a perda do poder de compra passam a ser tratadas como variação natural do feudo, não como deterioração de uma posição econômica relevante para o consumidor (p. 176-177)
 > A cláusula de limitação prevê que a responsabilidade total pode ser limitada aos valores pagos pelo usuário nos 12 meses anteriores ao surgimento da causa (p. 177)
-> tenta rebaixar a resposta civil por perdas a um cálculo que ignora justamente o que torna o feudo eficiente, que é o acúmulo prolongado, a dependência e o custo de saída (p. 177)
+> A plataforma reserva o poder de governar valor, moeda e acesso dentro do território, mas tenta rebaixar a resposta civil por perdas a um cálculo que ignora justamente o que torna o feudo eficiente, que é o acúmulo prolongado, a dependência e o custo de saída (p. 177)
 
 ### imagem
 
@@ -490,8 +490,8 @@ Pense numa torneira pingando. Cada gota não parece nada, mas no fim do mês a c
 Somados, eles pesam muito. Mas cada um fica pequeno demais para valer uma briga, e é aí que está o truque. O lucro vem da repetição em escala, sempre abaixo do ponto em que alguém se daria ao trabalho de reclamar ou de punir.
 
 > O motor de muitos ecossistemas digitais não é apenas a cobrança ostensiva, mas a drenagem por microeventos, microdecisões e microperdas, distribuídas em escala e diluídas a ponto de se tornarem quase invisíveis, embora cumulativamente relevantes. (p. 26)
-> no qual o lucro se realiza não por margem alta em poucas unidades, mas por escala e repetição abaixo do limiar punível (p. 26)
-> convertendo custos, fricções e reveses em um ruído aceitável por unidade e, por isso, difícil de contestar por percepção individual (p. 26)
+> [...] a fronteira entre lícito e ilícito deixa de funcionar como proibição eficaz e passa a operar como parâmetro de otimização do próprio modelo de negócio, no qual o lucro se realiza não por margem alta em poucas unidades, mas por escala e repetição abaixo do limiar punível (p. 26)
+> [...] mas sim os pulveriza e os terceiriza, convertendo custos, fricções e reveses em um ruído aceitável por unidade e, por isso, difícil de contestar por percepção individual (p. 26)
 
 ### ilustracao imagem-torneira
 
@@ -502,7 +502,7 @@ Como algo que se copia de graça fica raro? Uma skin digital poderia ser vendida
 A plataforma cria janelas de venda, rotações de loja, níveis de raridade, eventos de temporada, passes, contagens regressivas e pacotes limitados. Depois transforma esse arranjo numa história, com palavras como raro, exclusivo, última chance, colecionável e edição especial. Assim, o que não era escasso passa a ser, por desenho.
 
 > Em objetos digitais, o custo marginal de reprodução tende a cair drasticamente e, em tese, a disponibilidade poderia expandir-se sem exigir capacidade produtiva comparável à fábrica, à logística e à extração de insumos. (p. 209)
-> não se está diante de condição natural do objeto, mas de escolha institucional deliberada, de modo que a escassez não aparece como fato, mas como projeto (p. 209)
+> Por isso, quando se observa nesses mercados um regime persistente de indisponibilidade, exclusividade e última chance, não se está diante de condição natural do objeto, mas de escolha institucional deliberada, de modo que a escassez não aparece como fato, mas como projeto (p. 209)
 > A plataforma cria janelas, rotações, tiers, eventos sazonais, passes, contagens regressivas, pacotes limitados e mecanismos de aquisição condicionada. Em seguida, converte esse arranjo em narrativa, falando em “raridade”, “exclusivo”, “última chance”, “colecionável” e “edição especial”. (p. 209)
 > O não-escasso é transformado em escasso por desenho (p. 209)
 
@@ -513,7 +513,7 @@ Imagine que você pagou caro por uma skin porque ela era exclusiva, e a exclusiv
 Nesse caso, o valor do que você recebeu foi refeito para trás, e a sua expectativa legítima foi frustrada. Isso pode ser tratado como publicidade enganosa por omissão e como descumprimento da oferta. A resposta pode incluir devolver o que foi pago, abater o preço ou compensar com algo que cumpra a mesma função, e ainda perdas e danos se houver prejuízo a mais. Não é desconforto seu, é uma perda que a lei do consumidor sabe tratar.
 
 > Se, passado um período, o mesmo item reaparece em loja alternativa, em moeda especial, em promoção agressiva ou por preço significativamente inferior, e se a limitação temporal da exclusividade não foi informada de modo adequado e compreensível no momento da aquisição, ocorre reconfiguração retroativa do valor entregue, com frustração de expectativa legítima e violação de transparência. (p. 214)
-> com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta (p. 214)
+> A escassez, aqui, pode operar como expediente de captação de consentimento sob inadequação informativa, com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta (p. 214)
 > A consequência jurídica não se esgota em desconforto subjetivo, pois a alteração posterior do atributo que justificou o preço pode demandar recomposição material por vias típicas do consumo, por restituição, abatimento ou compensação funcional equivalente, e pode ainda abrir espaço para perdas e danos quando demonstrado prejuízo adicional decorrente do engano posicional. (p. 214)
 
 ### texto
@@ -525,7 +525,7 @@ Esse risco não é natural, porque é calibrado pela plataforma. Ela organiza o 
 > Em ambientes de fruição contínua, o risco mais eficaz não é o risco do produto “não funcionar”, que corresponderia a uma gramática clássica de vício de qualidade por inadequação. (p. 211)
 > O risco decisivo é o risco de perda de oportunidade, o risco de ficar para trás, o risco de não pertencer, o risco de perder status, o risco de ver o objeto desejado sair de circulação e o risco de a identidade simbólica construída no ecossistema sofrer depreciação. Esse risco não é natural. (p. 211)
 > Ele é calibrado pela plataforma por meio de uma arquitetura temporal, com temporadas, splits, metas e missões. Também é calibrado por uma arquitetura de oferta, com rotatividade, exclusões programadas e catálogos variáveis. Soma-se uma arquitetura de recompensa, com sistemas de progressão e grind, e uma arquitetura sancionatória, com banimentos, restrições, penalidades automatizadas e políticas opacas. (p. 211)
-> é o gesto típico de transformar tempo em moeda sem jamais chamá-lo de trabalho (p. 211)
+> Em termos de economia política, é o gesto típico de transformar tempo em moeda sem jamais chamá-lo de trabalho (p. 211)
 > A coerção não aparece como violência, nem como proibição direta, nem como imposição explícita de compra (p. 210)
 > O consumo, nesse registro, vira administração de ansiedade. (p. 210)
 
@@ -536,7 +536,7 @@ Teleologia quer dizer finalidade, aquilo para o que uma coisa serve. Aqui, a pal
 Essa finalidade não fica escondida num documento secreto. Ela aparece no jeito como a tela organiza o que você vê, o que você calcula e o risco que você sente. E ganha importância para o direito quando deixa de ser só estratégia comercial e passa a esconder ou frustrar a correspondência entre o que foi prometido e o que foi entregue.
 
 > Por isso, a escassez artificial deve ser compreendida como parte de uma teleologia arquitetural. Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado (p. 214)
-> e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
+> Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado, e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
 > A teleologia arquitetural não se manifesta apenas em cláusulas e políticas, mas na forma como a interface organiza visibilidade, cálculo e risco. (p. 214)
 
 ### termo Trabalho invisível
@@ -546,7 +546,7 @@ E tem o trabalho que ninguém chama de trabalho. Você testa versões novas do j
 Para a empresa, isso vale muito, porque reduz o custo de testar o jogo e funciona como propaganda. Mas o contrato trata as suas ideias como algo que a empresa pode usar livremente, sem pagar nada. E quem faz isso como criador de conteúdo parece um pequeno empreendedor independente, quando na prática funciona como a face pública do próprio negócio, sob regras que a empresa pode mudar ou retirar. É produção que aparece como participação.
 
 > O usuário, aqui, não é só medido, ele é mobilizado como força de trabalho distribuída que reduz custo de controle de qualidade, amplia a superfície de detecção de bugs e alimenta a inteligência organizacional do fornecedor, produzindo uma produtividade que não aparece como trabalho, mas como participação (p. 218)
-> ao reservar para si o uso livre de ideias, sugestões e materiais criativos enviados pelo usuário, sem que isso gere contrapartida econômica, indenização ou dever de reconhecimento (p. 218)
+> Na Política de envio de ideias não solicitadas, o fornecedor declara “valorizar” feedback, mas simultaneamente estrutura o regime de apropriação, ao reservar para si o uso livre de ideias, sugestões e materiais criativos enviados pelo usuário, sem que isso gere contrapartida econômica, indenização ou dever de reconhecimento (p. 218)
 > gerado pelo próprio usuário, como posts, comentários, transmissões, memes, guias e avaliações, que se converte em motor de visibilidade e recomendação e funciona, na prática, como trabalho invisível de produção e de marketing do OIC (p. 219)
 > Entre as formas mais ostensivas desse trabalho invisível está o trabalho dos criadores de conteúdo, streamers e influenciadores que orbitam o ecossistema como se fossem “microempreendedores” autônomos, quando, na prática, funcionam como uma face pública intensa do exterior incorporado. (p. 219)
 > a própria possibilidade de monetizar conteúdo dependem de regras privadas, revogáveis e seletivas (p. 219)
@@ -560,7 +560,7 @@ Ao mesmo tempo, o seu progresso, o seu status, a sua reputação e até o seu ac
 > Desse ponto de vista, o consumidor aproxima-se de um lumpemproletariado digital: participa intensamente da produção de valor, mas o faz em um plano opaco, fora das categorias tradicionais de trabalho, contrato de emprego ou prestação de serviços. (p. 223)
 > Quando o progresso, o status, a reputação e a própria continuidade de acesso ao Objeto Imaterial de Consumo se tornam dependentes de decisões unilaterais da plataforma, o consumidor se vê em posição análoga à do trabalhador submetido a condições de vida definidas por outrem, mas sem que o direito o reconheça como tal. (p. 223)
 > O “servo da nuvem” produz sem contrato, sem salário e sem reconhecimento como trabalho. (p. 223)
-> uma forma específica de exploração do consumidor que, contextualmente, também se caracteriza como força de trabalho externa incorporada (o “consumidor-trabalhador”) (p. 143)
+> [...] mas como manifestações de um arranjo estrutural comum, marcado por tecnofeudalismo de plataformas, rentismo digital e uma forma específica de exploração do consumidor que, contextualmente, também se caracteriza como força de trabalho externa incorporada (o “consumidor-trabalhador”) (p. 143)
 
 ### termo Propriedade intelectual como cerca
 
@@ -572,7 +572,7 @@ Quando esses direitos se juntam a licenças, contas, travas contra cópia, catá
 > Quando essa decisão se acopla a contratos de licença, contas, DRM (p. 234)
 > catálogos e mecanismos de autenticação, o incentivo à criação cede espaço a uma tecnologia de bloqueio, o que faz com que a circulação seja tratada como infração e a fruição se converta em autorização. Nesse contexto, a concorrência deixa de ser apenas disputa por produto e passa a ser disputa por cercamentos. (p. 234)
 > É aqui que os direitos de propriedade intelectual deixam de aparecer como título jurídico periférico e passam a operar como componente material da arquitetura de fechamento. (p. 234)
-> o valor competitivo não se concentra na “qualidade” de um bem isolado, mas na capacidade de manter o consumidor preso a uma gramática proprietária de pertencimento, progresso e distinção (p. 232)
+> A mutação concorrencial descrita se manifesta com nitidez no entretenimento interativo operado por plataforma porque o valor competitivo não se concentra na “qualidade” de um bem isolado, mas na capacidade de manter o consumidor preso a uma gramática proprietária de pertencimento, progresso e distinção (p. 232)
 
 ### termo Cativeiro identitário
 
@@ -589,8 +589,8 @@ Essa dependência não é fraqueza sua nem coisa da sua cabeça. Ela vem do jeit
 
 Nada disso torna ilegal ter uma loja, uma moeda própria, eventos ou itens raros. Criar escassez é estratégia comercial, e a estratégia, sozinha, não é ilícita. Ela passa a importar para o direito quando esconde ou frustra a correspondência entre o que foi prometido e o que foi entregue, como no caso da exclusividade que tinha prazo e ninguém avisou.
 
-> e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
-> nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
+> Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado, e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
+> Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada (p. 732)
 
 ### pergunta
 
@@ -613,8 +613,8 @@ Quando criou a conta, você aceitou os termos de uso. Parece que as regras do jo
 Elas estão na tela que mostra um caminho e esconde outro, no chat que é cortado no meio da partida e na punição que chega sem aviso. O texto promete e o sistema executa. E quem aplica a punição é a mesma empresa que escreveu a regra, desenhou a tela e guarda os registros do que aconteceu. Por isso, quando há um conflito, ele raramente é só sobre o que diz uma cláusula. É sobre quem governa o que é possível fazer lá dentro.
 
 > Essa normatividade não se limita às cláusulas contratuais que regem a relação no plano formal, uma vez que se materializa em desenho de interface, padrões de escolha, fricções seletivas e mecanismos de enforcement (p. 27)
-> o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
-> núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
+> [...] uma vez que a regra implementada se torna o modo real de existência do objeto e, por consequência, o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
+> [...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
 
 ### mecanismo
 
@@ -641,9 +641,9 @@ O nome vem de outra expressão antiga, a lei dos mercadores, que designava as re
 
 > A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma” (p. 27)
 > A expressão Lex Plataformae pretende nomear, portanto, não um conjunto de cláusulas predispostas, mas uma ordenação privada tecnicamente executável, economicamente orientada e semioticamente naturalizada. (p. 27)
-> designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas. (p. 27)
+> [...] porque, enquanto a Lex Mercatoria costuma ser descrita como ordenação emergente de práticas difusas e de múltiplos atores, a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas. (p. 27)
 > Ela não apenas interpreta comportamentos, mas classifica, registra, prioriza, invisibiliza, recomenda, bloqueia, expulsa, restringe, monetiza e reconfigura o próprio ambiente em que o usuário tenta exercer a fruição do objeto adquirido. (p. 27)
-> especialmente a Lex Mercatoria, expressão usada para designar um corpo a-nacional de regras e princípios associado à prática do comércio internacional (p. 27)
+> Lex Plataformae é uma latinização operativa construída por analogia com fórmulas clássicas de nomeação de ordenações privadas, especialmente a Lex Mercatoria, expressão usada para designar um corpo a-nacional de regras e princípios associado à prática do comércio internacional (p. 27)
 > designa uma ordem privada cujo centro não é apenas a circulação mercantil entre atores, mas o controle da infraestrutura de acesso, da inteligibilidade da experiência e das condições concretas de exercício da posição do usuário (p. 28)
 
 ### texto
@@ -680,7 +680,7 @@ Ninguém proíbe você de nada. O caminho que a empresa quer que você siga só 
 
 É como um supermercado que coloca o doce na altura dos olhos e o legume no fundo da loja. Você continua livre para escolher, mas escolhe dentro de um percurso que alguém desenhou. No jogo, isso vai além das opções que aparecem na tela, porque inclui as consequências que tornam um caminho recompensado e o outro penoso.
 
-> arquitetura de escolha não se resume à apresentação de opções, porque envolve também a administração das consequências que tornam certas trajetórias mais fluidas, recompensadas e legíveis, enquanto outras se tornam mais custosas, frustrantes ou marginais (p. 337)
+> Transposto para a governança de plataforma, isso significa que arquitetura de escolha não se resume à apresentação de opções, porque envolve também a administração das consequências que tornam certas trajetórias mais fluidas, recompensadas e legíveis, enquanto outras se tornam mais custosas, frustrantes ou marginais (p. 337)
 > A dominação informacional, assim, não incide apenas sobre o que o consumidor sabe, mas sobre a própria economia prática de suas possibilidades de agir. (p. 337)
 
 ### termo Poder informacional
@@ -699,8 +699,8 @@ Uma regra não precisa vir do Congresso para funcionar como regra. O que a empre
 Por isso não basta dizer que tudo é só liberdade de contratar. E o mercado não é uma coisa da natureza que funciona sozinho, porque é a ordem que ele mesmo instaura.
 
 > Eros Roberto Grau contribui para reconhecer que a normatividade pode operar como ordem efetiva imposta por organização dotada de poder, permitindo qualificar como governança prática aquilo que se apresenta como “condição de uso” ou “regra interna” (p. 263)
-> pois organizam acessos, permanência e sanções com capacidade concreta de impor padrões e produzir efeitos coletivos, sem neutralizar o fenômeno como simples exercício formal de autonomia contratual (p. 364)
-> a advertência de que “prevalece a ordem jurídica do mercado”, entendida não como algo que o mercado seja ontologicamente, mas como “a ordem que ele instaura” (p. 378)
+> Esse vocabulário permite tratar regras internas, arquitetura de implementação e mecanismos de enforcement como direito efetivo do ambiente em sentido operacional, pois organizam acessos, permanência e sanções com capacidade concreta de impor padrões e produzir efeitos coletivos, sem neutralizar o fenômeno como simples exercício formal de autonomia contratual (p. 364)
+> Nesse sentido, a advertência de que “prevalece a ordem jurídica do mercado”, entendida não como algo que o mercado seja ontologicamente, mas como “a ordem que ele instaura” (p. 378)
 
 ### termo Psicopolítica
 
@@ -712,7 +712,7 @@ Então você corre atrás de um critério que não enxerga, por vontade própria
 > A liberdade do jogador se organiza como busca voluntária por adequação ao critério que o mede, mesmo quando o critério é opaco (p. 354)
 > Por isso, a escalada ranqueada tende a transformar o lazer em regime de autoexploração racional. (p. 354)
 > A disciplina, aqui, não se apresenta como proibição, mas como convocação permanente a investir tempo, atenção e desempenho para não perder comensurabilidade pública no ambiente. (p. 354)
-> a psicopolítica não se manifesta apenas como incentivo para “fazer mais”, mas também como indução para “ser do jeito certo” se o objetivo for permanecer elegível à experiência plena do ecossistema (p. 355)
+> No League of Legends, a psicopolítica não se manifesta apenas como incentivo para “fazer mais”, mas também como indução para “ser do jeito certo” se o objetivo for permanecer elegível à experiência plena do ecossistema (p. 355)
 
 ### caso
 
@@ -721,7 +721,7 @@ A lei da plataforma pode ir além da tela e chegar ao seu computador. Para prote
 Os termos de uso ainda admitem que a empresa monitore o uso dos serviços no seu próprio aparelho, e não só nos servidores dela. O problema aqui vai além do incômodo com um programa invasivo. A regra deixa de valer só durante a partida e passa a redesenhar até onde você manda no seu próprio equipamento.
 
 > Quando a proteção do ambiente concorrencial do OIC passa a depender de software carregado em nível de kernel, isto é, na camada mais profunda e privilegiada do sistema operacional (p. 521)
-> o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo, com possibilidade de impedir o uso do serviço caso seja desativado ou removido (p. 521)
+> As comunicações oficiais da própria Riot mostram que o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo, com possibilidade de impedir o uso do serviço caso seja desativado ou removido (p. 521)
 > A Riot admite contratualmente a possibilidade de monitorar ativamente o uso de seus serviços não apenas em seus próprios servidores, mas também no computador ou dispositivo do consumidor (p. 521)
 > Esse dado desloca o problema jurídico para além da irritação intuitiva com software “intrusivo”. O que está em jogo é a redefinição das fronteiras materiais de soberania do usuário sobre seu próprio equipamento. (p. 521)
 
@@ -742,7 +742,7 @@ Cidadania digital, aqui, não é uma cartilha de bom comportamento na internet. 
 
 > Para delimitar o que está em jogo sem inflar o argumento, mobiliza-se o conceito de cidadania digital como parâmetro, e não como cartilha. (p. 380)
 > Sua formulação permite tratar cidadania digital como grade operacional do que pode ser governado no ambiente conectado, sem transformar a discussão em culpa do usuário. (p. 380)
-> acesso digital (digital access), comércio digital (digital commerce), comunicação digital (digital communication) (p. 380)
+> Elas são: acesso digital (digital access), comércio digital (digital commerce), comunicação digital (digital communication) (p. 380)
 
 ### texto
 
@@ -758,8 +758,8 @@ Isso já aconteceu antes. No fim do século dezenove, a fotografia instantânea 
 
 Ajustar as categorias do direito, nesses casos, não é moralismo nem implicância com a tecnologia. É manter sob controle os efeitos de formas novas de poder e de intrusão, quando a técnica muda a escala em que as pessoas ficam vulneráveis.
 
-> Warren e Brandeis ([201-?]) sustentam que invenções recentes e práticas empresariais em expansão intensificaram formas de intrusão que o ordenamento, se permanecer preso a esquemas anteriores, não consegue capturar adequadamente. (p. 347)
-> os autores defendem o reconhecimento de um direito à privacidade enquanto legítimo direito de ser deixado em paz (p. 347-348)
+> Em seu artigo, Warren e Brandeis ([201-?]) sustentam que invenções recentes e práticas empresariais em expansão intensificaram formas de intrusão que o ordenamento, se permanecer preso a esquemas anteriores, não consegue capturar adequadamente. (p. 347)
+> A partir daí, os autores defendem o reconhecimento de um direito à privacidade enquanto legítimo direito de ser deixado em paz (p. 347-348)
 > Quando o ambiente técnico reorganiza a vulnerabilidade em escala, a reconstrução jurídica não é moralismo, mas resposta necessária para manter controláveis, em termos institucionais, os efeitos de novas formas de poder e de intrusão. (p. 348)
 
 ### limite
@@ -794,7 +794,7 @@ Você já deve ter ouvido que é assim que funciona, que foi só uma atualizaç�
 E isso não acontece só nos jogos, que apenas deixam ver, quase a olho nu, a produção de dependência e de valor simbólico fica visível quase a olho nu. Fora deles, em aplicativos de trabalho, de estudo, de reputação e de compras, os mesmos efeitos costumam ser apresentados como inevitáveis, e não como escolhas de desenho. Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza e apenas aplica regras, o conflito continua preso à língua do inevitável.
 
 > Se a experiência do entretenimento interativo permite ver, quase a olho nu, a produção de dependência, a fabricação de valor simbólico, a conversão de rotina em vínculo e a naturalização de assimetrias (p. 23)
-> fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
+> A diferença é que, fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
 > Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza, apenas executa, apenas aplica regras, o conflito permanecerá preso ao idioma do inevitável. (p. 792)
 
 ### texto
@@ -828,7 +828,7 @@ O meio muda o que conta. Quando a televisão tomou o lugar da palavra impressa c
 
 Nas plataformas acontece o mesmo, com mais força. É a tela que decide o que aparece primeiro, o que dá para entender e o que parece verdadeiro. Personalizar, ranquear e medir não são simples funções de um aplicativo, porque carregam critérios de valor e de visibilidade que orientam o comportamento de milhões de pessoas.
 
-> a televisão, ao substituir a palavra impressa como principal meio de comunicação pública, reorganiza a forma do discurso e, com isso, reconfigura o próprio conteúdo cultural (p. 89)
+> Em Amusing Ourselves to Death, o autor analisa como a televisão, ao substituir a palavra impressa como principal meio de comunicação pública, reorganiza a forma do discurso e, com isso, reconfigura o próprio conteúdo cultural (p. 89)
 > No campo político, a lógica visual desloca o peso do argumento para aparência, performance e administração de impressões (p. 89)
 > Neil Postman desloca o problema para a mídia enquanto forma de vida, mostrando que os meios de comunicação alteram critérios de relevância, inteligibilidade e verdade socialmente praticável. (p. 85-86)
 > Personalização, ranqueamento e metrificação não constituem meras funcionalidades, pois materializam critérios de valor e visibilidade que orientam comportamento em escala. (p. 90)
@@ -839,8 +839,8 @@ A publicidade pega símbolos da cultura, como amizade, coragem e prestígio, e o
 
 No digital, isso não fica só no anúncio, porque vira desenho, e a tela decide quando, como e para quem cada sinal aparece, se repete e é premiado. A manipulação, então, não está só no conteúdo da mensagem, mas no jeito como ela é distribuída.
 
-> empresas mobilizam símbolos culturais para atribuir a produtos materiais a capacidade ilusória de satisfazer necessidades emocionais e sociais (p. 90)
-> a dessimbolização cultural representa o processo de enfraquecimento da capacidade humana de se atribuir significado às experiências, resultando em uma compreensão fragmentada e empobrecida da vida como um todo (p. 90)
+> Para o autor, empresas mobilizam símbolos culturais para atribuir a produtos materiais a capacidade ilusória de satisfazer necessidades emocionais e sociais (p. 90)
+> 42 Segundo Willem H. Vanderburg (2016), a dessimbolização cultural representa o processo de enfraquecimento da capacidade humana de se atribuir significado às experiências, resultando em uma compreensão fragmentada e empobrecida da vida como um todo (p. 90)
 > a dessimbolização não atua apenas no discurso publicitário, mas se acopla a arquiteturas técnicas que administram visibilidade, repetição e recompensa (p. 91)
 > A manipulação semiótica, portanto, não se dá apenas pelo conteúdo das mensagens, mas pela forma de sua distribuição e pela lógica de interface que define quando, como e para quem certos signos aparecem. (p. 91)
 
@@ -867,7 +867,7 @@ Para ler um sinal, é preciso conhecer o código. Um sinal vermelho no trânsito
 
 A diferença é quem escreve a regra, que no trânsito é a lei. Dentro do jogo, quem define os códigos, as categorias e o que conta como diferença importante é a própria plataforma. É ela que decide o que é raro, o que é comum e o que significa cada marca.
 
-> a contribuição de Umberto Eco permite compreender como códigos e convenções tornam legível a prestação e organizam a expectativa do consumidor (p. 261)
+> Nessa chave, a contribuição de Umberto Eco permite compreender como códigos e convenções tornam legível a prestação e organizam a expectativa do consumidor (p. 261)
 > Há assimetria de sentido, ligada ao controle de códigos de leitura, categorias e classificações que definem o que conta como diferença relevante. (p. 322)
 
 ### nome vulnerabilidade-semiotica
@@ -958,7 +958,7 @@ Isso está previsto no contrato. Os termos de uso dizem que a empresa pode alter
 E, no jogo, fortalecer e enfraquecer não é um acidente. É a rotina pela qual se decide, a cada ciclo de atualização, o que vale a pena usar e o que fica para trás por um tempo. Correções, reformas de personagens, mudanças de efeitos visuais e ajustes na economia do jogo não são só manutenção técnica, porque reescrevem quem fica, o que equivale a quê e o que é reconhecido lá dentro.
 
 > Os Termos de Serviço afirmam que o fornecedor pode alterar, atualizar, suspender e até “nerfar” recursos e partes dos serviços, inclusive produtos virtuais, além de prever a aplicação de patches em segundo plano e atualizações automáticas, com ou sem aviso prévio (Riot Games, 2024e). (p. 123)
-> buffs e nerfs não são um adereço posterior ao jogo, mas o próprio meio pelo qual o ecossistema define, em ciclos regulares, quais personagens e estratégias permanecem competitivamente viáveis e quais ficam, por um período, rebaixadas à condição de escolhas subótimas (p. 121)
+> No League of Legends, buffs e nerfs não são um adereço posterior ao jogo, mas o próprio meio pelo qual o ecossistema define, em ciclos regulares, quais personagens e estratégias permanecem competitivamente viáveis e quais ficam, por um período, rebaixadas à condição de escolhas subótimas (p. 121)
 > Patches, reworks, alterações de efeitos visuais e ajustes de economia interna não funcionam apenas como manutenção técnica; reescrevem condições de permanência, equivalência e reconhecimento dentro do ecossistema. (p. 120)
 
 ### caso
@@ -971,10 +971,10 @@ Não é preciso adivinhar a intenção de quem decidiu nada disso. A sequência 
 
 > A introdução oficial da personagem foi apresentada como marco narrativo e temporal associado ao universo de Arcane, com data de disponibilização institucionalmente fixada (p. 131-132)
 > O episódio envolvendo a campeã Mel permite observar, com maior nitidez, como a racionalidade técnica do balanceamento pode operar acoplada à economia simbólica do ecossistema, sem que seja necessário atribuir intenção subjetiva ao decisor. (p. 131)
-> sua força e o tipo de interação defensiva que seu kit permitia passaram a ser objeto recorrente de avaliação pública e de intervenção técnica (p. 132)
-> já no ciclo de fim de ano, essa centralidade se conectou a uma janela de prestígio vinculada a conteúdo cosmético raro, com data de abertura publicamente registrada (p. 132)
-> no início de 2026, o patch 26.3 promoveu uma reespecificação relevante do modo de fruição da campeã ao alterar o mecanismo central de proteção que sustentava seu padrão de interação, substituindo a lógica anterior por um escudo e retirando, de forma expressa, a imunidade a dano (p. 132)
-> o design não atua apenas como otimização técnica, mas como mediação social que regula centralidade, aceitabilidade e valor funcional, inclusive quando essa regulação se encontra sincronizada com ciclos de prestígio e escassez administrados pela própria plataforma (p. 132)
+> Em primeiro lugar, sua força e o tipo de interação defensiva que seu kit permitia passaram a ser objeto recorrente de avaliação pública e de intervenção técnica (p. 132)
+> Em segundo lugar, já no ciclo de fim de ano, essa centralidade se conectou a uma janela de prestígio vinculada a conteúdo cosmético raro, com data de abertura publicamente registrada (p. 132)
+> Em seguida, no início de 2026, o patch 26.3 promoveu uma reespecificação relevante do modo de fruição da campeã ao alterar o mecanismo central de proteção que sustentava seu padrão de interação, substituindo a lógica anterior por um escudo e retirando, de forma expressa, a imunidade a dano (p. 132)
+> O encadeamento é suficiente para sustentar que o design não atua apenas como otimização técnica, mas como mediação social que regula centralidade, aceitabilidade e valor funcional, inclusive quando essa regulação se encontra sincronizada com ciclos de prestígio e escassez administrados pela própria plataforma (p. 132)
 
 ### termo Nerf
 
@@ -982,7 +982,7 @@ Nerf é a palavra que os jogadores usam para o enfraquecimento proposital, feito
 
 É o exemplo mais claro do que esta parte mostra. O nome continua igual e o acesso continua igual, enquanto aquilo que você de fato recebe muda por dentro. E a permanência do nome passa a funcionar como prova a favor de quem mudou, porque, à primeira vista, nada sumiu.
 
-> o nerf, entendido como enfraquecimento tecnicamente deliberado de atributos, habilidades ou itens, por meio de patch, para tornar algo menos poderoso no funcionamento prático do jogo (p. 328)
+> Um modo privilegiado de visualizar essa perda de verificabilidade é o nerf, entendido como enfraquecimento tecnicamente deliberado de atributos, habilidades ou itens, por meio de patch, para tornar algo menos poderoso no funcionamento prático do jogo (p. 328)
 > O nerf é o caso-limite porque mostra, com precisão, como a continuidade do nome e do acesso pode funcionar como prova autojustificante, enquanto a entrega relevante se desloca naquilo que o ambiente conta como potência e utilidade. (p. 329)
 
 ### texto
@@ -994,7 +994,7 @@ Por isso a pergunta não é se a empresa pode mudar alguma coisa. Ela pode. A pe
 E vale um cuidado a mais para quem comprou uma skin. Uma mudança só de aparência, em regra, não basta. Ela passa a importar quando o valor simbólico da skin fazia parte do centro do que foi vendido, ou quando a mudança se soma a outros sinais de um padrão que aponta para explorar quem usa.
 
 > A mutabilidade, por si, não é ilícita. (p. 729)
-> alterações graduais do motor gráfico, do orçamento de memória do jogo, das rotinas de carregamento e do próprio equilíbrio técnico podem, por necessidade de performance e compatibilidade, modificar o modo como o item se apresenta (p. 439)
+> Por isso, alterações graduais do motor gráfico, do orçamento de memória do jogo, das rotinas de carregamento e do próprio equilíbrio técnico podem, por necessidade de performance e compatibilidade, modificar o modo como o item se apresenta (p. 439)
 > A questão deixa de ser se mudanças são possíveis e passa a ser em que condições elas podem ser tratadas como compatíveis com a promessa e com a preservação do valor relevante. (p. 330)
 > O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido. (p. 434)
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas, salvo quando, no caso concreto, componham um conjunto convergente de sinais apto a sustentar reconhecimento objetivo de ilícito arquitetural por indícios estruturais de teleologia abusiva. (p. 434)
@@ -1011,7 +1011,7 @@ Ao mesmo tempo, ninguém exige que nada mude, nem que a versão nova seja idênt
 > A equivalência de valor funcional não se reduz à manutenção de desempenho técnico em sentido estrito, nem à preservação quantitativa de atributos isolados. Seu conteúdo é mais exigente. (p. 729)
 > O ponto é afirmar que a licitude da alteração não pode ser aferida apenas pela subsistência nominal do objeto, pela manutenção formal de acesso ou pela persistência abstrata de alguma utilidade residual. (p. 795)
 > Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
-> serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito; OICs evoluem, mas não podem ser esvaziados sob o rótulo de evolução (p. 655)
+> Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito; OICs evoluem, mas não podem ser esvaziados sob o rótulo de evolução (p. 655)
 
 ### teste
 
@@ -1022,7 +1022,7 @@ A atualização tirou uma função importante do item? Enfraqueceu o item a pont
 Se alguma resposta for sim, a mudança pode ter rompido a equivalência. A plataforma podia mudar, mas, nesse caso, deveria ter preservado o valor do que você tinha ou aberto espaço para uma recomposição, uma correção ou uma revisão. E você não precisa provar que é dono pleno do item para reclamar disso. Basta mostrar que a utilidade que você adquiriu foi rebaixada de forma arbitrária.
 
 > A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida, mudanças de interface que desorganizam o uso ordinário, redefinições de regras que rebaixam a equivalência do que foi prometido (p. 637)
-> reconhece-se que a plataforma pode alterar, mas exige-se que a alteração preserve, em termos substanciais, o valor funcional da experiência adquirida ou, não o fazendo, abra espaço a recomposição, correção, revisão ou outro remédio adequado (p. 637)
+> A equivalência de valor funcional permite, justamente, uma posição intermediária muito mais robusta: reconhece-se que a plataforma pode alterar, mas exige-se que a alteração preserve, em termos substanciais, o valor funcional da experiência adquirida ou, não o fazendo, abra espaço a recomposição, correção, revisão ou outro remédio adequado (p. 637)
 > Não é preciso demonstrar domínio pleno sobre o objeto para sustentar que a fruição adquirida não pode ser rebaixada arbitrariamente. (p. 637)
 
 ### mecanismo
@@ -1041,9 +1041,9 @@ Por que não simplesmente aceitar e seguir em frente? Porque, numa relação que
 
 É por isso que a liberdade de contratar tem limites quando o contrato dura no tempo. O poder de mudar a prestação não pode ser usado para frustrar a função que justificou a compra. E o Código de Defesa do Consumidor já diz, com clareza, que é nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que entrega depois da contratação.
 
-> a prestação não se esgota na adesão inicial, e o vínculo passa a ser estruturado por dependência prática, assimetria permanente, confiança sedimentada e poder renovado de imposição do fornecedor ao longo do tempo (p. 559)
+> [...] mas porque ela ajuda a visualizar algo que o consumo digital contínuo escancara: a prestação não se esgota na adesão inicial, e o vínculo passa a ser estruturado por dependência prática, assimetria permanente, confiança sedimentada e poder renovado de imposição do fornecedor ao longo do tempo (p. 559)
 > Em contratos cativos, o chamado “consenso” superveniente frequentemente não passa de adesão forçada ao novo estado de coisas, especialmente quando o consumidor já está investido na relação e depende do ecossistema para continuar fruindo aquilo que adquiriu. (p. 654-655)
-> o poder de alterar, modular ou reconfigurar a prestação não pode ser exercido de modo a frustrar a função que justificou a aquisição original pelo consumidor (p. 561)
+> A liberdade contratual encontra limites na função social do contrato, e, em relações de consumo continuadas, essa limitação ganha forma muito concreta: o poder de alterar, modular ou reconfigurar a prestação não pode ser exercido de modo a frustrar a função que justificou a aquisição original pelo consumidor (p. 561)
 > No plano mais clássico do CDC, essa vedação já aparece de forma suficientemente clara. É nula a cláusula que autorize modificação unilateral do conteúdo ou da qualidade da prestação após a contratação (p. 561)
 
 ### texto
@@ -1053,7 +1053,7 @@ Agora tente provar o que mudou. Você precisaria mostrar quando a mudança acont
 Quem controla esses vestígios controla, em boa parte, a reconstrução do que aconteceu. E, enquanto você não consegue mostrar a diferença, a continuidade do nome e dos sinais serve de prova para o outro lado.
 
 > Quem controla logs, históricos, critérios decisórios, versões relevantes, registros de interface, fluxos de moderação, parâmetros de alteração e vestígios de sanção controla, em larga medida, as condições de reconstrução jurídica do que ocorreu. (p. 734)
-> a continuidade dos sinais funciona como prova autojustificante enquanto o consumidor não consegue demonstrar o que mudou, por quais critérios e com qual efeito sobre a posição adquirida (p. 326)
+> Sem esse mínimo, a disputa tende a ser resolvida por superfície e impressão, porque a continuidade dos sinais funciona como prova autojustificante enquanto o consumidor não consegue demonstrar o que mudou, por quais critérios e com qual efeito sobre a posição adquirida (p. 326)
 
 ### nome auditabilidade-aberta
 
@@ -1063,8 +1063,8 @@ Também não se trata de abrir o código do jogo nem de entregar os segredos da 
 
 E vale um limite. Esse dever não aparece em qualquer ajuste pequeno ou mudança só de aparência. Ele começa quando a alteração afeta de verdade o que você usa, a sua permanência ou a sua chance de provar e contestar.
 
-> a plataforma não pode pretender alterar o regime de fruição e, ao mesmo tempo, manter em sigilo absoluto o que de fato alterou, quando alterou, por que alterou, que efeitos relevantes a mudança produz e quais registros permitem reconstruir o episódio em caso de conflito (p. 636)
-> um desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do consumidor (p. 648)
+> Em outras palavras, a plataforma não pode pretender alterar o regime de fruição e, ao mesmo tempo, manter em sigilo absoluto o que de fato alterou, quando alterou, por que alterou, que efeitos relevantes a mudança produz e quais registros permitem reconstruir o episódio em caso de conflito (p. 636)
+> Um standard de verificabilidade mínima, compatível com a proteção do software e do segredo empresarial, mas incompatível com a blindagem opaca da execução; um desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do consumidor (p. 648)
 > O standard não exige exposição do segredo industrial como fetiche purificador. Exige, isso sim, um mínimo demonstrável capaz de impedir que informação, boa-fé e transparência se convertam em performances vazias. (p. 636)
 > O que precisa é de inteligibilidade suficiente para identificar a ocorrência de alteração relevante, relacioná-la com a fruição prometida, verificar se houve justificativa compatível com o regime jurídico (p. 728)
 > Não transparência total, mas transparência suficiente. (p. 728)
@@ -1098,9 +1098,9 @@ A raridade encenada, a pressa fabricada, a promessa de progresso, o medo de perd
 
 É por isso que a exploração quase nunca aparece numa cláusula escandalosa ou num anúncio que mente sozinho. Ela aparece como programa de funcionamento, aquilo que o serviço faz todo dia.
 
-> a combinação entre escassez encenada, urgência fabricada, promessa de progressão, ameaça difusa de perda, rebaixamentos graduais de utilidade e ancoragem simbólica da permanência (p. 670)
+> O que ocorre, com mais frequência, é a combinação entre escassez encenada, urgência fabricada, promessa de progressão, ameaça difusa de perda, rebaixamentos graduais de utilidade e ancoragem simbólica da permanência (p. 670)
 > Em ecossistemas de OIC, a exploração raramente se apresenta sob a forma limpa de uma cláusula escandalosa ou de uma publicidade isoladamente mentirosa. Ela tende a emergir como programa de funcionamento (p. 670)
-> articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa (p. 670)
+> Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa (p. 670)
 
 ### nome teleologia-abusiva
 
@@ -1174,10 +1174,10 @@ Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscu
 
 O que pesa nesses casos não é uma frase isolada, e sim o jeito como as escolhas são apresentadas e induzidas. E a lei brasileira de proteção ao consumidor já permite punir vários casos de desenho enganoso. Assim o design deixa de ser tratado como estética neutra e volta a ser o que é, uma prática comercial com objetivo econômico, que o direito pode qualificar.
 
-> padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas (p. 405)
+> Esse ponto se torna mais nítido quando padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas (p. 405)
 > várias dessas disposições estão relacionadas a padrões obscuros, o que nos permite concluir que sob o quadro legal brasileiro é possível sancionar vários casos de desenho enganoso (p. 405)
-> o design é recolocado no seu lugar correto, como prática comercial economicamente orientada e juridicamente qualificável, e não como neutralidade estética (p. 432)
-> defaults, fricções, urgências fabricadas, rotas de cancelamento hostis (p. 666)
+> Quando se reconhece que é possível sancionar casos de desenho enganoso e se vinculam as disposições do art. 39 do CDC a padrões obscuros, o design é recolocado no seu lugar correto, como prática comercial economicamente orientada e juridicamente qualificável, e não como neutralidade estética (p. 432)
+> Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis (p. 666)
 
 ### termo Publicidade enganosa por arquitetura
 
@@ -1187,7 +1187,7 @@ Funciona assim. O lado bom da compra vai para o centro da tela, grande e colorid
 
 > Em termos mais simples, a comunicação não precisa mentir para enganar. Basta que ela administre o enquadramento interpretativo de forma suficientemente assimétrica. A publicidade pode dizer a verdade em pedaços e ainda assim mentir no conjunto. (p. 626)
 > Esse é o núcleo da publicidade enganosa por arquitetura semiótica. A arquitetura do anúncio passa a ser juridicamente relevante quando o fornecedor estrutura a compreensão do consumidor de modo a reforçar o lado positivo da experiência e empurrar o lado oneroso, mutável ou limitado para fora do foco (p. 626)
-> pelo deslocamento das condições relevantes para disclaimers, camadas de baixa visibilidade, links posteriores ou zonas discursivas que não integram de modo útil o momento decisório (p. 626)
+> Ele pode ser produzido pela forma como o essencial é hierarquizado, pela ênfase seletiva nas vantagens e pelo deslocamento das condições relevantes para disclaimers, camadas de baixa visibilidade, links posteriores ou zonas discursivas que não integram de modo útil o momento decisório (p. 626)
 
 ### termo Continuidade biográfica
 
@@ -1195,9 +1195,9 @@ Quando uma conta é apagada, você não perde só um item. Perde a posição int
 
 A sua história ali foi feita de escolhas repetidas, de desempenho, de tempo, de compras, de cooperação com outros jogadores e de sinais de pertencimento acumulados ao longo de anos. Ela foi construída sob as regras da plataforma, mas continua sendo sua, porque é o resultado do que você fez. Por isso a proteção pode incluir a continuidade dessa biografia, e não só o reembolso de uma compra frustrada.
 
-> não se perde apenas item isolado, mas a posição global de fruição, o histórico, o inventário, a trajetória e a continuidade prática de inserção no ecossistema (p. 540-541)
+> A cláusula é valiosa porque desnuda o problema: não se perde apenas item isolado, mas a posição global de fruição, o histórico, o inventário, a trajetória e a continuidade prática de inserção no ecossistema (p. 540-541)
 > Ela é resultado biográfico produzido por escolhas reiteradas, desempenho, investimento de tempo, aquisição, cooperação, acúmulo de sinais de pertencimento e permanência no ecossistema. Ainda que essa construção ocorra sob mediação da Lex Plataformae, continua sendo atribuível ao consumidor como expressão de continuidade biográfica no interior do regime de fornecimento. (p. 537)
-> a integridade do consumidor pode incluir preservação de condições mínimas de continuidade biográfica e estabilidade de inserção simbólica, e não só o reembolso de uma compra frustrada (p. 537)
+> Assim, o que se afirma é apenas que a integridade do consumidor pode incluir preservação de condições mínimas de continuidade biográfica e estabilidade de inserção simbólica, e não só o reembolso de uma compra frustrada (p. 537)
 
 ### texto
 
@@ -1252,8 +1252,8 @@ A lei do consumidor parte de um fato que ela mesma reconhece, o de que o consumi
 
 Nos ambientes digitais, essa vulnerabilidade ganha uma forma própria. Ela passa a estar ligada a sinais, a telas e a critérios privados que decidem o que aparece e como cada coisa pode ser usada. É dessa forma específica de fragilidade que vêm deveres mais fortes de transparência, de lealdade e de informação para quem fornece.
 
-> a vulnerabilidade fática do consumidor, reconhecida expressamente no art. 4º, I, do CDC, assume nos ambientes digitais uma forma própria, ligada à mediação por signos, interfaces e critérios privados de visibilidade e fruição (p. 34)
-> justificando deveres reforçados de transparência, lealdade e informação (p. 183)
+> A partir dessa perspectiva, sustenta-se que a vulnerabilidade fática do consumidor, reconhecida expressamente no art. 4º, I, do CDC, assume nos ambientes digitais uma forma própria, ligada à mediação por signos, interfaces e critérios privados de visibilidade e fruição (p. 34)
+> [...] em termos dogmáticos, a vulnerabilidade intrínseca aos objetos imateriais de consumo como dimensão interpretada da vulnerabilidade fática do art. 4º, I, do CDC, justificando deveres reforçados de transparência, lealdade e informação (p. 183)
 
 ### imagem
 
@@ -1271,8 +1271,8 @@ Isso não quer dizer que nada possa mudar. Em contratos que duram anos, mudar fa
 
 A boa-fé, que é a exigência de lealdade entre as partes, vai além do que está escrito no contrato. Ela cria deveres de cuidado, de cooperação e de manutenção. Por isso, quando a empresa diz que a mudança foi só uma atualização, um ajuste ou uma evolução do serviço, a conversa não termina aí. O que importa é mostrar que o essencial do que você comprou foi preservado, e não o tamanho da complexidade técnica.
 
-> mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
-> a boa-fé deverá exigir cuidado, cooperação e manutenção como deveres de preservação de equivalência funcional (p. 479)
+> Essa formulação dá o encaixe fino para a equivalência de valor funcional: mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
+> A consequência é ostensiva, uma vez que, se a execução continuada expõe o consumidor a riscos de obsolescência técnica, mutações de compatibilidade e reconfigurações estruturais, a boa-fé deverá exigir cuidado, cooperação e manutenção como deveres de preservação de equivalência funcional (p. 479)
 > Sempre que a plataforma invoca “atualização”, “ajuste” ou “evolução do serviço” para justificar alterações persistentes, o núcleo do debate deve recair sobre a demonstração de preservação substancial do feixe de fruição, e não sobre a retórica da complexidade. (p. 480)
 
 ### termo Lei do software
@@ -1300,9 +1300,9 @@ Direitos fundamentais são aqueles que a Constituição garante a todas as pesso
 
 Isso importa porque o poder que pesa sobre você nem sempre vem do governo. Pense numa empresa que organiza, em grande escala, o seu acesso, a sua permanência, a sua visibilidade, a sua reputação e até as suas chances de provar e de contestar. Ela também pode ferir a sua liberdade e a sua igualdade. E a liberdade de contratar não pode servir de biombo para esconder relações tão desiguais.
 
-> nas relações privadas contemporâneas, a sujeição relevante já não provém apenas do Estado. Ela também emerge de centros privados de poder capazes de organizar acesso, permanência, visibilidade, reputação, prova e contestação em escala suficiente para afetar, de modo estrutural, a liberdade prática e a igualdade material do sujeito submetido à relação. (p. 512)
-> a autonomia privada não pode funcionar como biombo para blindar arranjos materialmente assimétricos (p. 512)
-> violações relevantes a direitos fundamentais não partem apenas do Estado, mas também de sujeitos privados dotados de poder econômico, informacional e organizacional (p. 24)
+> A eficácia horizontal dos direitos fundamentais deixa de parecer questão teórica abstrata quando se observa que, nas relações privadas contemporâneas, a sujeição relevante já não provém apenas do Estado. Ela também emerge de centros privados de poder capazes de organizar acesso, permanência, visibilidade, reputação, prova e contestação em escala suficiente para afetar, de modo estrutural, a liberdade prática e a igualdade material do sujeito submetido à relação. (p. 512)
+> Em contextos assim, a autonomia privada não pode funcionar como biombo para blindar arranjos materialmente assimétricos (p. 512)
+> A chave está em reconhecer que, na sociedade contemporânea, violações relevantes a direitos fundamentais não partem apenas do Estado, mas também de sujeitos privados dotados de poder econômico, informacional e organizacional (p. 24)
 
 ### termo Função social da propriedade intelectual
 
@@ -1312,8 +1312,8 @@ Por isso, ser dono da obra não basta, sozinho, para justificar mudar sem limite
 
 Ela também não fica do lado de fora. Na prática, a propriedade intelectual ajuda a montar o próprio ambiente, porque é por ela que a plataforma define o que pode ser acessado, mantido, mudado, retirado e contestado.
 
-> o art. 5º, XXIX não outorga prerrogativa patrimonial autojustificada, nem protege a exclusividade como fim em si. (p. 702)
-> subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
+> Ao tratar da propriedade industrial, o art. 5º, XXIX não outorga prerrogativa patrimonial autojustificada, nem protege a exclusividade como fim em si. (p. 702)
+> Ao contrário, subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
 > A disciplina infraconstitucional da propriedade intelectual patrimonial não recebe, portanto, um cheque em branco constitucional; recebe uma moldura finalística. (p. 702)
 > Assim, a mera titularidade de um direito de PI não basta para legitimar, por si só, mutabilidade unilateral da fruição, opacidade decisória, sanção privada incontrastável ou destruição de utilidades incorporadas ao vínculo de consumo contínuo. (p. 702-703)
 > Opera, na prática, como parte da infraestrutura jurídica pela qual a plataforma define o que pode ser acessado, mantido, alterado, retirado, auditado e contestado. (p. 680)
@@ -1338,10 +1338,10 @@ Desde 2024, o Brasil tem uma lei que reconhece os jogos eletrônicos como ativid
 A lei garante a liberdade de criar, vender e explorar jogos, mas sob a Constituição e as leis em vigor. E diz que os jogos devem respeitar os direitos fundamentais, a defesa do consumidor, a proteção integral de crianças e adolescentes e a privacidade e os dados pessoais de quem joga. Por isso ela não é um vale-tudo com cara de modernidade.
 
 > Um marco suficiente para registrar esse dado é a Lei 14.852/2024 (Brasil, [2024]b), tomada aqui como referência de reconhecimento institucional da indústria de jogos eletrônicos como atividade econômica e cultural com relevância própria. (p. 493)
-> fornece definição normativa do que conta como jogo eletrônico, incluindo obras audiovisuais interativas desenvolvidas como programa de computador, dispositivos e acessórios, e softwares consumidos por download ou streaming (p. 543)
+> [...] disciplina sua cadeia econômica central — fabricação, importação, comercialização, desenvolvimento e uso comercial — e fornece definição normativa do que conta como jogo eletrônico, incluindo obras audiovisuais interativas desenvolvidas como programa de computador, dispositivos e acessórios, e softwares consumidos por download ou streaming (p. 543)
 > A lei afirma a liberdade de fabricação, importação, comercialização, desenvolvimento e uso comercial dos jogos eletrônicos, mas o faz sob remissão expressa ao art. 173 da Constituição e à legislação vigente. (p. 544)
-> afirma que os jogos eletrônicos devem ser pensados à luz do respeito aos direitos fundamentais e aos valores democráticos, da defesa do consumidor, da proteção integral da criança e do adolescente, e da preservação da privacidade, da proteção de dados pessoais (p. 544)
-> o marco não consagra um vale-tudo setorial fantasiado de modernidade simpática (p. 544)
+> O marco organiza o setor institucionalmente mediante princípios e diretrizes e, no seu núcleo mais importante para esta tese, afirma que os jogos eletrônicos devem ser pensados à luz do respeito aos direitos fundamentais e aos valores democráticos, da defesa do consumidor, da proteção integral da criança e do adolescente, e da preservação da privacidade, da proteção de dados pessoais (p. 544)
+> Isso é relevante porque o marco não consagra um vale-tudo setorial fantasiado de modernidade simpática (p. 544)
 
 ### limite
 
@@ -1382,7 +1382,7 @@ O que fica ao seu alcance é mais do que parece. Capturas de tela com data, grav
 
 Repare na diferença que isso faz. Você deixa de dizer só eu não entendi e passa a mostrar que o ambiente foi desenhado de um certo jeito. O que conta não é a sua lembrança, e sim a forma que a plataforma deu ao caminho que você percorreu.
 
-> capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração (p. 607)
+> A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração (p. 607)
 > O relevante aí não é a memória subjetiva do usuário, mas a arquitetura efetivamente apresentada. A alegação deixa de ser “eu não entendi” e passa a ser “o ambiente foi desenhado desta forma”. (p. 607)
 > Compara-se a promessa publicitária e institucional com a fruição efetivamente entregue e com suas alterações posteriores. (p. 607)
 
@@ -1397,7 +1397,7 @@ Nada disso é automático. Há quem defenda que a inversão deveria valer sempre
 > A especialização tecnológica do serviço e a posição dominante do fornecedor fazem da inversão do ônus da prova, em muitos casos, o único instrumento capaz de viabilizar efetivamente a tutela do consumidor (p. 583)
 > O terceiro mecanismo é propriamente processual: preservação de evidências, exibição de documentos e redistribuição dinâmica do ônus da prova. (p. 659)
 > O art. 373, § 1º, permite a distribuição diversa do ônus probatório quando houver excessiva dificuldade para uma parte cumprir o encargo ou maior facilidade da outra em produzir a prova do fato contrário (p. 659)
-> com inversão do ônus da prova ope legis, e não apenas ope judicis (p. 593)
+> [...] razão pela qual a vulnerabilidade digital e a hipossuficiência correspondente deveriam ser afirmadas em chave universal, com inversão do ônus da prova ope legis, e não apenas ope judicis (p. 593)
 > Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido. (p. 736)
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 > O sinal mínimo de prova exige comparação funcional entre o antes e o depois, exame de versões relevantes, identificação do núcleo de utilidade afetado e avaliação do papel do objeto na experiência (p. 672)
@@ -1410,18 +1410,18 @@ Quando apareceram fraudes com cartões, a empresa desligou a função de present
 
 O caso ajuda a entender três coisas. A empresa já conhecia o risco de fraude, e por isso esse risco faz parte da atividade dela e não pode ser tratado como culpa de quem recebeu o presente. Uma licença revogável no contrato não basta para jogar sobre você a falha do sistema. E daí nascem pedidos concretos, como devolver o que foi retirado quando nenhuma prova individual afasta a sua boa-fé, guardar e mostrar os registros e corrigir a informação sobre onde comprar com segurança.
 
-> a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio (p. 610)
+> Ao contrário, a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio (p. 610)
 > materiais promocionais e vitrines digitais apresentavam a compra externa de moeda virtual como prática ordinária, segura, vantajosa e compatível com o ecossistema do jogo (p. 612)
 > A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido. (p. 612)
-> fraude vinculada a cartão clonado (p. 612)
+> Nessa ambiência, não é juridicamente sério presumir que o consumidor médio sempre distinguiria, com clareza suficiente, parceiro tolerado, revenda legítima, mercado cinzento e fraude vinculada a cartão clonado (p. 612)
 > A empresa desativou por longo período a funcionalidade de presentes no servidor brasileiro, suprimiu ativos recebidos e operou restaurações regressivas ou bloqueios em contas atingidas (p. 611)
-> inclusive sobre usuários que não participaram conscientemente da fraude (p. 610)
-> o usuário passa a depender de extratos antigos, e-mails dispersos, capturas pretéritas e memória reconstruída para provar que determinado conteúdo integrava legitimamente sua posição de fruição (p. 616)
-> transfere ao jogador o encargo quase arqueológico de reconstituir item por item aquilo que já fazia parte de sua esfera de fruição (p. 616)
+> [...] suprimiu ativos, interrompeu funcionalidade oficial de circulação de conteúdo e operou sanções fundadas em presunções amplas de corresponsabilidade, inclusive sobre usuários que não participaram conscientemente da fraude (p. 610)
+> Uma vez removidos os ativos ou revertido o estado da conta, o usuário passa a depender de extratos antigos, e-mails dispersos, capturas pretéritas e memória reconstruída para provar que determinado conteúdo integrava legitimamente sua posição de fruição (p. 616)
+> O episódio mostra como a plataforma, ao operar reversão ampla do estado da conta, transfere ao jogador o encargo quase arqueológico de reconstituir item por item aquilo que já fazia parte de sua esfera de fruição (p. 616)
 > Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão (p. 610)
 > O risco passa a integrar o círculo profissional da própria operação econômica. (p. 611)
 > O ponto dogmático central, porém, é que esse vocabulário contratual não basta para converter o consumidor em destinatário legítimo do risco sistêmico. (p. 615)
-> restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição (p. 617)
+> O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição (p. 617)
 
 ### termo Recomposição funcional
 
@@ -1430,7 +1430,7 @@ E o que se pede, afinal? Antes de dinheiro, que se devolva o que foi tirado. Iss
 A razão é simples. Quando o que você perdeu foi a possibilidade de continuar usando algo, uma indenização sozinha costuma ser um remédio pobre. Ela põe um número no lugar da perda, mas não devolve a conta, o histórico nem o lugar que você tinha no jogo.
 
 > Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização. (p. 751)
-> a simples condenação pecuniária tende a operar como remédio pobre e estruturalmente ineficaz (p. 751)
+> [...] a integridade da experiência, a permanência do acesso, a inteligibilidade do vínculo ou a posição relacional do consumidor no ecossistema, a simples condenação pecuniária tende a operar como remédio pobre e estruturalmente ineficaz (p. 751)
 > O que se exige, sempre que possível, é restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança. (p. 751)
 
 ### limite
@@ -1438,7 +1438,7 @@ A razão é simples. Quando o que você perdeu foi a possibilidade de continuar 
 O dinheiro não sai de cena. Indenizar continua legítimo e, muitas vezes, indispensável, seja para cobrir perdas materiais, seja para reconhecer danos que não são só materiais. Ele só deixa de ser a resposta automática, como se toda perda desse tipo pudesse virar um número numa planilha, sem que ninguém olhasse para o que foi perdido.
 
 > A indenização pecuniária permanece, evidentemente, como remédio legítimo e em muitos casos indispensável. O parâmetro aqui formulado não a elimina. (p. 741)
-> a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes (p. 742)
+> Nessas hipóteses, a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes (p. 742)
 > O que se recusa é sua transformação em resposta automática e preferencial em qualquer hipótese (p. 742)
 
 ### termo Correção de regime
@@ -1463,8 +1463,8 @@ E quem não comprou nada, mas depende do mesmo ambiente? Pense no pequeno vended
 
 A lei permite proteger essa pessoa como se fosse consumidora. Mas não é qualquer participante que entra nessa proteção. É quem está exposto de verdade, em situação de vulnerabilidade que importa para o direito.
 
-> o regime se mostra plenamente pertinente quando o objeto imaterial em questão é o feixe de fruição em posição sustentada explorado como produto no mercado B2B pela detentora e oferecido, por via da plataforma marketplace, ao seller (vendedor) (p. 434)
-> encontra-se exposto às práticas comerciais, aos métodos de fornecimento e aos mecanismos de governança privada do ambiente em condição de vulnerabilidade juridicamente relevante (p. 779)
+> Admitida a aplicabilidade do art. 29 do CDC para qualificar pessoas jurídicas em posição factual de vulnerabilidade, o regime se mostra plenamente pertinente quando o objeto imaterial em questão é o feixe de fruição em posição sustentada explorado como produto no mercado B2B pela detentora e oferecido, por via da plataforma marketplace, ao seller (vendedor) (p. 434)
+> [...] embora não se encaixe com conforto na figura tradicional do adquirente final tal como imaginada em relações lineares e simples, encontra-se exposto às práticas comerciais, aos métodos de fornecimento e aos mecanismos de governança privada do ambiente em condição de vulnerabilidade juridicamente relevante (p. 779)
 > Nem todo participante de ecossistema de plataforma será consumidor equiparado. (p. 780)
 
 ### termo Concorrência
@@ -1502,8 +1502,8 @@ Talvez você nem jogue. Pense então no assistente de inteligência artificial q
 
 O jogo foi o ponto de partida porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora do jogo, os mesmos efeitos costumam vir embrulhados como coisa inevitável, e por isso ficam mais difíceis de enxergar.
 
-> como a indústria do entretenimento interativo, em razão da prestação contínua que a caracteriza, opera como superfície ostensiva de exposição da Lex Plataformae (p. 497)
-> fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
+> O movimento de consolidação e de passagem ao procedimento de reconstrução dogmática evidencia, com especial clareza, como a indústria do entretenimento interativo, em razão da prestação contínua que a caracteriza, opera como superfície ostensiva de exposição da Lex Plataformae (p. 497)
+> A diferença é que, fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
 > Esses traços se manifestam, com particular nitidez, em três modelos de negócios digitais: jogos operados como serviço, marketplaces e serviços de inteligência artificial fornecidos por plataforma. (p. 486)
 > O recorte por plataformas de jogos eletrônicos atende a razão metodológica, e não a preferência temática. Esses ecossistemas tendem a concentrar, em alta resolução, elementos definidores do regime do OIC (p. 484)
 
@@ -1546,7 +1546,7 @@ Para quem trabalha assim, o aplicativo fornece mais do que um pagamento por tare
 
 > A plataforma organiza acesso à demanda, distribuição de chamadas, previsibilidade mínima de remuneração, permanência no fluxo produtivo, critérios reputacionais, padrões de priorização, regras de aceitação e mecanismos de sanção. (p. 765)
 > O que se fornece, em termos funcionais, é uma infraestrutura privada de possibilidade econômica. (p. 765)
-> insistem, com variações de linguagem, em caracterizar os parceiros como independentes (p. 765)
+> Os instrumentos mobilizados por iFood, 99Food, Uber e 99 insistem, com variações de linguagem, em caracterizar os parceiros como independentes (p. 765)
 > Esse ponto é importante porque impede que a análise seja capturada por narrativas excessivamente formais sobre autonomia contratual. (p. 765)
 
 ### familia administracao-de-confianca
@@ -1566,7 +1566,7 @@ Mostrar o mecanismo não é condenar o serviço. Nem toda plataforma reproduz o 
 
 A pergunta é sempre a mesma, em qualquer lugar. Dá para saber o que foi prometido e o que mudou? E dá para reagir?
 
-> nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição (p. 755)
+> O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição (p. 755)
 > Nem toda relação economicamente mediada por tecnologia justificará incidência do CDC. (p. 780)
 > Não se afirma, com isso, que toda mediação digital converta automaticamente qualquer bem em OIC. (p. 487)
 

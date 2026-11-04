@@ -52,7 +52,7 @@ Cada bloco começa com o número da seção. Quando a página separa a seção e
 > Relevância pública funcional não produz equiparação estatal, mas tampouco autoriza tratar a plataforma como fornecedor institucionalmente neutro. (p. 753)
 > O intermediário dirá que apenas conecta. A tecnologia neutra dirá que apenas executa. O prestador global dirá que apenas opera segundo seus próprios termos universais. O regime do OIC recusa essas autodescrições como critério suficiente de enquadramento. (p. 754)
 > A cidadania digital, nesse contexto, não substitui o regime do OIC. (p. 754)
-> quem organiza a fruição, quem administra sua inteligibilidade, quem controla sua permanência e quem define as condições de sua contestação (p. 754)
+> Mesmo quando a plataforma se apresenta sob discursos de neutralidade, inovação, globalidade ou mera intermediação, a análise pode reconduzir o caso ao que realmente importa: quem organiza a fruição, quem administra sua inteligibilidade, quem controla sua permanência e quem define as condições de sua contestação (p. 754)
 > Porque quando o poder privado começa a governar a participação como se fosse clima, e não escolha institucionalmente controlável, o Direito já está atrasado demais. (p. 755)
 
 ## 7.2.4
@@ -79,7 +79,7 @@ Cada bloco começa com o número da seção. Quando a página separa a seção e
 
 ## 7.2.7.1
 
-> dever de esclarecimento, não contradição e justificação (p. 786)
+> O que se pode exigir, em chave compatível com o regime do OIC, é algo mais delimitado e institucionalmente defensável: dever de esclarecimento, não contradição e justificação (p. 786)
 > A primeira é a do silêncio ou da resposta evasiva diante de expectativa já estabilizada e economicamente influente. (p. 786)
 > A segunda é a da negativa específica posteriormente desmentida por prática substancialmente equivalente da própria plataforma. (p. 786)
 > A terceira é a da confirmação ou indução positiva de expectativa posteriormente frustrada sem esclarecimento proporcional. (p. 786)

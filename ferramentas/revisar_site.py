@@ -15,7 +15,7 @@ from collections import Counter, defaultdict
 RAIZ = sys.argv[1]
 VAZIOS = {"br", "img", "input", "meta", "link", "hr", "source", "wbr"}
 CITACAO = {"blockquote", "q", "cite"}
-CLASSES_CITA = {"ref", "refs", "balao", "balao-ref", "referencia", "obra", "obras", "lei-rotulo", "lei-fonte", "citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "partes", "lei-texto", "titulo-tese", "trecho"}
+CLASSES_CITA = {"ref", "refs", "balao", "balao-ref", "referencia", "obra", "obras", "lei-rotulo", "lei-fonte", "citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "partes", "lei-texto", "titulo-tese", "trecho", "frase-literal", "cancao-nome"}
 
 class P(HTMLParser):
     def __init__(self):

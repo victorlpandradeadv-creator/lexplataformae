@@ -79,6 +79,8 @@ def cartoes():
     for cid in e.get("cartoes", {}):
         if cid in e and e[cid].get("titulo"):
             lista.append((cid, e[cid]["titulo"][0], nomes.get(cid, "")))
+    if "epigrafes" in e and e["epigrafes"].get("titulo"):
+        lista.append(("epigrafes", e["epigrafes"]["titulo"][0], "Trilha sonora"))
     if problemas():
         lista.append(("problemas", "Qual é o seu problema?", "Seus direitos · por problema"))
     for prob in problemas():

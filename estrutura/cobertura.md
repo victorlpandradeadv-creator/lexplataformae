@@ -22,7 +22,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 2.4.2 | Da análise documental de termos de uso e políticas internas | 63 a 66 | 0 | 0 | Método (O protocolo) |
 | 2.4.3 | Do levantamento de manifestações públicas de usuários | 66 a 70 | 0 | 0 | Método (O protocolo) |
 | 2.5 | Dos procedimentos para leitura e análise de termos contratuais | 70 a 73 | 0 | 0 | Método (O protocolo) |
-| 2.6 | Das epígrafes como registro sintomático e recurso hermenêutico | 73 a 78 | 1 | 0 | Método (O protocolo); Epígrafes (As nove epígrafes) |
+| 2.6 | Das epígrafes como registro sintomático e recurso hermenêutico | 73 a 78 | 35 | 0 | Método (O protocolo); Epígrafes (As nove epígrafes) |
 | 2.7 | Das limitações da pesquisa e seu potencial de generalização | 78 a 80 | 0 | 0 | Método (O protocolo) |
 | 3 | TECNOLOGIA, PLATAFORMAS E A ORDEM ECONÔMICA TECNO-MIDIÁTICA DO CONSUMO DIGITAL | 83 a 85 | 0 | 0 | Fundamentos (Abertura do capítulo 3) |
 | 3.1 | Técnica, mídia e vida cotidiana | 85 a 92 | 14 | 0 | Fundamentos (Seções do capítulo 3) |

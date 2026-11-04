@@ -1121,7 +1121,13 @@
     "faixa": "Villain",
     "ano": 2020,
     "pagina_pdf": 392,
-    "pagina_impressa": 390
+    "pagina_impressa": 390,
+    "dialogo": {
+     "artista": "Scarlet Envy",
+     "obra": "RuPaul’s Drag Race: All Stars 6 Promo",
+     "ano": 2021,
+     "conferido": "p. 390, crédito da epígrafe, conferido em 04/11/2026"
+    }
    },
    {
     "ordem": 7,
