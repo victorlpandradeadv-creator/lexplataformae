@@ -12,8 +12,8 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 
 | Seção | Título | Páginas | Informação | Doutrina | Camadas |
 |---|---|---|---|---|---|
-| 1 | INTRODUÇÃO | 21 a 42 | 53 | 5 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
-| 2 | DO DESENHO METODOLÓGICO E DO PROTOCOLO DE OBSERVAÇÃO | 45 a 47 | 0 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
+| 1 | Introdução | 21 a 42 | 53 | 5 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
+| 2 | Do desenho metodológico e do protocolo de observação | 45 a 47 | 0 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
 | 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 4 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
 | 2.2 | Do recorte teórico-normativo e setorial | 54 a 56 | 2 | 0 | Método (O protocolo); Dogmática (A base normativa); Dogmática (Dispositivos citados) |
 | 2.3 | Do ecossistema de referência e estratégia de exemplificação | 56 a 59 | 0 | 0 | Método (O protocolo); Laboratório (O laboratório de origem) |
@@ -24,7 +24,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 2.5 | Dos procedimentos para leitura e análise de termos contratuais | 70 a 73 | 0 | 0 | Método (O protocolo) |
 | 2.6 | Das epígrafes como registro sintomático e recurso hermenêutico | 73 a 78 | 35 | 0 | Método (O protocolo); Epígrafes (As nove epígrafes) |
 | 2.7 | Das limitações da pesquisa e seu potencial de generalização | 78 a 80 | 0 | 0 | Método (O protocolo) |
-| 3 | TECNOLOGIA, PLATAFORMAS E A ORDEM ECONÔMICA TECNO-MIDIÁTICA DO CONSUMO DIGITAL | 83 a 85 | 0 | 0 | Fundamentos (Abertura do capítulo 3) |
+| 3 | Tecnologia, plataformas e a ordem econômica tecno-midiática do consumo digital | 83 a 85 | 0 | 0 | Fundamentos (Abertura do capítulo 3) |
 | 3.1 | Técnica, mídia e vida cotidiana | 85 a 92 | 14 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.1 | Autonomia da técnica e reorganização da vida social | 92 a 98 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.2 | Mídia, entretenimento e reconfiguração da epistemologia | 98 a 104 | 1 | 1 | Fundamentos (Seções do capítulo 3) |
@@ -38,7 +38,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 3.2.4 | A mutação da dinâmica concorrencial imaterial a partir da propriedade intelectual | 232 a 243 | 5 | 0 | Fichas (Função social da propriedade intelectual); Fundamentos (Seções do capítulo 3) |
 | 3.2.5 | O modelo de negócios e a teleologia arquitetural das plataformas | 243 a 247 | 0 | 0 | Fichas (Teleologia abusiva); Fundamentos (Seções do capítulo 3) |
 | 3.2.6 | Regimes de valor, produção de sentido e economia da atenção nas plataformas | 247 a 259 | 22 | 1 | Fundamentos (Seções do capítulo 3) |
-| 4 | SEMIÓTICA E GOVERNANÇA DE FRUIÇÃO NO CONSUMO IMATERIAL CONTÍNUO | 261 a 264 | 5 | 0 | Fundamentos (Abertura do capítulo 4) |
+| 4 | Semiótica e governança de fruição no consumo imaterial contínuo | 261 a 264 | 5 | 0 | Fundamentos (Abertura do capítulo 4) |
 | 4.1 | Semiótica, espetáculo e simulacro nas economias de atenção | 264 a 266 | 0 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.1.1 | Sistemas de signos e a produção de sentido em plataformas digitais | 266 a 281 | 4 | 1 | Fundamentos (Seções do capítulo 4) |
 | 4.1.2 | A sociedade do espetáculo e a gamificação da vida cotidiana | 281 a 295 | 6 | 0 | Fundamentos (Seções do capítulo 4) |
@@ -52,7 +52,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 16 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 8 | 0 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
-| 5 | DO REGIME JURÍDICO DO OBJETO IMATERIAL DE CONSUMO (OIC) SOB A LEX PLATAFORMAE | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
+| 5 | Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1 | Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo | 394 a 395 | 3 | 5 | Dogmática (Seções do capítulo 5); Atlas (Três leituras da tese) |
 | 5.1.1 | Da vulnerabilidade semiótica como conceito operativo | 395 a 407 | 30 | 2 | Fichas (Vulnerabilidade semiótica); Dogmática (Seções do capítulo 5) |
 | 5.1.2 | Do Objeto Imaterial de Consumo como conceito-infraestrutura | 407 a 411 | 19 | 4 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
@@ -68,7 +68,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 5.2.2 | Das categorias de objetos imateriais de consumo em plataformas de jogos | 488 a 492 | 12 | 8 | Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
 | 5.2.3 | Do Marco Legal dos Jogos Eletrônicos e enquadramento preliminar | 493 a 496 | 1 | 1 | Dogmática (Seções do capítulo 5) |
 | 5.2.4 | Do locus ilustrativo à formulação de parâmetros gerais: o desnudamento arquitetural da Lex Plataformae | 497 a 499 | 1 | 4 | Fichas (Lex Plataformae); Dogmática (Seções do capítulo 5); Laboratório (O laboratório de origem) |
-| 6 | DA TUTELA DA VULNERABILIDADE SEMIÓTICA DO CONSUMIDOR À LUZ DA ORDEM CONSTITUCIONAL E ECONÔMICA DO BRASIL | 501 a 502 | 1 | 1 | Dogmática (Abertura do capítulo 6) |
+| 6 | Da tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil | 501 a 502 | 1 | 1 | Dogmática (Abertura do capítulo 6) |
 | 6.1 | Da ordem econômica, da proteção do consumidor, e dos poderes de plataforma | 502 a 504 | 1 | 1 | Dogmática (Seções do capítulo 6) |
 | 6.1.1 | Da matriz constitucional: a defesa do consumidor sob a ordem econômica brasileira | 504 a 512 | 2 | 6 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.1.2 | Da eficácia horizontal dos direitos fundamentais e a relevância pública dos poderes da Lex Plataformae | 512 a 520 | 2 | 4 | Fichas (Lex Plataformae); Dogmática (Seções do capítulo 6) |
@@ -101,7 +101,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 1 | 3 | Dogmática (Seções do capítulo 6) |
 | 6.5.2 | Da tensão entre exclusividade, proteção do consumidor e integridade dos OICs | 695 a 703 | 5 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.5.3 | Da função social da propriedade intelectual em plataformas de OIC | 703 a 710 | 6 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 7 | DA TIPOLOGIA DOS MODELOS DE INCIDÊNCIA DO OBJETO IMATERIAL DE CONSUMO EM DIFERENTES CATEGORIAS FUNCIONAIS DE PLATAFORMA | 713 a 714 | 0 | integral | Laboratório (O teste) |
+| 7 | Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma | 713 a 714 | 0 | integral | Laboratório (O teste) |
 | 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | integral | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
 | 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | integral | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
 | 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 17 | integral | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
@@ -118,13 +118,13 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 5 | integral | Roteiro (As dez diretrizes de controle) |
 | 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | integral | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
 | 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 8 | integral | Laboratório (A sequência de cada família) |
-| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 9 | integral | Laboratório (Família de plataforma) |
-| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 6 | integral | Laboratório (Família de plataforma) |
-| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 8 | integral | Laboratório (Família de plataforma) |
+| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 15 | integral | Laboratório (Família de plataforma) |
+| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 12 | integral | Laboratório (Família de plataforma) |
+| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 14 | integral | Laboratório (Família de plataforma) |
 | 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 1 | integral | Laboratório (Desdobramento da tipologia) |
 | 7.2.5 | Da tutela coletiva sob auditabilidade aberta | 773 a 777 | 2 | integral | Fichas (Auditabilidade aberta); Laboratório (Desdobramento da tipologia) |
 | 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 4 | integral | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
-| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 8 | integral | Laboratório (Família de plataforma) |
+| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 14 | integral | Laboratório (Família de plataforma) |
 | 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 2 | integral | Laboratório (Subcaso da administração de confiança) |
 | 7.3 | Dos padrões recorrentes de fricção, prova e recomposição | 787 a 789 | 2 | integral | Fichas (Recomposição funcional e correção de regime); Laboratório (O que as famílias mostram) |
-| 8 | CONCLUSÃO | 791 a 802 | 20 | 3 | Fichas (Ilícito de arquitetura, Recomposição funcional e correção de regime); Atlas (Três leituras da tese) |
+| 8 | Conclusão | 791 a 802 | 20 | 3 | Fichas (Ilícito de arquitetura, Recomposição funcional e correção de regime); Atlas (Três leituras da tese) |

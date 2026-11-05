@@ -463,7 +463,7 @@ body { padding-bottom: 6.5rem; }
 .ext .rotulo-ext, .rotulo-ext { font-family: var(--f-display); font-size: 1.125rem; font-weight: 700; letter-spacing: normal; text-transform: none; color: var(--tinta); display: block; line-height: 1.4; }
 .nome-ext { padding: 1.25rem; border: 1px solid var(--linha); border-radius: var(--raio); background: var(--folha); }
 .nome-conceito { margin: 0; display: grid; gap: 0.3rem; font-family: var(--f-display); font-stretch: 110%; font-weight: 760; font-size: clamp(1.4rem, 3.4vw, 2rem); line-height: 1.15; color: var(--acento); }
-.ext.limite p:not(.rotulo-ext) { color: var(--tinta-2); }
+.ext.limite p:not(.rotulo-ext) { color: var(--tinta); }
 .ext.duvida { padding-top: 1.25rem; border-top: 1px solid var(--linha); justify-items: start; }
 .ext p.pergunta-final { font-style: italic; font-size: 1.35rem; line-height: 1.45; }
 @media (max-width: 640px) { .ext p.pergunta-final { font-size: 1.2rem; } }
@@ -501,19 +501,16 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
 .percurso-mapa { display: grid; gap: 1.25rem; padding-block: 1rem 2.5rem; }
 .percurso-mapa > p { margin: 0; }
 .partes { list-style: none; margin: 0; padding: 0; display: grid; border-top: 1px solid var(--linha); max-width: 820px; }
-.partes li { border-bottom: 1px solid var(--linha); }
-.partes a { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); column-gap: 0.75rem; row-gap: 0.2rem; padding: 0.95rem 0.25rem; text-decoration: none; color: var(--tinta); }
-.partes a:hover .parte-titulo { color: var(--acento); }
+:is(ol, ul).partes > li { border-bottom: 1px solid var(--linha); }
+:is(ol, ul).partes > li > a { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); column-gap: 0.75rem; row-gap: 0.2rem; padding: 0.95rem 0.25rem; text-decoration: none; color: var(--tinta); }
+:is(ol, ul).partes > li > a:hover .parte-titulo { color: var(--acento); }
 .parte-num { grid-row: span 2; font-family: var(--f-dado); font-size: 0.85rem; font-weight: 500; color: var(--tinta-2); padding-top: 0.25rem; }
 .parte-titulo { font-family: var(--f-display); font-stretch: 106%; font-weight: 700; font-size: 1.15rem; line-height: 1.3; }
 .parte-resumo { font-size: 1rem; line-height: 1.45; color: var(--tinta-2); }
 .percurso-parte { gap: 2.25rem; }
 .percurso-indice .percurso-mapa { padding-top: 0; }
 .didatico { padding: 1.1rem 1.25rem; border-radius: var(--raio); }
-.didatico.imagem { padding: 0.2rem 0 0.2rem 1.25rem; border-left: 3px solid var(--acento); border-radius: 0; }
-.didatico.imagem > p:not(.rotulo-ext) { font-style: italic; }
-.didatico.mecanismo { background: var(--folha); border: 1px solid var(--linha); }
-.didatico.caso { background: var(--folha); border: 1px solid var(--linha); border-top: 3px solid var(--tinta); border-radius: 0; }
+.didatico { background: var(--folha); border: 1px solid var(--linha); }
 .termo { padding-left: 1.25rem; border-left: 2px solid var(--linha); }
 .nome-termo { margin: 0; display: grid; gap: 0.3rem; font-family: var(--f-display); font-stretch: 106%; font-weight: 720; font-size: clamp(1.2rem, 2.6vw, 1.45rem); line-height: 1.3; color: var(--tinta); }
 .nome-termo a, .nome-conceito a { color: inherit; text-decoration-thickness: 1px; }
@@ -525,7 +522,7 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
 .acoes .convite-botao { background: transparent; color: var(--tinta); box-shadow: inset 0 0 0 1.5px var(--tinta); }
 @media (max-width: 640px) {
   .didatico { padding: 1rem; }
-  .didatico.imagem, .termo { padding-left: 1rem; }
+  .termo { padding-left: 1rem; }
 }
 
 /* Ilustrações conceituais. Sem arquivo, o lugar aparece só no degrau Despir. */
@@ -588,7 +585,8 @@ body:has(#nivel-2:checked) .campo { background-image: none; }
 .area-rotulo { font-family: var(--f-dado); font-size: 0.95rem; letter-spacing: normal; text-transform: none; color: var(--area-t, var(--tinta-2)); }
 .termo[style*="--area"] { border-left: 2px solid var(--area); }
 .termo[style*="--area"] .nome-termo { color: var(--area-t); }
-.termo .area-rotulo { display: block; margin-top: 0.3rem; }
+.termo .area-rotulo { display: block; margin-bottom: 0.15rem; font-weight: 500; text-decoration: none; }
+.termo a.area-rotulo:hover { text-decoration: underline; text-underline-offset: 0.15em; }
 .termo[id] { scroll-margin-top: 1.5rem; }
 
 /* Versão 0.7, etapa 2. Informação e Doutrina sem número de seção nem página à vista.
@@ -730,7 +728,7 @@ h2.direito-titulo { font-size: 1.5rem; }
 .direitos-indice ol { display: grid; gap: 0.35rem; padding-left: 1.4rem; margin: 0; max-width: var(--medida); }
 .direitos-indice a { display: inline-flex; min-height: 32px; align-items: center; }
 .direitos-pagina .direito { scroll-margin-top: 1rem; }
-.didatico.teste { background: var(--acento-suave); border: 1px solid var(--linha); }
+
 @media (max-width: 640px) { .direito { padding: 1rem; } .direitos-indice a { min-height: 44px; } }
 
 /* Por problema. A lista de problemas não tem número, e cada página junta blocos do percurso e direitos. Rascunho de 03/11/2026. */
@@ -829,6 +827,23 @@ blockquote.citacao, blockquote.citacao p { font-size: 1.0625rem; line-height: 1.
 .cancao-nome { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); align-items: baseline; font-family: var(--f-display); font-weight: 700; font-size: 1.125rem; line-height: 1.35; }
 .cancao-nome cite { font-style: italic; }
 .cancao-capitulo { font-family: var(--f-dado); font-size: 0.78rem; color: var(--tinta-2); }
+
+/* Revisão de rótulos de 05/11/2026. Rótulo repetido fica só para leitor de tela, e a etiqueta repetida da Ciência guarda o contorno. */
+.so-leitor, p.rotulo-fonte.so-leitor, .sobrelinha.so-leitor {
+  position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important;
+  overflow: hidden !important; clip-path: inset(50%) !important; white-space: nowrap !important; border: 0 !important;
+}
+:is(body.desnudo, body:has(#nivel-2:checked)) [data-arq-mesmo] { outline: 1px dashed var(--desnudo); outline-offset: 4px; }
+/* O nome em destaque é o link para a ideia inteira. */
+.nome-conceito a::after { content: " →"; }
+.direito-titulo a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+.direito-titulo a:hover { color: var(--acento); }
+.ext.nota-cuidado { padding-top: 1rem; border-top: 1px solid var(--linha); }
+.ext.nota-cuidado > p { font-size: 1rem; }
+.roteiro .partes.quadro { border-top: 1px solid var(--linha); padding-top: 1rem; margin-top: 0.5rem; }
+.expansao-nomeada .fonte-nome { margin: 0.6rem 0 0; font-family: var(--f-display); font-size: 0.95rem; font-weight: 700; color: var(--tinta); }
+.expansao-nomeada .fonte-nome:first-of-type { margin-top: 0.2rem; }
+.dados-autor { font-family: var(--f-display); font-size: 1rem; color: var(--tinta-2); }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

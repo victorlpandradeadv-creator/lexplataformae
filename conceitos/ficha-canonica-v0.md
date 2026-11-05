@@ -204,7 +204,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 **Sob o OIC**
 
-> Essa antecipação é economicamente relevante para os OIC porque sustenta a conversão da expectativa em valor presente, alterando a própria lógica de decisão e de permanência do consumidor. (p. 316)
+> A antecipação hipercuratorial, nesse sentido, não é ornamento de marketing, mas técnica de governo do tempo que monetiza a expectativa como forma regular de manutenção do valor. Essa antecipação é economicamente relevante para os OIC porque sustenta a conversão da expectativa em valor presente, alterando a própria lógica de decisão e de permanência do consumidor. (p. 316)
 
 **Definição canônica proposta**
 
@@ -274,7 +274,7 @@ O segundo trecho responde a uma pergunta que o site vai receber com frequência.
 
 > A mutabilidade, por si, não é ilícita. (p. 729)
 
-> Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
+> Sob essa perspectiva, a mutabilidade juridicamente legítima é aquela que preserva, em termos substanciais, a função do objeto na experiência do consumidor. Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
 
 **Onde vive.** 5.1.5, 6.3.2, 7.1.1.6.
 
@@ -334,13 +334,13 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 **Formulações concorrentes**
 
-> Nesses contextos, a exclusividade não é apenas título jurídico sobre um ativo. É também infraestrutura de poder privado sobre acesso, permanência, modulação, atualização e contestação da experiência do consumidor. (p. 738)
+> [...] quando a propriedade intelectual deixa de operar apenas como instrumento de proteção à criação ou à inovação e passa a estruturar ambientes de fruição cativa, contínua e governada. Nesses contextos, a exclusividade não é apenas título jurídico sobre um ativo. É também infraestrutura de poder privado sobre acesso, permanência, modulação, atualização e contestação da experiência do consumidor. (p. 738)
 
 > O CDC não elimina a propriedade intelectual. A propriedade intelectual não suspende o CDC. (p. 738)
 
 **O que não é**
 
-> Isso não representa absorção da propriedade intelectual pelo CDC nem redução de seu regime à lógica consumerista. (p. 738)
+> O conflito relevante muitas vezes não reside na violação direta de uma posição dominial ou autoral, mas no modo como a titularidade exclusiva é instrumentalizada para governar a fruição, redistribuir riscos, concentrar poder de alteração e dificultar contestação. Isso não representa absorção da propriedade intelectual pelo CDC nem redução de seu regime à lógica consumerista. (p. 738)
 
 **Onde vive.** 3.2.4, 6.5 e subseções, 7.1.1.9.
 
@@ -361,7 +361,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 > A correção de regime, ao contrário, permite tratar o dano como arquitetural e não apenas como episódio. (p. 741)
 
-> Isso não é tutela adequada. É monetização automática do abuso. (p. 797)
+> Tratar toda lesão desse tipo como passível de compensação meramente pecuniária significa, em muitos casos, aceitar que o fornecedor possa degradar, suprimir ou reconfigurar unilateralmente a fruição e depois apenas internalizar o custo monetário dessa conduta como preço ordinário do negócio. Isso não é tutela adequada. É monetização automática do abuso. (p. 797)
 
 **O que não é**
 

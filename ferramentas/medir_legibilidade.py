@@ -63,7 +63,10 @@ def blocos(arq):
                 pagina = f"{arq.stem}-{pagina}"
             continue
         if linha.startswith("### "):
-            campo = linha[4:].strip()
+            # O cabeçalho do bloco didático pode trazer a pergunta própria dele, que também é texto do leigo.
+            campo, _, pergunta = linha[4:].strip().partition(" ")
+            if pagina and campo not in IGNORAR and pergunta.strip().endswith("?"):
+                saida.setdefault(pagina, {}).setdefault(campo, []).append(pergunta.strip())
             continue
         if pagina and campo and campo not in IGNORAR and linha.strip() and not linha.startswith(">"):
             saida.setdefault(pagina, {}).setdefault(campo, []).append(linha.strip())

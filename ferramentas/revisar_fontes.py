@@ -19,7 +19,11 @@ def prosa(arq):
     pag = campo = None
     for i, l in enumerate((R / arq).read_text(encoding='utf-8').splitlines(), 1):
         if l.startswith('## '): pag, campo = l[3:].strip(), None; continue
-        if l.startswith('### '): campo = l[4:].strip().split(' ')[0]; continue
+        if l.startswith('### '):
+            campo, _, pergunta = l[4:].strip().partition(' ')
+            # A pergunta própria do bloco, no cabeçalho, passa pelas mesmas regras do texto.
+            if pag and campo not in IGN and pergunta.strip().endswith('?'): yield i, pag, campo, pergunta.strip()
+            continue
         if not pag or not campo or campo in IGN or not l.strip() or l.startswith('>') or l.startswith('#'): continue
         yield i, pag, campo, l.strip()
 print('# 1. Frases acima de 37 palavras na Informação')

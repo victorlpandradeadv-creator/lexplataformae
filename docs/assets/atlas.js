@@ -199,15 +199,15 @@
       return { classe: 'passo', arq: null, html: '<span class="passo-nome">' + nome + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
     }
     if (c && c.tipo === 'roteiro') {
-      return { classe: 'passo fantasma', arq: 'fora do Atlas · segue como passo do Roteiro',
-        html: '<span class="passo-tipo">fora do Atlas · passo do Roteiro · ' + esc(c.secao) + '</span><span class="passo-nome">' + link(passo.id, c.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
+      return { classe: 'passo fantasma', arq: 'fora dos nove · segue como enunciado dos Parâmetros',
+        html: '<span class="passo-tipo">fora dos nove · enunciado dos Parâmetros · ' + esc(c.secao) + '</span><span class="passo-nome">' + link(passo.id, c.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
     }
     if (c && c.tipo === 'bens') {
-      return { classe: 'passo fantasma', arq: 'fora do Atlas · camada de bens protegidos',
+      return { classe: 'passo fantasma', arq: 'fora dos nove · camada de bens protegidos',
         html: '<span class="passo-tipo">bens protegidos · 5.1.4 e 6.1.3</span><span class="passo-nome">' + link(passo.id, c.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
     }
-    return { classe: 'passo fantasma', arq: 'fora do Atlas · passo do Roteiro',
-      html: '<span class="passo-tipo">passo do Roteiro · ' + esc(extra.secao) + '</span><span class="passo-nome">' + esc(extra.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
+    return { classe: 'passo fantasma', arq: 'fora dos nove · enunciado dos Parâmetros',
+      html: '<span class="passo-tipo">enunciado dos Parâmetros · ' + esc(extra.secao) + '</span><span class="passo-nome">' + esc(extra.nome) + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };
   }
 
   function mostrar(chaveLeitura) {

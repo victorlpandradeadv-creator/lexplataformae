@@ -23,7 +23,7 @@ Perder a conta é perder também o acesso ao que você comprou dentro dela. A pl
 ### blocos
 
 a-compra | Para entender o que você tem
-as-regras | E o que está em jogo também é você
+as-regras | O que está em jogo também é você
 
 ### direitos
 
@@ -43,7 +43,7 @@ O item que eu comprei mudou numa atualização. E agora?
 
 Atualizar o jogo faz parte do serviço. A pergunta é se a atualização tirou do item a função que fez você comprar, porque, nesse caso, a primeira resposta é devolver essa função ou trocar por algo equivalente.
 
-> Essa formulação dá o encaixe fino para a equivalência de valor funcional: mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
+> [...] e conclui que “a capacidade de adaptação, de cooperação entre contratantes, de continuação da relação contratual é aqui essencial, básica” [...] Essa formulação dá o encaixe fino para a equivalência de valor funcional: mudanças podem ser admissíveis e até necessárias, desde que orientadas à manutenção do potencial e da qualidade que estruturam a utilidade fruída, e não à substituição silenciosa do objeto por versão menos valiosa (p. 479)
 > Isso não significa exigir identidade perfeita entre versão anterior e posterior, nem impor congelamento do serviço. (p. 730)
 > Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional. (p. 745)
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
@@ -192,7 +192,7 @@ Estar escrito no contrato não basta para que uma regra tenha sido bem informada
 ### blocos
 
 a-compra | Talvez você pense que a culpa é sua
-o-normal | Há um detalhe que torna essa desvantagem
+o-normal | Há um detalhe que torna ainda mais séria
 
 ### direitos
 

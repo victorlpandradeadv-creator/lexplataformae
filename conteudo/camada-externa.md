@@ -131,7 +131,7 @@ Abre a introdução. Fala da atração das comunidades digitais e da solidão do
 
 Abre o método. Marca a passagem do universo afetivo do problema para o terreno do direito, em que é preciso entender e controlar.
 
-> Por isso, abrindo a seção metodológica, Coisas Que Eu Sei marca a passagem do universo afetivo e cultural do problema ao horizonte jurídico de inteligibilidade e controle. (p. 77)
+> O problema emerge em escala global, no interior de arquiteturas privadas de plataforma. A contenção jurídica, porém, é construída com instrumentos nacionais, sob a ordem constitucional e o Código de Defesa do Consumidor. Por isso, abrindo a seção metodológica, Coisas Que Eu Sei marca a passagem do universo afetivo e cultural do problema ao horizonte jurídico de inteligibilidade e controle. (p. 77)
 
 ### cancao-4
 
@@ -276,7 +276,7 @@ Repare que o nome não diz que você comprou menos. Diz que você comprou um pro
 > Sob essa chave, a qualificação do OIC como produto imaterial não exige a negação da dimensão prestacional do vínculo. (p. 718)
 > A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. (p. 718)
 
-### imagem
+### imagem Que terreno a lei deixou demarcado em 1990?
 
 Pense num terreno que a lei demarcou em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. O espaço estava reservado, mas faltava construir nele critérios para os produtos que dependem de uma plataforma que continua mandando neles.
 
@@ -286,7 +286,7 @@ O Objeto Imaterial de Consumo é a construção nesse terreno. E terreno vazio t
 > Ao conferir densidade jurídica ao que era apenas um rótulo residual, o OIC impede que a imaterialidade funcione como álibi para a irresponsabilidade técnica das plataformas. (p. 25)
 > Ela produz efeitos institucionais previsíveis, porque toda lacuna dogmática estável tende a ser convertida em modelo de negócio (p. 25)
 
-### mecanismo
+### mecanismo Como saber se o seu caso entra?
 
 Quatro perguntas ajudam a reconhecer um objeto imaterial de consumo, e todas precisam ter resposta sim.
 
@@ -307,7 +307,7 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 > O quarto campo é a possibilidade típica de degradação relevante sem ruptura total. (p. 429)
 > A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime (p. 429)
 
-### caso
+### caso Por que a conta é o retrato do problema inteiro?
 
 Num jogo online, a conta reúne personagens, skins, emotes e a moeda do jogo, e nada disso sai dela. Ela não é só login e senha. É ali que ficam juntos o inventário, o progresso, o nome de jogador e os sinais pelos quais os outros reconhecem você.
 
@@ -319,7 +319,7 @@ A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que co
 > Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar. (p. 409)
 > Por isso, ela pode ser descrita como OIC central e, ao mesmo tempo, como “conceito-infraestrutura” em miniatura. (p. 409)
 
-### importa
+### importa O que a lei passa a ver quando o problema tem nome?
 
 Dar nome muda o que a lei consegue ver, e isso tem efeito em dois lugares.
 
@@ -332,7 +332,7 @@ No segundo, muda o centro da discussão. Em vez de olhar só o contrato que voc�
 > Isso não significa negar a relevância do contrato, mas recusar sua suficiência explicativa em ambientes nos quais o conteúdo econômico da relação se realiza de modo continuado por mecanismos que excedem largamente o texto contratual. (p. 718)
 > Ao conferir densidade jurídica ao que era apenas um rótulo residual, o OIC impede que a imaterialidade funcione como álibi para a irresponsabilidade técnica das plataformas (p. 25)
 
-### limite
+### limite Que casos ficam de fora da categoria?
 
 Nem tudo vira caso, e é bom saber onde a ideia para antes de reclamar.
 
@@ -380,7 +380,7 @@ O feixe anda colado ao Objeto Imaterial de Consumo, que dá o nome jurídico ao 
 > O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)
 > A fruição deixa de ser simples habilitação inicial e passa a ser posição sustentada no ecossistema (p. 426)
 
-### imagem
+### imagem O valor do feixe fica guardado ou corre?
 
 Dinheiro guardado numa gaveta é estoque. Fica lá, parado, e amanhã continua sendo dinheiro. Água correndo num cano é fluxo, porque só chega à torneira enquanto alguém mantém a rede funcionando.
 
@@ -389,7 +389,7 @@ O valor do feixe é como a água. Ele não fica guardado num canto só seu. Exis
 > O valor de uso do feixe, nessa condição, não é estoque, é fluxo. Ele exige continuidade de servidores, conectividade institucional e manutenção do ambiente. (p. 409)
 > Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar. (p. 409)
 
-### mecanismo
+### mecanismo Quais são os fios do feixe?
 
 O feixe tem vários fios, e vale olhar um por um. Há as permissões e os limites de uso, que dizem o que você pode fazer. Há o que fica visível e em que ordem, que decide o que os outros veem. Há as métricas e os sinais de reconhecimento, como nível, raridade e selo. E há a curadoria e as punições, aplicadas pelo próprio desenho do ambiente.
 
@@ -399,7 +399,7 @@ Uma mudança num só fio pode atingir o centro do que você comprou. O acesso co
 > Exige identificar quais funções centrais organizam a expectativa legítima de fruição e, por consequência, delimitar quais alterações podem atingir o núcleo do objeto mesmo quando a continuidade formal do acesso é preservada (p. 428)
 > O consumidor continua formalmente “dentro” do ecossistema, continua com a conta, continua vendo o objeto, continua podendo acessar a plataforma. Ainda assim, a utilidade fruída pode ser substancialmente rebaixada (p. 635)
 
-### caso
+### caso O que uma skin precisa do jogo para funcionar?
 
 Uma skin não é só uma imagem colada no personagem. Algumas mudam de forma durante a própria partida, com transformações, efeitos e animações. Isso só acontece se o jogo continuar capaz de desenhar modelos, efeitos, animações e telas, que são refeitos a cada atualização.
 
@@ -409,7 +409,7 @@ O visual, a leitura que os outros fazem dele e a transformação acontecem de no
 > É o que ocorre com skins, em especial com aquelas estruturadas como modelos evolutivos que mudam de forma durante a própria partida. (p. 439)
 > A forma, a leitura visual, a lógica de transformação e a experiência estética acontecem como desempenho repetido em cada partida. (p. 439)
 
-### importa
+### importa Dá para perder o que você pagou sem perder o item?
 
 Como o valor do feixe corre e não fica guardado, perder uma parte dele pode ser perder o que você pagou, mesmo com o item ainda na conta.
 
@@ -419,7 +419,7 @@ Um objeto pode continuar existindo e, ainda assim, já não ser aquilo que foi c
 > Um objeto pode continuar existindo e, ainda assim, já não ser, em sentido jurídico relevante, aquilo que foi adquirido. (p. 795)
 > Ela estabiliza gramática para identificar o núcleo do feixe de fruição prometido e distinguir, por critérios controláveis, entre modulações ordinárias do regime e degradações significativas juridicamente relevantes, inclusive quando o acesso nominal persiste. (p. 426)
 
-### limite
+### limite Uma lista de funções no anúncio já forma um feixe?
 
 Uma lista bonita de funções num anúncio não forma um feixe. O feixe é o que foi de fato prometido e usado, e não o que aparece num slogan.
 
@@ -462,18 +462,18 @@ O nome vem de uma expressão antiga, a lei dos mercadores, usada para as regras 
 > Lex Plataformae é uma latinização operativa construída por analogia com fórmulas clássicas de nomeação de ordenações privadas, especialmente a Lex Mercatoria, expressão usada para designar um corpo a-nacional de regras e princípios associado à prática do comércio internacional (p. 27)
 > designa uma ordem privada cujo centro não é apenas a circulação mercantil entre atores, mas o controle da infraestrutura de acesso, da inteligibilidade da experiência e das condições concretas de exercício da posição do usuário (p. 28)
 
-### imagem
+### imagem Por que a regra da plataforma parece clima?
 
 Ninguém processa a chuva. O clima acontece e a gente se ajeita. A lei da plataforma funciona como um clima fabricado, que produz os fatos do consumo em sequência previsível, com uma explicação rasa e com cara de normalidade.
 
 Ela também se parece com um costume, porque o que se repete muitas vezes passa a parecer combinado por todos. Só que, numa plataforma, a repetição pode ser apenas o efeito de um desenho que a empresa escolheu sozinha. Quando se mostra que tudo isso é organizado por desenho e por punição, o que parecia clima volta a parecer decisão, e decisão pode ser controlada.
 
-> Ela fabrica fatos do consumo como quem fabrica clima em sequência previsível, com justificativa superficial e aparência de estrita normalidade. (p. 32)
+> A técnica passa a operar como linguagem manifesta, isto é, plenamente operante. Uma linguagem de arquitetura e engenharia que define o que pode ser visto, provado, contestado, reparado e até lembrado. Ela fabrica fatos do consumo como quem fabrica clima em sequência previsível, com justificativa superficial e aparência de estrita normalidade. (p. 32)
 > Na plataforma, a repetição de práticas e soluções não deve ser lida ingenuamente como sinal suficiente de legitimidade normativa. (p. 28)
 > Muitas vezes, aquilo que se apresenta como hábito do mercado ou costume do ecossistema já é produto de desenho unilateral (p. 28)
 > o que antes parecia clima volta a parecer decisão. E o que volta a parecer decisão pode ser controlado. (p. 793)
 
-### mecanismo
+### mecanismo Quais são as três camadas da lei da plataforma?
 
 A lei da plataforma funciona em três camadas, uma por cima da outra.
 
@@ -486,7 +486,7 @@ Uma regra só pesa de verdade quando atravessa as três camadas, porque só ent�
 > A terceira é a camada de enforcement e sanções, composta por mecanismos de aplicação que graduam consequências, aplicam restrições, rebaixam visibilidade, suspendem funcionalidades e, em casos extremos, excluem o usuário, reconfigurando sua posição no ambiente. (p. 365)
 > A regra interna só ganha densidade normativa quando se converte em condições de possibilidade por arquitetura e em consequências por enforcement. (p. 365)
 
-### caso
+### caso Como um sistema de Honra vira regra?
 
 Num jogo online, a empresa criou um sistema de Honra, em que o comportamento vira nota. Quem se comporta de forma esportiva ganha benefícios. Quem se comporta mal recebe menos recompensas e perde parte do direito de falar no chat.
 
@@ -496,7 +496,7 @@ Quando você é punido, com suspensão temporária ou corte do chat, a sua nota 
 > Em paralelo, a empresa afirma que penalidades como suspensão temporária e restrições de chat derrubam o nível de Honra, travam o progresso no sistema e tornam a conta inelegível para recompensas vinculadas ao regime de Hextech Crafting até que haja demonstração consistente de “reforma” comportamental (p. 343)
 > Nessa chave, a questão central deixa de ser saber apenas se o usuário infringiu uma regra e passa a incluir a legitimidade dos próprios critérios pelos quais o desvio é produzido, lido e punido. (p. 343)
 
-### importa
+### importa Se a regra que vale é a que está rodando, o que muda?
 
 Quando a regra que vale é a que está rodando, a disputa deixa de ser só sobre o texto do contrato e passa a ser sobre quem governa o que é possível fazer ali dentro.
 
@@ -505,7 +505,7 @@ Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela pr
 > [...] uma vez que a regra implementada se torna o modo real de existência do objeto e, por consequência, o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
 > Por isso, impõem-se parâmetros proporcionais de transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição. (p. 364)
 
-### limite
+### limite A lei da plataforma substitui as leis do país?
 
 Isso não faz da plataforma um Estado, nem a coloca acima da lei do país. A lei da plataforma não substitui as leis brasileiras. Ela é uma camada de regras privadas que fica entre você e o que você comprou, e que o direito não pode tratar como simples cenário técnico. Também não se trata de levar qualquer briga de jogo para a Constituição.
 
@@ -544,7 +544,7 @@ Ela não é só falta de informação nem falta de controle sobre os sinais. É 
 > Quando o ambiente controla os parâmetros de aparecimento, reconhecimento e comensuração que estruturam o valor e o pertencimento, e mantém opacos os critérios de distribuição de consequências, a possibilidade de planejar condutas, antecipar efeitos e contestar decisões enfraquece-se estruturalmente. (p. 396)
 > Sem entender que o consumidor habita um ambiente cuja inteligibilidade é parcialmente reservada ao fornecedor (p. 394)
 
-### caso
+### caso Por que a vitrine diz comprar e o contrato diz licença?
 
 Na loja do jogo, o botão diz comprar. Nos termos de uso, a mesma skin vira conteúdo virtual, entregue por uma licença de acesso ligada à conta. Você decide pela palavra da compra e usa pelas regras da licença.
 
@@ -554,7 +554,7 @@ Ninguém precisa ter lido errado para isso acontecer. É o próprio ambiente que
 > A assimetria relevante não é apenas falta de informação, pois a informação pode existir e, ainda assim, não operar como orientação prática quando a linguagem da interface governa a experiência e estabiliza expectativas em tempo real. (p. 401)
 > É nesse atrito, simples e verificável, que a vulnerabilidade semiótica se torna inteligível. (p. 401)
 
-### mecanismo
+### mecanismo Quem escreve o código dos sinais do jogo?
 
 Para ler um sinal, é preciso conhecer o código. Um sinal vermelho só quer dizer pare porque todo mundo aprendeu a regra do trânsito. No jogo, raridade, nível, selo e cor da borda funcionam do mesmo jeito, e só fazem sentido para quem conhece a regra.
 
@@ -564,7 +564,7 @@ A diferença é quem escreve a regra. Lá dentro, quem define os códigos, as ca
 > A particularidade desse mecanismo está em que a assimetria de sentido tende a vir acompanhada de assimetria de prova. Quem controla a forma pela qual o objeto é tornado inteligível frequentemente controla também os registros pelos quais essa inteligibilidade pode ser reconstruída em caso de conflito. (p. 720)
 > Logs, históricos de interface, versões de telas, critérios de curadoria, registros de alteração, parâmetros de visibilidade e rastros de decisão (p. 720)
 
-### imagem
+### imagem Por que o mesmo nome pode esconder outro item?
 
 Pense num item que foi enfraquecido numa atualização, mas manteve o nome. A conta mostra o mesmo item, a loja mostra o mesmo nome e a vitrine mostra a mesma imagem, como se nada tivesse mudado.
 
@@ -573,7 +573,7 @@ Para quem vê de fora, está tudo igual. Para você, que usava o item, algo se p
 > O nerf é o caso-limite porque mostra, com precisão, como a continuidade do nome e do acesso pode funcionar como prova autojustificante, enquanto a entrega relevante se desloca naquilo que o ambiente conta como potência e utilidade. (p. 329)
 > Vulnerabilidade semiótica nomeia, assim, esse tipo de perda estrutural de demonstrabilidade (p. 330)
 
-### importa
+### importa E se o problema não for falta de atenção sua?
 
 Por isso mais informação nem sempre ajuda. O problema não é saber mais, e sim conseguir se orientar e reagir lá dentro.
 
@@ -583,7 +583,7 @@ E isso muda a forma de tratar o conflito. Em vez de discutir se você foi atento
 > A consequência institucional consiste em reconduzir o conflito à governança do ambiente, evitando moralização da conduta do consumidor e permitindo incidência de deveres reforçados de informação, publicidade e prova. (p. 744)
 > A qualificação jurídica possível pode sustentar prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante e, quando articulada a outros elementos, fundamento para redistribuição dinâmica do ônus probatório (p. 744)
 
-### limite
+### limite Ter desvantagem é ser ingênuo?
 
 Isso não é chamar você de ingênuo nem de incapaz diante da tecnologia. E não basta haver tela, algoritmo ou internet no meio para o problema existir.
 
@@ -624,7 +624,7 @@ O ponto decisivo é que ninguém precisa adivinhar intenções. Não se investig
 > Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. O foco está na finalidade funcional objetivamente inscrita no arranjo, tal como se revela por sua replicabilidade, por sua coerência interna e por seu impacto reiterado sobre a experiência do consumidor. (p. 732)
 > A categoria não depende de imputar intenção psicológica subjetiva nem de localizar um único ato como causa suficiente (p. 448)
 
-### imagem
+### imagem Acidente ou projeto?
 
 Um tropeço numa escada é acidente. Uma escada em que um degrau de cada andar é sempre mais alto que os outros é projeto. Para perceber isso, ninguém precisa perguntar o que o engenheiro pensava. Basta medir os degraus e ver que a diferença se repete, sempre no mesmo lugar.
 
@@ -634,7 +634,7 @@ Com o serviço digital é igual. Um episódio solto pode ser só falha. Quando a
 > O ilícito não nasce, portanto, de um episódio singular que pode ser tratado como acidente. (p. 666)
 > O que se controla não é uma vontade íntima, mas um programa reconhecível (p. 732)
 
-### mecanismo
+### mecanismo Que cinco perguntas separam a finalidade abusiva do resto?
 
 Para não virar um rótulo que serve para tudo, a finalidade abusiva passa por um teste com cinco perguntas, e todas precisam ter resposta sim.
 
@@ -646,7 +646,7 @@ A finalidade está escrita no próprio desenho, nos termos de uso, nas regras de
 > O quarto requisito é a opacidade combinada com baixa contestabilidade. Não basta que o sistema seja complexo ou opere com métricas. (p. 455)
 > A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total. (p. 455)
 
-### caso
+### caso Um caso solto ou parte de um padrão?
 
 Imagine uma skin vendida como exclusiva, com a exclusividade embutida no preço. Meses depois, ela volta numa loja alternativa, numa moeda especial ou por bem menos, sem que o prazo da exclusividade tivesse sido explicado na hora da compra.
 
@@ -657,7 +657,7 @@ Visto sozinho, isso já pode ser publicidade enganosa por omissão. Visto como p
 > Ela integra um conjunto de escolhas de design orientadas à extração e não à simples organização eficiente de um recurso naturalmente limitado, e é nesse limiar que deixa de ser apenas estratégia comercial para se tornar categoria juridicamente relevante à qualificação do desvio de finalidade quando a equivalência entre promessa e entrega é tornada opaca ou deliberadamente frustrada (p. 214)
 > elemento de teleologia abusiva (p. 745)
 
-### importa
+### importa Por que olhar o desenho, e não a intenção?
 
 O foco sai da cabeça do empresário e vai para o desenho. Isso torna o problema demonstrável, porque desenho dá para mostrar com telas, regras, histórico de mudanças e efeitos repetidos, enquanto intenção ninguém consegue provar de fora.
 
@@ -667,7 +667,7 @@ E a resposta pode ir além do seu caso. Quando a perda nasce do programa do serv
 > A prova mínima exigível consiste na demonstração do padrão, de sua replicabilidade, da coordenação entre mecanismos do ecossistema e do impacto relevante produzido sobre autonomia prática, inteligibilidade ou utilidade da experiência. (p. 746-747)
 > A consequência institucional vai além da reparação de episódios isolados e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas. (p. 747)
 
-### limite
+### limite Cobrar e convencer já é abuso?
 
 Também não é rótulo para tudo. Cobrar, convencer e governar um jogo não são abusos por si sós. Um negócio só agressivo, um desenho discutível ou um arranjo simplesmente eficiente para a empresa também não bastam.
 
@@ -706,7 +706,7 @@ Por isso, quando o desenho organiza perdas de forma estável, a infração está
 > Quando indução, extração e normalização de perdas se incorporam de maneira estável ao desenho do ecossistema, o problema deixa de ser apenas de inadimplemento fragmentário e passa a configurar ilícito teleológico de arquitetura. (p. 732)
 > A abusividade, então, deixa de aparecer apenas como acidente pontual ou cláusula destacável e passa a residir no próprio programa de funcionamento do serviço. (p. 664)
 
-### imagem
+### imagem Como um prédio pode proibir sem escrever nada?
 
 O desenho fala. Ele é uma linguagem feita de telas, botões, caminhos e regras automáticas, e essa linguagem define o que pode ser visto, provado, contestado, reparado e até lembrado.
 
@@ -715,7 +715,7 @@ Pense num prédio em que a saída de emergência fica atrás de três portas tra
 > A técnica passa a operar como linguagem manifesta, isto é, plenamente operante. Uma linguagem de arquitetura e engenharia que define o que pode ser visto, provado, contestado, reparado e até lembrado. (p. 32)
 > A segunda é a camada de arquitetura e implementação, na qual tais enunciados deixam de ser simples declarações e se convertem em configuração de possibilidades por meio de interface, fluxos, padrões de acesso, parâmetros de visibilidade e restrições técnicas que delimitam o intervalo do possível antes de qualquer disputa interpretativa (p. 365)
 
-### mecanismo
+### mecanismo Que cinco peças formam o ilícito?
 
 São cinco peças que se organizam juntas e se repetem. O ruído na informação, que confunde em vez de orientar. O atrito na hora de decidir, que empurra para um lado. A prova fora do alcance de quem usa. As mudanças que não dá para conferir. E a reparação que não cobre a perda.
 
@@ -724,18 +724,18 @@ Nenhuma delas, sozinha, faz o ilícito. O que faz é o conjunto estável. E isso
 > Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura. (p. 664)
 > O primeiro seria dissolver o problema na linguagem vaga da “inovação” ou da “natureza dinâmica” da plataforma, como se a contínua reorganização do ambiente bastasse para imunizar qualquer rebaixamento relevante da fruição. O segundo seria reduzir a resposta jurídica à caça atomizada de cláusulas isoladas, como se o fornecimento só pudesse ser controlado em seus fragmentos textuais e nunca em sua lógica operacional. (p. 664)
 
-### caso
+### caso Que armadilhas de tela já têm nome?
 
 Algumas armadilhas de tela já têm nome conhecido, padrões obscuros. São a caixinha que já vem marcada, o caminho de cancelamento escondido e a urgência que pressiona a decidir rápido.
 
 O que pesa nesses casos não é uma frase isolada, e sim o jeito como as escolhas são apresentadas e induzidas. E a lei brasileira de proteção ao consumidor já permite punir vários casos de desenho enganoso. Assim o design deixa de ser tratado como estética neutra e volta a ser o que é, uma prática comercial com objetivo econômico, que o direito pode qualificar.
 
-> Esse ponto se torna mais nítido quando padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas (p. 405)
+> [...] a assimetria de inteligibilidade e de agência pode ser produzida e explorada pela própria arquitetura de interação, tornando juridicamente relevante o desenho das opções e das vias de reação [...] Esse ponto se torna mais nítido quando padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas (p. 405)
 > várias dessas disposições estão relacionadas a padrões obscuros, o que nos permite concluir que sob o quadro legal brasileiro é possível sancionar vários casos de desenho enganoso (p. 405)
 > Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis (p. 666)
 > Quando se reconhece que é possível sancionar casos de desenho enganoso e se vinculam as disposições do art. 39 do CDC a padrões obscuros, o design é recolocado no seu lugar correto, como prática comercial economicamente orientada e juridicamente qualificável, e não como neutralidade estética (p. 432)
 
-### importa
+### importa O Código de Defesa do Consumidor já basta?
 
 Isso não pede uma lei nova nem um direito à parte para plataformas. O Código de Defesa do Consumidor já tem a gramática para enxergar o problema, desde que se olhe para o programa do serviço, e não só para o texto do contrato.
 
@@ -745,7 +745,7 @@ E a resposta pode chegar à fonte. Quando a perda nasce do desenho, consertar um
 > A qualificação jurídica possível alcança prática abusiva estrutural, vício do regime de fornecimento, eventual cumulação com vício de qualidade e fundamento para tutela inibitória e corretiva de arquitetura. (p. 747)
 > A consequência institucional vai além da reparação de episódios isolados e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas. (p. 747)
 
-### limite
+### limite O que se julga é a beleza da tela?
 
 Não se julga o estilo nem a beleza da tela. O desenho pode e deve organizar a experiência, porque é para isso que ele existe. O que ele não pode é fazer disso um programa estável de exploração.
 
@@ -782,11 +782,11 @@ Antecipação hipercuratorial. Curadoria é decidir o que vai ser visto, premiad
 
 Não é só propaganda bonita. É uma forma de governar o tempo que transforma a expectativa num jeito regular de manter o valor das coisas. E ela faz uma promessa sobre o futuro sem dar a você, na mesma medida, como conferir se essa promessa vai ser cumprida.
 
-> Isso inclui tanto decisões explícitas, como políticas e sanções, quanto decisões embutidas no design, na curadoria e nas métricas que selecionam o que será visto, premiado e reproduzido (p. 262)
+> A plataforma aparece como instância de administração privada que organiza a fruição por arquitetura, regras e enforcement, definindo acesso, permanência e visibilidade. Isso inclui tanto decisões explícitas, como políticas e sanções, quanto decisões embutidas no design, na curadoria e nas métricas que selecionam o que será visto, premiado e reproduzido (p. 262)
 > A antecipação hipercuratorial, nesse sentido, não é ornamento de marketing, mas técnica de governo do tempo que monetiza a expectativa como forma regular de manutenção do valor. (p. 316)
 > Essa vulnerabilidade é intensificada por práticas de antecipação hipercuratorial, pelas quais a plataforma projeta imagens de desempenho, recompensa e experiência futura sem oferecer, na mesma medida, condições reais de verificação e controle pelo consumidor (p. 34)
 
-### imagem
+### imagem Por que o presente vira uma sala de espera?
 
 O presente vira uma sala de espera. Você está sempre aguardando o próximo ciclo, a próxima atualização, a próxima oportunidade. Anúncios, prévias, cronogramas e temporadas entregam o futuro antes da hora, como se o anúncio já fosse um pedaço do que foi prometido.
 
@@ -796,7 +796,7 @@ E a espera passa a fazer parte do que você consome. A plataforma não vende só
 > O consumidor é mantido em prontidão contínua para “o próximo ciclo”, “a próxima atualização”, “a próxima oportunidade” (p. 314)
 > Assim, a plataforma não vende apenas o “agora”, posto que ela também vende a permanência orientada ao “por vir”, convertendo expectativa em ativo e transformando a espera em componente material da fruição. (p. 314)
 
-### mecanismo
+### mecanismo Como a plataforma decide o ritmo da espera?
 
 São quatro movimentos. Dizer o que vem, o que vai sumir, o que volta e o que vira evento. Com eles a plataforma decide o ritmo das coisas, o que é importante em cada momento e o que você deve esperar.
 
@@ -807,7 +807,7 @@ O efeito é trocar a lógica da entrega pela lógica do caminho. A promessa vira
 > O efeito econômico imediato é a substituição da lógica “por entrega” por uma lógica “por trajetória dirigida”. A promessa é sempre reenquadrada como uma sucessão de etapas, eventos e retornos, de modo que a fruição se torna estruturalmente incompleta sem o ciclo seguinte. (p. 316)
 > Não é necessário que o futuro se realize integralmente; basta que permaneça crível e mobilizador. Assim, a entrega pode ser continuamente adiada sem parecer falha (p. 316)
 
-### caso
+### caso O que acontece quando o futuro vira calendário da empresa?
 
 Em comunicados sobre a temporada do ano, uma empresa de jogos apresentou o que se preparava para os meses seguintes como uma sequência oficial de anúncios, com resumo, previsões e links para textos maiores. O futuro deixou de ser só uma expectativa dos jogadores e virou um calendário da empresa.
 
@@ -817,7 +817,7 @@ Repare no efeito. Esses anúncios oferecem direção e continuidade, e isso pass
 > Nesse registro, comunicados de desenvolvimento funcionam como gestão explícita do “por vir”, ao apresentar o que se prepara para o ano e ao condensar anúncios em forma de sequência, com recortes temporais, previsões e remissões para peças mais extensas de contexto (p. 314)
 > A forma importa porque organiza o “por vir” como sequência oficial de itens, oferecendo direção e continuidade como parte do valor de permanecer atento ao ecossistema (p. 314)
 
-### importa
+### importa Dá para conferir uma promessa sobre o futuro?
 
 A promessa sobre o futuro quase nunca vem com um jeito de conferir se será cumprida. Você paga pela imagem de algo que ainda não pode verificar.
 
@@ -828,7 +828,7 @@ A promessa sobre o futuro quase nunca vem com um jeito de conferir se será cump
 > Se a plataforma promete uma experiência curada de valor, raridade, desempenho ou vantagem, e depois a reequilibra ou a rebaixa sob critérios opacos, a frustração não é mero dissabor. (p. 634)
 > a publicidade integrará materialmente a oferta (p. 744-745)
 
-### limite
+### limite Todo rumor entre fãs entra na conta?
 
 Nem todo burburinho entre fãs entra nessa conta. Rumor espontâneo, conversa de comunidade e especulação são só isso, conversa.
 
@@ -868,7 +868,7 @@ Vale entender de onde ela vem. Não é uma lei nova com nome próprio, nem um di
 > Um standard de verificabilidade mínima, compatível com a proteção do software e do segredo empresarial, mas incompatível com a blindagem opaca da execução; um desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do consumidor (p. 648)
 > A informação, no CDC, não cumpre sua função só porque existe em algum lugar, nem porque foi depositada em documentos extensos, remissões, FAQs ou históricos de atualização que o consumidor dificilmente localizará, compreenderá e conectará ao impacto (p. 641)
 
-### imagem
+### imagem E se só um motorista tivesse as câmeras?
 
 Quem conta a história de um acidente de trânsito? Se só um dos motoristas tivesse acesso às câmeras, às marcas no asfalto e aos registros do carro, a versão dele seria a única que daria para provar.
 
@@ -877,7 +877,7 @@ Numa plataforma é assim por padrão. Quem controla o desenho, os critérios, os
 > Se o fornecedor controla a arquitetura, os critérios de alteração, os logs relevantes, a temporalidade da mudança e os próprios meios pelos quais a modificação será percebida, ele concentra não apenas poder de reconfiguração, mas também poder de narrar unilateralmente o que ocorreu. (p. 636)
 > Ela recoloca o conflito em terreno reconstruível e impede que a ausência de acesso aos elementos de prova se converta em impossibilidade prática de tutela (p. 642)
 
-### mecanismo
+### mecanismo O que precisa ficar ao seu alcance?
 
 O que precisa ficar ao alcance é simples de dizer. O que mudou, quando mudou, por que mudou, que efeito a mudança teve e quais registros permitem reconstruir o caso.
 
@@ -888,7 +888,7 @@ Não se pede o segredo da empresa nem o código do jogo. Pede-se um mínimo que 
 > O que precisa é de inteligibilidade suficiente para identificar a ocorrência de alteração relevante, relacioná-la com a fruição prometida, verificar se houve justificativa compatível com o regime jurídico e apurar se a sanção, a mudança ou a modulação respeitaram padrões mínimos de previsibilidade, proporcionalidade e contestabilidade. (p. 728)
 > A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor (p. 745)
 
-### caso
+### caso Com quem ficam os registros de um conflito?
 
 Num conflito sobre um item ou uma conta, quase tudo o que mostra o que aconteceu fica com o fornecedor. Os registros do sistema, as trilhas de tela, o histórico de mudanças, os critérios de punição e as conversas internas do suporte estão do lado de lá.
 
@@ -897,14 +897,14 @@ Essa é a situação normal nesses conflitos, e não uma exceção. Quem control
 > Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor. (p. 659)
 > Quem controla logs, históricos, critérios decisórios, versões relevantes, registros de interface, fluxos de moderação, parâmetros de alteração e vestígios de sanção controla, em larga medida, as condições de reconstrução jurídica do que ocorreu. (p. 734)
 
-### importa
+### importa O que passa a poder ser contestado?
 
 Com isso, o que é decidido dentro de sistemas fechados passa a poder ser contestado. E outra ideia depende diretamente desta, a equivalência de valor funcional. Sem conseguir reconstruir o que mudou, em que medida, por qual motivo e quando, você não consegue mostrar que perdeu a equivalência do que comprou.
 
 > [...] inclusive no que diz respeito a regras de acesso, modulações de entrega e mecanismos de sanção, de modo a tornar contestável o que é produzido por sistemas opacos (p. 393)
 > Sem auditabilidade, a equivalência funcional fica difícil de demonstrar, porque o consumidor não consegue reconstruir o que foi alterado, em que extensão, com que motivação e em que momento. (p. 638)
 
-### limite
+### limite É preciso abrir o código do jogo?
 
 Não é abrir o código do programa, nem expor toda a tecnologia da empresa, nem acabar com os segredos de negócio. Não é transparência total. É transparência suficiente, verificabilidade mínima.
 
@@ -931,7 +931,7 @@ Serviços digitais mudam o tempo todo, e isso é normal. Um jogo precisa de moto
 
 Mas às vezes, depois de uma atualização, o item continua lá e já não serve para o que servia. Perdeu uma função, perdeu o lugar que ocupava entre os outros jogadores ou perdeu o sentido que tinha para quem comprou. Você continua com a conta, continua vendo o item e continua entrando no jogo, e mesmo assim perdeu o principal.
 
-> Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)
+> Por isso, a equivalência de valor funcional é critério de estabilidade do programa de prestação, não exigência de imobilidade do objeto. Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)
 > O consumidor continua formalmente “dentro” do ecossistema, continua com a conta, continua vendo o objeto, continua podendo acessar a plataforma. Ainda assim, a utilidade fruída pode ser substancialmente rebaixada (p. 635)
 > O consumidor não perde apenas "uma feature"; perde substância funcional do que comprou (p. 672)
 
@@ -945,17 +945,17 @@ O teste é exigente. Não basta o item continuar funcionando, nem manter os mesm
 > A equivalência de valor funcional não se reduz à manutenção de desempenho técnico em sentido estrito, nem à preservação quantitativa de atributos isolados. Seu conteúdo é mais exigente. (p. 729)
 > O ponto é afirmar que a licitude da alteração não pode ser aferida apenas pela subsistência nominal do objeto, pela manutenção formal de acesso ou pela persistência abstrata de alguma utilidade residual. (p. 795)
 
-### imagem
+### imagem Pagar o semestre inteiro por meio curso?
 
 Imagine um curso que, no meio do semestre, corta metade das aulas e continua cobrando o mesmo preço. Qualquer pessoa acharia errado, e a lei do consumidor considera nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que vende.
 
 Nas plataformas, o corte raramente vem com esse nome. Aparece como alcance menor, desempenho rebaixado aos poucos, funções que vão sumindo, limites mais apertados ou uso que fica mais caro para render a mesma coisa. O rótulo e o preço ficam iguais, enquanto a entrega encolhe. A lógica é a mesma do curso.
 
-> Por isso, o CDC trata a modificação unilateral de conteúdo ou qualidade como nulidade. (p. 479)
+> Se a continuidade é o regime normal, a utilidade fruída se estabiliza como expectativa de manutenção do patamar de entrega, e não como expectativa de acesso formal a um serviço que pode ser reconfigurado por conveniência do fornecedor. Por isso, o CDC trata a modificação unilateral de conteúdo ou qualidade como nulidade. (p. 479)
 > O exemplo que ele oferece, do fornecedor que reduz aulas mantendo o mesmo preço (Nunes, 2018, [p. 508-509]), funciona como régua objetiva para plataformas. (p. 480)
 > A redução raramente aparece como corte explícito de “aulas”, mas pode se manifestar como perda de alcance, rebaixamento persistente de performance, restrição cumulativa de funcionalidades, compressão de limites, reordenação de visibilidade ou alterações estruturais que elevam o custo de fruir a mesma utilidade. A lógica é a mesma. Mantêm-se o rótulo e o preço, e rebaixa-se a entrega de valor. (p. 480)
 
-### mecanismo
+### mecanismo Como comparar o antes e o depois?
 
 Para fazer o teste, compara-se o antes e o depois. Examinam-se as versões que importam e identifica-se o centro da utilidade que foi atingido. Depois, avalia-se o papel do objeto na experiência, olhando a utilidade, o lugar que ele ocupa entre os outros e, quando importa, o que ele significa.
 
@@ -966,7 +966,7 @@ Algumas perguntas ajudam. A atualização tirou uma função importante? Enfraqu
 > A equivalência de valor funcional permite, justamente, uma posição intermediária muito mais robusta: reconhece-se que a plataforma pode alterar, mas exige-se que a alteração preserve, em termos substanciais, o valor funcional da experiência adquirida ou, não o fazendo, abra espaço a recomposição, correção, revisão ou outro remédio adequado (p. 637)
 > Não é preciso demonstrar domínio pleno sobre o objeto para sustentar que a fruição adquirida não pode ser rebaixada arbitrariamente. (p. 637)
 
-### caso
+### caso Quando a atualização do celular deixa de ser melhoria?
 
 Pense numa atualização de celular que, em nome da melhoria, deixa o aparelho lento ou incompatível com aplicativos, ainda dentro do tempo de vida que se esperava dele. Ninguém sério diz que toda atualização é ilegal.
 
@@ -976,7 +976,7 @@ A questão é outra. É saber se a atualização comprometeu de modo relevante o
 > O que se discute é se, sob o pretexto de melhoria, a atualização compromete de modo relevante o uso, o desempenho ou a compatibilidade de bens ainda dentro da durabilidade esperada, sem informação adequada, sem consentimento efetivo e sem vias mitigatórias (p. 655)
 > A estrutura jurídica é a mesma em OICs (p. 655)
 
-### importa
+### importa O item ainda existe, mas é o mesmo que você comprou?
 
 Um objeto pode continuar existindo e, mesmo assim, já não ser aquilo que foi comprado. É essa perda que o teste torna visível.
 
@@ -986,7 +986,7 @@ E ele muda a conversa quando a empresa diz que foi só uma atualização, um aju
 > Sempre que a plataforma invoca “atualização”, “ajuste” ou “evolução do serviço” para justificar alterações persistentes, o núcleo do debate deve recair sobre a demonstração de preservação substancial do feixe de fruição, e não sobre a retórica da complexidade. (p. 480)
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
 
-### limite
+### limite Então mudar é ilegal?
 
 Mudar não é ilegal. O teste não congela o serviço nem exige que a versão nova seja idêntica à antiga. Ambientes digitais precisam evoluir, se adaptar e, muitas vezes, se reequilibrar.
 
@@ -1020,7 +1020,7 @@ Quatro famílias de plataforma mostram faces diferentes do mesmo problema. Em ca
 > É esse mecanismo, e não o nome do setor, que fornece a base da comparabilidade (p. 755)
 > Cada um deles permite observar como a mesma grade de controlabilidade se comporta diante de problemas específicos de promessa, confiança, opacidade, mutabilidade, sanção, reputação, intermediação ou administração da expectativa. (p. 757)
 
-### limite
+### limite Estas páginas acusam alguma empresa?
 
 Mostrar o mecanismo não é condenar o serviço. Nem toda plataforma reproduz o mesmo problema, e as que reproduzem não o fazem com a mesma força. Também não é toda relação mediada por tecnologia que entra na proteção do consumidor.
 
@@ -1048,6 +1048,26 @@ Por isso o problema não se resume a uma resposta errada aqui e ali, nem ao cont
 > A segunda é reduzir a análise ao vocabulário contratual genérico do licenciamento de software ou da prestação técnica de suporte informacional. (p. 757)
 > a possibilidade institucional de reconstruir o nexo entre promessa, entrega, alteração e impacto (p. 757)
 
+### prova Como provar que o assistente mudou?
+
+Uma resposta errada, sozinha, diz pouco. O que conta é reconstruir o caminho inteiro, com o histórico da conversa, os avisos que apareceram ou faltaram, o jeito como a resposta foi apresentada e o peso que ela teve na sua decisão.
+
+Um aviso genérico de que o sistema pode errar não resolve tudo. E a variação do assistente não é um fato da natureza, porque o comportamento dele é governado por alguém. Por isso, quem fornece o serviço precisa guardar o mínimo que permita reconstruir o que aconteceu.
+
+> A evidência relevante tende a exigir reconstrução da jornada informacional, do contexto de uso, do histórico interacional disponível, das advertências presentes ou ausentes, da forma de apresentação da resposta e da função prática que ela exerceu na decisão do usuário. (p. 759-760)
+> O segundo é a tendência de presumir que avisos genéricos sobre limitações do sistema bastariam, por si, para neutralizar qualquer problema de adequação informacional. (p. 760)
+> O terceiro é a tendência de tratar a variabilidade do modelo como fato bruto da técnica, e não como elemento governado cuja opacidade precisa ser juridicamente suportável. (p. 760)
+> Trata-se de reconhecer que, em serviços cuja utilidade consiste em orientar cognitivamente o usuário, deve haver verificabilidade institucional mínima sobre aspectos relevantes da prestação. (p. 759)
+
+### resposta O que pedir quando a confiança é quebrada?
+
+A resposta mais adequada costuma ser corrigir o que falhou, e não só pagar pelo prejuízo. Pode caber exigir registros que deem para conferir, rever o jeito como o serviço se comunica e recompor a confiança que foi perdida.
+
+Nos casos mais graves, quando a falta de transparência deixa de ser um resto técnico e passa a fazer parte do modo de explorar o serviço, a própria finalidade do desenho pode entrar em discussão.
+
+> A resposta institucional mais adequada tenderá a privilegiar correção procedimental, reforço de trilhas verificáveis, revisão do arranjo comunicacional e recomposição funcional da confiança lesada, em vez de mera monetização abstrata do conflito. (p. 760)
+> [...] pode haver espaço para leitura em chave de teleologia abusiva, especialmente se a opacidade não for mero resíduo técnico, mas parte estável do modo de exploração do ambiente. (p. 760)
+
 ## infraestrutura-e-intermediacao
 
 ### titulo
@@ -1063,6 +1083,26 @@ Ou seja, quem compra ou vende não enxerga o mercado. Enxerga o mercado pelos fi
 > Plataformas dessa natureza não apenas conectam. Elas selecionam, hierarquizam, destacam, ocultam, aproximam, retardam, priorizam e reorganizam a forma pela qual a realidade do ambiente se torna perceptível ao usuário. (p. 761)
 > Em sua linguagem formal, elas frequentemente aparecem como espaços neutros de encontro entre vendedor e comprador (p. 761)
 > Rankings, reputação, destaque, recomendação, priorização e modulação de alcance não são elementos periféricos. Integram a utilidade funcional do ecossistema e influenciam diretamente a formação da expectativa, a avaliação do risco e a possibilidade de escolha racional. (p. 761)
+
+### prova Como provar o que a vitrine escondeu?
+
+Não basta olhar o produto que chegou ou o post que sumiu. É preciso reconstruir a vitrine inteira, com a ordem das ofertas, o que era anúncio pago e o que não era, as avaliações, os selos de confiança e o alcance de cada coisa.
+
+O erro mais comum é tratar a tela como simples enfeite. Ela faz parte do que a plataforma fornece, e o jeito como ela destaca e esconde pesa sobre toda a sua escolha, e não só sobre a compra que deu errado no fim.
+
+> Não basta examinar o produto final adquirido ou o conteúdo individual removido, priorizado ou ocultado. É necessário reconstruir a arquitetura da experiência. (p. 763)
+> Isso inclui, conforme o caso, a forma de apresentação das ofertas, a distinção entre resultados orgânicos e pagos, o papel de avaliações e reputações [...] (p. 763)
+> O primeiro é a tendência de tratar a interface como mero suporte visual, e não como parte constitutiva do fornecimento. (p. 763)
+
+### resposta O que pedir de quem organiza a vitrine?
+
+O caminho é cobrar deveres sobre o próprio jeito de organizar. Cabe perguntar se ficou claro o que era patrocinado, se a reputação mostrada dava para conferir e se a falta de clareza nos critérios atrapalhou a comparação entre as ofertas.
+
+Quando a mesma empresa arbitra a vitrine e também ganha com o que acontece nela, a questão pode chegar ainda à concorrência entre quem vende.
+
+> A consequência dogmática possível, nesse ambiente, tende a gravitar em torno de deveres procedimentais de controlabilidade da governança da interface. (p. 764)
+> Torna-se necessário examinar, em chave de OIC, se houve informação adequada sobre a natureza da intermediação, se a distinção entre prioridade orgânica e prioridade patrocinada foi materialmente inteligível, se a reputação exibida era funcionalmente verificável [...] (p. 764)
+> Em hipóteses mais graves, especialmente quando a plataforma atuar simultaneamente como árbitra do ambiente e agente econômico interessado em seus resultados, a opacidade da hierarquização pode também dialogar com práticas abusivas mais amplas e com repercussões concorrenciais próprias. (p. 764)
 
 ## produtividade-gig-economy
 
@@ -1081,6 +1121,26 @@ Para quem trabalha assim, o aplicativo fornece mais do que um pagamento por tare
 > Os instrumentos mobilizados por iFood, 99Food, Uber e 99 insistem, com variações de linguagem, em caracterizar os parceiros como independentes (p. 765)
 > Esse ponto é importante porque impede que a análise seja capturada por narrativas excessivamente formais sobre autonomia contratual. (p. 765)
 
+### prova Como provar que a regra do aplicativo mudou?
+
+Mostrar que o ganho caiu ou que a conta foi bloqueada uma vez não basta. É preciso ligar a perda ao jeito como o aplicativo governa o trabalho, com o histórico de chamadas, as variações de pagamento, os alertas, os critérios informados ou escondidos e os registros de restrição.
+
+E a queda de ganho nem sempre é risco natural da atividade. Ela pode vir de uma mudança de regra que ninguém explicou.
+
+> Não basta demonstrar que houve redução de ganhos ou bloqueio pontual. É necessário reconstruir a relação entre mecanismo de governança e impacto funcional. (p. 768)
+> Isso pode envolver histórico de chamadas, variações de remuneração, comunicações internas do aplicativo, alertas de desempenho, critérios informados ou omitidos, registros de restrição, padrões de avaliação e dados comparativos sobre a alteração do ambiente. (p. 768)
+> O primeiro é tratar a oscilação de ganho como puro risco natural da atividade, quando ela pode decorrer de reconfiguração unilateral opaca da infraestrutura de distribuição. (p. 768)
+
+### resposta O que pedir quando o aplicativo muda a regra?
+
+Uma conta ativa não prova que nada mudou. A pergunta é se o seu lugar no aplicativo continua equivalente ao que sustentava a sua expectativa de ganho e de permanência.
+
+Quando a mudança esvazia esse lugar, pode caber exigir os registros, a motivação das restrições, a revisão dos critérios e a recomposição do que foi degradado. Isso não transforma tudo numa questão trabalhista, mas também não deixa o contrato que fala em autonomia encerrar a conversa.
+
+> O teste jurídico não pode ser apenas se a conta continua ativa. Precisa ser se a posição funcional do parceiro no ambiente permanece substancialmente equivalente àquela que estruturava sua expectativa legítima de ganho e permanência. (p. 767-768)
+> A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime [...] (p. 768)
+> [...] não dissolve o subtipo em trabalhismo indiferenciado, mas também não se deixa neutralizar por autodescrições contratuais de autonomia formal. (p. 768)
+
 ## administracao-de-confianca
 
 ### titulo
@@ -1097,3 +1157,24 @@ Em muitos casos o conflito é administrado antes de existir. A plataforma não c
 > A interface cordial, o tom assistivo, a promessa difusa de cuidado, a transparência apenas performática, a aparência de horizontalidade comunicacional e a personalização calculada da linguagem compõem materialmente o ambiente de fruição. (p. 781)
 > Funcionam como técnica de governo da percepção, organizando o limiar a partir do qual a perda será percebida como aceitável, o abuso será lido como falha menor e a contestação será percebida como desnecessária, prematura ou desproporcional. (p. 781)
 > A plataforma, nesse contexto, não administra apenas adesão inicial. Administra a tolerância ao dano e a energia de reação do usuário. (p. 781)
+
+### prova Como provar uma queixa que foi amortecida?
+
+Aqui a prova passa pelo jeito de falar. Contam a linguagem da tela, o caminho do atendimento, as respostas prontas e as etapas que levam você a aceitar, esperar, relativizar ou desistir.
+
+O erro mais comum é achar que só a cláusula escrita produz efeito. Outro é achar que o conflito só começa quando alguém reclama fora da plataforma, quando ela pode governar justamente o momento em que a perda fica visível.
+
+> A evidência compatível com esse subtipo exige reconstrução do ambiente discursivo e procedimental em que a frustração se torna legível ou, ao contrário, é diluída. (p. 782)
+> Isso inclui a análise da linguagem da interface, dos fluxos de atendimento, dos modelos de resposta, das rotinas de explicação, da forma como a plataforma enquadra a perda e das etapas pelas quais o usuário é conduzido a aceitar, esperar, relativizar ou encerrar a inconformidade. (p. 782-783)
+> O terceiro é a tendência de supor que o conflito começa apenas quando surge reclamação externa ou litígio, ignorando que a plataforma pode governar precisamente o momento em que a perda se torna institucionalmente perceptível. (p. 783)
+
+### resposta O que pedir quando a reclamação some no atendimento?
+
+Educação no atendimento não é problema, e um tom simpático não vira ilegal por isso. O problema começa quando a cordialidade passa a servir para apagar a queixa.
+
+Aí pode caber exigir mudanças no atendimento, explicações que deem para conferir e caminhos de contestação que levem a algum lugar, e não só a um lugar onde a reclamação desaparece.
+
+> O problema não está no uso de linguagem acessível, no atendimento polido ou na tentativa legítima de manter relação funcionalmente estável com o usuário. (p. 782)
+> O problema começa quando esses elementos passam a integrar, de forma estrutural, um regime de neutralização prática do conflito. (p. 782)
+> Pode reclamar correção dos fluxos de atendimento, reforço de inteligibilidade, proibição de rotinas discursivas funcionalmente enganosas, deveres procedimentais de motivação e desenho de vias de contestação que não sirvam apenas para absorver a inconformidade, mas para torná-la efetivamente processável e verificável. (p. 783)
+
