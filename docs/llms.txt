@@ -69,7 +69,7 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 
 ## Conceitos derivados
 
-Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem.
+Dez conceitos que a tese nomeia ao lado dos nove, cada um com página própria na voz do site. Os trechos literais que os sustentam ficam à vista no modo Ciência.
 - [Cativeiro identitário](https://lexplataformae.com.br/conceitos/cativeiro-identitario/)
 - [Consentimento viciado por sentido](https://lexplataformae.com.br/conceitos/consentimento-viciado-por-sentido/)
 - [Consumidor-cidadão](https://lexplataformae.com.br/conceitos/consumidor-cidadao/)
@@ -81,16 +81,16 @@ Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literai
 - [Teleologia arquitetural](https://lexplataformae.com.br/conceitos/teleologia-arquitetural/)
 - [Transparência performática](https://lexplataformae.com.br/conceitos/transparencia-performatica/)
 
-## Roteiro
+## Situações
 
-- [Roteiro](https://lexplataformae.com.br/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.
-- [Parâmetros](https://lexplataformae.com.br/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, em texto integral.
-- [Diretrizes de controle](https://lexplataformae.com.br/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.
-- [Cidadania digital e limites](https://lexplataformae.com.br/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral.
+- [Situações](https://lexplataformae.com.br/roteiro/): as onze situações do quadro do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, na voz do site. O texto literal fica à vista no modo Ciência.
+- [Parâmetros](https://lexplataformae.com.br/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, na voz do site, com o texto integral no modo Ciência.
+- [Diretrizes de controle](https://lexplataformae.com.br/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, na voz do site, com o texto integral no modo Ciência.
+- [Cidadania digital e limites](https://lexplataformae.com.br/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, na voz do site, com o texto integral no modo Ciência.
 
-## Laboratório
+## Plataformas
 
-- [Laboratório](https://lexplataformae.com.br/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal.
+- [Plataformas](https://lexplataformae.com.br/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, na voz do site, com o texto integral no modo Ciência.
 - [Dos OICs de funcionalidade cognitiva e regime de informação](https://lexplataformae.com.br/laboratorio/funcionalidade-cognitiva/): seção 7.2.1 da tese
 - [Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/laboratorio/infraestrutura-e-intermediacao/): seção 7.2.2 da tese
 - [Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/laboratorio/produtividade-gig-economy/): seção 7.2.3 da tese

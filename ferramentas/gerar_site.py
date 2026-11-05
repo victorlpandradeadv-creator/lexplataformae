@@ -21,7 +21,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.8"
+VERSAO = "0.9"
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -1844,103 +1844,19 @@ def html_do_corpus(h, slug, prefixo):
     return h
 
 
-# Destaques. Trechos literais que as páginas das camadas marcam no texto da tese.
-# A lista fica em estrutura/destaques.md e é conferida pelo mesmo script das fichas.
-def carregar_destaques():
-    arq = RAIZ / "estrutura" / "destaques.md"
-    mapa, chave = {}, None
-    if not arq.exists():
-        return mapa
-    for linha in arq.read_text(encoding="utf-8").splitlines():
-        m = re.match(r"^## (\S+)(?: / (\d+))?\s*$", linha)
-        if m:
-            chave = (m.group(1), int(m.group(2)) if m.group(2) else None)
-            mapa.setdefault(chave, [])
-            continue
-        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
-        if m and chave:
-            mapa[chave].append({"texto": m.group(1), "ref": m.group(2)})
-    return mapa
-
-
-DESTAQUES = carregar_destaques()
-DESTAQUES_USADOS = set()
-
-
-def destaques(numero, parte=None):
-    return DESTAQUES.get((numero, parte), [])
-
-
 _NOTA = r'(?:<sup class="nota-ref">(?:(?!</sup>).)*</sup>)'
 _MARCA = r'(?:<a class="pg-marca"[^>]*>[^<]*</a>|<span class="pg-marca"[^>]*>[^<]*</span>)'
 _ENTRE = r"(?:\s|" + _MARCA + "|" + _NOTA + ")+"
 
 
-def _padrao_palavra(p):
-    m = re.match(r"^(.*?)([.,;:!?)\]]*)$", p)
-    nucleo, pont = m.group(1), m.group(2)
-
-    def em_re(s):
-        s = re.escape(html.escape(s, quote=False))
-        return s.replace("“", '[“"]').replace("”", '[”"]')
-
-    italico_abre, italico_fecha = r"(?:<(?:em|i)>)?", r"(?:</(?:em|i)>)?"
-    return italico_abre + em_re(nucleo) + italico_fecha + _NOTA + "?" + (em_re(pont) + _NOTA + "?" if pont else "")
 
 
-def _equilibrado(s):
-    pilha = []
-    for m in re.finditer(r"<(/?)(\w+)[^>]*>", s):
-        if m.group(1):
-            if not pilha or pilha[-1] != m.group(2):
-                return False
-            pilha.pop()
-        else:
-            pilha.append(m.group(2))
-    return not pilha
 
 
-def contador(prefixo="destaque"):
-    n = [0]
-
-    def proximo():
-        n[0] += 1
-        return f"{prefixo}-{n[0]}"
-    return proximo
 
 
-def marcar(h, trechos, proximo):
-    """Marca no HTML de um parágrafo os trechos literais que ele contém. Devolve o HTML e os trechos marcados."""
-    achados = []
-    for t in trechos:
-        padrao = _ENTRE.join(_padrao_palavra(p) for p in t["texto"].split())
-        m = re.search(padrao, h)
-        if not m:
-            continue
-        miolo = m.group(0)
-        if not _equilibrado(re.sub(_MARCA + "|" + _NOTA, "", miolo)):
-            print(f"Destaque não marcado, cruza uma etiqueta do HTML  {t['texto'][:60]}")
-            continue
-        ident = proximo()
-        h = h[:m.start()] + f'<mark class="destaque" id="{ident}">{miolo}</mark>' + h[m.end():]
-        achados.append((t, ident))
-        DESTAQUES_USADOS.add((t["texto"], t["ref"]))
-    return h, achados
 
 
-def texto_marcado(blocos, slug, prefixo, trechos, proximo):
-    """Texto literal de uma sequência de blocos do corpus, com os destaques marcados."""
-    partes, achados = [], []
-    for b in blocos:
-        h = html_do_corpus(b["html"], slug, prefixo)
-        if b["tipo"] == "marca":
-            partes.append(f'<p class="marca-solta">{h}</p>')
-            continue
-        pendentes = [t for t in trechos if all(t is not x for x, _ in achados)]
-        h, novos = marcar(h, pendentes, proximo)
-        achados += novos
-        partes.append(f'<blockquote class="citacao-longa"{attrs_ref(b, prefixo)}>{h}</blockquote>' if b["tipo"] == "citacao" else f"<p{attrs_ref(b, prefixo)}>{h}</p>")
-    return "".join(partes), achados
 
 
 # Termos do Atlas e do Roteiro que a tese nomeia num trecho. A contagem é mecânica, sobre o texto literal.
@@ -2131,19 +2047,8 @@ def diretrizes():
     return {"secao": sec, "abertura": abertura, "itens": itens, "fecho": fecho}
 
 
-def blocos_simples(blocos, slug, prefixo):
-    return "".join(
-        f'<p class="marca-solta">{html_do_corpus(b["html"], slug, prefixo)}</p>' if b["tipo"] == "marca"
-        else f'<blockquote class="citacao-longa"{attrs_ref(b, prefixo)}>{html_do_corpus(b["html"], slug, prefixo)}</blockquote>' if b["tipo"] == "citacao"
-        else f'<p{attrs_ref(b, prefixo)}>{html_do_corpus(b["html"], slug, prefixo)}</p>' for b in blocos)
 
 
-def indice_destaques(achados, titulo="Em frases do texto integral"):
-    if not achados:
-        return ""
-    itens = "".join(f'<li><a href="#{ident}"><span class="frase-literal">{esc(t["texto"])}</span></a> {pg(t["ref"])}</li>' for t, ident in achados)
-    return (f'<nav class="bloco indice-destaques" aria-label="{esc(titulo)}" data-arq="seleção editorial · trechos marcados no texto">'
-            f'<h2>{esc(titulo)}</h2><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{itens}</ol></nav>')
 
 
 def gerar_parametros():
@@ -2276,31 +2181,8 @@ def locus_html(prefixo):
     return ""
 
 
-def paragrafo_que_comeca(numero, inicio):
-    sec = POR_NUMERO.get(numero)
-    if not sec:
-        return None, None
-    for b in sec["blocos"]:
-        if b["tipo"] == "p" and re.sub(r'^(?:<span class="pg-marca"[^>]*>[^<]*</span>\s*)+', "", b["html"]).startswith(inicio):
-            return b["html"], sec
-    return None, sec
 
 
-def campos_da_familia(sec):
-    """Distribui os parágrafos da seção pelos quatro passos que o 7.2 declara, sem cortar nenhum."""
-    campos = [[rotulo, []] for rotulo, _ in CAMPOS_FAMILIA]
-    atual = 0
-    for b in sec["blocos"]:
-        if b["tipo"] == "marca":
-            continue
-        t = html.unescape(re.sub(r"<[^>]+>", "", b["html"]))
-        for i in range(len(CAMPOS_FAMILIA) - 1, atual, -1):
-            padrao = CAMPOS_FAMILIA[i][1]
-            if padrao and re.search(padrao, t, re.I):
-                atual = i
-                break
-        campos[atual][1].append(b)
-    return campos
 
 
 def gerar_laboratorio():
@@ -3719,13 +3601,13 @@ def gerar_auxiliares():
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
     linhas += ["", "## Conceitos complementares e instrumentais", "", f"- [Conceitos por área]({BASE}/instrumentos/): índice dos termos do percurso, com links para as explicações em contexto. Instrumentos e categorias jurídicas por área, derivados e vocabulário do objeto em grupos próprios."]
-    linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com os trechos literais que o definem."]
+    linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com página própria na voz do site. Os trechos literais que os sustentam ficam à vista no modo Ciência."]
     linhas += [f"- [{t}]({BASE}/{caminho_derivado(t)})" for t in sorted(DERIVADOS)]
-    linhas += ["", "## Roteiro", "", f"- [Roteiro]({BASE}/roteiro/): os onze blocos de enquadramento do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, em texto literal.",
-               f"- [Parâmetros]({BASE}/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, em texto integral.",
-               f"- [Diretrizes de controle]({BASE}/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, em texto literal.",
-               f"- [Cidadania digital e limites]({BASE}/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, em texto integral."]
-    linhas += ["", "## Laboratório", "", f"- [Laboratório]({BASE}/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, em texto literal."]
+    linhas += ["", "## Situações", "", f"- [Situações]({BASE}/roteiro/): as onze situações do quadro do 7.1.2 da tese, com hipótese de incidência, dever de fornecimento, prova mínima, qualificação jurídica e consequência institucional, na voz do site. O texto literal fica à vista no modo Ciência.",
+               f"- [Parâmetros]({BASE}/roteiro/parametros/): os dez enunciados operacionais do 7.1.1 da tese, em sequência, cada um ligado à situação do quadro que prepara, na voz do site, com o texto integral no modo Ciência.",
+               f"- [Diretrizes de controle]({BASE}/roteiro/diretrizes/): as dez diretrizes do 7.1.3 para o controle de arquitetura e governança, na voz do site, com o texto integral no modo Ciência.",
+               f"- [Cidadania digital e limites]({BASE}/roteiro/limites/): o 7.1.4, sobre os limites ao poder privado de plataforma, na voz do site, com o texto integral no modo Ciência."]
+    linhas += ["", "## Plataformas", "", f"- [Plataformas]({BASE}/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, na voz do site, com o texto integral no modo Ciência."]
     linhas += [f"- [{POR_NUMERO[n]['titulo']}]({BASE}/laboratorio/{slug}/): seção {n} da tese" for n, slug in FAMILIAS if n in POR_NUMERO]
     linhas += [f"- [{POR_NUMERO[n]['titulo']}]({BASE}/laboratorio/{slug}/): seção {n} da tese, desdobramento da tipologia" for n, slug in DESDOBRAMENTOS if n in POR_NUMERO]
     linhas += ["", "## Legislação", "", f"- [Legislação]({BASE}/legislacao/): os artigos de lei que a tese transcreve ou cita, com o texto integral, por lei. O que a tese cita sem transcrever vem do site do Planalto, com data e marca de acréscimo posterior."]
@@ -4003,10 +3885,6 @@ def main():
     gerar_auxiliares()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")
-    todos = {(t["texto"], t["ref"]) for lista in DESTAQUES.values() for t in lista}
-    for texto, ref in sorted(todos - DESTAQUES_USADOS):
-        print(f"Destaque sem lugar no site  {ref}  {texto[:70]}")
-    print(f"{len(todos & DESTAQUES_USADOS)} de {len(todos)} destaques marcados no texto")
     prontas = sum(1 for i in ILUSTRACOES if arquivo_ilustracao(i))
     print(f"Ilustrações  {len(ILUSTRACOES)} previstas, {prontas} com arquivo, {len(ILUSTRACOES_USADAS)} com lugar no site")
     for i in sorted(set(ILUSTRACOES) - ILUSTRACOES_USADAS):
