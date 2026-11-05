@@ -660,7 +660,7 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
   /* O índice acompanha a leitura e para antes da chave Modo, que fica no mesmo canto. */
   .lateral-fixa { position: sticky; top: 1.25rem; max-height: calc(100dvh - 6rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: 0.25rem; padding-top: 0.15rem; }
   .ext p { font-size: 1.1875rem; }
-  .folha-texto, .bloco p { font-size: 1.1875rem; }
+  .folha-texto, .bloco > p:not([class]) { font-size: 1.1875rem; }
   .leitura .texto { font-size: 1.25rem; line-height: 1.6; }
   .citacao p, .citacao-longa { font-size: 1.125rem; }
   /* Sem nada para pôr ao lado, o texto corre na largura toda, em vez de ficar num canto. */
