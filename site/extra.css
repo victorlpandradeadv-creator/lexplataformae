@@ -740,3 +740,5 @@ body.desnudo .lateral[data-arq]::after { max-width: 100%; }
 .roteiro .partes.quadro dd:not(.quadro-literal) { font-family: var(--f-display); font-size: 1.0625rem; line-height: 1.5; color: var(--tinta); }
 .roteiro .partes.quadro dd.quadro-literal { grid-column: 2; color: var(--tinta-2); padding-left: 0.9rem; border-left: 2px solid var(--linha); }
 @media (max-width: 640px) { .roteiro .partes.quadro dd.quadro-literal { grid-column: 1; } }
+.mediacao { margin: 0 0 0.5rem; font-size: 1.0625rem; color: var(--tinta); }
+.folha-texto :is(.bloco, .abertura-cap, .fecho-cap) p.mediacao { max-width: none; }

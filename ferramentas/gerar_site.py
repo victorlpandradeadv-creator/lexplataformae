@@ -1076,8 +1076,8 @@ def saidas_html(itens, titulo="Para onde seguir?"):
             + "".join(f'<li><a href="{href}">{esc(rotulo)}</a></li>' for rotulo, href in itens) + "</ul></nav>")
 
 
-def expansao(cits, prefixo, modo="interno"):
-    """Os trechos literais que um bloco simples condensa. Aparecem a partir da Doutrina, ou só na Ciência."""
+def expansao(cits, prefixo, modo="ciencia"):
+    """Os trechos literais que um bloco simples condensa. Ficam à vista só na Ciência, pela revisão de voz de 05/11/2026."""
     if not cits:
         return ""
     return (f'<div class="{modo} expansao" data-arq="trechos literais · cada um com a página">{ROTULO_FONTE}'
@@ -1098,11 +1098,15 @@ def ext_html(pag, campo_, prefixo, classe=""):
     return "".join(f"<p{atributo}>{esc(t)}</p>" for t in b["paragrafos"]) + expansao(b["citacoes"], prefixo)
 
 
-def botao_desnudar():
-    """O convite dentro da página leva ao modo seguinte. Do último, volta à Informação."""
-    return ('<span class="convite-botoes">'
-            '<label class="botao convite-botao so-0" for="nivel-1" title="Abre o modo Doutrina">Ver os trechos de origem</label>'
-            '<label class="botao convite-botao so-1" for="nivel-2" title="Abre o modo Ciência">Ver como foi montado</label>'
+def botao_desnudar(doutrina=False):
+    """O convite dentro da página leva ao modo seguinte que muda algo nela. Do último, volta à Informação.
+
+    Percurso, problemas e direitos têm o mesmo texto na Doutrina, por isso o convite vai direto à Ciência, onde estão os trechos.
+    """
+    primeiro = ('<label class="botao convite-botao so-0" for="nivel-1" title="Abre o modo Doutrina">Ver a ficha para operar</label>' if doutrina
+                else '<label class="botao convite-botao so-0" for="nivel-2" title="Abre o modo Ciência">Ver de onde vem</label>')
+    return ('<span class="convite-botoes">' + primeiro +
+            '<label class="botao convite-botao so-1" for="nivel-2" title="Abre o modo Ciência">Ver de onde vem</label>'
             '<label class="botao convite-botao so-2" for="nivel-0" title="Volta ao modo Informação">Voltar ao texto simples</label></span>')
 
 
@@ -1297,7 +1301,7 @@ def gerar_inicio():
         f'<p class="fonte-nome">{nome_html(c)}</p>'
         + "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], "", q["texto"])}</p></blockquote>' for q in cart.get(c["id"], {}).get("citacoes", []))
         for c in ([gemeo] if gemeo else []) + independentes if cart.get(c["id"], {}).get("citacoes"))
-    fontes_grade = (f'<div class="interno expansao expansao-nomeada" data-arq="trechos literais · um grupo por nome">'
+    fontes_grade = (f'<div class="ciencia expansao expansao-nomeada" data-arq="trechos literais · um grupo por nome">'
                     f'<p class="rotulo-fonte">De onde vem cada nome</p>{itens_fonte}</div>') if itens_fonte else ""
 
     corpo = f"""
@@ -1306,7 +1310,7 @@ def gerar_inicio():
       <div class="abertura-duas">
         <div class="abertura-coluna">
           <div class="lema">{ext_html("inicio", "abertura", "")}</div>
-          <div class="interno expansao" data-arq="citação literal · a frase que abre o percurso">{ROTULO_FONTE}<blockquote class="citacao"><p>{esc(ab["texto"])}{pg(ab["ref"], "", ab["texto"])}</p></blockquote></div>
+          <div class="ciencia expansao" data-arq="citação literal · a frase que abre o percurso">{ROTULO_FONTE}<blockquote class="citacao"><p>{esc(ab["texto"])}{pg(ab["ref"], "", ab["texto"])}</p></blockquote></div>
         </div>
         <div class="problema" role="group" aria-label="O problema">
           {ext_html("inicio", "problema", "")}
@@ -1322,7 +1326,7 @@ def gerar_inicio():
       <h2 class="campo-titulo" id="conceitos-titulo">{TITULO_VOCABULARIO}</h2>
       <div class="campo-texto">{ext_html("inicio", "nome", "")}</div>
       <ul class="eixo-cartoes" data-arq="eixo · o OIC enquanto feixe de fruição governada">{eixo_cartoes}</ul>
-      <div class="campo-topo interno" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
+      <div class="campo-topo ciencia" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
         {ROTULO_FONTE}<blockquote class="citacao"><p>{esc(oic_def["texto"])}{pg(oic_def["ref"], "", oic_def["texto"])}</p></blockquote>
         {f'<blockquote class="citacao integra"><p>{esc(gatilho["texto"])}{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
       </div>
@@ -1520,7 +1524,7 @@ def gerar_conceito(c):
             + bloco_ext("limite", "Quais são os limites?", "limite")
             + (secao_direitos(direitos_da_ideia(c["id"]), prefixo) if direitos_da_ideia(c["id"]) else "")
             + no_percurso(c["id"], prefixo)
-            + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else "")
+            + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar(True)}</section>' if duvida else "")
             + "</div>")
         doutrina = f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}</div>'
         nota_nome = ""
@@ -2214,25 +2218,6 @@ def gerar_diretrizes():
     (destino / "index.html").write_text(pagina('Diretrizes de controle das plataformas digitais · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld, irmas=irmas_roteiro("7.1.3", prefixo)), encoding="utf-8")
 
 
-def pagina_lida(sec, prefixo, trilha, sobrelinha, chave, topo="", nome=None, abertura="", saidas=None):
-    """Seção da tese em texto integral, com os destaques marcados e o índice deles no alto.
-
-    nome é o título na voz do site, para a Informação e a Doutrina. abertura diz em duas frases o que a página entrega,
-    e saidas aponta, no fim, para onde se resolve o que ela não responde.
-    """
-    texto, achados = texto_marcado(sec["blocos"], sec["slug"], prefixo, destaques(chave), contador())
-    titulo = (f'<span class="em-modo modo-0 modo-1">{esc(nome)}</span><span class="em-modo modo-2">{esc(sec["titulo"])}</span>'
-              if nome else titulo_por_modo(sec["titulo"]))
-    return (
-        f'<nav class="trilha" aria-label="Você está em">{trilha}</nav>'
-        f'<header class="folha-cabeca"><p class="sobrelinha">{esc(sobrelinha)}<span class="ciencia"> · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></p>'
-        f'<h1>{titulo}</h1>' + (f'<p class="abertura-pagina">{esc(abertura)}</p>' if abertura else "")
-        + f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral, com as notas</a></p></header>'
-        + topo + indice_destaques(achados)
-        + f'<section class="bloco"><h2>O texto integral</h2><div class="texto">{texto}</div></section>'
-        + nomeados_html(termos_em(texto_de(sec["blocos"])), prefixo) + saidas_html(saidas or []))
-
-
 def gerar_limites():
     sec = POR_NUMERO.get("7.1.4")
     if not sec:
@@ -2270,6 +2255,11 @@ CAMPOS_FAMILIA = [
     ("Consequência dogmática possível", r"consequência dogmática possível"),
 ]
 DESDOBRAMENTOS = [("7.2.4", "concorrencia"), ("7.2.5", "tutela-coletiva"), ("7.2.6", "consumidor-equiparado")]
+ABERTURA_DESDOBRAMENTO = {
+    "concorrencia": "A plataforma que governa a fruição também governa as condições perceptíveis de competição. O regime não substitui o direito concorrencial, mas dá a entrada para controlar essa governança.",
+    "tutela-coletiva": "Há lesões cuja unidade está no desenho do fornecimento, e não na soma de episódios. Para elas, a resposta precisa alcançar o regime.",
+    "consumidor-equiparado": "A tutela do consumidor pode alcançar quem, sem ser adquirente final clássico, está exposto à governança da plataforma. O critério é a sujeição real, e não o rótulo do contrato.",
+}
 LABORATORIO_ORIGEM = ["2.3", "5.2.2", "5.2.4", "6.1.2.1", "6.2.4.3.1"]
 
 
@@ -2327,27 +2317,6 @@ def gerar_laboratorio():
     for num, slug in FAMILIAS:
         sec = POR_NUMERO[num]
         prefixo = "../../"
-        partes = []
-        for rotulo, blocos in campos_da_familia(sec):
-            if not blocos:
-                continue
-            corpo_campo = "".join(
-                f'<blockquote class="citacao-longa"{attrs_ref(b, prefixo)}>{html_do_corpus(b["html"], sec["slug"], prefixo)}</blockquote>' if b["tipo"] == "citacao"
-                else f'<p{attrs_ref(b, prefixo)}>{html_do_corpus(b["html"], sec["slug"], prefixo)}</p>' for b in blocos)
-            partes.append(f'<section class="campo-caso" data-arq="passo declarado pelo 7.2 · texto literal"><h2>{esc(rotulo)}</h2><div class="texto">{corpo_campo}</div></section>')
-        sub = ""
-        if num == "7.2.7" and "7.2.7.1" in POR_NUMERO:
-            s1 = POR_NUMERO["7.2.7.1"]
-            texto_sub, achados = texto_marcado(s1["blocos"], s1["slug"], prefixo, destaques("7.2.7.1"), contador())
-            lista = "".join(f'<li><a href="#{ident}"><span class="frase-literal">{esc(t["texto"])}</span></a> {pg(t["ref"])}</li>' for t, ident in achados)
-            sub = (f'<section class="campo-caso subcaso" id="subcaso" data-arq="subcaso · texto integral do {esc(s1["n"])}"><h2>Subcaso · <span class="num-secao">{esc(s1["n"])} </span>{esc(s1["titulo"])}</h2>'
-                   + (f'<nav class="indice-destaques" aria-label="O subcaso em frases do texto integral"><h3>Em frases do texto integral</h3><p class="nota-camada">Os trechos marcados foram escolhidos pelo site.</p><ol>{lista}</ol></nav>' if lista else "")
-                   + f'<div class="texto">{texto_sub}</div>'
-                   f'<p class="ler-pdf"><a href="{prefixo}tese/{s1["slug"]}/">Ler o subcaso no texto integral, com as notas</a></p></section>')
-        notas = ""
-        refs = set(re.findall(r'id="r(\d+)"', " ".join(b["html"] for b in sec["blocos"])))
-        if refs:
-            notas = f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/#notas-titulo">Notas desta seção no texto integral</a></p>'
         e = EXTERNA.get(slug, {})
         externo = ""
         if e.get("titulo"):
@@ -2360,17 +2329,18 @@ def gerar_laboratorio():
                 return (f'<section class="ext familia-passo"><h2 class="rotulo-ext">{esc(b.get("pergunta", ""))}</h2>'
                         + "".join(f"<p>{esc(t)}</p>" for t in b["paragrafos"]) + expansao(b["citacoes"], prefixo) + "</section>")
             externo = (f'<a class="voltar" href="../">← Todas as plataformas</a>'
-                       f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(slug, "titulo"))}</h1></header>'
+                       f'<header class="folha-cabeca ext-cabeca"><h1><span class="em-modo modo-0 modo-2">{esc(ext_texto(slug, "titulo"))}</span>'
+                       f'<span class="em-modo modo-1">{esc(titulo_site(sec["titulo"]))}</span></h1></header>'
+                       '<div class="pilha em-modo modo-0 modo-2">'
                        f'<section class="ext">{ext_html(slug, "resumo", prefixo)}</section>'
-                       + figura(f"familia-{slug}", prefixo) + bloco_familia("prova") + bloco_familia("resposta"))
+                       + figura(f"familia-{slug}", prefixo) + bloco_familia("prova") + bloco_familia("resposta") + "</div>")
         outras = [(ext_texto(s2, "titulo"), f"../{s2}/") for _, s2 in FAMILIAS if s2 != slug and ext_texto(s2, "titulo")]
         fecho_familia = (saidas_html([("Seus direitos", f"{prefixo}direitos/"), ("Qual é o seu problema?", f"{prefixo}problemas/")] + outras)
-                         + f'<section class="ext duvida">{botao_desnudar()}</section>')
+                         + f'<section class="ext duvida">{botao_desnudar(True)}</section>')
         corpo = (f'<article class="folha leitura laboratorio">{externo}'
-                 f'<div class="interno arquitetura" data-arq="arquitetura · a família de plataforma no texto integral">'
-                 f'<header class="folha-cabeca"><p class="sobrelinha">Família de plataforma, em texto literal<span class="ciencia"> · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></p>'
-                 f'<h2 class="titulo-interno">{titulo_por_modo(sec["titulo"])}</h2><p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção no texto integral</a></p>{notas}</header>'
-                 + "".join(partes) + sub + "</div>" + fecho_familia + "</article>")
+                 f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"familia {slug}", prefixo)}'
+                 f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção no texto integral</a></p></div>'
+                 + fecho_familia + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
         destino = pasta / slug
@@ -2390,11 +2360,12 @@ def gerar_laboratorio():
             continue
         prefixo = "../../"
         corpo = ('<article class="folha leitura laboratorio">'
-                 + pagina_lida(sec, prefixo, '<a href="../">Plataformas</a>', "Desdobramento da tipologia", num,
-                               abertura=f"Esta página traz, por inteiro, o texto sobre {titulo_site(sec['titulo'])[:1].lower() + titulo_site(sec['titulo'])[1:]}. "
-                                        "As frases marcadas no alto levam ao ponto do texto em que cada ideia aparece.",
-                               saidas=[("As famílias de plataforma", "../"), ("As situações, para operar", f"{prefixo}roteiro/"),
-                                       ("Seus direitos", f"{prefixo}direitos/")])
+                 '<nav class="trilha" aria-label="Você está em"><a href="../">Plataformas</a></nav>'
+                 f'<header class="folha-cabeca"><p class="sobrelinha">Desdobramento<span class="ciencia"> · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></p>'
+                 f'<h1>{titulo_por_modo(sec["titulo"])}</h1><p class="abertura-pagina">{esc(ABERTURA_DESDOBRAMENTO[slug])}</p>'
+                 f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral, com as notas</a></p></header>'
+                 + doutrina_html(f"desdobramento {slug}", prefixo)
+                 + saidas_html([("As famílias de plataforma", "../"), ("As situações, para operar", f"{prefixo}roteiro/"), ("Seus direitos", f"{prefixo}direitos/")])
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -2407,27 +2378,22 @@ def gerar_laboratorio():
             encoding="utf-8")
         cartoes_desdob.append(f'<li><a class="cartao" href="{slug}/"><b>{titulo_por_modo(sec["titulo"])}</b><span class="ciencia">{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
 
-    teste, sec7 = paragrafo_que_comeca("7", "O teste, portanto")
-    muda, _ = paragrafo_que_comeca("7.3", "O que emerge da análise dos modelos")
     origem = "".join(f'<li><a href="../tese/{POR_NUMERO[n]["slug"]}/">{esc(n)} {esc(POR_NUMERO[n]["titulo"])}</a></li>' for n in LABORATORIO_ORIGEM if n in POR_NUMERO)
     corpo = (
         '<article class="folha leitura laboratorio">'
-        f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Plataformas</p><h1>{esc(ext_texto("laboratorio", "titulo"))}</h1></header>'
-        f'<section class="ext">{ext_html("laboratorio", "abertura", "../")}</section>'
-        + figura("laboratorio", "../")
+        f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Plataformas</p><h1><span class="em-modo modo-0 modo-2">{esc(ext_texto("laboratorio", "titulo"))}</span>'
+        '<span class="em-modo modo-1">Plataformas</span></h1></header>'
+        f'<div class="pilha em-modo modo-0 modo-2"><section class="ext">{ext_html("laboratorio", "abertura", "../")}</section>'
+        + figura("laboratorio", "../") + "</div>"
+        + f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html("laboratorio abertura", "../")}</div>'
         + f'<section class="bloco"><h2>Quatro famílias de plataforma</h2><ul class="grade-conceitos">{"".join(cartoes)}</ul></section>'
-        f'<section class="ext limite"><p class="rotulo-ext">{esc(EXTERNA.get("laboratorio", {}).get("limite", {}).get("pergunta") or "Até onde vai")}</p>{ext_html("laboratorio", "limite", "../")}</section>'
-        f'<section class="ext duvida">{botao_desnudar()}</section>'
-        '<div class="interno arquitetura" data-arq="arquitetura · o laboratório no texto integral">'
-        '<header class="folha-cabeca"><p class="sobrelinha ciencia">Capítulo 7 do texto integral</p><h2 class="titulo-interno">A tipologia por dentro</h2>'
-        + (f"<p>{html_do_corpus(sequencia, intro['slug'], '../')}</p>" if sequencia else "") + "</header>"
-        + (f'<section class="bloco"><h2>O teste</h2><blockquote class="citacao"><p>{html_do_corpus(teste, sec7["slug"], "../")}</p></blockquote></section>' if teste else "")
-        + (f'<section class="bloco"><h2>Desdobramentos da tipologia</h2><ul class="grade-conceitos">{"".join(cartoes_desdob)}</ul></section>' if cartoes_desdob else "")
-        + (f'<section class="bloco"><h2>O que as famílias mostram</h2><blockquote class="citacao"><p>{html_do_corpus(triade, fecho["slug"], "../")}</p></blockquote></section>' if triade else "")
-        + (f'<section class="bloco"><h2>O que muda quando o regime incide</h2><blockquote class="citacao"><p>{html_do_corpus(muda, fecho["slug"], "../")}</p></blockquote></section>' if muda else "")
-        + (f'<section class="bloco ciencia" id="origem"><h2>O laboratório de origem</h2>{locus_html("../")}<ul class="lista-simples">{origem}</ul></section>' if origem else "")
-        + "</div></article>")
-    desc = "As famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos. Mecanismo, vulnerabilidade central, evidência e consequência dogmática possível, em texto literal."
+        + (f'<section class="bloco interno"><h2>Desdobramentos</h2><ul class="grade-conceitos">{"".join(cartoes_desdob)}</ul></section>' if cartoes_desdob else "")
+        + f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html("laboratorio fecho", "../")}</div>'
+        f'<section class="ext limite em-modo modo-0 modo-2"><p class="rotulo-ext">{esc(EXTERNA.get("laboratorio", {}).get("limite", {}).get("pergunta") or "Até onde vai")}</p>{ext_html("laboratorio", "limite", "../")}</section>'
+        f'<section class="ext duvida">{botao_desnudar(True)}</section>'
+        + (f'<section class="bloco ciencia" id="origem"><h2>O laboratório de origem</h2><p>A tipologia foi densificada num laboratório de origem, com recorte de aplicação ilustrativa. As seções abaixo o desenvolvem no texto integral.</p>{locus_html("../")}<ul class="lista-simples">{origem}</ul></section>' if origem else "")
+        + "</article>")
+    desc = "As famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos. Mecanismo, vulnerabilidade central, evidência e consequência dogmática possível."
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Laboratório · Lex Plataformae", "inLanguage": "pt-BR",
               "url": BASE + "/laboratorio/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     desc = ext_texto("laboratorio", "abertura") or desc
@@ -2479,7 +2445,11 @@ def attrs_ref(b, prefixo, ref=None):
 def citado(par, sec, prefixo, html_trecho=None, classe="citacao"):
     """Um parágrafo da tese em citação, com a âncora da página que leva ao trecho exato."""
     h = html_trecho if html_trecho is not None else par["bloco"]["html"]
-    return f'<blockquote class="{classe}"><p>{html_do_corpus(h, sec["slug"], prefixo)} {pg(par["ref"], prefixo, _plano(h)[:90])}</p></blockquote>'
+    # Na Ciência, o trecho vem precedido de uma frase do site que diz o que ele faz ali. Revisão de voz de 05/11/2026.
+    inicio = _plano(h).strip()
+    mediacao = next((s["paragrafos"][0] for s in DOUTRINA.get("ciencia", []) if inicio.startswith(s["titulo"])), "")
+    frase = f'<p class="mediacao">{esc(mediacao)}</p>' if mediacao else ""
+    return frase + f'<blockquote class="{classe}"><p>{html_do_corpus(h, sec["slug"], prefixo)} {pg(par["ref"], prefixo, _plano(h)[:90])}</p></blockquote>'
 
 
 def ref_do_pedaco(h, inicio):
@@ -2526,7 +2496,7 @@ def gerar_metodo():
         f'<header class="folha-cabeca"><p class="sobrelinha">Capítulo 2 da tese · p. {cap["pagina_inicio"]} a {POR_NUMERO["2.7"]["pagina_fim"]}</p><h1>Método</h1>'
         '<p class="abertura-pagina">Como a tese foi feita, para que cada passo possa ser refeito por quem lê. '
         'A página traz a distinção entre objeto e instrumentos e cada parte do protocolo de observação, pelo primeiro parágrafo da sua seção.</p>'
-        + (ROTULO_LITERAL + citado(auditavel, cap, prefixo, classe="citacao") if auditavel else "")
+        + (citado(auditavel, cap, prefixo, classe="citacao") if auditavel else "")
         + f'<p class="ler-pdf"><a href="{prefixo}tese/{cap["slug"]}/">Ler a abertura do capítulo na tese</a></p></header>'
         + (f'<section class="bloco"><h2>Objeto e instrumentos</h2>{citado(objeto, cap, prefixo)}'
            f'<p class="nota-camada">Os autores que a tese mobiliza como instrumentos estão organizados em <a href="{prefixo}fundamentos/">Fundamentos</a>.</p></section>' if objeto else "")
@@ -2673,7 +2643,7 @@ def gerar_fundamentos():
         '<article class="folha leitura fundamentos">'
         '<header class="folha-cabeca"><p class="sobrelinha">Capítulos 3 e 4 da tese</p><h1>Fundamentos</h1>'
         + f'<p class="abertura-pagina">Cada capítulo abre declarando os autores que mobiliza e a função de cada um. A página segue essa declaração, em texto literal. A distinção entre objeto e instrumentos está no <a href="{prefixo}metodo/">Método</a>.</p>'
-        + (ROTULO_LITERAL + citado(nao_exegese, POR_NUMERO["2"], prefixo, classe="citacao") if nao_exegese else "")
+        + (citado(nao_exegese, POR_NUMERO["2"], prefixo, classe="citacao") if nao_exegese else "")
         + f'<nav class="indice-roteiro" aria-label="Capítulos"><ol>{indice}</ol></nav></header>'
         + "".join(blocos_cap) + "</article>")
     desc = "Os capítulos 3 e 4 da tese, organizados pelos autores e funções que a abertura de cada capítulo declara, com as seções em que cada autor é citado e as obras da lista de referências."
@@ -3554,7 +3524,7 @@ def gerar_dogmatica():
         '<article class="folha leitura fundamentos dogmatica">'
         '<header class="folha-cabeca"><p class="sobrelinha">Capítulos 5 e 6 da tese</p><h1>Dogmática</h1>'
         + f'<p class="abertura-pagina">A página segue a abertura de cada capítulo, em texto literal. Os autores que a abertura do capítulo 5 nomeia aparecem com as seções que os citam e com as obras da lista de referências. Os conceitos de cada trecho levam ao <a href="{prefixo}#conceitos">vocabulário</a>.</p>'
-        + (ROTULO_LITERAL + citado(base, POR_NUMERO["2.2"], prefixo) if base else "")
+        + (citado(base, POR_NUMERO["2.2"], prefixo) if base else "")
         + f'<nav class="indice-roteiro" aria-label="Partes da página"><ol>{indice_cap}</ol></nav></header>'
         + "".join(blocos_cap) + disp + "</article>")
     desc = "Os capítulos 5 e 6 da tese, pela abertura de cada um, com os autores declarados, os conceitos de cada trecho e o índice dos dispositivos legais citados."
@@ -3650,7 +3620,7 @@ def usos_por_secao():
     for num, slug in FAMILIAS:
         if num in POR_NUMERO:
             junta(num, "Laboratório", "Família de plataforma", f"laboratorio/{slug}/")
-    junta("7.2.7.1", "Laboratório", "Subcaso da administração de confiança", "laboratorio/administracao-de-confianca/#subcaso")
+    junta("7.2.7.1", "Laboratório", "Subcaso da administração de confiança", "laboratorio/administracao-de-confianca/#quando-o-rumor-entra-no-fornecimento")
     for num, slug in DESDOBRAMENTOS:
         junta(num, "Laboratório", "Desdobramento da tipologia", f"laboratorio/{slug}/")
     junta("7.3", "Laboratório", "O que as famílias mostram", "laboratorio/")
@@ -3780,7 +3750,6 @@ def gerar_auxiliares():
     (SAIDA / "404.html").write_text(pagina("Página não encontrada · Lex Plataformae", "Página não encontrada.", corpo, "/", "404.html", camada="externa"), encoding="utf-8")
 
 
-TRAJETORIA = ["A percepção de que o consumo digital", "Esta tese não nasce", "Essa dificuldade de ignorar"]
 # Perfis do autor, informados por ele em 27/10/2026. O ORCID fica para outro momento.
 AUTOR_LATTES = "https://lattes.cnpq.br/3172009565979544"
 AUTOR_LINKEDIN = "https://www.linkedin.com/in/victorlpandrade/"
@@ -3888,11 +3857,6 @@ def paginas_derivadas():
 def gerar_autor():
     """A camada mais interna. Quem chega aqui fica sabendo, por último, que tudo deriva de uma tese de doutorado."""
     prefixo = "../"
-    intro = POR_NUMERO.get("1")
-    trajetoria = ""
-    if intro:
-        pars = [p for p in paragrafos(intro) if any(_plano(p["bloco"]["html"]).strip().startswith(t) for t in TRAJETORIA)]
-        trajetoria = "".join(citado(p, intro, prefixo) for p in pars)
     corpo = (
         '<article class="folha autor-pagina">'
         '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás desta teoria</p><h1>Victor L. P. Andrade</h1></header>'
@@ -3902,7 +3866,7 @@ def gerar_autor():
         'A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. '
         'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
-        + (f'<section class="bloco"><h2>Como este trabalho nasceu</h2>{trajetoria}</section>' if trajetoria else "")
+        + doutrina_html("autor", prefixo)
         + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do percurso</h2>'
         f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
         '<p>Para conversar sobre esta teoria, o caminho é o LinkedIn.</p>'
@@ -3961,8 +3925,7 @@ def cobertura_por_modo():
                     contagem.setdefault(sec["slug"], {}).setdefault(modo, 0)
                     contagem[sec["slug"]][modo] += 1
     # Seções que a Doutrina traz em texto integral.
-    integral = ({"7", "7.1", "7.1.1", "7.1.2", "7.1.3", "7.1.4", "7.2", "7.3", "7.2.7.1"} | {n for n, _ in FAMILIAS + DESDOBRAMENTOS}
-                | {n for n, _ in ROTEIRO_MAPA.values() if n})
+    integral = set()
     return contagem, integral
 
 

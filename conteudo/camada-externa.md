@@ -59,7 +59,7 @@ No caminho aparecem nove conceitos próprios e outros que vêm de outros campos 
 
 ### convite
 
-Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. A chave no canto da tela troca o modo de leitura. Em Doutrina aparecem os trechos prontos para quem vai defender um direito, e em Ciência você vê de onde saiu cada coisa e como cada peça foi montada.
+Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. A chave no canto da tela troca o modo de leitura. Doutrina traz a ficha e o guia para quem vai defender um direito, e Ciência mostra de onde saiu cada frase e como cada peça foi montada.
 
 ### trilha
 

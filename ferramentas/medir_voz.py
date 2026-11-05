@@ -17,7 +17,7 @@ VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "m
 BLOCOS = {"h1", "h2", "h3", "h4", "p", "li", "dd", "dt", "blockquote", "figcaption"}
 LITERAL = {"citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "ficha", "titulo-tese", "notas", "quadro-literal"}
 LEI = {"lei-texto", "leis-pagina", "artigos", "lei-oficial"}
-ROTULOS = {"rotulo-ext", "rotulo-fonte", "sobrelinha", "sobrelinha-ext", "direito-titulo"}
+ROTULOS = {"rotulo-ext", "rotulo-fonte", "sobrelinha", "sobrelinha-ext", "direito-titulo", "titulo-tese"}
 FORA = {"lateral", "lei-nota", "balao-ref", "ilustracao"}
 TIRAR = {"pg", "pg-marca", "nota-ref", "lei-ref", "so-leitor", "balao-ref", "cita-sinal"}
 
@@ -143,7 +143,7 @@ def varrer(no, modo, saida, literal=False, lei=False, links=None):
 
 def varrer_links(no, modo, links):
     for f in no.filhos:
-        if isinstance(f, No) and visivel(f.classes, modo):
+        if isinstance(f, No) and visivel(f.classes, modo) and not f.classes & TIRAR:
             if f.tag == "a" and f.href is not None:
                 links.append((f.href, f.classes))
             varrer_links(f, modo, links)

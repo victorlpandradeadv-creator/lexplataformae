@@ -6,13 +6,13 @@ Toda seção está no corpus, em texto integral. Esta tabela mostra em que outra
 
 116 de 116 seções já têm lugar em alguma camada. Faltam 0.
 
-Na Informação, 95 de 116 seções têm algum trecho condensado. Na Doutrina, 87 de 116.
+Na Informação, 95 de 116 seções têm algum trecho condensado. Na Doutrina, 86 de 116.
 
 As colunas Informação e Doutrina contam os trechos literais que os textos de cada modo condensam e que vêm da seção. Informação conta o percurso, as ideias e Seus direitos. Doutrina conta o Guia para operar e as fichas, e marca com integral as seções que a Doutrina traz inteiras, como as situações, as diretrizes e as plataformas.
 
 | Seção | Título | Páginas | Informação | Doutrina | Camadas |
 |---|---|---|---|---|---|
-| 1 | Introdução | 21 a 42 | 53 | 9 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
+| 1 | Introdução | 21 a 42 | 53 | 14 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
 | 2 | Do desenho metodológico e do protocolo de observação | 45 a 47 | 0 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
 | 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 4 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
 | 2.2 | Do recorte teórico-normativo e setorial | 54 a 56 | 2 | 0 | Método (O protocolo); Dogmática (A base normativa); Dogmática (Dispositivos citados) |
@@ -101,30 +101,30 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 1 | 3 | Dogmática (Seções do capítulo 6) |
 | 6.5.2 | Da tensão entre exclusividade, proteção do consumidor e integridade dos OICs | 695 a 703 | 5 | 2 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.5.3 | Da função social da propriedade intelectual em plataformas de OIC | 703 a 710 | 6 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 7 | Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma | 713 a 714 | 0 | integral | Laboratório (O teste) |
-| 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | integral | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
-| 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | integral | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
-| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 17 | integral | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.2 | Dos parâmetros da vulnerabilidade semiótica como mecanismo | 719 a 721 | 13 | integral | Fichas (Vulnerabilidade semiótica); Roteiro (Bloco b do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.3 | Dos parâmetros do dever de informar como adequação verificável | 722 a 724 | 0 | integral | Roteiro (Bloco c do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.4 | Dos parâmetros da publicidade e oferta como gestão de sentido controlável | 724 a 726 | 0 | integral | Fichas (Antecipação hipercuratorial); Roteiro (Bloco d do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.5 | Dos parâmetros de auditabilidade aberta para controle sem abertura indiscriminada de código | 726 a 729 | 7 | integral | Fichas (Auditabilidade aberta); Roteiro (Bloco e do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.6 | Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável | 729 a 731 | 14 | integral | Fichas (Equivalência de valor funcional); Roteiro (Bloco f do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.7 | Dos parâmetros de teleologia abusiva e o ilícito de arquitetura enquanto conduta | 731 a 734 | 14 | integral | Fichas (Ilícito de arquitetura, Teleologia abusiva); Roteiro (Bloco h do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.8 | Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural | 734 a 737 | 8 | integral | Roteiro (Bloco i do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.9 | Dos parâmetros de compatibilização entre o CDC e os direitos de propriedade intelectual à luz da primazia da função social e dos limites constitucionais brasileiros | 737 a 739 | 0 | integral | Fichas (Função social da propriedade intelectual); Roteiro (Bloco j do enquadramento); Roteiro (Parâmetros) |
-| 7.1.1.10 | Dos parâmetros para remédios adequados à primazia da recomposição funcional e correção de regime | 739 a 742 | 6 | integral | Fichas (Recomposição funcional e correção de regime); Roteiro (Bloco k do enquadramento); Roteiro (Parâmetros) |
-| 7.1.2 | Da qualificação jurídica e deveres de fornecimento do OIC | 742 a 748 | 78 | integral | Fichas (Ilícito de arquitetura); Dogmática (Dispositivos citados); Roteiro (Os onze blocos de enquadramento) |
-| 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 5 | integral | Roteiro (As dez diretrizes de controle) |
-| 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | integral | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
-| 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 8 | integral | Laboratório (A sequência de cada família) |
-| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 15 | integral | Laboratório (Família de plataforma) |
-| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 12 | integral | Laboratório (Família de plataforma) |
-| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 14 | integral | Laboratório (Família de plataforma) |
-| 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 1 | integral | Laboratório (Desdobramento da tipologia) |
-| 7.2.5 | Da tutela coletiva sob auditabilidade aberta | 773 a 777 | 2 | integral | Fichas (Auditabilidade aberta); Laboratório (Desdobramento da tipologia) |
-| 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 4 | integral | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
-| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 14 | integral | Laboratório (Família de plataforma) |
-| 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 2 | integral | Laboratório (Subcaso da administração de confiança) |
-| 7.3 | Dos padrões recorrentes de fricção, prova e recomposição | 787 a 789 | 2 | integral | Fichas (Recomposição funcional e correção de regime); Laboratório (O que as famílias mostram) |
+| 7 | Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma | 713 a 714 | 0 | 0 | Laboratório (O teste) |
+| 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | 8 | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
+| 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | 3 | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
+| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 17 | 16 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.2 | Dos parâmetros da vulnerabilidade semiótica como mecanismo | 719 a 721 | 13 | 12 | Fichas (Vulnerabilidade semiótica); Roteiro (Bloco b do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.3 | Dos parâmetros do dever de informar como adequação verificável | 722 a 724 | 0 | 7 | Roteiro (Bloco c do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.4 | Dos parâmetros da publicidade e oferta como gestão de sentido controlável | 724 a 726 | 0 | 7 | Fichas (Antecipação hipercuratorial); Roteiro (Bloco d do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.5 | Dos parâmetros de auditabilidade aberta para controle sem abertura indiscriminada de código | 726 a 729 | 7 | 12 | Fichas (Auditabilidade aberta); Roteiro (Bloco e do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.6 | Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável | 729 a 731 | 14 | 16 | Fichas (Equivalência de valor funcional); Roteiro (Bloco f do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.7 | Dos parâmetros de teleologia abusiva e o ilícito de arquitetura enquanto conduta | 731 a 734 | 14 | 15 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Roteiro (Bloco h do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.8 | Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural | 734 a 737 | 8 | 8 | Roteiro (Bloco i do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.9 | Dos parâmetros de compatibilização entre o CDC e os direitos de propriedade intelectual à luz da primazia da função social e dos limites constitucionais brasileiros | 737 a 739 | 0 | 13 | Fichas (Função social da propriedade intelectual); Roteiro (Bloco j do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.10 | Dos parâmetros para remédios adequados à primazia da recomposição funcional e correção de regime | 739 a 742 | 6 | 19 | Fichas (Recomposição funcional e correção de regime); Roteiro (Bloco k do enquadramento); Roteiro (Parâmetros) |
+| 7.1.2 | Da qualificação jurídica e deveres de fornecimento do OIC | 742 a 748 | 78 | 35 | Fichas (Ilícito de arquitetura); Dogmática (Dispositivos citados); Roteiro (Os onze blocos de enquadramento) |
+| 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 5 | 24 | Roteiro (As dez diretrizes de controle) |
+| 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | 11 | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
+| 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 8 | 7 | Laboratório (A sequência de cada família) |
+| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 15 | 16 | Laboratório (Família de plataforma) |
+| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 12 | 17 | Laboratório (Família de plataforma) |
+| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 14 | 15 | Laboratório (Família de plataforma) |
+| 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 1 | 9 | Laboratório (Desdobramento da tipologia) |
+| 7.2.5 | Da tutela coletiva sob auditabilidade aberta | 773 a 777 | 2 | 11 | Fichas (Auditabilidade aberta); Laboratório (Desdobramento da tipologia) |
+| 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 4 | 10 | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
+| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 14 | 11 | Laboratório (Família de plataforma) |
+| 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 2 | 10 | Laboratório (Subcaso da administração de confiança) |
+| 7.3 | Dos padrões recorrentes de fricção, prova e recomposição | 787 a 789 | 2 | 5 | Fichas (Recomposição funcional e correção de regime); Laboratório (O que as famílias mostram) |
 | 8 | Conclusão | 791 a 802 | 20 | 6 | Fichas (Ilícito de arquitetura, Recomposição funcional e correção de regime); Atlas (Três leituras da tese) |
