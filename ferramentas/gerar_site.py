@@ -1414,7 +1414,7 @@ def gerar_conceito(c):
     ja_na_doutrina = trechos_da_doutrina(f'conceito {c["id"]}')
     for f in c["campos"]:
         r = f["rotulo"]
-        f = dict(f, citacoes=[q for q in f.get("citacoes", []) if q["texto"] not in ja_na_doutrina])
+        f = dict(f, citacoes=[q for q in f.get("citacoes", []) if not any(q["texto"] in trecho for trecho in ja_na_doutrina)])
         if not f["citacoes"] and not f.get("texto") and r != "Onde vive":
             continue
         if r == "Onde vive":
@@ -1964,7 +1964,8 @@ def gerar_roteiro():
         ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{nome_html(POR_ID[i])}</a>' for i in ids if i in POR_ID]
         # O campo do quadro fala na voz do site, e o texto literal fica logo abaixo, só na Ciência. Revisão de voz de 05/11/2026.
         campos_site = {s["titulo"]: " ".join(s["paragrafos"]) for s in DOUTRINA.get(f'quadro {it["letra"]}', [])}
-        dl = "".join(f'<dt>{esc(rot)}</dt><dd>{esc(campos_site.get(rot, ""))}</dd>'
+        # A tese marca a qualificação como possível de b a k. Em a, ela é a qualificação daí resultante. Segunda leitura de 05/11/2026.
+        dl = "".join(f'<dt>{esc(rot + " possível" if rot == "Qualificação jurídica" and it["letra"] != "a" else rot)}</dt><dd>{esc(campos_site.get(rot, ""))}</dd>'
                      f'<dd class="quadro-literal ciencia" data-ref="{esc(ref)}" data-alvo="{prefixo}tese/{slug}/#p{re.match(r"p. (\d+)", ref).group(1)}">{html_do_corpus(h, slug, prefixo)}</dd>'
                      for rot, h, ref in it["partes"])
         secoes.append(
