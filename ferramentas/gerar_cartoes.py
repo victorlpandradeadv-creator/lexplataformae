@@ -89,7 +89,7 @@ def cartoes():
     for fam in ("funcionalidade-cognitiva", "infraestrutura-e-intermediacao", "produtividade-gig-economy", "administracao-de-confianca"):
         if fam in e and e[fam].get("titulo"):
             lista.append((fam, e[fam]["titulo"][0], "Laboratório"))
-    lista.append(("autor", "Quem está por trás destas ideias?", "Victor L. P. Andrade"))
+    lista.append(("autor", "Quem está por trás desta teoria?", "Victor L. P. Andrade"))
     return lista
 
 

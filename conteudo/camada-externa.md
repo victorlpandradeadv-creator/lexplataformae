@@ -18,7 +18,7 @@ Você comprou uma skin. Ela é sua?
 
 Você pagou com dinheiro de verdade. A skin está na sua conta, você usa nas partidas e os outros jogadores veem. Parece sua, e em boa parte é.
 
-Agora imagine que amanhã ela mude de cara, perca o efeito de que você gostava ou desapareça junto com a conta, sem que ninguém explique direito por quê. A quem você reclamaria, e reclamaria do quê?
+Amanhã ela pode mudar de cara, perder o efeito de que você gostava ou desaparecer junto com a conta, sem que ninguém explique direito por quê. A quem você reclamaria, e reclamaria do quê?
 
 > A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
 > Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
@@ -41,7 +41,7 @@ Este percurso segue a sua skin, do clique de compra até a pergunta sobre o que 
 
 ### nome
 
-A sua skin é um produto, mas um produto de um tipo especial. Você não a leva para casa, e o uso dela, o que ela mostra aos outros e o lugar que ela dá a você só existem enquanto a plataforma mantém o ambiente funcionando. Esse tipo de produto tem nome, Objeto Imaterial de Consumo.
+A sua skin é um produto, mas um produto de um tipo especial. Você não a leva para casa, e o uso dela, o que ela mostra aos outros e o lugar que ela dá a você só existem enquanto a plataforma mantém o ambiente funcionando. A categoria jurídica desse produto é o Objeto Imaterial de Consumo.
 
 A lei brasileira já tinha deixado espaço para ele em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. Já se sabia, também, que bens digitais são bens. O que faltava eram critérios para os casos em que o uso continua dependendo de uma plataforma que segue mandando nele, mudando e punindo ao longo do tempo.
 
@@ -52,7 +52,7 @@ A lei brasileira já tinha deixado espaço para ele em 1990, quando o Código de
 
 ### mapa
 
-No caminho aparecem nove ideias com nome próprio e outras que vêm de outros campos do saber, cada uma nomeando uma parte do problema. Sozinhas, seriam só rótulos. Juntas, falam a mesma língua, e o centro dessa língua é o Objeto Imaterial de Consumo, porque sem ele as outras perdem o chão.
+No caminho aparecem nove conceitos próprios e outros que vêm de outros campos do saber, cada um respondendo por uma parte do problema. Lidos isoladamente, seriam rótulos. Juntos, falam a mesma língua, e o centro dessa língua é o Objeto Imaterial de Consumo, porque sem ele as outras perdem o chão.
 
 > Sem essa articulação interna, cada categoria poderia ser lida isoladamente, como rótulo conceitual de um problema específico, e perderia a capacidade de operar como linguagem unificada para abusos por desenho, degradações relevantes e respostas proporcionais. (p. 394)
 > Sem a correta qualificação do objeto como fruição imaterial governada, os parâmetros subsequentes tendem a perder aderência (p. 719)
@@ -63,7 +63,7 @@ Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por bai
 
 ### trilha
 
-Nove canções acompanham estas ideias, uma no começo de cada etapa. Elas não provam nada e não estão aqui de enfeite, porque cada uma prepara, em linguagem de arte, o que o argumento vai dizer depois.
+Nove canções acompanham estes conceitos, uma no começo de cada etapa. Elas não provam nada e não estão aqui de enfeite, porque cada uma prepara, em linguagem de arte, o que o argumento vai dizer depois.
 
 > As epígrafes não comparecem como ornamento, nem como autoridade substitutiva do método científico, tampouco como prova empírica do argumento. (p. 73)
 > Cada abertura de capítulo condensa, em linguagem artística, o movimento específico que o desenvolvimento dogmático realizará em linguagem jurídica. (p. 77)
@@ -76,7 +76,7 @@ Por que nove canções?
 
 ### abertura
 
-Nove canções acompanham estas ideias, uma no começo de cada etapa do percurso. Elas não provam nada e não estão aqui de enfeite. Cada uma prepara o clima da etapa e diz, em linguagem de arte, o que o argumento vai dizer depois em linguagem de direito.
+Nove canções acompanham estes conceitos, uma no começo de cada etapa do percurso. Elas não provam nada e não estão aqui de enfeite. Cada uma prepara o clima da etapa e diz, em linguagem de arte, o que o argumento vai dizer depois em linguagem de direito.
 
 > As epígrafes não comparecem como ornamento, nem como autoridade substitutiva do método científico, tampouco como prova empírica do argumento. (p. 73)
 > A argumentação não se funda no excerto, nem dele extrai sua cadeia de validação. (p. 74)
@@ -268,9 +268,9 @@ As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e c
 
 ### nome
 
-Objeto Imaterial de Consumo, ou OIC. É o nome desse tipo de produto. Nele, o que conta não é só a imagem que aparece na tela, mas a posição de uso que você passa a ocupar e que a plataforma sustenta dia após dia.
+Objeto Imaterial de Consumo, ou OIC. É a categoria jurídica desse tipo de produto. Nele, o que conta não é só a imagem que aparece na tela, mas a posição de uso que você passa a ocupar e que a plataforma sustenta dia após dia.
 
-Repare que o nome não diz que você comprou menos. Diz que você comprou um produto, no sentido da lei do consumidor, cujo fornecimento continua depois da compra. O serviço que a plataforma presta não apaga o produto. Ele é justamente o jeito de manter, atualizar e moldar o que foi vendido.
+A categoria não diz que você comprou menos. Diz que você comprou um produto, no sentido da lei do consumidor, cujo fornecimento continua depois da compra. O serviço que a plataforma presta não apaga o produto. Ele é justamente o jeito de manter, atualizar e moldar o que foi vendido.
 
 > O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
 > Sob essa chave, a qualificação do OIC como produto imaterial não exige a negação da dimensão prestacional do vínculo. (p. 718)
@@ -278,9 +278,9 @@ Repare que o nome não diz que você comprou menos. Diz que você comprou um pro
 
 ### imagem Que terreno a lei deixou demarcado em 1990?
 
-Pense num terreno que a lei demarcou em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. O espaço estava reservado, mas faltava construir nele critérios para os produtos que dependem de uma plataforma que continua mandando neles.
+A lei demarcou um terreno em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. O espaço estava reservado, mas faltava construir nele critérios para os produtos que dependem de uma plataforma que continua mandando neles.
 
-O Objeto Imaterial de Consumo é a construção nesse terreno. E terreno vazio tem custo. Enquanto falta nome e critério para uma perda, ela é difícil de mostrar e de cobrar, e toda lacuna que dura tende a virar modelo de negócio para alguém.
+O Objeto Imaterial de Consumo é a construção nesse terreno. E terreno vazio tem custo. Enquanto falta categoria e critério para uma perda, ela é difícil de mostrar e de cobrar, e toda lacuna que dura tende a virar modelo de negócio para alguém.
 
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 > Ao conferir densidade jurídica ao que era apenas um rótulo residual, o OIC impede que a imaterialidade funcione como álibi para a irresponsabilidade técnica das plataformas. (p. 25)
@@ -311,7 +311,7 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 
 Num jogo online, a conta reúne personagens, skins, emotes e a moeda do jogo, e nada disso sai dela. Ela não é só login e senha. É ali que ficam juntos o inventário, o progresso, o nome de jogador e os sinais pelos quais os outros reconhecem você.
 
-A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que continua dependendo do ambiente e das regras da empresa. Quando o jogo cai, o que está na conta não serve para nada até ele voltar. Por isso a conta pode ser vista como o objeto imaterial de consumo central, um retrato em miniatura da ideia inteira.
+A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que continua dependendo do ambiente e das regras da empresa. Quando o jogo cai, o que está na conta não serve para nada até ele voltar. Por isso a conta pode ser vista como o objeto imaterial de consumo central, um retrato em miniatura da categoria inteira.
 
 > Campeões, skins, emotes e moeda do jogo integram o catálogo de bens que só se tornam fruíveis como licença de acesso associada à conta, e não como coisas transportáveis para fora dela (p. 408)
 > Ela não se resume a uma credencial de login. Ela é o ponto organizacional que mantém unido o feixe de fruição (p. 408)
@@ -319,7 +319,7 @@ A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que co
 > Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar. (p. 409)
 > Por isso, ela pode ser descrita como OIC central e, ao mesmo tempo, como “conceito-infraestrutura” em miniatura. (p. 409)
 
-### importa O que a lei passa a ver quando o problema tem nome?
+### importa O que a lei passa a ver quando o problema é qualificado?
 
 Dar nome muda o que a lei consegue ver, e isso tem efeito em dois lugares.
 
@@ -334,13 +334,13 @@ No segundo, muda o centro da discussão. Em vez de olhar só o contrato que voc�
 
 ### limite Que casos ficam de fora da categoria?
 
-Nem tudo vira caso, e é bom saber onde a ideia para antes de reclamar.
+Nem tudo vira caso, e é bom saber onde a categoria para antes de reclamar.
 
 Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, não precisa dela, porque as regras comuns de serviço resolvem. Uma plataforma que só funciona como vitrine ou canal, sem governar de verdade o que você usa, também tende a ficar de fora.
 
 Mudanças só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra também ficam de fora. E a simples existência de moderação, rankings, regras da comunidade ou ajustes de tela não basta. Atualizações comuns, curadoria regular e medidas contra fraude fazem parte da vida normal do serviço. O que conta é a piora séria e duradoura do que foi prometido.
 
-Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa ideia, e você continua protegido por esse caminho.
+Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa categoria, e você continua protegido por esse caminho.
 
 > O primeiro limite é o acesso pontual sem posição de fruição sustentada. (p. 433)
 > O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida (p. 434)
@@ -374,7 +374,7 @@ Tudo isso junto é o que você comprou. E cada uma dessas partes depende de regr
 
 Feixe de fruição governada. Feixe é um conjunto de fios amarrados juntos, e fruição é o uso e o proveito que você tira de alguma coisa. O nome descreve o conjunto de usos, de sinais e de posições que um produto desse tipo oferece, todos administrados pela plataforma enquanto a relação durar.
 
-O feixe anda colado ao Objeto Imaterial de Consumo, que dá o nome jurídico ao que você comprou, enquanto o feixe mostra o que há dentro dele, fio por fio. Por isso a primeira pergunta para saber se um caso é desse tipo é justamente qual feixe foi prometido.
+O feixe anda colado ao Objeto Imaterial de Consumo, que dá a qualificação jurídica ao que você comprou, enquanto o feixe mostra o que há dentro dele, fio por fio. Por isso a primeira pergunta para saber se um caso é desse tipo é justamente qual feixe foi prometido.
 
 > [...] a definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo [...] (p. 394)
 > O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)
@@ -566,9 +566,9 @@ A diferença é quem escreve a regra. Lá dentro, quem define os códigos, as ca
 
 ### imagem Por que o mesmo nome pode esconder outro item?
 
-Pense num item que foi enfraquecido numa atualização, mas manteve o nome. A conta mostra o mesmo item, a loja mostra o mesmo nome e a vitrine mostra a mesma imagem, como se nada tivesse mudado.
+Um item é enfraquecido numa atualização, mas mantém o nome. A conta mostra o mesmo item, a loja mostra o mesmo nome e a vitrine mostra a mesma imagem, como se nada tivesse mudado.
 
-Para quem vê de fora, está tudo igual. Para você, que usava o item, algo se perdeu. E a continuidade do nome vira prova a favor de quem mudou, porque, sem acesso aos registros, você não consegue demonstrar a diferença. É esse tipo de perda difícil de demonstrar que o nome vulnerabilidade semiótica ajuda a enxergar.
+Para quem vê de fora, está tudo igual. Para você, que usava o item, algo se perdeu. E a continuidade do nome vira prova a favor de quem mudou, porque, sem acesso aos registros, você não consegue demonstrar a diferença. É esse tipo de perda difícil de demonstrar que a vulnerabilidade semiótica ajuda a enxergar.
 
 > O nerf é o caso-limite porque mostra, com precisão, como a continuidade do nome e do acesso pode funcionar como prova autojustificante, enquanto a entrega relevante se desloca naquilo que o ambiente conta como potência e utilidade. (p. 329)
 > Vulnerabilidade semiótica nomeia, assim, esse tipo de perda estrutural de demonstrabilidade (p. 330)
@@ -648,7 +648,7 @@ A finalidade está escrita no próprio desenho, nos termos de uso, nas regras de
 
 ### caso Um caso solto ou parte de um padrão?
 
-Imagine uma skin vendida como exclusiva, com a exclusividade embutida no preço. Meses depois, ela volta numa loja alternativa, numa moeda especial ou por bem menos, sem que o prazo da exclusividade tivesse sido explicado na hora da compra.
+Uma skin é vendida como exclusiva, com a exclusividade embutida no preço. Meses depois, ela volta numa loja alternativa, numa moeda especial ou por bem menos, sem que o prazo da exclusividade tivesse sido explicado na hora da compra.
 
 Visto sozinho, isso já pode ser publicidade enganosa por omissão. Visto como parte de um padrão, em que a escassez é criada, vendida e depois desfeita ciclo após ciclo, pode ser também um sinal de finalidade abusiva. A escassez artificial deixa de ser só estratégia comercial quando a correspondência entre o que foi prometido e o que foi entregue fica escondida ou é frustrada.
 
@@ -698,7 +698,7 @@ O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos 
 
 ### nome
 
-Ilícito de arquitetura. Ilícito é o que o direito não aceita, e arquitetura, aqui, é o desenho do serviço, as telas, os caminhos, as regras embutidas e os sistemas de punição. A ideia é que esse desenho também é conduta da empresa, e não um cenário neutro onde as coisas simplesmente acontecem.
+Ilícito de arquitetura. Ilícito é o que o direito não aceita, e arquitetura, aqui, é o desenho do serviço, as telas, os caminhos, as regras embutidas e os sistemas de punição. Esse desenho também é conduta da empresa, e não um cenário neutro onde as coisas simplesmente acontecem.
 
 Por isso, quando o desenho organiza perdas de forma estável, a infração está no desenho. O que se discute deixa de ser só o cumprimento de uma promessa isolada e passa a ser o próprio jeito como o serviço foi montado para funcionar.
 
@@ -710,7 +710,7 @@ Por isso, quando o desenho organiza perdas de forma estável, a infração está
 
 O desenho fala. Ele é uma linguagem feita de telas, botões, caminhos e regras automáticas, e essa linguagem define o que pode ser visto, provado, contestado, reparado e até lembrado.
 
-Pense num prédio em que a saída de emergência fica atrás de três portas trancadas. Ninguém escreveu uma regra dizendo que é proibido sair. O desenho resolve isso antes de qualquer conversa. Com os aplicativos acontece algo parecido, porque quem desenha decide muita coisa antes que você perceba que havia algo a decidir.
+Num prédio, a saída de emergência pode ficar atrás de três portas trancadas. Ninguém escreveu uma regra dizendo que é proibido sair. O desenho resolve isso antes de qualquer conversa. Com os aplicativos acontece algo parecido, porque quem desenha decide muita coisa antes que você perceba que havia algo a decidir.
 
 > A técnica passa a operar como linguagem manifesta, isto é, plenamente operante. Uma linguagem de arquitetura e engenharia que define o que pode ser visto, provado, contestado, reparado e até lembrado. (p. 32)
 > A segunda é a camada de arquitetura e implementação, na qual tais enunciados deixam de ser simples declarações e se convertem em configuração de possibilidades por meio de interface, fluxos, padrões de acesso, parâmetros de visibilidade e restrições técnicas que delimitam o intervalo do possível antes de qualquer disputa interpretativa (p. 365)
@@ -811,7 +811,7 @@ O efeito é trocar a lógica da entrega pela lógica do caminho. A promessa vira
 
 Em comunicados sobre a temporada do ano, uma empresa de jogos apresentou o que se preparava para os meses seguintes como uma sequência oficial de anúncios, com resumo, previsões e links para textos maiores. O futuro deixou de ser só uma expectativa dos jogadores e virou um calendário da empresa.
 
-Repare no efeito. Esses anúncios oferecem direção e continuidade, e isso passa a fazer parte do valor de continuar atento ao jogo. Quem para de acompanhar sente que vai perder alguma coisa.
+O efeito é claro. Esses anúncios oferecem direção e continuidade, e isso passa a fazer parte do valor de continuar atento ao jogo. Quem para de acompanhar sente que vai perder alguma coisa.
 
 > Em vez de o futuro aparecer como simples expectativa do consumidor, ele é produzido como calendário institucional e como repertório de sinais, com recortes de lançamento, previsões de cronograma, teasers e atualizações que se tornam, na prática, parte daquilo que sustenta permanência e decisão. (p. 314)
 > Nesse registro, comunicados de desenvolvimento funcionam como gestão explícita do “por vir”, ao apresentar o que se prepara para o ano e ao condensar anúncios em forma de sequência, com recortes temporais, previsões e remissões para peças mais extensas de contexto (p. 314)
@@ -859,7 +859,7 @@ Ela controla o desenho do ambiente, os critérios das mudanças, os registros do
 
 ### nome
 
-Auditabilidade aberta. Auditar é conferir, e o nome descreve um padrão de transparência que serve para alguma coisa. É a exigência de condições mínimas para que juízes, peritos, órgãos de defesa do consumidor e, em certa medida, o próprio consumidor consigam reconstruir a história do que aconteceu. Essa história liga o que foi prometido, o que mudou, a punição aplicada, o efeito sobre o uso e a justificativa que a empresa deu.
+Auditabilidade aberta. Auditar é conferir, e o conceito descreve um padrão de transparência que serve para alguma coisa. É a exigência de condições mínimas para que juízes, peritos, órgãos de defesa do consumidor e, em certa medida, o próprio consumidor consigam reconstruir a história do que aconteceu. Essa história liga o que foi prometido, o que mudou, a punição aplicada, o efeito sobre o uso e a justificativa que a empresa deu.
 
 Vale entender de onde ela vem. Não é uma lei nova com nome próprio, nem um direito que surgiu do nada. É um desdobramento de deveres que a lei do consumidor já tem, como o dever de informar, a boa-fé e a facilitação da defesa do consumidor. Ela serve para que a informação não cumpra o seu papel só no papel, escondida em documentos enormes, avisos e históricos de atualização que ninguém consegue achar nem ligar ao que aconteceu.
 
@@ -899,7 +899,7 @@ Essa é a situação normal nesses conflitos, e não uma exceção. Quem control
 
 ### importa O que passa a poder ser contestado?
 
-Com isso, o que é decidido dentro de sistemas fechados passa a poder ser contestado. E outra ideia depende diretamente desta, a equivalência de valor funcional. Sem conseguir reconstruir o que mudou, em que medida, por qual motivo e quando, você não consegue mostrar que perdeu a equivalência do que comprou.
+Com isso, o que é decidido dentro de sistemas fechados passa a poder ser contestado. E outro conceito depende diretamente deste, a equivalência de valor funcional. Sem conseguir reconstruir o que mudou, em que medida, por qual motivo e quando, você não consegue mostrar que perdeu a equivalência do que comprou.
 
 > [...] inclusive no que diz respeito a regras de acesso, modulações de entrega e mecanismos de sanção, de modo a tornar contestável o que é produzido por sistemas opacos (p. 393)
 > Sem auditabilidade, a equivalência funcional fica difícil de demonstrar, porque o consumidor não consegue reconstruir o que foi alterado, em que extensão, com que motivação e em que momento. (p. 638)
@@ -947,7 +947,7 @@ O teste é exigente. Não basta o item continuar funcionando, nem manter os mesm
 
 ### imagem Pagar o semestre inteiro por meio curso?
 
-Imagine um curso que, no meio do semestre, corta metade das aulas e continua cobrando o mesmo preço. Qualquer pessoa acharia errado, e a lei do consumidor considera nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que vende.
+Um curso que, no meio do semestre, corta metade das aulas e continua cobrando o mesmo preço faz o que qualquer pessoa acharia errado. A lei do consumidor considera nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que vende.
 
 Nas plataformas, o corte raramente vem com esse nome. Aparece como alcance menor, desempenho rebaixado aos poucos, funções que vão sumindo, limites mais apertados ou uso que fica mais caro para render a mesma coisa. O rótulo e o preço ficam iguais, enquanto a entrega encolhe. A lógica é a mesma do curso.
 
@@ -968,7 +968,7 @@ Algumas perguntas ajudam. A atualização tirou uma função importante? Enfraqu
 
 ### caso Quando a atualização do celular deixa de ser melhoria?
 
-Pense numa atualização de celular que, em nome da melhoria, deixa o aparelho lento ou incompatível com aplicativos, ainda dentro do tempo de vida que se esperava dele. Ninguém sério diz que toda atualização é ilegal.
+Uma atualização de celular pode, em nome da melhoria, deixar o aparelho lento ou incompatível com aplicativos, ainda dentro do tempo de vida que se esperava dele. Ninguém sério diz que toda atualização é ilegal.
 
 A questão é outra. É saber se a atualização comprometeu de modo relevante o uso, sem informação adequada, sem um consentimento de verdade e sem uma saída para quem foi prejudicado. Com um item digital, a estrutura é a mesma.
 
@@ -1009,7 +1009,7 @@ Isso só acontece nos jogos?
 
 ### abertura
 
-Não. Os jogos foram o lugar onde estas ideias foram testadas primeiro, porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora dos jogos, os mesmos efeitos costumam ser apresentados como inevitáveis, e por isso ficam mais difíceis de enxergar.
+Não. Os jogos foram o lugar onde estes conceitos foram testados primeiro, porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora dos jogos, os mesmos efeitos costumam ser apresentados como inevitáveis, e por isso ficam mais difíceis de enxergar.
 
 O que une os casos não é o setor da economia nem o tipo de tecnologia. É o mecanismo pelo qual a plataforma organiza, ajusta e refaz a experiência de quem usa, e torna a contestação mais fácil ou mais difícil. Por isso não importa se o serviço se chama aplicativo, loja, rede ou assistente. Importa como ele governa o que você usa.
 

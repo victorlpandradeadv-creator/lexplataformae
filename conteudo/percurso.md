@@ -2,7 +2,7 @@
 
 O percurso da skin. A superfície do site conta a tese inteira a partir de uma compra comum, a de uma skin num jogo online, e se abre aos poucos para o resto do consumo digital. Cada parte responde a uma pergunta e deixa outra no ar.
 
-Formato. Cada parte começa com `## slug`. Os campos `titulo` e `resumo` vêm primeiro. Depois vêm os blocos, na ordem em que aparecem na página. Os tipos são `texto`, `imagem` (uma analogia), `mecanismo` (como funciona), `caso` (um caso da própria tese), `nome <id>` (uma das nove ideias, com o id do Atlas), `termo <Nome>` (um conceito que a tese toma de outros campos), `limite` (até onde vai a proteção), `teste` (como saber se é o seu caso), `pergunta` (a pergunta que fecha a parte e abre a seguinte) e `ilustracao <id>` (o lugar de uma peça ilustrativa prevista em `estrutura/ilustracoes.md`, sem texto). Cada bloco traz, logo abaixo, os trechos literais que condensa. No site os trechos aparecem a partir do modo Doutrina.
+Formato. Cada parte começa com `## slug`. Os campos `titulo` e `resumo` vêm primeiro. Depois vêm os blocos, na ordem em que aparecem na página. Os tipos são `texto`, `imagem` (uma analogia), `mecanismo` (como funciona), `caso` (um caso da própria tese), `nome <id>` (um dos nove conceitos, com o id do Atlas), `termo <Nome>` (um conceito que a tese toma de outros campos), `limite` (até onde vai a proteção), `teste` (como saber se é o seu caso), `pergunta` (a pergunta que fecha a parte e abre a seguinte) e `ilustracao <id>` (o lugar de uma peça ilustrativa prevista em `estrutura/ilustracoes.md`, sem texto). Cada bloco traz, logo abaixo, os trechos literais que condensa. No site os trechos aparecem a partir do modo Doutrina.
 
 Regras. As mesmas da camada externa. Fenômeno antes do nome. Frases curtas. Nada de dois pontos, ponto e vírgula ou travessão. Nenhuma frase diz o que os trechos não dizem. O texto não fala em tese nem em autor, e os nomes dos autores citados só aparecem nos trechos. Conferência literal com `python3 ferramentas/conferir_citacoes.py conteudo/percurso.md`. Legibilidade com `python3 ferramentas/medir_legibilidade.py`.
 
@@ -20,9 +20,9 @@ O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em 
 
 ### texto
 
-Comece pela cena mais comum. Você abriu a loja do jogo, escolheu uma skin e apertou o botão que diz comprar. O dinheiro saiu do seu cartão e, poucos segundos depois, a skin apareceu no seu inventário, ao lado das outras que você já tinha.
+A cena mais comum é esta. Você abriu a loja do jogo, escolheu uma skin e apertou o botão que diz comprar. O dinheiro saiu do seu cartão e, poucos segundos depois, a skin apareceu no seu inventário, ao lado das outras que você já tinha.
 
-Repare na palavra do botão, porque ela não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
+A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
 
 > Tanto o senso comum quanto até mesmo o próprio Código Civil brasileiro utilizam o verbo “comprar” sob o significado de se estar adquirindo algo que passa a ser “seu”, no sentido de que se espera estabilidade mínima, permanência e alguma forma de controle sobre o que foi adquirido (p. 400-401)
 > Sua estrutura clássica é a troca de coisa por preço (p. 400)
@@ -49,7 +49,7 @@ Licença, aqui, quer dizer permissão de uso. Revogável quer dizer que essa per
 
 ### texto
 
-E repare num detalhe que joga a seu favor. Os mesmos termos que falam em licença reconhecem que há um conteúdo virtual ligado à sua conta, feito de moeda do jogo, skins, emotes e outros itens. E admitem que você pode tê-lo comprado, ganhado ou recebido de presente.
+E há um detalhe que joga a seu favor. Os mesmos termos que falam em licença reconhecem que há um conteúdo virtual ligado à sua conta, feito de moeda do jogo, skins, emotes e outros itens. E admitem que você pode tê-lo comprado, ganhado ou recebido de presente.
 
 Isso ajuda a provar que o que você tem existe e pode ser identificado. O contrato mostra que o objeto está lá, mas não decide sozinho que regras valem para ele. E a lei do consumidor chama de produto também o que não tem corpo, de modo que a falta de um suporte físico não tira o item da proteção.
 
@@ -95,7 +95,7 @@ O contrato também não faz diferença entre quem passou anos juntando itens e q
 
 ### imagem O que uma catraca de metrô tem a ver com a sua skin?
 
-Pense numa catraca, dessas de estação de metrô. O que você comprou existe e tem valor, mas só dá para usar do lado de dentro, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.
+O que você comprou existe e tem valor, mas só dá para usar do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.
 
 O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamento comprasse só uma tolerância para ficar lá dentro, que pode ser retirada a qualquer momento. Mas a catraca muda as condições de uso e não apaga o que você comprou.
 
@@ -158,7 +158,7 @@ Junte tudo isso e fica claro por que a expressão licença revogável merece des
 
 A lei brasileira já tinha deixado espaço para isso. Em 1990, o Código de Defesa do Consumidor disse que produto é qualquer bem, material ou imaterial. A porta estava aberta para bens que circulam sem corpo e que dependem de condições técnicas mantidas o tempo todo. Mas a maneira de pensar o produto continuou presa ao objeto físico, ou a uma entrega que começa e termina num instante.
 
-Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de Consumo é a construção feita nesse terreno. Ele dá nome ao caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar.
+Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de Consumo é a construção feita nesse terreno. Ele é a categoria jurídica do caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar.
 
 Quando é assim, existe produto imaterial no sentido da lei do consumidor. O serviço não some dessa conta, porque aparece como o modo pelo qual a empresa mantém, atualiza e molda aquilo que você comprou. Por isso perde força a velha briga sobre se o caso é de produto ou de serviço. A pergunta que importa passa a ser como a empresa organiza a entrega contínua do que vendeu e se esse jeito de fornecer preserva ou estraga o que você adquiriu.
 
@@ -215,11 +215,11 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 
 ### limite Todo incômodo com o jogo vira direito?
 
-E nem todo incômodo vira direito. Essa ideia não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
+E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
 
 Há também casos que ficam de fora desde o começo. Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, segue as regras comuns de serviço. Uma plataforma que só funciona como vitrine, sem governar de verdade o que você usa, também tende a ficar de fora. E uma mudança só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra não basta.
 
-Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa ideia, e você continua protegido por esse caminho.
+Há ainda os casos em que o centro do problema é outro, como uma cobrança indevida, um defeito pontual, um anúncio enganoso isolado ou uma oferta que não foi cumprida. Aí a lei do consumidor de sempre tende a resolver, sem precisar dessa categoria, e você continua protegido por esse caminho.
 
 > Reconhecê-la significa tratar como juridicamente relevantes os elementos que definem a permanência do consumidor no regime de fruição, sem converter meros desconfortos ordinários em perdas jurídicas (p. 428)
 > O filtro do OIC não pode ignorar os traços estruturais do consumo governado por plataforma nem, no extremo oposto, pretender capturar todo e qualquer desconforto do uso digital (p. 429)
@@ -233,9 +233,9 @@ Há ainda os casos em que o centro do problema é outro, como uma cobrança inde
 
 ### texto
 
-Por que ter um nome faz tanta diferença? Porque, quando falta palavra para uma perda, fica difícil mostrá-la, prová-la e cobrar alguém por ela. E esse vazio não fica parado. Ele vira espaço para a empresa ganhar.
+Por que essa categoria faz tanta diferença? Porque, quando falta critério jurídico para uma perda, fica difícil mostrá-la, prová-la e cobrar alguém por ela. E esse vazio não fica parado. Ele vira espaço para a empresa ganhar.
 
-Pense numa regra cuja multa quase nunca é aplicada. Se a fiscalização é rara e a punição é improvável, o risco deixa de frear e passa a ter preço, como se fosse só mais um custo da operação. É assim que toda lacuna que dura tende a virar modelo de negócio. Dar nome ao que você perde é o primeiro passo para que essa perda possa ser vista e cobrada.
+Uma regra cuja multa quase nunca é aplicada mostra o mecanismo. Se a fiscalização é rara e a punição é improvável, o risco deixa de frear e passa a ter preço, como se fosse só mais um custo da operação. É assim que toda lacuna que dura tende a virar modelo de negócio. Qualificar juridicamente o que você perde é o primeiro passo para que essa perda possa ser vista e cobrada.
 
 > Quando faltam categorias capazes de tornar certas perdas juridicamente visíveis, de nomeá-las, demonstrá-las e imputá-las, o espaço da irresponsabilidade não permanece neutro e passa a funcionar como margem de otimização. (p. 25)
 > Quando a fiscalização é rara e a sanção é improvável, o risco deixa de atuar como freio e passa a ser precificado, como se fosse apenas custo operacional. (p. 25)
@@ -267,7 +267,7 @@ Visto de dentro, faz sentido, porque lá a skin é um sinal que todo mundo sabe 
 
 ### texto
 
-É por isso que a sua frustração, quando a skin muda, não é capricho. Imagine que uma atualização altere a aparência dela, os efeitos, a raridade que todo mundo enxergava ou o lugar dela na economia do jogo. A skin continua na sua conta, com o mesmo nome, mas deixa de encaixar no mundo do jogo do jeito que encaixava. E era esse encaixe que dava valor a todo o tempo, dinheiro e atenção que você colocou ali.
+É por isso que a sua frustração, quando a skin muda, não é capricho. Uma atualização pode alterar a aparência dela, os efeitos, a raridade que todo mundo enxergava ou o lugar dela na economia do jogo. A skin continua na sua conta, com o mesmo nome, mas deixa de encaixar no mundo do jogo do jeito que encaixava. E era esse encaixe que dava valor a todo o tempo, dinheiro e atenção que você colocou ali.
 
 O direito pode olhar para isso de dois jeitos. Pode tratar como um desgosto pessoal, coisa de quem se apega demais, ou pode tratar como a piora de algo cujo centro é feito de sentido e de relação com os outros. Essa segunda leitura é a que permite levar a perda a sério.
 
@@ -298,7 +298,7 @@ Ficar fora desse circuito, por isso, não é só um desconforto, porque signific
 
 ### imagem O que uma música ensina sobre o valor de uma skin?
 
-Pense numa música, em que uma nota sozinha não diz quase nada e a música está na relação entre as notas. Com as coisas que a gente consome acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.
+Numa música, uma nota sozinha não diz quase nada, porque a música está na relação entre as notas. Com as coisas que a gente consome acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.
 
 Por isso, quando a plataforma mexe no conjunto, mexe no sentido de cada peça. Lançar uma skin nova pode mudar o que a sua dizia, mesmo que ninguém tenha tocado nela. Quem cuida da vitrine cuida também da linguagem que faz o seu item significar alguma coisa.
 
@@ -367,7 +367,7 @@ Quem escreve essa biografia é a plataforma. Ela aposenta itens, muda a raridade
 
 ### caso Como se fabrica uma raridade?
 
-Veja como a raridade pode ser fabricada. Num jogo online, a empresa criou uma nova prateleira acima do topo do catálogo, para skins que chamou de Exaltadas, e as apresentou como hiperexclusivas, quase artigos de luxo.
+A raridade pode ser fabricada. Num jogo online, a empresa criou uma nova prateleira acima do topo do catálogo, para skins que chamou de Exaltadas, e as apresentou como hiperexclusivas, quase artigos de luxo.
 
 Para tentar uma, você não compra a skin, e sim fichas que custam 400 da moeda do jogo e que valem um sorteio. A chance de tirar a skin é muito baixa, a garantia só vem no octogésimo sorteio e tudo fica à venda por tempo limitado. Esse modelo de sorteio de itens, que imita as máquinas de cápsulas, costuma esconder o custo real da compra atrás da moeda intermediária e de probabilidades difíceis de enxergar.
 
@@ -429,7 +429,7 @@ Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio
 
 ### texto
 
-Volte à loja e repare em quem a montou. É a mesma empresa que controla o jogo, as regras, as atualizações e o que aparece para os outros jogadores. A skin continua na sua conta, e no papel ela é sua, mas quem decide quanto ela serve, quanto ela brilha e até quando ela vale é a plataforma.
+Quem montou a loja é a mesma empresa que controla o jogo, as regras, as atualizações e o que aparece para os outros jogadores. A skin continua na sua conta, e no papel ela é sua, mas quem decide quanto ela serve, quanto ela brilha e até quando ela vale é a plataforma.
 
 Isso muda o que custa estar ali. Ficar não custa só o próximo pagamento, porque custa também atenção, adaptação, perda de equivalência quando as coisas mudam e uma dependência que não acaba. E a empresa não ganha só no momento da compra. Ganha administrando o lugar todos os dias, com raridade inventada, ciclos de atualização e mudanças de sentido que empurram você para mais uma rodada de gastos.
 
@@ -450,7 +450,7 @@ Você não deixa de consumir por causa disso. O ponto é que, cada vez que parti
 
 ### mecanismo Por que a skin não é como uma geladeira?
 
-Compare com uma compra comum. Quando você compra uma geladeira, ela vai para a sua casa e passa a existir longe do alcance de quem vendeu, pelo menos enquanto durar o que se espera de uma geladeira. A loja ganha uma vez e pronto.
+Numa compra comum é diferente. Quando você compra uma geladeira, ela vai para a sua casa e passa a existir longe do alcance de quem vendeu, pelo menos enquanto durar o que se espera de uma geladeira. A loja ganha uma vez e pronto.
 
 Com a skin é diferente, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa.
 
@@ -461,7 +461,7 @@ Com a skin é diferente, porque ela só funciona dentro de um lugar que você n�
 
 ### termo Economia de pedágio
 
-Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. Isso tem nome, economia de pedágio. Os serviços podem até ser úteis, mas o lucro vem principalmente do ponto de passagem que ninguém consegue evitar.
+Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. É a economia de pedágio. Os serviços podem até ser úteis, mas o lucro vem principalmente do ponto de passagem que ninguém consegue evitar.
 
 No jogo, esse pedágio não é cobrado uma vez só. A plataforma cobra pela entrada, cobra pela pressa de quem quer chegar antes, cobra pela comodidade, cobra pelo que distingue você dos outros e cobra pela volta de um item que tinha saído. E, acima de tudo, cobra pela proteção contra um risco que ela mesma criou, como o medo de perder a próxima janela.
 
@@ -472,9 +472,9 @@ No jogo, esse pedágio não é cobrado uma vez só. A plataforma cobra pela entr
 
 ### caso Quem decide quanto vale a moeda do jogo?
 
-Olhe agora para a moeda do jogo, aquela que você compra com dinheiro de verdade para depois trocar por skins. Os termos de uso admitem que a empresa pode, às vezes, mudar o que essa moeda compra, inclusive pedindo mais moedas pela mesma skin. Quem define a moeda, o catálogo e o preço é a mesma empresa, e por isso ela consegue subir aos poucos os preços lá dentro sem enfrentar a concorrência de um mercado aberto.
+A moeda do jogo, aquela que você compra com dinheiro de verdade para depois trocar por skins, mostra o mesmo poder. Os termos de uso admitem que a empresa pode, às vezes, mudar o que essa moeda compra, inclusive pedindo mais moedas pela mesma skin. Quem define a moeda, o catálogo e o preço é a mesma empresa, e por isso ela consegue subir aos poucos os preços lá dentro sem enfrentar a concorrência de um mercado aberto.
 
-O mesmo contrato dá um passo além e diz que os dados guardados nos servidores da empresa, inclusive o conteúdo da sua conta, não têm valor nenhum. Repare no efeito. Se no papel o seu acervo não vale nada, a inflação lá dentro passa por coisa natural, e não por uma perda que você sofreu. E, como se não bastasse, o contrato tenta limitar a responsabilidade da empresa ao que você pagou nos doze meses anteriores ao problema, justamente num lugar em que o valor vem de anos de acúmulo.
+O mesmo contrato dá um passo além e diz que os dados guardados nos servidores da empresa, inclusive o conteúdo da sua conta, não têm valor nenhum. O efeito é direto. Se no papel o seu acervo não vale nada, a inflação lá dentro passa por coisa natural, e não por uma perda que você sofreu. E, como se não bastasse, o contrato tenta limitar a responsabilidade da empresa ao que você pagou nos doze meses anteriores ao problema, justamente num lugar em que o valor vem de anos de acúmulo.
 
 > O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade (Riot Games, 2024e). (p. 176)
 > Ao definir o catálogo, modular escassez, gerir janelas de oportunidade e operar moedas internas, pacotes e conversões, o fornecedor passa a calibrar o nível geral de valores praticados, elevando gradualmente referências de preço e deslocando ancoragens de aceitabilidade sem enfrentar a disciplina típica de mercados com oferta e demanda abertas (p. 176)
@@ -485,7 +485,7 @@ O mesmo contrato dá um passo além e diz que os dados guardados nos servidores 
 
 ### imagem Como pequenas perdas viram uma conta grande?
 
-Pense numa torneira pingando. Cada gota não parece nada, mas no fim do mês a conta chega. Muitas plataformas não vivem só de cobranças grandes e visíveis. Vivem também de pequenos eventos, pequenas decisões e pequenas perdas, espalhados por milhões de pessoas e quase invisíveis um a um.
+Uma torneira pingando funciona assim. Cada gota não parece nada, mas no fim do mês a conta chega. Muitas plataformas não vivem só de cobranças grandes e visíveis. Vivem também de pequenos eventos, pequenas decisões e pequenas perdas, espalhados por milhões de pessoas e quase invisíveis um a um.
 
 Somados, eles pesam muito. Mas cada um fica pequeno demais para valer uma briga, e é aí que está o truque. O lucro vem da repetição em escala, sempre abaixo do ponto em que alguém se daria ao trabalho de reclamar ou de punir.
 
@@ -508,7 +508,7 @@ A plataforma cria janelas de venda, rotações de loja, níveis de raridade, eve
 
 ### caso E quando a skin exclusiva volta mais barata?
 
-Imagine que você pagou caro por uma skin porque ela era exclusiva, e a exclusividade fazia parte do preço. Meses depois, a mesma skin volta numa loja alternativa, numa moeda especial ou numa promoção agressiva, por bem menos. E ninguém tinha avisado você, de um jeito claro, na hora da compra, que a exclusividade tinha prazo.
+Uma skin é vendida caro porque é exclusiva, e a exclusividade faz parte do preço. Meses depois, a mesma skin volta numa loja alternativa, numa moeda especial ou numa promoção agressiva, por bem menos. E ninguém tinha avisado você, de um jeito claro, na hora da compra, que a exclusividade tinha prazo.
 
 Nesse caso, o valor do que você recebeu foi refeito para trás, e a sua expectativa legítima foi frustrada. Isso pode ser tratado como publicidade enganosa por omissão e como descumprimento da oferta. A resposta pode incluir devolver o que foi pago, abater o preço ou compensar com algo que cumpra a mesma função, e ainda perdas e danos se houver prejuízo a mais. Não é desconforto seu, é uma perda que a lei do consumidor sabe tratar.
 
@@ -648,7 +648,7 @@ O nome vem de outra expressão antiga, a lei dos mercadores, que designava as re
 
 ### texto
 
-Repare numa coisa que essa lei faz bem, que é parecer costume. Uma prática que se repete muitas vezes passa a parecer normal, como se todo mundo tivesse concordado com ela. Só que, numa plataforma, a repetição pode ser só o efeito de um desenho que uma empresa escolheu sozinha e que você não tinha como recusar.
+Essa lei faz bem uma coisa, que é parecer costume. Uma prática que se repete muitas vezes passa a parecer normal, como se todo mundo tivesse concordado com ela. Só que, numa plataforma, a repetição pode ser só o efeito de um desenho que uma empresa escolheu sozinha e que você não tinha como recusar.
 
 Por isso, o fato de algo sempre ter sido assim no jogo não prova que seja legítimo. Muitas vezes, o que parece hábito do mercado já é produto de uma escolha unilateral, que se firmou porque ninguém tinha alternativa.
 
@@ -657,7 +657,7 @@ Por isso, o fato de algo sempre ter sido assim no jogo não prova que seja legí
 
 ### caso Como o seu comportamento vira nota?
 
-Veja como funciona um sistema de reputação, em que o seu comportamento vira nota. Num jogo online, a empresa criou um sistema de Honra. Quem se comporta de forma esportiva ganha benefícios, e quem se comporta mal recebe menos recompensas e perde parte do direito de falar no chat.
+Num sistema de reputação, o seu comportamento vira nota. Num jogo online, a empresa criou um sistema de Honra. Quem se comporta de forma esportiva ganha benefícios, e quem se comporta mal recebe menos recompensas e perde parte do direito de falar no chat.
 
 Quando você é punido, com suspensão temporária ou corte do chat, a sua nota cai, o seu progresso trava e a conta fica sem certas recompensas até você mostrar, de forma consistente, que mudou. E a empresa diz que a nota reflete o comportamento dentro e fora do jogo. Nada disso passa por tribunal nenhum. A punição está embutida no próprio sistema e mexe no que você pode fazer, ganhar e mostrar.
 
@@ -848,7 +848,7 @@ No digital, isso não fica só no anúncio, porque vira desenho, e a tela decide
 
 Mas a técnica não cai do céu, porque alguém decide o que ela faz. Telas, travas, permissões, prêmios e punições carregam finalidades sociais e econômicas. Se a tecnologia é feita por pessoas, as escolhas concretas de desenho importam para o direito.
 
-Pense no código como o conjunto de decisões que define o que um sistema faz. Se esse código é escrito por gente, ele tem direção, e direção pode ser reconstruída, examinada e criticada. Não há fatalismo nisso, porque o que foi escolhido também poderia ter sido escolhido de outro jeito.
+O código é o conjunto de decisões que define o que um sistema faz. Se esse código é escrito por gente, ele tem direção, e direção pode ser reconstruída, examinada e criticada. Não há fatalismo nisso, porque o que foi escolhido também poderia ter sido escolhido de outro jeito.
 
 > A crítica de Andrew Feenberg impede que esse diagnóstico seja recebido como fatalismo. (p. 86)
 > Se a tecnologia é construção social, as mediações concretas importam juridicamente: interfaces, fricções, permissões, incentivos e punições materializam finalidades sociais e econômicas em artefatos e plataformas. (p. 86)
@@ -895,7 +895,7 @@ Ou seja, a desigualdade de sentido costuma vir junto com uma desigualdade de pro
 
 ### termo Transparência performática
 
-Muita informação também esconde. Pense em documentos em camadas, links que levam a outros links, remissões cruzadas, linguagem técnica demais, o detalhe importante em letra miúda e o irrelevante em destaque, e avisos em cascata. No fim, você recebe texto, mas não recebe orientação.
+Muita informação também esconde. São documentos em camadas, links que levam a outros links, remissões cruzadas, linguagem técnica demais, o detalhe importante em letra miúda e o irrelevante em destaque, e avisos em cascata. No fim, você recebe texto, mas não recebe orientação.
 
 É uma transparência de teatro, em que a plataforma encena que está abrindo tudo, enquanto mantém um ruído que, na prática, tem o mesmo efeito de esconder. O problema não é faltar informação, e sim o excesso, a dispersão e a ordem errada do que é essencial.
 
@@ -916,7 +916,7 @@ Foi algo mais fundo, porque o próprio jeito de fornecer criou uma dificuldade d
 
 ### texto
 
-Por que não chamar tudo isso só de vulnerabilidade digital? Porque essa expressão diz onde a lesão acontece, mas não mostra a engrenagem. Digital é o cenário, e, para chegar a deveres, a provas e a reparação, é preciso dar nome ao mecanismo que produz a desvantagem, e é isso que o nome vulnerabilidade semiótica faz.
+Por que não chamar tudo isso só de vulnerabilidade digital? Porque essa expressão diz onde a lesão acontece, mas não mostra a engrenagem. Digital é o cenário, e, para chegar a deveres, a provas e a reparação, é preciso qualificar o mecanismo que produz a desvantagem, e é isso que a vulnerabilidade semiótica faz.
 
 > A expressão “vulnerabilidade digital” não será adotada aqui porque, embora possua utilidade descritiva, entrega pouco rendimento dogmático. Ela nomeia o ambiente em que a lesão ocorre, mas não isola o mecanismo juridicamente relevante da assimetria. (p. 584)
 > O “digital” funciona, nesse vocabulário, como marcador de cenário, e não como operador de imputação. (p. 584)
@@ -963,7 +963,7 @@ E, no jogo, fortalecer e enfraquecer não é um acidente. É a rotina pela qual 
 
 ### caso O equilíbrio do jogo é só uma questão técnica?
 
-Veja uma sequência real, que aconteceu num jogo online. Uma personagem chegou ao jogo ligada ao universo de uma série de animação famosa, numa data marcada e anunciada como um grande momento.
+Uma sequência real aconteceu num jogo online. Uma personagem chegou ao jogo ligada ao universo de uma série de animação famosa, numa data marcada e anunciada como um grande momento.
 
 Durante o ano seguinte, a força dela e o tipo de defesa que ela tinha viraram assunto constante nas discussões dos jogadores e receberam intervenções técnicas seguidas. No fim do ano, ela ganhou uma janela de prestígio, ligada a um cosmético raro, com data de abertura anunciada publicamente. E no começo do ano seguinte uma atualização trocou o mecanismo central que a protegia por um escudo e tirou dela, de forma expressa, a imunidade a dano.
 
@@ -1003,7 +1003,7 @@ E vale um cuidado a mais para quem comprou uma skin. Uma mudança só de aparên
 
 Para responder, existe um teste. Depois da mudança, a skin ainda cumpre o mesmo papel na sua experiência? Ela serve para o que servia, ocupa o mesmo lugar entre os outros jogadores e, quando isso importa, ainda diz o que dizia sobre você?
 
-Repare que o teste é exigente. Não basta a skin continuar funcionando, nem manter os mesmos números em algum atributo isolado. O que conta é o papel que ela tinha, e isso inclui a utilidade, a relação com os outros e, em certos casos, o significado. Um item pode continuar na conta, abrir normalmente e mesmo assim ter perdido aquilo que justificou a compra.
+O teste é exigente. Não basta a skin continuar funcionando, nem manter os mesmos números em algum atributo isolado. O que conta é o papel que ela tinha, e isso inclui a utilidade, a relação com os outros e, em certos casos, o significado. Um item pode continuar na conta, abrir normalmente e mesmo assim ter perdido aquilo que justificou a compra.
 
 Ao mesmo tempo, ninguém exige que nada mude, nem que a versão nova seja idêntica à antiga. O que se exige é que a mudança não esvazie o que foi comprado. Os serviços digitais mudam, mas não podem mudar de qualquer jeito.
 
@@ -1027,7 +1027,7 @@ Se alguma resposta for sim, a mudança pode ter rompido a equivalência. A plata
 
 ### mecanismo Que padrão se forma quando a skin piora e fica na conta?
 
-Repare no padrão que se forma. A skin piorada não sai de cena. Fica ali, mais fraca, menos central e menos útil, ou menos equivalente ao que justificou a compra.
+O padrão que se forma é este. A skin piorada não sai de cena. Fica ali, mais fraca, menos central e menos útil, ou menos equivalente ao que justificou a compra.
 
 Você não perdeu um detalhe. Perdeu parte do que comprou e, muitas vezes, é empurrado a procurar outra coisa na mesma loja, para recuperar o que tinha. É uma extração por desgaste, em que a empresa ganha com a erosão do que já vendeu. A coisa existe, mas existir não é o mesmo que continuar sendo aquilo que você comprou.
 
@@ -1057,7 +1057,7 @@ Quem controla esses vestígios controla, em boa parte, a reconstrução do que a
 
 ### nome auditabilidade-aberta
 
-A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Essa ideia não é uma lei nova com nome próprio. Ela sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada.
+A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ela sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada.
 
 Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.
 
@@ -1170,7 +1170,7 @@ O que se pede, no fim, são critérios já conhecidos. Informação que dê para
 
 ### termo Padrões obscuros
 
-Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscuros. Pense na caixinha que já vem marcada para você assinar um serviço extra, no botão de cancelar escondido em cinza claro ou no aviso de que só restam poucas unidades quando não é verdade.
+Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscuros. É o caso da caixinha que já vem marcada para você assinar um serviço extra, no botão de cancelar escondido em cinza claro ou no aviso de que só restam poucas unidades quando não é verdade.
 
 O que pesa nesses casos não é uma frase isolada, e sim o jeito como as escolhas são apresentadas e induzidas. E a lei brasileira de proteção ao consumidor já permite punir vários casos de desenho enganoso. Assim o design deixa de ser tratado como estética neutra e volta a ser o que é, uma prática comercial com objetivo econômico, que o direito pode qualificar.
 
@@ -1239,7 +1239,7 @@ Mais do que parece, porque o espaço estava aberto desde 1990.
 
 Talvez você esteja pensando que falta uma lei nova, só para jogos e plataformas digitais. Não é bem assim. O que falta, na maior parte dos casos, é ler a lei que já existe com os olhos certos.
 
-A ideia de Objeto Imaterial de Consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ela é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
+O Objeto Imaterial de Consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ele é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
 
 > Em vez de propor um microssistema regulatório autônomo para “jogos eletrônicos” ou “plataformas digitais”, o que se está a propor é uma demonstração de que o Objeto Imaterial de Consumo é uma forma de atualização interpretativa que, em termos dogmáticos, já é interna ao próprio CDC e derivada dos princípios constitucionais que o informam (p. 36)
 > Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal. (p. 549)
@@ -1257,7 +1257,7 @@ Nos ambientes digitais, essa vulnerabilidade ganha uma forma própria. Ela passa
 
 ### imagem E se um curso cortasse metade das aulas?
 
-Imagine um curso que, no meio do semestre, corta metade das aulas e continua cobrando o mesmo preço. Qualquer pessoa acharia isso errado. E a lei do consumidor concorda, porque considera nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que vende depois da contratação.
+Um curso que, no meio do semestre, corta metade das aulas e continua cobrando o mesmo preço faz o que qualquer pessoa acharia errado. E a lei do consumidor concorda, porque considera nula a cláusula que deixa o fornecedor mudar sozinho o conteúdo ou a qualidade do que vende depois da contratação.
 
 Nas plataformas, esse corte raramente vem com esse nome. Ninguém anuncia que vai cortar aulas. Ele aparece como alcance menor, desempenho rebaixado aos poucos, funções que vão sumindo, limites mais apertados ou uso que fica mais caro para render a mesma coisa. O rótulo e o preço continuam iguais, enquanto a entrega encolhe. A lógica, porém, é a mesma do curso.
 
@@ -1279,7 +1279,7 @@ A boa-fé, que é a exigência de lealdade entre as partes, vai além do que est
 
 Existe até uma lei própria para programas de computador, de 1998. Ela não trata só de quem é dono do programa e de como ele é licenciado. Ela também cria deveres para quem vende.
 
-Pela lei, o contrato de licença, a nota fiscal e a embalagem precisam informar, de forma fácil de ler, por quanto tempo a versão vendida funciona tecnicamente. E, durante esse prazo, o fornecedor precisa garantir os serviços técnicos que mantêm o programa funcionando direito, mesmo que ele pare de vender aquela versão. Ou seja, a ideia de que o fornecedor responde pelo funcionamento ao longo do tempo já existe na lei há décadas.
+Pela lei, o contrato de licença, a nota fiscal e a embalagem precisam informar, de forma fácil de ler, por quanto tempo a versão vendida funciona tecnicamente. E, durante esse prazo, o fornecedor precisa garantir os serviços técnicos que mantêm o programa funcionando direito, mesmo que ele pare de vender aquela versão. Ou seja, a responsabilidade do fornecedor pelo funcionamento ao longo do tempo já existe na lei há décadas.
 
 > A Lei nº 9.609/1998 (Brasil, [1998]) não descreve apenas exclusividade e licenciamento como cercamento de utilidades, mas estrutura deveres positivos do fornecedor ligados ao ciclo de vida técnico do software. (p. 51)
 > O art. 7º impõe que o contrato de licença, o documento fiscal e os suportes e embalagens indiquem, de forma facilmente legível, o prazo de validade técnica da versão comercializada, e o art. 8º converte esse prazo em obrigação de assegurar serviços técnicos complementares relativos ao adequado funcionamento do programa durante a validade técnica, inclusive quando houver retirada de circulação comercial (p. 51)
@@ -1298,7 +1298,7 @@ A defesa do consumidor, aliás, é ao mesmo tempo direito fundamental e princíp
 
 Direitos fundamentais são aqueles que a Constituição garante a todas as pessoas, como a liberdade e a igualdade. Durante muito tempo se pensou neles como uma proteção contra o Estado. Hoje se reconhece que eles também valem nas relações entre particulares, e é isso que a expressão eficácia horizontal quer dizer.
 
-Isso importa porque o poder que pesa sobre você nem sempre vem do governo. Pense numa empresa que organiza, em grande escala, o seu acesso, a sua permanência, a sua visibilidade, a sua reputação e até as suas chances de provar e de contestar. Ela também pode ferir a sua liberdade e a sua igualdade. E a liberdade de contratar não pode servir de biombo para esconder relações tão desiguais.
+Isso importa porque o poder que pesa sobre você nem sempre vem do governo. Uma empresa pode organizar, em grande escala, o seu acesso, a sua permanência, a sua visibilidade, a sua reputação e até as suas chances de provar e de contestar. Ela também pode ferir a sua liberdade e a sua igualdade. E a liberdade de contratar não pode servir de biombo para esconder relações tão desiguais.
 
 > A eficácia horizontal dos direitos fundamentais deixa de parecer questão teórica abstrata quando se observa que, nas relações privadas contemporâneas, a sujeição relevante já não provém apenas do Estado. Ela também emerge de centros privados de poder capazes de organizar acesso, permanência, visibilidade, reputação, prova e contestação em escala suficiente para afetar, de modo estrutural, a liberdade prática e a igualdade material do sujeito submetido à relação. (p. 512)
 > Em contextos assim, a autonomia privada não pode funcionar como biombo para blindar arranjos materialmente assimétricos (p. 512)
@@ -1380,7 +1380,7 @@ Os registros do sistema, as versões antigas das telas, os critérios usados par
 
 O que fica ao seu alcance é mais do que parece. Capturas de tela com data, gravações de tela, as telas de compra e de confirmação e as mensagens sobre raridade, tempo restante, desconto, evento ou mudança mostram como o ambiente foi montado. Também ajuda guardar o que foi prometido, como anúncios, postagens e avisos, para comparar com o que você recebeu depois.
 
-Repare na diferença que isso faz. Você deixa de dizer só eu não entendi e passa a mostrar que o ambiente foi desenhado de um certo jeito. O que conta não é a sua lembrança, e sim a forma que a plataforma deu ao caminho que você percorreu.
+A diferença é grande. Você deixa de dizer só eu não entendi e passa a mostrar que o ambiente foi desenhado de um certo jeito. O que conta não é a sua lembrança, e sim a forma que a plataforma deu ao caminho que você percorreu.
 
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração (p. 607)
 > O relevante aí não é a memória subjetiva do usuário, mas a arquitetura efetivamente apresentada. A alegação deixa de ser “eu não entendi” e passa a ser “o ambiente foi desenhado desta forma”. (p. 607)
@@ -1404,7 +1404,7 @@ Nada disso é automático. Há quem defenda que a inversão deveria valer sempre
 
 ### caso Quem paga quando a fraude passa por uma função oficial do jogo?
 
-Veja um caso que mostra como o risco pode cair no seu colo. Num jogo online, mandar presentes aos amigos era uma função oficial, que a própria empresa oferecia dentro do jogo, com regras e limites. Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo normal, seguro e vantajoso, e ninguém deixava claro o que era permitido, tolerado ou proibido.
+Há um caso que mostra como o risco pode cair no seu colo. Num jogo online, mandar presentes aos amigos era uma função oficial, que a própria empresa oferecia dentro do jogo, com regras e limites. Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo normal, seguro e vantajoso, e ninguém deixava claro o que era permitido, tolerado ou proibido.
 
 Quando apareceram fraudes com cartões, a empresa desligou a função de presentes no Brasil por um longo período, retirou itens recebidos e bloqueou contas ou as voltou a um estado anterior. A medida atingiu também quem tinha recebido presentes de boa-fé, sem saber de fraude nenhuma. E quem perdeu skins ficou com a tarefa de provar, item por item, de onde veio cada uma, com extratos antigos, e-mails e capturas que tivesse guardado.
 
@@ -1459,7 +1459,7 @@ Nesses casos, a resposta precisa chegar à fonte. Isso abre espaço para ordens 
 
 ### termo Consumidor equiparado
 
-E quem não comprou nada, mas depende do mesmo ambiente? Pense no pequeno vendedor que só consegue vender pela loja de uma grande plataforma. Ele não é consumidor no sentido comum, mas fica exposto às práticas comerciais, aos métodos de fornecimento e ao governo da plataforma, numa posição frágil.
+E quem não comprou nada, mas depende do mesmo ambiente? É o pequeno vendedor que só consegue vender pela loja de uma grande plataforma. Ele não é consumidor no sentido comum, mas fica exposto às práticas comerciais, aos métodos de fornecimento e ao governo da plataforma, numa posição frágil.
 
 A lei permite proteger essa pessoa como se fosse consumidora. Mas não é qualquer participante que entra nessa proteção. É quem está exposto de verdade, em situação de vulnerabilidade que importa para o direito.
 
@@ -1498,7 +1498,7 @@ Não, o jogo só mostra tudo mais nítido.
 
 ### texto
 
-Talvez você nem jogue. Pense então no assistente de inteligência artificial que você usa para estudar ou trabalhar e na loja virtual onde você compra. Pense no aplicativo que distribui corridas e entregas e no atendimento simpático que faz a sua reclamação parecer exagero.
+Talvez você nem jogue. O mesmo vale para o assistente de inteligência artificial que você usa para estudar ou trabalhar e para a loja virtual onde você compra. Vale para o aplicativo que distribui corridas e entregas e para o atendimento simpático que faz a sua reclamação parecer exagero.
 
 O jogo foi o ponto de partida porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora do jogo, os mesmos efeitos costumam vir embrulhados como coisa inevitável, e por isso ficam mais difíceis de enxergar.
 
@@ -1596,7 +1596,7 @@ Nesse chão, o acesso, a permanência e até o sentido do que você comprou depe
 
 ### texto
 
-A saída não é derrubar tudo. Isso seria como querer apagar o sol para acabar com a sombra. A ideia não é congelar os serviços nem fingir que eles são simples.
+A saída não é derrubar tudo. Isso seria como querer apagar o sol para acabar com a sombra. Não se trata de congelar os serviços nem fingir que eles são simples.
 
 O objetivo é outro, mais modesto e mais firme. É domar a desigualdade sem destruir a estrutura, com critérios claros. É conter em vez de demolir.
 
@@ -1637,4 +1637,4 @@ Nomear, aqui, não é fazer poesia. É tirar o poder do lugar do óbvio, onde ni
 
 ### pergunta
 
-Volte à sua skin. O que você perguntaria agora?
+E a sua skin, o que você perguntaria agora?

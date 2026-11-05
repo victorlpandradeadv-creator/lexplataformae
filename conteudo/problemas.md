@@ -80,7 +80,7 @@ Quando a troca de presentes é uma função oficial do jogo, a fraude que passa 
 
 ### blocos
 
-a-resposta | Veja um caso que mostra como o risco
+a-resposta | Há um caso que mostra como o risco
 
 ### direitos
 
@@ -135,7 +135,7 @@ O nome que o contrato dá ao que você comprou não decide, sozinho, a proteçã
 ### blocos
 
 a-compra | Agora faça o que quase ninguém faz
-a-compra | E repare num detalhe que joga a seu favor
+a-compra | E há um detalhe que joga a seu favor
 a-compra | Junte tudo isso e fica claro
 a-compra | Nem tudo o que é digital
 
@@ -164,7 +164,7 @@ Quando a venda vem preparada com promessas, o anúncio passa a fazer parte do qu
 
 ### blocos
 
-o-dono | Imagine que você pagou caro por uma skin
+o-dono | Uma skin é vendida caro
 a-resposta | O que fica ao seu alcance
 
 ### direitos

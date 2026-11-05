@@ -946,7 +946,7 @@ def figura(ident, prefixo):
 # O rótulo de cada bloco didático é a pergunta própria que vem no cabeçalho do bloco, em conteudo/percurso.md e em
 # conteudo/camada-externa.md. Os rótulos abaixo são só reserva para bloco novo sem pergunta. Revisão de rótulos de 05/11/2026.
 ROTULOS_PERCURSO = {"imagem": "Como imaginar isso?", "mecanismo": "Como isso funciona?", "caso": "Como isso aparece na prática?",
-                    "nome": "Isso tem nome", "limite": "Quais são os limites?", "teste": "Como saber se é o seu caso?",
+                    "nome": "", "limite": "Quais são os limites?", "teste": "Como saber se é o seu caso?",
                     "importa": "Por que isso importa?"}
 # O termo emprestado de outro campo leva uma linha só, com o nome da área de onde vem, na cor dela. A linha é também o link
 # para as outras palavras da mesma área. Revisão de rótulos de 05/11/2026.
@@ -1128,8 +1128,8 @@ def bloco_percurso(b, prefixo):
     if tipo == "nome":
         # O nome em destaque é o próprio link para a ideia inteira.
         c = POR_ID[arg]
-        return (f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">{rotulo}</span>'
-                f'<a href="{prefixo}conceitos/{arg}/" title="A ideia inteira">{nome_html(c)}</a></h2>{texto}{exp}</section>')
+        return (f'<section class="ext nome-ext"><h2 class="nome-conceito">'
+                f'<a href="{prefixo}conceitos/{arg}/" title="A ficha do conceito">{nome_html(c)}</a></h2>{texto}{exp}</section>')
     if tipo == "termo":
         derivado = arg in DERIVADOS
         area = AREA_TERMO.get(arg)
@@ -1284,7 +1284,7 @@ def gerar_inicio():
       <div class="campo-texto">{ext_html("inicio", "mapa", "")}</div>
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes}</ul>
       {fontes_grade}
-      <p class="ver-ideia"><a href="instrumentos/">Palavras que vêm de outros campos</a></p>
+      <p class="ver-ideia"><a href="instrumentos/">Conceitos que vêm de outros campos</a></p>
     </section>
 
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
@@ -1342,7 +1342,7 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove ideias para dar nome a isso."
+    desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove conceitos para contestar isso."
     corpo = f'<div class="pagina-inicio">{corpo}</div>'
     (SAIDA / "index.html").write_text(pagina("Lex Plataformae · Você comprou uma skin. Ela é sua?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
@@ -1458,7 +1458,7 @@ def gerar_conceito(c):
             f'<a class="voltar" href="{prefixo}#conceitos">← Todo o vocabulário</a>'
             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(c["id"], "titulo"))}</h1></header>'
             + bloco_ext("fenomeno", classe="fenomeno")
-            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="rotulo-ext">Isso tem nome</span><span class="chapado">{nome_html(c)}</span></h2>'
+            + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="chapado">{nome_html(c)}</span></h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
             + figura(f'ideia-{c["id"]}', prefixo)
             + bloco_ext("imagem", "Como imaginar isso?", "didatico imagem")
@@ -1477,7 +1477,7 @@ def gerar_conceito(c):
                          f'<p>Desde {DATA_NOME_COMUM}, nos modos Informação e Doutrina, o site chama este conceito de {esc(nome_comum(c, False))}, '
                          f'a tradução literal do nome em latim. O nome {esc(c["nome"])} segue neste modo e no nome do site.</p>'
                          f'<blockquote class="citacao"><p>{esc(genitivo)}{pg("p. 27", prefixo, genitivo)}</p></blockquote></section>')
-        arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · a ideia no texto integral">'
+        arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · o conceito no texto integral">'
                        f'<header class="folha-cabeca"><p class="sobrelinha"><span class="em-modo modo-1">Ficha técnica, para quem vai operar</span><span class="ciencia">{esc(sobre)}</span></p><h2 class="titulo-interno">{nome_html(c)}</h2><div class="selos ciencia">{selos}</div></header>'
                        + nota_nome + "".join(partes) + "</div>")
         corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
@@ -3755,7 +3755,7 @@ def gerar_auxiliares():
     shutil.copy(RAIZ / "tese" / PDF_NOME, SAIDA / "tese" / PDF_NOME)
     corpo = ('<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p>'
              '<h1>Este endereço não existe</h1></header><p>Talvez o conceito tenha mudado de endereço. '
-             '<a href="/#conceitos">Volte às ideias</a> e procure por ele.</p></article>')
+             '<a href="/#conceitos">Volte ao vocabulário</a> e procure por ele.</p></article>')
     (SAIDA / "404.html").write_text(pagina("Página não encontrada · Lex Plataformae", "Página não encontrada.", corpo, "/", "404.html", camada="externa"), encoding="utf-8")
 
 
@@ -3875,7 +3875,7 @@ def gerar_autor():
         trajetoria = "".join(citado(p, intro, prefixo) for p in pars)
     corpo = (
         '<article class="folha autor-pagina">'
-        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás destas ideias</p><h1>Victor L. P. Andrade</h1></header>'
+        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás desta teoria</p><h1>Victor L. P. Andrade</h1></header>'
         '<section class="ext"><p>Tudo o que você leu neste site deriva de uma tese de doutorado em Direito, '
         'apresentada à Universidade Estadual Paulista e defendida em 30 de março de 2026, sob a orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
         '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>. '
@@ -3885,7 +3885,7 @@ def gerar_autor():
         + (f'<section class="bloco"><h2>Como este trabalho nasceu</h2>{trajetoria}</section>' if trajetoria else "")
         + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do percurso</h2>'
         f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
-        '<p>Para conversar sobre estas ideias, o caminho é o LinkedIn.</p>'
+        '<p>Para conversar sobre esta teoria, o caminho é o LinkedIn.</p>'
         f'<p class="acoes"><a class="botao" href="{AUTOR_LINKEDIN}" rel="me noopener">Victor L. P. Andrade no LinkedIn</a></p></section>'
         + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": BASE + "/autor/",

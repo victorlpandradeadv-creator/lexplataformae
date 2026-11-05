@@ -2,7 +2,7 @@
 
 Guia de operação das onze situações do Roteiro, para a tela Doutrina. Rascunho do Claude de 27/10/2026, por orientação do autor, que concordou com as recomendações de tornar o Roteiro mais útil ao profissional. Cada situação traz os fatos que costumam aparecer, como demonstrar, o fundamento normativo e os pressupostos e cuidados. O texto literal do quadro vem logo depois, na página.
 
-Regras. Cada frase se apoia nos trechos literais logo abaixo do bloco. O texto distingue o parâmetro, que é a ideia que organiza a leitura, o fundamento normativo, que é a regra de lei em que o pedido se apoia, e a consequência, que é o que se pode pedir. Nada aqui funciona como automatismo. Artigo de lei sempre com o nome da lei na mesma frase, para que o site traga o texto integral em rodapé. Sem dois pontos, ponto e vírgula ou travessão.
+Regras. Cada frase se apoia nos trechos literais logo abaixo do bloco. O texto distingue o parâmetro, que é o critério que organiza a leitura, o fundamento normativo, que é a regra de lei em que o pedido se apoia, e a consequência, que é o que se pode pedir. Nada aqui funciona como automatismo. Artigo de lei sempre com o nome da lei na mesma frase, para que o site traga o texto integral em rodapé. Sem dois pontos, ponto e vírgula ou travessão.
 
 Formato. `## intro` abre a página. Cada situação começa com `## <letra>`, com `### fatos`, `### demonstrar`, `### fundamento` e `### cuidados`.
 
@@ -10,7 +10,7 @@ Formato. `## intro` abre a página. Cada situação começa com `## <letra>`, co
 
 ### texto
 
-Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro em texto literal, em cinco partes. O parâmetro é a ideia que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso.
+Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro em texto literal, em cinco partes. O parâmetro é o critério que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso.
 
 O CDC funciona como a infraestrutura normativa dessas situações. Não se trata de inventar um novo código nem de enxertar um regime estranho no texto legal, e sim de ler as categorias do sistema pelo modo real como o fornecimento acontece, em que governar o ambiente é governar a própria fruição.
 

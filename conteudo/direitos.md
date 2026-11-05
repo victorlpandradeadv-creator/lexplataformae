@@ -118,7 +118,7 @@ A informação precisa servir para alguma coisa
 
 ### quando
 
-Quando a plataforma troca a clareza por excesso de texto, espalha as informações por lugares diferentes, quebra o caminho de quem tenta entender ou faz uma transparência só de fachada. Pense em regras importantes enterradas num contrato enorme, em perguntas frequentes que ninguém acha ou em notas de atualização que ninguém consegue ligar ao que aconteceu com o seu item.
+Quando a plataforma troca a clareza por excesso de texto, espalha as informações por lugares diferentes, quebra o caminho de quem tenta entender ou faz uma transparência só de fachada. É o caso de regras importantes enterradas num contrato enorme, em perguntas frequentes que ninguém acha ou em notas de atualização que ninguém consegue ligar ao que aconteceu com o seu item.
 
 ### deve
 
@@ -244,9 +244,9 @@ Mudou, tem que manter o que valia
 
 ### quando
 
-Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. Pense no item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou no recurso que deixava você fazer algo e foi retirado.
+Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou no recurso que deixava você fazer algo e foi retirado.
 
-Repare que você pode continuar dentro do jogo, com a conta, vendo o item e entrando quando quiser, e mesmo assim ter perdido o principal. Manter funcionando não é o mesmo que manter o valor.
+Você pode continuar dentro do jogo, com a conta, vendo o item e entrando quando quiser, e mesmo assim ter perdido o principal. Manter funcionando não é o mesmo que manter o valor.
 
 ### deve
 
@@ -291,7 +291,7 @@ Punição precisa de motivo e de chance de defesa
 
 ### quando
 
-Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de reclamar dependem de punições que ninguém explica. Ou de dificuldades colocadas só para alguns, de um custo alto demais para reagir ou de um caminho de volta muito mais difícil do que o de ida. Pense na conta bloqueada ou banida sem explicação, com um caminho de contestação que não leva a lugar nenhum. Quando a conta é encerrada, vai junto o acesso a tudo o que estava nela, inclusive o que você comprou.
+Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de reclamar dependem de punições que ninguém explica. Ou de dificuldades colocadas só para alguns, de um custo alto demais para reagir ou de um caminho de volta muito mais difícil do que o de ida. É a conta bloqueada ou banida sem explicação, com um caminho de contestação que não leva a lugar nenhum. Quando a conta é encerrada, vai junto o acesso a tudo o que estava nela, inclusive o que você comprou.
 
 ### deve
 
@@ -394,7 +394,7 @@ Que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Confo
 
 ### limite
 
-Isso não dispensa você de contar uma história coerente, que pareça verdadeira, e de delimitar bem o que está pedindo. O que cai é a ficção de que você e a plataforma estão em pé de igualdade para provar. A ideia é que a falta de acesso aos registros não vire uma muralha contra você.
+Isso não dispensa você de contar uma história coerente, que pareça verdadeira, e de delimitar bem o que está pedindo. O que cai é a ficção de que você e a plataforma estão em pé de igualdade para provar. A falta de acesso aos registros não pode virar uma muralha contra você.
 
 > Sempre que a plataforma concentrar os elementos essenciais para narrar, demonstrar e reconstruir o conflito, a disciplina probatória deverá reconhecer que a verificabilidade integra o próprio regime legítimo do fornecimento. (p. 747)
 > O dever correspondente é o de preservar e exibir registros mínimos necessários à reconstrução do evento controvertido. (p. 747)
@@ -425,7 +425,7 @@ Vale entender o papel desses direitos. A propriedade intelectual não aparece aq
 
 ### deve
 
-Usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social, que é a ideia de que esses direitos existem também para servir ao interesse da sociedade. E se faz pelos limites que a Constituição impõe a quem exerce poder privado.
+Usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social, segundo a qual esses direitos existem também para servir ao interesse da sociedade. E se faz pelos limites que a Constituição impõe a quem exerce poder privado.
 
 ### mostrar
 
