@@ -460,6 +460,50 @@ def carregar_externa():
 EXTERNA = carregar_externa()
 
 
+# Doutrina. A prosa para quem vai operar, em conteudo/doutrina.md. Os trechos que a sustentam só ficam à vista na Ciência,
+# e a citação de impacto, marcada com >!, aparece também na Doutrina. Revisão de voz de 05/11/2026.
+def carregar_doutrina():
+    arq = RAIZ / "conteudo" / "doutrina.md"
+    dados, pag, sec = {}, None, None
+    if not arq.exists():
+        return dados
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            pag, sec = linha[3:].strip(), None
+            dados[pag] = []
+            continue
+        if linha.startswith("### ") and pag:
+            sec = {"titulo": linha[4:].strip(), "paragrafos": [], "ancoras": [], "impacto": []}
+            dados[pag].append(sec)
+            continue
+        if not sec:
+            continue
+        m = re.match(r"^>(!?) (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", linha)
+        if m:
+            sec["impacto" if m.group(1) else "ancoras"].append({"texto": m.group(2), "ref": m.group(3)})
+        elif linha.strip():
+            sec["paragrafos"].append(linha.strip())
+    return dados
+
+
+DOUTRINA = carregar_doutrina()
+
+
+def trechos_da_doutrina(chave):
+    """Os trechos que a prosa da Doutrina já traz, para a ficha não repetir na Ciência."""
+    return {q["texto"] for s in DOUTRINA.get(chave, []) for q in s["ancoras"] + s["impacto"]}
+
+
+def doutrina_html(chave, prefixo, nivel="h2"):
+    """As seções da Doutrina. Aparecem na Doutrina e na Ciência, e na Ciência trazem os trechos em que se apoiam."""
+    secoes = []
+    for s in DOUTRINA.get(chave, []):
+        impacto = "".join(f'<blockquote class="citacao impacto"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in s["impacto"])
+        secoes.append(f'<section class="ext bloco-doutrina"><{nivel} class="rotulo-ext">{esc(s["titulo"])}</{nivel}>'
+                      + "".join(f"<p>{esc(t)}</p>" for t in s["paragrafos"]) + impacto + expansao(s["ancoras"], prefixo, "ciencia") + "</section>")
+    return "".join(secoes)
+
+
 # Percurso. A superfície conta a tese inteira a partir da compra de uma skin, em conteudo/percurso.md.
 def carregar_percurso():
     arq = RAIZ / "conteudo" / "percurso.md"
@@ -1362,8 +1406,12 @@ def gerar_conceito(c):
         selos += f'<a class="selo gemeo" href="{base}{c["par"]["id"]}/">{rot}{nome_html(POR_ID[c["par"]["id"]])}</a>'
 
     partes = []
+    ja_na_doutrina = trechos_da_doutrina(f'conceito {c["id"]}')
     for f in c["campos"]:
         r = f["rotulo"]
+        f = dict(f, citacoes=[q for q in f.get("citacoes", []) if q["texto"] not in ja_na_doutrina])
+        if not f["citacoes"] and not f.get("texto") and r != "Onde vive":
+            continue
         if r == "Onde vive":
             itens = re.split(r",\s*(?![^()]*\))", f["texto"].rstrip("."))
             lis = []
@@ -1417,8 +1465,9 @@ def gerar_conceito(c):
     nomes = nomeacoes().get(c["id"], {})
     itens_rot = [f'<li><a href="{prefixo}roteiro/#{l}">{esc(SITUACOES.get(l, "Bloco " + l))}</a></li>' for l in letras] if POR_NUMERO.get("7.1.2") else []
     itens_rot += [f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a> <span class="vezes">{esc(det)}</span></li>' for rotulo, caminho, det in nomes.get("Roteiro", [])]
+    nas_situacoes = ""
     if itens_rot:
-        partes.append('<section class="bloco"><h2>Nas situações</h2>'
+        nas_situacoes = ('<section class="bloco nas-situacoes"><h2>Nas situações</h2>'
                       + ('<p class="nota-camada ciencia">Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais páginas aparecem porque a tese nomeia o conceito no trecho.</p>' if nomes.get("Roteiro") and letras else "")
                       + '<ul class="lugares">' + "".join(itens_rot) + "</ul></section>")
     if nomes.get("Laboratório"):
@@ -1456,7 +1505,9 @@ def gerar_conceito(c):
         duvida = ext_texto(c["id"], "duvida")
         externo = (
             f'<a class="voltar" href="{prefixo}#conceitos">← Todo o vocabulário</a>'
-            f'<header class="folha-cabeca ext-cabeca"><h1>{esc(ext_texto(c["id"], "titulo"))}</h1></header>'
+            f'<header class="folha-cabeca ext-cabeca"><h1><span class="em-modo modo-0 modo-2">{esc(ext_texto(c["id"], "titulo"))}</span>'
+            f'<span class="em-modo modo-1">{nome_html(c)}</span></h1></header>'
+            '<div class="pilha em-modo modo-0 modo-2">'
             + bloco_ext("fenomeno", classe="fenomeno")
             + f'<section class="ext nome-ext"><h2 class="nome-conceito"><span class="chapado">{nome_html(c)}</span></h2>'
             + (f"<p>{esc(resto)}</p>" if resto else "") + expansao(nome_b["citacoes"], prefixo) + "</section>"
@@ -1468,7 +1519,9 @@ def gerar_conceito(c):
             + bloco_ext("limite", "Quais são os limites?", "limite")
             + (secao_direitos(direitos_da_ideia(c["id"]), prefixo) if direitos_da_ideia(c["id"]) else "")
             + no_percurso(c["id"], prefixo)
-            + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else ""))
+            + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar()}</section>' if duvida else "")
+            + "</div>")
+        doutrina = f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}</div>'
         nota_nome = ""
         if c["id"] in NOME_COMUM:
             genitivo = "A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma”"
@@ -1477,10 +1530,10 @@ def gerar_conceito(c):
                          f'<p>Desde {DATA_NOME_COMUM}, nos modos Informação e Doutrina, o site chama este conceito de {esc(nome_comum(c, False))}, '
                          f'a tradução literal do nome em latim. O nome {esc(c["nome"])} segue neste modo e no nome do site.</p>'
                          f'<blockquote class="citacao"><p>{esc(genitivo)}{pg("p. 27", prefixo, genitivo)}</p></blockquote></section>')
-        arquitetura = (f'<div class="interno arquitetura" data-arq="arquitetura · o conceito no texto integral">'
-                       f'<header class="folha-cabeca"><p class="sobrelinha"><span class="em-modo modo-1">Ficha técnica, para quem vai operar</span><span class="ciencia">{esc(sobre)}</span></p><h2 class="titulo-interno">{nome_html(c)}</h2><div class="selos ciencia">{selos}</div></header>'
+        arquitetura = (f'<div class="ciencia arquitetura" data-arq="arquitetura · o conceito no texto integral">'
+                       f'<header class="folha-cabeca"><p class="sobrelinha"><span class="ciencia">{esc(sobre)}</span></p><h2 class="titulo-interno">{nome_html(c)}</h2><div class="selos ciencia">{selos}</div></header>'
                        + nota_nome + "".join(partes) + "</div>")
-        corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
+        corpo = f'<article class="folha conceito-pagina">{externo}{doutrina}{arquitetura}{outros_nav}</article>'
         desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
         (destino / "index.html").write_text(
             pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"],
@@ -1489,7 +1542,8 @@ def gerar_conceito(c):
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todo o vocabulário</a>'
              f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h1>{nome_html(c)}</h1><div class="selos ciencia">{selos}</div></header>'
-             + "".join(partes) + outros_nav + "</article>")
+             f'<div class="pilha doutrina">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}</div>'
+             '<div class="ciencia arquitetura">' + "".join(partes) + "</div>" + outros_nav + "</article>")
     desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
         pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld,
@@ -3835,7 +3889,6 @@ def gerar_derivados():
         slug = slug_derivado(nome)
         parte, bloco = onde[nome]
         no_percurso = f'{prefixo}percurso/{parte["slug"]}/#termo-{slug}'
-        trechos = "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in bloco["citacoes"])
         achados = ocorrencias_do_nome(nome)
         lista = "".join(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{esc(rotulo_secao(sec))}</a> <span class="vezes">{n}×</span></li>' for sec, n in achados)
         corpo = (
@@ -3843,7 +3896,7 @@ def gerar_derivados():
             f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
             f'<h1>{esc(nome)}</h1>'
             f'<p class="abertura-pagina">Explicado em palavras simples no percurso da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
-            f'<section class="bloco"><h2>O que é</h2>{trechos}</section>'
+            f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}</div>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
             + f'<p class="ver-nove"><a href="{prefixo}#conceitos">Os nove conceitos</a></p>'
             '</article>')
@@ -3902,7 +3955,7 @@ def gerar_autor():
 # Cobertura por modo. Cada citação dos textos de cada modo volta à seção da tese de onde vem.
 FONTES_MODO = {
     "Informação": ["conteudo/percurso.md", "conteudo/camada-externa.md", "conteudo/direitos.md", "conteudo/problemas.md"],
-    "Doutrina": ["conteudo/operar.md", "conceitos/ficha-canonica-v0.md"],
+    "Doutrina": ["conteudo/operar.md", "conceitos/ficha-canonica-v0.md", "conteudo/doutrina.md"],
 }
 
 
@@ -3935,7 +3988,7 @@ def cobertura_por_modo():
             caminho = RAIZ / arq
             if not caminho.exists():
                 continue
-            for m in re.finditer(r"^> (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", caminho.read_text(encoding="utf-8"), re.M):
+            for m in re.finditer(r"^>!? (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", caminho.read_text(encoding="utf-8"), re.M):
                 sec = secao_da_citacao(m.group(1), m.group(2), textos)
                 if sec:
                     contagem.setdefault(sec["slug"], {}).setdefault(modo, 0)

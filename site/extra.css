@@ -710,6 +710,13 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
   .assinatura { grid-column: 2; grid-row: 1; }
 }
 
+/* Doutrina. A prosa é do site, e a citação de impacto conserva a cor do texto. */
+.pilha { display: grid; gap: 2rem; min-width: 0; }
+.doutrina { gap: 2.25rem; }
+.bloco-doutrina { scroll-margin-top: 1rem; }
+.citacao.impacto, .citacao.impacto p { color: var(--tinta); }
+.nas-situacoes h2 { font-family: var(--f-display); font-size: 1.125rem; font-weight: 700; letter-spacing: normal; text-transform: none; color: var(--tinta); }
+
 /* Título de duas frases quebra entre elas. */
 .titulo-frase { display: block; }
 .trilha .num-secao { margin-right: 0.35em; }

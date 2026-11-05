@@ -227,7 +227,7 @@ def _frases(plano):
 
 def _classe_titulo(corpo, h1):
     """O corpo do título segue o tamanho dele. Título de duas frases quebra entre elas, como o da página inicial."""
-    _, plano = rotulo_de(corpo[h1.fim_abre:h1.fecha])
+    _, plano = rotulo_de(re.sub(r'<span class="em-modo modo-1">.*?</span>(</span>)?', "", corpo[h1.fim_abre:h1.fecha], flags=re.S))
     frases = _frases(plano)
     if len(frases) > 1:
         maior = max(len(f) for f in frases)

@@ -59,7 +59,7 @@ def paginas(manter_hifen=False):
 
 
 def citacoes(markdown):
-    for m in re.finditer(r"^> (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", markdown, re.M):
+    for m in re.finditer(r"^>!? (.+?) \((p\. [\d\-]+|Resumo)\)\s*$", markdown, re.M):
         yield m.group(1), m.group(2)
     for m in re.finditer(r'"([^"\n]{15,}?)"\s*\((p\. [\d\-]+)\)', markdown):
         yield m.group(1), m.group(2)
