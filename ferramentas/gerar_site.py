@@ -890,16 +890,16 @@ def gerar_epigrafes():
              + secao("villain", "Por que uma delas foi feita pela própria empresa do jogo?")
              + secao("fermata", "Por que do medo à fermata?")
              + player
-             + (f'<p class="ciencia nota-camada">O método das epígrafes está por inteiro na seção <a href="{prefixo}tese/{sec26["slug"]}/">{esc(rotulo_secao(sec26))}</a>. As letras estão no PDF, na página em que cada epígrafe abre a sua etapa.</p>' if sec26 else "")
-             + saidas_html([("Siga a skin desde a compra", f"{prefixo}percurso/"), ("O vocabulário", f"{prefixo}#conceitos"), ("Seus direitos", f"{prefixo}direitos/")])
-             + f'<section class="ext duvida"><div class="acoes">{botao_desnudar()}</div></section></article>')
+             + (f'<p class="nota-camada">O método das epígrafes está por inteiro na seção <a href="{prefixo}tese/{sec26["slug"]}/">{esc(rotulo_secao(sec26))}</a>. As letras estão no PDF, na página em que cada epígrafe abre a sua etapa.</p>' if sec26 else "")
+             + saidas_html([("O método da pesquisa", f"{prefixo}metodo/"), ("O texto integral", f"{prefixo}tese/"), ("Os autores", f"{prefixo}autores/")])
+             + '</article>')
     jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": ext_texto("epigrafes", "titulo"), "inLanguage": "pt-BR",
               "url": f"{BASE}/epigrafes/", "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
     destino = SAIDA / "epigrafes"
     destino.mkdir(parents=True, exist_ok=True)
     (destino / "index.html").write_text(
-        pagina("Trilha sonora, as nove canções que abrem cada etapa · Lex Plataformae", ext_texto("epigrafes", "abertura"), corpo, prefixo, "epigrafes/",
-               jsonld, camada="mista", imagem="epigrafes"), encoding="utf-8")
+        pagina("Epígrafes musicais, o método do 2.6 da tese · Lex Plataformae", ext_texto("epigrafes", "abertura"), corpo, prefixo, "epigrafes/",
+               jsonld, camada="ciencia", superficie=prefixo, imagem="epigrafes"), encoding="utf-8")
 
 
 def gerar_direitos():
@@ -1355,8 +1355,8 @@ def gerar_inicio():
       {botao_desnudar()}
     </section>
 
-    <section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">
-      <h2 id="epigrafes-titulo">Trilha sonora</h2>
+    <section class="secao ciencia" id="epigrafes" aria-labelledby="epigrafes-titulo">
+      <h2 id="epigrafes-titulo">Epígrafes musicais</h2>
       {ext_html("inicio", "trilha", "")}
       <p><a class="botao" href="epigrafes/">{esc(ext_texto("epigrafes", "titulo") or "As nove canções")}</a></p>
     </section>
@@ -1710,9 +1710,9 @@ def gerar_tese():
         '<section class="bloco"><h2>Como ler aqui</h2><p>O texto de cada seção é o do original, extraído do PDF e conferido por script. '
         'Em Ciência, cada página impressa aparece marcada no ponto em que começa. Nos outros modos, a página aparece ao passar o mouse ou tocar no parágrafo, '
         'com a referência pronta para copiar. As notas de rodapé vêm ao fim de cada seção. '
-        'As letras das epígrafes estão no PDF.'
-        + (f' As duas epígrafes gerais são {" e ".join(credito_epigrafe(e) for e in C.get("epigrafe_abertura", []))}, e a segunda abre também a introdução.' if C.get("epigrafe_abertura") else "")
-        + ' A página da <a href="../epigrafes/">trilha sonora</a> conta o que cada uma das nove anuncia.' +
+        '<span class="ciencia">As letras das epígrafes estão no PDF.</span>'
+        + (f' <span class="ciencia">As duas epígrafes gerais são {" e ".join(credito_epigrafe(e) for e in C.get("epigrafe_abertura", []))}, e a segunda abre também a introdução.</span>' if C.get("epigrafe_abertura") else "")
+        + ' <span class="ciencia">A página das <a href="../epigrafes/">epígrafes musicais</a> conta o que cada uma das nove anuncia.</span>' +
         '</p></section>'
         + plano_da_tese("../", usos, por_secao) +
         f'<nav class="bloco sumario" aria-label="Sumário"><h2>Sumário</h2><ol>{"".join(itens)}</ol></nav>'
@@ -1736,7 +1736,7 @@ def gerar_tese():
         if sec["n"] == "1":
             epigrafes_sec += [e for e in C.get("epigrafe_abertura", []) if e.get("abre", "").startswith("1 ")]
         for e in epigrafes_sec:
-            partes.append(f'<aside class="epigrafe-ref" data-arq="epígrafe · a letra está no PDF">'
+            partes.append(f'<aside class="epigrafe-ref ciencia" data-arq="epígrafe · a letra está no PDF">'
                           f'<p class="sobrelinha">Epígrafe</p><p>{credito_epigrafe(e)}. '
                           f'<a href="{prefixo}epigrafes/#epigrafe-{e["ordem"]}">O que ela anuncia</a> · <a href="../{PDF_NOME}#page={e["pagina_pdf"]}">Ler a epígrafe no PDF</a>.</p></aside>')
         for b in sec["blocos"]:
@@ -3586,9 +3586,9 @@ def gerar_auxiliares():
         f"- [Seus direitos]({BASE}/direitos/): o que a plataforma deve e o que o consumidor pode pedir, em linguagem simples, uma situação por bloco, com os trechos literais da tese por baixo.",
     ] + [f"- [{DIREITOS[l]['titulo']}]({BASE}/direitos/#{l})" for l in LETRAS_DIREITOS] + [
         "",
-        "## Trilha sonora",
+        "## Epígrafes musicais",
         "",
-        f"- [Por que nove canções?]({BASE}/epigrafes/): as nove epígrafes, uma no começo de cada etapa, com a função de cada uma e o que cada canção anuncia, com os trechos literais por baixo. As letras não são reproduzidas.",
+        f"- [Por que nove canções?]({BASE}/epigrafes/): o método das epígrafes, pela seção 2.6 da tese, com a função de cada uma e o que cada canção anuncia. Só no modo Ciência.",
         "",
         "## Por problema",
         "",

@@ -63,7 +63,7 @@ Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por bai
 
 ### trilha
 
-Nove canções acompanham estes conceitos, uma no começo de cada etapa. Elas não provam nada e não estão aqui de enfeite, porque cada uma prepara, em linguagem de arte, o que o argumento vai dizer depois.
+As nove epígrafes musicais da tese integram o método. Não provam o argumento e não servem de ornamento, porque cada uma antecipa em linguagem de arte o que o capítulo vai dizer em linguagem jurídica.
 
 > As epígrafes não comparecem como ornamento, nem como autoridade substitutiva do método científico, tampouco como prova empírica do argumento. (p. 73)
 > Cada abertura de capítulo condensa, em linguagem artística, o movimento específico que o desenvolvimento dogmático realizará em linguagem jurídica. (p. 77)
@@ -76,7 +76,7 @@ Por que nove canções?
 
 ### abertura
 
-Nove canções acompanham estes conceitos, uma no começo de cada etapa do percurso. Elas não provam nada e não estão aqui de enfeite. Cada uma prepara o clima da etapa e diz, em linguagem de arte, o que o argumento vai dizer depois em linguagem de direito.
+A tese abre com duas epígrafes gerais e dá a cada capítulo de desenvolvimento uma canção, nove ao todo, sob o método exposto na seção 2.6. Elas não servem de ornamento nem de autoridade e não provam o argumento. Cada abertura condensa, em linguagem artística, o movimento que o capítulo realiza em linguagem jurídica.
 
 > As epígrafes não comparecem como ornamento, nem como autoridade substitutiva do método científico, tampouco como prova empírica do argumento. (p. 73)
 > A argumentação não se funda no excerto, nem dele extrai sua cadeia de validação. (p. 74)
@@ -84,9 +84,9 @@ Nove canções acompanham estes conceitos, uma no começo de cada etapa do percu
 
 ### moldura
 
-Nas plataformas, o governo do que você usa não está só nas regras escritas. Ele passa também pelo desenho das telas, pela linguagem da marca, pelos eventos e pelos personagens. As canções ajudam a mostrar esse lado, feito de ansiedade, desejo de pertencer, euforia, frustração e captura.
+A governança de plataforma não se esgota na regra escrita. Ela passa também pelo desenho das telas, pela linguagem da marca e pela produção simbólica contínua. A curadoria das epígrafes entra no método para apreender esse registro, feito de ansiedade, desejo de pertencer, euforia, frustração e captura.
 
-Por isso cada canção entra recortada, só com o trecho que importa para a etapa. A música não precisa coincidir por inteiro com o problema, e ela não substitui a análise que vem depois.
+O procedimento é seletivo. Cada canção entra pelo excerto que importa ao capítulo, sem presumir coincidência total entre a obra e o problema, e a análise jurídica não se apoia nela.
 
 > Na economia de plataforma, a governança não se esgota na regra escrita. (p. 73)
 > Ela se exerce também por arquitetura de escolhas, desenho de interface, linguagem de marca, curadoria de afetos e produção simbólica contínua. (p. 73)
@@ -107,7 +107,7 @@ Na poesia grega antiga, as Musas eram invocadas no começo do relato para dar o 
 
 As canções em inglês registram a gramática global do consumo digital, com promessas de pertencimento, incentivo a se explorar e uma opacidade que parece normal. As brasileiras marcam a volta ao direito do país e a passagem do problema à resposta.
 
-A troca de idioma não é detalhe de estilo. O problema nasce em escala global, dentro das plataformas, mas a proteção se constrói com a Constituição e com o Código de Defesa do Consumidor.
+A troca de idioma tem função no argumento. O problema nasce em escala global, dentro das plataformas, e a contenção jurídica se constrói com a Constituição e com o Código de Defesa do Consumidor.
 
 > O bloco anglófono registra a gramática global do consumo digital em suas promessas de pertencimento, em seus incentivos à autoexploração, em sua normalização da captura e em seu regime difuso de opacidade. (p. 77)
 > O bloco brasileiro, por sua vez, assinala o retorno ao solo institucional do Direito nacional e a passagem da experiência do problema à formulação da resposta. (p. 77)
@@ -117,62 +117,62 @@ A troca de idioma não é detalhe de estilo. O problema nasce em escala global, 
 
 ### cancao-1
 
-Abre tudo. Retrata o começo da vida digital, quando passa a se exigir um eu encenado e a promessa de liberdade das redes logo mostra o seu lado de exposição, falsidade e captura.
+Epígrafe geral da tese. Retrata o começo da vida digital, quando passa a se exigir um eu encenado e a promessa de liberdade das redes logo mostra o seu lado de exposição, falsidade e captura.
 
 > No que toca à delimitação histórico-cultural do repertório mobilizado, importa notar que o sentido atribuído pela própria compositora a The Fear, epígrafe geral do trabalho, nasce como diagnóstico de um instante inaugural da vida digital, aquele em que passa a se exigir um “eu performado” e em que a promessa libertadora das redes começa a revelar, quase de imediato, sua face de exposição contínua, falsidade e captura. (p. 76)
 
 ### cancao-2
 
-Abre a introdução. Fala da atração das comunidades digitais e da solidão dos grupos fechados, em que entrar num ambiente cobra, aos poucos, distância do mundo de fora.
+Segunda epígrafe geral, que abre também a introdução. Fala da atração das comunidades digitais e da solidão dos grupos fechados, em que entrar num ambiente cobra, aos poucos, distância do mundo de fora.
 
 > É nesse itinerário que The Love Club, segunda epígrafe geral e abertura da seção introdutória, introduz o problema da atração exercida por comunidades digitais e da solidão produzida por pertencimentos fechados, nos quais o ingresso em um ecossistema cobra, pouco a pouco, afastamento da realidade exterior. (p. 76)
 
 ### cancao-3
 
-Abre o método. Marca a passagem do universo afetivo do problema para o terreno do direito, em que é preciso entender e controlar.
+Abre o capítulo de método. Marca a passagem do universo afetivo do problema para o terreno do direito, em que é preciso entender e controlar.
 
 > O problema emerge em escala global, no interior de arquiteturas privadas de plataforma. A contenção jurídica, porém, é construída com instrumentos nacionais, sob a ordem constitucional e o Código de Defesa do Consumidor. Por isso, abrindo a seção metodológica, Coisas Que Eu Sei marca a passagem do universo afetivo e cultural do problema ao horizonte jurídico de inteligibilidade e controle. (p. 77)
 
 ### cancao-4
 
-Abre a etapa sobre a técnica, as plataformas e a economia do consumo digital. Mostra a face predatória dessa economia, num ambiente em que vigiar e extrair transformam o uso em território de caça.
+Abre o capítulo sobre a técnica, as plataformas e a economia do consumo digital. Mostra a face predatória dessa economia, num ambiente em que vigiar e extrair transformam o uso em território de caça.
 
 > A seção seguinte é recebida por Birds of Prey, que enuncia a face predatória do sistema econômico contemporâneo ao retratar um ambiente em que vigilância e extração convertem a fruição em território de caça. (p. 76)
 
 ### cancao-5
 
-Abre a etapa sobre o sentido e o governo do uso. Condensa a captura de quem vive para o desempenho, preso entre a obsessão por sucesso medido, a mecanização das condutas e a submissão às próprias posses digitais.
+Abre o capítulo sobre o sentido e o governo do uso. Condensa a captura de quem vive para o desempenho, preso entre a obsessão por sucesso medido, a mecanização das condutas e a submissão às próprias posses digitais.
 
 > Na quarta seção, Oh No! condensa a captura semiótica e psicopolítica do sujeito do desempenho, aprisionado entre a obsessão por sucesso metrificado, a mecanização das condutas e a paradoxal submissão aos próprios ativos e posses digitais. (p. 76)
 
 ### cancao-6
 
-Abre a etapa sobre o regime jurídico do que você compra. É um diálogo entre a fala de Scarlet Envy, num vídeo de divulgação de uma competição de drag queens, e a canção Villain. Juntas, mostram o governo pelo desenho na sua forma mais assertiva, com controle de um lado só e manipulação de afetos como regra.
+Abre o capítulo sobre o regime jurídico do OIC. É um diálogo entre a fala de Scarlet Envy, num vídeo de divulgação de uma competição de drag queens, e a canção Villain. Juntas, mostram o governo pelo desenho na sua forma mais assertiva, com controle de um lado só e manipulação de afetos como regra.
 
 > A quinta seção encerra esse bloco por meio de um diálogo entre a performance de Scarlet Envy e a lírica de Villain. (p. 76)
 > A composição conjunta já não apenas insinua, mas personifica a governança por arquitetura em sua forma mais assertiva, ao retratar um regime em que controle unilateral e manipulação de afetos aparecem como lógica constitutiva de funcionamento. (p. 76)
 
 ### cancao-7
 
-Abre a etapa sobre a proteção do consumidor pela Constituição e pela lei. Exprime a violência de perder o tempo, o investimento de vida e a continuidade que se acumularam dentro de um vínculo administrado pela empresa.
+Abre o capítulo sobre a tutela do consumidor na ordem constitucional e na lei. Exprime a violência de perder o tempo, o investimento de vida e a continuidade que se acumularam dentro de um vínculo administrado pela empresa.
 
 > Na sexta seção, Diz Nos Meus Olhos (Inclemência) exprime a violência da expropriação de tempo, investimento existencial e continuidade subjetiva acumulados sob vínculos administrados. (p. 77)
 
 ### cancao-8
 
-Abre a etapa sobre as outras plataformas, além do jogo. Encena o enfrentamento da caixa-preta técnica e, ao recusar que o ilegível seja destino, espelha a exigência de poder verificar o que a plataforma faz.
+Abre o capítulo sobre os modelos de plataforma além do jogo. Encena o enfrentamento da caixa-preta técnica e, ao recusar que o ilegível seja destino, espelha a exigência de poder verificar o que a plataforma faz.
 
 > Em seguida, para a sétima seção, Infinito Particular encena o enfrentamento da caixa-preta técnica e, ao rejeitar a ilegibilidade como destino, espelha a exigência de auditabilidade aberta. (p. 77)
 
 ### cancao-9
 
-Abre o fechamento. Traduz a desorientação de quem já não se reconhece, frágil diante dos sinais da plataforma e preso à própria identidade dentro dela.
+Abre o capítulo final. Traduz a desorientação de quem já não se reconhece, frágil diante dos sinais da plataforma e preso à própria identidade dentro dela.
 
 > Temporal, por sua vez, encerra o percurso ao traduzir, para a oitava e última seção de desenvolvimento, a desorientação do sujeito diante da perda de reconhecimento de si sob condições de vulnerabilidade semiótica e cativeiro identitário. (p. 77)
 
 ### villain
 
-A sexta canção nasce do próprio ambiente que serve de exemplo em todo o percurso, porque foi produzida pela empresa do jogo. Ela descreve, em primeira pessoa, um poder fundado no comando de um lado só, no uso dos afetos e no descarte do outro.
+A sexta canção nasce do próprio ambiente que serve de referência ilustrativa à tese, porque foi produzida pela empresa do jogo. Ela descreve, em primeira pessoa, um poder fundado no comando de um lado só, no uso dos afetos e no descarte do outro.
 
 Não é uma confissão, mas mostra o ambiente contando a si mesmo como cultura. Por isso a lei da plataforma governa também por enredo, estilo, personagem e performance, e não só por contrato, código e tela.
 
@@ -184,7 +184,7 @@ Não é uma confissão, mas mostra o ambiente contando a si mesmo como cultura. 
 
 A sequência vai do medo, na primeira canção, à fermata, na última. Fermata é a pausa que suspende o tempo de uma nota na música. Aqui ela vira a imagem de um direito capaz de interromper o arbítrio técnico e de pôr o tempo do fornecimento sob regras de estabilidade e controle.
 
-No caminho, as canções fazem a mesma passagem do argumento, da constatação do problema à resposta da lei. E mostram que a cultura popular percebeu a captura digital antes que o direito tivesse palavras para nomeá-la.
+No caminho, as canções fazem a mesma passagem do argumento, da constatação do problema à resposta da lei, e mostram que a cultura popular percebeu a captura digital antes que o direito tivesse palavras para nomeá-la.
 
 > A sequência das nove epígrafes percorre, em chave simbólica, a mesma passagem que a tese percorre em chave dogmática: da constatação do problema à sua contenção jurídica, da captura à resposta institucional, do medo à fermata. (p. 77-78)
 > [...] emerge a imagem conclusiva do método epigráfico: a exigência de um regime jurídico capaz de interromper o arbítrio técnico e de submeter a temporalidade do fornecimento a critérios de estabilidade, integridade e controlabilidade compatíveis com a ordem econômica constitucional e com o CDC. (p. 77)
