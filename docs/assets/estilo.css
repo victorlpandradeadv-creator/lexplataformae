@@ -990,6 +990,8 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
   :is(body.desnudo, body:has(#nivel-2:checked)) .legenda-desnudo { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
   .legenda-desnudo label { margin-top: 0; flex: none; }
 }
+.nota-par { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); }
+.gemeos-sinal { text-transform: none; letter-spacing: 0; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

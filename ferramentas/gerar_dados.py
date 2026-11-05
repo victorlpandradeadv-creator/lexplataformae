@@ -40,11 +40,11 @@ SLUGS = {
 EIXO = "oic"
 
 # Pares que aparecem colados nos percursos.
-# OIC e feixe aparecem lado a lado. O resumo da tese propõe o OIC "enquanto feixe de fruição governada".
+# OIC e feixe aparecem lado a lado. O resumo da tese propõe o OIC "enquanto feixe de fruição governada" (p. 11). A etiqueta é formulação do autor de 05/11/2026.
 # Teleologia abusiva e ilícito de arquitetura andam juntos em todos os títulos da tese (5.1.3, 6.4, 7.1.1.7).
 PARES = {
-    "oic": ("feixe-de-fruicao-governada", "enquanto"),
-    "teleologia-abusiva": ("ilicito-de-arquitetura", "par"),
+    "oic": ("feixe-de-fruicao-governada", "organiza juridicamente o"),
+    "teleologia-abusiva": ("ilicito-de-arquitetura", "como categoria de"),
 }
 
 # Seção do 7.1.1 de cada conceito que saiu do Atlas e segue no Roteiro.
@@ -110,7 +110,7 @@ PERCURSOS_DEF = {
             ("oic", "qualifica o produto imaterial"),
             ("vulnerabilidade-semiotica", "localiza a assimetria relevante"),
             ("antecipacao-hipercuratorial", "lê a expectativa governada"),
-            ("teleologia-abusiva", "identifica o ilícito"),
+            ("teleologia-abusiva", "pode identificar o ilícito"),
             ("auditabilidade-aberta", "controla as alterações"),
             ("equivalencia-de-valor-funcional", "controla as alterações"),
             ("funcao-social-da-pi", "contém a exclusividade"),

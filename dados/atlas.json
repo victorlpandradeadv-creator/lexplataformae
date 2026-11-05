@@ -12,7 +12,7 @@
    "eixo": true,
    "par": {
     "id": "feixe-de-fruicao-governada",
-    "rotulo": "enquanto"
+    "rotulo": "organiza juridicamente o"
    },
    "secao": null,
    "campos": [
@@ -252,7 +252,7 @@
    "eixo": false,
    "par": {
     "id": "ilicito-de-arquitetura",
-    "rotulo": "par"
+    "rotulo": "como categoria de"
    },
    "secao": null,
    "campos": [
@@ -331,7 +331,7 @@
    "eixo": false,
    "par": {
     "id": "teleologia-abusiva",
-    "rotulo": "par"
+    "rotulo": "como categoria de"
    },
    "secao": null,
    "campos": [
@@ -606,7 +606,7 @@
    "eixo": false,
    "par": {
     "id": "oic",
-    "rotulo": "enquanto"
+    "rotulo": "organiza juridicamente o"
    },
    "secao": null,
    "campos": [
@@ -893,13 +893,13 @@
      "id": "oic",
      "papel": "descreve o objeto",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "enquanto"
+     "par_rotulo": "organiza juridicamente o"
     },
     {
      "id": "teleologia-abusiva",
      "papel": "descreve o ilícito",
      "par": "ilicito-de-arquitetura",
-     "par_rotulo": "par"
+     "par_rotulo": "como categoria de"
     },
     {
      "id": "integridade-pessoal",
@@ -935,7 +935,7 @@
      "id": "oic",
      "papel": "qualificação do objeto e do regime de fruição",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "enquanto"
+     "par_rotulo": "organiza juridicamente o"
     },
     {
      "id": "vulnerabilidade-semiotica",
@@ -971,7 +971,7 @@
      "id": "teleologia-abusiva",
      "papel": "critério de verificação, contenção e imputação",
      "par": "ilicito-de-arquitetura",
-     "par_rotulo": "par"
+     "par_rotulo": "como categoria de"
     },
     {
      "id": "prova-e-onus",
@@ -1007,7 +1007,7 @@
      "id": "oic",
      "papel": "qualifica o produto imaterial",
      "par": "feixe-de-fruicao-governada",
-     "par_rotulo": "enquanto"
+     "par_rotulo": "organiza juridicamente o"
     },
     {
      "id": "vulnerabilidade-semiotica",
@@ -1023,9 +1023,9 @@
     },
     {
      "id": "teleologia-abusiva",
-     "papel": "identifica o ilícito",
+     "papel": "pode identificar o ilícito",
      "par": "ilicito-de-arquitetura",
-     "par_rotulo": "par"
+     "par_rotulo": "como categoria de"
     },
     {
      "id": "auditabilidade-aberta",

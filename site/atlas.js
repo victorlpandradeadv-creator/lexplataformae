@@ -240,7 +240,7 @@
     if (c && c.tipo === 'conceito') {
       var nome = link(passo.id, c.nome);
       if (passo.par && D.conceitos[passo.par]) {
-        var dica = passo.par_rotulo === 'enquanto' ? 'O resumo da tese propõe o OIC enquanto feixe de fruição governada' : 'A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7';
+        var dica = passo.id === 'oic' ? 'Formulação do autor, acréscimo posterior de 05/11/2026. O resumo da tese propõe o OIC enquanto feixe de fruição governada (p. 11)' : 'A tese formula a teleologia abusiva como categoria de ilícito de arquitetura (p. 794)';
         nome = '<span class="gemeos">' + link(passo.id, c.nome) + '<span class="gemeos-sinal" title="' + esc(dica) + '">' + esc(passo.par_rotulo) + '</span>' + link(passo.par, D.conceitos[passo.par].nome) + '</span>';
       }
       return { classe: 'passo', arq: null, html: '<span class="passo-nome">' + nome + '</span><span class="passo-papel">' + esc(passo.papel) + '</span>' };

@@ -1119,7 +1119,7 @@ def html_passo(passo, base):
     if c and c["tipo"] == "conceito":
         nome = link(c["id"], c["nome"])
         if passo.get("par") and passo["par"] in POR_ID:
-            dica = "O resumo da tese propõe o OIC enquanto feixe de fruição governada" if passo["par_rotulo"] == "enquanto" else "A tese trata os dois juntos em 5.1.3, 6.4 e 7.1.1.7"
+            dica = "Formulação do autor, acréscimo posterior de 05/11/2026. O resumo da tese propõe o OIC enquanto feixe de fruição governada (p. 11)" if passo["id"] == "oic" else "A tese formula a teleologia abusiva como categoria de ilícito de arquitetura (p. 794)"
             nome = (f'<span class="gemeos">{link(c["id"], c["nome"])}<span class="gemeos-sinal" title="{esc(dica)}">'
                     f'{esc(passo["par_rotulo"])}</span>{link(passo["par"], POR_ID[passo["par"]]["nome"])}</span>')
         corpo, classe, arq = f'<span class="passo-nome">{nome}</span>', "passo", ""
@@ -1324,7 +1324,7 @@ def gerar_inicio():
     <section class="campo" id="conceitos" aria-labelledby="conceitos-titulo">
       <h2 class="campo-titulo" id="conceitos-titulo">{TITULO_VOCABULARIO}</h2>
       <div class="campo-texto">{ext_html("inicio", "nome", "")}</div>
-      <ul class="eixo-cartoes" data-arq="eixo · o OIC enquanto feixe de fruição governada">{eixo_cartoes}</ul>
+      <ul class="eixo-cartoes" data-arq="eixo · o OIC organiza juridicamente o feixe de fruição governada">{eixo_cartoes}</ul>
       <div class="campo-topo ciencia" data-arq="integração · conceitos independentes que funcionam integrados sob o OIC">
         {ROTULO_FONTE}<blockquote class="citacao"><p>{esc(oic_def["texto"])}{pg(oic_def["ref"], "", oic_def["texto"])}</p></blockquote>
         {f'<blockquote class="citacao integra"><p>{esc(gatilho["texto"])}{pg(gatilho["ref"], "", gatilho["texto"])}</p></blockquote>' if gatilho else ""}
@@ -1338,6 +1338,7 @@ def gerar_inicio():
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
       <h2 id="leituras-titulo">Três leituras do texto integral</h2>
       <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>
+      <p class="nota-par">Acréscimo posterior de 05/11/2026. A etiqueta organiza juridicamente o é formulação do autor. O resumo da tese diz enquanto feixe de fruição governada (p. 11).</p>
       <fieldset class="percursos">
         <legend>Escolha uma leitura</legend>
         <div class="seletor">{opcoes}</div>

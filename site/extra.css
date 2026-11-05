@@ -772,3 +772,5 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
   body.desnudo .legenda-desnudo { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
   .legenda-desnudo label { margin-top: 0; flex: none; }
 }
+.nota-par { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); }
+.gemeos-sinal { text-transform: none; letter-spacing: 0; }
