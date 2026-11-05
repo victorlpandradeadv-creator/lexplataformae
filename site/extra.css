@@ -618,3 +618,114 @@ body.desnudo [data-arq-mesmo] { outline: 1px dashed var(--desnudo); outline-offs
 .expansao-nomeada .fonte-nome { margin: 0.6rem 0 0; font-family: var(--f-display); font-size: 0.95rem; font-weight: 700; color: var(--tinta); }
 .expansao-nomeada .fonte-nome:first-of-type { margin-top: 0.2rem; }
 .dados-autor { font-family: var(--f-display); font-size: 1rem; color: var(--tinta-2); }
+
+/* Disposição. Revisão de 05/11/2026, pela ordem do autor de acabar com o texto preso num canto.
+   O título ocupa a largura toda. O texto fica numa coluna de leitura, que tem à direita o índice da página e as páginas irmãs.
+   Listas e índices usam a largura toda, sem coluna vazia ao lado. */
+.moldura { max-width: 1200px; }
+.folha, .pagina-inicio { --medida: 100%; }
+.folha, .folha.leitura { max-width: none; width: 100%; }
+.leitura { max-width: none; }
+.folha-cabeca h1, .ext-cabeca h1, .chamada { max-width: none; text-wrap: pretty; }
+.secao h2, .roteiro .bloco-roteiro h2, .capitulo-fund > h2, .folha h2 { text-wrap: pretty; }
+.titulo-longo .folha-cabeca h1 { font-size: clamp(1.7rem, 4.2vw, 2.5rem); line-height: 1.14; }
+.titulo-muito-longo .folha-cabeca h1 { font-size: clamp(1.45rem, 3.2vw, 2rem); line-height: 1.2; }
+.lema, .problema, .campo-texto, .convite, .sobre, .aviso, .frase, .citacao-longa, .rodape p, .partes, .ilustracao { max-width: none; }
+.folha-abertura { gap: 0.6rem; }
+.folha-abertura:empty { display: none; }
+
+/* A coluna de texto e a coluna lateral */
+.folha-corpo { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.5rem; }
+.folha-texto { display: grid; gap: 2rem; min-width: 0; align-content: start; }
+.percurso-parte .folha-texto { gap: 2.25rem; }
+.lateral { min-width: 0; font-family: var(--f-display); }
+.lateral-bloco { display: grid; gap: 0.5rem; }
+.lateral-titulo { margin: 0; font-size: 0.875rem; font-weight: 700; line-height: 1.3; color: var(--tinta); }
+.lateral ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.1rem; border-left: 1px solid var(--linha); }
+.lateral li > a { display: block; padding: 0.3rem 0 0.3rem 0.8rem; margin-left: -1px; border-left: 2px solid transparent; font-size: 0.875rem; line-height: 1.35; color: var(--tinta-2); text-decoration: none; overflow-wrap: anywhere; }
+.lateral li > a:hover { color: var(--tinta); text-decoration: underline; }
+.lateral li.nivel-indice-2 > a { padding-left: 1.6rem; font-size: 0.8125rem; }
+.lateral a[aria-current] { color: var(--tinta); font-weight: 700; border-left-color: var(--modo, var(--acento)); }
+.lateral .parte-num { display: inline-block; min-width: 1.5rem; padding: 0; font-size: 0.75rem; }
+.lateral .num-secao { font-family: var(--f-dado); font-size: 0.75rem; }
+.lateral-indice { display: none; }
+@media (pointer: coarse) { .lateral li > a { padding-block: 0.7rem; } }
+body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, body:has(#nivel-2:checked) .esconde-2 { display: none !important; }
+.lateral-irmas:not(.lateral-curta) { display: none; }
+.lateral-fixa { display: grid; gap: 1.75rem; }
+
+@media (min-width: 900px) {
+  .folha-corpo { grid-template-columns: minmax(0, 46rem) minmax(13.5rem, 1fr); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
+  .lateral-indice, .lateral-irmas:not(.lateral-curta) { display: grid; }
+  /* O índice acompanha a leitura e para antes da chave Modo, que fica no mesmo canto. */
+  .lateral-fixa { position: sticky; top: 1.25rem; max-height: calc(100dvh - 6rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: 0.25rem; padding-top: 0.15rem; }
+  .ext p { font-size: 1.1875rem; }
+  .folha-texto, .bloco p { font-size: 1.1875rem; }
+  .leitura .texto { font-size: 1.25rem; line-height: 1.6; }
+  .citacao p, .citacao-longa { font-size: 1.125rem; }
+  /* Sem nada para pôr ao lado, o texto corre na largura toda, em vez de ficar num canto. */
+  .folha-corpo.sem-lateral { grid-template-columns: minmax(0, 1fr); }
+  body:has(#nivel-0:checked) .sem-lateral-0, body:has(#nivel-1:checked) .sem-lateral-1, body:has(#nivel-2:checked) .sem-lateral-2 { grid-template-columns: minmax(0, 1fr); }
+  body:has(#nivel-0:checked) .sem-lateral-0 > .lateral, body:has(#nivel-1:checked) .sem-lateral-1 > .lateral, body:has(#nivel-2:checked) .sem-lateral-2 > .lateral { display: none; }
+}
+
+/* Listas que ocupam a largura toda. O percurso é sequência, por isso a lista segue numa só coluna, com o texto à esquerda. */
+.percurso-mapa-lado { display: contents; }
+.percurso-mapa .percurso-comecar { order: 3; margin: 0; }
+.problemas-lista { display: grid; }
+@media (min-width: 900px) {
+  .percurso-mapa { grid-template-columns: minmax(0, 24rem) minmax(0, 1fr); column-gap: clamp(2.5rem, 5vw, 4.5rem); align-items: start; }
+  .percurso-mapa-lado { display: grid; gap: 1.25rem; position: sticky; top: 1.25rem; }
+  .percurso-comecar { order: 0; }
+  .percurso-indice .chamada { font-size: clamp(2.2rem, 4vw, 3.2rem); }
+  ul.problemas-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
+  .problemas-pagina { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
+  .problemas-pagina > :is(.sobrelinha-ext, .folha-cabeca, .problemas-lista) { grid-column: 1 / -1; }
+}
+
+/* Página inicial. A abertura corre em duas colunas e o fecho também, para o texto ocupar a moldura. */
+.abertura-duas { display: grid; gap: 1.25rem; margin-top: 0.75rem; }
+.abertura-coluna { display: grid; gap: 0.75rem; align-content: start; }
+.abertura-duas .problema { padding-bottom: 0; }
+.abertura-duas p { font-size: clamp(1.1rem, 1.6vw, 1.1875rem); line-height: 1.55; }
+.pagina-inicio .lema { max-width: none; }
+.inicio-fecho { display: grid; gap: 1rem; padding-bottom: 2rem; }
+.inicio-fecho > .convite, .inicio-fecho > .secao { padding-block: 1rem; align-content: start; }
+.grade-conceitos { display: flex; flex-wrap: wrap; }
+.grade-conceitos > li { flex: 1 1 15rem; min-width: min(100%, 15rem); }
+@media (min-width: 900px) {
+  .abertura-duas { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
+  .inicio-fecho { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
+  .campo-texto { columns: 2; column-gap: 3rem; display: block; }
+  .campo-texto p { margin-bottom: 0.75rem; orphans: 2; widows: 2; }
+  .percurso-mapa .campo-texto { columns: 1; }
+  .campo .expansao-nomeada { columns: 2; column-gap: 3rem; display: block; }
+  .campo .expansao-nomeada > * { break-inside: avoid-column; margin-bottom: 0.75rem; }
+}
+
+/* Rodapé. O nome de quem assina fica do outro lado, em vez de um texto solto à esquerda. */
+@media (min-width: 900px) {
+  .rodape { grid-template-columns: minmax(0, 1fr) auto; column-gap: 3rem; align-items: start; }
+  .rodape-estudo p { max-width: 46rem; }
+  .assinatura { grid-column: 2; grid-row: 1; }
+}
+
+/* Título de duas frases quebra entre elas. */
+.titulo-frase { display: block; }
+.trilha .num-secao { margin-right: 0.35em; }
+:is(ol, ul).partes.problemas-lista > li > a { grid-template-columns: minmax(0, 1fr); }
+
+/* Na página inicial, os trechos e a lei citada também correm em duas colunas, para não virar linha de cento e cinquenta letras. */
+.inicio-fecho > .leis-pagina { grid-column: 1 / -1; max-width: none; }
+@media (min-width: 900px) {
+  .campo-topo { display: block; columns: 2; column-gap: 3rem; max-width: none; }
+  .campo-topo > * { break-inside: avoid-column; margin-bottom: 0.75rem; }
+  .campo-topo > .rotulo-fonte { column-span: all; }
+  .inicio-fecho > .leis-pagina > ol, .inicio-fecho > .leis-pagina > ul, .inicio-fecho > .leis-pagina > div { columns: 2; column-gap: 3rem; }
+}
+.ver-nove { margin: 0; font-family: var(--f-display); font-size: 0.95rem; }
+.folha-texto :is(h2, h3, p.rotulo-ext, .leis-pagina) { scroll-margin-top: 1rem; }
+/* A etiqueta da Ciência não pode alargar a página. Endereços longos do texto integral quebram em qualquer ponto. */
+body.desnudo .lateral[data-arq]::after { max-width: 100%; }
+@media (max-width: 640px) { body.desnudo [data-arq]::after { max-width: 100%; } }
+.leitura .texto { overflow-wrap: anywhere; }

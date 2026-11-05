@@ -15,6 +15,8 @@ import shutil
 import unicodedata
 from pathlib import Path
 
+import disposicao
+
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
@@ -340,7 +342,7 @@ def rotulos_uma_vez(corpo):
     return re.sub(r'data-arq="([^"]*)"', arq, corpo)
 
 
-def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True):
+def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True, irmas=None):
     """Monta a página.
 
     camada 'mista' abre em Informação e ganha conteúdo em Doutrina e estrutura em Ciência.
@@ -350,6 +352,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     """
     canonico = BASE + "/" + caminho
     descricao = resumo(descricao)
+    # A coluna lateral sai dos títulos da própria página e das páginas irmãs. O índice nasce antes dos balões, com o texto limpo.
+    corpo, indice = disposicao.ancorar_titulos(corpo)
     # Cada artigo citado com o nome da lei ganha o texto integral em rodapé. O texto integral da tese fica como está.
     # Cada citação de autor ou fonte da lista de referências vira balão. Vale também para o texto integral.
     corpo = sem_citacao_repetida(corpo)
@@ -359,6 +363,9 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
         PAGINA_ATUAL[0] = (caminho, titulo.split(" · ")[0].replace("Lex Plataformae", "Lei da plataforma"), camada)
         corpo = com_lei(corpo, prefixo)
         PAGINA_ATUAL[0] = None
+    if 'id="leis-titulo"' in corpo:
+        indice = indice + [{"id": "leis-titulo", "rotulo": "A lei citada nesta página", "nivel": 1, "classes": {"interno"}, "modos": {1, 2}}]
+    corpo = disposicao.montar(corpo, indice, irmas)
     ld = f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>' if jsonld else ""
     minimo = NIVEL_MINIMO[camada]
     interna = minimo > 0
@@ -783,7 +790,8 @@ def gerar_problemas():
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
             pagina(f'{p["titulo"]} · Lex Plataformae', " ".join(p["abertura"]), corpo, prefixo, f'problemas/{p["slug"]}/', jsonld, camada="mista",
-                   imagem=f'problema-{p["slug"]}'),
+                   imagem=f'problema-{p["slug"]}',
+                   irmas=("Todos os problemas", [(esc(x["titulo"]), f'../{x["slug"]}/', x is p) for x in PROBLEMAS.values()])),
             encoding="utf-8")
 
 
@@ -1091,10 +1099,11 @@ def mapa_percurso(base, contexto):
         for i, parte in enumerate(PERCURSO, 1))
     cabeca = (f'<h2 class="campo-titulo" id="percurso-titulo">Siga a skin</h2>' if contexto == "inicio"
               else f'<h1 class="chamada" id="percurso-titulo">Siga a skin</h1>')
-    return (f'<section class="secao percurso-mapa" id="percurso" aria-labelledby="percurso-titulo">{cabeca}'
+    return (f'<section class="secao percurso-mapa" id="percurso" aria-labelledby="percurso-titulo">'
+            f'<div class="percurso-mapa-lado">{cabeca}'
             f'<div class="campo-texto">{ext_html("inicio", "percurso", "")}</div>'
-            f'<ol class="partes">{itens}</ol>'
-            f'<p><a class="botao" href="{base}{PERCURSO[0]["slug"]}/">Começar pela compra</a></p></section>')
+            f'<p class="percurso-comecar"><a class="botao" href="{base}{PERCURSO[0]["slug"]}/">Começar pela compra</a></p></div>'
+            f'<ol class="partes">{itens}</ol></section>')
 
 
 ROTULO_NO_PERCURSO = "Onde o percurso conta mais?"
@@ -1184,7 +1193,8 @@ def gerar_percurso():
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
             pagina(f'{parte["titulo"]} · Siga a skin · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do percurso da skin.',
-                   corpo, prefixo, f'percurso/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}'),
+                   corpo, prefixo, f'percurso/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}',
+                   irmas=("O percurso", [(f'<span class="parte-num">{j}</span>{esc(x["titulo"])}', f'../{x["slug"]}/', x is parte) for j, x in enumerate(PERCURSO, 1)])),
             encoding="utf-8")
 
 
@@ -1248,15 +1258,18 @@ def gerar_inicio():
     corpo = f"""
     <section class="abertura" aria-labelledby="titulo">
       <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
-      <div class="lema">{ext_html("inicio", "abertura", "")}</div>
-      <div class="interno expansao" data-arq="citação literal · a frase que abre o percurso">{ROTULO_FONTE}<blockquote class="citacao"><p>{esc(ab["texto"])}{pg(ab["ref"], "", ab["texto"])}</p></blockquote></div>
+      <div class="abertura-duas">
+        <div class="abertura-coluna">
+          <div class="lema">{ext_html("inicio", "abertura", "")}</div>
+          <div class="interno expansao" data-arq="citação literal · a frase que abre o percurso">{ROTULO_FONTE}<blockquote class="citacao"><p>{esc(ab["texto"])}{pg(ab["ref"], "", ab["texto"])}</p></blockquote></div>
+        </div>
+        <div class="problema" role="group" aria-label="O problema">
+          {ext_html("inicio", "problema", "")}
+        </div>
+      </div>
     </section>
 
     {figura("inicio", "")}
-
-    <section class="secao problema" aria-label="O problema">
-      {ext_html("inicio", "problema", "")}
-    </section>
 
     {mapa_percurso("percurso/", "inicio")}
 
@@ -1274,11 +1287,6 @@ def gerar_inicio():
       <p class="ver-ideia"><a href="instrumentos/">Palavras que vêm de outros campos</a></p>
     </section>
 
-    <section class="convite" aria-label="Desnudar a arquitetura">
-      {ext_html("inicio", "convite", "")}
-      {botao_desnudar()}
-    </section>
-
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
       <h2 id="leituras-titulo">Três leituras do texto integral</h2>
       <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>
@@ -1292,11 +1300,18 @@ def gerar_inicio():
       <script type="application/json" id="leituras-dados">{json.dumps(dados_leituras, ensure_ascii=False).replace("</", "<\\/")}</script>
     </section>
 
+    <div class="inicio-fecho">
+    <section class="convite" aria-label="Desnudar a arquitetura">
+      {ext_html("inicio", "convite", "")}
+      {botao_desnudar()}
+    </section>
+
     <section class="secao" id="epigrafes" aria-labelledby="epigrafes-titulo">
       <h2 id="epigrafes-titulo">Trilha sonora</h2>
       {ext_html("inicio", "trilha", "")}
       <p><a class="botao" href="epigrafes/">{esc(ext_texto("epigrafes", "titulo") or "As nove canções")}</a></p>
     </section>
+    </div>
 """
     termos = [{
         "@type": "DefinedTerm",
@@ -1468,7 +1483,8 @@ def gerar_conceito(c):
         corpo = f'<article class="folha conceito-pagina">{externo}{arquitetura}{outros_nav}</article>'
         desc = ext_texto("cartoes", c["id"]) or (resumo(can["texto"]) if can else c["nome"])
         (destino / "index.html").write_text(
-            pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"]), encoding="utf-8")
+            pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld, camada="mista", imagem=c["id"],
+                   irmas=("O vocabulário", [(nome_html(x), f'../{x["id"]}/', x is c) for x in em_ordem(conceitos_do_atlas())])), encoding="utf-8")
         return
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todo o vocabulário</a>'
@@ -1476,7 +1492,8 @@ def gerar_conceito(c):
              + "".join(partes) + outros_nav + "</article>")
     desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
-        pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld), encoding="utf-8")
+        pagina(f'{nome_titulo(c)} · Conceitos · Lex Plataformae', desc, corpo, prefixo, f'conceitos/{c["id"]}/', jsonld,
+               irmas=("O vocabulário", [(nome_html(x), f'../{x["id"]}/', False) for x in em_ordem(conceitos_do_atlas())])), encoding="utf-8")
 
 
 def conceitos_por_secao():
@@ -1501,6 +1518,14 @@ def ancestrais(sec):
         return []
     partes = n.split(".")
     return [POR_NUMERO[".".join(partes[:k])] for k in range(1, len(partes)) if ".".join(partes[:k]) in POR_NUMERO]
+
+
+def irmas_da_secao(sec):
+    """As seções do mesmo capítulo. Fora dos capítulos numerados, as partes de primeiro nível do texto integral."""
+    if sec["n"]:
+        cap = sec["n"].split(".")[0]
+        return [x for x in SECOES if x["n"] and x["n"].split(".")[0] == cap]
+    return [x for x in SECOES if not x["n"] or "." not in x["n"]]
 
 
 def rotulo_secao(sec):
@@ -1703,7 +1728,8 @@ def gerar_tese():
         destino = pasta / sec["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{rotulo_secao(sec)} · Texto integral · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld, camada="mista", lei=False),
+            pagina(f'{rotulo_secao(sec)} · Texto integral · Lex Plataformae', resumir_texto(texto_puro), corpo, prefixo, f'tese/{sec["slug"]}/', jsonld, camada="mista", lei=False,
+                   irmas=("Neste capítulo" if sec["n"] else "O texto integral", [(rotulo_secao_html(x), f'../{x["slug"]}/', x is sec) for x in irmas_da_secao(sec)])),
             encoding="utf-8")
 
 
@@ -2022,7 +2048,7 @@ def gerar_roteiro():
     pasta = SAIDA / "roteiro"
     pasta.mkdir(exist_ok=True)
     desc = "Onze situações para quem vai advogar, cada uma com um guia para operar, com fatos típicos, prova, fundamento normativo e cuidados, e o quadro em texto literal."
-    (pasta / "index.html").write_text(pagina("Situações para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld), encoding="utf-8")
+    (pasta / "index.html").write_text(pagina("Situações para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld, irmas=irmas_roteiro("7.1.2", prefixo)), encoding="utf-8")
 
 
 # As partes do Roteiro, uma página para cada seção do 7.1 que a tese organiza como instrumento de aplicação.
@@ -2034,16 +2060,19 @@ ROTEIRO_ROTULOS = {"7.1.1": "Parâmetros", "7.1.2": "Situações", "7.1.3": "Dir
 
 
 def nav_roteiro(atual, prefixo, lema=""):
+    """As quatro partes de Para operar ficam na coluna lateral. Revisão de disposição de 05/11/2026."""
+    return lema
+
+
+def irmas_roteiro(atual, prefixo):
     itens = []
     for num, caminho in ROTEIRO_PARTES:
         sec = POR_NUMERO.get(num)
         if not sec:
             continue
-        atributo = ' aria-current="page"' if num == atual else ""
-        itens.append(f'<li><a href="{prefixo}{caminho}"{atributo}><span class="em-modo modo-0 modo-1">{esc(ROTEIRO_ROTULOS[num])}</span>'
-                     f'<span class="em-modo modo-2"><span class="num">{esc(num)}</span> {esc(sec["titulo"])}</span></a></li>')
-    return ('<nav class="bloco partes-roteiro" aria-label="Partes do Roteiro" data-arq="navegação · uma página por seção do 7.1">'
-            f'<h2>Para operar</h2>{lema}<ol>{"".join(itens)}</ol></nav>')
+        itens.append((f'<span class="em-modo modo-0 modo-1">{esc(ROTEIRO_ROTULOS[num])}</span>'
+                      f'<span class="em-modo modo-2"><span class="num">{esc(num)}</span> {esc(sec["titulo"])}</span>', f"{prefixo}{caminho}", num == atual))
+    return ("Para operar", itens)
 
 
 def diretrizes():
@@ -2120,7 +2149,7 @@ def gerar_parametros():
     destino = SAIDA / "roteiro" / "parametros"
     destino.mkdir(parents=True, exist_ok=True)
     desc = "Os dez parâmetros que preparam cada situação de conflito com plataformas digitais, em sequência e em texto literal."
-    (destino / "index.html").write_text(pagina("Parâmetros para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/parametros/", jsonld), encoding="utf-8")
+    (destino / "index.html").write_text(pagina("Parâmetros para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/parametros/", jsonld, irmas=irmas_roteiro("7.1.1", prefixo)), encoding="utf-8")
 
 
 def gerar_diretrizes():
@@ -2163,7 +2192,7 @@ def gerar_diretrizes():
     destino = SAIDA / "roteiro" / "diretrizes"
     destino.mkdir(parents=True, exist_ok=True)
     desc = "As dez diretrizes da tese para o controle de arquitetura e governança em plataformas, em texto literal, com o trecho que enuncia cada uma."
-    (destino / "index.html").write_text(pagina('Diretrizes de controle das plataformas digitais · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld), encoding="utf-8")
+    (destino / "index.html").write_text(pagina('Diretrizes de controle das plataformas digitais · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld, irmas=irmas_roteiro("7.1.3", prefixo)), encoding="utf-8")
 
 
 def pagina_lida(sec, prefixo, trilha, sobrelinha, chave, topo="", nome=None, abertura="", saidas=None):
@@ -2203,7 +2232,7 @@ def gerar_limites():
     destino = SAIDA / "roteiro" / "limites"
     destino.mkdir(parents=True, exist_ok=True)
     desc = "Cidadania digital e limites ao poder privado de plataforma, a seção que fecha o 7.1 da tese, em texto integral."
-    (destino / "index.html").write_text(pagina("Cidadania digital e limites ao poder da plataforma · Lex Plataformae", desc, corpo, prefixo, "roteiro/limites/", jsonld), encoding="utf-8")
+    (destino / "index.html").write_text(pagina("Cidadania digital e limites ao poder da plataforma · Lex Plataformae", desc, corpo, prefixo, "roteiro/limites/", jsonld, irmas=irmas_roteiro("7.1.4", prefixo)), encoding="utf-8")
 
 
 # Laboratório. As famílias de plataforma do 7.2, na sequência que a própria tese declara para cada uma.
@@ -2327,7 +2356,8 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{ext_texto(slug, "titulo") or sec["titulo"]} · Plataformas · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista", imagem=slug),
+            pagina(f'{ext_texto(slug, "titulo") or sec["titulo"]} · Plataformas · Lex Plataformae', ext_texto(slug, "resumo") or resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, camada="mista", imagem=slug,
+                   irmas=("As famílias de plataforma", [(esc(ext_texto(s2, "titulo")), f"../{s2}/", s2 == slug) for _, s2 in FAMILIAS if ext_texto(s2, "titulo")])),
             encoding="utf-8")
         cartoes.append(f'<li><a class="cartao" href="{slug}/"><span class="cartao-frase">{esc(ext_texto(slug, "titulo"))}</span><b>{esc(sec["titulo"])}</b></a></li>')
 
@@ -2351,7 +2381,8 @@ def gerar_laboratorio():
         destino.mkdir(exist_ok=True)
         primeiro_txt = html.unescape(re.sub(r"<[^>]+>", " ", next((b["html"] for b in sec["blocos"] if b["tipo"] == "p"), "")))
         (destino / "index.html").write_text(
-            pagina(f'{sec["titulo"]} · Plataformas · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, superficie="../"),
+            pagina(f'{sec["titulo"]} · Plataformas · Lex Plataformae', resumo(re.sub(r"\bp\. \d+\b", " ", primeiro_txt)), corpo, prefixo, f"laboratorio/{slug}/", jsonld, superficie="../",
+                   irmas=("Os desdobramentos", [(titulo_por_modo(POR_NUMERO[n2]["titulo"]), f"../{s2}/", s2 == slug) for n2, s2 in DESDOBRAMENTOS if n2 in POR_NUMERO])),
             encoding="utf-8")
         cartoes_desdob.append(f'<li><a class="cartao" href="{slug}/"><b>{titulo_por_modo(sec["titulo"])}</b><span class="ciencia">{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></a></li>')
 
@@ -3260,6 +3291,10 @@ def gerar_autores():
     raiz = SAIDA / "autores"
     raiz.mkdir(exist_ok=True)
     grupos = {}
+
+    def mesma_area(autor):
+        return sorted((x for x in autores.values() if x["area"] == autor["area"] and not x.get("proprio")), key=lambda x: x["nome"])
+
     for chave, a in autores.items():
         if a.get("proprio"):
             continue
@@ -3323,7 +3358,8 @@ def gerar_autores():
         a["citacoes"] = len(fichas)
         (destino / "index.html").write_text(
             pagina(f'{a["nome"]} · Autores · Lex Plataformae', f'{a["nome"]} na tese. As obras da lista de referências e os {len(fichas)} trechos em que a tese o cita.',
-                   corpo, prefixo, f'autores/{a["slug"]}/', jsonld, camada="ciencia", superficie=prefixo), encoding="utf-8")
+                   corpo, prefixo, f'autores/{a["slug"]}/', jsonld, camada="ciencia", superficie=prefixo,
+                   irmas=(f'Também em {area_txt}', [(esc(x["nome"]), f'../{x["slug"]}/', x is a) for x in mesma_area(a)])), encoding="utf-8")
     secoes = []
     for area in ORDEM_AREAS:
         lista = sorted(grupos.get(area, []), key=lambda a: -a.get("citacoes", 0))
@@ -3802,7 +3838,6 @@ def gerar_derivados():
         trechos = "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in bloco["citacoes"])
         achados = ocorrencias_do_nome(nome)
         lista = "".join(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{esc(rotulo_secao(sec))}</a> <span class="vezes">{n}×</span></li>' for sec, n in achados)
-        outros = "".join(f'<li><a href="{prefixo}{caminho_derivado(t)}"><span class="nome-derivado">{esc(t)}</span></a></li>' for t in nomes if t != nome)
         corpo = (
             '<article class="folha leitura derivado-pagina">'
             f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
@@ -3810,8 +3845,7 @@ def gerar_derivados():
             f'<p class="abertura-pagina">Explicado em palavras simples no percurso da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
             f'<section class="bloco"><h2>O que é</h2>{trechos}</section>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
-            + f'<nav class="bloco" aria-label="Os outros nove derivados"><h2>Os outros nove derivados</h2><ul class="termos-lista">{outros}</ul>'
-            f'<p><a href="{prefixo}#conceitos">Os nove conceitos</a></p></nav>'
+            + f'<p class="ver-nove"><a href="{prefixo}#conceitos">Os nove conceitos</a></p>'
             '</article>')
         url = f"{BASE}/{caminho_derivado(nome)}"
         com_nome = [q["texto"] for q in bloco["citacoes"] if nome.lower() in q["texto"].lower()]
@@ -3823,7 +3857,8 @@ def gerar_derivados():
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
             pagina(f"{nome} · Conceitos · Lex Plataformae", primeiro, corpo, prefixo, caminho_derivado(nome), jsonld,
-                   superficie=f'{prefixo}percurso/{parte["slug"]}/'), encoding="utf-8")
+                   superficie=f'{prefixo}percurso/{parte["slug"]}/',
+                   irmas=("Os outros nove derivados", [(f'<span class="nome-derivado">{esc(t)}</span>', f'{prefixo}{caminho_derivado(t)}', False) for t in nomes if t != nome])), encoding="utf-8")
 
 
 def paginas_derivadas():

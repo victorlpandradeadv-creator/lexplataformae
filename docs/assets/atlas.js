@@ -2,7 +2,8 @@
    O conteúdo já chega completo no HTML. Este script só acrescenta interação.
    1. A chave Modo, com Informação, Doutrina e Ciência.
    2. A troca entre as três leituras da tese na página inicial.
-   3. O player das epígrafes, que só carrega o Spotify depois do clique. */
+   3. O player das epígrafes, que só carrega o Spotify depois do clique.
+   4. O índice lateral, que marca o título em leitura. Sem script, ele continua sendo uma lista de links. */
 (function () {
   var reduzir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -169,6 +170,35 @@
       caixa.replaceChildren(quadro);
     });
   });
+  /* O índice lateral acompanha a leitura. Só rola a própria coluna, nunca a página. */
+  var indice = document.querySelector('.lateral-indice');
+  if (indice && 'IntersectionObserver' in window) {
+    var caixa = document.querySelector('.lateral-fixa');
+    var links = {};
+    indice.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      links[decodeURIComponent(a.getAttribute('href').slice(1))] = a;
+    });
+    var alvos = Object.keys(links).map(function (id) { return document.getElementById(id); }).filter(Boolean);
+    var marcar = function (id) {
+      Object.keys(links).forEach(function (k) { links[k].removeAttribute('aria-current'); });
+      var a = links[id];
+      if (!a) return;
+      a.setAttribute('aria-current', 'location');
+      if (caixa && caixa.scrollHeight > caixa.clientHeight) {
+        var ca = caixa.getBoundingClientRect(), la = a.getBoundingClientRect();
+        if (la.top < ca.top || la.bottom > ca.bottom) caixa.scrollTop += la.top - ca.top - ca.height / 3;
+      }
+    };
+    var observador = new IntersectionObserver(function () {
+      var atual = null;
+      alvos.forEach(function (el) {
+        if (el.offsetParent !== null && el.getBoundingClientRect().top <= window.innerHeight * 0.3) atual = el;
+      });
+      if (atual) marcar(atual.id);
+    }, { rootMargin: '-30% 0px -60% 0px', threshold: [0, 1] });
+    alvos.forEach(function (el) { observador.observe(el); });
+  }
+
 
   var fonte = document.getElementById('leituras-dados');
   var lista = document.getElementById('sequencia');
@@ -264,4 +294,5 @@
       mostrar(r.value);
     });
   });
+
 })();
