@@ -362,3 +362,508 @@ A comunicação pode enganar sem mentir, porque administra o enquadramento de fo
 > Camadas sucessivas de documentos, links serializados, remissões cruzadas, linguagem excessivamente técnica, destaque visual invertido, disclaimers em cascata e deslocamento do conteúdo relevante para zonas improváveis do fluxo de contratação podem produzir o mesmo efeito jurídico da omissão. (p. 619)
 > A transparência performática não consiste em ausência de informação, mas em excesso, dispersão e hierarquização defeituosa do conteúdo essencial. (p. 620)
 >! O consumidor recebe texto, mas não recebe orientação. A plataforma encena abertura informacional enquanto mantém, sob aparência de conformidade, um regime de ruído. (p. 619-620)
+
+## situacoes abertura
+
+### Para que servem as situações?
+
+O regime precisa de uma grade operativa que preserve a unidade dogmática em contextos diferentes. As onze situações cumprem esse papel como peça de consulta. Elas não simplificam o objeto. Organizam a passagem entre o mecanismo de governança, o dever de fornecimento, a prova mínima, a qualificação jurídica e a consequência institucional possível.
+
+O quadro opera por filtros acumulativos. Primeiro se identifica o objeto e o regime de fruição. Depois se qualifica a vulnerabilidade semiótica e se verificam opacidade, mutabilidade e governança por sanção. A qualificação jurídica vem só depois, sem prejuízo de cumulação quando o mesmo arranjo revelar mais de um problema.
+
+> A passagem do regime do Objeto Imaterial de Consumo para sua incidência em diferentes famílias de plataforma exige uma grade operativa capaz de preservar unidade dogmática em contextos distintos. (p. 714)
+> Por isso, a presente sistematização funciona como peça de consulta. (p. 742)
+> O quadro opera por filtros acumulativos. (p. 742)
+
+### Por que a ordem importa?
+
+Os parâmetros não formam um inventário de conceitos. Formam uma sequência decisória, em que cada passo prepara o seguinte e limita a variação interpretativa do passo subsequente. Sem qualificar o objeto, o restante da análise se desorganiza.
+
+> Os enunciados não devem ser lidos como inventário horizontal de conceitos. (p. 716)
+> Parte-se da qualificação do objeto e do regime de fruição, sem o que o restante da análise se desorganiza. (p. 717)
+
+### Isto é um objeto imaterial de consumo?
+
+A entrada no regime exige quatro campos, todos presentes. O primeiro é o objeto prometido, identificado pelas funções centrais que organizam a expectativa legítima de fruição. O segundo é a posição de fruição sustentada, porque a aquisição inaugura um lugar no ecossistema, e não uma entrega que se esgota num instante. O terceiro é a governança infraestrutural, com critérios internos e mecanismos executivos que conformam a experiência e distribuem consequências, sem que baste a mediação técnica trivial. O quarto é a possibilidade típica de degradação relevante sem ruptura total, em que a fruição continua existindo no papel, mas é rebaixada, esvaziada ou reconfigurada.
+
+A incidência se decide por esses elementos verificáveis, e não por intuição tecnológica nem por deferência automática ao contrato. Os critérios também não dependem de acesso integral a algoritmo, logs e regras internas. O que se demonstra é a governança relevante para a utilidade adquirida e a estabilidade suficiente para produzir padrões de fruição e de degradação.
+
+> O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)
+> Exige identificar quais funções centrais organizam a expectativa legítima de fruição e, por consequência, delimitar quais alterações podem atingir o núcleo do objeto mesmo quando a continuidade formal do acesso é preservada. (p. 428)
+> Em consumo contínuo, a aquisição inaugura uma posição no ecossistema e não uma entrega exaurida em um instante. (p. 428)
+> O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor. (p. 428)
+> O quarto campo é a possibilidade típica de degradação relevante sem ruptura total. (p. 429)
+> Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada de modo a frustrar o núcleo de utilidade ofertada ou a reordenar a posição do consumidor no ecossistema em termos incompatíveis com a promessa que justificou a aquisição. (p. 429)
+> A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime, o que permite estabilizar um percurso de qualificação. (p. 429)
+> Critérios de incidência não podem depender de acesso integral a algoritmo, logs e regras internas como condição de possibilidade, pois isso converteria o OIC em categoria impraticável, reservada a casos excepcionais. (p. 429)
+
+## situacoes fecho
+
+### O que o quadro não faz?
+
+Não mecaniza a decisão nem reduz a complexidade do ambiente a uma fórmula rígida. Ele organiza a passagem entre a estrutura de governança, o dever violado, a exigência probatória mínima, a qualificação jurídica e a consequência institucional possível.
+
+> Esse quadro não pretende mecanizar a decisão nem reduzir a complexidade do ambiente a fórmula rígida. (p. 748)
+> Ele organiza, em linguagem consultável, a passagem entre estrutura de governança, dever violado, exigência probatória mínima, qualificação jurídica e consequência institucional possível. (p. 748)
+
+## quadro a
+
+### Quando incide
+Quando a utilidade consumida depende estruturalmente de um ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização.
+### Dever de fornecimento
+Assegurar fruição acessível, inteligível e preservada, nos limites da mutabilidade legítima do ambiente.
+### Prova mínima
+A dependência da utilidade em relação ao ecossistema, a forma de disponibilização da experiência e a posição concreta do consumidor no vínculo.
+### Qualificação jurídica
+Produto imaterial sob o art. 3º, § 1º, do CDC. A dimensão prestacional do vínculo não afasta o controle da fruição.
+### Consequência institucional
+Abrem-se os filtros seguintes, e a alegação de mera prestação de serviço ou de simples licença deixa de neutralizar a controvérsia.
+
+## quadro b
+
+### Quando incide
+Quando expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor.
+### Dever de fornecimento
+Não organizar a experiência por uma assimetria de sentido incompatível com boa-fé, transparência e legibilidade da fruição.
+### Prova mínima
+A jornada do usuário, a arquitetura informacional, as saliências comunicacionais, os caminhos de compreensão e os registros que permitem reconstituir a formação da expectativa.
+### Qualificação jurídica
+Prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante. Articulada a outros elementos, sustenta a redistribuição dinâmica do ônus da prova.
+### Consequência institucional
+O conflito volta à governança do ambiente, sem moralizar a conduta do consumidor, e incidem deveres reforçados de informação, publicidade e prova.
+
+## quadro c
+
+### Quando incide
+Quando a legibilidade é substituída por excesso textual, dispersão estratégica, trajetórias informacionais fragmentadas ou transparência apenas performática.
+### Dever de fornecimento
+Prestar informação materialmente adequada, útil para a decisão e verificável depois, em caso de controvérsia.
+### Prova mínima
+O que foi mostrado, quando, com qual saliência, por quais canais e em que medida isso permitia compreender o relevante para aderir, permanecer ou reagir.
+### Qualificação jurídica
+Vício de qualidade informacional, prática abusiva por obscurecimento funcional e, conforme o caso, invalidade de cláusulas ou limitações incompatíveis com a expectativa formada.
+### Consequência institucional
+Correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada.
+
+## quadro d
+
+### Quando incide
+Quando a fruição é precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas. A publicidade passa a integrar materialmente a oferta.
+### Dever de fornecimento
+Assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada.
+### Prova mínima
+O ambiente promocional, as peças de comunicação, as saliências simbólicas, o contexto de apresentação e a relação entre a promessa e a fruição posterior.
+### Qualificação jurídica
+Publicidade enganosa ou abusiva, oferta vinculante, prática abusiva por ambiguidade administrada e, dentro de um programa exploratório mais amplo, elemento de teleologia abusiva.
+### Consequência institucional
+Correção da oferta, recomposição funcional, tutela inibitória sobre a comunicação e, conforme o caso, invalidação de estratégias promocionais incompatíveis com o que foi entregue.
+
+## quadro e
+
+### Quando incide
+Quando alterações relevantes de acesso, desempenho, utilidade, regra ou sanção atingem a fruição sem trilhas mínimas de reconstrução.
+### Dever de fornecimento
+Manter verificabilidade mínima sobre o que mudou, quando, por qual motivo e com quais efeitos funcionalmente relevantes.
+### Prova mínima
+Logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados.
+### Qualificação jurídica
+Prática abusiva por opacidade imunizante, inadequação do regime de fornecimento e reforço do dever de cooperação probatória, sem prejuízo de outras incidências.
+### Consequência institucional
+Ordens de preservação e exibição, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou da sanção.
+
+## quadro f
+
+### Quando incide
+Quando a alteração degrada, esvazia ou desvia substancialmente a função que justificou a aquisição.
+### Dever de fornecimento
+Preservar, em termos substanciais, o papel funcional, relacional e, quando juridicamente relevante, simbólico do objeto.
+### Prova mínima
+A utilidade antes incorporada ao vínculo, a mudança, o impacto funcional concreto e a insuficiência da recomposição oferecida.
+### Qualificação jurídica
+Vício de qualidade do produto ou do serviço, inadequação relevante do fornecimento e, havendo exploração coordenada da mutabilidade, prática abusiva ou teleologia abusiva.
+### Consequência institucional
+Prioridade para recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, e não para a monetização automática.
+
+## quadro g
+
+### Quando incide
+Quando acesso, permanência, visibilidade ou contestação ficam condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou reversão assimétrica. Há indício de governança abusiva do vínculo.
+### Dever de fornecimento
+Assegurar procedimentos inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário.
+### Prova mínima
+Registros de sanção, fluxo de contestação, critérios usados, dificuldades estruturais de reversão e impacto concreto na continuidade da experiência.
+### Qualificação jurídica
+Prática abusiva, defeito do serviço quando comprometida a segurança jurídica e procedimental da fruição, e integração a hipótese mais ampla de ilícito arquitetural.
+### Consequência institucional
+Reversão ou revisão de sanções, deveres procedimentais, mecanismos de contestação e, em casos repetitivos, correção do regime de enforcement.
+
+## quadro h
+
+### Quando incide
+Quando microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica e equivalências elásticas operam de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina.
+### Dever de fornecimento
+Não estruturar a experiência a partir de finalidade exploratória incompatível com boa-fé, transparência, equilíbrio e tutela da fruição.
+### Prova mínima
+O padrão, a replicabilidade, a coordenação entre os mecanismos e o impacto relevante sobre autonomia prática, inteligibilidade ou utilidade.
+### Qualificação jurídica
+Prática abusiva estrutural, vício do regime de fornecimento, eventual cumulação com vício de qualidade e fundamento para tutela inibitória e corretiva de arquitetura.
+### Consequência institucional
+Vai além da reparação de episódios e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas.
+
+## quadro i
+
+### Quando incide
+Quando a plataforma concentra os elementos essenciais para narrar, demonstrar e reconstruir o conflito. A verificabilidade passa a integrar o regime legítimo do fornecimento.
+### Dever de fornecimento
+Preservar e exibir os registros mínimos necessários à reconstrução do evento.
+### Prova mínima
+Do consumidor, a apresentação plausível da experiência lesiva, sua inserção no ecossistema e os elementos de contexto acessíveis. Do fornecedor, trilhas, logs, históricos, versões e justificativas tecnicamente delimitadas.
+### Qualificação jurídica
+Redistribuição dinâmica do ônus da prova, presunções favoráveis ao consumidor e reforço do dever de cooperação, sem prejuízo dos demais parâmetros.
+### Consequência institucional
+A opacidade técnica não vira blindagem processual, e auditabilidade aberta e equivalência funcional se tornam efetivas.
+
+## quadro j
+
+### Quando incide
+Quando a plataforma invoca titularidade exclusiva, segredo empresarial, licença ou estrutura proprietária para resistir ao controle do modo de fornecimento. A compatibilização se faz pela função social e pelos limites constitucionais.
+### Dever de fornecimento
+Exercer a exclusividade sem convertê-la em escudo para opacidade absoluta, mutabilidade degradante ou supressão arbitrária da fruição.
+### Prova mínima
+A relação entre a prerrogativa invocada e o aspecto concreto do conflito, para saber se a restrição protege o ativo ou imuniza a governança.
+### Qualificação jurídica
+A propriedade intelectual segue válida no seu plano próprio, mas não funciona como veto geral à incidência do CDC.
+### Consequência institucional
+Compatibilizar exclusividade e tutela do consumidor por auditabilidade delimitada, controle da equivalência funcional e sujeição aos deveres de adequação, transparência e recomposição.
+
+## quadro k
+
+### Quando incide
+Quando a lesão atinge acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição. A resposta prioriza a recomposição funcional, e a indenização fica para a restauração inviável ou insuficiente.
+### Dever de fornecimento
+Estruturar a tutela conforme a natureza da perda, mirando a fruição afetada, e não só a sua tradução em dinheiro.
+### Prova mínima
+O nexo entre o mecanismo de governança e a perda funcional, e a possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental.
+### Qualificação jurídica
+Varia conforme a incidência principal do caso. A monetização continua possível, como resposta residual ou complementar.
+### Consequência institucional
+Restauração de acesso, reversão de sanções, preservação de histórico, substituição equivalente, ajustes de governança, tutela inibitória e correção estrutural quando o dano revelar padrão repetível.
+
+## parametros abertura
+
+### O que os parâmetros resolvem?
+
+O conflito não se resolve pela aparência do setor nem pela familiaridade social com a tecnologia. O caso precisa ser reconduzido a parâmetros densos o bastante para estabilizar expectativas, orientar a prova e permitir consequências consistentes. Eles reduzem a dependência de repertórios subjetivos do intérprete e contêm a tendência de decidir por impressões vagas sobre inovação, complexidade técnica ou liberdade empresarial. O que decide é a forma como o ambiente organiza poder privado, redistribui capacidades de compreensão e contestação e produz fricções relevantes sobre a experiência de consumo.
+
+> Impõe-se a recondução do caso a parâmetros suficientemente densos para estabilizar expectativas institucionais, orientar a formação da prova e permitir consequências normativas consistentes. (p. 714)
+> O que decide, juridicamente, é a forma pela qual o ambiente organiza poder privado, redistribui capacidades de compreensão e contestação e produz fricções relevantes sobre a experiência de consumo. (p. 715)
+>! A condição digital, por si, não decide nada. (p. 715)
+
+### Em que sequência se aplica?
+
+A aplicação parte do mecanismo de governança predominante e do tipo de fricção que ele produz. Identifica a vulnerabilidade central acionada no vínculo. Fixa o padrão de prova compatível com a estrutura do conflito. Aponta a consequência dogmática possível. A sequência funciona como trava, porque impede tanto a decomposição do conflito em cláusulas isoladas quanto a troca da análise jurídica por impressão difusa sobre tecnologia.
+
+Na ordem dos parâmetros, vêm primeiro a qualificação do objeto e a vulnerabilidade semiótica. Em seguida, informação e publicidade. Depois, auditabilidade aberta, equivalência de valor funcional, teleologia abusiva e encargos de prova. A propriedade intelectual e a recomposição funcional fecham o percurso.
+
+> A aplicação desses parâmetros é orientada por sequência reiterável. Parte-se do mecanismo de governança predominante e do tipo de fricção por ele produzido. Identifica-se a vulnerabilidade central acionada no vínculo. Fixa-se o padrão de prova compatível com a estrutura do conflito. Aponta-se, por fim, a consequência dogmática possível sob o regime do OIC. (p. 715)
+> A sequência funciona como trava de controlabilidade. (p. 715)
+> A compatibilização com a propriedade intelectual e a primazia da recomposição funcional aparecem, ao final, como fechos operacionais necessários, definindo, de um lado, o limite da exclusividade privada diante da tutela consumerista e, de outro, a forma juridicamente adequada de resposta ao conflito. (p. 717)
+
+### O que os filtros de legitimidade não exigem?
+
+Auditabilidade aberta, equivalência de valor funcional e teleologia abusiva distinguem a modulação legítima da alteração que degrada a fruição. Não congelam a inovação e não exigem transparência absoluta sobre os processos internos do fornecedor, nem domínio técnico exaustivo do julgador.
+
+> Não se trata de congelar inovação, nem de exigir transparência absoluta sobre todos os processos internos do fornecedor. (p. 716)
+> Sua relevância está em fornecer critérios de imputação verificáveis, capazes de organizar o raciocínio decisório sem exigir domínio técnico exaustivo do ecossistema pelo julgador. (p. 716)
+
+## parametro 7.1.1.1
+
+### Texto
+
+A qualificação é a chave de entrada do regime. O foco sai da ontologia civilista do bem e vai para o regime continuado de manutenção, disponibilização e modulação da fruição. O consumidor não frui um bem presumivelmente estável, e sim uma experiência condicionada por infraestrutura técnica, curadoria de acesso, atualização, visibilidade, regras de interação e mecanismos privados de execução. Titularidade formal, licença de uso e disponibilidade nominal não esgotam o problema.
+
+A qualificação produz efeito em dois planos. Impede que o controle seja neutralizado pela alegação de mera prestação de serviço ou mera licença de conteúdo. E redefine a leitura do CDC, que passa a partir da fruição como relação governada, sem negar a relevância do contrato. A dimensão prestacional não desaparece, porque comparece como modo de sustentar, atualizar e conformar o próprio objeto. A antiga pergunta sobre produto ou serviço, em chave excludente, perde utilidade.
+
+> Ela desloca o foco da ontologia civilista do bem para o regime continuado de manutenção, disponibilização e modulação da fruição. (p. 717)
+> Em tais contextos, titularidade formal, licença de uso ou mera disponibilidade nominal do objeto não esgotam o problema jurídico. (p. 718)
+> No primeiro, ela impede que o controle jurídico seja neutralizado por estratégias descritivas do fornecedor, especialmente pela alegação de que haveria apenas prestação de serviço ou mera licença de conteúdo (p. 718)
+> Em vez de operar prioritariamente a partir do contrato como enunciado formal, a disciplina passa a ser estruturada a partir da fruição como relação governada. (p. 718)
+> A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. (p. 718)
+>! O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
+
+## parametro 7.1.1.2
+
+### Texto
+
+A vulnerabilidade relevante não é atributo genérico do digital, nem hipossuficiência econômica, nem menor aptidão individual. A questão é objetiva. Sempre que a experiência for mediada por signos e interfaces cujo desenho, hierarquia, saliência e mutabilidade o fornecedor controla, há um campo de assimetria potencialmente relevante. Não se indaga se o usuário foi atento, desconfiado ou informado.
+
+A assimetria de sentido costuma vir acompanhada de assimetria de prova, porque quem controla a forma de tornar o objeto inteligível também controla logs, históricos de interface, versões de telas, critérios de curadoria e registros de alteração. A categoria serve à imputação e ao controle, e explica por que o dever de informar não se satisfaz com volume de texto e por que a publicidade se lê como gestão de expectativa.
+
+O parâmetro também delimita. Não basta o caso envolver interface, algoritmo ou ambiente online. É preciso que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição.
+
+> A vulnerabilidade relevante para a incidência do regime do Objeto Imaterial de Consumo não pode ser compreendida como atributo genérico do digital, nem ser reduzida à hipossuficiência econômica ou à menor aptidão individual do consumidor para compreender ambientes tecnicamente complexos. (p. 719)
+> Sempre que a experiência de consumo for mediada por signos e interfaces cujo desenho, hierarquia, saliência e mutabilidade sejam controlados pelo fornecedor, haverá um campo de assimetria semiótica potencialmente relevante para o Direito. (p. 720)
+> A particularidade desse mecanismo está em que a assimetria de sentido tende a vir acompanhada de assimetria de prova. (p. 720)
+> A vulnerabilidade semiótica não opera apenas como descrição sociológica do ambiente, mas como categoria de imputação e de controle. (p. 720)
+> É necessário que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição. (p. 721)
+>! A vulnerabilidade semiótica é relacional, estrutural e funcional. (p. 721)
+
+## parametro 7.1.1.3
+
+### Texto
+
+O dever de informar não se mede por quantidade. Acumular textos, links, avisos, políticas e termos não satisfaz a exigência e pode operar em sentido contrário. Informar é tornar inteligíveis os elementos essenciais da fruição no momento em que a decisão se forma e preservar condições para reconstruir depois o que foi prometido, mostrado e alterado.
+
+A inadequação assume três formas. Excesso, quando a sobrecarga impede distinguir o essencial do acessório. Dispersão, quando o relevante se pulveriza em documentos, telas e caminhos sem integração. Arquitetura de fluxo, quando o atrativo é valorizado e o oneroso vai para zonas de baixa visibilidade. O caso é de opacidade funcional produzida por desenho.
+
+A pergunta deixa de ser se o dado estava em algum lugar. Passa a ser se ele foi acessível, compreensível e relevante no momento em que poderia influenciar a expectativa ou a reação. Por isso a defesa de que tudo estava no contrato não basta, porque confunde existência formal com cumprimento material do dever.
+
+> A simples acumulação de textos, links, avisos, políticas, termos e janelas explicativas não satisfaz, por si, a exigência de informação adequada. (p. 722)
+> Informar, em sentido juridicamente relevante, é tornar inteligíveis os elementos essenciais da fruição no momento em que a decisão do consumidor se forma e, ao mesmo tempo, preservar condições mínimas para reconstrução posterior do que foi prometido, do que foi mostrado e do que foi alterado. (p. 722)
+> A inadequação informacional, assim, pode assumir a forma de excesso, dispersão e arquitetura de fluxo. (p. 722)
+> Trata-se de opacidade funcional produzida por desenho (p. 723)
+> Passa a ser se esse dado foi tornado acessível, compreensível e relevante no momento em que poderia influenciar a formação legítima da expectativa ou a reação do consumidor. (p. 723)
+> Essa fórmula confunde existência formal com cumprimento material do dever. (p. 723)
+>! O dever de informar não protege apenas contra mentira factual direta. Protege também contra o deslocamento estratégico do juridicamente relevante para regiões de baixa inteligibilidade. (p. 723)
+
+## parametro 7.1.1.4
+
+### Texto
+
+A publicidade e a oferta não são camada externa do consumo. A oferta se constrói por uma economia de sinais que antecede a fruição e condiciona a forma como o consumidor interpreta o que adquire. Teasers, vitrines, eventos promocionais, prévias, contagens regressivas, sugestões de raridade e promessas de prestígio ou desempenho compõem o programa de oferta quando participam da formação da expectativa legítima.
+
+A enganosidade não depende de falsidade frontal. Pode resultar de ambiguidade construída, de omissão relevante distribuída de forma estratégica ou de descompasso entre o sentido global da promessa e as condições reais da fruição. A publicidade pode sugerir estabilidade onde há precariedade, equivalência onde há assimetria, raridade onde há artificialidade e continuidade onde há mutabilidade intensa.
+
+O controle recai sobre o que foi prometido como valor e como função, sobre o que foi ocultado como custo ou limitação e sobre a correspondência entre essa moldura e a fruição real. Não se isola a frase de uma peça, porque a promessa pode emergir da articulação de vários elementos, inclusive saliência, timing e repetição. Não se nega a função persuasiva da atividade econômica.
+
+> A oferta, nessas hipóteses, não se resume ao enunciado final de compra. (p. 724)
+> Eles compõem o programa de oferta na medida em que participam da formação da expectativa legítima e da determinação do valor atribuído ao objeto. (p. 724)
+> A publicidade pode sugerir estabilidade onde há precariedade estrutural, equivalência onde há assimetria relevante, raridade onde há artificialidade programada, liberdade de uso onde há reversibilidade assimétrica, continuidade onde há mutabilidade intensa. (p. 725)
+> O controle da oferta deve recair sobre o que foi prometido como valor e como função, sobre o que foi ocultado como custo, limitação ou condição de precariedade, e sobre a correspondência entre essa moldura semiótica e a fruição real disponibilizada ao consumidor. (p. 725)
+> Não se trata de negar a função persuasiva própria da atividade econômica (p. 725)
+> A promessa juridicamente relevante nem sempre se encontra concentrada em um único enunciado. (p. 725)
+>! Não interessa apenas o que foi formalmente dito, mas o que foi juridicamente prometido por meio da gestão de signos, expectativas e saliências. (p. 726)
+
+## parametro 7.1.1.5
+
+### Texto
+
+Alterações relevantes precisam poder ser reconstruídas em caso de controvérsia, para que a opacidade não funcione como imunização contra o controle. A exigência é seletiva e funcional. Deve ser auditável o que importa para tornar decidível a controvérsia, como alterações de regras de acesso, reconfigurações com impacto funcional, mudanças de versão, sanções e critérios com repercussão material. A plataforma deve preservar e exibir trilhas, registros, logs mínimos, justificativas operacionais e elementos de contexto.
+
+O parâmetro não exige abertura de código-fonte nem renúncia a segredos, e também não aceita a complexidade técnica como álibi. Segredo empresarial, exclusividade econômica e complexidade deixam de ser vetos absolutos e passam a ser compatibilizados com a verificabilidade mínima. Os instrumentos são ordens de preservação, exibição delimitada, perícia restrita e motivação verificável. O mínimo de verificabilidade racionaliza o litígio, porque dá objeto cognoscível às perícias e às ordens de esclarecimento.
+
+> A exigência, por isso, é seletiva e funcional. O que deve ser auditável não é tudo, mas aquilo que importa para tornar decidível a controvérsia. (p. 727)
+> Nesses casos, a plataforma deve ser capaz de preservar e exibir trilhas, registros, logs mínimos, justificativas operacionais e elementos de contextualização suficientes para permitir verificação institucional delimitada. (p. 727)
+> A primeira transforma complexidade técnica em álibi para irresponsabilidade. (p. 727)
+> Ele a racionaliza. (p. 728)
+> A opacidade estrutural deixa, assim, de ser zona naturalmente imune à tutela e passa a ser problema jurídico tratável por ordens de preservação, exibição delimitada, perícia restrita, motivação verificável e outros instrumentos compatíveis com a racionalidade processual e administrativa do sistema protetivo. (p. 729)
+>! O que se exige não é desnudar o sistema inteiro, mas tornar controlável, em patamar suficiente, aquilo que interfere juridicamente na fruição. (p. 727)
+
+## parametro 7.1.1.6
+
+### Texto
+
+A mudança, em si, não é ilícita. O problema começa quando ela degrada, esvazia ou desvia, de modo relevante, a função que justificou a aquisição. O critério não se reduz a desempenho técnico nem a atributos isolados. Recai sobre o papel do objeto na experiência adquirida, sua utilidade no ecossistema, sua inserção relacional e, quando componha de modo objetivamente reconhecível o núcleo da aquisição, sua dimensão simbólica.
+
+A pergunta deixa de ser se a mudança cabia no poder geral de atualização. Passa a ser se a experiência continua funcionalmente equivalente, em termos substanciais. O parâmetro afasta os dois extremos, o congelamento do ambiente e a legitimação de toda alteração pela sobrevivência nominal do objeto. Também orienta o remédio, com prioridade para restauração, substituição equivalente e reversão técnica quando viável.
+
+> O problema começa quando ela deixa de operar como forma legítima de manutenção, aperfeiçoamento ou adaptação do fornecimento e passa a degradar, esvaziar ou desviar, de modo relevante, a função que justificou a aquisição e estruturou a expectativa legítima de fruição. (p. 729)
+> A equivalência de valor funcional não se reduz à manutenção de desempenho técnico em sentido estrito, nem à preservação quantitativa de atributos isolados. (p. 729)
+> A pergunta juridicamente relevante deixa então de ser se a mudança ocorreu dentro do poder geral de atualização do fornecedor. (p. 730)
+> O parâmetro, assim, impede duas distorções opostas. (p. 731)
+> Ao deslocar o foco para o núcleo funcional da experiência adquirida, torna possível priorizar restauração, substituição equivalente, reversão técnica quando viável ou outras formas de recomposição que preservem o sentido prático do vínculo, em vez de reduzir automaticamente a lesão a monetização posterior. (p. 731)
+>! A permanência do item, da funcionalidade, da conta, do acesso ou da feature não neutraliza, por si, o esvaziamento da experiência se o papel concreto do objeto for degradado, desviado ou tornado substancialmente diverso daquele que justificou a aquisição. (p. 730)
+
+## parametro 7.1.1.7
+
+### Texto
+
+Nem toda abusividade aparece como cláusula isolada, evento singular ou falha pontual. Há casos em que a exploração decorre do programa de funcionamento, e é a coordenação entre vários elementos que revela a finalidade exploratória. A arquitetura é tratada como conduta, porque organiza acesso, visibilidade, fricção, irreversibilidade, contestação e saliência. Alegações de eficiência, equilíbrio do sistema ou necessidade de atualização não bastam, por si, para neutralizar o controle.
+
+A imputação não nasce de desconforto com o modelo de negócios. Exige finalidade funcional objetivamente reconhecível, revelada pela articulação entre mecanismos de governança, vulnerabilidade, padrão de opacidade, fricções e efeitos relevantes sobre a autonomia prática e a fruição. Reconhecida a teleologia abusiva, a resposta pode alcançar o regime, com tutela inibitória, reconfiguração de fluxos, deveres de motivação e mecanismos de reversibilidade mais simétricos.
+
+> Nesses casos, a lesão não pode ser adequadamente apreendida pela decomposição do conflito em incidentes autônomos, porque é precisamente a coordenação entre múltiplos elementos do ambiente que torna cognoscível sua finalidade exploratória. (p. 732)
+> O núcleo do parâmetro está em tratar a arquitetura como conduta. (p. 732)
+> Por isso, alegações de eficiência, otimização, equilíbrio do sistema, conveniência operacional ou necessidade de atualização não bastam, por si, para neutralizar o controle. (p. 733)
+> A imputação de teleologia abusiva não pode nascer de desconforto vago com o modelo de negócios nem de crítica intuitiva à existência de monetização, engajamento ou curadoria. (p. 734)
+> Ela exige demonstração de uma finalidade funcional objetivamente reconhecível, revelada pela articulação entre mecanismos de governança, vulnerabilidade incidente, padrão de opacidade, fricções produzidas e efeitos relevantes sobre a autonomia prática e a fruição do consumidor. (p. 734)
+> Torna-se cabível pensar em tutela inibitória, em reconfiguração de fluxos, em revisão de fricções seletivas, em deveres de motivação, em mecanismos de reversibilidade mais simétricos (p. 733)
+>! O que se controla não é uma vontade íntima, mas um programa reconhecível de funcionamento. (p. 732)
+
+## parametro 7.1.1.8
+
+### Texto
+
+A prova faz parte do modo como o vínculo é governado. Quem controla logs, históricos, critérios decisórios, versões, registros de interface e vestígios de sanção controla as condições de reconstrução do que ocorreu. Exigir prova exaustiva da parte vulnerável, como se as condições fossem simétricas, premia o controle privado da obscuridade. A preservação e a exibição de registros mínimos integram o dever de conformação legítima do vínculo.
+
+Admite-se a distribuição dinâmica do ônus sempre que a prova relevante estiver sob controle técnico do fornecedor. Quanto maior a concentração privada de registros, maior a exigência de preservação, exibição delimitada e justificação verificável. Isso não dispensa verossimilhança, encadeamento argumentativo nem delimitação do objeto. A falta injustificada de registros relevantes pode autorizar presunções favoráveis ao consumidor e reforçar a imputação de inadequação do fornecimento.
+
+> Quem controla logs, históricos, critérios decisórios, versões relevantes, registros de interface, fluxos de moderação, parâmetros de alteração e vestígios de sanção controla, em larga medida, as condições de reconstrução jurídica do que ocorreu. (p. 734)
+> Nesses cenários, exigir prova exaustiva da parte vulnerável como se as condições de produção do litígio fossem simétricas significa, na prática, premiar o controle privado da obscuridade. (p. 735)
+> A consequência disso é a admissibilidade de distribuição dinâmica do ônus probatório sempre que a prova relevante estiver estruturalmente sob controle técnico do fornecedor. (p. 735)
+> Quanto mais intensa a concentração privada de registros, maior a exigência de preservação, de exibição delimitada e de justificação verificável. (p. 736)
+> Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido. (p. 736)
+> Pode autorizar presunções favoráveis ao consumidor e reforçar a imputação de inadequação do regime de fornecimento. (p. 736)
+>! O Direito não pode aceitar que a plataforma administre simultaneamente a fruição, a narrativa do evento e as condições de sua verificabilidade, convertendo essa tripla concentração em vantagem processual autolegitimadora. (p. 736)
+
+## parametro 7.1.1.9
+
+### Texto
+
+A exclusividade protegida não legitima de forma irrestrita o modo como ela é exercida na relação de consumo. A proteção segue íntegra no seu plano próprio, mas não funciona como imunização contra o controle de adequação, transparência, lealdade, equivalência funcional e tutela da fruição. O titular conserva prerrogativas econômicas e técnicas, inclusive para organizar o ambiente, proteger ativos e preservar elementos internos. Não conserva a possibilidade de afastar de antemão o controle do fornecimento.
+
+A compatibilização passa pelos filtros do regime. A auditabilidade aberta não exige revelar segredos, e a equivalência funcional não nega a prerrogativa de atualizar. Havendo conflito, a solução vem da compatibilização funcional dos institutos, sob os limites constitucionais e a função social.
+
+> A proteção da propriedade intelectual permanece íntegra em seu plano próprio, mas isso não autoriza que sua invocação funcione como cláusula geral de imunização contra controle de adequação, transparência, lealdade, equivalência funcional e tutela da fruição. (p. 737)
+> O titular da exclusividade conserva, em consequência, suas prerrogativas econômicas e técnicas, inclusive para organizar o ecossistema, proteger seus ativos e preservar elementos internos de funcionamento. (p. 738)
+> A auditabilidade aberta é plenamente compatível com a propriedade intelectual porque não exige revelação integral de segredos empresariais ou exposição total da arquitetura tecnológica (p. 738)
+> a solução deverá ser buscada pela compatibilização funcional dos institutos, sob a primazia dos limites constitucionais brasileiros e da função social que conforma o uso legítimo das posições proprietárias. (p. 739)
+>! A propriedade intelectual protege o ecossistema, mas não absolve sua governança. (p. 739)
+
+## parametro 7.1.1.10
+
+### Texto
+
+A resposta não parte da conversão automática da lesão em dinheiro. Sempre que técnica e juridicamente viável, a tutela prioritária é a recomposição funcional e a correção do regime. O pagamento posterior pode deixar intocado o mecanismo lesivo e normalizar a perda como custo ordinário do modelo. A recomposição pode envolver restauração de acesso, reversão ou revisão de sanções, preservação de histórico, reativação de funcionalidades, substituição equivalente, reversibilidade de versões, motivação verificável e mecanismos de contestação.
+
+Complexidade técnica não equivale a impossibilidade. Não se exige congelamento do ambiente nem submissão das decisões técnicas à vontade individual do consumidor. Quando a lesão é arquitetural e repetível, abre-se a correção de regime, com tutela inibitória, medidas estruturais, providências coletivas e compliance compulsório. A indenização continua legítima, em posição residual ou complementar, para recompor o que a tutela específica não alcança e reconhecer danos extrapatrimoniais quando presentes.
+
+> Em relações dessa natureza, o simples pagamento posterior de quantia em dinheiro pode deixar intocado o mecanismo lesivo, preservar a arquitetura que produziu o problema e normalizar a repetição da perda como custo ordinário do modelo de fornecimento. (p. 739)
+> Pode envolver manutenção ou restauração de acesso, reversão ou revisão de sanções, preservação de histórico, reativação de funcionalidades, substituição por posição funcionalmente equivalente, reversibilidade de versões quando tecnicamente possível, correções procedimentais de governança, deveres de motivação verificável, mecanismos inteligíveis de contestação (p. 740)
+> Complexidade não equivale a impossibilidade. (p. 741)
+> Não se exige congelamento do ecossistema nem submissão de toda decisão técnica do fornecedor à vontade individual do consumidor. (p. 741)
+> Com isso, torna-se possível justificar tutela inibitória, medidas estruturais, providências coletivas e até mecanismos de compliance compulsório compatíveis com auditabilidade aberta e controle institucional da fruição. (p. 741)
+> Ela assume natureza residual ou complementar sempre que a recomposição funcional for inviável, insuficiente ou incapaz de abarcar integralmente os (p. 741)
+> seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes. (p. 742)
+>! Transformar abusos estruturais em meras despesas operacionais é, na prática, neutralizar o Direito pela via contábil. (p. 742)
+
+## diretrizes abertura
+
+### Onde deve recair o exame?
+
+O exame não fica em cláusulas isoladas, atos terminais ou eventos pontuais. O centro é o regime do fornecimento, isto é, o programa de funcionamento do ambiente, os mecanismos pelos quais a fruição é administrada e os filtros de legitimidade que o tornam controlável. As dez diretrizes abaixo organizam esse controle, e em conjunto recusam tanto o exame atomizado quanto a generalização inflamada.
+
+> O ponto de gravidade do exame deve ser o regime do (p. 748)
+> Essas diretrizes, em conjunto, oferecem critério de aplicação que recusa tanto o exame atomizado quanto a generalização inflamada. (p. 752)
+
+## diretriz 1
+
+### Arquitetura e governança integram o fornecimento
+
+Arquitetura e governança integram o próprio fornecimento e não são cenário neutro. É pela arquitetura que a plataforma define percursos, fricções, saliências, reversibilidade e custos de compreensão, e é pela governança que administra permanência, sanção, atualização, prioridade, visibilidade e contestação. Invisibilizar essa estrutura reduz o debate aos atos finais de um ambiente que já predeterminou a experiência controvertida.
+
+> A primeira diretriz, portanto, consiste em tratar arquitetura e governança não como cenário neutro do vínculo, mas como elementos constitutivos do próprio fornecimento. (p. 749)
+> É pela governança que o fornecedor administra permanência, sanção, atualização, prioridade, visibilidade e mecanismos de contestação. (p. 749)
+
+## diretriz 2
+
+### Alterações se julgam por auditabilidade e equivalência
+
+Alterações relevantes, mudanças de regra e reconfigurações com impacto material não se julgam pelo discurso genérico de atualização, inovação ou conveniência técnica. Examinam-se pela auditabilidade aberta e pela equivalência de valor funcional. A pergunta é se a alteração foi tornada inteligível e se preservou a função que justificou a aquisição, e não apenas se a plataforma podia alterar.
+
+> Devem ser examinadas à luz da auditabilidade aberta e da equivalência de valor funcional. (p. 749)
+> A pergunta relevante não é apenas se a plataforma podia alterar. (p. 749)
+
+## diretriz 3
+
+### Sanção exige motivação e contestação de verdade
+
+Sanções privadas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. O procedimento precisa ser reconstruível, e a contestação não pode ser ritual vazio. O exame alcança também as condições procedimentais que o fornecedor desenhou para adesão, fruição, prova e resistência.
+
+> Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
+> É necessário que o procedimento seja institucionalmente reconstruível e que a contestação não seja mero ritual vazio. (p. 750)
+
+## diretriz 4
+
+### O caso se lê na sua trajetória
+
+A controvérsia se reconstrói a partir do ambiente em que surgiu, e não só do momento em que se exteriorizou. Julgadores e órgãos de tutela consideram como a plataforma organizou, desde o início, adesão, compreensão, circulação de informação, acesso a registros e contestação. O caso é visto na sua trajetória, e não apenas no desfecho.
+
+> Isso significa que julgadores e órgãos de tutela precisam considerar a forma pela qual a plataforma organizou, desde o início, as condições de adesão, compreensão, circulação de informação, acesso a registros e possibilidade de contestação. (p. 750)
+> O caso, portanto, precisa ser visto em sua trajetória e não apenas em seu desfecho. (p. 750)
+
+## diretriz 5
+
+### Opacidade não é privilégio processual
+
+A opacidade estrutural não é traço inevitável e neutro da complexidade digital. É fator de intensificação da vulnerabilidade e da assimetria probatória. Justifica ordens de preservação e exibição de registros mínimos, delimitação de perícias e redistribuição dinâmica do ônus sempre que a prova relevante nascer e permanecer sob controle técnico do fornecedor.
+
+> Deve ser reconhecida como fator de intensificação da vulnerabilidade e da assimetria probatória. (p. 750)
+> Esse dado justifica ordens de preservação e exibição de registros mínimos, delimitação de perícias e redistribuição dinâmica do ônus probatório sempre que a prova relevante nascer e permanecer sob controle técnico do fornecedor. (p. 750)
+>! A opacidade, em outras palavras, não pode operar como privilégio processual autogerado pelo próprio modelo de governança. (p. 750)
+
+## diretriz 6
+
+### Nem pulverizar, nem transformar em manifesto
+
+O controle evita tanto a pulverização em litígios individuais incapazes de atingir a fonte da lesão quanto a transformação de cada caso em manifesto contra a tecnologia. Precisa distinguir a inadequação individual corrigível sem maior expansão do vício de regime, repetível e incorporado ao funcionamento ordinário. Essa distinção calibra a resposta.
+
+> O controle precisa ser suficientemente específico para responder ao conflito concreto e suficientemente atento à estrutura para identificar quando esse conflito é manifestação localizada de um padrão reiterado. (p. 750)
+>! Nem atomização, nem grandiloquência. (p. 750)
+
+## diretriz 7
+
+### Recompor antes de indenizar
+
+Na lesão arquitetural, a resposta privilegia recomposição funcional e correção procedimental. Sempre que possível, cabem restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança.
+
+> Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização. (p. 751)
+> O que se exige, sempre que possível, é restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança. (p. 751)
+
+## diretriz 8
+
+### Padrão reiterado pede correção de regime
+
+Quando o padrão de lesão é reiterado, replicável e incorporado à estrutura, a tutela não se limita ao caso singular. Abre-se espaço para tutela inibitória e correção de regime, com deveres procedimentais, ajustes de arquitetura, auditabilidade reforçada, revisão de fluxos de sanção e canais inteligíveis de contestação.
+
+> Quando o padrão de lesão se revelar reiterado, replicável e incorporado à estrutura do ambiente, a tutela não deve se limitar ao caso singular. (p. 751)
+> Isso inclui deveres procedimentais, ajustes de arquitetura, exigências reforçadas de auditabilidade, revisão de fluxos de sanção, imposição de canais inteligíveis de contestação (p. 751)
+
+## diretriz 9
+
+### O julgador não precisa virar engenheiro
+
+O controle não exige que o julgador vire engenheiro do sistema. Exige reconduzir o ambiente a filtros verificáveis de legitimidade. Auditabilidade aberta, equivalência funcional, motivação verificável, coerência procedimental, inteligibilidade da contestação, preservação de registros e compatibilização entre exclusividade e tutela bastam para tornar o conflito decidível.
+
+> O controle de arquitetura e governança não exige que o julgador se transforme em engenheiro do sistema nem que o órgão de tutela detenha domínio técnico integral do ecossistema. (p. 751)
+>! A complexidade do digital não elimina o Direito. Apenas exige que ele escolha com mais rigor o que precisa compreender para controlar. (p. 751)
+
+## diretriz 10
+
+### Fornecimento, prova e remédio são um só problema
+
+Fornecimento, prova e remédio não se separam de forma rígida. A oferta interfere na percepção da perda, a governança condiciona a prova e a distribuição de acesso e opacidade influencia a adequação do remédio. Separar esses planos produz decisões organizadas na forma e cegas na matéria.
+
+> Por fim, uma décima diretriz impõe que o exame institucional preserve unidade entre fornecimento, prova e remédio. (p. 751)
+> A forma como a arquitetura distribui acesso e opacidade influencia a adequação do remédio. (p. 751)
+
+## limites
+
+### Até onde vai o poder privado da plataforma?
+
+O fornecimento pode incidir sobre condições práticas de participação, visibilidade, reputação, permanência e contestação. Nos objetos de longa duração, sanções, apagamentos e degradações unilaterais podem atingir continuidade biográfica, inserção relacional e identidade simbólica, além do que é patrimonial. Isso não transforma qualquer desconforto digital em drama identitário.
+
+> Ele incide, cada vez mais, sobre condições práticas de participação, visibilidade, reputação, permanência e contestação em ambientes que estruturam parcelas relevantes da vida social contemporânea. (p. 752)
+> Não se trata de inflacionar qualquer desconforto digital à condição de drama identitário. (p. 753)
+
+### A plataforma é equiparada ao Estado?
+
+Não. A relevância pública funcional não produz equiparação estatal, e o CDC não vira constituição paralela da vida digital. Mas a plataforma também não é fornecedor institucionalmente neutro. O ordenamento já tem matrizes de limitação, como a Constituição e o CDC, em compatibilização com a função social da propriedade e com a propriedade intelectual.
+
+> Relevância pública funcional não produz equiparação estatal, mas tampouco autoriza tratar a plataforma como fornecedor institucionalmente neutro. (p. 753)
+> Não se trata de equiparar plataforma a Estado, nem de converter o CDC em constituição paralela da vida digital. (p. 753)
+
+### O que fazer com as autodescrições da plataforma?
+
+A plataforma costuma se apresentar como mero intermediário, tecnologia neutra ou prestador global regido pelos próprios termos. Essas figuras deslocam a discussão para fora da imputação, e o regime não as aceita como critério suficiente. Importa como ela organiza acesso, permanência, visibilidade, contestação e fruição.
+
+> O que importa não é como a plataforma se nomeia, mas como organiza acesso, permanência, visibilidade, contestação e fruição. (p. 754)
+>! O intermediário dirá que apenas conecta. A tecnologia neutra dirá que apenas executa. O prestador global dirá que apenas opera segundo seus próprios termos universais. (p. 754)
+
+### Qual é o papel da cidadania digital?
+
+É um problema funcional de participação sob governança privada, e não categoria celebratória. Ela não substitui o regime. Explica por que certos conflitos não podem ser tratados como aborrecimentos contratuais de baixa densidade, quando a plataforma administra portas de entrada, critérios de permanência, visibilidade e meios de contestação.
+
+> Ela comparece como problema funcional de participação sob governança privada. (p. 754)
+> A cidadania digital, nesse contexto, não substitui o regime do OIC. (p. 754)
+>! Porque quando o poder privado começa a governar a participação como se fosse clima, e não escolha institucionalmente controlável, o Direito já está atrasado demais. (p. 755)

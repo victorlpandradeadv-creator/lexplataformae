@@ -58,7 +58,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 5.1.2 | Do Objeto Imaterial de Consumo como conceito-infraestrutura | 407 a 411 | 19 | 6 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.1 | Da relevância normativa do OIC e sua inserção na disciplina do consumo | 411 a 423 | 1 | 1 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1.2.2 | Da qualificação funcional do OIC e sua coerência sistemática ao CDC | 423 a 427 | 9 | 2 | Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados) |
-| 5.1.2.3 | Dos critérios de reconhecimento do OIC e dos limites de aplicação da categoria | 427 a 435 | 43 | 22 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados); Roteiro (O portão de entrada) |
+| 5.1.2.3 | Dos critérios de reconhecimento do OIC e dos limites de aplicação da categoria | 427 a 435 | 43 | 30 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5); Dogmática (Dispositivos citados); Roteiro (O portão de entrada) |
 | 5.1.2.4 | Da fruição continuada e a utilidade da dicotomia produto-serviço no CDC | 435 a 444 | 6 | 1 | Fichas (Feixe de fruição governada); Dogmática (Seções do capítulo 5) |
 | 5.1.3 | Da teleologia abusiva e o ilícito de arquitetura em plataformas | 444 a 456 | 19 | 12 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 5) |
 | 5.1.4 | Da integridade pessoal, identidade simbólica e cidadania digital | 456 a 469 | 3 | 2 | Fichas (Integridade pessoal); Dogmática (Seções do capítulo 5) |

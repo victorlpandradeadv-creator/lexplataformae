@@ -499,7 +499,8 @@ def doutrina_html(chave, prefixo, nivel="h2"):
     secoes = []
     for s in DOUTRINA.get(chave, []):
         impacto = "".join(f'<blockquote class="citacao impacto"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in s["impacto"])
-        secoes.append(f'<section class="ext bloco-doutrina"><{nivel} class="rotulo-ext">{esc(s["titulo"])}</{nivel}>'
+        cabeca = "" if s["titulo"] == "Texto" else f'<{nivel} class="rotulo-ext">{esc(s["titulo"])}</{nivel}>'
+        secoes.append(f'<section class="ext bloco-doutrina">{cabeca}'
                       + "".join(f"<p>{esc(t)}</p>" for t in s["paragrafos"]) + impacto + expansao(s["ancoras"], prefixo, "ciencia") + "</section>")
     return "".join(secoes)
 
@@ -1820,7 +1821,6 @@ SITUACOES = {
     "j": "Quando a propriedade intelectual vira escudo",
     "k": "O que pedir, restaurar antes de indenizar",
 }
-PORTAO_TITULO = "Isto é um objeto imaterial de consumo?"
 
 PARTES_ROTEIRO = [
     ("Quando incide", r"Sempre que"),
@@ -2034,22 +2034,6 @@ def gerar_roteiro():
         return
     prefixo = "../"
     slug = r["secao"]["slug"]
-    campos = POR_NUMERO.get("5.1.2.3")
-    portao = []
-    if campos:
-        texto = " ".join(b["html"] for b in campos["blocos"])
-        for inicio in ("O primeiro campo", "O segundo campo", "O terceiro campo", "O quarto campo", "A incidência não se decide"):
-            m = re.search(re.escape(inicio) + r".*?\.(?=\s|$)", texto)
-            if m:
-                portao.append(html_do_corpus(m.group(0), campos["slug"], prefixo))
-    enunciados = POR_NUMERO.get("7.1.1")
-    intro_711 = ""
-    if enunciados:
-        texto = " ".join(b["html"] for b in enunciados["blocos"])
-        m = re.search(r"Os enunciados não devem ser lidos.*?passo subsequente\.", texto)
-        if m:
-            intro_711 = html_do_corpus(m.group(0), enunciados["slug"], prefixo)
-
     secoes = []
     for it in r["itens"]:
         num, ids = ROTEIRO_MAPA.get(it["letra"], (None, []))
@@ -2058,26 +2042,20 @@ def gerar_roteiro():
             ligacoes.append(f'<a href="{prefixo}roteiro/parametros/#parametro-{it["letra"]}">O parâmetro</a>')
             ligacoes.append(f'<span class="ciencia"> · <a href="{prefixo}tese/{POR_NUMERO[num]["slug"]}/">Enunciado {num} na tese</a></span>')
         ligacoes += [f'<a href="{prefixo}conceitos/{i}/">{nome_html(POR_ID[i])}</a>' for i in ids if i in POR_ID]
-        dl = "".join(f'<dt>{esc(rot)}</dt><dd data-ref="{esc(ref)}" data-alvo="{prefixo}tese/{slug}/#p{re.match(r"p. (\d+)", ref).group(1)}">{html_do_corpus(h, slug, prefixo)}</dd>'
+        # O campo do quadro fala na voz do site, e o texto literal fica logo abaixo, só na Ciência. Revisão de voz de 05/11/2026.
+        campos_site = {s["titulo"]: " ".join(s["paragrafos"]) for s in DOUTRINA.get(f'quadro {it["letra"]}', [])}
+        dl = "".join(f'<dt>{esc(rot)}</dt><dd>{esc(campos_site.get(rot, ""))}</dd>'
+                     f'<dd class="quadro-literal ciencia" data-ref="{esc(ref)}" data-alvo="{prefixo}tese/{slug}/#p{re.match(r"p. (\d+)", ref).group(1)}">{html_do_corpus(h, slug, prefixo)}</dd>'
                      for rot, h, ref in it["partes"])
         secoes.append(
             f'<section class="bloco-roteiro" id="{it["letra"]}" aria-labelledby="titulo-{it["letra"]}">'
             f'<h2 id="titulo-{it["letra"]}">{esc(SITUACOES.get(it["letra"], it["titulo"]))}</h2>'
             f'<p class="titulo-tese ciencia"><span class="letra">{it["letra"]})</span> {esc(it["titulo"])}</p>'
             + operar_html(it["letra"], prefixo)
-            + f'<dl class="partes quadro" data-arq="texto literal do 7.1.2 · cinco partes da tese">{dl}</dl>'
+            + f'<dl class="partes quadro" data-arq="o quadro do 7.1.2 · cinco partes, na voz do site e em texto literal">{dl}</dl>'
             + (f'<p class="ligacoes">{"".join(l if k == 0 or l.startswith("<span") else " · " + l for k, l in enumerate(ligacoes))}</p>' if ligacoes else "")
             + "</section>")
-    lista_portao = "".join(f"<li>{x}</li>" for x in portao[:4])
-    regra_portao = f"<p>{portao[4]}</p>" if len(portao) > 4 else ""
     indice = "".join(f'<li><a href="#{it["letra"]}"><span class="letra ciencia">{it["letra"]})</span> {esc(SITUACOES.get(it["letra"], it["titulo"]))}</a></li>' for it in r["itens"])
-    grade = ""
-    if POR_NUMERO.get("7.1"):
-        s71 = POR_NUMERO["7.1"]
-        primeiro = next((b["html"] for b in s71["blocos"] if b["tipo"] == "p"), "")
-        m = re.search(r"A passagem do regime.*?contextos distintos\.", primeiro)
-        if m:
-            grade = f'<blockquote class="citacao"><p>{html_do_corpus(m.group(0), s71["slug"], prefixo)}{pg("p. 714", prefixo, _plano(m.group(0)))}</p></blockquote>'
     intro = OPERAR.get("intro")
     como_usar = (f'<section class="bloco como-usar"><h2>Como usar</h2>' + "".join(f"<p>{esc(t)}</p>" for t in intro["texto"])
                  + expansao(intro["citacoes"], prefixo, "ciencia") + "</section>") if intro else ""
@@ -2085,23 +2063,21 @@ def gerar_roteiro():
         '<article class="folha leitura roteiro">'
         '<header class="folha-cabeca"><p class="sobrelinha ciencia">Situações · 7.1.2 da tese</p><h1>Situações</h1>'
         '<p class="abertura-pagina">Onze situações em que o regime se aplica a um conflito com a plataforma. '
-        'Cada uma começa por um guia para operar e termina no quadro, em texto literal, com o que incide, o que se deve, o que provar e o que pedir.</p>'
-        + ROTULO_LITERAL + grade + "".join(f'<blockquote class="citacao"><p>{html_do_corpus(a, slug, prefixo)}</p></blockquote>' for a in r["abertura"][1:2]) +
+        'Cada uma traz o guia para operar e o quadro, com o que incide, o que se deve, o que provar e o que pedir.</p>'
         '</header>'
         + nav_roteiro("7.1.2", prefixo)
+        + doutrina_html("situacoes abertura", prefixo)
         + como_usar
-        + (f'<section class="bloco"><h2>Por que a ordem importa</h2><blockquote class="citacao"><p>{intro_711}</p></blockquote></section>' if intro_711 else "")
-        + (f'<section class="bloco portao" id="portao" data-arq="portão · os quatro campos cumulativos do OIC"><h2>{esc(PORTAO_TITULO)}</h2><ol>{lista_portao}</ol>{regra_portao}</section>' if lista_portao else "")
         + f'<nav class="bloco indice-roteiro" aria-label="As situações"><h2>As onze situações</h2><ol>{indice}</ol></nav>'
         + "".join(secoes)
-        + (f'<section class="bloco"><h2>O que este quadro não faz</h2><blockquote class="citacao"><p>{html_do_corpus(r["fecho"], slug, prefixo)}</p></blockquote></section>' if r["fecho"] else "")
+        + doutrina_html("situacoes fecho", prefixo)
         + '</article>'
     )
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": "Situações · Lex Plataformae", "inLanguage": "pt-BR",
               "url": BASE + "/roteiro/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     pasta = SAIDA / "roteiro"
     pasta.mkdir(exist_ok=True)
-    desc = "Onze situações para quem vai advogar, cada uma com um guia para operar, com fatos típicos, prova, fundamento normativo e cuidados, e o quadro em texto literal."
+    desc = "Onze situações para quem vai advogar, cada uma com fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
     (pasta / "index.html").write_text(pagina("Situações para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/", jsonld, irmas=irmas_roteiro("7.1.2", prefixo)), encoding="utf-8")
 
 
@@ -2167,7 +2143,7 @@ def indice_destaques(achados, titulo="Em frases do texto integral"):
 
 
 def gerar_parametros():
-    """Os dez enunciados do 7.1.1, em texto integral, cada um com o título da situação do quadro que ele prepara."""
+    """Os dez parâmetros, na voz do site, cada um com o título da situação que prepara. O literal fica no texto integral."""
     s71, s711 = POR_NUMERO.get("7.1"), POR_NUMERO.get("7.1.1")
     if not s71 or not s711:
         return
@@ -2183,17 +2159,15 @@ def gerar_parametros():
             f'<section class="bloco-roteiro" id="parametro-{letra}" aria-labelledby="titulo-parametro-{letra}">'
             f'<h2 id="titulo-parametro-{letra}">{esc(titulo)}</h2>'
             f'<p class="titulo-tese ciencia"><span class="letra">{esc(num)}</span> {esc(sec["titulo"])}</p>'
-            f'{ROTULO_LITERAL}<div class="texto">{blocos_simples(sec["blocos"], sec["slug"], prefixo)}</div>'
-            f'<p class="ligacoes"><a href="{prefixo}roteiro/#{letra}">A situação no quadro</a></p>'
+            + doutrina_html(f"parametro {num}", prefixo)
+            + f'<p class="ligacoes"><a href="{prefixo}roteiro/#{letra}">A situação no quadro</a><span class="ciencia"> · <a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></span></p>'
             f'{nomeados_html(termos_em(texto_de(sec["blocos"])), prefixo)}</section>')
     corpo = (
         '<article class="folha leitura roteiro">'
         f'<header class="folha-cabeca"><p class="sobrelinha ciencia">7.1 e 7.1.1 · p. {s71["pagina_inicio"]} a {POR_NUMERO["7.1.1.10"]["pagina_fim"] if "7.1.1.10" in POR_NUMERO else s711["pagina_fim"]}</p>'
-        f'<h1>Parâmetros</h1><p class="abertura-pagina">Os dez parâmetros organizam a leitura de cada caso, um por situação, na ordem em que a análise deve avançar. '
-        'Primeiro vem o texto que apresenta o roteiro e a ordem, depois cada parâmetro com o caminho para a sua situação.</p>'
-        f'{ROTULO_LITERAL}<div class="texto">{blocos_simples(s71["blocos"], s71["slug"], prefixo)}</div></header>'
-        + nav_roteiro("7.1.1", prefixo)
-        + f'<section class="bloco"><h2>A ordem dos parâmetros</h2><div class="texto">{blocos_simples(s711["blocos"], s711["slug"], prefixo)}</div></section>'
+        f'<h1>Parâmetros</h1><p class="abertura-pagina">Os dez parâmetros organizam a leitura de cada caso, um por situação, na ordem em que a análise avança. '
+        'Cada um diz o que controla, o que não basta e aonde leva.</p></header>'
+        + doutrina_html("parametros abertura", prefixo)
         + f'<nav class="bloco indice-roteiro" aria-label="Os parâmetros"><h2>Os dez parâmetros</h2><ol>{"".join(indice)}</ol></nav>'
         + "".join(secoes)
         + saidas_html([("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
@@ -2202,50 +2176,41 @@ def gerar_parametros():
               "url": BASE + "/roteiro/parametros/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     destino = SAIDA / "roteiro" / "parametros"
     destino.mkdir(parents=True, exist_ok=True)
-    desc = "Os dez parâmetros que preparam cada situação de conflito com plataformas digitais, em sequência e em texto literal."
+    desc = "Os dez parâmetros que preparam cada situação de conflito com plataformas digitais, com o que controlam, o que não basta e aonde levam."
     (destino / "index.html").write_text(pagina("Parâmetros para operar em conflitos com plataformas digitais · Lex Plataformae", desc, corpo, prefixo, "roteiro/parametros/", jsonld, irmas=irmas_roteiro("7.1.1", prefixo)), encoding="utf-8")
 
 
 def gerar_diretrizes():
-    d = diretrizes()
-    if not d or len(d["itens"]) != 10:
-        print("7.1.3 sem as dez diretrizes, página não gerada")
+    sec = POR_NUMERO.get("7.1.3")
+    if not sec:
         return
-    sec, prefixo = d["secao"], "../../"
-    proximo = contador()
+    prefixo = "../../"
     indice, secoes = [], []
-    for n, ordinal, blocos in d["itens"]:
-        texto, achados = texto_marcado(blocos, sec["slug"], prefixo, destaques("7.1.3", n), proximo)
-        nome = ordinal.capitalize() + " diretriz"
-        if achados:
-            frase = " [...] ".join(t["texto"] for t, _ in achados)
-            indice.append(f'<li><a href="#diretriz-{n}"><b>{esc(nome)}</b><span class="frase-literal">{esc(frase)}</span></a> {pg(achados[0][0]["ref"])}</li>')
-        else:
-            indice.append(f'<li><a href="#diretriz-{n}"><b>{esc(nome)}</b></a></li>')
-        secoes.append(
-            f'<section class="bloco-roteiro" id="diretriz-{n}" aria-labelledby="titulo-diretriz-{n}">'
-            f'<h2 id="titulo-diretriz-{n}">{esc(nome)}</h2>{ROTULO_LITERAL}<div class="texto">{texto}</div>'
-            f'{nomeados_html(termos_em(texto_de(blocos)), prefixo)}</section>')
+    for n in range(1, 11):
+        blocos = DOUTRINA.get(f"diretriz {n}", [])
+        if not blocos:
+            raise SystemExit(f"Falta a diretriz {n} em conteudo/doutrina.md")
+        titulo = blocos[0]["titulo"]
+        indice.append(f'<li><a href="#diretriz-{n}">{esc(titulo)}</a></li>')
+        secoes.append(f'<div class="bloco-roteiro" id="diretriz-{n}">{doutrina_html(f"diretriz {n}", prefixo)}</div>')
     corpo = (
         '<article class="folha leitura roteiro">'
         '<nav class="trilha" aria-label="Você está em"><a href="../">Situações</a></nav>'
         f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</p>'
         f'<h1><span class="em-modo modo-0 modo-1">{esc(ROTEIRO_ROTULOS["7.1.3"])}</span><span class="em-modo modo-2">{esc(sec["titulo"])}</span></h1>'
         '<p class="abertura-pagina">As dez diretrizes orientam o controle do desenho e da governança da plataforma. '
-        'No alto vem cada uma na frase que a enuncia, e abaixo o texto completo de cada uma.</p>'
-        f'{ROTULO_LITERAL}<div class="texto">{blocos_simples(d["abertura"], sec["slug"], prefixo)}</div>'
-        f'<p class="ler-pdf"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
-        + nav_roteiro("7.1.3", prefixo)
-        + f'<nav class="bloco indice-roteiro indice-diretrizes" aria-label="As dez diretrizes" data-arq="seleção editorial · trechos marcados no texto"><h2>As dez diretrizes</h2><p class="nota-camada">Cada diretriz traz a frase que o site marcou no texto.</p><ol>{"".join(indice)}</ol></nav>'
+        'Cada uma diz o que examinar e o que o exame não pode aceitar como resposta.</p>'
+        f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
+        + doutrina_html("diretrizes abertura", prefixo)
+        + f'<nav class="bloco indice-roteiro" aria-label="As dez diretrizes"><h2>As dez diretrizes</h2><ol>{"".join(indice)}</ol></nav>'
         + "".join(secoes)
-        + (f'<section class="bloco"><h2>As diretrizes em conjunto</h2>{ROTULO_LITERAL}<div class="texto">{blocos_simples(d["fecho"], sec["slug"], prefixo)}</div></section>' if d["fecho"] else "")
         + saidas_html([("As situações, para operar", f"{prefixo}roteiro/"), ("Os limites ao poder da plataforma", f"{prefixo}roteiro/limites/"),
                        ("A legislação citada", f"{prefixo}legislacao/")]) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
               "url": BASE + "/roteiro/diretrizes/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     destino = SAIDA / "roteiro" / "diretrizes"
     destino.mkdir(parents=True, exist_ok=True)
-    desc = "As dez diretrizes da tese para o controle de arquitetura e governança em plataformas, em texto literal, com o trecho que enuncia cada uma."
+    desc = "As dez diretrizes para o controle de arquitetura e governança em plataformas digitais, com o que examinar em cada uma."
     (destino / "index.html").write_text(pagina('Diretrizes de controle das plataformas digitais · Lex Plataformae', desc, corpo, prefixo, "roteiro/diretrizes/", jsonld, irmas=irmas_roteiro("7.1.3", prefixo)), encoding="utf-8")
 
 
@@ -2274,18 +2239,20 @@ def gerar_limites():
         return
     prefixo = "../../"
     corpo = ('<article class="folha leitura roteiro">'
-             + pagina_lida(sec, prefixo, '<a href="../">Situações</a>', "Para operar", "7.1.4", nav_roteiro("7.1.4", prefixo),
-                           nome=ROTEIRO_ROTULOS["7.1.4"],
-                           abertura="Esta página traz, por inteiro, o texto sobre os limites ao poder privado da plataforma e a cidadania digital. "
-                                    "As frases marcadas no alto levam ao ponto do texto em que cada ideia aparece.",
-                           saidas=[("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
-                                   ("A legislação citada", f"{prefixo}legislacao/")])
+             '<nav class="trilha" aria-label="Você está em"><a href="../">Situações</a></nav>'
+             f'<header class="folha-cabeca"><p class="sobrelinha">Para operar<span class="ciencia"> · {esc(sec["n"])} · p. {sec["pagina_inicio"]} a {sec["pagina_fim"]}</span></p>'
+             f'<h1><span class="em-modo modo-0 modo-1">{esc(ROTEIRO_ROTULOS["7.1.4"])}</span><span class="em-modo modo-2">{esc(sec["titulo"])}</span></h1>'
+             '<p class="abertura-pagina">O fornecimento pode alcançar condições práticas de participação e de permanência. O regime limita esse poder sem equiparar a plataforma ao Estado.</p>'
+             f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
+             + doutrina_html("limites", prefixo)
+             + saidas_html([("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
+                            ("A legislação citada", f"{prefixo}legislacao/")])
              + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
               "url": BASE + "/roteiro/limites/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
     destino = SAIDA / "roteiro" / "limites"
     destino.mkdir(parents=True, exist_ok=True)
-    desc = "Cidadania digital e limites ao poder privado de plataforma, a seção que fecha o 7.1 da tese, em texto integral."
+    desc = "Cidadania digital e limites ao poder privado de plataforma, com o que o regime controla e o que não equipara ao Estado."
     (destino / "index.html").write_text(pagina("Cidadania digital e limites ao poder da plataforma · Lex Plataformae", desc, corpo, prefixo, "roteiro/limites/", jsonld, irmas=irmas_roteiro("7.1.4", prefixo)), encoding="utf-8")
 
 
@@ -3664,7 +3631,7 @@ def usos_por_secao():
                 junta(sec["n"], "Fundamentos", f"Seções do capítulo {cap}", f"fundamentos/#cap-{cap}")
     junta("1", "Laboratório", "O laboratório de origem", "laboratorio/#origem")
     junta("2.6", "Epígrafes", "As nove epígrafes", "epigrafes/")
-    junta("5.1.2.3", "Roteiro", "O portão de entrada", "roteiro/#portao")
+    junta("5.1.2.3", "Roteiro", "O portão de entrada", "roteiro/#isto-e-um-objeto-imaterial-de-consumo")
     junta("7.1", "Roteiro", "Partes do Roteiro", "roteiro/")
     junta("7.1.1", "Roteiro", "Por que a ordem importa", "roteiro/")
     for letra, (num, _) in ROTEIRO_MAPA.items():

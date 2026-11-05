@@ -15,7 +15,7 @@ from pathlib import Path
 
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 BLOCOS = {"h1", "h2", "h3", "h4", "p", "li", "dd", "dt", "blockquote", "figcaption"}
-LITERAL = {"citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "ficha", "titulo-tese", "notas"}
+LITERAL = {"citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "ficha", "titulo-tese", "notas", "quadro-literal"}
 LEI = {"lei-texto", "leis-pagina", "artigos", "lei-oficial"}
 ROTULOS = {"rotulo-ext", "rotulo-fonte", "sobrelinha", "sobrelinha-ext", "direito-titulo"}
 FORA = {"lateral", "lei-nota", "balao-ref", "ilustracao"}
@@ -121,7 +121,7 @@ def varrer(no, modo, saida, literal=False, lei=False, links=None):
             continue
         if f.tag == "a" and f.href is not None:
             links.append((f.href, f.classes))
-        lit = literal or bool(f.classes & LITERAL) or (f.tag == "blockquote" and not f.classes & LEI) or (f.tag == "dd" and "partes" in (f.pai.pai.classes if f.pai and f.pai.pai else set()))
+        lit = literal or bool(f.classes & LITERAL) or (f.tag == "blockquote" and not f.classes & LEI)
         le = lei or bool(f.classes & LEI)
         if f.tag in BLOCOS and not (f.tag in ("li", "dd") and any(isinstance(x, No) and x.tag in ("p", "blockquote", "ul", "ol", "dl") for x in f.filhos)):
             if not f.classes & TIRAR:

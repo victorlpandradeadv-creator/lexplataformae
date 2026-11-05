@@ -736,3 +736,7 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
 body.desnudo .lateral[data-arq]::after { max-width: 100%; }
 @media (max-width: 640px) { body.desnudo [data-arq]::after { max-width: 100%; } }
 .leitura .texto { overflow-wrap: anywhere; }
+/* O quadro das Situações fala na voz do site. O literal fica embaixo de cada campo, só na Ciência. */
+.roteiro .partes.quadro dd:not(.quadro-literal) { font-family: var(--f-display); font-size: 1.0625rem; line-height: 1.5; color: var(--tinta); }
+.roteiro .partes.quadro dd.quadro-literal { grid-column: 2; color: var(--tinta-2); padding-left: 0.9rem; border-left: 2px solid var(--linha); }
+@media (max-width: 640px) { .roteiro .partes.quadro dd.quadro-literal { grid-column: 1; } }

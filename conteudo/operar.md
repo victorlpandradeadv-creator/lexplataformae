@@ -10,7 +10,7 @@ Formato. `## intro` abre a página. Cada situação começa com `## <letra>`, co
 
 ### texto
 
-Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro em texto literal, em cinco partes. O parâmetro é o critério que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso.
+Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro, em cinco partes. O parâmetro é o critério que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso.
 
 O CDC funciona como a infraestrutura normativa dessas situações. Não se trata de inventar um novo código nem de enxertar um regime estranho no texto legal, e sim de ler as categorias do sistema pelo modo real como o fornecimento acontece, em que governar o ambiente é governar a própria fruição.
 
