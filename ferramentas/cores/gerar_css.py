@@ -34,7 +34,6 @@ def tokens_modo(modo, tom):
     v = {
         "--papel": t["papel"], "--folha": t["folha"], "--tinta": t["tinta"], "--tinta-2": t["tinta2"], "--linha": t["linha"],
         "--campo": mistura(t["papel"], t["linha"], 0.35),
-        "--grade": t.get("grade", "transparent"),
         "--acento": acento, "--acento-suave": mistura(t["papel"], acento, 0.10),
         "--traco": t.get("traco", t["tinta2"]), "--desnudo": t.get("traco", t["tinta2"]),
         "--marca": MARCA[tom], "--modo": modo_cor,

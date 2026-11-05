@@ -101,8 +101,8 @@ def pagina(frase, rotulo):
 @font-face {{ font-family: "IBM Plex Mono"; font-weight: 500; src: url({f}/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); }}
 html, body {{ margin: 0; width: 1200px; height: 630px; }}
 body {{ box-sizing: border-box; padding: 64px 72px; background: {INFO["papel"]}; color: {INFO["tinta"]}; display: grid; grid-template-rows: auto 1fr auto; font-family: "Archivo", sans-serif; }}
-.marca {{ display: inline-flex; flex-direction: column; align-items: center; justify-self: start; line-height: 1.05; font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: 26px; letter-spacing: 0.02em; }}
-.marca small {{ font-size: 0.5em; font-weight: 400; letter-spacing: 0.08em; }}
+.marca {{ display: inline-flex; flex-direction: column; align-items: center; justify-self: start; line-height: 1.05; font-stretch: 112%; font-weight: 700; font-size: 26px; }}
+.marca small {{ font-size: 0.5em; font-weight: 400; letter-spacing: 0.04em; }}
 .frase {{ align-self: center; font-stretch: 108%; font-weight: 800; font-size: 72px; line-height: 1.08; letter-spacing: -0.01em; max-width: 980px; text-wrap: balance; margin: 0; }}
 .pe {{ display: flex; justify-content: space-between; align-items: end; gap: 32px; border-top: 2px solid {INFO["tinta"]}; padding-top: 22px; }}
 .rotulo {{ font-family: "Newsreader", serif; font-style: italic; font-size: 32px; line-height: 1.2; color: {TESE["texto"]}; }}

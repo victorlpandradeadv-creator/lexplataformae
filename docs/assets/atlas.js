@@ -32,6 +32,23 @@
     });
   }
 
+  /* A arquitetura da Ciência. O controle fica guardado no navegador, e no toque a peça tocada acende. O CSS faz o resto, e o controle funciona sem script. */
+  var arqTudo = document.getElementById('arq-tudo');
+  if (arqTudo) {
+    try { arqTudo.checked = localStorage.getItem('lexp-arq-tudo') === '1'; } catch (e) {}
+    arqTudo.addEventListener('change', function () {
+      try { localStorage.setItem('lexp-arq-tudo', arqTudo.checked ? '1' : '0'); } catch (e) {}
+    });
+    if (window.matchMedia && window.matchMedia('(hover: none)').matches) {
+      document.addEventListener('click', function (e) {
+        var acesa = document.querySelector('.arq-acesa');
+        var peca = e.target.closest ? e.target.closest('[data-arq], [data-arq-mesmo]') : null;
+        if (acesa) acesa.classList.remove('arq-acesa');
+        if (peca && peca !== acesa && document.body.classList.contains('desnudo')) peca.classList.add('arq-acesa');
+      });
+    }
+  }
+
   /* O balão de referência. Fora de Ciência a página não fica à vista. Ao passar o mouse, tocar ou chegar pelo teclado,
      o balão mostra a referência e oferece copiar o trecho com ela. O botão diz o que leva, e nada é acrescentado à cópia sem o clique. */
   var REFERENCIA = 'Victor L. P. Andrade, Do regime jurídico do Objeto Imaterial de Consumo sob a Lex Plataformae, 2026';

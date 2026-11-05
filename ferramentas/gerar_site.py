@@ -199,10 +199,9 @@ def conceitos_do_atlas():
 
 
 LEGENDA = {
-    "mista": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
+    "mista": ("Cada peça da página diz o que é e de onde vem, quando o mouse passa sobre ela, no toque ou no foco do teclado. "
               "As caixas com números de página levam ao trecho exato do texto integral."),
-    "interna": ("Arquitetura à mostra. Os contornos tracejados mostram as peças da página, e a etiqueta de cada uma diz o que ela é e de onde vem. "
-                "Para a leitura longa, sem etiquetas, volte ao modo Doutrina."),
+    "interna": "Cada peça da página diz o que é e de onde vem, quando o mouse passa sobre ela, no toque ou no foco do teclado.",
 }
 
 # A chave se chama Modo e tem três posições, com os nomes indicados pelo autor em 27/10/2026.
@@ -415,7 +414,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     {menu_html(prefixo)}
     <a class="integral" href="{prefixo}tese/">Texto integral</a>
   </header>
-  <p class="legenda-desnudo" role="note">{esc(legenda)}</p>
+  <div class="legenda-desnudo" role="note"><p>{esc(legenda)}</p><label for="arq-tudo"><input type="checkbox" id="arq-tudo"> Mostrar toda a arquitetura</label></div>
   <main>
 {corpo}
   </main>
