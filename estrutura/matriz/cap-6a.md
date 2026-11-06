@@ -426,3 +426,182 @@ O art. 3º, § 1º, do CDC já basta para compreender o OIC como produto imateri
 > Por tal motivo, a continuidade do vínculo e a opacidade arquitetural ampliam o peso de deveres de previsibilidade, motivação e verificabilidade mínima. (p. 579)
 > O OIC não substitui o produto imaterial do art. 3º, § 1º. (p. 579)
 > O que o CDC protege, aqui, não é só a existência abstrata do objeto, mas a fruição adquirida em sua integridade funcional, informacional e relacional. (p. 579)
+
+## 6.2.4 Da vulnerabilidade semiótica como forma contemporânea de vulnerabilidade fática (p. 579-584)
+
+### O que diz
+A vulnerabilidade semiótica é forma contemporânea de vulnerabilidade fática produzida pelo modo como o fornecimento se organiza, e não metáfora cultural nem juízo sobre a psicologia do consumidor. A plataforma controla os instrumentos de inteligibilidade da relação, com que a pessoa forma expectativa, afere a fruição, percebe rebaixamento e contesta. A categoria se articula com boa-fé, dever de informar, transparência e confiança, e a inadequação pode vir por excesso, dispersão ou linguagem técnica. Vitrines, métricas e raridades passam a compor a inteligibilidade do objeto, de modo que a perda se obscurece sob aparência de continuidade. O ambiente governado não concorre com o produto imaterial, é condição de sua existência jurídica. A categoria reorganiza entrega, inadequação, vício e correspondência entre oferta e fruição. É também vulnerabilidade probatória, porque as provas estão com o fornecedor. Ela identifica a assimetria e prepara verificabilidade, integridade funcional e ônus, sem substituir esses standards.
+
+### Consumidor
+- Situação: a pessoa tem textos, avisos e telas em abundância, mas não consegue saber o que comprou de fato, se algo mudou nem como comparar. Quem define as raridades, as métricas e o histórico é a própria empresa, e os registros ficam com ela.
+- O que muda: o problema não é falta de atenção nem fraqueza da pessoa, mas a forma como o ambiente organiza o que dá para ver, comparar e provar. Ter acesso nominal não prova que nada se perdeu. Informação demais, espalhada ou técnica pode informar tão mal quanto a falta dela.
+- Pedir ou guardar: a seção dá base para exigir informação correta, clara, precisa e ostensiva, e para pedir facilitação da defesa, inclusive inversão do ônus da prova, porque logs, parametrizações e históricos ficam com quem administra o ambiente. Sobre o que guardar, sem base nesta seção.
+- Limite: a categoria não substitui os critérios de controle nem prova abuso por si só. Em muitos casos a inversão é apontada como recurso decisivo, conforme a seção, e não como automática.
+
+### Jurista
+- Problema: como enquadrar no CDC a assimetria que não é só falta de informação, sem criar categoria paralela nem psicologizar o consumidor.
+- Leitura comum: a assimetria informacional clássica, o dever de informar como despejo de dados ou ritual de aceite, e o tratamento do problema como mero problema ambiental externo ao objeto.
+- Construção: parte da vulnerabilidade como pilar da tutela (Marques) e a especifica. O fornecedor controla o regime de produção de sentido da fruição, e o problema está na forma objetiva como o ambiente organiza linguagem, visibilidade, comparação e prova. Liga-se à autonomia racional, que depende de deveres positivos, e à opacidade material (Wada). A abusividade pode surgir da exploração assimétrica dos sentidos relevantes (Miragem). O ambiente é elemento constitutivo do produto, logo alterações relevantes da arquitetura podem corresponder a alterações do próprio objeto. A categoria opera como imputação da assimetria que justifica reconstruir dever de informar, confiança, adequação e abusividade. Projeta-se na prova.
+- Requisitos: quatro consequências condicionais para problemas clássicos. Se a fruição depende de manutenção contínua, a entrega não é ato pontual puro. Se a utilidade é reconfigurável, a inadequação não se resume a defeito ostensivo. Se não há marco final nítido, a identificação do vício dialoga com o momento real em que a degradação se torna perceptível e verificável. Se a promessa circula por signos, a correspondência não se mede só pela literalidade contratual. Atributos da informação, correta, clara, precisa e ostensiva.
+- Casos: sem caso concreto. A nota 653 traz, de Miragem, as cláusulas-surpresa em contratos extensos com consumidor leigo.
+- Objeções: a de psicologização. Resposta, não descreve menor discernimento nem ingenuidade, o problema é arquitetura comunicacional. A de categoria extravagante. Resposta, é especificação de dado estrutural do CDC, que nomeia forma atual de exploração já intuída pelos institutos.
+- Limites: não substitui nem se confunde com os standards formulados. Alterações podem corresponder a alterações do objeto, o que não vale para toda alteração.
+- Fundamento: CDC, art. 4º, I (pela nota 650, polo mais fraco). A seção remete a boa-fé, dever de informar, transparência, confiança e facilitação da defesa, sem transcrever artigo.
+- Autores: Marques (2016, p. 324, 307, 812, 1480), vulnerabilidade como pilar, autonomia racional e dever básico de informar. Wada (2016, p. 207, 142, 211, 143), informação qualificada, barreiras à compreensão e contratação informada e consciente, com citação de Marques apud Wada. Miragem (2020, p. 328-329, 388, 854, 283), práticas abusivas, cláusulas-surpresa e inversão do ônus. A nota 652 grafa Wada (20216), erro de digitação da tese.
+
+### Trechos
+> Ela surge porque a plataforma controla os próprios instrumentos de inteligibilidade da relação, isto é, os signos, interfaces, métricas, enquadramentos e registros pelos quais o consumidor forma expectativa, afere fruição, percebe rebaixamento e tenta sustentar contestação. (p. 580)
+> A vulnerabilidade semiótica não descreve menor discernimento individual, ingenuidade psicológica ou suscetibilidade subjetiva do usuário. (p. 580)
+> A assimetria, então, deixa de ser apenas informacional em sentido clássico e passa a ser também semiótica, porque o fornecedor controla o regime de produção de sentido da própria fruição. (p. 580)
+>! O problema é arquitetura comunicacional que aparenta informar enquanto organiza ruído. (p. 581)
+> O consumidor continua com acesso nominal, mas perde utilidade funcional ou simbólica sem encontrar critérios claros para medir a erosão. (p. 582)
+> No regime do OIC, o ambiente governado é condição de existência jurídica do próprio produto consumido. (p. 582)
+> Alterações relevantes na arquitetura da fruição podem corresponder, em termos dogmáticos, a alterações do próprio objeto de consumo. (p. 582)
+> Se não há marco final nítido de execução, a identificação do vício precisa dialogar com o momento real em que a degradação se torna perceptível e verificável. (p. 583)
+> A vulnerabilidade semiótica funciona, então, como categoria de imputação da assimetria estrutural que justifica reconstruir dever de informar, confiança, adequação e abusividade em ambiente opaco e mutável. (p. 583)
+>! A vulnerabilidade semiótica é, nesse ponto, também vulnerabilidade probatória. (p. 583)
+> A vulnerabilidade semiótica não substitui os standards formulados nem se confunde com eles. (p. 584)
+
+## 6.2.4.1 Da abstenção ao uso da terminologia “vulnerabilidade digital” (p. 584-590)
+
+### O que diz
+A expressão vulnerabilidade digital é recusada porque tem utilidade descritiva e baixo rendimento dogmático, já que nomeia o ambiente e não isola o mecanismo. Um conceito jurídico precisa cortar a realidade e estabilizar o que importa para dever, prova, ilicitude e remédio. O rótulo agrega fragilidade técnica, déficit informacional, manipulação, dependência, opacidade algorítmica, exclusão e assimetria econômica, com prova dispersa e remédio oscilante. Não há fato jurídico bruto, e uma categoria presa ao plano descritivo não cumpre a passagem do ser ao dever ser. Vulnerabilidade eletrônica, virtual e tecnológica dizem onde, mas pouco como. A tese se filia a vulnerabilidade semiótica porque ela mira mecanismo, a administração desigual do sentido, com linguagem como técnica institucional de poder. O ganho é operacional, em informação, publicidade, transparência e arquitetura.
+
+### Consumidor
+- Situação: a pessoa ouve que o problema é o digital, a tecnologia ou a falta de habilidade dela com a internet.
+- O que muda: o ponto não é a compra ter sido feita pela internet, e sim como a empresa organiza os sinais pelos quais a pessoa entende o que comprou, o que vale e o que perdeu. Isso aponta para o que a empresa deve fazer, em vez de culpar o ambiente ou a pessoa. O dever passa a ser dar informação útil para decidir, e não mais informação.
+- Pedir ou guardar: informação apta a orientar decisão, compreensão e uso adequado, e publicidade sem ambiguidade nem omissão relevante. Sobre o que guardar, sem base nesta seção.
+- Limite: a seção trata de vocabulário e método. Não nega que exista exclusão tecnológica, nem que a expressão recusada tenha utilidade descritiva.
+
+### Jurista
+- Problema: se vulnerabilidade digital serve como conceito jurídico para orientar a passagem do fato à consequência normativa.
+- Leitura comum: a doutrina recente usa vulnerabilidade digital, eletrônica, virtual ou tecnológica como marcador de cenário. É insuficiente porque conserva amplitude descritiva e perde a capacidade de qualificar o fato em termos de imputação e consequência.
+- Construção: o argumento é metodológico. Ferraz Jr., a dogmática faz um corte na realidade e opera por conceitos operacionais orientados à decidibilidade. Reale, os fatos só são jurídicos em contexto normativo, e o legislador não atua como sociólogo. Palmeira e Maia mostram o caráter agregador e a proliferação de rótulos. Warat, a significação é instrumento de controle social e os discursos geram efeito de inquestionabilidade. Debord, por paralelo restrito, a categoria perde densidade quando rebaixada ao meio técnico. Daí a escolha pela categoria que mira mecanismo, que no regime do OIC alcança vitrine, loja, eventos, métricas, raridade, promessas de equivalência e narrativas de valor.
+- Requisitos: um conceito útil deve dizer o que deve ser provado, qual dever foi tensionado ou violado e qual consequência é adequada. Resultados da troca, dever de informar como adequação e utilidade decisória, publicidade controlável por ambiguidade, omissão relevante, identificação e veracidade, transparência como verificabilidade institucional e arquitetura qualificável, quando for o caso, como forma do abuso.
+- Casos: sem caso concreto nesta seção.
+- Objeções: a de preciosismo terminológico. Resposta, o problema é metodológico e o ganho é dogmático, não estético.
+- Limites: o rótulo tem utilidade descritiva e os fenômenos que ele reúne são reais. A arquitetura só é qualificada como forma do abuso quando for o caso. O paralelo com Debord é restrito.
+- Fundamento: sem dispositivo citado nesta seção. O texto refere o CDC de modo geral.
+- Autores: Ferraz Jr. (2003, [p. 81, 83, 108, 247]), corte na realidade e decidibilidade. Palmeira (2022, p. 167, 17), ecossistema de riscos, dark patterns e profiling. Reale (2001, p. 168, 96, 32, 189), não há fato bruto. Maia (2023, p. 3-4, 5, 7), vulnerabilidade eletrônica e tecnologia como obstáculo ao acesso à justiça. Warat (1984, p. 18, 15, 47), semiologia do poder. Debord (2013, p. 27, 31, 120), espetáculo como relação social mediada por imagens.
+
+### Trechos
+> A expressão “vulnerabilidade digital” não será adotada aqui porque, embora possua utilidade descritiva, entrega pouco rendimento dogmático. (p. 584)
+> O “digital” funciona, nesse vocabulário, como marcador de cenário, e não como operador de imputação. (p. 584)
+> Em vez de cortar o problema, ela o acumula. (p. 586)
+> Não há fato jurídico bruto. (p. 586)
+> Elas ajudam a dizer onde o problema acontece. (p. 588)
+>! A categoria mira um mecanismo, não um cenário. (p. 588)
+> O problema juridicamente relevante passa a ser a administração desigual do sentido, isto é, a forma como a plataforma organiza as condições de inteligibilidade da própria experiência de consumo. (p. 588)
+> A assimetria relevante não é apenas falta de dado. (p. 589)
+> A exigência deixa de ser “mais informação” e passa a ser informação apta a orientar decisão, compreensão e uso adequado do produto ou serviço. (p. 590)
+> A publicidade passa a ser controlável por critérios de ambiguidade, omissão relevante, identificação e veracidade. (p. 590)
+> E a arquitetura do fornecimento pode ser qualificada, quando for o caso, não apenas como contexto do abuso, mas como sua própria forma estruturada de produção. (p. 590)
+> A categoria recorta melhor o mecanismo, disciplina melhor a prova e prepara melhor o remédio. (p. 590)
+
+## 6.2.4.1.1 Da revisão crítica da literatura recente (p. 590-601)
+
+### O que diz
+A revisão tem função instrumental e mostra que o vocabulário concorrente, embora sério, opera melhor como etiqueta de cenário que como critério de decisão. O corpus reúne trabalhos brasileiros recentes em que a expressão aciona alguma consequência normativa, sem pretensão de exaustividade. A matriz testa se o termo nomeia cenário ou mecanismo, por quatro pontos. O primeiro resultado é que a literatura percebeu corretamente a intensificação da fragilidade. O segundo é que a categoria costuma agregar fenômenos diversos, forte como síntese ambiental e menos precisa como recorte mecanístico. Cibervulnerabilidade, hipervulnerabilidade digital situacional, vulnerabilidade eletrônica e o uso em acesso à justiça confirmam a polissemia, e Wada oferece a régua da opacidade funcional. Um quadro compara seis trabalhos, e dele se extrai o critério de depuração, com quatro exigências cumulativas. A vulnerabilidade semiótica responde a isso e rende ganho operacional em informação, publicidade, prova e abusividade.
+
+### Consumidor
+- Situação: a pessoa encontra textos e matérias que falam em vulnerabilidade digital, inclusive em jogos, com catividade, recompensas irregulares, dark patterns e coleta de dados, e quer saber o que isso muda para ela.
+- O que muda: outros estudiosos também perceberam o agravamento da fragilidade do consumidor, e o problema não é invenção de uma única obra. O que importa para a pessoa é apontar como o ambiente produziu concretamente a opacidade, o ruído e a dificuldade de decidir e provar, em vez de dizer só que tudo aconteceu no meio digital.
+- Pedir ou guardar: a seção aponta preservação de trilhas, transparência verificável e redistribuição racional do ônus. Sobre o que guardar, sem orientação direta nesta seção.
+- Limite: é uma revisão de literatura, sem exaustividade. Nem toda posição de autor revisado é adotada pela tese, como a inversão universal do ônus da prova sustentada por Palmeira.
+
+### Jurista
+- Problema: se a literatura recente converte o diagnóstico de vulnerabilidade digital em forma jurídica estável para a incidência do CDC.
+- Leitura comum: o rótulo é agregador. Reúne proteção de dados, opacidade técnica, manipulação, profiling, consentimento, dark patterns, hiperconectividade, monetização da atenção e assimetria informacional. Suas consequências protetivas costumam ser extraídas em bloco, a partir da percepção global de um ambiente hostil.
+- Construção: a tese fixa critério de leitura, com Ferraz Jr. (conceitos como abreviaturas teóricas operacionais) e Reale (a compreensão se converte em normação). Aplica a matriz autor por autor, reconhece o mérito de cada um e aponta o limite. Palmeira, síntese ambiental com inversão ope legis. Furtado e Pinto, cenário de termos de uso e dados, com controle contratual. Acosta, juridicização com dependência do ciberespaço. Azevedo e Torres, mecanismos reais em jogos, mas dependência do público e do contexto. Maia, obstáculo tecnológico e inflação classificatória. Simões, exclusão e cidadania. Wada, a falha informacional como opacidade funcional, inclusive com informação existente. Daí o critério de depuração e a adoção da vulnerabilidade semiótica, que localiza a assimetria na produção e na governança do sentido.
+- Requisitos: matriz de leitura de quatro pontos, se havia definição ou só invocação, qual assimetria concreta era descrita, se havia padrão probatório minimamente reconstruível, e qual estrutura normativa ou consequência era acionada. Critério de depuração com quatro exigências cumulativas, identificar mecanismo e não apenas contexto, converter esse mecanismo em dever, ilicitude ou critério de controle, oferecer padrão probatório minimamente reconstruível, e apontar consequência típica compatível com o sistema protetivo.
+- Casos: Azevedo e Torres sobre Fortnite (nota 674), em que a catividade vem da submissão à plataforma que detém os itens e do multiplayer, e equiparação do núcleo familiar à criança pelo art. 29 do CDC (nota 675). Furtado e Pinto, abusividade da autorização irrestrita de dados em modelos zero-price (nota 671). Wada, pacotes bancários que reduzem a transparência de preços (nota 680). Quadro comparativo de seis trabalhos nas p. 599-600.
+- Objeções: a de crítica impressionista. Resposta, a matriz impede essa crítica, porque a objeção não é o termo ser novo ou difuso, mas não entregar forma normativa. A de que seria disputa de etiquetas. Resposta, o ganho é operacional.
+- Limites: o recorte não pretende exaustividade, e sim verificabilidade mínima. A expressão concorrente segue útil como diagnóstico do ambiente. A abusividade pode ser reconstruída no nível da arquitetura só quando necessário. O saldo é de utilidade parcial, não de inutilidade.
+- Fundamento: CDC, art. 29 (equiparação usada por Azevedo e Torres, nota 675). CDC e LGPD, na posição de Palmeira sobre insuficiência (nota 670). Essas são posições dos autores revisados, e não da tese.
+- Autores: Ferraz Jr. (2003, [p. 108, 247, 92, 144, 246, 310]) e Reale (2001, p. 304, 173, 174, 175, 187), critérios. Palmeira (2022, p. 230, 15, 143-144, 6, 98, 234), universalização da hipossuficiência e da inversão ope legis. Furtado e Pinto (2024, p. 13, 12, 21, 11-12, 16, 23, 22, 14-15). Acosta (2025, p. 86, 93, 97, 120, 83-84, 113, 119), cibervulnerabilidade. Azevedo e Torres (2023, p. 8, 23, 15-16, 11, 21, 22-23), hipervulnerabilidade digital situacional. Maia (2023, p. 3, 2, 4). Simões (2024, p. 79, 83, 86, 69, 79-80, 80). Wada (2016, p. 168, 193-194, 213-214), com Benjamin apud Wada.
+
+### Trechos
+> O objetivo é mostrar que o vocabulário concorrente, embora relevante e academicamente sério, não estabiliza com nitidez suficiente o mecanismo juridicamente relevante da assimetria tratada, razão pela qual opera melhor como etiqueta de cenário do que como critério de decisão. (p. 590)
+> A questão não é saber se a literatura recente percebeu corretamente que há agravamento da vulnerabilidade do consumidor em ambientes digitalmente mediados. (p. 591)
+> A matriz de leitura aplicada ao corpus foi deliberadamente simples. (p. 592)
+> A partir daí, observaram-se quatro pontos: se havia definição ou só invocação; qual assimetria concreta era descrita; se o texto indicava algum padrão probatório minimamente reconstruível; e qual estrutura normativa ou consequência jurídica era acionada. (p. 592)
+> O problema, portanto, não é invenção da tese. (p. 593)
+> A formulação fica forte como síntese ambiental, mas menos precisa como recorte mecanístico. (p. 594)
+> Não basta apontar que a vulneração ocorre no “digital”. (p. 599)
+> É preciso indicar como o ambiente produz, concretamente, opacidade, ruído, assimetria de decisão e assimetria de prova. (p. 599)
+> Para operar dogmaticamente no CDC, qualquer categoria de vulnerabilidade precisa satisfazer, ao menos, quatro exigências cumulativas: identificar mecanismo, e não apenas contexto; converter esse mecanismo em dever, ilicitude ou critério de controle; oferecer padrão probatório minimamente reconstruível; e apontar consequência típica compatível com a estrutura do sistema protetivo. (p. 600)
+> Substitui uma categoria predominantemente ambiental por outra voltada à descrição do mecanismo. (p. 600)
+> A prova deixa de gravitar apenas em torno da narrativa do consumidor e passa a exigir preservação de trilhas, transparência verificável e redistribuição racional do ônus probatório. (p. 601)
+> É esse ganho operacional, e não uma disputa de etiquetas, que justifica a substituição terminológica aqui adotada. (p. 601)
+
+## 6.2.4.2 Da linguagem, código e consentimento viciado por sentido (p. 601-605)
+
+### O que diz
+O problema da informação nunca foi só quantitativo, porque contrato, oferta, interface e regulamento são formas de linguagem que organizam expectativa e resistência. O CDC tem o núcleo normativo nos arts. 31 e 46, e o decisivo é se o sentido relevante era cognoscível em termos reais, e não se o texto estava lá. A linguagem não é veículo neutro, produz inteligibilidade seletiva e, em plataformas, atua junto com interface, fluxo de adesão e destaques. Linguagens especiais funcionam como barreiras de competência. Daí o consentimento viciado por sentido, incapacidade estruturalmente produzida de decodificar, comparar e antecipar consequências. O dever de informar é material, e a obscuridade é indício de deslealdade estrutural, com presunção de falha. Em OICs, a comunicação se projeta em vitrines, lojas, eventos, métricas e raridade. A consequência é dupla, com dever de inteligibilidade, adequação e verificabilidade e standards que reduzam assimetria de sentido e de prova.
+
+### Consumidor
+- Situação: a pessoa clicou em aceitar depois de uma cascata de links, avisos e políticas, leu ou não leu, e agora a empresa diz que o texto estava lá.
+- O que muda: o texto estar disponível não encerra a questão. Importa se o consumidor médio podia ler e compreender o que aquilo significava, que direitos e obrigações assumia e quais consequências viriam. O contrato não obriga se não houve oportunidade real de conhecimento prévio ou se foi redigido de modo a dificultar a compreensão. Cláusula obscura não é prova de consentimento forte.
+- Pedir ou guardar: pode exigir informação correta, clara, precisa, ostensiva e em português, e questionar a força da cláusula incompreensível. A seção diz que a plataforma tende a controlar os registros da adesão, sem orientar o que guardar.
+- Limite: não se trata de erro pontual, como confundir um preço. A avaliação considera o consumidor médio e o caso concreto, e a seção não diz que todo contrato de adesão é inválido.
+
+### Jurista
+- Problema: quando o aceite formal em ambiente de plataforma vale como consentimento juridicamente suficiente.
+- Leitura comum: o problema como falta de informação, a prova de que o texto estava lá, a disponibilidade física do enunciado e a obscuridade como falha estilística inocente.
+- Construção: parte dos arts. 31 e 46 do CDC. Com Warat, linguagem jurídica e institucional não é neutra e a coerência do discurso silencia problemas. Com Gnerre, linguagens especiais têm função social de distinção e exclusão. Em plataformas, linguagem contratual, interface, fluxo e destaque orientam a aceitar antes de compreender. Nomeia-se então o consentimento viciado por sentido. Reconduz-se ao dever material de informar, com Marques, em que a transparência afeta a essência do negócio. Controle de cláusulas guiado por boa-fé e confiança, e a redação obscura aciona a presunção de falha do fornecedor no dever de organizar o consentimento. Essa é a forma comunicacional da vulnerabilidade semiótica.
+- Requisitos: teste de cognoscibilidade, se o consumidor médio podia ler e compreender o que as cláusulas significavam, quais direitos e obrigações assumia e quais consequências práticas decorriam. Elementos do vício, incapacidade de decodificar, comparar e antecipar consequências, produzida pelas condições comunicacionais do fornecimento. Consequência dupla, dever de inteligibilidade, adequação e verificabilidade, e standards contra assimetria de sentido e de prova.
+- Casos: sem caso concreto. Lista de meios comunicacionais em OICs, que são vitrines, lojas internas, telas de compra, mensagens de evento, anúncios de atualização, métricas, classificações, sinais de raridade e enquadramentos de valor.
+- Objeções: a do fornecedor de que o conteúdo estava acessível ao clique, à rolagem ou ao download. Resposta, isso não cumpre o dever. A da complexidade técnica. Resposta, ela não autoriza o fornecedor a se esconder atrás de vocabulário indecifrável. A de metáfora cultural. Resposta, é desvantagem real de decodificação, comparação e resistência.
+- Limites: não é erro factual pontual. A simples menção às condições gerais não basta quando o sentido permanece opaco, mas a seção não elimina a força de cláusula compreensível. A presunção aparece em Marques (nota 687) como presunção de má-fé do fornecedor-elaborador.
+- Fundamento: CDC, art. 31 (informações corretas, claras, precisas, ostensivas e em português). CDC, art. 46 (contrato não obriga sem conhecimento prévio ou se dificultar a compreensão). CDC, art. 47 e art. 51, IV (na nota 687, interpretação conforme a boa-fé).
+- Autores: Warat (1984, p. 47, 45, 71, 50, 68, 54, 18, 110, 88), ideologia, silêncios, univocidade e violência significativa. Gnerre (1991, p. 23, 22), linguagens especiais e a linguagem como arame farpado que bloqueia o acesso ao poder. Marques (2016, p. 91-92, 819, 94-95, 902-903), homem comum que precisa entender, transparência e presunção de má-fé.
+
+### Trechos
+> Nas relações de consumo, o problema da informação nunca foi apenas quantitativo. (p. 601)
+> O ponto decisivo, portanto, não está em provar que “o texto estava lá”, mas em aferir se o sentido juridicamente relevante era cognoscível em termos reais. (p. 601)
+> O consumidor pode receber o texto, clicar, aceitar e até repetir seus termos sem efetivamente alcançar sua inteligibilidade prática. (p. 602)
+>! O consumidor recebe o texto, mas não recebe acesso real ao código que organiza seu significado. (p. 603)
+> É nesse ponto que se pode falar em consentimento viciado por sentido. (p. 603)
+> Trata-se de incapacidade estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes. (p. 603-604)
+>! O consumidor pode estar formalmente informado e, ainda assim, materialmente alijado do significado daquilo que aceita. (p. 604)
+> O que importa é se o consumidor médio podia ler e compreender o que aquelas cláusulas significavam, quais direitos e obrigações estavam sendo assumidos e quais consequências práticas decorriam da adesão. (p. 604)
+> Isso explica por que a obscuridade contratual, em consumo, não é falha estilística inocente. (p. 604)
+> O consumidor não enfrenta apenas um texto. (p. 605)
+> Primeiro, o dever de informar deve ser lido como dever de inteligibilidade, adequação e verificabilidade, e não como simples entrega de volume documental. (p. 605)
+
+## 6.2.4.3 Da operacionalização da vulnerabilidade semiótica em OICs (p. 605-609)
+
+### O que diz
+A categoria só tem utilidade quando opera como esquema de imputação e controle, em três planos, o que se alega, o lastro que demonstra e a consequência típica. Não se alega falta de leitura nem incapacidade, e sim estrutura comunicacional e arquitetural que distribui poder, em formas estáveis. A prova sai do terreno impressionista e vai para a materialidade comunicacional e arquitetural do fornecimento, por fontes externas, replicáveis e controláveis. Como os registros estão com o fornecedor, é preciso pedir preservação e exibição. As consequências formam quatro grupos, informacional, controle da oferta e das práticas, ineficácia da obscuridade e probatório. O esquema organiza alegação, prova e pedido, e prepara a auditabilidade aberta e a teleologia abusiva.
+
+### Consumidor
+- Situação: a pessoa quer reclamar de uma compra, atualização ou mudança, mas só tem a sensação de ter sido enganada ou de não ter entendido.
+- O que muda: a reclamação deixa de ser eu não entendi e passa a ser o ambiente foi desenhado desta forma. Não se discute a falta de leitura da pessoa. O que se mostra é o caminho que a tela ofereceu, a promessa e o que veio depois.
+- Pedir ou guardar: guardar capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade e confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração. Guardar também o histórico da oferta e das mudanças, peças promocionais, postagens, campanhas, influenciadores, avisos, asteriscos e letras miúdas. Pedir informação qualificada no momento da decisão, destaque do essencial e aviso útil de alterações relevantes, correção e recomposição da frustração, ineficácia da cláusula obscura, preservação e exibição de logs, históricos de versão, transações e comunicações de mudança.
+- Limite: a prova não é da sensação íntima, e sim do desenho. Mostrar texto confuso não dispensa mostrar a degradação relevante ou a inadequação concreta. Pedir mais informação de modo genérico não é o remédio. As consequências dependem do caso.
+
+### Jurista
+- Problema: como transformar a vulnerabilidade semiótica em alegação, prova e pedido, sem impressionismo.
+- Leitura comum: a afirmação impressionista de que o consumidor foi manipulado ou confundido, a prova centrada no estado íntimo e o pedido por mais informação.
+- Construção: plano do mecanismo, a alegação recai sobre estrutura que distribui competência comunicacional e poder de definição do sentido, de modo que a vulnerabilidade semiótica pode ser alegada como fato jurídico. Plano do lastro, prova por elementos externos, replicáveis e institucionalmente controláveis. A assimetria semiótica se projeta em assimetria de prova, e daí os pedidos de preservação e exibição. Plano da consequência, remédios previsíveis por grupos. O esquema vira operador e prepara a auditabilidade e a teleologia abusiva como vício do próprio regime de fornecimento.
+- Requisitos: formas de alegação, inadequação informacional, violação da boa-fé, deslealdade objetiva e gestão indevida da expectativa. Fontes de lastro, trilhas de interface e fluxo decisório, histórico de oferta e de mutabilidade, publicidade e documentos de identificação, e prova do ruído informacional por fragmentação, remissões circulares, linguagem indecifrável, contradições, descolamento do momento decisório ou deslocamento do essencial. Registros a exibir, logs, históricos de versão, transações, parâmetros de interface, comunicações de mudança e documentação técnica relevante. Grupos de consequência, informacional, controle de oferta e práticas, ineficácia da obscuridade e probatório.
+- Casos: sem caso concreto nesta seção. O caso vem no item seguinte.
+- Objeções: a de conceito decorativo. Resposta, organiza alegação, prova e pedido. A de favor processual. Resposta, trata-se de neutralizar concentração privada dos meios de reconstrução do caso.
+- Limites: o que se prova é a estrutura, sem presumir estado íntimo. A inversão se faz como redistribuição racional, com presunções quando o fornecedor não coopera ou mantém a prova em caixa-preta. A neutralização da obscuridade ocorre no caso concreto.
+- Fundamento: CDC, art. 46 (nota 689 e 690, liberação do vínculo por falha de informação). CDC, art. 54, § 4º (nota 690, ineficácia por problemas de forma e elaboração, em jurisprudência referida por Marques).
+- Autores: Gnerre (1991, p. 6, 21), distribuição desigual da competência comunicacional, como reforço subsidiário. Marques (2016, p. 812, 898-899, 287, 1304), boa-fé como transparência obrigatória, conhecimento prévio, resposta jurídica reequilibradora e ineficácia. Warat (1984, p. 67, 70), função de dominação fora de um ponto de vista psicologista e monopólio da constituição do campo denotativo.
+
+### Trechos
+> Em OICs, isso exige disciplinar três planos distintos e articulados: o mecanismo que se alega, o lastro objetivo pelo qual esse mecanismo pode ser demonstrado e a consequência típica que o CDC já permite extrair dele. (p. 605)
+> Por tal razão, a vulnerabilidade semiótica pode ser alegada como fato jurídico: o fornecedor organiza previamente o campo do que pode ser entendido, comparado e aceito. (p. 606)
+> O objeto da prova não é o estado íntimo do consumidor isoladamente considerado. (p. 607)
+> A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração. (p. 607)
+>! A alegação deixa de ser “eu não entendi” e passa a ser “o ambiente foi desenhado desta forma”. (p. 607)
+> Provar a alteração do ambiente, da utilidade, da comparabilidade ou da inteligibilidade da experiência é provar alteração do próprio regime de fornecimento. (p. 607)
+> O núcleo probatório não é demonstrar ausência de texto, mas inadequação estrutural da comunicação para fins de compreensão útil. (p. 608)
+> Por isso, a operacionalização da categoria precisa vir acompanhada de pedidos de preservação e exibição de documentação mínima do fornecimento. (p. 608)
+>! Não se trata de favor processual. (p. 608)
+> Se o problema é inadequação decisória da comunicação, o pedido não pode ser simplesmente “mais informação”. (p. 608)
+> Diante da concentração de registros, cabe preservação e exibição de trilhas do fornecimento, com redistribuição racional do ônus e presunções favoráveis ao consumidor quando o fornecedor não coopera ou mantém a prova em caixa-preta. (p. 609)
+> O que se alega é uma assimetria estrutural de sentido produzida pelo regime de fornecimento. (p. 609)
+> O que se pede é correção do ambiente decisório, neutralização da obscuridade, exibição de registros e recomposição da fruição afetada. (p. 609)
