@@ -183,7 +183,7 @@ A seção trata o tempo como dimensão governada. Em serviços contínuos, a pro
 - Requisitos: a seção enumera os dispositivos recorrentes, que são temporadas e roadmaps, passes e trilhas, eventos e coleções, janelas de disponibilidade, retornos e relançamentos, edições e variações.
 - Casos: comunicado de desenvolvimento sobre a Temporada 2024 (nota 358). Três etapas em cada temporada ranqueada (nota 359). Notas da Atualização 14.18 com término e início de etapa por data e hora (nota 360). Teasers e roadmaps como instrumentos da antecipação (notas 356 e 357). Cláusula contratual que admite atualizações e modificações com ou sem aviso (p. 315).
 - Objeções: sem base nesta seção.
-- Limites: o conceito é descritivo. Quem lê o CLAUDE.md do projeto sabe que a tese não traz critério negativo geral para a antecipação hipercuratorial. Nesta seção, ela é qualificada como técnica de governo do tempo e não como ilícito em si.
+- Limites: o conceito é descritivo. Nesta seção, ela é qualificada como técnica de governo do tempo e não como ilícito em si.
 - Fundamento: sem dispositivo de lei. Cita o contrato da Riot Games (2024e).
 - Autores: sem citação formal nova de autor. A seção usa Debord e Baudrillard como pano de fundo das seções anteriores.
 
@@ -235,4 +235,98 @@ A seção fixa a vulnerabilidade semiótica como exposição estrutural do consu
 > A operação aparece como “ajuste”, mas a sua consequência relevante, na perspectiva do OIC, é a reclassificação prática do que conta como potência, eficiência e prestígio. (p. 328)
 > O discurso produz inteligibilidade para a alteração e oferece justificativa técnica para a perda, mas não resolve o problema central. (p. 329)
 >! Em mercados reconfiguráveis, alterar catálogo, reordenar visibilidade, redesenhar ciclos e recalibrar sinais compõe o modo regular de governança, mas essa normalidade não pode funcionar como licença para preservar continuidade de aparência enquanto o núcleo da posição de fruição é deslocado por dentro. (p. 330)
+
+## 4.2 Dominação informacional, poder privado e subjetividade (p. 330-334)
+
+### O que diz
+A seção muda o foco do signo para a instituição. A plataforma administra as condições de fruição e, por isso, a descrição do OIC não cabe no vocabulário do preço nem da preferência. A tese retoma a hipótese inicial de que a plataforma ocupa o lugar da coletividade sem autorização e a traduz em quatro operações, que são definir regras internas, administrar visibilidade e reputação, curar o que aparece e volta, e aplicar sanções com efeitos de desapossamento funcional e identitário. Isso dispensa intenção subjetiva, porque o controle se exerce por arquitetura e por informação. A expressão "sem autorização" é descrita como falta de contrapesos de legitimidade e não como juízo político. Disso decorre um ajuste de lente para a tutela consumerista, com deveres proporcionais ao poder exercido. A seção atribui funções delimitadas a Cohen, Warren e Brandeis, Han e Grau, e anuncia os subitens seguintes.
+
+### Consumidor
+- Situação: a pessoa é sancionada, rebaixada ou vê regras mudarem sem saber por quê, num ambiente em que a empresa define quem aparece, o que vale e quem sai.
+- O que muda: mostra que o problema não é só o contrato que ela aceitou. A empresa também mantém regras, desenho e punições, e é essa estrutura que pode ser examinada. Mostra que não precisa provar má intenção da empresa.
+- Pedir ou guardar: a seção aponta, como horizonte, transparência, estabilidade e recomposição, sem enumerar pedidos. Dá base para guardar os critérios declarados de moderação e de ranqueamento vigentes.
+- Limite: a tese diz que não constrói teoria constitucional das plataformas e não trata a plataforma como Estado.
+
+### Jurista
+- Problema: como submeter a controle jurídico um poder privado exercido por arquitetura e informação sem equipará-lo ao Estado.
+- Leitura comum: a liberdade contratual contra a intervenção estatal, e a verificação de cláusulas abusivas isoladas.
+- Construção: a plataforma opera como poder privado com normatividade prática. As quatro operações geram assimetria estrutural, semiótica e institucional. "Sem autorização" designa ausência de contrapesos e não de delegação formal. A tutela precisa alcançar o plano arquitetural, com deveres proporcionais ao poder.
+- Requisitos: os contrapesos de legitimidade são publicidade inteligível de critérios, possibilidade de verificação, coerência decisória, motivação acessível e vias efetivas de contestação (p. 332).
+- Casos: sem base nesta seção.
+- Objeções: a seção antecipa a objeção de que seria transposição do poder público ao privado e responde que o quadro é mínimo, analítico e sem automatismo.
+- Limites: não antecipa a reconstrução dogmática. Prepara a passagem para critérios operacionais.
+- Fundamento: o Código de Defesa do Consumidor aparece só como a tutela consumerista a ser ajustada, sem artigo.
+- Autores: Cohen (2012; 2019), forma de poder em que informação e arquitetura viram governança prática (p. 333). Warren e Brandeis, matriz metodológica de reconstrução jurídica diante de mudança técnica (p. 333). Han (2015; 2017), adesão e autoajuste por desempenho como efeito estrutural (p. 333). Grau (2008), trava conceitual entre a neutralização liberal da normatividade privada e a transposição para o Estado (p. 333).
+
+### Trechos
+> O objetivo não é construir teoria constitucional geral das plataformas nem transpor automaticamente categorias do poder público para relações privadas, mas delimitar um quadro analítico mínimo em que a plataforma seja lida como instância de governança prática, com poder econômico e informacional suficiente para organizar acesso, permanência e participação em escala. (p. 330)
+> Em primeiro lugar, define e atualiza regras internas que estruturam acesso e permanência, estabelecendo permissões, incentivos e punições por moderação, restrições funcionais ou exclusões. (p. 331)
+> A descrição desses poderes dispensa a suposição de intenção subjetiva, porque o que está em jogo é um modo de funcionamento em que o controle se exerce por arquitetura e por informação. (p. 331)
+> É nesse sentido estrito que a expressão “sem autorização” deve ser compreendida, não como juízo político genérico, mas como constatação de que a plataforma exerce funções de ordenação social sem deter mandato público e sem se submeter, em medida equivalente, a exigências de reciprocidade institucional. (p. 332)
+> A ausência relevante não é a de delegação formal, mas de garantias mínimas que funcionam como contrapesos de legitimidade, como publicidade inteligível de critérios, possibilidade de verificação, coerência decisória, motivação acessível e vias efetivas de contestação. (p. 332)
+> A questão, portanto, não é apenas verificar cláusulas abusivas isoladas, mas compreender que o próprio ambiente funciona como mecanismo de produção de vulnerabilidade, o que torna relevantes deveres proporcionais ao poder exercido. (p. 332)
+
+## 4.2.1 Arquitetura de escolha e dominação informacional (p. 334-347)
+
+### O que diz
+A seção descreve como a plataforma organiza o campo de ação do consumidor por padrões de design, fluxos, classificação e modulação, sem comando explícito. Distingue a informação aqui tratada do dever de informar do CDC. Dominação informacional é o poder do controle concentrado das variáveis que tornam a experiência mensurável, classificável e sancionável. Com Cohen, mostra a arquitetura como governança, a opacidade como condição estrutural e a modulação contínua como forma de controle. Com Lesnovski, descreve a "experiência de liberdade controlada". Em League of Legends, o client é o ponto único de passagem, a oferta personalizada é opaca e o ambiente competitivo tem observabilidade parcial. A tese passa aos banimentos, concluindo que a punição não pode ser lida como resposta neutra a desvio autoevidente, que há seletividade do enforcement e que banir a conta por infração menor tende a ser desproporcional quando a funcionalidade é controlável. Fecha dizendo que o controle jurídico não pode ser só documental e que o problema é institucional.
+
+### Consumidor
+- Situação: a pessoa entra num serviço por uma tela única, vê ofertas "feitas para ela", joga partidas em que não enxerga tudo e depois é punida por algo dito em chat, com perda da conta inteira.
+- O que muda: explica que a vitrine, as ofertas e a ordem das opções não são neutras e que ela não vê os critérios. Explica que a punição pode ser examinada quanto à proporção, já que o chat pode ser restringido sem acabar com a conta.
+- Pedir ou guardar: a seção dá base para guardar o aviso de punição, o histórico de Honra, o registro de restrições e a notificação de banimento, e para questionar a proporção da sanção, como possibilidade. Pedir motivação e acesso aos critérios é coerente com a seção, que não o enumera como direito.
+- Limite: a seção diz que não sustenta tese de sabotagem deliberada sem prova interna e diz que a conduta ofensiva continua sancionável de modo proporcional.
+
+### Jurista
+- Problema: a opacidade e a assimetria epistêmica, operacional e sancionatória tornam o enforcement privado um problema de legitimidade, e não só de transparência.
+- Leitura comum: dever de informar do CDC, como divulgação de preço, características, riscos, condições e limitações.
+- Construção: governança por arquitetura, dominação informacional, modulação e enforcement técnico formam um regime em que a regra se realiza como condição prévia de possibilidade. Na sanção, a tese afirma que o desvio não é autoevidente, que a economia seletiva da disciplina exige justificação acrescida, e que o banimento por infração menor excede a neutralização do dano e assume feição de pena privada expansiva.
+- Requisitos: sem base nesta seção. A seção fala em transparência qualificada, contestabilidade efetiva e responsabilidade, sem fixar elementos.
+- Casos: o client da Riot como ponto único de passagem, feito de plugins (nota 374) e mantido por campanha de limpeza de código (nota 375). Ofertas personalizadas do "DescontoBot", que compara o histórico de seis meses com o de outros jogadores (nota 376). Cláusula de atualização contratual (nota 377). Estudo de Jalovaara sobre observabilidade parcial, viés de seleção em taxa de vitória e predição pré-jogo (p. 342-343 e nota 378). Sistema de Honra, com período de reforma, travamento de progresso e inelegibilidade a recompensas do Hextech Crafting (p. 343-344). Retorno quase imediato por nova conta, que transfere ao consumidor o ônus de reconstruir a trajetória (p. 345).
+- Objeções: a tese reconhece que a empresa poderia invocar o desvio individual claro e responde que o próprio fornecedor controla o ambiente, as medições e a gradação das sanções.
+- Limites: a seção afirma que "informação" aqui não se confunde com o dever de informar do CDC e que o objetivo não é tratar a plataforma como Estado.
+- Fundamento: Código de Defesa do Consumidor, dever de informar, citado sem artigo.
+- Autores: Cohen, 2019, modularidade (p. 336), reputação e visibilidade (p. 340), opacidade (p. 340), duplos informacionais (p. 341), automação do enforcement (p. 346). Cohen, 2012, protocolos (p. 336), código e normalização (p. 339), mediação algorítmica (p. 340), modulação (p. 341), enforcement técnico (p. 345). Lesnovski, 2014, liberdade controlada, recompensa e punição (p. 336-337 e nota 373). Jalovaara, 2024, observabilidade parcial (p. 342-343).
+
+### Trechos
+> “Informação”, aqui, não se confunde com o dever de informar do Código de Defesa do Consumidor, entendido como obrigação de divulgar dados sobre preço, características, riscos, condições e limitações do fornecimento. (p. 335)
+> Governança por arquitetura, para este recorte, designa a forma pela qual decisões de design e de infraestrutura operam como gramática prática do ambiente, configurando o campo de ação do consumidor antes de qualquer comando explícito. (p. 336)
+> A liberdade de escolha, nesse quadro, não desaparece, mas comparece já moldada por percursos, respostas, hierarquias de visibilidade e regimes de consequência que delimitam, silenciosamente, o que pode ser feito, encontrado, reconhecido e mantido. (p. 336-337)
+> O client é, ao mesmo tempo, a camada que estabiliza a experiência e o meio pelo qual ela é continuamente reconfigurada. (p. 339)
+>! Dominação informacional, para este recorte, designa o poder derivado do controle concentrado das variáveis que tornam a experiência mensurável, classificável e sancionável no ecossistema, como dados, métricas, critérios de ranqueamento, parâmetros de recomendação e registros de atividade. (p. 340)
+> O ponto, portanto, não está em sustentar, sem prova interna, uma tese maximalista de sabotagem deliberada, mas em reconhecer que a empresa governa um ambiente competitivo estruturalmente opaco, probabilístico e administrado por critérios internos cuja inteligibilidade aprofundada não é compartilhada com o consumidor na mesma medida em que seus efeitos lhe são impostos. (p. 343)
+> Quando o mesmo agente desenha o ambiente, mede seus efeitos e escolhe onde exercer com maior intensidade o poder punitivo, a legitimidade do enforcement deixa de ser pressuposto e passa a exigir justificação acrescida. (p. 344)
+> Há, ademais, uma questão especialmente relevante quanto à proporcionalidade, que impede naturalizar como razoável o banimento da conta quando aplicado como resposta ordinária a infrações menores exercidas por meio de funcionalidade sob pleno controle da plataforma, como agressões verbais em chat. (p. 344)
+> Se o fornecedor dispõe, portanto, de meios automáticos para silenciar, limitar, temporizar, bloquear ou condicionar o restabelecimento do chat conforme a gravidade e a reiteração da infração, a eliminação da conta inteira passa a exceder a neutralização do dano concreto e assume feição de pena privada expansiva, pois atinge não apenas a faculdade abusivamente exercida, mas a integralidade dos investimentos, históricos, signos e vantagens posicionais acumulados pelo consumidor. (p. 344-345)
+> Por isso, o controle jurídico não pode se contentar com a leitura documental do fornecimento como se fosse exaustiva, porque a conformação efetiva do objeto se produz por operações contínuas do ecossistema que podem degradar a posição adquirida, reordenar reputações e impor perdas funcionais sem transparência proporcional e sem contestabilidade compatível. (p. 346)
+
+## 4.2.2 Poder econômico privado e ordem constitucional (p. 347-351)
+
+### O que diz
+A seção situa o poder privado exercido por arquitetura numa tradição de reconstrução jurídica diante de mudanças materiais, sem equiparar plataforma a Estado. Recorre a Warren e Brandeis, que sustentaram o direito de ser deixado em paz diante de fotografias instantâneas e empresas de jornal. A tese usa o artigo por homologia de situação e não por identidade temática. Dele retira o deslocamento do vício individual para a engrenagem que produz o dano em escala, e também as cautelas, como interesse público, contextos institucionais e proporcionalidade ao meio. Daí conclui que limitar poder não depende de sua natureza pública, e que "sem autorização" nomeia ausência de reciprocidade institucional. A seção termina anunciando deveres proporcionais de transparência, estabilidade e recomposição.
+
+### Consumidor
+- Situação: a pessoa percebe que o dano que sofre não vem de um vilão identificável, mas de um modo de funcionar do serviço que lhe escapa.
+- O que muda: mostra que a lei costuma se adaptar quando a técnica muda a forma de causar dano, e que reclamar de uma empresa privada não exige que ela seja um órgão público.
+- Pedir ou guardar: sem base nesta seção.
+- Limite: a tese diz que a privacidade, em Warren e Brandeis, tem limites, e que a transposição não constitucionaliza toda disputa privada.
+
+### Jurista
+- Problema: legitimar a reconstrução de categorias para controlar poder privado sem recorrer à ficção estatizante nem à de neutralidade do mercado.
+- Leitura comum: o conflito como divergência contratual ou oscilação de preferências.
+- Construção: homologia de situação com Warren e Brandeis (mudança técnica, nova forma de dano, ajuste das categorias). O dano é produto de uma atividade institucionalizada, com a oferta fabricando a demanda. A limitação do poder depende da forma como ele se estabiliza. Daí o déficit estrutural de reciprocidade proporcional.
+- Requisitos: sem base nesta seção.
+- Casos: o artigo The Right to Privacy, de 1890, com a distinção entre privacidade, difamação e propriedade literária, e os remédios de indenização e tutela inibitória (p. 347-348 e nota 380).
+- Objeções: a tese antecipa a objeção de importar institutos de common law e responde que o interesse é metodológico, sem transplante institucional (nota 380).
+- Limites: o interesse público, os contextos institucionais e a publicação oral sem dano especial limitam o direito reconhecido, e a tese os recolhe como modelo de calibragem (p. 349-350).
+- Fundamento: sem dispositivo de lei brasileiro.
+- Autores: Warren e Brandeis, [201-?], direito de ser deixado em paz e remédios (p. 347-348), indústria da intrusão e oferta que fabrica a demanda (p. 348 e nota 381), limites de interesse público (p. 349-350), contexto institucional e meio de propagação (p. 350), diagnóstico de civilização (p. 350-351). A data da edição consultada aparece como [201-?] e o artigo é de 1890.
+
+### Trechos
+>! O recurso a Warren e Brandeis não opera por identidade temática, mas por homologia de situação. (p. 348)
+> A mudança técnica altera de modo estrutural as condições de exposição, dano e vulnerabilidade, e exige ajuste de categorias para que a tutela permaneça aderente ao modo real de produção do conflito. (p. 348)
+> Isso não implica equiparar plataforma a Estado nem constitucionalizar toda disputa privada, mas reconhecer que certos poderes privados, quando exercidos por arquitetura, informação e efetivação em escala, geram assimetrias e riscos que não se esgotam na literalidade contratual. (p. 348)
+> A consequência metodológica dessa calibragem é que a limitação do poder não depende de sua natureza pública, mas da forma como ele se estabiliza e dos efeitos que produz sobre condições de vida e de participação. (p. 350)
+> É nesse sentido estrito que a expressão “sem autorização” opera como categoria descritiva, pois nomeia um poder de ordenação social que não se submete, em medida equivalente, a exigências mínimas de publicidade inteligível dos critérios, motivação acessível, coerência decisória e vias efetivas de contestação compatíveis com a relevância econômica e identitária do que está em jogo. (p. 350)
+> Com isso, torna-se possível tratar a assimetria não como desconforto subjetivo, mas como déficit estrutural de reciprocidade proporcional, a ser enfrentado por instrumentos que tornem examináveis critérios, racionalidades e impactos do exercício de poder no interior do ecossistema. (p. 351)
 

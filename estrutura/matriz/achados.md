@@ -33,6 +33,19 @@ Registro dos leitores da matriz, para a escrita das camadas. Nada aqui altera a 
 - 7.2.3 nomeia a 99Food, mas descreve só os termos de iFood, 99 e Uber.
 - Rumores (7.2.7.1). Hipótese, sem concluir ilícito.
 
+- Decadência e art. 26 do CDC (p. 558, notas 611 e 612, com Denari, e p. 583). A tese propõe reler o marco de cognoscibilidade. Não afasta o prazo, não decide entre trinta e noventa dias nessas seções e não trata do art. 27.
+- Cláusula 2.3 da Riot ressalva direitos de dados e de consumidor, e o corpo do 6.1.3 não menciona. Cláusula 4.5 prevê reembolso ou substituição para compras recentes retiradas por completo. Citar para não simplificar.
+- Nota 543. Movimento recente de redução da residência do Vanguard em kernel, por uma única fonte do Medium.
+- P. 631, recusa de dois erros. É o mais perto de um critério negativo para a antecipação hipercuratorial, decisão pendente do autor.
+- 6.2.5 fala em mecanismos de aleatoriedade, sem nomear caixas de recompensa.
+
+## Erros de extração a corrigir no corpus
+- 6.2.4.1.1, p. 599-601. Quadro comparativo embaralhado, e somem três parágrafos da p. 600, que começam em "O quadro confirma", "É justamente daí" e "A adoção de". O segundo traz as quatro exigências cumulativas do critério de depuração. Resto "Pinto, 2024" colado ao fim da nota 680.
+- 6.2.4.3.1, p. 613-615. Notas 700, 701 e 702 atravessam a página e ficam cortadas, e parte da 700 entra no corpo. Parágrafo do gifting quebra na chamada de nota, p. 610.
+- 6.5.1, p. 693, e p. 468. Linha justificada partida em blocos de uma palavra.
+- 7.1.2, p. 745. Quebra falsa antes de A prova mínima exigível.
+- 3.1.1, p. 92-93. Lista quebrada em linhas.
+
 ## Para a Informação
 - Consequência expressa em 3.2.3 (p. 214). A alteração posterior do atributo que justificou o preço pode demandar restituição, abatimento ou compensação funcional equivalente, e pode abrir espaço a perdas e danos.
 - Os casos dos capítulos 3 e 4 são quase todos da Riot Games. Os outros serviços entram por Varoufakis, Dowbor e pelo capítulo 7.
@@ -57,3 +70,6 @@ Registro dos leitores da matriz, para a escrita das camadas. Nada aqui altera a 
 - Nota 753 repete a referência "(Brasil, [2025]b)".
 - P. 635, "A tarefa é precisamente evitar esse destino", sem antecedente.
 - Corpus, p. 693, trecho partido em blocos de uma palavra, no texto integral do 6.5.1.
+- Notas 477 e 495 parecem fora do lugar (Miragem, p. 977 e p. 39 e 380). O conteúdo que a segunda frase pede está na nota 483.
+- Digitação nas notas 652 ("Wada (20216)"), 606, 667, 655 e 657. Nota 607 truncada em "que, usados". Ponto duplo nas notas 592, 594, 710 e 716.
+- 6.2.4.5 anuncia "o terceiro ponto" sem ter nomeado o segundo.
