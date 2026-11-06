@@ -125,7 +125,7 @@ A seção desloca o foco do signo para o ambiente, porque em plataformas a prome
 > Urgência, nesse regime, não é emoção espontânea nem simples reação subjetiva a uma “promoção”. (p. 290)
 > A recomposição torna-se especialmente eficaz quando preserva a aparência de equivalência e mantém intactas as condições de comparação, ainda que altere restrições, efeitos práticos ou a experiência concreta associada ao objeto. (p. 294)
 >! A contribuição do espetáculo à questão jurídica, neste ponto, não é oferecer uma crítica moral da mídia, mas delimitar uma forma específica de assimetria de verificabilidade. (p. 294)
-> Por isso, o espetáculo interessa como camada material do problema probatório, porque descreve como a evidência do que vale pode ser administrada e naturalizada como se fosse dado objetivo do ambiente. (p. 295)
+> Por isso, o espetáculo interessa como camada material do problema probatório, pois descreve como a evidência do que vale pode ser administrada e naturalizada como se fosse dado objetivo do ambiente. (p. 295)
 
 ## 4.1.3 O simulacro e o valor dos bens digitais (p. 295-313)
 
@@ -164,4 +164,75 @@ Com Baudrillard, a seção define simulação como regime em que a equivalência
 > Nesses casos, o consumidor continua diante de um signo “compatível”, mas perde, na prática, aquilo que integrava sua legítima expectativa qualitativa sobre o adquirido, a ponto de a decisão de contratar poder não ter ocorrido se essa alteração estivesse presente desde o início. (p. 309)
 > Nesse cenário, “recompor” não pode significar preservar apenas o sinal de entrega e a comensurabilidade pública do item, deixando degradar ou alterar, sem critério demonstrável, aquilo que constituía a experiência relevante que sustentava o valor da posição. (p. 311)
 >! O problema jurídico não é o simbólico, mas a neutralização prática da prova do nexo entre promessa e fruição, o que exige critérios de rastreabilidade e controle substantivo da equivalência. (p. 313)
+
+## 4.1.4 Promessa curada, raridade e captura de valor (p. 313-320)
+
+### O que diz
+A seção trata o tempo como dimensão governada. Em serviços contínuos, a promessa deixa de ser entrega pontual e vira continuidade administrada. Antecipação hipercuratorial é a técnica pela qual a plataforma produz futuro consumível, decidindo o que virá, o que desaparecerá, o que retornará e o que vira "evento". O consumidor fica em prontidão contínua, e a espera passa a ser componente da fruição. A tese mostra isso em comunicados de desenvolvimento, nas três etapas por temporada ranqueada e nas notas de atualização com data e hora. Com a analogia do transporte urbano, mostra que a instabilidade do por vir retira previsibilidade e agência. Lista os dispositivos recorrentes (temporadas, roadmaps, passes, eventos, janelas, retornos, edições), diz que a sequência vira a unidade econômica e que a urgência é risco de perder lugar numa hierarquia legível. A seção conclui que o por vir amortece a perda presente e que o problema central passa a ser a demonstrabilidade do nexo entre promessa e fruição.
+
+### Consumidor
+- Situação: a pessoa compra passe, evento ou item de temporada e sente que precisa acompanhar o calendário, aproveitar janelas curtas e voltar sempre para não ficar para trás.
+- O que muda: explica que a urgência vem do desenho do calendário e não de impulsividade dela. Explica também que promessas de próximo capítulo, retorno ou novidade fazem parte do que está sendo vendido, e que a espera é gerida pela empresa.
+- Pedir ou guardar: a seção dá base para guardar anúncios, roadmaps, regras de temporada e datas de início e fim de etapa, pois são o que sustenta a promessa no momento da compra. Não enumera pedidos.
+- Limite: a seção descreve o mecanismo e não diz que calendário, temporada ou evento sejam ilícitos. O contrato citado admite atualizações com ou sem aviso.
+
+### Jurista
+- Problema: como tratar o "por vir" como parte funcional do bem e como ponto de verificabilidade, quando a perda decorre de deslocamentos de calendário e apresentação sem inadimplemento facilmente identificável.
+- Leitura comum: a previsibilidade como condição mínima de planejamento e comparação no consumo tradicional, e a promessa como evento de entrega.
+- Construção: antecipação hipercuratorial como técnica de captura de valor. A promessa se serializa. A adequação passa a depender de o bem permanecer operatório no circuito ao longo das cadências. A confiança migra para o ecossistema como garantidor privado. A teleologia de extração se reforça porque a recorrência é monetizada.
+- Requisitos: a seção enumera os dispositivos recorrentes, que são temporadas e roadmaps, passes e trilhas, eventos e coleções, janelas de disponibilidade, retornos e relançamentos, edições e variações.
+- Casos: comunicado de desenvolvimento sobre a Temporada 2024 (nota 358). Três etapas em cada temporada ranqueada (nota 359). Notas da Atualização 14.18 com término e início de etapa por data e hora (nota 360). Teasers e roadmaps como instrumentos da antecipação (notas 356 e 357). Cláusula contratual que admite atualizações e modificações com ou sem aviso (p. 315).
+- Objeções: sem base nesta seção.
+- Limites: o conceito é descritivo. Quem lê o CLAUDE.md do projeto sabe que a tese não traz critério negativo geral para a antecipação hipercuratorial. Nesta seção, ela é qualificada como técnica de governo do tempo e não como ilícito em si.
+- Fundamento: sem dispositivo de lei. Cita o contrato da Riot Games (2024e).
+- Autores: sem citação formal nova de autor. A seção usa Debord e Baudrillard como pano de fundo das seções anteriores.
+
+### Trechos
+>! Antecipação hipercuratorial designa uma técnica econômico-semiológica pela qual a plataforma produz futuro consumível por curadoria contínua, definindo o que virá, o que desaparecerá, o que retornará e o que será elevado ao estatuto de “evento”. (p. 313)
+> O consumidor é mantido em prontidão contínua para “o próximo ciclo”, “a próxima atualização”, “a próxima oportunidade”, ou seja, para a próxima peça de sentido que reordena o valor posicional do ecossistema. (p. 314)
+> Assim, a plataforma não vende apenas o “agora”, posto que ela também vende a permanência orientada ao “por vir”, convertendo expectativa em ativo e transformando a espera em componente material da fruição. (p. 314)
+> A antecipação hipercuratorial, nesse sentido, não é ornamento de marketing, mas técnica de governo do tempo que monetiza a expectativa como forma regular de manutenção do valor. (p. 316)
+> Em um plano de assinatura de transporte urbano, o valor não está apenas no cartão adquirido, mas na estabilidade do sistema que o torna utilizável, linhas, horários, integrações e regras de acesso. (p. 316)
+> Com esses dispositivos, a promessa deixa de se estruturar como entrega fechada e passa a operar como promessa serializada, na qual a sequência se torna a unidade econômica relevante. (p. 317)
+> Perder uma janela, falhar em um marco ou ignorar um ciclo não equivale a “perder uma chance”, mas a cair de posição no regime público de comparação que o ecossistema atualiza em tempo real. (p. 318)
+> A opacidade, portanto, não é ruído de comunicação nem falta de atenção do consumidor: é efeito de uma arquitetura reconfigurável em que o que está em jogo é a manutenção das condições que fazem a promessa continuar valendo no tempo. (p. 319)
+>! O consumo deixa de ser evento e passa a ser regime, no qual a governança contínua do ecossistema é a condição de eficácia da extração. (p. 320)
+> A antecipação facilita essa troca porque a promessa futura funciona como amortecedor: o por vir anunciado ocupa o lugar da perda presente e sustenta a sensação de continuidade mesmo quando restrições, efeitos práticos, modos de acesso ou condições de performance se alteram de modo relevante. (p. 320)
+
+## 4.1.5 Semiose controlada e vulnerabilidade semiótica (p. 320-330)
+
+### O que diz
+A seção fixa a vulnerabilidade semiótica como exposição estrutural do consumidor ao controle unilateral das condições que fazem a promessa valer como entrega. O núcleo é perda de capacidade de verificar o nexo promessa-fruição e não ignorância de cláusula. Ela não é juízo moral, nem psicologização, nem culturalismo ornamental. A confirmação da entrega desloca-se do nexo promessa-fruição para promessa-sinal. A tese decompõe a vulnerabilidade em quatro camadas, de sentido, visibilidade, equivalência e tempo, e mostra cada uma, com o caso da skin Soul Fighter Samira para a primeira. Aponta o nerf como caso-limite de mutação da regra interna de valor. Rejeita o binário funciona ou não funciona e descreve a recomposição meramente nominal. Define auditabilidade como rastreabilidade das condições da promessa e das alterações, e equivalência de valor funcional como critério substantivo. Fecha dizendo que a normalidade da mudança não pode ser licença para conservar a aparência enquanto o núcleo da posição é deslocado.
+
+### Consumidor
+- Situação: a pessoa tem um item que continua na conta e continua com o mesmo nome, mas ficou mais fraco, mudou de categoria ou perdeu o status que tinha, depois de uma atualização.
+- O que muda: mostra que "continua aí" não é o mesmo que "continua valendo o que valia". Explica que a dificuldade de contestar vem de não ter acesso aos critérios e registros, e que provar o que mudou exige reconstruir como eram as regras e as classificações quando comprou.
+- Pedir ou guardar: a seção dá base para guardar prints, descrições, classificação do item, regras e métricas vigentes na compra, e as notas de atualização posteriores, pois diz que o objeto de prova é a reconstrução do nexo. Dá base também para pedir, como possibilidade, recomposição que preserve funções, restrições, acesso e performance, e não só o nome.
+- Limite: a seção afirma que a equivalência funcional não autoriza transformar qualquer valor simbólico em obrigação indeterminada. Cabe recortar o que era relevante para aquela posição específica. A tese não conclui que nerf seja ilícito e diz que a questão é em que condições pode ser tratado como compatível com a promessa.
+
+### Jurista
+- Problema: delimitar a lesão que ocorre por recalibragem e não por evento, quando a identidade do bem é parcialmente constituída por gramática compartilhada controlada pelo fornecedor.
+- Leitura comum: o binário funciona ou não funciona, o funcionamento mínimo como régua e o bem como unidade fechada.
+- Construção: vulnerabilidade semiótica como matriz de quatro assimetrias que se combinam e deslocam a verificação para o sinal. Recomposição nominal como risco típico. Mudança do objeto da prova. Auditabilidade como piso de verificabilidade e equivalência de valor funcional como critério substantivo, que se complementam.
+- Requisitos: quatro camadas, de sentido, de visibilidade, de equivalência e temporal (p. 322-324). Para a prova, devem poder ser reconstruídos as funções, as restrições, os modos de acesso e os parâmetros de reconhecimento da compra, e as classificações, métricas, critérios de visibilidade, cadências, regras e equivalências em vigor (p. 326). Para a auditabilidade, critérios de classificação e leitura do item, parâmetros de visibilidade e comparação, regras e métricas de reconhecimento e decisões temporais (p. 326). A equivalência de valor funcional preserva funções práticas, restrições aplicáveis, modos de acesso, condições de performance e efeitos da experiência adquirida (p. 327).
+- Casos: Soul Fighter Samira lançada como Ultimate em 2023, com a Riot afirmando que a definição de Ultimate "mudou ao longo dos anos" e que o projeto começou como Legendary (nota 361), e a reação pública de que seria um "Legendary+" (nota 362). Nerf, definido no verbete da wiki como modificação oficial que torna algo menos poderoso (nota 364). Cláusula contratual que usa o verbo "nerf" e qualifica o conteúdo virtual como licença e direito pessoal revogáveis e limitados (notas 365 e 366). Nota de atualização de 2026 com a frase "esse enfraquecimento deve garantir que o poder dela mingue um pouco" (nota 364). Fala atribuída ao designer da campeã Zeri (nota 368) e teste comunitário de taxa de vitória antes e depois de skin nova (nota 369), ambos tratados pela tese como indício e não como prova conclusiva.
+- Objeções: a linguagem pública de balanceamento diz que enfraquecer mantém o ambiente saudável. A tese responde que isso dá inteligibilidade à perda, mas não resolve quando um rebaixamento substantivo pode ser compatível com a promessa. Quanto à suspeita de manipulação ligada à venda de cosméticos, a tese diz que não precisa ser tratada como acusação, mas como risco estrutural.
+- Limites: equivalência de valor funcional cobre o componente simbólico apenas na medida em que era condição operatória da posição comprada. Auditabilidade não exige exposição de segredo industrial genérico.
+- Fundamento: sem dispositivo de lei. Cláusulas da Riot Games (2024e).
+- Autores: sem citação formal nova de autor. Retoma Baudrillard e Debord das seções anteriores.
+
+### Trechos
+>! Vulnerabilidade semiótica designa a exposição estrutural do consumidor ao controle unilateral, pela plataforma, das condições que fazem a promessa valer como entrega quando o bem é uma posição de fruição e não uma coisa autônoma. (p. 321)
+> Há assimetria de sentido, ligada ao controle de códigos de leitura, categorias e classificações que definem o que conta como diferença relevante. (p. 322)
+> Essas camadas se acoplam como mecanismo e produzem perda estrutural de verificabilidade: o problema central não é apenas saber, mas conseguir provar. (p. 322)
+> Não se trata como ponto jurídico relevante discutir “gosto” nem transformar a crítica comunitária em medida de verdade, mas observar como o próprio ecossistema passa a depender de uma redefinição unilateral do que o signo do tier promete. (p. 322)
+> O aviltamento simbólico é relevante porque produz perda por mutação da regra interna de valor, e não por falha ostensiva de funcionamento. (p. 325)
+> Sob estas premissas, a noção de adequação não pode ser decidida pelo binário “funciona/não funciona”, porque é perfeitamente possível manter acesso técnico e, ainda assim, perder o que tornava a posição economicamente operatória. (p. 325)
+>! Não basta demonstrar que “o item existe” ou que “o acesso permanece”. (p. 326)
+> Auditabilidade, neste contexto, é a exigência mínima de verificabilidade em um mercado no qual a entrega depende de camadas opacas e ajustáveis. (p. 326)
+> Equivaler, aqui, não significa parecer equivalente para a vitrine, mas preservar, de modo substantivo, os elementos relevantes que faziam aquela posição valer como entrega, incluindo funções práticas, restrições aplicáveis, modos de acesso, condições de performance e efeitos que estruturavam a experiência adquirida. (p. 327)
+> Isso não autoriza transformar qualquer valor simbólico em obrigação jurídica indeterminada; ao contrário, exige recortar o que era relevante para aquela posição específica e comparar se a recomposição preservou esse núcleo ou se apenas manteve sinais de continuidade enquanto deslocou, por dentro, o que importava. (p. 327)
+> A operação aparece como “ajuste”, mas a sua consequência relevante, na perspectiva do OIC, é a reclassificação prática do que conta como potência, eficiência e prestígio. (p. 328)
+> O discurso produz inteligibilidade para a alteração e oferece justificativa técnica para a perda, mas não resolve o problema central. (p. 329)
+>! Em mercados reconfiguráveis, alterar catálogo, reordenar visibilidade, redesenhar ciclos e recalibrar sinais compõe o modo regular de governança, mas essa normalidade não pode funcionar como licença para preservar continuidade de aparência enquanto o núcleo da posição de fruição é deslocado por dentro. (p. 330)
 
