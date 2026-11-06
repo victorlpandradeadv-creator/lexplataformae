@@ -25,6 +25,14 @@ Registro dos leitores da matriz, para a escrita das camadas. Nada aqui altera a 
 - Objeção de inovação em 6.3.2, 6.4 e 6.5.3. Objeção de segredo em 6.3.1, 6.3.3 e 6.5.2.
 - Loot boxes aparecem nominalmente só em 5.2.3 e 6.1.4. Em 6.4.2 há recompensas seriadas e Fortnite, por Azevedo e Torres. Sorteio de itens e Exaltadas em 4.1.3 e 5.1.3.
 
+- Capítulo 7 só nomeia o art. 3º, § 1º, e o art. 29 do CDC. Os demais artigos vêm de outros capítulos.
+- Fechos. Propriedade intelectual e recomposição como fechos operacionais (p. 717), teleologia abusiva como categoria de fechamento (p. 734), recomposição com função de fechamento (p. 740). Apresentar de um modo só.
+- Produto e serviço. O bloco a qualifica como produto imaterial, o f fala em vício do produto ou serviço, e o g em defeito do serviço. Explicar ao advogado.
+- Três sequências parecidas, os quatro passos do 7.1 e do 7.2, os seis passos do 7.1.1 e os filtros do 7.1.2. A prova vem depois da teleologia no 7.1.1. Uma apresentação só.
+- Art. 29. O corpo do 7.2.6 afirma com força, e a nota 817 fala em hipóteses excepcionais, atribui ao STJ e não indica julgado. Conservar a ressalva.
+- 7.2.3 nomeia a 99Food, mas descreve só os termos de iFood, 99 e Uber.
+- Rumores (7.2.7.1). Hipótese, sem concluir ilícito.
+
 ## Para a Informação
 - Consequência expressa em 3.2.3 (p. 214). A alteração posterior do atributo que justificou o preço pode demandar restituição, abatimento ou compensação funcional equivalente, e pode abrir espaço a perdas e danos.
 - Os casos dos capítulos 3 e 4 são quase todos da Riot Games. Os outros serviços entram por Varoufakis, Dowbor e pelo capítulo 7.
