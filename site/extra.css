@@ -780,3 +780,21 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 .tabela-tese table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 0.875rem; line-height: 1.35; }
 .tabela-tese :is(th, td) { border: 1px solid var(--linha); padding: 0.4rem 0.5rem; vertical-align: top; text-align: left; }
 .tabela-tese th { font-family: var(--f-display); font-weight: 600; }
+
+/* Curso. O sinal ao lado do parágrafo abre os trechos da tese que o sustentam. Funciona no mouse, no toque, no teclado e sem script. */
+.par-curso { position: relative; }
+.bloco-curso { margin-block: 2rem; }
+.bloco-curso-caso { background: var(--fundo-suave, transparent); border-top: 2px solid var(--linha); padding: 1rem 1.25rem; }
+.fonte-par > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; min-width: 1.5rem; min-height: 1.5rem; font-family: var(--f-dado); font-size: 0.8125rem; color: var(--tinta-2); opacity: 0.55; }
+.fonte-par > summary::-webkit-details-marker { display: none; }
+.par-curso:hover .fonte-par > summary, .fonte-par > summary:focus-visible, .fonte-par[open] > summary { opacity: 1; color: var(--modo); }
+.fonte-par > summary:focus-visible { outline: 2px solid var(--modo); outline-offset: 2px; }
+.fonte-par blockquote { margin-block: 0.5rem; }
+@media (min-width: 1100px) {
+  .fonte-par > summary { position: absolute; right: -1.9rem; top: 0.2rem; }
+}
+@media (hover: none) { .fonte-par > summary { opacity: 1; min-width: 2.75rem; min-height: 2.75rem; } }
+.curso-lista { padding-left: 1.5rem; }
+.curso-lista li { margin-block: 1.25rem; }
+.curso-lista li > a { font-family: var(--f-display); font-stretch: 112%; font-weight: 600; font-size: 1.125rem; }
+.curso-lista li > p { margin-block: 0.25rem 0; }

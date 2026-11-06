@@ -18,7 +18,7 @@ BLOCOS = {"h1", "h2", "h3", "h4", "p", "li", "dd", "dt", "blockquote", "figcapti
 LITERAL = {"citacao", "citacao-longa", "canonica", "frase", "campo-def", "texto", "ficha", "titulo-tese", "notas", "quadro-literal"}
 LEI = {"lei-texto", "leis-pagina", "artigos", "lei-oficial"}
 ROTULOS = {"rotulo-ext", "rotulo-fonte", "sobrelinha", "sobrelinha-ext", "direito-titulo", "titulo-tese"}
-FORA = {"lateral", "lei-nota", "balao-ref", "ilustracao"}
+FORA = {"fonte-par", "lateral", "lei-nota", "balao-ref", "ilustracao"}
 TIRAR = {"pg", "pg-marca", "nota-ref", "lei-ref", "so-leitor", "balao-ref", "cita-sinal"}
 
 # Limites da revisão de voz.
