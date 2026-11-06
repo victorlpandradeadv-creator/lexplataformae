@@ -73,3 +73,9 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - 6.2.4.5 anuncia "o terceiro ponto" sem ter nomeado o segundo.
 - Warren e Brandeis como "[201-?]" no corpo e 1890 na nota 380. Citação "p. 33" sem colchetes em 4.2.4. Han 2017 como "p. [13-14]" em 4.2.5.
 - "As Lex Plataformae" e "uma Lex Plataformae" em 4.2.4 e 4.2.5. "Técnica elluniana" (p. 289) sem referência formal a Ellul.
+
+## Leituras feitas ao escrever o curso, para a revisão do autor
+- Auditabilidade. A p. 642 tira do gatilho qualquer mudança cosmética, e o exemplo das p. 469-471 é um cosmético. Conciliado pelo núcleo vendido, como leitura possível.
+- Auditabilidade. Elementos publicamente recuperáveis (p. 498-499) são disciplina de método, e o curso diz que podem orientar o advogado. A lista inclui critérios internos de sanção, o que soa contraditório.
+- Auditabilidade. As listas de conteúdo mínimo das p. 643 e 475-476 não coincidem, e o curso as lê em conjunto. Modulações ordinárias (p. 727) entre os itens auditáveis, contra a p. 642. O curso diz que a menção não dispensa o gatilho.
+- Auditabilidade. A falta dela integra o ilícito (p. 636), condicionada à intensidade (p. 646), violação do parâmetro (p. 745). O curso mantém as três, sem automatismo.
