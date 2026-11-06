@@ -17,6 +17,14 @@ Registro dos leitores da matriz, para a escrita das camadas. Nada aqui altera a 
 - Exterior incorporado (nota 241). Hipótese a testar em trabalhos futuros.
 - Hipótese-limite da plataforma que fracassa e inquietação sobre decifração comportamental, na conclusão. A própria tese diz que não explorou com a centralidade que merecia.
 
+- Nota 741 (p. 651) diz que a alteração unilateral "já basta, por si, para caracterizar abusividade", e o corpo diz que nem toda alteração é ilícita (p. 638-639, p. 655). A nota fala da cláusula que autoriza a mudança, a partir de Miragem. Não repetir sem esse recorte.
+- Portas do CDC. "Três portas" (p. 678), e em seguida "vício, defeito, prática abusiva e cláusula abusiva" como portas do sistema (p. 679). A auditabilidade não vira quarta porta (p. 678). O defeito é deslocamento em caso-limite (p. 675-676).
+- Em 6.3 a 6.5 a porta da prática abusiva não cita o art. 39 do CDC (a nota 766 usa o art. 51, IV), e o vício de qualidade vem sem os arts. 18 e 20. Esses artigos aparecem em outras seções. Conferir em 6.2 antes de citar.
+- Ilícito de arquitetura e teleologia abusiva. O 6.4 usa o primeiro, e o 6.4.1 fala em ilícito de teleologia abusiva, sem separar. A etiqueta do site diz como categoria de (p. 794).
+- Encerramento do serviço (p. 709). É construção da tese, sem autor nem dispositivo próprio.
+- Objeção de inovação em 6.3.2, 6.4 e 6.5.3. Objeção de segredo em 6.3.1, 6.3.3 e 6.5.2.
+- Loot boxes aparecem nominalmente só em 5.2.3 e 6.1.4. Em 6.4.2 há recompensas seriadas e Fortnite, por Azevedo e Torres. Sorteio de itens e Exaltadas em 4.1.3 e 5.1.3.
+
 ## Para a Informação
 - Consequência expressa em 3.2.3 (p. 214). A alteração posterior do atributo que justificou o preço pode demandar restituição, abatimento ou compensação funcional equivalente, e pode abrir espaço a perdas e danos.
 - Os casos dos capítulos 3 e 4 são quase todos da Riot Games. Os outros serviços entram por Varoufakis, Dowbor e pelo capítulo 7.
@@ -36,3 +44,8 @@ Registro dos leitores da matriz, para a escrita das camadas. Nada aqui altera a 
 - Nota 819 (p. 798), 170 personagens e 123 campeões, para "dezenas ou centenas" de tipos de risco.
 - Introdução e 2.6 misturam seção e capítulo.
 - Corpus, p. 468, trecho partido em linhas soltas.
+- Notas 781 e 782 (p. 686) trocadas no próprio PDF.
+- Nota 780 (p. 685-686), "tratar le software".
+- Nota 753 repete a referência "(Brasil, [2025]b)".
+- P. 635, "A tarefa é precisamente evitar esse destino", sem antecedente.
+- Corpus, p. 693, trecho partido em blocos de uma palavra, no texto integral do 6.5.1.
