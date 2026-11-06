@@ -87,6 +87,17 @@ def html_spans(spans, limite):
     return h.replace("</em><em>", "").replace("</strong><strong>", "")
 
 
+def tabela_html(tabela, pagina, marca=None):
+    """Quadro da tese em HTML, com a marca da página antes dele quando ela ainda não foi posta."""
+    def celula(caixa, tag):
+        t = norm(pagina.get_text("text", clip=caixa).replace(chr(10), " ")) if caixa else ""
+        return f"<{tag}>{html.escape(t)}</{tag}>"
+    corpo = ""
+    for i, linha in enumerate(tabela.rows):
+        corpo += "<tr>" + "".join(celula(c, "th" if i == 0 else "td") for c in linha.cells) + "</tr>"
+    return (marca or "") + f"<table>{corpo}</table>"
+
+
 def juntar(atual, novo):
     if not atual:
         return novo.lstrip()
@@ -159,9 +170,24 @@ def main():
                 spans = [s for s in l["spans"] if s["text"] != ""]
                 if spans:
                     linhas.append((round(l["bbox"][1], 1), l["bbox"][0], spans))
+        # Quadros da tese viram bloco próprio, e as linhas deles saem do fluxo do texto.
+        tabelas = pagina.find_tables().tables
+        caixas = [t.bbox for t in tabelas]
+        if caixas:
+            linhas = [(y, x, sp) for y, x, sp in linhas if not any(c[0] - 2 <= x <= c[2] and c[1] - 4 <= y <= c[3] for c in caixas)]
         linhas.sort(key=lambda x: (x[0], x[1]))
+        # Linha justificada que o PDF parte em pedaços na mesma altura volta a ser uma linha só.
+        unidas = []
+        for y, x, sp in linhas:
+            if unidas and abs(unidas[-1][0] - y) < 1.5 and x > unidas[-1][1] and abs(sp[0]["size"] - unidas[-1][2][0]["size"]) < 0.3:
+                unidas[-1] = (unidas[-1][0], unidas[-1][1], unidas[-1][2] + sp)
+            else:
+                unidas.append((y, x, sp))
+        linhas = unidas
+        tabelas_pendentes = [(t.bbox[1], t) for t in tabelas]
         corpo12 = [round(x) for y, x, sp in linhas if y > 60 and any(abs(s["size"] - 12) < 0.3 and s["text"].strip() for s in sp)]
-        margem = min((x for x in set(corpo12) if corpo12.count(x) > 3), default=85) if corpo12 else 85
+        margem_par = 57 if impressa % 2 == 0 else 85  # a margem espelha nas páginas pares, e a página de quase só notas não tem corpo para medir
+        margem = min((x for x in set(corpo12) if corpo12.count(x) > 3), default=margem_par) if corpo12 else margem_par
         marca_pendente = f'<span class="pg-marca" id="p{impressa}">p. {impressa}</span>'
         em_notas = False
         vazio_pendente = False
@@ -169,6 +195,10 @@ def main():
         for y, x, spans in linhas:
             if y < 60:
                 continue
+            if tabelas_pendentes and y > tabelas_pendentes[0][0] and atual is not None:
+                fechar_bloco()
+                atual["blocos"].append({"tipo": "tabela", "html": tabela_html(tabelas_pendentes.pop(0)[1], pagina, marca_pendente)})
+                marca_pendente = None
             visiveis = [s for s in spans if s["text"].strip()]
             texto = norm("".join(s["text"] for s in spans))
             primeiro = visiveis[0] if visiveis else spans[0]

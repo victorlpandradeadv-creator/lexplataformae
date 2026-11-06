@@ -330,3 +330,147 @@ A seção situa o poder privado exercido por arquitetura numa tradição de reco
 > É nesse sentido estrito que a expressão “sem autorização” opera como categoria descritiva, pois nomeia um poder de ordenação social que não se submete, em medida equivalente, a exigências mínimas de publicidade inteligível dos critérios, motivação acessível, coerência decisória e vias efetivas de contestação compatíveis com a relevância econômica e identitária do que está em jogo. (p. 350)
 > Com isso, torna-se possível tratar a assimetria não como desconforto subjetivo, mas como déficit estrutural de reciprocidade proporcional, a ser enfrentado por instrumentos que tornem examináveis critérios, racionalidades e impactos do exercício de poder no interior do ecossistema. (p. 351)
 
+## 4.2.3 Psicopolítica, autoexploração e cativeiro identitário (p. 351-363)
+
+### O que diz
+A seção usa Byung-Chul Han para descrever a sujeição sem psicologizar. No regime de desempenho, a conformidade deixa de depender de proibição externa e opera por positividade, e a liberdade passa a ser veículo de exigência. A tese ilustra com o ranqueamento de League of Legends, em que o desempenho vira posição pública, o MMR é secreto e o ranque o traduz, e com o sistema de Honra, que acopla conduta a recompensas. Os Termos de Serviço estendem as regras a condutas fora do jogo e a outros jogos da empresa. Disso a seção extrai o cativeiro identitário, dependência prática pela qual a fruição e a identidade simbólica são mediadas pelo ecossistema, e a barreira de saída descrita como uma forma de morte social. Com Han, mostra o usuário como agente da própria sujeição e a gamificação como temporalidade incompatível com o que amadurece no tempo. Conclui que a sujeição é efeito previsível do ambiente e que isso exige deveres reforçados, e prepara o exame da Lex Plataformae.
+
+### Consumidor
+- Situação: a pessoa joga ranqueadas, cuida da reputação, evita punições e sente que sair ou parar custa o lugar que construiu, o histórico e os vínculos.
+- O que muda: explica que o esforço para se manter e a dificuldade de largar não são fraqueza. São efeitos do desenho, que trata reconhecimento como bem escasso e administra o custo de sair. Explica também que o ranque e a reputação existem só enquanto a conta existe.
+- Pedir ou guardar: a seção dá base para guardar o histórico de ranque, os níveis de Honra, as punições e os termos vigentes, pois a perda da conta leva a posição junto. Fala em deveres de transparência, contestabilidade, auditabilidade e recomposição, sem enumerar pedidos.
+- Limite: a tese usa Han como lente descritiva e diz que suas formulações são "propositalmente carregadas". A seção não afirma que a empresa deseje o dano.
+
+### Jurista
+- Problema: a adesão e o autoajuste são efeitos estruturais que explicam por que regras privadas e sanções técnicas operam com eficiência, e tornam a vulnerabilidade institucional.
+- Leitura comum: a escolha do usuário como fim do sentido do fornecimento, a assimetria informacional corrigível por aviso e a dinâmica concorrencial neutra resolvida por alternativa de mercado.
+- Construção: da disciplina ao desempenho (Han). Da conformidade por positividade à autoexploração. Do ranque como posição ao cativeiro identitário e à barreira de saída. Da sujeição como efeito estrutural aos deveres proporcionais ao poder exercido, sobre inteligibilidade de critérios, estabilidade mínima e recomposição.
+- Requisitos: sem base nesta seção. Os deveres enunciados são transparência qualificada, contestabilidade, auditabilidade e recomposição (p. 359).
+- Casos: MMR secreto e ranque como tradução pública (p. 354). Mudanças estruturais da escada ranqueada, com nova tier (nota 383). Honra, com níveis 1 e 0 obtidos só por penalidade, rebaixamento, travamento de progresso e inelegibilidade a recompensas (p. 355-356 e notas 385 e 386). Termos de Serviço com as Regras de Usuário, penalidades de suspensão, encerramento e banimento de hardware, aplicação a transmissões e redes sociais, e penalidade de um jogo valendo em outros (p. 356 e notas 387 e 388). Licença revogável e perda dos dados associados no encerramento da conta (nota 384).
+- Objeções: a tese antecipa que o problema seja tratado como simples assimetria informacional corrigível por aviso, ou dinâmica concorrencial resolvida por alternativa de mercado, e responde que a dependência é explorável porque os parâmetros não são verificáveis.
+- Limites: o cativeiro identitário não designa aprisionamento físico nem supõe incapacidade de agir. A expressão "morte social" é descrição funcional e não dramatização moral.
+- Fundamento: sem dispositivo de lei. Cláusulas da Riot Games (2024e).
+- Autores: Han, 2015, sujeito de desempenho e liberdade coercitiva (p. 352 e 353). Han, 2017, liberdade como veículo de coerção (p. 352), poder inteligente (p. 353), panóptico digital (p. 354 e 358), Quantified Self e fim da narrativa (p. 357), exploração da liberdade (p. 360 e nota 389), autoexploração (p. 360-361), otimização (p. 361), temporalidade do jogo (p. 362 e nota 390).
+
+### Trechos
+> A passagem do modelo disciplinar para um regime de desempenho permite descrever a sujeição contemporânea sem recorrer à análise psicológica individual, pois o eixo da conformidade deixa de depender de proibições externas e passa a operar por positividade produtiva e internalização de exigências. (p. 352)
+> Nesse contexto, a adaptação do consumidor não exprime traço de personalidade, mas estratégia de permanência em um mercado administrado. (p. 353)
+> Por isso, a escalada ranqueada tende a transformar o lazer em regime de autoexploração racional. (p. 354)
+> Assim, a escada ranqueada não opera como patrimônio destacável. (p. 355)
+> A disciplina, aqui, não precisa aparecer como ameaça explícita, porque se instala como prudência cotidiana do próprio sujeito. (p. 355)
+> Nessa combinação, o que se observa é um regime em que o sujeito internaliza o controle como obrigação de permanecer elegível e aceitável diante de critérios que o próprio ecossistema administra, ampliando o campo de incidência da normatividade para além do momento estrito da partida. (p. 356-357)
+>! O efeito institucionalmente relevante desse quadro pode ser descrito como cativeiro identitário. (p. 358)
+> A expressão não designa aprisionamento físico nem supõe incapacidade de agir, mas nomeia dependência prática, pela qual a continuidade da fruição e a estabilidade da identidade simbólica passam a ser mediadas pelo ecossistema administrado. (p. 358)
+> A barreira de saída pode ser descrita como uma forma de morte social no interior do ecossistema. (p. 359)
+> Essa dependência de reconhecimento administrado é juridicamente relevante porque torna integridade e identidade variáveis governadas da fruição e exige, no plano dogmático, deveres reforçados de transparência qualificada, contestabilidade, auditabilidade e recomposição proporcionais ao tipo de poder exercido pela Lex Plataformae. (p. 359)
+>! A sujeição descrita, portanto, não é traço moral nem patologia individual, mas efeito previsível de um ambiente em que desempenho, exposição e mensurabilidade funcionam como gramática de permanência. (p. 361)
+> Impõe-se, portanto, que a análise deve avançar da sujeição para a normatividade do ambiente. (p. 363)
+
+## 4.2.4 Regras privadas, enforcement e a governança da plataforma (p. 363-379)
+
+### O que diz
+A seção define a Lex Plataformae como regime normativo integrado de três camadas, texto normativo interno, arquitetura e implementação, e enforcement e sanções. Com Eros Grau, trata esse regime como direito efetivo do ambiente em sentido operacional, sem reduzi-lo a contrato nem a Estado. Com Patricia Peck Pinheiro, reconhece uma Internet governada por contratos, mas a tese acrescenta escala e composição. Cohen mostra o deslocamento de autoridade para padrões e protocolos. Brandeis, em Other People's Money, serve de paralelo por posição, com unificação gradual de funções, conflito estrutural de interesses e governo por sinais e reputação, sem equiparar bancos e plataformas. A tese distingue a regra como enunciado da regra como condição de possibilidade e descreve três formas de enforcement, ex ante, ex post e por visibilidade e reputação, com o sistema de Honra, o feedback instantâneo e o encerramento da conta como ilustrações. A opacidade dos critérios é lida como elemento constitutivo de uma assimetria institucional, e a seção termina com a síntese da Lex Plataformae e a passagem ao consumidor-cidadão.
+
+### Consumidor
+- Situação: a pessoa é limitada sem aviso claro, tem alcance, recompensa ou acesso reduzidos, é punida minutos depois de uma partida, ou perde a conta inteira.
+- O que muda: explica que a punição mais comum nem sempre é banir. Muitas vezes é rebaixar, tirar visibilidade ou travar recompensa, e isso também degrada o que se comprou. Explica que a regra "real" está no desenho, não só nos termos de uso, e que criticar isso é possível porque os critérios são opacos.
+- Pedir ou guardar: a seção dá base para guardar o aviso de sanção, o período de reforma, o histórico de Honra, a data e a hora da punição e a notificação de encerramento. Fala em motivação verificável e vias inteligíveis de contestação como contrapartidas proporcionais, sem enumerar pedidos.
+- Limite: o contrato analisado prevê ausência de reembolso em hipóteses de justa causa e reserva à empresa o direito de encerrar contas que considere razoável (nota 397). A tese não nega o poder de sancionar, e discute sua proporção e sua contestabilidade.
+
+### Jurista
+- Problema: qualificar a normatividade privada em operação para que deveres proporcionais de transparência e contestação possam ser exigidos sem tratar a plataforma como Estado.
+- Leitura comum: a Internet governada por contratos e o pacta sunt servanda amplificado (Pinheiro), ou a autonomia contratual como explicação suficiente.
+- Construção: três camadas. A norma efetiva exige implementação. O enforcement é distribuído em camadas e tempos. A opacidade impede identificar o fundamento e contestar. O déficit é de reciprocidade institucional, e a resposta adequada são contrapesos proporcionais e procedimentais, sem estatização.
+- Requisitos: as três camadas são o texto normativo interno, a arquitetura e implementação, e o enforcement e sanções (p. 364-365). As três formas de enforcement são ex ante, ex post e por visibilidade e reputação (p. 373). Os contrapesos são transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição (p. 364).
+- Casos: Honra como sanção gradual por elegibilidade, com "período de reforma", ausência de Baús e Chaves e progresso travado (p. 374 e nota 395). Sistema de Feedback Instantâneo, com punição em até 15 minutos após a partida (p. 375 e nota 396). Encerramento da conta, com perda de acesso aos dados e ao conteúdo virtual e ausência de reembolso em justa causa, na cláusula que usa o critério "razoavelmente determinado" (p. 375 e nota 397). Money Trust e banker-director em Brandeis como paralelo de unificação de funções (p. 367-369 e notas 393 e 394).
+- Objeções: a tese antecipa que o paralelo com Brandeis equipare bancos e plataformas e responde que a utilidade é de gramática analítica de poder privado, sem história econômica. Antecipa a leitura estatizante de Grau e responde que descrever poder normativo não legitima automaticamente seu exercício.
+- Limites: a seção diz que não transforma a plataforma em Estado. A autora Pinheiro é citada pela edição de 2026 e a nota 392 explica a opção pelo sobrenome Pinheiro.
+- Fundamento: Código de Defesa do Consumidor, dever de informar, citado só para diferenciar a dominação informacional (p. 370). Sem artigo.
+- Autores: Grau, 2008, direito como sistema de princípios impostos por organização dotada de poder (p. 364), Estado não é único a pôr direito (p. 378), ordem jurídica do mercado (p. 378), direito como nível do todo social (p. 378). Pinheiro, 2026, Direito Digital e Direito Costumeiro (p. 365). Cohen, 2019, plataformas e padrões (p. 365-366), sigilo operacional (p. 375-376), automação do enforcement (p. 372). Cohen, 2012, disciplinas que classificam (p. 376). Brandeis, 2011, Money Trust, unificação de funções, conflito de interesses, separação (p. 367-369). Warren e Brandeis, [201-?], mudança técnica e responsabilidade civil (p. 377).
+
+### Trechos
+> A Lex Plataformae designa esse regime em funcionamento, no qual regra, implementação e enforcement organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC. (p. 364)
+> A Lex Plataformae, para este recorte, não designa um rótulo retórico para “termos de uso”, mas um regime normativo integrado que opera no interior do ecossistema e que define, com eficácia prática, as condições de fruição, permanência e reconhecimento. (p. 364)
+>! A distinção decisiva é entre o enunciado e a norma efetiva. (p. 365)
+> Essa leitura oferece apoio descritivo relevante à categoria da Lex Plataformae, mas exige duas inflexões. (p. 365)
+> A ausência dessa separação não é falha moral episódica. (p. 368)
+> A utilidade do paralelo com a Lex Plataformae não está em equiparar bancos e plataformas como fenômenos idênticos, nem em deslocar a tese para história econômica. (p. 369)
+> A dominação informacional aqui não deve ser confundida com o “dever de informar” típico do CDC. (p. 370)
+> Se o poder se concentra por unificação de funções e se exerce por controle de circuitos e sinais, a resposta adequada não é estatização nem “mandato público” formal, mas sim a imposição de contrapesos proporcionais e procedimentais que tornem o regime controlável. (p. 370)
+> Uma primeira forma é o enforcement ex ante, em que a sanção opera antes do conflito como restrição de possibilidade. (p. 373)
+>! A punição relevante muitas vezes não é expulsar, mas rebaixar, porque continuar dentro, porém menos visível, menos elegível e menos reconhecível, equivale a degradar a posição de fruição e a corroer o valor que dependia de comensurabilidade e validação em circuito. (p. 373)
+> Esse tipo de rebaixamento opera como uma “incapacidade civil temporária” do ponto de vista do OIC. (p. 374)
+> Por isso, no plano das Lex Plataformae, a opacidade de critérios não é um detalhe externo, mas elemento constitutivo de uma assimetria institucional, pois impede a identificação do fundamento que orienta a decisão, restringe a possibilidade de resposta informada e dificulta a construção de impugnações racionais que possam circular para além do caso individual. (p. 376)
+>! Lex Plataformae pode, assim, ser sintetizada como regime de normatividade prática porque articula, de modo integrado, produção de regra, implementação arquitetural e enforcement escalável, operando com elevada eficácia na direção de condutas e, simultaneamente, com baixa contestabilidade para quem suporta seus efeitos. (p. 377)
+> O reconhecimento de que as Lex Plataformae operam como normatividade prática não depende de transformar a plataforma em Estado, mas de admitir que a direção de condutas pode ser exercida por organizações sociais dotadas de poder, produzindo coerção funcional e efeitos coletivos no interior de um ecossistema. (p. 378)
+
+## 4.2.5 O consumidor-cidadão sob a Lex Plataformae (p. 379-386)
+
+### O que diz
+A seção define o sujeito do consumo imaterial sob a Lex Plataformae. Ele não é o cidadão constitucional abstrato nem o adquirente neutro, e sim o consumidor-cidadão, que adquire OICs cuja utilidade é permanência funcional em um ecossistema. "Cidadão" é termo analítico, sobre condições de participação e continuidade fixadas por governança privada, sem relação com nacionalidade ou estatuto constitucional. Com Grau, a normatividade privada é componente constitutivo do arranjo. Para delimitar a participação, a tese adota a cidadania digital de Ribble e Bailey como parâmetro e não como cartilha, com suas nove dimensões. Mostra que acesso e letramento são pré-condições de contestabilidade, que comunicação e etiqueta são dimensões governáveis, que direitos e responsabilidades descrevem pertencimento institucional, que o comércio digital é ingresso e manutenção de uma posição, e que saúde, bem-estar e segurança são condições estruturais de permanência. Com Han, descreve a coerção como liberdade administrada. Fecha anunciando parâmetros auditáveis e deveres reforçados do fornecedor.
+
+### Consumidor
+- Situação: a pessoa compra, assina ou vincula um serviço e depois descobre que o que comprou depende de regras de convivência, moderação, reputação e segurança que a empresa define e muda.
+- O que muda: mostra que o que ela adquire é participação num ambiente governado, e que perder alcance, ser suspensa ou ver regras mudarem pode equivaler, na prática, a perder o próprio objeto. Mostra que a dificuldade de saber o que está acontecendo não é culpa dela.
+- Pedir ou guardar: a seção dá base para guardar regras, instrumentos de contestação e trilhas de decisão vigentes na compra, e para exigir inteligibilidade do que acionou uma medida, como possibilidade ligada aos deveres reforçados anunciados. Não enumera pedidos.
+- Limite: a seção afirma que a cidadania digital não é cartilha e que o problema não é exigir boa conduta do usuário. A tese também não generaliza que todo produto digital seja participação governada, pois trata de OIC.
+
+### Jurista
+- Problema: dar figura jurídica ao sujeito cuja fruição depende de condições de pertencimento fixadas por governança privada, sem constitucionalizar o litígio.
+- Leitura comum: o adquirente neutro de uma troca isolada e a lente do CDC centrada em preço, quantidade, qualidade ou vício em sentido clássico.
+- Construção: a Lex Plataformae institui regime de participação. O consumidor-cidadão é consumidor porque adquire e espera fruição, e "cidadão" no sentido analítico. A grade de cidadania digital nomeia as variáveis da participação. Quando governadas por arquitetura, curadoria e sanção privados, tornam-se variáveis institucionais do próprio produto. Daí a necessidade de deveres reforçados do fornecedor.
+- Requisitos: as nove dimensões de Ribble e Bailey são acesso digital, comércio digital, comunicação digital, letramento digital, etiqueta digital, lei digital, direitos e responsabilidades digitais, saúde e bem-estar digital e segurança digital (p. 380-381). Os parâmetros anunciados são transparência qualificada, estabilidade mínima de condições de fruição, recomposição diante de mudanças ou sanções degradantes, auditabilidade aberta e equivalência funcional, articuladas à integridade e à identidade (p. 386).
+- Casos: sem caso concreto. A seção descreve o mecanismo em termos gerais.
+- Objeções: a tese antecipa que "cidadão" seja lido como cidadania política e responde que a expressão é funcional e bloqueia a constitucionalização genérica e o salto estatizante (p. 380 e nota 370).
+- Limites: a grade é taxonomia para nomear condições de participação e não prescreve virtudes individuais (nota 398). Respeitar a lei é apenas um aspecto da cidadania digital (p. 382).
+- Fundamento: Código de Defesa do Consumidor, citado como lente que tem de alcançar a racionalidade mínima do enforcement e as vias de contestação, sem artigo (p. 382-383).
+- Autores: Ribble e Bailey, 2007, cidadania digital como lente (p. 380), nove dimensões (p. 380-381), comunicação mediada (p. 382), etiqueta (p. 382 e nota 399), respeito à lei (p. 382), direitos e responsabilidades (p. 383), comunidade econômica (p. 384), saúde e bem-estar e segurança (p. 384-385). Grau, 2008, direito como nível do todo social (p. 379). Cohen, 2019, sigilo operacional (p. 381). Han, 2017, panóptico digital (p. 385-386 e nota 401). Warren e Brandeis, [201-?], base mais ampla da proteção (nota 400). A nota 398 registra revisão integrativa publicada pelo autor com coautoras (Andrade; Teixeira; Canavez, 2022).
+
+### Trechos
+> Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem transferido. (p. 379)
+> A cidadania aqui não diz respeito a nacionalidade, soberania ou estatuto constitucional clássico. (p. 380)
+>! Essa caracterização bloqueia a constitucionalização genérica do litígio e evita o salto estatizante. (p. 380)
+> Ribble e Bailey (2007, p. 11) sustentam que a cidadania digital não deve ser tratada como um conjunto rígido de regras, mas como uma lente conceitual para compreender os desafios enfrentados por usuários de tecnologia. (p. 380)
+> Acesso e letramento, nesse recorte, não são agenda genérica de inclusão nem programa de educação do usuário. (p. 381)
+> São pré-condições procedimentais de contestabilidade dentro do ecossistema. (p. 381)
+> A vulnerabilidade deixa de ser déficit individual e passa a assumir a forma de dependência administrada. (p. 381)
+> Sob a Lex Plataformae, a “lei” não opera como pano de fundo externo. (p. 382)
+> Comércio digital, por fim, não é apenas o instante da transação. (p. 383)
+> Em OICs, a transação compra participação governada, e a degradação dessa participação pode equivaler, na prática, à perda do próprio objeto fruído. (p. 383)
+> Do mesmo modo, segurança não deve ser lida como mera prudência individual, mas como autoproteção em ambiente no qual a assimetria informacional é regra e no qual a própria plataforma define o padrão do que conta como conduta segura, risco aceitável e resposta a incidentes. (p. 384)
+> Por tal razão, serão formulados a seguir parâmetros auditáveis e controláveis, com deveres reforçados compatíveis com a assimetria, como transparência qualificada, estabilidade mínima de condições de fruição, recomposição diante de mudanças ou sanções degradantes, auditabilidade aberta e equivalência funcional, articuladas aos eixos de integridade e identidade. (p. 386)
+
+## 4.2.6 A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais (p. 386-389)
+
+### O que diz
+A seção fecha o capítulo ligando a vulnerabilidade semiótica a critérios operacionais. O ponto de partida não é a informação comunicada ao consumidor, mas o regime de inteligibilidade do ecossistema, composto por signos, acesso, reputação e enforcement administrados pelo mesmo centro de decisão. O déficit é semiótico, porque recai sobre a produção de legibilidade e comensurabilidade do objeto, e institucional, porque essa produção é concentrada, mutável e pouco verificável. A autonomia formal vira autonomia administrada, a reputação é componente governado do objeto e o enforcement degrada a posição por visibilidade e elegibilidade. Daí o controle jurídico não poder ser um checklist de cláusulas abusivas. A seção define transparência qualificada, contestabilidade efetiva, motivação verificável, auditabilidade aberta e equivalência de valor funcional, e acrescenta integridade e identidade como dimensões estruturais do valor.
+
+### Consumidor
+- Situação: a pessoa sofre uma restrição, um rebaixamento ou uma redução de alcance sem uma punição nítida, e não consegue saber por que nem como contestar.
+- O que muda: explica o que a pessoa pode razoavelmente esperar que a empresa torne compreensível, que são os critérios de classificação, as razões mínimas e o tipo de conduta que acionou a medida. Explica que continuar "dentro" porém menos visível já pode ser perda relevante.
+- Pedir ou guardar: a seção dá base para pedir, como possibilidade, razões mínimas para rebaixamentos e restrições, a explicitação do sinal que acionou a medida, um canal de contestação com prazos, etapas e acesso a elementos mínimos do fundamento, e recomposição quando a fruição entregue deixa de corresponder ao patamar legitimamente esperado. Dá base para guardar notificações, prints de alcance e registros de medidas.
+- Limite: a seção diz que não se exige exposição integral de segredos industriais. Auditabilidade aberta não é abertura total, e a equivalência funcional alcança apenas a perda no núcleo econômico.
+
+### Jurista
+- Problema: converter o diagnóstico de poder privado em parâmetros que também operem no plano da arquitetura e da informação.
+- Leitura comum: o controle como checklist de cláusulas abusivas e a informação como conteúdo comunicado ao consumidor.
+- Construção: a vulnerabilidade semiótica nasce da governança simultânea de sentido, acesso, reputação e sanção. A lesão pode ocorrer sem alteração textual. O foco do controle passa a ser a racionalidade prática do regime, ou seja, quais critérios existem, como são aplicados, como podem ser verificados e quais vias de contestação são utilizáveis. Os parâmetros são transparência qualificada, contestabilidade efetiva, motivação verificável, auditabilidade aberta, equivalência de valor funcional, integridade, identidade e recomposição.
+- Requisitos: transparência qualificada como inteligibilidade dos critérios, com padrões de classificação, parâmetros de recomendação, razões mínimas, tipo de conduta acionadora e comunicação que permita resposta informada. Contestabilidade efetiva com prazos, etapas, acesso a elementos mínimos do fundamento e revisão real. Motivação verificável como forma mínima de tornar decisões examináveis quanto a coerência, proporcionalidade e não discriminação. Auditabilidade aberta com logs, trilhas de decisão, critérios gerais de elegibilidade, estatísticas de erro e mecanismos de correção, compatível com escrutínio para além do relato unilateral da plataforma. Equivalência de valor funcional como régua da degradação da utilidade real sob aparência formal, com recomposição. Integridade como preservação minimamente consistente das condições de fruição e identidade como continuidade reconhecível da posição construída (p. 388-389).
+- Casos: sem caso concreto. A seção menciona rankings, métricas, sinais de prestígio, recomendações e formas de destaque como linguagem econômica do ambiente.
+- Objeções: a tese antecipa que a transição seja tomada como retórica de ampliação protetiva e responde que é reconstrução do ponto de incidência do controle, da promessa textual para o regime efetivo de produção de valor.
+- Limites: a auditabilidade não exige exposição integral de segredos industriais. O controle de cláusulas continua relevante, mas não esgota o fenômeno.
+- Fundamento: sem dispositivo de lei.
+- Autores: sem citação formal de autor nesta seção.
+
+### Trechos
+>! Se a plataforma governa simultaneamente sentido, acesso, reputação e sanção, o ponto de partida não é a “informação” entendida como conteúdo comunicado ao consumidor, mas o regime de inteligibilidade do próprio ecossistema. (p. 386)
+> A consequência é que a autonomia formal do consumidor se converte em autonomia administrada. (p. 387)
+> A reputação, portanto, não é efeito lateral do consumo, e sim um componente governado do objeto fruído. (p. 387)
+> Diante desse desenho, o controle jurídico não pode ser reduzido a um checklist de cláusulas abusivas, porque a lesão pode ocorrer sem alteração textual e sem violação contratual evidente. (p. 388)
+> Transparência qualificada não significa “mais informação” em abstrato, mas inteligibilidade dos critérios que estruturam a fruição: padrões de classificação, parâmetros de recomendação, razões mínimas para rebaixamentos e restrições, explicitação do tipo de conduta ou sinal que acionou a medida, e comunicação capaz de permitir resposta informada. (p. 388)
+> Contestabilidade efetiva exige que a impugnação não seja mero ritual, mas via com prazos, etapas, acesso a elementos mínimos do fundamento e possibilidade real de revisão. (p. 388)
+> Motivação verificável não é retórica justificatória; é a forma mínima de transformar decisões em objetos examináveis, permitindo controlar coerência, proporcionalidade e não discriminação. (p. 388)
+> Não se trata de exigir exposição integral de segredos industriais, mas de tornar auditáveis categorias decisivas, incluindo logs e registros de medidas aplicadas, trilhas de decisão, critérios gerais de elegibilidade, estatísticas de erro, mecanismos de correção, e garantias de que o sistema não opera por arbitrariedade irrecuperável. (p. 388)
+> Equivalência de valor funcional opera como régua para captar o ponto em que a plataforma preserva a aparência formal do fornecimento, mas degrada sua utilidade real. (p. 389)
+> A equivalência funcional permite enquadrar essas mutações como possível perda do objeto em seu núcleo econômico, exigindo recomposição quando a fruição entregue deixa de corresponder, em termos operacionais, ao patamar legitimamente esperado. (p. 389)
+> Assim, a transição da vulnerabilidade semiótica para critérios operacionais não é retórica de ampliação protetiva. (p. 389)

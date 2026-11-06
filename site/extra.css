@@ -774,3 +774,9 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 }
 .nota-par { font-family: var(--f-dado); font-size: 0.8rem; color: var(--tinta-2); }
 .gemeos-sinal { text-transform: none; letter-spacing: 0; }
+
+/* Quadros da tese no texto integral. A largura rola dentro do próprio quadro no celular. */
+.tabela-tese { overflow-x: auto; margin-block: 1.25rem; }
+.tabela-tese table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: 0.875rem; line-height: 1.35; }
+.tabela-tese :is(th, td) { border: 1px solid var(--linha); padding: 0.4rem 0.5rem; vertical-align: top; text-align: left; }
+.tabela-tese th { font-family: var(--f-display); font-weight: 600; }

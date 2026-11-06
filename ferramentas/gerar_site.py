@@ -1742,6 +1742,8 @@ def gerar_tese():
         for b in sec["blocos"]:
             if b["tipo"] == "citacao":
                 partes.append(f'<blockquote class="citacao-longa"{attrs_ref(b, prefixo)}>{b["html"]}</blockquote>')
+            elif b["tipo"] == "tabela":
+                partes.append(f'<div class="tabela-tese">{b["html"]}</div>')
             elif b["tipo"] == "marca":
                 partes.append(f'<p class="marca-solta">{b["html"]}</p>')
             else:
