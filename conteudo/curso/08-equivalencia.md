@@ -82,11 +82,11 @@ O art. 51, XIII, do CDC declara nulas de pleno direito as cláusulas que autoriz
 
 > Por isso, o CDC trata a modificação unilateral de conteúdo ou qualidade como nulidade. (p. 479)
 > Qualquer modificação do contrato de consumo deve observar bilateralidade e ausência de imposição abusiva, de modo que destoa do equilíbrio contratual a cláusula que municie o fornecedor da prerrogativa de inovar unilateralmente na relação, sendo sua validade infirmada pelo art. 51, XIII (p. 654)
-> São abusivas as cláusulas que autorizam o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato após sua celebração, justamente porque concentram no polo fornecedor o poder de direção da relação e reduzem o consumidor a mero espectador do curso negocial (p. 651)
+> São abusivas as cláusulas que autorizam o fornecedor a modificar unilateralmente o conteúdo ou a qualidade do contrato após sua celebração, justamente porque concentram no polo fornecedor o poder de direção da relação e reduzem o consumidor a mero espectador do curso negocial (p. 651-652)
 
 O dispositivo fala de cláusula, e o transporte para a conduta pede cuidado. Em nota, a partir de Miragem, a tese escreve que a alteração unilateral já basta, por si, para caracterizar abusividade. A frase vem logo depois da referência às cláusulas que autorizam a mudança e não pode ser repetida sem esse recorte, como se toda alteração fosse ilícita, porque o corpo do texto diz outra coisa. Ali, a alteração unilateral é, por si, juridicamente sensível, o problema não está em toda mudança abstratamente considerada, e o que se recusa é a mutação imposta sem participação efetiva do consumidor, sem preservação do equilíbrio e sem respeito ao núcleo funcional da fruição.
 
-> Se a alteração unilateral já basta, por si, para caracterizar abusividade, essa característica se agrava quando o conteúdo da mudança resulta na diminuição ou no comprometimento do interesse do consumidor com a prestação (p. 651)
+> Se a alteração unilateral já basta, por si, para caracterizar abusividade, essa característica se agrava quando o conteúdo da mudança resulta na diminuição ou no comprometimento do interesse do consumidor com a prestação (p. 652)
 > A alteração unilateral já é, por si, juridicamente sensível no CDC; e essa sensibilidade se agrava quando a mudança não é neutra, mas resulta em diminuição ou comprometimento material do interesse do consumidor com a prestação (p. 651-652)
 > O problema não está em toda mudança abstratamente considerada, mas na mutação imposta sem participação efetiva do consumidor, sem preservação do equilíbrio da relação e sem respeito ao núcleo funcional da fruição. (p. 654)
 
