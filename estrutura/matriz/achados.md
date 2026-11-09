@@ -149,3 +149,10 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 38 e 56-57. A presença no mercado brasileiro e o modelo de monetização entram como razões que a tese aponta ainda, e não entre os quatro critérios de seleção.
 - p. 32. O "intencionalmente" e o "quando deliberada" ficaram de fora, pela regra de não exigir intenção.
 - A nota 3 (p. 26) cita obra cujo primeiro autor é Andrade. O curso fala só do contencioso na OMC, sem nomear autor.
+
+## Leituras do capítulo sobre a economia, 09/11/2026
+- p. 205 e 207, notas 223 e 226. O capítulo 3 da tese cita também o art. 39, V, do CDC, conforme o caso, nas moedas internas e na personalização. O item deste arquivo que dizia que o capítulo só traz o art. 3º, § 1º, e o art. 4º, I, estava incompleto.
+- p. 142, 148 e 195. Varoufakis recusa capitalismo rentista, e Dowbor dá ao tecnofeudo determinação de capitalismo de plataforma. O curso diz que a tese não registra a divergência e apoia o argumento na convergência da p. 188.
+- p. 143-144. "Potencial de ilicitude das intenções e propósitos embutidos sob o design" foi lido pelo desenho, e não pela vontade, com as p. 448 e 732.
+- p. 213. A expressão "tão abusivo quanto", sobre o engano posicional, fica só no trecho literal.
+- p. 198 e 213-214. A tese não aplica o engano posicional às skins Legado. O curso usa o material dessas skins só para mostrar por onde a análise começaria.
