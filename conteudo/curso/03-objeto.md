@@ -18,6 +18,7 @@ A resposta da tese não é pedir uma lei nova. O Código de Defesa do Consumidor
 
 Na arquitetura do regime, cada categoria cuida de uma coisa. A vulnerabilidade semiótica descreve a condição do consumidor, o OIC descreve o objeto, a teleologia abusiva descreve o ilícito, a integridade pessoal descreve os bens protegidos, e a auditabilidade aberta e a equivalência de valor funcional descrevem os critérios de verificação e de recomposição. A qualificação do objeto é o gatilho das demais, porque todas elas pressupõem um vínculo em que a utilidade depende de administração continuada do ambiente.
 
+> É uma articulação dogmática em que a vulnerabilidade semiótica descreve a condição, o OIC descreve o objeto, a teleologia abusiva descreve o ilícito, a integridade pessoal descreve os bens protegidos e a auditabilidade aberta com a equivalência de valor funcional descrevem os critérios operacionais de verificação e recomposição. (p. 395)
 > Esse parâmetro exerce, assim, função de gatilho para os demais. (p. 719)
 > Sem a correta qualificação do objeto como fruição imaterial governada, os parâmetros subsequentes tendem a perder aderência, porque auditabilidade, equivalência funcional, teleologia abusiva e remédios de recomposição pressupõem justamente a existência de um vínculo em que a utilidade consumida depende de administração continuada do ambiente. (p. 719)
 
@@ -65,7 +66,7 @@ A consequência prática é o deslocamento do exame. A infraestrutura deixa de s
 
 ## caso O que a conta de um jogador mostra?
 
-A tese trabalha com os Termos de Serviço da Riot Games, que permitem ver a estrutura em poucas cláusulas. A cláusula 4.1 trata o Conteúdo Virtual como objeto de licença limitada e revogável, e a 4.2 admite que ele seja comprado, ganho ou recebido de outro jogador como presente. Ao mesmo tempo, os termos definem esse conteúdo e o associam à conta, com moeda do jogo, skins, emotes e acessórios. A forma da licença tenta tornar o vínculo precário, e a definição contratual prova que há um núcleo identificável. A cláusula ajuda a provar o objeto, sem esgotar o regime dele.
+A tese trabalha com os Termos de Serviço da Riot Games, que permitem ver a estrutura em poucas cláusulas. A cláusula 4.1 trata o Conteúdo Virtual como objeto de licença limitada, e a 4.2 admite que ele seja comprado, ganho ou recebido de outro jogador como presente. Ao mesmo tempo, os termos definem esse conteúdo e o associam à conta, com moeda do jogo, skins, emotes e acessórios. A forma da licença tenta tornar o vínculo precário, e a definição contratual prova que há um núcleo identificável. A cláusula ajuda a provar o objeto, sem esgotar o regime dele.
 
 > Também por isso, a forma contratual da licença não basta para dissolver a densidade jurídica da fruição adquirida. (p. 575)
 >! A cláusula ajuda a provar a existência do objeto. (p. 575)
@@ -137,7 +138,7 @@ O passo seguinte muda o eixo. Lacerda enfrenta o silêncio do Código Civil, e o
 
 ## O que muda na leitura do vício, do prazo e da oferta?
 
-No vício, a tutela não depende de provar o desaparecimento do objeto. Basta demonstrar que a fruição deixou de corresponder, de modo juridicamente relevante, ao padrão funcional que integrava a relação, e o art. 18 do CDC, que não exige inutilidade total, abre a porta para isso. O rebaixamento pode aparecer como downgrade funcional, compressão de recursos, perda de utilidade relacional ou instabilidade sistemática do ambiente, e o acesso inicial pode ter ocorrido sem nenhum tropeço. Rizzatto Nunes dá o exemplo próximo do fornecedor que reduz a intensidade da prestação sem reduzir o preço.
+No vício, a tutela não depende de provar o desaparecimento do objeto. Basta demonstrar que a fruição deixou de corresponder, de modo juridicamente relevante, ao padrão funcional que integrava a relação, e o art. 18 do CDC, que não exige inutilidade total, abre a porta para isso. O rebaixamento pode aparecer como downgrade funcional, compressão de recursos, perda de utilidade relacional ou instabilidade sistemática do ambiente, e o acesso inicial pode ter ocorrido sem nenhum tropeço. Ao comentar o art. 51, XIII, do CDC, Rizzatto Nunes dá o exemplo próximo do fornecedor que reduz a intensidade da prestação sem reduzir o preço.
 
 > Para o OIC, isso significa que a tutela não depende de provar “desaparecimento” do objeto, bastando demonstrar que a fruição deixou de corresponder, de modo juridicamente relevante, ao padrão funcional que integrava a relação. (p. 559)
 > O rebaixamento não precisa vir travestido de cancelamento total; pode aparecer como downgrade funcional, compressão de recursos, perda de utilidade relacional ou instabilidade sistemática do ambiente. (p. 562)

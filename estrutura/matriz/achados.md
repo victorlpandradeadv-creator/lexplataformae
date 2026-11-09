@@ -179,3 +179,8 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 563. A tese descreve o art. 20 do CDC, pelo manual de Benjamin, Marques e Bessa, como rescisão sem multa ou abatimento. O texto da lei traz também a reexecução do serviço, no inciso I, que sustenta a primazia da recomposição. A tese não transcreve o art. 20, e o curso não a acrescentou. Cabe ao autor decidir.
 - Como reclamar, seção prazo. "A contagem deve acompanhar o momento em que ela pode ser percebida" segue o "deve dialogar" da p. 558, mas para o leigo pode soar como regra assentada.
 - Como reclamar ganhou o art. 82 do CDC, copiado do Planalto em 09/11/2026, para a legitimidade coletiva.
+
+## Segunda leitura, capítulos 00 a 03, 09/11/2026
+- p. 213. A escassez corrosiva é definida pelo que se perde "de modo deliberado". O advérbio pode ser lido como exigência de intenção, e a prosa conserva o termo.
+- p. 557 e 562. O curso diz que o art. 18 do CDC não exige inutilidade total sem âncora própria, porque o trecho da p. 557 traz chamada de nota no meio da frase.
+- p. 434. O curso suaviza o "plenamente pertinente" do marketplace B2B para "pode alcançar o vendedor", com a condição do art. 29 explícita.
