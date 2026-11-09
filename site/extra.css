@@ -832,8 +832,5 @@ ul.partes-curtas.lista-duas, ol.partes-curtas.lista-duas { display: block; colum
 .par-curso > p { margin-block: 0 1.1em; }
 .caixa-citacao { margin: 1.6rem 0 1.8rem; padding: 1.1rem 1.4rem 1.2rem; background: color-mix(in srgb, var(--modo) 7%, var(--papel)); border-top: 3px solid var(--modo); border-radius: 0 0 4px 4px; }
 .caixa-citacao .citacao.impacto { margin: 0; padding: 0; border: 0; background: none; }
-.caixa-citacao .citacao.impacto p { font-family: var(--f-texto, Newsreader, serif); font-size: 1.22em; line-height: 1.45; font-style: italic; }
-@media (min-width: 1100px) {
-  .caixa-citacao { float: right; width: 44%; margin: 0.4rem 0 1.2rem 1.8rem; }
-  .bloco-curso::after { content: ""; display: table; clear: both; }
-}
+.caixa-citacao .citacao.impacto p { font-family: var(--f-texto, Newsreader, serif); font-size: 1.35rem; line-height: 1.45; font-style: italic; }
+
