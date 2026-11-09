@@ -538,6 +538,40 @@ def carregar_curso():
 
 CURSO = carregar_curso()
 
+# O capítulo do curso de cada página da Doutrina, para que Situações, Parâmetros, Diretrizes, Limites, fichas e plataformas
+# apontem para onde o tema se estuda a fundo. Adequação das camadas, etapa 4, 08/11/2026.
+CURSO_CONCEITO = {
+    "oic": "objeto", "feixe-de-fruicao-governada": "objeto", "lex-plataformae": "lei-da-plataforma",
+    "vulnerabilidade-semiotica": "vulnerabilidade", "antecipacao-hipercuratorial": "informacao",
+    "auditabilidade-aberta": "auditabilidade", "equivalencia-de-valor-funcional": "equivalencia",
+    "teleologia-abusiva": "ilicito", "ilicito-de-arquitetura": "ilicito", "funcao-social-da-pi": "propriedade-intelectual",
+    "recomposicao-funcional": "remedios", "cativeiro-identitario": "vulnerabilidade", "consentimento-viciado-por-sentido": "vulnerabilidade",
+    "consumidor-cidadao": "lei-da-plataforma", "continuidade-biografica": "bens-protegidos", "integridade-pessoal": "bens-protegidos",
+    "publicidade-enganosa-por-arquitetura": "vulnerabilidade", "transparencia-performatica": "vulnerabilidade",
+    "teleologia-arquitetural": "economia", "dano-arquitetura": "ilicito",
+}
+# A situação g não tem enunciado próprio no 7.1.1. A sanção privada se estuda no capítulo sobre a lei da plataforma.
+CURSO_SITUACAO = {"g": "lei-da-plataforma"}
+
+
+def capitulo_curso(num=None, slug=None):
+    for c in CURSO:
+        if (slug and c["slug"] == slug) or (num and not slug and num in c["secoes_tese"]):
+            return c
+    return None
+
+
+def link_curso(c, prefixo):
+    return f'<a href="{prefixo}curso/{c["slug"]}/">{esc(c["titulo"])}, no curso</a>' if c else ""
+
+
+def no_curso_html(c, prefixo):
+    """O caminho de uma página da Doutrina até o capítulo do curso que trata do mesmo tema."""
+    if not c:
+        return ""
+    return (f'<section class="bloco no-curso"><h2>Onde estudar a fundo?</h2>'
+            f'<p>No capítulo <a href="{prefixo}curso/{c["slug"]}/">{esc(c["titulo"])}</a>, do curso para juristas.</p></section>')
+
 
 def curso_paragrafo(par, prefixo):
     """Um parágrafo do curso. Na Doutrina, os trechos que o sustentam abrem no sinal ao lado dele, com a referência no balão.
@@ -1626,7 +1660,7 @@ def gerar_conceito(c):
             + no_percurso(c["id"], prefixo)
             + (f'<section class="ext duvida"><p class="pergunta-final">{esc(duvida)}</p>{botao_desnudar(True)}</section>' if duvida else "")
             + "</div>")
-        doutrina = f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}</div>'
+        doutrina = f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(c["id"])), prefixo)}</div>'
         nota_nome = ""
         if c["id"] in NOME_COMUM:
             genitivo = "A variação “plataformae” corresponde ao genitivo singular de primeira declinação, sinalizando “da plataforma”"
@@ -1647,7 +1681,7 @@ def gerar_conceito(c):
 
     corpo = (f'<article class="folha"><a class="voltar" href="{prefixo}#conceitos">← Todo o vocabulário</a>'
              f'<header class="folha-cabeca"><p class="sobrelinha ciencia">{esc(sobre)}</p><h1>{nome_html(c)}</h1><div class="selos ciencia">{selos}</div></header>'
-             f'<div class="pilha doutrina">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}</div>'
+             f'<div class="pilha doutrina">{doutrina_html(f"conceito {c["id"]}", prefixo)}{nas_situacoes}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(c["id"])), prefixo)}</div>'
              '<div class="ciencia arquitetura">' + "".join(partes) + "</div>" + outros_nav + "</article>")
     desc = resumo(can["texto"]) if can else c["nome"]
     (destino / "index.html").write_text(
@@ -2060,6 +2094,9 @@ def gerar_roteiro():
     for it in r["itens"]:
         num, ids = ROTEIRO_MAPA.get(it["letra"], (None, []))
         ligacoes = []
+        cap = capitulo_curso(slug=CURSO_SITUACAO[it["letra"]]) if it["letra"] in CURSO_SITUACAO else capitulo_curso(num)
+        if cap:
+            ligacoes.append(link_curso(cap, prefixo))
         if num and num in POR_NUMERO:
             ligacoes.append(f'<a href="{prefixo}roteiro/parametros/#parametro-{it["letra"]}">O parâmetro</a>')
             ligacoes.append(f'<span class="ciencia"> · <a href="{prefixo}tese/{POR_NUMERO[num]["slug"]}/">Enunciado {num} na tese</a></span>')
@@ -2172,7 +2209,7 @@ def gerar_parametros():
             f'<h2 id="titulo-parametro-{letra}">{esc(titulo)}</h2>'
             f'<p class="titulo-tese ciencia"><span class="letra">{esc(num)}</span> {esc(sec["titulo"])}</p>'
             + doutrina_html(f"parametro {num}", prefixo)
-            + f'<p class="ligacoes"><a href="{prefixo}roteiro/#{letra}">A situação no quadro</a><span class="ciencia"> · <a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></span></p>'
+            + f'<p class="ligacoes">{(link_curso(capitulo_curso(num), prefixo) + " · ") if capitulo_curso(num) else ""}<a href="{prefixo}roteiro/#{letra}">A situação no quadro</a><span class="ciencia"> · <a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></span></p>'
             f'{nomeados_html(termos_em(texto_de(sec["blocos"])), prefixo)}</section>')
     corpo = (
         '<article class="folha leitura roteiro">'
@@ -2216,7 +2253,8 @@ def gerar_diretrizes():
         + doutrina_html("diretrizes abertura", prefixo)
         + f'<nav class="bloco indice-roteiro" aria-label="As dez diretrizes"><h2>As dez diretrizes</h2><ol>{"".join(indice)}</ol></nav>'
         + "".join(secoes)
-        + saidas_html([("As situações, para operar", f"{prefixo}roteiro/"), ("Os limites ao poder da plataforma", f"{prefixo}roteiro/limites/"),
+        + saidas_html(([(capitulo_curso("7.1.3")["titulo"] + ", no curso", f'{prefixo}curso/{capitulo_curso("7.1.3")["slug"]}/')] if capitulo_curso("7.1.3") else [])
+                      + [("As situações, para operar", f"{prefixo}roteiro/"), ("Os limites ao poder da plataforma", f"{prefixo}roteiro/limites/"),
                        ("A legislação citada", f"{prefixo}legislacao/")]) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
               "url": BASE + "/roteiro/diretrizes/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -2238,7 +2276,8 @@ def gerar_limites():
              '<p class="abertura-pagina">O fornecimento pode alcançar condições práticas de participação e de permanência. O regime limita esse poder sem equiparar a plataforma ao Estado.</p>'
              f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
              + doutrina_html("limites", prefixo)
-             + saidas_html([("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
+             + saidas_html(([(capitulo_curso("7.1.4")["titulo"] + ", no curso", f'{prefixo}curso/{capitulo_curso("7.1.4")["slug"]}/')] if capitulo_curso("7.1.4") else [])
+                           + [("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
                             ("A legislação citada", f"{prefixo}legislacao/")])
              + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
@@ -2324,7 +2363,9 @@ def gerar_laboratorio():
                          + f'<section class="ext duvida">{botao_desnudar(True)}</section>')
         corpo = (f'<article class="folha leitura laboratorio">{externo}'
                  f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"familia {slug}", prefixo)}'
-                 f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção no texto integral</a></p></div>'
+                 f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler a seção no texto integral</a></p>'
+                 + (f'<section class="bloco no-curso"><h2>Onde estudar a fundo?</h2><p>No <a href="{prefixo}curso/">curso para juristas</a>, que reconstrói o regime aplicado aqui.</p></section>' if CURSO else "")
+                 + '</div>'
                  + fecho_familia + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -2350,7 +2391,7 @@ def gerar_laboratorio():
                  f'<h1>{titulo_por_modo(sec["titulo"])}</h1><p class="abertura-pagina">{esc(ABERTURA_DESDOBRAMENTO[slug])}</p>'
                  f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral, com as notas</a></p></header>'
                  + doutrina_html(f"desdobramento {slug}", prefixo)
-                 + saidas_html([("As famílias de plataforma", "../"), ("As situações, para operar", f"{prefixo}roteiro/"), ("Seus direitos", f"{prefixo}direitos/")])
+                 + saidas_html([("As famílias de plataforma", "../"), ("O curso para juristas", f"{prefixo}curso/"), ("As situações, para operar", f"{prefixo}roteiro/")])
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/laboratorio/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -3817,7 +3858,7 @@ def gerar_derivados():
             f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
             f'<h1>{esc(nome)}</h1>'
             f'<p class="abertura-pagina">Explicado em palavras simples no percurso da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
-            f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}</div>'
+            f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(slug)), prefixo)}</div>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
             + f'<p class="ver-nove"><a href="{prefixo}#conceitos">Os nove conceitos</a></p>'
             '</article>')
