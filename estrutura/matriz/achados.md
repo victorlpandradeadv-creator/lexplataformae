@@ -125,3 +125,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 331-332 contra p. 29. O curso usa a leitura descritiva de "sem autorização". A introdução diz, com mais força, que a plataforma ocupa o lugar do Estado sem aceitar os deveres.
 - Corpus. Na p. 365 a referência "(Pinheiro, 2026, p. 20- 21)" sai como "p. 2021" na extração, e o trecho foi cortado antes dela.
 - p. 333. A tese escreve só Warren e Brandeis. O curso dá o prenome Samuel Warren pela lista de referências.
+
+## Leituras do capítulo sobre a propriedade intelectual, 09/11/2026
+- p. 703-705 e 803. A leitura do art. 5º, XXIX, cita "(Andrade, 2021)", e a lista de referências data o livro da Juruá de 2022. A prosa o chama de estudo anterior do próprio autor, sem nome.
+- p. 709. O encerramento do serviço aparece como construção da própria tese, ancorado na função social, que fundamenta a frase seguinte à que abre o ponto.
+- p. 684-687. A tese põe a cláusula 3.2 ao lado do regime do software sem dizer por escrito que a reserva contratual não amplia a proteção. O curso se apoia no "por contrato ou retórica" da p. 687.
+- p. 240 e 574. A conciliação entre o signo de produto como feixe de autorizações e a qualificação como produto imaterial, pela leitura econômica da descrição, é do escritor.
+- p. 698, nota 798. A exaustão em Barbosa trata da patente, e o corpo estende à exclusividade sobre tecnologia. O curso segue o corpo e conserva os modais.
+- A versão longa do capítulo, com vacinas e one-click, conjunto-imagem, Gama Cerqueira no TJSP e as alternativas de Dowbor, ficou guardada no scratchpad da sessão.
