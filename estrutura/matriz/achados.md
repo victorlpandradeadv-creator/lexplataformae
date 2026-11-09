@@ -118,3 +118,10 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Glosas sem definição expressa na tese. Elo como faixa de ranqueamento, pela p. 268. MMR como número secreto do pareamento, pela nota 47 da p. 94. Reset como redefinição de progresso, pela nota 464 da p. 462.
 - Item e trajetória (p. 537-538). A passagem do item à trajetória depende de o objeto concreto funcionar como ativo biográfico, pelo "certos OICs" e pelo "pode" da tese.
 - A obra de Canavez, Andrade e Laprano aparece na prosa como "Canavez e coautores", para o nome do autor seguir por último no site. Os trechos literais ficam como estão.
+
+## Leituras do capítulo sobre a lei da plataforma, 08/11/2026
+- p. 344-345. A tese diz que a restrição progressiva do chat tende a ser a resposta compatível. O curso acrescenta que a conduta continua sancionável e que o que se discute é a medida, apoiado em "faculdade abusivamente exercida".
+- p. 444-445 e p. 29 contra p. 364. A tese chama a lei da plataforma de direito efetivo do ambiente e de categoria descritiva. O curso a apresenta como descritiva, e não como critério de imputação.
+- p. 331-332 contra p. 29. O curso usa a leitura descritiva de "sem autorização". A introdução diz, com mais força, que a plataforma ocupa o lugar do Estado sem aceitar os deveres.
+- Corpus. Na p. 365 a referência "(Pinheiro, 2026, p. 20- 21)" sai como "p. 2021" na extração, e o trecho foi cortado antes dela.
+- p. 333. A tese escreve só Warren e Brandeis. O curso dá o prenome Samuel Warren pela lista de referências.
