@@ -1032,6 +1032,12 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
 .termo-fenomeno .area-rotulo { display: block; margin-bottom: 0.15rem; font-weight: 500; text-decoration: none; }
 .termo-fenomeno[id] { scroll-margin-top: 1.5rem; }
 
+/* Entrada da página inicial pelo problema e pelo curso. Etapa 6, 09/11/2026. */
+ul.partes-curtas.lista-duas, ol.partes-curtas.lista-duas { display: block; columns: 2 22rem; column-gap: 2.5rem; }
+.lista-duas li + li { margin-top: 0; }
+.lista-duas li { padding: 0.35rem 0; }
+.lista-duas li { break-inside: avoid; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

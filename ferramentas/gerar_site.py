@@ -224,13 +224,14 @@ def chave_mestra(nivel):
 # O menu de cada modo. Rascunho de 27/10/2026, a pedido do autor, que critica depois.
 # Cada item tem o endereço e os modos em que aparece. Em Ciência os itens dos outros modos aparecem numa segunda linha.
 MENU = [
-    ("Percurso", "percurso/", (0,)), ("Vocabulário", "#conceitos", (0,)), ("Seus direitos", "direitos/", (0,)), ("Outras plataformas", "laboratorio/", (0,)),
+    ("O seu problema", "problemas/", (0,)), ("Seus direitos", "direitos/", (0,)), ("Percurso", "percurso/", (0,)), ("Vocabulário", "#conceitos", (0,)),
+    ("Outras plataformas", "laboratorio/", (0,)),
     ("Curso", "curso/", (1,)), ("Situações", "roteiro/", (1,)), ("Plataformas", "laboratorio/", (1,)),
     ("Conceitos", "#conceitos", (1,)), ("Legislação", "legislacao/", (1,)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
     ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
-MENU_SEGUNDA = [("Percurso", "percurso/"), ("Vocabulário", "#conceitos"), ("Seus direitos", "direitos/"), ("Curso", "curso/"), ("Situações", "roteiro/"),
+MENU_SEGUNDA = [("O seu problema", "problemas/"), ("Percurso", "percurso/"), ("Vocabulário", "#conceitos"), ("Seus direitos", "direitos/"), ("Curso", "curso/"), ("Situações", "roteiro/"),
                 ("Plataformas", "laboratorio/"), ("Legislação", "legislacao/")]
 
 
@@ -246,7 +247,7 @@ def menu_html(prefixo):
 
 # Páginas que o gerador escreve. O menu só mostra endereço que existe.
 PAGINAS_PRONTAS = {"percurso/", "direitos/", "laboratorio/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
-                   "autores/", "referencias/", "objeto-e-instrumentos/"}
+                   "autores/", "referencias/", "objeto-e-instrumentos/", "problemas/", "como-reclamar/", "curso/"}
 
 
 _BQ = re.compile(r'<blockquote class="citacao(?: nao-e)?"><p>(.*?)(?=<a class="pg"|<span class="pg"|</p>)', re.S)
@@ -1564,6 +1565,14 @@ def gerar_inicio():
     fontes_grade = (f'<div class="ciencia expansao expansao-nomeada" data-arq="trechos literais · um grupo por nome">'
                     f'<p class="rotulo-fonte">De onde vem cada nome</p>{itens_fonte}</div>') if itens_fonte else ""
 
+    # A entrada pelo que aconteceu com a pessoa, na Informação, e pelo curso, na Doutrina. Adequação das camadas, etapa 6, 09/11/2026.
+    entrada_inicio = (
+        (f'<section class="campo entrada-problemas em-modo modo-0" aria-labelledby="entrada-titulo"><h2 class="campo-titulo" id="entrada-titulo">O que aconteceu com você?</h2>'
+         f'{lista_problemas(list(PROBLEMAS), "", "partes-curtas lista-duas")}'
+         + (f'<p class="ver-reclamar"><a href="como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
+         + '</section>' if PROBLEMAS else "")
+        + (f'<section class="campo entrada-curso em-modo modo-1 modo-2" aria-labelledby="entrada-curso-titulo"><h2 class="campo-titulo" id="entrada-curso-titulo">O regime, em curso</h2>'
+           f'<ol class="partes-curtas lista-duas">' + "".join(f'<li><a href="curso/{c["slug"]}/">{esc(c["titulo"])}</a></li>' for c in CURSO) + '</ol></section>' if CURSO else ""))
     corpo = f"""
     <section class="abertura" aria-labelledby="titulo">
       <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
@@ -1577,6 +1586,8 @@ def gerar_inicio():
         </div>
       </div>
     </section>
+
+    {entrada_inicio}
 
     {figura("inicio", "")}
 
