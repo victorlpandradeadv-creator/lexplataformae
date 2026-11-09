@@ -29,8 +29,9 @@ O sinal de alerta aparece quando a punição chega sem um motivo que dê para en
 
 > Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
 
-Muitas punições são automáticas e chegam poucos minutos depois da partida. Elas seguem critérios que a empresa não revela por inteiro, e é essa falta de clareza que torna a punição tão difícil de contestar.
+Muitas punições nascem de uma detecção automática, e num grande jogo elas podem chegar em até 15 minutos depois da partida. Elas seguem critérios que a empresa não revela por inteiro, e é essa falta de clareza que torna a punição tão difícil de contestar.
 
+> A segunda forma é o enforcement ex post, no qual o ecossistema aplica sanções declaradas ou parcialmente declaradas depois de um evento de moderação ou de detecção automática. (p. 373)
 > No Sistema de Feedback Instantâneo, a Riot afirma que usuários podem ser punidos “em até 15 minutos após o final da partida”, e descreve um leque de consequências que vai de restrições a suspensões permanentes (p. 375)
 > A consequência jurídica é que a sanção passa a compor o próprio objeto, pois ela define a estabilidade prática da posição adquirida e condiciona a continuidade do acesso a critérios cujo funcionamento detalhado não é plenamente revelado ao usuário, sob justificativas de eficiência, prevenção de burla e gestão de escala (p. 375)
 
@@ -85,7 +86,7 @@ A empresa tem poder de punir, e ter esse poder não é o problema. O que se exig
 
 > Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
 
-Os termos de uso, que são o contrato que você aceita ao criar a conta, costumam dizer que não há reembolso quando a conta é encerrada por justa causa. Essa cláusula pesa, mas não transforma o apagamento da conta inteira num simples ajuste interno, imune a qualquer controle.
+Os termos de uso, que são o contrato que você aceita ao criar a conta, costumam dizer que não há reembolso quando a conta é encerrada por justa causa, que é um motivo sério atribuído a você. Essa cláusula pesa, mas não transforma o apagamento da conta inteira num simples ajuste interno, imune a qualquer controle.
 
 > A cláusula 2.3 dos Termos de Serviço da Riot prevê que, encerrada a conta, o usuário perde acesso à conta, aos dados associados, à moeda do jogo e ao conteúdo virtual, sem reembolso em hipóteses de justa causa, com possibilidade ainda de cancelamento de outras contas e de acesso a outros serviços (p. 540)
 > A exclusividade é exercida, aqui, como poder de apagamento integral da experiência consumida, o que impede tratar sanção, exclusão ou rollback como meros ajustes internos sem relevância jurídica existencial. (p. 541)
@@ -208,7 +209,7 @@ O serviço piorou, e o preço continua o mesmo. Posso reclamar?
 
 ### abertura
 
-Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega, que é justamente o que a lei do consumidor sabe medir.
+Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega, e a lei do consumidor trata como nula a mudança que a empresa faz sozinha no conteúdo ou na qualidade do que vende.
 
 > A redução raramente aparece como corte explícito de “aulas”, mas pode se manifestar como perda de alcance, rebaixamento persistente de performance, restrição cumulativa de funcionalidades, compressão de limites, reordenação de visibilidade ou alterações estruturais que elevam o custo de fruir a mesma utilidade. A lógica é a mesma. Mantêm-se o rótulo e o preço, e rebaixa-se a entrega de valor. (p. 480)
 > Se a continuidade é o regime normal, a utilidade fruída se estabiliza como expectativa de manutenção do patamar de entrega, e não como expectativa de acesso formal a um serviço que pode ser reconfigurado por conveniência do fornecedor. Por isso, o CDC trata a modificação unilateral de conteúdo ou qualidade como nulidade. (p. 479)
@@ -364,7 +365,7 @@ Num processo, cabe pedir que a empresa mostre os registros que só ela tem. Se e
 
 > Diante da concentração de registros, cabe preservação e exibição de trilhas do fornecimento, com redistribuição racional do ônus e presunções favoráveis ao consumidor quando o fornecedor não coopera ou mantém a prova em caixa-preta. (p. 609)
 
-Como a medida atingiu uma grande parte dos jogadores, o caso também se presta a uma resposta coletiva, que pode corrigir a regra para todos.
+Quando a medida atinge uma massa de jogadores ao mesmo tempo, o caso também se presta a uma resposta coletiva, que pode corrigir a regra para todos.
 
 > Em vez de tratar a fraude como problema estrutural de seu próprio ambiente transacional, a Riot redistribuiu o risco para uma massa indistinta de consumidores, suprimiu ativos, interrompeu funcionalidade oficial de circulação de conteúdo e operou sanções fundadas em presunções amplas de corresponsabilidade, inclusive sobre usuários que não participaram conscientemente da fraude. (p. 610)
 > Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual. (p. 662)
@@ -530,7 +531,7 @@ O pedido pode começar por tratar o caso pela lei do consumidor, com o que você
 > A qualificação jurídica daí resultante é a de produto imaterial submetido ao regime do art. 3º, § 1º, do CDC, sem que a dimensão prestacional do vínculo afaste o controle da fruição como núcleo do fornecimento. (p. 743)
 > A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. (p. 718)
 
-Com isso aberto, você pode cobrar que o que foi prometido continue sendo entregue ao longo do tempo. Até a cláusula de encerramento de conta de um grande jogo ressalva que a perda do acesso não afeta os direitos que você tiver pelas leis de defesa do consumidor.
+Tratado o caso como compra de um produto, você pode cobrar que o que foi prometido continue sendo entregue ao longo do tempo. Até a cláusula de encerramento de conta de um grande jogo ressalva que a perda do acesso não afeta os direitos que você tiver pelas leis de defesa do consumidor.
 
 > O objeto imaterial é medido também pela correspondência funcional entre utilidade prometida e utilidade efetivamente mantida no curso da relação. (p. 577)
 > Se sua conta for encerrada você não terá mais acesso à sua conta, inclusive aos dados associados ou ao Conteúdo Virtual (inclusive a Moeda do Jogo) (embora isso não limite nem afete nenhum direito que você eventualmente tiver segundo as leis de proteção de dados ou de defesa do consumidor). (p. 540)
@@ -547,7 +548,7 @@ Se a dúvida for sobre herança, sobre o que acontece com a conta depois da mort
 
 ### limite Até onde vai o argumento contra a licença?
 
-A palavra comprar no botão não é ilegal, e você não precisa provar que é dono pleno do item para ter proteção. O que se exige é uma estabilidade mínima naquilo que você comprou.
+A palavra comprar no botão não é, sozinha, ilegal, e você não precisa provar que é dono pleno do item para ter proteção. O que se exige é uma estabilidade mínima naquilo que você comprou.
 
 > Isso não serve de fundamento para afirmar que o uso da palavra “comprar” se mostra, por si só e isoladamente, ilícito. (p. 402)
 > Também não é necessário recorrer a uma ideia forte de propriedade do consumidor sobre o bem digital para exigir estabilidade mínima. (p. 708)
@@ -714,7 +715,7 @@ Também cabe pedir que a oferta seja corrigida e cumprida e que a comunicação 
 
 ### quem A quem levar a reclamação da exclusividade desfeita?
 
-O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. Por isso o caso também cabe no Procon e no Consumidor.gov.br, que a página dos canais apresenta.
+O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br, que a página dos canais apresenta.
 
 > A escassez, aqui, pode operar como expediente de captação de consentimento sob inadequação informativa, com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta, além de romper a equivalência entre dispêndio e utilidade entregue tal como legitimamente esperada. (p. 214)
 
@@ -766,7 +767,7 @@ A caixa de recompensa, também chamada de loot box, é a compra de um resultado 
 > O ponto de maior sensibilidade aparece quando a monetização se apoia em mecanismos aleatórios de obtenção de itens, frequentemente tratados no debate público como caixas de recompensa. Nesses casos, utilidade e valor do adquirido passam a depender de regimes internos de distribuição, de critérios de disponibilidade e de limites definidos pela plataforma, além de se articularem a sinais de escassez, janelas temporais e regimes de raridade que tornam decisões mais dependentes de antecipação, urgência e expectativa. (p. 494)
 > Nesse contexto, a Lei nº 15.211/2025 (Brasil, [2025]c) oferece ancoragem normativa suficiente para situar o ponto focal ao disciplinar, sob o enfoque de proteção de crianças e adolescentes, a funcionalidade de caixas de recompensa como mecanismo de obtenção aleatória mediante pagamento. (p. 495)
 
-Um exemplo mostra como isso funciona. Num jogo conhecido, as skins mais caras passaram a sair só por sorteio, com fichas de 400 da moeda do jogo, chance muito baixa, garantia apenas no octogésimo sorteio e venda por tempo limitado.
+Um exemplo mostra como isso funciona. Num jogo conhecido, as skins mais exclusivas passaram a sair só por sorteio, com fichas de 400 da moeda do jogo, chance muito baixa, garantia apenas no octogésimo sorteio e venda por tempo limitado.
 
 > O Sanctum é descrito como uma loja exclusiva em que o usuário compra Ancient Sparks por 400 RP e as utiliza para sortear conteúdos raros, com “bandeira” específica para skins Exaltadas, além de rotação temporal e ausência de garantia de retorno (Riot Games, 2025d). (p. 299)
 > A descrição oficial do Sanctum registra que skins Exaltadas são o único conteúdo de Tier S da bandeira correspondente, com chance extremamente baixa e garantia apenas no octogésimo sorteio, além de disponibilidade por tempo limitado (Riot Games, 2025d). (p. 299)
@@ -821,7 +822,7 @@ Não. O sorteio em si não é o problema. A questão aparece quando ele substitu
 > Não se trataria de um problema caso fosse mantida a opção de compra direta da skin por preço proporcional e razoável. (p. 450)
 > Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema. (p. 456)
 
-A lei proíbe as caixas de recompensa em jogos dirigidos a crianças e adolescentes ou que eles provavelmente acessem. Fora desse recorte, vale o controle pela lei do consumidor, que a lei própria dos jogos não substitui.
+A lei proíbe as caixas de recompensa em jogos dirigidos a crianças e adolescentes ou que eles provavelmente acessem. Dentro ou fora desse recorte, vale também o controle pela lei do consumidor, que as leis próprias do setor não substituem.
 
 > Ao vedar loot boxes em jogos direcionados a crianças e adolescentes, bem como naqueles cujo acesso por esse público seja provável, o Estatuto Digital da Criança e do Adolescente não apenas reconheceu abstratamente a sensibilidade econômica e comportamental desse mercado, mas passou a interferir na própria forma de organização de produtos antes apresentados como plenamente compatíveis com a presença de menores no ecossistema digital (Brasil, [2025]c). (p. 545)
 > A existência de regulação setorial não substitui a infraestrutura consumerista, nem autoriza que conflitos de fruição sejam absorvidos integralmente pela gramática do setor ou pela linguagem da inovação. (p. 548)
@@ -879,12 +880,12 @@ Nas moedas que expiram, ajuda anotar as datas de validade que apareciam na tela,
 
 ### pedir O que pedir quando a moeda passou a valer menos?
 
-O pedido pode incluir informação clara sobre quanto cada item custa e sobre o que mudou. O anúncio, o valor e os custos que não apareciam precisam bater com o que você recebe. Conforme o caso, a falta de clareza também pode levar à recomposição do que você perdeu por causa dela.
+O pedido pode incluir informação clara sobre quanto cada item custa e sobre o que mudou. O anúncio, o valor e os custos que não apareciam precisam bater com o que você recebe. Conforme o caso, a falta de clareza também pode levar a repor o que você perdeu por causa dela.
 
 > O dever de fornecimento correspondente é o de assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada sob mutabilidade administrada. (p. 745)
 > A consequência institucional possível inclui dever de correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada por opacidade decisória. (p. 744)
 
-Se a mudança rompeu a equivalência do que você já tinha, cabe pedir recomposição, correção ou revisão. E o mesmo contrato diz que os ajustes de preço valem para o futuro, com exceção do que você já adquiriu. Isso ajuda a cobrar que nada já comprado seja mexido.
+Se a mudança fez o que você já tinha deixar de valer o mesmo, cabe pedir que a perda seja reposta, corrigida ou revista. E o mesmo contrato diz que os ajustes de preço valem para o futuro, com exceção do que você já adquiriu. Isso pode ajudar a cobrar que o que você já comprou não seja mexido.
 
 > A equivalência de valor funcional permite, justamente, uma posição intermediária muito mais robusta: reconhece-se que a plataforma pode alterar, mas exige-se que a alteração preserve, em termos substanciais, o valor funcional da experiência adquirida ou, não o fazendo, abra espaço a recomposição, correção, revisão ou outro remédio adequado (p. 637)
 > Podemos ajustar os preços de qualquer parte dos Serviços da Riot a qualquer momento (com efeito futuro, isto é, com a exceção daquilo que você já adquiriu). Isso pode afetar o poder de compra da sua Moeda do Jogo, embora normalmente o façamos apenas em etapas graduais. (p. 614)
@@ -1050,7 +1051,7 @@ Se a regra chegou por nota de atualização, que é o texto que a empresa public
 
 ### pedir O que dá para pedir quando a regra não foi bem informada?
 
-O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir a recomposição do que você perdeu por causa da falta de clareza.
+O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir que seja reposto o que você perdeu por causa da falta de clareza.
 
 > A consequência institucional possível inclui dever de correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada por opacidade decisória. (p. 744)
 
@@ -1244,7 +1245,7 @@ A reclamação original continua de pé. Se o problema era a conta, o item ou a 
 
 ### quem Para onde levar a reclamação quando o atendimento só dá voltas?
 
-Quando a conversa com a empresa só gira, o mais seguro é levar a reclamação para fora dela, pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.
+Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.
 
 > A contestação pode ser adiada, desmobilizada ou dissolvida antes de ganhar forma institucional. (p. 782)
 > Em muitos ambientes, a plataforma não precisa impedir formalmente o conflito para reduzi-lo. Basta administrar o modo como ele é percebido. (p. 783)
@@ -1476,7 +1477,7 @@ O exemplo mais claro é o de um programa contra trapaça que roda no kernel, que
 > Quando a proteção do ambiente concorrencial do OIC passa a depender de software carregado em nível de kernel, isto é, na camada mais profunda e privilegiada do sistema operacional (p. 521)
 > As comunicações oficiais da própria Riot mostram que o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo, com possibilidade de impedir o uso do serviço caso seja desativado ou removido (p. 521)
 
-Os termos de uso, que são o contrato que você aceita ao criar a conta, ainda permitem que a empresa acompanhe, dentro do seu aparelho, o uso do serviço e exija novos programas e atualizações. E deixam por sua conta o custo de adaptar o equipamento.
+Os termos de uso, que são o contrato que você aceita ao criar a conta, também permitem que a empresa acompanhe, dentro do seu aparelho, o uso do serviço e exija novos programas e atualizações. E deixam por sua conta o custo de adaptar o equipamento.
 
 > A Riot admite contratualmente a possibilidade de monitorar ativamente o uso de seus serviços não apenas em seus próprios servidores, mas também no computador ou dispositivo do consumidor (p. 521)
 > Os Termos de Serviço da Riot não só admitem monitoramento ativo no dispositivo do usuário e execução de software antitrapaça em segundo plano, como também reservam à empresa o poder de alterar, atualizar, restringir recursos, exigir software e atualizações compulsórias, redistribuir ao usuário os custos de adequação técnica e limitar sua própria exposição patrimonial. (p. 526)
@@ -1598,11 +1599,11 @@ Quem oferece produtos e serviços digitais a crianças e adolescentes tem devere
 
 > O Estatuto Digital da Criança e do Adolescente reforça esse diagnóstico ao explicitar, em outra frente normativa, que o ambiente digital não é neutro e que os fornecedores estão sujeitos a deveres positivos de prevenção, proteção, informação e segurança. O próprio conteúdo material do melhor interesse da criança e do adolescente, nesse contexto, já abrange privacidade, segurança, saúde mental e física, acesso à informação, liberdade de participação na sociedade e bem-estar. (p. 545)
 
-Nos jogos dirigidos a esse público, ou que ele provavelmente acesse, a lei proíbe as caixas de recompensa e o uso de técnicas que montam um perfil da criança para dirigir publicidade a ela. Se o gasto foi numa caixa assim, a reclamação pode apontar essa proibição.
+Nos jogos dirigidos a esse público, ou que ele provavelmente acesse, a lei proíbe as caixas de recompensa. Ela também proíbe técnicas que montam um perfil da criança para dirigir publicidade a ela. Se o gasto foi numa caixa assim, a reclamação pode apontar essa proibição.
 
 > A norma ainda vai além do discurso programático ao vedar loot boxes em jogos direcionados a crianças e adolescentes e proibir técnicas de perfilamento para direcionamento de publicidade comercial. (p. 545)
 
-Fora disso, valem as regras gerais do consumidor, porque ter uma lei própria para jogos não afasta a lei do consumidor. A própria lei dos jogos põe a defesa do consumidor e a proteção integral da criança e do adolescente entre os seus princípios.
+Além disso, valem as regras gerais do consumidor, porque ter uma lei própria para jogos não afasta a lei do consumidor. A própria lei dos jogos põe a defesa do consumidor e a proteção integral da criança e do adolescente entre os seus princípios.
 
 > O marco organiza o setor institucionalmente mediante princípios e diretrizes e, no seu núcleo mais importante para esta tese, afirma que os jogos eletrônicos devem ser pensados à luz do respeito aos direitos fundamentais e aos valores democráticos, da defesa do consumidor, da proteção integral da criança e do adolescente, e da preservação da privacidade, da proteção de dados pessoais (p. 544)
 > A existência de regulação setorial não substitui a infraestrutura consumerista, nem autoriza que conflitos de fruição sejam absorvidos integralmente pela gramática do setor ou pela linguagem da inovação. (p. 548)
@@ -1617,7 +1618,7 @@ Há também uma autoridade pública encarregada de fazer valer essas regras, a A
 
 > “Art. 1º Este Decreto [...] designa a Agência Nacional de Proteção de Dados - ANPD como autoridade administrativa autônoma [...]. (p. 547)
 
-Como as regras para crianças valem para todo o público do jogo, um problema no desenho dele tende a ser coletivo. Nesse caso, a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.
+Como o desenho do jogo é o mesmo para todas as crianças que jogam, um problema nele tende a ser coletivo. Nesse caso, a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.
 
 > Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
@@ -1940,7 +1941,7 @@ A queda de ganho nem sempre é risco normal da atividade, porque pode vir de uma
 
 ### pedir O que dá para pedir quando o aplicativo muda a regra?
 
-O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique de forma verificável as restrições e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a recomposição do que a mudança degradou.
+O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de um jeito que dê para conferir e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
 
 > A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime sempre que a plataforma houver degradado, por desenho, a utilidade produtiva que oferecia como infraestrutura. (p. 768)
 
@@ -1969,7 +1970,7 @@ Essa leitura não decide se existe vínculo de emprego, nem transforma a relaç�
 
 > O ponto central não está apenas em afirmar subordinação algorítmica em abstrato, nem em reclassificar automaticamente toda a relação sob categorias tradicionais do contrato de trabalho. O foco, para os fins desta tipologia, está no regime de fornecimento. (p. 766)
 
-Consumidor equiparado é a pessoa que a lei trata como consumidora por estar exposta às práticas da empresa, mesmo sem ser a compradora final. Nem todo parceiro será tratado assim. O critério é exigente, e o Superior Tribunal de Justiça trata essa ampliação como exceção.
+Consumidor equiparado é a pessoa que a lei trata como consumidora por estar exposta às práticas da empresa, mesmo sem ser a compradora final. Nem todo parceiro será tratado assim. O critério é exigente, e o Superior Tribunal de Justiça, o tribunal que dá a palavra final sobre a lei do consumidor, trata essa ampliação como exceção.
 
 > O critério continua exigente. Nem todo participante de ecossistema de plataforma será consumidor equiparado. (p. 780)
 > “Art. 29. Para os fins deste Capítulo e do seguinte, equiparam-se aos consumidores todas as pessoas determináveis ou não, expostas às práticas nele previstas” (Brasil, [2022]). Na jurisprudência do STJ, o dispositivo funciona como uma das bases da chamada teoria finalista aprofundada, porque permite, em hipóteses excepcionais, mitigar a leitura estrita do destinatário final e reconhecer a incidência do CDC a pessoas físicas ou jurídicas que, embora não sejam consumidoras finais em sentido clássico, se encontrem em situação de vulnerabilidade ou expostas a práticas comerciais e contratuais abusivas (p. 779)
@@ -2015,7 +2016,7 @@ Quem vende depende do ranking, da reputação e do destaque que a plataforma con
 > A plataforma não precisa expulsar formalmente um concorrente para restringir sua competitividade. (p. 770)
 > Em mercados dessa natureza, preferenciamento interno, autoprivilegiamento, barreiras informacionais, captura de inteligência competitiva e discriminação opaca não dependem necessariamente de atos ostensivos de exclusão. Podem operar por microvantagens estruturais, produzidas pela administração contínua da visibilidade, da comparabilidade e da inteligibilidade do ecossistema. (p. 770)
 
-A proteção tem mais força quando a plataforma vende a você, como produto, um conjunto de usos que se mantém no tempo. Um exemplo é a posição da sua loja na vitrine.
+A proteção tem mais força quando o que a plataforma vende a você, como produto, é uma posição que se mantém no tempo dentro dela. Um exemplo é o lugar da sua loja na vitrine.
 
 > Admitida a aplicabilidade do art. 29 do CDC para qualificar pessoas jurídicas em posição factual de vulnerabilidade, o regime se mostra plenamente pertinente quando o objeto imaterial em questão é o feixe de fruição em posição sustentada explorado como produto no mercado B2B pela detentora e oferecido, por via da plataforma marketplace, ao seller (vendedor). (p. 434)
 
@@ -2059,7 +2060,7 @@ Nem todo vendedor ou parceiro será tratado como consumidor equiparado, que é q
 > “Art. 29. Para os fins deste Capítulo e do seguinte, equiparam-se aos consumidores todas as pessoas determináveis ou não, expostas às práticas nele previstas” (Brasil, [2022]). (p. 779)
 > O critério continua exigente. Nem todo participante de ecossistema de plataforma será consumidor equiparado. Nem toda relação economicamente mediada por tecnologia justificará incidência do CDC. (p. 780)
 
-A proteção também não apaga a diferença entre consumidor e empresa. O Superior Tribunal de Justiça trata essa ampliação como exceção, sobretudo para quem atua fora da própria especialidade.
+A proteção também não apaga a diferença entre consumidor e empresa. O Superior Tribunal de Justiça, o tribunal que dá a palavra final sobre a lei do consumidor, trata essa ampliação como exceção. Ela vale sobretudo para a empresa que contrata algo fora da sua própria área de atuação.
 
 > O ponto não é dissolver toda distinção entre consumidor e agente econômico. (p. 779)
 > [...] e dele extrai a possibilidade de equiparação da pessoa jurídica vulnerável, sobretudo quando atua fora de seu núcleo de especialidade, como forma de impedir que a paridade formal neutralize a tutela material do CDC. (p. 779)
@@ -2121,7 +2122,7 @@ Os relatos de outros usuários não são a prova principal de um problema. Mesmo
 
 ### pedir O que uma resposta coletiva pode pedir que um caso sozinho não alcança?
 
-A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar motivo verificável para punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking.
+A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo que dê para conferir nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking.
 
 > A tutela coletiva mostra-se, então, particularmente vocacionada a impor medidas inibitórias, procedimentais e analíticas aptas a reintroduzir verificabilidade institucional no ambiente. Isso pode envolver deveres de preservação de registros mínimos, exigência de motivação verificável para sanções materialmente relevantes, manutenção de histórico acessível de alterações relevantes, explicitação de critérios operacionais mínimos de distribuição, prioridade ou ranqueamento, e outras providências que não se dirigem apenas a reparar danos pretéritos, mas a reorganizar as condições futuras de controlabilidade da fruição. (p. 775)
 
