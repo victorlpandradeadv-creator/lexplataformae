@@ -141,3 +141,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Nota 551 (p. 532). Rigney defende as medidas invasivas, e SerTenseal separa críticas sérias de exageros. A matriz juntava os dois, e o curso os separa.
 - Resposta da Riot ao Estatuto Digital (p. 546-547). O curso apresenta como leitura da tese que a empresa preserva a monetização e transfere o custo ao usuário, sem qualificar a resposta como ilícita.
 - A 5.2.3 usa o número da Lei nº 15.211/2025 e a 6.1.4 usa o nome Estatuto Digital. A identidade vem da lista de referências (p. 806).
+
+## Leituras do capítulo de entrada, 09/11/2026
+- p. 59 e 67. As regras de peso da evidência são método da tese. A ponte para quem litiga, pela imputação jurídica, é leitura do escritor.
+- p. 716, 743 e 748. A distinção entre parâmetro, fundamento normativo e consequência foi montada com os enunciados operacionais, a qualificação do bloco a e a consequência institucional possível.
+- p. 72. A frase sobre Posner, Eggleston e Zeckhauser parece truncada ("em que ele opera questionamentos interpretativos").
+- p. 38 e 56-57. A presença no mercado brasileiro e o modelo de monetização entram como razões que a tese aponta ainda, e não entre os quatro critérios de seleção.
+- p. 32. O "intencionalmente" e o "quando deliberada" ficaram de fora, pela regra de não exigir intenção.
+- A nota 3 (p. 26) cita obra cujo primeiro autor é Andrade. O curso fala só do contencioso na OMC, sem nomear autor.
