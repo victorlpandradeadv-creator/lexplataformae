@@ -87,3 +87,27 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Notas 368 e 369 (p. 329-330) entram como indício. A nota 369 fala em inexistência de um dever claro de equivalência substancial, o que parece colidir com o parâmetro da própria tese. O curso não usa esse trecho.
 - A aproximação entre a transparência performática (p. 620) e a opacidade funcional produzida por desenho (p. 722-723) é leitura do escritor.
 - A nota 333 (p. 299), que define o gacha, termina sem ponto final no PDF.
+
+## Leituras do capítulo sobre a vulnerabilidade semiótica, 08/11/2026
+- p. 322-324 e 330. A lista das assimetrias (sentido, visibilidade, temporal, probatória) não coincide com as camadas descritas (sentido, visibilidade, equivalência, temporal) nem com a síntese sentido, cena, equivalência e tempo. O curso diz isso e lê as listas em conjunto.
+- p. 397 contra p. 331. "Deliberado quebra-cabeça" e "economia que o ambiente desenhou para ser custosa de ler" soam como intenção, mas a p. 331 dispensa intenção subjetiva. O trecho literal ficou, e a prosa omitiu "deliberado".
+- p. 399-400 contra p. 828. O 5.1.1 cita Warat como 1995, o 6.2.4.1 e o 6.2.4.2 citam 1984, e a lista de referências só traz a edição de 1984.
+- p. 721. A divisão do que se demonstra em concreto em duas coisas, o arranjo e a interferência, é leitura do escritor.
+- p. 553, 580 e 600-601. A tese não formula a objeção de que todo consumidor é vulnerável e o conceito nada acrescenta. O curso a constrói e responde com a presunção do Manual, a especificação dentro do art. 4º, I, e o ganho operacional.
+- p. 404. A tese chama de "dois limites essenciais" a arquitetura de escolha e a transparência performática, mas as descreve como fatores que intensificam a vulnerabilidade. O curso as trata como intensificação.
+
+## Leituras do capítulo sobre a prova, 08/11/2026
+- Miragem e a p. 488. A nota 727 (p. 643) atribui a Miragem a regra do defeito informacional, e o corpo da p. 660 a estende à mutação relevante dependente de dados da empresa, com a mesma referência. O curso diz que a tese formula a regra com apoio no autor.
+- Palmeira (nota 670, p. 593, e p. 600). A tese mostra o ganho e o limite da inversão ope legis, mas não diz se a rejeita. O curso não afirma rejeição.
+- Art. 399 do CPC. Está só na transcrição da nota 753 (p. 660), sem comentário no corpo. O curso o expõe de forma descritiva.
+- Cláusulas da Riot (p. 613-615). O corpo não comenta as ressalvas das transcrições, como reembolso ou substituição na 4.5 e direitos do consumidor e lei local na 5.1 e na 14.1. O curso as registra sem conclusão.
+- Relatos comunitários (p. 611, nota 694). A tese fala em experiência ainda que hipotética, e os cerca de cinco anos vêm de um único relato. O curso conserva a ressalva.
+- Ponte para a teleologia abusiva (p. 617-618). A frase é assertiva, mas fica dentro de casos qualificados, e o curso manteve a ressalva.
+
+## Leituras do capítulo sobre os remédios, 08/11/2026
+- Três sequências (p. 715, 716-717, 742-743). Ordenam coisas diferentes. Nos quatro passos, a teleologia entra como filtro, e não como passo (p. 715-716). Em nenhuma a consequência vem antes da prova.
+- Fechos (p. 717, 734, 740). Leitura do escritor, a teleologia fecha o diagnóstico, a propriedade intelectual fecha o limite e a recomposição fecha o regime, pelas listas de antecedentes.
+- Recompor e corrigir (p. 740 e 741). Motivação verificável e canais de contestação estão nas duas listas. A fronteira foi lida no objeto e no pressuposto, e não no tipo de medida.
+- Art. 35 do CDC (p. 540, nota 573). O texto dá a escolha ao consumidor, "à sua livre escolha", e a tese o lê como apoio à primazia da recomposição. O curso não trata essa tensão.
+- O caso trabalhado é a cláusula de encerramento de conta da Riot (p. 540-543, seção 6.1.3). O "quando cabível" foi lido como ligado só à restauração. A ressalva de direitos do consumidor na cláusula 2.3 está só na nota.
+- Plataforma que fracassa (p. 796-797). As medidas de continuidade, portabilidade, recomposição e cessão vêm para o encerramento do serviço. Para a falência, a tese só formula a pergunta, e o curso não estende as medidas a ela.

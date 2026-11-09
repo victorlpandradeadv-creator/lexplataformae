@@ -30,8 +30,9 @@ def normalizar(texto, fonte=False):
         texto = texto.replace(a, b)
     if fonte:
         # remove chamadas de nota de rodapé coladas ao texto
-        # (depois de ponto, só quando o ponto fecha uma palavra, para não comer decimais como 26.3)
-        texto = re.sub(r'(?:(?<=[A-Za-zÀ-úºª,;:"])|(?<=[A-Za-zÀ-úºª"]\.))\d{1,3}(?=[\s,\.\)])', "", texto)
+        # (depois de ponto, só quando o ponto fecha uma palavra, para não comer decimais como 26.3, e depois de vírgula,
+        # só quando a vírgula vem depois de palavra ou de parêntese, para não comer centavos como R$ 102,80)
+        texto = re.sub(r'(?:(?<=[A-Za-zÀ-úºª;:")])|(?<=[A-Za-zÀ-úºª")],)|(?<=[A-Za-zÀ-úºª"]\.))\d{1,3}(?=[\s,\.\)])', "", texto)
     return re.sub(r"\s+", " ", texto).strip()
 
 
