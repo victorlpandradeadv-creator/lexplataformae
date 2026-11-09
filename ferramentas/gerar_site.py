@@ -1446,6 +1446,11 @@ def bloco_percurso(b, prefixo):
         else:
             nome = esc(arg)
             linha = (f'<a class="area-rotulo" href="{prefixo}instrumentos/#{area}" title="Outras palavras da mesma área">{esc(AREA_NOME[area])}</a>' if area else "")
+        # Termo de outro campo do conhecimento. Na Informação e na Doutrina o bloco é só a explicação do fenômeno, sem título,
+        # e o nome teórico com a área fica na Ciência. Adequação das camadas, etapa 5, 08/11/2026.
+        if area and area != "direito" and not derivado:
+            return (f'<section class="ext termo termo-fenomeno"{ident}{estilo_area(area)}><h2 class="nome-termo ciencia">{linha}{nome}</h2>'
+                    f'{texto}{exp}</section>')
         return (f'<section class="ext termo{" derivado" if derivado else ""}"{ident}{estilo_area(area)}><h2 class="nome-termo">{linha}{nome}</h2>'
                 f'{texto}{exp}</section>')
     if tipo == "familia":

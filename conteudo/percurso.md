@@ -39,7 +39,7 @@ Por isso, quando uma conta é bloqueada ou um item perde a função que tinha, a
 
 ### texto
 
-Agora faça o que quase ninguém faz e abra os termos de uso, o contrato que você aceitou ao criar a conta. Lá a mesma skin não aparece como compra. Ela aparece como conteúdo virtual, que a empresa oferece por meio de uma licença limitada e revogável, presa à sua conta.
+Agora vem o que quase ninguém faz, que é abrir os termos de uso, o contrato que você aceitou ao criar a conta. Lá a mesma skin não aparece como compra. Ela aparece como conteúdo virtual, que a empresa oferece por meio de uma licença limitada e revogável, presa à sua conta.
 
 Licença, aqui, quer dizer permissão de uso. Revogável quer dizer que essa permissão pode ser retirada, e o próprio contrato avisa que, se a conta for encerrada, a licença é cancelada na hora. Ou seja, a tela fala a língua da compra, enquanto o contrato fala a língua de um acesso com condições, administrado pela empresa.
 
@@ -80,7 +80,7 @@ Por isso a saída não é proibir a palavra. É exigir que a empresa responda pe
 
 ### mecanismo O que a sua conta guarda além do login?
 
-Para entender o que você tem, olhe para a sua conta. Ela não é só login e senha. É nela que ficam juntos o seu inventário, o seu progresso, o seu nome de jogador e os sinais pelos quais os outros reconhecem você no jogo. Personagens, skins, emotes e a moeda do jogo só funcionam presos a ela e não podem ser levados para fora.
+Para entender o que você tem, o melhor ponto de partida é a sua conta. Ela não é só login e senha. É nela que ficam juntos o seu inventário, o seu progresso, o seu nome de jogador e os sinais pelos quais os outros reconhecem você no jogo. Personagens, skins, emotes e a moeda do jogo só funcionam presos a ela e não podem ser levados para fora.
 
 É por isso que a conta segura tudo. Se alguém invadir a sua conta, você precisa abrir um chamado para que a empresa a recupere, o que mostra que ela é um registro que a empresa guarda e administra. E se a empresa encerrar a conta por entender que houve motivo, você perde o acesso a ela e aos dados ligados a ela. Perde também o conteúdo virtual, inclusive a moeda que pagou, e perde sem reembolso.
 
@@ -149,7 +149,7 @@ O valor dela não fica guardado num canto só seu. Depende de servidores ligados
 
 ### texto
 
-Junte tudo isso e fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
+Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
 
 > afasta, logo de saída, a fraude semântica da “licença revogável” como fórmula capaz de evaporar tudo o que já foi economicamente incorporado à esfera do usuário (p. 566)
 > Se há objeto virtual identificável, associado à conta e fruído no ecossistema, há juridicidade a ser levada a sério, ainda que a plataforma tente recobri-la com vocabulário de precariedade. (p. 566)
@@ -339,7 +339,7 @@ Aí ficar no jogo deixa de ser só lazer e vira tarefa. Permanecer significa con
 
 ### mecanismo Por que ficar fora do jogo passa a custar caro?
 
-Junte tudo isso e aparece uma regra silenciosa. Se o que você pode perder é o momento certo, o status e o pertencimento, faltar passa a custar caro. Quem some por umas semanas perde posição, perde o evento e perde a skin que só estava à venda naquela janela.
+Com tudo isso junto, aparece uma regra silenciosa. Se o que você pode perder é o momento certo, o status e o pertencimento, faltar passa a custar caro. Quem some por umas semanas perde posição, perde o evento e perde a skin que só estava à venda naquela janela.
 
 A ausência deixa de ser uma pausa e vira uma queda que dá para medir. E o risco não está só no item, mas no sentido do que se perde e no calendário, que transforma atraso em desvantagem, mesmo quando a skin continua lá, tecnicamente acessível.
 
@@ -461,7 +461,7 @@ Com a skin é diferente, porque ela só funciona dentro de um lugar que você n�
 
 ### termo Economia de pedágio
 
-Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. É a economia de pedágio. Os serviços podem até ser úteis, mas o lucro vem principalmente do ponto de passagem que ninguém consegue evitar.
+Há quem ganhe menos pelo que entrega e mais porque todo mundo é obrigado a passar pela catraca dele. Os serviços podem até ser úteis, mas o lucro vem principalmente do ponto de passagem que ninguém consegue evitar.
 
 No jogo, esse pedágio não é cobrado uma vez só. A plataforma cobra pela entrada, cobra pela pressa de quem quer chegar antes, cobra pela comodidade, cobra pelo que distingue você dos outros e cobra pela volta de um item que tinha saído. E, acima de tudo, cobra pela proteção contra um risco que ela mesma criou, como o medo de perder a próxima janela.
 
@@ -791,7 +791,7 @@ A técnica parece neutra, mas tem dono e direção.
 
 Você já deve ter ouvido que é assim que funciona, que foi só uma atualização ou que essa é a regra do jogo. Frases assim fazem uma escolha parecer coisa da natureza, que ninguém decidiu e que ninguém poderia ter decidido diferente.
 
-E isso não acontece só nos jogos, que apenas deixam ver, quase a olho nu, a produção de dependência e de valor simbólico fica visível quase a olho nu. Fora deles, em aplicativos de trabalho, de estudo, de reputação e de compras, os mesmos efeitos costumam ser apresentados como inevitáveis, e não como escolhas de desenho. Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza e apenas aplica regras, o conflito continua preso à língua do inevitável.
+E isso não acontece só nos jogos, que apenas deixam ver, quase a olho nu, a produção de dependência e de valor simbólico. Fora deles, em aplicativos de trabalho, de estudo, de reputação e de compras, os mesmos efeitos costumam ser apresentados como inevitáveis, e não como escolhas de desenho. Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza e apenas aplica regras, o conflito continua preso à língua do inevitável.
 
 > Se a experiência do entretenimento interativo permite ver, quase a olho nu, a produção de dependência, a fabricação de valor simbólico, a conversão de rotina em vínculo e a naturalização de assimetrias (p. 23)
 > A diferença é que, fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
@@ -1092,7 +1092,7 @@ Quando a perda vira rotina, o problema está no desenho.
 
 ### texto
 
-Uma mudança ruim pode ser só um erro, e erros acontecem. Mas experimente olhar tudo junto, em vez de uma coisa de cada vez.
+Uma mudança ruim pode ser só um erro, e erros acontecem. Mas o quadro muda quando se olha tudo junto, em vez de uma coisa de cada vez.
 
 A raridade encenada, a pressa fabricada, a promessa de progresso, o medo de perder o que você juntou e os pequenos rebaixamentos que nunca param parecem banais quando vistos um a um. Juntos, eles apertam o tempo que você tem para pensar, aumentam o custo de ir embora, dificultam voltar atrás e deixam você cada vez mais dependente do próprio lugar que governa o que você usa.
 

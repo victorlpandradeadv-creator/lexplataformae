@@ -374,7 +374,7 @@ Tudo isso junto é o que você comprou. E cada uma dessas partes depende de regr
 
 Feixe de fruição governada. Feixe é um conjunto de fios amarrados juntos, e fruição é o uso e o proveito que você tira de alguma coisa. O nome descreve o conjunto de usos, de sinais e de posições que um produto desse tipo oferece, todos administrados pela plataforma enquanto a relação durar.
 
-O feixe anda colado ao Objeto Imaterial de Consumo, que dá a qualificação jurídica ao que você comprou, enquanto o feixe mostra o que há dentro dele, fio por fio. Por isso a primeira pergunta para saber se um caso é desse tipo é justamente qual feixe foi prometido.
+O feixe anda colado ao Objeto Imaterial de Consumo. O OIC é o nome jurídico do que você comprou, e esse produto é, ele mesmo, um feixe de fruição sustentado no tempo. Por isso, das quatro perguntas que mostram se um caso é desse tipo, a primeira é qual feixe foi prometido.
 
 > [...] a definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo [...] (p. 394)
 > O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)

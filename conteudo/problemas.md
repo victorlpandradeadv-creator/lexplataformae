@@ -134,9 +134,9 @@ O nome que o contrato dá ao que você comprou não decide, sozinho, a proteçã
 
 ### blocos
 
-a-compra | Agora faça o que quase ninguém faz
+a-compra | Agora vem o que quase ninguém faz
 a-compra | E há um detalhe que joga a seu favor
-a-compra | Junte tudo isso e fica claro
+a-compra | Com tudo isso junto, fica claro
 a-compra | Nem tudo o que é digital
 
 ### direitos

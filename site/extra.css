@@ -807,3 +807,7 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 .nota-acrescimo { font-size: 0.875rem; color: var(--tinta-suave, var(--tinta)); }
 .ver-reclamar a { font-weight: 600; }
 .problema-campo + .problema-campo, .reclamar-secao + .reclamar-secao { margin-top: 1.5rem; }
+
+/* Termo de outro campo. Fora da Ciência ele é texto corrido, sem filete nem recuo. Etapa 5, 08/11/2026. */
+.termo.termo-fenomeno { padding-left: 0; border-left: 0; }
+body.desnudo .termo.termo-fenomeno { padding-left: 1.25rem; border-left: 2px solid var(--area, var(--linha)); }
