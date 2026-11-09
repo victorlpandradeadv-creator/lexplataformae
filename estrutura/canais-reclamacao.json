@@ -31,6 +31,13 @@
       "texto": "Art. 105. Integram o Sistema Nacional de Defesa do Consumidor (SNDC), os órgãos federais, estaduais, do Distrito Federal e municipais e as entidades privadas de defesa do consumidor."
     },
     {
+      "id": "cdc-82",
+      "lei": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "rotulo": "art. 82 do CDC",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "texto": "Art. 82. Para os fins do art. 81, parágrafo único, são legitimados concorrentemente: I - o Ministério Público, II - a União, os Estados, os Municípios e o Distrito Federal; III - as entidades e órgãos da Administração Pública, direta ou indireta, ainda que sem personalidade jurídica, especificamente destinados à defesa dos interesses e direitos protegidos por este código; IV - as associações legalmente constituídas há pelo menos um ano e que incluam entre seus fins institucionais a defesa dos interesses e direitos protegidos por este código, dispensada a autorização assemblear."
+    },
+    {
       "id": "d2181-4",
       "lei": "Decreto nº 2.181/1997",
       "rotulo": "art. 4º, II e III, do Decreto nº 2.181/1997",
@@ -70,7 +77,10 @@
     {
       "id": "consumidor-gov",
       "nome": "Consumidor.gov.br",
-      "fontes": ["https://www.consumidor.gov.br/pages/conteudo/publico/1", "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor/consumidor-gov.br"],
+      "fontes": [
+        "https://www.consumidor.gov.br/pages/conteudo/publico/1",
+        "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor/consumidor-gov.br"
+      ],
       "regras": [
         "Serviço público e gratuito para solução de conflitos de consumo pela internet, monitorado pela Secretaria Nacional do Consumidor do Ministério da Justiça.",
         "Para registrar uma reclamação é preciso se cadastrar, aceitar os termos de uso e ter conta gov.br de nível prata ou ouro.",

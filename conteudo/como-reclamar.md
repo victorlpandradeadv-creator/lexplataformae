@@ -62,7 +62,7 @@ lei: cdc-105, d2181-4
 
 ### juizado Quando vale procurar o Juizado?
 
-O Juizado Especial Cível julga causas de menor complexidade de até quarenta salários mínimos. Em primeira instância, entrar com o pedido não custa nada.
+O Juizado Especial Cível julga causas de menor complexidade de até quarenta salários mínimos. Entrar com o pedido e chegar à primeira decisão do juiz não custa nada.
 
 Nas causas de até vinte salários mínimos, você pode ir sem advogado. Acima disso, o advogado é obrigatório, e ele também é obrigatório se alguém recorrer da decisão.
 
@@ -72,12 +72,12 @@ lei: l9099-3, l9099-9, l9099-54, l9099-41
 
 Um advogado ajuda quando o valor é alto, quando o caso depende de prova que está com a empresa ou quando é preciso recorrer. Quem não pode pagar tem direito a assistência jurídica gratuita, que a Defensoria Pública presta.
 
-Quando o mesmo problema atinge muita gente porque nasce do próprio desenho do serviço, a resposta pode ser coletiva. O Ministério Público e os órgãos de defesa do consumidor podem agir em nome de todos os atingidos.
+Quando o mesmo problema atinge muita gente porque nasce do próprio desenho do serviço, a resposta pode ser coletiva. O Ministério Público, os órgãos de defesa do consumidor e as associações de defesa do consumidor podem agir em nome de todos os atingidos.
 
 > É nesse ponto que a tutela coletiva deixa de ser mera conveniência processual e passa a se impor como consequência dogmática coerente do regime do OIC. (p. 774)
 > Em ambientes de plataforma, a fonte lesiva pode residir no próprio desenho do regime de fornecimento, de modo que a unidade do problema não decorre primariamente da repetição empírica de episódios, mas da permanência de uma estrutura única, reiterável e funcionalmente expansiva de produção de perda, opacidade e assimetria. (p. 774)
 
-lei: cdc-5
+lei: cdc-5, cdc-82
 
 ### guardar O que levar em qualquer caminho?
 

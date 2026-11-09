@@ -174,3 +174,8 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - 04, p. 343-345. A crítica da tese ao banimento por infração menor no chat ("feição de pena privada expansiva", racionalidade "potencialmente disfuncional") chega perto de dizer que a prática da empresa é abusiva. O curso atribui tudo à tese e mantém os modais. Cabe ao autor decidir o tom.
 - 05, p. 397. A fragmentação do preço no Wild Rift como quebra-cabeça que transfere ao consumidor o ônus de decifrar a economia do jogo. A prosa tirou o "deliberado", mas a frase segue afirmativa sobre empresa nomeada.
 - 06, p. 631. A frase final, de que um calendário, um evento ou um sorteio não se tornam abusivos só por existirem, é inferência da recusa de moralizar a persuasão. Nenhum trecho inclui o sorteio.
+
+## Segunda leitura, capítulos 12 a 14 e Como reclamar, 09/11/2026
+- p. 563. A tese descreve o art. 20 do CDC, pelo manual de Benjamin, Marques e Bessa, como rescisão sem multa ou abatimento. O texto da lei traz também a reexecução do serviço, no inciso I, que sustenta a primazia da recomposição. A tese não transcreve o art. 20, e o curso não a acrescentou. Cabe ao autor decidir.
+- Como reclamar, seção prazo. "A contagem deve acompanhar o momento em que ela pode ser percebida" segue o "deve dialogar" da p. 558, mas para o leigo pode soar como regra assentada.
+- Como reclamar ganhou o art. 82 do CDC, copiado do Planalto em 09/11/2026, para a legitimidade coletiva.
