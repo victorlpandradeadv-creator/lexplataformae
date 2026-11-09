@@ -866,8 +866,49 @@ def direitos_da_ideia(cid):
 # `### guardar O que vale a pena guardar antes de reclamar?`. Adequação das camadas, etapa 5, 08/11/2026. A Informação
 # responde ao que a pessoa vive, diz se é o caso dela, o que guardar, o que pedir, a quem recorrer e onde a proteção para.
 CAMPOS_PROBLEMA = ("caso", "guardar", "pedir", "quem", "limite")
-# A página Como reclamar (conteudo/como-reclamar.md) ainda não tem gerador. Enquanto não tiver, o campo quem não leva até ela.
-COMO_RECLAMAR = {}
+
+
+# Como reclamar. Os caminhos fora da plataforma, em conteudo/como-reclamar.md, com os textos oficiais em
+# estrutura/canais-reclamacao.json. Acréscimo posterior à tese, de 08/11/2026, por ordem do autor de 05/11/2026.
+def carregar_como_reclamar():
+    arq = RAIZ / "conteudo" / "como-reclamar.md"
+    canais_arq = RAIZ / "estrutura" / "canais-reclamacao.json"
+    if not arq.exists() or not canais_arq.exists():
+        return {}
+    canais = json.loads(canais_arq.read_text(encoding="utf-8"))
+    d = {"titulo": "", "abertura": [], "secoes": [], "acesso": canais["acesso"],
+         "leis": {x["id"]: x for x in canais["dispositivos"]}, "servicos": {x["id"]: x for x in canais["servicos"]}}
+    atual = None
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("### "):
+            campo_, _, pergunta = linha[4:].strip().partition(" ")
+            if campo_ in ("titulo", "abertura"):
+                atual = campo_
+            else:
+                d["secoes"].append({"campo": campo_, "pergunta": pergunta.strip(), "paragrafos": [], "citacoes": [], "lei": []})
+                atual = "secao"
+            continue
+        if not atual or not linha.strip():
+            continue
+        m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+        if atual == "titulo":
+            d["titulo"] = linha.strip()
+        elif atual == "abertura":
+            d["abertura"].append(linha.strip())
+        elif m:
+            d["secoes"][-1]["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+        elif linha.startswith("lei:"):
+            ids = [x.strip() for x in linha[4:].split(",") if x.strip()]
+            faltam = [x for x in ids if x not in d["leis"] and x not in d["servicos"]]
+            if faltam:
+                raise SystemExit(f"Como reclamar, fonte oficial que não existe em canais-reclamacao.json: {faltam}")
+            d["secoes"][-1]["lei"] += ids
+        else:
+            d["secoes"][-1]["paragrafos"].append(linha.strip())
+    return d
+
+
+COMO_RECLAMAR = carregar_como_reclamar()
 
 
 def carregar_problemas():
@@ -945,6 +986,7 @@ def gerar_problemas():
     corpo = (f'<article class="folha problemas-pagina"><p class="sobrelinha-ext"><a href="../direitos/">Seus direitos</a></p>'
              f'<header class="folha-cabeca ext-cabeca"><h1>Qual é o seu problema?</h1></header>'
              f'<ul class="partes problemas-lista">{itens}</ul>'
+             + (f'<p class="ver-reclamar"><a href="../como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
              + cuidado_html("../")
              + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="../direitos/">Todos os seus direitos</a>{botao_desnudar()}</div></section></article>')
     jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "headline": "Qual é o seu problema?", "inLanguage": "pt-BR",
@@ -1001,6 +1043,54 @@ def gerar_problemas():
                    imagem=f'problema-{p["slug"]}',
                    irmas=("Todos os problemas", [(esc(x["titulo"]), f'../{x["slug"]}/', x is p) for x in PROBLEMAS.values()])),
             encoding="utf-8")
+
+
+MESES = ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+
+
+def gerar_como_reclamar():
+    C = COMO_RECLAMAR
+    if not C:
+        return
+    prefixo = "../"
+    ano, mes, dia = C["acesso"].split("-")
+    data = f'{int(dia)} de {MESES[int(mes) - 1]} de {ano}'
+
+    def fontes_html(ids):
+        partes = []
+        for i in ids:
+            if i in C["leis"]:
+                l = C["leis"][i]
+                partes.append(f'<details class="lei-texto"><summary>O que diz o {esc(l["rotulo"])}</summary><p>{esc(l["texto"])}</p>'
+                              f'<p class="fonte-lei">{esc(l["lei"])}, no <a href="{l["fonte"]}">site do Planalto</a></p></details>')
+            else:
+                v = C["servicos"][i]
+                partes.append(f'<details class="lei-texto"><summary>As regras do {esc(v["nome"])}</summary><ul>'
+                              + "".join(f"<li>{esc(r)}</li>" for r in v["regras"]) + "</ul>"
+                              + f'<p class="fonte-lei">Nas páginas oficiais do <a href="{v["fontes"][0]}">{esc(v["nome"])}</a> e do <a href="{v["fontes"][1]}">Ministério da Justiça</a></p></details>')
+        return "".join(partes)
+
+    secoes = "".join(
+        f'<section class="ext reclamar-secao campo-{x["campo"]}"><h2 class="pergunta-secao">{esc(x["pergunta"])}</h2>'
+        + "".join(f"<p>{esc(t)}</p>" for t in x["paragrafos"]) + fontes_html(x["lei"]) + expansao(x["citacoes"], prefixo) + "</section>"
+        for x in C["secoes"])
+    corpo = (f'<article class="folha reclamar-pagina">'
+             f'<p class="sobrelinha-ext"><a href="{prefixo}direitos/">Seus direitos</a> · <a href="{prefixo}problemas/">Por problema</a></p>'
+             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(C["titulo"])}</h1></header>'
+             f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in C["abertura"])
+             + f'<p class="nota-acrescimo">Informação acrescentada em {data}, a partir da lei e dos canais oficiais.'
+             + '<span class="ciencia"> É acréscimo posterior à tese, que não trata dos canais de reclamação.</span></p></section>'
+             + secoes
+             + saidas_html([("Qual é o seu problema?", f"{prefixo}problemas/"), ("Seus direitos", f"{prefixo}direitos/"), ("Siga a skin desde a compra", f"{prefixo}percurso/")])
+             + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": C["titulo"], "inLanguage": "pt-BR", "url": f"{BASE}/como-reclamar/",
+              "dateModified": C["acesso"], "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+    destino = SAIDA / "como-reclamar"
+    destino.mkdir(parents=True, exist_ok=True)
+    (destino / "index.html").write_text(
+        pagina(f'{C["titulo"]} Procon, Consumidor.gov.br, Juizado e prazos · Lex Plataformae', primeira_frase(C["abertura"][0]), corpo, prefixo,
+               "como-reclamar/", jsonld, camada="mista", imagem="como-reclamar"),
+        encoding="utf-8")
 
 
 # Epígrafes. A página da trilha sonora, com a função das nove canções e o que cada uma anuncia, nas palavras do 2.6.
@@ -1071,7 +1161,9 @@ def gerar_direitos():
     intro = DIREITOS.get("intro", {"paragrafos": [], "citacoes": []})
     indice = "".join(f'<li><a href="#{l}">{esc(DIREITOS[l]["titulo"])}</a></li>' for l in LETRAS_DIREITOS)
     problemas = (f'<nav class="ext problemas-curto" aria-label="Por problema"><p class="rotulo-ext">Qual é o seu problema?</p>'
-                 f'{lista_problemas(PROBLEMAS, prefixo)}</nav>') if PROBLEMAS else ""
+                 f'{lista_problemas(PROBLEMAS, prefixo)}'
+                 + (f'<p class="ver-reclamar"><a href="{prefixo}como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
+                 + '</nav>') if PROBLEMAS else ""
     corpo = (f'<article class="folha direitos-pagina"><header class="folha-cabeca ext-cabeca"><h1>Seus direitos</h1></header>'
              f'<section class="ext">' + "".join(f"<p>{esc(t)}</p>" for t in intro["paragrafos"]) + expansao(intro["citacoes"], prefixo) + "</section>"
              + problemas +
@@ -3735,7 +3827,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/curso/"] + [f'{BASE}/curso/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/curso/"] + [f'{BASE}/curso/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/laboratorio/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/laboratorio/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -4038,6 +4130,7 @@ def main():
     gerar_direitos()
     gerar_curso()
     gerar_problemas()
+    gerar_como_reclamar()
     gerar_epigrafes()
     for c in D["conceitos"]:
         gerar_conceito(c)

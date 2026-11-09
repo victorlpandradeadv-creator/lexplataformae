@@ -4,6 +4,8 @@ Página da Informação com os caminhos de reclamação fora da plataforma. Acr�
 
 Regras. As mesmas da Informação. Segunda pessoa, nada de dois pontos, ponto e vírgula ou travessão, nenhuma menção a tese ou autor no texto, nenhum imperativo e nenhuma frase acima de 37 palavras. Nenhum caminho é garantia de resultado.
 
+## como-reclamar
+
 ### titulo
 
 Onde reclamar quando a plataforma não resolve?

@@ -798,3 +798,12 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 .curso-lista li { margin-block: 1.25rem; }
 .curso-lista li > a { font-family: var(--f-display); font-stretch: 112%; font-weight: 600; font-size: 1.125rem; }
 .curso-lista li > p { margin-block: 0.25rem 0; }
+
+/* Como reclamar, acréscimo de 08/11/2026. O texto da lei abre sob demanda, e a nota de acréscimo fica discreta. */
+.lei-texto { margin: 0.75rem 0 0; border-top: 1px solid var(--linha); padding-top: 0.5rem; }
+.lei-texto summary { cursor: pointer; font-weight: 600; }
+.lei-texto p, .lei-texto li { font-size: 0.9375rem; }
+.lei-texto .fonte-lei { font-size: 0.75rem; color: var(--tinta-suave, var(--tinta)); }
+.nota-acrescimo { font-size: 0.875rem; color: var(--tinta-suave, var(--tinta)); }
+.ver-reclamar a { font-weight: 600; }
+.problema-campo + .problema-campo, .reclamar-secao + .reclamar-secao { margin-top: 1.5rem; }

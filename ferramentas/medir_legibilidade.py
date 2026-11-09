@@ -17,7 +17,8 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 ARQS = [Path(a) for a in sys.argv[1:]] or [RAIZ / "conteudo" / "camada-externa.md", RAIZ / "conteudo" / "percurso.md",
-                                           RAIZ / "conteudo" / "direitos.md", RAIZ / "conteudo" / "problemas.md"]
+                                           RAIZ / "conteudo" / "direitos.md", RAIZ / "conteudo" / "problemas.md",
+                                           RAIZ / "conteudo" / "como-reclamar.md"]
 META = 50
 # Campos que guardam endereços, e não texto para o leitor.
 IGNORAR = {"partes", "ideias", "titulo", "blocos", "direitos", "relacionados"}
@@ -68,7 +69,7 @@ def blocos(arq):
             if pagina and campo not in IGNORAR and pergunta.strip().endswith("?"):
                 saida.setdefault(pagina, {}).setdefault(campo, []).append(pergunta.strip())
             continue
-        if pagina and campo and campo not in IGNORAR and linha.strip() and not linha.startswith(">"):
+        if pagina and campo and campo not in IGNORAR and linha.strip() and not linha.startswith((">", "lei:")):
             saida.setdefault(pagina, {}).setdefault(campo, []).append(linha.strip())
     return saida
 

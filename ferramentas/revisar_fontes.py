@@ -12,7 +12,7 @@ import re, sys, html, json
 from pathlib import Path
 from collections import Counter, defaultdict
 R = Path(__file__).resolve().parent.parent
-INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md']
+INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md', 'conteudo/como-reclamar.md']
 TODOS = INFO + ['conteudo/operar.md']
 IGN = {'partes', 'ideias', 'blocos', 'direitos', 'relacionados', 'cartoes'}
 def prosa(arq):
@@ -24,7 +24,7 @@ def prosa(arq):
             # A pergunta própria do bloco, no cabeçalho, passa pelas mesmas regras do texto.
             if pag and campo not in IGN and pergunta.strip().endswith('?'): yield i, pag, campo, pergunta.strip()
             continue
-        if not pag or not campo or campo in IGN or not l.strip() or l.startswith('>') or l.startswith('#'): continue
+        if not pag or not campo or campo in IGN or not l.strip() or l.startswith(('>', '#', 'lei:')): continue
         yield i, pag, campo, l.strip()
 print('# 1. Frases acima de 37 palavras na Informação')
 n = 0
