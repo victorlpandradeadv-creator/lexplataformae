@@ -809,5 +809,7 @@ body.desnudo:has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 .problema-campo + .problema-campo, .reclamar-secao + .reclamar-secao { margin-top: 1.5rem; }
 
 /* Termo de outro campo. Fora da Ciência ele é texto corrido, sem filete nem recuo. Etapa 5, 08/11/2026. */
-.termo.termo-fenomeno { padding-left: 0; border-left: 0; }
-body.desnudo .termo.termo-fenomeno { padding-left: 1.25rem; border-left: 2px solid var(--area, var(--linha)); }
+body.desnudo .termo-fenomeno { padding-left: 1.25rem; border-left: 2px solid var(--area, var(--linha)); }
+body.desnudo .termo-fenomeno .nome-termo { color: var(--area-t, var(--tinta)); }
+.termo-fenomeno .area-rotulo { display: block; margin-bottom: 0.15rem; font-weight: 500; text-decoration: none; }
+.termo-fenomeno[id] { scroll-margin-top: 1.5rem; }

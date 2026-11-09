@@ -1017,6 +1017,21 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
 .curso-lista li > a { font-family: var(--f-display); font-stretch: 112%; font-weight: 600; font-size: 1.125rem; }
 .curso-lista li > p { margin-block: 0.25rem 0; }
 
+/* Como reclamar, acréscimo de 08/11/2026. O texto da lei abre sob demanda, e a nota de acréscimo fica discreta. */
+.lei-texto { margin: 0.75rem 0 0; border-top: 1px solid var(--linha); padding-top: 0.5rem; }
+.lei-texto summary { cursor: pointer; font-weight: 600; }
+.lei-texto p, .lei-texto li { font-size: 0.9375rem; }
+.lei-texto .fonte-lei { font-size: 0.75rem; color: var(--tinta-suave, var(--tinta)); }
+.nota-acrescimo { font-size: 0.875rem; color: var(--tinta-suave, var(--tinta)); }
+.ver-reclamar a { font-weight: 600; }
+.problema-campo + .problema-campo, .reclamar-secao + .reclamar-secao { margin-top: 1.5rem; }
+
+/* Termo de outro campo. Fora da Ciência ele é texto corrido, sem filete nem recuo. Etapa 5, 08/11/2026. */
+:is(body.desnudo, body:has(#nivel-2:checked)) .termo-fenomeno { padding-left: 1.25rem; border-left: 2px solid var(--area, var(--linha)); }
+:is(body.desnudo, body:has(#nivel-2:checked)) .termo-fenomeno .nome-termo { color: var(--area-t, var(--tinta)); }
+.termo-fenomeno .area-rotulo { display: block; margin-bottom: 0.15rem; font-weight: 500; text-decoration: none; }
+.termo-fenomeno[id] { scroll-margin-top: 1.5rem; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {
