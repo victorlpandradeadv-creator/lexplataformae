@@ -169,3 +169,8 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - sair (p. 542, 658 e 666). A tese não tem seção própria sobre sair do serviço. A página junta a portabilidade de dados, o custo de saída e as rotas de cancelamento hostis.
 - vendo-na-plataforma (p. 434 e nota 817, p. 779). O exemplo da posição da loja na vitrine e a aplicação do limite do marketplace a quem vende são leituras do escritor. A nota 817 atribui ao STJ a equiparação como exceção sem indicar julgado.
 - trabalho-por-app (p. 766 e 778-780). A página não diz que o trabalhador é consumidor e repete os limites da equiparação.
+
+## Segunda leitura, capítulos 04 a 07, 09/11/2026
+- 04, p. 343-345. A crítica da tese ao banimento por infração menor no chat ("feição de pena privada expansiva", racionalidade "potencialmente disfuncional") chega perto de dizer que a prática da empresa é abusiva. O curso atribui tudo à tese e mantém os modais. Cabe ao autor decidir o tom.
+- 05, p. 397. A fragmentação do preço no Wild Rift como quebra-cabeça que transfere ao consumidor o ônus de decifrar a economia do jogo. A prosa tirou o "deliberado", mas a frase segue afirmativa sobre empresa nomeada.
+- 06, p. 631. A frase final, de que um calendário, um evento ou um sorteio não se tornam abusivos só por existirem, é inferência da recusa de moralizar a persuasão. Nenhum trecho inclui o sorteio.
