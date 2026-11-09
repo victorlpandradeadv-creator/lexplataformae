@@ -30,7 +30,7 @@ print('# 1. Frases acima de 37 palavras na Informação')
 n = 0
 for arq in INFO:
     for i, pag, campo, l in prosa(arq):
-        for f in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ"“])', l):
+        for f in re.split(r'(?<=[.!?])\s+(?=[A-ZÀÁÉÍÓÚÂÊÔÃÕÇ"“])', l):
             k = len(re.findall(r"[\wÀ-ÿ]+(?:-[\wÀ-ÿ]+)*", f))
             if k > 37: n += 1; print(f'  {arq}:{i} [{pag}/{campo}] {k} palavras  {f[:90]}')
 print(f'  total {n}')

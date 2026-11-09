@@ -156,3 +156,16 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 143-144. "Potencial de ilicitude das intenções e propósitos embutidos sob o design" foi lido pelo desenho, e não pela vontade, com as p. 448 e 732.
 - p. 213. A expressão "tão abusivo quanto", sobre o engano posicional, fica só no trecho literal.
 - p. 198 e 213-214. A tese não aplica o engano posicional às skins Legado. O curso usa o material dessas skins só para mostrar por onde a análise começaria.
+
+## Leituras dos escritores dos problemas, 09/11/2026
+- moeda (p. 176, 398, 614, 637-638, 755-756). A tese trata da moeda de jogo. A extensão aos créditos de aplicativo é leitura do escritor, pelo critério de mecanismo e não de setor (p. 755-756).
+- exclusivo-voltou (p. 213-214 e 452-454). O caso das Prestígio, que a tese desenvolve no 5.1.3 para delimitar a teleologia abusiva, aparece como exemplo de recomposição simbólica.
+- jogo-encerrado (p. 662 e 796-797). O apoio para levar o encerramento a órgãos públicos é o sexto mecanismo do 6.3.3, dito em geral. A falência ficou como pergunta em aberto.
+- programa-no-aparelho (p. 529 e 607). A seção não diz o que guardar. A página usa as telas datadas e os registros de falha como exemplo, sem tratá-los como prova da causa.
+- reclamacao-some (p. 781-783). Duas frases de conselho são leitura do escritor, apoiadas no adiamento da contestação.
+- presente-retirado (p. 611). O limite de que comprar fora do jogo não traz proteção automática é leitura da distinção entre fraude dolosa, erro escusável, canal aparentemente idôneo e boa-fé.
+- sorteio (p. 449-451). A tese diz que o Santuário mais se aproxima de prática abusiva por venda casada. A página diz que o desenho pode se aproximar da venda casada, com a ressalva da compra direta por preço razoável. O parágrafo único do art. 5º da Lei nº 14.852/2024 não foi ligado às caixas de recompensa.
+- crianca (p. 545-548 e 671-673). A tese não trata do reembolso de compras feitas por menores, e a página não diz nada sobre isso.
+- sair (p. 542, 658 e 666). A tese não tem seção própria sobre sair do serviço. A página junta a portabilidade de dados, o custo de saída e as rotas de cancelamento hostis.
+- vendo-na-plataforma (p. 434 e nota 817, p. 779). O exemplo da posição da loja na vitrine e a aplicação do limite do marketplace a quem vende são leituras do escritor. A nota 817 atribui ao STJ a equiparação como exceção sem indicar julgado.
+- trabalho-por-app (p. 766 e 778-780). A página não diz que o trabalhador é consumidor e repete os limites da equiparação.

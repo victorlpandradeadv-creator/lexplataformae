@@ -43,13 +43,29 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 
 - [Qual é o seu problema?](https://lexplataformae.com.br/problemas/): problemas comuns de quem compra itens, contas e acessos digitais, cada um com os blocos do percurso e os direitos que se aplicam.
 - [Minha conta foi bloqueada ou banida. E o que eu comprei?](https://lexplataformae.com.br/problemas/conta-bloqueada/)
-- [O item que eu comprei mudou numa atualização. E agora?](https://lexplataformae.com.br/problemas/item-alterado/)
+- [O que eu comprei mudou numa atualização. E agora?](https://lexplataformae.com.br/problemas/item-alterado/)
+- [O serviço piorou, e o preço continua o mesmo. Posso reclamar?](https://lexplataformae.com.br/problemas/servico-piorou/)
 - [Um item que recebi de presente foi retirado da minha conta. E agora?](https://lexplataformae.com.br/problemas/presente-retirado/)
-- [O jogo vai fechar. O que acontece com o que eu comprei?](https://lexplataformae.com.br/problemas/jogo-encerrado/)
+- [O serviço vai acabar. O que acontece com o que eu comprei?](https://lexplataformae.com.br/problemas/jogo-encerrado/)
 - [A empresa diz que eu só tenho uma licença. Então eu não comprei nada?](https://lexplataformae.com.br/problemas/so-licenca/)
 - [O que foi anunciado não é o que eu recebi. E agora?](https://lexplataformae.com.br/problemas/promessa/)
+- [Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?](https://lexplataformae.com.br/problemas/exclusivo-voltou/)
+- [Paguei por um sorteio ou por uma caixa de recompensa. O que preciso saber?](https://lexplataformae.com.br/problemas/sorteio/)
+- [A moeda do serviço passou a comprar menos. Isso é permitido?](https://lexplataformae.com.br/problemas/moeda/)
+- [A oferta dizia última chance. Fui pressionado a comprar?](https://lexplataformae.com.br/problemas/pressa/)
 - [A regra que me prejudicou estava enterrada nos termos de uso. E agora?](https://lexplataformae.com.br/problemas/regras-escondidas/)
 - [Os registros estão com a empresa. Como eu provo o que aconteceu?](https://lexplataformae.com.br/problemas/prova/)
+- [Reclamo, e a resposta nunca resolve. O que fazer?](https://lexplataformae.com.br/problemas/reclamacao-some/)
+- [Quero sair, mas perderia tudo o que construí ali. Isso conta?](https://lexplataformae.com.br/problemas/sair/)
+- [Perdi anos de histórico. Isso é mais do que um item?](https://lexplataformae.com.br/problemas/historia-perdida/)
+- [O serviço exige um programa que roda no meu aparelho. Posso questionar?](https://lexplataformae.com.br/problemas/programa-no-aparelho/)
+- [Meu filho ou minha filha gastou num jogo. O que a lei diz?](https://lexplataformae.com.br/problemas/crianca/)
+- [O assistente de inteligência artificial mudou ou errou. O que posso exigir?](https://lexplataformae.com.br/problemas/assistente/)
+- [A loja virtual esconde quem é pago e quem é confiável. Isso conta?](https://lexplataformae.com.br/problemas/loja-virtual/)
+- [Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?](https://lexplataformae.com.br/problemas/rede-social/)
+- [Trabalho por aplicativo, e a regra mudou. Tenho o que pedir?](https://lexplataformae.com.br/problemas/trabalho-por-app/)
+- [Vendo numa plataforma. A lei do consumidor me protege?](https://lexplataformae.com.br/problemas/vendo-na-plataforma/)
+- [Aconteceu com muita gente. Dá para resolver de uma vez?](https://lexplataformae.com.br/problemas/muita-gente/)
 
 ## Conceitos
 
