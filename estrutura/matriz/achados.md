@@ -133,3 +133,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 240 e 574. A conciliação entre o signo de produto como feixe de autorizações e a qualificação como produto imaterial, pela leitura econômica da descrição, é do escritor.
 - p. 698, nota 798. A exaustão em Barbosa trata da patente, e o corpo estende à exclusividade sobre tecnologia. O curso segue o corpo e conserva os modais.
 - A versão longa do capítulo, com vacinas e one-click, conjunto-imagem, Gama Cerqueira no TJSP e as alternativas de Dowbor, ficou guardada no scratchpad da sessão.
+
+## Leituras do capítulo sobre a ordem constitucional e o marco setorial, 09/11/2026
+- Nota 543 (p. 527-528). A comparação com o Easy Anti-Cheat e o recuo do Vanguard no kernel repousam num único texto do Medium. O curso diz isso.
+- Parágrafo único do art. 5º da Lei nº 14.852/2024 (nota 584, p. 544). Exclui do conceito de jogo eletrônico o jogo com resultado aleatório. A tese transcreve e não liga às caixas de recompensa, e o curso registra só a ausência.
+- Art. 20 do Estatuto Digital (p. 545). A transcrição da nota 592 para em "crianças e a adolescentes [...]". O alcance aos jogos de acesso provável está no corpo da tese, e o curso o põe como leitura da tese.
+- Nota 551 (p. 532). Rigney defende as medidas invasivas, e SerTenseal separa críticas sérias de exageros. A matriz juntava os dois, e o curso os separa.
+- Resposta da Riot ao Estatuto Digital (p. 546-547). O curso apresenta como leitura da tese que a empresa preserva a monetização e transfere o custo ao usuário, sem qualificar a resposta como ilícita.
+- A 5.2.3 usa o número da Lei nº 15.211/2025 e a 6.1.4 usa o nome Estatuto Digital. A identidade vem da lista de referências (p. 806).
