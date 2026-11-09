@@ -32,6 +32,7 @@ IMPERATIVO = re.compile(r"\b(Pense|Imagine|imagine|Repare|repare|Veja|Olhe|Supon
 TEORIA_IDEIA = re.compile(r"\b([Aa] ideia de Objeto|[Nn]ove ideias|[Ee]stas ideias|[Ee]ssa ideia|[Dd]essa ideia|[Dd]a ideia inteira|[Aa] ideia inteira|[Oo]utra ideia|[Aa]s ideias|[Vv]olte às ideias|Isso tem nome|[Tt]em nome,|[ÉE] o nome desse)\b")
 ANAFORA = re.compile(r"^(\[\.\.\.\]|\[…\]|Ess[ae]s?\b|Est[ae]s?\b|Isso\b|Isto\b|Por isso\b|Assim\b|Daí\b|Nesse\b|Nessa\b|Neste\b|Nesta\b|Tal\b|Tais\b|Dessa\b|Desse\b|Desta\b|Deste\b|Ele\b|Ela\b|Eles\b|Elas\b|Portanto\b|Logo\b|Contudo\b|Porém\b|Entretanto\b|Todavia\b|Além disso\b|Por outro lado\b|Com isso\b|Aqui\b|Ali\b|O mesmo\b|A mesma\b|Também\b|Mais\b|Por sua vez\b|Em seguida\b|Só então\b|Fixad[oa]\b|A partir dessa\b|Sob essa\b|Nessa\b)")
 PROPRIO_TEXTO = re.compile(r"\b(esta tese|presente tese|nesta tese|para esta tese|a tese|presente trabalho|neste trabalho|este trabalho|presente pesquisa|esta pesquisa|nesta pesquisa|presente investigação|esta investigação|nesta seção|esta seção|presente seção|seção seguinte|subseção|neste capítulo|este capítulo|capítulo \d|seção \d|[Aa] (primeira|segunda|terceira|quarta|quinta|sexta|sétima|oitava) seção|presente sistematização|sistematização|anteriormente|acima(?! d[oa]s?\b)|adiante|a seguir|como visto|como se viu|até aqui|passo seguinte|ora denominad\w+|doravante|mobilizad\w+|o que se afirma|sustenta-se|propõe-se|defende-se|adota-se|em chave|nessa chave|sob essa chave|nesse registro|nesse ponto|\d\.\d\.\d)\b")
+TESE_NA_PROSA = re.compile(r"\b[Tt]eses?\b")
 
 
 class No:
@@ -290,6 +291,13 @@ def relatorio(paginas, estrito=False):
     print(f"  citações distintas {len(cit)}, fora do critério {ruim_cit} {dict(motivos)}")
     print(f"  citações em mais de {MAX_PAGINAS_CITACAO} páginas  {len(rep)}")
     falhas += len(ruins) + len(so) + sum(1 for p in dou if p["seq"] > MAX_SEQUENCIA) + ruim_cit + len(rep) + sum(1 for p in dou if p["ltese"] > MAX_LINKS_TESE)
+    # Desde 09/11/2026, por ordem do autor, a prosa do curso afirma a doutrina sem atribuí-la à tese.
+    tese = [(p["u"], b["texto"][:90]) for p in dou if p["u"].startswith("curso/")
+            for b in p["blocos"] if b["voz"] in ("site", "titulo") and TESE_NA_PROSA.search(b["texto"])]
+    print(f"  tese na prosa do curso  {len(tese)}")
+    for e in tese[:15]:
+        print("   ", e)
+    falhas += len(tese)
 
     print("\n# Ciência")
     cie = [p for p in paginas if p["modo"] == 2 and fora_autor(p)]
