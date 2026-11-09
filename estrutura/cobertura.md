@@ -49,7 +49,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.1 | Arquitetura de escolha e dominação informacional | 334 a 347 | 10 | 1 | Fundamentos (Seções do capítulo 4) |
 | 4.2.2 | Poder econômico privado e ordem constitucional | 347 a 351 | 5 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.2.3 | Psicopolítica, autoexploração e cativeiro identitário | 351 a 363 | 12 | 0 | Fundamentos (Seções do capítulo 4) |
-| 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 20 | 7 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
+| 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 21 | 7 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 8 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
 | 5 | Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |

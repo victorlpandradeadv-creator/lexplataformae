@@ -184,3 +184,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - p. 213. A escassez corrosiva é definida pelo que se perde "de modo deliberado". O advérbio pode ser lido como exigência de intenção, e a prosa conserva o termo.
 - p. 557 e 562. O curso diz que o art. 18 do CDC não exige inutilidade total sem âncora própria, porque o trecho da p. 557 traz chamada de nota no meio da frase.
 - p. 434. O curso suaviza o "plenamente pertinente" do marketplace B2B para "pode alcançar o vendedor", com a condição do art. 29 explícita.
+
+## Segunda leitura e leitor leigo simulado dos 24 problemas, 09/11/2026
+- 25 achados corrigidos, 9 sem lastro, 3 modais e 13 pontos em que o leigo travaria. Notas de clareza de 3 a 4,5 antes e de 4 a 4,5 depois.
+- crianca (p. 544-547). Os pais vão perguntar se dá para pedir de volta o que o filho gastou. A tese não responde, e a página também não.
+- jogo-encerrado (p. 796-797). O caso da empresa que quebra termina em aberto, porque a tese o deixa como pergunta.
+- rede-social e vendo-na-plataforma (p. 780). As páginas dizem que nem toda relação mediada por tecnologia atrai a lei do consumidor, mas não dizem como o leitor sabe se o caso dele entra, sobretudo na rede gratuita.
+- A explicação do STJ como o tribunal que dá a palavra final sobre a lei do consumidor é glosa do site, sem página na tese.
+- moeda (p. 614). A página trata o saldo de moeda como algo já adquirido para a cláusula de preços, com "pode ajudar".
