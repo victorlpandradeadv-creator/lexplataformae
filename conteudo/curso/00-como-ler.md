@@ -1,6 +1,6 @@
 # Como ler este curso
 
-abertura: O consumo digital contínuo põe diante do jurista um conflito que a gramática do vício e do acidente alcança mal, porque a perda costuma chegar como normalidade técnica, e não como evento. Este capítulo mostra o problema e a hipótese que organizam o curso, o recorte normativo em que ele opera, por que um jogo serve de laboratório, que peso tem cada tipo de prova e como o restante do curso se divide.
+abertura: O consumo digital contínuo põe diante do jurista um conflito que a gramática do vício e do acidente alcança mal, porque a perda costuma chegar como normalidade técnica, e não como evento. Em exame estão o problema e a hipótese que organizam o curso, o recorte normativo em que ele opera, por que um jogo serve de laboratório, que peso tem cada tipo de prova e como o restante do curso se divide.
 secoes: 1, 2, 2.1, 2.2, 2.3, 2.4, 2.4.1, 2.4.2, 2.4.3, 2.5, 2.7
 
 ## Que conflito o curso ensina a enxergar?

@@ -1,6 +1,6 @@
 # A lei da plataforma
 
-abertura: A lei da plataforma é a ordenação privada pela qual a plataforma cria regras, as converte em arquitetura e as executa por sanções que alcançam a posição de fruição do consumidor, sem ser lei estatal nem simples contrato. Este capítulo mostra como essa ordem se forma e pune, quem é o consumidor submetido a ela e onde o poder privado de plataforma encontra limite no Direito.
+abertura: A lei da plataforma é a ordenação privada pela qual a plataforma cria regras, as converte em arquitetura e as executa por sanções que alcançam a posição de fruição do consumidor, sem ser lei estatal nem simples contrato. Em exame estão como essa ordem se forma e pune, quem é o consumidor submetido a ela e onde o poder privado de plataforma encontra limite no Direito.
 secoes: 4.2, 4.2.1, 4.2.4, 4.2.5, 7.1.4
 
 ## Por que o contrato não descreve o poder que a plataforma exerce?

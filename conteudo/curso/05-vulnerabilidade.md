@@ -1,6 +1,6 @@
 # A vulnerabilidade semiótica
 
-abertura: A vulnerabilidade semiótica é a forma que a vulnerabilidade fática do consumidor assume quando a plataforma controla os signos, as métricas, a visibilidade e os registros pelos quais ele entende o que adquiriu, percebe o que perdeu e tenta provar a perda. Este capítulo mostra por que o consentimento formalmente informado não basta nesses ambientes, como a categoria se encaixa no art. 4º, I, do CDC sem criar vulnerabilidade nova e o que o jurista precisa demonstrar para que ela opere num caso concreto.
+abertura: A vulnerabilidade semiótica é a forma que a vulnerabilidade fática do consumidor assume quando a plataforma controla os signos, as métricas, a visibilidade e os registros pelos quais ele entende o que adquiriu, percebe o que perdeu e tenta provar a perda. Em exame estão por que o consentimento formalmente informado não basta nesses ambientes, como a categoria se encaixa no art. 4º, I, do CDC sem criar vulnerabilidade nova e o que o jurista precisa demonstrar para que ela opere num caso concreto.
 secoes: 4, 4.1, 4.1.1, 4.1.5, 4.2.3, 4.2.6, 5.1.1, 6, 6.2.4, 6.2.4.1, 6.2.4.1.1, 6.2.4.2, 6.2.4.4, 6.2.4.5, 7.1.1.2
 
 ## Por que a informação disponível não protege o consumidor de plataforma?

@@ -1,6 +1,6 @@
 # A equivalência de valor funcional
 
-abertura: A equivalência de valor funcional é o critério que julga se a alteração de um Objeto Imaterial de Consumo preservou, em termos substanciais, aquilo que justificou a aquisição. Este capítulo mostra como o teste se aplica, o que muda com o art. 51, XIII, do CDC, quando a aparência de um item entra na comparação e como o critério leva à recomposição.
+abertura: A equivalência de valor funcional é o critério que julga se a alteração de um Objeto Imaterial de Consumo preservou, em termos substanciais, aquilo que justificou a aquisição. Em exame estão como o teste se aplica, o que muda com o art. 51, XIII, do CDC, quando a aparência de um item entra na comparação e como o critério leva à recomposição.
 secoes: 5.1.5, 6.3.2, 7.1.1.6
 
 ## Se a plataforma pode mudar, o que o Direito controla na mudança?

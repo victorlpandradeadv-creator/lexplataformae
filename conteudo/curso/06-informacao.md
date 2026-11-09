@@ -1,6 +1,6 @@
 # Informação, publicidade e antecipação
 
-abertura: Em plataformas, a decisão de comprar se forma num ambiente em que informação, publicidade, calendário e sinais de prestígio operam juntos, e o valor do que se compra depende de critérios que o próprio fornecedor administra. Este capítulo mostra por que o dever de informar se lê como adequação verificável e a oferta como gestão de sentido controlável, por que a antecipação hipercuratorial entra nesse controle e o que responder à defesa de que tudo estava nos termos que o consumidor aceitou.
+abertura: Em plataformas, a decisão de comprar se forma num ambiente em que informação, publicidade, calendário e sinais de prestígio operam juntos, e o valor do que se compra depende de critérios que o próprio fornecedor administra. Em exame estão por que o dever de informar se lê como adequação verificável e a oferta como gestão de sentido controlável, por que a antecipação hipercuratorial entra nesse controle e o que responder à defesa de que tudo estava nos termos que o consumidor aceitou.
 secoes: 4.1.2, 4.1.3, 4.1.4, 6.2.5, 7.1.1.3, 7.1.1.4
 
 ## Por que examinar a cláusula, o aviso e o anúncio em separado não basta?

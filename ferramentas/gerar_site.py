@@ -580,8 +580,8 @@ def curso_paragrafo(par, prefixo):
     trechos = par["ancoras"] + par["impacto"]
     def citas(lista):
         return "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in lista)
-    fonte = ('<details class="fonte-par em-modo modo-1"><summary title="Os trechos da tese que sustentam este parágrafo">'
-             '<span aria-hidden="true">§</span><span class="so-leitor">Os trechos da tese que sustentam este parágrafo</span></summary>'
+    fonte = ('<details class="fonte-par em-modo modo-1"><summary title="Os trechos que sustentam este parágrafo">'
+             '<span aria-hidden="true">§</span><span class="so-leitor">Os trechos que sustentam este parágrafo</span></summary>'
              + citas(par["ancoras"]) + "</details>") if par["ancoras"] else ""
     impacto = "".join(f'<blockquote class="citacao impacto"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in par["impacto"])
     return f'<div class="par-curso"><p>{esc(par["texto"])}</p>{fonte}</div>' + impacto + expansao(par["ancoras"], prefixo, "ciencia")

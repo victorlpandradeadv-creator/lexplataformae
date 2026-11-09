@@ -1,6 +1,6 @@
 # O Objeto Imaterial de Consumo
 
-abertura: O Objeto Imaterial de Consumo é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Este capítulo mostra por que essa qualificação é necessária, como ela se demonstra em juízo e onde ela para.
+abertura: O Objeto Imaterial de Consumo é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Em exame estão por que essa qualificação é necessária, como ela se demonstra em juízo e onde ela para.
 secoes: 5, 5.1, 5.1.2, 5.1.2.1, 5.1.2.2, 5.1.2.3, 5.1.2.4, 5.2, 5.2.1, 5.2.2, 5.2.4, 6.2, 6.2.1, 6.2.1.1, 6.2.2, 6.2.3, 7, 7.1, 7.1.1, 7.1.1.1, 7.1.2
 
 ## Qual problema a categoria resolve?

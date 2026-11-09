@@ -1,6 +1,6 @@
 # A teleologia abusiva e o ilícito de arquitetura
 
-abertura: A teleologia abusiva é a categoria de ilícito de arquitetura que permite imputar ao fornecedor um programa de exploração inscrito no desenho do serviço, quando nenhuma cláusula e nenhum episódio isolado bastam para mostrar a lesão. Este capítulo fixa o teste de cinco requisitos cumulativos, separa o negócio agressivo da finalidade exploratória e mostra por quais portas do CDC a imputação entra e que respostas ela abre.
+abertura: A teleologia abusiva é a categoria de ilícito de arquitetura que permite imputar ao fornecedor um programa de exploração inscrito no desenho do serviço, quando nenhuma cláusula e nenhum episódio isolado bastam para mostrar a lesão. Em exame estão o teste de cinco requisitos cumulativos, a separação entre o negócio agressivo e a finalidade exploratória, as portas do CDC por onde a imputação entra e as respostas que ela abre.
 secoes: 5.1.3, 6.4, 6.4.1, 6.4.2, 6.4.3, 7.1.1.7, 7.1.3
 
 ## Que lesão escapa quando só se olham a cláusula e o episódio?

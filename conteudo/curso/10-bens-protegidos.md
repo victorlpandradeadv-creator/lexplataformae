@@ -1,6 +1,6 @@
 # Os bens protegidos
 
-abertura: Os bens protegidos são aquilo que a lesão atinge quando a plataforma rebaixa, sanciona ou apaga a posição de fruição de um Objeto Imaterial de Consumo, inclusive quando o acesso formal continua aberto, e se chamam integridade pessoal, identidade simbólica e continuidade biográfica. Este capítulo mostra como esses bens se definem por critérios públicos, como se ligam à personalidade civil, por que a perda de um histórico ou de um título pode ir além da perda de um item e onde a tutela deles para.
+abertura: Os bens protegidos são aquilo que a lesão atinge quando a plataforma rebaixa, sanciona ou apaga a posição de fruição de um Objeto Imaterial de Consumo, inclusive quando o acesso formal continua aberto, e se chamam integridade pessoal, identidade simbólica e continuidade biográfica. Em exame estão como esses bens se definem por critérios públicos, como se ligam à personalidade civil, por que a perda de um histórico ou de um título pode ir além da perda de um item e onde a tutela deles para.
 secoes: 5.1.4, 6.1.3
 
 ## O que se perde quando o acesso continua aberto?

@@ -1,6 +1,6 @@
 # A ordem constitucional e o marco setorial
 
-abertura: A governança de plataforma é exercício de poder econômico privado sobre posições de fruição continuada, e o jurista precisa saber com que fundamento a ordem jurídica o limita sem tratar a empresa como Estado nem reduzir o conflito ao contrato. Este capítulo mostra como a Constituição econômica, a eficácia horizontal dos direitos fundamentais e o CDC formam esse fundamento, como o caso Vanguard o põe à prova no computador do consumidor e por que o Marco Legal dos Jogos Eletrônicos e o Estatuto Digital da Criança e do Adolescente ajudam a ver o setor sem resolver sozinhos o conflito de fruição.
+abertura: A governança de plataforma é exercício de poder econômico privado sobre posições de fruição continuada, e o jurista precisa saber com que fundamento a ordem jurídica o limita sem tratar a empresa como Estado nem reduzir o conflito ao contrato. Em exame estão como a Constituição econômica, a eficácia horizontal dos direitos fundamentais e o CDC formam esse fundamento, como o caso Vanguard o põe à prova no computador do consumidor e por que o Marco Legal dos Jogos Eletrônicos e o Estatuto Digital da Criança e do Adolescente ajudam a ver o setor sem resolver sozinhos o conflito de fruição.
 secoes: 4.2.2, 5.2.3, 6.1, 6.1.1, 6.1.2, 6.1.2.1, 6.1.4
 
 ## Que poder a ordem jurídica precisa enxergar quando a plataforma governa a fruição?

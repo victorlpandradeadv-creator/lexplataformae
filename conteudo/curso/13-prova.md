@@ -1,6 +1,6 @@
 # A prova
 
-abertura: No consumo governado por plataforma, o fato controvertido nasce e permanece dentro da infraestrutura do fornecedor, de modo que quem controla registros, versões e vestígios de sanção controla também as condições de reconstrução do que aconteceu. Este capítulo mostra como a vulnerabilidade semiótica se converte em alegação, prova e pedido, quais instrumentos do CDC e do CPC permitem pedir o registro certo e como se distribui o ônus quando a prova está sob controle técnico do fornecedor.
+abertura: No consumo governado por plataforma, o fato controvertido nasce e permanece dentro da infraestrutura do fornecedor, de modo que quem controla registros, versões e vestígios de sanção controla também as condições de reconstrução do que aconteceu. Em exame estão como a vulnerabilidade semiótica se converte em alegação, prova e pedido, quais instrumentos do CDC e do CPC permitem pedir o registro certo e como se distribui o ônus quando a prova está sob controle técnico do fornecedor.
 secoes: 6.2.4.3, 6.2.4.3.1, 6.3.3, 7.1.1.8
 
 ## Por que a prova faz parte do próprio vínculo?
