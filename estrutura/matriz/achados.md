@@ -79,3 +79,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Auditabilidade. Elementos publicamente recuperáveis (p. 498-499) são disciplina de método, e o curso diz que podem orientar o advogado. A lista inclui critérios internos de sanção, o que soa contraditório.
 - Auditabilidade. As listas de conteúdo mínimo das p. 643 e 475-476 não coincidem, e o curso as lê em conjunto. Modulações ordinárias (p. 727) entre os itens auditáveis, contra a p. 642. O curso diz que a menção não dispensa o gatilho.
 - Auditabilidade. A falta dela integra o ilícito (p. 636), condicionada à intensidade (p. 646), violação do parâmetro (p. 745). O curso mantém as três, sem automatismo.
+
+## Leituras do capítulo sobre informação, publicidade e antecipação, 08/11/2026
+- Antecipação hipercuratorial. A p. 631, com a recusa dos dois erros, entra como o limite que a tese traça. O curso não inventa critério negativo e não afirma que ele falta.
+- Omissão relevante. Na p. 631, "o essencial é deliberadamente deslocado". O advérbio pode ser lido como exigência de intenção, em tensão com o cuidado fixado para a teleologia abusiva.
+- Luxo em mercados tradicionais (p. 301). A ligação com a oferta é leitura do escritor.
+- Notas 368 e 369 (p. 329-330) entram como indício. A nota 369 fala em inexistência de um dever claro de equivalência substancial, o que parece colidir com o parâmetro da própria tese. O curso não usa esse trecho.
+- A aproximação entre a transparência performática (p. 620) e a opacidade funcional produzida por desenho (p. 722-723) é leitura do escritor.
+- A nota 333 (p. 299), que define o gacha, termina sem ponto final no PDF.
