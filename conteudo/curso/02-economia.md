@@ -1,6 +1,6 @@
 # Como a plataforma extrai valor
 
-abertura: O consumo em plataforma tende a se organizar por um modelo de negócio que extrai valor do controle do acesso, da escassez produzida e da presença do próprio consumidor, e esse modelo explica condutas do fornecedor que a leitura da cláusula isolada não alcança. A leitura desse modelo com Varoufakis, Dowbor e Marx mostra o que dela serve ao jurista como condição de imputação e onde ela para.
+abertura: O consumo em plataforma tende a se organizar por um modelo de negócio que extrai valor do controle do acesso, da escassez produzida e da presença do próprio consumidor, e esse modelo explica condutas do fornecedor que a leitura da cláusula isolada não alcança. Lido com Varoufakis, Dowbor e Marx, esse modelo oferece ao jurista condições de imputação, e não uma condenação do mercado.
 secoes: 3.2, 3.2.1, 3.2.2, 3.2.3, 3.2.5, 3.2.6
 
 ## Por que o jurista do consumo precisa ler o modelo de negócio?
@@ -328,7 +328,7 @@ Daí a afirmação que mais interessa ao litígio, a de que mudanças unilaterai
 >! Mudanças unilaterais que reconfiguram critérios de exibição, circulação, raridade e gramáticas de comparação não são “cosmética” neutra, pois incidem sobre o núcleo semiótico que compõe a utilidade social do OIC e estrutura a decisão do consumidor. (p. 258)
 > Resta avançar, com maior granularidade, para as operações concretas de interface, curadoria e circulação pelas quais a plataforma produz sentido e disciplina de presença, e para a qualificação jurídica desses arranjos quando deixam de ser gestão ordinária do serviço e passam a configurar teleologia abusiva, por reordenarem promessa, fruição e preservação mínima do valor legitimamente esperado no tempo. (p. 258-259)
 
-## Quais objeções o fornecedor pode levantar?
+## O consumidor não pode simplesmente sair?
 
 A primeira objeção é a de que o consumidor pode sair quando quiser. A resposta, com Varoufakis, é que o monopólio de demanda não precisa proibir concorrentes e basta tornar a migração onerosa, de modo que a liberdade formal de sair existe e a material fica severamente encarecida. Sair significa abandonar histórico, reputação, itens, progressão e redes de sociabilidade, e quanto mais o objeto é fruição governada, mais a concorrência vira disputa por aprisionamento, e não por excelência do bem.
 
@@ -346,9 +346,9 @@ A terceira é a de que a mudança seria simples evolução do serviço e a frust
 > Ficar fora do alcance desse sistema não é um desconforto subjetivo. É risco de silenciamento prático, redução de voz e de opções futuras, com impacto direto na própria racionalidade da escolha (Douglas; Isherwood, 1996, p. 63-65). (p. 251)
 > Quando o redesenho do objeto imaterial ocorre sem transparência suficiente para que o consumidor compreenda, ao menos em linhas materiais, a correspondência entre o que é apresentado na oferta e o que é efetivamente entregue, a alteração deixa de ser percebida como simples ajuste e passa a operar como governo opacificante da fruição. (p. 203)
 
-## Onde a leitura econômica para?
+## Todo produto digital depende de governança?
 
-A leitura econômica tem limites. Ela não afirma que todo produto digital dependa de governança contínua, e mesmo do jogo diz que ele tende a exigi-la, por ser experiência audiovisual complexa, composta de múltiplos bens intelectuais e serviços correlatos. Também não nega a persistência da base produtiva, e o que retira de Dowbor é a subordinação dessa base ao comando informacional e financeiro.
+A leitura econômica não afirma que todo produto digital dependa de governança contínua, e mesmo do jogo diz que ele tende a exigi-la, por ser experiência audiovisual complexa, composta de múltiplos bens intelectuais e serviços correlatos. Também não nega a persistência da base produtiva, e o que retira de Dowbor é a subordinação dessa base ao comando informacional e financeiro.
 
 > O próprio objeto entregue pela indústria do entretenimento interativo já tende a exigir essa governança contínua, uma vez que o game se configura como experiência audiovisual complexa e como composto organizado de múltiplos bens intelectuais e serviços correlatos, explorados por meio de uma rede contratual igualmente complexa. (p. 156)
 > O ponto decisivo para a presente análise não é negar a persistência da base produtiva, mas evidenciar sua subordinação estrutural ao comando informacional-financeiro, que passa a definir quem acessa o mercado, por quais mediações e sob quais condições de sujeição (Dowbor, 2024, p. 3; p. 27). (p. 188)

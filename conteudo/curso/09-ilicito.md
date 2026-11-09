@@ -1,6 +1,6 @@
 # A teleologia abusiva e o ilícito de arquitetura
 
-abertura: A teleologia abusiva é a categoria de ilícito de arquitetura que permite imputar ao fornecedor um programa de exploração inscrito no desenho do serviço, quando nenhuma cláusula e nenhum episódio isolado bastam para mostrar a lesão. Em exame estão o teste de cinco requisitos cumulativos, a separação entre o negócio agressivo e a finalidade exploratória, as portas do CDC por onde a imputação entra e as respostas que ela abre.
+abertura: A teleologia abusiva é a categoria de ilícito de arquitetura que permite imputar ao fornecedor um programa de exploração inscrito no desenho do serviço, quando nenhuma cláusula e nenhum episódio isolado bastam para mostrar a lesão. Ela opera por cinco requisitos cumulativos, separa o negócio agressivo da finalidade exploratória e entra no CDC por portas que a lei já abriu.
 secoes: 5.1.3, 6.4, 6.4.1, 6.4.2, 6.4.3, 7.1.1.7, 7.1.3
 
 ## Que lesão escapa quando só se olham a cláusula e o episódio?
@@ -291,7 +291,7 @@ A sétima dá preferência, sempre que possível, à recomposição funcional e 
 >! A complexidade do digital não elimina o Direito. (p. 751)
 > Separar artificialmente esses planos produz decisões formalmente organizadas, mas materialmente cegas. (p. 751-752)
 
-## Quais objeções o fornecedor costuma levantar?
+## O contrato não autoriza a mudança?
 
 A primeira é a de que o contrato autoriza a mudança. É verdade que os termos normalizam a mutabilidade e estabilizam o cenário, ao tratar o conteúdo como licença revogável e admitir alterações, mas a teleologia abusiva não se reduz ao contrato, e a elasticidade contratual não resolve o problema quando a oferta incorporou o atributo ao núcleo do bem. A autonomia privada, ademais, não autoriza organizar a fruição em bases estruturalmente incompatíveis com boa-fé, equilíbrio e controlabilidade. A segunda é a de que nada foi falso, o texto não é escandaloso e o serviço continua disponível. A resposta é que o CDC não exige falsidade literal nem texto escandaloso para reagir.
 

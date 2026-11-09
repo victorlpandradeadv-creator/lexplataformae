@@ -1,6 +1,6 @@
 # A vulnerabilidade semiótica
 
-abertura: A vulnerabilidade semiótica é a forma que a vulnerabilidade fática do consumidor assume quando a plataforma controla os signos, as métricas, a visibilidade e os registros pelos quais ele entende o que adquiriu, percebe o que perdeu e tenta provar a perda. Em exame estão por que o consentimento formalmente informado não basta nesses ambientes, como a categoria se encaixa no art. 4º, I, do CDC sem criar vulnerabilidade nova e o que o jurista precisa demonstrar para que ela opere num caso concreto.
+abertura: A vulnerabilidade semiótica é a forma que a vulnerabilidade fática do consumidor assume quando a plataforma controla os signos, as métricas, a visibilidade e os registros pelos quais ele entende o que adquiriu, percebe o que perdeu e tenta provar a perda. Nesses ambientes o consentimento formalmente informado não basta, e a categoria se encaixa no art. 4º, I, do CDC sem criar vulnerabilidade nova.
 secoes: 4, 4.1, 4.1.1, 4.1.5, 4.2.3, 4.2.6, 5.1.1, 6, 6.2.4, 6.2.4.1, 6.2.4.1.1, 6.2.4.2, 6.2.4.4, 6.2.4.5, 7.1.1.2
 
 ## Por que a informação disponível não protege o consumidor de plataforma?
@@ -347,7 +347,7 @@ O material dessa demonstração é concreto. A prova da adequação informativa 
 > Em OICs, a prova da adequação informativa depende de documentação mínima do fluxo de compra, das telas de confirmação, dos avisos de alteração, da forma de apresentação de equivalências e da localização visual das limitações relevantes. Não basta que a plataforma alegue genericamente que informou. Ela precisa estar em condições de demonstrar como informou, quando informou e com que destaque informou. (p. 623)
 > Quando a prova desse regime informacional está concentrada no fornecedor, a distribuição do ônus não pode permanecer cega a essa assimetria. (p. 623)
 
-## Quais objeções a categoria enfrenta?
+## Isso não é psicologizar o consumidor?
 
 A primeira é a de psicologização. Mas a vulnerabilidade semiótica não descreve menor discernimento individual nem suscetibilidade subjetiva, e sim a forma objetiva pela qual o ambiente organiza linguagem, visibilidade, comparação e prova, e não é juízo moral sobre quem não leu nem explicação por impulso ou vício. A objeção vizinha, de moralismo contra o simbólico ou contra a publicidade, tem resposta parecida, porque o problema não é desejar ou atribuir valor simbólico ao objeto, e sim a expectativa organizada para uma imagem que o regime de fornecimento não sustenta.
 
@@ -368,7 +368,7 @@ A objeção de que o fornecedor informou o risco nos termos de uso esbarra na ob
 > O parâmetro também tem função delimitadora. Ele evita que toda dificuldade vivida em ambiente digital seja automaticamente convertida em vulnerabilidade juridicamente qualificada. (p. 721)
 > E a abusividade pode, quando necessário, ser reconstruída no nível da própria arquitetura do fornecimento. É esse ganho operacional, e não uma disputa de etiquetas, que justifica a substituição terminológica aqui adotada. (p. 601)
 
-## Onde a categoria para?
+## Toda mudança vira perda?
 
 A normalidade da mudança é premissa da categoria, e não objeção a ela. A categoria não converte toda alteração de catálogo ou de visibilidade em perda, e a pergunta que abre é a das condições em que uma mudança pode ser tratada como compatível com a promessa e com a preservação do valor relevante. Pela mesma razão, o nerf não se presume ilícito, e se examina como rebaixamento cuja compatibilidade com a promessa fica difícil de aferir quando o próprio critério do que vale como entrega permanece sob administração unilateral.
 

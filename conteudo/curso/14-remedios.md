@@ -1,6 +1,6 @@
 # Os remédios
 
-abertura: Os remédios encerram o exame de um conflito sobre Objeto Imaterial de Consumo, porque respondem ao que fazer com a lesão depois de qualificado o objeto, reconstruída a mudança, aferida a equivalência e organizada a prova. A primazia cabe à recomposição funcional e à correção de regime, e o que segue mostra por quê, quais são os remédios e em que ordem, como a indenização se recoloca e o que o regime, ao final, entrega ao jurista.
+abertura: Os remédios encerram o exame de um conflito sobre Objeto Imaterial de Consumo, porque respondem ao que fazer com a lesão depois de qualificado o objeto, reconstruída a mudança, aferida a equivalência e organizada a prova. A primazia cabe à recomposição funcional e à correção de regime, e a indenização se recoloca depois delas, não no lugar delas.
 secoes: 7.1.1.10, 7.3, 8
 
 ## Por que a condenação em dinheiro costuma falhar diante da fruição governada?
@@ -191,7 +191,7 @@ A mesma passagem traça o limite. O que emerge dos modelos não é a conclusão 
 > O percurso tipológico mostra que a controlabilidade do OIC não depende de congelar inovação, de impor transparência absoluta ou de transformar toda plataforma em ente paraestatal. Depende de algo mais sóbrio e mais defensável. Depende de reconduzir a governança privada do ambiente a padrões verificáveis de inteligibilidade, prova, equivalência e correção. (p. 788)
 > É precisamente contra essa naturalização da precariedade que o regime se afirma. (p. 789)
 
-## Quais objeções o fornecedor costuma levantar contra a recomposição?
+## A recomposição não é impraticável num ambiente técnico?
 
 A primeira é a da complexidade, segundo a qual a tutela específica seria impraticável num ambiente técnico e continuamente mutável. Trata-se de redução indevida, porque a arquitetura do ambiente não pode servir de desculpa automática para a inferiorização dos remédios. A nona diretriz reforça o ponto ao lembrar que o controle não exige que o julgador se transforme em engenheiro do sistema.
 
@@ -212,7 +212,7 @@ A terceira é a de que a indenização já repara o consumidor. Mas a primazia d
 > A primazia da recomposição funcional e da correção de regime impede que a tutela consumerista se limite a precificar danos enquanto preserva intacta a máquina que os produz. Transformar abusos estruturais em meras despesas operacionais é, na prática, neutralizar o Direito pela via contábil. (p. 742)
 > O direito de explorar, encerrar ou reorganizar uma atividade não se confunde com um suposto direito de aniquilar, sem deveres de transição, preservação ou transferência, a fruição funcional já estabilizada na esfera do consumidor. (p. 796)
 
-## Onde a primazia da recomposição para?
+## Dá para exigir o passado de volta a qualquer custo?
 
 A primazia vale quando a recomposição é técnica e juridicamente viável, e não autoriza pedir a reprodução literal do passado a qualquer custo, o congelamento do serviço ou a submissão das decisões técnicas à vontade individual. Quando a recomposição plena não é viável, a própria lista dos remédios prevê a compensação proporcional. O que se recusa é o automatismo, isto é, a transformação do dinheiro em resposta preferencial em qualquer hipótese, como se toda lesão ao OIC pudesse ser traduzida em cifra sem atenção à estrutura da fruição comprometida.
 

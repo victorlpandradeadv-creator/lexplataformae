@@ -1,6 +1,6 @@
 # O Objeto Imaterial de Consumo
 
-abertura: O Objeto Imaterial de Consumo é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Em exame estão por que essa qualificação é necessária, como ela se demonstra em juízo e onde ela para.
+abertura: O Objeto Imaterial de Consumo é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Sem essa qualificação, o caso parece não ter objeto, e com ela o jurista sabe o que demonstrar em juízo.
 secoes: 5, 5.1, 5.1.2, 5.1.2.1, 5.1.2.2, 5.1.2.3, 5.1.2.4, 5.2, 5.2.1, 5.2.2, 5.2.4, 6.2, 6.2.1, 6.2.1.1, 6.2.2, 6.2.3, 7, 7.1, 7.1.1, 7.1.1.1, 7.1.2
 
 ## Qual problema a categoria resolve?
@@ -160,7 +160,7 @@ Nos remédios, a revisão não exige imprevisibilidade, e o consumidor pode pedi
 > O consumidor pode exigir manutenção do vínculo com correção da prestação, modificação da cláusula lesiva, recomposição funcional da utilidade ou, em último caso, rescisão com os efeitos cabíveis. (p. 563)
 >! A prestação contínua não reduz a tutela; só muda a forma de medir o dano e de escolher o remédio. (p. 563)
 
-## Quais objeções o fornecedor costuma levantar?
+## Não é só um serviço, ou só uma licença?
 
 A primeira é a de que só se presta um serviço ou de que só se concedeu uma licença. A resposta é que essas fórmulas não bastam para naturalizar a precariedade do vínculo, e que a recondução ao produto imaterial não nega a prestação, que aparece como modo de sustentar o objeto. Sem o conceito, a plataforma sempre venceria por dicionário privado.
 

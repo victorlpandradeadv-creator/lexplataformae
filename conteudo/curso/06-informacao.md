@@ -1,6 +1,6 @@
 # Informação, publicidade e antecipação
 
-abertura: Em plataformas, a decisão de comprar se forma num ambiente em que informação, publicidade, calendário e sinais de prestígio operam juntos, e o valor do que se compra depende de critérios que o próprio fornecedor administra. Em exame estão por que o dever de informar se lê como adequação verificável e a oferta como gestão de sentido controlável, por que a antecipação hipercuratorial entra nesse controle e o que responder à defesa de que tudo estava nos termos que o consumidor aceitou.
+abertura: Em plataformas, a decisão de comprar se forma num ambiente em que informação, publicidade, calendário e sinais de prestígio operam juntos, e o valor do que se compra depende de critérios que o próprio fornecedor administra. Por isso o dever de informar se lê como adequação verificável, a oferta como gestão de sentido controlável, e a defesa de que tudo estava nos termos aceitos perde força.
 secoes: 4.1.2, 4.1.3, 4.1.4, 6.2.5, 7.1.1.3, 7.1.1.4
 
 ## Por que examinar a cláusula, o aviso e o anúncio em separado não basta?
@@ -255,7 +255,7 @@ Na publicidade, o art. 38 do CDC atribui o ônus da prova da veracidade e corre�
 > Se a plataforma promete uma experiência curada de valor, raridade, desempenho ou vantagem, e depois a reequilibra ou a rebaixa sob critérios opacos, a frustração não é mero dissabor. Pode ser inadequação relevante da própria fruição governada. (p. 634)
 > “Art. 35. Se o fornecedor de produtos ou serviços recusar cumprimento à oferta, apresentação ou publicidade, o consumidor poderá, alternativamente e à sua livre escolha: I - exigir o cumprimento forçado da obrigação […]; II - aceitar outro produto ou prestação de serviço equivalente; III - rescindir o contrato […], e a perdas e danos.” (Brasil, [2022]). (p. 540)
 
-## Onde o controle para?
+## A publicidade ainda pode persuadir?
 
 O primeiro limite é o da persuasão. A atividade econômica tem função persuasiva própria, e o controle da oferta não funciona como repressão abstrata à publicidade, mas como controle da promessa em ambientes de fruição governada. O segundo é o da relevância. A adequação informacional se afere pelos elementos que condicionam de modo relevante a formação da expectativa, a preservação da fruição e a possibilidade de contestação, e há oferta materialmente controlável onde a comunicação antecedente modelar de modo relevante a leitura do objeto, a percepção do valor e a adesão. O terceiro é o do simbólico. A contribuição do simulacro não está em tratar o consumo como ilusão, e o problema não está em desejar, fantasiar ou atribuir valor simbólico ao objeto. O quarto é o das possibilidades. As consequências da antecipação vêm com modal, já que a ilicitude pode residir na articulação e a frustração pode ser inadequação relevante, de modo que um calendário, um evento ou um sorteio não se tornam abusivos só por existirem.
 

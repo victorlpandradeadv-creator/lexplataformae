@@ -1,6 +1,6 @@
 # Os bens protegidos
 
-abertura: Os bens protegidos são aquilo que a lesão atinge quando a plataforma rebaixa, sanciona ou apaga a posição de fruição de um Objeto Imaterial de Consumo, inclusive quando o acesso formal continua aberto, e se chamam integridade pessoal, identidade simbólica e continuidade biográfica. Em exame estão como esses bens se definem por critérios públicos, como se ligam à personalidade civil, por que a perda de um histórico ou de um título pode ir além da perda de um item e onde a tutela deles para.
+abertura: Os bens protegidos são aquilo que a lesão atinge quando a plataforma rebaixa, sanciona ou apaga a posição de fruição de um Objeto Imaterial de Consumo, inclusive quando o acesso formal continua aberto, e se chamam integridade pessoal, identidade simbólica e continuidade biográfica. Eles se definem por critérios públicos e se ligam à personalidade civil, e é por isso que a perda de um histórico ou de um título pode ir além da perda de um item.
 secoes: 5.1.4, 6.1.3
 
 ## O que se perde quando o acesso continua aberto?
@@ -203,7 +203,7 @@ A terceira recai sobre a governança. Quem administra acesso, permanência, visi
 > “Art. 6º As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios: [...] II - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;” (Brasil, [2026]a). (p. 542)
 > “Art. 46. Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados [...].” (Brasil, [2026]a). (p. 542)
 
-## Quais objeções o fornecedor costuma levantar?
+## Proteger trajetória não é proteger melindre?
 
 A primeira é a do sentimentalismo, segundo a qual tutelar trajetória e reputação seria proteger melindre. Mas a lesão se mede pelo atributo objetivamente atingido, e a identidade simbólica é posição pública, coletivamente verificável. A segunda é a de que histórico e registros seriam tema de dados, alheio ao consumo, mas a administração desses elementos integra o próprio regime de fruição e interfere na integridade informativa e biográfica do consumidor. A terceira é a da falta de titularidade plena. O art. 24, VII, da Lei de Direitos Autorais responde a ela, porque mostra que o ordenamento já admite deveres mínimos de acesso para preservar a memória de objeto imaterial sob controle de terceiro, sem fazer do consumidor um autor.
 
@@ -217,7 +217,7 @@ A quarta é a da inflação constitucional, que faria da plataforma um Estado. A
 > Sob as travas metodológicas já consolidadas, a técnica jurídica não suspende sua atuação diante da opacidade, pois organiza critérios para torná-la suportável sob vinculação normativa e pressão institucional por decisão, ampliando incertezas de modo orientado à ação (Ferraz Jr., 2003, [p. 87]). (p. 468)
 > Nessa chave, a absorção de insegurança justifica transformar perdas inicialmente difusas em recortes controláveis, pois o ato de decidir converte incompatibilidades indecidíveis em alternativas decidíveis, ainda que, em momento subsequente, gere novas incompatibilidades, por vezes mais complexas que as anteriores, sem que essa transformação seja confundida com promessa de harmonia (Ferraz Jr., 2003, [p. 312-313]). (p. 468)
 
-## Onde a tutela desses bens para?
+## Qualquer desconforto vira lesão?
 
 A delimitação das categorias impede que integridade pessoal, identidade simbólica, cativeiro simbólico, cativeiro identitário e cidadania digital virem rótulos expansivos, capazes de absorver qualquer desconforto das fricções ordinárias do mercado. Não se trata de elevar a experiência do consumidor a parâmetro psicológico nem de transformar frustrações triviais, preferências estéticas ou oscilações normais de serviço em matéria de tutela reforçada. Também não se trata de atribuir ilicitude à tecnologia como tal nem de substituir critérios dogmáticos por reprovação moral do modelo de negócio. A matriz de perdas, além disso, não pretende esgotar o fenômeno, e sim torná-lo decidível por critérios.
 

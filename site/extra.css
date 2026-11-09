@@ -819,3 +819,21 @@ ul.partes-curtas.lista-duas, ol.partes-curtas.lista-duas { display: block; colum
 .lista-duas li + li { margin-top: 0; }
 .lista-duas li { padding: 0.35rem 0; }
 .lista-duas li { break-inside: avoid; }
+
+/* A chave recolhe enquanto o leitor desce, para não cobrir o texto. Crítica de 09/11/2026. */
+.chave-mestra { transition: transform 0.25s ease, opacity 0.25s ease; }
+.chave-mestra.recolhida { transform: translateY(calc(100% + 2rem)); opacity: 0; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .chave-mestra { transition: none; } }
+
+/* As contagens mecânicas ficam fora da leitura. Crítica de 09/11/2026. */
+.vezes { display: none !important; }
+
+/* Texto corrido da Doutrina e caixa de citação, na estética dos portais jurídicos. Crítica do autor de 09/11/2026. */
+.par-curso > p { margin-block: 0 1.1em; }
+.caixa-citacao { margin: 1.6rem 0 1.8rem; padding: 1.1rem 1.4rem 1.2rem; background: color-mix(in srgb, var(--modo) 7%, var(--papel)); border-top: 3px solid var(--modo); border-radius: 0 0 4px 4px; }
+.caixa-citacao .citacao.impacto { margin: 0; padding: 0; border: 0; background: none; }
+.caixa-citacao .citacao.impacto p { font-family: var(--f-texto, Newsreader, serif); font-size: 1.22em; line-height: 1.45; font-style: italic; }
+@media (min-width: 1100px) {
+  .caixa-citacao { float: right; width: 44%; margin: 0.4rem 0 1.2rem 1.8rem; }
+  .bloco-curso::after { content: ""; display: table; clear: both; }
+}

@@ -291,7 +291,7 @@ def sem_citacao_repetida(corpo):
 
 # Rótulos de dado que se repetem item a item numa lista. O primeiro fica à vista e funciona como cabeçalho. Os demais ficam
 # só para leitor de tela. Revisão de rótulos de 05/11/2026.
-ROTULOS_DE_DADO = ("No site", "Cita", "Nos conceitos", "Nos parâmetros", "Bens protegidos", "Dispositivos", "Onde a tese o cita", "Conceitos que o trecho nomeia")
+ROTULOS_DE_DADO = ("No site", "Cita", "Nos conceitos", "Nos parâmetros", "Bens protegidos", "Dispositivos", "Onde aparece no texto integral", "Conceitos que o trecho nomeia")
 
 
 def rotulos_uma_vez(corpo):
@@ -413,15 +413,15 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   <header class="topo">
     <a class="topo-marca" href="{inicio}"><span class="topo-projeto">Projeto</span><span class="topo-nome">Lex Plataformae</span></a>
     {menu_html(prefixo)}
-    <a class="integral" href="{prefixo}tese/">Texto integral</a>
+    <a class="integral ciencia" href="{prefixo}tese/">Texto integral</a>
   </header>
   <div class="legenda-desnudo" role="note"><p>{esc(legenda)}</p><label for="arq-tudo"><input type="checkbox" id="arq-tudo"> Mostrar toda a arquitetura</label></div>
   <main>
 {corpo}
   </main>
   <footer class="rodape">
-    <div class="interno rodape-estudo">
-      <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. O código do site e o histórico de cada alteração são públicos <a href="{REPO}">no GitHub</a>. Todos os direitos reservados até a definição da licença do projeto.</p>
+    <div class="ciencia rodape-estudo">
+      <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>
     </div>
     {assinatura}
   </footer>
@@ -580,11 +580,10 @@ def curso_paragrafo(par, prefixo):
     trechos = par["ancoras"] + par["impacto"]
     def citas(lista):
         return "".join(f'<blockquote class="citacao"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in lista)
-    fonte = ('<details class="fonte-par em-modo modo-1"><summary title="Os trechos que sustentam este parágrafo">'
-             '<span aria-hidden="true">§</span><span class="so-leitor">Os trechos que sustentam este parágrafo</span></summary>'
-             + citas(par["ancoras"]) + "</details>") if par["ancoras"] else ""
-    impacto = "".join(f'<blockquote class="citacao impacto"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote>' for q in par["impacto"])
-    return f'<div class="par-curso"><p>{esc(par["texto"])}</p>{fonte}</div>' + impacto + expansao(par["ancoras"], prefixo, "ciencia")
+    # Na Doutrina o texto corre sem sinal ao lado de cada parágrafo. Os trechos que o sustentam ficam na Ciência,
+    # e a citação de impacto vira caixa de destaque, como nos portais jurídicos. Crítica do autor de 09/11/2026.
+    impacto = "".join(f'<aside class="caixa-citacao"><blockquote class="citacao impacto"><p>{esc(q["texto"])}{pg(q["ref"], prefixo, q["texto"])}</p></blockquote></aside>' for q in par["impacto"])
+    return f'<div class="par-curso"><p>{esc(par["texto"])}</p></div>' + impacto + expansao(par["ancoras"], prefixo, "ciencia")
 
 
 def irmas_curso(atual, prefixo):
@@ -1609,8 +1608,8 @@ def gerar_inicio():
 
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
       <h2 id="leituras-titulo">Três leituras do texto integral</h2>
-      <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos. Elas vão compor o Roteiro.</p>
-      <p class="nota-par">Acréscimo posterior de 05/11/2026. A etiqueta organiza juridicamente o é formulação do autor. O resumo da tese diz enquanto feixe de fruição governada (p. 11).</p>
+      <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos.</p>
+      <p class="nota-par">Acréscimo posterior de 05/11/2026. A etiqueta “organiza juridicamente o” é formulação do autor. O resumo da tese diz “enquanto feixe de fruição governada” (p. 11).</p>
       <fieldset class="percursos">
         <legend>Escolha uma leitura</legend>
         <div class="seletor">{opcoes}</div>
@@ -1745,10 +1744,10 @@ def gerar_conceito(c):
     nas_situacoes = ""
     if itens_rot:
         nas_situacoes = ('<section class="bloco nas-situacoes"><h2>Nas situações</h2>'
-                      + ('<p class="nota-camada ciencia">Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais páginas aparecem porque a tese nomeia o conceito no trecho.</p>' if nomes.get("Roteiro") and letras else "")
+                      + ('<p class="nota-camada ciencia">Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais situações também operam com o conceito.</p>' if nomes.get("Roteiro") and letras else "")
                       + '<ul class="lugares">' + "".join(itens_rot) + "</ul></section>")
     if nomes.get("Laboratório"):
-        partes.append('<section class="bloco ciencia"><h2>Nas plataformas</h2><p class="nota-camada">Páginas em que a tese nomeia o conceito, com o número de vezes.</p><ul class="lugares">'
+        partes.append('<section class="bloco ciencia"><h2>Nas plataformas</h2><p class="nota-camada">As famílias de plataforma em que o conceito opera.</p><ul class="lugares">'
                       + "".join(f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a> <span class="vezes">{esc(det)}</span></li>' for rotulo, caminho, det in nomes["Laboratório"])
                       + "</ul></section>")
 
@@ -2732,7 +2731,7 @@ def html_autor(nome, padrao, chave, prefixo):
     onde = citacoes_do_autor(padrao)
     lista_onde = ", ".join(f'<a href="{prefixo}tese/{s["slug"]}/">{esc(s["n"] or s["titulo"].capitalize())}</a> <span class="vezes">{n}×</span>' for s, n in onde)
     refs = "".join(f"<li>{h_ref}</li>" for h_ref in referencias_do_autor(chave))
-    return (f'<div class="autor"><dt>{esc(nome)}</dt><dd><p class="onde"><span class="sobrelinha">Onde a tese o cita</span> {lista_onde}</p>'
+    return (f'<div class="autor"><dt>{esc(nome)}</dt><dd><p class="onde"><span class="sobrelinha">Onde aparece no texto integral</span> {lista_onde}</p>'
             + (f'<ul class="refs" aria-label="Obras de {esc(nome)} na lista de referências">{refs}</ul>' if refs else "") + "</dd></div>")
 
 
@@ -3144,6 +3143,11 @@ def _chave_titulo(t):
     return _chave_nome(t.split()[0]) if t else t
 
 
+# Erros de dado da lista de referências da tese, corrigidos no site com marca datada. Crítica de 09/11/2026.
+CORRECOES_REFS = [("WARREN, Samuel D.; BRANDEIS, Louis D.", "[201-?]", "1890")]
+DATA_CORRECOES_REFS = "09/11/2026"
+
+
 def referencias():
     """As entradas da lista de referências da tese, na ordem e na forma da tese, separadas também quando a virada de página as colou."""
     if _REFS:
@@ -3179,6 +3183,10 @@ def referencias():
         if atual is not None:
             _REFS.append(atual)
     for n, e in enumerate(_REFS, 1):
+        for inicio, errado, certo in CORRECOES_REFS:
+            if _texto_cru(e["html"]).startswith(inicio) and errado in e["html"]:
+                e["html"] = (e["html"].replace(errado, certo)
+                             + f' <span class="nota-par">Correção posterior de {DATA_CORRECOES_REFS}. A lista da tese registra {esc(errado)}.</span>')
         t = _texto_cru(e["html"])
         e.update(n=n, texto=t, id=f"ref-{n}")
         m = re.match(r"^([A-Za-zÁÉÍÓÚÂÊÔÃÕÇÜáéíóúâêôãõçü'\-\. ]+?), (?=[A-ZÁÉÍÓÚ][a-zà-ú]|[A-Z]\.)", t)
@@ -3504,7 +3512,7 @@ def gerar_autores():
                  f'<header class="folha-cabeca"><p class="sobrelinha">{chip_area(a["area"])}</p><h1>{esc(a["nome"])}</h1>{abertura_autor}{declarado}</header>'
                  + papel +
                  f'<section class="bloco"><h2>Na lista de referências</h2><ul class="refs-autor">{obras}</ul></section>'
-                 f'<section class="bloco"><h2>Onde a tese o cita</h2><p class="nota-camada">Na ordem da tese{f", todos de {esc(autoria_unica)}" if autoria_unica else ""}.</p>'
+                 f'<section class="bloco"><h2>Onde aparece no texto integral</h2><p class="nota-camada">Na ordem da tese{f", todos de {esc(autoria_unica)}" if autoria_unica else ""}.</p>'
                  f'<div class="fichas">{"".join(fichas)}</div></section></article>')
         jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": f'{BASE}/autores/{a["slug"]}/',
                   "mainEntity": {"@type": "Person", "name": a["nome"]}, "isPartOf": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -3523,7 +3531,7 @@ def gerar_autores():
         itens = "".join(f'<li><a href="{a["slug"]}/">{esc(a["nome"])}</a> <span class="vezes">{a.get("citacoes", 0)}</span></li>' for a in lista)
         secoes.append(f'<section class="bloco area-autores"{estilo_area(area)}><h2>{esc(AREA_NOME[area])}</h2><ul class="lista-autores">{itens}</ul></section>')
     corpo = ('<article class="folha leitura autores-indice"><header class="folha-cabeca"><h1>Autores</h1>'
-             '<p>Os autores da lista de referências, pela área em que a tese os mobiliza, com o número de trechos que os citam.</p></header>'
+             '<p>Os autores da lista de referências, pela área em que a tese os mobiliza.</p></header>'
              + "".join(secoes) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "url": BASE + "/autores/", "name": "Autores · Lex Plataformae"}
     (raiz / "index.html").write_text(pagina("Autores citados, por área · Lex Plataformae", "Os autores que a tese cita, por área, com os trechos em que aparecem.",
@@ -3909,8 +3917,8 @@ def gerar_auxiliares():
     (SAIDA / "tese").mkdir(exist_ok=True)
     shutil.copy(RAIZ / "tese" / PDF_NOME, SAIDA / "tese" / PDF_NOME)
     corpo = ('<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p>'
-             '<h1>Este endereço não existe</h1></header><p>Talvez o conceito tenha mudado de endereço. '
-             '<a href="/#conceitos">Volte ao vocabulário</a> e procure por ele.</p></article>')
+             '<h1>Este endereço não existe</h1></header><p>A página que você procurou não está aqui, ou mudou de lugar. '
+             '<a href="/">Volte ao começo</a> e siga pelo menu.</p></article>')
     (SAIDA / "404.html").write_text(pagina("Página não encontrada · Lex Plataformae", "Página não encontrada.", corpo, "/", "404.html", camada="externa"), encoding="utf-8")
 
 

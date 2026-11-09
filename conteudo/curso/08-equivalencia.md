@@ -1,6 +1,6 @@
 # A equivalência de valor funcional
 
-abertura: A equivalência de valor funcional é o critério que julga se a alteração de um Objeto Imaterial de Consumo preservou, em termos substanciais, aquilo que justificou a aquisição. Em exame estão como o teste se aplica, o que muda com o art. 51, XIII, do CDC, quando a aparência de um item entra na comparação e como o critério leva à recomposição.
+abertura: A equivalência de valor funcional é o critério que julga se a alteração de um Objeto Imaterial de Consumo preservou, em termos substanciais, aquilo que justificou a aquisição. O teste se apoia no art. 51, XIII, do CDC, alcança a aparência de um item quando ela é o que se comprou e leva à recomposição.
 secoes: 5.1.5, 6.3.2, 7.1.1.6
 
 ## Se a plataforma pode mudar, o que o Direito controla na mudança?
@@ -272,7 +272,7 @@ Duas observações evitam erro na petição. A primeira é que o reembolso e o c
 > O efeito do parâmetro é separar ajuste legítimo de substituição oportunista: se o sistema conserva aparência e etiqueta, mas rebaixa substancialmente funções, restrições, acesso, performance ou a operatividade social que definia a posição, houve recomposição nominal e não preservação da entrega. (p. 327)
 > Com isso, a recomposição deixa de ser arbitrada pela plataforma como “equivalente por declaração” e passa a ser controlável por uma régua substantiva, compatível com um mercado reconfigurável, mas hostil à zona de impunidade do signo. (p. 327)
 
-## Quais objeções o fornecedor costuma levantar?
+## Controlar a mudança não trava a inovação?
 
 A objeção central é a da inovação, segundo a qual controlar a mudança seria impedir a evolução do serviço. A resposta é que o critério não proíbe evolução, adaptação do ecossistema, balanceamento de mecânicas nem inovação ordinária, e que as mudanças de meio, de método e de arquitetura podem ser legítimas e até necessárias. O que ele recusa é a instrumentalização da mudança para transferir ao consumidor o custo de reconfigurações que destroem ou rebaixam significativamente a utilidade adquirida sem recomposição compatível. Por isso a invocação de atualização, ajuste ou evolução do serviço não encerra o debate, que recai sobre a demonstração de preservação substancial do feixe, o conjunto de funcionalidades e significações que forma a utilidade.
 
@@ -294,7 +294,7 @@ A quarta é a da complexidade técnica, segundo a qual ninguém de fora poderia 
 > Em fruição governada por plataforma, reduzir o OIC a “serviço” em sentido genérico pode funcionar como etiqueta externa, mas falha onde a dogmática precisa trabalhar, que é na definição de conteúdo, limites e critérios de comparação. (p. 480)
 >! A opacidade técnica, por si, não funciona como zona franca de responsabilidade. (p. 481)
 
-## Onde o critério para?
+## O consumidor tem direito a uma versão eterna?
 
 A equivalência não é promessa de congelamento nem direito a uma versão eterna do serviço. Não exige repetição literal de atributos, nem manutenção absoluta de layout, de stats, de parâmetros ou de microcaracterísticas isoladas, e admite que uma alteração compreensível para o ecossistema siga adiante. Ficam fora dela a mera preferência, o inconformismo com variações ordinárias e a medida de estados internos, sentimentos ou relatos psicológicos do consumidor. A exigência também não transforma cada ajuste em litígio, e a qualificação da ruptura como vício, como defeito ou como prática abusiva depende da estrutura do caso concreto.
 

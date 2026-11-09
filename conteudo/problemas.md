@@ -29,7 +29,7 @@ O sinal de alerta aparece quando a punição chega sem um motivo que dê para en
 
 > Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
 
-Muitas punições nascem de uma detecção automática, e num grande jogo elas podem chegar em até 15 minutos depois da partida. Elas seguem critérios que a empresa não revela por inteiro, e é essa falta de clareza que torna a punição tão difícil de contestar.
+Muitas punições nascem de uma detecção automática. Em League of Legends, por exemplo, a própria empresa avisa que a punição pode chegar até 15 minutos depois do fim da partida. Essas punições seguem critérios que a empresa não revela por inteiro, e é essa falta de clareza que torna a punição tão difícil de contestar.
 
 > A segunda forma é o enforcement ex post, no qual o ecossistema aplica sanções declaradas ou parcialmente declaradas depois de um evento de moderação ou de detecção automática. (p. 373)
 > No Sistema de Feedback Instantâneo, a Riot afirma que usuários podem ser punidos “em até 15 minutos após o final da partida”, e descreve um leque de consequências que vai de restrições a suspensões permanentes (p. 375)

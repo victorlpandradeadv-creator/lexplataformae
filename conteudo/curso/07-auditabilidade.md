@@ -1,6 +1,6 @@
 # A auditabilidade aberta
 
-abertura: A auditabilidade aberta é o patamar mínimo de verificabilidade externa que permite reconstruir o que o fornecedor alterou, quando, por que e com que efeito, sempre que a mudança ou a sanção atinge de modo relevante a fruição de um Objeto Imaterial de Consumo. Em exame estão de onde essa exigência vem dentro do CDC, o que ela alcança, o que deixa de fora e por que o segredo e a complexidade técnica não a afastam.
+abertura: A auditabilidade aberta é o patamar mínimo de verificabilidade externa que permite reconstruir o que o fornecedor alterou, quando, por que e com que efeito, sempre que a mudança ou a sanção atinge de modo relevante a fruição de um Objeto Imaterial de Consumo. A exigência nasce dentro do CDC, tem alcance delimitado e não cede ao segredo nem à complexidade técnica.
 secoes: 5.1.5, 6.3, 6.3.1, 7.1.1.5
 
 ## Qual problema a auditabilidade aberta resolve?
@@ -210,7 +210,7 @@ A auditabilidade, sozinha, não decide a legitimidade material da mudança, porq
 > Primeiro, reconstrói-se a mudança. Depois, mede-se sua legitimidade material. Essa ordem importa. Sem ela, o fornecedor sempre terá a vantagem da névoa. (p. 647)
 > Quando uma dessas condições falha, a legitimidade da mudança já se torna juridicamente suspeita. Quando ambas falham ao mesmo tempo, a hipótese se aproxima com força de vício de fornecimento, prática abusiva, quebra da confiança ou até de arquitetura de opacidade estrutural incompatível com o regime consumerista. (p. 638-639)
 
-## Quais objeções o fornecedor costuma levantar?
+## Auditar não é abrir o segredo industrial?
 
 A primeira é a do segredo, segundo a qual exigir auditabilidade equivaleria a abrir o código, entregar o segredo industrial e desproteger o software. A resposta é que o ordenamento já convive com formas limitadas de escrutínio que preservam o ativo informacional, como o segredo de justiça, o acesso pericial restrito, a análise funcional delimitada e o controle institucional. Denis Borges Barbosa registra que o segredo de justiça restringe o acesso de terceiros a informações sensíveis, como o código-fonte, e impede o seu uso pela parte contrária para fins estranhos ao litígio. A compatibilização entre a proteção do ativo e a necessidade de verificação, portanto, não é novidade.
 

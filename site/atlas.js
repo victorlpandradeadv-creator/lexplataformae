@@ -313,3 +313,20 @@
   });
 
 })();
+
+// A chave de modo sai do caminho enquanto o leitor desce e volta quando ele sobe, para não cobrir o texto.
+// Volta também no fim da página e quando recebe foco. Crítica de 09/11/2026.
+(function () {
+  var chave = document.querySelector('.chave-mestra');
+  if (!chave) return;
+  var ultimo = window.scrollY, pedido = false;
+  function ajustar() {
+    pedido = false;
+    var y = window.scrollY, fim = y + window.innerHeight >= document.documentElement.scrollHeight - 80;
+    if (fim || y < 80 || y < ultimo - 4) chave.classList.remove('recolhida');
+    else if (y > ultimo + 4 && !chave.contains(document.activeElement)) chave.classList.add('recolhida');
+    ultimo = y;
+  }
+  window.addEventListener('scroll', function () { if (!pedido) { pedido = true; requestAnimationFrame(ajustar); } }, { passive: true });
+  chave.addEventListener('focusin', function () { chave.classList.remove('recolhida'); });
+})();

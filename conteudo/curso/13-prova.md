@@ -1,6 +1,6 @@
 # A prova
 
-abertura: No consumo governado por plataforma, o fato controvertido nasce e permanece dentro da infraestrutura do fornecedor, de modo que quem controla registros, versões e vestígios de sanção controla também as condições de reconstrução do que aconteceu. Em exame estão como a vulnerabilidade semiótica se converte em alegação, prova e pedido, quais instrumentos do CDC e do CPC permitem pedir o registro certo e como se distribui o ônus quando a prova está sob controle técnico do fornecedor.
+abertura: No consumo governado por plataforma, o fato controvertido nasce e permanece dentro da infraestrutura do fornecedor, de modo que quem controla registros, versões e vestígios de sanção controla também as condições de reconstrução do que aconteceu. A vulnerabilidade semiótica se converte então em alegação, prova e pedido, e o CDC e o CPC dão os instrumentos para pedir o registro certo e distribuir o ônus.
 secoes: 6.2.4.3, 6.2.4.3.1, 6.3.3, 7.1.1.8
 
 ## Por que a prova faz parte do próprio vínculo?
@@ -279,7 +279,7 @@ Em casos qualificados, o episódio serve ainda de ponte para a auditabilidade ab
 > Em casos qualificados, o episódio ainda serve de ponte para dois operadores centrais. De um lado, para a auditabilidade aberta, porque a controvérsia expõe a necessidade de transparência verificável sobre critérios de alteração, rollback e sanção. De outro, para a teleologia abusiva, porque a resposta privada não aparece como simples erro pontual, mas como modo de funcionamento em que a plataforma protege seu interesse econômico por meio de opacidade, presunção ampliada e precarização da fruição alheia. (p. 617-618)
 > O consumidor não foi exposto apenas a um risco transacional. Foi inserido em ambiente comunicacional confuso, privado de critérios transparentes para distinguir canais legítimos e, depois, submetido a política de imputação privada ampla que o tratou como extensão do problema econômico da plataforma. É justamente por isso que o caso interessa ao argumento. Ele mostra, em situação concreta, que a assimetria relevante não está só no contrato, nem só na fraude, nem só na tecnologia. Está na governança privada do sentido, do risco e da prova dentro do próprio regime de fruição. (p. 618)
 
-## Quais objeções o fornecedor costuma levantar?
+## E quando o fornecedor diz que o consumidor não provou?
 
 A primeira e mais corrosiva é a de que o consumidor não provou, que converte a falta de acesso do consumidor em ausência de prova do próprio direito. Nesses ambientes, a ausência de prova pode ser menos fragilidade da pretensão e mais resultado do arranjo de governança do fornecedor, e o Direito não pode aceitar que a plataforma administre ao mesmo tempo a fruição, a narrativa do evento e as condições da sua verificabilidade.
 
@@ -297,9 +297,9 @@ A terceira é a de que a mudança foi publicada e o consumidor continuou usando 
 > Em serviços digitais contínuos, não basta que a plataforma “publique uma atualização”, “solte uma nota de patch” ou enterre a modificação em camadas de texto, links ou avisos genéricos. (p. 657)
 > Alteração relevante não pode ser comunicada como ruído nem como detalhe periférico, porque isso converte a mutabilidade em armadilha semiótica. (p. 657)
 
-## Onde a disciplina da prova para?
+## O consumidor pode exigir ver tudo?
 
-A disciplina da prova tem bordas. Ela não protege a curiosidade tecnológica do consumidor, e sim a possibilidade institucional de reconstruir alterações e impactos que atingem a fruição, de modo que o pedido se orienta pela reconstrução desses impactos. Ela também existe em função dos critérios materiais, porque não basta afirmar que alterações devem ser inteligíveis ou que a fruição deve continuar equivalente, e é a prova que torna demonstráveis e contestáveis as modulações, as perdas, as reconfigurações e as sanções. Sem ela, auditabilidade e equivalência ficariam corretas no plano abstrato e ineficazes na prática, e por isso a prova não é etapa acessória do raciocínio, e sim meio de eficácia do próprio regime.
+A disciplina da prova não protege a curiosidade tecnológica do consumidor, e sim a possibilidade institucional de reconstruir alterações e impactos que atingem a fruição, de modo que o pedido se orienta pela reconstrução desses impactos. Ela também existe em função dos critérios materiais, porque não basta afirmar que alterações devem ser inteligíveis ou que a fruição deve continuar equivalente, e é a prova que torna demonstráveis e contestáveis as modulações, as perdas, as reconfigurações e as sanções. Sem ela, auditabilidade e equivalência ficariam corretas no plano abstrato e ineficazes na prática, e por isso a prova não é etapa acessória do raciocínio, e sim meio de eficácia do próprio regime.
 
 > O que se protege aqui não é curiosidade tecnológica do consumidor, mas a possibilidade institucional de reconstrução de alterações e impactos que atingem sua fruição. (p. 661)
 > A disciplina probatória aqui proposta também é importante porque impede que standards como auditabilidade aberta e equivalência de valor funcional se convertam em mera retórica conceitual. Sem regime de prova compatível, esses parâmetros permaneceriam corretos em tese, mas ineficazes na prática. (p. 736)
