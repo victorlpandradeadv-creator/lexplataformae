@@ -108,6 +108,5 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Três sequências (p. 715, 716-717, 742-743). Ordenam coisas diferentes. Nos quatro passos, a teleologia entra como filtro, e não como passo (p. 715-716). Em nenhuma a consequência vem antes da prova.
 - Fechos (p. 717, 734, 740). Leitura do escritor, a teleologia fecha o diagnóstico, a propriedade intelectual fecha o limite e a recomposição fecha o regime, pelas listas de antecedentes.
 - Recompor e corrigir (p. 740 e 741). Motivação verificável e canais de contestação estão nas duas listas. A fronteira foi lida no objeto e no pressuposto, e não no tipo de medida.
-- Art. 35 do CDC (p. 540, nota 573). O texto dá a escolha ao consumidor, "à sua livre escolha", e a tese o lê como apoio à primazia da recomposição. O curso não trata essa tensão.
 - O caso trabalhado é a cláusula de encerramento de conta da Riot (p. 540-543, seção 6.1.3). O "quando cabível" foi lido como ligado só à restauração. A ressalva de direitos do consumidor na cláusula 2.3 está só na nota.
 - Plataforma que fracassa (p. 796-797). As medidas de continuidade, portabilidade, recomposição e cessão vêm para o encerramento do serviço. Para a falência, a tese só formula a pergunta, e o curso não estende as medidas a ela.
