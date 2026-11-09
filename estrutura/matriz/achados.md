@@ -110,3 +110,11 @@ Os dois quadros das p. 599-600 viraram tabela, e os três parágrafos perdidos d
 - Recompor e corrigir (p. 740 e 741). Motivação verificável e canais de contestação estão nas duas listas. A fronteira foi lida no objeto e no pressuposto, e não no tipo de medida.
 - O caso trabalhado é a cláusula de encerramento de conta da Riot (p. 540-543, seção 6.1.3). O "quando cabível" foi lido como ligado só à restauração. A ressalva de direitos do consumidor na cláusula 2.3 está só na nota.
 - Plataforma que fracassa (p. 796-797). As medidas de continuidade, portabilidade, recomposição e cessão vêm para o encerramento do serviço. Para a falência, a tese só formula a pergunta, e o curso não estende as medidas a ela.
+
+## Leituras do capítulo sobre os bens protegidos, 08/11/2026
+- Terminologia (p. 11, 391, 395, 465-466, 483, 543, 573-574). O curso mostra a oscilação e lê um par constante, a tutela do usar e a tutela do ser, e diz na prosa que é leitura.
+- Cláusulas da Riot (p. 540, nota 575, e p. 613-614, nota 700). O corpo do 6.1.3 não comenta a ressalva de direitos de dados e de consumidor. A 4.5 prevê reembolso ou substituição só na retirada completa de compra recente. O curso descreve as duas pela transcrição.
+- Condições da perda relevante (p. 467-468). Os três "quando" foram lidos como condições cumulativas.
+- Glosas sem definição expressa na tese. Elo como faixa de ranqueamento, pela p. 268. MMR como número secreto do pareamento, pela nota 47 da p. 94. Reset como redefinição de progresso, pela nota 464 da p. 462.
+- Item e trajetória (p. 537-538). A passagem do item à trajetória depende de o objeto concreto funcionar como ativo biográfico, pelo "certos OICs" e pelo "pode" da tese.
+- A obra de Canavez, Andrade e Laprano aparece na prosa como "Canavez e coautores", para o nome do autor seguir por último no site. Os trechos literais ficam como estão.
