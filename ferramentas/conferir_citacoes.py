@@ -31,7 +31,7 @@ def normalizar(texto, fonte=False):
     if fonte:
         # remove chamadas de nota de rodapé coladas ao texto
         # (depois de ponto, só quando o ponto fecha uma palavra, para não comer decimais como 26.3)
-        texto = re.sub(r'(?:(?<=[A-Za-zÀ-úºª,;:"])|(?<=[A-Za-zÀ-úºª"]\.))\d{1,3}(?=[\s,\.])', "", texto)
+        texto = re.sub(r'(?:(?<=[A-Za-zÀ-úºª,;:"])|(?<=[A-Za-zÀ-úºª"]\.))\d{1,3}(?=[\s,\.\)])', "", texto)
     return re.sub(r"\s+", " ", texto).strip()
 
 

@@ -1,0 +1,83 @@
+{
+  "sobre": "Textos oficiais da página Como reclamar, acréscimo posterior à tese, por ordem do autor de 05/11/2026 (item 4 do plano da adequação das camadas). Os dispositivos foram copiados do site do Planalto pelo navegador em 08/11/2026, porque a ferramenta de busca de páginas recebe acesso negado. As regras do Consumidor.gov.br foram lidas nas páginas oficiais na mesma data. Não passam pelo script das citações, que só confere a tese.",
+  "acesso": "2026-11-08",
+  "dispositivos": [
+    {
+      "id": "cdc-26",
+      "lei": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "rotulo": "art. 26 do CDC",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "texto": "Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis. § 1° Inicia-se a contagem do prazo decadencial a partir da entrega efetiva do produto ou do término da execução dos serviços. § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca; II - (Vetado). III - a instauração de inquérito civil, até seu encerramento. § 3° Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito."
+    },
+    {
+      "id": "cdc-27",
+      "lei": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "rotulo": "art. 27 do CDC",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "texto": "Art. 27. Prescreve em cinco anos a pretensão à reparação pelos danos causados por fato do produto ou do serviço prevista na Seção II deste Capítulo, iniciando-se a contagem do prazo a partir do conhecimento do dano e de sua autoria."
+    },
+    {
+      "id": "cdc-5",
+      "lei": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "rotulo": "art. 5º, I, II e IV, do CDC",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "texto": "Art. 5° Para a execução da Política Nacional das Relações de Consumo, contará o poder público com os seguintes instrumentos, entre outros: I - manutenção de assistência jurídica, integral e gratuita para o consumidor carente; II - instituição de Promotorias de Justiça de Defesa do Consumidor, no âmbito do Ministério Público; [...] IV - criação de Juizados Especiais de Pequenas Causas e Varas Especializadas para a solução de litígios de consumo;"
+    },
+    {
+      "id": "cdc-105",
+      "lei": "Código de Defesa do Consumidor (Lei nº 8.078/1990)",
+      "rotulo": "art. 105 do CDC",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "texto": "Art. 105. Integram o Sistema Nacional de Defesa do Consumidor (SNDC), os órgãos federais, estaduais, do Distrito Federal e municipais e as entidades privadas de defesa do consumidor."
+    },
+    {
+      "id": "d2181-4",
+      "lei": "Decreto nº 2.181/1997",
+      "rotulo": "art. 4º, II e III, do Decreto nº 2.181/1997",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/decreto/d2181.htm",
+      "texto": "Art. 4º No âmbito de sua jurisdição e competência, caberá ao órgão estadual, do Distrito Federal e municipal de proteção e defesa do consumidor, criado, na forma da lei, especificamente para este fim, exercitar as atividades contidas nos incisos II a XII do art. 3º deste Decreto e, ainda: [...] II - dar atendimento aos consumidores, processando, regularmente, as reclamações fundamentadas; III - fiscalizar as relações de consumo;"
+    },
+    {
+      "id": "l9099-3",
+      "lei": "Lei nº 9.099/1995",
+      "rotulo": "art. 3º, I, da Lei nº 9.099/1995",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "texto": "Art. 3º O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"
+    },
+    {
+      "id": "l9099-9",
+      "lei": "Lei nº 9.099/1995",
+      "rotulo": "art. 9º da Lei nº 9.099/1995",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "texto": "Art. 9º Nas causas de valor até vinte salários mínimos, as partes comparecerão pessoalmente, podendo ser assistidas por advogado; nas de valor superior, a assistência é obrigatória."
+    },
+    {
+      "id": "l9099-41",
+      "lei": "Lei nº 9.099/1995",
+      "rotulo": "art. 41, § 2º, da Lei nº 9.099/1995",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "texto": "§ 2º No recurso, as partes serão obrigatoriamente representadas por advogado."
+    },
+    {
+      "id": "l9099-54",
+      "lei": "Lei nº 9.099/1995",
+      "rotulo": "art. 54 da Lei nº 9.099/1995",
+      "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "texto": "Art. 54. O acesso ao Juizado Especial independerá, em primeiro grau de jurisdição, do pagamento de custas, taxas ou despesas."
+    }
+  ],
+  "servicos": [
+    {
+      "id": "consumidor-gov",
+      "nome": "Consumidor.gov.br",
+      "fontes": ["https://www.consumidor.gov.br/pages/conteudo/publico/1", "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor/consumidor-gov.br"],
+      "regras": [
+        "Serviço público e gratuito para solução de conflitos de consumo pela internet, monitorado pela Secretaria Nacional do Consumidor do Ministério da Justiça.",
+        "Para registrar uma reclamação é preciso se cadastrar, aceitar os termos de uso e ter conta gov.br de nível prata ou ouro.",
+        "A empresa precisa estar cadastrada no site para receber a reclamação, e a adesão dela é voluntária. Se não estiver, o consumidor pode sugerir a participação.",
+        "A empresa tem até 10 dias para responder. Depois, o consumidor tem até 20 dias para avaliar a resposta.",
+        "O serviço não substitui o Procon, a Defensoria, o Ministério Público nem os Juizados, que continuam disponíveis."
+      ]
+    }
+  ]
+}

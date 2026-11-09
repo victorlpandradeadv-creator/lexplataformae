@@ -862,6 +862,14 @@ def direitos_da_ideia(cid):
 
 # Por problema. Páginas para quem chega com um problema concreto, em conteudo/problemas.md. Rascunho de 03/11/2026.
 # Cada página junta blocos que já estão no percurso e os direitos que se aplicam. Só o título e a abertura são novos.
+# Os campos de texto próprio de cada problema, na ordem da página. Cada um traz no cabeçalho a sua pergunta, como em
+# `### guardar O que vale a pena guardar antes de reclamar?`. Adequação das camadas, etapa 5, 08/11/2026. A Informação
+# responde ao que a pessoa vive, diz se é o caso dela, o que guardar, o que pedir, a quem recorrer e onde a proteção para.
+CAMPOS_PROBLEMA = ("caso", "guardar", "pedir", "quem", "limite")
+# A página Como reclamar (conteudo/como-reclamar.md) ainda não tem gerador. Enquanto não tiver, o campo quem não leva até ela.
+COMO_RECLAMAR = {}
+
+
 def carregar_problemas():
     arq = RAIZ / "conteudo" / "problemas.md"
     dados, atual, campo_ = {}, None, None
@@ -870,17 +878,23 @@ def carregar_problemas():
     for linha in arq.read_text(encoding="utf-8").splitlines():
         if linha.startswith("## "):
             slug = linha[3:].strip()
-            atual = dados.setdefault(slug, {"slug": slug, "titulo": "", "abertura": [], "citacoes": [], "blocos": [], "direitos": [], "relacionados": []})
+            atual = dados.setdefault(slug, {"slug": slug, "titulo": "", "abertura": [], "citacoes": [], "blocos": [], "direitos": [], "relacionados": [],
+                                            "percurso": [], "campos": {}})
             campo_ = None
             continue
         if linha.startswith("### ") and atual is not None:
-            campo_ = linha[4:].strip()
+            campo_, _, pergunta = linha[4:].strip().partition(" ")
+            if campo_ in CAMPOS_PROBLEMA:
+                atual["campos"][campo_] = {"pergunta": pergunta.strip(), "paragrafos": [], "citacoes": []}
             continue
         if atual is None or not campo_ or not linha.strip():
             continue
         m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
         if m:
-            atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+            alvo = atual["campos"][campo_]["citacoes"] if campo_ in CAMPOS_PROBLEMA else atual["citacoes"]
+            alvo.append({"texto": m.group(1), "ref": m.group(2)})
+        elif campo_ in CAMPOS_PROBLEMA:
+            atual["campos"][campo_]["paragrafos"].append(linha.strip())
         elif campo_ == "titulo":
             atual["titulo"] = (atual["titulo"] + " " + linha.strip()).strip()
         elif campo_ == "abertura":
@@ -888,7 +902,7 @@ def carregar_problemas():
         elif campo_ == "blocos":
             parte, _, inicio = linha.partition("|")
             atual["blocos"].append((parte.strip(), inicio.strip()))
-        elif campo_ in ("direitos", "relacionados"):
+        elif campo_ in ("direitos", "relacionados", "percurso"):
             atual[campo_] += [x.strip() for x in linha.split(",") if x.strip()]
     return dados
 
@@ -946,20 +960,36 @@ def gerar_problemas():
             i, parte, b = bloco_do_percurso(slug, inicio)
             blocos.append(bloco_percurso(b, prefixo))
             partes.setdefault(i, parte)
+        for slug in p["percurso"]:
+            i, parte = next((i, x) for i, x in enumerate(PERCURSO, 1) if x["slug"] == slug)
+            partes.setdefault(i, parte)
+        # Com texto próprio, a página responde campo a campo e leva aos direitos pelo título, sem repetir o cartão inteiro.
+        proprio = "".join(
+            f'<section class="ext problema-campo campo-{k}"><h2 class="pergunta-secao">{esc(c["pergunta"])}</h2>'
+            + "".join(f"<p>{esc(t)}</p>" for t in c["paragrafos"]) + expansao(c["citacoes"], prefixo)
+            + (f'<p class="ver-reclamar"><a href="{prefixo}como-reclamar/">Os canais de reclamação e os prazos</a></p>' if k == "quem" and COMO_RECLAMAR else "")
+            + "</section>"
+            for k in CAMPOS_PROBLEMA if (c := p["campos"].get(k)))
         no_percurso = (f'<section class="ext no-percurso"><p class="rotulo-ext">{ROTULO_NO_PERCURSO}</p><ul class="partes-curtas">'
                        + "".join(f'<li><a href="{prefixo}percurso/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
                                  for i, parte in sorted(partes.items()))
                        + "</ul></section>")
-        direitos = (f'<section class="direitos" aria-label="{ROTULO_EXIGIR}"><p class="rotulo-ext">{ROTULO_EXIGIR}</p>'
-                    + "".join(direito_html(l, prefixo, "h2") for l in p["direitos"])
-                    + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
+        if proprio:
+            direitos = (f'<section class="ext direitos-curtos"><p class="rotulo-ext">Os direitos por trás deste caso</p><ul class="partes-curtas">'
+                        + "".join(f'<li><a href="{prefixo}direitos/#{l}">{esc(DIREITOS[l]["titulo"])}</a></li>' for l in p["direitos"])
+                        + "</ul></section>") if p["direitos"] else ""
+            blocos = []
+        else:
+            direitos = (f'<section class="direitos" aria-label="{ROTULO_EXIGIR}"><p class="rotulo-ext">{ROTULO_EXIGIR}</p>'
+                        + "".join(direito_html(l, prefixo, "h2") for l in p["direitos"])
+                        + f'<p class="ver-direitos"><a href="{prefixo}direitos/">Todos os seus direitos, e até onde eles vão</a></p></section>')
         outros = (f'<section class="ext outros-problemas"><p class="rotulo-ext">Outros problemas parecidos</p>{lista_problemas(p["relacionados"], prefixo)}'
                   f'<p class="ver-direitos"><a href="{prefixo}problemas/">Todos os problemas</a></p></section>') if p["relacionados"] else ""
         corpo = (f'<article class="folha problema-pagina">'
                  f'<p class="sobrelinha-ext"><a href="{prefixo}direitos/">Seus direitos</a> · <a href="{prefixo}problemas/">Por problema</a></p>'
                  f'<header class="folha-cabeca ext-cabeca"><h1>{esc(p["titulo"])}</h1></header>'
                  f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in p["abertura"]) + expansao(p["citacoes"], prefixo) + "</section>"
-                 + "".join(blocos) + direitos + no_percurso + cuidado_html(prefixo) + outros
+                 + proprio + "".join(blocos) + direitos + (no_percurso if partes else "") + cuidado_html(prefixo) + outros
                  + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": p["titulo"], "inLanguage": "pt-BR",
