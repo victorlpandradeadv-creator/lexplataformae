@@ -51,6 +51,9 @@
 
   /* O balão de referência. Fora de Ciência a página não fica à vista. Ao passar o mouse, tocar ou chegar pelo teclado,
      o balão mostra a referência e oferece copiar o trecho com ela. O botão diz o que leva, e nada é acrescentado à cópia sem o clique. */
+  var EN = (document.documentElement.lang || '').indexOf('en') === 0;
+  var TX = EN ? { copiado: 'Copied', copiarRef: 'Copy with reference', copiarSo: 'Copy reference', autor: 'See the author', referencia: 'See the reference', trecho: 'Go to the passage', fonte: 'Source', livre: ' (free translation)' }
+              : { copiado: 'Copiado', copiarRef: 'Copiar com referência', copiarSo: 'Copiar referência', autor: 'Ver o autor', referencia: 'Ver a referência', trecho: 'Ir ao trecho', fonte: 'Fonte', livre: '' };
   var REFERENCIA = 'Victor L. P. Andrade, Do regime jurídico do Objeto Imaterial de Consumo sob a Lex Plataformae, 2026';
   var conteineres = [];
   document.querySelectorAll('[data-ref], [data-cita]').forEach(function (el) { conteineres.push(el); });
@@ -70,15 +73,15 @@
   }
   function textoDe(c) {
     var copia = c.cloneNode(true);
-    copia.querySelectorAll('.pg, .nota-ref, .pg-marca, .balao-ref, .lei-ref, .cita-sinal').forEach(function (e) { e.remove(); });
+    copia.querySelectorAll('.pg, .nota-ref, .pg-marca, .balao-ref, .lei-ref, .cita-sinal, .original').forEach(function (e) { e.remove(); });
     return copia.textContent.replace(/\s+/g, ' ').replace(/^[“"]|[”"]$/g, '').trim();
   }
   function citacao(d) {
     if (d.obra) return d.obra + (d.ref ? ', ' + d.ref : '') + '.';
-    return REFERENCIA + (d.ref ? ', ' + d.ref : '') + '.';
+    return REFERENCIA + (d.ref ? ', ' + d.ref : '') + TX.livre + '.';
   }
   function copiar(texto, botao) {
-    var feito = function () { botao.textContent = 'Copiado'; setTimeout(function () { botao.textContent = 'Copiar com referência'; }, 1800); };
+    var feito = function () { botao.textContent = TX.copiado; setTimeout(function () { botao.textContent = TX.copiarRef; }, 1800); };
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(texto).then(feito, function () { reserva(texto); feito(); });
     } else { reserva(texto); feito(); }
@@ -100,19 +103,19 @@
       l.className = 'balao-item';
       l.style.setProperty('--area', 'var(--a-' + i.area + ')');
       l.style.setProperty('--area-t', 'var(--a-' + i.area + '-t)');
-      var a = document.createElement('span'); a.className = 'balao-autoria'; a.textContent = i.autoria || 'Fonte';
+      var a = document.createElement('span'); a.className = 'balao-autoria'; a.textContent = i.autoria || TX.fonte;
       var o = document.createElement('span'); o.className = 'balao-citacao'; o.textContent = (i.obra || '') + (i.pagina ? ', ' + i.pagina : '') + '.';
-      var v = document.createElement('a'); v.href = i.url; v.textContent = /autores\/|autor\//.test(i.url) ? 'Ver o autor' : 'Ver a referência';
+      var v = document.createElement('a'); v.href = i.url; v.textContent = /autores\/|autor\//.test(i.url) ? TX.autor : TX.referencia;
       l.appendChild(a); l.appendChild(o); l.appendChild(v);
       b.appendChild(l);
       linhas.push((i.obra || '') + (i.pagina ? ', ' + i.pagina : '') + '.');
     });
     var acoes = document.createElement('span'); acoes.className = 'balao-acoes';
-    var botao = document.createElement('button'); botao.type = 'button'; botao.textContent = 'Copiar referência';
+    var botao = document.createElement('button'); botao.type = 'button'; botao.textContent = TX.copiarSo;
     botao.addEventListener('click', function (ev) {
       ev.stopPropagation();
       var bt = ev.currentTarget;
-      var feito = function () { bt.textContent = 'Copiado'; setTimeout(function () { bt.textContent = 'Copiar referência'; }, 1800); };
+      var feito = function () { bt.textContent = TX.copiado; setTimeout(function () { bt.textContent = TX.copiarSo; }, 1800); };
       var texto = linhas.join('\n');
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(texto).then(feito, function () { reserva(texto); feito(); });
       else { reserva(texto); feito(); }
@@ -144,7 +147,7 @@
     b.setAttribute('role', 'note');
     var url = d.alvo ? new URL(d.alvo, window.location.href).href : window.location.href;
     b.innerHTML = (d.autoria ? '<span class="balao-autoria"></span>' : '') + '<span class="balao-citacao"></span>' +
-      '<span class="balao-acoes"><button type="button">Copiar com referência</button>' + (d.alvo ? '<a>Ir ao trecho</a>' : '') + '</span>';
+      '<span class="balao-acoes"><button type="button">' + TX.copiarRef + '</button>' + (d.alvo ? '<a>' + TX.trecho + '</a>' : '') + '</span>';
     if (d.autoria) b.querySelector('.balao-autoria').textContent = d.autoria;
     b.querySelector('.balao-citacao').textContent = citacao(d);
     if (d.alvo) b.querySelector('a').setAttribute('href', d.alvo);
@@ -181,7 +184,7 @@
     botao.addEventListener('click', function () {
       var quadro = document.createElement('iframe');
       quadro.src = caixa.getAttribute('data-embed');
-      quadro.title = 'Playlist das epígrafes da tese no Spotify';
+      quadro.title = EN ? 'Playlist of the thesis epigraphs on Spotify' : 'Playlist das epígrafes da tese no Spotify';
       quadro.allow = 'clipboard-write; encrypted-media; fullscreen; picture-in-picture';
       quadro.loading = 'lazy';
       caixa.replaceChildren(quadro);

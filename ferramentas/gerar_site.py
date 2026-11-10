@@ -21,7 +21,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.11"
+VERSAO = "0.12"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -33,6 +33,7 @@ VERSOES = [
     ("0.9", "05/11/2026", "Revisão da disposição das páginas e da voz do site."),
     ("0.10", "09/11/2026", "Adequação das camadas, com a Doutrina em quinze capítulos, os 24 problemas da Informação e a página Como reclamar."),
     ("0.11", "10/11/2026", "Menu unificado, capa narrativa, identidade editorial, o Caminho, a citação sugerida em cada página e este histórico de versões."),
+    ("0.12", "10/11/2026", "Entra a versão inglesa do site inteiro, com o texto integral da tese em tradução por máquina e os trechos literais com o original à mão."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -4296,6 +4297,9 @@ def main():
     for i in sorted(set(ILUSTRACOES) - ILUSTRACOES_USADAS):
         print(f"Ilustração sem lugar no site  {i}")
     gerar_cobertura()
+    # A versão inglesa sai das páginas portuguesas prontas, pela memória de tradução em traducao/. 10/11/2026.
+    import subprocess, sys as _sys
+    subprocess.run([_sys.executable, str(RAIZ / "ferramentas" / "en" / "gerar_en.py")], check=True)
 
 
 if __name__ == "__main__":

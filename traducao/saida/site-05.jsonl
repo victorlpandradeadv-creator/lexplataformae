@@ -1,0 +1,722 @@
+{"k": "2d62e693e2f640a3", "en": "One asks who the holder is, whether the asset can be inherited, whether the platform can block it after death, whether contractual clauses can bar disposal inter vivos or causa mortis. These are relevant conflicts and the civil-law framework faces them with good equipment.<1>p. 568</1>"}
+{"k": "487e195356d08589", "en": "How far does the argument against the license go?"}
+{"k": "fa8d60c79968c592", "en": "The word buy on the button is not, by itself, illegal, and you do not need to prove you are the full owner of the item to have protection. What is required is a minimum stability in what you bought."}
+{"k": "3a1bc24bdc7af5a8", "en": "Setting aside the license argument does not solve everything either. It opens the door, but what happens next still depends on what changed, whether the function was preserved and whether the company informed you well."}
+{"k": "b0aac6ad0151d712", "en": "Not every digital asset falls into this category. First of all, you need to show that what you use truly depends on an environment governed by the platform, and is not just any digital file."}
+{"k": "c424566929936301", "en": "This does not serve as grounds to state that the use of the word “buy” is, by itself and in isolation, unlawful.<1>p. 402</1>"}
+{"k": "141ec22dfa251a91", "en": "But, even after barring this trick, the central problem of the IOC still remains: how to control, within an enjoyment that continues to exist, the ordinary mutations that erode its functional and symbolic integrity?<1>p. 573</1>"}
+{"k": "bff6d423f05eff2d", "en": "<1>How can you tell whether the word license is being used against you?</1>"}
+{"k": "ffff1a903c99ec17", "en": "<1>Which documents show what you actually received?</1>"}
+{"k": "9204d16c04e10475", "en": "<1>What can you ask for when the answer is that it was all just a license?</1>"}
+{"k": "df101f90b89aaacd", "en": "<1>Who decides whether the license sets aside your rights?</1>"}
+{"k": "722c41c8ff9a001b", "en": "<1>How far does the argument against the license go?</1>"}
+{"k": "f46d1c19e6532bbf", "en": "<1>The company says I only have a license. So did I buy nothing?</1>"}
+{"k": "feab33f701d0c4c3", "en": "ANDRADE, Victor L. P. The company says I only have a license. So did I buy nothing?. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/problemas/so-licenca/"}
+{"k": "c64fcef04b8bf6ce", "en": "You paid, the button said buy, and the contract calls what you received a license, which is a permission to use that can be withdrawn. The name the contract…"}
+{"k": "539565eb6b8e155b", "en": "The company says I only have a license. So did I buy nothing?"}
+{"k": "fa674c7d44028c21", "en": "I paid for a draw or a loot box. What do I need to know? · Lex Plataformae"}
+{"k": "96095a0323f2db54", "en": "<1>I paid for a draw or a loot box.</1> <2>What do I need to know?</2>"}
+{"k": "ce92ba8a92eba0e1", "en": "You paid to try your luck, in a loot box or in an item draw, and what came out was almost never what you wanted. This is one of the most sensitive points of consumption in games, because the one who decides the odds, the currency, the rarity and the deadlines is the company itself."}
+{"k": "c4bb468e4ced99a2", "en": "The institutional discussion thus tends to concentrate on minimum transparency of the conditions of acquisition, protection of vulnerable audiences and control of practices that induce consumption, not out of moralization of the sector, but because the supplier concentrates internal criteria on availability, rotation, rarity and, where applicable, probability, under conditions of low external reconstructibility.<1>p. 494-495</1>"}
+{"k": "9ca78123aafc4e98", "en": "How can you tell whether the draw has become the only path to the item?"}
+{"k": "34165970b9837e48", "en": "A loot box is the purchase of a drawn result, and not of a chosen item. The value of what you get comes to depend on internal rules of distribution, availability and rarity that only the company defines, often together with time windows and signs of scarcity."}
+{"k": "921220c5b3ed53c4", "en": "An example shows how this works. In a well-known game, the most exclusive skins came to be available only by draw, with tokens costing 400 of the game's currency, a very low chance, a guarantee only on the eightieth draw and sale for a limited time."}
+{"k": "44dd6eb26bec8daa", "en": "In this arrangement, most attempts give back currency and items you were not looking for, which cushion the spending and encourage you to try again. When direct purchase disappears and the draw becomes mandatory, you stop choosing how to reach the item and start paying to try. This design may come close to tying, which is binding the purchase you want to others you did not want."}
+{"k": "930231dcfdcfc81d", "en": "The point of greatest sensitivity appears when monetization relies on random mechanisms for obtaining items, frequently treated in public debate as loot boxes. In these cases, the utility and value of what was acquired come to depend on internal distribution regimes, on availability criteria and on limits defined by the platform, besides being linked to signs of scarcity, time windows and rarity regimes that make decisions more dependent on anticipation, urgency and expectation.<1>p. 494</1>"}
+{"k": "a67c07a55602e23d", "en": "In this context, Law No. 15,211/2025 <1>Brasil</1><2>(Brasil, [2025]c)</2> offers sufficient normative anchoring to situate the focal point by regulating, from the standpoint of protecting children and adolescents, the functionality of loot boxes as a mechanism of random acquisition upon payment.<3>p. 495</3>"}
+{"k": "49906f25df64ac13", "en": "The Sanctum is described as an exclusive shop in which the user buys Ancient Sparks for 400 RP and uses them to draw rare content, with a specific “banner” for Exalted skins, besides time rotation and absence of a guaranteed return <1>Riot Games</1><2>(Riot Games, 2025d)</2>.<3>p. 299</3>"}
+{"k": "8d81a8a0a0c98c99", "en": "Abusive teleology appears forcefully when one observes that the system not only bars the direct purchase of the main good, but converts the acquisition into a functional tying sale with a set of items and internal currencies that, in most consumption trajectories, do not correspond to the player's interest. This economic binding does not occur through a declared obligation of joint purchase, but through the design of the path, in which most results do not deliver the desired good and come back as intermediate rewards, especially currencies and collateral cosmetics, which come to function as symbolic cushions for the spending and as an incentive to keep trying <1>Riot Games</1><2>(Riot Games, 2024a)</2>.<3>p. 450</3>"}
+{"k": "677a9f77d4f2c37c", "en": "It would not be a problem if the option of directly purchasing the skin at a proportional and reasonable price were maintained. However, by making the path mandatory, the company comes closer to an abusive practice of tying than to the creation of an entertainment experience that truly cares about the expectations and desires of its consumer users.<1>p. 450-451</1>"}
+{"k": "44a9c1e95d9618d9", "en": "Which records show how much it cost to try?"}
+{"k": "32941f47ebc57663", "en": "It is worth keeping the screen that described the draw, with the odds, the guarantee by number of attempts, the spending cap and the deadline. The official description itself is important evidence, because it shows that the path to the item was designed as a series of paid attempts, and not as a direct purchase."}
+{"k": "32eb4bdcfd29c9c2", "en": "Since the game's currency stands between your money and the draw, the real cost in reais tends to stay hidden. That is why the statements and emails of each currency purchase help, as well as the list of what came out in each attempt."}
+{"k": "3c250d4961ce0040", "en": "Proof of the exploitative character does not depend on a subjective reading, because the institutional material itself describes the structure in terms of probability, progression and guarantees by attempts, besides presenting an investment cap. The relevant evidentiary element is the admission that access is designed as a trajectory of probabilistic extraction, and not as a direct purchase of the good <1>Riot Games</1><2>(Riot Games, 2024a)</2>.<3>p. 450</3>"}
+{"k": "26ea8d5d9efbb1a0", "en": "What can you demand from whoever sells the draw?"}
+{"k": "c310789423509992", "en": "The first request is for clarity about the purchase conditions, including the odds, when there are any. This is precisely the focus that the discussion of loot boxes usually has, along with the protection of those who are most vulnerable."}
+{"k": "22fdcc359344c89f", "en": "When the draw takes the place of direct purchase and trying becomes serial spending, the complaint can point to the whole design, and not just to one purchase. Depending on the case, this design may be treated as an abusive practice, and the request may include correcting the purchase path, without you having to prove that anyone meant to harm you."}
+{"k": "ec08b95c56a08ced", "en": "If the draw was presented as an almost guaranteed chance and the result depended on luck, what applies to the promise also comes in, because the ad is part of the purchase."}
+{"k": "bca469fb2b9f937f", "en": "Whom can you turn to when the draw is the same for everyone?"}
+{"k": "064b82db0035ba0d", "en": "The first address is the company itself, asking for the conditions and odds that applied when you bought and the records of your transactions. The request gains strength when it is specific, and not a generic request for all data."}
+{"k": "dfa920d7e2128786", "en": "If it does not solve the problem, the case can go through Procon, the state consumer protection agency, through consumidor.gov.br, the federal government's online complaint platform, or through the Small Claims Court (Juizado Especial Cível), paths that the channels page details. Since the draw is the same for everyone, a problem in its design tends to affect many people, and the answer may come through a collective action or from public consumer protection bodies."}
+{"k": "9946c1e970f29fac", "en": "Is every paid draw inside a game forbidden?"}
+{"k": "cc9ba3adaa7dcc0f", "en": "No. The draw itself is not the problem. The issue appears when it replaces direct purchase at a reasonable price. And it appears when the whole design is oriented, above all, to exploiting your dependence, and not to legitimate ends such as security and game balance."}
+{"k": "6a0f4c981687e71e", "en": "The law prohibits loot boxes in games aimed at children and adolescents or that they are likely to access. Inside or outside that scope, control by consumer law also applies, which the sector's own laws do not replace."}
+{"k": "d29efbaa6dee59ee", "en": "<1>My son or daughter spent money in a game. What does the law say?</1>"}
+{"k": "591c9e0582a71274", "en": "<1>How can you tell whether the draw has become the only path to the item?</1>"}
+{"k": "442ed13abe3b69ad", "en": "<1>Which records show how much it cost to try?</1>"}
+{"k": "00ebe691b6253a68", "en": "<1>What can you demand from whoever sells the draw?</1>"}
+{"k": "bbd0426c1a2592d1", "en": "<1>Whom can you turn to when the draw is the same for everyone?</1>"}
+{"k": "a265e86221c9589e", "en": "<1>Is every paid draw inside a game forbidden?</1>"}
+{"k": "975211032325417d", "en": "<1>I paid for a draw or a loot box. What do I need to know?</1>"}
+{"k": "edcf6a3a952a39ec", "en": "ANDRADE, Victor L. P. I paid for a draw or a loot box. What do I need to know?. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/problemas/sorteio/"}
+{"k": "533dde0ee16e9c79", "en": "You paid to try your luck, in a loot box or in an item draw, and what came out was almost never what you wanted. This is one of the most…"}
+{"k": "af2d424f71f43f5c", "en": "I paid for a draw or a loot box. What do I need to know?"}
+{"k": "f77453af7f3632fe", "en": "I work through an app, and the rules changed. Is there something I can ask for? · Lex Plataformae"}
+{"k": "9d0cda6992b8a396", "en": "<1>I work through an app, and the rules changed.</1> <2>Is there something I can ask for?</2>"}
+{"k": "08fcf3dc7f8a43d4", "en": "You do deliveries or rides through an app and, after a rule change nobody explained, the calls dropped, your earnings fell or a restriction arrived. The question that counts is not only whether your account is still active, but whether your place in the app is still equivalent to what sustained the earnings and the permanence you expected."}
+{"k": "cfe61bafef422c68", "en": "How can you tell whether the drop has to do with the app's rules?"}
+{"k": "db5cd4b9bec8d63a", "en": "The one who distributes the calls, calculates the earnings, gives the rating, decides priority and applies restrictions is the app. That is why your income depends on the way it organizes this environment, and not only on your effort."}
+{"k": "ca92d0b8e65268ea", "en": "Changes in the criteria for distributing calls, in pricing, in the rules for staying eligible, in incentives or in the weight of ratings can keep the account and the name of partnership. Even so, they can significantly empty out the earnings that justified staying."}
+{"k": "fdbe029712f8ce88", "en": "Saying that you are free to switch the app on and off does not settle the question. The freedom to come in and leave coexists with a strong dependence on the rules of access, earnings calculation and reputation that the app controls."}
+{"k": "539918323dd2e3a5", "en": "Income is not born outside the environment and merely passes through it. It depends materially on the architecture of the environment.<1>p. 766</1>"}
+{"k": "6f6aeb124a869833", "en": "Changes in call distribution criteria, in pricing parameters, in eligibility rules, in incentive models or in reputational weights may keep the program's name, the appearance of partnership and even the formal existence of the account, but significantly empty out the economic utility that justified joining and sustained the continuity of productive enjoyment.<1>p. 767</1>"}
+{"k": "1345767a5f8ca4d0", "en": "The formal freedom to join or leave the environment coexists, here, with intense dependence on the private conditions of access to demand, of earnings calculation, of reputation building, of performance reading and of maintaining eligibility in the productive flow.<1>p. 766</1>"}
+{"k": "a7eaa9a93d45463c", "en": "Which records of your day-to-day in the app are worth keeping?"}
+{"k": "16e9281127b35a93", "en": "Showing only that earnings fell or that the account was blocked once is not enough. It helps to keep the call history, the payment variations, the messages and performance alerts, the criteria informed or omitted, the restriction records and the ratings."}
+{"k": "580c4b609a95ad29", "en": "A drop in earnings is not always a normal risk of the activity, because it may come from a rule change made without explanation. And the final penalty usually has a prior history, with alerts, incentives and threats that are worth recording from the start."}
+{"k": "ef21a2c31ffcc528", "en": "It is not enough to show that there was a reduction in earnings or an isolated block. It is necessary to reconstruct the relation between governance mechanism and functional impact. This may involve call history, pay variations, the app's internal communications, performance alerts, criteria informed or omitted, restriction records, rating patterns and comparative data on the change in the environment.<1>p. 768</1>"}
+{"k": "0b24962f65bef22b", "en": "There are, here, recurring blind spots that must be avoided. The first is treating fluctuation in earnings as a purely natural risk of the activity, when it may result from an opaque unilateral reconfiguration of the distribution infrastructure. The second is treating the final sanction as an isolated event, without reconstructing the regime of conduct, incentive and threat that preceded it.<1>p. 768</1>"}
+{"k": "af359171ef34e1b7", "en": "What can you ask for when the app changes the rules?"}
+{"k": "f8e05ab230c40bf8", "en": "The request may include that the app preserve and show the minimum records, explain restrictions in a way that can be checked and review the criteria used to restrict. It may also include clarity about what defines the distribution of calls and the restoration of what the change made worse."}
+{"k": "bea5bfaad577eb1e", "en": "Metrics are the numbers with which the app measures your performance. A relevant change of rule, calculation, priority or metrics is not justified by the word efficiency, security or optimization alone. It must be at least minimally checkable, and this does not require opening the whole system nor putting a judge in charge of running the app."}
+{"k": "01b2ecb1f7124e64", "en": "The most adequate institutional response will tend to favor preservation and display of minimum records, duties of verifiable reasoning, review of restriction criteria, intelligibility about relevant parameters for the distribution of opportunities and functional restoration of the regime whenever the platform has degraded, by design, the productive utility it offered as infrastructure.<1>p. 768</1>"}
+{"k": "3db4473fdffc79ce", "en": "Relevant rule changes, changes in calculation, reconfigurations of priority, redefinitions of metrics or sanctions with material impact cannot be shielded by a generic discourse of efficiency, security or algorithmic optimization. They must be made minimally verifiable. This does not mean fully opening the system, nor turning the Judiciary into the technical administrator of the platform.<1>p. 767</1>"}
+{"k": "f936758f5bbc48d3", "en": "Where can you take the problem with the work app?"}
+{"k": "d7428a6cefe2dec4", "en": "The first step is usually the app's own channel, in writing, asking for the reason and the criteria for the change. Since the decisive records stay with the company, a lawyer helps to ask that they be kept and shown."}
+{"k": "5b4184c8138805b3", "en": "If the app says you have no protection because you are a partner and make money with it, that answer does not settle the matter. In certain cases consumer law may reach those who use the platform to earn income. This happens when it concentrates control over access, permanence, visibility and challenge."}
+{"k": "eee17b8aa6454e5a", "en": "When the same change affects everyone who works on the app, the answer may be collective and ask for minimum distribution and priority criteria for all. The Public Prosecutor's Office, the Public Defender's Office and the other paths appear on the channels page."}
+{"k": "058d69b4e3e59fb6", "en": "The partner who uses the infrastructure to produce income does not cease to be vulnerable merely because they earn revenue.<1>p. 778</1>"}
+{"k": "89960f6abf26a797", "en": "The CDC may apply not only where there is classic final acquisition, but also where the platform produces relevant functional subjection to a private governance environment that administers, in a concentrated manner, access, permanence, visibility, verifiability and challenge.<1>p. 779-780</1>"}
+{"k": "4baaf2ae46f7b6f8", "en": "How far does this protection go for those who work through an app?"}
+{"k": "c727b492c669dbd9", "en": "This reading does not decide whether there is an employment relationship, nor does it automatically turn the relationship into an employment contract. It looks at the environment the app provides and at the way it is governed."}
+{"k": "6125eb589130adf3", "en": "A consumer by equivalence is a person the law treats as a consumer for being exposed to the company's practices, even without being the final buyer. Not every partner will be treated this way. The criterion is demanding, and the Superior Court of Justice (STJ), the court that has the final word on consumer law, treats this extension as an exception."}
+{"k": "57953b76ada1fbe1", "en": "The central point lies not only in asserting algorithmic subordination in the abstract, nor in automatically reclassifying the whole relationship under traditional categories of the employment contract. The focus, for the purposes of this typology, is on the supply regime.<1>p. 766</1>"}
+{"k": "fd8965847c1eeb63", "en": "The criterion remains demanding. Not every participant in a platform ecosystem will be a consumer by equivalence.<1>p. 780</1>"}
+{"k": "61fd1d6b0baf4b56", "en": "“Art. 29. For the purposes of this Chapter and the following one, all persons, determinable or not, exposed to the practices provided for therein are equated to consumers” <1>Brasil</1><2>(Brasil, [2022])</2>. In the case law of the STJ, the provision works as one of the bases of the so-called deepened finalist theory, because it allows, in exceptional cases, mitigating the strict reading of the final recipient and recognizing the application of the CDC to natural or legal persons who, although not final consumers in the classic sense, find themselves in a situation of vulnerability or exposed to abusive commercial and contractual practices<3>p. 779</3>"}
+{"k": "fe3680cd5677c241", "en": "<1>How can you tell whether the drop has to do with the app's rules?</1>"}
+{"k": "9505cfef29cac9ce", "en": "<1>Which records of your day-to-day in the app are worth keeping?</1>"}
+{"k": "3bedf223bb914175", "en": "<1>What can you ask for when the app changes the rules?</1>"}
+{"k": "a0ddbb4dd235e001", "en": "<1>Where can you take the problem with the work app?</1>"}
+{"k": "5d251db45b04cc74", "en": "<1>How far does this protection go for those who work through an app?</1>"}
+{"k": "3f913c90e0f78a2a", "en": "<1>I work through an app, and the rules changed. Is there something I can ask for?</1>"}
+{"k": "52d8140cefc4cb98", "en": "ANDRADE, Victor L. P. I work through an app, and the rules changed. Is there something I can ask for?. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/problemas/trabalho-por-app/"}
+{"k": "fc9bd920c1ffe983", "en": "You do deliveries or rides through an app and, after a rule change nobody explained, the calls dropped, your earnings fell or there came…"}
+{"k": "f247ab4f3cf3a673", "en": "I work through an app, and the rules changed. Is there something I can ask for?"}
+{"k": "1db2afd90747d56b", "en": "I sell on a platform. Does consumer law protect me? · Lex Plataformae"}
+{"k": "57d1919b12b6b65e", "en": "<1>I sell on a platform.</1> <2>Does consumer law protect me?</2>"}
+{"k": "886d3cbea01a5204", "en": "You sell in an online store or use the platform to make money, and you heard that consumer law does not apply to you because you have a business. Earning income through the platform does not, by itself, take away this protection. But it only reaches you under certain conditions, which depend on how much the platform rules over your place in it."}
+{"k": "a258d6216eef5c07", "en": "How can you tell whether your dependence on the platform counts in your favor?"}
+{"k": "4098e1470de07e88", "en": "What weighs is how much the platform governs your presence in it. The question is whether your permanence and your chance to understand the environment, to reconstruct a conflict and to challenge important decisions are in its hands."}
+{"k": "390604feccaed512", "en": "There are four strong signs. The platform organizes the very understanding of the relationship, concentrates the evidence of what it does, distributes opportunities and risks without clarity and decides whether you stay inside."}
+{"k": "de84bfa53420e47a", "en": "Sellers depend on the ranking, the reputation and the prominence that the platform controls. It does not need to expel a seller to take away their real chance to compete, because small advantages in visibility, day after day, can play that role."}
+{"k": "51e6d72ebeb73d85", "en": "Protection is stronger when what the platform sells you, as a product, is a position that is maintained over time within it. One example is your store's place in the shop window."}
+{"k": "0b41e8df99d559b2", "en": "The peripheral professionalized user does not automatically become the strong party to the relationship just because their activity has an economic purpose. In all these cases, the legally relevant question lies in the density of the platform's governance over their insertion in the ecosystem. If permanence, the intelligibility of the environment, the reconstruction of the conflict and the challenge of relevant decisions remain concentrated under the platform's private control, the a priori exclusion of the CDC by formal label loses adherence.<1>p. 778</1>"}
+{"k": "a68e0fb6b944e9a1", "en": "What is asserted is something more delimited and more serious. When the platform organizes the very intelligibility of the bond, concentrates the evidence of what it does, opaquely distributes opportunities and risks and conditions the continuity of the subject's insertion in the environment, the automatic exclusion of consumer protection by reference to nominal appearances of professionalism or partnership becomes methodologically poor and normatively dangerous.<1>p. 780</1>"}
+{"k": "e51d48c4b4479108", "en": "In markets of this nature, internal preferencing, self-preferencing, informational barriers, capture of competitive intelligence and opaque discrimination do not necessarily depend on ostensible acts of exclusion. They may operate through structural micro-advantages, produced by the continuous administration of the visibility, comparability and intelligibility of the ecosystem.<1>p. 770</1>"}
+{"k": "16bf58ba8b2c4653", "en": "Once the applicability of art. 29 of the CDC<1><2>1</2></1> is admitted to qualify legal persons in a factual position of vulnerability, the regime proves fully pertinent when the immaterial object in question is the enjoyment bundle in a sustained position exploited as a product in the B2B market by the holder and offered, through the marketplace platform, to the seller (vendedor).<3>p. 434</3>"}
+{"k": "08a71d3ab678dceb", "en": "Which records of your store are worth keeping?"}
+{"k": "e1b632f52cd9bc98", "en": "The platform can tinker with visibility, reputation scores, recommendations and return rules. It can also tinker with anti-fraud rules and the way disputes are resolved, and all of this changes your risk and your cost without any explicit cutoff. That is why it is worth keeping, with dates, your reputation, the position of your listings in search and every notice of a rule change."}
+{"k": "e03315ef9f2f770d", "en": "Sales records, ratings and decisions are concentrated in the platform. It is also worth keeping the penalties received, the reason given, the challenge path offered and the customer service replies, because these are the evidence you can have."}
+{"k": "213113c28830654e", "en": "Modulations in visibility algorithms, reputational metrics, recommendation patterns, return policies, anti-fraud rules and dispute parameters can reconfigure risks, transaction costs and the practical viability of choices without taking the form of an explicit interruption.<1>p. 487</1>"}
+{"k": "4308331980c936e6", "en": "Structural dependence manifests itself through the concentration, in the platform, of transaction records, reputational credentials and decision-making instances, intensifying asymmetries of intelligibility and agency.<1>p. 487</1>"}
+{"k": "520f09d88932b1e4", "en": "What can a seller ask of the platform?"}
+{"k": "88643aa06c138b06", "en": "The request may include minimum clarity about the criteria that decide the order of offers and about the preference the platform gives to some of them. It may also include control of changes that downgrade your position without excluding you and a careful look at the use of the data it collects while intermediating sales."}
+{"k": "039ffba95b6e9142", "en": "When consumer law reaches sellers, it applies above all to the platform's commercial practices and to the contract clauses. In the face of a penalty, it also matters to have a reason that can be checked and a real path to challenge it."}
+{"k": "4c491942e41011b7", "en": "Whenever the platform, in organizing enjoyment, also comes to organize in an opaque and asymmetric manner the perceptible conditions of competition within the ecosystem, there should be a requirement of controllability compatible with the dual dimension of the problem. This means, at the least, minimum auditability over relevant ranking criteria, intelligibility about prominence and preferencing practices, control of changes that deform the functional equivalence of competitive permanence and a non-naive reading of the use of data obtained through the very position of intermediation.<1>p. 773</1>"}
+{"k": "deed08218d7615f1", "en": "[...] the Court describes art. 29 as bearing its own very broad concept of consumer by equivalence, especially aimed at the chapters on commercial practices and contractual protection<1>p. 779</1>"}
+{"k": "3c96aa6e9d9c121a", "en": "Where can a seller take the complaint?"}
+{"k": "9ec3bc93730c6609", "en": "The first path is usually the platform's channel for sellers, in writing and with the screens saved. Since a seller's protection depends on showing the dependence and the criterion is demanding, a lawyer helps to see whether your case qualifies."}
+{"k": "991a99b9bac6a11a", "en": "When the rule change affects all sellers at the same time, because it arises from the platform's design, the answer may be collective. The question may also concern competition law, which looks after fair competition among sellers."}
+{"k": "7d4833707b0e40e9", "en": "The platform that governs the user's experience governs, at the same time, the perceptible field in which competition becomes possible, legible and economically effective.<1>p. 769</1>"}
+{"k": "fde8acb79dccb422", "en": "When does a seller fall outside consumer law?"}
+{"k": "e49121d02fd7e0d7", "en": "Not every seller or partner will be treated as a consumer by equivalence, who is the person the law protects as a consumer for being exposed to the company's practices. And not every relationship carried out through technology attracts consumer law."}
+{"k": "b9b63ed5e3fc1524", "en": "Protection also does not erase the difference between consumer and company. The Superior Court of Justice (STJ), the court that has the final word on consumer law, treats this extension as an exception. It applies above all to a company that contracts something outside its own area of activity."}
+{"k": "4b62e25455f3dc59", "en": "And when the platform only sells ad space and customer search, without ruling over the sales that come afterward, this reading stays out, in principle."}
+{"k": "28968a80e2f672a3", "en": "“Art. 29. For the purposes of this Chapter and the following one, all persons, determinable or not, exposed to the practices provided for therein are equated to consumers” <1>Brasil</1><2>(Brasil, [2022])</2>.<3>p. 779</3>"}
+{"k": "05a87c4ce54efeb3", "en": "The criterion remains demanding. Not every participant in a platform ecosystem will be a consumer by equivalence. Not every relationship economically mediated by technology will justify application of the CDC.<1>p. 780</1>"}
+{"k": "9a4e007819a18490", "en": "The point is not to dissolve every distinction between consumer and economic agent.<1>p. 779</1>"}
+{"k": "a96af76c9987937c", "en": "[...] and from it derives the possibility of equating the vulnerable legal person, especially when it acts outside its core specialty, as a way of preventing formal parity from neutralizing the material protection of the CDC.<1>p. 779</1>"}
+{"k": "26d582fa725259c9", "en": "<1>The online store hides who is paid and who is trustworthy. Does that count?</1>"}
+{"k": "493207663f282739", "en": "<1>I work through an app, and the rules changed. Is there something I can ask for?</1>"}
+{"k": "ec97bc9f8ddeefc7", "en": "<1>How can you tell whether your dependence on the platform counts in your favor?</1>"}
+{"k": "9e5f3e7c25a873b9", "en": "<1>Which records of your store are worth keeping?</1>"}
+{"k": "cf61f6ed5e392bab", "en": "<1>What can a seller ask of the platform?</1>"}
+{"k": "0c2c94d69513b2d4", "en": "<1>Where can a seller take the complaint?</1>"}
+{"k": "97944201594b3e8c", "en": "<1>When does a seller fall outside consumer law?</1>"}
+{"k": "6ba77f35a682d602", "en": "<1>I sell on a platform. Does consumer law protect me?</1>"}
+{"k": "55901ddd141149ef", "en": "ANDRADE, Victor L. P. I sell on a platform. Does consumer law protect me?. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/problemas/vendo-na-plataforma/"}
+{"k": "13fe870967f17f3e", "en": "You sell in an online store or use the platform to make money, and you heard that consumer law does not apply to you because you have a business. Earning…"}
+{"k": "75f160948f52e2e9", "en": "I sell on a platform. Does consumer law protect me?"}
+{"k": "70a39f2f8fde10fc", "en": "Your rights when buying digital items, accounts and access · Lex Plataformae"}
+{"k": "7c9ef8ba7fdcb868", "en": "<1>Rights</1>"}
+{"k": "8ea8d5b8761b4236", "en": "Your rights"}
+{"k": "8402637865c0cc96", "en": "When what you buy only exists inside a platform, the sale does not end at the click. The company keeps maintaining, changing and controlling what you use, and that is why it retains duties that accompany the purchase for as long as it lasts. The center of the relationship stops being the contract you accepted one day and becomes the use you make, every day, of what you bought."}
+{"k": "83521551b96af512", "en": "Below are the main duties, one per situation. In each one you find when it appears, what the platform owes, what helps show the problem, what you can ask for and how far it goes."}
+{"k": "be2195bd3fbaf992", "en": "Read with one caution. None of this is a ready-made formula or a guarantee of results, because each case depends on what happened, on what can be shown and on how whoever decides reads the facts. What changes is the way of telling the conflict, which stops being a loose episode and becomes the way the platform supplies what it sold."}
+{"k": "cdc245b7ccbefbf3", "en": "Enjoyment, here, does not appear as an accidental effect of a formally concluded contract, but as the material core of the consumer relationship.<1>p. 717-718</1>"}
+{"k": "709c359c99883c03", "en": "In continuous consumption, the acquisition inaugurates a position in the ecosystem and not a delivery exhausted in an instant.<1>p. 428</1>"}
+{"k": "9978378b7e1e24b6", "en": "The way of narrating the conflict changes, because attention shifts from the isolated event to the supply program.<1>p. 788</1>"}
+{"k": "1805929db691a3dd", "en": "What is your problem?"}
+{"k": "34dc1b2de331bfd1", "en": "<1>My account was blocked or banned. What about what I bought?</1>"}
+{"k": "fe00b3296ee5f136", "en": "<1>What I bought changed in an update. Now what?</1>"}
+{"k": "89905ce790f8c0e6", "en": "<1>The service got worse, and the price is still the same. Can I complain?</1>"}
+{"k": "a987082b941a8e51", "en": "<1>An item I received as a gift was removed from my account. Now what?</1>"}
+{"k": "1c44af60050d1d9d", "en": "<1>The service is going to end. What happens to what I bought?</1>"}
+{"k": "4afebd88e476b461", "en": "<1>The company says I only have a license. So did I buy nothing?</1>"}
+{"k": "da3aa19ffb9d63c6", "en": "<1>What was advertised is not what I received. Now what?</1>"}
+{"k": "ba6620516ef5983e", "en": "<1>I paid a lot for something exclusive, and it came back cheaper. Is that allowed?</1>"}
+{"k": "90ce9f0f5fd18433", "en": "<1>I paid for a draw or a loot box. What do I need to know?</1>"}
+{"k": "d79361446b27ed63", "en": "<1>The service's currency now buys less. Is that allowed?</1>"}
+{"k": "ff5395b96e10ba7a", "en": "<1>The offer said last chance. Was I pressured into buying?</1>"}
+{"k": "8da78ef5d0529fc8", "en": "<1>The rule that hurt me was buried in the terms of use. Now what?</1>"}
+{"k": "c9c2e00553c8f8dd", "en": "<1>The records are with the company. How do I prove what happened?</1>"}
+{"k": "18674d82a6a46caa", "en": "<1>I complain, and the answer never solves anything. What can I do?</1>"}
+{"k": "b370f233e2233ca7", "en": "<1>I want to leave, but I would lose everything I built there. Does that count?</1>"}
+{"k": "97f29731e12a56f8", "en": "<1>I lost years of history. Is that more than an item?</1>"}
+{"k": "a7f8275fdd68b00b", "en": "<1>The service requires a program that runs on my device. Can I question that?</1>"}
+{"k": "f06e63835d43a4b4", "en": "<1>My son or daughter spent money in a game. What does the law say?</1>"}
+{"k": "28f926dcf3ed9017", "en": "<1>The artificial intelligence assistant changed or made a mistake. What can I demand?</1>"}
+{"k": "31a3e41015ebb942", "en": "<1>The online store hides who is paid and who is trustworthy. Does that count?</1>"}
+{"k": "07e0ed1d117ee69b", "en": "<1>My reach dropped or I was penalized on a social network. Is there something I can ask for?</1>"}
+{"k": "3c9af35aa64cd7a4", "en": "<1>I work through an app, and the rules changed. Is there something I can ask for?</1>"}
+{"k": "918fc962350f5892", "en": "<1>I sell on a platform. Does consumer law protect me?</1>"}
+{"k": "dbe3c57d3a1fe9e3", "en": "<1>It happened to a lot of people. Can it be solved all at once?</1>"}
+{"k": "272a6e0e02e9b7b7", "en": "<1>Where can you complain when the platform does not solve it?</1>"}
+{"k": "e1186648257a8b0c", "en": "<1>What you bought is a product, even with nothing in your hands</1>"}
+{"k": "9179d74f3bcc3739", "en": "<1>The platform cannot build the experience so that you do not understand</1>"}
+{"k": "03ffa89996a7f7ef", "en": "<1>Information has to be good for something</1>"}
+{"k": "bd92d6c7afd7eb23", "en": "<1>What was promised has to be delivered</1>"}
+{"k": "5101da3d5c77d11a", "en": "<1>A relevant change has to leave a trail</1>"}
+{"k": "5572775833bc2a7d", "en": "<1>If it changed, it has to keep what it was worth</1>"}
+{"k": "c87c950437b5bbf6", "en": "<1>A penalty needs a reason and a chance to defend yourself</1>"}
+{"k": "f449ad78434447eb", "en": "<1>When loss is the rule, the problem is the design</1>"}
+{"k": "a0065c1f33ac7358", "en": "<1>The evidence held by the platform has to come out</1>"}
+{"k": "d5aa62a6d75ab9fd", "en": "<1>Owning the work is not an excuse for everything</1>"}
+{"k": "74c2b5ece57e5ba7", "en": "<1>The answer should restore what you lost</1>"}
+{"k": "c1d0c4e13ab41193", "en": "<1>What you bought is a product, even with nothing in your hands</1><2>What you bought is a product, even with nothing in your hands</2>"}
+{"k": "6a770cf20f2d99d0", "en": "Whenever the utility consumed depends structurally on an environment administered, modulated and changeable by private governance, with impact on access, permanence, intelligibility or updating of the experience, the field of application of the IOC will be configured.<1>p. 743</1>"}
+{"k": "d2b5133a17c3ace0", "en": "The corresponding duty of supply is to ensure enjoyment that is functionally accessible, intelligible and preserved within the limits of the legitimate mutability of the environment.<1>p. 743</1>"}
+{"k": "043bf12662e9466a", "en": "The minimum required evidence concerns the demonstration of the structural dependence of the utility on the governed ecosystem, of the way the experience is made available and of the consumer's concrete position in the bond.<1>p. 743</1>"}
+{"k": "770573c540be079c", "en": "The resulting legal qualification is that of an immaterial product subject to the regime of art. 3, § 1, of the CDC<1><2>1</2></1>, without the service dimension of the bond removing the control of enjoyment as the core of supply.<3>p. 743</3>"}
+{"k": "c7109b057e508a19", "en": "The possible institutional consequence consists in opening the subsequent filters of the regime, preventing the controversy from being neutralized by the allegation of mere provision of service or of simple formal licensing.<1>p. 743</1>"}
+{"k": "77eebad7ff66f96c", "en": "The service does not disappear, but appears as a mode of sustaining, updating and shaping the object of consumption itself.<1>p. 718</1>"}
+{"k": "34ad9a50cdeee5a4", "en": "The fifth limit is the case in which the core of the conflict is something else, such as a classic isolated defect, undue charge, localized misleading advertising or specific breach of an offer. In these cases, ordinary consumer dogmatics tends to resolve the dispute without real gain in mobilizing the IOC.<1>p. 435</1>"}
+{"k": "b3ca9037f89ca248", "en": "<1>The platform cannot build the experience so that you do not understand</1><2>The platform cannot build the experience so that you do not understand</2>"}
+{"k": "9e23064f88e214e1", "en": "Whenever expectation, perception of value, risk assessment or capacity to challenge depend on signs, interfaces, flows and informational trails controlled by the supplier, there will be legally relevant semiotic vulnerability.<1>p. 744</1>"}
+{"k": "5584b3d154c739d0", "en": "The term does not designate naivety, credulity or cultural deficiency of the consumer.<1>p. 719</1>"}
+{"k": "f57265e940732226", "en": "Whoever controls the way in which the object is made intelligible frequently also controls the records by which this intelligibility can be reconstructed in case of conflict.<1>p. 720</1>"}
+{"k": "43344f0e169da9a1", "en": "The corresponding duty is not to organize the experience through a structural asymmetry of meaning incompatible with good faith, transparency and legibility of enjoyment.<1>p. 744</1>"}
+{"k": "79e2238808443205", "en": "The minimum required evidence involves reconstructing the user's journey, the informational architecture of the environment, the communicational saliences, the paths of understanding and the records available to reconstitute the formation of expectation.<1>p. 744</1>"}
+{"k": "b88c56eb45accd73", "en": "The first source of grounding is the interface trails and decision flow: dated screenshots, screen recordings, purchase, acceptance, upgrade, confirmation screens<1>p. 607</1>"}
+{"k": "68a27606a32b1b9e", "en": "What is relevant there is not the user's subjective memory<1>p. 607</1>"}
+{"k": "014a6e1370e185fd", "en": "The possible legal qualification may sustain abusive practice, informational insufficiency, deceptiveness by ambiguity or relevant omission and, when articulated with other elements, grounds for dynamic redistribution of the burden of proof.<1>p. 744</1>"}
+{"k": "94e0f5a730c85dfb", "en": "The institutional consequence consists in bringing the conflict back to the governance of the environment, avoiding moralization of the consumer's conduct and allowing the application of reinforced duties of information, advertising and proof.<1>p. 744</1>"}
+{"k": "8b9c0ab4069959a9", "en": "Nor is it a matter of presupposing absolute incapacity before the digital.<1>p. 720</1>"}
+{"k": "6c31e24b763d2ad3", "en": "<1>Information has to be good for something</1><2>Information has to be good for something</2>"}
+{"k": "7b8ae37d41bd6574", "en": "Whenever the platform replaces legibility with textual excess, strategic dispersion, fragmentation of informational trajectories or merely performative transparency, there will be inadequacy of the duty to inform.<1>p. 744</1>"}
+{"k": "d3446d5584267adb", "en": "Information, in the CDC, does not fulfill its function just because it exists somewhere, nor because it was deposited in lengthy documents, cross-references, FAQs or update histories that the consumer will hardly locate, understand and connect to the impact<1>p. 641</1>"}
+{"k": "188989f3e8b4c23e", "en": "The corresponding duty of supply is to provide information that is materially adequate, useful for the decision and verifiable at a later moment of controversy.<1>p. 744</1>"}
+{"k": "3fe8c35930697861", "en": "The minimum required evidence requires identifying what was shown, at what moment, with what salience, through which channels and to what extent this organization allowed the consumer to understand what was legally relevant to join, remain or react.<1>p. 744</1>"}
+{"k": "1ebf4bc455eaf973", "en": "The legal qualification tends to apply as a defect of informational quality of the supply, abusive practice by functional obscuring and, depending on the case, support for the invalidity of clauses or limitations incompatible with the legitimately formed expectation.<1>p. 744</1>"}
+{"k": "533ee2ee01b6ae99", "en": "The possible institutional consequence includes a duty to correct the communicational arrangement, reinforcement of useful transparency, disclosure orders and restoration of the enjoyment affected by decision-making opacity.<1>p. 744</1>"}
+{"k": "2bb990dc0a20673f", "en": "The point is not to assert that the consumer “did not read” or “did not understand”<1>p. 401</1>"}
+{"k": "4aa82cf1769376d4", "en": "<1>What was promised has to be delivered</1><2>What was promised has to be delivered</2>"}
+{"k": "30fe0d5cc346676d", "en": "Whenever enjoyment is preceded by curated cycles of anticipation, promise, suggested scarcity, symbolic distinction or insinuated equivalences, advertising will materially integrate the offer.<1>p. 744-745</1>"}
+{"k": "2ce30299ba9f94be", "en": "The corresponding duty of supply is to ensure correspondence between promise, announced value, concealed costs and the experience actually made available under administered mutability.<1>p. 745</1>"}
+{"k": "2b123bae2faf2407", "en": "The minimum required evidence involves reconstructing the promotional environment, the communication pieces, the symbolic saliences, the context of presentation of the object and the relation between prior promise and subsequent enjoyment.<1>p. 745</1>"}
+{"k": "68e3ed6c3ef53732", "en": "The legal qualification may fall on misleading or abusive advertising, binding offer, abusive practice by administered ambiguity<1>p. 745</1>"}
+{"k": "4d770ba9f193c3e3", "en": "The possible institutional consequence encompasses correction of the offer, functional restoration, injunctive protection over the communication and, depending on the case, invalidation of promotional strategies incompatible with the real experience delivered.<1>p. 745</1>"}
+{"k": "9e2027099c1d8d03", "en": "<1>A relevant change has to leave a trail</1><2>A relevant change has to leave a trail</2>"}
+{"k": "c31437b3edb799a1", "en": "Whenever relevant changes to access, performance, utility, operating rule or sanction affect enjoyment without preservation of minimum trails of institutional reconstruction, there will be a violation of the parameter of open auditability.<1>p. 745</1>"}
+{"k": "8d4e7e5c9eb635da", "en": "The corresponding duty of supply is to maintain minimum verifiability over what was changed, when, for what reason it was justified and what functionally relevant effects it produced.<1>p. 745</1>"}
+{"k": "3afe86939bbe9a03", "en": "It is for this reason that open auditability must be understood as an internal unfolding of the duty to inform and not as an institute foreign to the microsystem.<1>p. 641</1>"}
+{"k": "044351d705c60c83", "en": "A standard of minimum verifiability, compatible with the protection of software and trade secrets, but incompatible with the opaque shielding of execution; an unfolding of the duty to inform, of objective good faith and of facilitating the consumer's defense<1>p. 648</1>"}
+{"k": "e6f2ae2f40ea189e", "en": "The requirement of open auditability is not to be confused with full opening of the source code nor with suppression of the technical secrecy of software.<1>p. 643</1>"}
+{"k": "320bd6fd7a12ad93", "en": "The minimum required evidence consists of essential logs, history of relevant versions, sanction records, minimum operational justifications, context data and delimited technical elements sufficient to make the controversy cognizable.<1>p. 745</1>"}
+{"k": "ca35b8ae70f04d99", "en": "The institutional consequence includes orders to preserve and disclose records, delimited expert examination, presumptions unfavorable to the supplier and control of the lawfulness of the change or sanction based on minimum institutional intelligibility.<1>p. 745</1>"}
+{"k": "5638d2516557b684", "en": "Open auditability is not required in the face of any microscopic adjustment, any cosmetic change or any irrelevant fluctuation of the service.<1>p. 642</1>"}
+{"k": "b86c8c5df0aec2bb", "en": "It may affect access and permanence, the functional integrity of the object, promised equivalences, the symbolic position of the IOC in the ecosystem, or even the consumer's conditions of proof and challenge.<1>p. 642</1>"}
+{"k": "23202ebd6b24dcfd", "en": "<1>If it changed, it has to keep what it was worth</1><2>If it changed, it has to keep what it was worth</2>"}
+{"k": "c1801f3746b99111", "en": "Whenever the platform changes the experience in a way that degrades, empties or substantially diverts the function that justified the acquisition, there will be a rupture of functional value equivalence.<1>p. 745</1>"}
+{"k": "a09774d63fb3dbe3", "en": "The strength of the criterion appears clearly in cases such as removals of relevant features, nerfs that empty out acquired utility<1>p. 637</1>"}
+{"k": "aecffbe58e782c4f", "en": "The consumer remains formally “inside” the ecosystem, still has the account, still sees the object, can still access the platform. Even so, the utility enjoyed may be substantially downgraded<1>p. 635</1>"}
+{"k": "c1e1db5b0895b063", "en": "The corresponding duty of supply is to preserve, in substantial terms, the functional, relational and, when legally relevant, symbolic role of the object in the consumer's experience.<1>p. 745</1>"}
+{"k": "14ddf8d5168997ef", "en": "The minimum required evidence requires demonstration of the utility previously incorporated into the bond, of the change that occurred, of the concrete functional impact of the alteration and of the insufficiency of any restoration offered.<1>p. 745-746</1>"}
+{"k": "e39ec47b4d9bd193", "en": "The possible legal qualification tends to fall on a quality defect of the product or service<1>p. 746</1>"}
+{"k": "bb6b2c1a5f53f574", "en": "The possible institutional consequence prioritizes functional restoration, technical reversal when feasible, equivalent replacement and correction of the form of updating, instead of mere automatic monetization of the loss.<1>p. 746</1>"}
+{"k": "87d98434f7178e2f", "en": "This does not mean requiring perfect identity between earlier and later versions, nor imposing a freeze on the service.<1>p. 730</1>"}
+{"k": "ddc82b9553388692", "en": "What the parameter refuses is not change itself, but its instrumentalization to transfer to the consumer the cost of reconfigurations that destroy or significantly downgrade the acquired utility without compatible restoration.<1>p. 730</1>"}
+{"k": "4004f87925c5beef", "en": "Nerfs, removals, reworks, migrations, rule changes, reordering of access, reconfiguration of interfaces and suppression of features are usually narrated as the natural evolution of the environment. In many cases, in fact, they may be.<1>p. 730</1>"}
+{"k": "681752362f6bb9df", "en": "<1>A penalty needs a reason and a chance to defend yourself</1><2>A penalty needs a reason and a chance to defend yourself</2>"}
+{"k": "e03f29e3335425fb", "en": "Whenever access, permanence, visibility or challenge are conditioned by opaque sanctions, selective frictions, excessive costs of reaction or asymmetric reversal mechanisms, there will be an indication of abusive governance of the bond.<1>p. 746</1>"}
+{"k": "8c3f8689e9f97855", "en": "The corresponding duty of supply is to ensure minimally intelligible procedures, verifiable reasoning, a reasonable possibility of challenge and non-arbitrary treatment of the user in the administration of enjoyment.<1>p. 746</1>"}
+{"k": "aeedaa0c98220bff", "en": "The minimum required evidence concerns sanction records, the challenge flow, the criteria mobilized, structural difficulties of reversal and the concrete impacts of the measure on the continuity of the experience.<1>p. 746</1>"}
+{"k": "258dec6a3aa2a1f7", "en": "The institutional consequence includes reversal or review of sanctions, procedural duties, creation or improvement of challenge mechanisms and, in structurally repetitive cases, correction of the ecosystem's enforcement regime.<1>p. 746</1>"}
+{"k": "6ff7a0b160d74676", "en": "For this reason, they must be controlled by criteria denser than the mere formal existence of sanctioning power. They require verifiable reasoning, decisional coherence and intelligible avenues of challenge.<1>p. 749</1>"}
+{"k": "bd433cd57b55685e", "en": "Added to this is a reward architecture, with progression and grind systems, and a sanctioning architecture, with bans, restrictions, automated penalties and opaque policies<1>p. 211</1>"}
+{"k": "adad5348a5dae3e9", "en": "[...] including the so-called Virtual Content, occurs by a limited and revocable license, conditioned on compliance with the Terms, and that the closing of the account entails automatic cancellation of the license and loss of access to the associated content<1>p. 408</1>"}
+{"k": "1a13fc7d90d4070d", "en": "<1>When loss is the rule, the problem is the design</1><2>When loss is the rule, the problem is the design</2>"}
+{"k": "224968cca153d204", "en": "Whenever microfrictions, normalized losses, manufactured urgencies, artificial scarcities, strategic opacity, elastic equivalences and other mechanisms operate in a coordinated way to extract value from vulnerability or to degrade enjoyment as a routine of the environment, there will be a case of abusive teleology.<1>p. 746</1>"}
+{"k": "a15d02c1edba2ddd", "en": "It is not a matter of investigating the subjective psychological intention of business agents, nor of moralizing every form of monetization, persuasion or private governance. The focus is on the functional purpose objectively inscribed in the arrangement, as revealed by its replicability, by its internal coherence and by its repeated impact on the consumer's experience.<1>p. 732</1>"}
+{"k": "38f91ac159199c18", "en": "The corresponding duty of supply is not to structure the experience on the basis of an exploitative purpose incompatible with good faith, transparency, balance and the protection of the enjoyment legitimately incorporated into the bond.<1>p. 746</1>"}
+{"k": "daf3a899a6be494e", "en": "The minimum required evidence consists in demonstrating the pattern, its replicability, the coordination among mechanisms of the ecosystem and the relevant impact produced on practical autonomy, intelligibility or utility of the experience.<1>p. 746-747</1>"}
+{"k": "842a0b4ed5a56974", "en": "The institutional consequence goes beyond the redress of isolated episodes and may include reconfiguration of flows, reinforced transparency duties, design correction and structural or collective measures.<1>p. 747</1>"}
+{"k": "c8d8172998416e7d", "en": "What is controlled is not an inner will, but a recognizable program<1>p. 732</1>"}
+{"k": "816e32993876138b", "en": "<1>The evidence held by the platform has to come out</1><2>The evidence held by the platform has to come out</2>"}
+{"k": "37fde0a31c355142", "en": "Whenever the platform concentrates the essential elements to narrate, demonstrate and reconstruct the conflict, the evidentiary discipline must recognize that verifiability is part of the very legitimate regime of supply.<1>p. 747</1>"}
+{"k": "bc775522df2f4eca", "en": "The corresponding duty is to preserve and disclose the minimum records necessary to reconstruct the disputed event.<1>p. 747</1>"}
+{"k": "de60c50ba7f6fde5", "en": "The minimum required evidence, from the consumer's point of view, consists in a plausible presentation of the harmful experience, of its insertion in the ecosystem and of the accessible context elements<1>p. 747</1>"}
+{"k": "fa68e9d2ec7929aa", "en": "from the supplier's point of view, the disclosure of trails, logs, histories, versions and technically delimited justifications is required<1>p. 747</1>"}
+{"k": "f61ff2d81ed54a41", "en": "The more the reconstruction of the conflict depends on internal governance, the less reasonable it will be to require from the consumer a detailed demonstration of facts whose documentary and technical support was never within their reach.<1>p. 736</1>"}
+{"k": "0c80a32560385d65", "en": "The possible legal qualification involves dynamic redistribution of the burden of proof, presumptions favorable to the consumer and reinforcement of the duty of cooperation<1>p. 747</1>"}
+{"k": "a87d71b86d6c9995", "en": "This does not eliminate the need for plausibility, argumentative linkage or delimitation of the disputed object. What it eliminates is the fiction of symmetry in environments whose very structure operates through asymmetry of meaning and of proof.<1>p. 736</1>"}
+{"k": "ba89fa5305dcc922", "en": "The institutional consequence consists in preventing technical opacity from turning into procedural shielding<1>p. 747</1>"}
+{"k": "1bf25086a58b103c", "en": "<1>Owning the work is not an excuse for everything</1><2>Owning the work is not an excuse for everything</2>"}
+{"k": "7300f2aeae1f103a", "en": "Whenever the platform invokes exclusive ownership, trade secrets, licensing or the proprietary structure of the ecosystem to resist control of the mode of supply, reconciliation must be made in light of the social function and the constitutional limits on the exercise of private positions.<1>p. 747</1>"}
+{"k": "5a2327861e47f15e", "en": "On the contrary, it expressly subordinates the legal guarantee of the privilege over industrial inventions and of the protection of industrial creations, trademarks, company names and other distinctive signs to the social interest and to the technological and economic development of the Country<1>p. 702</1>"}
+{"k": "4b6b117150c4fed6", "en": "In this scenario, intellectual property appears as an infrastructure of semiotic and technical governance. It not only protects creations, but helps delimit uses, restrict reconfigurations and consolidate the supplier's authority over the conditions of enjoyment<1>p. 130</1>"}
+{"k": "9c39e627f4ce1054", "en": "Licenses and technical restrictions are not treated merely as contractual content<1>p. 54</1>"}
+{"k": "7bf3eed4b633bee9", "en": "that delimits what can be used, for how long, under what conditions<1>p. 54</1>"}
+{"k": "80819a0113dbe5a6", "en": "The corresponding duty is to exercise exclusivity without turning it into a shield for absolute opacity, degrading mutability or arbitrary suppression of enjoyment.<1>p. 747</1>"}
+{"k": "4fec8d00d37a1e1d", "en": "The minimum required evidence concerns the relation between the prerogative invoked and the concrete aspect of the conflict, demonstrating whether the restriction is really necessary to protect the asset or operates, in truth, as undue immunization of governance.<1>p. 747</1>"}
+{"k": "1636e7e065798158", "en": "The possible legal qualification preserves the validity of intellectual property on its own plane, but rules out its invocation as a general veto on the application of the CDC.<1>p. 747</1>"}
+{"k": "9170f019fc81d182", "en": "institutional consequence consists in reconciling exclusivity and consumer protection through delimited auditability, control of functional equivalence and subjection of the exercise of IP to the duties of adequacy, transparency and restoration.<1>p. 748</1>"}
+{"k": "8e7a78c8f8a33424", "en": "The right to exploit, close or reorganize an economic activity is not to be confused with a supposed right to annihilate, without duties of transition, preservation or transfer, the functional enjoyment already stabilized in the consumer's sphere.<1>p. 709</1>"}
+{"k": "d99e1a9bfd94fadb", "en": "<1>The answer should restore what you lost</1><2>The answer should restore what you lost</2>"}
+{"k": "4c7d57f2133ed682", "en": "Whenever the injury affects access, continuity, equivalence, history, relational position or significant density of enjoyment, the legal response must prioritize functional restoration, reserving monetary compensation for cases where restoration is unfeasible or insufficient.<1>p. 748</1>"}
+{"k": "406169ee3343209a", "en": "The corresponding duty is to structure protection in accordance with the nature of the loss, aiming at the affected enjoyment and not only at its residual monetary translation.<1>p. 748</1>"}
+{"k": "9d5e953e9524e770", "en": "The minimum required evidence involves demonstrating the causal link between the governance mechanism and the functional loss, as well as the technical or institutional possibility of restoration, reversal, equivalent replacement or procedural correction.<1>p. 748</1>"}
+{"k": "b233a4a6d7cf251d", "en": "The possible legal qualification varies according to the main incidence of the case, but the institutional consequence should favor restoration of access, reversal of sanctions, preservation of history, equivalent functional replacement, governance adjustments, injunctive protection and structural correction when the harm reveals a repeatable pattern<1>p. 748</1>"}
+{"k": "c04694aec2804947", "en": "In these cases, monetary compensation continues to play an important role, whether to reimburse material losses or to recognize non-pecuniary damages when present. What is refused is its transformation into an automatic and preferential response in every case, as if injury to the IOC could always be adequately translated into a figure without regard to the structure of the compromised enjoyment.<1>p. 742</1>"}
+{"k": "3c8d3b1f21e43717", "en": "<1>Follow the skin from the purchase</1>"}
+{"k": "669bc4c610901fae", "en": "ANDRADE, Victor L. P. Your rights when buying digital items, accounts and access. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/direitos/"}
+{"k": "606cf0dd8956056d", "en": "What the platform owes those who buy digital items, accounts and access, and what you can ask for when something goes wrong."}
+{"k": "bbc23cb7321def1c", "en": "By problem"}
+{"k": "01dd1e038a010c3d", "en": "The rights"}
+{"k": "3f7bd2ef456ddd35", "en": "Where can you complain when the platform does not solve it? Procon, consumidor.gov.br, Small Claims Court and deadlines · Lex Plataformae"}
+{"k": "ad283856e428adb8", "en": "<1>Your rights</1> · <2>By problem</2>"}
+{"k": "72c2b2203b0c7ae0", "en": "Where can you complain when the platform does not solve it?"}
+{"k": "d4ea456976493cae", "en": "When talking with the platform does not solve it, the law offers other paths, and almost all of them are free. Here are the main ones, with what each does, what it asks of you and how much time you have."}
+{"k": "4844b2ed81f89a60", "en": "Information added on November 8, 2026, based on the law and the official channels.<1> It is a later addition to the thesis, which does not deal with complaint channels.</1>"}
+{"k": "2cbd27f99bb075d4", "en": "Where to start?"}
+{"k": "6b9265e580d42887", "en": "The first path is usually the company itself, through the customer service channel it offers. It is worth complaining in writing, or in a channel that generates a ticket number, and keeping that number."}
+{"k": "c4432a69db663b77", "en": "This has an effect in law. A complaint made to the company, when you can prove you made it, holds the deadline for complaining until the company answers with a clear no."}
+{"k": "dac1ed63a3d50f0b", "en": "What Article 26 of the CDC says<1><2>1</2></1>"}
+{"k": "a74423e5d9fed277", "en": "Art. 26. The right to complain about apparent or easily noticeable defects lapses in: I - thirty days, in the case of supply of services and non-durable products; II - ninety days, in the case of supply of services and durable products. § 1 The lapse period begins to run from the effective delivery of the product or the end of the performance of the services. § 2 The following prevent lapse: I - a complaint demonstrably made by the consumer to the supplier of products and services until the corresponding negative answer, which must be transmitted unequivocally; II - (Vetoed). III - the opening of a civil inquiry, until its closing. § 3 In the case of a hidden defect, the lapse period begins at the moment the defect becomes evident."}
+{"k": "1db7754afe983eab", "en": "Brazilian Consumer Protection Code (Código de Defesa do Consumidor, CDC), Law 8,078/1990, on the <1>Planalto website</1>"}
+{"k": "3dc0afba4cbae7fb", "en": "§ 2 The following prevent lapse: I - a complaint demonstrably made by the consumer to the supplier of products and services until the corresponding negative answer, which must be transmitted unequivocally;<1>p. 558</1>"}
+{"k": "8e391adb00cb8b91", "en": "How much time do you have to complain?"}
+{"k": "dced7c8c65c4b4a8", "en": "For a defect that is easy to notice, the Consumer Protection Code gives thirty days when the service or product is not durable, and ninety days when it is durable. The deadline runs from the delivery of the product or the end of the service."}
+{"k": "8a149f6a8361c229", "en": "If the problem stays hidden and only shows up later, the deadline starts when it becomes evident. In a service that continues over time, such as a game or an account, the loss may appear little by little, and the count should follow the moment when it can be noticed."}
+{"k": "b895a1deed3437c5", "en": "The law does not say in so many words whether a digital item is durable or not. That is why the safest course is to complain within the thirty days and keep proof that you complained."}
+{"k": "59527e8733bbe4f1", "en": "When the problem causes greater harm, which affects you or your property beyond the item itself, the deadline to claim compensation is five years. It runs from when you learned of the harm and of who caused it."}
+{"k": "9a77d685b43e193b", "en": "What Article 26 of the CDC says<1><2>1</2></1>"}
+{"k": "5e4c7de2b8ad7cd8", "en": "What Article 27 of the CDC says"}
+{"k": "3f4c2b7a284fe0e8", "en": "Art. 27. The claim for redress of damages caused by product-caused or service-caused accidents provided for in Section II of this Chapter is time-barred in five years, the period beginning to run from knowledge of the damage and of its authorship."}
+{"k": "ea46b3ca28b1c1f2", "en": "I - thirty days, in the case of supply of services and non-durable products; II - ninety days, in the case of supply of services and durable products.<1>p. 558</1>"}
+{"k": "c7cbdf21c1c83c7e", "en": "§ 3 In the case of a hidden defect, the lapse period begins at the moment the defect becomes evident.<1>p. 558</1>"}
+{"k": "a2b39891b6d255b8", "en": "In continuing relationships, the deadline cannot be used to convert the initial formal delivery into an artificial milestone of early emptying of consumer protection. The count must dialogue with the real moment of cognizability of the inadequacy, especially when it only emerges in prolonged use or in the supervening deterioration of serviceability<1>p. 558</1>"}
+{"k": "c11fe249b57a73f1", "en": "How does consumidor.gov.br work?"}
+{"k": "d1c06f7f992ebfe9", "en": "consumidor.gov.br is a free public service of the federal government for resolving consumer disputes over the internet. You register the complaint, and the company answers right there."}
+{"k": "d907d3d2024ab9f0", "en": "To use it, you need a silver or gold level gov.br account. The company also needs to be registered on the site, and its participation is voluntary. If it is not, the site itself lets you suggest that it join."}
+{"k": "642eefc79d5fc9da", "en": "After registration, the company has up to ten days to answer. Then you have up to twenty days to say whether the problem was solved and to rate the service."}
+{"k": "cb6677acd80105a1", "en": "The site does not replace Procon, the Public Defender's Office, the Public Prosecutor's Office or the Small Claims Court, which remain available to you."}
+{"k": "3536d214da73c2da", "en": "The rules of consumidor.gov.br"}
+{"k": "8124fe93ef2fe877", "en": "A free public service for resolving consumer disputes over the internet, monitored by the National Consumer Secretariat (Senacon) of the Ministry of Justice."}
+{"k": "1bf9fdb52d5988ca", "en": "To register a complaint you need to sign up, accept the terms of use and have a silver or gold level gov.br account."}
+{"k": "8791e2b128aa62f0", "en": "The company needs to be registered on the site to receive the complaint, and its participation is voluntary. If it is not, the consumer can suggest that it join."}
+{"k": "3e28371460f84c35", "en": "The company has up to 10 days to answer. Afterward, the consumer has up to 20 days to evaluate the answer."}
+{"k": "d9912e7ceaca29fc", "en": "The service does not replace Procon, the Public Defender's Office, the Public Prosecutor's Office or the Small Claims Courts, which remain available."}
+{"k": "63e9b0e8dc23d358", "en": "On the official pages of <1>consumidor.gov.br</1> and of the <2>Ministry of Justice</2>"}
+{"k": "76a6067c3d3875b7", "en": "What can Procon do?"}
+{"k": "934776f4ee5308ca", "en": "Procon is the consumer protection agency of your state or city, and it is part of the national consumer protection system. It serves consumers, processes complaints and oversees consumer relations."}
+{"k": "62a10c19ee1c53d9", "en": "Each Procon has its own channels, which may be in person or online. A complaint at Procon also leaves a record, which helps show later that you tried to solve the problem."}
+{"k": "61046220e3dc85d5", "en": "What Article 105 of the CDC says"}
+{"k": "ae2c2f613874a6f2", "en": "Art. 105. The National Consumer Protection System (SNDC) comprises the federal, state, Federal District and municipal bodies and the private consumer protection entities."}
+{"k": "f276b9d6320bb8c2", "en": "What Article 4, items II and III, of Decree No. 2,181/1997 says"}
+{"k": "51ac85ebc5dd7aa1", "en": "Art. 4 Within its jurisdiction and competence, the state, Federal District and municipal consumer protection body, created by law specifically for this purpose, shall carry out the activities contained in items II to XII of art. 3 of this Decree and also: [...] II - serve consumers, regularly processing well-founded complaints; III - oversee consumer relations;"}
+{"k": "637370f26ee72a98", "en": "Decree No. 2,181/1997, on the <1>Planalto website</1>"}
+{"k": "e917315a1d75e0ab", "en": "When is it worth going to the Small Claims Court?"}
+{"k": "dcf3dee31f634cb0", "en": "The Small Claims Court (Juizado Especial Cível) hears less complex cases worth up to forty minimum wages. Filing the claim and getting to the judge's first decision costs nothing."}
+{"k": "c504ab45636bb030", "en": "In cases worth up to twenty minimum wages, you can go without a lawyer. Above that, a lawyer is mandatory, and a lawyer is also mandatory if someone appeals the decision."}
+{"k": "9c2f0f2808d5aff5", "en": "What Article 3, item I, of Law No. 9,099/1995 says"}
+{"k": "abff3501fa0cdc48", "en": "Art. 3 The Small Claims Court has competence for conciliation, processing and judgment of civil cases of lesser complexity, considered as such: I - cases whose value does not exceed forty times the minimum wage;"}
+{"k": "c21eae9475e531c2", "en": "Law No. 9,099/1995, on the <1>Planalto website</1>"}
+{"k": "1ca5fcff8084599e", "en": "What Article 9 of Law No. 9,099/1995 says"}
+{"k": "766753424bf3ed42", "en": "Art. 9 In cases worth up to twenty minimum wages, the parties shall appear in person, and may be assisted by a lawyer; in those of higher value, assistance is mandatory."}
+{"k": "91e469f7c993a233", "en": "What Article 54 of Law No. 9,099/1995 says"}
+{"k": "12ac20a7674ac99b", "en": "Art. 54. Access to the Small Claims Court shall not depend, at the first level of jurisdiction, on the payment of court costs, fees or expenses."}
+{"k": "44a031fdb9c1d5b1", "en": "What Article 41, paragraph 2, of Law No. 9,099/1995 says"}
+{"k": "2a3ec9011aa92cf7", "en": "§ 2 On appeal, the parties shall mandatorily be represented by a lawyer."}
+{"k": "d5ff0d673e315012", "en": "When is it better to have a lawyer?"}
+{"k": "6ae6d532988f397f", "en": "A lawyer helps when the amount is high, when the case depends on evidence held by the company or when an appeal is needed. Those who cannot pay are entitled to free legal assistance, which the Public Defender's Office provides."}
+{"k": "ecf5e733e105cf76", "en": "When the same problem affects many people because it arises from the very design of the service, the answer may be collective. The Public Prosecutor's Office, consumer protection bodies and consumer protection associations can act on behalf of all those affected."}
+{"k": "4941fe3bad5651d2", "en": "What Article 5, items I, II and IV, of the CDC says"}
+{"k": "b0efddc8c3e20cbd", "en": "Art. 5 For the execution of the National Consumer Relations Policy, the public authorities shall have the following instruments, among others: I - maintenance of full and free legal assistance for the needy consumer; II - establishment of Consumer Protection Prosecutor's Offices within the Public Prosecutor's Office; [...] IV - creation of Small Claims Courts and Specialized Courts for the resolution of consumer disputes;"}
+{"k": "b6b573c6a5a11339", "en": "What Article 82 of the CDC says"}
+{"k": "7eba5abd1af60917", "en": "Art. 82. For the purposes of art. 81, sole paragraph, the following have concurrent standing: I - the Public Prosecutor's Office, II - the Union, the States, the Municipalities and the Federal District; III - the entities and bodies of the Public Administration, direct or indirect, even without legal personality, specifically intended to defend the interests and rights protected by this code; IV - associations legally constituted for at least one year and which include among their institutional purposes the defense of the interests and rights protected by this code, with assembly authorization waived."}
+{"k": "4bb462e9d1eac09f", "en": "It is at this point that collective redress ceases to be a mere procedural convenience and imposes itself as a coherent dogmatic consequence of the IOC regime.<1>p. 774</1>"}
+{"k": "5dd419bdcfcc0775", "en": "In platform environments, the harmful source may reside in the very design of the supply regime, so that the unity of the problem does not derive primarily from the empirical repetition of episodes, but from the permanence of a single, reiterable and functionally expansive structure producing loss, opacity and asymmetry.<1>p. 774</1>"}
+{"k": "ac34ddabd31c3286", "en": "What should you bring on any path?"}
+{"k": "3ab934aa7282d5cc", "en": "It helps to bring dated screenshots, screen recordings and the purchase, acceptance and confirmation screens. Messages about rarity, time remaining, discount or change also count."}
+{"k": "01b7b5e92a47a75d", "en": "It helps to compare what was promised with what you received and with what changed later. That is why it is worth keeping the ad, the post and the fine print, as well as the ticket number of each contact with the company."}
+{"k": "e319ceea8d56b3c7", "en": "Some of the most important records stay with the company, such as the version history, the transactions and the change notices. In that case, the request may include that the company keep and show these records."}
+{"k": "03fda71fad65e00c", "en": "The first source of grounding is the interface trails and decision flow: dated screenshots, screen recordings, purchase, acceptance, upgrade, confirmation screens, messages about rarity, equivalence, time remaining, discount, event or change.<1>p. 607</1>"}
+{"k": "dfc769054dbef8c2", "en": "The second source of grounding is the history of offer and mutability. The advertising and institutional promise is compared with the enjoyment actually delivered and with its later changes.<1>p. 607</1>"}
+{"k": "33e9f414fd64e907", "en": "The third source of grounding concerns advertising and its identifying documents. Promotional pieces, posts, campaigns, influencers, disclaimers, asterisks, cascading cross-references and fine print serve to map how expectation was produced and where the relevant conditions were hidden, diluted or shifted to zones of low visibility.<1>p. 607-608</1>"}
+{"k": "08018934bc4ce84d", "en": "Whoever controls the service controls, to a large extent, the decisive records of the relationship. Logs, version histories, transactions, interface parameters, change communications and relevant technical documentation tend to remain in the supplier's possession. For this reason, operationalizing the category needs to be accompanied by requests for preservation and disclosure of minimum documentation of the supply.<1>p. 608</1>"}
+{"k": "36a3a1d2614429cb", "en": "Does any of these paths guarantee the result?"}
+{"k": "8345314fb42fbade", "en": "None does. Each path opens the chance for the company to answer, for someone from outside to look at the case and for the law to be applied, but the result depends on the evidence and on each situation."}
+{"k": "ccb8520898c9ffc7", "en": "This framework does not purport to mechanize the decision nor to reduce the complexity of the environment to a rigid formula.<1>p. 748</1>"}
+{"k": "066b2f7f08749184", "en": "Where to next?"}
+{"k": "d53848719434aad7", "en": "<1>What is your problem?</1>"}
+{"k": "d96ee0ec81dbb35e", "en": "<1>Your rights</1>"}
+{"k": "84205e9c77fc652f", "en": "<1>Follow the skin from the purchase</1>"}
+{"k": "dc610d1a4f8b5d4f", "en": "Article 26 of the CDC <1>↩</1>"}
+{"k": "aa009937b7a8ac8d", "en": "<1>Where to start?</1>"}
+{"k": "413d6ea2400e4bf0", "en": "<1>How much time do you have to complain?</1>"}
+{"k": "1f0c64e19092f12f", "en": "<1>How does consumidor.gov.br work?</1>"}
+{"k": "f99996831b24c9e6", "en": "<1>What can Procon do?</1>"}
+{"k": "3a25d47804f843ad", "en": "<1>When is it worth going to the Small Claims Court?</1>"}
+{"k": "26c5aceea3e0d32a", "en": "<1>When is it better to have a lawyer?</1>"}
+{"k": "531a8253dc4481bd", "en": "<1>What should you bring on any path?</1>"}
+{"k": "57097e8fbdaf159a", "en": "<1>Does any of these paths guarantee the result?</1>"}
+{"k": "2496831b55e4fe8e", "en": "ANDRADE, Victor L. P. Where can you complain when the platform does not solve it? Procon, consumidor.gov.br, Small Claims Court and deadlines. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/como-reclamar/"}
+{"k": "d06e7d54e996d340", "en": "When talking with the platform does not solve it, the law offers other paths, and almost all of them are free."}
+{"k": "6c51576c30f63b95", "en": "Hypercuratorial anticipation · Concepts · Lex Plataformae"}
+{"k": "4e9076ed8318333d", "en": "<1>Vocabulary</1>"}
+{"k": "9c992c4c3e9f36f3", "en": "<1>← All the vocabulary</1>"}
+{"k": "c43f03a56cbe5f91", "en": "<1>Why does waiting for the next release also cost you?</1><2>Hypercuratorial anticipation</2>"}
+{"k": "f0b741ce53f8e068", "en": "Before something arrives, the platform is already selling. It announces what is coming, what will disappear, what returns for a limited time and what will become a big event. It releases short trailers, shows the year's roadmap and sets dates."}
+{"k": "2159b8bda724774a", "en": "With this, expectation comes to count as if it were already present. It becomes a reason to stay, to spend and not to leave, because leaving now would mean missing what is about to arrive. When you buy something under this regime, you do not buy just an item. You enter a flow, in which what counts is also continuing to matter in there as the calendar moves forward."}
+{"k": "6a8b0e3f616fb0c6", "en": "Hypercuratorial anticipation designates an economic-semiological technique by which the platform produces a consumable future through continuous curation, defining what will come, what will disappear, what will return and what will be elevated to the status of \"event\".<1>p. 313</1>"}
+{"k": "cae799ecd1aeca58", "en": "This anticipation is economically relevant for IOCs because it sustains the conversion of expectation into present value, altering the very logic of the consumer's decision and permanence.<1>p. 316</1>"}
+{"k": "b087bb29ad9ae07d", "en": "When acquiring an immaterial good under this regime, one does not join merely an isolated item, but an insertion within a governed flow, in which what “counts” is also the capacity to continue mattering in the ecosystem as the calendar unfolds.<1>p. 316</1>"}
+{"k": "e60f5ce94d60b2a0", "en": "<1>Hypercuratorial anticipation</1>"}
+{"k": "c661a8fa8addc271", "en": "Curation is deciding what will be seen, rewarded and repeated, as someone who puts together an exhibition does. Here it is so intense, so hyper, that it comes to govern time and to sell the waiting itself. It is not just pretty advertising. It is a way of governing time that turns expectation into a regular way of maintaining the value of things. And it makes a promise about the future without giving you, in the same measure, a way to check whether that promise will be kept."}
+{"k": "a65ff0201437ea95", "en": "The platform appears as an instance of private administration that organizes enjoyment through architecture, rules and enforcement, defining access, permanence and visibility. This includes both explicit decisions, such as policies and sanctions, and decisions embedded in design, in curation and in the metrics that select what will be seen, rewarded and reproduced<1>p. 262</1>"}
+{"k": "a1433d297e3a9ef8", "en": "Hypercuratorial anticipation, in this sense, is not a marketing ornament, but a technique for governing time that monetizes expectation as a regular form of maintaining value.<1>p. 316</1>"}
+{"k": "95cb208d5e69eba0", "en": "This vulnerability is intensified by practices of hypercuratorial anticipation, through which the platform projects images of performance, reward and future experience without offering, in the same measure, real conditions of verification and control by the consumer<1>p. 34</1>"}
+{"k": "b5afac5800b2e390", "en": "A waiting room with occupied chairs and a clock on the wall. A strong light leaks from under a closed door, and everyone looks at it."}
+{"k": "e1d854f004f9a557", "en": "Why does the present become a waiting room?"}
+{"k": "06d38bfa23d53f67", "en": "The present becomes a waiting room. You are always waiting for the next cycle, the next update, the next opportunity. Announcements, previews, roadmaps and seasons deliver the future ahead of time, as if the announcement were already a piece of what was promised."}
+{"k": "b04fbb806b42a53b", "en": "And the waiting becomes part of what you consume. The platform does not sell only the now. It also sells your staying on while you wait for what is coming."}
+{"k": "aa96bc2c80a541cf", "en": "The present ceases to be the place of a stabilized delivery and becomes a governed antechamber, in which the promise is renewed by announcements, teasers, roadmaps and “seasons” that function as anticipated delivery on the plane of recognition.<1>p. 314</1>"}
+{"k": "90a3d87747b709c5", "en": "How does the platform decide the pace of the waiting?"}
+{"k": "2700e6bbf300277e", "en": "There are four moves. Saying what is coming, what will disappear, what returns and what becomes an event. With them the platform decides the pace of things, what is important at each moment and what you should expect."}
+{"k": "b48103c3f90aa56b", "en": "The effect is to swap the logic of delivery for the logic of the path. The promise becomes a sequence of stages, so that what you have always seems incomplete without the next cycle. The future does not even need to arrive whole. It only needs to remain credible and mobilizing. This way, delivery can be postponed again and again without looking like failure."}
+{"k": "bb1da0b101dc556f", "en": "Hypercuratorial anticipation designates an economic-semiological technique by which the platform produces a consumable future through continuous curation, defining what will come, what will disappear, what will return and what will be elevated to the status of “event”<1>p. 313</1>"}
+{"k": "2eb73474df1007c8", "en": "This production governs value itself by deciding rhythms, relevances and expectations within the ecosystem<1>p. 313</1>"}
+{"k": "d82c1953a46d9018", "en": "The immediate economic effect is the replacement of the “by delivery” logic by a “by directed trajectory” logic. The promise is always reframed as a succession of stages, events and returns, so that enjoyment becomes structurally incomplete without the next cycle.<1>p. 316</1>"}
+{"k": "7a4fc5acee9aa7ba", "en": "It is not necessary for the future to come about in full; it is enough that it remain credible and mobilizing. Thus, delivery can be continually postponed without appearing to be failure<1>p. 316</1>"}
+{"k": "20481249d719872a", "en": "What happens when the future becomes the company's calendar?"}
+{"k": "4597a4a3ef54f471", "en": "In announcements about the year's season, a game company presented what it was preparing for the following months as an official sequence of announcements, with a summary, forecasts and links to longer texts. The future stopped being only the players' expectation and became the company's calendar."}
+{"k": "a499838ce2a7f28f", "en": "The effect is clear. These announcements offer direction and continuity, and this becomes part of the value of staying attentive to the game. Those who stop following feel they will miss something."}
+{"k": "6b73db927db857f9", "en": "In this register, development announcements function as explicit management of the “to come”, by presenting what is being prepared for the year and condensing announcements in the form of a sequence, with time frames, forecasts and references to more extensive context pieces<1>p. 314</1>"}
+{"k": "8def79b1fec88b67", "en": "The form matters because it organizes the “to come” as an official sequence of items, offering direction and continuity as part of the value of remaining attentive to the ecosystem<1>p. 314</1>"}
+{"k": "7dd4e401623cc9d3", "en": "Can a promise about the future be checked?"}
+{"k": "922921aefa4a6d29", "en": "A promise about the future almost never comes with a way to check whether it will be kept. You pay for the image of something you cannot yet verify."}
+{"k": "37dad8a526da84e2", "en": "That is why this expectation cannot be dismissed as advertising smoke, when it was precisely what led you to buy. If the platform promised value, rarity, performance or advantage, and later downgrades it all by criteria no one sees, the frustration is not mere annoyance. It may be the sign that the delivery itself failed, and advertising becomes part of the offer."}
+{"k": "8ce9489370e913d4", "en": "[...] practices of hypercuratorial anticipation, through which the platform projects images of performance, reward and future experience without offering, in the same measure, real conditions of verification and control by the consumer.<1>p. 34</1>"}
+{"k": "33298044150fc2df", "en": "The second is functional value equivalence, because the expectation produced by hypercuratorial anticipation cannot be dismissed as promotional smoke when it served precisely to induce the acquisition and shape the understanding of the object<1>p. 634</1>"}
+{"k": "db3a979a1ba5cdd4", "en": "If the platform promises a curated experience of value, rarity, performance or advantage, and later rebalances or downgrades it under opaque criteria, the frustration is not mere displeasure.<1>p. 634</1>"}
+{"k": "7f827109aa1d400b", "en": "advertising will materially integrate the offer<1>p. 744-745</1>"}
+{"k": "cc8d4d8dbc224ab3", "en": "Does every rumor among fans count?"}
+{"k": "58961439d43dc0e1", "en": "Not every buzz among fans counts here. Spontaneous rumor, community talk and speculation are just that, talk."}
+{"k": "6abf44df594067fa", "en": "The question arises when the rumor stops being spontaneous noise and starts working as part of the management of expectation, desire and waiting, administered or taken advantage of by the platform. Then it is no longer outside the problem."}
+{"k": "1e668d78fe2dc28f", "en": "[...] control of the IOC must also reach the informalized zones of expectation management, whenever they cease to be spontaneous community noise and come to integrate, functionally, the governance of desire, waiting and consumption planning.<1>p. 787</1>"}
+{"k": "0e5e910dd45fee55", "en": "The rumor, when it stabilizes as a social infrastructure of pre-enjoyment, is no longer outside the legal problem.<1>p. 787</1>"}
+{"k": "61afa3aab386efc1", "en": "Where on the way does it count most?"}
+{"k": "1d6357aba63ec822", "en": "<1><2>2</2>Why is this skin worth so much?</1>"}
+{"k": "2520e42beda71f1e", "en": "If the future has already been sold, who answers when it does not arrive as promised?"}
+{"k": "a194f14dae6038ae", "en": "See the entry to put it to work"}
+{"k": "6937914ee5cd1c45", "en": "What is hypercuratorial anticipation?"}
+{"k": "a96fe8c58e3b84de", "en": "It is a technique by which the platform produces a consumable future through continuous curation. It defines what will come, what will disappear, what will return and what will be treated as an event. It projects images of performance, reward and future experience without giving the consumer, in the same measure, real conditions of verification and control."}
+{"k": "32d0c34adb007f8c", "en": "Why does it matter to the regime?"}
+{"k": "a29b59f06f5eb08a", "en": "It is not a marketing ornament. It is a technique for governing time, which monetizes expectation as a regular form of maintaining value and changes the logic of the consumer's decision and permanence. This conversion of expectation into present value is what makes it economically relevant for immaterial objects of consumption."}
+{"k": "540ecdc837b8ff34", "en": "Hypercuratorial anticipation, in this sense, is not a marketing ornament, but a technique for governing time that monetizes expectation as a regular form of maintaining value. This anticipation is economically relevant for IOCs because it sustains the conversion of expectation into present value, altering the very logic of the consumer's decision and permanence.<1>p. 316</1>"}
+{"k": "c0aebc266174bdcc", "en": "How far does control reach?"}
+{"k": "908007876420b453", "en": "Control may reach the informal zones of expectation management, such as rumors, whenever they cease to be spontaneous community noise and come to integrate, functionally, the governance of desire, waiting and consumption planning."}
+{"k": "5968bed1e3a44c57", "en": "In the situations"}
+{"k": "ea096cb594b36d78", "en": "<1>When the shop window promised more than was delivered</1>"}
+{"k": "cadc773324a7063c", "en": "Where to study it in depth?"}
+{"k": "c003766a5f966ffd", "en": "In the chapter <1>Information, advertising and anticipation</1>, on the jurist's way."}
+{"k": "37f99207c092e7c0", "en": "<1>Concept</1>"}
+{"k": "fd452d3f69fff94f", "en": "Hypercuratorial anticipation"}
+{"k": "a0f685a05f011202", "en": "<1>Version 0.11</1>"}
+{"k": "d16175914e03b769", "en": "Function in the regime"}
+{"k": "706bcad6c4a0351b", "en": "Reads governed expectation<1>p. 800</1>."}
+{"k": "9e08f786db38732c", "en": "What it is not"}
+{"k": "00e5f9c6f0e9002d", "en": "Pending. I did not find, for this concept, a general negative criterion like those the thesis offers for the others. The closest deals with the extension to rumors."}
+{"k": "457572aef52936ff", "en": "Where it lives in the thesis"}
+{"k": "fe8dc805a41c42b4", "en": "where it is born. Then 6.2.5"}
+{"k": "d23851394697b090", "en": "<1>7.1.1.4 (p. 725, within the parameter of offer and advertising) and 7.2.7.1</1>"}
+{"k": "d2ca7d7d3bd17c4b", "en": "In the readings of the thesis"}
+{"k": "e3d0e070efad4840", "en": "<1>The regime's way</1><2>reads governed expectation</2>"}
+{"k": "5f862e46aae4cd84", "en": "In the platforms"}
+{"k": "5778dc1842529758", "en": "The platform families in which the concept operates."}
+{"k": "80f44749b46b5890", "en": "<1>From trust administration to the neutralization of conflicts by architecture</1> <2>2×</2>"}
+{"k": "2d727357ed9f193a", "en": "The other eight names"}
+{"k": "389494cc2d9c574c", "en": "<1>Immaterial Object of Consumption (IOC)</1>"}
+{"k": "dc5423c1b5969d39", "en": "<1>Open auditability</1>"}
+{"k": "ad3f6a0d9feac02a", "en": "<1>Functional value equivalence</1>"}
+{"k": "c8561d0c9777f31c", "en": "<1>Governed enjoyment bundle</1>"}
+{"k": "2e0efa1dcf34b4c4", "en": "<1>Unlawful act of architecture</1>"}
+{"k": "7a80d2ff1a27aa3e", "en": "<1><2>The law of the platform</2><3>Lex Plataformae</3></1>"}
+{"k": "d769d3f57f5d3183", "en": "<1>Abusive teleology</1>"}
+{"k": "83111d5f91935370", "en": "<1>Semiotic vulnerability</1>"}
+{"k": "3538d46bfddc352f", "en": "<1>Why does the present become a waiting room?</1>"}
+{"k": "9580387649e8eb4e", "en": "<1>How does the platform decide the pace of the waiting?</1>"}
+{"k": "9dc0da5751349d6a", "en": "<1>What happens when the future becomes the company's calendar?</1>"}
+{"k": "6c18703ceba1047d", "en": "<1>Can a promise about the future be checked?</1>"}
+{"k": "1d7fcf58d4b4f6d7", "en": "<1>Does every rumor among fans count?</1>"}
+{"k": "8927c0ae45e9d2c0", "en": "<1>What is hypercuratorial anticipation?</1>"}
+{"k": "0f2b386a0824c5bb", "en": "<1>Why does it matter to the regime?</1>"}
+{"k": "131cf8b271aece04", "en": "<1>How far does control reach?</1>"}
+{"k": "cacfb370af69302f", "en": "<1>In the situations</1>"}
+{"k": "9125b2cf688199d5", "en": "<1>Where to study it in depth?</1>"}
+{"k": "eb162fecaab29c10", "en": "<1>Hypercuratorial anticipation</1>"}
+{"k": "0f9920b8782c583c", "en": "<1>Function in the regime</1>"}
+{"k": "7a10511fe81e2cbd", "en": "<1>What it is not</1>"}
+{"k": "3a727f554aad444f", "en": "<1>Where it lives in the thesis</1>"}
+{"k": "743167a5a0e755fb", "en": "<1>In the readings of the thesis</1>"}
+{"k": "43596e36d48b9efd", "en": "<1>In the platforms</1>"}
+{"k": "fd04249a18f39c77", "en": "The vocabulary"}
+{"k": "c25269edbf644245", "en": "<1>Hypercuratorial anticipation</1>"}
+{"k": "877547a96637b50a", "en": "ANDRADE, Victor L. P. Hypercuratorial anticipation. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/antecipacao-hipercuratorial/"}
+{"k": "b43f88de7509eae5", "en": "When the platform sells the future before delivering the present."}
+{"k": "cfdd9806c17b8c35", "en": "planned illustration · ideia-antecipacao-hipercuratorial"}
+{"k": "39371aa2d0b253ee", "en": "Opens Doctrine mode"}
+{"k": "c639d4f83896c1b1", "en": "architecture · the concept in the full text"}
+{"k": "3913b29dcb919f89", "en": "version · the content is still under review by the author"}
+{"k": "1ca909536367c20e", "en": "anchor · sections of the thesis, with a link to the text"}
+{"k": "f450ec5d7d26d779", "en": "Hypercuratorial anticipation designates an economic-semiological technique by which the platform produces a consumable future through continuous curation, defining what will come, what will disappear, what will return and what will be elevated to the status of \"event\"."}
+{"k": "f1b952bd384ac760", "en": "Lex Plataformae Atlas"}
+{"k": "14f018e2dcf8807a", "en": "Open auditability · Concepts · Lex Plataformae"}
+{"k": "7395e8e010c2a69f", "en": "<1>Can you check what changed?</1><2>Open auditability</2>"}
+{"k": "7da7c4d0c5a18986", "en": "An item was altered, a rule changed, an account was penalized. Most of the time, the user has no way of knowing what happened, when, why and with what effect. The platform knows."}
+{"k": "ead2502e7ffaaaf3", "en": "It controls the design of the environment, the criteria for changes, the system records, the moment each thing changes and even the means by which you will notice the change. That is why it has not only the power to change. It also has the power to tell, alone, the story of what happened. You are left with its version, and the challenge becomes your word against theirs."}
+{"k": "01caad0f4f29837f", "en": "Open auditability is thus born as a direct response to the functional opacity typical of IOCs.<1>p. 636</1>"}
+{"k": "180b78e6395edf75", "en": "If the supplier controls the architecture, the criteria for change, the relevant logs, the timing of the change and the very means by which the modification will be perceived, it concentrates not only the power of reconfiguration, but also the power to narrate unilaterally what occurred.<1>p. 636</1>"}
+{"k": "5e2069825b4d4cf7", "en": "with structural asymmetries of challenge and proof<1>p. 393</1>"}
+{"k": "bec5c0405704977e", "en": "<1>Open auditability</1>"}
+{"k": "3ffa5989c1da071f", "en": "To audit is to check, and the concept describes a standard of transparency that is good for something. It is the requirement of minimum conditions so that judges, experts, consumer protection bodies and, to a certain extent, the consumer themself can reconstruct the story of what happened. This story connects what was promised, what changed, the penalty applied, the effect on use and the justification the company gave. It is worth understanding where it comes from. It is not a new law with its own name, nor a right that came out of nowhere. It is an unfolding of duties that consumer law already has, such as the duty to inform, good faith and facilitating the consumer's defense. It serves so that information does not fulfill its role only on paper, hidden in enormous documents, notices and update histories that no one can find or connect to what happened."}
+{"k": "0e0a5b0f1c4ca0dd", "en": "Open auditability means the existence of minimum conditions of verifiability over relevant aspects of supply, so that protection bodies, the Judiciary, experts and, to a certain extent, consumers themselves can reconstruct the relation between promise, alteration, sanction, functional impact and the justification presented by the supplier.<1>p. 727</1>"}
+{"k": "717bf3671be87016", "en": "A closed black box with a window cut into one corner, through which some gears can be seen. Not the whole box opened, just enough to see what changed."}
+{"k": "ae5cf3559e202398", "en": "What if only one driver had the cameras?"}
+{"k": "7cdbe7c0f0d556ec", "en": "Who tells the story of a traffic accident? If only one of the drivers had access to the cameras, the marks on the asphalt and the car's records, their version would be the only one that could be proven."}
+{"k": "4bc5708a025bee58", "en": "On a platform it is like this by default. Whoever controls the design, the criteria, the records and the moment of change also controls the version of what happened. Without minimum trails, there is only one side's narrative. Open auditability is what gives the story back more than one witness."}
+{"k": "179c4f9fce5db5c3", "en": "It puts the conflict back on reconstructible ground and prevents the lack of access to evidence from turning into a practical impossibility of protection<1>p. 642</1>"}
+{"k": "79b38759f9a0e1bc", "en": "What needs to be within your reach?"}
+{"k": "34142857ddc11fe6", "en": "What needs to be within reach is simple to say. What changed, when it changed, why it changed, what effect the change had and which records allow the case to be reconstructed."}
+{"k": "9b6636afd67265f4", "en": "No one asks for the company's secret or the game's code. What is asked is a minimum that can be shown, enough to see whether there was a relevant change, link it to what was promised and check whether it had a justification and respected predictability, proportion and the chance to challenge. In a conflict, there are instruments to reach this minimum, such as orders to keep and show records, expert examination on delimited points and, depending on the case, presumptions against the company."}
+{"k": "07b4ef68f5a43834", "en": "What is needed is sufficient intelligibility to identify the occurrence of a relevant alteration, relate it to the promised enjoyment, verify whether there was a justification compatible with the legal regime and ascertain whether the sanction, change or modulation respected minimum standards of predictability, proportionality and contestability.<1>p. 728</1>"}
+{"k": "a1be70dbc41ddbe8", "en": "The institutional consequence includes orders to preserve and disclose records, delimited expert examination, presumptions unfavorable to the supplier<1>p. 745</1>"}
+{"k": "d704f564d36f3dce", "en": "Who holds the records of a conflict?"}
+{"k": "fa11b754e795d5cd", "en": "In a conflict over an item or an account, almost everything that shows what happened stays with the supplier. The system records, the screen trails, the change history, the penalty criteria and the internal support conversations are on the other side."}
+{"k": "1476f1dadcd096c5", "en": "This is the normal situation in these conflicts, and not an exception. Whoever controls these traces controls, to a large extent, what can be reconstructed later. It is exactly this concentration that open auditability seeks to balance."}
+{"k": "0469b45b6e78bb1b", "en": "What becomes open to challenge?"}
+{"k": "9e3743c501d1888a", "en": "With this, what is decided inside closed systems becomes open to challenge. And another concept depends directly on this one, functional value equivalence. Without being able to reconstruct what changed, to what extent, for what reason and when, you cannot show that you lost the equivalence of what you bought."}
+{"k": "132aacaf17e45d15", "en": "[...] including with regard to access rules, delivery modulations and sanction mechanisms, so as to make contestable what is produced by opaque systems<1>p. 393</1>"}
+{"k": "2c0e5eb9f3ea0def", "en": "Without auditability, functional equivalence becomes hard to demonstrate, because the consumer cannot reconstruct what was altered, to what extent, with what motivation and at what moment.<1>p. 638</1>"}
+{"k": "201ef376719e7637", "en": "Does the game's code have to be opened?"}
+{"k": "c260fefadab22ec5", "en": "It is not opening the program's code, nor exposing all of the company's technology, nor ending trade secrets. It is not total transparency. It is sufficient transparency, minimum verifiability."}
+{"k": "cc0ab5d6eed76de1", "en": "And it does not apply to any small adjustment, change only in appearance or unimportant fluctuation. The duty begins when the alteration, the penalty or the rule change significantly affects what you use, your permanence or your chance to prove and challenge."}
+{"k": "a95aecf1248c3632", "en": "The expression does not designate unrestricted opening of source code, full exposure of the technological architecture or a generalized waiver of trade secrets.<1>p. 727</1>"}
+{"k": "4c273e4e4176677d", "en": "Not total transparency, but sufficient transparency. Not absolute disclosure, but minimum verifiability.<1>p. 728</1>"}
+{"k": "7433d79770e673a8", "en": "<1><2>6</2>What if your skin changes tomorrow?</1>"}
+{"k": "3a94423f4bfe503c", "en": "How much transparency is enough, and who decides that?"}
+{"k": "6dba7a83f6597ac0", "en": "What does open auditability require?"}
+{"k": "9b1f96c0374c4496", "en": "It requires minimum conditions of verifiability over relevant aspects of supply. Protection bodies, the Judiciary, experts and, to a certain extent, consumers themselves need to be able to reconstruct the relation between promise, alteration, sanction, functional impact and the supplier's justification."}
+{"k": "96a0959594b2266b", "en": "What problem does it respond to?"}
+{"k": "53145c3d7f34a61f", "en": "It responds to the functional opacity typical of immaterial objects of consumption. It and functional equivalence operate on the concretely governed regime of enjoyment, and not on an object taken in the abstract."}
+{"k": "5cde439c693d900b", "en": "For this reason, in IOCs, open auditability and functional equivalence do not operate on an object taken in abstraction, but on the concretely governed regime of enjoyment.<1>p. 663</1>"}
+{"k": "d5fa645828e8a8a6", "en": "What does it not require?"}
+{"k": "fa236754000ab5e4", "en": "It does not require unrestricted opening of source code, full exposure of the technological architecture or a general waiver of trade secrets. The standard is one of sufficiency."}
+{"k": "257bf12a9670eace", "en": "The blocks follow the statement of 7.1.1 to which each corresponds. The other situations also operate with the concept."}
+{"k": "c505a0b9b9a4a98b", "en": "<1>When the platform changed the rules and left no trail</1>"}
+{"k": "4f146c3a706ac9e7", "en": "<1>Guidelines for controlling architecture and governance</1> <2>second and ninth guidelines</2>"}
+{"k": "394101185f837f9a", "en": "In the chapter <1>Open auditability</1>, on the jurist's way."}
+{"k": "82ae5e5e78c5a95b", "en": "Open auditability"}
+{"k": "6ee36b1be008aec1", "en": "Controls alteration<1>p. 800</1>. Criterion of legitimacy."}
+{"k": "f208d2e5bf5ff5d3", "en": "<1>The consumer's way</1><2>operational criterion of verification and restoration</2>"}
+{"k": "7cca0368df4c131e", "en": "<1>The judge's way</1><2>criterion of verification, containment and imputation</2>"}
+{"k": "a82df9b85901ae7c", "en": "<1>The regime's way</1><2>controls alterations</2>"}
+{"k": "22ace81756e3b335", "en": "<1>On IOCs of cognitive functionality and information regime</1> <2>1×</2>"}
+{"k": "4809f6e9d4964771", "en": "<1>On IOCs of infrastructure and intermediation</1> <2>2×</2>"}
+{"k": "21cff058477cd3a5", "en": "<1>On IOCs of productivity under the gig economy</1> <2>1×</2>"}
+{"k": "198b61a66738b5ec", "en": "<1>On competition under the Lex Plataformae</1> <2>1×</2>"}
+{"k": "9f7483642f669ff1", "en": "<1>On collective redress under open auditability</1> <2>2×</2>"}
+{"k": "5922ac36cec6a262", "en": "<1>Hypercuratorial anticipation</1>"}
+{"k": "c630fce56772e466", "en": "<1>What if only one driver had the cameras?</1>"}
+{"k": "37f58860c3e1eef1", "en": "<1>What needs to be within your reach?</1>"}
+{"k": "078ac192864a3f3f", "en": "<1>Who holds the records of a conflict?</1>"}
+{"k": "9c43c5f650deba6e", "en": "<1>What becomes open to challenge?</1>"}
+{"k": "c1eeb1b2e576024e", "en": "<1>Does the game's code have to be opened?</1>"}
+{"k": "18a17f0cf7725b0a", "en": "<1>What does open auditability require?</1>"}
+{"k": "b0b3c9bbf75ec572", "en": "<1>What problem does it respond to?</1>"}
+{"k": "889faff5eb9084aa", "en": "<1>What does it not require?</1>"}
+{"k": "3c3fe3235925b464", "en": "<1>Open auditability</1>"}
+{"k": "e8b415509fab52d9", "en": "<1>Open auditability</1>"}
+{"k": "d81a2ecd6673e406", "en": "ANDRADE, Victor L. P. Open auditability. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/auditabilidade-aberta/"}
+{"k": "e3a9bd1038ac8008", "en": "The duty to make verifiable what changed, why it changed and with what effect, without requiring the company to open all its secrets."}
+{"k": "f5539bb5b1fbc769", "en": "planned illustration · ideia-auditabilidade-aberta"}
+{"k": "5b07ab0fca7f4965", "en": "Open auditability means the existence of minimum conditions of verifiability over relevant aspects of supply, so that protection bodies, the Judiciary, experts and, to a certain extent, consumers themselves can reconstruct the relation between promise, alteration, sanction, functional impact and the justification presented by the supplier."}
+{"k": "2331c79ea4848edf", "en": "Identity captivity · Concepts · Lex Plataformae"}
+{"k": "28fdf38303a16b3e", "en": "Derived concept<1> · named by the thesis, alongside the nine</1>"}
+{"k": "aba6cec54dc2b375", "en": "Identity captivity"}
+{"k": "435c40ca0411f562", "en": "Explained in plain words on the way of the skin, in <1>Who gains from your click?</1>"}
+{"k": "ba4498228acfa6e0", "en": "What it is"}
+{"k": "4d1342d4b4c89aff", "en": "It is the form of dependence in which the cost of leaving is not reduced to property, because it involves loss of recognition, reputation and narrative continuity, recorded in performance, collections, histories and signs of distinction produced within the environment. The dependence is institutional and semiotic, and not psychological in the individualizing sense. It derives from a regime of visibility and sanction that defines what counts, what belongs and what progresses, and how all of this can be downgraded or erased."}
+{"k": "fa8eac14c5b686a6", "en": "On the plane of consumption, the concept does not create a new good. It makes a specific form of loss controllable."}
+{"k": "580259a9211d4899", "en": "In the chapter <1>Semiotic vulnerability</1>, on the jurist's way."}
+{"k": "c6a33b537a604b2f", "en": "Where the full text uses the name"}
+{"k": "bfdae1aacb902295", "en": "<1>2.6 Das epígrafes como registro sintomático e recurso hermenêutico</1> <2>1×</2>"}
+{"k": "a72832b4bccfe66d", "en": "<1>3.2.3 Value extraction, artificial scarcity and the consumer as incorporated exterior</1> <2>3×</2>"}
+{"k": "b23dd3dbd4e1fbe1", "en": "<1>3.2.6 Regimes of value, production of meaning and the attention economy on platforms</1> <2>1×</2>"}
+{"k": "11924019a4857868", "en": "<1>4.2 Informational domination, private power and subjectivity</1> <2>1×</2>"}
+{"k": "38065159d4f64cc4", "en": "<1>4.2.3 Psychopolitics, self-exploitation and identity captivity</1> <2>4×</2>"}
+{"k": "0446c6b2b974e781", "en": "<1>5.1.4 Da integridade pessoal, identidade simbólica e cidadania digital</1> <2>3×</2>"}
+{"k": "cd262a31662b75b4", "en": "<1>The nine concepts</1>"}
+{"k": "e27bce28e045a173", "en": "<1>What it is</1>"}
+{"k": "d240d468aa334647", "en": "<1>Where the full text uses the name</1>"}
+{"k": "7647b75af285453a", "en": "The other nine derived concepts"}
+{"k": "322e409fc4d6ad79", "en": "<1><2>Meaning-vitiated consent</2></1>"}
+{"k": "b817d8757721d372", "en": "<1><2>Consumer-citizen</2></1>"}
+{"k": "f2e2c785e924e21f", "en": "<1><2>Biographical continuity</2></1>"}
+{"k": "564a3817c66fe464", "en": "<1><2>Regime correction</2></1>"}
+{"k": "03d26a8fffd423e8", "en": "<1><2>Architecture harm</2></1>"}
+{"k": "ec5c3d70483b3d34", "en": "<1><2>Misleading advertising by architecture</2></1>"}
+{"k": "22891980d4b24525", "en": "<1><2>Functional restoration</2></1>"}
+{"k": "2620c5fd639f16cc", "en": "<1><2>Architectural teleology</2></1>"}
+{"k": "8d84280e1b062a13", "en": "<1><2>Performative transparency</2></1>"}
+{"k": "ae5ee43bec707297", "en": "ANDRADE, Victor L. P. Identity captivity. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/cativeiro-identitario/"}
+{"k": "0b6f98247645a158", "en": "[...] reinforcing a circuit of permanence that converts the individual's participation into an input of valorization for the platform. This effect can be…"}
+{"k": "0906877cc6b4fbe6", "en": "mechanical count of the name in the body and in the notes"}
+{"k": "0c0f123567458830", "en": "[...] reinforcing a circuit of permanence that converts the individual's participation into an input of valorization for the platform. This effect can be named, with operational precision, as identity captivity, understood as a form of dependence in which the cost of exit is not reduced to the patrimonial plane, but involves loss of recognition, reputation and narrative continuity objectified in public records of performance, collections, histories and signs of distinction produced within the ecosystem."}
+{"k": "620fa14a237d1bd8", "en": "Meaning-vitiated consent · Concepts · Lex Plataformae"}
+{"k": "b591466c5e3df1cb", "en": "Meaning-vitiated consent"}
+{"k": "e2958474ea4a4741", "en": "Explained in plain words on the way of the skin, in <1>Why does all this seem normal?</1>"}
+{"k": "f9eea33dcf02dcc0", "en": "It is the defect that does not come down to an isolated factual error, such as mistaking a price or a deadline. The consumer joins within a frame of language that leaves them outside the center of intelligibility of the relationship. The communicational conditions of supply structurally produce the inability to decode, compare and anticipate relevant consequences."}
+{"k": "c09ababc33c0c04f", "en": "<1>6.2.4.2 Da linguagem, código e consentimento viciado por sentido</1> <2>1×</2>"}
+{"k": "c5f5117f067cc5a7", "en": "<1><2>Identity captivity</2></1>"}
+{"k": "e4ef1a7c6c7a261f", "en": "ANDRADE, Victor L. P. Meaning-vitiated consent. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/consentimento-viciado-por-sentido/"}
+{"k": "651e5e29dd146f41", "en": "The consumer does not merely get a piece of data wrong. They join within a frame of language that already places them outside the center of intelligibility of the relationship. It is at this…"}
+{"k": "4937da9b16054c9b", "en": "The consumer does not merely get a piece of data wrong. They join within a frame of language that already places them outside the center of intelligibility of the relationship. It is at this point that one can speak of meaning-vitiated consent. It is not an isolated factual error, such as mistaking a price or an isolated deadline."}
+{"k": "c763c24aa98bbb59", "en": "Consumer-citizen · Concepts · Lex Plataformae"}
+{"k": "d907a941b502c265", "en": "Consumer-citizen"}
+{"k": "9040cb2bf429123a", "en": "Explained in plain words on the way of the skin, in <1>Who is in charge after the purchase?</1>"}
+{"k": "070c75b186b3fc42", "en": "They are a consumer because there is acquisition and a legitimate expectation of enjoyment. They are a citizen in an analytical sense, because their presence in the environment depends on conditions of belonging and continuity set by private governance. The word does not deal with nationality, sovereignty or constitutional status. It deals with the practical conditions of participation and permanence in an environment in which the unilateral alteration of these conditions reconfigures the very object enjoyed."}
+{"k": "aa1449043c79bce3", "en": "In the chapter <1>The law of the platform</1>, on the jurist's way."}
+{"k": "46238b89129d7895", "en": "<1>4.2 Informational domination, private power and subjectivity</1> <2>2×</2>"}
+{"k": "dd4248d34bd3a76b", "en": "<1>4.2.4 Private rules, enforcement and platform governance</1> <2>1×</2>"}
+{"k": "82b5a5736b9f454a", "en": "<1>4.2.5 The consumer-citizen under the Lex Plataformae</1> <2>3×</2>"}
+{"k": "9577136252f7554d", "en": "ANDRADE, Victor L. P. Consumer-citizen. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/consumidor-cidadao/"}
+{"k": "ce964eb1601ab748", "en": "The consumer-citizen is the subject who acquires IOCs whose utility is realized as functional permanence in an ecosystem, and not as the isolated delivery of a good…"}
+{"k": "987be31ab577220b", "en": "The consumer-citizen is the subject who acquires IOCs whose utility is realized as functional permanence in an ecosystem, and not as the isolated delivery of a transferred good."}
+{"k": "2e406bb25dca5509", "en": "Biographical continuity · Concepts · Lex Plataformae"}
+{"k": "25e1bfa9577842b4", "en": "Biographical continuity"}
+{"k": "698e667263b719e3", "en": "Explained in plain words on the way of the skin, in <1>What if the loss is part of the plan?</1>"}
+{"k": "6411ce32290bf1ca", "en": "It is the trajectory built in the environment through repeated choices, performance, investment of time, acquisition, cooperation, signs of belonging and permanence. Even when mediated by the law of the platform, it remains attributable to the consumer. When the account is lost, it is not just an isolated item that is lost, but the overall position of enjoyment, the history, the inventory and the practical insertion in the environment. The consumer's integrity may include preserving minimum conditions of this continuity, and not only the refund of a frustrated purchase."}
+{"k": "c40c8f278bc7cbb0", "en": "In the chapter <1>The protected goods</1>, on the jurist's way."}
+{"k": "c40e61987632dd54", "en": "<1>5.1.4 Da integridade pessoal, identidade simbólica e cidadania digital</1> <2>2×</2>"}
+{"k": "eb3f9d41625010c1", "en": "<1>6.1.3 Da integridade pessoal, identidade simbólica e continuidade biográfica como bens jurídicos de referência</1> <2>12×</2>"}
+{"k": "8747a27ee2ef3c16", "en": "<1>6.2.2 Da doutrina dos bens digitais e o regime do Objeto Imaterial de Consumo</1> <2>1×</2>"}
+{"k": "e7100d0c64d138a5", "en": "<1>6.4.1 On the unlawful act of abusive teleology. Design defect and abusive practice</1> <2>1×</2>"}
+{"k": "02c63fc9ae64e7e3", "en": "<1>6.4.3 Do enquadramento em vícios de qualidade, cláusulas e práticas abusivas</1> <2>1×</2>"}
+{"k": "946c874c84bfd4b3", "en": "<1>7.1.4 Da cidadania digital e limites ao poder privado de plataforma</1> <2>1×</2>"}
+{"k": "0572858d54dc6d97", "en": "<1>8 Conclusion</1> <2>1×</2>"}
+{"k": "e2e00393630ba0d4", "en": "ANDRADE, Victor L. P. Biographical continuity. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/continuidade-biografica/"}
+{"k": "2f0a0947530d7c10", "en": "It is a biographical result produced by repeated choices, performance, investment of time, acquisition, cooperation, accumulation of signs of belonging and…"}
+{"k": "d8e99764929b4d16", "en": "It is a biographical result produced by repeated choices, performance, investment of time, acquisition, cooperation, accumulation of signs of belonging and permanence in the ecosystem. Even though this construction occurs under the mediation of the Lex Plataformae, it remains attributable to the consumer as an expression of biographical continuity within the supply regime."}
+{"k": "95d9668e264ebf1a", "en": "Architecture harm · Concepts · Lex Plataformae"}
+{"k": "b78b2fda5e189632", "en": "Architecture harm"}
+{"k": "379fc0f071770815", "en": "Explained in plain words on the way of the skin, in <1>And when it goes wrong?</1>"}
+{"k": "cf7645ff25139a3e", "en": "It is the injury produced by the very design of the supply regime. The unity of the problem does not come mainly from the repetition of episodes, but from the common harmful source. This functional unity is what justifies collective institutional treatment."}
+{"k": "4f0cbd821304929a", "en": "In the chapter <1>Abusive teleology and the unlawful act of architecture</1>, on the jurist's way."}
+{"k": "3d7f6c9c7f216e54", "en": "<1>7.2.5 Da tutela coletiva sob auditabilidade aberta</1> <2>2×</2>"}
+{"k": "7d0971c5c6404368", "en": "ANDRADE, Victor L. P. Architecture harm. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/dano-arquitetura/"}
+{"k": "f01540e172e009f2", "en": "In platform environments, the harmful source may reside in the very design of the supply regime, so that the unity of the problem does not derive…"}
+{"k": "0cf189d23275f726", "en": "In platform environments, the harmful source may reside in the very design of the supply regime, so that the unity of the problem does not derive primarily from the empirical repetition of episodes"}
+{"k": "567e3b35d31d30be", "en": "Functional value equivalence · Concepts · Lex Plataformae"}
+{"k": "b065fb77e4b1e91b", "en": "<1>What about when an update takes away what you bought?</1><2>Functional value equivalence</2>"}
+{"k": "e5a756129031f9eb", "en": "Digital services change all the time, and that is normal. A game needs a new graphics engine, balance adjustments, compatibility with different computers."}
+{"k": "122adc0d2978c29a", "en": "But sometimes, after an update, the item is still there and no longer serves what it used to. It lost a function, lost the place it held among the other players or lost the meaning it had for the buyer. You still have the account, still see the item and still log into the game, and even so you lost the main thing."}
+{"k": "85ccd855bd485aae", "en": "For this reason, functional value equivalence is a criterion of stability of the performance program, not a requirement of immobility of the object. It allows recognizing the sophisticated obvious: continuous digital services change, but they cannot change in just any way<1>p. 655</1>"}
+{"k": "6f756567d5b3a5a5", "en": "The consumer does not lose merely \"a feature\"; they lose functional substance of what they bought<1>p. 672</1>"}
+{"k": "0f3e6ea3a63c1f2b", "en": "<1>Functional value equivalence</1>"}
+{"k": "981ab733bfdb446e", "en": "It is the test that asks whether, after the change, the product still plays the same role in your experience. The test is demanding. It is not enough for the item to keep working, nor to keep the same numbers in some isolated attribute. What counts is the whole role it had. This includes its concrete utility in the game, the place it holds among the other users and, when this matters to the law, what it means to whoever has it. An item may remain in the account and open normally, and still have lost what justified the purchase."}
+{"k": "eaee8973cd34d09c", "en": "A two-pan scale with the same piece of armor in each pan, the before and the after, identical on the outside. The pan with the after rises, because it weighs less."}
+{"k": "d26620a0ee07bb56", "en": "Paying for the whole semester for half a course?"}
+{"k": "f63bd2768390e570", "en": "A course that, in the middle of the semester, cuts half the classes and keeps charging the same price does what anyone would find wrong. Consumer law considers void the clause that lets the supplier change alone the content or the quality of what it sells."}
+{"k": "f7666e3aafdba269", "en": "On platforms, the cut rarely comes with that name. It appears as smaller reach, performance downgraded little by little, features that keep disappearing, tighter limits or use that gets more expensive to yield the same thing. The label and the price stay the same, while the delivery shrinks. The logic is the same as the course's."}
+{"k": "65bd59bb74f49099", "en": "How do you compare the before and the after?"}
+{"k": "651657a080964ffc", "en": "To run the test, the before and the after are compared. The versions that matter are examined and the center of the utility that was affected is identified. Then the object's role in the experience is assessed, looking at the utility, the place it holds among the others and, when it matters, what it means."}
+{"k": "1639972331d0a57b", "en": "Some questions help. Did the update take away an important function? Did it weaken the item to the point that it lost the utility you paid to have? Did it change the screen in a way that messes up everyday use? Did it redefine rules so as to downgrade what had been promised as equivalent? If the answer is yes, the platform could change, but it should have preserved the value of what you had or opened room for a restoration. And you do not need to prove you are the full owner of the item to complain about it."}
+{"k": "74d787d6c8adb6af", "en": "When does a phone update stop being an improvement?"}
+{"k": "ff05d8a9f759e4fd", "en": "A phone update can, in the name of improvement, make the device slow or incompatible with apps, still within the lifespan expected of it. No one serious says that every update is illegal."}
+{"k": "034f524de6838ec6", "en": "The question is another one. It is knowing whether the update significantly compromised use, without adequate information, without real consent and without a way out for those who were harmed. With a digital item, the structure is the same."}
+{"k": "0d4e1ca409cefa3e", "en": "The example of updates that degrade accessibility and compatibility in software or firmware helps to visualize the structure of the problem. In these cases, no one seriously argues that every update is unlawful.<1>p. 655</1>"}
+{"k": "559c8c3d4030ca7f", "en": "What is discussed is whether, under the pretext of improvement, the update significantly compromises the use, performance or compatibility of goods still within their expected durability, without adequate information, without effective consent and without mitigating avenues<1>p. 655</1>"}
+{"k": "9336b6bb22773ed1", "en": "The legal structure is the same in IOCs<1>p. 655</1>"}
+{"k": "0ad1d90f11eb1c55", "en": "The item still exists, but is it the same one you bought?"}
+{"k": "c78889f0553b6b3d", "en": "An object may continue to exist and, even so, no longer be what was bought. It is this loss that the test makes visible."}
+{"k": "643e064e5288672b", "en": "And it changes the conversation when the company says it was just an update, an adjustment or an evolution of the service. From then on, what matters is showing that the essence of what you bought was preserved, and not the size of the technical complexity. When equivalence is lost, the first answer is to give the function back, undoing the change when possible, replacing it with something equivalent or correcting the way of updating, and not just paying."}
+{"k": "1d3c775c06dc3e64", "en": "So is changing illegal?"}
+{"k": "6e8a6987572ac3ea", "en": "Changing is not illegal. The test does not freeze the service nor require the new version to be identical to the old one. Digital environments need to evolve, adapt and, often, rebalance."}
+{"k": "67bfa50bb418243a", "en": "What it refuses is change used to throw onto you the cost of seriously worsening what you bought, without a restoration to match. And, if the change is only in appearance and the symbolic value was not part of the center of what was sold, as a rule it stays out."}
+{"k": "4abe0b141317ad21", "en": "This does not mean requiring perfect identity between earlier and later versions, nor imposing a freeze on the service. Continuous digital environments presuppose evolution, adaptation and, in many cases, internal rebalancing.<1>p. 730</1>"}
+{"k": "bc5be379deccae01", "en": "And when equivalence is lost, what should happen? Money back, or what was bought back?"}
+{"k": "c4ecd329b51a6c5a", "en": "What does functional value equivalence control?"}
+{"k": "0a751e6c9a2f9ee4", "en": "It controls the lawfulness of unilateral alterations in continuous digital services. It is the material core of the control of mutability and also guides the remedy. What is preserved is the role the object played in the acquired experience, considering its concrete utility in the environment, its relational insertion in use and, when legally relevant, its identity or symbolic density."}
+{"k": "9ee444dec807bb08", "en": "It also serves to guide remedies.<1>p. 731</1>"}
+{"k": "71f44bfa15a067ea", "en": "Functional value equivalence operates as a criterion of lawfulness of the unilateral alterations carried out in continuous digital services that administer Immaterial Objects of Consumption.<1>p. 648</1>"}
+{"k": "cd994b732f79258d", "en": "Functional value equivalence, therefore, constitutes the material core of the control of mutability in immaterial objects of consumption.<1>p. 731</1>"}
+{"k": "200a2bcda3a34dfe", "en": "What does it not prohibit?"}
+{"k": "c812790a81dbae58", "en": "Change, by itself, is not unlawful. The criterion does not require perfect identity between the earlier and the later version, nor the freezing of the service. Mutability that preserves, in substantial terms, the function of the object in the consumer's experience is legitimate."}
+{"k": "1c364c44fc326f21", "en": "From this perspective, legally legitimate mutability is that which preserves, in substantial terms, the function of the object in the consumer's experience. This does not mean requiring perfect identity between earlier and later versions, nor imposing a freeze on the service.<1>p. 730</1>"}
+{"k": "7045a76626a29bb2", "en": "<1>When the update took away the value of what was bought</1>"}
+{"k": "a0a17c1175c878a3", "en": "In the chapter <1>Functional value equivalence</1>, on the jurist's way."}
+{"k": "ed31de2555a3dddc", "en": "Functional value equivalence"}
+{"k": "0fbba6a84b7f3a8e", "en": "Controls alteration<1>p. 800</1>. It also guides the remedy<2>p. 731</2>."}
+{"k": "7e9632ca869513cc", "en": "<1>On IOCs of infrastructure and intermediation</1> <2>3×</2>"}
+{"k": "43a428cf5a026a35", "en": "<1>On competition under the Lex Plataformae</1> <2>2×</2>"}
+{"k": "aae9ff3ac0ee41b9", "en": "<1>Paying for the whole semester for half a course?</1>"}
+{"k": "5829e82c46725b67", "en": "<1>How do you compare the before and the after?</1>"}
+{"k": "54d4724e00903d4e", "en": "<1>When does a phone update stop being an improvement?</1>"}
+{"k": "35e9fde37d549423", "en": "<1>The item still exists, but is it the same one you bought?</1>"}
+{"k": "74600e80812e8558", "en": "<1>So is changing illegal?</1>"}
+{"k": "1f8b3e26925a846b", "en": "<1>What does functional value equivalence control?</1>"}
+{"k": "0ee42b4d79cd2c8a", "en": "<1>What does it not prohibit?</1>"}
+{"k": "871ba3ce644e09c9", "en": "<1>Functional value equivalence</1>"}
+{"k": "11964c4f59521792", "en": "<1>Functional value equivalence</1>"}
+{"k": "6d6edceee476236a", "en": "ANDRADE, Victor L. P. Functional value equivalence. <1>Lex Plataformae</1>, version 0.11, 10/11/2026. Available at https://lexplataformae.com.br/conceitos/equivalencia-de-valor-funcional/"}
+{"k": "daf25426c6d63f1f", "en": "The platform may change, as long as what you bought keeps playing the role it had in your experience."}
+{"k": "b79f8d9ebd7d0037", "en": "planned illustration · ideia-equivalencia-de-valor-funcional"}
+{"k": "b386ea125bc2856b", "en": "What matters is the substantial preservation of the role played by the object in the acquired experience, considering its concrete utility in the ecosystem, its relational insertion in the environment of use and, when legally relevant, its identity or symbolic density."}
+{"k": "e94663803b853b48", "en": "Governed enjoyment bundle · Concepts · Lex Plataformae"}
+{"k": "01f363bacee75d8f", "en": "<1>What exactly did you buy?</1><2>Governed enjoyment bundle</2>"}
+{"k": "9a7925230022d9b2", "en": "An item in a game is not just an image. It serves some purpose in matches, shows up for the other players, counts for your reputation and says something about who you are in that place. A rare skin, for example, is beautiful, but it also shows how long you have played and which group you belong to."}
+{"k": "acb0d1b8c5f412f3", "en": "All of this together is what you bought. And each of these parts depends on rules that the platform adjusts over time. They are rules about what stays visible, in what order things appear, which signs count as achievement and what happens to those who break a rule."}
+{"k": "6934f4a0b3115f9b", "en": "From this operator, the object can be described as a bundle of functionalities and significations administered over the course of the relationship, coupled to permissions and limits of use, to regimes of visibility and ordering, to metrics and signs of recognition, and to mechanisms of curation and enforcement executed by design.<1>p. 426</1>"}
+{"k": "c0dc7cb8f05439fd", "en": "<1>Governed enjoyment bundle</1>"}
+{"k": "f385c32491c90ae0", "en": "A bundle is a set of threads tied together, and enjoyment is the use and benefit you get from something. The name describes the set of uses, signs and positions that a product of this kind offers, all administered by the platform for as long as the relationship lasts. The bundle goes hand in hand with the Immaterial Object of Consumption. The IOC is the legal name of what you bought, and this product is, itself, a enjoyment bundle sustained over time. That is why, of the four questions that show whether a case is of this kind, the first is which bundle was promised."}
+{"k": "e3890a67cd298e99", "en": "[...] the definition of the Immaterial Object of Consumption as a enjoyment bundle sustained over time [...]<1>p. 394</1>"}
+{"k": "41db2c5c0ae150de", "en": "The first field covered by the criteria is the promised object, understood as a enjoyment bundle.<1>p. 428</1>"}
+{"k": "f5e65b3002e289e1", "en": "A bundle of threads of different colors and thicknesses, held at the bottom by the user's hand and at the top by a pulley mechanism that pulls, releases and cuts each thread."}
+{"k": "27383a029a6f1891", "en": "Is the bundle's value stored, or does it flow?"}
+{"k": "8a80102c67aa613c", "en": "Money kept in a drawer is stock. It stays there, still, and tomorrow it is still money. Water running in a pipe is flow, because it only reaches the tap while someone keeps the network working."}
+{"k": "8151adf731cd4480", "en": "The bundle's value is like water. It is not kept in a corner of your own. It exists while it flows, with servers on, a connection and an environment maintained every day. If the service goes down, the item remains in the account, but at that moment it is useless, because the place where it works has stopped."}
+{"k": "14bb0760aae45d81", "en": "What are the threads of the bundle?"}
+{"k": "4ebdc08d88ecce37", "en": "The bundle has several threads, and it is worth looking at them one by one. There are the permissions and limits of use, which say what you can do. There is what stays visible and in what order, which decides what others see. There are the metrics and signs of recognition, such as level, rarity and badge. And there are curation and penalties, applied by the very design of the environment."}
+{"k": "cc5e96bca18af64f", "en": "A change in a single thread can hit the center of what you bought. Access continues, the account continues, the item's name continues, and even so what you had may have been emptied out. That is why looking only at whether the item is still there is not enough."}
+{"k": "744206ebbd120357", "en": "It requires identifying which central functions organize the legitimate expectation of enjoyment and, consequently, delimiting which alterations can affect the core of the object even when the formal continuity of access is preserved<1>p. 428</1>"}
+{"k": "c3aa46c20ecebb1e", "en": "What does a skin need from the game in order to work?"}
+{"k": "f2d6806ddee816f3", "en": "A skin is not just an image pasted onto the character. Some change shape during the match itself, with transformations, effects and animations. This only happens if the game remains able to draw models, effects, animations and screens, which are redone with every update."}
+{"k": "32e691a079b50595", "en": "The look, the reading others make of it and the transformation happen again in each match, like a repeated performance. That is why what you bought was not a still file. It was a position of use that is only realized while the environment keeps working in a certain way."}
+{"k": "d72834ef57be08b8", "en": "This is what happens with skins, especially those structured as evolving models that change shape during the match itself.<1>p. 439</1>"}
+{"k": "8c0d73a0f6c9b345", "en": "Can you lose what you paid for without losing the item?"}
+{"k": "afc7d3487d472942", "en": "Since the bundle's value flows and is not stored, losing a part of it can mean losing what you paid for, even with the item still in the account."}
+{"k": "66b59221485bbe3d", "en": "An object may continue to exist and still no longer be what was bought. Seeing the bundle is what makes it possible to see this loss and to separate, with a criterion, normal change from the worsening that matters to the law, even when access is still standing."}
+{"k": "717328149d5f9980", "en": "The use value of the bundle, in this condition, is not stock, it is flow.<1>p. 409</1>"}
+{"k": "bf712bcdb33f32f1", "en": "It stabilizes a grammar for identifying the core of the promised enjoyment bundle and distinguishing, by controllable criteria, between ordinary modulations of the regime and significant, legally relevant degradations, even when nominal access persists.<1>p. 426</1>"}
+{"k": "6eceb84aa204c0c6", "en": "Does a list of features in the ad already form a bundle?"}
+{"k": "b6f614f3d1e01a02", "en": "A nice list of features in an ad does not form a bundle. The bundle is what was actually promised and used, and not what appears in a slogan."}
+{"k": "09086d5e8b1a0550", "en": "Nor is every fluctuation of the service a loss. Updates, screen adjustments, anti-cheating measures, ordinary moderation and passing instabilities are part of the game's life. What matters is the serious and lasting worsening of the center of the bundle."}
+{"k": "150802c9c888b2fd", "en": "The fourth limit covers ordinary variations of the ecosystem that do not constitute relevant and persistent degradation of the bundle, such as updates, interface adjustments, anti-abuse measures, regular moderation and isolated instabilities.<1>p. 434</1>"}
+{"k": "5caec5c4420802a8", "en": "<1><2>1</2>What did you buy, after all?</1>"}
+{"k": "84e88546e0550a3e", "en": "If the value is in the flow, who decides when the flow changes?"}
+{"k": "b4d9d7d606d042c2", "en": "What makes up the bundle?"}
+{"k": "c7ba7f8015177c2d", "en": "The IOC is described as a bundle, functional and semiotic. It is the set of functionalities and significations administered over the course of the relationship, linked to permissions and limits of use, to regimes of visibility and ordering, to metrics and signs of recognition and to mechanisms of curation and enforcement executed by design. The positions that compose it are accessible through an institutional identifier and an infrastructure that stabilizes what is visible, usable and recognizable."}
+{"k": "7679db96207ff16a", "en": "The enjoyment bundle thus appears as a collection of positions accessible through an institutional identifier and an infrastructure that stabilizes what is visible, usable and recognizable in the ecosystem.<1>p. 408-409</1>"}
+{"k": "66d3d12c8497b305", "en": "Why does the bundle matter for qualification?"}

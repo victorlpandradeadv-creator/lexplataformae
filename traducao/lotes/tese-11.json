@@ -1,0 +1,972 @@
+[
+ {
+  "k": "4934c955a360ecfd",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "No regime de ofertas personalizadas, a Riot descreve a funcionalidade como dependente de rastros de jogo tratados por comparação e perfilização, sem que os critérios completos de seleção se tornem publicamente auditáveis. Ao explicar por que aparecem skins de campeões que o jogador não usa com frequência, o suporte oficial afirma que “DescontoBot usa seu histórico de jogador dos últimos seis meses para comparar você a outros jogadores com padrões semelhantes e criar ofertas que você irá gostar” e acrescenta que “a análise dele não é feita apenas com os Campeões que você mais usa” <1>Riot Games</1><2>(Riot Games, 2023b)</2>. Esse tipo de formulação é metodologicamente valioso porque mostra, ao mesmo tempo, a base mensurável mobilizada pelo serviço e a preservação de opacidade quanto aos critérios de recomendação, reforçando que a governança por arquitetura pode operar como administração de probabilidades e de atenção, e não como simples exposição de opções em vitrine. <3>↩</3>"
+ },
+ {
+  "k": "83b23c4569bf1660",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "A autorização contratual para modificação contínua do próprio ambiente de fruição aparece de modo explícito na cláusula sobre atualizações e modificações. A relevância do trecho não está em um poder abstrato de “mudar o jogo”, mas em revelar que a arquitetura técnica que distribui visibilidade, organiza fluxos e habilita o consumo não é um cenário externo ao vínculo. Ela integra o próprio serviço e pode ser reconfigurada como técnica ordinária de governo da experiência. <1>↩</1>"
+ },
+ {
+  "k": "cb46a874115ded93",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Perttu Jalovaara é pesquisador da <1>Aalto University School of Science</1>, onde desenvolveu, no contexto do <2>Master’s </2> <3>Programme in Mathematics and Operations Researc</3>h, dissertação voltada à estimação de probabilidade de vitória em <4>esports</4>, com foco específico em <5>League of Legends </5><6>Jalovaara</6><7>(Jalovaara, 2024, p. 3)</7>. Seu trabalho se insere no campo da <8>esports analytics</8> e é útil, neste ponto, por oferecer tratamento quantitativo e metodologicamente rigoroso para problemas de leitura de desempenho, contexto e decisão estratégica em ambiente competitivo digital, especialmente ao demonstrar a insuficiência de estatísticas agregadas simples e a necessidade de contextualização analítica das variáveis do jogo <9>Jalovaara</9><10>(Jalovaara, 2024, p. 7)</10>. <11>↩</11>"
+ },
+ {
+  "k": "d184b2c0ac5f5567",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Refere-se à etapa de seleção e exclusão estratégica de personagens que antecede o início da partida. É o processo de configuração da experiência lúdica no qual o consumidor exerce suas opções de fruição; a distribuição de probabilidades e o equilíbrio do ambiente nesta fase são governados por critérios internos da plataforma. <1>↩</1>"
+ },
+ {
+  "k": "6a423ea78c115ba7",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "<1>← <2>4.2 </2>Dominação informacional, poder privado e subjetividade</1><3><4>4.2.2 </4>Poder econômico privado e ordem constitucional →</3>"
+ },
+ {
+  "k": "8c6da03b4962895f",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "<1><2>4.2.1 </2>Arquitetura de escolha e dominação informacional</1>"
+ },
+ {
+  "k": "e172d084b8acb7da",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "ANDRADE, Victor L. P. 4.2.1 Arquitetura de escolha e dominação informacional. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/tese/4-2-1/"
+ },
+ {
+  "k": "7c277d7196de30e3",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Ante o exposto, o problema deixa de ser apenas como signos, visibilidade e validação social sustentam o valor no consumo imaterial contínuo e passa a ser…"
+ },
+ {
+  "k": "e1b379dfd5f4d4b1",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Esta seção começa no meio da página 334"
+ },
+ {
+  "k": "8d0a149cf183021e",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 371"
+ },
+ {
+  "k": "f36f2dae602528d7",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 372"
+ },
+ {
+  "k": "5541b580e07a00c7",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 373"
+ },
+ {
+  "k": "b061b5a78c794a5c",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 374"
+ },
+ {
+  "k": "2590c2aea21cc0c8",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 375"
+ },
+ {
+  "k": "2415affce35c53f0",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 376"
+ },
+ {
+  "k": "d437ae4d00999308",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 377"
+ },
+ {
+  "k": "33059b71368663f5",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 378"
+ },
+ {
+  "k": "af611c4d7adce501",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "Voltar à chamada da nota 379"
+ },
+ {
+  "k": "acf789674eedde1f",
+  "pagina": "tese/4-2-1/index.html",
+  "pt": "4.2.1 Arquitetura de escolha e dominação informacional"
+ },
+ {
+  "k": "29efe51d21791a3a",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "4.2.2 Poder econômico privado e ordem constitucional · Texto integral · Lex Plataformae"
+ },
+ {
+  "k": "1a6eb50d08506ba1",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Seção 4.2.2 · p. 347 a 351"
+ },
+ {
+  "k": "e642cf8891e8cac6",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1>4.2.2 </1>Poder econômico privado e ordem constitucional"
+ },
+ {
+  "k": "48c5a888fa08839d",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1>Ver esta seção no PDF</1>"
+ },
+ {
+  "k": "986c33a06b9de6de",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A reorganização do consumo imaterial em torno de ecossistemas governados torna insuficiente tratar o conflito como simples divergência contratual ou como oscilação de preferências individuais. A fruição que sustenta o valor do OIC depende de um ambiente administrado no qual visibilidade, reputação, acesso, permanência e sanção são distribuídos segundo critérios internos, por meios predominantemente arquiteturais e informacionais. Quando a conformação prática do objeto se produz por design, protocolos, curadoria e <1>enforcement</1> técnico, a vulnerabilidade deixa de se esgotar em déficits pontuais de informação e assume densidade institucional, pois a assimetria reside no controle concentrado das variáveis que tornam a experiência legível, comensurável e continuável no tempo, sem garantias proporcionais de publicidade inteligível, verificação e contestação. A questão, então, é situar esse tipo de poder privado em uma tradição de reconstrução jurídica orientada por mudanças materiais nas condições de vida social, sem depender de equiparar a plataforma à figura do Estado."
+ },
+ {
+  "k": "0622e186a47c3bb9",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Em seu artigo, Warren e Brandeis<1><2>380</2></1> ([201-?]) sustentam que invenções recentes e práticas empresariais em expansão intensificaram formas de intrusão que o ordenamento, se permanecer preso a esquemas anteriores, não consegue capturar adequadamente. A partir daí, os autores defendem o reconhecimento de um direito à privacidade enquanto legítimo direito <3>p. 348</3> de ser deixado em paz, distinguindo-o de institutos adjacentes que protegem bens diferentes, como a difamação, voltada à reputação perante terceiros, e a propriedade literária/autoral, voltada à exploração econômica da publicação. O texto também delimita cautelas e limitações, especialmente em situações de interesse público e de exposição inerente a certas funções, e indica remédios jurídicos compatíveis com a estrutura do<4> tort law</4>, incluindo indenização e tutela inibitória. O ganho central está na fixação de um precedente argumentativo legítimo. Quando o ambiente técnico reorganiza a vulnerabilidade em escala, a reconstrução jurídica não é moralismo, mas resposta necessária para manter controláveis, em termos institucionais, os efeitos de novas formas de poder e de intrusão."
+ },
+ {
+  "k": "48ebf919ba4d461d",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "O recurso a Warren e Brandeis não opera por identidade temática, mas por homologia de situação. A mudança técnica altera de modo estrutural as condições de exposição, dano e vulnerabilidade, e exige ajuste de categorias para que a tutela permaneça aderente ao modo real de produção do conflito. Isso não implica equiparar plataforma a Estado nem constitucionalizar toda disputa privada, mas reconhecer que certos poderes privados, quando exercidos por arquitetura, informação e efetivação em escala, geram assimetrias e riscos que não se esgotam na literalidade contratual. Se a reconstrução foi necessária quando técnicas e modelos de negócio reconfiguraram padrões de exposição e de proteção no final do século XIX, a mesma racionalidade justifica que vulnerabilidades produzidas por infraestruturas digitais contemporâneas sejam descritas em termos que permitam controle jurídico sem recorrer a ficções simplificadoras sobre neutralidade do mercado ou sobre suficiência da vontade formal."
+ },
+ {
+  "k": "78e07d68c5c5b1fe",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A orientação estrutural desse método fica ainda mais nítida quando o artigo desloca o problema da esfera do vício individual para a engrenagem social e econômica que torna a intrusão passível de reprodução em escala. A crítica relevante não se organiza como reprovação de um agente isolado, mas como diagnóstico de uma atividade que se institucionaliza como comércio e passa a operar por lógica própria. Warren e Brandeis descrevem a invasão da vida privada como indústria, exercida com método e desfaçatez, na qual a dinâmica mercantil se reproduz por retroalimentação, pois a própria oferta fabrica a demanda<1><2>381</2></1> <3>Brandeis</3><4>(Warren; Brandeis, [201-?], [p. 4])</4>."
+ },
+ {
+  "k": "65738c45ce431d2f",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1>p. 349</1> Ao enunciar o dano como efeito de um mecanismo produtivo e de um circuito de demanda fabricada, o texto reforça a ideia de que a resposta jurídica adequada não é moralização, mas reinterpretação de categorias para tornar controlável uma forma de poder cuja operação se estabiliza por técnica, escala e método de negócios. A consequência que interessa aqui é que o foco recai sobre condições de funcionamento e sobre a organização institucional do dano, abrindo espaço para reconhecer, em outros ambientes de governança privada, vulnerabilidade produzida por estrutura, e não por falha pessoal do sujeito regulado."
+ },
+ {
+  "k": "f872e9b3afbb0cc1",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A transposição desse modelo para o regime do OIC exige manter o foco no tipo de poder descrito. O núcleo do problema não está em descumprimentos pontuais, mas em infraestrutura privada de governança prática capaz de organizar, em escala, condições de participação e de fruição. Nesse ambiente, visibilidade e reputação funcionam como dimensões economicamente relevantes, regras internas são mutáveis, expectativas são calibradas por curadoria e temporalização da oferta, e sanções ou restrições funcionais podem degradar a posição adquirida e reconfigurar o sentido econômico da fruição."
+ },
+ {
+  "k": "eac41f680025b67d",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A assimetria relevante decorre do controle concentrado dos critérios que governam reconhecimento, permanência e sanção, de modo que o consumidor suporta os efeitos sem acesso proporcional aos parâmetros que os produzem. Identificado esse tipo de poder, torna-se justificável exigir linguagem jurídica capaz de acompanhar mudanças materiais nas condições de fruição e de vulnerabilidade, sem reduzir o conflito à literalidade do contrato nem recorrer a ficções sobre neutralidade de intermediação."
+ },
+ {
+  "k": "ab32a3d5fdc0a1e3",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A prudência do desenho proposto por Warren e Brandeis aparece com clareza na seção de limitações, na qual o direito à privacidade é enquadrado como tutela calibrada, incapaz de funcionar como instrumento geral de bloqueio informacional. O interesse público funciona como limite, pois a proteção não se estende a publicações cujo conteúdo seja de interesse <1>p. 350</1> público ou geral, de modo a preservar a circulação de informações relevantes para a comunidade e a impedir que a privacidade se converta em censura <2>Brandeis</2><3>(Warren; Brandeis, [201-?], [p. 16])</3>."
+ },
+ {
+  "k": "9111c1f2091712dd",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Sua obra também fixa limites por contexto institucional ao reconhecer que certos fluxos informacionais integram o próprio funcionamento de instituições e, por isso, não podem ser paralisados pela nova tutela, como ocorre com publicações realizadas em instâncias judiciais e em corpos legislativos, bem como em comunicações equivalentes <1>Brandeis</1><2>(Warren; Brandeis, [201-?], [p. 19])</2>. A delimitação se completa com um critério de proporcionalidade associado ao meio de propagação, ao admitir que, em regra, não haveria reparação por publicação meramente oral sem dano especial e que parte dessas ocorrências deve ser tolerada para preservar a liberdade de expressão, evitando que a categoria se expanda até abarcar trivialidades e preservando espaço para práticas sociais ordinárias sem judicialização difusa <3>Brandeis</3><4>(Warren; Brandeis, [201-?], [p. 19])</4>."
+ },
+ {
+  "k": "9c02a9618816212d",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A consequência metodológica dessa calibragem é que a limitação do poder não depende de sua natureza pública, mas da forma como ele se estabiliza e dos efeitos que produz sobre condições de vida e de participação. Quando a normatividade prática é exercida por regras internas mutáveis, por arquitetura de acesso e por intermediação informacional opaca, o déficit relevante não é a ausência de um rótulo jurídico-público, mas a ausência de reciprocidade institucional proporcional ao domínio exercido sobre reconhecimento, permanência e sanção."
+ },
+ {
+  "k": "16a99fd6acc40921",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "É nesse sentido estrito que a expressão “sem autorização” opera como categoria descritiva, pois nomeia um poder de ordenação social que não se submete, em medida equivalente, a exigências mínimas de publicidade inteligível dos critérios, motivação acessível, coerência decisória e vias efetivas de contestação compatíveis com a relevância econômica e identitária do que está em jogo. A partir desse ponto, a tarefa deixa de ser discutir se a relação é privada ou pública e passa a ser identificar quais instrumentos de controle permitem tornar examinável a racionalidade do exercício desse poder, o que recoloca a tradição de reconstrução jurídica diante de mudanças materiais como parâmetro para construir limites e deveres proporcionais sem recorrer a ficções estatizantes."
+ },
+ {
+  "k": "955f3e2bcabe6e17",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A moldura institucional proposta por Warren e Brandeis também se apoia em um diagnóstico de civilização e de vida moderna, no qual a necessidade de tutela emerge como resposta a pressões coletivas e não como reação casuística a episódios isolados. O texto associa a expansão de interesses juridicamente protegidos ao fato de que o avanço civilizatório intensificou a vida intelectual e emocional e elevou a sensibilidade, tornando mais evidente que parte decisiva da experiência humana não se concentra em bens físicos <1>Brandeis</1><2>(Warren; Brandeis, [201-?], [p. 3])</2>."
+ },
+ {
+  "k": "1bb1538a35d27f06",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1>p. 351</1> Em continuidade, a privacidade é descrita como condição funcional de suportabilidade da modernidade, pois a intensidade e a complexidade da vida tornam necessária alguma forma de retraimento do mundo e, sob o efeito refinador da cultura, o indivíduo se torna mais sensível à publicidade, fazendo com que solidão e privacidade se tornem mais essenciais <2>Brandeis</2><3>(Warren; Brandeis, [201-?], [p. 4])</3>. Isso permite tratar a tutela como mecanismo de acomodação jurídica de novas pressões estruturais, o que reforça a legitimidade de reconstruções conceituais quando infraestruturas técnicas e modelos de intermediação reorganizam, em escala, as condições de exposição, fruição e vulnerabilidade."
+ },
+ {
+  "k": "7cf3a04800bda8fd",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Uma vez fixado que a governança por arquitetura e por informação constitui forma de normatividade prática capaz de organizar acesso, visibilidade, permanência e sanção em ambientes de fruição dependente de ecossistema, o problema deixa de ser enunciável como mero atrito contratual e passa a exigir linguagem controlável para descrever limites e critérios de responsabilização compatíveis com a densidade do domínio exercido. A contribuição obtida situa o deslocamento proposto em uma tradição de reconstrução jurídica que responde a mudanças materiais nas condições de vida social, mostrando que, quando técnicas e métodos de negócio reorganizam exposição e vulnerabilidade em escala, a adequação das categorias não é voluntarismo, mas condição de inteligibilidade institucional do conflito."
+ },
+ {
+  "k": "f111607a61f035dd",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Com isso, torna-se possível tratar a assimetria não como desconforto subjetivo, mas como déficit estrutural de reciprocidade proporcional, a ser enfrentado por instrumentos que tornem examináveis critérios, racionalidades e impactos do exercício de poder no interior do ecossistema. Esse quadro permite descrever como a governança produz adesão, autoajuste e sujeição por desempenho, comparação e gestão do risco simbólico sem imputação moral individual. Com isso, a posição de fruição se revela também como posição de conformidade e de dependência, preparando a formulação de deveres proporcionais e de parâmetros de transparência, estabilidade e recomposição adequados ao regime do OIC."
+ },
+ {
+  "k": "d112c385d9e347c1",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Intitulado <1>The Right to Privacy</1>, o artigo seminal de Samuel D. Warren e Louis D. Brandeis <2>([201-?])</2>, originalmente publicado pela <3>Harvard Law Review</3> em 1890, formula uma matriz de reconstrução jurídica diante de mutações técnicas e sociais que alteram condições de exposição, vulnerabilidade e dano. O texto parte da premissa de que a common law não opera como sistema estático, mas como tradição capaz de desenvolver novos contornos protetivos quando mudanças materiais reconfiguram interesses dignos de tutela. Aqui, o interesse do argumento é metodológico e independe de transplante institucional entre <4>common law</4> e <5>civil law,</5> pois o ponto não reside em técnicas específicas de precedente, mas na necessidade de readequar categorias jurídicas quando a transformação material torna anacrônica a moldura disponível. Sob tal perspectiva, novas tecnologias e novos modelos de negócio deslocam a fronteira entre o espaço socialmente protegido e a esfera de sujeição, e exigem ajuste das categorias para que a proteção permaneça aderente ao modo real de produção do conflito. <6>↩</6>"
+ },
+ {
+  "k": "1a46f17347229e27",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Warren e Brandeis constroem <1>The Right to Privacy</1> como resposta institucional a uma mudança material na vida social. O ponto de partida não é um juízo moral sobre indivíduos inconvenientes, mas a percepção de que “Recent inventions and business methods call attention to the next step which must be taken for the protection of the person” <2>Brandeis</2><3>(Warren; Brandeis, [201-?], [p. 3])</3>. A modernidade técnica altera, de modo estrutural, as condições de exposição e de captura do cotidiano, e o texto descreve essa passagem com imagens de intrusão concreta, ao afirmar que “Instantaneous photographs and newspaper enterprise have invaded the sacred precincts of private and domestic life” <4>Brandeis</4><5>(Warren; Brandeis, [201-?], [p. 3])</5>. A consequência é metodológica, visto que categorias herdadas deixam de capturar o modo real de produção do dano quando a técnica e a empresa tornam a intrusão reproduzível em escala. Nessa chave, a crítica central desloca o foco do “agente isolado” para a engrenagem econômica que institucionaliza a intrusão. Os autores afirmam expressamente que “Gossip is no longer the resource of the idle and of the vicious, but has become a trade, which is pursued with industry as well as effrontery” e concluem, sem rodeios, que “In this, as in other branches of commerce, the supply creates the demand” <6>Brandeis</6><7>(Warren; Brandeis, [201-?])</7>. A intrusão então passa a operar como prática de mercado, guiada por incentivos de circulação e por lógica cumulativa, na qual a repetição cria tolerância social e rebaixa padrões, pois “Each crop of unseemly gossip, thus harvested, becomes the seed of more” <8>Brandeis</8><9>(Warren; Brandeis, [201-?], [p. 3])</9>. O dano, portanto, não é apenas o episódio publicado, mas o circuito comercial que fabrica apetite, normaliza exposição e amplia a vulnerabilidade como condição coletiva. É desse diagnóstico que emerge a formulação protetiva. O texto propõe uma tutela que permita resistir à intrusão sem transformar privacidade em censura generalizada, articulando o direito como “the right to be let alone” e, ao mesmo tempo, delimitando limites e cautelas, sobretudo por interesse público e por contextos institucionais em que a circulação de informações é funcional <10>Brandeis</10><11>(Warren; Brandeis, [201-?], [p. 2])</11>. A força do artigo está em seu desenho. A tutela é apresentada como reconstrução jurídica necessária quando técnica e métodos de negócio deslocam fronteiras de proteção e tornam anacrônica a moldura anterior, sem depender de moralização e sem supor que apenas poderes estatais podem produzir assimetrias estruturais. <12>↩</12>"
+ },
+ {
+  "k": "8cd58d9bf73fb5a5",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1>← <2>4.2.1 </2>Arquitetura de escolha e dominação informacional</1><3><4>4.2.3 </4>Psicopolítica, autoexploração e cativeiro identitário →</3>"
+ },
+ {
+  "k": "5b83bbb2ff6eb5de",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "<1><2>4.2.2 </2>Poder econômico privado e ordem constitucional</1>"
+ },
+ {
+  "k": "9eb4625b88127e9c",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "ANDRADE, Victor L. P. 4.2.2 Poder econômico privado e ordem constitucional. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/tese/4-2-2/"
+ },
+ {
+  "k": "4f8d7e0de71e3271",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "A reorganização do consumo imaterial em torno de ecossistemas governados torna insuficiente tratar o conflito como simples divergência contratual ou como…"
+ },
+ {
+  "k": "cdbae99b78eb59af",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Esta seção começa no meio da página 347"
+ },
+ {
+  "k": "70ec56e49b147076",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Voltar à chamada da nota 380"
+ },
+ {
+  "k": "2be10f6b6b16acf4",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "Voltar à chamada da nota 381"
+ },
+ {
+  "k": "08289a0327f47788",
+  "pagina": "tese/4-2-2/index.html",
+  "pt": "4.2.2 Poder econômico privado e ordem constitucional"
+ },
+ {
+  "k": "bb397dd622d4e164",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "4.2.3 Psicopolítica, autoexploração e cativeiro identitário · Texto integral · Lex Plataformae"
+ },
+ {
+  "k": "c693743f7b240664",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Seção 4.2.3 · p. 351 a 363"
+ },
+ {
+  "k": "e23866cc6e1c89f8",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1>4.2.3 </1>Psicopolítica, autoexploração e cativeiro identitário"
+ },
+ {
+  "k": "5c7ae7aabfb7bebd",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1>Ver esta seção no PDF</1>"
+ },
+ {
+  "k": "42f8b244f6fde685",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Quando a governança por arquitetura e por informação se estabiliza como administração privada de acesso, visibilidade, permanência e sanção, ela produz um poder que não incide apenas sobre escolhas pontuais, mas sobre as condições de viabilidade econômica e de reconhecimento social no interior do ecossistema. A fruição que sustenta o valor do OIC depende de uma posição legível e comparável, e essa posição se preserva pela aderência a critérios de reconhecimento, ritmos de atualização e padrões de desempenho instituídos pelo <1>p. 352</1> próprio ambiente. A vulnerabilidade não se esgota em assimetria informacional ou preferências individuais, porque a permanência e o pertencimento passam a ser recursos governados, capazes de produzir autoajuste, disciplina e adesão como efeitos estruturais do mercado administrado."
+ },
+ {
+  "k": "79154d5297147e42",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A passagem do modelo disciplinar para um regime de desempenho permite descrever a sujeição contemporânea sem recorrer à análise psicológica individual, pois o eixo da conformidade deixa de depender de proibições externas e passa a operar por positividade produtiva e internalização de exigências. Byung-Chul Han<1><2>382</2></1> sustenta que a positividade do poder pode ser mais eficiente do que a negatividade do dever, de modo que o sujeito de desempenho tende a ser mais rápido e mais produtivo do que o sujeito da obediência, embora essa mutação não apague a disciplina, pois o sujeito de desempenho permanece disciplinado e carrega consigo o estágio disciplinar <3>Han</3><4>(Han, 2015, [p. 15])</4>. Esse deslocamento ajuda a compreender por que ambientes governados por métricas, comparação e incentivo contínuo podem produzir autoajuste estável sem coerção ostensiva, uma vez que a própria liberdade passa a funcionar como veículo de exigência. Nesse sentido, Han descreve o paradoxo pelo qual a liberdade, quando convertida em dever de desempenho ilimitado, passa a produzir coerção com mais eficiência do que a obrigação disciplinar, que tende a encontrar limites <5>Han</5><6>(Han, 2017, [p. 8-9])</6>. O ponto é que a aderência ao ecossistema pode ser produzida como efeito estrutural, porque conservar comensurabilidade pública e acesso efetivo a reconhecimento exige recalibração contínua sob critérios definidos pelo ambiente, convertendo desempenho e permanência em condição prática de fruição."
+ },
+ {
+  "k": "cc1f16ca60fe3fe8",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "No regime do OIC, reconhecimento, visibilidade e permanência não funcionam como efeitos laterais do consumo, pois integram as condições materiais pelas quais a fruição se torna valiosa e sustentável no tempo. A plataforma, ao administrar métricas, ranqueamentos, sinais <1>p. 353</1> de prestígio e formas de comparação pública, estabelece uma gramática de desempenho que organiza o que conta como êxito, aderência e regularidade dentro do ecossistema. O resultado é convergência funcional com o modelo descrito por Han."
+ },
+ {
+  "k": "092540b858cb09a5",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A conformidade não depende de comando explícito nem de ameaça frontal, porque o próprio ambiente torna custosa a descontinuidade e torna arriscado o desajuste, na medida em que a perda de legibilidade, a queda de visibilidade e o rebaixamento reputacional afetam diretamente a posição de fruição que constitui o objeto econômico relevante. Nesse contexto, a adaptação do consumidor não exprime traço de personalidade, mas estratégia de permanência em um mercado administrado. O autoajuste se torna racional sob condições em que o valor depende de preservar posição nas hierarquias internas do ecossistema e de manter-se elegível a validação e visibilidade, e a continuidade da fruição passa a exigir acompanhamento de ritmos, expectativas e padrões definidos pela infraestrutura que controla o acesso aos próprios critérios de reconhecimento."
+ },
+ {
+  "k": "43e60803f4e5086e",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A aderência ao ecossistema governado não precisa ser produzida por proibição frontal para adquirir estabilidade, porque o regime de desempenho tende a converter a própria liberdade em operador de conformidade. Byung-Chul Han descreve o sujeito contemporâneo como “senhor e soberano de si mesmo”, liberto da instância externa que o obrigaria a trabalhar, e justamente por isso colocado em uma situação na qual a queda do dominador não conduz à liberdade, mas faz “liberdade e coação coincidarem”, de modo que o sujeito “se entrega à liberdade coercitiva” e à “livre coerção de maximizar o desempenho” <1>Han</1><2>(Han, 2015, [p. 16])</2>. Aqui, o mecanismo decisivo é aquele segundo o qual a disciplina passa a operar sob a forma de realização, iniciativa e autonomia, tornando o autoajuste compatível com o sentimento de escolha, mesmo quando ele se estrutura como obrigação de permanecer eficiente e premiável no interior do ambiente."
+ },
+ {
+  "k": "50b5135865ea94cf",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A engrenagem se torna mais nítida quando a governança do ecossistema é descrita como produção de aderência por incentivo, exposição e recompensa, e não como imposição por proibição ostensiva. Han sustenta que um poder inteligente não disciplina a psique por coerção ou proibição, mas se aproxima dela e a convoca a participar e a compartilhar, explorando a liberdade mais do que a negando, justamente porque consegue operar sem se apresentar como poder <1>Han</1><2>(Han, 2017, [p. 18])</2>. A consequência é que a sujeição não se impõe como silêncio, mas como comunicação e exposição contínuas, e essa participação ativa funciona como recurso de governança."
+ },
+ {
+  "k": "c990084e0d34a9fd",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "No <1>League of Legends</1>, esse poder que convoca a liberdade a trabalhar a favor da conformidade se mostra com clareza no regime ranqueado, porque ali o desempenho é traduzido <2>p. 354</2> em posição, e a posição se torna linguagem pública de valor. A escada competitiva organiza a experiência como trajetória comparável, na qual o indivíduo não apenas joga, mas se mede, se classifica e se disponibiliza ao julgamento do próprio ecossistema. Essa estrutura não precisa de coerção direta para produzir disciplina, pois ela converte a iniciativa em obrigação socialmente inteligível. O que está em jogo não é um “modo de jogo”, mas a produção contínua de um retrato posicional que passa a operar como forma resumida de identidade naquele mundo."
+ },
+ {
+  "k": "4d656d2a4aadbcca",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Essa captura se torna ainda mais nítida quando a Riot descreve, ela própria, a diferença entre MMR e ranque como uma tradução institucional do sujeito em números, de modo que a classificação pública aparece como representação “relatável” de um valor calculado que permanece oculto. Ao explicar o sistema, o suporte oficial afirma que o MMR é secreto e que o ranque existe como mecanismo para traduzir esse MMR em uma forma acessível e progressiva para o jogador <1>Riot Games</1><2>(Riot Games, 2026h)</2>. O efeito disso sobre a psicopolítica do desempenho é direto. A liberdade do jogador se organiza como busca voluntária por adequação ao critério que o mede, mesmo quando o critério é opaco, porque o que se torna visível e socialmente legível é o resultado posicional, e não o funcionamento do cálculo."
+ },
+ {
+  "k": "cbd9f24fac094f9c",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Por isso, a escalada ranqueada tende a transformar o lazer em regime de autoexploração racional. A plataforma administra o risco simbólico por meio de categorias de progresso, distribuição e reclassificação, inclusive com mudanças estruturais periódicas que reposicionam o valor do sujeito na escada e redefinem o horizonte do “subir”, “manter” e “merecer” <1>Riot Games</1><2>(Riot Games, 2023d)</2><3><4>383</4></3>. A disciplina, aqui, não se apresenta como proibição, mas como convocação permanente a investir tempo, atenção e desempenho para não perder comensurabilidade pública no ambiente. O resultado é que a conformidade não depende de ordem externa. Ela emerge como necessidade interna de preservar legibilidade, evitar queda e sustentar um lugar reconhecível numa hierarquia que a própria infraestrutura produz e recalibra ao longo do tempo."
+ },
+ {
+  "k": "de7e5c17dc320d0b",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Essa dependência, como nos demais mecanismos do ecossistema, também não é neutra do ponto de vista do vínculo contratual. As condições de acesso e permanência são fornecidas sob licença revogável e condicionada, e o encerramento de conta implica perda de acesso ao <1>p. 355</1> ambiente e a dados associados <2>Riot Games</2><3>(Riot Games, 2024e)</3><4><5>384</5></4>. Assim, a escada ranqueada não opera como patrimônio destacável. Ela opera como gramática de reconhecimento que só existe enquanto a conta e o serviço permanecem ativos, o que torna a saída, a desaceleração ou o desalinhamento mais custosos do que pareceriam sob uma ontologia de “produto” estático."
+ },
+ {
+  "k": "d9c918b4eb85c386",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Nessa linha, ao contrastar o panóptico disciplinar com o panóptico digital, Han observa que os ocupantes do novo dispositivo colaboram com seu funcionamento por meio de autoiluminação e autoexposição voluntárias <1>Han</1><2>(Han, 2017, [p. 13])</2>. A conclusão é que a conformidade pode ser produzida como efeito estrutural de um ecossistema que mobiliza liberdade, desempenho e exposição como gramática de permanência, reduzindo a necessidade de coerção frontal ao mesmo tempo em que intensifica a dependência do sujeito em relação aos critérios que definem reconhecimento e valor."
+ },
+ {
+  "k": "7bd196bdcf48b5a7",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "No <1>League of Legends</1>, a psicopolítica não se manifesta apenas como incentivo para “fazer mais”, mas também como indução para “ser do jeito certo” se o objetivo for permanecer elegível à experiência plena do ecossistema. O sistema de Honra condensa essa lógica ao transformar conduta em variável de reputação administrada, cuja consequência prática não se limita a um juízo moral, pois reorganiza recompensas, privilégios e acesso. O suporte oficial descreve a Honra como reflexo geral do comportamento “dentro e fora de jogo”, afirmando que ela “recompensa” conduta esportiva com benefícios e “penaliza” comportamentos inadequados com recompensas reduzidas e restrição de privilégios de comunicação <2>Riot Games</2><3>(Riot Games, 2025a)</3><4><5>385</5></4>. A disciplina, aqui, não precisa aparecer como ameaça explícita, porque se instala como prudência cotidiana do próprio sujeito. O jogador passa a gerir a si mesmo para manter-se premiável e socialmente legível, evitando perdas que não são apenas simbólicas, mas funcionais, na medida em que atingem o que pode ser acumulado, exibido e usufruído na continuidade da fruição."
+ },
+ {
+  "k": "8c090c30f80e4c2c",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1>p. 356</1> Esse deslocamento do controle para o interior do sujeito fica ainda mais nítido quando a própria política de integridade conecta punições a efeitos materiais sobre progressão e recompensas. Em documento específico sobre restrições de Honra, a Riot descreve que sanções como suspensão e restrição de chat rebaixam nível de Honra, travam progresso e tornam a conta inelegível a recompensas vinculadas a esse regime <2>Riot Games</2><3>(Riot Games, 2017b)</3><4><5>386</5></4>. Nesse desenho, a conformidade se produz como autopreservação: não se trata de obedecer por medo abstrato, mas de evitar um rebaixamento que altera a posição do sujeito nas rotinas de recompensa e no acesso a certos benefícios, consolidando a ideia de que permanecer “apto” é parte da própria experiência de consumo. A liberdade, assim, opera como operador de conformidade porque o sujeito antecipa o olhar do ecossistema e ajusta sua conduta para não perder elegibilidade."
+ },
+ {
+  "k": "2fba69a018217292",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Essa lógica transborda o interior do jogo e assume contornos de governança de identidade, pois os Termos de Serviço estabelecem que as Regras de Usuário regem comportamento durante o jogo e também certas condutas fora do jogo, prevendo medidas disciplinares que podem alcançar suspensão temporária, encerramento de conta e até banimento de hardware <1>Riot Games</1><2>(Riot Games, 2024e)</2><3><4>387</4></3>. Além disso, o contrato explicita que as Regras de Usuário podem incidir sobre transmissões, vídeos gravados e postagens em redes sociais, e admite a possibilidade de penalidades aplicáveis a múltiplos serviços da Riot, inclusive escalonadas entre jogos <5>Riot Games</5><6>(Riot Games, 2024e)</6><7><8>388</8></7>. Nessa combinação, o que se observa é um regime em que o sujeito internaliza o controle como obrigação de permanecer elegível e aceitável diante de critérios que o próprio ecossistema administra, ampliando o campo de incidência da <9>p. 357</9> normatividade para além do momento estrito da partida. O panóptico deixa de ser apenas olhar exterior porque o indivíduo passa a antecipar a sanção e a ajustar o próprio comportamento para manter-se dentro das fronteiras do premiável, do comunicável e do participável, como condição ordinária de permanência."
+ },
+ {
+  "k": "06f1beec8b8bab29",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Aplicada ao regime do OIC, essa engrenagem revela que o ecossistema não administra apenas acesso a conteúdos, mas governa risco simbólico e posicional como condição de permanência. O valor não se sustenta como atributo estático de um objeto adquirido, pois depende de continuidade de fruição e de preservação de legibilidade pública dentro do ecossistema, de modo que perder visibilidade, pertinência temporal e pertencimento, ou sofrer rebaixamento posicional produz efeitos econômicos que não se reduzem a inconveniente subjetivo."
+ },
+ {
+  "k": "5036bec16c3627b2",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A plataforma, ao controlar ritmos de atualização, eventos, janelas de acesso, escalas de reputação e formas de comparação, converte a permanência em tarefa e transforma a manutenção do lugar em trabalho contínuo de acompanhamento e ajuste. Nesse contexto, a oferta não se limita a entregar uma utilidade pontual, porque ela organiza um circuito no qual a própria possibilidade de continuar “valendo” depende de aderir a parâmetros de desempenho e de presença que o ecossistema naturaliza como condição de participação."
+ },
+ {
+  "k": "1b7333f0eee6dfca",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A gestão desse risco funciona como instrumento de disciplina sem precisar se apresentar como ameaça explícita. O retorno frequente, a atenção constante e a disposição para recalibrar condutas surgem como escolhas racionais sob condições em que o custo do desajuste é a perda de comensurabilidade e a erosão do capital simbólico acumulado, com impacto direto sobre a posição de fruição que constitui o núcleo econômico do OIC."
+ },
+ {
+  "k": "a5ac76c0c2abb9d5",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A conversão de condutas em métricas não se limita a técnica de gestão externa, porque tende a reconfigurar a forma pela qual o sujeito se percebe e se estabiliza no tempo, deslocando identidade de uma estrutura narrativa para uma estrutura aditiva de dados. Byung-Chul Han formula esse contraste ao sustentar que a promessa de autoconhecimento por números falha no nível mais básico, pois o acúmulo de registros não produz narrativa, e um sentido de si depende de prestar contas de uma trajetória, e não de somar indicadores dispersos, razão pela qual a lógica do <1>Quantified Self</1> tende a decompor o eu em dados até esvaziar o próprio sentido <2>Han</2><3>(Han, 2017, [p. 50])</3>. O ponto é descrever um tipo de instabilidade que não nasce de introspecção subjetiva, mas da substituição de continuidade narrativa por rastreamento mensurável, fazendo com que a manutenção do eu dependa de indicadores, metas e feedbacks que podem ser continuamente recalibrados por critérios externos."
+ },
+ {
+  "k": "1b8dbcf195454d9b",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1>p. 358</1> O quadro se adensa quando o registro deixa de ser memória individual e passa a circular como critério de validação, pois o rastreamento se transforma em vigilância de si e conecta autoexploração, auto-observação e manutenção de reputação. Han afirma que o sujeito digitalizado e em rede carrega um panóptico interior, no qual guardião e prisioneiro se confundem, fazendo com que o controle deixe de depender apenas de um olhar exterior e passe a operar como autovigilância <2>Han</2><3>(Han, 2017, [p. 51])</3>. A consequência é que avaliação contínua deixa de ser apenas olhar do ambiente e se torna olhar internalizado, transformando o autoajuste em exigência ordinária de permanência sob métricas de desempenho e exposição que o próprio sujeito ajuda a produzir e a alimentar."
+ },
+ {
+  "k": "2436aef03f3ac03c",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Quando a experiência passa a ser organizada por mensuração e comparação contínuas, a conformidade deixa de depender de comando explícito e se instala como efeito ordinário de um ambiente que premia previsibilidade. A transparência operada por métricas e correlações não funciona apenas como ampliação de informação disponível, pois ela transforma padrões estatísticos em referência prática de normalidade, estreitando o espaço do desvio e deslocando o custo do desalinhamento para a própria possibilidade de permanecer visível e validado. No regime do OIC, esse estreitamento tem consequência econômica direta, porque a posição de fruição depende de permanecer comensurável e reconhecível dentro do ecossistema, e a infraestrutura controla os indicadores e os filtros que definem o que aparecerá como desempenho adequado. O resultado é um regime de autoajuste no qual a manutenção de pertencimento e de valor posicional se torna dependente de aderir a parâmetros mensuráveis que o ambiente mede e recompensa, convertendo mensurabilidade em instrumento de governança."
+ },
+ {
+  "k": "4766248e03727879",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O efeito institucionalmente relevante desse quadro pode ser descrito como cativeiro identitário. A expressão não designa aprisionamento físico nem supõe incapacidade de agir, mas nomeia dependência prática, pela qual a continuidade da fruição e a estabilidade da identidade simbólica passam a ser mediadas pelo ecossistema administrado. Quando a posição de fruição se ancora em sinais de prestígio, repertórios acumulados, registros de desempenho, visibilidade e pertencimento, a plataforma governa as condições de preservação de um lugar socialmente reconhecível ao distribuir legibilidade pública por métricas, ranqueamento e critérios internos de elegibilidade. Nesse contexto, sair, desacelerar ou desalinhar não aparece como simples escolha neutra, pois tende a implicar perda de legibilidade e colapso dos sinais que sustentam comensurabilidade pública, com rebaixamento da posição que dava sentido econômico à fruição. A permanência passa a depender de alinhamento contínuo a padrões <1>p. 359</1> operacionais mutáveis, e a saída deixa de ser simples substituição de serviço, porque envolve descontinuidade de prestígio, comparabilidade e pertencimento."
+ },
+ {
+  "k": "73fc0b5046caf476",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Essa dependência de reconhecimento administrado é juridicamente relevante porque torna integridade e identidade variáveis governadas da fruição e exige, no plano dogmático, deveres reforçados de transparência qualificada, contestabilidade, auditabilidade e recomposição proporcionais ao tipo de poder exercido pela <1>Lex Plataformae.  </1>"
+ },
+ {
+  "k": "0fc3ca97f82b098b",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A dependência se consolida porque a plataforma concentra a administração de métricas, de critérios de reconhecimento e de trajetórias de exposição, ao mesmo tempo em que recalibra, com liberdade, o que conta como desempenho adequado e quais condutas serão premiáveis ou puníveis. O resultado é um custo de saída que não se esgota em perda patrimonial pontual, pois envolve descontinuidade de uma narrativa de si que foi construída, medida e validada no interior do ambiente, além de perda de acesso aos próprios parâmetros que tornavam essa narrativa inteligível. O cativeiro identitário, assim, é a forma pela qual o poder de governança se traduz em sujeição estável sem coerção ostensiva, porque a preservação da fruição exige permanência sob critérios variáveis e a preservação da identidade simbólica exige continuidade de reconhecimento sob sinais que não pertencem ao consumidor, mas à infraestrutura que os define e os distribui."
+ },
+ {
+  "k": "c9a92768659c2e47",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A barreira de saída pode ser descrita como uma forma de morte social no interior do ecossistema. A expressão não opera como dramatização moral, mas como descrição funcional do efeito produzido quando a plataforma concentra os registros que sustentam pertencimento e relevância, isto é, histórico, repertório, posição ranqueada, sinais de prestígio, vínculos comunitários e rastros de participação. Abandonar o ambiente, nessas condições, não se assemelha a migrar de um serviço para outro, porque implica interromper a própria existência socialmente reconhecível naquele mundo, com perda de continuidade simbólica e apagamento prático de marcas de trajetória que se tornaram condição de comensurabilidade pública. A saída, portanto, não se apresenta como decisão neutra de consumo, pois o custo não se limita ao preço pago ou ao acesso a uma utilidade, alcançando a sobrevivência posicional do consumidor em uma gramática de reconhecimento que o próprio ecossistema monopoliza."
+ },
+ {
+  "k": "2d0db81248d046c5",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Esse efeito estabiliza o cativeiro identitário por um mecanismo adicional, que não depende de coerção formal nem de ameaça direta, mas de autopreservação reputacional. Se o valor experiencial do OIC se ancora em sinais de status, consistência de desempenho, pertencimento e memória social, qualquer crítica que coloque em risco a legitimidade do ecossistema ou a estabilidade de suas hierarquias tende a ser percebida como ameaça ao próprio investimento identitário do consumidor. Forma-se, assim, um circuito de defesa do ambiente <1>p. 360</1> em que usuários se convertem em agentes de conformidade, não por servilismo, mas por necessidade de proteger o capital simbólico acumulado e o sentido de existência social que dele decorre. A plataforma, ao organizar o reconhecimento como recurso escasso e ao condicionar sua distribuição a métricas e regras internas, produz incentivo estrutural para que a própria comunidade opere como instância de vigilância e contenção de dissenso, elevando o custo social do desalinhamento e reduzindo o espaço de contestação efetiva."
+ },
+ {
+  "k": "6f4f4ff36f426812",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O que torna esse regime particularmente estável é que sua engrenagem não depende de coerção externa contínua, pois opera por exploração da liberdade como recurso econômico. Byung-Chul Han afirma que o neoliberalismo constitui um sistema altamente eficiente para explorar a liberdade e capturar práticas e formas expressivas associadas à autonomia, como emoção, jogo e comunicação, sustentando que explorar pessoas contra a vontade é ineficiente e que os retornos são maximizados quando a própria liberdade é explorada<1><2>389</2></1> <3>Han</3><4>(Han, 2017, [p. 9-10])</4>. O ambiente governado não precisa se impor como proibição para obter aderência, pois ele incentiva, premia e faz do engajamento uma condição de permanência, convertendo iniciativa e participação em matéria-prima de conformidade."
+ },
+ {
+  "k": "48a8a932ad336dbd",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Essa eficiência se aprofunda quando a exploração deixa de se apresentar como relação visível entre dominador e dominado e passa a ser internalizada como dinâmica ordinária do sujeito consigo mesmo. Han descreve que, no presente, cada indivíduo tende a se tornar <1>p. 361</1> trabalhador autoexplorador em sua própria empresa, acumulando na mesma figura as posições de comando e submissão, e que até mesmo a luta de classes pode ser vivida como luta interior contra si, sob condições definidas pela solidão do empreendedor isolado e autocombativo, que pratica autoexploração de modo voluntário <2>Han</2><3>(Han, 2017, [p. 11])</3>. O efeito estrutural é a neutralização de fricções que, em outros regimes, tornariam o conflito social mais visível e contestável, porque a pressão é vivida como obrigação íntima de desempenho e não como imposição externa atribuível a um agente identificável."
+ },
+ {
+  "k": "2c1bf1e8be8577aa",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A linguagem operacional desse processo aparece na transformação da vida em regime de otimização mensurável, no qual fraquezas e erros devem ser eliminados para maximizar eficiência e performance, e no qual tudo é feito para ser comparável e mensurável sob a lógica de quantificação do sucesso no mercado, não por busca da vida boa, mas por constrangimentos sistêmicos <1>Han</1><2>(Han, 2017, [p. 28])</2>. A tríade compõe a engrenagem de conformidade em ecossistemas de plataforma: liberdade é convocada como participação, participação é capturada como produtividade, e produtividade é estabilizada como comparabilidade, de modo que o sujeito se ajusta para permanecer premiável e reconhecível. O usuário se torna um agente prático da própria sujeição dentro de um ambiente em que um terceiro - não adstrito a quaisquer padrões efetivos de transparência - administra métricas, visibilidade e permanência como condições “legítimas” de valor."
+ },
+ {
+  "k": "df684d1c19752a1b",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O resultado importa juridicamente porque desloca o conflito do vocabulário da escolha para o plano das condições de governança que produzem, calibram e tornam economicamente relevante aquilo que se apresenta como escolha. Em regimes de OIC, a permanência do valor depende de reconhecimento e continuidade de fruição, e esses elementos não decorrem de vontade isolada do consumidor, pois são administrados por critérios de visibilidade, comparação e sanção que a plataforma define, aplica e recalibra. A sujeição descrita, portanto, não é traço moral nem patologia individual, mas efeito previsível de um ambiente em que desempenho, exposição e mensurabilidade funcionam como gramática de permanência. Quando a continuidade da fruição exige autoajuste e quando o custo do desajuste se manifesta como perda de posição, de legibilidade e de pertencimento, o ambiente passa a operar como mecanismo produtor de vulnerabilidade, porque transforma risco simbólico e posicional em instrumento de conformidade."
+ },
+ {
+  "k": "6f125bd1d3267a17",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Esse deslocamento impede que o problema seja tratado como simples assimetria informacional corrigível por aviso formal, ou como dinâmica concorrencial neutra resolvida por alternativa de mercado. A plataforma concentra a administração das variáveis que definem o que será reconhecido, premiado, rebaixado e excluído, e essa concentração torna explorável <1>p. 362</1> a dependência do consumidor em relação a parâmetros que ele não controla e que, em regra, não consegue verificar. Assim, a tutela não pode se limitar a inventariar cláusulas ou a presumir que a escolha do usuário encerra o sentido do fornecimento, porque a conformação efetiva do objeto se produz por operações continuadas do ecossistema que determinam condições de acesso, permanência, reputação e sanção. O ponto alcançado é que a vulnerabilidade, nesse cenário, possui densidade institucional e exige deveres proporcionais ao poder exercido, especialmente no que se refere à inteligibilidade de critérios, à estabilidade mínima das condições de fruição e à possibilidade de recomposição quando mudanças, modulações ou sanções degradam a posição de fruição que dá sentido econômico ao OIC."
+ },
+ {
+  "k": "4836369b8f4907ec",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O custo dessa permanência por recalibragem contínua aparece com mais nitidez quando a temporalidade do ambiente é descrita como temporalidade de jogo, isto é, organizada por recompensas imediatas, ciclos curtos de validação e experiências rápidas de sucesso. Han observa que jogos exibem uma temporalidade marcada por sucesso e recompensa imediatos, mas que aquilo que amadurece no tempo não pode ser gamificado, porque o que é longo e duradouro tende a se mostrar incompatível com a temporalidade do jogo, de modo que a caça se ajusta ao regime de recompensas, enquanto a agricultura, dependente de processos lentos e crescimento silencioso, não se deixa converter em pontuação e níveis, pois a vida não pode ser reduzida a caça permanente<1><2>390</2></1> <3>Han</3><4>(Han, 2017, [p. 43])</4>. Assim, torna-se possível sustentar que o um ecossistema estruturado por comparação, desempenho e <5>feedback</5> rápido tende a corroer as condições de continuidade subjetiva e de estabilidade experiencial, exigindo do consumidor um ajuste incessante apenas para continuar legível e premiável dentro do circuito que sustenta o valor de seu OIC."
+ },
+ {
+  "k": "9cbfb64ceb89c2ef",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Nesse registro, a otimização deixa de funcionar como promessa de aperfeiçoamento e passa a operar como requisito sistêmico de permanência, pois o ambiente valoriza aquilo que pode ser intensificado, mensurado e comparado, empurrando o sujeito para uma compulsão de <1>p. 363</1> produtividade que não admite interrupção. As formulações de Han, ainda que propositalmente carregadas, ajudam a fixar o ponto de maneira tecnicamente útil, pois descrevem uma dinâmica em que a positividade do desempenho converte a vida interior em combustível da exigência de produzir mais, e na qual a própria ideia de ajuste se desloca de cuidado para exaustão."
+ },
+ {
+  "k": "7526bdb1d93647ce",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Em ecossistemas que administram reconhecimento e permanência como condições de valor, a exigência de permanecer no jogo por recalibragem contínua deixa de ser desconforto individual e passa a ser mecanismo regular de governança, porque a fruição se mantém apenas enquanto o sujeito consegue sustentar, de modo reiterado, sinais de aderência aos critérios do ambiente."
+ },
+ {
+  "k": "ff7763b92a5d19ec",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "A sujeição descrita não é um elemento lateral do regime do OIC, porque indica com objetividade a tração prática que permite que regras privadas e sanções técnicas operem com eficiência no cotidiano dos ecossistemas. Quando a permanência depende de reconhecimento, quando a continuidade de fruição depende de aderência a métricas e quando o custo do desajuste se manifesta como perda de posição e de legibilidade social, o sujeito já se encontra investido no ambiente antes mesmo do ato explícito de <1>enforcement</1>."
+ },
+ {
+  "k": "e0aea56089d14c15",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Nesse cenário, a norma interna não se limita a declarar permissões e proibições, pois ela incide sobre um usuário que precisa permanecer premiável e rastreável, de modo que a disciplina se realiza por expectativa de visibilidade, por risco de rebaixamento e por temor de exclusão funcional, sem depender de coerção frontal para estabilizar conformidade. A consequência é que a governança por arquitetura e por informação, ao produzir cativeiro identitário, prepara o terreno no qual a regra privada se torna efetivamente normativa, porque encontra um sujeito disposto a se ajustar continuamente para preservar aquilo que dá sentido econômico e existencial ao próprio OIC."
+ },
+ {
+  "k": "449dbe8833e9530a",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Impõe-se, portanto, que a análise deve avançar da sujeição para a normatividade do ambiente. Regras internas e <1>enforcement</1> técnico não operam apenas como texto contratual, mas como decisões implementadas em filtros, parâmetros, bloqueios, graduações e procedimentos que reconfiguram a fruição em tempo real. Uma vez demonstrado que adesão e autoajuste são efeitos estruturais do ecossistema, torna-se necessário examinar como políticas internas se convertem em restrições e autorizações efetivas, com unilateralidade e opacidade suficientes para produzir exclusão e desapossamento funcional. O passo seguinte, portanto, consiste em descrever a <2>Lex Plataformae</2> e seu <3>enforcement</3> como normatividade prática do ambiente, pois é nesse nível que o poder privado se torna juridicamente controlável em termos proporcionais."
+ },
+ {
+  "k": "1e3caa7db8b9b198",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Na obra <1>Psychopolitics: Neoliberalism and New Technologies of Power</1>, originalmente intitulada <2>Psychopolitik</2>., o filósofo sul-coreano radicado na Alemanha, Byung-Chul Han <3>(2017)</3>, propõe uma leitura das formas contemporâneas de poder a partir do deslocamento da coerção externa para mecanismos de exploração internalizada. O livro sustenta que, sob racionalidade neoliberal e sob mediação tecnológica, liberdade, iniciativa e desempenho deixam de operar como promessas emancipatórias e passam a funcionar como instrumentos de autovinculação, nos quais o sujeito se governa por otimização, transparência e produtividade. A utilidade é descritiva. As categorias propostas por Han permitem nomear como tecnologias de informação, métricas e regimes de visibilidade convertem adesão, autoajuste e comparação contínua em conformidade estável, sobretudo em ambientes nos quais reconhecimento e permanência se tornam condições de valor. Em <4>Sociedade do Cansaço </4> (2015), originalmente intitulada <5>Müdigkeitsgesellschaft</5>, Han apresenta diagnóstico convergente a partir de outra entrada: a passagem de um modelo de disciplinamento centrado em negatividade, proibição e inimigo externo para um regime de positividade em que o imperativo de desempenho se impõe como autoexigência. O texto descreve a substituição do sujeito da obediência pelo sujeito do desempenho, cuja exploração não depende de coerção frontal porque se realiza como autoexploração e incapacidade de interromper a lógica da otimização contínua. A obra oferece linguagem útil para descrever como ambientes estruturados por comparação, metas, recompensas e visibilidade contínua podem produzir sujeição por excesso e por autoajuste, sem psicologização individualizante, permitindo tratar a conformidade como efeito estrutural de um ecossistema que administra risco simbólico e distribui reconhecimento como recurso escasso. <6>↩</6>"
+ },
+ {
+  "k": "a4002d83e0da1877",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "No artigo <1>What’s Next for Ranked</1>, a Riot apresenta mudanças estruturais na escada como gestão de distribuição e progressão, tratando o sistema como objeto de ajustes regulares, com revisão de promos e introdução de uma nova tier (“the introduction of a new Ranked tier”) <2>Riot Games</2><3>(Riot Games, 2023d)</3>. O texto é valioso para a vinheta porque mostra, em linguagem institucional, que a escada é administrada como infraestrutura de percurso e pertencimento, e não como simples placar neutro. Quando a plataforma altera como se sobe, como se distribui e como se qualifica a posição do sujeito, ela redefine o que conta como desempenho suficiente e reposiciona o valor relativo do consumidor dentro do ecossistema, reforçando a lógica de autoajuste contínuo que caracteriza a psicopolítica do desempenho. <4>↩</4>"
+ },
+ {
+  "k": "bc6111465d169cff",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O contrato registra que, se a conta for encerrada, o usuário “não terá mais acesso à sua conta, inclusive aos dados associados ou ao Conteúdo Virtual” <1>Riot Games</1><2>(Riot Games, 2024e)</2>.Também prevê que o acesso aos serviços opera como “licença limitada, não exclusiva, intransferível e revogável”, “expressamente condicionad[a]” aos termos do contrato, e que o encerramento cancela automaticamente essa licença <3>Riot Games</3><4>(Riot Games, 2024e)</4>.Infere-se, portanto, que a posição ranqueada e sua legibilidade pública não constituem “bem” autonomizado, mas efeito institucional mantido sob condições de acesso administrado, o que reforça a leitura do custo de saída como perda de inteligibilidade e comensurabilidade no interior do ambiente. <5>↩</5>"
+ },
+ {
+  "k": "50fa34a8f68134e4",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "No guia oficial de Honra, a Riot afirma que o sistema “é um reflexo geral do comportamento de qualquer jogador dentro e fora de jogo” e que “recompensa a conduta esportiva” enquanto “penaliza comportamentos inadequados” <1>Riot Games</1><2>(Riot Games, 2025a)</2>.A mesma página descreve o acoplamento entre conduta e efeitos práticos ao indicar que a Honra oferece “benefícios adicionais” e, no sentido inverso, envolve “privilégios de comunicação limitados” e redução de recompensas <3>Riot Games</3><4>(Riot Games, 2025a)</4>.O valor está em explicitar em linguagem institucional aquilo que o texto teórico já descreve: uma disciplina que opera como incentivo à participação adequada e como custo funcional do desajuste, produzindo autogestão de conduta para preservar elegibilidade e permanência. <5>↩</5>"
+ },
+ {
+  "k": "064b50aca49e8e81",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Nesse sentido, a Honra é comunitariamente descrita como um sistema com níveis e <1>checkpoints</1> no qual os níveis 1 e 0 são “restricted Honor levels obtainable only through penalties” e “carry far fewer rewards than the normal levels” <2>League of Legends Wiki</2><3>(League of Legends Wiki, [202-?]a)</3>. O mesmo verbete indica que indivíduos punidos “will get demoted in Honor level” e que, em casos de restrição de chat, ocorre rebaixamento para “level 1, or 0 if already at level 1”, estabelecendo uma lógica de queda associada à sanção e uma progressão fragmentada por <4>checkpoints</4>. A descrição compila com sucesso a gramática de níveis, <5>checkpoints</5> e recompensas, permitindo caracterizar com precisão a governança por elegibilidade. <6>↩</6>"
+ },
+ {
+  "k": "f38bc190ce4d1d37",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Nos Termos, a Riot explicita que o usuário concorda em seguir as “Regras de Usuário”, que “regem o comportamento durante o jogo” e também “certas condutas fora do jogo”, e acrescenta que a Cláusula 7 “explica as penalidades”, incluindo “suspensões temporárias”, “suspensão ou encerramento da conta e sua exclusão” e “banimento do hardware” <1>Riot Games</1><2>(Riot Games, 2024e)</2>.O que interessa aqui é a forma como a disciplina é integrada ao vínculo contratual como possibilidade ordinária de modulação do acesso, com intensidade suficiente para converter elegibilidade em preocupação permanente do usuário. <3>↩</3>"
+ },
+ {
+  "k": "97fcc82f2859b52e",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "O contrato afirma que as Regras de Usuário “se aplicam não apenas dentro de nossos Serviços, mas também enquanto você transmite em uma plataforma de transmissão”, e acrescenta que “também se aplicam aos seus vídeos gravados e postagens nas mídias sociais” <1>Riot Games</1><2>(Riot Games, 2024e)</2>.Além disso, registra que “a má conduta em um de nossos jogos pode resultar em penalidades aplicáveis em outro jogo” e admite “banimentos temporários ou permanentes e suspensões de conta aplicáveis a todos os nossos jogos” <3>Riot Games</3><4>(Riot Games, 2024e)</4>. Portanto, a normatividade do ambiente não se reduz a proibição interna do “match”, pois opera como governança ampliada, afetando o ecossistema da empresa como um um todo, incluindo seus demais jogos, em aspecto de conduta e identidade, com efeitos práticos sobre acesso e permanência que alimentam e potencializa a internalização do controle. <5>↩</5>"
+ },
+ {
+  "k": "6951a4f2a9de3431",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "“As the entrepreneur of its own self, the neoliberal subject has no capacity for relationships with others that might be free of purpose. Nor do entrepreneurs know what purpose-free friendship would even look like. Originally, being free meant being among friends. ‘Freedom’ and ‘friendship’ have the same root in Indo-European languages. Fundamentally, freedom signifies a relationship. A real feeling of freedom occurs only in a fruitful relationship - when being with others brings happiness. But today’s neoliberal regime leads to utter isolation; as such, it does not really free us at all. Accordingly, the question now is whether we need to redefine freedom - to reinvent it - in order to escape from the fatal dialectic that is changing freedom into coercion. Neoliberalism represents a highly efficient, indeed an intelligent, system for exploiting freedom. Everything that belongs to practices and expressive forms of liberty - emotion, play and communication - comes to be exploited. It is inefficient to exploit people against their will. Allo-exploitation yields scant returns. Only when freedom is exploited are returns maximized. It is interesting to note that Marx also defines freedom in terms of a successful relationship to others: ‘Only in community [with others does each] individual [have] the means of cultivating his gifts in all directions; only in the community, therefore, is personal freedom possible.’1 From this perspective, being free means nothing other than self-realization with others. Freedom is synonymous with a working community (i.e., a successful one). For Marx, individual freedom represents a ruse - a trick of capital. ‘Free competition’, which is based on the idea of individual freedom, simply amounts to the ‘relation of capital to itself as another capital, i.e., the real conduct of capital as capital’. Capital reproduces by entering into relations with itself as another form of Capital: through free competition. It copulates with the Other of itself by way of individual freedom. Capital grows inasmuch as people engage in free competition. Hereby, individual freedom amounts to servitude inasmuch as Capital lays hold of it and uses it for its own propagation. That is, Capital exploits individual freedom in order to breed: ‘It is not the individuals who are set free by free competition; it is, rather, capital which is set free.’ The freedom of Capital achieves self-realization by way of individual freedom. In the process, individuals degrade into the genital organs of Capital. Individual freedom lends it an ‘automatic’ subjectivity of its own, which spurs it to reproduce actively. In this way, Capital continuously ‘brings forth living offspring’. Today, individual freedom is taking on excessive forms; ultimately, this amounts to nothing other than the excess of Capital itself.“ <1>Han</1><2>(Han, 2017, [p. 9-10], grifos do original)</2> <3>↩</3>"
+ },
+ {
+  "k": "809d0417102a87d3",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "“In order to heighten productivity, emotional capitalism also enlists playing and games - which should, in fact, be the Other of Work, its opposite. Emotional capitalism is gamifying the life- and working world. Playing games lends an emotional, indeed a dramatic, charge to working - which in turn generates more motivation. Because games rapidly deliver a sense of success and reward, the result is higher performance and a greater yield. A person playing a game, being emotionally invested, is much more engaged than a worker who acts rationally or is simply functioning. Games exhibit a specific temporality marked by immediate experiences of success and reward. But what matures over time cannot be gamified. Whatever is long, anything that lasts a long time, proves incompatible with the game’s temporality. Hunting, for instance, matches the mode of the game, whereas farming, which depends on slow processes of ripening and quiet growth, cannot be gamified at all. Life cannot be turned into hunting alone. The gamification of work exploits homo ludens. The player subjugates him- or herself to the order of domination in the very act of playing. Today, the gamification logic of ‘Likes’, ‘Friends’ and ‘Followers’ means that social communication is also being plugged into and subordinated to a game mode. The corollary of the gamification of communication is its commercialization. That said, this process is destroying human communication.” <1>Han</1><2>(Han, 2017, [p. 43], grifo do original)</2>. <3>↩</3>"
+ },
+ {
+  "k": "6dc79edfd03d902a",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1>← <2>4.2.2 </2>Poder econômico privado e ordem constitucional</1><3><4>4.2.4 </4>Regras privadas, enforcement e a governança da plataforma →</3>"
+ },
+ {
+  "k": "0e93dc077fb0a2a0",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "<1><2>4.2.3 </2>Psicopolítica, autoexploração e cativeiro identitário</1>"
+ },
+ {
+  "k": "06a8e93b5362caa0",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "ANDRADE, Victor L. P. 4.2.3 Psicopolítica, autoexploração e cativeiro identitário. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/tese/4-2-3/"
+ },
+ {
+  "k": "c3f3fb7ff904603d",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Quando a governança por arquitetura e por informação se estabiliza como administração privada de acesso, visibilidade, permanência e sanção, ela produz um…"
+ },
+ {
+  "k": "6e3ea381e93510a7",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Esta seção começa no meio da página 351"
+ },
+ {
+  "k": "437a8114b43cfeec",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 382"
+ },
+ {
+  "k": "8d6ca807b4d39c5d",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 383"
+ },
+ {
+  "k": "274763187a5f22e7",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 384"
+ },
+ {
+  "k": "a0c595e80be2a5ef",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 385"
+ },
+ {
+  "k": "1d7599afac587999",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 386"
+ },
+ {
+  "k": "fb67d379097703d6",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 387"
+ },
+ {
+  "k": "ff06e1cc13897485",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 388"
+ },
+ {
+  "k": "a18a7ea382d53215",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 389"
+ },
+ {
+  "k": "62a682783e683201",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "Voltar à chamada da nota 390"
+ },
+ {
+  "k": "bf40e3b326318ae5",
+  "pagina": "tese/4-2-3/index.html",
+  "pt": "4.2.3 Psicopolítica, autoexploração e cativeiro identitário"
+ },
+ {
+  "k": "9d10d669e8528dd6",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "4.2.4 Regras privadas, enforcement e a governança da plataforma · Texto integral · Lex Plataformae"
+ },
+ {
+  "k": "02a3aa80b7effa7b",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Seção 4.2.4 · p. 363 a 379"
+ },
+ {
+  "k": "942b856f712a053d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>4.2.4 </1>Regras privadas, enforcement e a governança da plataforma"
+ },
+ {
+  "k": "8215e887482340dd",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>Ver esta seção no PDF</1>"
+ },
+ {
+  "k": "c7bdc7cf52835e49",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>p. 364</1> A fruição em ecossistemas digitais depende de aderência contínua a ritmos, métricas e padrões de reconhecimento administrados pelo próprio ambiente. A conformidade tende a se estabilizar sem coerção ostensiva, como efeito da gestão do risco simbólico e do custo de desajuste. Nesse contexto, a normatividade relevante não se esgota no enunciado contratual, pois escolhas, acessos e trajetórias de permanência resultam da combinação entre regras internas, arquitetura e mecanismos de aplicação. A <2>Lex Plataformae</2> designa esse regime em funcionamento, no qual regra, implementação e <3>enforcement</3> organizam participação, visibilidade e sanção, com efeitos diretos sobre a posição de fruição que constitui economicamente o OIC. Por isso, impõem-se parâmetros proporcionais de transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição."
+ },
+ {
+  "k": "33c234a1ebb7b30a",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O ponto central é descrever um sistema de direção de condutas dotado de coerção funcional no interior do ecossistema, exercido por regras internas, arquitetura e aplicação em escala. A formulação de Eros Grau<1><2>391</2></1> oferece apoio conceitual direto para esse enquadramento ao sustentar que “direito” pode significar “sistema de princípios (normas) coercitivamente impostos a determinado grupo social por qualquer organização social dotada de poder para tanto” <3>Grau</3><4>(Grau, 2008, p. 15-16)</4>. Esse vocabulário permite tratar regras internas, arquitetura de implementação e mecanismos de <5>enforcement</5> como direito efetivo do ambiente em sentido operacional, pois organizam acessos, permanência e sanções com capacidade concreta de impor padrões e produzir efeitos coletivos, sem neutralizar o fenômeno como simples exercício formal de autonomia contratual."
+ },
+ {
+  "k": "832384ba35161838",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A <1>Lex Plataformae</1>, para este recorte, não designa um rótulo retórico para “termos de uso”, mas um regime normativo integrado que opera no interior do ecossistema e que define, com eficácia prática, as condições de fruição, permanência e reconhecimento. Sua estrutura pode ser descrita em três camadas que se pressupõem mutuamente. A primeira é o texto normativo interno, formado por termos de serviço, políticas de conduta, regras de moderação e critérios declarados de participação, que enunciam permissões, proibições e expectativas de <2>p. 365</2> uso. A segunda é a camada de arquitetura e implementação, na qual tais enunciados deixam de ser simples declarações e se convertem em configuração de possibilidades por meio de interface, fluxos, padrões de acesso, parâmetros de visibilidade e restrições técnicas que delimitam o intervalo do possível antes de qualquer disputa interpretativa. A terceira é a camada de <3>enforcement</3> e sanções, composta por mecanismos de aplicação que graduam consequências, aplicam restrições, rebaixam visibilidade, suspendem funcionalidades e, em casos extremos, excluem o usuário, reconfigurando sua posição no ambiente."
+ },
+ {
+  "k": "e581924bed318a72",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A distinção decisiva é entre o enunciado e a norma efetiva. A regra interna só ganha densidade normativa quando se converte em condições de possibilidade por arquitetura e em consequências por <1>enforcement</1>. A leitura da <2>Lex Plataformae</2> como normatividade prática ganha precisão quando a plataforma deixa de ser tratada como simples intermediária e passa a ser descrita como instância de governança por infraestrutura, isto é, como arranjo que define o espaço de ação e os termos de participação por meios técnicos e organizacionais."
+ },
+ {
+  "k": "28900b7433a7b2dd",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esse enquadramento dialoga com a percepção, já consolidada na doutrina brasileira de Direito Digital, de que o ambiente digital tensiona o monopólio prático das fontes estatais e favorece soluções fundadas em repetição, adaptação, analogia e velocidade decisória. Patricia Peck Pinheiro<1><2>392</2></1> sustenta que o Direito Digital \"traz a oportunidade de aplicar, dentro de uma lógica jurídica uniforme, uma série de princípios e soluções que já vinham sendo utilizados de modo difuso – princípios e soluções que estão na base do chamado Direito Costumeiro\" <3>Pinheiro</3><4>(Pinheiro, 2026, p. 20-21)</4>."
+ },
+ {
+  "k": "367fe745108d6fb8",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Pinheiro caracteriza esse arranjo como sistema híbrido entre direito codificado e direito costumeiro, no qual elementos como generalidade, uniformidade, continuidade, durabilidade e notoriedade se reorganizam diante de um ambiente em que o fator tempo altera profundamente a forma de produção, circulação e obsolescência das respostas jurídicas <1>Pinheiro</1><2>(Pinheiro, 2026, p. 20- 21)</2>. A consequência prática é que, segundo a autora, \"vivenciamos uma Internet governada por contratos\", nos quais o princípio do pacta sunt servanda assume relevo amplificado, com Termos de Uso de efeito prático expandido e empresas de tecnologia atuando como gestoras de comunidades internacionais, multiculturais, transfronteiriças e dotadas de regras próprias <3>Pinheiro</3><4>(Pinheiro, 2026, p. 21)</4>."
+ },
+ {
+  "k": "d6443fdcf8208e07",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Essa leitura oferece apoio descritivo relevante à categoria da Lex Plataformae, mas exige duas inflexões. A primeira é de escala. No ecossistema de plataformas, a normatividade <1>p. 366</1> privada deixa de operar como prática difusa reconhecida entre múltiplos agentes e assume forma mais densa, concentrada e infraestrutural. A segunda é de composição. Os contratos não operam sozinhos. Eles se articulam com código, interface, design de escolha, fricções seletivas, sistemas algorítmicos de curadoria, regimes opacos de priorização e mecanismos unilaterais de atualização, compondo um arranjo normativo mais espesso do que o texto contratual tomado isoladamente. A plataforma não apenas participa de um ambiente regulatório fluido, pois ela própria o desenha, organiza suas portas de entrada, define critérios de permanência, estrutura sistemas de denúncia, moderação e reputação, administra fluxos de prova e executa sanções imediatas por meios técnicos e contratuais articulados. É essa torção que justifica deslocar a descrição de \"Internet governada por contratos\" para a de ecossistema governado por arquitetura, no qual o contrato é apenas uma das camadas operantes."
+ },
+ {
+  "k": "6d489adcbc680fd2",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esse arranjo desloca autoridade para padrões, protocolos e procedimentos de conformidade que passam a atuar como operadores efetivos de direção de condutas. Cohen observa que a organização em rede sob condições de padronização legal ou prática sinaliza deslocamento de fato da autoridade jurídica para o padrão, cuja autoridade pode ser bastante exigente quanto às formas de conformidade e, ao mesmo tempo, pode abrir novas oportunidades para o exercício de poder econômico e político <1>Cohen</1><2>(Cohen, 2019, p. 218)</2>."
+ },
+ {
+  "k": "a14424f569ac9386",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Quando autoridade se desloca para infraestrutura e padrões, surge um desencaixe com modelos tradicionais de responsabilização e contestação, porque a normatividade prática tende a resistir à visibilidade e aos ritos convencionais de controle. Cohen formula esse problema ao notar que as desconexões entre governança baseada em redes e em padrões e os ideais do Estado de Direito apontam para um projeto de desenho institucional voltado a enfrentar o poder arbitrário e a buscar <1>accountability</1> perante públicos globais em rede, ao mesmo tempo em que deve lidar com a crescente soberania prática das plataformas <2>Cohen</2><3>(Cohen, 2019, p. 237-238)</3>. Aqui o ponto não é converter a plataforma em Estado, e sim reconhecer que a soberania prática, quando exercida por arquitetura e protocolos, produz efeitos normativos com densidade suficiente para exigir estratégias de controle compatíveis com o tipo de poder exercido. Essa chave permite compreender a <4>Lex Plataformae</4> como governo por infraestrutura e, simultaneamente, preparar o terreno para discutir deveres proporcionais de transparência <5>p. 367</5> qualificada, contestabilidade e recomposição, sem moralismo e sem ficções simplificadoras sobre neutralidade do mercado."
+ },
+ {
+  "k": "a735c17df8fe1532",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O recurso a Brandeis<1><2>393</2></1> (2011) neste ponto cumpre uma função de reforço estrutural do diagnóstico já estabelecido sobre a <3>Lex Plataformae</3> como normatividade prática, evitando tanto a moralização do poder privado quanto o salto estatizante. A utilidade do exercício está em explicitar um paralelismo institucional entre duas formas de concentração que operam por posição e por integração de funções. No arranjo descrito por Brandeis, a dominação não se impõe como comando público formal, mas como controle gradual de circuitos essenciais e como capacidade de coordenar decisões a partir da administração do dinheiro de terceiros <4>Brandeis</4><5>(Brandeis, 2011, [p. 27])</5>."
+ },
+ {
+  "k": "1e90cf35fbef14a7",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "No ecossistema de plataforma, a direção de condutas se estabiliza pela integração entre regra interna, arquitetura de implementação e <1>enforcement</1> escalável, combinada a mecanismos de classificação, visibilidade e reputação que tornam a fruição dependente de critérios opacos e mutáveis. A aproximação com Brandeis tem função metodológica ao deslocar o foco do patrimônio próprio para o poder exercido por posição. Nesse registro, a influência decisiva não nasce da riqueza em si, mas da capacidade de comandar recursos de terceiros e, com isso, dirigir condutas e trajetórias econômicas <2>Brandeis</2><3>(Brandeis, 2011, [p. 37])</3>. A utilidade do paralelo está em mostrar que o problema jurídico não se reduz à falta de informação em sentido consumerista clássico, mas envolve a capacidade de ordenar o possível por padrões internos, com baixa reciprocidade institucional para quem suporta os efeitos, o que autoriza exigir contrapesos <4>p. 368</4> proporcionais em termos operacionais, especialmente transparência qualificada, contestabilidade efetiva e auditabilidade verificável."
+ },
+ {
+  "k": "0da34d0aef7cf410",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A consolidação desse poder ocorre por unificação gradual de funções essenciais à vida econômica. Brandeis descreve como funções distintas e indispensáveis aos negócios acabam reunidas na figura do banqueiro de investimentos, e atribui a essa reunião a formação do <1>Money </1> <2>Trust</2> <3>Brandeis</3><4>(Brandeis, 2011, [p. 26-27])</4>. A partir daí, a forma histórica do fenômeno se torna comparável à do despotismo político, pois se estabelece por usurpação progressiva, com avanço incremental e não por atos violentos de ruptura <5>Brandeis</5><6>(Brandeis, 2011, [p. 26-27])</6>. O ponto aqui é a captura funcional por ocupação gradual de papéis essenciais até concentrar, por posição, direção efetiva do sistema. Esse tipo de captura é institucionalmente perigoso porque não depende de ruptura visível, já que reorganiza o campo do possível por dentro, alterando quem decide, quem valida, quem seleciona e quem fica dependente, enquanto a aparência externa pode permanecer a de um mercado livre com escolhas individuais."
+ },
+ {
+  "k": "25d7cc725f57566d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O mecanismo de concentração funcional produz uma patologia decisória específica: a coincidência entre quem presta o serviço e quem governa o objeto do serviço, eliminando o distanciamento necessário para preservar a racionalidade e integridade da decisão. Brandeis é explícito quanto ao requisito de separação entre a atividade bancária e o negócio financiado, porque o acúmulo de funções produz um conflito estrutural de interesses <1>Brandeis</1><2>(Brandeis, 2011, [p. 196])</2>."
+ },
+ {
+  "k": "1a08f2a35fba3127",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Quando o mesmo agente atua como diretor de uma ferrovia e, simultaneamente, como banqueiro encarregado de estruturar a emissão de títulos, ele controla, de um lado, a decisão empresarial de emitir e, de outro, as condições financeiras pelas quais esses títulos serão colocados no mercado, inclusive podendo direcioná-los para si próprio enquanto intermediário financeiro. Nessa configuração, a deliberação deixa de ser orientada pelo melhor interesse do empreendimento e passa a seguir a racionalidade da transação financeira e da extração de valor."
+ },
+ {
+  "k": "0200bf0bd0985871",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A ausência dessa separação não é falha moral episódica. Trata-se de um defeito estrutural do regime, porque converte a própria arquitetura da decisão em mecanismo de assimetria e de opacidade, dificulta a contestação racional do fundamento e naturaliza escolhas internas que respondem a incentivos desalinhados."
+ },
+ {
+  "k": "4f7d6bd3122eaa5e",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O passo seguinte do diagnóstico completa o paralelo com governança por informação, porque regimes oligárquicos tendem a governar não apenas por controle direto, mas por administração de percepção e valor, o que desloca decisões para uma lógica de sinais, reputação e visibilidade. O autor descreve esse tipo de racionalidade ao mostrar como o tomador de decisão pode orientar sua ação pelo provável efeito no valor de mercado, mantendo atenção <1>p. 369</1> permanente ao modo como fatos serão lidos por investidores e pela rua <2>Brandeis</2><3>(Brandeis, 2011, [p. 200])</3>."
+ },
+ {
+  "k": "eadd0e262d1a7176",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O resultado institucional é que decisões necessárias ao bem do patrimônio podem ser adiadas para evitar leituras desfavoráveis, preservando uma aparência de valor no curto prazo. Aqui aparece um modelo de opacidade decisivo, porque, quando a racionalidade do regime se orienta por sinais e reações de observadores externos que operam com informação imperfeita, o poder passa a se exercer por controle do circuito de avaliação, e não por justificativa pública do fundamento da decisão. A contestabilidade se comprime porque o conflito deixa de incidir sobre critérios verificáveis e passa a orbitar resultados e expectativas modulados por mecanismos internos."
+ },
+ {
+  "k": "6a6e137416755df5",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A utilidade do paralelo com a <1>Lex Plataformae</1> não está em equiparar bancos e plataformas como fenômenos idênticos, nem em deslocar a tese para história econômica. Ela está em fixar uma gramática analítica de poder privado capaz de ordenar condutas e distribuir oportunidades com baixa visibilidade do fundamento. Assim como o <2>Money Trust </2>se forma por <3>encroachment</3> funcional<4><5>394</5></4> e pelo controle dos circuitos de financiamento e de validação, ecossistemas de plataforma se estabilizam quando funções que antes poderiam estar distribuídas passam a ser integradas em um mesmo centro de decisão."
+ },
+ {
+  "k": "4b606722ea190c0b",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esse centro define parâmetros internos, incorpora esses parâmetros na arquitetura do sistema e aplica consequências em escala, com capacidade de administrar acesso, visibilidade, reputação e permanência. Do mesmo modo que o “<1>banker-director</1>” passa a governar decisões pela ótica do mercado e do valor aparente, a governança por ranqueamento, reputação, métricas e triagens algorítmicas passa a governar o possível e o provável pela ótica do sinal e da <2>p. 370</2> legibilidade. Em ambos os casos, o problema não se reduz à “falta de transparência” entendida como simples <3>disclosure</3>, porque o núcleo é um poder de classificar, selecionar e direcionar que decorre da posição ocupada, produz efeitos coletivos e encontra baixa reciprocidade institucional para os afetados."
+ },
+ {
+  "k": "fafd0a2a83215bd1",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O reforço histórico ajuda a fixar um ponto de coerência. A dominação informacional aqui não deve ser confundida com o “dever de informar” típico do CDC. O problema não se reduz a ausência de comunicação ao consumidor. O problema é a capacidade de governar o ecossistema por critérios internos, por unificação funcional e por opacidade operacional, tornando o acesso ao fundamento das decisões estruturalmente difícil e a contestação, em termos ordinários, impraticável. A consequência dogmática segue a mesma lógica do diagnóstico."
+ },
+ {
+  "k": "46539270d9af1f45",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Se o poder se concentra por unificação de funções e se exerce por controle de circuitos e sinais, a resposta adequada não é estatização nem “mandato público” formal, mas sim a imposição de contrapesos proporcionais e procedimentais que tornem o regime controlável. Trata-se da separação e gestão de conflitos relevantes, definição de padrões de motivação acessível, contestabilidade efetiva e mecanismos auditáveis que permitam examinar coerência, proporcionalidade e fundamento das decisões. É nesse sentido que Brandeis funciona aqui como reforço para a transição do diagnóstico para a exigência dogmática de parâmetros verificáveis, compatíveis com um regime em que fruição e posição dependem de governança privada em operação contínua."
+ },
+ {
+  "k": "f88f07f4e53840eb",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A normatividade da <1>Lex Plataformae</1> não se resume à aplicação de regras já dadas, porque ela inclui a função de produzir e atualizar, de maneira contínua, os próprios parâmetros que estruturam a participação no ecossistema. A plataforma define categorias internas de conduta, delimita o que conta como uso aceitável, formula hipóteses de infração, estabelece métricas de desempenho e de reputação e fixa condições práticas de acesso e permanência que não operam apenas como enunciados, mas como critérios estruturantes da vida ordinária do ambiente. Esse poder de produção normativa não se manifesta como evento excepcional, pois se estabiliza como rotina administrativa em que políticas, parâmetros e padrões de operação são recalibrados sob a lógica de manutenção do ecossistema, reorganizando aquilo que será reconhecido como comportamento regular, aquilo que será tratado como desvio e aquilo que passará a ser penalizado por rebaixamento, restrição ou exclusão."
+ },
+ {
+  "k": "21faace0852080ab",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A passagem da “produção de regra” para a “existência da regra” ocorre quando o enunciado normativo deixa de depender de comando explícito e passa a operar como configuração do próprio ambiente. Nesse registro, o que conta não é apenas o que os termos <1>p. 371</1> internos dizem, mas o que a infraestrutura permite, incentiva, bloqueia e torna custoso, porque é nessa camada que a norma se converte em condição objetiva de possibilidade e em intervalo prático de conduta. O ponto extraído é que a regra não se esgota no texto, pois se realiza como arquitetura que define, com granularidade, o permitido, o improvável e o praticamente impossível."
+ },
+ {
+  "k": "8388234e8af4f98d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Essa chave é decisiva para a <1>Lex Plataformae</1> porque explica por que o ecossistema governa sem precisar apresentar o governo como ato isolado de vontade. A norma implementada passa a operar antes do conflito, moldando a experiência ordinária e delimitando, por desenho, o campo do possível. Com isso, a análise pode avançar do plano das declarações internas para o plano da implementação como modo de existência da regra, mostrando como fluxos, permissões, fricções e mediações de visibilidade traduzem políticas internas em condições práticas de fruição e, nesse movimento, reconfiguram a própria posição de fruição que constitui economicamente o OIC."
+ },
+ {
+  "k": "5e2447f68aad9b19",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A implementação é o ponto em que a <1>Lex Plataformae</1> deixa de ser promessa textual e passa a existir como mundo praticável. A regra interna, por si, descreve expectativas e hipóteses de infração, mas é a arquitetura que converte essas expectativas em trilhas ordinárias de comportamento, delimitando entradas, saídas e desvios com custos assimétricos. Defaults, fluxos de interface, sequências de confirmação, camadas de permissão e fricções seletivas operam como gramática do ambiente, orientando o usuário para percursos previsíveis e estabilizando a experiência como rotina governada. O resultado é que o permitido não é apenas o que é dito como permitido, mas o que é fácil, o que é sustentado por padrões e o que permanece disponível sem atrito contínuo."
+ },
+ {
+  "k": "e2e681021de654f7",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Essa normatividade implementada também se realiza pela administração do tempo e da visibilidade. Janelas de acesso, calendários de eventos, ciclos de retorno e ritmos de atualização distribuem urgência e escassez funcional, transformando o futuro em recurso operacional do ecossistema. Em paralelo, a mediação por ranqueamento, recomendação, feed e métricas de prestígio traduz a regra em hierarquias de atenção, convertendo reconhecimento em condição de permanência e reputação em variável governada. Assim, a implementação não funciona como simples meio neutro de execução, porque ela define o que será encontrado, o que será comparável, o que será premiável e o que será empurrado para a periferia."
+ },
+ {
+  "k": "328226dfac8a1e5c",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "No regime do OIC, esse ponto é decisivo porque a posição de fruição é continuamente conformada por essas condições de possibilidade, e não apenas pelo conteúdo declarado do contrato. O objeto econômico relevante não é uma prestação pontual entregue no momento da aquisição, mas uma trajetória de fruição sustentável no tempo, dependente de acesso <1>p. 372</1> continuado, legibilidade pública e preservação de comensurabilidade dentro do ambiente. Quando a arquitetura reorganiza fluxos, altera padrões de visibilidade, recalibra fricções e redesenha percursos, ela redefine a fruição na prática sem precisar “alterar o contrato”, pois modifica as condições pelas quais a posição adquirida permanece viável, reconhecível e valiosa. É por tal fator que a <2>Lex Plataformae </2>deve ser tratada como normatividade prática em operação, uma vez que a regra implementada se torna o modo real de existência do objeto e, por consequência, o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema."
+ },
+ {
+  "k": "9e8b8f1778b4a627",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A integração entre regra e arquitetura se completa quando a conformidade deixa de ser questão de interpretação e passa a ser medida e aplicada pelo próprio ambiente. Nesse ponto, o <1>enforcement</1> técnico não funciona como etapa posterior e neutra de execução, porque ele define o que conta como conduta regular, quais desvios serão detectados e quais correções serão exigidas, substituindo graduações normativas por critérios operacionais que precisam “caber” no código. Cohen chama atenção para o custo institucional desse deslocamento ao observar que processos automatizados, embora eficientes, podem não se alinhar bem com requisitos jurídicos formulados em “tons de cinza” e que a retirada do julgamento humano do circuito de <2>enforcement</2> coloca questões difíceis sobre como definir e auditar a própria conformidade <3>Cohen</3><4>(Cohen, 2019, p. 192)</4>. O ganho do ponto é direto para a <5>Lex Plataformae</5>. Ao converter padrões em verificações técnicas e ao deslocar o juízo para dentro do sistema que mede e aplica, o ecossistema passa a governar por critérios cuja racionalidade tende a se tornar opaca para quem sofre os efeitos, ao mesmo tempo em que torna a sanção previsível e escalável."
+ },
+ {
+  "k": "493eeeb25fe8dcdb",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esse enquadramento prepara a consequência que importa para o OIC. Se a posição de fruição depende de permanecer elegível segundo parâmetros internos, o <1>enforcement</1> automatizado passa a ser elemento constitutivo do objeto na prática, porque ele calibra acesso, permanência e visibilidade por mecanismos que operam antes de qualquer disputa pública sobre sentido, proporcionalidade e fundamento. A partir daí, a análise pode avançar para a decomposição das formas concretas de <2>enforcement</2> no ecossistema, mostrando como bloqueios, restrições, rebaixamentos e exclusões operam como sanções graduais que degradam a fruição sem precisar se anunciar como punição."
+ },
+ {
+  "k": "585cdf8be2fca024",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O <1>enforcement</1>, no regime da <2>Lex Plataformae</2>, não se apresenta como um ato único e nítido, equivalente à sanção clássica aplicada após violação incontroversa. Ele se distribui em camadas e tempos distintos, combinando barreiras preventivas, respostas posteriores e mecanismos de rebaixamento que operam por ajuste de acesso e de visibilidade. Com isso, a norma deixa de depender do momento em que alguém “declara” a infração e passa a existir <3>p. 373</3> como regime de fruição administrada, no qual o ambiente, de maneira contínua, antecipa o desvio, filtra condutas e reorganiza a experiência para tornar certos comportamentos improváveis e outros inevitáveis."
+ },
+ {
+  "k": "a09703f451e7f1ba",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Uma primeira forma é o <1>enforcement ex ante</1>, em que a sanção opera antes do conflito como restrição de possibilidade. Travamentos, limites de interação, bloqueios de funcionalidades, impedimentos de acesso a certos espaços e exigências de verificação ou de etapas adicionais funcionam como filtros preventivos que, sob aparência de gestão técnica, delimitam intervalos de conduta permitida. Nesses casos, o usuário não encontra propriamente uma proibição explicada, mas um desenho que torna determinadas ações impraticáveis, arriscadas ou excessivamente custosas. A consequência é disciplina por arquitetura, porque a obediência se obtém por impossibilitação e não por convencimento."
+ },
+ {
+  "k": "2eec49ec7493f411",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A segunda forma é o <1>enforcement ex post</1>, no qual o ecossistema aplica sanções declaradas ou parcialmente declaradas depois de um evento de moderação ou de detecção automática. Suspensões temporárias, banimentos, perdas de acesso a conteúdos e restrições graduais de uso reorganizam a trajetória de fruição e podem romper a continuidade que sustentava o valor do OIC. Aqui, a sanção não é apenas interrupção de um serviço, pois incide sobre a posição adquirida no ecossistema. Uma suspensão pode desorganizar ciclos, eventos e marcos de reputação; um banimento pode cortar a trajetória de pertencimento; uma restrição funcional pode rebaixar o usuário a uma experiência residual que preserva o vínculo formal, mas degrada a fruição efetiva."
+ },
+ {
+  "k": "9c733d4f5aab565a",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A terceira forma é o <1>enforcement</1> por visibilidade e reputação, que tende a ser a mais eficiente e a mais difícil de contestar porque não se apresenta, necessariamente, como punição. Rebaixamentos de alcance, perda de destaque, degradação de ranqueamento, redução de recomendações e silenciosidade algorítmica podem operar como sanções que mantêm o usuário “dentro” do ambiente, mas em condição inferior, com menos acesso a reconhecimento, menos oportunidades de comparação pública e menor capacidade de sustentar a posição socialmente legível que conferia valor à fruição. Essa modalidade é central para o regime do OIC, pois atinge diretamente o componente posicional do objeto. A punição relevante muitas vezes não é expulsar, mas rebaixar, porque continuar dentro, porém menos visível, menos elegível e menos reconhecível, equivale a degradar a posição de fruição e a corroer o valor que dependia de comensurabilidade e validação em circuito."
+ },
+ {
+  "k": "3f0a3ecd52ec0146",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Essa terceira forma de <1>enforcement</1> pode ser ilustrada com nitidez pelo Sistema de Honra do <2>League of Legends</2>, que opera como um mecanismo de sanção gradual por elegibilidade, recompensa e comunicação, modulando reputação e permanência sem precisar <3>p. 374</3> encerrar formalmente o vínculo. Em termos institucionais, a própria Riot descreve a Honra como um sistema que “recompensa a conduta esportiva” e, ao mesmo tempo, “penaliza comportamentos inadequados” por meio de “recompensas reduzidas” e “privilégios de comunicação limitados” <4>Riot Games</4><5>(Riot Games, 2025a)</5>. A sanção relevante, nesse desenho, não é apenas impedir o acesso ao jogo, mas deslocar o jogador para um regime inferior de fruição, no qual a conta permanece ativa e produtiva, mas perde acesso a bens, ritos e sinais que sustentam o valor posicional da experiência."
+ },
+ {
+  "k": "00f9f3169ac07a3d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Quando a plataforma rebaixa a Honra e “trava” a progressão, não se trata de um gesto simbólico. Trata-se de um corte funcional nas rotinas de recompensa e nas promessas de continuidade que amarram investimento de tempo e consumo ao longo de temporadas e ciclos de conteúdo. Em linguagem direta, a Riot explica que, após uma penalidade, o usuário pode entrar em “período de reforma”, durante o qual “não será elegível a receber Baús e Chaves” e terá “progresso em Honra” travado, com duração dependente do comportamento <1>Riot Games</1><2>(Riot Games, 2017a)</2>. A governança por sanção, aqui, atua como disciplina por atrito. Mantém-se o jogador no ambiente, mas condiciona-se a restituição de elegibilidade a uma forma de reabilitação opaca e gradual, que exige longa conformidade para recuperar a legibilidade reputacional<3><4>395</4></3>."
+ },
+ {
+  "k": "ba970900694f0d47",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esse tipo de rebaixamento opera como uma “incapacidade civil temporária” do ponto de vista do OIC. O sujeito permanece dentro do ecossistema, porém em uma faixa inferior de reconhecimento, com menos acesso a recompensas e com canais de interação reduzidos, o que rebaixa tanto sua capacidade de sustentar prestígio quanto sua capacidade de participar plenamente dos rituais cotidianos do jogo. A própria descrição oficial explicita que certos níveis de Honra removem recursos de comunicação e benefícios associados a recompensas sazonais, o que vincula diretamente a conformidade comportamental ao acesso a bens e à participação no circuito de validação <1>Riot Games</1><2>(Riot Games, 2025a)</2>. Quando se observa esse mecanismo ao lado da estrutura de recompensas por níveis e checkpoints, fica ainda mais claro que a perda de Honra não é “desmotivação moral” do ambiente, mas reconfiguração material de elegibilidade e de trajetória <3>League of Legends Wiki</3><4>(League of Legends Wiki, [202-?]a)</4>."
+ },
+ {
+  "k": "ad4f1734c8d80b51",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>p. 375</1> O mesmo ecossistema deixa ver uma segunda dimensão decisiva do <2>enforcement</2>, que é a passagem do juízo humano para um regime de aplicação escalável, em que o controle de condutas se torna rápido, sistemático e, por isso, estrutural. No Sistema de Feedback Instantâneo, a Riot afirma que usuários podem ser punidos “em até 15 minutos após o final da partida”, e descreve um leque de consequências que vai de restrições a suspensões permanentes <3>Riot Games</3><4>(Riot Games, 2026i)</4>. Nessa lógica, o <5>enforcement</5> deixa de ser um momento excepcional e passa a ser uma característica ordinária da fruição. A consequência jurídica é que a sanção passa a compor o próprio objeto, pois ela define a estabilidade prática da posição adquirida e condiciona a continuidade do acesso a critérios cujo funcionamento detalhado não é plenamente revelado ao usuário, sob justificativas de eficiência, prevenção de burla e gestão de escala<6><7>396</7></6>."
+ },
+ {
+  "k": "6c7e600ad103fd93",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Essa dinâmica prepara o contraste com o gesto extremo de expropriação definitiva. Enquanto a Honra rebaixa a conta, restringe recompensas e degrada a fruição sem expulsão formal, a suspensão e o encerramento rompem a biografia digital construída sob o regime do ecossistema. O contrato assume essa possibilidade como risco permanente e, sobretudo, define efeitos que vão além da simples interrupção do serviço. Se a conta é encerrada, perde-se acesso não apenas ao “jogo”, mas ao conjunto de dados e conteúdos virtuais que estruturavam a experiência, além de se afirmar ausência de reembolso em hipóteses de justa causa <1>Riot Games</1><2>(Riot Games, 2024e)</2><3><4>397</4></3>. O banimento, nessa moldura, não é apenas punição por conduta. Ele é a forma final de reorganização do valor posicional, na qual anos de investimento biográfico, reputacional e econômico podem ser condensados em uma desconexão total do ambiente, com baixa reciprocidade institucional para quem suporta o efeito."
+ },
+ {
+  "k": "eff26e8b874fae24",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O <1>enforcement</1> em ecossistemas de plataforma não apenas aplica uma regra previamente inteligível, porque opera sobre um ambiente em que os próprios critérios de decisão e de distribuição de oportunidades tendem a permanecer inacessíveis a quem suporta seus efeitos. A consequência é que a assimetria deixa de ser redutível a déficit informativo corrigível por aviso ou divulgação genérica, pois envolve segredo operacional sobre mecanismos de intermediação e de ranqueamento que definem visibilidade, acesso e permanência. É nesse registro que Cohen <2>p. 376</2> descreve o usuário como um agente que atua em um ambiente marcado por sigilo operacional, no qual não consegue acompanhar com facilidade a qualidade do serviço de correspondência algorítmica que adquiriu nem verificar se a plataforma realiza formas não divulgadas de posicionamento preferencial <3>Cohen</3><4>(Cohen, 2019, p. 43)</4>. Quando o circuito de decisão é estruturado dessa forma, a experiência do usuário se reduz ao resultado, enquanto o fundamento efetivo do resultado, isto é, a combinação de critérios, pesos e prioridades, permanece fora de alcance, comprimindo a possibilidade de discutir coerência, proporcionalidade e racionalidade do ato."
+ },
+ {
+  "k": "4bd9bea14239080d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A compressão da contestabilidade se torna ainda mais evidente quando se considera que esses sistemas não apenas escolhem, mas também classificam, hierarquizam e estabilizam padrões práticos de normalidade, convertendo a categorização em mecanismo de ordenação social. Na formulação mobilizada por Cohen, essas disciplinas caracterizam, classificam e especializam, distribuem sujeitos ao longo de uma escala em torno de uma norma, hierarquizam indivíduos e, quando necessário, desqualificam e invalidam <1>Cohen</1><2>(Cohen, 2012, [p. 108])</2>."
+ },
+ {
+  "k": "b88e30d46d85bd22",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O ponto relevante não está em importar uma teoria geral de vigilância, mas em fixar que, quando a posição de fruição depende de sinais de reconhecimento, reputação e elegibilidade produzidos por tais mecanismos, o conflito passa a incidir sobre um regime de classificação cujo funcionamento é pouco verificável e cuja revisão se torna impraticável em termos ordinários. Trata-se de compreender que a controvérsia não recai apenas sobre um resultado específico, mas sobre a própria gramática que define o que conta como conduta aceitável, quem é percebido como usuário legítimo e quais trajetórias são tornadas prováveis ou improváveis no interior do ecossistema. A depender de como operem os critérios de ranqueamento, os limiares de confiança, as métricas de performance e as triagens automatizadas, a plataforma não apenas distribui visibilidade, mas também produz efeitos de normalização, reforçando padrões dominantes e penalizando desvios por meio de rebaixamento, bloqueio ou perda de acesso."
+ },
+ {
+  "k": "56231a5a16ccfed2",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Por isso, no plano das <1>Lex Plataformae</1>, a opacidade de critérios não é um detalhe externo, mas elemento constitutivo de uma assimetria institucional, pois impede a identificação do fundamento que orienta a decisão, restringe a possibilidade de resposta informada e dificulta a construção de impugnações racionais que possam circular para além do caso individual. Em termos dogmáticos, essa opacidade incide diretamente sobre a capacidade de contestar o exercício do poder privado, porque torna incerta a própria existência de um parâmetro revisável e inviabiliza, na prática, formas mínimas de contraditório, de justificativa e de controle. Sem esses contrapesos, a norma operativa permanece como comando efetivo, mas não se converte <2>p. 377</2> em objeto estável de escrutínio, e a revisão de seus efeitos tende a ficar limitada a intervenções episódicas e casuísticas, insuficientes para reequilibrar a posição dos afetados."
+ },
+ {
+  "k": "3907bfd943e4d447",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A partir do momento em que regras internas, arquitetura de implementação e mecanismos de <1>enforcement</1> se integram em um regime normativo com eficácia prática, mas com critérios operacionais protegidos por opacidade e segredo funcional, o problema central deixa de ser a simples falta de informação e passa a ser um déficit de reciprocidade institucional. A normatividade operativa produz efeitos coletivos, distribui oportunidades, define elegibilidade e aplica sanções que reconfiguram a posição de fruição, mas o sujeito afetado tende a acessar apenas os resultados, não os fundamentos que os produzem, o que comprime a contestabilidade e impede que o conflito se organize em termos racionais verificáveis, exigindo contrapartidas proporcionais de motivação verificável e vias inteligíveis de contestação."
+ },
+ {
+  "k": "3662c39e7af05cd2",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A utilidade metodológica do artigo de Warren e Brandeis <1>([201-?])</1> é registrar que mudanças técnicas e organizacionais alteram o modo de produção do dano e podem tornar insuficientes categorias antes aptas a capturar o conflito <2>Brandeis</2><3>(Warren; Brandeis, [201-?], [p. 3])</3>. Quando novas capacidades de registro e circulação invadem a esfera privada, a tutela precisa se reposicionar para preservar a eficácia da proteção <4>Brandeis</4><5>(Warren; Brandeis, [201-?], [p. 3])</5>. Nesse contexto, não basta apoiar a proteção em contrato ou confiança, sendo necessário recorrer à responsabilidade civil como base de tutela <6>Brandeis</6><7>(Warren; Brandeis, [201-?], [p. 14])</7>. Essa reconstrução exige calibragem sobre violações relevantes e mecanismos de dano <8>Brandeis</8><9>(Warren; Brandeis, [201-?], p. 33)</9>."
+ },
+ {
+  "k": "b2dc21658e03337b",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>Lex Plataformae</1> pode, assim, ser sintetizada como regime de normatividade prática porque articula, de modo integrado, produção de regra, implementação arquitetural e <2>enforcement</2> escalável, operando com elevada eficácia na direção de condutas e, simultaneamente, com baixa contestabilidade para quem suporta seus efeitos. Ao produzir parâmetros internos mutáveis, converter esses parâmetros em condições de possibilidade por meio de fluxos, permissões e mediações de visibilidade, e aplicar consequências por restrições, rebaixamentos e exclusões, a plataforma governa o intervalo do possível no ecossistema e transforma a conformidade em requisito de permanência e reconhecimento. Nesse cenário, o conflito deixa de ser disputa periférica sobre cláusulas abstratas e passa a incidir sobre um sistema que classifica, hierarquiza e sanciona trajetórias de fruição, reconfigurando continuamente aquilo que conta como posição sustentável no ambiente. Para o regime do OIC, o objeto economicamente relevante não se reduz a uma entrega pontual, mas consiste em posição de fruição dependente de legibilidade pública, elegibilidade técnica e continuidade temporal, todas administradas por esse complexo normativo. Por isso, a questão decisiva não é <3>p. 378</3> apenas a existência de regras internas, mas o modo como a normatividade operativa organiza participação e distribui valor posicional, com efeitos coletivos que exigem leitura institucional do sujeito submetido a tal governo, tema que se impõe no passo seguinte."
+ },
+ {
+  "k": "4094ba1dbb178c4d",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "O reconhecimento de que as <1>Lex Plataformae</1> operam como normatividade prática não depende de transformar a plataforma em Estado, mas de admitir que a direção de condutas pode ser exercida por organizações sociais dotadas de poder, produzindo coerção funcional e efeitos coletivos no interior de um ecossistema. Em Grau, esse deslocamento é explicitado quando se afirma que “o Estado não é a única organização social capacitada a pôr o direito, isto é, a produzir direito posto”, rompendo “definitivamente com a concepção de acordo com a qual o direito é necessariamente criatura do Estado” <2>Grau</2><3>(Grau, 2008, p. 78)</3>. A utilidade dessa chave é metodológica e crítica ao mesmo tempo, porque permite descrever a plataforma como instância que institui regras, administra sanções e impõe conformidade sem naturalizar essa ordem como destino ou neutralidade do mercado."
+ },
+ {
+  "k": "a429d1f460ae9318",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Nesse sentido, a advertência de que “prevalece a ordem jurídica do mercado”, entendida não como algo que o mercado seja ontologicamente, mas como “a ordem que ele instaura” <1>Grau</1><2>(Grau, 2008, p. 326)</2>, bloqueia leituras que tratariam a normatividade privada como mera decorrência espontânea de trocas. A consequência é manter aberta a possibilidade de controle e de exigência de contrapesos proporcionais, já que o que se descreve é uma ordem efetivamente produzida e sustentada por decisões de desenho, implementação e <3>enforcement</3>."
+ },
+ {
+  "k": "112ff868e29087a5",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Ao mesmo tempo, quando o direito é compreendido como “um nível do todo social […], no qual se expressam as relações sociais” <1>Grau</1><2>(Grau, 2008, p. 54)</2>, torna-se possível tratar regras internas, arquitetura e <3>enforcement</3> não como representação externa do conflito, mas como a própria materialidade institucional em que as relações digitais se constituem, se estabilizam e adquirem sentido. Isso justifica que a análise jurídica recaia sobre o plano efetivo de operação do ecossistema, sem confusão entre descrever poder normativo e legitimar automaticamente seu exercício."
+ },
+ {
+  "k": "85ab8804619f49c8",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Se a direção de condutas pode ser exercida por organizações dotadas de poder, a descrição da <1>Lex Plataformae</1> exige atenção ao modo como regras internas, arquitetura e <2>enforcement</2> se realizam em rotinas ordinárias do ecossistema. Esse é o ponto em que restrições de acesso, rebaixamentos de visibilidade e alterações de elegibilidade passam a incidir diretamente sobre a posição de fruição e sobre o valor posicional que dela depende."
+ },
+ {
+  "k": "71849143b68270d3",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Se a <1>Lex Plataformae</1> opera como normatividade prática, integrando produção de regra, implementação arquitetural e <2>enforcement</2> escalável para organizar participação, visibilidade e sanção, o sujeito submetido a esse regime não aparece apenas como parte contratante, mas como <3>p. 379</3> participante governado em condições de pertencimento, elegibilidade e reconhecimento que definem sua própria posição no ecossistema. É nesse sentido que se impõe a transição para a figura do consumidor-cidadão, pois a experiência de consumo passa a incluir, de modo inseparável, submissão a regras privadas, a classificações e a mecanismos de correção que estruturam a vida social no ambiente. Ao mesmo tempo, uma vez descrito o funcionamento normativo do ecossistema e o déficit de contestabilidade que o acompanha, torna-se inevitável avançar para instrumentos capazes de converter essa descrição em critérios operacionais de controle, incidindo sobre transparência qualificada, estabilidade mínima, vias de contestação e recomposição da fruição em termos compatíveis com a densidade do poder exercido."
+ },
+ {
+  "k": "500169cac5a8441c",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Em O Direito Posto e o Direito Pressuposto (2008), Eros Roberto Grau oferece um vocabulário útil para descrever normatividades que não se reduzem à lei em sentido estrito. A compreensão do fenômeno jurídico exige captar a normatividade tal como ela opera na realidade social, com mecanismos de imposição, efeitos e mediações institucionais. Aqui, interessa destacar o núcleo conceitual que a obra de Eros Grau oferece para descrever normatividades que não se deixam reduzir à lei em sentido estrito. A distinção entre direito posto e direito pressuposto permite tratar o direito como plano da realidade e como sistema de princípios cuja vigência pode emergir de organizações dotadas de poder para impor padrões de conduta, produzindo efeitos coletivos e estruturando práticas. Esse vocabulário é mobilizado com função metodológica precisa, pois permite compreender a <1>Lex Plataformae</1> como normatividade prática efetiva, composta por regras internas, implementação arquitetural e mecanismos de enforcement, sem reduzir o fenômeno à lei estatal nem à autonomia contratual. <2>↩</2>"
+ },
+ {
+  "k": "221f98f7e6059a9b",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A autora é amplamente conhecida como Patricia Peck, no entanto, a ficha catalográfica de sua obra indica expressamente o último sobrenome Pinheiro, razão pela qual, nesta tese, em respeito à norma ABNT e padrão formal exigidos, a autora será referida por tal sobrenome e não pelo mais popular. <1>↩</1>"
+ },
+ {
+  "k": "242bae8b743db71e",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Intitulada <1>Other People’s Money and How the Bankers Use It,</1> a obra de Louis D. Brandeis <2>(2011)</2>, originalmente publicada entre 1913 e 1914 como série de artigos no periódico <3>Harper’s Week</3>ly, constitui uma crítica estrutural à formação de uma oligarquia financeira no início do século XX. Interessa, aqui, tão somente a caracterização do mecanismo jurídico-institucional descrito por Brandeis. O foco não recai sobre a riqueza em si, mas sobre o modo como banqueiros de investimento consolidam poder pela administração do dinheiro de terceiros, convertendo intermediação em direção econômica e transformando dependência financeira em sujeição prática. Esse poder se forma pela unificação gradual de funções antes distintas, pela proliferação de “<4>interlocking directorates”</4> e pela erosão do distanciamento entre banca e gestão industrial, o que produz conflitos de interesse e substitui critérios de eficiência e integridade por racionalidades orientadas a preço, percepção e valor de mercado. <5>Interlocking </5> <6>directorates</6> designa, para Brandeis, a prática de entrelaçamento de diretorias e de interesses em que a mesma pessoa, ou o mesmo grupo, ocupa posições de direção em empresas diferentes, inclusive rivais ou que contratam entre si, o que amplia conflitos de interesse e facilita a coordenação anticompetitiva. O ponto não é apenas “um diretor em dois conselhos”, mas a rede de vínculos que permite que decisões e contratos sejam conduzidos por circuitos cruzados, reduzindo independência decisória e confundindo lealdades fiduciárias <7>Brandeis</7><8>(Brandeis, 2011, [p. 67])</8>. A crítica se completa ao associar concentração a ineficiência, destacando a “<9>curse of bigness</9>” e a gestão remota como incapazes de governar complexidade operacional sem degradar a qualidade da decisão. Nesse sentido, a “<10>curse of bigness</10>” é a crítica de Brandeis à ideia de que tamanho, por si, gera eficiência. Para ele, quando a grandeza é obtida por combinações e fusões e passa a ser administrada de modo remoto, o resultado tende a ser concentração de poder com perda de qualidade decisória e incapacidade prática de governar complexidade operacional sem degradação, o que transforma a “grandeza” em fonte de ineficiência e de risco sistêmico <11>Brandeis</11><12>(Brandeis, 2011, [p. 166])</12>. <13>↩</13>"
+ },
+ {
+  "k": "3e1d03a037ef7ee9",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>Encroachment</1> funcional designa, em Brandeis, o modo pelo qual uma oligarquia financeira se consolida não por um ato único de conquista, mas por usurpação gradual, discreta e frequentemente pouco visível, que vai deslocando para um mesmo grupo funções que, quando exercidas separadamente, tendem a produzir controles recíprocos e equilíbrio concorrencial <2>Brandeis</2><3>(Brandeis, 2011, [p. 25-28])</3>. Não trata da moralização do agente, mas da descrição de um mecanismo institucional de acúmulo. O banqueiro de investimento deixa de ser mero intermediário e passa a concentrar, ao mesmo tempo, a estruturação do financiamento, a emissão e organização de títulos, a colocação desses títulos no mercado e a influência sobre os principais compradores e depositários de recursos, como seguradoras, bancos e trust companies. A formação do Money Trust decorre, sobretudo, dessa união de funções distintas em uma mesma posição, porque a acumulação reduz a fricção entre interesses, captura as rotas de validação e transforma decisões corporativas em decisões governadas pela lógica do circuito financeiro. Por isso, o encroachment é descrito como processo sutil e de longa duração, comparável, na sua forma, à concentração de poderes no despotismo político, já que a perda de liberdade econômica pode ocorrer sem ruptura aberta, apenas pela recombinação das competências em um único centro (Brandeis, 2011, [p. 25-28]. Em termos práticos, trata-se de um deslocamento de “papéis” para “posição”, no qual quem controla a posição passa a dirigir ferrovias e empresas industriais, influencia companhias de seguro e passa a comandar também bancos e instituições fiduciárias, criando dependência estrutural e reduzindo a necessidade de competir em condições simétricas. A relevância do conceito, no paralelo proposto, está em mostrar que a dominação não precisa operar por segredo absoluto ou por ausência de disclosure, porque ela pode operar pela concentração das chaves de coordenação que definem o que é financiável, o que é legítimo e o que é visto como racional dentro do sistema. (Brandeis, 2011, [p. 25-28]. <4>↩</4>"
+ },
+ {
+  "k": "f5e7d23a46c0e571",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A Riot descreve, em guia oficial, que uma penalidade pode produzir impedimento de recompensas mesmo após o fim da punição. O texto afirma que “você entrará em um período de reforma” e que “durante esse período, você não será elegível a receber Baús e Chaves, e seu progresso em Honra ficará travado”, explicando ainda que o encerramento do período “depende totalmente do seu comportamento” <1>Riot Games</1><2>(Riot Games, 2017a)</2>. O mesmo documento detalha o “travamento” por gravidade, indicando que restrições de chat “derrub[a]m sua Honra para o nível 1 ou 0” e tornam a conta “inelegível para receber recompensas do Sistema Hextec” <3>Riot Games</3><4>(Riot Games, 2017a)</4>. O desenho revela uma disciplina por atrito: mantém-se o usuário no ambiente, mas a restituição de elegibilidade é condicionada a um percurso prolongado de reabilitação. <5>↩</5>"
+ },
+ {
+  "k": "afdd209893e65b90",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Nas Perguntas Frequentes do Sistema de Feedback Instantâneo, a Riot afirma que pessoas que “comprovadamente causarem uma experiência negativa serão punidas em até 15 minutos após o final da partida”, e descreve que condutas mais leves podem gerar “restrições” e condutas mais severas podem resultar em “suspensão permanente” <1>Riot Games</1><2>(Riot Games, 2026i)</2>. O efeito prático é deslocar a sanção para a rotina, reforçando um regime em que a conformidade é continuamente medida e aplicada em escala, e não apenas julgada em situações excepcionais. <3>↩</3>"
+ },
+ {
+  "k": "df771f5cb8aacbc4",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Seguindo o modelo do setor, a Riot reserva contratualmente a si o direito de encerrar ou suspender quaisquer contas, desde que considere tal medida razoável <1>Riot Games</1><2>(Riot Games, 2024e)</2>. O contrato deixa claro que o banimento não é mera interrupção de acesso, mas perda de dados e conteúdos virtuais associados à biografia digital, além de explicitar o critério interno de decisão (“razoavelmente determinado”), que opera como zona de discricionariedade contratualmente admitida. <3>↩</3>"
+ },
+ {
+  "k": "6c073d56e295a9ec",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1>← <2>4.2.3 </2>Psicopolítica, autoexploração e cativeiro identitário</1><3><4>4.2.5 </4>O consumidor-cidadão sob a Lex Plataformae →</3>"
+ },
+ {
+  "k": "2fd86c10380a0a66",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "<1><2>4.2.4 </2>Regras privadas, enforcement e a governança da plataforma</1>"
+ },
+ {
+  "k": "deb0c7a8c419b3f9",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "ANDRADE, Victor L. P. 4.2.4 Regras privadas, enforcement e a governança da plataforma. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/tese/4-2-4/"
+ },
+ {
+  "k": "469a4a5c78b1a983",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "A fruição em ecossistemas digitais depende de aderência contínua a ritmos, métricas e padrões de reconhecimento administrados pelo próprio ambiente. A…"
+ },
+ {
+  "k": "91f5ff41730e205f",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Esta seção começa no meio da página 363"
+ },
+ {
+  "k": "029272809b77f77b",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 391"
+ },
+ {
+  "k": "986136eb4706ec94",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 392"
+ },
+ {
+  "k": "0f3036cb1b65669c",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 393"
+ },
+ {
+  "k": "c21017128196e519",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 394"
+ },
+ {
+  "k": "7d098ec714b39674",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 395"
+ },
+ {
+  "k": "b137ced663cad8eb",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 396"
+ },
+ {
+  "k": "d1a9229e0ee3b1d8",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "Voltar à chamada da nota 397"
+ },
+ {
+  "k": "08243acdf8ff4e0f",
+  "pagina": "tese/4-2-4/index.html",
+  "pt": "4.2.4 Regras privadas, enforcement e a governança da plataforma"
+ },
+ {
+  "k": "12e89827ed229dc5",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "4.2.5 O consumidor-cidadão sob a Lex Plataformae · Texto integral · Lex Plataformae"
+ },
+ {
+  "k": "3857236d75ebc633",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "Seção 4.2.5 · p. 379 a 386"
+ },
+ {
+  "k": "0a65d5b1d172daf1",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "<1>4.2.5 </1>O consumidor-cidadão sob a Lex Plataformae"
+ },
+ {
+  "k": "924810be10826dca",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "<1>Ver esta seção no PDF</1>"
+ },
+ {
+  "k": "b099b2a352bcbbf4",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "Quando operante, uma <1>Lex Plataformae</1> não reorganiza apenas uma troca contratual pontual. Ela institui um regime de participação. Quando acesso, permanência, visibilidade, reputação e circulação simbólica dependem de critérios internos e de sanções executadas por desenho, a fruição do objeto imaterial deixa de se realizar como entrega isolada e passa a existir como posição sustentada no ecossistema, sujeita a reconfigurações unilaterais apresentadas como normalidade técnica."
+ },
+ {
+  "k": "50737bb6228c53e4",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "O sujeito dessa relação não é o cidadão constitucional abstrato, nem o adquirente neutro de uma troca isolada. Trata-se de um participante cuja fruição depende de condições internas de pertencimento e continuidade, exposto a decisões que operam por dentro do ecossistema, por regra e por <1>enforcement</1>. A normatividade qualifica posições e torna relações operáveis."
+ },
+ {
+  "k": "f4e3c0412eaba055",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "Descrita como normatividade prática em operação, a <1>Lex Plataformae</1> não permite tratar norma como simples “retrato” incapaz de ordenar relações. Em Grau, o direito aparece como parte do próprio funcionamento do social: “O direito […] não é uma simples representação da realidade social, externa a ela, mas, sim, um nível funcional do todo social. Assim, enquanto nível da própria realidade, é elemento constitutivo do modo de produção social” <2>Grau</2><3>(Grau, 2008, p. 19-20)</3>. A partir dessa chave interpretativa, a normatividade privada pode ser tratada como componente constitutivo do arranjo do ecossistema, capaz de atribuir condições práticas de presença, visibilidade e continuidade aos participantes, inclusive sob a forma de restrição ou exclusão."
+ },
+ {
+  "k": "143760813537abba",
+  "pagina": "tese/4-2-5/index.html",
+  "pt": "Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem transferido. É consumidor porque existe aquisição e expectativa legítima de fruição. É “cidadão” apenas no <1>p. 380</1> sentido analítico de que sua presença no ambiente depende de condições de pertencimento e continuidade fixadas por governança privada, com efeitos coletivos sobre reconhecimento e circulação simbólica. A cidadania aqui não diz respeito a nacionalidade, soberania ou estatuto constitucional clássico. Ela designa condições práticas de participação e permanência em um ambiente governado por regras internas, arquitetura e <2>enforcement</2>, no qual a alteração unilateral dessas condições reconfigura, na prática, o próprio objeto fruído. Com isso, a vulnerabilidade relevante não se esgota na assimetria informacional contratual. Ela aparece como dependência de uma ordem privada que administra, por desenho e por sanção, as condições de acesso, expressão, comércio e permanência, produzindo efeitos que não se neutralizam por simples escolha individual. Essa caracterização bloqueia a constitucionalização genérica do litígio e evita o salto estatizante."
+ }
+]

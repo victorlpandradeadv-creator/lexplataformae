@@ -1,0 +1,3347 @@
+[
+ {
+  "k": "70c29f3d4604d04e",
+  "pagina": "roteiro/diretrizes/index.html",
+  "pt": "Das diretrizes para controle de arquitetura e governança"
+ },
+ {
+  "k": "ea876f184b8a9885",
+  "pagina": "roteiro/index.html",
+  "pt": "Situações para operar em conflitos com plataformas digitais · Lex Plataformae"
+ },
+ {
+  "k": "1de6c9e8da44d727",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Direitos</1>"
+ },
+ {
+  "k": "803b23c10c94430a",
+  "pagina": "roteiro/index.html",
+  "pt": "Situações · 7.1.2 da tese"
+ },
+ {
+  "k": "10f33d401f2f7362",
+  "pagina": "roteiro/index.html",
+  "pt": "Situações"
+ },
+ {
+  "k": "341ace2c2972e69c",
+  "pagina": "roteiro/index.html",
+  "pt": "Onze situações em que o regime se aplica a um conflito com a plataforma. Cada uma traz o guia para operar e o quadro, com o que incide, o que se deve, o que provar e o que pedir."
+ },
+ {
+  "k": "1e9bf0edf86353e9",
+  "pagina": "roteiro/index.html",
+  "pt": "Para que servem as situações?"
+ },
+ {
+  "k": "3a996229aed68cc8",
+  "pagina": "roteiro/index.html",
+  "pt": "O regime precisa de uma grade operativa que preserve a unidade dogmática em contextos diferentes. As onze situações cumprem esse papel como peça de consulta. Elas não simplificam o objeto. Organizam a passagem entre o mecanismo de governança, o dever de fornecimento, a prova mínima, a qualificação jurídica e a consequência institucional possível."
+ },
+ {
+  "k": "64066004a0ea1951",
+  "pagina": "roteiro/index.html",
+  "pt": "O quadro opera por filtros acumulativos. Primeiro se identifica o objeto e o regime de fruição. Depois se qualifica a vulnerabilidade semiótica e se verificam, conforme o caso, opacidade, mutabilidade e governança por sanção. Auditabilidade aberta e equivalência de valor funcional operam como filtros transversais. A qualificação jurídica vem só depois, sem prejuízo de cumulação quando o mesmo arranjo revelar mais de um problema."
+ },
+ {
+  "k": "e80d9ccfc7a23b10",
+  "pagina": "roteiro/index.html",
+  "pt": "Só então se procede à qualificação jurídica da controvérsia, sem prejuízo de cumulação<1>p. 743</1>"
+ },
+ {
+  "k": "747d8d48f53bf1fa",
+  "pagina": "roteiro/index.html",
+  "pt": "Auditabilidade aberta e equivalência de valor funcional operam como filtros transversais, incidindo sobre diferentes formas de conflito.<1>p. 742-743</1>"
+ },
+ {
+  "k": "a37d07cf98f8de1b",
+  "pagina": "roteiro/index.html",
+  "pt": "Em seguida, qualifica-se a vulnerabilidade semiótica e verificam-se, conforme o caso, opacidade estrutural, mutabilidade relevante e governança por sanção.<1>p. 742</1>"
+ },
+ {
+  "k": "364a25361e002e36",
+  "pagina": "roteiro/index.html",
+  "pt": "A passagem do regime do Objeto Imaterial de Consumo para sua incidência em diferentes famílias de plataforma exige uma grade operativa capaz de preservar unidade dogmática em contextos distintos.<1>p. 714</1>"
+ },
+ {
+  "k": "89a938fb0d02b1a2",
+  "pagina": "roteiro/index.html",
+  "pt": "Por isso, a presente sistematização funciona como peça de consulta.<1>p. 742</1>"
+ },
+ {
+  "k": "1298a1f22e2eb06f",
+  "pagina": "roteiro/index.html",
+  "pt": "O quadro opera por filtros acumulativos.<1>p. 742</1>"
+ },
+ {
+  "k": "6538826c6644d6e1",
+  "pagina": "roteiro/index.html",
+  "pt": "Por que a ordem importa?"
+ },
+ {
+  "k": "2451f88633667305",
+  "pagina": "roteiro/index.html",
+  "pt": "Os parâmetros não formam um inventário de conceitos. Formam uma sequência decisória, em que cada passo prepara o seguinte e limita a variação interpretativa do passo subsequente. Sem qualificar o objeto, o restante da análise se desorganiza."
+ },
+ {
+  "k": "097ae33b33d1d2db",
+  "pagina": "roteiro/index.html",
+  "pt": "Os enunciados não devem ser lidos como inventário horizontal de conceitos.<1>p. 716</1>"
+ },
+ {
+  "k": "777f31583ec6b315",
+  "pagina": "roteiro/index.html",
+  "pt": "Parte-se da qualificação do objeto e do regime de fruição, sem o que o restante da análise se desorganiza.<1>p. 717</1>"
+ },
+ {
+  "k": "edcc67215b8d8fcb",
+  "pagina": "roteiro/index.html",
+  "pt": "Isto é um objeto imaterial de consumo?"
+ },
+ {
+  "k": "ea3f2543a6254f7b",
+  "pagina": "roteiro/index.html",
+  "pt": "A entrada no regime exige quatro campos, todos presentes. O primeiro é o objeto prometido, identificado pelas funções centrais que organizam a expectativa legítima de fruição. O segundo é a posição de fruição sustentada, porque a aquisição inaugura um lugar no ecossistema, e não uma entrega que se esgota num instante. O terceiro é a governança infraestrutural, com critérios internos e mecanismos executivos que conformam a experiência e distribuem consequências, sem que baste a mediação técnica trivial. O quarto é a possibilidade típica de degradação relevante sem ruptura total, em que a fruição continua existindo no papel, mas é rebaixada, esvaziada ou reconfigurada."
+ },
+ {
+  "k": "c7d68aefd2305206",
+  "pagina": "roteiro/index.html",
+  "pt": "A incidência se decide por esses elementos verificáveis, e não por intuição tecnológica nem por deferência automática ao contrato. Os critérios também não dependem de acesso integral a algoritmo, logs e regras internas. O que se demonstra é a governança relevante para a utilidade adquirida e a estabilidade suficiente para produzir padrões de fruição e de degradação."
+ },
+ {
+  "k": "10878227f249d88c",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] suficiente para produzir padrões de fruição e de degradação relevante sem ruptura total do acesso.<1>p. 430</1>"
+ },
+ {
+  "k": "f321cb7b7d46942a",
+  "pagina": "roteiro/index.html",
+  "pt": "O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição.<1>p. 428</1>"
+ },
+ {
+  "k": "e767d0c420dac1be",
+  "pagina": "roteiro/index.html",
+  "pt": "Exige identificar quais funções centrais organizam a expectativa legítima de fruição e, por consequência, delimitar quais alterações podem atingir o núcleo do objeto mesmo quando a continuidade formal do acesso é preservada.<1>p. 428</1>"
+ },
+ {
+  "k": "2815b6ff95e260d3",
+  "pagina": "roteiro/index.html",
+  "pt": "O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor.<1>p. 428</1>"
+ },
+ {
+  "k": "a07fb8cc02c53fa5",
+  "pagina": "roteiro/index.html",
+  "pt": "O quarto campo é a possibilidade típica de degradação relevante sem ruptura total.<1>p. 429</1>"
+ },
+ {
+  "k": "9c7a4c27cca1b1c2",
+  "pagina": "roteiro/index.html",
+  "pt": "Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada de modo a frustrar o núcleo de utilidade ofertada ou a reordenar a posição do consumidor no ecossistema em termos incompatíveis com a promessa que justificou a aquisição.<1>p. 429</1>"
+ },
+ {
+  "k": "3d6a0c9e1989b03f",
+  "pagina": "roteiro/index.html",
+  "pt": "A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime, o que permite estabilizar um percurso de qualificação.<1>p. 429</1>"
+ },
+ {
+  "k": "7045b605b391a84e",
+  "pagina": "roteiro/index.html",
+  "pt": "Critérios de incidência não podem depender de acesso integral a algoritmo, logs e regras internas como condição de possibilidade, pois isso converteria o OIC em categoria impraticável, reservada a casos excepcionais.<1>p. 429</1>"
+ },
+ {
+  "k": "7b9b85019bbfd2a5",
+  "pagina": "roteiro/index.html",
+  "pt": "Como usar"
+ },
+ {
+  "k": "579b9f6368368a02",
+  "pagina": "roteiro/index.html",
+  "pt": "Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro, em cinco partes. O parâmetro é o critério que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso."
+ },
+ {
+  "k": "d8a321f348474fca",
+  "pagina": "roteiro/index.html",
+  "pt": "O CDC funciona como a infraestrutura normativa dessas situações. Não se trata de inventar um novo código nem de enxertar um regime estranho no texto legal, e sim de ler as categorias do sistema pelo modo real como o fornecimento acontece, em que governar o ambiente é governar a própria fruição."
+ },
+ {
+  "k": "82bb1bb7252b5f31",
+  "pagina": "roteiro/index.html",
+  "pt": "O quadro não mecaniza a decisão. Ele organiza a passagem entre a estrutura de governança, o dever violado, a exigência probatória mínima, a qualificação jurídica e a consequência possível."
+ },
+ {
+  "k": "91ef5b83f743b9ba",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima de cada situação indica o que torna o conflito demonstrável com prova possível e inferências controláveis, para que a discussão não dependa de acesso integral a algoritmos, registros e regras internas da plataforma."
+ },
+ {
+  "k": "9345f8803f41ea73",
+  "pagina": "roteiro/index.html",
+  "pt": "Ele organiza, em linguagem consultável, a passagem entre estrutura de governança, dever violado, exigência probatória mínima, qualificação jurídica e consequência institucional possível.<1>p. 748</1>"
+ },
+ {
+  "k": "82c2a24c298eb1d9",
+  "pagina": "roteiro/index.html",
+  "pt": "Para o OIC, os critérios devem operar com prova possível e inferências controláveis<1>p. 429</1>"
+ },
+ {
+  "k": "eeae7699c025b125",
+  "pagina": "roteiro/index.html",
+  "pt": "Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal.<1>p. 549</1>"
+ },
+ {
+  "k": "d8cee7ddc697d6e5",
+  "pagina": "roteiro/index.html",
+  "pt": "O direito do consumidor brasileiro já contém, em sua própria arquitetura, instrumentos suficientes para alcançar fruições imateriais, continuadas e governadas por terceiro, desde que suas categorias sejam lidas a partir do modo real de prestação do fornecimento<1>p. 549</1>"
+ },
+ {
+  "k": "aa86c5ae668cfc24",
+  "pagina": "roteiro/index.html",
+  "pt": "O CDC já oferece linguagem suficiente para enfrentar esse problema, desde que se aceite que, no consumo digital contínuo, governar o ambiente é governar a própria fruição.<1>p. 550</1>"
+ },
+ {
+  "k": "e5fb5bae22b18d4a",
+  "pagina": "roteiro/index.html",
+  "pt": "As onze situações"
+ },
+ {
+  "k": "15b1bf32d1f58ae1",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>a)</2> Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+ },
+ {
+  "k": "e0bb96b6de49b31e",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>b)</2> Quando o consumidor só entende o que a interface deixa entender</1>"
+ },
+ {
+  "k": "1364a1bdb18fb326",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>c)</2> Quando a informação existe, mas some no excesso</1>"
+ },
+ {
+  "k": "da2112591fddf854",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>d)</2> Quando a vitrine prometeu mais do que foi entregue</1>"
+ },
+ {
+  "k": "8909f52caedb3a1a",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>e)</2> Quando a plataforma mudou as regras e não deixou rastro</1>"
+ },
+ {
+  "k": "3b902d8462378874",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>f)</2> Quando a atualização tirou o valor do que foi comprado</1>"
+ },
+ {
+  "k": "ad6e9f1b5eff05ed",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>g)</2> Quando punir é fácil e contestar é difícil</1>"
+ },
+ {
+  "k": "4ac4757de22b3503",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>h)</2> Quando a perda é rotina do desenho, e não acidente</1>"
+ },
+ {
+  "k": "01daf77d7d10ec65",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>i)</2> Como provar quando a prova está com a plataforma</1>"
+ },
+ {
+  "k": "a01e02569168eac6",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>j)</2> Quando a propriedade intelectual vira escudo</1>"
+ },
+ {
+  "k": "dfa87296e880b64b",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>k)</2> O que pedir, restaurar antes de indenizar</1>"
+ },
+ {
+  "k": "611a43a8a498f763",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando o que foi comprado depende do ambiente que a plataforma administra"
+ },
+ {
+  "k": "3f68980aa99696b8",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>a)</1> regime de fruição governada e incidência do OIC"
+ },
+ {
+  "k": "162502f46848e232",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos indicam um produto que depende do ambiente?"
+ },
+ {
+  "k": "01c9fff68f46001c",
+  "pagina": "roteiro/index.html",
+  "pt": "Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo. Nos jogos, o objeto pode ser de aparência, de progressão, de acesso e permanência, de funcionalidade, de tempo ou de reputação, e um mesmo item costuma combinar mais de um desses tipos. Essa tipologia é interna ao laboratório dos jogos, e não classificação geral de plataformas. Os mesmos traços aparecem em três modelos de negócio, os jogos operados como serviço, os marketplaces e os serviços de inteligência artificial fornecidos por plataforma. Em todos, a fruição depende da operação contínua de um ambiente governado privadamente. No marketplace, porém, nem toda mediação digital converte o bem em objeto imaterial de consumo."
+ },
+ {
+  "k": "a6c27eecc2ae0bf5",
+  "pagina": "roteiro/index.html",
+  "pt": "Como demonstrar a dependência do ambiente?"
+ },
+ {
+  "k": "d6a4ccdd504a3e6e",
+  "pagina": "roteiro/index.html",
+  "pt": "A dependência estrutural da utilidade em relação ao ambiente governado, a forma de disponibilização da experiência e a posição concreta do consumidor no vínculo. Ajudam os termos de uso que ligam o conteúdo à conta, a página de status que mostra a dependência de servidores e o registro do que está na conta e do que foi pago."
+ },
+ {
+  "k": "92b7f640df398549",
+  "pagina": "roteiro/index.html",
+  "pt": "Em que norma o produto imaterial se apoia?"
+ },
+ {
+  "k": "b1dd261ee5d609de",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 3º, § 1º, do CDC<1><2>1</2></1> já admite produto imaterial. Sempre que a utilidade consumida se apresenta como posição de fruição sustentada por governança privada contínua, há produto imaterial no sentido desse dispositivo, e a dimensão de serviço não afasta o controle da fruição. Os termos de uso que reconhecem um conteúdo virtual associado à conta, como moeda, skins e outros itens, ajudam a provar a existência do objeto, mas não esgotam o seu regime. O OIC não substitui o produto imaterial do art. 3º, § 1º, do CDC<3><4>1</4></3>, mas o concretiza no consumo contínuo e governado. A definição legal de produto funciona como cláusula de abrangência, que impede a fuga da tutela quando o objeto não tem suporte físico."
+ },
+ {
+  "k": "77d39a7253077dc1",
+  "pagina": "roteiro/index.html",
+  "pt": "O que fica fora do portão de entrada?"
+ },
+ {
+  "k": "28d51e0606700c7a",
+  "pagina": "roteiro/index.html",
+  "pt": "Os quatro campos do portão de entrada são cumulativos. Ficam de fora o acesso pontual, a plataforma que funciona só como canal ou vitrine, a alteração predominantemente estética quando o simbólico é acessório e as variações ordinárias do serviço. Também há conflitos que o CDC já resolve sem ganho em mobilizar o OIC, como cobrança indevida, vício pontual ou descumprimento específico de oferta, quando esse é o núcleo do caso. A qualificação abre os filtros seguintes e não decide o caso sozinha. Discutir se o caso é de produto ou de serviço não resolve a questão. A distinção continua útil para calibrar consequências específicas, mas não define o regime inteiro. O Marco Legal dos Jogos Eletrônicos, a Lei nº 14.852/2024, reconhece o setor como atividade econômica e cultural, mas o enquadramento setorial ajuda a ver o mercado e não basta para controlar a governança, de modo que não substitui o CDC. A regra de leitura é que a entrega inicial não esgota o cumprimento, e a execução continuada não apaga o objeto."
+ },
+ {
+  "k": "34af6208c023748e",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível consiste na abertura dos filtros subsequentes do regime, impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal<1>p. 743</1>"
+ },
+ {
+  "k": "4499cbbfe656b83d",
+  "pagina": "roteiro/index.html",
+  "pt": "A própria disciplina contratual do serviço dá forma a esse arranjo ao estabelecer que o acesso aos Serviços, inclusive ao chamado Conteúdo Virtual, ocorre por licença limitada e revogável, condicionada ao cumprimento dos Termos, e que o encerramento da conta acarreta cancelamento automático da licença e perda do acesso aos conteúdos associados<1>p. 408</1>"
+ },
+ {
+  "k": "d87a15178f38ebfc",
+  "pagina": "roteiro/index.html",
+  "pt": "A Riot mantém uma página oficial de status do serviço, com mensagens atuais e histórico de ocorrências<1>p. 409</1>"
+ },
+ {
+  "k": "a509bbc58eff8ec6",
+  "pagina": "roteiro/index.html",
+  "pt": "A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime<1>p. 429</1>"
+ },
+ {
+  "k": "7bd647090a3312f4",
+  "pagina": "roteiro/index.html",
+  "pt": "O primeiro limite é o acesso pontual sem posição de fruição sustentada.<1>p. 433</1>"
+ },
+ {
+  "k": "f9ce630efa12dbb3",
+  "pagina": "roteiro/index.html",
+  "pt": "O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida<1>p. 434</1>"
+ },
+ {
+  "k": "b2ae9f2ad17337f7",
+  "pagina": "roteiro/index.html",
+  "pt": "Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas<1>p. 434</1>"
+ },
+ {
+  "k": "c46e71091825cd0b",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível consiste na abertura dos filtros subsequentes do regime<1>p. 743</1>"
+ },
+ {
+  "k": "47c475f25973edf1",
+  "pagina": "roteiro/index.html",
+  "pt": "A primeira categoria é a dos objetos cosmético-ornamentais.<1>p. 489</1>"
+ },
+ {
+  "k": "532a9f3fe3794d48",
+  "pagina": "roteiro/index.html",
+  "pt": "A segunda categoria é a dos objetos de progressão.<1>p. 489</1>"
+ },
+ {
+  "k": "5426bd7eef06bc0d",
+  "pagina": "roteiro/index.html",
+  "pt": "A terceira categoria é a dos objetos de acesso e permanência.<1>p. 489</1>"
+ },
+ {
+  "k": "789a9aa2a0083e31",
+  "pagina": "roteiro/index.html",
+  "pt": "A quarta categoria é a dos objetos de funcionalidade.<1>p. 490</1>"
+ },
+ {
+  "k": "73c740415ee4078c",
+  "pagina": "roteiro/index.html",
+  "pt": "A quinta categoria é a dos objetos de tempo.<1>p. 490</1>"
+ },
+ {
+  "k": "c8e0e487aeb1a91b",
+  "pagina": "roteiro/index.html",
+  "pt": "A sexta categoria é a dos objetos de reputação.<1>p. 490</1>"
+ },
+ {
+  "k": "e713157bbdbc0896",
+  "pagina": "roteiro/index.html",
+  "pt": "As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo.<1>p. 492</1>"
+ },
+ {
+  "k": "d7df46572bfa0fee",
+  "pagina": "roteiro/index.html",
+  "pt": "Essa tipologia é deliberadamente interna ao laboratório de jogos e não se oferece como classificação geral de plataformas.<1>p. 489</1>"
+ },
+ {
+  "k": "7784792256d3bc72",
+  "pagina": "roteiro/index.html",
+  "pt": "A tipologia proposta, portanto, não cumpre função classificatória externa nem pretende esgotar a realidade por nomes. Sua utilidade é interna e operativa.<1>p. 482</1>"
+ },
+ {
+  "k": "2ef1c67a2aa9612f",
+  "pagina": "roteiro/index.html",
+  "pt": "Os Termos de Serviço da Riot Games reconhecem expressamente um núcleo de “Conteúdo Virtual” associado à conta, composto por moeda do jogo, skins, emotes, acessórios e outros itens<1>p. 575</1>"
+ },
+ {
+  "k": "e698673d96cfc031",
+  "pagina": "roteiro/index.html",
+  "pt": "A cláusula ajuda a provar a existência do objeto. Não esgota o seu regime.<1>p. 575</1>"
+ },
+ {
+  "k": "9dc7ae23625172c1",
+  "pagina": "roteiro/index.html",
+  "pt": "O OIC não substitui o produto imaterial do art. 3º, § 1º. Ele o concretiza em contexto de consumo contínuo e governado.<1>p. 579</1>"
+ },
+ {
+  "k": "4db742a289ad8fa0",
+  "pagina": "roteiro/index.html",
+  "pt": "A dicotomia produto-serviço segue relevante, mas como variável instrumental para calibrar consequências específicas, não como totem definidor do regime inteiro.<1>p. 557</1>"
+ },
+ {
+  "k": "95c9b2c46cfd2a45",
+  "pagina": "roteiro/index.html",
+  "pt": "Um marco suficiente para registrar esse dado é a Lei 14.852/2024<1>p. 493</1>"
+ },
+ {
+  "k": "60be00e1e6fc4b28",
+  "pagina": "roteiro/index.html",
+  "pt": "O enquadramento setorial ajuda a ver o mercado; não basta para controlar a governança.<1>p. 548</1>"
+ },
+ {
+  "k": "f4a1f0568d174b30",
+  "pagina": "roteiro/index.html",
+  "pt": "A existência de regulação setorial não substitui a infraestrutura consumerista<1>p. 548</1>"
+ },
+ {
+  "k": "0234c0bf23cc7627",
+  "pagina": "roteiro/index.html",
+  "pt": "A definição legal de produto no art. 3º, §1º, do CDC<1><2>1</2></1> opera como cláusula de abrangência que impede a fuga da tutela protetiva quando o objeto não se apresenta sob a forma de suporte físico.<3>p. 411</3>"
+ },
+ {
+  "k": "e4c57aef0ff5240f",
+  "pagina": "roteiro/index.html",
+  "pt": "Esses traços se manifestam, com particular nitidez, em três modelos de negócios digitais: jogos operados como serviço, marketplaces e serviços de inteligência artificial fornecidos por plataforma.<1>p. 486</1>"
+ },
+ {
+  "k": "49fbf8cd70dc92f6",
+  "pagina": "roteiro/index.html",
+  "pt": "A aproximação entre esses três modelos decorre de núcleo estrutural comum: em todos, a fruição depende da operação contínua de ambiente técnico-organizacional governado privadamente<1>p. 488</1>"
+ },
+ {
+  "k": "92563d275eebdfcd",
+  "pagina": "roteiro/index.html",
+  "pt": "Não se afirma, com isso, que toda mediação digital converta automaticamente qualquer bem em OIC.<1>p. 487</1>"
+ },
+ {
+  "k": "651caa5c65eb34f4",
+  "pagina": "roteiro/index.html",
+  "pt": "A entrega inicial não esgota o cumprimento, e a execução continuada não apaga o objeto.<1>p. 444</1>"
+ },
+ {
+  "k": "f149d6ba8a37325f",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando incide"
+ },
+ {
+  "k": "82c72f48b78386f2",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a utilidade consumida depende estruturalmente de um ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização."
+ },
+ {
+  "k": "f251f81cf306fbfe",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a utilidade consumida depender estruturalmente de ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização da experiência, estará configurado o campo de incidência do OIC."
+ },
+ {
+  "k": "b93e26955366d3de",
+  "pagina": "roteiro/index.html",
+  "pt": "Dever de fornecimento"
+ },
+ {
+  "k": "a568ce19dd8e5424",
+  "pagina": "roteiro/index.html",
+  "pt": "Assegurar fruição acessível, inteligível e preservada, nos limites da mutabilidade legítima do ambiente."
+ },
+ {
+  "k": "e6eea86b828597c0",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de assegurar fruição funcionalmente acessível, inteligível e preservada dentro dos limites da legítima mutabilidade do ambiente."
+ },
+ {
+  "k": "e7830ada182a8f41",
+  "pagina": "roteiro/index.html",
+  "pt": "Prova mínima"
+ },
+ {
+  "k": "a4a36c495e7b523a",
+  "pagina": "roteiro/index.html",
+  "pt": "A dependência da utilidade em relação ao ecossistema, a forma de disponibilização da experiência e a posição concreta do consumidor no vínculo."
+ },
+ {
+  "k": "a76492942db9d95c",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível recai sobre a demonstração da dependência estrutural da utilidade em relação ao ecossistema governado, da forma de disponibilização da experiência e da posição concreta do consumidor no vínculo."
+ },
+ {
+  "k": "b3d63548eb84ae81",
+  "pagina": "roteiro/index.html",
+  "pt": "Qualificação jurídica"
+ },
+ {
+  "k": "8e67c756a92a6fc9",
+  "pagina": "roteiro/index.html",
+  "pt": "Produto imaterial sob o art. 3º, § 1º, do CDC<1><2>1</2></1>. A dimensão prestacional do vínculo não afasta o controle da fruição."
+ },
+ {
+  "k": "a55c0e27d38b4635",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica daí resultante é a de produto imaterial submetido ao regime do art. 3º, § 1º, do CDC<1><2>1</2></1>, sem que a dimensão prestacional do vínculo afaste o controle da fruição como núcleo do fornecimento."
+ },
+ {
+  "k": "316b6cb08456f707",
+  "pagina": "roteiro/index.html",
+  "pt": "Consequência institucional"
+ },
+ {
+  "k": "2763815145dfeded",
+  "pagina": "roteiro/index.html",
+  "pt": "Abrem-se os filtros seguintes, e a alegação de mera prestação de serviço ou de simples licença deixa de neutralizar a controvérsia."
+ },
+ {
+  "k": "8331794178efa62c",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível consiste na abertura dos filtros subsequentes do regime, impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal."
+ },
+ {
+  "k": "1ee500f6c157d9ca",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>O Objeto Imaterial de Consumo, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.1 na tese</4></3> · <5>Objeto Imaterial de Consumo (OIC)</5> · <6>Feixe de fruição governada</6>"
+ },
+ {
+  "k": "a12b7280bbba6f56",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando o consumidor só entende o que a interface deixa entender"
+ },
+ {
+  "k": "5abe06e23679351c",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>b)</1> vulnerabilidade semiótica e governança do sentido"
+ },
+ {
+  "k": "a5b9a378239aeb81",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram o sentido governado pelo fornecedor?"
+ },
+ {
+  "k": "37d3af0fea32d12f",
+  "pagina": "roteiro/index.html",
+  "pt": "Expectativa, percepção de valor, avaliação de risco ou capacidade de contestação que dependem de signos, interfaces e trilhas controlados pelo fornecedor. O caso mais simples é o da compra anunciada na vitrine como aquisição e qualificada no contrato como licença revogável."
+ },
+ {
+  "k": "52702d862c2ea75b",
+  "pagina": "roteiro/index.html",
+  "pt": "Como reconstruir a jornada do consumidor?"
+ },
+ {
+  "k": "d135dc0cf91c2f36",
+  "pagina": "roteiro/index.html",
+  "pt": "A reconstrução da jornada do usuário, da arquitetura informacional, das saliências comunicacionais e dos caminhos de compreensão. Servem capturas de tela datadas, gravações de tela e as telas de compra, aceite e confirmação, com as mensagens de raridade, tempo restante e desconto. A alegação deixa de ser a de que o consumidor não entendeu e passa a ser a de que o ambiente foi desenhado de certa forma."
+ },
+ {
+  "k": "7446812f2f33b0fc",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas tratam a vulnerabilidade e a informação?"
+ },
+ {
+  "k": "fbe658413e917144",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 4º, I, do CDC<1><2>2</2></1> reconhece a vulnerabilidade do consumidor, que nos ambientes digitais ganha forma própria. O art. 6º do CDC<3><4>3</4></3> garante informação adequada, proteção contra publicidade enganosa e facilitação da defesa, e o art. 39, IV, do CDC<5><6>4</6></5> veda prevalecer-se da fraqueza do consumidor."
+ },
+ {
+  "k": "64fdb8a7e20b535b",
+  "pagina": "roteiro/index.html",
+  "pt": "A vulnerabilidade semiótica se presume?"
+ },
+ {
+  "k": "20685b645e95c064",
+  "pagina": "roteiro/index.html",
+  "pt": "A vulnerabilidade semiótica não é atributo genérico do digital nem presume incapacidade do consumidor. Exige governança do sentido que atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação. Articulada a outros elementos, pode fundamentar a redistribuição do ônus da prova. A expressão vulnerabilidade digital nomeia o cenário em que a lesão ocorre, mas não isola o mecanismo. A vulnerabilidade semiótica mira a administração desigual do sentido e, por isso, disciplina melhor a prova e prepara melhor o remédio. Ela não é traço psicológico do consumidor, e sim mecanismo estrutural de poder."
+ },
+ {
+  "k": "c546c050a29c7c9e",
+  "pagina": "roteiro/index.html",
+  "pt": "A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração<1>p. 607</1>"
+ },
+ {
+  "k": "5d121b6523323c10",
+  "pagina": "roteiro/index.html",
+  "pt": "A alegação deixa de ser “eu não entendi” e passa a ser “o ambiente foi desenhado desta forma”.<1>p. 607</1>"
+ },
+ {
+  "k": "05ab42bc339bb221",
+  "pagina": "roteiro/index.html",
+  "pt": "A partir dessa perspectiva, sustenta-se que a vulnerabilidade fática do consumidor, reconhecida expressamente no art. 4º, I, do CDC<1><2>2</2></1>, assume nos ambientes digitais uma forma própria, ligada à mediação por signos, interfaces e critérios privados de visibilidade e fruição<3>p. 34</3>"
+ },
+ {
+  "k": "0a940d2ca2414688",
+  "pagina": "roteiro/index.html",
+  "pt": "Os direitos básicos do consumidor, por sua vez, incluem informação adequada e clara, proteção contra publicidade enganosa e abusiva, prevenção e reparação de danos, e facilitação da defesa de seus direitos<1>p. 511</1>"
+ },
+ {
+  "k": "6443a9660047228f",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor e a vedação a práticas abusivas que se aproveitem da fraqueza do consumidor, imponham vantagem excessiva ou deixem o cumprimento da obrigação ao exclusivo critério do fornecedor<1>p. 520</1>"
+ },
+ {
+  "k": "3ad7ca6b1f5eee28",
+  "pagina": "roteiro/index.html",
+  "pt": "Não basta que o caso envolva interface, algoritmo ou ambiente online. É necessário que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição.<1>p. 721</1>"
+ },
+ {
+  "k": "0d5f80644ebee0df",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível pode sustentar prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante e, quando articulada a outros elementos, fundamento para redistribuição dinâmica do ônus probatório<1>p. 744</1>"
+ },
+ {
+  "k": "06fb6ecf7352ca55",
+  "pagina": "roteiro/index.html",
+  "pt": "Ela nomeia o ambiente em que a lesão ocorre, mas não isola o mecanismo juridicamente relevante da assimetria.<1>p. 584</1>"
+ },
+ {
+  "k": "72a51534a7a89d2a",
+  "pagina": "roteiro/index.html",
+  "pt": "A categoria mira um mecanismo, não um cenário.<1>p. 588</1>"
+ },
+ {
+  "k": "fc2bbe6f149bd9ea",
+  "pagina": "roteiro/index.html",
+  "pt": "O problema juridicamente relevante passa a ser a administração desigual do sentido<1>p. 588</1>"
+ },
+ {
+  "k": "eac6995968b22d55",
+  "pagina": "roteiro/index.html",
+  "pt": "A categoria recorta melhor o mecanismo, disciplina melhor a prova e prepara melhor o remédio.<1>p. 590</1>"
+ },
+ {
+  "k": "ee157f436ae7bc92",
+  "pagina": "roteiro/index.html",
+  "pt": "Assim, a vulnerabilidade semiótica não se confunde com traço psicológico do consumidor, sinônimo genérico de fragilidade digital ou mera descrição ambiental da vida em rede. Trata-se de mecanismo estrutural de poder<1>p. 501</1>"
+ },
+ {
+  "k": "cf3b8fa6d066fcd8",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor."
+ },
+ {
+  "k": "42604bab2e6c2dac",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>p. 744</1> Sempre que expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependerem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor, haverá vulnerabilidade semiótica juridicamente relevante."
+ },
+ {
+  "k": "2db9e5af11e52dbe",
+  "pagina": "roteiro/index.html",
+  "pt": "Não organizar a experiência por uma assimetria de sentido incompatível com boa-fé, transparência e legibilidade da fruição."
+ },
+ {
+  "k": "b4bc86b3ece4b765",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever correspondente é o de não organizar a experiência por meio de assimetria estrutural de sentido incompatível com boa-fé, transparência e legibilidade da fruição."
+ },
+ {
+  "k": "11224a33b1689a1f",
+  "pagina": "roteiro/index.html",
+  "pt": "A jornada do usuário, a arquitetura informacional, as saliências comunicacionais, os caminhos de compreensão e os registros que permitem reconstituir a formação da expectativa."
+ },
+ {
+  "k": "38df4879505b6aa3",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível envolve reconstrução da jornada do usuário, da arquitetura informacional do ambiente, das saliências comunicacionais, dos caminhos de compreensão e dos registros disponíveis para reconstituir a formação da expectativa."
+ },
+ {
+  "k": "2aa36046b9ef07a2",
+  "pagina": "roteiro/index.html",
+  "pt": "Qualificação jurídica possível"
+ },
+ {
+  "k": "8223069acc63a14b",
+  "pagina": "roteiro/index.html",
+  "pt": "Prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante. Articulada a outros elementos, sustenta a redistribuição dinâmica do ônus da prova."
+ },
+ {
+  "k": "9546717bcd721f86",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível pode sustentar prática abusiva, insuficiência informacional, enganosidade por ambiguidade ou omissão relevante e, quando articulada a outros elementos, fundamento para redistribuição dinâmica do ônus probatório."
+ },
+ {
+  "k": "1619c506c0291854",
+  "pagina": "roteiro/index.html",
+  "pt": "O conflito volta à governança do ambiente, sem moralizar a conduta do consumidor, e incidem deveres reforçados de informação, publicidade e prova."
+ },
+ {
+  "k": "60fc2bd845d2a9af",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional consiste em reconduzir o conflito à governança do ambiente, evitando moralização da conduta do consumidor e permitindo incidência de deveres reforçados de informação, publicidade e prova."
+ },
+ {
+  "k": "feb69bd3974917c7",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A vulnerabilidade semiótica, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.2 na tese</4></3> · <5>Vulnerabilidade semiótica</5>"
+ },
+ {
+  "k": "f9aab15a508d93c8",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a informação existe, mas some no excesso"
+ },
+ {
+  "k": "dbb0ce4c2e2e18e0",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>c)</1> informação inadequada como opacidade funcional"
+ },
+ {
+  "k": "fd4168d48bf49790",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram informação que existe, mas não orienta?"
+ },
+ {
+  "k": "afe6bee87b1425be",
+  "pagina": "roteiro/index.html",
+  "pt": "Excesso textual, dispersão estratégica, fragmentação de trajetórias informacionais e transparência apenas performática. Regras essenciais ficam em documentos extensos, remissões, perguntas frequentes e históricos de atualização que o consumidor dificilmente localiza e liga ao impacto que sofreu."
+ },
+ {
+  "k": "c98227e627d013ca",
+  "pagina": "roteiro/index.html",
+  "pt": "Como demonstrar que o sentido não era cognoscível?"
+ },
+ {
+  "k": "b46279422d51ea1a",
+  "pagina": "roteiro/index.html",
+  "pt": "O que foi mostrado, em que momento, com qual saliência e por quais canais, e se essa organização permitia compreender o que era relevante para aderir, permanecer ou reagir."
+ },
+ {
+  "k": "c415c525a82dfbca",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas exigem informação clara e ostensiva?"
+ },
+ {
+  "k": "65a5182defb94fbe",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 31 do CDC<1><2>5</2></1> exige informações corretas, claras, precisas e ostensivas na oferta e na apresentação. O art. 46 do CDC<3><4>6</4></3> afasta a obrigação do consumidor sem oportunidade real de conhecimento prévio ou diante de redação que dificulte a compreensão. Os §§ 3º e 4º do art. 54 do CDC<5><6>7</6></5> exigem contratos de adesão claros e cláusulas limitativas em destaque. O art. 47 do CDC<7><8>8</8></7> determina a interpretação das cláusulas de maneira mais favorável ao consumidor. Essa regra se articula ao controle de abusividade previsto no art. 51, IV, do CDC<9><10>9</10></9>."
+ },
+ {
+  "k": "ffbdc532f302525c",
+  "pagina": "roteiro/index.html",
+  "pt": "Basta provar que o texto estava lá?"
+ },
+ {
+  "k": "2008d13e719868f9",
+  "pagina": "roteiro/index.html",
+  "pt": "O ponto decisivo não é provar que o texto estava lá, e sim aferir se o sentido juridicamente relevante era cognoscível em termos reais. Conforme o caso, a falha se qualifica como vício de qualidade informacional, como prática abusiva por obscurecimento ou como base para a invalidade de cláusulas."
+ },
+ {
+  "k": "69e142608f73d0a2",
+  "pagina": "roteiro/index.html",
+  "pt": "A oferta e a apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas e ostensivas<1>p. 601</1>"
+ },
+ {
+  "k": "ea62096dc811ad55",
+  "pagina": "roteiro/index.html",
+  "pt": "Do mesmo modo, contratos de consumo não obrigam o consumidor quando não lhe é dada oportunidade real de conhecimento prévio do conteúdo, nem quando são redigidos de modo a dificultar a compreensão de seu sentido e alcance<1>p. 601</1>"
+ },
+ {
+  "k": "27d474bdd153bd72",
+  "pagina": "roteiro/index.html",
+  "pt": "É justamente isso que o art. 54, sob os parágrafos 3º e 4º, do CDC explicita. Contratos de adesão devem ser redigidos em termos claros, com caracteres ostensivos e legíveis, de modo a facilitar sua compreensão, e cláusulas limitativas de direito precisam ser redigidas com destaque, permitindo imediata e fácil compreensão<1>p. 621</1>"
+ },
+ {
+  "k": "98f6fc43332b7a74",
+  "pagina": "roteiro/index.html",
+  "pt": "As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor.<1>p. 511</1>"
+ },
+ {
+  "k": "1256b51641be52d0",
+  "pagina": "roteiro/index.html",
+  "pt": "Por isso, a nova função do direito contratual recoloca em posição central o princípio da interpretação conforme a boa-fé, de modo que o art. 47 do CDC<1><2>8</2></1>, em conjunto com a cláusula geral do art. 51, IV, permite interpretar as cláusulas predispostas<3>p. 605</3>"
+ },
+ {
+  "k": "2dae332b518d43fb",
+  "pagina": "roteiro/index.html",
+  "pt": "O ponto decisivo, portanto, não está em provar que “o texto estava lá”, mas em aferir se o sentido juridicamente relevante era cognoscível em termos reais.<1>p. 601</1>"
+ },
+ {
+  "k": "17fc73cc6ae8ab46",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a legibilidade é substituída por excesso textual, dispersão estratégica, trajetórias informacionais fragmentadas ou transparência apenas performática."
+ },
+ {
+  "k": "ac868027fae699a0",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a plataforma substituir legibilidade por excesso textual, dispersão estratégica, fragmentação de trajetórias informacionais ou transparência apenas performática, haverá inadequação do dever de informar."
+ },
+ {
+  "k": "ce809524f3752c5a",
+  "pagina": "roteiro/index.html",
+  "pt": "Prestar informação materialmente adequada, útil para a decisão e verificável depois, em caso de controvérsia."
+ },
+ {
+  "k": "68e891870ef55e35",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de prestar informação materialmente adequada, útil para a decisão e verificável em momento posterior de controvérsia."
+ },
+ {
+  "k": "c21d53de6bb370e9",
+  "pagina": "roteiro/index.html",
+  "pt": "O que foi mostrado, quando, com qual saliência, por quais canais e em que medida isso permitia compreender o relevante para aderir, permanecer ou reagir."
+ },
+ {
+  "k": "2356f1e2c6a6369e",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível requer identificação do que foi mostrado, em que momento, com qual saliência, por quais canais e em que medida essa organização permitia ao consumidor compreender o que era juridicamente relevante para aderir, permanecer ou reagir."
+ },
+ {
+  "k": "59e7e1c160ca9056",
+  "pagina": "roteiro/index.html",
+  "pt": "Vício de qualidade informacional, prática abusiva por obscurecimento funcional e, conforme o caso, invalidade de cláusulas ou limitações incompatíveis com a expectativa formada."
+ },
+ {
+  "k": "428c4557274213b0",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica tende a incidir como vício de qualidade informacional do fornecimento, prática abusiva por obscurecimento funcional e, conforme o caso, suporte para invalidade de cláusulas ou de limitações incompatíveis com a expectativa legitimamente formada."
+ },
+ {
+  "k": "b2046f42a3935731",
+  "pagina": "roteiro/index.html",
+  "pt": "Correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada."
+ },
+ {
+  "k": "8986531a3e1827c0",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível inclui dever de correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada por opacidade decisória."
+ },
+ {
+  "k": "cd94f13a9af695bf",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.3 na tese</4></3>"
+ },
+ {
+  "k": "d220ea9437ab40fd",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a vitrine prometeu mais do que foi entregue"
+ },
+ {
+  "k": "339d33f802dd2ea3",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>d)</1> publicidade e oferta como gestão controlável de expectativa"
+ },
+ {
+  "k": "f2138ed7e1b3a507",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram a publicidade dentro da oferta?"
+ },
+ {
+  "k": "180d5956632e7b69",
+  "pagina": "roteiro/index.html",
+  "pt": "Fruição precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas. Um caso típico é o item vendido como exclusivo que reaparece depois em loja alternativa, em moeda especial ou por preço muito menor, sem que o limite temporal da exclusividade tenha sido informado de modo compreensível na aquisição."
+ },
+ {
+  "k": "ed52f1cbddb5925f",
+  "pagina": "roteiro/index.html",
+  "pt": "Como ligar a promessa à fruição posterior?"
+ },
+ {
+  "k": "c4c83ebc2c0d2866",
+  "pagina": "roteiro/index.html",
+  "pt": "O ambiente promocional, as peças de comunicação, as saliências simbólicas, o contexto de apresentação do objeto e a relação entre a promessa antecedente e a fruição posterior. Servem peças promocionais, postagens, campanhas, influenciadores, avisos, asteriscos, remissões em cascata e letras miúdas. As perguntas são como a expectativa foi produzida, em que momento as condições relevantes foram reveladas, com que destaque apareceram, qual foi a sequência entre promessa e aceitação e se havia meios reais de compreender e comparar a oferta."
+ },
+ {
+  "k": "eee1b585c053c208",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas tornam a oferta vinculante?"
+ },
+ {
+  "k": "3a0876196e97e78d",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 30 do CDC<1><2>10</2></1> torna vinculante toda informação suficientemente precisa, e a apresentação na vitrine digital pode configurar oferta. O art. 35 do CDC<3><4>11</4></3> permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 38 do CDC<5><6>12</6></5> atribui a quem patrocina a publicidade o ônus de provar a veracidade e a correção da informação. Na antecipação curada da oferta, a omissão relevante aparece quando o essencial é deslocado para fora do foco da decisão. A publicidade é enganosa quando a utilidade ou a equivalência construída pelo ambiente promocional não encontra correspondência verificável na fruição. E é abusiva quando o desenho explora de modo sistemático a vulnerabilidade, comprimindo a deliberação por urgência artificial, recompensa simbólica e fragmentação das condições relevantes."
+ },
+ {
+  "k": "1cf33c5415f185e7",
+  "pagina": "roteiro/index.html",
+  "pt": "A insistência da propaganda basta?"
+ },
+ {
+  "k": "fe8798f14c2b03ae",
+  "pagina": "roteiro/index.html",
+  "pt": "Não basta a insistência da propaganda. O que conta é o nexo entre a promessa antecedente e a fruição posterior. A comunicação só entra como elemento de teleologia abusiva quando articulada a um programa exploratório mais amplo. Nem toda técnica de persuasão é ilícita, porque o mercado pode promover, dramatizar e organizar interesse. Mas a ilicitude pode estar na articulação entre elementos que, vistos separadamente, parecem neutros, e não só numa peça falsa ou numa cláusula isolada."
+ },
+ {
+  "k": "32e209918259a948",
+  "pagina": "roteiro/index.html",
+  "pt": "Se, passado um período, o mesmo item reaparece em loja alternativa, em moeda especial, em promoção agressiva ou por preço significativamente inferior, e se a limitação temporal da exclusividade não foi informada de modo adequado e compreensível no momento da aquisição, ocorre reconfiguração retroativa do valor entregue, com frustração de expectativa legítima e violação de transparência.<1>p. 214</1>"
+ },
+ {
+  "k": "b180c79ab846fc09",
+  "pagina": "roteiro/index.html",
+  "pt": "Peças promocionais, postagens, campanhas, influenciadores, disclaimers, asteriscos, remissões em cascata e letras miúdas servem para mapear como a expectativa foi produzida<1>p. 607</1>"
+ },
+ {
+  "k": "51d9bfe7ab026c09",
+  "pagina": "roteiro/index.html",
+  "pt": "Toda informação suficientemente precisa integra o contrato e vincula o fornecedor<1>p. 562</1>"
+ },
+ {
+  "k": "d43586e8e1c48253",
+  "pagina": "roteiro/index.html",
+  "pt": "o que sustenta a leitura da vitrine digital como oferta vinculante<1>p. 433</1>"
+ },
+ {
+  "k": "a3052a885c45405e",
+  "pagina": "roteiro/index.html",
+  "pt": "Daí a importância do art. 35 do CDC<1><2>11</2></1><3>p. 540</3>"
+ },
+ {
+  "k": "c36fd349a23916a1",
+  "pagina": "roteiro/index.html",
+  "pt": "que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos<1>p. 540</1>"
+ },
+ {
+  "k": "d72726ece2b04061",
+  "pagina": "roteiro/index.html",
+  "pt": "É precisamente por tal motivo que o art. 38 do CDC<1><2>12</2></1>, aqui, se mostra tão importante. O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem a patrocina<3>p. 627</3>"
+ },
+ {
+  "k": "3899fad64588fe55",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica poderá recair em publicidade enganosa ou abusiva, oferta vinculante, prática abusiva por ambiguidade administrada e, quando articulada a programa exploratório mais amplo, elemento de teleologia abusiva<1>p. 745</1>"
+ },
+ {
+  "k": "000f56967ab98afb",
+  "pagina": "roteiro/index.html",
+  "pt": "O jurista precisa perguntar como a expectativa foi produzida, em que momento as condições relevantes foram reveladas, com que destaque apareceram, qual foi a sequência efetiva entre promessa e aceitação<1>p. 633</1>"
+ },
+ {
+  "k": "e9e4c5401b75a3d6",
+  "pagina": "roteiro/index.html",
+  "pt": "A omissão relevante aparece quando o essencial é deliberadamente deslocado para fora do foco decisório.<1>p. 631</1>"
+ },
+ {
+  "k": "84870184b946e35a",
+  "pagina": "roteiro/index.html",
+  "pt": "A publicidade enganosa, por sua vez, manifesta-se quando a imagem de utilidade ou equivalência construída pelo ambiente promocional não encontra correspondência verificável na experiência efetiva de fruição<1>p. 631</1>"
+ },
+ {
+  "k": "63017f0e74d1eb63",
+  "pagina": "roteiro/index.html",
+  "pt": "A publicidade abusiva, por fim, comparece quando o desenho do ambiente explora de maneira sistemática a vulnerabilidade do consumidor, comprimindo seu espaço de deliberação por urgência artificial, recompensa simbólica, ritualização do aceite e fragmentação das condições relevantes.<1>p. 631</1>"
+ },
+ {
+  "k": "18ea5ea2f46d3e64",
+  "pagina": "roteiro/index.html",
+  "pt": "O mercado pode promover, persuadir, dramatizar e organizar interesse.<1>p. 631</1>"
+ },
+ {
+  "k": "48d0bcbb61f3033a",
+  "pagina": "roteiro/index.html",
+  "pt": "Em contextos de antecipação hipercuratorial, a ilicitude pode residir precisamente na articulação entre elementos que, vistos separadamente, parecem neutros<1>p. 632</1>"
+ },
+ {
+  "k": "affaa0870abc0421",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a fruição é precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas. A publicidade passa a integrar materialmente a oferta."
+ },
+ {
+  "k": "9b52097c319719d4",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará <1>p. 745</1> materialmente a oferta."
+ },
+ {
+  "k": "dfc4743b9f0bc812",
+  "pagina": "roteiro/index.html",
+  "pt": "Assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada."
+ },
+ {
+  "k": "19980c7b124eae05",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada sob mutabilidade administrada."
+ },
+ {
+  "k": "73e0b1cc6b596ceb",
+  "pagina": "roteiro/index.html",
+  "pt": "O ambiente promocional, as peças de comunicação, as saliências simbólicas, o contexto de apresentação e a relação entre a promessa e a fruição posterior."
+ },
+ {
+  "k": "5491bc03faa855cc",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível envolve reconstrução do ambiente promocional, das peças de comunicação, das saliências simbólicas, do contexto de apresentação do objeto e da relação entre promessa antecedente e fruição posterior."
+ },
+ {
+  "k": "2a69392064953654",
+  "pagina": "roteiro/index.html",
+  "pt": "Publicidade enganosa ou abusiva, oferta vinculante, prática abusiva por ambiguidade administrada e, dentro de um programa exploratório mais amplo, elemento de teleologia abusiva."
+ },
+ {
+  "k": "41b8d43d5c9fcd2a",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica poderá recair em publicidade enganosa ou abusiva, oferta vinculante, prática abusiva por ambiguidade administrada e, quando articulada a programa exploratório mais amplo, elemento de teleologia abusiva."
+ },
+ {
+  "k": "de387833eba81b03",
+  "pagina": "roteiro/index.html",
+  "pt": "Correção da oferta, recomposição funcional, tutela inibitória sobre a comunicação e, conforme o caso, invalidação de estratégias promocionais incompatíveis com o que foi entregue."
+ },
+ {
+  "k": "677ce34780048911",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível abrange correção da oferta, recomposição funcional, tutela inibitória sobre a comunicação e, conforme o caso, invalidação de estratégias promocionais incompatíveis com a experiência real entregue."
+ },
+ {
+  "k": "70a2418df95afd00",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.4 na tese</4></3> · <5>Antecipação hipercuratorial</5>"
+ },
+ {
+  "k": "76d2618cca2878c1",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a plataforma mudou as regras e não deixou rastro"
+ },
+ {
+  "k": "260fa5dc98288143",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>e)</1> opacidade estrutural e auditabilidade aberta"
+ },
+ {
+  "k": "d4b72f05c03f8745",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram alteração sem rastro?"
+ },
+ {
+  "k": "5a588dfb2e637d55",
+  "pagina": "roteiro/index.html",
+  "pt": "Alteração relevante de acesso, desempenho, utilidade, regra de funcionamento ou sanção sem preservação de trilhas mínimas de reconstrução. Na prática, aparecem respostas genéricas como a de que a informação não existe mais, de que são dados de uso interno ou de que não há como reconstruir o procedimento."
+ },
+ {
+  "k": "505e821d45aca0b5",
+  "pagina": "roteiro/index.html",
+  "pt": "Que registros pedir para reconstruir a alteração?"
+ },
+ {
+  "k": "f90ca56b11811937",
+  "pagina": "roteiro/index.html",
+  "pt": "Logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados, o suficiente para tornar a controvérsia cognoscível. Quase tudo isso está com o fornecedor, e por isso o caminho costuma ser pedir a exibição. Servem também os elementos atribuíveis ao fornecedor e publicamente recuperáveis, como registros de atualização, razões declaradas para as mudanças, políticas de acesso e critérios internos de sanção."
+ },
+ {
+  "k": "f8177435f96b372f",
+  "pagina": "roteiro/index.html",
+  "pt": "De onde vem o dever de deixar rastro?"
+ },
+ {
+  "k": "842434dbcc089cb3",
+  "pagina": "roteiro/index.html",
+  "pt": "A auditabilidade aberta é parâmetro, e não instituto estranho ao sistema. É desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do art. 6º do CDC<1><2>3</2></1>. O regime de exibição de documento ou coisa dos arts. 396 a 400 do CPC<3><4>13</4></3> é a via mais direta para operá-la. Ela é o patamar mínimo de verificabilidade externa que transforma modulações opacas em matéria de contraditório, prova e decisão."
+ },
+ {
+  "k": "2d3a26f759e48f17",
+  "pagina": "roteiro/index.html",
+  "pt": "Como evitar a pescaria processual?"
+ },
+ {
+  "k": "1bda8ced29f9167b",
+  "pagina": "roteiro/index.html",
+  "pt": "O pedido precisa ser cirúrgico, e não uma pescaria processual. O requerimento indica, de modo tão completo quanto possível, o documento ou registro, a sua finalidade probatória e as circunstâncias que mostram que ele está com a parte, como o histórico de versões de um item, a trilha de telas da compra ou a categoria e o motivo da sanção. Se o fornecedor negar que possui o documento, o requerente pode demonstrar por outros meios que essa negativa não corresponde à verdade. Se a recusa for injustificada, o juiz pode admitir como verdadeiros os fatos que o documento provaria. O parâmetro não alcança qualquer ajuste microscópico. A auditabilidade não exige abertura integral do código-fonte nem afasta o exame tecnicamente delimitado sob proteção de sigilo."
+ },
+ {
+  "k": "b89612ee3df8794d",
+  "pagina": "roteiro/index.html",
+  "pt": "Até onde a governança chegou no caso Vanguard?"
+ },
+ {
+  "k": "4fc918975b2a6379",
+  "pagina": "roteiro/index.html",
+  "pt": "No caso Vanguard, a proteção contra trapaças passou a depender de software carregado no núcleo do sistema operacional, iniciado com o computador e mantido como condição da fruição. A governança da plataforma chega, assim, ao próprio equipamento do consumidor. O interesse em preservar a integridade competitiva é legítimo, mas a questão é se ele basta para autorizar essa expansão sem controle reforçado. Os arts. 8º, 10 e 12 do CDC<1><2>14</2></1> alcançam o risco que a arquitetura transfere ao equipamento, e o art. 6º da Lei nº 13.709/2018<3><4>15</4></3> exige finalidade, necessidade e transparência no tratamento de dados. O ponto não é afirmar a ilicitude automática do software, e sim recusar a sua imunização jurídica. Segurança alegada não substitui segurança juridicamente demonstrada, e a auditabilidade aberta impede que a plataforma se oculte atrás de opacidade técnica e de segredo industrial."
+ },
+ {
+  "k": "5ede00f980e78717",
+  "pagina": "roteiro/index.html",
+  "pt": "Em litígios relacionados a plataforma, as garantias processuais satisfazem a necessidade de reação às respostas genéricas como “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público” ou “não temos capacidade de reconstruir o procedimento”<1>p. 660</1>"
+ },
+ {
+  "k": "9b08a03e81581425",
+  "pagina": "roteiro/index.html",
+  "pt": "No mesmo sentido, o regime de exibição de documento ou coisa previsto nos arts. 396 a 400 do CPC<1><2>13</2></1> oferece a via mais direta para operacionalizar a auditabilidade aberta.<3>p. 659</3>"
+ },
+ {
+  "k": "43da9ff84b3a6555",
+  "pagina": "roteiro/index.html",
+  "pt": "desde que o requerimento indique, de modo tão completo quanto possível, o documento ou registro pretendido, sua finalidade probatória e as circunstâncias que demonstram estar ele com a parte<1>p. 659</1>"
+ },
+ {
+  "k": "b09bdcaebaa6522c",
+  "pagina": "roteiro/index.html",
+  "pt": "Isso permite pedidos cirúrgicos, não pescarias processuais. Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada.<1>p. 660</1>"
+ },
+ {
+  "k": "be2ce67530ca2f4b",
+  "pagina": "roteiro/index.html",
+  "pt": "Se o fornecedor negar possuir o documento, o art. 398<1>p. 660</1>"
+ },
+ {
+  "k": "206dc1cdc2e57903",
+  "pagina": "roteiro/index.html",
+  "pt": "permite que o requerente demonstre por outros meios que a negativa é inverídica; se a recusa for injustificada, o art. 400<1>p. 660</1>"
+ },
+ {
+  "k": "1b5681220f513b42",
+  "pagina": "roteiro/index.html",
+  "pt": "autoriza o juiz a admitir como verdadeiros os fatos que o documento serviria para provar<1>p. 660</1>"
+ },
+ {
+  "k": "5dd1caf4a34feae5",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] porque a disciplina analítica decorre da explicitação prévia das lentes conceituais e da exigência de reconstrução verificável por elementos atribuíveis ao fornecedor e publicamente recuperáveis, entre os quais se incluem registros de atualização, racionalidades declaradas de mudança, políticas de acesso e critérios internos de sanção<1>p. 498-499</1>"
+ },
+ {
+  "k": "4f63287f150a3b65",
+  "pagina": "roteiro/index.html",
+  "pt": "Auditabilidade aberta designa o patamar mínimo de verificabilidade externa capaz de transformar modulações opacas em matéria suscetível de contraditório, prova e decisão.<1>p. 469</1>"
+ },
+ {
+  "k": "fe052674abcbc9d2",
+  "pagina": "roteiro/index.html",
+  "pt": "O caso do anti-cheat Vanguard expõe, de forma particularmente nítida, uma mutação qualitativa na governança privada do objeto imaterial de consumo.<1>p. 520</1>"
+ },
+ {
+  "k": "0cc356963a45bfbf",
+  "pagina": "roteiro/index.html",
+  "pt": "As comunicações oficiais da própria Riot mostram que o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo<1>p. 521</1>"
+ },
+ {
+  "k": "757771d899d17bc1",
+  "pagina": "roteiro/index.html",
+  "pt": "A questão jurídica séria nunca foi se existe interesse legítimo em preservar a integridade competitiva; claro que existe. A questão é outra: se esse interesse basta para autorizar, sem controle reforçado, a expansão do poder técnico do fornecedor sobre a base material do equipamento do consumidor.<1>p. 532</1>"
+ },
+ {
+  "k": "b0c53d84dc1b6d39",
+  "pagina": "roteiro/index.html",
+  "pt": "O CDC não permite invisibilizar o Vanguard como se fosse mera opção de engenharia.<1>p. 532</1>"
+ },
+ {
+  "k": "8eb61dbea1e9e1db",
+  "pagina": "roteiro/index.html",
+  "pt": "O ponto aqui não é afirmar automaticamente a ilicitude total do anti-cheat em kernel, mas recusar sua imunização jurídica.<1>p. 533</1>"
+ },
+ {
+  "k": "020634a3991e0e68",
+  "pagina": "roteiro/index.html",
+  "pt": "O tratamento de dados vinculado ao Vanguard não pode ser justificado em bloco pela rubrica genérica de “segurança”, porque precisa observar finalidade legítima, específica, explícita e informada<1>p. 533</1>"
+ },
+ {
+  "k": "de84ed624f40e746",
+  "pagina": "roteiro/index.html",
+  "pt": "Segurança alegada não substitui segurança juridicamente demonstrada.<1>p. 533</1>"
+ },
+ {
+  "k": "18e26363b7b8d8f4",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] evidencia-se a pretensão de soberania prática sobre o consumidor e sobre seus meios materiais, o que reforça a necessidade de auditabilidade aberta como exigência mínima para que a plataforma não se oculte atrás de opacidade técnica e de segredo industrial<1>p. 499</1>"
+ },
+ {
+  "k": "a07d1747b4221982",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando alterações relevantes de acesso, desempenho, utilidade, regra ou sanção atingem a fruição sem trilhas mínimas de reconstrução."
+ },
+ {
+  "k": "a2e905859d5c0847",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que alterações relevantes de acesso, desempenho, utilidade, regra de funcionamento ou sanção incidirem sobre a fruição sem preservação de trilhas mínimas de reconstrução institucional, haverá violação do parâmetro de auditabilidade aberta."
+ },
+ {
+  "k": "7a81375eca9904f7",
+  "pagina": "roteiro/index.html",
+  "pt": "Manter verificabilidade mínima sobre o que mudou, quando, por qual motivo e com quais efeitos funcionalmente relevantes."
+ },
+ {
+  "k": "fe9fa93abe916ab1",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de manter verificabilidade mínima sobre o que foi alterado, quando o foi, por que motivo foi justificado e quais efeitos funcionalmente relevantes produziu."
+ },
+ {
+  "k": "3c9f42d94320707f",
+  "pagina": "roteiro/index.html",
+  "pt": "Logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados."
+ },
+ {
+  "k": "cec2d6cfdc28e2af",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível consiste em logs essenciais, histórico de versões relevantes, registros de sanção, justificativas operacionais mínimas, dados de contexto e elementos técnicos delimitados suficientes para tornar a controvérsia cognoscível."
+ },
+ {
+  "k": "502a555a447d95b8",
+  "pagina": "roteiro/index.html",
+  "pt": "Prática abusiva por opacidade imunizante, inadequação do regime de fornecimento e reforço do dever de cooperação probatória, sem prejuízo de outras incidências."
+ },
+ {
+  "k": "38a9c1b936c549eb",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível pode assumir a forma de prática abusiva por opacidade imunizante, inadequação do regime de fornecimento e reforço do dever de cooperação probatória, sem prejuízo de outras incidências combinadas."
+ },
+ {
+  "k": "7a58f72f147d411d",
+  "pagina": "roteiro/index.html",
+  "pt": "Ordens de preservação e exibição, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou da sanção."
+ },
+ {
+  "k": "893be03cad301e00",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou sanção com base em inteligibilidade institucional mínima."
+ },
+ {
+  "k": "68a61a603efa71a9",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A auditabilidade aberta, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.5 na tese</4></3> · <5>Auditabilidade aberta</5>"
+ },
+ {
+  "k": "e2b89344ca5001f4",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a atualização tirou o valor do que foi comprado"
+ },
+ {
+  "k": "58bc510f93da1bf5",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>f)</1> mutabilidade relevante e equivalência de valor funcional"
+ },
+ {
+  "k": "66128bd0a34380b7",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram a utilidade esvaziada?"
+ },
+ {
+  "k": "97970845e00677d6",
+  "pagina": "roteiro/index.html",
+  "pt": "Nerfs que esvaziam utilidade adquirida, remoção de funcionalidades relevantes, mudanças de interface que desorganizam o uso ordinário e redefinições de regras que rebaixam a equivalência prometida. O consumidor continua com a conta e com o acesso, mas a utilidade fruída foi substancialmente rebaixada. A perda pode atingir a integridade funcional, ligada ao desempenho e à utilidade entregue, ou a integridade simbólica, ligada a pertencimento, reputação e distinção, quando esses elementos integram a prestação tal como oferecida."
+ },
+ {
+  "k": "f848761137efdf15",
+  "pagina": "roteiro/index.html",
+  "pt": "Como comparar o antes e o depois da alteração?"
+ },
+ {
+  "k": "47ebc4b12e9be88d",
+  "pagina": "roteiro/index.html",
+  "pt": "A utilidade anteriormente incorporada ao vínculo, a mudança ocorrida, o impacto funcional concreto e a insuficiência da recomposição oferecida. Na prática, compara-se o antes e o depois, examinam-se as versões relevantes e identifica-se o núcleo de utilidade afetado."
+ },
+ {
+  "k": "7bf148e903325897",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas controlam a modificação unilateral?"
+ },
+ {
+  "k": "69919c70a7126b09",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 51, XIII, do CDC<1><2>16</2></1> torna nula a cláusula que autoriza a modificação unilateral do conteúdo ou da qualidade da prestação após a contratação. Os arts. 18 e 20 do CDC<3><4>17</4></3> abrem a porta do vício de qualidade, que não exige a inutilidade total. Os arts. 421 e 422 do Código Civil<5><6>18</6></5> limitam a liberdade contratual pela função social do contrato e exigem boa-fé também na execução."
+ },
+ {
+  "k": "3228c5044aee043a",
+  "pagina": "roteiro/index.html",
+  "pt": "Toda mutação é ilícita?"
+ },
+ {
+  "k": "00aeb7d5dbf4e5d2",
+  "pagina": "roteiro/index.html",
+  "pt": "A mutabilidade não é ilícita por si. O parâmetro não exige identidade entre as versões nem congela o serviço. Alterações predominantemente estéticas, em regra, ficam de fora, salvo quando integram um conjunto convergente de sinais que sustente o reconhecimento de ilícito arquitetural por indícios estruturais de teleologia abusiva. Não é preciso demonstrar domínio pleno sobre o objeto. A resposta prioriza recomposição funcional, reversão técnica, substituição equivalente e correção da forma de atualizar. A pergunta decisiva não é se o item ainda existe em sentido formal, e sim se a equivalência prática do que foi adquirido continua reconhecível. Por isso substitutos simbólicos vazios não bastam como recomposição."
+ },
+ {
+  "k": "e98cb3ac5e61b951",
+  "pagina": "roteiro/index.html",
+  "pt": "A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida, mudanças de interface que desorganizam o uso ordinário, redefinições de regras que rebaixam a equivalência do que foi prometido<1>p. 637</1>"
+ },
+ {
+  "k": "17d799d819efa7e7",
+  "pagina": "roteiro/index.html",
+  "pt": "O sinal mínimo de prova exige comparação funcional entre o antes e o depois, exame de versões relevantes, identificação do núcleo de utilidade afetado e avaliação do papel do objeto na experiência<1>p. 672</1>"
+ },
+ {
+  "k": "74c0e375f56fd28d",
+  "pagina": "roteiro/index.html",
+  "pt": "No plano mais clássico do CDC, essa vedação já aparece de forma suficientemente clara. É nula a cláusula que autorize modificação unilateral do conteúdo ou da qualidade da prestação após a contratação<1>p. 561</1>"
+ },
+ {
+  "k": "a32c39e18e640f16",
+  "pagina": "roteiro/index.html",
+  "pt": "Em hipóteses de rebaixamento unilateral da fruição, a porta do vício de qualidade permanece disponível<1>p. 557</1>"
+ },
+ {
+  "k": "1dcb945bcff4b174",
+  "pagina": "roteiro/index.html",
+  "pt": "justamente porque a inadequação relevante não precisa assumir a forma grosseira da inutilidade total<1>p. 557</1>"
+ },
+ {
+  "k": "e5d9078e0acd78a8",
+  "pagina": "roteiro/index.html",
+  "pt": "A responsabilidade objetiva por defeitos do serviço e por informações insuficientes ou inadequadas, a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor<1>p. 520</1>"
+ },
+ {
+  "k": "d7e9ad419e1f8be9",
+  "pagina": "roteiro/index.html",
+  "pt": "A liberdade contratual encontra limites na função social do contrato<1>p. 561</1>"
+ },
+ {
+  "k": "eca846e587fd09ed",
+  "pagina": "roteiro/index.html",
+  "pt": "A boa-fé objetiva exige respeito ao modo concreto como a fruição foi organizada, mantida e legitimamente confiada pelo consumidor ao longo do tempo.<1>p. 560</1>"
+ },
+ {
+  "k": "75e7dcefc969048b",
+  "pagina": "roteiro/index.html",
+  "pt": "A mutabilidade, por si, não é ilícita.<1>p. 729</1>"
+ },
+ {
+  "k": "1ab359de3fc81ad6",
+  "pagina": "roteiro/index.html",
+  "pt": "Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas, salvo quando, no caso concreto, componham um conjunto convergente de sinais apto a sustentar reconhecimento objetivo de ilícito arquitetural por indícios estruturais de teleologia abusiva.<1>p. 434</1>"
+ },
+ {
+  "k": "2a1d4d208346ed41",
+  "pagina": "roteiro/index.html",
+  "pt": "Não é preciso demonstrar domínio pleno sobre o objeto para sustentar que a fruição adquirida não pode ser rebaixada arbitrariamente.<1>p. 637</1>"
+ },
+ {
+  "k": "72e9e03886d4db34",
+  "pagina": "roteiro/index.html",
+  "pt": "A integridade funcional, ligada ao desempenho, às condições de uso e à utilidade efetivamente entregue. E a integridade simbólica, ligada a pertencimento, reputação, distinção e promessas de identidade mediadas por signos e equivalências internas do ambiente, quando esses elementos integram a prestação tal como oferecida e percebida.<1>p. 391</1>"
+ },
+ {
+  "k": "18b6e8acd920f618",
+  "pagina": "roteiro/index.html",
+  "pt": "Em outras palavras, tornou-se inequívoco que a questão decisiva não é se algo “ainda existe” em sentido formal, mas se a equivalência prática do adquirido permanece reconhecível e operatória<1>p. 498</1>"
+ },
+ {
+  "k": "3cc31f529ef639aa",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] mas se a equivalência prática do adquirido permanece reconhecível e operatória, o que desloca o debate para critérios de equivalência de valor funcional e para deveres de recomposição que não se satisfaçam com substitutos simbólicos vazios<1>p. 498</1>"
+ },
+ {
+  "k": "9ea1e8e9c88d0aa5",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a alteração degrada, esvazia ou desvia substancialmente a função que justificou a aquisição."
+ },
+ {
+  "k": "2a356cb321a3aef4",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional."
+ },
+ {
+  "k": "acf5de9dd277b4f7",
+  "pagina": "roteiro/index.html",
+  "pt": "Preservar, em termos substanciais, o papel funcional, relacional e, quando juridicamente relevante, simbólico do objeto."
+ },
+ {
+  "k": "26a3ed8b102bdd4a",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de preservar, em termos substanciais, o papel funcional, relacional e, quando juridicamente relevante, simbólico do objeto na experiência do consumidor."
+ },
+ {
+  "k": "c9860a24b3d8ad9e",
+  "pagina": "roteiro/index.html",
+  "pt": "A utilidade antes incorporada ao vínculo, a mudança, o impacto funcional concreto e a insuficiência da recomposição oferecida."
+ },
+ {
+  "k": "1c9b2a987ced81cd",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível requer demonstração da utilidade <1>p. 746</1> anteriormente incorporada ao vínculo, da mudança ocorrida, do impacto funcional concreto da alteração e da insuficiência de eventual recomposição oferecida."
+ },
+ {
+  "k": "dd6c634013fca13c",
+  "pagina": "roteiro/index.html",
+  "pt": "Vício de qualidade do produto ou do serviço, inadequação relevante do fornecimento e, havendo exploração coordenada da mutabilidade, elemento adicional de prática abusiva ou teleologia abusiva."
+ },
+ {
+  "k": "227faf885a639ed6",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível tende a recair em vício de qualidade do produto ou serviço, inadequação relevante do fornecimento e, se houver exploração coordenada da mutabilidade, elemento adicional de prática abusiva ou teleologia abusiva."
+ },
+ {
+  "k": "76564052d70c4c6b",
+  "pagina": "roteiro/index.html",
+  "pt": "Prioridade para recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, e não para a monetização automática."
+ },
+ {
+  "k": "c3dcc2e60181adfe",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda."
+ },
+ {
+  "k": "838f30c561f33edb",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A equivalência de valor funcional, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.6 na tese</4></3> · <5>Equivalência de valor funcional</5>"
+ },
+ {
+  "k": "84f3c1a7245319b6",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando punir é fácil e contestar é difícil"
+ },
+ {
+  "k": "94947ff36e61fcef",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>g)</1> governança por fricção, sanção e reversibilidade assimétrica"
+ },
+ {
+  "k": "ef65adb13059783c",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram sanção opaca ou reversão assimétrica?"
+ },
+ {
+  "k": "65336766d10971cd",
+  "pagina": "roteiro/index.html",
+  "pt": "Acesso, permanência, visibilidade ou contestação condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou reversão assimétrica. Aparecem banimentos, restrições de chat, penalidades automatizadas, perda de elegibilidade para recompensas e fluxos de contestação que não levam a lugar nenhum."
+ },
+ {
+  "k": "ed9558c312e010dd",
+  "pagina": "roteiro/index.html",
+  "pt": "Que registros da sanção pedir?"
+ },
+ {
+  "k": "c6300eb2c7f05934",
+  "pagina": "roteiro/index.html",
+  "pt": "Registros de sanção, fluxo de contestação, critérios mobilizados, dificuldades estruturais de reversão e impactos concretos da medida sobre a continuidade da experiência. A exibição pode alcançar a categoria e o motivo da sanção aplicada."
+ },
+ {
+  "k": "d27d00b4293b593f",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas controlam a sanção sem motivo?"
+ },
+ {
+  "k": "9d800e68d0049036",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 39 do CDC<1><2>19</2></1> veda práticas abusivas, inclusive deixar o cumprimento da obrigação ao exclusivo critério do fornecedor. A cláusula-barreira, que dificulta o exercício da pretensão sem justificativa plausível, contraria o art. 51, IV, do CDC<3><4>9</4></3>. Conforme o caso, há defeito do serviço quando se compromete a segurança jurídica e procedimental da fruição. A defesa do consumidor, como direito fundamental e princípio da ordem econômica, já basta para enquadrar formas privadas de governo que produzem efeitos amplos e reiterados sobre a fruição, ainda que não se confundam com poder estatal."
+ },
+ {
+  "k": "77065aa26fad0ab4",
+  "pagina": "roteiro/index.html",
+  "pt": "A existência do poder de sancionar basta?"
+ },
+ {
+  "k": "7436dcdb7b6a68ea",
+  "pagina": "roteiro/index.html",
+  "pt": "A plataforma tem poder de sancionar, mas a simples existência formal desse poder não basta. A sanção com impacto material exige motivação verificável, coerência decisória e vias inteligíveis de contestação. A pergunta não é só se o usuário infringiu a regra, mas também se são legítimos os critérios pelos quais o desvio é produzido, lido e punido."
+ },
+ {
+  "k": "ac64f5adc08377eb",
+  "pagina": "roteiro/index.html",
+  "pt": "O que o caso dos presentes irregulares mostra?"
+ },
+ {
+  "k": "caaf9338ce64f9c3",
+  "pagina": "roteiro/index.html",
+  "pt": "No caso dos presentes irregulares, a plataforma reagiu a fraudes de pagamento desativando por longo período a função oficial de presentes no servidor brasileiro, suprimindo ativos recebidos e aplicando bloqueios e restaurações regressivas de contas, inclusive sobre destinatários que não participaram conscientemente da fraude. O caso permite formular cinco alegações. A primeira é a de inadequação do serviço por falha na segurança do ambiente transacional, com redistribuição do risco ao consumidor. A segunda é a de violação da confiança legítima, porque a função de presentes era canal oficial. A terceira é a de abusividade da resposta privada, por presunção ampliada de má-fé e falta de individualização das condutas. A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para tornar a fruição precária e negar recomposição. A quinta é a de assimetria probatória, que exige preservar trilhas, históricos de transação, a origem dos itens removidos e os critérios do rollback. Os pedidos vão da restauração dos ativos, quando a boa-fé não foi afastada por prova individualizada, à exibição dos registros e à correção da informação sobre canais legítimos de aquisição."
+ },
+ {
+  "k": "379b23ba39b8038a",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada<1>p. 660</1>"
+ },
+ {
+  "k": "5271adf1774c8cd4",
+  "pagina": "roteiro/index.html",
+  "pt": "Claudia Lima Marques mostra que a “cláusula-barreira” é contrária ao art. 51, IV, do CDC<1><2>9</2></1>, justamente porque desequilibra substancialmente a relação contratual <3>Marques</3><4>(Marques, 2016, p. 1236)</4>.<5>p. 669</5>"
+ },
+ {
+  "k": "172c0ea49ea9b798",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível pode envolver prática abusiva, defeito do serviço quando houver comprometimento da segurança jurídica e procedimental da fruição, além de integração a hipótese mais ampla de ilícito arquitetural.<1>p. 746</1>"
+ },
+ {
+  "k": "562bbc784260a337",
+  "pagina": "roteiro/index.html",
+  "pt": "Nessa chave, a questão central deixa de ser saber apenas se o usuário infringiu uma regra e passa a incluir a legitimidade dos próprios critérios pelos quais o desvio é produzido, lido e punido.<1>p. 343</1>"
+ },
+ {
+  "k": "1f2d418088c88cfb",
+  "pagina": "roteiro/index.html",
+  "pt": "A empresa desativou por longo período a funcionalidade de presentes no servidor brasileiro, suprimiu ativos recebidos e operou restaurações regressivas ou bloqueios em contas atingidas<1>p. 611</1>"
+ },
+ {
+  "k": "4c43cef8960fe96e",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] suprimiu ativos, interrompeu funcionalidade oficial de circulação de conteúdo e operou sanções fundadas em presunções amplas de corresponsabilidade, inclusive sobre usuários que não participaram conscientemente da fraude<1>p. 610</1>"
+ },
+ {
+  "k": "2664497c96eacb4b",
+  "pagina": "roteiro/index.html",
+  "pt": "Em chave dogmática, o Caso dos Presentes Irregulares permite formular alegações bastante precisas.<1>p. 617</1>"
+ },
+ {
+  "k": "c349ff14b9b51e00",
+  "pagina": "roteiro/index.html",
+  "pt": "A primeira é a de inadequação do serviço por falha na segurança e na governança do ambiente transacional, com posterior redistribuição abusiva do risco ao consumidor.<1>p. 617</1>"
+ },
+ {
+  "k": "e46a43c90b44083d",
+  "pagina": "roteiro/index.html",
+  "pt": "A segunda é a de violação da confiança legítima, porque a própria plataforma oferecia a funcionalidade de gifting como canal ordinário e institucionalizado de circulação de conteúdo.<1>p. 617</1>"
+ },
+ {
+  "k": "c17fdee076728941",
+  "pagina": "roteiro/index.html",
+  "pt": "A terceira é a de abusividade da resposta privada, por presunção ampliada de má-fé e ausência de individualização confiável das condutas.<1>p. 617</1>"
+ },
+ {
+  "k": "3a546062b70c3efe",
+  "pagina": "roteiro/index.html",
+  "pt": "A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para transformar a fruição em tolerância absolutamente precária e para negar recomposição.<1>p. 617</1>"
+ },
+ {
+  "k": "348284e2a1f6b2d4",
+  "pagina": "roteiro/index.html",
+  "pt": "A quinta é a de assimetria probatória, com necessidade de preservação de trilhas, históricos de transação, origem dos itens removidos, critérios utilizados para rollback e justificativa individualizada das medidas adotadas.<1>p. 617</1>"
+ },
+ {
+  "k": "9cf5e3ad6bdb7956",
+  "pagina": "roteiro/index.html",
+  "pt": "O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição<1>p. 617</1>"
+ },
+ {
+  "k": "59f46d2cc4adf5ad",
+  "pagina": "roteiro/index.html",
+  "pt": "A defesa do consumidor como direito fundamental e princípio da ordem econômica já oferece base suficiente para enquadrar, sem artificialidade, formas privadas de governo que produzem efeitos amplos e reiterados sobre a experiência de fruição, ainda que não se confundam com poder estatal.<1>p. 502</1>"
+ },
+ {
+  "k": "3e66838979e7a219",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando acesso, permanência, visibilidade ou contestação ficam condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou reversão assimétrica. Há indício de governança abusiva do vínculo."
+ },
+ {
+  "k": "dd354542b46f96ca",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo."
+ },
+ {
+  "k": "d98b299b5069342a",
+  "pagina": "roteiro/index.html",
+  "pt": "Assegurar procedimentos inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário."
+ },
+ {
+  "k": "52028561fec8ce89",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição."
+ },
+ {
+  "k": "ec072510d886c954",
+  "pagina": "roteiro/index.html",
+  "pt": "Registros de sanção, fluxo de contestação, critérios usados, dificuldades estruturais de reversão e impacto concreto na continuidade da experiência."
+ },
+ {
+  "k": "d0de88d7e71bdebc",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível recai sobre registros de sanção, fluxo de contestação, critérios mobilizados, dificuldades estruturais de reversão e impactos concretos da medida sobre a continuidade da experiência."
+ },
+ {
+  "k": "73ca22fd2154e8aa",
+  "pagina": "roteiro/index.html",
+  "pt": "Prática abusiva, defeito do serviço quando comprometida a segurança jurídica e procedimental da fruição, e integração a hipótese mais ampla de ilícito arquitetural."
+ },
+ {
+  "k": "70de361788bd1284",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível pode envolver prática abusiva, defeito do serviço quando houver comprometimento da segurança jurídica e procedimental da fruição, além de integração a hipótese mais ampla de ilícito arquitetural."
+ },
+ {
+  "k": "415e88ff21acd715",
+  "pagina": "roteiro/index.html",
+  "pt": "Reversão ou revisão de sanções, deveres procedimentais, mecanismos de contestação e, em casos repetitivos, correção do regime de enforcement."
+ },
+ {
+  "k": "d8b38c0d090bdf71",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema."
+ },
+ {
+  "k": "3ac36d7f14daac1f",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A lei da plataforma, no caminho do jurista</1>"
+ },
+ {
+  "k": "16cc714f2db755ec",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a perda é rotina do desenho, e não acidente"
+ },
+ {
+  "k": "2caaaa5cf6d369e8",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>h)</1> teleologia abusiva e ilícito de arquitetura"
+ },
+ {
+  "k": "cdc0b63ebf5d6e14",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram mecanismos operando juntos?"
+ },
+ {
+  "k": "e645320dc8bec497",
+  "pagina": "roteiro/index.html",
+  "pt": "Microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica e equivalências elásticas operando de modo coordenado. Também opções pré-marcadas, rotas de cancelamento hostis, regimes de sanção e arranjos de prova que funcionam em conjunto como método."
+ },
+ {
+  "k": "80434d72e1a73ee2",
+  "pagina": "roteiro/index.html",
+  "pt": "Como demonstrar o padrão, e não só o episódio?"
+ },
+ {
+  "k": "768751eddc9a0252",
+  "pagina": "roteiro/index.html",
+  "pt": "O padrão, a sua replicabilidade, a coordenação entre mecanismos e o impacto relevante sobre a autonomia prática, a inteligibilidade ou a utilidade. A prova não fica presa ao microevento e combina evidências de fluxo, documentação de campanhas, regras do ecossistema e registros do percurso decisório. O caso não precisa mostrar que um único consumidor foi psicologicamente vencido pelo sistema."
+ },
+ {
+  "k": "62a418fc0c9a41b7",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas alcançam o arranjo inteiro?"
+ },
+ {
+  "k": "f4f86b6b484683c2",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 39 do CDC<1><2>19</2></1> veda práticas abusivas, como prevalecer-se da fraqueza do consumidor. O art. 51, IV, do CDC<3><4>9</4></3>, lido a partir da cláusula-barreira, permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica. O art. 84 do CDC<5><6>20</6></5> sustenta a tutela específica, e diante de padrão reiterado o sistema pede também tutela inibitória. O art. 29 do CDC<7><8>21</8></7> alcança quem está exposto às práticas da plataforma. O enquadramento no CDC passa por três portas. A primeira é o vício de qualidade, quando o programa produz perda relevante de adequação, continuidade ou equivalência da fruição. A segunda são as práticas abusivas, quando escassez artificial, urgência fabricada e fricções assimétricas operam de modo previsível e repetido. A terceira são as cláusulas abusivas, quando o programa ganha forma em termos, políticas e aceites predispostos. Não é preciso sair do CDC nem inventar um direito paralelo das plataformas."
+ },
+ {
+  "k": "f82779e39578828d",
+  "pagina": "roteiro/index.html",
+  "pt": "Quais requisitos precisam estar presentes juntos?"
+ },
+ {
+  "k": "0367e43c41307d17",
+  "pagina": "roteiro/index.html",
+  "pt": "Os cinco requisitos são cumulativos. São eles a teleologia inscrita no desenho, a reprodução como padrão, a exploração de vulnerabilidades estruturais, a opacidade combinada com baixa contestabilidade e o efeito juridicamente relevante sobre o feixe de fruição. A categoria não depende de intenção psicológica e não funciona como coringa moral. A análise deve demonstrar a orientação dominante do arranjo à exploração da vulnerabilidade e à captura desproporcional de valor, distinguindo-a das finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema."
+ },
+ {
+  "k": "92ecad77dd4b9d8c",
+  "pagina": "roteiro/index.html",
+  "pt": "Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração.<1>p. 666</1>"
+ },
+ {
+  "k": "b1f1759d0cd3236f",
+  "pagina": "roteiro/index.html",
+  "pt": "Portanto, a prova da prática abusiva não pode se tornar prisioneira do microevento. Ela exige combinação de evidências de fluxo, documentação de campanhas, regras de ecossistema, prints ou gravações do percurso decisório<1>p. 676</1>"
+ },
+ {
+  "k": "6dbd7f7a7604e4b7",
+  "pagina": "roteiro/index.html",
+  "pt": "O caso não precisa mostrar que um único consumidor foi “psicologicamente vencido” pelo sistema.<1>p. 676</1>"
+ },
+ {
+  "k": "1b4ac23348f2112d",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor e a vedação a práticas abusivas que se aproveitem da fraqueza do consumidor<1>p. 520</1>"
+ },
+ {
+  "k": "0b0fb8c2d1b48eb1",
+  "pagina": "roteiro/index.html",
+  "pt": "Claudia Lima Marques mostra que a “cláusula-barreira” é contrária ao art. 51, IV, do CDC<1><2>9</2></1><3>p. 669</3>"
+ },
+ {
+  "k": "6cfe4885f2f5eaea",
+  "pagina": "roteiro/index.html",
+  "pt": "Aplicado ao ilícito de teleologia abusiva, esse raciocínio permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica, aumentar custo de reversão e desmobilizar contestação.<1>p. 669</1>"
+ },
+ {
+  "k": "0f66cf7671c9e23f",
+  "pagina": "roteiro/index.html",
+  "pt": "e do art. 84<1>p. 540</1>"
+ },
+ {
+  "k": "c9766b1bdd97889f",
+  "pagina": "roteiro/index.html",
+  "pt": "que consagra tutela específica da obrigação e resultado prático equivalente ao adimplemento<1>p. 540</1>"
+ },
+ {
+  "k": "0bcf6bcaf293fb75",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a hipótese revelar padrão reiterado de exploração arquitetural, o sistema pede também correção procedimental e tutela inibitória, de modo a interromper a reprodução do programa.<1>p. 679</1>"
+ },
+ {
+  "k": "770f9209a5390d17",
+  "pagina": "roteiro/index.html",
+  "pt": "A utilidade do art. 29 do CDC<1><2>21</2></1><3>p. 779</3>"
+ },
+ {
+  "k": "129736bbdccf5ebf",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] embora não se encaixe com conforto na figura tradicional do adquirente final tal como imaginada em relações lineares e simples, encontra-se exposto às práticas comerciais, aos métodos de fornecimento e aos mecanismos de governança privada do ambiente em condição de vulnerabilidade juridicamente relevante<1>p. 779</1>"
+ },
+ {
+  "k": "98bbd24b0283a170",
+  "pagina": "roteiro/index.html",
+  "pt": "Para que essa qualificação permaneça controlável e não se converta em rótulo elástico, ela deve assumir a forma de um teste composto por elementos cumulativos<1>p. 448</1>"
+ },
+ {
+  "k": "304f34d8989c1309",
+  "pagina": "roteiro/index.html",
+  "pt": "A categoria não depende de imputar intenção psicológica subjetiva nem de localizar um único ato como causa suficiente<1>p. 448</1>"
+ },
+ {
+  "k": "bb8197f42a84992e",
+  "pagina": "roteiro/index.html",
+  "pt": "A teleologia abusiva não pode funcionar como coringa moral.<1>p. 456</1>"
+ },
+ {
+  "k": "55460e311270d7df",
+  "pagina": "roteiro/index.html",
+  "pt": "O primeiro requisito é a teleologia inscrita.<1>p. 448</1>"
+ },
+ {
+  "k": "95c1c54994b381dd",
+  "pagina": "roteiro/index.html",
+  "pt": "O segundo requisito é a reprodução como padrão.<1>p. 448</1>"
+ },
+ {
+  "k": "7e7b23c869660fda",
+  "pagina": "roteiro/index.html",
+  "pt": "O terceiro requisito é a exploração de vulnerabilidades estruturais.<1>p. 449</1>"
+ },
+ {
+  "k": "ce8f869d53e11822",
+  "pagina": "roteiro/index.html",
+  "pt": "O quarto requisito é a opacidade combinada com baixa contestabilidade.<1>p. 455</1>"
+ },
+ {
+  "k": "8d6645ea78ca6697",
+  "pagina": "roteiro/index.html",
+  "pt": "O quinto requisito é o efeito juridicamente relevante sobre o feixe de fruição.<1>p. 455</1>"
+ },
+ {
+  "k": "10cf78b52d2c5380",
+  "pagina": "roteiro/index.html",
+  "pt": "A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total.<1>p. 455</1>"
+ },
+ {
+  "k": "8e8bddb93d0a7292",
+  "pagina": "roteiro/index.html",
+  "pt": "Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema.<1>p. 456</1>"
+ },
+ {
+  "k": "c48c28ecf8d79d02",
+  "pagina": "roteiro/index.html",
+  "pt": "O primeiro eixo de enquadramento recai sobre o vício de qualidade, sempre que o programa de funcionamento do serviço produz perda relevante de adequação, continuidade ou equivalência funcional da fruição.<1>p. 674</1>"
+ },
+ {
+  "k": "d4cefa610e3acf07",
+  "pagina": "roteiro/index.html",
+  "pt": "O segundo eixo de enquadramento recai sobre as práticas abusivas, e é nele que a teleologia abusiva aparece com mais força como método reiterado de exploração.<1>p. 676</1>"
+ },
+ {
+  "k": "63f4636afe7bc003",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando escassez artificial, urgência fabricada, ciclos de promessa, fabricação de risco, fricções assimétricas e reversibilidade dificultada operam de modo previsível e repetido<1>p. 676</1>"
+ },
+ {
+  "k": "5132c2f95ea5bf2b",
+  "pagina": "roteiro/index.html",
+  "pt": "O terceiro eixo é o das cláusulas abusivas, sempre que o programa exploratório ganha institucionalização contratual em termos, políticas e aceites predispostos.<1>p. 677</1>"
+ },
+ {
+  "k": "075147c6ba9308ca",
+  "pagina": "roteiro/index.html",
+  "pt": "Ele não exige sair do CDC nem inventar um direito paralelo das plataformas. Vício, defeito, prática abusiva e cláusula abusiva continuam sendo as portas do sistema.<1>p. 679</1>"
+ },
+ {
+  "k": "e8a839cc3e8c58ab",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica e equivalências elásticas operam de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina."
+ },
+ {
+  "k": "cd472d4bd17b839e",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva."
+ },
+ {
+  "k": "e0912876e13d39fb",
+  "pagina": "roteiro/index.html",
+  "pt": "Não estruturar a experiência a partir de finalidade exploratória incompatível com boa-fé, transparência, equilíbrio e tutela da fruição."
+ },
+ {
+  "k": "52b5eb242db9a6ca",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever de fornecimento correspondente é o de não estruturar a experiência a partir de finalidade exploratória incompatível com boa-fé, transparência, equilíbrio e tutela da fruição legitimamente incorporada ao vínculo."
+ },
+ {
+  "k": "eb5a5ec5ce5411cf",
+  "pagina": "roteiro/index.html",
+  "pt": "O padrão, a replicabilidade, a coordenação entre os mecanismos e o impacto relevante sobre autonomia prática, inteligibilidade ou utilidade."
+ },
+ {
+  "k": "7b0905837a8ccc24",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível consiste na demonstração do padrão, de sua replicabilidade, da coordenação entre mecanismos do ecossistema e do impacto relevante produzido sobre autonomia prática, <1>p. 747</1> inteligibilidade ou utilidade da experiência."
+ },
+ {
+  "k": "6b154aea94a619d2",
+  "pagina": "roteiro/index.html",
+  "pt": "Prática abusiva estrutural, vício do regime de fornecimento, eventual cumulação com vício de qualidade e fundamento para tutela inibitória e corretiva de arquitetura."
+ },
+ {
+  "k": "611520196d8c9007",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível alcança prática abusiva estrutural, vício do regime de fornecimento, eventual cumulação com vício de qualidade e fundamento para tutela inibitória e corretiva de arquitetura."
+ },
+ {
+  "k": "08194b37327ae005",
+  "pagina": "roteiro/index.html",
+  "pt": "Vai além da reparação de episódios e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas."
+ },
+ {
+  "k": "309d8daad8b4d6f8",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional vai além da reparação de episódios isolados e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas."
+ },
+ {
+  "k": "00aaecba696203c7",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A teleologia abusiva e o ilícito de arquitetura, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.7 na tese</4></3> · <5>Teleologia abusiva</5> · <6>Ilícito de arquitetura</6>"
+ },
+ {
+  "k": "167bfb43e3c48a9e",
+  "pagina": "roteiro/index.html",
+  "pt": "Como provar quando a prova está com a plataforma"
+ },
+ {
+  "k": "bcc0eeced6297d2a",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>i)</1> prova em ambiente de assimetria estrutural"
+ },
+ {
+  "k": "9f3e5f764ec22646",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram a prova concentrada na plataforma?"
+ },
+ {
+  "k": "f5bfb8725c65e45e",
+  "pagina": "roteiro/index.html",
+  "pt": "A plataforma concentra os elementos essenciais para narrar, demonstrar e reconstruir o conflito, como logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos."
+ },
+ {
+  "k": "247edd7be1773f2b",
+  "pagina": "roteiro/index.html",
+  "pt": "O que cabe a cada parte mostrar?"
+ },
+ {
+  "k": "21cbcd1bb4f6b481",
+  "pagina": "roteiro/index.html",
+  "pt": "Do lado do consumidor, a apresentação plausível da experiência lesiva, da sua inserção no ecossistema e dos elementos de contexto acessíveis. Do lado do fornecedor, a exibição de trilhas, logs, históricos, versões e justificativas tecnicamente delimitadas."
+ },
+ {
+  "k": "821338ae8458d837",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas redistribuem o ônus da prova?"
+ },
+ {
+  "k": "34b0c999b27f850e",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 6º do CDC<1><2>3</2></1> inclui a facilitação da defesa entre os direitos básicos, e a inversão do ônus da prova é, em muitos casos, o único instrumento capaz de viabilizar a tutela. O art. 373, § 1º, do CPC<3><4>22</4></3> permite a distribuição diversa do ônus probatório diante de excessiva dificuldade de uma parte ou de maior facilidade da outra. Na publicidade, o art. 38 do CDC<5><6>12</6></5> atribui o ônus a quem a patrocina."
+ },
+ {
+  "k": "b184e77932028620",
+  "pagina": "roteiro/index.html",
+  "pt": "A redistribuição dispensa a verossimilhança?"
+ },
+ {
+  "k": "ceb1ef55e87ecbfe",
+  "pagina": "roteiro/index.html",
+  "pt": "A distribuição dinâmica prevista no art. 373, § 1º, do CPC<1><2>22</2></1> depende de decisão fundamentada. Na publicidade, o art. 38 do CDC<3><4>12</4></3> já atribui ao patrocinador o ônus de provar a veracidade e a correção da comunicação. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria."
+ },
+ {
+  "k": "9e9e916c11b6ed68",
+  "pagina": "roteiro/index.html",
+  "pt": "Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor.<1>p. 659</1>"
+ },
+ {
+  "k": "1f2d418a892ead50",
+  "pagina": "roteiro/index.html",
+  "pt": "A especialização tecnológica do serviço e a posição dominante do fornecedor fazem da inversão do ônus da prova, em muitos casos, o único instrumento capaz de viabilizar efetivamente a tutela do consumidor<1>p. 583</1>"
+ },
+ {
+  "k": "1908ac905fdd6467",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 373, § 1º<1>p. 659</1>"
+ },
+ {
+  "k": "751e12564f29cf1a",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 373, § 1º, permite a distribuição diversa do ônus probatório quando houver excessiva dificuldade para uma parte cumprir o encargo ou maior facilidade da outra em produzir a prova do fato contrário<1>p. 659</1>"
+ },
+ {
+  "k": "810ba4d909d91c1b",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] poderá o juiz atribuir o ônus da prova de modo diverso, desde que o faça por decisão fundamentada<1>p. 659</1>"
+ },
+ {
+  "k": "5d452f35995e9d88",
+  "pagina": "roteiro/index.html",
+  "pt": "Essa consequência é reafirmada quando se sustenta ser insuficiente a proteção hoje oferecida pelo CDC e pela LGPD diante das novas bases de relacionamento em ambiente digital<1>p. 593</1>"
+ },
+ {
+  "k": "0381c3f8652a846e",
+  "pagina": "roteiro/index.html",
+  "pt": "[...] razão pela qual a vulnerabilidade digital e a hipossuficiência correspondente deveriam ser afirmadas em chave universal, com inversão do ônus da prova ope legis, e não apenas ope judicis<1>p. 593</1>"
+ },
+ {
+  "k": "4d65794f98eca4e4",
+  "pagina": "roteiro/index.html",
+  "pt": "Em vez de recortar seletivamente o mecanismo específico de produção da assimetria, a categoria funciona como fundamento para um regime protetivo ampliado em massa.<1>p. 593</1>"
+ },
+ {
+  "k": "a910ede9f34d32e6",
+  "pagina": "roteiro/index.html",
+  "pt": "O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem a patrocina<1>p. 627</1>"
+ },
+ {
+  "k": "b3ed6cfa40047e57",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a plataforma concentra os elementos essenciais para narrar, demonstrar e reconstruir o conflito. A verificabilidade passa a integrar o regime legítimo do fornecimento."
+ },
+ {
+  "k": "2869679000b65c0b",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a plataforma concentrar os elementos essenciais para narrar, demonstrar e reconstruir o conflito, a disciplina probatória deverá reconhecer que a verificabilidade integra o próprio regime legítimo do fornecimento."
+ },
+ {
+  "k": "7c6dbc50c3d9cbb7",
+  "pagina": "roteiro/index.html",
+  "pt": "Preservar e exibir os registros mínimos necessários à reconstrução do evento."
+ },
+ {
+  "k": "f6259b5b2344dd18",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever correspondente é o de preservar e exibir registros mínimos necessários à reconstrução do evento controvertido."
+ },
+ {
+  "k": "53ece87dcb91cebc",
+  "pagina": "roteiro/index.html",
+  "pt": "Do consumidor, a apresentação plausível da experiência lesiva, sua inserção no ecossistema e os elementos de contexto acessíveis. Do fornecedor, trilhas, logs, históricos, versões e justificativas tecnicamente delimitadas."
+ },
+ {
+  "k": "f546a2db6c6ed4e1",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível, do ponto de vista do consumidor, consiste em apresentação plausível da experiência lesiva, de sua inserção no ecossistema e dos elementos de contexto acessíveis; do ponto de vista do fornecedor, exige-se exibição de trilhas, logs, históricos, versões e justificativas tecnicamente delimitadas."
+ },
+ {
+  "k": "952df77aaeb3fe7a",
+  "pagina": "roteiro/index.html",
+  "pt": "Redistribuição dinâmica do ônus da prova, presunções favoráveis ao consumidor e reforço do dever de cooperação, sem prejuízo dos demais parâmetros."
+ },
+ {
+  "k": "024c1c0a666de698",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível envolve redistribuição dinâmica do ônus da prova, presunções favoráveis ao consumidor e reforço do dever de cooperação, sem prejuízo da incidência material dos demais parâmetros."
+ },
+ {
+  "k": "96eb9b887e0b6239",
+  "pagina": "roteiro/index.html",
+  "pt": "Impedir que a opacidade técnica vire blindagem processual e tornar efetivas a auditabilidade aberta e a equivalência funcional."
+ },
+ {
+  "k": "08c89d649c0e51f5",
+  "pagina": "roteiro/index.html",
+  "pt": "A consequência institucional consiste em impedir que a opacidade técnica se converta em blindagem processual e em tornar efetivos standards como auditabilidade aberta e equivalência funcional."
+ },
+ {
+  "k": "1b0e80f005cbe90b",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A prova, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.8 na tese</4></3>"
+ },
+ {
+  "k": "5608134fe7d11e53",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a propriedade intelectual vira escudo"
+ },
+ {
+  "k": "be5ca056e0191f63",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>j)</1> compatibilização com a propriedade intelectual"
+ },
+ {
+  "k": "32a957ec26b9ab66",
+  "pagina": "roteiro/index.html",
+  "pt": "Que fatos mostram a exclusividade usada como escudo?"
+ },
+ {
+  "k": "d6a8a03be7dfa46e",
+  "pagina": "roteiro/index.html",
+  "pt": "O fornecedor invoca titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento. Aparecem respostas como a de que os dados são de uso interno ou não acessíveis ao público."
+ },
+ {
+  "k": "06f6ba9c09c1e696",
+  "pagina": "roteiro/index.html",
+  "pt": "Como separar a proteção do ativo da imunização da governança?"
+ },
+ {
+  "k": "4b8a38d52f5352c9",
+  "pagina": "roteiro/index.html",
+  "pt": "A relação entre a prerrogativa invocada e o aspecto concreto do conflito, mostrando se a restrição é necessária à proteção do ativo ou se opera como imunização da governança."
+ },
+ {
+  "k": "71c3e0e3ae4b5c2d",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas ligam a exclusividade ao interesse social?"
+ },
+ {
+  "k": "f3f89d55bbc92e70",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 5º, XXIX, da Constituição<1><2>23</2></1> liga a proteção das criações industriais, das marcas e de outros signos ao interesse social e ao desenvolvimento, e não protege a exclusividade como fim em si. A propriedade se submete à função social, e a defesa do consumidor integra a ordem econômica. Os arts. 7º e 8º da Lei nº 9.609/1998<3><4>24</4></3> impõem ao fornecedor de software deveres de informação e de suporte durante a validade técnica. A proteção do programa de computador no Brasil segue regime especial predominantemente autoral, e não lógica patentária sobre função, método ou resultado, de modo que o controle técnico da infraestrutura não se converte em poder total sobre a experiência consumida."
+ },
+ {
+  "k": "8aacb08fdfc82f05",
+  "pagina": "roteiro/index.html",
+  "pt": "A propriedade intelectual é veto geral ao CDC?"
+ },
+ {
+  "k": "0ded676176e49fc7",
+  "pagina": "roteiro/index.html",
+  "pt": "A propriedade intelectual continua válida no seu plano próprio e não é veto geral ao CDC. A compatibilização se faz por auditabilidade delimitada, com instrumentos que preservam o sigilo, como o segredo de justiça, pelo controle da equivalência funcional e pela sujeição do exercício da exclusividade aos deveres de adequação, transparência e recomposição. No encerramento do serviço ou no desligamento definitivo de servidores, a precariedade formal da licença não autoriza o sacrifício integral do que foi incorporado à trajetória do consumidor. A saída deve ser compatibilizada, tanto quanto técnica e juridicamente possível, com continuidade, portabilidade, recomposição funcional ou cessão da operação. A infraestrutura de propriedade intelectual também não é homogênea. Marcas, direitos autorais, software e sinais distintivos não conferem o mesmo tipo nem a mesma extensão de exclusividade, e por isso o controle técnico do ambiente não decorre de uma soberania unitária sobre a experiência consumida. A exclusividade não se confunde com imunidade contra a auditabilidade. A propriedade intelectual só interessa aqui na medida em que organiza poder sobre a fruição. Ela não deve ser reduzida nem demonizada, mas a sua exclusividade não autoriza opacidade, mutabilidade oportunista ou blindagem contra controle."
+ },
+ {
+  "k": "819192f6e9265b12",
+  "pagina": "roteiro/index.html",
+  "pt": "Em litígios relacionados a plataforma, as garantias processuais satisfazem a necessidade de reação às respostas genéricas como “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público”<1>p. 660</1>"
+ },
+ {
+  "k": "d66a90b91caac79d",
+  "pagina": "roteiro/index.html",
+  "pt": "Ao tratar da propriedade industrial, o art. 5º, XXIX não outorga prerrogativa patrimonial autojustificada, nem protege a exclusividade como fim em si.<1>p. 702</1>"
+ },
+ {
+  "k": "f5702584fd992c5d",
+  "pagina": "roteiro/index.html",
+  "pt": "A propriedade submete-se à função social<1>p. 507</1>"
+ },
+ {
+  "k": "583f4e43869b3e55",
+  "pagina": "roteiro/index.html",
+  "pt": "A Constituição a inscreve, de um lado, no plano dos direitos fundamentais<1>p. 504</1>"
+ },
+ {
+  "k": "b0a5416b4a0c9767",
+  "pagina": "roteiro/index.html",
+  "pt": "e, de outro, no núcleo principiológico da ordem econômica<1>p. 504</1>"
+ },
+ {
+  "k": "a3bc421c69a090b2",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 7º impõe que o contrato de licença, o documento fiscal e os suportes e embalagens indiquem, de forma facilmente legível, o prazo de validade técnica da versão comercializada, e o art. 8º converte esse prazo em obrigação de assegurar serviços técnicos complementares relativos ao adequado funcionamento do programa durante a validade técnica<1>p. 51</1>"
+ },
+ {
+  "k": "bc53faa6d55bdcff",
+  "pagina": "roteiro/index.html",
+  "pt": "A própria disciplina jurídica prevê segredo de justiça, o que restringe o acesso de terceiros a informações sensíveis, como o código-fonte<1>p. 643</1>"
+ },
+ {
+  "k": "9abc92873f774649",
+  "pagina": "roteiro/index.html",
+  "pt": "Como a proteção do programa no Brasil não se estrutura sob lógica patentária ampla sobre função, método ou resultado, mas sob regime especial predominantemente autoral, é incompatível com a Constituição converter controle técnico da infraestrutura em poder total sobre a experiência consumida.<1>p. 706</1>"
+ },
+ {
+  "k": "3bba93973b772a99",
+  "pagina": "roteiro/index.html",
+  "pt": "Esse limite ganha contorno particularmente nítido em hipóteses de encerramento de atividades, descontinuação de serviços ou desligamento definitivo de servidores.<1>p. 709</1>"
+ },
+ {
+  "k": "655c8177c4e9fd18",
+  "pagina": "roteiro/index.html",
+  "pt": "À medida que parcelas relevantes da vida contemporânea migram para ecossistemas digitais privados, a precariedade formal das licenças de uso já não pode ser lida como autorização automática para o sacrifício integral de objetos imateriais de consumo incorporados à trajetória do consumidor<1>p. 709</1>"
+ },
+ {
+  "k": "bd53b974639e29b9",
+  "pagina": "roteiro/index.html",
+  "pt": "Se o encerramento do serviço se impõe, a ordem constitucional exige que ele seja compatibilizado, tanto quanto técnica e juridicamente possível, com soluções de continuidade, portabilidade, recomposição funcional, cessão da operação ou outras medidas idôneas<1>p. 709</1>"
+ },
+ {
+  "k": "6287ad483af2146e",
+  "pagina": "roteiro/index.html",
+  "pt": "A infraestrutura de propriedade intelectual que sustenta a plataforma não é homogênea. Marcas, direitos autorais, software, sinais distintivos, interfaces e institutos conexos não conferem o mesmo tipo nem a mesma extensão de exclusividade.<1>p. 682</1>"
+ },
+ {
+  "k": "6b90ee18da1efd98",
+  "pagina": "roteiro/index.html",
+  "pt": "O ordenamento brasileiro não autoriza tratar todo controle técnico do ambiente como se decorresse de uma soberania unitária e irrestrita sobre a experiência consumida.<1>p. 682</1>"
+ },
+ {
+  "k": "54544fedccbfe77c",
+  "pagina": "roteiro/index.html",
+  "pt": "A exclusividade não se confunde com imunidade contra auditabilidade.<1>p. 695</1>"
+ },
+ {
+  "k": "f2872358be6ccdd8",
+  "pagina": "roteiro/index.html",
+  "pt": "A propriedade intelectual só interessa, aqui, na medida em que organiza poder sobre a fruição.<1>p. 680</1>"
+ },
+ {
+  "k": "350bdf544a77d212",
+  "pagina": "roteiro/index.html",
+  "pt": "Nesse quadro, a propriedade intelectual não deve ser reduzida nem demonizada.<1>p. 680</1>"
+ },
+ {
+  "k": "29789cf704a8de2a",
+  "pagina": "roteiro/index.html",
+  "pt": "O ponto é apenas recusar sua leitura como autorização automática para opacidade, para mutabilidade oportunista ou para blindagem contra controle.<1>p. 680</1>"
+ },
+ {
+  "k": "856af0ba7e8c4a68",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a plataforma invoca titularidade exclusiva, segredo empresarial, licença ou estrutura proprietária para resistir ao controle do modo de fornecimento. A compatibilização se faz pela função social e pelos limites constitucionais."
+ },
+ {
+  "k": "e74707131df4c4c1",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas."
+ },
+ {
+  "k": "de239b14fbc1e713",
+  "pagina": "roteiro/index.html",
+  "pt": "Exercer a exclusividade sem convertê-la em escudo para opacidade absoluta, mutabilidade degradante ou supressão arbitrária da fruição."
+ },
+ {
+  "k": "cd31e5052c045bac",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever correspondente é o de exercer a exclusividade sem convertê-la em escudo para opacidade absoluta, mutabilidade degradante ou supressão arbitrária da fruição."
+ },
+ {
+  "k": "dad5e845334906a1",
+  "pagina": "roteiro/index.html",
+  "pt": "A relação entre a prerrogativa invocada e o aspecto concreto do conflito, para saber se a restrição protege o ativo ou imuniza a governança."
+ },
+ {
+  "k": "a511228356ff6626",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível recai sobre a relação entre a prerrogativa invocada e o aspecto concreto do conflito, demonstrando-se se a restrição é realmente necessária à proteção do ativo ou se opera, em verdade, como imunização indevida da governança."
+ },
+ {
+  "k": "d9784281a2cc84b0",
+  "pagina": "roteiro/index.html",
+  "pt": "A propriedade intelectual segue válida no seu plano próprio, mas não funciona como veto geral à incidência do CDC."
+ },
+ {
+  "k": "14e70154180a4e8b",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível preserva a validade da propriedade intelectual em seu plano próprio, mas afasta sua invocação como veto geral à incidência do CDC."
+ },
+ {
+  "k": "d88b39f3aa19cfd8",
+  "pagina": "roteiro/index.html",
+  "pt": "Compatibilizar exclusividade e tutela do consumidor por auditabilidade delimitada, controle da equivalência funcional e sujeição aos deveres de adequação, transparência e recomposição."
+ },
+ {
+  "k": "d1aa4595b35f2ed8",
+  "pagina": "roteiro/index.html",
+  "pt": "A <1>p. 748</1> consequência institucional consiste em compatibilizar exclusividade e tutela consumerista por meio de auditabilidade delimitada, controle da equivalência funcional e sujeição do exercício da PI aos deveres de adequação, transparência e recomposição."
+ },
+ {
+  "k": "959f6f00f2ec9178",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>A propriedade intelectual, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.9 na tese</4></3> · <5>Função social da propriedade intelectual</5>"
+ },
+ {
+  "k": "b0d24c84d52d5bff",
+  "pagina": "roteiro/index.html",
+  "pt": "O que pedir, restaurar antes de indenizar"
+ },
+ {
+  "k": "4e2bc6647fd67bab",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>k)</1> remédios adequados à recomposição funcional e correção de regime"
+ },
+ {
+  "k": "584b3eb84b797c06",
+  "pagina": "roteiro/index.html",
+  "pt": "Que perdas pedem recomposição?"
+ },
+ {
+  "k": "83a4032aaaffb392",
+  "pagina": "roteiro/index.html",
+  "pt": "Lesão ao acesso, à continuidade, à equivalência, ao histórico, à posição relacional ou à densidade significativa da fruição, como a conta encerrada, a sanção mantida sem revisão, o item rebaixado ou o histórico apagado."
+ },
+ {
+  "k": "bf6a0b413d761390",
+  "pagina": "roteiro/index.html",
+  "pt": "Como ligar a governança à perda funcional?"
+ },
+ {
+  "k": "ccff6e56b889d123",
+  "pagina": "roteiro/index.html",
+  "pt": "O nexo entre o mecanismo de governança e a perda funcional, e a possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental."
+ },
+ {
+  "k": "daf4bb0a0dd0e8ed",
+  "pagina": "roteiro/index.html",
+  "pt": "Que normas sustentam a tutela específica?"
+ },
+ {
+  "k": "cdaae9e15d589f27",
+  "pagina": "roteiro/index.html",
+  "pt": "O art. 35 do CDC<1><2>11</2></1> permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 84 do CDC<3><4>20</4></3> consagra a tutela específica da obrigação e o resultado prático equivalente ao adimplemento."
+ },
+ {
+  "k": "123918ba87b6f5bd",
+  "pagina": "roteiro/index.html",
+  "pt": "A indenização sai de cena?"
+ },
+ {
+  "k": "e7cfdba5144b4e40",
+  "pagina": "roteiro/index.html",
+  "pt": "A resposta prioriza restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente e ajustes de governança. A indenização continua possível e, muitas vezes, indispensável, inclusive por danos extrapatrimoniais, mas não como resposta automática. Quando o dano revela padrão repetível, cabe correção de regime, com tutela inibitória, medidas estruturais e providências coletivas."
+ },
+ {
+  "k": "8a941af35b31a032",
+  "pagina": "roteiro/index.html",
+  "pt": "que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos, e do art. 84<1>p. 540</1>"
+ },
+ {
+  "k": "441ad6bf41b0bd78",
+  "pagina": "roteiro/index.html",
+  "pt": "Nessas hipóteses, a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes. O que se recusa é sua transformação em resposta automática e preferencial em qualquer hipótese<1>p. 742</1>"
+ },
+ {
+  "k": "1ff9689fd89f7e9b",
+  "pagina": "roteiro/index.html",
+  "pt": "A correção de regime, ao contrário, permite tratar o dano como arquitetural e não apenas como episódio. Com isso, torna-se possível justificar tutela inibitória, medidas estruturais, providências coletivas e até mecanismos de compliance compulsório compatíveis com auditabilidade aberta e controle institucional da fruição.<1>p. 741</1>"
+ },
+ {
+  "k": "787edb9cc4222f7f",
+  "pagina": "roteiro/index.html",
+  "pt": "Quando a lesão atinge acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição. A resposta prioriza a recomposição funcional, e a indenização fica para a restauração inviável ou insuficiente."
+ },
+ {
+  "k": "ec2d899736a1b77d",
+  "pagina": "roteiro/index.html",
+  "pt": "Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração."
+ },
+ {
+  "k": "4c1f99d221c94e5d",
+  "pagina": "roteiro/index.html",
+  "pt": "Estruturar a tutela conforme a natureza da perda, mirando a fruição afetada, e não só a sua tradução em dinheiro."
+ },
+ {
+  "k": "1559eac1265fef89",
+  "pagina": "roteiro/index.html",
+  "pt": "O dever correspondente é o de estruturar a tutela em conformidade com a natureza da perda, mirando a fruição afetada e não apenas sua tradução monetária residual."
+ },
+ {
+  "k": "00db8a647ef9cd39",
+  "pagina": "roteiro/index.html",
+  "pt": "A prova mínima exigível envolve demonstração do nexo entre o mecanismo de governança e a perda funcional, bem como da possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental."
+ },
+ {
+  "k": "c2f18b074fbc2c9e",
+  "pagina": "roteiro/index.html",
+  "pt": "Varia conforme a incidência principal do caso. A monetização continua possível, como resposta residual ou complementar."
+ },
+ {
+  "k": "ae5ad0133151af71",
+  "pagina": "roteiro/index.html",
+  "pt": "A qualificação jurídica possível varia conforme a incidência principal do caso, mas a consequência institucional deve privilegiar restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente, ajustes de governança, tutela inibitória e correção estrutural quando o dano revelar padrão repetível. A monetização permanece possível, mas como resposta residual ou complementar, não como reflexo automático da lesão."
+ },
+ {
+  "k": "c3c2f30dc333a03f",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Os remédios, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.10 na tese</4></3> · <5>Recomposição funcional e correção de regime</5>"
+ },
+ {
+  "k": "18ae05595fcfe3f5",
+  "pagina": "roteiro/index.html",
+  "pt": "O que o quadro não faz?"
+ },
+ {
+  "k": "206473337b7b1cbf",
+  "pagina": "roteiro/index.html",
+  "pt": "Não mecaniza a decisão nem reduz a complexidade do ambiente a uma fórmula rígida. Ele organiza a passagem entre a estrutura de governança, o dever violado, a exigência probatória mínima, a qualificação jurídica e a consequência institucional possível."
+ },
+ {
+  "k": "aad5edc0ac0ff4f3",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 6º do CDC <1>↩</1>"
+ },
+ {
+  "k": "afdb64e0cb957ba3",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 39, IV, do CDC <1>↩</1>"
+ },
+ {
+  "k": "6d90f6517be25b75",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 46 do CDC <1>↩</1>"
+ },
+ {
+  "k": "908384a7d9180f5c",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 54 do CDC <1>↩</1>"
+ },
+ {
+  "k": "754e4998044c10b0",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 47 do CDC <1>↩</1>"
+ },
+ {
+  "k": "9cf17d25e18dc899",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 51, IV, do CDC <1>↩</1>"
+ },
+ {
+  "k": "c305b2a955be25f5",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 30 do CDC <1>↩</1>"
+ },
+ {
+  "k": "66c76937870ba024",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 35 do CDC <1>↩</1>"
+ },
+ {
+  "k": "1963f2894be7e7fb",
+  "pagina": "roteiro/index.html",
+  "pt": "arts. 396 a 400 do CPC <1>↩</1>"
+ },
+ {
+  "k": "ed89c24ca9dfa23f",
+  "pagina": "roteiro/index.html",
+  "pt": "arts. 8º, 10 e 12 do CDC <1>↩</1>"
+ },
+ {
+  "k": "e9a711fef539cf87",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 6º da Lei nº 13.709/2018 <1>↩</1>"
+ },
+ {
+  "k": "49f843ef5218314a",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 51, XIII, do CDC <1>↩</1>"
+ },
+ {
+  "k": "d1faa8fda01737db",
+  "pagina": "roteiro/index.html",
+  "pt": "arts. 18 e 20 do CDC <1>↩</1>"
+ },
+ {
+  "k": "e01afdcf9b46d37e",
+  "pagina": "roteiro/index.html",
+  "pt": "arts. 421 e 422 do Código Civil <1>↩</1>"
+ },
+ {
+  "k": "4bee014ea7a232db",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 39 do CDC <1>↩</1>"
+ },
+ {
+  "k": "a6b2c9e5735bfbbe",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 84 do CDC <1>↩</1>"
+ },
+ {
+  "k": "db045a7e6d1368c2",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 29 do CDC <1>↩</1>"
+ },
+ {
+  "k": "8a9e5caa88f131ba",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 373, § 1º, do CPC <1>↩</1>"
+ },
+ {
+  "k": "529b87e685d631d6",
+  "pagina": "roteiro/index.html",
+  "pt": "art. 5º, XXIX, da Constituição <1>↩</1>"
+ },
+ {
+  "k": "1db5fa1dcc01527c",
+  "pagina": "roteiro/index.html",
+  "pt": "arts. 7º e 8º da Lei nº 9.609/1998 <1>↩</1>"
+ },
+ {
+  "k": "4dae65a0b4acd97b",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Para que servem as situações?</1>"
+ },
+ {
+  "k": "01e607761e70fe2b",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Por que a ordem importa?</1>"
+ },
+ {
+  "k": "9c25e506dddb0c8f",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Isto é um objeto imaterial de consumo?</1>"
+ },
+ {
+  "k": "ffdc1f33e7397db5",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Como usar</1>"
+ },
+ {
+  "k": "2a2ca4014fc341aa",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+ },
+ {
+  "k": "3dc58f8c89ba40a3",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+ },
+ {
+  "k": "8807a92b725c9a6c",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a informação existe, mas some no excesso</1>"
+ },
+ {
+  "k": "affa7bce8ee72acc",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+ },
+ {
+  "k": "1ce97b1542f966c5",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+ },
+ {
+  "k": "0366e10fed465455",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a atualização tirou o valor do que foi comprado</1>"
+ },
+ {
+  "k": "3e0a8dd8f897c01f",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando punir é fácil e contestar é difícil</1>"
+ },
+ {
+  "k": "7424618f5289674b",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a perda é rotina do desenho, e não acidente</1>"
+ },
+ {
+  "k": "2130c042ad451ed1",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Como provar quando a prova está com a plataforma</1>"
+ },
+ {
+  "k": "c70962b374c317c1",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>Quando a propriedade intelectual vira escudo</1>"
+ },
+ {
+  "k": "d04eaec4e7713d4a",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>O que pedir, restaurar antes de indenizar</1>"
+ },
+ {
+  "k": "43330898e75e6a9a",
+  "pagina": "roteiro/index.html",
+  "pt": "<1>O que o quadro não faz?</1>"
+ },
+ {
+  "k": "8f8a727e4bd12cc8",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>Parâmetros</2><3><4>7.1.1</4> Dos enunciados operacionais de controlabilidade do OIC</3></1>"
+ },
+ {
+  "k": "1cb9d45ac68e4cf4",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>Situações</2><3><4>7.1.2</4> Da qualificação jurídica e deveres de fornecimento do OIC</3></1>"
+ },
+ {
+  "k": "bbfac73323e40cf3",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>Diretrizes de controle</2><3><4>7.1.3</4> Das diretrizes para controle de arquitetura e governança</3></1>"
+ },
+ {
+  "k": "d3e0c654531310f6",
+  "pagina": "roteiro/index.html",
+  "pt": "<1><2>Limites ao poder da plataforma</2><3><4>7.1.4</4> Da cidadania digital e limites ao poder privado de plataforma</3></1>"
+ },
+ {
+  "k": "d7360e70442b3e5c",
+  "pagina": "roteiro/index.html",
+  "pt": "ANDRADE, Victor L. P. Situações para operar em conflitos com plataformas digitais. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/roteiro/"
+ },
+ {
+  "k": "be5baaba98cc3f3d",
+  "pagina": "roteiro/index.html",
+  "pt": "Onze situações para quem vai advogar, cada uma com fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+ },
+ {
+  "k": "89b0c469ea160c2c",
+  "pagina": "roteiro/index.html",
+  "pt": "As situações"
+ },
+ {
+  "k": "12308e5e33c3750a",
+  "pagina": "roteiro/index.html",
+  "pt": "Guia para operar"
+ },
+ {
+  "k": "96fb3f2a819d5fa1",
+  "pagina": "roteiro/index.html",
+  "pt": "o quadro do 7.1.2 · cinco partes, na voz do site e em texto literal"
+ },
+ {
+  "k": "684c302dff1b0410",
+  "pagina": "roteiro/index.html",
+  "pt": "Situações · Lex Plataformae"
+ },
+ {
+  "k": "e7b64305536f245d",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Cidadania digital e limites ao poder da plataforma · Lex Plataformae"
+ },
+ {
+  "k": "c23af531d3135095",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Para operar<1> · 7.1.4 · p. 752 a 755</1>"
+ },
+ {
+  "k": "94206244038e496d",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>Limites ao poder da plataforma</1><2>Da cidadania digital e limites ao poder privado de plataforma</2>"
+ },
+ {
+  "k": "8cefa4589928b4b9",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "O fornecimento pode alcançar condições práticas de participação e de permanência. O regime limita esse poder sem equiparar a plataforma ao Estado."
+ },
+ {
+  "k": "3a79bf54fb103393",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>Ler no texto integral</1>"
+ },
+ {
+  "k": "5676657fc2dff934",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Até onde vai o poder privado da plataforma?"
+ },
+ {
+  "k": "b07fff28a783e238",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "O fornecimento pode incidir sobre condições práticas de participação, visibilidade, reputação, permanência e contestação. Nos objetos de longa duração, sanções, apagamentos e degradações unilaterais podem atingir continuidade biográfica, inserção relacional e identidade simbólica, além do que é patrimonial. Isso não transforma qualquer desconforto digital em drama identitário."
+ },
+ {
+  "k": "e78ea508a5292525",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Ele incide, cada vez mais, sobre condições práticas de participação, visibilidade, reputação, permanência e contestação em ambientes que estruturam parcelas relevantes da vida social contemporânea.<1>p. 752</1>"
+ },
+ {
+  "k": "f904c5a65d033aa3",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Não se trata de inflacionar qualquer desconforto digital à condição de drama identitário.<1>p. 753</1>"
+ },
+ {
+  "k": "d56b5f3fb7a45526",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "A plataforma é equiparada ao Estado?"
+ },
+ {
+  "k": "d75035cece5702e7",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Não. A relevância pública funcional não produz equiparação estatal, e o CDC não vira constituição paralela da vida digital. Mas a plataforma também não é fornecedor institucionalmente neutro. O ordenamento já tem matrizes de limitação, como a Constituição e o CDC, em compatibilização com a função social da propriedade e com a propriedade intelectual."
+ },
+ {
+  "k": "b6919963cab32ad0",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Quando poderes privados administram acesso, permanência, visibilidade, reputação e contestação em ambientes estruturalmente relevantes para participação social, o ordenamento já dispõe de matrizes jurídicas de limitação.<1>p. 753</1>"
+ },
+ {
+  "k": "1267af8ab7c00409",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Não se trata de equiparar plataforma a Estado, nem de converter o CDC em constituição paralela da vida digital.<1>p. 753</1>"
+ },
+ {
+  "k": "6671be02033a76a9",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "O que fazer com as autodescrições da plataforma?"
+ },
+ {
+  "k": "858e28f318e347a2",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "A plataforma costuma se apresentar como mero intermediário, tecnologia neutra ou prestador global regido pelos próprios termos. Essas figuras deslocam a discussão para fora da imputação, e o regime não as aceita como critério suficiente. Importa como ela organiza acesso, permanência, visibilidade, contestação e fruição."
+ },
+ {
+  "k": "ddf2b11097e6297b",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "O intermediário dirá que apenas conecta. A tecnologia neutra dirá que apenas executa. O prestador global dirá que apenas opera segundo seus próprios termos universais.<1>p. 754</1>"
+ },
+ {
+  "k": "159b34dfb768f36d",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "O que muda na aplicação às famílias de plataforma?"
+ },
+ {
+  "k": "9e8861584ee13d30",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "A incidência se torna reconhecível sem depender da sensibilidade cultural do leitor ou do julgador. O argumento passa a operar por critérios de fornecimento, governança e limitação do poder privado, e não pela adesão emotiva à importância social do serviço. Mesmo sob discursos de neutralidade, inovação, globalidade ou intermediação, o caso volta ao que importa, que é quem organiza a fruição, quem administra a inteligibilidade, quem controla a permanência e quem define a contestação."
+ },
+ {
+  "k": "69ef61c144826bcb",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "quem organiza a fruição, quem administra sua inteligibilidade, quem controla sua permanência e quem define as condições de sua contestação.<1>p. 754</1>"
+ },
+ {
+  "k": "0b1ccec7e5a7d0e6",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Qual é o papel da cidadania digital?"
+ },
+ {
+  "k": "afae022c276fc7ea",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "É um problema funcional de participação sob governança privada, e não categoria celebratória. Ela não substitui o regime. Ajuda a explicar por que certos conflitos não podem ser tratados como aborrecimentos contratuais de baixa densidade, quando a plataforma administra portas de entrada, critérios de permanência, visibilidade e meios de contestação."
+ },
+ {
+  "k": "78a9f4eef19a6ab8",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Ela ajuda a iluminar por que certos conflitos de fruição governada não podem ser tratados como meros aborrecimentos contratuais de baixa densidade.<1>p. 754</1>"
+ },
+ {
+  "k": "2128f8249c44ed62",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Ela comparece como problema funcional de participação sob governança privada.<1>p. 754</1>"
+ },
+ {
+  "k": "57380106b50b599a",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "A cidadania digital, nesse contexto, não substitui o regime do OIC.<1>p. 754</1>"
+ },
+ {
+  "k": "f4c1bef0f8d2a063",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>A lei da plataforma, no caminho do jurista</1>"
+ },
+ {
+  "k": "699697a8caae1171",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>As diretrizes de controle</1>"
+ },
+ {
+  "k": "fb86fe31fcab898e",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>Até onde vai o poder privado da plataforma?</1>"
+ },
+ {
+  "k": "ce6e4f7866a6a73c",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>A plataforma é equiparada ao Estado?</1>"
+ },
+ {
+  "k": "ae4e9ebc32b57d91",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>O que fazer com as autodescrições da plataforma?</1>"
+ },
+ {
+  "k": "38e9868758a9d739",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>O que muda na aplicação às famílias de plataforma?</1>"
+ },
+ {
+  "k": "d1ad79b07a7f042f",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1>Qual é o papel da cidadania digital?</1>"
+ },
+ {
+  "k": "a47effe43d825770",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1><2>Diretrizes de controle</2><3><4>7.1.3</4> Das diretrizes para controle de arquitetura e governança</3></1>"
+ },
+ {
+  "k": "077de3fb6bbc6687",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "<1><2>Limites ao poder da plataforma</2><3><4>7.1.4</4> Da cidadania digital e limites ao poder privado de plataforma</3></1>"
+ },
+ {
+  "k": "d7dbdd139cd69ff9",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "ANDRADE, Victor L. P. Cidadania digital e limites ao poder da plataforma. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/roteiro/limites/"
+ },
+ {
+  "k": "4726319f33f2c8a5",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Cidadania digital e limites ao poder privado de plataforma, com o que o regime controla e o que não equipara ao Estado."
+ },
+ {
+  "k": "8d34ae3b981882d7",
+  "pagina": "roteiro/limites/index.html",
+  "pt": "Da cidadania digital e limites ao poder privado de plataforma"
+ },
+ {
+  "k": "cac72b78589e03b9",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Parâmetros para operar em conflitos com plataformas digitais · Lex Plataformae"
+ },
+ {
+  "k": "405e9a7c4436420b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Parâmetros"
+ },
+ {
+  "k": "e01bbb98ef06be45",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Os dez parâmetros organizam a leitura de cada caso, um por situação, na ordem em que a análise avança. Cada um diz o que controla, o que não basta e aonde leva."
+ },
+ {
+  "k": "e4d13f5197406f3c",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O que os parâmetros resolvem?"
+ },
+ {
+  "k": "e08123bb9e7fb909",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O conflito não se resolve pela aparência do setor nem pela familiaridade social com a tecnologia. O caso precisa ser reconduzido a parâmetros densos o bastante para estabilizar expectativas, orientar a prova e permitir consequências consistentes. Eles reduzem a dependência de repertórios subjetivos do intérprete e contêm a tendência de decidir por impressões vagas sobre inovação, complexidade técnica ou liberdade empresarial. O que decide é a forma como o ambiente organiza poder privado, redistribui capacidades de compreensão e contestação e produz fricções relevantes sobre a experiência de consumo."
+ },
+ {
+  "k": "6a39518e8c164c61",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A condição digital, por si, não decide nada.<1>p. 715</1>"
+ },
+ {
+  "k": "c944cd35c6f333e1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Impõe-se a recondução do caso a parâmetros suficientemente densos para estabilizar expectativas institucionais, orientar a formação da prova e permitir consequências normativas consistentes.<1>p. 714</1>"
+ },
+ {
+  "k": "8a1d2c7fa8bc27ea",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O que decide, juridicamente, é a forma pela qual o ambiente organiza poder privado, redistribui capacidades de compreensão e contestação e produz fricções relevantes sobre a experiência de consumo.<1>p. 715</1>"
+ },
+ {
+  "k": "5280af2df964cee7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Em que sequência se aplica?"
+ },
+ {
+  "k": "35c4b8c9fc69e38f",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A aplicação parte do mecanismo de governança predominante e do tipo de fricção que ele produz. Identifica a vulnerabilidade central acionada no vínculo. Fixa o padrão de prova compatível com a estrutura do conflito. Aponta a consequência dogmática possível. A sequência funciona como trava, porque impede tanto a decomposição do conflito em cláusulas isoladas quanto a troca da análise jurídica por impressão difusa sobre tecnologia."
+ },
+ {
+  "k": "b0a3ee116707c8e3",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Na ordem dos parâmetros, vêm primeiro a qualificação do objeto e a vulnerabilidade semiótica. Em seguida, informação e publicidade. Depois, auditabilidade aberta, equivalência de valor funcional, teleologia abusiva e encargos de prova. A propriedade intelectual e a recomposição funcional fecham o percurso."
+ },
+ {
+  "k": "43dc9d533a791652",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A sequência funciona como trava de controlabilidade.<1>p. 715</1>"
+ },
+ {
+  "k": "341dccaafb34e727",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O que os filtros de legitimidade não exigem?"
+ },
+ {
+  "k": "7784513f6dd4d205",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Auditabilidade aberta, equivalência de valor funcional e teleologia abusiva distinguem a modulação legítima da alteração que degrada a fruição. Não congelam a inovação e não exigem transparência absoluta sobre os processos internos do fornecedor, nem domínio técnico exaustivo do julgador."
+ },
+ {
+  "k": "a61db4f1441d24d1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Não se trata de congelar inovação, nem de exigir transparência absoluta sobre todos os processos internos do fornecedor.<1>p. 716</1>"
+ },
+ {
+  "k": "8a0b596e67eb2646",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Sua relevância está em fornecer critérios de imputação verificáveis, capazes de organizar o raciocínio decisório sem exigir domínio técnico exaustivo do ecossistema pelo julgador.<1>p. 716</1>"
+ },
+ {
+  "k": "4ba298935386b429",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Os dez parâmetros"
+ },
+ {
+  "k": "49f0ab8750c85ec5",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+ },
+ {
+  "k": "7a86eb6c29534717",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+ },
+ {
+  "k": "d19dd2a5857d5172",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a informação existe, mas some no excesso</1>"
+ },
+ {
+  "k": "974f02e5d26d74c8",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+ },
+ {
+  "k": "6ce7b3af33f9ed8b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+ },
+ {
+  "k": "770523c7a9fc4e19",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a atualização tirou o valor do que foi comprado</1>"
+ },
+ {
+  "k": "fb30e68308504721",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a perda é rotina do desenho, e não acidente</1>"
+ },
+ {
+  "k": "131ec92d8998adc9",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Como provar quando a prova está com a plataforma</1>"
+ },
+ {
+  "k": "5280bb4b1ab18556",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a propriedade intelectual vira escudo</1>"
+ },
+ {
+  "k": "7998cbbc6a502229",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>O que pedir, restaurar antes de indenizar</1>"
+ },
+ {
+  "k": "475b63f630a8ac75",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.1</1> Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada"
+ },
+ {
+  "k": "c83cacea102b0684",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A qualificação é a chave de entrada do regime. O foco sai da ontologia civilista do bem e vai para o regime continuado de manutenção, disponibilização e modulação da fruição. O consumidor não frui um bem presumivelmente estável, e sim uma experiência condicionada por infraestrutura técnica, curadoria de acesso, atualização, visibilidade, regras de interação e mecanismos privados de execução. Titularidade formal, licença de uso e disponibilidade nominal não esgotam o problema."
+ },
+ {
+  "k": "235bdfce48d78790",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A qualificação produz efeito em dois planos. Impede que o controle seja neutralizado pela alegação de mera prestação de serviço ou mera licença de conteúdo. E redefine a leitura do CDC, que passa a partir da fruição como relação governada, sem negar a relevância do contrato. A dimensão prestacional não desaparece, porque comparece como modo de sustentar, atualizar e conformar o próprio objeto. A antiga pergunta sobre produto ou serviço, em chave excludente, perde grande parte da utilidade analítica."
+ },
+ {
+  "k": "a8e92d964f9cbee5",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Ela desloca o foco da ontologia civilista do bem para o regime continuado de manutenção, disponibilização e modulação da fruição.<1>p. 717</1>"
+ },
+ {
+  "k": "d3eff817046cecb5",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Em tais contextos, titularidade formal, licença de uso ou mera disponibilidade nominal do objeto não esgotam o problema jurídico.<1>p. 718</1>"
+ },
+ {
+  "k": "da60588c4f67a195",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "No primeiro, ela impede que o controle jurídico seja neutralizado por estratégias descritivas do fornecedor, especialmente pela alegação de que haveria apenas prestação de serviço ou mera licença de conteúdo<1>p. 718</1>"
+ },
+ {
+  "k": "64636a72bca3d247",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Em vez de operar prioritariamente a partir do contrato como enunciado formal, a disciplina passa a ser estruturada a partir da fruição como relação governada.<1>p. 718</1>"
+ },
+ {
+  "k": "7f8c0a5163e9a8d1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>O Objeto Imaterial de Consumo, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "37c3acb635ce5e2f",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Objeto Imaterial de Consumo (OIC)</1> <2>4×</2>"
+ },
+ {
+  "k": "c9d3ea4f36e818c9",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Equivalência de valor funcional</1> <2>1×</2>"
+ },
+ {
+  "k": "59be3e24bfe3c696",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Teleologia abusiva</1> <2>1×</2>"
+ },
+ {
+  "k": "f831fe02f85a1aff",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.2</1> Dos parâmetros da vulnerabilidade semiótica como mecanismo"
+ },
+ {
+  "k": "66f81681d5f778cb",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A vulnerabilidade relevante não é atributo genérico do digital, nem hipossuficiência econômica, nem menor aptidão individual. A questão é objetiva. Sempre que a experiência for mediada por signos e interfaces cujo desenho, hierarquia, saliência e mutabilidade o fornecedor controla, há um campo de assimetria potencialmente relevante. Não se indaga se o usuário foi atento, desconfiado ou informado."
+ },
+ {
+  "k": "e2fda9759b9851d7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A assimetria de sentido costuma vir acompanhada de assimetria de prova, porque quem controla a forma de tornar o objeto inteligível frequentemente controla também logs, históricos de interface, versões de telas, critérios de curadoria e registros de alteração. A categoria serve à imputação e ao controle, e explica por que o dever de informar não se satisfaz com volume de texto e por que a publicidade se lê como gestão de expectativa."
+ },
+ {
+  "k": "c045c293feecde0a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O parâmetro também delimita. Não basta o caso envolver interface, algoritmo ou ambiente online. É preciso que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição."
+ },
+ {
+  "k": "f9e4b2b051142e2d",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A vulnerabilidade semiótica é relacional, estrutural e funcional.<1>p. 721</1>"
+ },
+ {
+  "k": "c803049f7a67ae9b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Sempre que a experiência de consumo for mediada por signos e interfaces cujo desenho, hierarquia, saliência e mutabilidade sejam controlados pelo fornecedor, haverá um campo de assimetria semiótica potencialmente relevante para o Direito.<1>p. 720</1>"
+ },
+ {
+  "k": "c427ce3b5b38832f",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A particularidade desse mecanismo está em que a assimetria de sentido tende a vir acompanhada de assimetria de prova.<1>p. 720</1>"
+ },
+ {
+  "k": "eecfd809fe9defff",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A vulnerabilidade semiótica não opera apenas como descrição sociológica do ambiente, mas como categoria de imputação e de controle.<1>p. 720</1>"
+ },
+ {
+  "k": "2d045f0d295545e1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "É necessário que a governança do sentido atue de forma estrutural sobre a compreensão, a comparabilidade, a previsibilidade ou a contestação da fruição.<1>p. 721</1>"
+ },
+ {
+  "k": "45a0136871391128",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A vulnerabilidade semiótica, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "ee3ecf976a4fbce2",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Objeto Imaterial de Consumo (OIC)</1> <2>2×</2>"
+ },
+ {
+  "k": "aca7d7e445f2c89a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Vulnerabilidade semiótica</1> <2>5×</2>"
+ },
+ {
+  "k": "35e57e0e41160cdb",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.3</1> Dos parâmetros do dever de informar como adequação verificável"
+ },
+ {
+  "k": "2ea347779e1611af",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O dever de informar não se mede por quantidade. Acumular textos, links, avisos, políticas e termos não satisfaz a exigência e pode operar em sentido contrário. Informar é tornar inteligíveis os elementos essenciais da fruição no momento em que a decisão se forma e preservar condições para reconstruir depois o que foi prometido, mostrado e alterado."
+ },
+ {
+  "k": "a781ff2c8563fbeb",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A inadequação pode assumir três formas. Excesso, quando a sobrecarga impede distinguir o essencial do acessório. Dispersão, quando o relevante se pulveriza em documentos, telas e caminhos sem integração. Arquitetura de fluxo, quando o atrativo é valorizado e o oneroso vai para zonas de baixa visibilidade. O caso é de opacidade funcional produzida por desenho."
+ },
+ {
+  "k": "ea0447792ca6ea83",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A pergunta deixa de ser se o dado estava em algum lugar. Passa a ser se ele foi acessível, compreensível e relevante no momento em que poderia influenciar a expectativa ou a reação. Por isso a defesa de que tudo estava no contrato não basta, porque confunde existência formal com cumprimento material do dever."
+ },
+ {
+  "k": "dab7334ebe01560d",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O dever de informar não protege apenas contra mentira factual direta. Protege também contra o deslocamento estratégico do juridicamente relevante para regiões de baixa inteligibilidade.<1>p. 723</1>"
+ },
+ {
+  "k": "6e0745753d38b50e",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Informar, em sentido juridicamente relevante, é tornar inteligíveis os elementos essenciais da fruição no momento em que a decisão do consumidor se forma e, ao mesmo tempo, preservar condições mínimas para reconstrução posterior do que foi prometido, do que foi mostrado e do que foi alterado.<1>p. 722</1>"
+ },
+ {
+  "k": "e1a96356f092612d",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A inadequação informacional, assim, pode assumir a forma de excesso, dispersão e arquitetura de fluxo.<1>p. 722</1>"
+ },
+ {
+  "k": "8219a9a50967c40d",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Trata-se de opacidade funcional produzida por desenho<1>p. 723</1>"
+ },
+ {
+  "k": "e2433d1771d3bddc",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Passa a ser se esse dado foi tornado acessível, compreensível e relevante no momento em que poderia influenciar a formação legítima da expectativa ou a reação do consumidor.<1>p. 723</1>"
+ },
+ {
+  "k": "b7ee634b24fdc12b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Essa fórmula confunde existência formal com cumprimento material do dever.<1>p. 723</1>"
+ },
+ {
+  "k": "5011af38a24c02ba",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "2bd619c252107332",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Objeto Imaterial de Consumo (OIC)</1> <2>1×</2>"
+ },
+ {
+  "k": "dd12dcc14bae4bf7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.4</1> Dos parâmetros da publicidade e oferta como gestão de sentido controlável"
+ },
+ {
+  "k": "363f31ba68c89636",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Nos ecossistemas em que a fruição é antecedida, preparada e orientada por ciclos contínuos de antecipação, a publicidade e a oferta não são camada externa do consumo. Nessas hipóteses, a oferta se constrói por uma economia de sinais que antecede a fruição e condiciona a forma como o consumidor interpreta o que adquire. Teasers, vitrines, eventos promocionais, prévias, contagens regressivas, sugestões de raridade e promessas de prestígio ou desempenho compõem o programa de oferta quando participam da formação da expectativa legítima."
+ },
+ {
+  "k": "680f156bbd460f78",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A enganosidade não depende de falsidade frontal. Pode resultar de ambiguidade construída, de omissão relevante distribuída de forma estratégica ou de descompasso entre o sentido global da promessa e as condições reais da fruição. A publicidade pode sugerir estabilidade onde há precariedade, equivalência onde há assimetria, raridade onde há artificialidade e continuidade onde há mutabilidade intensa."
+ },
+ {
+  "k": "f5a424a1b3547ce3",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O controle recai sobre o que foi prometido como valor e como função, sobre o que foi ocultado como custo ou limitação e sobre a correspondência entre essa moldura e a fruição real. Não se isola a frase de uma peça, porque a promessa pode emergir da articulação de vários elementos, inclusive saliência, timing e repetição. Não se nega a função persuasiva da atividade econômica."
+ },
+ {
+  "k": "0dab076e6d1555e9",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Não interessa apenas o que foi formalmente dito, mas o que foi juridicamente prometido por meio da gestão de signos, expectativas e saliências.<1>p. 726</1>"
+ },
+ {
+  "k": "a3c695c53c8f6e66",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A oferta, nessas hipóteses, não se resume ao enunciado final de compra.<1>p. 724</1>"
+ },
+ {
+  "k": "fce2851c419388c4",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Eles compõem o programa de oferta na medida em que participam da formação da expectativa legítima e da determinação do valor atribuído ao objeto.<1>p. 724</1>"
+ },
+ {
+  "k": "3fe33a639975bb05",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Não se trata de negar a função persuasiva própria da atividade econômica<1>p. 725</1>"
+ },
+ {
+  "k": "74dcdd7e210f3c7a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "2d4d52922be498ef",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Objeto Imaterial de Consumo (OIC)</1> <2>3×</2>"
+ },
+ {
+  "k": "91829a0768f55959",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Antecipação hipercuratorial</1> <2>1×</2>"
+ },
+ {
+  "k": "a616703d82e16a74",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.5</1> Dos parâmetros de auditabilidade aberta para controle sem abertura indiscriminada de código"
+ },
+ {
+  "k": "0948ee7d7c79273e",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Alterações relevantes precisam poder ser reconstruídas em caso de controvérsia, para que a opacidade não funcione como imunização contra o controle. A exigência é seletiva e funcional. Deve ser auditável o que importa para tornar decidível a controvérsia, como alterações de regras de acesso, reconfigurações com impacto funcional, mudanças de versão, sanções e critérios com repercussão material. A plataforma deve preservar e exibir trilhas, registros, logs mínimos, justificativas operacionais e elementos de contexto."
+ },
+ {
+  "k": "25f9812e1a09deb7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O parâmetro não exige abertura de código-fonte nem renúncia generalizada a segredos, e também não aceita a complexidade técnica como álibi. Segredo empresarial, exclusividade econômica e complexidade deixam de ser vetos absolutos e passam a ser compatibilizados com a verificabilidade mínima. Os instrumentos são ordens de preservação, exibição delimitada, perícia restrita e motivação verificável. O mínimo de verificabilidade racionaliza o litígio, porque dá objeto cognoscível às perícias e às ordens de esclarecimento."
+ },
+ {
+  "k": "49790759d0f04949",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A exigência, por isso, é seletiva e funcional. O que deve ser auditável não é tudo, mas aquilo que importa para tornar decidível a controvérsia.<1>p. 727</1>"
+ },
+ {
+  "k": "bc2463e569f993ad",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Nesses casos, a plataforma deve ser capaz de preservar e exibir trilhas, registros, logs mínimos, justificativas operacionais e elementos de contextualização suficientes para permitir verificação institucional delimitada.<1>p. 727</1>"
+ },
+ {
+  "k": "99bbde0b9059df3e",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A primeira transforma complexidade técnica em álibi para irresponsabilidade.<1>p. 727</1>"
+ },
+ {
+  "k": "89cf09ef7b5db9e8",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Ele a racionaliza.<1>p. 728</1>"
+ },
+ {
+  "k": "989a0fbe88437b40",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A auditabilidade aberta, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "35dd2a84c3f325c6",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Auditabilidade aberta</1> <2>4×</2>"
+ },
+ {
+  "k": "906dc7ed31eac66a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.6</1> Dos parâmetros de equivalência de valor funcional como núcleo de fruição em ambiente mutável"
+ },
+ {
+  "k": "70f456e02b7d807c",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A mudança, em si, não é ilícita. O problema começa quando ela degrada, esvazia ou desvia, de modo relevante, a função que justificou a aquisição. O critério não se reduz a desempenho técnico nem a atributos isolados. Recai sobre o papel do objeto na experiência adquirida, sua utilidade no ecossistema, sua inserção relacional e, quando componha de modo objetivamente reconhecível o núcleo da aquisição, sua dimensão simbólica."
+ },
+ {
+  "k": "736fa6c93de7b819",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A pergunta deixa de ser se a mudança cabia no poder geral de atualização. Passa a ser se a experiência continua funcionalmente equivalente, em termos substanciais. O parâmetro afasta os dois extremos, o congelamento do ambiente e a legitimação de toda alteração pela sobrevivência nominal do objeto. Também orienta o remédio, com prioridade para restauração, substituição equivalente e reversão técnica quando viável."
+ },
+ {
+  "k": "338863ddc08af1a2",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O parâmetro, assim, impede duas distorções opostas.<1>p. 731</1>"
+ },
+ {
+  "k": "877d95f654416db7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Ao deslocar o foco para o núcleo funcional da experiência adquirida, torna possível priorizar restauração, substituição equivalente, reversão técnica quando viável ou outras formas de recomposição que preservem o sentido prático do vínculo, em vez de reduzir automaticamente a lesão a monetização posterior.<1>p. 731</1>"
+ },
+ {
+  "k": "668cf63e4858c2d1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A equivalência de valor funcional, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "39c62a4f08d3449b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Equivalência de valor funcional</1> <2>7×</2>"
+ },
+ {
+  "k": "597eaf8de5447ebf",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.7</1> Dos parâmetros de teleologia abusiva e o ilícito de arquitetura enquanto conduta"
+ },
+ {
+  "k": "d4048d2e7ff2705e",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Nem toda abusividade aparece como cláusula isolada, evento singular ou falha pontual. Há casos em que a exploração decorre do programa de funcionamento, e é a coordenação entre vários elementos que revela a finalidade exploratória. A arquitetura é tratada como conduta, porque organiza acesso, visibilidade, fricção, irreversibilidade, contestação e saliência. Alegações de eficiência, equilíbrio do sistema ou necessidade de atualização não bastam, por si, para neutralizar o controle."
+ },
+ {
+  "k": "4a3af2f2c819f16f",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A imputação não nasce de desconforto com o modelo de negócios. Exige finalidade funcional objetivamente reconhecível, revelada pela articulação entre mecanismos de governança, vulnerabilidade, padrão de opacidade, fricções e efeitos relevantes sobre a autonomia prática e a fruição. Reconhecida a teleologia abusiva, a resposta pode alcançar o regime, com tutela inibitória, reconfiguração de fluxos, deveres de motivação e mecanismos de reversibilidade mais simétricos."
+ },
+ {
+  "k": "ad752f1f7fca5eef",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Nesses casos, a lesão não pode ser adequadamente apreendida pela decomposição do conflito em incidentes autônomos, porque é precisamente a coordenação entre múltiplos elementos do ambiente que torna cognoscível sua finalidade exploratória.<1>p. 732</1>"
+ },
+ {
+  "k": "76b1e38b29d7c4e6",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Torna-se cabível pensar em tutela inibitória, em reconfiguração de fluxos, em revisão de fricções seletivas, em deveres de motivação, em mecanismos de reversibilidade mais simétricos<1>p. 733</1>"
+ },
+ {
+  "k": "c9ba8b9e8c3c937b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A teleologia abusiva e o ilícito de arquitetura, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "a5d6fff8e9eb6619",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Teleologia abusiva</1> <2>6×</2>"
+ },
+ {
+  "k": "8e0955aa06ed7a20",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.8</1> Dos parâmetros de prova e distribuição dinâmica do ônus em ambiente de opacidade estrutural"
+ },
+ {
+  "k": "3598cf465d116133",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A prova faz parte do modo como o vínculo é governado. Quem controla logs, históricos, critérios decisórios, versões, registros de interface e vestígios de sanção controla, em larga medida, as condições de reconstrução do que ocorreu. Exigir prova exaustiva da parte vulnerável, como se as condições fossem simétricas, premia o controle privado da obscuridade. A preservação e a exibição de registros mínimos integram o dever de conformação legítima do vínculo."
+ },
+ {
+  "k": "557285812182ec38",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Admite-se a distribuição dinâmica do ônus sempre que a prova relevante estiver sob controle técnico do fornecedor. Quanto maior a concentração privada de registros, maior a exigência de preservação, exibição delimitada e justificação verificável. Isso não dispensa verossimilhança, encadeamento argumentativo nem delimitação do objeto. A falta injustificada de registros relevantes pode autorizar presunções favoráveis ao consumidor e reforçar a imputação de inadequação do fornecimento."
+ },
+ {
+  "k": "629fc2a70fc63566",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O Direito não pode aceitar que a plataforma administre simultaneamente a fruição, a narrativa do evento e as condições de sua verificabilidade, convertendo essa tripla concentração em vantagem processual autolegitimadora.<1>p. 736</1>"
+ },
+ {
+  "k": "a4fd0958332ca531",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Nesses cenários, exigir prova exaustiva da parte vulnerável como se as condições de produção do litígio fossem simétricas significa, na prática, premiar o controle privado da obscuridade.<1>p. 735</1>"
+ },
+ {
+  "k": "503f5482c9916099",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A consequência disso é a admissibilidade de distribuição dinâmica do ônus probatório sempre que a prova relevante estiver estruturalmente sob controle técnico do fornecedor.<1>p. 735</1>"
+ },
+ {
+  "k": "e2b7ec531b39e35a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Pode autorizar presunções favoráveis ao consumidor e reforçar a imputação de inadequação do regime de fornecimento.<1>p. 736</1>"
+ },
+ {
+  "k": "ccb10b2dd5203588",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A prova, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "b6729d673ef96da3",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Auditabilidade aberta</1> <2>1×</2>"
+ },
+ {
+  "k": "85a7868dc2a2946e",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.9</1> Dos parâmetros de compatibilização entre o CDC e os direitos de propriedade intelectual à luz da primazia da função social e dos limites constitucionais brasileiros"
+ },
+ {
+  "k": "7bcc3c36eaae8b7a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A exclusividade protegida não legitima de forma irrestrita o modo como ela é exercida na relação de consumo. A proteção segue íntegra no seu plano próprio, mas não funciona como imunização contra o controle de adequação, transparência, lealdade, equivalência funcional e tutela da fruição. O titular conserva prerrogativas econômicas e técnicas, inclusive para organizar o ambiente, proteger ativos e preservar elementos internos. Não conserva a possibilidade de afastar de antemão o controle do fornecimento."
+ },
+ {
+  "k": "cd98f34666b4eb9b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A compatibilização passa pelos filtros do regime. A auditabilidade aberta não exige revelação integral de segredos, e a equivalência funcional não nega a prerrogativa de atualizar. Havendo conflito, a solução vem da compatibilização funcional dos institutos, sob os limites constitucionais e a função social."
+ },
+ {
+  "k": "210954a368c11413",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A proteção da propriedade intelectual permanece íntegra em seu plano próprio, mas isso não autoriza que sua invocação funcione como cláusula geral de imunização contra controle de adequação, transparência, lealdade, equivalência funcional e tutela da fruição.<1>p. 737</1>"
+ },
+ {
+  "k": "29c25debea35f1de",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "O titular da exclusividade conserva, em consequência, suas prerrogativas econômicas e técnicas, inclusive para organizar o ecossistema, proteger seus ativos e preservar elementos internos de funcionamento.<1>p. 738</1>"
+ },
+ {
+  "k": "89b6ae69f5a9a74b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A auditabilidade aberta é plenamente compatível com a propriedade intelectual porque não exige revelação integral de segredos empresariais ou exposição total da arquitetura tecnológica<1>p. 738</1>"
+ },
+ {
+  "k": "d1d3d1cb19756fa2",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "a solução deverá ser buscada pela compatibilização funcional dos institutos, sob a primazia dos limites constitucionais brasileiros e da função social que conforma o uso legítimo das posições proprietárias.<1>p. 739</1>"
+ },
+ {
+  "k": "518731518b1f30ff",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>A propriedade intelectual, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "0d7281012e062259",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Equivalência de valor funcional</1> <2>2×</2>"
+ },
+ {
+  "k": "d7f27e796a490c52",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>7.1.1.10</1> Dos parâmetros para remédios adequados à primazia da recomposição funcional e correção de regime"
+ },
+ {
+  "k": "c94d05aaa179be9a",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "A resposta não parte da conversão automática da lesão em dinheiro. Sempre que técnica e juridicamente viável, a tutela prioritária é a recomposição funcional e a correção do regime. O pagamento posterior pode deixar intocado o mecanismo lesivo e normalizar a perda como custo ordinário do modelo. A recomposição pode envolver restauração de acesso, reversão ou revisão de sanções, preservação de histórico, reativação de funcionalidades, substituição equivalente, reversibilidade de versões, motivação verificável e mecanismos de contestação."
+ },
+ {
+  "k": "4f481e03902dd74d",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Complexidade técnica não equivale a impossibilidade. Não se exige congelamento do ambiente nem submissão das decisões técnicas à vontade individual do consumidor. Quando a lesão é arquitetural e repetível, abre-se a correção de regime, e pode se justificar tutela inibitória, medidas estruturais, providências coletivas e até compliance compulsório compatível com auditabilidade aberta e controle institucional da fruição. A indenização continua legítima, em posição residual ou complementar, para recompor o que a tutela específica não alcança e reconhecer danos extrapatrimoniais quando presentes."
+ },
+ {
+  "k": "4d52b2f58591b109",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Transformar abusos estruturais em meras despesas operacionais é, na prática, neutralizar o Direito pela via contábil.<1>p. 742</1>"
+ },
+ {
+  "k": "e0e07e442f99b3c1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Pode envolver manutenção ou restauração de acesso, reversão ou revisão de sanções, preservação de histórico, reativação de funcionalidades, substituição por posição funcionalmente equivalente, reversibilidade de versões quando tecnicamente possível, correções procedimentais de governança, deveres de motivação verificável, mecanismos inteligíveis de contestação<1>p. 740</1>"
+ },
+ {
+  "k": "28a95860f597ce95",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Não se exige congelamento do ecossistema nem submissão de toda decisão técnica do fornecedor à vontade individual do consumidor.<1>p. 741</1>"
+ },
+ {
+  "k": "728a829fdbcb20e7",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Com isso, torna-se possível justificar tutela inibitória, medidas estruturais, providências coletivas e até mecanismos de compliance compulsório compatíveis com auditabilidade aberta e controle institucional da fruição.<1>p. 741</1>"
+ },
+ {
+  "k": "26419e2512a720b4",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "Ela assume natureza residual ou complementar sempre que a recomposição funcional for inviável, insuficiente ou incapaz de abarcar integralmente os<1>p. 741</1>"
+ },
+ {
+  "k": "a80422f00e52d7a1",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes.<1>p. 742</1>"
+ },
+ {
+  "k": "120b9056ba3f6f61",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Os remédios, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+ },
+ {
+  "k": "1bf57ea2cfed3b5b",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Objeto Imaterial de Consumo (OIC)</1> <2>5×</2>"
+ },
+ {
+  "k": "80909943836b4722",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Recomposição funcional e correção de regime</1> <2>7×</2>"
+ },
+ {
+  "k": "f06b4ef0c59fd6c0",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Os conceitos</1>"
+ },
+ {
+  "k": "bdfe2da4adfa5102",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>O que os parâmetros resolvem?</1>"
+ },
+ {
+  "k": "bfd68da12baf2022",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Em que sequência se aplica?</1>"
+ },
+ {
+  "k": "5f18b9be62a861d4",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>O que os filtros de legitimidade não exigem?</1>"
+ },
+ {
+  "k": "a4798b137bf7aad3",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+ },
+ {
+  "k": "1a015ea29f312f21",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+ },
+ {
+  "k": "fec77f9b3dd23a27",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a informação existe, mas some no excesso</1>"
+ },
+ {
+  "k": "4efa43853e0c6c03",
+  "pagina": "roteiro/parametros/index.html",
+  "pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+ }
+]
