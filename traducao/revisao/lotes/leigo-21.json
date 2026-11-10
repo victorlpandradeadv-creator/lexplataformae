@@ -1,0 +1,602 @@
+[
+{
+"k": "b530cc365c3f7829",
+"pagina": "problemas/rede-social/index.html",
+"pt": "Quando a rede pode punir ou mudar o alcance sem que isso vire direito seu?"
+},
+{
+"k": "650601edaa5e2835",
+"pagina": "problemas/rede-social/index.html",
+"pt": "A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo que dê para conferir, de coerência entre uma decisão e outra e de um caminho compreensível de contestação."
+},
+{
+"k": "6bac4df9868e8941",
+"pagina": "problemas/rede-social/index.html",
+"pt": "Uma queda pequena ou passageira não basta, porque a perda precisa ser relevante e duradoura, e não um incômodo de um dia. Também nem toda relação feita por meio de tecnologia entra na proteção do consumidor."
+},
+{
+"k": "96f74d79ba2efd33",
+"pagina": "problemas/rede-social/index.html",
+"pt": "Há possibilidade típica de degradação relevante do feixe sem ruptura total do acesso, de modo persistente e substantivo, e não como desconforto pontual.<1>p. 433</1>"
+},
+{
+"k": "8ee3dcdaee50db93",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>Como saber se a queda de alcance ou a punição passou do ponto?</1>"
+},
+{
+"k": "b903a93d2068d123",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>Que registros ajudam a mostrar a queda ou a punição?</1>"
+},
+{
+"k": "592eda1f10180441",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>O que dá para pedir à rede depois da punição ou da queda?</1>"
+},
+{
+"k": "687ed0436cfb67d5",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>A quem recorrer quando a rede não explica a punição?</1>"
+},
+{
+"k": "e2c1d5be7e8d057b",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>Quando a rede pode punir ou mudar o alcance sem que isso vire direito seu?</1>"
+},
+{
+"k": "d90011e73b9b216f",
+"pagina": "problemas/rede-social/index.html",
+"pt": "<1>Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?</1>"
+},
+{
+"k": "ec1d9f76dd071a65",
+"pagina": "problemas/rede-social/index.html",
+"pt": "ANDRADE, Victor L. P. Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/rede-social/"
+},
+{
+"k": "e2b1b058b535667b",
+"pagina": "problemas/rede-social/index.html",
+"pt": "Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma. Quando o alcance cai…"
+},
+{
+"k": "262e8e642e809e12",
+"pagina": "problemas/rede-social/index.html",
+"pt": "Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?"
+},
+{
+"k": "1c9b3c9e0e35b0fa",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A regra que me prejudicou estava enterrada nos termos de uso. E agora? · Lex Plataformae"
+},
+{
+"k": "333691124ccaacb7",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso.</1> <2>E agora?</2>"
+},
+{
+"k": "01b382ca8df0315a",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar. Estar escrito em algum lugar não basta, porque o que conta é se, na hora de decidir, você tinha como entender o que aquela regra significava."
+},
+{
+"k": "b77111d8fc8c1364",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A simples acumulação de textos, links, avisos, políticas, termos e janelas explicativas não satisfaz, por si, a exigência de informação adequada.<1>p. 722</1>"
+},
+{
+"k": "aed7bb9b8ac94056",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Como saber se a regra foi mesmo escondida?"
+},
+{
+"k": "faf9fbdacd1d3bb4",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A informação pode falhar de três jeitos. Pode haver texto demais, de modo que o essencial se perde no meio do resto, ou a regra pode estar espalhada por documentos, telas e menus que não se ligam."
+},
+{
+"k": "a51226071b0b761d",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O terceiro jeito é o próprio caminho da tela, que destaca o que atrai e empurra o que pesa contra você para lugares onde quase ninguém olha. Nos três casos a regra existe, mas não informa."
+},
+{
+"k": "8176e94f598ad1b6",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A pergunta, então, é se a regra apareceu de forma clara e no momento em que podia mudar a sua decisão de comprar, de continuar ou de reagir."
+},
+{
+"k": "f31425e02689d6b1",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A inadequação informacional, assim, pode assumir a forma de excesso, dispersão e arquitetura de fluxo. Excesso, quando a sobrecarga textual torna impraticável distinguir o essencial do acessório. Dispersão, quando os elementos relevantes do vínculo são pulverizados em múltiplos documentos, telas e caminhos sem integração suficiente.<1>p. 722</1>"
+},
+{
+"k": "af16b6ed3484a674",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A pergunta juridicamente relevante deixa de ser se determinado dado estava em algum lugar do ecossistema documental do fornecedor. Passa a ser se esse dado foi tornado acessível, compreensível e relevante no momento em que poderia influenciar a formação legítima da expectativa ou a reação do consumidor.<1>p. 723</1>"
+},
+{
+"k": "5a39d98396f7267b",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Que telas mostram como a regra chegou até você?"
+},
+{
+"k": "beff6d9db82afb5d",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Ajuda guardar o caminho que você percorreu até aceitar ou comprar, com as telas, os botões, os avisos e o lugar onde ficava o link para os termos. Também vale guardar a versão dos termos que valia naquele dia, porque esses textos mudam com o tempo."
+},
+{
+"k": "9026cfda0cdd86e4",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Se a regra chegou por nota de atualização, que é o texto que a empresa publica quando muda o serviço, vale guardar essa nota e a data em que ela saiu. Publicar a nota não basta quando a mudança mexe no centro do que você usa."
+},
+{
+"k": "983fda758708fabb",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O consumidor não encontra apenas um texto contratual centralizado e estável. Enfrenta fluxos sucessivos de interface, avisos dispersos, menus secundários, centrais de ajuda, políticas versionadas, explicações parciais, comunicações promocionais, notificações contextuais e alterações posteriores que redesenham o campo informacional sem oferecer síntese material do que mudou.<1>p. 722</1>"
+},
+{
+"k": "09c265fe74941f78",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O que dá para pedir quando a regra não foi bem informada?"
+},
+{
+"k": "2f46274b8f101cb6",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir que seja reposto o que você perdeu por causa da falta de clareza."
+},
+{
+"k": "accfaa0b7905c3a0",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Conforme o caso, a regra obscura pode deixar de valer contra você. A lei do consumidor diz que o contrato não obriga quando você não teve chance real de conhecer o conteúdo antes, ou quando foi escrito de um jeito que dificulta a compreensão."
+},
+{
+"k": "b376b6128341ddd0",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Quando o texto é confuso, a confusão pode pesar contra a empresa, porque foi ela que redigiu o contrato e você não teve como negociar."
+},
+{
+"k": "cc89906e4b3debc3",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O CDC já contém o núcleo normativo desse problema. A oferta e a apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas e ostensivas. Isso significa que a complexidade técnica do fornecimento não autoriza o fornecedor a se esconder atrás de vocabulário indecifrável, cascatas documentais ou arquiteturas comunicacionais que entregam palavras e retêm sentido. Do mesmo modo, contratos de consumo não obrigam o consumidor quando não lhe é dada oportunidade real de conhecimento prévio do conteúdo, nem quando são redigidos de modo a dificultar a compreensão de seu sentido e alcance.<1>p. 601</1>"
+},
+{
+"k": "ad0686ae0fa46400",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O que se pede é correção do ambiente decisório, neutralização da obscuridade, exibição de registros e recomposição da fruição afetada.<1>p. 609</1>"
+},
+{
+"k": "07fdd88306113b48",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Cláusulas predispostas devem ser lidas de modo a respeitar os legítimos interesses de quem as aceitou sem poder negociá-las, e a redação obscura aciona justamente a presunção de que o fornecedor falhou no dever de organizar o consentimento em bases leais.<1>p. 604</1>"
+},
+{
+"k": "4ce7ca5bc106b198",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A quem mostrar que a regra estava escondida?"
+},
+{
+"k": "b50941349625a678",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A reclamação à empresa pode pedir que ela mostre onde e quando a regra foi apresentada a você. Se a resposta for só que tudo estava no contrato, ela confunde existir com informar."
+},
+{
+"k": "4ea289ae60bf69d6",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Fora da empresa, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor."
+},
+{
+"k": "2134a17e43d46556",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A centralidade da adequação verificável também impede que a defesa padrão do fornecedor se satisfaça com a alegação de que “tudo estava no contrato”. Essa fórmula confunde existência formal com cumprimento material do dever.<1>p. 723</1>"
+},
+{
+"k": "c2482a2478496fe8",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Todo contrato comprido é ilegal?"
+},
+{
+"k": "457d06963403faf7",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Não. O que se pergunta é se uma pessoa comum podia ler e entender o que a regra significava, que direitos e deveres criava e que consequências ela trazia."
+},
+{
+"k": "da68954d2b147d50",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A discussão também não é sobre você ter lido ou não. É sobre se, do jeito como a informação foi organizada, ela servia para orientar a sua decisão."
+},
+{
+"k": "41d56f5971c1db0a",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A regra estar no contrato não salva a empresa, mas também não a condena sozinha, porque tudo depende de como o conjunto foi organizado."
+},
+{
+"k": "b950466287b2af24",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "O que importa é se o consumidor médio podia ler e compreender o que aquelas cláusulas significavam, quais direitos e obrigações estavam sendo assumidos e quais consequências práticas decorriam da adesão.<1>p. 604</1>"
+},
+{
+"k": "2b315eef0f4de018",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "Em ambientes de alta complexidade informacional, o contrato pode até conter referência nominal ao risco, à alteração ou à limitação controvertida, mas ainda assim deixar de informar de maneira adequada se a organização do conjunto comunicacional produz ruído, minimiza o impacto do dado relevante ou inviabiliza sua conexão prática com a decisão do consumidor.<1>p. 723</1>"
+},
+{
+"k": "3235489ba2853960",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>Como saber se a regra foi mesmo escondida?</1>"
+},
+{
+"k": "1fd14d9b2502592f",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>Que telas mostram como a regra chegou até você?</1>"
+},
+{
+"k": "f080c7b7641c3f23",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>O que dá para pedir quando a regra não foi bem informada?</1>"
+},
+{
+"k": "5f57198d7e197456",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>A quem mostrar que a regra estava escondida?</1>"
+},
+{
+"k": "cfa2f97c5e23cc25",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>Todo contrato comprido é ilegal?</1>"
+},
+{
+"k": "d13bc70cca18185e",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</1>"
+},
+{
+"k": "ee1422bc0348228b",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "ANDRADE, Victor L. P. A regra que me prejudicou estava enterrada nos termos de uso. E agora?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/regras-escondidas/"
+},
+{
+"k": "6c196620c2706dbf",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar. Estar escrito em algum lugar não…"
+},
+{
+"k": "af155d8b8f5386dd",
+"pagina": "problemas/regras-escondidas/index.html",
+"pt": "A regra que me prejudicou estava enterrada nos termos de uso. E agora?"
+},
+{
+"k": "25ce4c9b2e00e041",
+"pagina": "problemas/sair/index.html",
+"pt": "Quero sair, mas perderia tudo o que construí ali. Isso conta? · Lex Plataformae"
+},
+{
+"k": "4850bb360aa6499c",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>Quero sair, mas perderia tudo o que construí ali.</1> <2>Isso conta?</2>"
+},
+{
+"k": "eb400972c227312d",
+"pagina": "problemas/sair/index.html",
+"pt": "Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro. Esse custo de sair conta, e ajuda a explicar por que a empresa fica com deveres maiores diante de quem já depende do ambiente."
+},
+{
+"k": "b26d7c39d5a7e1b0",
+"pagina": "problemas/sair/index.html",
+"pt": "Como saber se o custo de sair passou a prender você?"
+},
+{
+"k": "cc9c1d1c5fedbaf9",
+"pagina": "problemas/sair/index.html",
+"pt": "Sair de um serviço comum é trocar de fornecedor. Aqui é diferente, porque o histórico, o ranque, os sinais de prestígio e os vínculos que você fez ficam com a empresa e só valem lá dentro. Ir embora interrompe a sua existência reconhecível naquele mundo."
+},
+{
+"k": "6b3a9256ed3a20f8",
+"pagina": "problemas/sair/index.html",
+"pt": "Esse custo vai além do dinheiro e da comodidade, porque inclui perder a continuidade da sua história e as posições de reconhecimento que você ocupa lá. Nada disso supõe que você esteja preso de verdade ou incapaz de agir, já que o que conta é a dependência na prática. E a dificuldade de largar não é fraqueza sua, e sim um efeito previsível de um ambiente que mede, compara e recompensa quem fica."
+},
+{
+"k": "a81e9ea1ecdbf718",
+"pagina": "problemas/sair/index.html",
+"pt": "O sinal mais claro aparece quando a empresa muda as regras e você aceita só porque sair custaria mais. Numa relação longa assim, o seu sim depois da mudança muitas vezes é só uma adesão forçada ao novo estado das coisas."
+},
+{
+"k": "6998563761072fd9",
+"pagina": "problemas/sair/index.html",
+"pt": "A barreira de saída pode ser descrita como uma forma de morte social no interior do ecossistema. A expressão não opera como dramatização moral, mas como descrição funcional do efeito produzido quando a plataforma concentra os registros que sustentam pertencimento e relevância, isto é, histórico, repertório, posição ranqueada, sinais de prestígio, vínculos comunitários e rastros de participação. Abandonar o ambiente, nessas condições, não se assemelha a migrar de um serviço para outro, porque implica interromper a própria existência socialmente reconhecível naquele mundo, com perda de continuidade simbólica e apagamento prático de marcas de trajetória que se tornaram condição de comensurabilidade pública.<1>p. 359</1>"
+},
+{
+"k": "e6c2fab471bf66fd",
+"pagina": "problemas/sair/index.html",
+"pt": "Nesse mesmo registro, a identidade simbólica e a integridade pessoal se conectam por dois efeitos de dependência que podem ser nomeados como cativeiro simbólico e cativeiro identitário. [...] O segundo designa a forma de dependência em que o custo de saída não se esgota em dimensões financeiras ou de conveniência, porque implica perda de continuidade narrativa e de posições de reconhecimento cuja existência se dá, de maneira decisiva, dentro do ecossistema, por redes, históricos, papéis e circuitos internos de valor.<1>p. 466</1>"
+},
+{
+"k": "34d838575b7f5d72",
+"pagina": "problemas/sair/index.html",
+"pt": "O que vale registrar antes de decidir ir embora?"
+},
+{
+"k": "47d473b869c9592d",
+"pagina": "problemas/sair/index.html",
+"pt": "Vale registrar o seu histórico, o ranque, os selos e títulos, o inventário e as recompensas que só você tem, com capturas de tela e datas. Depois que a conta some ou fica para trás, sobram só extratos, e-mails, capturas antigas e memória para mostrar o que existia."
+},
+{
+"k": "ec3a294c9903fcb2",
+"pagina": "problemas/sair/index.html",
+"pt": "O que mostra o peso do que você construiu não é a tristeza de sair, e sim o valor que o próprio sistema dá àquilo, por selos, visibilidade, requisitos para participar e reputação. Antes de sair, também cabe pedir à empresa a confirmação e o acesso aos dados que ela guarda sobre você, além da portabilidade, que é a transferência desses dados."
+},
+{
+"k": "6d6fccb58aa2665d",
+"pagina": "problemas/sair/index.html",
+"pt": "O que dá para pedir quando ficar e sair custam caro?"
+},
+{
+"k": "0d49e5c00a378a57",
+"pagina": "problemas/sair/index.html",
+"pt": "Quando a empresa muda algo importante no que você usa, ela deve avisar com informação farta, clara e a tempo. A razão é que, para quem depende do ambiente, sair, se adaptar ou contestar nunca é neutro."
+},
+{
+"k": "b7abf50860d23376",
+"pagina": "problemas/sair/index.html",
+"pt": "Essa dependência reforça os deveres da empresa de ser transparente, de deixar você contestar, de tornar as mudanças conferíveis e de recompor o que você perdeu. O tamanho desses deveres acompanha o poder que ela exerce sobre o ambiente."
+},
+{
+"k": "299e0b14f2bf66d4",
+"pagina": "problemas/sair/index.html",
+"pt": "O desenho do ambiente pode se aproveitar do custo de sair, junto com caminhos de cancelamento difíceis, pressa fabricada e falta de clareza. Quando isso se repete como método, a lei do consumidor pode tratar o conjunto como prática abusiva. Aí o pedido pode alcançar a correção do próprio desenho."
+},
+{
+"k": "355daef92620377b",
+"pagina": "problemas/sair/index.html",
+"pt": "Quando a empresa modifica conteúdo, qualidade, parâmetros ou condições relevantes da fruição, precisa oferecer informação farta, inteligível e em tempo útil, justamente porque o consumidor está inserido numa relação de dependência prática em que o custo de saída, adaptação ou contestação não é neutro <1>Marques</1><2>(Marques, 2016, p. 1319-1320)</2>.<3>p. 658</3>"
+},
+{
+"k": "33e156caa3e8e2c6",
+"pagina": "problemas/sair/index.html",
+"pt": "A quem recorrer quando sair significa perder tudo?"
+},
+{
+"k": "eb0a0fa1c2c2e343",
+"pagina": "problemas/sair/index.html",
+"pt": "O primeiro endereço é a própria empresa, que deve responder ao pedido dos seus dados e à contestação de mudanças que pesaram no que você tinha."
+},
+{
+"k": "a609cfdad7a0dd2e",
+"pagina": "problemas/sair/index.html",
+"pt": "Se ela não responde, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como o custo de sair costuma ser o mesmo para todos os usuários, a resposta também pode ser coletiva, por ação coletiva ou por órgãos públicos de defesa do consumidor."
+},
+{
+"k": "7676dde2ad01c018",
+"pagina": "problemas/sair/index.html",
+"pt": "Até onde vai a proteção de quem quer sair?"
+},
+{
+"k": "d38aaaa81361dce3",
+"pagina": "problemas/sair/index.html",
+"pt": "Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma que dê para mostrar, o custo de ir embora."
+},
+{
+"k": "0b34f98a39f696dc",
+"pagina": "problemas/sair/index.html",
+"pt": "O ranque existe enquanto a conta e o serviço existem, e a proteção dos dados não faz de você dono de tudo o que a empresa registra. Frustrações pequenas e mudanças normais do serviço também ficam de fora, porque a perda precisa ser significativa, duradoura e descritível por critérios conferíveis."
+},
+{
+"k": "00bf50408d106a07",
+"pagina": "problemas/sair/index.html",
+"pt": "Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra<1>p. 542</1>"
+},
+{
+"k": "7128e1284a481bf3",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>Como saber se o custo de sair passou a prender você?</1>"
+},
+{
+"k": "a7c0f3cbeb8dcf65",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>O que vale registrar antes de decidir ir embora?</1>"
+},
+{
+"k": "144de0ba6bae5cd3",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>O que dá para pedir quando ficar e sair custam caro?</1>"
+},
+{
+"k": "824a5654d5732293",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>A quem recorrer quando sair significa perder tudo?</1>"
+},
+{
+"k": "c925254fc92ea5d2",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>Até onde vai a proteção de quem quer sair?</1>"
+},
+{
+"k": "1f6183a186708161",
+"pagina": "problemas/sair/index.html",
+"pt": "<1>Quero sair, mas perderia tudo o que construí ali. Isso conta?</1>"
+},
+{
+"k": "a4a9956d1abd463f",
+"pagina": "problemas/sair/index.html",
+"pt": "ANDRADE, Victor L. P. Quero sair, mas perderia tudo o que construí ali. Isso conta?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/sair/"
+},
+{
+"k": "a3f7627a19a8b357",
+"pagina": "problemas/sair/index.html",
+"pt": "Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro. Esse…"
+},
+{
+"k": "8a26da04dd94653a",
+"pagina": "problemas/sair/index.html",
+"pt": "Quero sair, mas perderia tudo o que construí ali. Isso conta?"
+},
+{
+"k": "2cc26a62e1bdfad0",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O serviço piorou, e o preço continua o mesmo. Posso reclamar? · Lex Plataformae"
+},
+{
+"k": "edb7cfd57fbc6ed9",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "<1>O serviço piorou, e o preço continua o mesmo.</1> <2>Posso reclamar?</2>"
+},
+{
+"k": "5d578599b2411b62",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega, e a lei do consumidor trata como nula a mudança que a empresa faz sozinha no conteúdo ou na qualidade do que vende."
+},
+{
+"k": "4aaeb1f9a99ed0c8",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Como saber se a piora não é só impressão sua?"
+},
+{
+"k": "445b2265fb918fcf",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Um curso que corta metade das aulas no meio do semestre e continua cobrando o mesmo preço faz o que qualquer pessoa acharia errado. Nas plataformas o corte quase nunca vem com esse nome, e aparece como alcance menor, desempenho rebaixado aos poucos, funções que somem e limites mais apertados."
+},
+{
+"k": "ea43a35319fbc4fb",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Isso vale para qualquer serviço que dura no tempo, como assinaturas, aplicativos e programas. Vale até para aparelhos que recebem atualização do firmware, que é o programa interno que faz o aparelho funcionar. O que aproxima esses casos não é o setor, e sim o jeito como cada serviço organiza o acesso e o que você espera dele."
+},
+{
+"k": "e5b9171935e95121",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O que conta é a piora persistente e relevante, que tira o essencial do que você contratou. A casca do serviço pode continuar intacta enquanto o conteúdo foi esvaziado."
+},
+{
+"k": "838fead86428660d",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Ao comentar o art. 51, XIII, Nunes pergunta, de modo deliberadamente frontal, como seria possível alterar unilateralmente um contrato e, ainda assim, conferir validade jurídica à alteração <1>Nunes</1><2>(Nunes, 2018, [p. 508-509])</2>. O exemplo que ele oferece, do fornecedor que reduz aulas mantendo o mesmo preço <3>Nunes</3><4>(Nunes, 2018, [p. 508-509])</4>, funciona como régua objetiva para plataformas.<5>p. 479-480</5>"
+},
+{
+"k": "5440222a7ea1f584",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O exemplo de atualizações que degradam acessibilidade e compatibilidade em software ou firmware ajuda a visualizar a estrutura do problema. Nesses casos, ninguém discute seriamente que toda atualização seja ilícita. O que se discute é se, sob o pretexto de melhoria, a atualização compromete de modo relevante o uso, o desempenho ou a compatibilidade de bens ainda dentro da durabilidade esperada, sem informação adequada, sem consentimento efetivo e sem vias mitigatórias.<1>p. 655</1>"
+},
+{
+"k": "bdcd1610f7ffb38b",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O que importa não é se a plataforma se apresenta como ferramenta cognitiva, infraestrutura de mercado, ambiente produtivo ou sistema de reputação, mas como ela organiza acesso, modula expectativas, distribui riscos e condiciona a possibilidade de reconstrução institucional do conflito.<1>p. 756</1>"
+},
+{
+"k": "87f7001b0d285a86",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Em linguagem menos pomposa e mais útil: não basta deixar a casca do vínculo intacta se o conteúdo fruído foi esvaziado.<1>p. 651</1>"
+},
+{
+"k": "fc8f7a6017601230",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Como registrar uma piora que chega aos poucos?"
+},
+{
+"k": "a9901eb09ac59339",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Vale guardar a descrição do plano ou da oferta do dia em que você contratou, com o que estava incluído. Ajudam também capturas de tela com data que mostrem o antes e o depois. Os avisos de mudança que a empresa mandou também contam, porque ela deveria ter dito o essencial a tempo de você entender e reagir."
+},
+{
+"k": "3c2315a6bbcab834",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Anotar o dia em que você percebeu a piora também ajuda, já que num serviço contínuo a perda pode aparecer só com o uso prolongado. E você não precisa ter tudo arquivado, porque o histórico das versões e das decisões fica com a empresa."
+},
+{
+"k": "a97c0cb6338ddafc",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "A contagem deve dialogar com o momento real de cognoscibilidade da inadequação, sobretudo quando esta só emerge no uso prolongado ou na deterioração superveniente da prestabilidade<1>p. 558</1>"
+},
+{
+"k": "9c90737866bd37ca",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "A plataforma detém o histórico completo de decisões, versões e critérios, enquanto o consumidor recebe apenas fragmentos comunicacionais<1>p. 471</1>"
+},
+{
+"k": "e8f40b7c4fb41d94",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O que pedir quando a entrega encolheu e a cobrança não?"
+},
+{
+"k": "05dfa97e3a03cb43",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O pedido pode começar pela volta do serviço ao nível que você contratou. Isso pode ser desfazer a mudança, oferecer uma versão alternativa ou trocar por algo que cumpra a mesma função. Pode ser também corrigir os ajustes ou manter a compatibilidade com o que você já usa."
+},
+{
+"k": "61891ccf16eae62d",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Conforme o caso, a piora pode ser um defeito de qualidade que diminui o valor do serviço. Aí a lei também permite pedir abatimento, que é um desconto proporcional no preço, ou encerrar o contrato sem multa. Para isso não é preciso discutir se a empresa teve culpa."
+},
+{
+"k": "ecab86f50a4d47cd",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "E cabe pedir que a empresa diga o que mudou, quando e por quê, em vez de responder só que o serviço evoluiu. Quando ela fala em atualização ou em melhoria, o que precisa ficar demonstrado é que o essencial foi preservado."
+},
+{
+"k": "8ea907f60ccff134",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Diante de vícios de qualidade que diminuam o valor do serviço, o consumidor pode exigir a rescisão contratual sem multa ou o abatimento proporcional do preço, sem necessidade de discutir culpa do fornecedor, pois se trata de responsabilidade objetiva <1>Bessa</1><2>(Benjamin; Marques; Bessa, 2021, [p. 354])</2>.<3>p. 563</3>"
+},
+{
+"k": "f70e9483a3d5b640",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "A quem levar a reclamação de um serviço que piorou para todos?"
+},
+{
+"k": "281575d8c7f19d76",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "A reclamação começa pela própria empresa, e continuar pagando não quer dizer que você aceitou a piora. Quando a mudança é relevante, ela deveria ter sido comunicada de um jeito que desse para entender, e o seu silêncio não vale como concordância."
+},
+{
+"k": "dcb54182c6fc19ae",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Quando a piora atinge todos os clientes ao mesmo tempo, ela é o tipo de problema que pode ir ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta. Nesses casos a resposta pode corrigir o serviço para todo mundo, e não só reparar o seu caso."
+},
+{
+"k": "a53994a2d53f5cb6",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Quando a mudança no serviço não dá motivo para reclamar?"
+},
+{
+"k": "3a8d035f3367f4d7",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Serviços que duram anos precisam mudar, e trocar o meio ou o método pode ser legítimo e até necessário para que eles continuem viáveis. O limite é usar a mudança para jogar sobre você riscos que são da empresa, piorar a qualidade ou cortar funções relevantes."
+},
+{
+"k": "0e5e2b1bdfd04538",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Oscilação de um dia ou ajuste pequeno não bastam, e nem toda diminuição é ilegal. Também não se pode supor que todo serviço digital cause esse problema com a mesma força, porque cada caso depende de como aquele serviço funciona."
+},
+{
+"k": "65353a166003b1a2",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Mudanças de meio e método podem ser legítimas, e por vezes necessárias, para manter o fornecimento viável. O limite é que elas não podem ser usadas para deslocar riscos estruturais ao consumidor, degradar qualidade, restringir funcionalidades relevantes, corroer condições de acesso ou reconfigurar regimes de participação e reconhecimento que integravam a fruição economicamente estabilizada.<1>p. 480</1>"
+},
+{
+"k": "1c32c5ac78e23982",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "Houve perda marginal, inserida na evolução ordinária do serviço, ou houve esvaziamento substancial do núcleo funcional da fruição? Nem toda diminuição é ilícita.<1>p. 653</1>"
+},
+{
+"k": "c5341bb37f6e2cd8",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição.<1>p. 755</1>"
+},
+{
+"k": "7581ad07b4fd35c5",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "<1>Como saber se a piora não é só impressão sua?</1>"
+},
+{
+"k": "34d16cf7cfeee6eb",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "<1>Como registrar uma piora que chega aos poucos?</1>"
+},
+{
+"k": "6ceedb0a5f49815a",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "<1>O que pedir quando a entrega encolheu e a cobrança não?</1>"
+},
+{
+"k": "8b890bfb341e7139",
+"pagina": "problemas/servico-piorou/index.html",
+"pt": "<1>A quem levar a reclamação de um serviço que piorou para todos?</1>"
+}
+]

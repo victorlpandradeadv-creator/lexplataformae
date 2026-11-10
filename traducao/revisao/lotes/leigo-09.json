@@ -1,0 +1,602 @@
+[
+{
+"k": "4d7654110332e5e7",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Para não virar um rótulo que serve para tudo, a finalidade abusiva precisa passar por um teste com cinco perguntas, e todas precisam ter resposta sim."
+},
+{
+"k": "7d0f706374ecb6cc",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A finalidade está escrita no próprio desenho? Ela precisa aparecer nas escolhas de tela, nos termos de uso, nas regras de acesso e no jeito de punir, e não ser só um efeito colateral que aconteceu uma vez."
+},
+{
+"k": "0e9ef86bb348095c",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ela se repete como padrão? Um episódio isolado, um erro ou uma exceção não bastam."
+},
+{
+"k": "2839d49ec619a9c4",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ela tira proveito de desvantagens que fazem parte do arranjo? Por exemplo, a dificuldade de entender o que acontece, a dependência de quem já investiu muito, o custo de mudar de jogo e a perda da reputação, dos amigos e do histórico construídos ali."
+},
+{
+"k": "22cbd0f9ed71adf9",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ela vem acompanhada de falta de clareza e de pouca chance de contestar? Não basta o sistema ser complexo. É preciso que o jeito como ele funciona dificulte entender e questionar as decisões que importam."
+},
+{
+"k": "5953e092b36c1a7a",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "E ela afeta de modo sério e duradouro o que você comprou, mesmo sem tirar tudo de uma vez? Uma oscilação qualquer do serviço não conta."
+},
+{
+"k": "0685c71c795bb976",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Para que essa qualificação permaneça controlável e não se converta em rótulo elástico, ela deve assumir a forma de um teste composto por elementos cumulativos<1>p. 448</1>"
+},
+{
+"k": "f30648fa6bd7dbd9",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O primeiro requisito é a teleologia inscrita. Deve ser possível reconstruir que a finalidade exploratória não está apenas em um efeito colateral eventual, mas aparece incorporada em escolhas de design, termos de uso, mecanismos de autorização e estratégias de enforcement que estruturam o ambiente de fruição.<1>p. 448</1>"
+},
+{
+"k": "6b1227b2ed9221d5",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O segundo requisito é a reprodução como padrão. O desvio não pode ser episódio isolado, erro contingente ou exceção operacional.<1>p. 448</1>"
+},
+{
+"k": "0d87e1850b85d9af",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A finalidade exploratória deve incidir sobre assimetrias de inteligibilidade e agência que integram o próprio arranjo do consumo governado, como vulnerabilidade semiótica, dependência por catividade, custos de migração e perda de investimentos acumulados em reputação, redes ou histórico.<1>p. 449</1>"
+},
+{
+"k": "03011cd30011a04d",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O quarto requisito é a opacidade combinada com baixa contestabilidade. Não basta que o sistema seja complexo ou opere com métricas. É necessário que o modo de operação dificulte, de forma estrutural, a compreensão e a impugnação das decisões relevantes<1>p. 455</1>"
+},
+{
+"k": "ad1d32085a8ffebb",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total.<1>p. 455</1>"
+},
+{
+"k": "5416c39b2832fe74",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A exigência impede que a categoria seja acionada por qualquer oscilação do serviço<1>p. 455</1>"
+},
+{
+"k": "af2d0a6963f8e447",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Negócio agressivo já tem finalidade abusiva?"
+},
+{
+"k": "a2598b7a59850fad",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Isso não é rótulo para qualquer coisa. Cobrar, convencer e governar um jogo não são abusos por si sós. Um negócio só agressivo, um desenho discutível ou um arranjo que é simplesmente eficiente para a empresa também não bastam."
+},
+{
+"k": "f001d9fdf5b016ff",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "E há finalidades legítimas que a plataforma pode e deve perseguir, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando dá para mostrar, com razões, que o desenho aponta principalmente para explorar a sua fragilidade e capturar valor de forma desproporcional, e não para esses fins."
+},
+{
+"k": "6ca366ac808163a2",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A teleologia abusiva não pode funcionar como coringa moral.<1>p. 456</1>"
+},
+{
+"k": "2a8776b4acfa81a3",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "[...] a teleologia abusiva não se confunde com opção empresarial apenas severa, com design discutível ou com arquitetura simplesmente eficiente para o fornecedor.<1>p. 666</1>"
+},
+{
+"k": "2fcd5881cc0ea390",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ela deve depender da demonstração racional de que a arquitetura é orientada, de modo dominante, à exploração da vulnerabilidade e à captura desproporcional de valor, com opacidade e assimetria persistentes, e não a finalidades legítimas do serviço, como segurança, estabilidade e equilíbrio do ecossistema.<1>p. 456</1>"
+},
+{
+"k": "477a90ef7ef892ed",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Essa formulação não é licença para impressionismo judicial nem moralização abstrata do ambiente digital.<1>p. 666</1>"
+},
+{
+"k": "93719df245589754",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Ilícito de arquitetura</1>"
+},
+{
+"k": "52255b1a2b2cf121",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que dá para sublinhar. Mas, às vezes, nenhuma cláusula sozinha é o problema."
+},
+{
+"k": "4299ed1d9e37e4da",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas e um caminho para cancelar que parece feito para você desistir. E também equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Quando essas peças funcionam juntas como método, de modo estável, o problema já não está só no texto. Está no desenho."
+},
+{
+"k": "29a6d44821bfdbee",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Por isso se diz que, nesses casos, o desenho também é conduta. A forma como o serviço foi montado é tratada como algo que a empresa faz, e pelo qual responde, e não como um cenário neutro onde as coisas simplesmente acontecem."
+},
+{
+"k": "1d379f26b48a48cd",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O ilícito não nasce, portanto, de um episódio singular que pode ser tratado como acidente. Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração.<1>p. 666</1>"
+},
+{
+"k": "8c19c0be6c9cd005",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando essa governança organiza, de forma reiterada, ruído informacional, fricção decisória, opacidade probatória, mutação não auditável e recomposição insuficiente, o ilícito já não está apenas no enunciado. Está na arquitetura.<1>p. 664</1>"
+},
+{
+"k": "9b958537f753857d",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O núcleo do parâmetro está em tratar a arquitetura como conduta.<1>p. 732</1>"
+},
+{
+"k": "a8fa8477c2ae69b9",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O que se põe em questão não é o design enquanto estilo, linguagem visual ou estética de interface<1>p. 664</1>"
+},
+{
+"k": "b68acb8ebfc325fa",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Tudo é inovação ou tudo está no contrato?"
+},
+{
+"k": "255a549bd7976c4b",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Isso evita dois erros que são comuns. O primeiro é aceitar que tudo é inovação, como se o simples fato de a plataforma mudar o tempo todo a deixasse livre para rebaixar qualquer coisa. O segundo é ficar caçando cláusulas soltas no contrato, como se o serviço só pudesse ser controlado em pedaços de texto e nunca no jeito como ele funciona."
+},
+{
+"k": "f823bb55a43ceb38",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O que se pede, no fim, são critérios já conhecidos. Informação que dê para entender de verdade, respeito à confiança, equivalência do que foi comprado, mudanças que deixem rastro, possibilidade real de desfazer o que foi feito e um mínimo de chance de contestar. Quando o desenho passa a funcionar contra esses critérios, o próprio serviço vira instrumento de exploração."
+},
+{
+"k": "0004427f7ac1009c",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O primeiro seria dissolver o problema na linguagem vaga da “inovação” ou da “natureza dinâmica” da plataforma, como se a contínua reorganização do ambiente bastasse para imunizar qualquer rebaixamento relevante da fruição. O segundo seria reduzir a resposta jurídica à caça atomizada de cláusulas isoladas, como se o fornecimento só pudesse ser controlado em seus fragmentos textuais e nunca em sua lógica operacional.<1>p. 664</1>"
+},
+{
+"k": "5a77c70fe76d056e",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "E esses critérios já foram preparados ao longo do percurso anterior: inteligibilidade material da informação, proteção da confiança, equivalência de valor funcional, auditabilidade aberta, possibilidade real de reversão e condições mínimas de contestação.<1>p. 664</1>"
+},
+{
+"k": "d42869acf15245f3",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A teleologia abusiva surge precisamente quando o desenho do fornecimento deixa de respeitar esses parâmetros e passa a operar contra eles, convertendo a própria estrutura do serviço em instrumento de exploração.<1>p. 664</1>"
+},
+{
+"k": "16eff57ecc0e74ce",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Direito</1>Padrões obscuros"
+},
+{
+"k": "875bafa9ea37f766",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscuros. É o caso da caixinha que já vem marcada para você assinar um serviço extra, no botão de cancelar escondido em cinza claro ou no aviso de que só restam poucas unidades quando não é verdade."
+},
+{
+"k": "630672500d486a61",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O que pesa nesses casos não é uma frase isolada, e sim o jeito como as escolhas são apresentadas e induzidas. E a lei brasileira de proteção ao consumidor já permite punir vários casos de desenho enganoso. Assim o design deixa de ser tratado como estética neutra e volta a ser o que é, uma prática comercial com objetivo econômico, que o direito pode qualificar."
+},
+{
+"k": "f707aac8bc416082",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "[...] a assimetria de inteligibilidade e de agência pode ser produzida e explorada pela própria arquitetura de interação, tornando juridicamente relevante o desenho das opções e das vias de reação [...] Esse ponto se torna mais nítido quando padrões de interface são descritos como prática comercial sancionável, já que a abusividade deixa de depender de uma afirmação textual isolada e passa a incluir a forma como escolhas são apresentadas e induzidas<1>p. 405</1>"
+},
+{
+"k": "bc21c2d8e4b4827c",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "várias dessas disposições estão relacionadas a padrões obscuros, o que nos permite concluir que sob o quadro legal brasileiro é possível sancionar vários casos de desenho enganoso<1>p. 405</1>"
+},
+{
+"k": "d7f8ee86443aa34f",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando se reconhece que é possível sancionar casos de desenho enganoso e se vinculam as disposições do art. 39 do CDC<1><2>1</2></1> a padrões obscuros, o design é recolocado no seu lugar correto, como prática comercial economicamente orientada e juridicamente qualificável, e não como neutralidade estética<3>p. 432</3>"
+},
+{
+"k": "4b4f50817dcb11af",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis<1>p. 666</1>"
+},
+{
+"k": "c473b2dc0059ccf6",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Publicidade enganosa por arquitetura</1><2><3>Publicidade enganosa por arquitetura</3></2>"
+},
+{
+"k": "3d4d63c37a1e80c0",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Um anúncio não precisa mentir para enganar. Ele pode dizer a verdade em pedaços e mentir no conjunto, só pela forma como organiza o que você vê primeiro e o que fica para depois."
+},
+{
+"k": "4796cc204ececc50",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Funciona assim. O lado bom da compra vai para o centro da tela, grande e colorido. O custo, a possibilidade de mudança e o limite vão para o rodapé, para um link que só aparece depois ou para uma camada que ninguém abre na hora de decidir. Cada informação existe, mas o conjunto conduz você a entender errado, e é esse conjunto que o direito pode examinar."
+},
+{
+"k": "b8b3261443f83f41",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Em termos mais simples, a comunicação não precisa mentir para enganar. Basta que ela administre o enquadramento interpretativo de forma suficientemente assimétrica. A publicidade pode dizer a verdade em pedaços e ainda assim mentir no conjunto.<1>p. 626</1>"
+},
+{
+"k": "fb6719169b37f464",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Esse é o núcleo da publicidade enganosa por arquitetura semiótica. A arquitetura do anúncio passa a ser juridicamente relevante quando o fornecedor estrutura a compreensão do consumidor de modo a reforçar o lado positivo da experiência e empurrar o lado oneroso, mutável ou limitado para fora do foco<1>p. 626</1>"
+},
+{
+"k": "72074aa12308c829",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ele pode ser produzido pela forma como o essencial é hierarquizado, pela ênfase seletiva nas vantagens e pelo deslocamento das condições relevantes para disclaimers, camadas de baixa visibilidade, links posteriores ou zonas discursivas que não integram de modo útil o momento decisório<1>p. 626</1>"
+},
+{
+"k": "adec2f527351bb41",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Continuidade biográfica</1><2><3>Continuidade biográfica</3></2>"
+},
+{
+"k": "c578bcaa57870181",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando uma conta é apagada, você não perde só um item. Perde a posição inteira, o histórico, o inventário, a trajetória e o seu lugar naquele mundo."
+},
+{
+"k": "95a6358333751cf5",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A sua história ali foi feita de escolhas repetidas, de desempenho, de tempo, de compras, de cooperação com outros jogadores e de sinais de pertencimento acumulados ao longo de anos. Ela foi construída sob as regras da plataforma, mas continua sendo sua, porque é o resultado do que você fez. Por isso a proteção pode incluir a continuidade dessa biografia, e não só o reembolso de uma compra frustrada."
+},
+{
+"k": "28bb75c268127e63",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A cláusula é valiosa porque desnuda o problema: não se perde apenas item isolado, mas a posição global de fruição, o histórico, o inventário, a trajetória e a continuidade prática de inserção no ecossistema<1>p. 540-541</1>"
+},
+{
+"k": "9441ec0cfb103948",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ela é resultado biográfico produzido por escolhas reiteradas, desempenho, investimento de tempo, aquisição, cooperação, acúmulo de sinais de pertencimento e permanência no ecossistema. Ainda que essa construção ocorra sob mediação da Lex Plataformae, continua sendo atribuível ao consumidor como expressão de continuidade biográfica no interior do regime de fornecimento.<1>p. 537</1>"
+},
+{
+"k": "d9f2826a818c133e",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Assim, o que se afirma é apenas que a integridade do consumidor pode incluir preservação de condições mínimas de continuidade biográfica e estabilidade de inserção simbólica, e não só o reembolso de uma compra frustrada<1>p. 537</1>"
+},
+{
+"k": "568b2708c3288712",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Em casos graves, perder a conta, o histórico ou a trajetória pode atingir a sua personalidade e gerar dano moral. Isso acontece quando a perda atinge, de um jeito que dá para demonstrar, a sua história, o seu pertencimento ou a reputação e a memória que você construiu lá dentro."
+},
+{
+"k": "e1beb96bd9afe6f3",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Não é qualquer chateação que chega a esse ponto, e por isso é preciso mostrar o que foi atingido. Mas, quando tudo muda e você já não se sente o mesmo, isso não é drama nem aborrecimento passageiro. É a consequência previsível de um regime em que o valor do que você usa e o seu lugar no jogo dependem da administração de outro."
+},
+{
+"k": "87782c9c7a3a5a6d",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Em hipóteses qualificadas, a perda de conta, histórico ou trajetória pode configurar dano moral por lesão à personalidade, especialmente quando atinge de modo objetivável continuidade biográfica, pertencimento institucionalizado no ecossistema ou lastros relevantes de reputação e memória, e não mero dissabor subjetivo.<1>p. 541</1>"
+},
+{
+"k": "5e30602ec769b701",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando tudo muda e o consumidor não se sente o mesmo, não se trata de drama subjetivo ou mero dissabor. É a consequência previsível de um regime em que o valor de uso, o valor simbólico e a continuidade da fruição ficam sujeitos à governança de terceiros.<1>p. 21</1>"
+},
+{
+"k": "8704bee0e10bf658",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "E a lei do consumidor já tem as portas para isso. Quando o desenho tira utilidade do que você comprou, a porta é o vício, que é o defeito de qualidade. Quando ele empurra a sua escolha com escassez inventada, pressa fabricada e dificuldades só para um lado, a porta é a prática abusiva. E quando tudo isso vira regra escrita nos termos, a porta é a cláusula abusiva."
+},
+{
+"k": "2f4050cfac2de665",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Não é preciso inventar um direito novo para as plataformas. O que muda é o que essas portas passam a enxergar, que deixa de ser só o episódio e passa a ser o padrão que produz a perda."
+},
+{
+"k": "bea579af8b7fd16a",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O primeiro eixo de enquadramento recai sobre o vício de qualidade, sempre que o programa de funcionamento do serviço produz perda relevante de adequação, continuidade ou equivalência funcional da fruição.<1>p. 674</1>"
+},
+{
+"k": "31666672a5b05460",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O segundo eixo de enquadramento recai sobre as práticas abusivas, e é nele que a teleologia abusiva aparece com mais força como método reiterado de exploração.<1>p. 676</1>"
+},
+{
+"k": "fc158b50039e6c61",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando escassez artificial, urgência fabricada, ciclos de promessa, fabricação de risco, fricções assimétricas e reversibilidade dificultada operam de modo previsível e repetido<1>p. 676</1>"
+},
+{
+"k": "1dd5884ce2bc5137",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O terceiro eixo é o das cláusulas abusivas, sempre que o programa exploratório ganha institucionalização contratual em termos, políticas e aceites predispostos.<1>p. 677</1>"
+},
+{
+"k": "e78744ec1bab49c7",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Ele não exige sair do CDC nem inventar um direito paralelo das plataformas.<1>p. 679</1>"
+},
+{
+"k": "71449dc637fd5969",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "É assim que o controle jurídico deixa de mirar apenas o episódio e passa a atingir o padrão de governança que produz, reforça ou normaliza a lesão.<1>p. 679</1>"
+},
+{
+"k": "12c4baa56a5f130e",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1><2>Quando a perda é regra, o problema é o desenho</2>"
+},
+{
+"k": "4e11c800c5c1b652",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando a perda vira rotina do jogo?"
+},
+{
+"k": "1f243ef8634dc8bd",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando várias pequenas coisas funcionam juntas para tirar proveito da sua fragilidade ou para piorar a sua experiência como rotina do jogo. São pequenos atritos que cansam, perdas que todo mundo já acha normais e urgências fabricadas. São também a escassez artificial, a falta de clareza que trabalha a favor da empresa e as equivalências que mudam conforme a conveniência."
+},
+{
+"k": "69f1e2221ec7ad15",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Você não precisa provar que alguém quis prejudicar você. O que importa é a finalidade que aparece no próprio funcionamento do ambiente. Ela se vê pelo padrão que se repete, pela coerência entre as peças e pelo efeito que se produz de novo e de novo."
+},
+{
+"k": "7fea017bd5c76d83",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O que o desenho do jogo não pode buscar?"
+},
+{
+"k": "5b93c26c9f69cb49",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Não montar a experiência com uma finalidade de exploração que contraria a boa-fé, a transparência e o equilíbrio, nem que desrespeita o que você legitimamente adquiriu."
+},
+{
+"k": "1a9a2ae032d074bc",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Como mostrar que o problema forma um padrão?"
+},
+{
+"k": "106ade598502f4e7",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O padrão, o fato de ele se repetir e a forma como as peças do ambiente se combinam. E o impacto relevante que isso tem sobre a sua liberdade de escolha na prática, sobre a sua compreensão ou sobre a utilidade do que você usa."
+},
+{
+"k": "432c12c55094fbf6",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Dá para pedir mais do que o conserto de um caso?"
+},
+{
+"k": "139f7ee5628e8bc2",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Mais do que o conserto de um episódio. Você pode pedir que os caminhos do jogo sejam refeitos, que a transparência aumente e que o desenho seja corrigido. Quando esse desenho produz um padrão de lesão que se repete, a resposta também pode alcançar a estrutura que o reproduz."
+},
+{
+"k": "df5db623a0fe9c2d",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Toda forma de vender e convencer é abusiva?"
+},
+{
+"k": "a4ebf2a30b6b3667",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Nem toda forma de vender, de convencer ou de administrar o jogo é abusiva. O que se controla é um programa que dá para reconhecer no funcionamento do ambiente, e não uma vontade escondida de alguém."
+},
+{
+"k": "c2355a4243622bf6",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva.<1>p. 746</1>"
+},
+{
+"k": "d20db98d740145a4",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O dever de fornecimento correspondente é o de não estruturar a experiência a partir de finalidade exploratória incompatível com boa-fé, transparência, equilíbrio e tutela da fruição legitimamente incorporada ao vínculo.<1>p. 746</1>"
+},
+{
+"k": "1e140339742a5366",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A prova mínima exigível consiste na demonstração do padrão, de sua replicabilidade, da coordenação entre mecanismos do ecossistema e do impacto relevante produzido sobre autonomia prática, inteligibilidade ou utilidade da experiência.<1>p. 746-747</1>"
+},
+{
+"k": "81c519ec2a19c9ff",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "A consequência institucional vai além da reparação de episódios isolados e pode incluir reconfiguração de fluxos, deveres reforçados de transparência, correção de desenho e medidas estruturais ou coletivas.<1>p. 747</1>"
+},
+{
+"k": "5604730e6faed65b",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "O que se controla não é uma vontade íntima, mas um programa reconhecível<1>p. 732</1>"
+},
+{
+"k": "d0448ac5ce11585b",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Se a lei precisa enxergar tudo isso, ela já tem como?"
+},
+{
+"k": "e3966d55161038aa",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Seguir para a parte 8</1>"
+},
+{
+"k": "cffa059395a03407",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>← E se a sua skin mudar amanhã?</1><2>A lei já tem resposta? →</2>"
+},
+{
+"k": "7c6be34ecfa33b56",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Teleologia abusiva</1>"
+},
+{
+"k": "5117c3f4dfa52685",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>A finalidade abusiva passa nas cinco perguntas?</1>"
+},
+{
+"k": "51d55e511b3793bf",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Negócio agressivo já tem finalidade abusiva?</1>"
+},
+{
+"k": "8f62cc194897cc9b",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Ilícito de arquitetura</1>"
+},
+{
+"k": "cd52208a8a8b6cae",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Tudo é inovação ou tudo está no contrato?</1>"
+},
+{
+"k": "045e389b661e7cc6",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Padrões obscuros</1>"
+},
+{
+"k": "406f9802879ff27b",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1><2>Publicidade enganosa por arquitetura</2><3>Publicidade enganosa por arquitetura</3></1>"
+},
+{
+"k": "235e962f2fa24dcc",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1><2>Continuidade biográfica</2><3>Continuidade biográfica</3></1>"
+},
+{
+"k": "b8b0999dc4a84970",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1><2>Quando a perda é regra, o problema é o desenho</2><3>Quando a perda é regra, o problema é o desenho</3></1>"
+},
+{
+"k": "78f727508900a7e9",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1><2>7</2>E se a perda fizer parte do plano?</1>"
+},
+{
+"k": "f0186035d0710c11",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "ANDRADE, Victor L. P. E se a perda fizer parte do plano?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/caminho/o-desenho/"
+},
+{
+"k": "127903864b2011fe",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "Quando a perda vira rotina, o problema está no desenho. Parte 7 de 11 do caminho da skin."
+},
+{
+"k": "77836b3d5fef063f",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "ilustração prevista · parte-o-desenho"
+},
+{
+"k": "74aa991d79133b42",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Quem ganha com o seu clique? · Siga a skin · Lex Plataformae"
+},
+{
+"k": "e12cd174ab13e108",
+"pagina": "caminho/o-dono/index.html",
+"pt": "<1>Caminho</1> · Parte 3 de 11"
+},
+{
+"k": "b964a4295a8acb26",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Quem ganha com o seu clique?"
+},
+{
+"k": "d61883014fdff491",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Um castelo feito de blocos de servidores sobre nuvens. Lá embaixo, pessoas jogam, e cada gesto delas sobe como um tijolo que aumenta o castelo."
+},
+{
+"k": "38adec4c363ea9af",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Quem montou a loja é a mesma empresa que controla o jogo, as regras, as atualizações e o que aparece para os outros jogadores. A skin continua na sua conta, e no papel ela é sua, mas quem decide quanto ela serve, quanto ela brilha e até quando ela vale é a plataforma."
+},
+{
+"k": "f3f11d5afd83ebcf",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Isso muda o que custa estar ali. Ficar não custa só o próximo pagamento, porque custa também atenção, adaptação, perda de equivalência quando as coisas mudam e uma dependência que não acaba. E a empresa não ganha só no momento da compra. Ganha administrando o lugar todos os dias, com raridade inventada, ciclos de atualização e mudanças de sentido que empurram você para mais uma rodada de gastos."
+},
+{
+"k": "7840ef9b59f9c72e",
+"pagina": "caminho/o-dono/index.html",
+"pt": "A plataforma opera como senhorio de infraestrutura: controla o ambiente, as regras, as atualizações e a visibilidade do que ali adquire valor.<1>p. 146</1>"
+},
+{
+"k": "dc6a25429f4812b0",
+"pagina": "caminho/o-dono/index.html",
+"pt": "O “capital na nuvem” aparece como domínio sobre acesso, reputação e permanência, de modo que o consumidor, embora preserve titularidade formal sobre itens vinculados à conta, permanece submetido ao poder unilateral de modular utilidade, prestígio e condições de fruição. O custo não se expressa apenas em novo pagamento, mas também em atenção, adaptação, perda de equivalência e dependência contínua do território administrado.<1>p. 146</1>"
+},
+{
+"k": "df5ffb711262030e",
+"pagina": "caminho/o-dono/index.html",
+"pt": "A renda não se extrai apenas no ato de compra, mas na gestão contínua do território digital, onde escassez artificial, ciclos de atualização e reconfiguração de signos reorganizam desejos e empurram o sujeito para novas rodadas de gasto e recomposição de status.<1>p. 146</1>"
+},
+{
+"k": "425c43371ce13273",
+"pagina": "caminho/o-dono/index.html",
+"pt": "<1>Economia política</1>Tecnofeudalismo"
+},
+{
+"k": "8a93daf86605e843",
+"pagina": "caminho/o-dono/index.html",
+"pt": "No feudo havia senhores, que eram donos da terra, e servos, que viviam e trabalhavam nela segundo as regras do senhor. Há quem diga que hoje a terra virou nuvem. Os donos dos servidores, das plataformas e dos algoritmos fazem o papel dos novos senhores, e quem usa esses lugares vive segundo as regras deles."
+},
+{
+"k": "d29f6f4a1173db20",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Você não deixa de consumir por causa disso. O ponto é que, cada vez que participa, ajuda a fazer crescer o mesmo poder que governa você. É por isso que se fala em servos da nuvem. E, no caso do jogo, o feudo nem é uma figura de linguagem, porque ele tem nome e endereço, que é a sua conta."
+},
+{
+"k": "8b14c1fb1f9ed559",
+"pagina": "caminho/o-dono/index.html",
+"pt": "O autor argumenta que o sistema capitalista estaria em vias de ser substituído pelo que denomina “tecnofeudalismo”, no qual o capital deixa de se apresentar prioritariamente como propriedade material e passa a concentrar-se “na nuvem”, isto é, em ativos digitais, plataformas online e algoritmos.<1>p. 142</1>"
+},
+{
+"k": "3ca449d36d16764f",
+"pagina": "caminho/o-dono/index.html",
+"pt": "O autor reintroduz uma gramática feudal para descrever o presente, na qual os proprietários do capital na nuvem figuram como novos senhores feudais, enquanto os demais retornam à condição de servos.<1>p. 151</1>"
+},
+{
+"k": "1b406794f143efa2",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Daí a força da imagem feudal: consumidores e usuários tornam-se “servos da nuvem” não porque deixam de consumir, mas porque sua participação passa a reproduzir o próprio capital que os governa.<1>p. 146</1>"
+},
+{
+"k": "268396379254b782",
+"pagina": "caminho/o-dono/index.html",
+"pt": "O feudo não é uma metáfora do ambiente digital. Ele é uma conta.<1>p. 153</1>"
+},
+{
+"k": "471e69f9c07169e2",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Por que a skin não é como uma geladeira?"
+},
+{
+"k": "54fdfe3355a948bc",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Numa compra comum é diferente. Quando você compra uma geladeira, ela vai para a sua casa e passa a existir longe do alcance de quem vendeu, pelo menos enquanto durar o que se espera de uma geladeira. A loja ganha uma vez e pronto."
+},
+{
+"k": "59e46946af0abcdf",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Com a skin é diferente, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa."
+},
+{
+"k": "df91fea1897105c1",
+"pagina": "caminho/o-dono/index.html",
+"pt": "Na economia industrial, o consumidor paga para adquirir um bem cuja existência, uma vez comprada, tende a se estabilizar fora do alcance do fornecedor, ao menos dentro de expectativas razoáveis de durabilidade e de disciplina dos vícios.<1>p. 210</1>"
+},
+{
+"k": "a1b4a885af34a9b2",
+"pagina": "caminho/o-dono/index.html",
+"pt": "O consumidor não compra uma “coisa” e a leva consigo; ele ingressa em um regime de acesso em que o objeto se mantém funcional apenas dentro da infraestrutura que não controla, atravessado por atualizações, balanceamentos, encerramentos de eventos, rotatividade de catálogo, reconfigurações de moeda interna e mudanças de política<1>p. 210</1>"
+},
+{
+"k": "e72e62637bf6b398",
+"pagina": "caminho/o-dono/index.html",
+"pt": "A consequência é que a plataforma deixa de monetizar apenas a entrega de um bem e passa a monetizar o controle do acesso e do tempo.<1>p. 209</1>"
+}
+]

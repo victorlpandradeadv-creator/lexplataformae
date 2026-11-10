@@ -1,0 +1,602 @@
+[
+{
+"k": "ae5cf3559e202398",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "E se só um motorista tivesse as câmeras?"
+},
+{
+"k": "7cdbe7c0f0d556ec",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Quem conta a história de um acidente de trânsito? Se só um dos motoristas tivesse acesso às câmeras, às marcas no asfalto e aos registros do carro, a versão dele seria a única que daria para provar."
+},
+{
+"k": "4bc5708a025bee58",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Numa plataforma é assim por padrão. Quem controla o desenho, os critérios, os registros e o momento da mudança controla também a versão do que aconteceu. Sem trilhas mínimas, só existe a narrativa de um lado. A auditabilidade aberta é o que devolve à história mais de uma testemunha."
+},
+{
+"k": "179c4f9fce5db5c3",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Ela recoloca o conflito em terreno reconstruível e impede que a ausência de acesso aos elementos de prova se converta em impossibilidade prática de tutela<1>p. 642</1>"
+},
+{
+"k": "79b38759f9a0e1bc",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que precisa ficar ao seu alcance?"
+},
+{
+"k": "34142857ddc11fe6",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que precisa ficar ao alcance é simples de dizer. O que mudou, quando mudou, por que mudou, que efeito a mudança teve e quais registros permitem reconstruir o caso."
+},
+{
+"k": "9b6636afd67265f4",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Não se pede o segredo da empresa nem o código do jogo. Pede-se um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa e se respeitou previsibilidade, proporção e chance de contestar. Num conflito, há instrumentos para chegar a esse mínimo, como ordens para guardar e mostrar registros, perícia em pontos delimitados e, conforme o caso, presunções contra ela."
+},
+{
+"k": "07b4ef68f5a43834",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que precisa é de inteligibilidade suficiente para identificar a ocorrência de alteração relevante, relacioná-la com a fruição prometida, verificar se houve justificativa compatível com o regime jurídico e apurar se a sanção, a mudança ou a modulação respeitaram padrões mínimos de previsibilidade, proporcionalidade e contestabilidade.<1>p. 728</1>"
+},
+{
+"k": "a1be70dbc41ddbe8",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor<1>p. 745</1>"
+},
+{
+"k": "d704f564d36f3dce",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Com quem ficam os registros de um conflito?"
+},
+{
+"k": "fa11b754e795d5cd",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Num conflito sobre um item ou uma conta, quase tudo o que mostra o que aconteceu fica com o fornecedor. Os registros do sistema, as trilhas de tela, o histórico de mudanças, os critérios de punição e as conversas internas do suporte estão do lado de lá."
+},
+{
+"k": "1476f1dadcd096c5",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Essa é a situação normal nesses conflitos, e não uma exceção. Quem controla esses vestígios controla, em boa parte, o que dá para reconstruir depois. É exatamente essa concentração que a auditabilidade aberta procura equilibrar."
+},
+{
+"k": "0469b45b6e78bb1b",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que passa a poder ser contestado?"
+},
+{
+"k": "9e3743c501d1888a",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Com isso, o que é decidido dentro de sistemas fechados passa a poder ser contestado. E outro conceito depende diretamente deste, a equivalência de valor funcional. Sem conseguir reconstruir o que mudou, em que medida, por qual motivo e quando, você não consegue mostrar que perdeu a equivalência do que comprou."
+},
+{
+"k": "132aacaf17e45d15",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "[...] inclusive no que diz respeito a regras de acesso, modulações de entrega e mecanismos de sanção, de modo a tornar contestável o que é produzido por sistemas opacos<1>p. 393</1>"
+},
+{
+"k": "2c0e5eb9f3ea0def",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Sem auditabilidade, a equivalência funcional fica difícil de demonstrar, porque o consumidor não consegue reconstruir o que foi alterado, em que extensão, com que motivação e em que momento.<1>p. 638</1>"
+},
+{
+"k": "201ef376719e7637",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "É preciso abrir o código do jogo?"
+},
+{
+"k": "c260fefadab22ec5",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Não é abrir o código do programa, nem expor toda a tecnologia da empresa, nem acabar com os segredos de negócio. Não é transparência total. É transparência suficiente, verificabilidade mínima."
+},
+{
+"k": "cc0ab5d6eed76de1",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "E ela não vale para qualquer ajuste pequeno, mudança só de aparência ou oscilação sem importância. O dever começa quando a alteração, a punição ou a mudança de regra afeta de modo relevante o que você usa, a sua permanência ou a sua chance de provar e contestar."
+},
+{
+"k": "a95aecf1248c3632",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "A expressão não designa abertura irrestrita de código-fonte, exposição integral da arquitetura tecnológica ou renúncia generalizada a segredos empresariais.<1>p. 727</1>"
+},
+{
+"k": "4c273e4e4176677d",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Não transparência total, mas transparência suficiente. Não revelação absoluta, mas verificabilidade mínima.<1>p. 728</1>"
+},
+{
+"k": "7433d79770e673a8",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1><2>6</2>E se a sua skin mudar amanhã?</1>"
+},
+{
+"k": "3a94423f4bfe503c",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Quanto de transparência é suficiente, e quem decide isso?"
+},
+{
+"k": "6dba7a83f6597ac0",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que a auditabilidade aberta exige?"
+},
+{
+"k": "9b1f96c0374c4496",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Exige condições mínimas de verificabilidade sobre aspectos relevantes do fornecimento. Órgãos de tutela, Judiciário, peritos e, em certa medida, os próprios consumidores precisam conseguir reconstruir a relação entre promessa, alteração, sanção, impacto funcional e justificação do fornecedor."
+},
+{
+"k": "96a0959594b2266b",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "A que problema ela responde?"
+},
+{
+"k": "53145c3d7f34a61f",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Responde à opacidade funcional típica dos objetos imateriais de consumo. Ela e a equivalência funcional operam sobre o regime de fruição concretamente governado, e não sobre um objeto tomado em abstrato."
+},
+{
+"k": "5cde439c693d900b",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Por isso, em OICs, auditabilidade aberta e equivalência funcional não operam sobre um objeto tomado em abstração, mas sobre o regime de fruição concretamente governado.<1>p. 663</1>"
+},
+{
+"k": "d5fa645828e8a8a6",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O que ela não exige?"
+},
+{
+"k": "fa236754000ab5e4",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Não exige abertura irrestrita de código-fonte, exposição integral da arquitetura tecnológica nem renúncia geral a segredos empresariais. O padrão é de suficiência."
+},
+{
+"k": "257bf12a9670eace",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Os blocos seguem o enunciado do 7.1.1 a que cada um corresponde. As demais situações também operam com o conceito."
+},
+{
+"k": "c505a0b9b9a4a98b",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "4f146c3a706ac9e7",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Diretrizes de controle de arquitetura e governança</1> <2>segunda e nona diretrizes</2>"
+},
+{
+"k": "394101185f837f9a",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "No capítulo <1>A auditabilidade aberta</1>, no caminho do jurista."
+},
+{
+"k": "82ae5e5e78c5a95b",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Auditabilidade aberta"
+},
+{
+"k": "6ee36b1be008aec1",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Controla a alteração<1>p. 800</1>. Critério de legitimidade."
+},
+{
+"k": "f208d2e5bf5ff5d3",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Caminho do consumidor</1><2>critério operacional de verificação e recomposição</2>"
+},
+{
+"k": "7cca0368df4c131e",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Caminho do julgador</1><2>critério de verificação, contenção e imputação</2>"
+},
+{
+"k": "a82df9b85901ae7c",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Caminho do regime</1><2>controla as alterações</2>"
+},
+{
+"k": "22ace81756e3b335",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Dos OICs de funcionalidade cognitiva e regime de informação</1> <2>1×</2>"
+},
+{
+"k": "4809f6e9d4964771",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Dos OICs de infraestrutura e intermediação</1> <2>2×</2>"
+},
+{
+"k": "21cff058477cd3a5",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Dos OICs de produtividade sob a gig economy</1> <2>1×</2>"
+},
+{
+"k": "198b61a66738b5ec",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Da concorrência sob a Lex Plataformae</1> <2>1×</2>"
+},
+{
+"k": "9f7483642f669ff1",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Da tutela coletiva sob auditabilidade aberta</1> <2>2×</2>"
+},
+{
+"k": "5922ac36cec6a262",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Antecipação hipercuratorial</1>"
+},
+{
+"k": "c630fce56772e466",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>E se só um motorista tivesse as câmeras?</1>"
+},
+{
+"k": "37f58860c3e1eef1",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>O que precisa ficar ao seu alcance?</1>"
+},
+{
+"k": "078ac192864a3f3f",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Com quem ficam os registros de um conflito?</1>"
+},
+{
+"k": "9c43c5f650deba6e",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>O que passa a poder ser contestado?</1>"
+},
+{
+"k": "c1eeb1b2e576024e",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>É preciso abrir o código do jogo?</1>"
+},
+{
+"k": "18a17f0cf7725b0a",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>O que a auditabilidade aberta exige?</1>"
+},
+{
+"k": "b0b3c9bbf75ec572",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>A que problema ela responde?</1>"
+},
+{
+"k": "889faff5eb9084aa",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>O que ela não exige?</1>"
+},
+{
+"k": "3c3fe3235925b464",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Auditabilidade aberta</1>"
+},
+{
+"k": "e8b415509fab52d9",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Auditabilidade aberta</1>"
+},
+{
+"k": "d81a2ecd6673e406",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "ANDRADE, Victor L. P. Auditabilidade aberta. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/conceitos/auditabilidade-aberta/"
+},
+{
+"k": "e3a9bd1038ac8008",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "O dever de deixar verificável o que mudou, por que mudou e com que efeito, sem exigir que a empresa abra todos os segredos."
+},
+{
+"k": "f5539bb5b1fbc769",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "ilustração prevista · ideia-auditabilidade-aberta"
+},
+{
+"k": "5b07ab0fca7f4965",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "Auditabilidade aberta significa a existência de condições mínimas de verificabilidade sobre aspectos relevantes do fornecimento, de modo que órgãos de tutela, Judiciário, peritos e, em certa medida, os próprios consumidores possam reconstruir a relação entre promessa, alteração, sanção, impacto funcional e justificação apresentada pelo fornecedor."
+},
+{
+"k": "2331c79ea4848edf",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Cativeiro identitário · Conceitos · Lex Plataformae"
+},
+{
+"k": "28fdf38303a16b3e",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Conceito derivado<1> · nomeado pela tese, ao lado dos nove</1>"
+},
+{
+"k": "aba6cec54dc2b375",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Cativeiro identitário"
+},
+{
+"k": "435c40ca0411f562",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Explicado em palavras simples no caminho da skin, em <1>Quem ganha com o seu clique?</1>"
+},
+{
+"k": "ba4498228acfa6e0",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "O que é"
+},
+{
+"k": "4d1342d4b4c89aff",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "É a modalidade de dependência em que o custo de sair não se reduz ao patrimônio, porque envolve perda de reconhecimento, de reputação e de continuidade narrativa, registradas em desempenho, acervos, históricos e sinais de distinção produzidos dentro do ambiente. A dependência é institucional e semiótica, e não psicológica no sentido individualizante. Decorre de um regime de visibilidade e de sanção que define o que vale, o que pertence e o que progride, e como tudo isso pode ser rebaixado ou apagado."
+},
+{
+"k": "fa8eac14c5b686a6",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "No plano do consumo, o conceito não cria um bem novo. Ele torna controlável uma forma específica de perda."
+},
+{
+"k": "580259a9211d4899",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "No capítulo <1>A vulnerabilidade semiótica</1>, no caminho do jurista."
+},
+{
+"k": "c6a33b537a604b2f",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Onde o texto integral usa o nome"
+},
+{
+"k": "bfdae1aacb902295",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>2.6 Das epígrafes como registro sintomático e recurso hermenêutico</1> <2>1×</2>"
+},
+{
+"k": "a72832b4bccfe66d",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>3.2.3 Extração de valor, escassez artificial e o consumidor como exterior incorporado</1> <2>3×</2>"
+},
+{
+"k": "b23dd3dbd4e1fbe1",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>3.2.6 Regimes de valor, produção de sentido e economia da atenção nas plataformas</1> <2>1×</2>"
+},
+{
+"k": "11924019a4857868",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>4.2 Dominação informacional, poder privado e subjetividade</1> <2>1×</2>"
+},
+{
+"k": "38065159d4f64cc4",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>4.2.3 Psicopolítica, autoexploração e cativeiro identitário</1> <2>4×</2>"
+},
+{
+"k": "0446c6b2b974e781",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>5.1.4 Da integridade pessoal, identidade simbólica e cidadania digital</1> <2>3×</2>"
+},
+{
+"k": "cd262a31662b75b4",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>Os nove conceitos</1>"
+},
+{
+"k": "e27bce28e045a173",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>O que é</1>"
+},
+{
+"k": "d240d468aa334647",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1>Onde o texto integral usa o nome</1>"
+},
+{
+"k": "7647b75af285453a",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "Os outros nove derivados"
+},
+{
+"k": "322e409fc4d6ad79",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Consentimento viciado por sentido</2></1>"
+},
+{
+"k": "b817d8757721d372",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Consumidor-cidadão</2></1>"
+},
+{
+"k": "f2e2c785e924e21f",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Continuidade biográfica</2></1>"
+},
+{
+"k": "564a3817c66fe464",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Correção de regime</2></1>"
+},
+{
+"k": "03d26a8fffd423e8",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Dano-arquitetura</2></1>"
+},
+{
+"k": "ec5c3d70483b3d34",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Publicidade enganosa por arquitetura</2></1>"
+},
+{
+"k": "22891980d4b24525",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Recomposição funcional</2></1>"
+},
+{
+"k": "2620c5fd639f16cc",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Teleologia arquitetural</2></1>"
+},
+{
+"k": "8d84280e1b062a13",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "<1><2>Transparência performática</2></1>"
+},
+{
+"k": "ae5ee43bec707297",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "ANDRADE, Victor L. P. Cativeiro identitário. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/conceitos/cativeiro-identitario/"
+},
+{
+"k": "0b6f98247645a158",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "[...] reforçando um circuito de permanência que converte a participação do indivíduo em um insumo de valorização para a plataforma. Esse efeito pode ser…"
+},
+{
+"k": "0906877cc6b4fbe6",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "contagem mecânica do nome no corpo e nas notas"
+},
+{
+"k": "0c0f123567458830",
+"pagina": "conceitos/cativeiro-identitario/index.html",
+"pt": "[...] reforçando um circuito de permanência que converte a participação do indivíduo em um insumo de valorização para a plataforma. Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema."
+},
+{
+"k": "620fa14a237d1bd8",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "Consentimento viciado por sentido · Conceitos · Lex Plataformae"
+},
+{
+"k": "b591466c5e3df1cb",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "Consentimento viciado por sentido"
+},
+{
+"k": "e2958474ea4a4741",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "Explicado em palavras simples no caminho da skin, em <1>Por que tudo isso parece normal?</1>"
+},
+{
+"k": "f9eea33dcf02dcc0",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "É o vício que não se resume a erro factual pontual, como confundir um preço ou um prazo. O consumidor adere dentro de uma moldura de linguagem que o deixa fora do centro de inteligibilidade da relação. As condições comunicacionais do fornecimento produzem, de forma estrutural, a incapacidade de decodificar, comparar e antecipar consequências relevantes."
+},
+{
+"k": "c09ababc33c0c04f",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "<1>6.2.4.2 Da linguagem, código e consentimento viciado por sentido</1> <2>1×</2>"
+},
+{
+"k": "c5f5117f067cc5a7",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "<1><2>Cativeiro identitário</2></1>"
+},
+{
+"k": "e4ef1a7c6c7a261f",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "ANDRADE, Victor L. P. Consentimento viciado por sentido. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/conceitos/consentimento-viciado-por-sentido/"
+},
+{
+"k": "651e5e29dd146f41",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "O consumidor não erra apenas um dado. Ele adere dentro de uma moldura de linguagem que já o coloca fora do centro de inteligibilidade da relação. É nesse…"
+},
+{
+"k": "4937da9b16054c9b",
+"pagina": "conceitos/consentimento-viciado-por-sentido/index.html",
+"pt": "O consumidor não erra apenas um dado. Ele adere dentro de uma moldura de linguagem que já o coloca fora do centro de inteligibilidade da relação. É nesse ponto que se pode falar em consentimento viciado por sentido. Não se trata de erro factual pontual, como confundir um preço ou um prazo isolado."
+},
+{
+"k": "c763c24aa98bbb59",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "Consumidor-cidadão · Conceitos · Lex Plataformae"
+},
+{
+"k": "d907a941b502c265",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "Consumidor-cidadão"
+},
+{
+"k": "9040cb2bf429123a",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "Explicado em palavras simples no caminho da skin, em <1>Quem manda depois da compra?</1>"
+},
+{
+"k": "070c75b186b3fc42",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "É consumidor porque há aquisição e expectativa legítima de fruição. É cidadão num sentido analítico, porque a presença dele no ambiente depende de condições de pertencimento e de continuidade fixadas por governança privada. A palavra não trata de nacionalidade, soberania ou estatuto constitucional. Trata das condições práticas de participação e permanência num ambiente em que a alteração unilateral dessas condições reconfigura o próprio objeto fruído."
+},
+{
+"k": "aa1449043c79bce3",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "No capítulo <1>A lei da plataforma</1>, no caminho do jurista."
+},
+{
+"k": "46238b89129d7895",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "<1>4.2 Dominação informacional, poder privado e subjetividade</1> <2>2×</2>"
+},
+{
+"k": "dd4248d34bd3a76b",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "<1>4.2.4 Regras privadas, enforcement e a governança da plataforma</1> <2>1×</2>"
+},
+{
+"k": "82b5a5736b9f454a",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "<1>4.2.5 O consumidor-cidadão sob a Lex Plataformae</1> <2>3×</2>"
+},
+{
+"k": "9577136252f7554d",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "ANDRADE, Victor L. P. Consumidor-cidadão. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/conceitos/consumidor-cidadao/"
+},
+{
+"k": "ce964eb1601ab748",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem…"
+},
+{
+"k": "987be31ab577220b",
+"pagina": "conceitos/consumidor-cidadao/index.html",
+"pt": "Consumidor-cidadão é o sujeito que adquire OICs cuja utilidade se realiza como permanência funcional em um ecossistema, e não como entrega isolada de um bem transferido."
+},
+{
+"k": "2e406bb25dca5509",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "Continuidade biográfica · Conceitos · Lex Plataformae"
+},
+{
+"k": "25e1bfa9577842b4",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "Continuidade biográfica"
+},
+{
+"k": "698e667263b719e3",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "Explicado em palavras simples no caminho da skin, em <1>E se a perda fizer parte do plano?</1>"
+},
+{
+"k": "6411ce32290bf1ca",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "É a trajetória construída no ambiente por escolhas reiteradas, desempenho, investimento de tempo, aquisição, cooperação, sinais de pertencimento e permanência. Mesmo mediada pela lei da plataforma, ela continua atribuível ao consumidor. Quando a conta se perde, não se perde só um item isolado, e sim a posição global de fruição, o histórico, o inventário e a inserção prática no ambiente. A integridade do consumidor pode incluir a preservação de condições mínimas dessa continuidade, e não só o reembolso de uma compra frustrada."
+},
+{
+"k": "c40c8f278bc7cbb0",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "No capítulo <1>Os bens protegidos</1>, no caminho do jurista."
+},
+{
+"k": "c40e61987632dd54",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "<1>5.1.4 Da integridade pessoal, identidade simbólica e cidadania digital</1> <2>2×</2>"
+},
+{
+"k": "eb3f9d41625010c1",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "<1>6.1.3 Da integridade pessoal, identidade simbólica e continuidade biográfica como bens jurídicos de referência</1> <2>12×</2>"
+},
+{
+"k": "8747a27ee2ef3c16",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "<1>6.2.2 Da doutrina dos bens digitais e o regime do Objeto Imaterial de Consumo</1> <2>1×</2>"
+},
+{
+"k": "e7100d0c64d138a5",
+"pagina": "conceitos/continuidade-biografica/index.html",
+"pt": "<1>6.4.1 Do ilícito de teleologia abusiva: vício de concepção e prática abusiva</1> <2>1×</2>"
+}
+]

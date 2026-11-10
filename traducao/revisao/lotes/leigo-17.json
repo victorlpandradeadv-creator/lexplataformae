@@ -1,0 +1,602 @@
+[
+{
+"k": "f614db45a56b1339",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>Como saber se a perda foi além de um item?</1>"
+},
+{
+"k": "7184c2d497e6867e",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>Que registros ajudam a reconstituir a história que sumiu?</1>"
+},
+{
+"k": "da7392b5bd48d4c5",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>O que dá para pedir quando a história inteira foi apagada?</1>"
+},
+{
+"k": "5aab4a60c864d7e3",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>A quem pedir a sua história de volta?</1>"
+},
+{
+"k": "d2da8c00a099c605",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>Até onde vai a proteção da sua história na plataforma?</1>"
+},
+{
+"k": "69ad9eb445fb8bbe",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "<1>Perdi anos de histórico. Isso é mais do que um item?</1>"
+},
+{
+"k": "9cc3dc3a76c3bb21",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "ANDRADE, Victor L. P. Perdi anos de histórico. Isso é mais do que um item?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/historia-perdida/"
+},
+{
+"k": "6a42a55e586cb320",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "Um banimento, que é a expulsão definitiva da conta, uma redefinição de progresso ou um apagamento levou embora anos de histórico, inventário, conquistas e…"
+},
+{
+"k": "e91ae71069625524",
+"pagina": "problemas/historia-perdida/index.html",
+"pt": "Perdi anos de histórico. Isso é mais do que um item?"
+},
+{
+"k": "6729ec6981472fe7",
+"pagina": "problemas/index.html",
+"pt": "Problemas comuns com contas, itens e jogos digitais · Lex Plataformae"
+},
+{
+"k": "dff83efb75dae022",
+"pagina": "problemas/index.html",
+"pt": "<1>Problemas</1>"
+},
+{
+"k": "9f9d9c3e675110c2",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Minha conta foi bloqueada ou banida. E o que eu comprei?</2><3>Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou.</3></1>"
+},
+{
+"k": "e1c5f6f6fc6c078f",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O que eu comprei mudou numa atualização. E agora?</2><3>Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou.</3></1>"
+},
+{
+"k": "a97de85e4f74321a",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</2><3>Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa.</3></1>"
+},
+{
+"k": "5b89d6b2bafaad23",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Um item que recebi de presente foi retirado da minha conta. E agora?</2><3>Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho.</3></1>"
+},
+{
+"k": "9c50553e040e9a84",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O serviço vai acabar. O que acontece com o que eu comprei?</2><3>A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona.</3></1>"
+},
+{
+"k": "27069a4f24717bbe",
+"pagina": "problemas/index.html",
+"pt": "<1><2>A empresa diz que eu só tenho uma licença. Então eu não comprei nada?</2><3>Você pagou, o botão dizia comprar, e o contrato chama o que você recebeu de licença, que é uma permissão de uso que pode ser retirada.</3></1>"
+},
+{
+"k": "3e63c6b3193ff11e",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O que foi anunciado não é o que eu recebi. E agora?</2><3>Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso fazia esperar.</3></1>"
+},
+{
+"k": "c26229a90552004f",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</2><3>Você pagou mais porque o item era raro, de edição especial ou de última chance, e depois ele voltou à venda por menos, em outra loja ou em outra moeda.</3></1>"
+},
+{
+"k": "9c8ac4c71233ca14",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Paguei por um sorteio ou por uma caixa de recompensa. O que preciso saber?</2><3>Você pagou para tentar a sorte, numa caixa de recompensa ou num sorteio de itens, e o que saiu quase nunca foi o que você queria.</3></1>"
+},
+{
+"k": "d0eed48604203a03",
+"pagina": "problemas/index.html",
+"pt": "<1><2>A moeda do serviço passou a comprar menos. Isso é permitido?</2><3>Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas.</3></1>"
+},
+{
+"k": "5b36030669358bfa",
+"pagina": "problemas/index.html",
+"pt": "<1><2>A oferta dizia última chance. Fui pressionado a comprar?</2><3>A contagem regressiva, a edição limitada ou o aviso de que o item ia sumir fizeram você decidir depressa, talvez antes de entender tudo o que estava comprando.</3></1>"
+},
+{
+"k": "b5f3cd81a7cb4ebb",
+"pagina": "problemas/index.html",
+"pt": "<1><2>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</2><3>A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar.</3></1>"
+},
+{
+"k": "02f3a57fbcc7609e",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Os registros estão com a empresa. Como eu provo o que aconteceu?</2><3>Na maior parte dos conflitos com plataformas, quem guarda os registros do que aconteceu é a empresa, e não você.</3></1>"
+},
+{
+"k": "48a95ca3ec3beae0",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Reclamo, e a resposta nunca resolve. O que fazer?</2><3>O atendimento é gentil, responde rápido e pede para aguardar, mas o problema continua, e você acaba deixando para lá.</3></1>"
+},
+{
+"k": "644f6ebf6d5b4482",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Quero sair, mas perderia tudo o que construí ali. Isso conta?</2><3>Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro.</3></1>"
+},
+{
+"k": "7dc4034d6f4f6c7b",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Perdi anos de histórico. Isso é mais do que um item?</2><3>Um banimento, que é a expulsão definitiva da conta, uma redefinição de progresso ou um apagamento levou embora anos de histórico, inventário, conquistas e reputação.</3></1>"
+},
+{
+"k": "f17c5cf158126738",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O serviço exige um programa que roda no meu aparelho. Posso questionar?</2><3>Alguns serviços só funcionam se você instalar um programa que roda no fundo do seu computador e liga junto com ele, mesmo com o jogo fechado.</3></1>"
+},
+{
+"k": "7516e681c005532c",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Meu filho ou minha filha gastou num jogo. O que a lei diz?</2><3>Seu filho ou sua filha gastou dinheiro num jogo, em compras pequenas e repetidas, em caixas de recompensa ou em ofertas que voltavam a cada evento.</3></1>"
+},
+{
+"k": "2564bbc8f09708bb",
+"pagina": "problemas/index.html",
+"pt": "<1><2>O assistente de inteligência artificial mudou ou errou. O que posso exigir?</2><3>Você usou um assistente de inteligência artificial, que é o programa que conversa, resume e orienta, e a resposta se mostrou errada ou o serviço passou a funcionar de outro jeito.</3></1>"
+},
+{
+"k": "04b7911d9a6d179d",
+"pagina": "problemas/index.html",
+"pt": "<1><2>A loja virtual esconde quem é pago e quem é confiável. Isso conta?</2><3>Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza.</3></1>"
+},
+{
+"k": "e02f708777af4056",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?</2><3>Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma.</3></1>"
+},
+{
+"k": "4430bf8a1b8eb068",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Trabalho por aplicativo, e a regra mudou. Tenho o que pedir?</2><3>Você trabalha com entregas ou corridas por aplicativo e, depois de uma mudança de regra que ninguém explicou, as chamadas diminuíram, o ganho caiu ou chegou uma restrição.</3></1>"
+},
+{
+"k": "7ad2b06efa5fa443",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Vendo numa plataforma. A lei do consumidor me protege?</2><3>Você vende numa loja virtual ou usa a plataforma para ganhar dinheiro, e ouviu que a lei do consumidor não vale para você porque você tem um negócio.</3></1>"
+},
+{
+"k": "31810d3449a4f991",
+"pagina": "problemas/index.html",
+"pt": "<1><2>Aconteceu com muita gente. Dá para resolver de uma vez?</2><3>O mesmo problema atingiu muita gente no mesmo serviço, e cada pessoa ficou do seu lado, achando que foi azar.</3></1>"
+},
+{
+"k": "0559bfe3deb3f4ab",
+"pagina": "problemas/index.html",
+"pt": "<1>Todos os seus direitos</1>"
+},
+{
+"k": "1160c00231241275",
+"pagina": "problemas/index.html",
+"pt": "ANDRADE, Victor L. P. Problemas comuns com contas, itens e jogos digitais. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/"
+},
+{
+"k": "b91951c9bdc64a64",
+"pagina": "problemas/index.html",
+"pt": "Conta bloqueada, item alterado, jogo encerrado e outros problemas comuns, com o que a plataforma deve e o que você pode pedir."
+},
+{
+"k": "39126f18f7bba9b2",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "O que eu comprei mudou numa atualização. E agora? · Lex Plataformae"
+},
+{
+"k": "e550988725ccf254",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>O que eu comprei mudou numa atualização.</1> <2>E agora?</2>"
+},
+{
+"k": "d4935a608d454333",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou. O item continua lá, mas já não serve do mesmo jeito, e o que importa é saber se a mudança tirou dele o papel que justificou a compra."
+},
+{
+"k": "24ad86ada670ce31",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A mutabilidade, por si, não é ilícita. O problema começa quando ela deixa de operar como forma legítima de manutenção, aperfeiçoamento ou adaptação do fornecimento e passa a degradar, esvaziar ou desviar, de modo relevante, a função que justificou a aquisição e estruturou a expectativa legítima de fruição.<1>p. 729</1>"
+},
+{
+"k": "7b272cd51a6f00e9",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Como saber se a atualização passou de um simples ajuste?"
+},
+{
+"k": "731d4a6381f47fef",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "O caso típico é o do item que segue no inventário, com o mesmo nome, mas ficou fraco demais. Ele pode também ter perdido uma função importante ou o lugar que tinha entre os outros jogadores. Também entram a tela refeita de um jeito que atrapalha o uso de todo dia e a regra nova que rebaixa o que tinha sido prometido como equivalente."
+},
+{
+"k": "7d6d593a2ecfe16a",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A pergunta não é se o item ainda existe, nem se o contrato deixava a empresa mudar. A pergunta é se ele ainda cumpre, no essencial, o papel que tinha na sua experiência. Esse papel inclui a utilidade, a relação com os outros e, quando isso importa, o que o item significa."
+},
+{
+"k": "82899ffff85937aa",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Que provas do antes e do depois valem a pena guardar?"
+},
+{
+"k": "c38b64a73f396280",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Vale guardar o anúncio do item, com as vantagens que ele prometia, porque é a partir da oferta que se mede o que precisava continuar existindo. Ajudam também capturas de tela com data, gravações e as telas da compra, que mostram como o item era e não só o que você lembra dele."
+},
+{
+"k": "3dd469f259a50f6a",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "As notas de atualização são os textos em que a empresa conta o que mudou em cada versão. Elas servem como informação geral, mas raramente deixam comparar o antes e o depois de um item. Por isso a sua proteção não pode depender de você ter arquivado tudo, já que o histórico completo das versões fica com a empresa."
+},
+{
+"k": "eab6408f57e75387",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A oferta e a confiança por ela despertada oferecem base direta para essa identificação, pois o consumidor contrata em vista das vantagens e qualidades anunciadas, surgindo daí o dever jurídico de manutenção das condições ofertadas ou, ao menos, de preservação substancial de sua utilidade <1>Miragem</1><2>(Miragem, 2020, p. 424)</2>.<3>p. 652</3>"
+},
+{
+"k": "50b9ea14c5225489",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "O que dá para pedir antes de falar em dinheiro?"
+},
+{
+"k": "de39af238333eb0f",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A primeira resposta é a função voltar. O pedido pode incluir desfazer a mudança, quando isso for tecnicamente viável, ou trocar o item por outro que cumpra o mesmo papel. Também pode incluir corrigir a forma como a atualização foi feita."
+},
+{
+"k": "795fd17f24b6f3db",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Quando a mudança rebaixou de modo relevante o que você usava, a saída deve dar a você ao menos uma escolha. Pode ser reembolso, crédito ou troca por um item de valor equivalente. Os termos de uso, que são o contrato que você aceita ao criar a conta, ajudam aqui. Os de um grande jogo já preveem reembolso ou troca quando um item comprado há pouco é retirado por completo."
+},
+{
+"k": "fcc68f9576b5e438",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Também cabe pedir que a empresa diga o que mudou, quando, por qual motivo e com que efeito sobre o item. E a indenização em dinheiro continua possível quando restaurar não for viável ou não bastar."
+},
+{
+"k": "f48658753e5911a1",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Por onde começar a reclamar de uma atualização?"
+},
+{
+"k": "68cc15bdb6272808",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "O primeiro passo costuma ser a própria empresa. Continuar usando o serviço depois da mudança não quer dizer, por si, que você concordou com ela. Quem já investiu na conta muitas vezes segue em frente por não ter saída."
+},
+{
+"k": "8728d73638549307",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta."
+},
+{
+"k": "a818c0851f4d6551",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Que mudanças ficam fora dessa proteção?"
+},
+{
+"k": "4457c92f29be9208",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A empresa pode atualizar, e ninguém exige que o item fique idêntico para sempre nem que o serviço pare no tempo. Retoques pequenos, mudanças miúdas e oscilações normais da vida do serviço não bastam."
+},
+{
+"k": "0deff0450901a999",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "A mudança só de aparência, em regra, fica de fora, e gostar mais da versão antiga não basta. Ela passa a contar quando o valor simbólico do item era o centro do que foi vendido. Ou quando se soma a outros sinais de um padrão que explora quem usa."
+},
+{
+"k": "01a40af1ed4c1584",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Mesmo com uma perda relevante, a mudança ainda pode ser aceita quando a empresa mostra uma razão que dá para conferir. Para isso ela precisa também oferecer uma recomposição à altura, que é devolver o que foi perdido ou algo que cumpra a mesma função."
+},
+{
+"k": "094ff10f395d5f3d",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</1>"
+},
+{
+"k": "10a56d4acd4e1146",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>Como saber se a atualização passou de um simples ajuste?</1>"
+},
+{
+"k": "ed15f38832844e51",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>Que provas do antes e do depois valem a pena guardar?</1>"
+},
+{
+"k": "411f1b7b1336f543",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>O que dá para pedir antes de falar em dinheiro?</1>"
+},
+{
+"k": "8ab0676719212f23",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>Por onde começar a reclamar de uma atualização?</1>"
+},
+{
+"k": "046b2850b7bdeaff",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>Que mudanças ficam fora dessa proteção?</1>"
+},
+{
+"k": "07809456860fd508",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "<1>O que eu comprei mudou numa atualização. E agora?</1>"
+},
+{
+"k": "66e7792b41d4d022",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "ANDRADE, Victor L. P. O que eu comprei mudou numa atualização. E agora?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/item-alterado/"
+},
+{
+"k": "c98d2c4ae0565b03",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou. O item continua lá, mas já não serve do mesmo…"
+},
+{
+"k": "ec799105a91667c0",
+"pagina": "problemas/item-alterado/index.html",
+"pt": "O que eu comprei mudou numa atualização. E agora?"
+},
+{
+"k": "57ff1a28cf48ca6c",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O serviço vai acabar. O que acontece com o que eu comprei? · Lex Plataformae"
+},
+{
+"k": "11998cfee1f086d6",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O serviço vai acabar.</1> <2>O que acontece com o que eu comprei?</2>"
+},
+{
+"k": "ca82effc2e63ba17",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona. Ela pode encerrar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro."
+},
+{
+"k": "8d5399a09f42a6cb",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Como saber se o fim do serviço atinge o que você tinha?"
+},
+{
+"k": "d3b6c6748b790a78",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O que você comprou só funciona enquanto alguém mantém os servidores ligados e o ambiente de pé. Quando o serviço para, o item pode continuar na conta, mas deixa de servir para qualquer coisa."
+},
+{
+"k": "a17fbd9e82391074",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O fim atinge mais do que itens soltos. Vão junto fotos, históricos, bibliotecas, contatos, progresso, reputação e investimentos de anos, que não viram coisa sem valor só porque estão guardados na estrutura de outra empresa."
+},
+{
+"k": "847aef32dffaf42f",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O contrato pode chamar tudo de licença precária, que é uma permissão que pode acabar a qualquer hora. Mesmo assim, isso não autoriza por si só que tudo seja sacrificado de uma vez."
+},
+{
+"k": "32fd2f6b976515c3",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Fotografias, históricos, bibliotecas, redes de contato, progressões, identidades projetadas, posições reputacionais e investimentos de longa duração não podem ser juridicamente tratados como resíduos sem densidade apenas porque se encontram tecnicamente alojados em infraestrutura alheia.<1>p. 796</1>"
+},
+{
+"k": "5109c90cb501f3b7",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "À medida que parcelas relevantes da vida contemporânea migram para ecossistemas digitais privados, a precariedade formal das licenças de uso já não pode ser lida como autorização automática para o sacrifício integral de objetos imateriais de consumo incorporados à trajetória do consumidor.<1>p. 709</1>"
+},
+{
+"k": "cc5bf7de4caea5d9",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O que vale guardar antes que os servidores sejam desligados?"
+},
+{
+"k": "1e7fe0ce0951aeb4",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Vale guardar o anúncio do encerramento, os comprovantes do que você comprou e capturas de tela da sua conta, da biblioteca e do progresso, com data. Se for um programa, a nota fiscal, a licença e a embalagem também importam, porque a lei manda que eles informem por quanto tempo a versão vendida funciona."
+},
+{
+"k": "b39ddcd7fb1fb9f5",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O histórico das suas compras e as comunicações da empresa também ficam com ela, e você pode pedir que sejam preservados."
+},
+{
+"k": "03f87804d87a994d",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O que dá para pedir quando o fim é inevitável?"
+},
+{
+"k": "5f061a5da78c9ad6",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Tanto quanto for técnica e juridicamente possível, o pedido pode incluir manter o serviço de outro jeito ou deixar você levar o que tem para outro lugar. Pode incluir também recompor o que se perdeu ou passar a operação para outra empresa. Em resumo, a saída precisa vir com transição, preservação ou transferência."
+},
+{
+"k": "98e28543683eb52a",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Se for um programa de computador, quem vende precisa garantir os serviços técnicos que o mantêm funcionando durante o prazo informado, mesmo depois de parar de vendê-lo."
+},
+{
+"k": "bd578ab36eeafb2f",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "E quando nada disso for possível ou não bastar, a indenização em dinheiro continua no caminho."
+},
+{
+"k": "cf92bc720b48fb1c",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "A quem recorrer quando um serviço inteiro vai sair do ar?"
+},
+{
+"k": "15ad59dbe43219cc",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O primeiro passo costuma ser perguntar à própria empresa, por escrito, como vai ser a transição e o que acontece com o que está na sua conta. Ser dona do jogo ou do programa não basta, sozinho, para justificar a destruição de tudo."
+},
+{
+"k": "ed8d2acdc9717563",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir, e a página dos canais apresenta cada um."
+},
+{
+"k": "9c3916655d736cd3",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O sexto mecanismo é a atuação institucional coordenada. Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma.<1>p. 662</1>"
+},
+{
+"k": "32c00b102e2245ae",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Até onde vai essa proteção quando o serviço acaba?"
+},
+{
+"k": "b4c57e8270d2b265",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "A empresa não é obrigada a manter o serviço para sempre, e o direito de encerrar ou reorganizar o negócio continua existindo. O que se pede depende do que for técnica e juridicamente possível, e você não passa a ser dono do jogo, da obra ou do código."
+},
+{
+"k": "fa5e7043700f3895",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Quando o serviço acaba porque a empresa quebrou, a pergunta sobre o destino do que estava lá dentro ainda não tem resposta pronta. Por enquanto ela fica em aberto."
+},
+{
+"k": "340be386aacdc0a4",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "Também não é necessário recorrer a uma ideia forte de propriedade do consumidor sobre o bem digital para exigir estabilidade mínima.<1>p. 708</1>"
+},
+{
+"k": "7f99b90426e57c4b",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "d8e408e954989edf",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "991bf8d623e2bffc",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>A empresa diz que eu só tenho uma licença. Então eu não comprei nada?</1>"
+},
+{
+"k": "f7145fd224b28119",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>Aconteceu com muita gente. Dá para resolver de uma vez?</1>"
+},
+{
+"k": "cb68e41f349fe300",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>Como saber se o fim do serviço atinge o que você tinha?</1>"
+},
+{
+"k": "8643162ee30781e6",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O que vale guardar antes que os servidores sejam desligados?</1>"
+},
+{
+"k": "974c68326c7ab0f7",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O que dá para pedir quando o fim é inevitável?</1>"
+},
+{
+"k": "0a555028b9208912",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>A quem recorrer quando um serviço inteiro vai sair do ar?</1>"
+},
+{
+"k": "53d6835ce9b21271",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>Até onde vai essa proteção quando o serviço acaba?</1>"
+},
+{
+"k": "baf393349e0d1b34",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O serviço vai acabar. O que acontece com o que eu comprei?</1>"
+},
+{
+"k": "bc4bfb5d8347028e",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "ANDRADE, Victor L. P. O serviço vai acabar. O que acontece com o que eu comprei?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/jogo-encerrado/"
+},
+{
+"k": "60be664ced57f1af",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona. Ela pode…"
+},
+{
+"k": "fbb709da6e513ba6",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "O serviço vai acabar. O que acontece com o que eu comprei?"
+},
+{
+"k": "e5b8d8e6b2af2ba0",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "A loja virtual esconde quem é pago e quem é confiável. Isso conta? · Lex Plataformae"
+},
+{
+"k": "b9873edd8f06e5da",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "<1>A loja virtual esconde quem é pago e quem é confiável.</1> <2>Isso conta?</2>"
+},
+{
+"k": "0a526a4508761239",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza. Isso conta, porque a ordem da vitrine, a marca do que é anúncio pago e a reputação mostrada fazem parte do que a plataforma fornece."
+},
+{
+"k": "4a00046935035155",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "O consumidor não escolhe no vazio, diante de universo transparente e simétrico de ofertas. Ele escolhe dentro de um campo já pré-interpretado pela plataforma.<1>p. 762</1>"
+},
+{
+"k": "858ff533986064c4",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "Como saber se a vitrine pesou na sua escolha?"
+},
+{
+"k": "1465ba1a59d24dad",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "A loja não só aproxima quem compra de quem vende. Ela escolhe o que aparece primeiro, o que fica escondido, quem parece confiável e o que dá para comparar. Sem essa vitrine, o produto nem chegaria a você do jeito que chegou."
+},
+{
+"k": "dcff35e033b1f614",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "Pesam o destaque de um produto, a aparência de confiança de um vendedor, o jeito de mostrar as avaliações e a diferença entre o anúncio pago e o que apareceu sem pagamento. Também pesam a forma de pagar, a entrega, a organização das categorias e a maneira de expor as alternativas."
+},
+{
+"k": "5800b9714ea0851c",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "Quando a mesma empresa organiza a vitrine e também ganha com o que acontece nela, a situação fica mais séria. A vitrine pode aproximar certas ofertas, sumir com outras e fazer o anúncio pago parecer resultado comum. Por isso muitas opções na tela não garantem, por si, uma escolha de verdade."
+},
+{
+"k": "9f08ad5e13336dac",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "O que se oferece, em termos juridicamente relevantes, é uma infraestrutura de visibilidade, reputação, curadoria, intermediação e logística sem a qual o objeto final não se torna economicamente legível, socialmente hierarquizável ou praticamente acessível nos termos em que a própria plataforma o apresenta.<1>p. 761</1>"
+},
+{
+"k": "a8950215ab892c6b",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "A posição de destaque de um item, a aparência de confiabilidade de um seller, a forma como avaliações são exibidas, a distinção entre produto patrocinado e organicamente priorizado, a integração com meios de pagamento e logística, a organização das categorias e a forma de exposição das alternativas são todos elementos que interferem materialmente na experiência de consumo.<1>p. 762</1>"
+},
+{
+"k": "f3fa06ab16b5fb19",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "A homogeneização não se dá apenas no plano do produto ou do contrato. Pode ser produzida pela própria governança da interface, quando o ambiente aproxima artificialmente certas ofertas, invisibiliza outras, desloca o que é patrocinado para a zona do aparentemente orgânico, manipula a comparabilidade e administra a percepção do usuário sobre o que vale mais, aparece mais ou parece mais confiável. A ilusão de pluralidade pode, assim, conviver com severa compressão das condições reais de escolha.<1>p. 770</1>"
+},
+{
+"k": "a79b7e53400412bd",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "Que telas da vitrine vale a pena salvar?"
+},
+{
+"k": "caa956f238aea892",
+"pagina": "problemas/loja-virtual/index.html",
+"pt": "O produto que chegou mostra só o fim da história. Vale salvar também a página da busca, com a ordem das ofertas, a marca de patrocinado ou a falta dela, as avaliações, o selo do vendedor e a promessa de entrega."
+}
+]

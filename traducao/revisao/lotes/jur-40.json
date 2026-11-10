@@ -1,0 +1,602 @@
+[
+{
+"k": "8510e17228aa6810",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Arquitetura e governança integram o fornecimento</1>"
+},
+{
+"k": "bdb9d39749d9e4a6",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Alterações se julgam por auditabilidade e equivalência</1>"
+},
+{
+"k": "35f228ef995d14bf",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Sanção exige motivação e contestação de verdade</1>"
+},
+{
+"k": "d7448542b91df6b0",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>O caso se lê na sua trajetória</1>"
+},
+{
+"k": "96d188018338f7a9",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Opacidade não é privilégio processual</1>"
+},
+{
+"k": "059b24616416abde",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Nem pulverizar, nem transformar em manifesto</1>"
+},
+{
+"k": "3cc0bdf018f5998c",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Recompor antes de indenizar</1>"
+},
+{
+"k": "ef0df95d7302983f",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Padrão reiterado pede correção de regime</1>"
+},
+{
+"k": "4cd0f3fff8df7000",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>O julgador não precisa virar engenheiro</1>"
+},
+{
+"k": "07bef9a0c40a0964",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Fornecimento, prova e remédio são um só problema</1>"
+},
+{
+"k": "09e32f544c33841a",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Arquitetura e governança integram o fornecimento"
+},
+{
+"k": "f7de7164cf651aad",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Arquitetura e governança integram o próprio fornecimento e não são cenário neutro. É pela arquitetura que a plataforma define percursos, fricções, saliências, reversibilidade e custos de compreensão, e é pela governança que administra permanência, sanção, atualização, prioridade, visibilidade e contestação. Invisibilizar essa estrutura reduz o debate aos atos finais de um ambiente que já predeterminou grande parte da experiência controvertida."
+},
+{
+"k": "bcb5ea03c9c5b49e",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "É pela governança que o fornecedor administra permanência, sanção, atualização, prioridade, visibilidade e mecanismos de contestação.<1>p. 749</1>"
+},
+{
+"k": "7509e977a01f1718",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Alterações se julgam por auditabilidade e equivalência"
+},
+{
+"k": "acf0efbc9c6df58d",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Alterações relevantes, mudanças de regra e reconfigurações com impacto material não se julgam pelo discurso genérico de atualização, inovação ou conveniência técnica. Examinam-se pela auditabilidade aberta e pela equivalência de valor funcional. A pergunta é se a alteração foi tornada inteligível e se preservou a função que justificou a aquisição, e não apenas se a plataforma podia alterar."
+},
+{
+"k": "d3df31a842800471",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Devem ser examinadas à luz da auditabilidade aberta e da equivalência de valor funcional.<1>p. 749</1>"
+},
+{
+"k": "54be69ecddc2980a",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "A pergunta relevante não é apenas se a plataforma podia alterar.<1>p. 749</1>"
+},
+{
+"k": "621d7b1a3853bc71",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Sanção exige motivação e contestação de verdade"
+},
+{
+"k": "a2dd56456c6a5d2a",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Sanções privadas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. O procedimento precisa ser reconstruível, e a contestação não pode ser ritual vazio. O exame alcança também as condições procedimentais que o fornecedor desenhou para adesão, fruição, prova e resistência."
+},
+{
+"k": "c1e0202514e91d05",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação.<1>p. 749</1>"
+},
+{
+"k": "d28be743b36152a4",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "O caso se lê na sua trajetória"
+},
+{
+"k": "3ecd609eff9638bb",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "A controvérsia se reconstrói a partir do ambiente em que surgiu, e não só do momento em que se exteriorizou. Julgadores e órgãos de tutela consideram como a plataforma organizou, desde o início, adesão, compreensão, circulação de informação, acesso a registros e contestação. O caso é visto na sua trajetória, e não apenas no desfecho."
+},
+{
+"k": "e7bc516544429dcb",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Isso significa que julgadores e órgãos de tutela precisam considerar a forma pela qual a plataforma organizou, desde o início, as condições de adesão, compreensão, circulação de informação, acesso a registros e possibilidade de contestação.<1>p. 750</1>"
+},
+{
+"k": "afa5f2713f3c24a3",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Opacidade não é privilégio processual"
+},
+{
+"k": "fce9ab9b1dc16c36",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "A opacidade estrutural não deve ser tratada como traço inevitável e neutro da complexidade digital. É fator de intensificação da vulnerabilidade e da assimetria probatória. Justifica ordens de preservação e exibição de registros mínimos, delimitação de perícias e redistribuição dinâmica do ônus sempre que a prova relevante nascer e permanecer sob controle técnico do fornecedor."
+},
+{
+"k": "70efc5f741696f0a",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Deve ser reconhecida como fator de intensificação da vulnerabilidade e da assimetria probatória.<1>p. 750</1>"
+},
+{
+"k": "6cf1d7d90a760132",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Esse dado justifica ordens de preservação e exibição de registros mínimos, delimitação de perícias e redistribuição dinâmica do ônus probatório sempre que a prova relevante nascer e permanecer sob controle técnico do fornecedor.<1>p. 750</1>"
+},
+{
+"k": "ee28472da04d167b",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Nem pulverizar, nem transformar em manifesto"
+},
+{
+"k": "a9e31aa23f7561a5",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "O controle evita tanto a pulverização em litígios individuais incapazes de atingir a fonte da lesão quanto a transformação de cada caso em manifesto contra a tecnologia. Precisa distinguir a inadequação individual corrigível sem maior expansão do vício de regime, repetível e incorporado ao funcionamento ordinário. Essa distinção calibra a resposta."
+},
+{
+"k": "3b82ac15ae74aa43",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Nem atomização, nem grandiloquência.<1>p. 750</1>"
+},
+{
+"k": "0dd3aec2c90d32f3",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "O controle precisa ser suficientemente específico para responder ao conflito concreto e suficientemente atento à estrutura para identificar quando esse conflito é manifestação localizada de um padrão reiterado.<1>p. 750</1>"
+},
+{
+"k": "eff9e0a49857afe1",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Recompor antes de indenizar"
+},
+{
+"k": "aefa31a773413c67",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Na lesão arquitetural, a resposta privilegia recomposição funcional e correção procedimental. Sempre que possível, cabem restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança."
+},
+{
+"k": "067ec38e5ed06400",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Padrão reiterado pede correção de regime"
+},
+{
+"k": "81194f3bb76e6521",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Quando o padrão de lesão é reiterado, replicável e incorporado à estrutura, a tutela não se limita ao caso singular. Abre-se espaço para tutela inibitória e correção de regime, com deveres procedimentais, ajustes de arquitetura, auditabilidade reforçada, revisão de fluxos de sanção e canais inteligíveis de contestação."
+},
+{
+"k": "3bf2c628dcac9124",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Quando o padrão de lesão se revelar reiterado, replicável e incorporado à estrutura do ambiente, a tutela não deve se limitar ao caso singular.<1>p. 751</1>"
+},
+{
+"k": "fa6f4949fad76998",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Isso inclui deveres procedimentais, ajustes de arquitetura, exigências reforçadas de auditabilidade, revisão de fluxos de sanção, imposição de canais inteligíveis de contestação<1>p. 751</1>"
+},
+{
+"k": "825e1e5193ef22d7",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "O julgador não precisa virar engenheiro"
+},
+{
+"k": "0161ad6b16efe0f5",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "O controle não exige que o julgador vire engenheiro do sistema. Exige reconduzir o ambiente a filtros verificáveis de legitimidade. Auditabilidade aberta, equivalência funcional, motivação verificável, coerência procedimental, inteligibilidade da contestação, preservação de registros e compatibilização entre exclusividade e tutela bastam para tornar o conflito decidível."
+},
+{
+"k": "b3912f684d2977f0",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "A complexidade do digital não elimina o Direito. Apenas exige que ele escolha com mais rigor o que precisa compreender para controlar.<1>p. 751</1>"
+},
+{
+"k": "322d1ffa4eebf4e3",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Fornecimento, prova e remédio são um só problema"
+},
+{
+"k": "79516aa439452155",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Fornecimento, prova e remédio não se separam de forma rígida. A oferta interfere na percepção da perda, a governança condiciona a prova e a distribuição de acesso e opacidade influencia a adequação do remédio. Separar esses planos produz decisões organizadas na forma e cegas na matéria."
+},
+{
+"k": "d523da7d8d62bf58",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Por fim, uma décima diretriz impõe que o exame institucional preserve unidade entre fornecimento, prova e remédio.<1>p. 751</1>"
+},
+{
+"k": "0b10a81eab516400",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>A teleologia abusiva e o ilícito de arquitetura, no caminho do jurista</1>"
+},
+{
+"k": "822a39c90304c93b",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Os limites ao poder da plataforma</1>"
+},
+{
+"k": "e949b54d89b4dfee",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>A legislação citada</1>"
+},
+{
+"k": "bb45c32b7614b593",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Onde deve recair o exame?</1>"
+},
+{
+"k": "37eebb11b7f62d19",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Arquitetura e governança integram o fornecimento</1>"
+},
+{
+"k": "f0edd2a72b2a9c0d",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Alterações se julgam por auditabilidade e equivalência</1>"
+},
+{
+"k": "6cc39f12a99ba345",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Sanção exige motivação e contestação de verdade</1>"
+},
+{
+"k": "bdaa92f914552566",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>O caso se lê na sua trajetória</1>"
+},
+{
+"k": "cc971ab0a4863710",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Opacidade não é privilégio processual</1>"
+},
+{
+"k": "8350fcf9fa7189e4",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Nem pulverizar, nem transformar em manifesto</1>"
+},
+{
+"k": "a85b574c6dbfe857",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Recompor antes de indenizar</1>"
+},
+{
+"k": "d442a3c7af849054",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Padrão reiterado pede correção de regime</1>"
+},
+{
+"k": "420dfb68f5a2679e",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>O julgador não precisa virar engenheiro</1>"
+},
+{
+"k": "60ec9a5257275eda",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1>Fornecimento, prova e remédio são um só problema</1>"
+},
+{
+"k": "102edf961bf5eab3",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1><2>Parâmetros</2><3><4>7.1.1</4> Dos enunciados operacionais de controlabilidade do OIC</3></1>"
+},
+{
+"k": "2d52d82602a4980c",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1><2>Situações</2><3><4>7.1.2</4> Da qualificação jurídica e deveres de fornecimento do OIC</3></1>"
+},
+{
+"k": "77a819ee6c02322c",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1><2>Diretrizes de controle</2><3><4>7.1.3</4> Das diretrizes para controle de arquitetura e governança</3></1>"
+},
+{
+"k": "c17b6291b840d7c0",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "<1><2>Limites ao poder da plataforma</2><3><4>7.1.4</4> Da cidadania digital e limites ao poder privado de plataforma</3></1>"
+},
+{
+"k": "7fea442ec105f8a7",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "ANDRADE, Victor L. P. Diretrizes de controle das plataformas digitais. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/roteiro/diretrizes/"
+},
+{
+"k": "73aeeb7a6c5a4847",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "As dez diretrizes para o controle de arquitetura e governança em plataformas digitais, com o que examinar em cada uma."
+},
+{
+"k": "70c29f3d4604d04e",
+"pagina": "roteiro/diretrizes/index.html",
+"pt": "Das diretrizes para controle de arquitetura e governança"
+},
+{
+"k": "ea876f184b8a9885",
+"pagina": "roteiro/index.html",
+"pt": "Situações para operar em conflitos com plataformas digitais · Lex Plataformae"
+},
+{
+"k": "1de6c9e8da44d727",
+"pagina": "roteiro/index.html",
+"pt": "<1>Direitos</1>"
+},
+{
+"k": "803b23c10c94430a",
+"pagina": "roteiro/index.html",
+"pt": "Situações · 7.1.2 da tese"
+},
+{
+"k": "10f33d401f2f7362",
+"pagina": "roteiro/index.html",
+"pt": "Situações"
+},
+{
+"k": "341ace2c2972e69c",
+"pagina": "roteiro/index.html",
+"pt": "Onze situações em que o regime se aplica a um conflito com a plataforma. Cada uma traz o guia para operar e o quadro, com o que incide, o que se deve, o que provar e o que pedir."
+},
+{
+"k": "1e9bf0edf86353e9",
+"pagina": "roteiro/index.html",
+"pt": "Para que servem as situações?"
+},
+{
+"k": "3a996229aed68cc8",
+"pagina": "roteiro/index.html",
+"pt": "O regime precisa de uma grade operativa que preserve a unidade dogmática em contextos diferentes. As onze situações cumprem esse papel como peça de consulta. Elas não simplificam o objeto. Organizam a passagem entre o mecanismo de governança, o dever de fornecimento, a prova mínima, a qualificação jurídica e a consequência institucional possível."
+},
+{
+"k": "64066004a0ea1951",
+"pagina": "roteiro/index.html",
+"pt": "O quadro opera por filtros acumulativos. Primeiro se identifica o objeto e o regime de fruição. Depois se qualifica a vulnerabilidade semiótica e se verificam, conforme o caso, opacidade, mutabilidade e governança por sanção. Auditabilidade aberta e equivalência de valor funcional operam como filtros transversais. A qualificação jurídica vem só depois, sem prejuízo de cumulação quando o mesmo arranjo revelar mais de um problema."
+},
+{
+"k": "e80d9ccfc7a23b10",
+"pagina": "roteiro/index.html",
+"pt": "Só então se procede à qualificação jurídica da controvérsia, sem prejuízo de cumulação<1>p. 743</1>"
+},
+{
+"k": "747d8d48f53bf1fa",
+"pagina": "roteiro/index.html",
+"pt": "Auditabilidade aberta e equivalência de valor funcional operam como filtros transversais, incidindo sobre diferentes formas de conflito.<1>p. 742-743</1>"
+},
+{
+"k": "a37d07cf98f8de1b",
+"pagina": "roteiro/index.html",
+"pt": "Em seguida, qualifica-se a vulnerabilidade semiótica e verificam-se, conforme o caso, opacidade estrutural, mutabilidade relevante e governança por sanção.<1>p. 742</1>"
+},
+{
+"k": "364a25361e002e36",
+"pagina": "roteiro/index.html",
+"pt": "A passagem do regime do Objeto Imaterial de Consumo para sua incidência em diferentes famílias de plataforma exige uma grade operativa capaz de preservar unidade dogmática em contextos distintos.<1>p. 714</1>"
+},
+{
+"k": "89a938fb0d02b1a2",
+"pagina": "roteiro/index.html",
+"pt": "Por isso, a presente sistematização funciona como peça de consulta.<1>p. 742</1>"
+},
+{
+"k": "1298a1f22e2eb06f",
+"pagina": "roteiro/index.html",
+"pt": "O quadro opera por filtros acumulativos.<1>p. 742</1>"
+},
+{
+"k": "6538826c6644d6e1",
+"pagina": "roteiro/index.html",
+"pt": "Por que a ordem importa?"
+},
+{
+"k": "2451f88633667305",
+"pagina": "roteiro/index.html",
+"pt": "Os parâmetros não formam um inventário de conceitos. Formam uma sequência decisória, em que cada passo prepara o seguinte e limita a variação interpretativa do passo subsequente. Sem qualificar o objeto, o restante da análise se desorganiza."
+},
+{
+"k": "097ae33b33d1d2db",
+"pagina": "roteiro/index.html",
+"pt": "Os enunciados não devem ser lidos como inventário horizontal de conceitos.<1>p. 716</1>"
+},
+{
+"k": "777f31583ec6b315",
+"pagina": "roteiro/index.html",
+"pt": "Parte-se da qualificação do objeto e do regime de fruição, sem o que o restante da análise se desorganiza.<1>p. 717</1>"
+},
+{
+"k": "edcc67215b8d8fcb",
+"pagina": "roteiro/index.html",
+"pt": "Isto é um objeto imaterial de consumo?"
+},
+{
+"k": "ea3f2543a6254f7b",
+"pagina": "roteiro/index.html",
+"pt": "A entrada no regime exige quatro campos, todos presentes. O primeiro é o objeto prometido, identificado pelas funções centrais que organizam a expectativa legítima de fruição. O segundo é a posição de fruição sustentada, porque a aquisição inaugura um lugar no ecossistema, e não uma entrega que se esgota num instante. O terceiro é a governança infraestrutural, com critérios internos e mecanismos executivos que conformam a experiência e distribuem consequências, sem que baste a mediação técnica trivial. O quarto é a possibilidade típica de degradação relevante sem ruptura total, em que a fruição continua existindo no papel, mas é rebaixada, esvaziada ou reconfigurada."
+},
+{
+"k": "c7d68aefd2305206",
+"pagina": "roteiro/index.html",
+"pt": "A incidência se decide por esses elementos verificáveis, e não por intuição tecnológica nem por deferência automática ao contrato. Os critérios também não dependem de acesso integral a algoritmo, logs e regras internas. O que se demonstra é a governança relevante para a utilidade adquirida e a estabilidade suficiente para produzir padrões de fruição e de degradação."
+},
+{
+"k": "10878227f249d88c",
+"pagina": "roteiro/index.html",
+"pt": "[...] suficiente para produzir padrões de fruição e de degradação relevante sem ruptura total do acesso.<1>p. 430</1>"
+},
+{
+"k": "f321cb7b7d46942a",
+"pagina": "roteiro/index.html",
+"pt": "O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição.<1>p. 428</1>"
+},
+{
+"k": "e767d0c420dac1be",
+"pagina": "roteiro/index.html",
+"pt": "Exige identificar quais funções centrais organizam a expectativa legítima de fruição e, por consequência, delimitar quais alterações podem atingir o núcleo do objeto mesmo quando a continuidade formal do acesso é preservada.<1>p. 428</1>"
+},
+{
+"k": "2815b6ff95e260d3",
+"pagina": "roteiro/index.html",
+"pt": "O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor.<1>p. 428</1>"
+},
+{
+"k": "a07fb8cc02c53fa5",
+"pagina": "roteiro/index.html",
+"pt": "O quarto campo é a possibilidade típica de degradação relevante sem ruptura total.<1>p. 429</1>"
+},
+{
+"k": "9c7a4c27cca1b1c2",
+"pagina": "roteiro/index.html",
+"pt": "Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada de modo a frustrar o núcleo de utilidade ofertada ou a reordenar a posição do consumidor no ecossistema em termos incompatíveis com a promessa que justificou a aquisição.<1>p. 429</1>"
+},
+{
+"k": "3d6a0c9e1989b03f",
+"pagina": "roteiro/index.html",
+"pt": "A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime, o que permite estabilizar um percurso de qualificação.<1>p. 429</1>"
+},
+{
+"k": "7045b605b391a84e",
+"pagina": "roteiro/index.html",
+"pt": "Critérios de incidência não podem depender de acesso integral a algoritmo, logs e regras internas como condição de possibilidade, pois isso converteria o OIC em categoria impraticável, reservada a casos excepcionais.<1>p. 429</1>"
+},
+{
+"k": "7b9b85019bbfd2a5",
+"pagina": "roteiro/index.html",
+"pt": "Como usar"
+},
+{
+"k": "579b9f6368368a02",
+"pagina": "roteiro/index.html",
+"pt": "Cada situação traz, primeiro, um guia para operar, com os fatos que costumam aparecer, o modo de demonstrá-los, o fundamento normativo e os cuidados. Depois vem o quadro, em cinco partes. O parâmetro é o critério que organiza a leitura do caso. O fundamento normativo é a regra de lei em que o pedido se apoia. A consequência é o que se pode pedir, conforme o caso."
+},
+{
+"k": "d8a321f348474fca",
+"pagina": "roteiro/index.html",
+"pt": "O CDC funciona como a infraestrutura normativa dessas situações. Não se trata de inventar um novo código nem de enxertar um regime estranho no texto legal, e sim de ler as categorias do sistema pelo modo real como o fornecimento acontece, em que governar o ambiente é governar a própria fruição."
+},
+{
+"k": "82bb1bb7252b5f31",
+"pagina": "roteiro/index.html",
+"pt": "O quadro não mecaniza a decisão. Ele organiza a passagem entre a estrutura de governança, o dever violado, a exigência probatória mínima, a qualificação jurídica e a consequência possível."
+},
+{
+"k": "91ef5b83f743b9ba",
+"pagina": "roteiro/index.html",
+"pt": "A prova mínima de cada situação indica o que torna o conflito demonstrável com prova possível e inferências controláveis, para que a discussão não dependa de acesso integral a algoritmos, registros e regras internas da plataforma."
+},
+{
+"k": "9345f8803f41ea73",
+"pagina": "roteiro/index.html",
+"pt": "Ele organiza, em linguagem consultável, a passagem entre estrutura de governança, dever violado, exigência probatória mínima, qualificação jurídica e consequência institucional possível.<1>p. 748</1>"
+},
+{
+"k": "82c2a24c298eb1d9",
+"pagina": "roteiro/index.html",
+"pt": "Para o OIC, os critérios devem operar com prova possível e inferências controláveis<1>p. 429</1>"
+},
+{
+"k": "eeae7699c025b125",
+"pagina": "roteiro/index.html",
+"pt": "Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal.<1>p. 549</1>"
+},
+{
+"k": "d8cee7ddc697d6e5",
+"pagina": "roteiro/index.html",
+"pt": "O direito do consumidor brasileiro já contém, em sua própria arquitetura, instrumentos suficientes para alcançar fruições imateriais, continuadas e governadas por terceiro, desde que suas categorias sejam lidas a partir do modo real de prestação do fornecimento<1>p. 549</1>"
+},
+{
+"k": "aa86c5ae668cfc24",
+"pagina": "roteiro/index.html",
+"pt": "O CDC já oferece linguagem suficiente para enfrentar esse problema, desde que se aceite que, no consumo digital contínuo, governar o ambiente é governar a própria fruição.<1>p. 550</1>"
+},
+{
+"k": "e5fb5bae22b18d4a",
+"pagina": "roteiro/index.html",
+"pt": "As onze situações"
+},
+{
+"k": "15b1bf32d1f58ae1",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>a)</2> Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "e0bb96b6de49b31e",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>b)</2> Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "1364a1bdb18fb326",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>c)</2> Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "da2112591fddf854",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>d)</2> Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "8909f52caedb3a1a",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>e)</2> Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "3b902d8462378874",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>f)</2> Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "ad6e9f1b5eff05ed",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>g)</2> Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "4ac4757de22b3503",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>h)</2> Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "01daf77d7d10ec65",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>i)</2> Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "a01e02569168eac6",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>j)</2> Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "dfa87296e880b64b",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>k)</2> O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "611a43a8a498f763",
+"pagina": "roteiro/index.html",
+"pt": "Quando o que foi comprado depende do ambiente que a plataforma administra"
+},
+{
+"k": "3f68980aa99696b8",
+"pagina": "roteiro/index.html",
+"pt": "<1>a)</1> regime de fruição governada e incidência do OIC"
+},
+{
+"k": "162502f46848e232",
+"pagina": "roteiro/index.html",
+"pt": "Que fatos indicam um produto que depende do ambiente?"
+},
+{
+"k": "01c9fff68f46001c",
+"pagina": "roteiro/index.html",
+"pt": "Item, conta, assinatura ou acesso cuja utilidade só se realiza dentro do ambiente da plataforma, com perda de acesso, de permanência ou de inteligibilidade, ou com mudança da experiência por atualização. A defesa típica do fornecedor é dizer que presta só um serviço ou que concedeu mera licença de conteúdo. Nos jogos, o objeto pode ser de aparência, de progressão, de acesso e permanência, de funcionalidade, de tempo ou de reputação, e um mesmo item costuma combinar mais de um desses tipos. Essa tipologia é interna ao laboratório dos jogos, e não classificação geral de plataformas. Os mesmos traços aparecem em três modelos de negócio, os jogos operados como serviço, os marketplaces e os serviços de inteligência artificial fornecidos por plataforma. Em todos, a fruição depende da operação contínua de um ambiente governado privadamente. No marketplace, porém, nem toda mediação digital converte o bem em objeto imaterial de consumo."
+},
+{
+"k": "a6c27eecc2ae0bf5",
+"pagina": "roteiro/index.html",
+"pt": "Como demonstrar a dependência do ambiente?"
+}
+]

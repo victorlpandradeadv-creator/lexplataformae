@@ -37,3 +37,7 @@ Read traducao/glossario.md first. Glossary terms are fixed. Do not change them.
 - Doctrine pages (doutrina/, roteiro/, conceitos/) speak to lawyers. Precise and didactic.
 
 When the batch is complete, reply with one line. The batch name, how many segments you rewrote, and at most two recurring problems you saw.
+
+## Strict reading rule (second round, 10/11/2026)
+
+Read every segment in full, one by one, against its Portuguese. Never mark a segment as reviewed without reading it, never sample, never bulk-mark. Your batch is small on purpose (about 120 segments). If a segment repeats one you already handled in this batch, apply the same decision. Report the exact number you read and the number you rewrote.

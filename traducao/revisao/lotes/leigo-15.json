@@ -1,0 +1,602 @@
+[
+{
+"k": "42c8528f1bde69b9",
+"pagina": "problemas/assistente/index.html",
+"pt": "Pode haver ruído informacional quando a arquitetura da resposta projeta aparência de segurança, completude ou suficiência incompatível com os limites reais da prestação. Pode haver opacidade funcional quando o usuário não consegue reconstruir, em termos minimamente verificáveis, por que determinada saída lhe foi apresentada, em que medida houve alteração relevante do comportamento do sistema ou quais elementos do ambiente condicionaram a resposta que orientou sua conduta.<1>p. 759</1>"
+},
+{
+"k": "2f951352087cc66d",
+"pagina": "problemas/assistente/index.html",
+"pt": "A modulação é constitutiva, dado que as mudanças de versão, os ajustes de parâmetros, a revisão de políticas, as variações de desempenho e as reconfigurações de salvaguardas podem alterar resultados, restringir funcionalidades ou reorganizar custos de fruição sem cancelamento formal do acesso.<1>p. 487</1>"
+},
+{
+"k": "67afc55b3b101f05",
+"pagina": "problemas/assistente/index.html",
+"pt": "Pode haver, ainda, assimetria probatória aguda quando o impacto funcional da prestação depender de histórico, contexto interacional, parâmetros internos ou registros que permanecem concentrados no fornecedor. Nesses cenários, a lesão não precisa aparecer como mentira direta para ser juridicamente relevante. Basta que o ambiente substitua legibilidade por performance de confiança, deslocando para o usuário o custo de suportar erro, revisão, oscilação ou perda funcional sem trilhas institucionais adequadas de reconstrução.<1>p. 759</1>"
+},
+{
+"k": "505e97527ad7f06e",
+"pagina": "problemas/assistente/index.html",
+"pt": "Que partes da conversa com o assistente vale a pena salvar?"
+},
+{
+"k": "1b8f9a9a8827b0ec",
+"pagina": "problemas/assistente/index.html",
+"pt": "Vale salvar a conversa inteira, e não só a resposta errada, com o que você pediu, os avisos que apareceram ou faltaram e o jeito como a resposta foi mostrada. Ajuda registrar o que você fez com base nela, porque o peso que ela teve na sua decisão faz parte do caso. Um aviso genérico de que o sistema pode errar não encerra a conversa sozinho, e a frase não deve ser julgada longe do que a fez parecer confiável."
+},
+{
+"k": "dc77606cdb878f2c",
+"pagina": "problemas/assistente/index.html",
+"pt": "Parte do histórico e dos registros fica só com a empresa. Por isso a sua proteção não deveria depender apenas do que você conseguiu salvar, já que o resto nunca esteve nas suas mãos."
+},
+{
+"k": "52640758ac6cc94e",
+"pagina": "problemas/assistente/index.html",
+"pt": "A evidência relevante tende a exigir reconstrução da jornada informacional, do contexto de uso, do histórico interacional disponível, das advertências presentes ou ausentes, da forma de apresentação da resposta e da função prática que ela exerceu na decisão do usuário. Também tende a exigir cautela quanto a pontos de cegueira recorrentes. O primeiro é a tendência de reduzir o conflito à frase emitida, ignorando a arquitetura semiótica que a tornou confiável ou operacional. O segundo é a tendência de presumir que avisos genéricos sobre limitações do sistema bastariam, por si, para neutralizar qualquer problema de adequação informacional.<1>p. 759-760</1>"
+},
+{
+"k": "bc775b6bff5d09a7",
+"pagina": "problemas/assistente/index.html",
+"pt": "O que dá para pedir além de uma resposta certa?"
+},
+{
+"k": "095ec717355ca6bc",
+"pagina": "problemas/assistente/index.html",
+"pt": "O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é que dê para ligar o que foi prometido ao efeito que você sofreu."
+},
+{
+"k": "7624073e976df781",
+"pagina": "problemas/assistente/index.html",
+"pt": "A falha pode ser tratada como problema de qualidade da informação que o serviço entrega ou como falha no dever de informar. Também pode ser lida como prática abusiva, que é a conduta que a lei do consumidor proíbe, quando nasce da falta de transparência sobre o funcionamento. A resposta mais adequada tende a ser corrigir o jeito de funcionar e de comunicar e recompor a confiança, em vez de só pagar em dinheiro."
+},
+{
+"k": "942ed6e90099f599",
+"pagina": "problemas/assistente/index.html",
+"pt": "Trata-se de reconhecer que, em serviços cuja utilidade consiste em orientar cognitivamente o usuário, deve haver verificabilidade institucional mínima sobre aspectos relevantes da prestação. Isso inclui, conforme o caso, preservação de histórico acessível, rastros mínimos de interação, explicitação suficiente de limites materialmente relevantes, inteligibilidade sobre alterações de regime de uso e possibilidade de reconstruir o nexo entre promessa funcional do serviço e impacto produzido na experiência do usuário.<1>p. 759</1>"
+},
+{
+"k": "1c0873c2f375daa8",
+"pagina": "problemas/assistente/index.html",
+"pt": "A quem levar o problema com o assistente?"
+},
+{
+"k": "99625fb76ef31faa",
+"pagina": "problemas/assistente/index.html",
+"pt": "O primeiro caminho costuma ser a própria empresa, com o pedido do histórico e de uma explicação sobre o que mudou. Como os registros decisivos tendem a ficar com ela, um advogado ajuda quando o caso depende de pedir que esses registros sejam guardados e mostrados."
+},
+{
+"k": "03b8ab7a54e666bc",
+"pagina": "problemas/assistente/index.html",
+"pt": "Se a mesma falta de clareza atinge todos os que usam o serviço, porque faz parte do jeito normal de ele funcionar, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria são caminhos que a página dos canais detalha."
+},
+{
+"k": "1b5efbfe994b15a1",
+"pagina": "problemas/assistente/index.html",
+"pt": "Quem controla o serviço controla, em larga medida, os registros decisivos da relação. Logs, históricos de versão, transações, parâmetros de interface, comunicações de mudança e documentação técnica relevante tendem a permanecer em poder do fornecedor. Por isso, a operacionalização da categoria precisa vir acompanhada de pedidos de preservação e exibição de documentação mínima do fornecimento.<1>p. 608</1>"
+},
+{
+"k": "df4c02a5bc3dc086",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Os canais de reclamação e os prazos</1>"
+},
+{
+"k": "7c74f3dc6bc9ee82",
+"pagina": "problemas/assistente/index.html",
+"pt": "Até onde vai o que se pode cobrar de um assistente?"
+},
+{
+"k": "6c4526f274685e6c",
+"pagina": "problemas/assistente/index.html",
+"pt": "A proteção não chega a exigir que a empresa abra o modelo, o código ou o funcionamento interno do assistente. O que se pede é o mínimo para conferir o que importa no seu caso."
+},
+{
+"k": "3b54a48cccb879b5",
+"pagina": "problemas/assistente/index.html",
+"pt": "Nem todo serviço digital que muda com o tempo cai na mesma proteção, e o rótulo de inteligência artificial não basta para isso. A leitura mais forte é a de que o próprio desenho do serviço explora quem usa. Ela pode caber nos casos mais graves, quando a falta de transparência faz parte estável do modo de explorar o serviço."
+},
+{
+"k": "701de4d8419c462b",
+"pagina": "problemas/assistente/index.html",
+"pt": "Os direitos por trás deste caso"
+},
+{
+"k": "7d9573ea24cd2eaa",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "267ded077e8a2ade",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "f7d7dfa136f5461e",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "4f234911f17db4b7",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "181dd926b88cf31f",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1><2>9</2>E quando dá errado?</1>"
+},
+{
+"k": "61b5c80c8ea62e55",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1><2>10</2>Isso só acontece nos jogos?</1>"
+},
+{
+"k": "723d8a625e8d8c6d",
+"pagina": "problemas/assistente/index.html",
+"pt": "Muda a forma de narrar o conflito, porque a atenção se desloca do evento isolado para o programa de fornecimento.<1>p. 788</1>"
+},
+{
+"k": "2d486489051aae7d",
+"pagina": "problemas/assistente/index.html",
+"pt": "Outros problemas parecidos"
+},
+{
+"k": "503d0a416dd2f6ce",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</1>"
+},
+{
+"k": "4f627ec4d3178160",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Os registros estão com a empresa. Como eu provo o que aconteceu?</1>"
+},
+{
+"k": "28d07d2c38f2ad51",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</1>"
+},
+{
+"k": "0de266f0f9551d1e",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Todos os problemas</1>"
+},
+{
+"k": "8ee73f380412c19b",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Seguir a skin desde a compra</1>"
+},
+{
+"k": "fffebadf58b75fd6",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Quando o erro do assistente deixa de ser só uma resposta ruim?</1>"
+},
+{
+"k": "db5160aa0bf89e4e",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Que partes da conversa com o assistente vale a pena salvar?</1>"
+},
+{
+"k": "2989ba37e2157fe5",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O que dá para pedir além de uma resposta certa?</1>"
+},
+{
+"k": "cc6ea64afde0507f",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A quem levar o problema com o assistente?</1>"
+},
+{
+"k": "76b96bafa60185ba",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Até onde vai o que se pode cobrar de um assistente?</1>"
+},
+{
+"k": "3e978fa188446d3c",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Os direitos por trás deste caso</1>"
+},
+{
+"k": "97011d35f961ed30",
+"pagina": "problemas/assistente/index.html",
+"pt": "Todos os problemas"
+},
+{
+"k": "02968e38a1c92362",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Minha conta foi bloqueada ou banida. E o que eu comprei?</1>"
+},
+{
+"k": "db72a8786168beaf",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O que eu comprei mudou numa atualização. E agora?</1>"
+},
+{
+"k": "cd6b2a71ac675f63",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</1>"
+},
+{
+"k": "b3d82cd0717f7b36",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Um item que recebi de presente foi retirado da minha conta. E agora?</1>"
+},
+{
+"k": "2b763d92e5cf71f3",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O serviço vai acabar. O que acontece com o que eu comprei?</1>"
+},
+{
+"k": "744582d208af75c1",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A empresa diz que eu só tenho uma licença. Então eu não comprei nada?</1>"
+},
+{
+"k": "e6ed0b8d4595ca6f",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O que foi anunciado não é o que eu recebi. E agora?</1>"
+},
+{
+"k": "2675836dde73f5ca",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</1>"
+},
+{
+"k": "f847c9e4083521c6",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Paguei por um sorteio ou por uma caixa de recompensa. O que preciso saber?</1>"
+},
+{
+"k": "d9cd276ce1673ae8",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A moeda do serviço passou a comprar menos. Isso é permitido?</1>"
+},
+{
+"k": "f4f4fd0d1d2aa607",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A oferta dizia última chance. Fui pressionado a comprar?</1>"
+},
+{
+"k": "1c3f7231cd7d1540",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</1>"
+},
+{
+"k": "3c79db7dcc1dda25",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Os registros estão com a empresa. Como eu provo o que aconteceu?</1>"
+},
+{
+"k": "262f5c28ef978f42",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Reclamo, e a resposta nunca resolve. O que fazer?</1>"
+},
+{
+"k": "59e93a25b6a87d82",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Quero sair, mas perderia tudo o que construí ali. Isso conta?</1>"
+},
+{
+"k": "f93f6dd163095e70",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Perdi anos de histórico. Isso é mais do que um item?</1>"
+},
+{
+"k": "630c53383ca1b028",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O serviço exige um programa que roda no meu aparelho. Posso questionar?</1>"
+},
+{
+"k": "ee8786345a6431f2",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Meu filho ou minha filha gastou num jogo. O que a lei diz?</1>"
+},
+{
+"k": "2ca296ad4a063136",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>O assistente de inteligência artificial mudou ou errou. O que posso exigir?</1>"
+},
+{
+"k": "aff680a277b1ba23",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A loja virtual esconde quem é pago e quem é confiável. Isso conta?</1>"
+},
+{
+"k": "4c79aa4824eeabd6",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?</1>"
+},
+{
+"k": "83b2adfa8e8afa14",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Trabalho por aplicativo, e a regra mudou. Tenho o que pedir?</1>"
+},
+{
+"k": "5840c6b412cea036",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Vendo numa plataforma. A lei do consumidor me protege?</1>"
+},
+{
+"k": "293ee6fd0b9162fa",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Aconteceu com muita gente. Dá para resolver de uma vez?</1>"
+},
+{
+"k": "e0e80fe151c4e5fe",
+"pagina": "problemas/assistente/index.html",
+"pt": "ANDRADE, Victor L. P. O assistente de inteligência artificial mudou ou errou. O que posso exigir?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/assistente/"
+},
+{
+"k": "71973f61cd62e4f3",
+"pagina": "problemas/assistente/index.html",
+"pt": "Você usou um assistente de inteligência artificial, que é o programa que conversa, resume e orienta, e a resposta se mostrou errada ou o serviço passou a…"
+},
+{
+"k": "c32bb1f597571284",
+"pagina": "problemas/assistente/index.html",
+"pt": "O que isto não garante"
+},
+{
+"k": "c67ceb202d14c56a",
+"pagina": "problemas/assistente/index.html",
+"pt": "O assistente de inteligência artificial mudou ou errou. O que posso exigir?"
+},
+{
+"k": "5e01c621a4004869",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Minha conta foi bloqueada ou banida. E o que eu comprei? · Lex Plataformae"
+},
+{
+"k": "7844ae0e4b1a0841",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Minha conta foi bloqueada ou banida.</1> <2>E o que eu comprei?</2>"
+},
+{
+"k": "cb7cbb87c0dfb1e2",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou. A empresa pode punir, mas a punição precisa de um motivo que dê para conferir e de um caminho real de defesa."
+},
+{
+"k": "ad53da6bd714627a",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Se a conta é encerrada, perde-se acesso não apenas ao “jogo”, mas ao conjunto de dados e conteúdos virtuais que estruturavam a experiência, além de se afirmar ausência de reembolso em hipóteses de justa causa<1>p. 375</1>"
+},
+{
+"k": "c2b61900d64a5258",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação.<1>p. 749</1>"
+},
+{
+"k": "948ec38c8e3623d0",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Como saber se a punição passou do ponto?"
+},
+{
+"k": "947f81713bcaebee",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A punição nem sempre é a expulsão. Muitas vezes a conta continua ativa, mas fica menos visível, perde recompensas e tem o chat cortado, e isso também tira valor do que você comprou, porque continuar dentro em posição pior já é uma perda."
+},
+{
+"k": "e0b85157fa60939f",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O sinal de alerta aparece quando a punição chega sem um motivo que dê para entender ou quando o caminho para contestar não leva a lugar nenhum. Aparece também quando desfazer a medida é muito mais difícil do que foi aplicá-la."
+},
+{
+"k": "dee65275dbcc9018",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Muitas punições nascem de uma detecção automática. Em League of Legends, por exemplo, a própria empresa avisa que a punição pode chegar até 15 minutos depois do fim da partida. Essas punições seguem critérios que a empresa não revela por inteiro, e é essa falta de clareza que torna a punição tão difícil de contestar."
+},
+{
+"k": "fcd4f7608f9664fc",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A segunda forma é o enforcement ex post, no qual o ecossistema aplica sanções declaradas ou parcialmente declaradas depois de um evento de moderação ou de detecção automática.<1>p. 373</1>"
+},
+{
+"k": "3cc2b10e0a02c228",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "No Sistema de Feedback Instantâneo, a Riot afirma que usuários podem ser punidos “em até 15 minutos após o final da partida”, e descreve um leque de consequências que vai de restrições a suspensões permanentes<1>p. 375</1>"
+},
+{
+"k": "7971c2f573f5b4c8",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A consequência jurídica é que a sanção passa a compor o próprio objeto, pois ela define a estabilidade prática da posição adquirida e condiciona a continuidade do acesso a critérios cujo funcionamento detalhado não é plenamente revelado ao usuário, sob justificativas de eficiência, prevenção de burla e gestão de escala<1>p. 375</1>"
+},
+{
+"k": "6727d74be6f23c22",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Que registros vale juntar logo depois da punição?"
+},
+{
+"k": "d2daf71b90544a93",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Vale guardar o aviso da punição com a data, a mensagem que explica o motivo, se houver, e cada resposta que você recebeu ao contestar. Também ajudam capturas de tela do inventário, do histórico e das compras enquanto ainda dá para vê-los, além dos e-mails e extratos das compras, porque depois do bloqueio é com eles que você reconstitui o que tinha."
+},
+{
+"k": "d828138b8f9f4916",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O resto costuma ficar com a empresa, que guarda o tipo de punição aplicada, o motivo e o efeito que ela teve na conta. Por isso o pedido pode incluir que ela preserve e mostre esses registros."
+},
+{
+"k": "2fdec15ba13ca3b4",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência.<1>p. 658</1>"
+},
+{
+"k": "6da53260e6eec405",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Diante da concentração de registros, cabe preservação e exibição de trilhas do fornecimento, com redistribuição racional do ônus e presunções favoráveis ao consumidor quando o fornecedor não coopera ou mantém a prova em caixa-preta.<1>p. 609</1>"
+},
+{
+"k": "da0bfc055d97b0ed",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O que dá para pedir quando a conta foi fechada sem explicação?"
+},
+{
+"k": "c8352591f8c46694",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Se a punição não tem motivo que dê para conferir nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione."
+},
+{
+"k": "b139e8b36bdb6100",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A primeira resposta buscada é devolver o que foi tirado, como o acesso, o histórico e o inventário, quando isso for possível. Em casos mais graves, perder a conta, o histórico ou anos de trajetória pode até ser tratado como dano moral, que é o dano à pessoa, e não só ao bolso. Mas um mero aborrecimento não basta para isso."
+},
+{
+"k": "800b998b4a1231d5",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A lei de proteção de dados também ajuda, porque o bloqueio não tira de você o direito de pedir a confirmação e o acesso aos dados sobre você que a empresa guarda."
+},
+{
+"k": "a36bb66207424014",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O uso de dados vinculados à trajetória, ao histórico e à biografia digital do consumidor deve permanecer compatível com as finalidades informadas e com o contexto da relação, precisa ser inteligível ao titular, e não elimina as faculdades de confirmação da existência, acesso, correção, eliminação ou portabilidade de dados tratados.<1>p. 542</1>"
+},
+{
+"k": "789fb2ba52ef17f6",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A quem recorrer quando o suporte só repete que a decisão é final?"
+},
+{
+"k": "72c510d8678e427f",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O primeiro caminho é o canal de contestação da própria empresa, porque ela deve oferecer um que funcione de verdade. Ali o pedido pode ser o motivo concreto e os registros da punição."
+},
+{
+"k": "f7bfbe6f1620938b",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Se a empresa não explica nem revê a punição, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o trabalho de provar de acordo com quem tem acesso a eles."
+},
+{
+"k": "30d22df635950d9e",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Quando muita gente é punida do mesmo jeito, a resposta pode ir além do seu caso e alcançar o próprio sistema de punição, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor."
+},
+{
+"k": "2818514985e492f7",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual.<1>p. 662</1>"
+},
+{
+"k": "3637892a824466a8",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. Esses standards oferecem critério concreto para termos de ajustamento, recomendações, investigações civis e exigências mínimas de governança: relatórios de impacto funcional em alterações relevantes, protocolos de transparência verificável, preservação de registros essenciais, procedimentos de contestação compreensíveis e critérios mínimos de recomposição em caso de degradação relevante da fruição.<1>p. 662-663</1>"
+},
+{
+"k": "3c1d83bcceb5d032",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Até onde vai a defesa de quem foi punido?"
+},
+{
+"k": "4cbc397bab415568",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A empresa tem poder de punir, e ter esse poder não é o problema. O que se exige é que a punição tenha motivo que dê para conferir, coerência entre uma decisão e outra e um caminho compreensível para contestar."
+},
+{
+"k": "06aeb8b8e4bf0066",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Os termos de uso, que são o contrato que você aceita ao criar a conta, costumam dizer que não há reembolso quando a conta é encerrada por justa causa, que é um motivo sério atribuído a você. Essa cláusula pesa, mas não transforma o apagamento da conta inteira num simples ajuste interno, imune a qualquer controle."
+},
+{
+"k": "efd6eb67947aba39",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Nada disso garante que a conta volte, porque cada caso depende do que aconteceu e do que dá para mostrar. E a lei de proteção de dados não faz de você dono de tudo o que a empresa registra sobre a sua conta."
+},
+{
+"k": "fb5191e142df88b7",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A cláusula 2.3 dos Termos de Serviço da Riot prevê que, encerrada a conta, o usuário perde acesso à conta, aos dados associados, à moeda do jogo e ao conteúdo virtual, sem reembolso em hipóteses de justa causa, com possibilidade ainda de cancelamento de outras contas e de acesso a outros serviços<1>p. 540</1>"
+},
+{
+"k": "36cf23ecbaa4da92",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "A exclusividade é exercida, aqui, como poder de apagamento integral da experiência consumida, o que impede tratar sanção, exclusão ou rollback como meros ajustes internos sem relevância jurídica existencial.<1>p. 541</1>"
+},
+{
+"k": "4b0c8283763f54c2",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "O uso de dados vinculados à trajetória, ao histórico e à biografia digital do consumidor deve permanecer compatível com as finalidades informadas e com o contexto da relação, precisa ser inteligível ao titular, e não elimina as faculdades de confirmação da existência, acesso, correção, eliminação ou portabilidade de dados tratados. Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra<1>p. 542</1>"
+},
+{
+"k": "a560c8d3f65885c4",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "0dba01dd8fe0fcfd",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Um item que recebi de presente foi retirado da minha conta. E agora?</1>"
+},
+{
+"k": "771b637850e9a6af",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Reclamo, e a resposta nunca resolve. O que fazer?</1>"
+},
+{
+"k": "b71239b5cbe42b80",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Perdi anos de histórico. Isso é mais do que um item?</1>"
+},
+{
+"k": "2c660bd628162882",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Como saber se a punição passou do ponto?</1>"
+},
+{
+"k": "f8a2505013ee10da",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Que registros vale juntar logo depois da punição?</1>"
+},
+{
+"k": "8c6d9e98308ec29d",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>O que dá para pedir quando a conta foi fechada sem explicação?</1>"
+},
+{
+"k": "f77e7e39c8165ebd",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>A quem recorrer quando o suporte só repete que a decisão é final?</1>"
+},
+{
+"k": "5201a59549cc2c32",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Até onde vai a defesa de quem foi punido?</1>"
+},
+{
+"k": "27852e3f6770348c",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Minha conta foi bloqueada ou banida. E o que eu comprei?</1>"
+},
+{
+"k": "3bbdde2b7f02bee1",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>O assistente de inteligência artificial mudou ou errou. O que posso exigir?</1>"
+},
+{
+"k": "429d23c91d6ade46",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "ANDRADE, Victor L. P. Minha conta foi bloqueada ou banida. E o que eu comprei?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/conta-bloqueada/"
+},
+{
+"k": "f056cf0c9a890131",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou. A empresa…"
+},
+{
+"k": "cd0904f33ba0f860",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "Minha conta foi bloqueada ou banida. E o que eu comprei?"
+},
+{
+"k": "dc7535da938ff85a",
+"pagina": "problemas/crianca/index.html",
+"pt": "Meu filho ou minha filha gastou num jogo. O que a lei diz? · Lex Plataformae"
+},
+{
+"k": "17575ed45d9224ab",
+"pagina": "problemas/crianca/index.html",
+"pt": "<1>Meu filho ou minha filha gastou num jogo.</1> <2>O que a lei diz?</2>"
+},
+{
+"k": "90fb26318fcc1312",
+"pagina": "problemas/crianca/index.html",
+"pt": "Seu filho ou sua filha gastou dinheiro num jogo, em compras pequenas e repetidas, em caixas de recompensa ou em ofertas que voltavam a cada evento. A lei já vê crianças e adolescentes como um público que pede cuidado especial nesses ambientes, e há regras próprias sobre o que pode ser oferecido a eles."
+}
+]
