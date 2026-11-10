@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://lexplataformae.com.br/curso/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/como-ler/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/tecnica/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/economia/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/objeto/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/lei-da-plataforma/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/vulnerabilidade/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/informacao/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/auditabilidade/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/equivalencia/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/ilicito/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/bens-protegidos/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/ordem-constitucional/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/propriedade-intelectual/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/prova/</loc></url>
-  <url><loc>https://lexplataformae.com.br/curso/remedios/</loc></url>
+  <url><loc>https://lexplataformae.com.br/conceitos/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/como-ler/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/tecnica/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/economia/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/objeto/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/lei-da-plataforma/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/vulnerabilidade/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/informacao/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/auditabilidade/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/equivalencia/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/ilicito/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/bens-protegidos/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/ordem-constitucional/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/propriedade-intelectual/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/prova/</loc></url>
+  <url><loc>https://lexplataformae.com.br/doutrina/remedios/</loc></url>
   <url><loc>https://lexplataformae.com.br/instrumentos/</loc></url>
   <url><loc>https://lexplataformae.com.br/</loc></url>
   <url><loc>https://lexplataformae.com.br/percurso/</loc></url>
@@ -192,7 +193,7 @@
   <url><loc>https://lexplataformae.com.br/roteiro/parametros/</loc></url>
   <url><loc>https://lexplataformae.com.br/roteiro/diretrizes/</loc></url>
   <url><loc>https://lexplataformae.com.br/roteiro/limites/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/</loc></url>
   <url><loc>https://lexplataformae.com.br/fundamentos/</loc></url>
   <url><loc>https://lexplataformae.com.br/metodo/</loc></url>
   <url><loc>https://lexplataformae.com.br/dogmatica/</loc></url>
@@ -293,13 +294,13 @@
   <url><loc>https://lexplataformae.com.br/autores/samuel-d-warren/</loc></url>
   <url><loc>https://lexplataformae.com.br/autores/peter-white/</loc></url>
   <url><loc>https://lexplataformae.com.br/autores/tyler-wilde/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/funcionalidade-cognitiva/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/infraestrutura-e-intermediacao/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/produtividade-gig-economy/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/administracao-de-confianca/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/concorrencia/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/tutela-coletiva/</loc></url>
-  <url><loc>https://lexplataformae.com.br/laboratorio/consumidor-equiparado/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/funcionalidade-cognitiva/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/infraestrutura-e-intermediacao/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/produtividade-gig-economy/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/administracao-de-confianca/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/concorrencia/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/tutela-coletiva/</loc></url>
+  <url><loc>https://lexplataformae.com.br/plataformas/consumidor-equiparado/</loc></url>
   <url><loc>https://lexplataformae.com.br/conceitos/cativeiro-identitario/</loc></url>
   <url><loc>https://lexplataformae.com.br/conceitos/consentimento-viciado-por-sentido/</loc></url>
   <url><loc>https://lexplataformae.com.br/conceitos/consumidor-cidadao/</loc></url>

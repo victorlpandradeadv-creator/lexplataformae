@@ -106,14 +106,14 @@ Dez conceitos que a tese nomeia ao lado dos nove, cada um com página própria n
 
 ## Plataformas
 
-- [Plataformas](https://lexplataformae.com.br/laboratorio/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, na voz do site, com o texto integral no modo Ciência.
-- [Dos OICs de funcionalidade cognitiva e regime de informação](https://lexplataformae.com.br/laboratorio/funcionalidade-cognitiva/): seção 7.2.1 da tese
-- [Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/laboratorio/infraestrutura-e-intermediacao/): seção 7.2.2 da tese
-- [Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/laboratorio/produtividade-gig-economy/): seção 7.2.3 da tese
-- [Da administração de confiança à neutralização de conflitos por arquitetura](https://lexplataformae.com.br/laboratorio/administracao-de-confianca/): seção 7.2.7 da tese
-- [Da concorrência sob a Lex Plataformae](https://lexplataformae.com.br/laboratorio/concorrencia/): seção 7.2.4 da tese, desdobramento da tipologia
-- [Da tutela coletiva sob auditabilidade aberta](https://lexplataformae.com.br/laboratorio/tutela-coletiva/): seção 7.2.5 da tese, desdobramento da tipologia
-- [Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma](https://lexplataformae.com.br/laboratorio/consumidor-equiparado/): seção 7.2.6 da tese, desdobramento da tipologia
+- [Plataformas](https://lexplataformae.com.br/plataformas/): as famílias de plataforma em que a tese testa o regime do OIC, cada uma em quatro passos, na voz do site, com o texto integral no modo Ciência.
+- [Dos OICs de funcionalidade cognitiva e regime de informação](https://lexplataformae.com.br/plataformas/funcionalidade-cognitiva/): seção 7.2.1 da tese
+- [Dos OICs de infraestrutura e intermediação](https://lexplataformae.com.br/plataformas/infraestrutura-e-intermediacao/): seção 7.2.2 da tese
+- [Dos OICs de produtividade sob a gig economy](https://lexplataformae.com.br/plataformas/produtividade-gig-economy/): seção 7.2.3 da tese
+- [Da administração de confiança à neutralização de conflitos por arquitetura](https://lexplataformae.com.br/plataformas/administracao-de-confianca/): seção 7.2.7 da tese
+- [Da concorrência sob a Lex Plataformae](https://lexplataformae.com.br/plataformas/concorrencia/): seção 7.2.4 da tese, desdobramento da tipologia
+- [Da tutela coletiva sob auditabilidade aberta](https://lexplataformae.com.br/plataformas/tutela-coletiva/): seção 7.2.5 da tese, desdobramento da tipologia
+- [Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma](https://lexplataformae.com.br/plataformas/consumidor-equiparado/): seção 7.2.6 da tese, desdobramento da tipologia
 
 ## Legislação
 

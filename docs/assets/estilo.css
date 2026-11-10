@@ -1053,6 +1053,95 @@ ul.partes-curtas.lista-duas, ol.partes-curtas.lista-duas { display: block; colum
 .caixa-citacao .citacao.impacto p { font-family: var(--f-texto, Newsreader, serif); font-size: 1.35rem; line-height: 1.45; font-style: italic; }
 
 
+/* ============================================================
+   Identidade editorial, decisão do autor de 10/11/2026.
+   Papel claro, títulos na Newsreader, vermelho de rubrica, moldura de item em traço fino e a fermata.
+   O escuro deixa de ser tela da identidade. A capa conta a história em quatro telas e termina nas portas.
+   ============================================================ */
+:root { --rubrica: #b3161c; --serifa: "Newsreader", "Iowan Old Style", Georgia, serif; }
+
+/* Títulos em serifa, sem a grotesca pesada. */
+.chamada, .folha-cabeca h1, .ext-cabeca h1, .campo-titulo, h1, h2.campo-titulo {
+  font-family: var(--serifa); font-stretch: 100%; font-weight: 500; letter-spacing: -0.015em;
+}
+.folha-cabeca h1, .ext-cabeca h1 { font-weight: 500; line-height: 1.12; }
+h2, h3 { font-family: var(--serifa); font-stretch: 100%; }
+.topo-nome { font-family: var(--serifa); font-stretch: 100%; font-weight: 600; letter-spacing: 0; }
+.topo-projeto { font-family: var(--serifa); font-style: italic; letter-spacing: 0.02em; }
+
+/* Rubrica. Sobrelinhas e rótulos curtos em versalete vermelho, como nos livros. */
+.sobrelinha-ext, .sobrelinha, .porta-rotulo, .rotulo-fonte, .rotulo-ext.sobre {
+  font-family: var(--serifa); font-variant-caps: all-small-caps; letter-spacing: 0.08em; color: var(--rubrica); font-weight: 600;
+}
+.sobrelinha-ext a { color: inherit; }
+
+/* Capitular no primeiro parágrafo de cada parte do percurso e de cada capítulo do jurista. */
+.percurso-parte .ext-cabeca + .ext > p:first-of-type::first-letter,
+.curso-capitulo .bloco-curso:first-of-type .par-curso:first-of-type > p::first-letter {
+  float: left; font-family: var(--serifa); font-weight: 500; font-size: 3.4em; line-height: 0.82; padding: 0.06em 0.09em 0 0; color: var(--rubrica);
+}
+
+/* Moldura de item. Traço fino com quatro cantos marcados, como card de inventário desenhado à pena. */
+.item-moldura, .cartao, .porta {
+  position: relative; background: var(--folha); border: 1px solid var(--tinta); border-radius: 0;
+  box-shadow: inset 0 0 0 4px var(--folha), inset 0 0 0 5px var(--linha);
+}
+.item-moldura::before, .item-moldura::after, .cartao::before, .cartao::after, .porta::before, .porta::after {
+  content: ""; position: absolute; width: 9px; height: 9px; border: 2px solid var(--rubrica); pointer-events: none;
+}
+.item-moldura::before, .cartao::before, .porta::before { top: -3px; left: -3px; border-right: 0; border-bottom: 0; }
+.item-moldura::after, .cartao::after, .porta::after { bottom: -3px; right: -3px; border-left: 0; border-top: 0; }
+.cartao:hover, .cartao:focus-visible { border-color: var(--rubrica); }
+
+/* A fermata. */
+.fermata { display: flex; justify-content: center; color: var(--rubrica); margin: 2.6rem 0 0.6rem; }
+
+/* Capa. A história desce em telas. */
+.pagina-inicio .cena { min-height: 72vh; display: flex; flex-direction: column; justify-content: center; max-width: 46rem; margin-inline: auto; padding-block: 3rem; }
+.pagina-inicio .cena-titulo { min-height: 82vh; max-width: none; align-items: flex-start; }
+.pagina-inicio .cena-titulo .chamada { font-size: clamp(2.6rem, 8vw, 5.6rem); line-height: 1.02; font-weight: 400; }
+.pagina-inicio .cena-titulo .chamada .chamada-linha:last-child { font-style: italic; color: var(--rubrica); }
+.pagina-inicio .cena > p { font-family: var(--serifa); font-size: clamp(1.45rem, 3.1vw, 2.1rem); line-height: 1.35; margin: 0 0 1.2rem; }
+.pagina-inicio .cena-incomodo > p:first-child { font-style: italic; }
+.pagina-inicio .cena-virada > p:first-child { font-size: clamp(1.9rem, 4.6vw, 3.1rem); color: var(--rubrica); line-height: 1.15; margin-bottom: 1.8rem; }
+.pagina-inicio .cena-virada > p:not(:first-child) { font-size: clamp(1.15rem, 2vw, 1.4rem); color: var(--tinta-2); }
+.desce { font-family: var(--serifa); font-size: 2rem; color: var(--rubrica); margin-top: 3rem; animation: desce 2.4s ease-in-out infinite; }
+@keyframes desce { 0%, 100% { transform: translateY(0); opacity: 0.5; } 50% { transform: translateY(8px); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .desce { animation: none; } }
+
+/* As portas. */
+.portas { margin: 2rem 0 4rem; }
+.portas-texto { max-width: 46rem; margin: 0 auto 3rem; }
+.portas-texto > p { font-family: var(--serifa); font-size: clamp(1.15rem, 2vw, 1.35rem); line-height: 1.55; }
+.portas-grade { display: grid; gap: 1.6rem; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
+.porta { padding: 1.6rem 1.5rem 1.3rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.porta h3 { font-size: 1.55rem; font-weight: 500; margin: 0; line-height: 1.2; }
+.porta h3 a { color: var(--tinta); text-decoration: none; }
+.porta h3 a:hover { color: var(--rubrica); }
+.porta .partes-curtas { margin: 0.2rem 0; }
+.porta-mais { margin-top: auto; font-size: 0.95rem; }
+.porta-mais a { color: var(--rubrica); }
+.nomes-discretos { max-width: 46rem; margin: 0 auto 4rem; text-align: center; }
+.nomes-discretos h2 { font-size: 1rem; font-variant-caps: all-small-caps; letter-spacing: 0.1em; color: var(--rubrica); font-weight: 600; }
+.nomes-discretos p { font-family: var(--serifa); font-size: 1.1rem; line-height: 1.9; }
+.nomes-discretos p a { color: var(--tinta); }
+/* Na Doutrina a capa abre direto nas portas. */
+body:has(#nivel-1:checked) .pagina-inicio .cena-titulo { min-height: auto; padding-block: 2rem 1rem; }
+body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
+
+/* A chave de modo em papel, sem o vermelho de alerta. */
+.chave-mestra { background: color-mix(in srgb, var(--folha) 92%, transparent); border: 1px solid var(--tinta); border-radius: 0; box-shadow: none; }
+.chave-mestra { color: var(--tinta); font-family: var(--serifa); }
+.chave-nome { font-family: var(--serifa); font-variant-caps: all-small-caps; text-transform: none; color: var(--rubrica); }
+.degraus label { font-weight: 500; font-size: 0.95rem; }
+.degraus label:hover { background: var(--campo); }
+.degraus input:checked + label { background: var(--tinta); color: var(--papel); }
+.degraus input:focus-visible + label { outline-color: var(--rubrica); }
+.porta p { font-family: var(--serifa); font-size: 1.05rem; line-height: 1.5; }
+.porta .partes-curtas a, .nomes-discretos a { color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 3px; }
+.porta .partes-curtas a:hover { color: var(--rubrica); }
+.inicio-fecho p, .convite p { font-family: var(--serifa); }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

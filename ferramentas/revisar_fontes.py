@@ -48,7 +48,7 @@ for arq in TODOS:
             print(f'  {arq}:{i} [{pag}/{campo}] {m.group(0)}  …{l[max(0,m.start()-60):m.end()+30]}…')
 print('# 4. Páginas sem nenhum link de entrada')
 D = R / 'docs'
-paginas = {p.relative_to(D).as_posix() for p in D.rglob('index.html')}
+paginas = {p.relative_to(D).as_posix() for p in D.rglob('index.html') if 'http-equiv="refresh"' not in p.read_text(encoding='utf-8')}
 entrada = Counter()
 for p in D.rglob('*.html'):
     base = p.parent

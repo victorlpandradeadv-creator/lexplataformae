@@ -330,3 +330,10 @@
   window.addEventListener('scroll', function () { if (!pedido) { pedido = true; requestAnimationFrame(ajustar); } }, { passive: true });
   chave.addEventListener('focusin', function () { chave.classList.remove('recolhida'); });
 })();
+
+// As portas da capa que levam ao jurista já abrem a página seguinte em Doutrina. Capa de 10/11/2026.
+document.addEventListener('click', function (ev) {
+  var a = ev.target.closest && ev.target.closest('a[data-modo]');
+  if (!a) return;
+  try { localStorage.setItem('lexp-nivel', a.getAttribute('data-modo')); } catch (e) {}
+});

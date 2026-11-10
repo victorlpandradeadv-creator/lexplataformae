@@ -14,23 +14,32 @@ Rascunho do Claude, de 27/10/2026, refeito no mesmo dia para ficar mais explicad
 
 Você comprou uma skin. Ela é sua?
 
-### abertura
+### cena-compra
 
-Você pagou com dinheiro de verdade. A skin está na sua conta, você usa nas partidas e os outros jogadores veem. Parece sua, e em boa parte é.
+Você pagou com dinheiro de verdade. A skin está na sua conta, você usa nas partidas e os outros jogadores veem.
 
-Amanhã ela pode mudar de cara, perder o efeito de que você gostava ou desaparecer junto com a conta, sem que ninguém explique direito por quê. A quem você reclamaria, e reclamaria do quê?
+Parece sua, e em boa parte é.
+
+### cena-mudanca
+
+Amanhã ela pode mudar de cara, perder o efeito de que você gostava ou desaparecer junto com a conta, sem que ninguém explique direito por quê.
 
 > A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
 > Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
 
-### problema
+### cena-virada
 
-Não é só nos jogos. Um assistente de inteligência artificial, uma loja virtual ou um aplicativo de trabalho podem funcionar do mesmo jeito, sempre que o que você usa depende de um ambiente que a empresa mantém, atualiza, reorganiza e controla. Nem todo serviço digital é assim, mas muitos dos que fazem parte do seu dia são.
+A quem você reclamaria, e reclamaria do quê?
 
-Nesses lugares nada fica parado. Muitas mudanças são normais e fazem parte da vida do serviço. Outras não são, e o tempo, a atenção, a reputação e o dinheiro que você colocou ali não aparecem em nota fiscal nenhuma. Em que momento isso passou a parecer normal?
+Não é só nos jogos. Um assistente de inteligência artificial, uma loja virtual ou um aplicativo de trabalho podem funcionar do mesmo jeito, sempre que o que você usa depende de um ambiente que a empresa mantém, atualiza, reorganiza e controla.
 
 > O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
 > O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição (p. 755)
+
+### portas
+
+Nesses lugares nada fica parado. Muitas mudanças são normais e fazem parte da vida do serviço. Outras não são, e o tempo, a atenção, a reputação e o dinheiro que você colocou ali não aparecem em nota fiscal nenhuma. Em que momento isso passou a parecer normal?
+
 > Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)
 > Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição. (p. 430)
 > Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar? (p. 21)

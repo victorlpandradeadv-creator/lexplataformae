@@ -292,7 +292,7 @@ def relatorio(paginas, estrito=False):
     print(f"  citações em mais de {MAX_PAGINAS_CITACAO} páginas  {len(rep)}")
     falhas += len(ruins) + len(so) + sum(1 for p in dou if p["seq"] > MAX_SEQUENCIA) + ruim_cit + len(rep) + sum(1 for p in dou if p["ltese"] > MAX_LINKS_TESE)
     # Desde 09/11/2026, por ordem do autor, a prosa do curso afirma a doutrina sem atribuí-la à tese.
-    tese = [(p["u"], b["texto"][:90]) for p in dou if p["u"].startswith("curso/")
+    tese = [(p["u"], b["texto"][:90]) for p in dou if p["u"].startswith("doutrina/")
             for b in p["blocos"] if b["voz"] in ("site", "titulo") and TESE_NA_PROSA.search(b["texto"])]
     print(f"  tese na prosa do curso  {len(tese)}")
     for e in tese[:15]:
