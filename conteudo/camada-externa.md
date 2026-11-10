@@ -46,7 +46,7 @@ Nesses lugares nada fica parado. Muitas mudanças são normais e fazem parte da 
 
 ### percurso
 
-Este percurso segue a sua skin, do clique de compra até a pergunta sobre o que a lei pode fazer por você. São onze partes. Cada uma responde a uma pergunta, explica o que está por trás dela e deixa outra pergunta no ar, e no fim de cada parte está o que você pode exigir.
+Este caminho segue a sua skin, do clique de compra até a pergunta sobre o que a lei pode fazer por você. São onze partes. Cada uma responde a uma pergunta, explica o que está por trás dela e deixa outra pergunta no ar, e no fim de cada parte está o que você pode exigir.
 
 ### nome
 

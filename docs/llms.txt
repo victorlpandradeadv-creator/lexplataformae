@@ -4,21 +4,21 @@
 
 Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, “Sem a correta qualificação do objeto como fruição imaterial governada, os parâmetros subsequentes tendem a perder aderência, porque auditabilidade, equivalência funcional, teleologia abusiva e remédios de recomposição pressupõem justamente a existência de um vínculo em que a utilidade consumida depende de administração continuada do ambiente.” (p. 719)
 
-## Percurso
+## Caminho
 
 A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.
 
-- [O que você comprou, afinal?](https://lexplataformae.com.br/percurso/a-compra/): O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some.
-- [Por que essa skin vale tanto?](https://lexplataformae.com.br/percurso/o-desejo/): Ela é um sinal que todo mundo lá dentro sabe ler, e quem cuida dos sinais é a plataforma.
-- [Quem ganha com o seu clique?](https://lexplataformae.com.br/percurso/o-dono/): Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio.
-- [Quem manda depois da compra?](https://lexplataformae.com.br/percurso/as-regras/): A regra que vale não é só a que está escrita, é a que está rodando.
-- [Por que tudo isso parece normal?](https://lexplataformae.com.br/percurso/o-normal/): A técnica parece neutra, mas tem dono e direção.
-- [E se a sua skin mudar amanhã?](https://lexplataformae.com.br/percurso/a-mudanca/): Ela continua na conta, mas já não é a mesma.
-- [E se a perda fizer parte do plano?](https://lexplataformae.com.br/percurso/o-desenho/): Quando a perda vira rotina, o problema está no desenho.
-- [A lei já tem resposta?](https://lexplataformae.com.br/percurso/a-lei/): Mais do que parece, porque o espaço estava aberto desde 1990.
-- [E quando dá errado?](https://lexplataformae.com.br/percurso/a-resposta/): Antes do dinheiro, devolver o que foi tirado.
-- [Isso só acontece nos jogos?](https://lexplataformae.com.br/percurso/alem-do-jogo/): Não, o jogo só mostra tudo mais nítido.
-- [Por que dar nome a tudo isso?](https://lexplataformae.com.br/percurso/o-nome/): Porque o que tem nome pode ser cobrado.
+- [O que você comprou, afinal?](https://lexplataformae.com.br/caminho/a-compra/): O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some.
+- [Por que essa skin vale tanto?](https://lexplataformae.com.br/caminho/o-desejo/): Ela é um sinal que todo mundo lá dentro sabe ler, e quem cuida dos sinais é a plataforma.
+- [Quem ganha com o seu clique?](https://lexplataformae.com.br/caminho/o-dono/): Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio.
+- [Quem manda depois da compra?](https://lexplataformae.com.br/caminho/as-regras/): A regra que vale não é só a que está escrita, é a que está rodando.
+- [Por que tudo isso parece normal?](https://lexplataformae.com.br/caminho/o-normal/): A técnica parece neutra, mas tem dono e direção.
+- [E se a sua skin mudar amanhã?](https://lexplataformae.com.br/caminho/a-mudanca/): Ela continua na conta, mas já não é a mesma.
+- [E se a perda fizer parte do plano?](https://lexplataformae.com.br/caminho/o-desenho/): Quando a perda vira rotina, o problema está no desenho.
+- [A lei já tem resposta?](https://lexplataformae.com.br/caminho/a-lei/): Mais do que parece, porque o espaço estava aberto desde 1990.
+- [E quando dá errado?](https://lexplataformae.com.br/caminho/a-resposta/): Antes do dinheiro, devolver o que foi tirado.
+- [Isso só acontece nos jogos?](https://lexplataformae.com.br/caminho/alem-do-jogo/): Não, o jogo só mostra tudo mais nítido.
+- [Por que dar nome a tudo isso?](https://lexplataformae.com.br/caminho/o-nome/): Porque o que tem nome pode ser cobrado.
 
 ## Seus direitos
 

@@ -858,7 +858,7 @@ h2, h3 { font-family: var(--serifa); font-stretch: 100%; }
 .sobrelinha-ext a { color: inherit; }
 
 /* Capitular no primeiro parágrafo de cada parte do percurso e de cada capítulo do jurista. */
-.percurso-parte .ext-cabeca + .ext > p:first-of-type::first-letter,
+.percurso-parte .folha-texto > section.ext:first-of-type > p:first-of-type::first-letter,
 .curso-capitulo .bloco-curso:first-of-type .par-curso:first-of-type > p::first-letter {
   float: left; font-family: var(--serifa); font-weight: 500; font-size: 3.4em; line-height: 0.82; padding: 0.06em 0.09em 0 0; color: var(--rubrica);
 }

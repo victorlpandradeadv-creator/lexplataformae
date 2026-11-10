@@ -226,13 +226,13 @@ def chave_mestra(nivel):
 MENU = [
     ("Problemas", "problemas/", (0, 1)),
     ("Direitos", "direitos/", (0,)), ("Direitos", "roteiro/", (1,)),
-    ("Percurso", "percurso/", (0,)), ("Percurso", "doutrina/", (1,)),
+    ("Caminho", "caminho/", (0,)), ("Caminho", "doutrina/", (1,)),
     ("Vocabulário", "conceitos/", (0, 1)), ("Plataformas", "plataformas/", (0, 1)), ("Legislação", "legislacao/", (1,)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
     ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
 # Menu unificado, decisão do autor de 10/11/2026. Os mesmos nomes na Informação e na Doutrina, e o modo escolhe a profundidade.
-MENU_SEGUNDA = [("Problemas", "problemas/"), ("Direitos", "roteiro/"), ("Percurso", "doutrina/"), ("Vocabulário", "conceitos/"),
+MENU_SEGUNDA = [("Problemas", "problemas/"), ("Direitos", "roteiro/"), ("Caminho", "doutrina/"), ("Vocabulário", "conceitos/"),
                 ("Plataformas", "plataformas/"), ("Legislação", "legislacao/")]
 
 
@@ -247,7 +247,7 @@ def menu_html(prefixo):
 
 
 # Páginas que o gerador escreve. O menu só mostra endereço que existe.
-PAGINAS_PRONTAS = {"percurso/", "direitos/", "plataformas/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
+PAGINAS_PRONTAS = {"caminho/", "direitos/", "plataformas/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
                    "autores/", "referencias/", "objeto-e-instrumentos/", "problemas/", "como-reclamar/", "doutrina/", "conceitos/"}
 
 
@@ -564,7 +564,7 @@ def capitulo_curso(num=None, slug=None):
 
 
 def link_curso(c, prefixo):
-    return f'<a href="{prefixo}doutrina/{c["slug"]}/">{esc(c["titulo"])}, no percurso do jurista</a>' if c else ""
+    return f'<a href="{prefixo}doutrina/{c["slug"]}/">{esc(c["titulo"])}, no caminho do jurista</a>' if c else ""
 
 
 def no_curso_html(c, prefixo):
@@ -572,7 +572,7 @@ def no_curso_html(c, prefixo):
     if not c:
         return ""
     return (f'<section class="bloco no-curso"><h2>Onde estudar a fundo?</h2>'
-            f'<p>No capítulo <a href="{prefixo}doutrina/{c["slug"]}/">{esc(c["titulo"])}</a>, no percurso do jurista.</p></section>')
+            f'<p>No capítulo <a href="{prefixo}doutrina/{c["slug"]}/">{esc(c["titulo"])}</a>, no caminho do jurista.</p></section>')
 
 
 def curso_paragrafo(par, prefixo):
@@ -588,7 +588,7 @@ def curso_paragrafo(par, prefixo):
 
 
 def irmas_curso(atual, prefixo):
-    return ("Percurso do jurista", [(esc(c["titulo"]), f'{prefixo}doutrina/{c["slug"]}/', c["slug"] == atual) for c in CURSO])
+    return ("Caminho do jurista", [(esc(c["titulo"]), f'{prefixo}doutrina/{c["slug"]}/', c["slug"] == atual) for c in CURSO])
 
 
 def gerar_curso():
@@ -606,9 +606,9 @@ def gerar_curso():
         saidas = []
         if i + 1 < len(CURSO):
             saidas.append((f'A seguir, {CURSO[i + 1]["titulo"]}', f'{prefixo}doutrina/{CURSO[i + 1]["slug"]}/'))
-        saidas += [("O percurso do jurista inteiro", f"{prefixo}doutrina/"), ("As situações, para consulta", f"{prefixo}roteiro/"), ("A legislação", f"{prefixo}legislacao/")]
+        saidas += [("O caminho do jurista inteiro", f"{prefixo}doutrina/"), ("As situações, para consulta", f"{prefixo}roteiro/"), ("A legislação", f"{prefixo}legislacao/")]
         origem = " · ".join(f'<a href="{prefixo}tese/{POR_NUMERO[n]["slug"]}/">{esc(n)}</a>' for n in c["secoes_tese"] if n in POR_NUMERO)
-        corpo = (f'<article class="folha curso-capitulo"><nav class="trilha" aria-label="Você está em"><a href="../">Percurso do jurista</a></nav>'
+        corpo = (f'<article class="folha curso-capitulo"><nav class="trilha" aria-label="Você está em"><a href="../">Caminho do jurista</a></nav>'
                  f'<header class="folha-cabeca"><h1>{esc(c["titulo"])}</h1><p class="folha-lema">{esc(c["abertura"])}</p></header>'
                  + "".join(partes) + saidas_html(saidas)
                  + f'<p class="ciencia nota-camada" data-arq="fonte · as seções da tese que o capítulo reescreve">As seções da tese reescritas aqui são {origem}.</p></article>')
@@ -617,20 +617,20 @@ def gerar_curso():
         destino = raiz / c["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{c["titulo"]} · Percurso do jurista · Lex Plataformae', c["abertura"], corpo, prefixo, f'doutrina/{c["slug"]}/', jsonld,
+            pagina(f'{c["titulo"]} · Caminho do jurista · Lex Plataformae', c["abertura"], corpo, prefixo, f'doutrina/{c["slug"]}/', jsonld,
                    camada="interna", superficie=prefixo, irmas=irmas_curso(c["slug"], prefixo)), encoding="utf-8")
     itens = "".join(f'<li><a href="{c["slug"]}/">{esc(c["titulo"])}</a><p>{esc(c["abertura"])}</p></li>' for c in CURSO)
     aplicacoes = "".join(f'<li><a href="../plataformas/{s}/">{esc(ext_texto(s, "titulo") or t)}</a></li>' for s, t in APLICACOES_CURSO)
-    corpo = ('<article class="folha curso-indice"><header class="folha-cabeca"><h1>O percurso do jurista</h1>'
-             '<p class="folha-lema">Este percurso reconstrói, para advogados, magistrados, membros do Ministério Público e estudantes, o regime jurídico do Objeto Imaterial de Consumo. '
+    corpo = ('<article class="folha curso-indice"><header class="folha-cabeca"><h1>O caminho do jurista</h1>'
+             '<p class="folha-lema">Este caminho reconstrói, para advogados, magistrados, membros do Ministério Público e estudantes, o regime jurídico do Objeto Imaterial de Consumo. '
              'Cada capítulo parte de um problema, mostra por que a leitura comum não basta e chega ao que se pode demonstrar e pedir.</p></header>'
              f'<section class="ext"><h2 class="rotulo-ext">Quais são os capítulos?</h2><ol class="curso-lista">{itens}</ol></section>'
              f'<section class="ext"><h2 class="rotulo-ext">Como o regime se aplica a outras plataformas?</h2><ul class="partes-curtas">{aplicacoes}</ul></section>'
              + saidas_html([("As situações, para consulta", "../roteiro/"), ("A legislação", "../legislacao/"), ("Os conceitos", "../conceitos/")]) + "</article>")
-    jsonld = {"@context": "https://schema.org", "@type": "CreativeWork", "name": "O percurso do jurista", "inLanguage": "pt-BR", "url": f"{BASE}/doutrina/",
+    jsonld = {"@context": "https://schema.org", "@type": "CreativeWork", "name": "O caminho do jurista", "inLanguage": "pt-BR", "url": f"{BASE}/doutrina/",
               "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
     (raiz / "index.html").write_text(
-        pagina("Percurso do jurista pelo regime do consumo digital · Lex Plataformae", "O regime do Objeto Imaterial de Consumo para juristas, do problema à prova e aos remédios, em quinze capítulos.",
+        pagina("Caminho do jurista pelo regime do consumo digital · Lex Plataformae", "O regime do Objeto Imaterial de Consumo para juristas, do problema à prova e aos remédios, em quinze capítulos.",
                corpo, "../", "doutrina/", jsonld, camada="interna", superficie="../"), encoding="utf-8")
 
 
@@ -1014,7 +1014,7 @@ def gerar_problemas():
             + "</section>"
             for k in CAMPOS_PROBLEMA if (c := p["campos"].get(k)))
         no_percurso = (f'<section class="ext no-percurso"><p class="rotulo-ext">{ROTULO_NO_PERCURSO}</p><ul class="partes-curtas">'
-                       + "".join(f'<li><a href="{prefixo}percurso/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+                       + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
                                  for i, parte in sorted(partes.items()))
                        + "</ul></section>")
         if proprio:
@@ -1033,7 +1033,7 @@ def gerar_problemas():
                  f'<header class="folha-cabeca ext-cabeca"><h1>{esc(p["titulo"])}</h1></header>'
                  f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in p["abertura"]) + expansao(p["citacoes"], prefixo) + "</section>"
                  + proprio + "".join(blocos) + direitos + (no_percurso if partes else "") + cuidado_html(prefixo) + outros
-                 + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
+                 + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}caminho/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": p["titulo"], "inLanguage": "pt-BR",
                   "url": f'{BASE}/problemas/{p["slug"]}/', "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
@@ -1082,7 +1082,7 @@ def gerar_como_reclamar():
              + f'<p class="nota-acrescimo">Informação acrescentada em {data}, a partir da lei e dos canais oficiais.'
              + '<span class="ciencia"> É acréscimo posterior à tese, que não trata dos canais de reclamação.</span></p></section>'
              + secoes
-             + saidas_html([("Qual é o seu problema?", f"{prefixo}problemas/"), ("Seus direitos", f"{prefixo}direitos/"), ("Siga a skin desde a compra", f"{prefixo}percurso/")])
+             + saidas_html([("Qual é o seu problema?", f"{prefixo}problemas/"), ("Seus direitos", f"{prefixo}direitos/"), ("Siga a skin desde a compra", f"{prefixo}caminho/")])
              + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": C["titulo"], "inLanguage": "pt-BR", "url": f"{BASE}/como-reclamar/",
               "dateModified": C["acesso"], "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
@@ -1170,7 +1170,7 @@ def gerar_direitos():
              + problemas +
              f'<nav class="direitos-indice" aria-label="Os direitos"><ol>{indice}</ol></nav>'
              + "".join(direito_html(l, prefixo, "h2", ancora=True) for l in LETRAS_DIREITOS)
-             + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}percurso/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
+             + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="{prefixo}caminho/">Seguir a skin desde a compra</a>{botao_desnudar()}</div></section>'
              + "</article>")
     destino = SAIDA / "direitos"
     destino.mkdir(parents=True, exist_ok=True)
@@ -1411,7 +1411,7 @@ def mapa_percurso(base, contexto):
             f'<ol class="partes">{itens}</ol></section>')
 
 
-ROTULO_NO_PERCURSO = "Onde o percurso conta mais?"
+ROTULO_NO_PERCURSO = "Onde o caminho conta mais?"
 
 
 def no_percurso(cid, prefixo):
@@ -1419,7 +1419,7 @@ def no_percurso(cid, prefixo):
     if not achados:
         return ""
     return (f'<section class="ext no-percurso"><p class="rotulo-ext">{ROTULO_NO_PERCURSO}</p><ul class="partes-curtas">'
-            + "".join(f'<li><a href="{prefixo}percurso/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+            + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
                       for i, parte in achados)
             + "</ul></section>")
 
@@ -1469,12 +1469,12 @@ def bloco_percurso(b, prefixo):
 
 def gerar_percurso():
     total = len(PERCURSO)
-    raiz = SAIDA / "percurso"
+    raiz = SAIDA / "caminho"
     raiz.mkdir(parents=True, exist_ok=True)
     corpo = f'<article class="folha percurso-indice">{mapa_percurso("", "indice")}</article>'
     (raiz / "index.html").write_text(
         pagina("Siga a skin, da compra ao que a lei pode fazer · Lex Plataformae", "Você comprou uma skin. Ela é sua? Onze perguntas, do clique de compra ao que a lei pode fazer.",
-               corpo, "../", "percurso/", camada="mista", imagem="inicio"), encoding="utf-8")
+               corpo, "../", "caminho/", camada="mista", imagem="inicio"), encoding="utf-8")
     prefixo = "../../"
     for i, parte in enumerate(PERCURSO, 1):
         anterior = PERCURSO[i - 2] if i > 1 else None
@@ -1483,12 +1483,12 @@ def gerar_percurso():
             avancar = f'<a class="botao" href="../{seguinte["slug"]}/">Seguir para a parte {i + 1}</a>'
         else:
             avancar = f'<a class="botao" href="{prefixo}conceitos/">Ver o vocabulário inteiro</a>'
-        vizinhos = ('<nav class="vizinhos" aria-label="Partes do percurso">'
+        vizinhos = ('<nav class="vizinhos" aria-label="Partes do caminho">'
                     + (f'<a href="../{anterior["slug"]}/">← {esc(anterior["titulo"])}</a>' if anterior else f'<a href="{prefixo}">← Início</a>')
                     + (f'<a href="../{seguinte["slug"]}/">{esc(seguinte["titulo"])} →</a>' if seguinte else "")
                     + "</nav>")
         corpo = (f'<article class="folha percurso-parte">'
-                 f'<p class="sobrelinha-ext"><a href="{prefixo}percurso/">Percurso</a> · Parte {i} de {total}</p>'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}caminho/">Caminho</a> · Parte {i} de {total}</p>'
                  f'<header class="folha-cabeca ext-cabeca"><h1>{esc(parte["titulo"])}</h1></header>'
                  + figura(f'parte-{parte["slug"]}', prefixo)
                  + "".join(bloco_percurso(b, prefixo) for b in parte["blocos"])
@@ -1497,14 +1497,14 @@ def gerar_percurso():
                  f'<div class="acoes">{avancar}{botao_desnudar()}</div></section>'
                  + vizinhos + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": parte["titulo"], "inLanguage": "pt-BR",
-                  "url": f'{BASE}/percurso/{parte["slug"]}/', "isBasedOn": BASE + "/#tese",
+                  "url": f'{BASE}/caminho/{parte["slug"]}/', "isBasedOn": BASE + "/#tese",
                   "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
         destino = raiz / parte["slug"]
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
-            pagina(f'{parte["titulo"]} · Siga a skin · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do percurso da skin.',
-                   corpo, prefixo, f'percurso/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}',
-                   irmas=("O percurso", [(f'<span class="parte-num">{j}</span>{esc(x["titulo"])}', f'../{x["slug"]}/', x is parte) for j, x in enumerate(PERCURSO, 1)])),
+            pagina(f'{parte["titulo"]} · Siga a skin · Lex Plataformae', f'{parte["resumo"]} Parte {i} de {total} do caminho da skin.',
+                   corpo, prefixo, f'caminho/{parte["slug"]}/', jsonld, camada="mista", imagem=f'percurso-{parte["slug"]}',
+                   irmas=("O caminho", [(f'<span class="parte-num">{j}</span>{esc(x["titulo"])}', f'../{x["slug"]}/', x is parte) for j, x in enumerate(PERCURSO, 1)])),
             encoding="utf-8")
 
 
@@ -1601,13 +1601,13 @@ def gerar_inicio():
         </article>
         <article class="porta porta-percurso item-moldura">
           <p class="porta-rotulo">Quero entender</p>
-          <h3><a href="percurso/o-desejo/">Siga a skin</a></h3>
+          <h3><a href="caminho/o-desejo/">Siga a skin</a></h3>
           <p>{esc(ext_texto("inicio", "percurso"))}</p>
-          <p class="porta-mais"><a href="percurso/o-desejo/">Continuar a história</a> · <a href="percurso/">As onze partes</a></p>
+          <p class="porta-mais"><a href="caminho/o-desejo/">Continuar a história</a> · <a href="caminho/">As onze partes</a></p>
         </article>
         <article class="porta porta-direito item-moldura">
           <p class="porta-rotulo">Trabalho com Direito</p>
-          <h3><a href="doutrina/" data-modo="1">O percurso do jurista</a></h3>
+          <h3><a href="doutrina/" data-modo="1">O caminho do jurista</a></h3>
           <p>Os mesmos problemas, tratados como doutrina, com as situações para operar e a legislação.</p>
           <p class="porta-mais"><a href="doutrina/" data-modo="1">Abrir em Doutrina</a> · <a href="roteiro/" data-modo="1">As situações</a></p>
         </article>
@@ -1664,7 +1664,7 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "Você comprou uma skin. Ela é sua? Um percurso pelo que acontece com o que se compra no mundo digital, e nove conceitos para contestar isso."
+    desc = "Você comprou uma skin. Ela é sua? Um caminho pelo que acontece com o que se compra no mundo digital, e nove conceitos para contestar isso."
     corpo = f'<div class="pagina-inicio">{corpo}</div>'
     (SAIDA / "index.html").write_text(pagina("Lex Plataformae · Você comprou uma skin. Ela é sua?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
@@ -2436,7 +2436,7 @@ def gerar_diretrizes():
         + doutrina_html("diretrizes abertura", prefixo)
         + f'<nav class="bloco indice-roteiro" aria-label="As dez diretrizes"><h2>As dez diretrizes</h2><ol>{"".join(indice)}</ol></nav>'
         + "".join(secoes)
-        + saidas_html(([(capitulo_curso("7.1.3")["titulo"] + ", no percurso do jurista", f'{prefixo}doutrina/{capitulo_curso("7.1.3")["slug"]}/')] if capitulo_curso("7.1.3") else [])
+        + saidas_html(([(capitulo_curso("7.1.3")["titulo"] + ", no caminho do jurista", f'{prefixo}doutrina/{capitulo_curso("7.1.3")["slug"]}/')] if capitulo_curso("7.1.3") else [])
                       + [("As situações, para operar", f"{prefixo}roteiro/"), ("Os limites ao poder da plataforma", f"{prefixo}roteiro/limites/"),
                        ("A legislação citada", f"{prefixo}legislacao/")]) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
@@ -2459,7 +2459,7 @@ def gerar_limites():
              '<p class="abertura-pagina">O fornecimento pode alcançar condições práticas de participação e de permanência. O regime limita esse poder sem equiparar a plataforma ao Estado.</p>'
              f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral</a></p></header>'
              + doutrina_html("limites", prefixo)
-             + saidas_html(([(capitulo_curso("7.1.4")["titulo"] + ", no percurso do jurista", f'{prefixo}doutrina/{capitulo_curso("7.1.4")["slug"]}/')] if capitulo_curso("7.1.4") else [])
+             + saidas_html(([(capitulo_curso("7.1.4")["titulo"] + ", no caminho do jurista", f'{prefixo}doutrina/{capitulo_curso("7.1.4")["slug"]}/')] if capitulo_curso("7.1.4") else [])
                            + [("As situações, para operar", f"{prefixo}roteiro/"), ("As diretrizes de controle", f"{prefixo}roteiro/diretrizes/"),
                             ("A legislação citada", f"{prefixo}legislacao/")])
              + "</article>")
@@ -2574,7 +2574,7 @@ def gerar_laboratorio():
                  f'<h1>{titulo_por_modo(sec["titulo"])}</h1><p class="abertura-pagina">{esc(ABERTURA_DESDOBRAMENTO[slug])}</p>'
                  f'<p class="ler-pdf ciencia"><a href="{prefixo}tese/{sec["slug"]}/">Ler no texto integral, com as notas</a></p></header>'
                  + doutrina_html(f"desdobramento {slug}", prefixo)
-                 + saidas_html([("As famílias de plataforma", "../"), ("O percurso do jurista", f"{prefixo}doutrina/"), ("As situações, para operar", f"{prefixo}roteiro/")])
+                 + saidas_html([("As famílias de plataforma", "../"), ("O caminho do jurista", f"{prefixo}doutrina/"), ("As situações, para operar", f"{prefixo}roteiro/")])
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "WebPage", "name": sec["titulo"], "inLanguage": "pt-BR",
                   "url": f"{BASE}/plataformas/{slug}/", "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -3632,7 +3632,7 @@ def gerar_objeto_instrumentos():
                 onde.setdefault(b["arg"], parte)
     def termo_link(nome, classe=""):
         parte = onde.get(nome)
-        alvo = f'{prefixo}percurso/{parte["slug"]}/#termo-{slug_derivado(nome)}' if parte else None
+        alvo = f'{prefixo}caminho/{parte["slug"]}/#termo-{slug_derivado(nome)}' if parte else None
         rotulo = f'<span class="{classe}">{esc(nome)}</span>' if classe else esc(nome)
         return f'<li><a href="{alvo}">{rotulo}</a></li>' if alvo else f"<li>{rotulo}</li>"
     autores = [a for a in autores_pessoas().values() if not a.get("proprio")]
@@ -3647,7 +3647,7 @@ def gerar_objeto_instrumentos():
     for area in ("tecnica", "economia", "antropologia", "semiotica", "poder"):
         termos = sorted(t for t, ar in AREA_TERMO.items() if ar == area)
         lentes.append(f'<section class="lente"{estilo_area(area)}><h3>{esc(AREA_NOME[area])}</h3>'
-                      f'<p class="rotulo-ext">Instrumentos no percurso</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
+                      f'<p class="rotulo-ext">Instrumentos no caminho</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
                       f'<p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
     juridicos = sorted(t for t, ar in AREA_TERMO.items() if ar == "direito")
     nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
@@ -3664,10 +3664,10 @@ def gerar_objeto_instrumentos():
         '<div style="--area:var(--tese-linha)"><small>Tese</small><b>O conceito que a tese nomeia</b></div></div>'
         f'<section class="bloco etapa"{estilo_area("laboratorio")}><h2>O objeto</h2>'
         f'<p>O laboratório de origem e as famílias de plataforma estão em <a href="{prefixo}plataformas/">Plataformas</a>. '
-        f'A palavra do próprio objeto que o percurso usa é</p><ul class="termos-lista">{termo_link("Nerf")}</ul>'
+        f'A palavra do próprio objeto que o caminho usa é</p><ul class="termos-lista">{termo_link("Nerf")}</ul>'
         f'<p class="rotulo-ext">Fontes do laboratório</p><ul class="autores-lista">{autores_da_area("laboratorio", 8)}</ul></section>'
         f'<section class="bloco etapa"><h2>As lentes</h2><div class="lentes">{"".join(lentes)}</div></section>'
-        f'<section class="bloco etapa"{estilo_area("direito")}><h2>A qualificação</h2><p class="rotulo-ext">Categorias jurídicas no percurso</p>'
+        f'<section class="bloco etapa"{estilo_area("direito")}><h2>A qualificação</h2><p class="rotulo-ext">Categorias jurídicas no caminho</p>'
         f'<ul class="termos-lista">{"".join(termo_link(t) for t in juridicos)}</ul><p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area("direito", 16)}</ul></section>'
         '<section class="bloco etapa tese-etapa"><h2>A tese</h2><p class="rotulo-ext">Os nove conceitos</p>'
         f'<ul class="conceitos-lista">{nove}</ul><p class="rotulo-ext">Os dez conceitos derivados</p><ul class="termos-lista">{dez}</ul></section>'
@@ -3897,7 +3897,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/percurso/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/percurso/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -3910,11 +3910,11 @@ def gerar_auxiliares():
         "",
         "Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, " + "“" + (lambda q: q["texto"] if q else "")(next((q for q in (campo(EIXO, "Como integra os demais") or {"citacoes": []})["citacoes"] if q["ref"] == "p. 719"), None)) + "” (p. 719)",
         "",
-        "## Percurso",
+        "## Caminho",
         "",
         "A primeira vista do site conta a tese inteira a partir da compra de uma skin, em linguagem simples, com os trechos literais da tese por baixo de cada bloco.",
         "",
-    ] + [f"- [{parte['titulo']}]({BASE}/percurso/{parte['slug']}/): {parte['resumo']}" for parte in PERCURSO] + [
+    ] + [f"- [{parte['titulo']}]({BASE}/caminho/{parte['slug']}/): {parte['resumo']}" for parte in PERCURSO] + [
         "",
         "## Seus direitos",
         "",
@@ -4003,7 +4003,7 @@ def gerar_instrumentos():
                                "percurso": parte["slug"], "ancora": "termo-" + slug_derivado(nome),
                                "fontes": bloco["citacoes"]})
     def item(nome):
-        links = "".join(f'<a href="{prefixo}percurso/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(p["titulo"])}</a>' for p in termos[nome])
+        links = "".join(f'<a href="{prefixo}caminho/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(p["titulo"])}</a>' for p in termos[nome])
         return f'<li><h3>{esc(nome)}</h3><p>{links}</p></li>'
     areas = [a for a in AREA_NOME if any(AREA_TERMO.get(n) == a for n in termos)]
     indice = "".join(f'<li{estilo_area(a)}><a class="chip-area" href="#{a}">{esc(AREA_NOME[a])}</a></li>' for a in areas)
@@ -4012,7 +4012,7 @@ def gerar_instrumentos():
     derivados = "".join(item(n) for n in sorted(termos) if n in DERIVADOS)
     corpo = ('<article class="folha instrumentos-pagina"><header class="folha-cabeca"><h1><span class="em-modo modo-0">Palavras que vêm de outros campos</span>'
              '<span class="em-modo modo-1 modo-2">Conceitos por área do conhecimento</span></h1>'
-             '<p>Escolha uma área e siga o link de cada conceito para ler a explicação no percurso da skin.</p></header>'
+             '<p>Escolha uma área e siga o link de cada conceito para ler a explicação no caminho da skin.</p></header>'
              f'<nav aria-label="Áreas dos conceitos"><ul class="instrumentos-indice">{indice}<li><a href="#derivados">Conceitos derivados</a></li></ul></nav>'
              + grupos + f'<section class="instrumentos-area derivados" id="derivados"><h2>Conceitos derivados</h2><ul class="instrumentos-lista">{derivados}</ul></section>'
              f'<nav class="acoes" aria-label="Outros caminhos"><a href="{prefixo}conceitos/">O vocabulário</a>'
@@ -4020,7 +4020,7 @@ def gerar_instrumentos():
     pasta = SAIDA / "instrumentos"
     pasta.mkdir(exist_ok=True)
     (pasta / "index.html").write_text(pagina("Conceitos por área do conhecimento · Lex Plataformae",
-        "Encontre os conceitos complementares, instrumentais e derivados e leia cada explicação no contexto do percurso da skin.",
+        "Encontre os conceitos complementares, instrumentais e derivados e leia cada explicação no contexto do caminho da skin.",
         corpo, prefixo, "instrumentos/", camada="mista"), encoding="utf-8")
     (RAIZ / "estrutura" / "instrumentos-no-percurso.json").write_text(json.dumps(inventario, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -4042,14 +4042,14 @@ def gerar_derivados():
             continue
         slug = slug_derivado(nome)
         parte, bloco = onde[nome]
-        no_percurso = f'{prefixo}percurso/{parte["slug"]}/#termo-{slug}'
+        no_percurso = f'{prefixo}caminho/{parte["slug"]}/#termo-{slug}'
         achados = ocorrencias_do_nome(nome)
         lista = "".join(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{esc(rotulo_secao(sec))}</a> <span class="vezes">{n}×</span></li>' for sec, n in achados)
         corpo = (
             '<article class="folha leitura derivado-pagina">'
             f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
             f'<h1>{esc(nome)}</h1>'
-            f'<p class="abertura-pagina">Explicado em palavras simples no percurso da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
+            f'<p class="abertura-pagina">Explicado em palavras simples no caminho da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
             f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(slug)), prefixo)}</div>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
             + f'<p class="ver-nove"><a href="{prefixo}conceitos/">Os nove conceitos</a></p>'
@@ -4064,7 +4064,7 @@ def gerar_derivados():
         destino.mkdir(parents=True, exist_ok=True)
         (destino / "index.html").write_text(
             pagina(f"{nome} · Conceitos · Lex Plataformae", primeiro, corpo, prefixo, caminho_derivado(nome), jsonld,
-                   superficie=f'{prefixo}percurso/{parte["slug"]}/',
+                   superficie=f'{prefixo}caminho/{parte["slug"]}/',
                    irmas=("Os outros nove derivados", [(f'<span class="nome-derivado">{esc(t)}</span>', f'{prefixo}{caminho_derivado(t)}', False) for t in nomes if t != nome])), encoding="utf-8")
 
 
@@ -4085,7 +4085,7 @@ def gerar_autor():
         'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
-        + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do percurso</h2>'
+        + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do caminho</h2>'
         f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
         '<p>Para conversar sobre esta teoria, o caminho é o LinkedIn.</p>'
         f'<p class="acoes"><a class="botao" href="{AUTOR_LINKEDIN}" rel="me noopener">Victor L. P. Andrade no LinkedIn</a></p></section>'
@@ -4196,7 +4196,7 @@ FERMATA = ('<div class="fermata" aria-hidden="true"><svg viewBox="0 0 64 34" wid
            '<circle cx="32" cy="24" r="4.2" fill="currentColor"/></svg></div>')
 
 # Endereços antigos, renomeados em 10/11/2026 com o menu unificado. Cada um leva ao novo, para não quebrar link de fora.
-ENDERECOS_ANTIGOS = {"curso": "doutrina", "laboratorio": "plataformas"}
+ENDERECOS_ANTIGOS = {"curso": "doutrina", "laboratorio": "plataformas", "percurso": "caminho"}
 
 
 def gerar_redirecionamentos():

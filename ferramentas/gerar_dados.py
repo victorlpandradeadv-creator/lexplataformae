@@ -70,7 +70,7 @@ PASSOS = {
 # o texto da página indicada em "fonte" e não atribuem nada que a tese não diga.
 PERCURSOS_DEF = {
     "consumidor": {
-        "nome": "Percurso do consumidor",
+        "nome": "Caminho do consumidor",
         "onde": "5.1",
         "fonte": "p. 394-395",
         "logica": "Expõe os conceitos a partir da posição de quem consome.",
@@ -84,7 +84,7 @@ PERCURSOS_DEF = {
         ],
     },
     "julgador": {
-        "nome": "Percurso do julgador",
+        "nome": "Caminho do julgador",
         "onde": "7.1.1",
         "fonte": "p. 716-717",
         "logica": "Decide passo a passo. Cada parâmetro prepara o seguinte.",
@@ -102,7 +102,7 @@ PERCURSOS_DEF = {
         ],
     },
     "regime": {
-        "nome": "Percurso do regime",
+        "nome": "Caminho do regime",
         "onde": "Conclusão",
         "fonte": "p. 800",
         "logica": "Resume o regime inteiro numa frase, conceito por conceito.",

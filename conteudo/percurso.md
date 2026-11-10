@@ -1619,7 +1619,7 @@ Com uma serpente feita da substância do próprio Rá, ela o envenenou. Em troca
 
 ### texto
 
-É isso que os nomes deste percurso fazem. Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza e apenas aplica regras, a discussão fica presa à língua do inevitável, e ninguém processa a chuva.
+É isso que os nomes deste caminho fazem. Enquanto a plataforma puder dizer que apenas funciona, apenas atualiza e apenas aplica regras, a discussão fica presa à língua do inevitável, e ninguém processa a chuva.
 
 Quando se mostra que o acesso, a permanência, a visibilidade, a reputação e o uso são organizados por desenho e por punição, o que parecia clima volta a parecer decisão. E o que volta a parecer decisão pode ser controlado.
 
@@ -1630,7 +1630,7 @@ Quando se mostra que o acesso, a permanência, a visibilidade, a reputação e o
 
 O que falta ao direito do consumidor diante da lei da plataforma não é indignação nem discurso de denúncia. Falta vocabulário para mostrar e provar decisões que hoje passam por simples funcionamento do sistema.
 
-Nomear, aqui, não é fazer poesia. É tirar o poder do lugar do óbvio, onde ninguém o questiona, e levá-lo para o lugar do que pode ser contestado. É por isso que este percurso deu nome a cada coisa que você talvez já tivesse sentido sem saber dizer.
+Nomear, aqui, não é fazer poesia. É tirar o poder do lugar do óbvio, onde ninguém o questiona, e levá-lo para o lugar do que pode ser contestado. É por isso que este caminho deu nome a cada coisa que você talvez já tivesse sentido sem saber dizer.
 
 > O que falta ao Direito do Consumidor diante da Lex Plataformae não é indignação moral, nem tampouco repertório retórico de denúncia. Falta-lhe vocabulário para tornar demonstráveis decisões que hoje se passam por mero funcionamento do sistema. (p. 792)
 > Nomear não é poetizar. Nomear é deslocar o poder de um regime de autoevidência para um regime de contestabilidade. (p. 792)
