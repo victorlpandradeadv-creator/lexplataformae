@@ -1228,6 +1228,14 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
   .degraus label { min-height: 2.75rem; display: inline-flex; align-items: center; padding-inline: 0.65rem; }
 }
 
+/* Citação sugerida no rodapé da Ciência e histórico de versões. 10/11/2026. */
+.rodape-citar { margin: 0 0 1.25rem; max-width: 46rem; }
+.rodape-citar .rotulo-citar { font-family: var(--f-display); font-weight: 700; font-size: 0.875rem; margin: 0 0 0.25rem; }
+.rodape-citar .citar-pagina { font-size: 0.875rem; overflow-wrap: anywhere; user-select: all; }
+.faixa a { color: inherit; }
+.versoes { padding-left: 1.25rem; }
+.versoes li { margin: 0 0 0.75rem; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

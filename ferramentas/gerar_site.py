@@ -21,7 +21,20 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.10"
+VERSAO = "0.11"
+# Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
+VERSOES = [
+    ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
+    ("0.4", "27/10/2026", "Entram as situações do quadro de enquadramento e as famílias de plataforma."),
+    ("0.5", "27/10/2026", "O site passa a se ler em três camadas, e o nome do autor fica por último."),
+    ("0.6", "27/10/2026", "Entram o caminho da skin e a chave de leitura em três degraus."),
+    ("0.7", "27/10/2026", "Entram a paleta, a chave Modo com Informação, Doutrina e Ciência, o menu por modo e o bloco do texto integral."),
+    ("0.8", "03/11/2026", "Os capítulos 5 e 6 chegam completos à Informação e à Doutrina, com as páginas por problema e a auditoria de design."),
+    ("0.9", "05/11/2026", "Revisão da disposição das páginas e da voz do site."),
+    ("0.10", "09/11/2026", "Adequação das camadas, com a Doutrina em quinze capítulos, os 24 problemas da Informação e a página Como reclamar."),
+    ("0.11", "10/11/2026", "Menu unificado, capa narrativa, identidade editorial, o Caminho, a citação sugerida em cada página e este histórico de versões."),
+]
+DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
@@ -414,7 +427,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 {lembrar}
 <div class="moldura">
   <div class="faixa arq" data-arq="versão · o site cresce em público e cada mudança fica registrada">
-    <span>Versão {VERSAO} · em construção</span>
+    <span><a href="{prefixo}versoes/">Versão {VERSAO}</a> · em construção</span>
   </div>
   <header class="topo">
     <a class="topo-marca" href="{inicio}"><span class="topo-projeto">Projeto</span><span class="topo-nome">Lex Plataformae</span></a>
@@ -426,6 +439,10 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 {corpo}
   </main>
   <footer class="rodape">
+    <div class="ciencia rodape-citar" data-arq="como citar · referência pronta desta página na versão atual">
+      <p class="rotulo-citar">Como citar esta página</p>
+      <p class="referencia citar-pagina">ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}. <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}</p>
+    </div>
     <div class="ciencia rodape-estudo">
       <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>
     </div>
@@ -3906,7 +3923,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/", BASE + "/versoes/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -4221,6 +4238,24 @@ def gerar_redirecionamentos():
                             f'<body><p>Esta página mudou para <a href="{destino}">{BASE}{destino}</a>.</p></body></html>', encoding="utf-8")
 
 
+def gerar_versoes():
+    """O histórico das versões, na Ciência. Cada versão com data e o que mudou, para a evolução do site ficar à vista."""
+    prefixo = "../"
+    itens = "".join(f'<li><p><b>Versão {esc(v)}</b>, de {esc(d)}. {esc(t)}</p></li>' for v, d, t in reversed(VERSOES))
+    corpo = ('<article class="folha">'
+             '<header class="folha-cabeca"><p class="sobrelinha">Ciência</p><h1>Como o site mudou</h1></header>'
+             '<section><p>O site cresce em público, e cada versão fica registrada com a data e o que mudou. '
+             'A versão em vigor aparece no alto de cada página e na referência sugerida no rodapé.</p>'
+             f'<ol class="versoes" reversed>{itens}</ol></section>'
+             + saidas_html([("O texto integral", f"{prefixo}tese/"), ("O método", f"{prefixo}metodo/")])
+             + '</article>')
+    pasta = SAIDA / "versoes"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(
+        pagina("Histórico de versões do site · Lex Plataformae", "Cada versão do site, com a data e o que mudou.",
+               corpo, prefixo, "versoes/", None, camada="ciencia", superficie=prefixo), encoding="utf-8")
+
+
 def main():
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
@@ -4252,6 +4287,7 @@ def main():
     gerar_autor()
     gerar_legislacao()
     gerar_auxiliares()
+    gerar_versoes()
     gerar_redirecionamentos()
     paginas = len(list(SAIDA.rglob("*.html")))
     print(f"{paginas} páginas geradas em docs/")

@@ -127,6 +127,8 @@ As partes do site, dentro dessas camadas.
 
 - 10/11/2026. Revisão de leitura e navegação executada pelo GPT a pedido do autor. Preserva a identidade editorial e Caminho. Atalhos na capa, seção atual no menu, salto para o conteúdo, coluna de leitura limitada, índices nativos recolhíveis e acessíveis no celular. Plano visual revisto em `estrutura/ilustracoes.md`, com detalhes em `estrutura/revisao-editorial-2026-11-10.md`. Nenhum arquivo de ilustração produzido nesta revisão.
 
+- 10/11/2026. Referências de arquitetura, por ordem do autor de incorporar as lições de sites do mesmo tipo. Versão 0.11. Cada página traz no rodapé da Ciência a citação sugerida, com versão e data (`DATA_VERSAO`), e a faixa de versão leva ao histórico público em `versoes/`, gerado de `VERSOES` em `ferramentas/gerar_site.py`. A cada versão nova, acrescentar a linha em `VERSOES`. O levantamento e as propostas que dependem do autor (galeria de casos, data de revisão por página, interativos, observatório e dados abertos) estão em `estrutura/referencias-arquitetura-2026-11-10.md`.
+
 ## Arquivos
 
 - `tese/andrade-2026-tese-oic-lex-plataformae.pdf` é a fonte de verdade. Página impressa = página do PDF - 2.
