@@ -121,10 +121,10 @@ Statute text quoted on the site is an unofficial translation. Keep article numbe
 | Ciência | Science |
 | Problemas | Problems |
 | Direitos, Seus direitos | Rights, Your rights |
-| Caminho | Way (after Sanderson's The Way of Kings, which the author recalls in the Portuguese name) |
-| o caminho da skin | the way of the skin |
-| o caminho do jurista | the jurist's way |
-| Caminho do consumidor, do julgador, do regime | the consumer's way, the judge's way, the regime's way |
+| Caminho | Path (decision of the author, 10/11/2026) |
+| o caminho da skin | the path of the skin |
+| o caminho do jurista | the jurist's path |
+| Caminho do consumidor, do julgador, do regime | the consumer's path, the judge's path, the regime's path |
 | Vocabulário | Vocabulary |
 | Plataformas | Platforms |
 | Situações | Situations |
