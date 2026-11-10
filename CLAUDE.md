@@ -125,6 +125,8 @@ As partes do site, dentro dessas camadas.
 - 27/10/2026. Tudo o que está na tese será trazido, com o tempo, para a estrutura do site. O corpus já tem o texto integral. As camadas devem chegar a todas as seções. O mapa do caminho está em `estrutura/cobertura.md`, refeito a cada geração do site. Em 27/10/2026, capítulo 7 e conclusão completos, 59 de 116 seções com lugar numa camada. No mesmo dia, com Fundamentos e Método, capítulos 2, 3 e 4 completos e 89 de 116. Com Dogmática, 116 de 116. Toda seção da tese tem lugar em alguma camada além do corpus.
 - 26/10/2026. Rascunhos podem ficar públicos no repositório antes da revisão, desde que cada informação traga o rastreio do trecho da tese de onde veio. A tese é pública. O site é ferramenta de leitura e ilustração da tese, e não substitui edição em livro.
 
+- 10/11/2026. Revisão de leitura e navegação executada pelo GPT a pedido do autor. Preserva a identidade editorial e Caminho. Atalhos na capa, seção atual no menu, salto para o conteúdo, coluna de leitura limitada, índices nativos recolhíveis e acessíveis no celular. Plano visual revisto em `estrutura/ilustracoes.md`, com detalhes em `estrutura/revisao-editorial-2026-11-10.md`. Nenhum arquivo de ilustração produzido nesta revisão.
+
 ## Arquivos
 
 - `tese/andrade-2026-tese-oic-lex-plataformae.pdf` é a fonte de verdade. Página impressa = página do PDF - 2.

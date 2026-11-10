@@ -849,7 +849,7 @@ blockquote.citacao, blockquote.citacao p { font-size: 1.0625rem; line-height: 1.
 .folha-texto { display: grid; gap: 2rem; min-width: 0; align-content: start; }
 .percurso-parte .folha-texto { gap: 2.25rem; }
 .lateral { min-width: 0; font-family: var(--f-display); }
-.lateral-bloco { display: grid; gap: 0.5rem; }
+.lateral-bloco { display: block; }
 .lateral-titulo { margin: 0; font-size: 0.875rem; font-weight: 700; line-height: 1.3; color: var(--tinta); }
 .lateral ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.1rem; border-left: 1px solid var(--linha); }
 .lateral li > a { display: block; padding: 0.3rem 0 0.3rem 0.8rem; margin-left: -1px; border-left: 2px solid transparent; font-size: 0.875rem; line-height: 1.35; color: var(--tinta-2); text-decoration: none; overflow-wrap: anywhere; }
@@ -858,15 +858,15 @@ blockquote.citacao, blockquote.citacao p { font-size: 1.0625rem; line-height: 1.
 .lateral a[aria-current] { color: var(--tinta); font-weight: 700; border-left-color: var(--modo, var(--acento)); }
 .lateral .parte-num { display: inline-block; min-width: 1.5rem; padding: 0; font-size: 0.75rem; }
 .lateral .num-secao { font-family: var(--f-dado); font-size: 0.75rem; }
-.lateral-indice { display: none; }
+.lateral-indice { display: block; }
 @media (pointer: coarse) { .lateral li > a { padding-block: 0.7rem; } }
 body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, body:has(#nivel-2:checked) .esconde-2 { display: none !important; }
-.lateral-irmas:not(.lateral-curta) { display: none; }
+.lateral-irmas:not(.lateral-curta) { display: block; }
 .lateral-fixa { display: grid; gap: 1.75rem; }
 
 @media (min-width: 900px) {
   .folha-corpo { grid-template-columns: minmax(0, 46rem) minmax(13.5rem, 1fr); column-gap: clamp(2.5rem, 5vw, 4.5rem); }
-  .lateral-indice, .lateral-irmas:not(.lateral-curta) { display: grid; }
+  .lateral-indice, .lateral-irmas:not(.lateral-curta) { display: block; }
   /* O índice acompanha a leitura e para antes da chave Modo, que fica no mesmo canto. */
   .lateral-fixa { position: sticky; top: 1.25rem; max-height: calc(100dvh - 6rem); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: 0.25rem; padding-top: 0.15rem; }
   .ext p { font-size: 1.1875rem; }
@@ -1141,6 +1141,92 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 .porta .partes-curtas a, .nomes-discretos a { color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 3px; }
 .porta .partes-curtas a:hover { color: var(--rubrica); }
 .inicio-fecho p, .convite p { font-family: var(--serifa); }
+
+/* Revisão de leitura e navegação, 10/11/2026.
+   Preserva papel, rubrica, serifa e cores por área. */
+:root { --coluna-leitura: 43rem; }
+.pular-conteudo {
+  position: fixed; top: 0.75rem; left: 1rem; z-index: 100;
+  padding: 0.75rem 1rem; background: var(--tinta); color: var(--papel);
+  font-family: var(--f-display); transform: translateY(-200%);
+}
+.pular-conteudo:focus { transform: none; }
+:where(a, button, summary):focus-visible { outline: 2px solid var(--rubrica); outline-offset: 4px; }
+#conteudo-principal:focus, .portas-titulo:focus { outline: none; }
+.menu-modo a { display: inline-flex; align-items: center; min-height: 2.75rem; text-underline-offset: 0.35em; }
+.menu-modo a[aria-current] { color: var(--rubrica); text-decoration: underline; text-decoration-thickness: 2px; }
+.topo { padding-block: 0.75rem 1rem; border-bottom: 1px solid var(--linha); }
+
+/* A capa mantém as quatro cenas, com saídas imediatas e pausas proporcionais. */
+.pagina-inicio .cena { min-height: clamp(18rem, 48svh, 30rem); padding-block: clamp(2rem, 5vw, 4rem); }
+.pagina-inicio .cena-titulo { min-height: clamp(24rem, 68svh, 44rem); }
+.atalhos-capa { display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem; margin-top: 2rem; }
+.atalhos-capa a { display: inline-flex; align-items: center; min-height: 2.75rem; font-family: var(--f-display); font-size: 0.9375rem; color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 0.3em; }
+.portas-titulo { font-size: clamp(1.7rem, 3vw, 2.5rem); font-weight: 500; margin: 0 0 1.5rem; scroll-margin-top: 1.5rem; }
+.portas-grade { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.porta { min-width: 0; padding: 1.75rem; }
+.porta h3 { line-height: 1.25; }
+.porta > p { margin-block: 0; }
+.porta .porta-mais { margin-top: auto; padding-top: 1rem; }
+.porta .partes-curtas li { padding-block: 0; }
+.porta .partes-curtas a { line-height: 1.5; padding-block: 0.35rem; }
+
+/* O texto fica na mesma medida mesmo quando não há índice ao lado. */
+.folha-texto { width: 100%; max-width: var(--coluna-leitura); }
+.folha-texto :is(p, li) { overflow-wrap: break-word; }
+.folha-texto .ext p, .par-curso > p { line-height: 1.65; }
+.folha-texto :is(.ext, .bloco-curso) p + p { margin-top: 1em; }
+.folha-cabeca h1 { max-width: 28ch; }
+.folha-abertura h1 { max-width: none; }
+.vizinhos { gap: 1rem 2rem; line-height: 1.5; }
+.vizinhos a { padding-block: 0.5rem; }
+
+/* Os índices são disclosures nativos, utilizáveis por toque, teclado e sem JS. */
+.lateral summary { cursor: pointer; padding-block: 0.65rem; min-height: 2.75rem; }
+.lateral summary::marker { color: var(--rubrica); }
+.lateral details[open] > summary { margin-bottom: 0.35rem; }
+.lateral details + details { border-top: 1px solid var(--linha); padding-top: 0.65rem; }
+.lateral-fixa { gap: 0.75rem; }
+.lateral li > a { padding-block: 0.5rem; line-height: 1.5; }
+
+/* A arte respira fora dos parágrafos e mantém a sua composição inteira. */
+.ilustracao:not(.prevista) { padding-block: 0.75rem 1.25rem; }
+.ilustracao img { object-fit: contain; border-radius: 0; }
+.ilustracao figcaption { max-width: 65ch; font-size: 0.875rem; line-height: 1.55; }
+.pagina-inicio > .ilustracao { max-width: 60rem; margin: 0 auto 2rem; }
+.percurso-parte .ilustracao:not(.prevista) { max-width: var(--coluna-leitura); }
+.rodape { margin-top: 2rem; padding-bottom: 6rem; }
+
+@media (min-width: 900px) {
+  .folha-corpo { grid-template-columns: minmax(0, var(--coluna-leitura)) minmax(13.5rem, 1fr); }
+  .folha-corpo.sem-lateral > .folha-texto,
+  body:has(#nivel-0:checked) .sem-lateral-0 > .folha-texto,
+  body:has(#nivel-1:checked) .sem-lateral-1 > .folha-texto,
+  body:has(#nivel-2:checked) .sem-lateral-2 > .folha-texto { margin-inline: auto; }
+}
+@media (max-width: 899px) {
+  .folha-corpo { gap: 1.5rem; }
+  .lateral { order: -1; border-block: 1px solid var(--linha); padding-block: 0.25rem; }
+  .lateral-fixa { position: static; max-height: none; }
+  .lateral details[open] > nav { max-height: 45svh; overflow-y: auto; overscroll-behavior: contain; }
+  .folha-texto { margin-inline: auto; }
+  body:has(#nivel-0:checked) .sem-lateral-0 > .lateral,
+  body:has(#nivel-1:checked) .sem-lateral-1 > .lateral,
+  body:has(#nivel-2:checked) .sem-lateral-2 > .lateral { display: none; }
+  .portas-grade { grid-template-columns: 1fr; }
+  .porta { padding: 1.5rem; }
+  .pagina-inicio .cena { min-height: auto; padding-block: 2.5rem; }
+  .pagina-inicio .cena-titulo { min-height: 58svh; }
+  .pagina-inicio .cena > p { font-size: clamp(1.3rem, 4vw, 1.8rem); line-height: 1.5; }
+  .menu-modo ul { column-gap: 1rem; }
+}
+@media (max-width: 480px) {
+  .atalhos-capa { display: grid; gap: 0.25rem; margin-top: 1.25rem; }
+  .pagina-inicio .cena-titulo .chamada { font-size: clamp(2.4rem, 10vw, 3rem); }
+  .chave-mestra { max-width: calc(100vw - 1rem); right: 0.5rem; bottom: max(0.5rem, env(safe-area-inset-bottom)); }
+  .chave-nome { display: none; }
+  .degraus label { min-height: 2.75rem; display: inline-flex; align-items: center; padding-inline: 0.65rem; }
+}
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

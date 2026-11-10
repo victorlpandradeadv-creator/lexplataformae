@@ -207,8 +207,9 @@ def _indice_html(itens):
         classes = " ".join(sorted(i["classes"] | {f'nivel-indice-{i["nivel"]}'}))
         linhas.append(f'<li class="{classes}"><a href="#{i["id"]}">{i["rotulo"]}</a></li>')
     esconde = "".join(f" esconde-{n}" for n in sorted(sem_indice))
-    return (f'<nav class="lateral-bloco lateral-indice{esconde}" aria-label="Nesta página"><p class="lateral-titulo">Nesta página</p>'
-            f'<ol>{"".join(linhas)}</ol></nav>'), sem_indice
+    return (f'<details class="lateral-bloco lateral-indice{esconde}" data-recolher-mobile open>'
+            f'<summary class="lateral-titulo">Nesta página</summary><nav aria-label="Nesta página">'
+            f'<ol>{"".join(linhas)}</ol></nav></details>'), sem_indice
 
 
 def _irmas_html(irmas):
@@ -217,8 +218,11 @@ def _irmas_html(irmas):
     titulo, itens = irmas
     linhas = "".join(f'<li><a href="{href}"{" aria-current=\"page\"" if atual else ""}>{rotulo}</a></li>' for rotulo, href, atual in itens)
     curta = " lateral-curta" if len(itens) <= 12 else ""
-    return (f'<nav class="lateral-bloco lateral-irmas{curta}" aria-label="{html.escape(titulo, quote=True)}"><p class="lateral-titulo">{html.escape(titulo)}</p>'
-            f'<ol>{linhas}</ol></nav>')
+    # A lista completa dos capítulos fica disponível sem disputar a leitura.
+    abertura = '' if titulo in {'O caminho', 'Caminho do jurista'} else ' data-recolher-mobile open'
+    return (f'<details class="lateral-bloco lateral-irmas{curta}"{abertura}>'
+            f'<summary class="lateral-titulo">{html.escape(titulo)}</summary>'
+            f'<nav aria-label="{html.escape(titulo, quote=True)}"><ol>{linhas}</ol></nav></details>')
 
 
 def _frases(plano):

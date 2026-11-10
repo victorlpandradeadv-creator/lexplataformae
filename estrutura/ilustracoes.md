@@ -8,15 +8,18 @@ Como toda frase explicativa do site, cada peça se ancora num trecho da tese, co
 
 # Direção de arte
 
-Proposta do Claude, para o autor decidir.
+Direção editorial revista em 10/11/2026. A família de imagens revela a estrutura que sustenta o objeto e acompanha o papel claro, os títulos serifados e a rubrica já adotados no site.
 
-- Ilustração conceitual e não cena. Cada peça é uma metáfora visual da ideia, com poucos elementos e muito espaço vazio.
+- Cada peça é uma metáfora visual da ideia, com poucos elementos e muito espaço vazio. As aberturas do caminho são cenas editoriais. Os conceitos mostram relações e mecanismos, sem repetir a cena narrativa.
 - Traço de ilustração editorial, com linha fina e volumes chapados, sem fotorrealismo, sem brilho de videogame e sem estética de anúncio.
 - Paleta do próprio site, refeita em 27/10/2026 sobre as cores aprovadas pelo autor. Fundo no papel quente do modo Informação (#faf6ef) e traço em tinta escura (#211c17). O azul Klein da tese (#002fa7), sempre chapado, marca só o que foi comprado ou prometido, como a armadura, o item ou o terreno. A estrutura escondida, como fios, engrenagens e linhas de projeto, vem em traço tracejado cinza (#615953), do jeito que a estrutura aparece no modo Ciência. Nenhuma cor de área entra nas ilustrações, porque as áreas são estrutura do modo Ciência.
 - Nenhum texto dentro da imagem. Nada de palavras, números, logotipos, marcas, interfaces reais ou símbolos de empresas.
 - Nenhum personagem, skin, mapa, item ou elemento visual de jogo real. A skin é sempre uma roupa ou armadura inventada, sem semelhança com personagens existentes. Nenhuma pessoa real.
 - Pessoas aparecem como silhuetas ou figuras sem rosto definido, de idades e corpos variados.
-- Cada peça precisa funcionar no modo escuro. Fundo transparente resolve. Se não der, a peça ganha uma versão escura.
+- A identidade atual usa papel claro em todos os aparelhos. As imagens usam fundo transparente ou o papel quente do site. Não é necessário produzir versões escuras enquanto essa decisão estiver vigente.
+- Perspectiva controlada, contornos precisos, hachuras discretas e poucas massas de cor. A aparência do objeto ocupa o primeiro plano e seus suportes ficam legíveis no segundo. Nenhuma textura atrás do texto da página.
+- A rubrica vermelha (#b3161c) pertence à interface. O azul Klein permanece reservado ao objeto comprado ou prometido nas ilustrações. A unidade vem do desenho e da composição, sem alterar as cores científicas por área.
+- Ísis e Rá recebem composição mais solene, com maior espaço e escala, mantendo o mesmo traço. As HQs das epígrafes formam uma coleção artística separada.
 
 # Especificação técnica
 
@@ -29,13 +32,13 @@ Proposta do Claude, para o autor decidir.
 
 # Peças
 
-Prioridade A são as aberturas da página inicial, das onze partes do percurso e das nove ideias. Prioridade B são as peças dentro do texto e as do Laboratório.
+Prioridade A são as aberturas da página inicial, das onze partes do caminho e das nove ideias. Prioridade B são as peças dentro do texto e as de Plataformas. A primeira sequência de produção reúne inicio, parte-a-compra, parte-a-mudanca, parte-o-desenho e parte-o-nome. As peças continuam previstas até que os arquivos sejam efetivamente produzidos e conferidos.
 
 ## inicio
 
 ### pagina
 
-Página inicial, depois da abertura.
+Página inicial, logo depois do título e dos atalhos, antes da narrativa da compra.
 
 ### formato
 
@@ -399,17 +402,17 @@ A
 
 ### ideia
 
-O quadro de horários de um curso com metade das aulas apagadas, e preso no canto o mesmo cartão de preço de antes, intacto.
+Uma construção contemporânea vista em corte, sustentada por uma fundação anterior, já demarcada e pronta para receber suas estruturas. O azul destaca a construção imaterial e o traço revela a continuidade com a fundação. O marco de 1990 fica na legenda HTML, sem números dentro da imagem. A cena do quadro de aulas reduzidas fica reservada para ilustrar a degradação do serviço, em vez da abertura deste capítulo.
 
-> Mantêm-se o rótulo e o preço, e rebaixa-se a entrega de valor. (p. 480)
+> O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 
 ### alt
 
-Quadro de horários com metade das aulas apagadas e um cartão de preço intacto no canto.
+Construção contemporânea em corte, com estruturas azuis apoiadas numa fundação anterior e demarcada.
 
 ### legenda
 
-O rótulo e o preço ficam, enquanto a entrega encolhe.
+A construção se apoia no espaço que a lei já havia aberto em 1990.
 
 ### estado
 

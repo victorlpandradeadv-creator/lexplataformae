@@ -337,3 +337,16 @@ document.addEventListener('click', function (ev) {
   if (!a) return;
   try { localStorage.setItem('lexp-nivel', a.getAttribute('data-modo')); } catch (e) {}
 });
+
+// Em telas menores o índice começa recolhido. Sem script todos os links seguem
+// disponíveis, e abrir ou fechar o índice nunca muda a profundidade da leitura.
+(function () {
+  if (!window.matchMedia) return;
+  var pequeno = window.matchMedia('(max-width: 899px)');
+  var paineis = document.querySelectorAll('details[data-recolher-mobile]');
+  function ajustarIndices() {
+    paineis.forEach(function (painel) { painel.open = !pequeno.matches; });
+  }
+  ajustarIndices();
+  if (pequeno.addEventListener) pequeno.addEventListener('change', ajustarIndices);
+})();

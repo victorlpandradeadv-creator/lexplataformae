@@ -236,12 +236,16 @@ MENU_SEGUNDA = [("Problemas", "problemas/"), ("Direitos", "roteiro/"), ("Caminho
                 ("Plataformas", "plataformas/"), ("Legislação", "legislacao/")]
 
 
-def menu_html(prefixo):
+def menu_html(prefixo, atual=""):
     def existe(caminho):
         return caminho.startswith("#") or caminho in PAGINAS_PRONTAS
-    itens = "".join(f'<li class="em-modo {" ".join(f"modo-{m}" for m in modos)}"><a href="{prefixo}{caminho}">{esc(rotulo)}</a></li>'
+    def corrente(caminho):
+        if atual == caminho:
+            return ' aria-current="page"'
+        return ' aria-current="location"' if atual.startswith(caminho) else ''
+    itens = "".join(f'<li class="em-modo {" ".join(f"modo-{m}" for m in modos)}"><a href="{prefixo}{caminho}"{corrente(caminho)}>{esc(rotulo)}</a></li>'
                     for rotulo, caminho, modos in MENU if existe(caminho))
-    segunda = "".join(f'<li><a href="{prefixo}{caminho}">{esc(rotulo)}</a></li>' for rotulo, caminho in MENU_SEGUNDA if existe(caminho))
+    segunda = "".join(f'<li><a href="{prefixo}{caminho}"{corrente(caminho)}>{esc(rotulo)}</a></li>' for rotulo, caminho in MENU_SEGUNDA if existe(caminho))
     return (f'<nav class="menu-modo" aria-label="Seções"><ul>{itens}</ul>'
             f'<ul class="em-modo modo-2 menu-segunda" aria-label="Os outros modos">{segunda}</ul></nav>')
 
@@ -405,6 +409,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 {ld}
 </head>
 <body class="{'aberto' if interna else ''}{' desnudo' if minimo > 1 else ''}" data-camada="{camada}" data-minimo="{minimo}" data-superficie="{esc(sup)}">
+<a class="pular-conteudo" href="#conteudo-principal">Ir para o conteúdo</a>
 {chave_mestra(minimo)}
 {lembrar}
 <div class="moldura">
@@ -413,11 +418,11 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   </div>
   <header class="topo">
     <a class="topo-marca" href="{inicio}"><span class="topo-projeto">Projeto</span><span class="topo-nome">Lex Plataformae</span></a>
-    {menu_html(prefixo)}
+    {menu_html(prefixo, caminho)}
     <a class="integral ciencia" href="{prefixo}tese/">Texto integral</a>
   </header>
   <div class="legenda-desnudo" role="note"><p>{esc(legenda)}</p><label for="arq-tudo"><input type="checkbox" id="arq-tudo"> Mostrar toda a arquitetura</label></div>
-  <main>
+  <main id="conteudo-principal" tabindex="-1">
 {corpo}
   </main>
   <footer class="rodape">
@@ -1224,7 +1229,7 @@ def arquivo_ilustracao(ident):
     return None
 
 
-def figura(ident, prefixo):
+def figura(ident, prefixo, destaque=False):
     """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir."""
     peca = ILUSTRACOES.get(ident)
     if not peca:
@@ -1238,10 +1243,11 @@ def figura(ident, prefixo):
     from PIL import Image
     with Image.open(arq) as im:
         largura, altura = im.size
-    escuro = next((ILUSTRACOES_DIR / f"{ident}-escuro{ext}" for ext in EXTENSOES if (ILUSTRACOES_DIR / f"{ident}-escuro{ext}").exists()), None)
-    fonte = f'<source media="(prefers-color-scheme: dark)" srcset="{prefixo}assets/ilustracoes/{escuro.name}">' if escuro else ""
-    return (f'<figure class="ilustracao {formato}"><picture>{fonte}'
-            f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{esc(peca.get("alt", ""))}" width="{largura}" height="{altura}" loading="lazy" decoding="async"></picture>'
+    # A identidade é clara em todos os aparelhos. Não selecionar uma arte escura
+    # só porque o sistema operacional prefere escuro.
+    carregamento = 'loading="eager" fetchpriority="high"' if destaque else 'loading="lazy"'
+    return (f'<figure class="ilustracao {formato}"><picture>'
+            f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{esc(peca.get("alt", ""))}" width="{largura}" height="{altura}" {carregamento} decoding="async"></picture>'
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
             + expansao(peca["citacoes"], prefixo) + "</figure>")
 # O rótulo de cada bloco didático é a pergunta própria que vem no cabeçalho do bloco, em conteudo/percurso.md e em
@@ -1583,15 +1589,20 @@ def gerar_inicio():
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
       <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
-      <p class="desce em-modo modo-0 modo-2" aria-hidden="true">↓</p>
+      <nav class="atalhos-capa" aria-label="Escolha seu caminho">
+        <a href="problemas/">Encontrar meu problema</a>
+        <a href="#portas-titulo">Explorar os caminhos</a>
+        <a href="metodo/" data-modo="2">Pesquisar as fontes</a>
+      </nav>
     </section>
+    {figura("inicio", "", destaque=True)}
     {cena("cena-compra")}
     {cena("cena-mudanca", "cena-incomodo")}
     {cena("cena-virada", "cena-virada")}
 
     <section class="portas" aria-labelledby="portas-titulo">
       <div class="portas-texto em-modo modo-0 modo-2">{ext_html("inicio", "portas", "")}</div>
-      <h2 class="so-leitor" id="portas-titulo">Por onde seguir</h2>
+      <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
       <div class="portas-grade">
         <article class="porta porta-problema item-moldura">
           <p class="porta-rotulo">Aconteceu comigo</p>
@@ -1619,8 +1630,6 @@ def gerar_inicio():
       <p>{nomes_discretos}</p>
       <p class="porta-mais"><a href="conceitos/">Todo o vocabulário</a></p>
     </section>
-
-    {figura("inicio", "")}
 
     <div class="inicio-fecho">
     <section class="convite" aria-label="Desnudar a arquitetura">
