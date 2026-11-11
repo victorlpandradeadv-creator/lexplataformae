@@ -158,7 +158,7 @@ Com tudo isso junto, fica claro por que a expressão licença revogável merece 
 
 A lei brasileira já tinha deixado espaço para isso. Em 1990, o Código de Defesa do Consumidor disse que produto é qualquer bem, material ou imaterial. A porta estava aberta para bens que circulam sem corpo e que dependem de condições técnicas mantidas o tempo todo. Mas a maneira de pensar o produto continuou presa ao objeto físico, ou a uma entrega que começa e termina num instante.
 
-Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de Consumo é a construção feita nesse terreno. Ele é a categoria jurídica do caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar.
+Era como um terreno que a lei demarcou e que ficou vazio. O OIC é a construção feita nesse terreno. Ele é a categoria jurídica do caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar.
 
 Quando é assim, existe produto imaterial no sentido da lei do consumidor. O serviço não some dessa conta, porque aparece como o modo pelo qual a empresa mantém, atualiza e molda aquilo que você comprou. Por isso perde força a velha briga sobre se o caso é de produto ou de serviço. A pergunta que importa passa a ser como a empresa organiza a entrega contínua do que vendeu e se esse jeito de fornecer preserva ou estraga o que você adquiriu.
 
@@ -1239,7 +1239,7 @@ Mais do que parece, porque o espaço estava aberto desde 1990.
 
 Talvez você esteja pensando que falta uma lei nova, só para jogos e plataformas digitais. Não é bem assim. O que falta, na maior parte dos casos, é ler a lei que já existe com os olhos certos.
 
-O Objeto Imaterial de Consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ele é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
+O OIC não pede um sistema à parte, com regras próprias para o mundo digital. Ele é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo.
 
 > Em vez de propor um microssistema regulatório autônomo para “jogos eletrônicos” ou “plataformas digitais”, o que se está a propor é uma demonstração de que o Objeto Imaterial de Consumo é uma forma de atualização interpretativa que, em termos dogmáticos, já é interna ao próprio CDC e derivada dos princípios constitucionais que o informam (p. 36)
 > Não se trata de inventar um novo código nem de enxertar, à força, um regime estranho sobre o texto legal. (p. 549)

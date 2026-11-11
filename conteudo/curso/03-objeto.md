@@ -1,6 +1,6 @@
 # O Objeto Imaterial de Consumo
 
-abertura: O Objeto Imaterial de Consumo é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Sem essa qualificação, o caso parece não ter objeto, e com ela o jurista sabe o que demonstrar em juízo.
+abertura: O Objeto Imaterial de Consumo (OIC) é a categoria que qualifica como produto imaterial, nos termos do art. 3º, § 1º, do CDC, a utilidade que só existe como posição de fruição sustentada por governança privada. Sem essa qualificação, o caso parece não ter objeto, e com ela o jurista sabe o que demonstrar em juízo.
 secoes: 5, 5.1, 5.1.2, 5.1.2.1, 5.1.2.2, 5.1.2.3, 5.1.2.4, 5.2, 5.2.1, 5.2.2, 5.2.4, 6.2, 6.2.1, 6.2.1.1, 6.2.2, 6.2.3, 7, 7.1, 7.1.1, 7.1.1.1, 7.1.2
 
 ## Qual problema a categoria resolve?
@@ -83,7 +83,7 @@ As skins evolutivas mostram a mesma coisa em escala menor. Uma Ultimate Skin dep
 > O consumidor não compra apenas uma “imagem” acoplada ao personagem. (p. 439)
 > A frustração pode se manifestar como degradação localizada da experiência estética, perda de consistência do modelo evolutivo, alteração de recursos que eram parte da promessa prática de fruição, ou reconfiguração que preserva o nome do item, mas não preserva o núcleo da utilidade que justificou a decisão de compra. (p. 440)
 
-## Como se demonstra que há um Objeto Imaterial de Consumo?
+## Como se demonstra que há um OIC?
 
 A categoria só cumpre função dogmática quando opera como filtro e como roteiro. A incidência se decide por quatro elementos cumulativos, cada um com o seu teste. O primeiro é econômico-funcional e pede um núcleo de utilidade identificável, prometido e fruído como adquirido, reconstruível a partir da oferta relevante e do modo efetivo de fruição. O segundo é estrutural, porque a utilidade precisa se realizar como posição sustentada no tempo, e não como evento exaurido. O terceiro é infraestrutural, porque ela precisa depender de condições governadas, como acesso, permanência, visibilidade, circulação e sanção. O quarto é de relevância jurídica e pede a possibilidade típica de degradação relevante do feixe sem ruptura total do acesso, de modo persistente e substantivo.
 

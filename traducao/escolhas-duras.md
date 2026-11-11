@@ -2,7 +2,7 @@
 
 Versão inglesa de 10/11/2026. Tudo está aplicado como descrito, e cada item muda com uma substituição na memória de tradução.
 
-1. OIC virou IOC, Immaterial Object of Consumption, porque é o que o abstract faz. A alternativa é manter OIC como sigla própria em qualquer idioma.
+1. Decidido pelo autor em 11/11/2026. OIC vira IOC, Immaterial Object of Consumption, como no abstract. A sigla em português dentro do texto em inglês foi descartada.
 2. Lei da plataforma virou the law of the platform. Platform law, em inglês, quer dizer o direito que regula plataformas, e diria o contrário.
 3. Ilícito de arquitetura virou unlawful act of architecture, por simetria com o unlawful act of abusive teleology do abstract. O abstract não traz o ilícito de arquitetura sozinho.
 4. Decidido pelo autor em 11/11/2026. Os modos são Information, Doctrine e Scholarship. Doctrine se sustenta porque o site se apresenta como Direito brasileiro e o comparatista entende o termo. Scholarship diz ao leitor de fora o que o modo traz, que é método, fontes e arquitetura do argumento.

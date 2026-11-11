@@ -1,6 +1,6 @@
 # A propriedade intelectual
 
-abertura: A propriedade intelectual entra no regime do Objeto Imaterial de Consumo como parte da infraestrutura pela qual a plataforma define o que pode ser acessado, mantido, alterado, retirado, auditado e contestado, e não como tema paralelo ou superior à tutela do consumidor. A exclusividade passou a organizar a concorrência e a fruição, e a função social, lida a partir do art. 5º, XXIX, da Constituição, faz dela um campo de compatibilização com o CDC.
+abertura: A propriedade intelectual entra no regime do OIC como parte da infraestrutura pela qual a plataforma define o que pode ser acessado, mantido, alterado, retirado, auditado e contestado, e não como tema paralelo ou superior à tutela do consumidor. A exclusividade passou a organizar a concorrência e a fruição, e a função social, lida a partir do art. 5º, XXIX, da Constituição, faz dela um campo de compatibilização com o CDC.
 secoes: 3.2.4, 6.5, 6.5.1, 6.5.2, 6.5.3, 7.1.1.9
 
 ## Por que a propriedade intelectual entra num regime de proteção do consumidor?

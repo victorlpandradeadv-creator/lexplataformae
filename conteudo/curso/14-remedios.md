@@ -1,6 +1,6 @@
 # Os remédios
 
-abertura: Os remédios encerram o exame de um conflito sobre Objeto Imaterial de Consumo, porque respondem ao que fazer com a lesão depois de qualificado o objeto, reconstruída a mudança, aferida a equivalência e organizada a prova. A primazia cabe à recomposição funcional e à correção de regime, e a indenização se recoloca depois delas, não no lugar delas.
+abertura: Os remédios encerram o exame de um conflito sobre OIC, porque respondem ao que fazer com a lesão depois de qualificado o objeto, reconstruída a mudança, aferida a equivalência e organizada a prova. A primazia cabe à recomposição funcional e à correção de regime, e a indenização se recoloca depois delas, não no lugar delas.
 secoes: 7.1.1.10, 7.3, 8
 
 ## Por que a condenação em dinheiro costuma falhar diante da fruição governada?

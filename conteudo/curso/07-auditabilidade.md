@@ -1,6 +1,6 @@
 # A auditabilidade aberta
 
-abertura: A auditabilidade aberta é o patamar mínimo de verificabilidade externa que permite reconstruir o que o fornecedor alterou, quando, por que e com que efeito, sempre que a mudança ou a sanção atinge de modo relevante a fruição de um Objeto Imaterial de Consumo. A exigência nasce dentro do CDC, tem alcance delimitado e não cede ao segredo nem à complexidade técnica.
+abertura: A auditabilidade aberta é o patamar mínimo de verificabilidade externa que permite reconstruir o que o fornecedor alterou, quando, por que e com que efeito, sempre que a mudança ou a sanção atinge de modo relevante a fruição de um OIC. A exigência nasce dentro do CDC, tem alcance delimitado e não cede ao segredo nem à complexidade técnica.
 secoes: 5.1.5, 6.3, 6.3.1, 7.1.1.5
 
 ## Qual problema a auditabilidade aberta resolve?

@@ -681,7 +681,7 @@ def gerar_curso():
     itens = "".join(f'<li><a href="{c["slug"]}/">{esc(c["titulo"])}</a><p>{esc(c["abertura"])}</p></li>' for c in CURSO)
     aplicacoes = "".join(f'<li><a href="../plataformas/{s}/">{esc(ext_texto(s, "titulo") or t)}</a></li>' for s, t in APLICACOES_CURSO)
     corpo = ('<article class="folha curso-indice"><header class="folha-cabeca"><h1>O caminho do jurista</h1>'
-             '<p class="folha-lema">Este caminho reconstrói, para advogados, magistrados, membros do Ministério Público e estudantes, o regime jurídico do Objeto Imaterial de Consumo. '
+             '<p class="folha-lema">Este caminho reconstrói, para advogados, magistrados, membros do Ministério Público e estudantes, o regime jurídico do OIC. '
              'Cada capítulo parte de um problema, mostra por que a leitura comum não basta e chega ao que se pode demonstrar e pedir.</p></header>'
              f'<section class="ext"><h2 class="rotulo-ext">Quais são os capítulos?</h2><ol class="curso-lista">{itens}</ol></section>'
              f'<section class="ext"><h2 class="rotulo-ext">Como o regime se aplica a outras plataformas?</h2><ul class="partes-curtas">{aplicacoes}</ul></section>'
@@ -689,7 +689,7 @@ def gerar_curso():
     jsonld = {"@context": "https://schema.org", "@type": "CreativeWork", "name": "O caminho do jurista", "inLanguage": "pt-BR", "url": f"{BASE}/doutrina/",
               "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
     (raiz / "index.html").write_text(
-        pagina("Caminho do jurista pelo regime do consumo digital · Lex Plataformae", "O regime do Objeto Imaterial de Consumo para juristas, do problema à prova e aos remédios, em quinze capítulos.",
+        pagina("Caminho do jurista pelo regime do consumo digital · Lex Plataformae", "O regime do OIC para juristas, do problema à prova e aos remédios, em quinze capítulos.",
                corpo, "../", "doutrina/", jsonld, camada="interna", superficie="../"), encoding="utf-8")
 
 

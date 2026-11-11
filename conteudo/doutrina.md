@@ -8,9 +8,9 @@ Formato. Cada página começa com `## <chave>`. Cada seção começa com `### <t
 
 ## conceito oic
 
-### Quando há Objeto Imaterial de Consumo?
+### Quando há OIC?
 
-Há Objeto Imaterial de Consumo sempre que a utilidade consumida se apresenta como posição de fruição sustentada por governança privada contínua. Nessa hipótese há produto imaterial em sentido juridicamente relevante, e incide o art. 3º, § 1º, do CDC. A categoria concretiza a noção de produto imaterial que a lei já previa e a lê como feixe de fruição governada.
+Há Objeto Imaterial de Consumo (OIC) sempre que a utilidade consumida se apresenta como posição de fruição sustentada por governança privada contínua. Nessa hipótese há produto imaterial em sentido juridicamente relevante, e incide o art. 3º, § 1º, do CDC. A categoria concretiza a noção de produto imaterial que a lei já previa e a lê como feixe de fruição governada.
 
 Não decide a materialidade do suporte, nem o nome que o fornecedor dá ao que vende. Decide a dependência estrutural da fruição em relação a um ambiente governado.
 
@@ -1269,7 +1269,7 @@ Fixa a base normativa, com a Constituição e o Código de Defesa do Consumidor 
 ### O problema jurídico do consumo
 Abre o capítulo com a tarefa dogmática, que é tornar operacional a tutela sem depender de analogias materiais.
 ### Nesse registro, consolida-se
-Liga o Objeto Imaterial de Consumo ao produto imaterial previsto na lei.
+Liga o OIC ao produto imaterial previsto na lei.
 ### A reconstrução consumerista
 Traz Rizzatto Nunes como freio contra o nominalismo entre produto e serviço.
 ### A disciplina conceitual

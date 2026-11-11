@@ -50,7 +50,7 @@ Este caminho segue a sua skin, do clique de compra até a pergunta sobre o que a
 
 ### nome
 
-A sua skin é um produto, mas um produto de um tipo especial. Você não a leva para casa, e o uso dela, o que ela mostra aos outros e o lugar que ela dá a você só existem enquanto a plataforma mantém o ambiente funcionando. A categoria jurídica desse produto é o Objeto Imaterial de Consumo.
+A sua skin é um produto, mas um produto de um tipo especial. Você não a leva para casa, e o uso dela, o que ela mostra aos outros e o lugar que ela dá a você só existem enquanto a plataforma mantém o ambiente funcionando. A categoria jurídica desse produto é o Objeto Imaterial de Consumo, ou OIC.
 
 A lei brasileira já tinha deixado espaço para ele em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. Já se sabia, também, que bens digitais são bens. O que faltava eram critérios para os casos em que o uso continua dependendo de uma plataforma que segue mandando nele, mudando e punindo ao longo do tempo.
 
@@ -61,7 +61,7 @@ A lei brasileira já tinha deixado espaço para ele em 1990, quando o Código de
 
 ### mapa
 
-No caminho aparecem nove conceitos próprios e outros que vêm de outros campos do saber, cada um respondendo por uma parte do problema. Lidos isoladamente, seriam rótulos. Juntos, falam a mesma língua, e o centro dessa língua é o Objeto Imaterial de Consumo, porque sem ele as outras perdem o chão.
+No caminho aparecem nove conceitos próprios e outros que vêm de outros campos do saber, cada um respondendo por uma parte do problema. Lidos isoladamente, seriam rótulos. Juntos, falam a mesma língua, e o centro dessa língua é o OIC, porque sem ele as outras perdem o chão.
 
 > Sem essa articulação interna, cada categoria poderia ser lida isoladamente, como rótulo conceitual de um problema específico, e perderia a capacidade de operar como linguagem unificada para abusos por desenho, degradações relevantes e respostas proporcionais. (p. 394)
 > Sem a correta qualificação do objeto como fruição imaterial governada, os parâmetros subsequentes tendem a perder aderência (p. 719)
@@ -289,7 +289,7 @@ A categoria não diz que você comprou menos. Diz que você comprou um produto, 
 
 A lei demarcou um terreno em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. O espaço estava reservado, mas faltava construir nele critérios para os produtos que dependem de uma plataforma que continua mandando neles.
 
-O Objeto Imaterial de Consumo é a construção nesse terreno. E terreno vazio tem custo. Enquanto falta categoria e critério para uma perda, ela é difícil de mostrar e de cobrar, e toda lacuna que dura tende a virar modelo de negócio para alguém.
+O OIC é a construção nesse terreno. E terreno vazio tem custo. Enquanto falta categoria e critério para uma perda, ela é difícil de mostrar e de cobrar, e toda lacuna que dura tende a virar modelo de negócio para alguém.
 
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 > Ao conferir densidade jurídica ao que era apenas um rótulo residual, o OIC impede que a imaterialidade funcione como álibi para a irresponsabilidade técnica das plataformas. (p. 25)
@@ -383,7 +383,7 @@ Tudo isso junto é o que você comprou. E cada uma dessas partes depende de regr
 
 Feixe de fruição governada. Feixe é um conjunto de fios amarrados juntos, e fruição é o uso e o proveito que você tira de alguma coisa. O nome descreve o conjunto de usos, de sinais e de posições que um produto desse tipo oferece, todos administrados pela plataforma enquanto a relação durar.
 
-O feixe anda colado ao Objeto Imaterial de Consumo. O OIC é o nome jurídico do que você comprou, e esse produto é, ele mesmo, um feixe de fruição sustentado no tempo. Por isso, das quatro perguntas que mostram se um caso é desse tipo, a primeira é qual feixe foi prometido.
+O feixe anda colado ao OIC, que é o nome jurídico do que você comprou, e esse produto é, ele mesmo, um feixe de fruição sustentado no tempo. Por isso, das quatro perguntas que mostram se um caso é desse tipo, a primeira é qual feixe foi prometido.
 
 > [...] a definição do Objeto Imaterial de Consumo como feixe de fruição sustentado no tempo [...] (p. 394)
 > O primeiro campo coberto pelos critérios é o objeto prometido, entendido como feixe de fruição. (p. 428)
