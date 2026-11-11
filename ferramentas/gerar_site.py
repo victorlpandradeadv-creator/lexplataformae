@@ -42,6 +42,35 @@ D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
 _corpus = RAIZ / "dados" / "corpus.json"
 C = json.loads(_corpus.read_text(encoding="utf-8")) if _corpus.exists() else {"secoes": []}
 SECOES = C["secoes"]
+# Erros de digitação do texto da tese, achados na revisão do inglês e corrigidos por ordem do autor de 10/11/2026.
+# A correção aparece marcada, com o que a tese registra no title, e o PDF continua sendo a fonte.
+DATA_CORRECOES_TEXTO = "10/11/2026"
+CORRECOES_TEXTO = [
+    ("compreender experiências interativas estruturadas por controle técnico. Em A autora", "Em A autora", "A autora"),
+    ("mecanismos tão automatizados quanto de recomposição", "mecanismos tão automatizados quanto de recomposição", "mecanismos de recomposição tão automatizados quanto a alteração"),
+    ("Wada (20216)", "20216", "2016"),
+    ("Filomeno tratar a vulnerabilidade", "Filomeno tratar", "Filomeno trata"),
+    ("não configura ornamento se aproxima", "não configura ornamento se aproxima", "não configura ornamento e se aproxima"),
+    ("Cédric Duran em", "Cédric Duran em", "Cédric Durand em"),
+]
+
+
+def _corrige(v):
+    if isinstance(v, str):
+        for ctx, errado, certo in CORRECOES_TEXTO:
+            if ctx in v:
+                marca = (f'<ins class="correcao" title="Correção posterior de {DATA_CORRECOES_TEXTO}. '
+                         f'A tese registra: {errado}">{certo}</ins>').replace(": ", " ")
+                v = v.replace(ctx, ctx.replace(errado, marca, 1))
+        return v
+    if isinstance(v, list):
+        return [_corrige(x) for x in v]
+    if isinstance(v, dict):
+        return {k: _corrige(x) for k, x in v.items()}
+    return v
+
+
+SECOES = _corrige(SECOES)
 POR_NUMERO = {s["n"]: s for s in SECOES if s["n"]}
 POR_SLUG = {s["slug"]: s for s in SECOES}
 PAG2SLUG = {}

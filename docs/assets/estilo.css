@@ -1248,6 +1248,8 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 .topo .topo-marca { order: -1; }
 @media (max-width: 900px) { .topo .topo-marca { order: 1; margin-right: auto; } .topo .tema, .topo .idioma { order: 2; } .topo .integral { margin-left: 0; } }
 
+ins.correcao{text-decoration:underline dotted;text-underline-offset:.2em;background:none}
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {
