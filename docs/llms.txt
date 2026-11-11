@@ -10,7 +10,7 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 
 - [O que você comprou, afinal?](https://lexplataformae.com.br/caminho/a-compra/): O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some.
 - [Por que essa skin vale tanto?](https://lexplataformae.com.br/caminho/o-desejo/): Ela é um sinal que todo mundo lá dentro sabe ler, e quem cuida dos sinais é a plataforma.
-- [Quem ganha com o seu clique?](https://lexplataformae.com.br/caminho/o-dono/): Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio.
+- [De quem é o lugar onde a sua skin vale?](https://lexplataformae.com.br/caminho/o-dono/): Quem vende a skin também é dono do lugar onde ela vale, da moeda e do relógio.
 - [Quem manda depois da compra?](https://lexplataformae.com.br/caminho/as-regras/): A regra que vale não é só a que está escrita, é a que está rodando.
 - [Por que tudo isso parece normal?](https://lexplataformae.com.br/caminho/o-normal/): A técnica parece neutra, mas tem dono e direção.
 - [E se a sua skin mudar amanhã?](https://lexplataformae.com.br/caminho/a-mudanca/): Ela continua na conta, mas já não é a mesma.

@@ -415,13 +415,13 @@ Nada disso quer dizer que desejar uma skin seja um erro, nem que toda propaganda
 
 ### pergunta
 
-Se o valor da skin é feito de sinais, quem controla os sinais e quem ganha com isso?
+Se o valor da skin é feito de sinais, quem controla os sinais e o lugar onde eles valem?
 
 ## o-dono
 
 ### titulo
 
-Quem ganha com o seu clique?
+De quem é o lugar onde a sua skin vale?
 
 ### resumo
 
