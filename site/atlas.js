@@ -385,7 +385,6 @@ document.addEventListener('click', function (ev) {
    numa linha própria, e o que sobra se distribui sem palavra solta na última linha. Parágrafos longos ficam como estão.
    Revisão de quebras de 11/11/2026. */
 (function () {
-  var SEL = 'h1,h2,h3,h4,p,li,dt,dd,figcaption,summary,.porta a,.cartao a,td,th';
   var MAX = 240;
   var ABREV = /(?:\b(?:p|pp|art|arts|n|nº|cf|ex|Jr|Sr|Sra|Dr|Dra|v|vol|ed|No|Nos|e\.g|i\.e|etc))$/i;
   function linhas(el) {
@@ -422,9 +421,17 @@ document.addEventListener('click', function (ev) {
     return n;
   }
   function ajusta() {
-    document.querySelectorAll(SEL).forEach(function (el) {
-      if (!el.offsetParent || el.closest('.tese-texto, pre, code')) return;
-      if (el.querySelector('p,li,div,ul,ol,h1,h2,h3,h4,br:not(.qf)')) return;
+    var raiz = document.querySelector('main') || document.body;
+    Array.prototype.forEach.call(raiz.querySelectorAll('*'), function (el) {
+      if (!el.offsetParent || el.closest('.tese-texto, pre, code, svg, .modo, nav.trilha')) return;
+      var d = getComputedStyle(el).display;
+      if (d.indexOf('inline') === 0 || d === 'none' || d === 'contents') return;
+      if (el.querySelector('br:not(.qf)')) return;
+      var filhos = el.querySelectorAll('*');
+      for (var i = 0; i < filhos.length; i++) {
+        var fd = getComputedStyle(filhos[i]).display;
+        if (fd !== 'none' && fd.indexOf('inline') !== 0 && fd !== 'contents') return;
+      }
       limpa(el);
       var txt = (el.textContent || '').trim();
       if (txt.length > MAX) return;
