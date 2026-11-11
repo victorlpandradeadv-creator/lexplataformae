@@ -1253,6 +1253,31 @@ ins.correcao{text-decoration:underline dotted;text-underline-offset:.2em;backgro
 /* Quebras dos textos curtos, 11/11/2026. */
 .curto { text-wrap: balance !important; }
 
+/* Listas de links em faixas clicáveis, por ordem do autor de 11/11/2026. Cada item é uma faixa inteira, com borda fina,
+   seta à direita e a borda na rubrica sob o mouse e no foco. O sublinhado sai das listas. */
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) {
+  list-style: none; padding: 0; margin: .75rem 0 0; display: grid; gap: .5rem; }
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li {
+  margin: 0; padding: 0; border: 0; }
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a {
+  display: block; position: relative; height: 100%; box-sizing: border-box;
+  padding: .85rem 2.75rem .85rem 1rem; border: 1px solid var(--linha); border-radius: 8px;
+  background: var(--folha); color: var(--tinta); text-decoration: none; font-weight: 600;
+  transition: border-color .15s, background .15s; }
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a::after {
+  content: "→"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%);
+  color: var(--rubrica); font-weight: 400; transition: transform .15s; }
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible) {
+  border-color: var(--rubrica); background: color-mix(in srgb, var(--rubrica) 6%, var(--folha)); outline: none; }
+:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible)::after {
+  transform: translate(3px, -50%); }
+ul.problemas-lista > li > a > span { display: block; }
+ul.problemas-lista .parte-resumo { font-weight: 400; color: var(--tinta-2); margin-top: .3rem; }
+ul.problemas-lista { grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr)); }
+/* Na coluna lateral, os links perdem o sublinhado e ganham a rubrica no mouse. */
+.lateral-bloco a { text-decoration: none; }
+.lateral-bloco a:is(:hover, :focus-visible) { color: var(--rubrica); }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {
