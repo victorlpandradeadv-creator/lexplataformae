@@ -45,3 +45,5 @@ Read every segment in full, one by one, against its Portuguese. Never mark a seg
 ## Thesis full text (batches named tese-rNN)
 
 These pages are the thesis itself, in a machine translation that the site labels as not reviewed by the author. Make it read like a careful academic translation into English. Keep the thesis's own punctuation, paragraphing, argument order and every footnote reference. Fix calques, false friends, articles, prepositions, word order and terminology against the glossary. Never summarize, never drop a clause, never soften or strengthen a claim. Quotations the thesis gives in English or Spanish stay as they are. Bibliographic entries stay in Portuguese.
+
+If the tool output is cut off because segments are long, ask for fewer at a time (--proximos 10 or even 3). Never mark a segment you could not read in full.
