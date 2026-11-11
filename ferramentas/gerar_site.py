@@ -1073,7 +1073,7 @@ def gerar_problemas():
             + "</section>"
             for k in CAMPOS_PROBLEMA if (c := p["campos"].get(k)))
         no_percurso = (f'<section class="ext no-percurso"><p class="rotulo-ext">{ROTULO_NO_PERCURSO}</p><ul class="partes-curtas">'
-                       + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+                       + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/">{esc(parte["titulo"])}</a></li>'
                                  for i, parte in sorted(partes.items()))
                        + "</ul></section>")
         if proprio:
@@ -1479,7 +1479,7 @@ def no_percurso(cid, prefixo):
     if not achados:
         return ""
     return (f'<section class="ext no-percurso"><p class="rotulo-ext">{ROTULO_NO_PERCURSO}</p><ul class="partes-curtas">'
-            + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/"><span class="parte-num">{i}</span>{esc(parte["titulo"])}</a></li>'
+            + "".join(f'<li><a href="{prefixo}caminho/{parte["slug"]}/">{esc(parte["titulo"])}</a></li>'
                       for i, parte in achados)
             + "</ul></section>")
 

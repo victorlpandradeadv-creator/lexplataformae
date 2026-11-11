@@ -1059,6 +1059,4 @@ ul.problemas-lista { grid-template-columns: repeat(auto-fill, minmax(min(100%, 2
 /* Na coluna lateral, os links perdem o sublinhado e ganham a rubrica no mouse. */
 .lateral-bloco a { text-decoration: none; }
 .lateral-bloco a:is(:hover, :focus-visible) { color: var(--rubrica); }
-/* O número da parte fica separado do título dentro da faixa. 11/11/2026. */
-:is(.folha, .portas) ul.partes-curtas > li > a > .parte-num { display: inline-block; min-width: 1.6rem; margin-right: .6rem; padding: 0; color: var(--tinta-2); font-weight: 500; }
 .titulo-frase { text-wrap: balance; }
