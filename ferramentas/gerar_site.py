@@ -38,6 +38,11 @@ VERSOES = [
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 
+# Marca de versão do estilo e do script, para que o navegador do leitor busque a versão nova logo depois de cada publicação.
+import hashlib as _hashlib
+VERSAO_ASSETS = _hashlib.sha1(b"".join((RAIZ / f).read_bytes() for f in (
+    "site/extra.css", "site/cores.css", "site/atlas.js", "prototipo/modelo.html") if (RAIZ / f).exists())).hexdigest()[:10]
+
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
 _corpus = RAIZ / "dados" / "corpus.json"
 C = json.loads(_corpus.read_text(encoding="utf-8")) if _corpus.exists() else {"secoes": []}
@@ -448,7 +453,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{esc(titulo)}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="{prefixo}assets/estilo.css">
+<link rel="stylesheet" href="{prefixo}assets/estilo.css?v={VERSAO_ASSETS}">
 <link rel="alternate" type="application/json" href="{prefixo}dados/atlas.json" title="Dados do Atlas">
 {ld}
 </head>
@@ -481,7 +486,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     {assinatura}
   </footer>
 </div>
-<script src="{prefixo}assets/atlas.js" defer></script>
+<script src="{prefixo}assets/atlas.js?v={VERSAO_ASSETS}" defer></script>
 </body>
 </html>
 """
