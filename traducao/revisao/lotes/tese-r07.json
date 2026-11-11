@@ -1,0 +1,352 @@
+[
+{
+"k": "bc011120749ca36e",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A racionalidade da técnica moderna opera pela aplicação da lógica à busca de eficiência máxima, o que tende a rebaixar valores não traduzíveis em desempenho mensurável. É nesse contexto que Ellul descreve o automatismo da escolha técnica como procura cega pela “melhor maneira” de realizar uma tarefa, com perda de um critério holístico de adequação e indiferença crescente às consequências sociais, morais ou estéticas produzidas pelo método <1>Ellul</1><2>(Ellul, 1968, p. 82-88)</2>. Quando esse automatismo se instala, a pergunta sobre o que deve ser preservado cede lugar à pergunta sobre o que melhor mantém o sistema funcionando."
+},
+{
+"k": "02f1f7dfc71a26b7",
+"pagina": "tese/3-1-1/index.html",
+"pt": "No ecossistema de <1>League of Legends</1>, o algoritmo de gerenciamento de partidas torna essa autonomia especialmente visível, porque o pareamento se apresenta como problema de otimização, e não como deliberação sobre a melhor experiência possível para cada indivíduo. A empresa descreve a necessidade de equilibrar simultaneamente “partidas justas”, “preferência de posição” e “filas rápidas”, admitindo que, diante de restrições reais, o sistema redistribua peso entre esses critérios e relaxe parâmetros para que a partida aconteça <2>Riot Games</2><3>(Riot Games, 2026a)</3>. Nessa gramática, “justiça” deixa de operar como linguagem moral e passa a funcionar como meta estatística, associada à probabilidade aproximada de 50% de vitória por equipe, produzida por média de MMR<4><5>45</5></4> <6>Riot Games</6><7>(Riot Games, 2026a)</7>. A fruição lúdica não desaparece, mas é comprimida <8>p. 94</8> por um método que precisa operar sob escassez de oferta, horários, distribuição desigual de funções e variações de habilidade, convertendo o jogador em variável de desempenho em uma arquitetura autoajustável."
+},
+{
+"k": "f04bab35464ddab0",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Esse ponto se reforça quando a própria empresa explica que o MMR é um número oculto, concebido para operar em sistemas de <1>back-end</1><2><3>46</3></2><4> </4>e orientar o encaixe de cada pessoa em partidas equilibradas, enquanto o ranque visível funciona como tradução pedagógica e progressiva dessa medida<5><6>47</6></5> <7>Riot Games</7><8>(Riot Games, 2026c)</8>. A autonomia técnica, aqui, reside no deslocamento do procedimento decisório relevante para uma camada não transparente, responsável por definir o que conta como equilíbrio e por ajustar continuamente critérios de pareamento para preservar a estabilidade do ecossistema. Quando o tempo de fila se torna restrição determinante, as regras do pareamento tendem a se flexibilizar, e o sistema passa a buscar o “próximo melhor” em vez do “ideal”, porque o método exige que a partida aconteça em horizonte temporal aceitável<9><10>48</10></9> <11>League of Legends Wiki</11><12>(League of Legends Wiki, [202-?]i)</12><13><14>49</14></13>. O resultado corresponde ao efeito descrito por Ellul: uma escolha técnica apresentada como inevitável porque “funciona melhor” para o sistema, deslocando o debate dos fins para o ajuste contínuo do método."
+},
+{
+"k": "18a9d66944a32c52",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Essa normalização da mutabilidade técnica também aparece na moldura contratual pela qual o serviço se autoriza a evoluir continuamente. Nos Termos de Serviço, o usuário concorda que a Riot pode alterar, modificar, atualizar, suspender, “nerf” ou restringir o acesso a recursos e partes do serviço, inclusive por atualizações automáticas em segundo plano, com ou sem aviso prévio<1><2>50</2></1> <3>Riot Games</3><4>(Riot Games, 2024e)</4>. O vocabulário que legitima essa plasticidade é o da melhoria <5>p. 95</5> constante, da evolução e da segurança, e a experiência do usuário passa a ser tratada como dimensão ajustável do funcionamento sistêmico. Em chave elluliana, a técnica deixa de aparecer como meio subordinado à finalidade de entretenimento e se afirma como ambiente autojustificado, capaz de absorver a fruição como variável de gestão para preservar a estabilidade do ecossistema."
+},
+{
+"k": "e6b8681b0e1261d6",
+"pagina": "tese/3-1-1/index.html",
+"pt": "No plano da artificialidade, Ellul afirma que a técnica moderna se opõe à natureza e constitui um sistema composto por meios artificiais, no qual a intervenção técnica reduz o real a um “esquema lógico” e reorganiza fatos e fenômenos segundo exigências internas de racionalização <1>Ellul</1><2>(Ellul, 1968, p. 82)</2>. Esse ambiente rompe com o lastro tradicional, pois a técnica rejeita a tradição e passa a se apoiar na combinação e na evolução acelerada de processos técnicos anteriores, em ritmo rápido demais para integração plena ao tecido cultural acumulado <3>Ellul</3><4>(Ellul, 1968, p. 13)</4>."
+},
+{
+"k": "dfabc05a9cc37eb9",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A economia, nesse quadro, torna-se progressivamente dependente da técnica e de seus métodos, até o ponto em que a técnica deixa de funcionar como instrumento econômico subordinado e passa a ditar as condições do próprio jogo econômico <1>Ellul</1><2>(Ellul, 1968, p. 152-162)</2>. Neste diapasão, a economia se torna intimamente dependente da técnica, buscando se adaptar às suas exigências e se utilizando de seus métodos para alcançar objetivos."
+},
+{
+"k": "cf36216edca16908",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A relação entre técnica e Estado reforça esse diagnóstico institucional. Ellul caracteriza a técnica como instrumento fundamental do poder estatal, especialmente no Estado moderno, cada vez mais dependente de procedimentos técnicos para administrar, regular, controlar e fazer guerra <1>Ellul</1><2>(Ellul, 1968, p. 233-238)</2>. Essa dependência molda a estrutura estatal, favorece centralização e burocratização e altera a própria natureza do Estado, que passa a operar como organismo técnico, limitado pelas formas de percepção e decisão que sua racionalidade administrativa torna disponíveis <3>Ellul</3><4>(Ellul, 1968, p. 257-260)</4>."
+},
+{
+"k": "6334fc888f9d10f3",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ao examinar técnicas diretamente dirigidas ao homem, voltadas à modificação de comportamento, necessidades e disposições subjetivas, Ellul identifica técnicas psicológicas, sociológicas e biométricas como manifestações expressivas de tentativas de controle e manipulação da pessoa humana <1>Ellul</1><2>(Ellul, 1968, p. 325-331)</2>. O autor também observa que a própria modificação técnica do espaço pode condicionar comportamentos, o que amplia o problema para além de instrumentos isolados e alcança a organização ambiental da ação humana <3>Ellul</3><4>(Ellul, 1968, p. 331-335)</4>. Essa reflexão interessa diretamente aos ecossistemas digitais, <5>p. 96</5> nos quais ambientes de interface, recompensa, punição e visibilidade são desenhados para orientar condutas, modular expectativas e reduzir margens práticas de liberdade."
+},
+{
+"k": "e1e9e24df23f3f91",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A referência elluliana à “inevitabilidade” deve ser tomada como descrição crítica de um efeito de sistema<1><2>51</2></1>, isto é, da tendência à naturalização e à autojustificação do técnico, e não como tese normativa segundo a qual a história estaria fechada à contestação. Interessa, sobretudo, o mecanismo pelo qual a técnica se apresenta como destino e retira da visibilidade pública as escolhas e os custos embutidos em seus procedimentos. Essa cautela hermenêutica preserva a força diagnóstica de Ellul sem converter a crítica em fatalismo, permitindo recolocar no desenho das infraestruturas as disputas, alternativas e finalidades que a linguagem da eficiência tende a obscurecer."
+},
+{
+"k": "514441ba0f6e6db1",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ao final de sua obra, Ellul questiona a crença no progresso técnico como sinônimo objetivo de progresso humano e formula um apelo à responsabilidade individual e coletiva diante da técnica <1>Ellul</1><2>(Ellul, 1968, p. 441-445)</2>. Para o autor, a sociedade deve buscar formas efetivas de controle sobre o desenvolvimento técnico, a fim de orientá-lo ao bem humano, ainda que reconheça a impossibilidade de plena adaptação do homem ao fenômeno técnico."
+},
+{
+"k": "1be78502ba48af2f",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Esse conjunto permite identificar o ponto de passagem para o problema jurídico: ao reduzir o real a “esquema lógico” e recusar julgamentos externos quando o problema é apresentado como técnico, a técnica comprime o espaço de deliberação sobre fins e desloca a decisão para a linguagem da eficiência <1>Ellul</1><2>(Ellul, 1968, p. 82; p. 136)</2>. O que não se deixa racionalizar tende a ser tratado como irrelevante, impraticável ou externo ao funcionamento do sistema. Daí a importância de recolocar escolhas técnicas no campo da imputação, pois a aparência de neutralidade pode encobrir finalidades, custos e distribuições de risco que afetam diretamente a experiência de consumo."
+},
+{
+"k": "9d1fc3c88fd005d8",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Com isso, a técnica passa a organizar a própria percepção do mundo social. Quando economia, administração pública e entretenimento operam sob essa racionalidade, o indivíduo é recodificado em indicadores de desempenho, tempo disponível, engajamento e risco. A <1>p. 97</1> técnica deixa de ser acessório da vida social e passa a definir o que pode ser visto, medido, governado e contestado."
+},
+{
+"k": "2bcc4702ef3f1b6a",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Essa reorganização também se sedimenta institucionalmente. No plano da racionalidade operativa, o deslocamento aparece quando, para escapar ao “arbítrio e subjetividade” e ao “julgamento ético”, a técnica exige que a realidade seja reduzida ao número <1>Ellul</1><2>(Ellul, 1968, p. 17)</2>. O Direito é afetado por essa pressão não apenas porque passa a lidar com objetos tecnicamente complexos, mas porque sua própria prática pode ser absorvida por critérios de eficiência. Para o “técnico do direito”, a referência decisiva tende a deixar de ser a finalidade normativa e passa a ser a eficiência de aplicação, já que “todo o direito depende de sua eficiência” e “um direito que não é aplicado não é um direito” <3>Ellul</3><4>(Ellul, 1968, p. 299)</4>. Nessa pressão por desempenho e operacionalidade, conflitos normativos tendem a ser reconfigurados como problemas de gestão e conformidade, tornando mais difícil deliberar sobre fins quando a autonomia técnica estreita o espaço de escolha sobre meios e rumos coletivos <5>Ellul</5><6>(Ellul, 1968, p. 143)</6>."
+},
+{
+"k": "5a6f9d6c6f979c19",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Transposto para o consumo digital, esse diagnóstico permite interpretar jogos eletrônicos, plataformas de streaming e redes sociais não como aplicações isoladas, mas como manifestações específicas dessa técnica-ambiente. Interfaces, algoritmos, sistemas de recompensa e mecanismos de escassez artificial são organizados sob critérios de eficiência, retenção e governança contínua. O que aqui se prepara sob a categoria de Objeto Imaterial de Consumo emerge justamente dessa operação: trata-se de um objeto de existência funcional e continuada, inseparável da infraestrutura técnica que lhe confere acesso, utilidade, estabilidade e sentido prático."
+},
+{
+"k": "d0477c3f8fb1fbe1",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Por isso, uma leitura estritamente material do consumo não captura adequadamente o fenômeno. Quando o objeto é inseparável da arquitetura técnica<1><2>52</2></1> que o sustenta, o problema central deixa de ser apenas a existência de vício em um produto isolado e passa a incluir a forma como a técnica organiza possibilidades de uso, permanência, perda ou degradação ao longo do tempo."
+},
+{
+"k": "faf43305d1e80ca8",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ellul não é convocado para sustentar uma crítica genérica à modernidade tecnológica, mas para tornar inteligível a ordem técnica em que o OIC se forma. Em ecossistemas digitais, a relação de consumo não se reduz à troca de uma prestação por um preço; ela se instala em ambiente organizado por métricas, automatismos, regimes de acesso e procedimentos de <1>p. 98</1> atualização contínua. A fruição do objeto torna-se inseparável do funcionamento da ambiência técnica, razão pela qual arquitetura e governança não podem ser tratadas como exterioridades do fornecimento, mas como dimensões materiais da própria relação de consumo. A seguir, essa ambiência será combinada à reconfiguração midiática da experiência, com Postman, e à dessimbolização cultural e publicitária, com Vanderburg, preparando a passagem para a Lex Plataformae e para a vulnerabilidade semiótica."
+},
+{
+"k": "f6dbb830dae3460d",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Intitulada <1>A Técnica e o Desafio do Sécul</1>o, a paradigmática obra central no pensamento do historiador, sociólogo e jurista francês Jacques Ellul, originalmente publicada em 1954, oferece importante panorama conceitual sobre a técnica, seu desenvolvimento e sua influência sobre a sociedade contemporânea. A discussão é dividida em seis momentos, cada um explorando diferentes facetas do fenômeno técnico. Aqui, interessa destacar alguns elementos que permitem compreender como a técnica moderna se converte em ambiente estruturante da vida social e, por consequência, das formas de consumo digital. <2>↩</2>"
+},
+{
+"k": "5d26f6fe68e7e27c",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Destarte, Ellul (1968, p. 1) argumenta que a técnica se tornou o fator mais importante na sociedade moderna, superando em influência qualquer outro fenômeno social, e propõe analisar a técnica a partir de seus caracteres intrínsecos, a partir do que denomina “caracterologia da técnica”, uma exploração de sua natureza, das características próprias manifestadas independentemente da sociedade na qual se desenvolve ou se manifesta. <1>↩</1>"
+},
+{
+"k": "258aad06ed498e7f",
+"pagina": "tese/3-1-1/index.html",
+"pt": "No suporte oficial, a Riot descreve que o sistema “se concentra em equilibrar três fatores: Partidas justas; Preferência de posição; Filas rápidas”. A própria explicação assume que esses fatores entram em tensão e que, quando o tempo de fila cresce, o sistema se afasta do MMR ou troca alguém de posição para viabilizar o jogo <1>Riot Games</1><2>(Riot Games, 2026a)</2>. <3>↩</3>"
+},
+{
+"k": "6bc202712f9199a7",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Refere-se à camada de infraestrutura, processamento de dados e regras que opera exclusivamente nos servidores da plataforma, fora da visão e do controle direto do usuário. É o local onde se processam os sistemas de decisão, como o cálculo de métricas ocultas, que estruturam a lógica interna do serviço. <1>↩</1>"
+},
+{
+"k": "9890169162cfd97b",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ao se propor a explicar a MMR, a Riot afirma expressamente: “Seu MMR é… segredo!” e justifica que “foi especialmente criado para trabalhar com sistemas de back-end” voltados a colocar “cada pessoa numa partida equilibrada”, razão pela qual ele não se desassocia desses sistemas sem perda de contexto. A formulação deixa claro que o jogador é legível como número funcional ao pareamento <1>Riot Games</1><2>(Riot Games, 2026c)</2>. <3>↩</3>"
+},
+{
+"k": "50b69af3941777f5",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Quanto ao estatuto do uso subsidiário de repositórios colaborativos (como o <1>Fandom</1>) para nomeação de categorias e descrição operacional mínima de mecânicas, adota-se o critério já fixado no Capítulo 2, segundo o qual esse material não é empregado para provar promessas institucionais, critérios internos de decisão ou marcos oficiais de mudança, operando apenas como apoio técnico-operacional e como pista para localização de documentação primária quando esta se fizer necessária. No verbete <2>Queuing and Matchmaking</2>, o mecanismo é descrito como orientado por “time constraint”, pois o jogo precisa acontecer. O texto explica que, quando o pareador não encontra jogadores dentro das limitações mais estritas, ele “loosen[s] the restrictions a little” e reinicia a busca, o que tende a aumentar desvios de habilidade em situações persistentes de escassez. Isso materializa a ideia de automatismo e do “próximo melhor” como regra de funcionamento <3>League of Legends Wiki</3><4>(League of Legends Wiki, [202-?]i)</4>. <5>↩</5>"
+},
+{
+"k": "15038e5d467d6498",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A indicação “[202-?]” segue a estrutura de data aproximada admitida pela ABNT para referências bibliográficas, indicando década provável de publicação, no caso, os anos 2020, sem confirmação do ano específico. A forma “[202-]” indicaria década certa, mas ano não identificado. <1>↩</1>"
+},
+{
+"k": "b22cd08048c74b65",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Nos Termos de Serviço, a Riot trata a evolução do serviço como normalidade e a ancora em consentimento do usuário. Registra que, “em um esforço para melhorar constantemente os Serviços da Riot”, o fornecedor pode “alterar, modificar, atualizar, suspender, ‘nerf’ ou restringir” o acesso a recursos e partes do serviço. Na sequência, prevê que pode “usar patches em segundo plano para atualizar automaticamente nossos jogos e <1>software</1> com ou sem aviso prévio” <2>Riot Games</2><3>(Riot Games, 2024e)</3>. <4>↩</4>"
+},
+{
+"k": "8fc7f008ca2c7aeb",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ellul <1>(1968)</1> descreve a técnica como um processo que tende a se impor na prática com força de necessidade, não por ser “boa” ou “má”, mas porque, uma vez disponível, passa a ser utilizada. O autor formula isso de modo direto ao afirmar que “tudo o que é técnico, sem distinção de bem e de mal, é forçosamente utilizado quando está ao nosso dispor”, o que desloca o debate público do campo da escolha moral para o campo da adoção inevitável <2>Ellul</2><3>(Ellul, 1968, p. 102-103)</3>. Essa dinâmica alcança também o universo do lazer e da cultura de massa, onde os meios técnicos operam efeitos que não se limitam ao conteúdo explícito. Ao tratar do cinema, por exemplo, Ellul observa que a censura pode limitar temas, mas não toca “o essencial”, que é a “modificação psíquica do homem” provocada pela “violenta impressão do filme”; a emoção inevitável “modifica o tônus psicológico” e tende a fazer do homem “o componente de uma multidão” <4>Ellul</4><5>(Ellul, 1968, p. 291)</5>. Nesse movimento, a técnica não apenas amplia meios de diversão, mas reorganiza disposições subjetivas e padrões coletivos de percepção, contribuindo para processos mais amplos de massificação social. <6>↩</6>"
+},
+{
+"k": "4c24f77e6a4d80d7",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Ellul <1>(1968, p. 82-85)</1> descreve a técnica moderna como metódica e sistemática, características que também moldam a dinâmica da indústria do entretenimento ao explorar tecnologias para maximizar seu alcance e engajamento. Neste sentido, a experimentação e a pesquisa se tornam elementos essenciais no desenvolvimento da técnica, o que acaba por limitar seu desenvolvimento ao conhecimento passível de obtenção apenas a partir da experimentação disciplinada. <2>↩</2>"
+},
+{
+"k": "2994567c3bcd007a",
+"pagina": "tese/3-1-1/index.html",
+"pt": "<1>← <2>3.1 </2>Técnica, mídia e vida cotidiana</1><3><4>3.1.2 </4>Mídia, entretenimento e reconfiguração da epistemologia →</3>"
+},
+{
+"k": "9e01011d3301c036",
+"pagina": "tese/3-1-1/index.html",
+"pt": "<1><2>3.1.1 </2>Autonomia da técnica e reorganização da vida social</1>"
+},
+{
+"k": "d2560b247521af81",
+"pagina": "tese/3-1-1/index.html",
+"pt": "ANDRADE, Victor L. P. 3.1.1 Autonomia da técnica e reorganização da vida social. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/tese/3-1-1/"
+},
+{
+"k": "cb7719b81cbe80a6",
+"pagina": "tese/3-1-1/index.html",
+"pt": "A noção elluliana de autonomização da técnica permite compreender como a eficiência passa a operar como critério dominante de organização social. A técnica…"
+},
+{
+"k": "f4101f0a89091868",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Esta seção começa no meio da página 92"
+},
+{
+"k": "b223aa56ba3ec1c8",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 43"
+},
+{
+"k": "851e72c2816f065e",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 44"
+},
+{
+"k": "0221e51f6be7452a",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 45"
+},
+{
+"k": "d669957bf67c36ac",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 46"
+},
+{
+"k": "12b74eed6739b893",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 47"
+},
+{
+"k": "12576febf125a3b8",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 48"
+},
+{
+"k": "1c802d818d6af0d9",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 49"
+},
+{
+"k": "62e62eadab221a2b",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 50"
+},
+{
+"k": "6816f5a2334998ed",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 51"
+},
+{
+"k": "bfd8a7535653eb8d",
+"pagina": "tese/3-1-1/index.html",
+"pt": "Voltar à chamada da nota 52"
+},
+{
+"k": "852c09909cd9213d",
+"pagina": "tese/3-1-1/index.html",
+"pt": "3.1.1 Autonomia da técnica e reorganização da vida social"
+},
+{
+"k": "035d415e1ea8ace9",
+"pagina": "tese/3-1-2/index.html",
+"pt": "3.1.2 Mídia, entretenimento e reconfiguração da epistemologia · Texto integral · Lex Plataformae"
+},
+{
+"k": "48c830ef1e1ca881",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Seção 3.1.2 · p. 98 a 104"
+},
+{
+"k": "72fda7b46908fd5b",
+"pagina": "tese/3-1-2/index.html",
+"pt": "<1>3.1.2 </1>Mídia, entretenimento e reconfiguração da epistemologia"
+},
+{
+"k": "94234a52748d4466",
+"pagina": "tese/3-1-2/index.html",
+"pt": "<1>Ver esta seção no PDF</1>"
+},
+{
+"k": "16c409a281df98e7",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Postman<1><2>53</2></1> (2006) permite compreender a mídia como forma de organização do conhecimento social, e não apenas como canal de circulação de mensagens. A passagem da mídia eletrônica à mídia digital aprofunda esse deslocamento: o espaço público é progressivamente recodificado pela gramática do espetáculo, enquanto os modos de produzir, legitimar e reconhecer conhecimento passam a depender de formatos, ritmos e critérios de atenção próprios da ecologia midiática dominante. Esse diagnóstico tem impacto direto sobre a forma como consumidores percebem produtos, serviços e plataformas."
+},
+{
+"k": "b8c6f231adfc2e64",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Em ecologias midiáticas, o problema decisivo não está apenas no conteúdo que circula, mas na forma de circulação que passa a organizar percepção e credibilidade. Formatos, ritmos, expectativas de atenção e critérios de relevância tornam-se hábitos sociais incorporados. A leitura de Postman serve, nesse ponto, para descrever a passagem de uma cultura fortemente organizada pela linearidade argumentativa para outra atravessada pela performatividade do show business, na qual visibilidade, impacto e retenção passam a condicionar o modo como algo se torna socialmente inteligível."
+},
+{
+"k": "7ace23723bf8bdf8",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A contribuição de Postman não interessa como nostalgia da cultura impressa, mas como chave para compreender que cada meio instaura uma ecologia própria de percepção e conhecimento. Ao recodificar política, religião e educação em termos de entretenimento, a televisão altera critérios de relevância informativa, credibilidade e aceitabilidade do debate público. No ambiente digital, esse deslocamento não desaparece: ele é radicalizado por <1>p. 99</1> plataformas capazes de personalizar fluxos, modular visibilidade e transformar atenção em variável operacional."
+},
+{
+"k": "fb7e7b7e88a3eb1f",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Para o consumo, esse deslocamento é decisivo. Quando relevância, credibilidade e aceitabilidade passam a ser moduladas por formatos de entretenimento, a percepção de valor também se reorganiza. A decisão de consumo deixa de depender prioritariamente de verificações sobre adequação e desempenho e passa a ser mediada por regimes de atenção, reputação e pertencimento. Neles, a forma de apresentação e a dramaturgia da oferta, expressa em vitrines, <1>trailers</1>, eventos e narrativas de atualização permanente, torna-se componente constitutivo da experiência consumida."
+},
+{
+"k": "a5126b7c3aca7bda",
+"pagina": "tese/3-1-2/index.html",
+"pt": "No jogo operado por plataforma, essa reconfiguração aparece de forma concentrada. O valor do objeto não é apreendido apenas por suas características funcionais, mas pela encenação pública que o antecede e acompanha. A mídia oficial transforma itens, personagens, temporadas e eventos em repertórios narrativos compartilháveis, convertendo a compra e a fruição em continuidade simbólica dentro do ecossistema."
+},
+{
+"k": "26bcb81198624505",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A produção audiovisual da Riot Games funciona, nesse sentido, como dispositivo de conhecimento aplicado ao consumo. A mídia não se limita a divulgar o que já existe, uma vez que é capaz de definir o que conta como informação relevante sobre o objeto, quais traços devem ser percebidos como essenciais e quais afetos podem operar como critérios de avaliação. O consumidor não precisa conhecer o item como estrutura técnica para reconhecê-lo como bem desejável. Ele o conhece como imagem, narrativa e repertório de sinais socialmente compartilháveis, produzidos e distribuídos por canais oficiais em formato de espetáculo. Um videoclipe como <1>POP/STARS</1> <2>fonte</2><3>(K/DA..., 2018)</3>, exemplo da produtividade da divisão <4>Riot </4> <5>Music</5>, é especialmente relevante porque transforma um conjunto de cosméticos em referência cultural pública anterior ao uso, operando como matriz de inteligibilidade para a compra e para o reconhecimento social do valor do item."
+},
+{
+"k": "9873d029b13910d8",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A mesma lógica se intensifica nas <1>cinematics</1> sazonais, pelas quais a empresa apresenta uma síntese visual do universo e das expectativas que deseja estabilizar como horizonte comum. <2>Still Here</2> <3>Riot Games</3><4>(Riot Games, 2024d)</4>, ao se apresentar como cinemática de abertura de temporada e ao condensar o enunciado editorial “<5>Fight for tomorrow</5>”<6><7>54</7></6>, explicita essa função de orientação <8>p. 100</8> do olhar e da expectativa. A epistemologia do consumo, aqui, não corresponde a um acesso ampliado a dados sobre o objeto, mas a uma forma de conhecimento mediado em que a imagem se converte em critério de verdade pragmática. O item é aquilo que a mídia permite que ele seja visto como sendo. Em consequência, a utilidade deixa de ser o eixo exclusivo de decisão e cede espaço à inteligibilidade estética, à promessa narrativa e ao repertório de signos que viabiliza pertencimento e distinção no interior da comunidade."
+},
+{
+"k": "182e6c7cc6764801",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Essa reconfiguração midiática encontra correspondência na própria norma declarada do ecossistema, na medida em que o contrato descreve skins e itens correlatos como Conteúdo Virtual licenciado, vinculado à conta, e não como propriedade do consumidor<1><2>55</2></1>. Quando a oferta se estrutura como espetáculo, mas o objeto é juridicamente apresentado como acesso revogável ou modificável, forma-se uma tensão central para a tese: o consumidor conhece o bem por sua encenação estética e comunitária, enquanto sua estabilidade permanece submetida ao regime técnico-contratual da plataforma. Por isso, alterações de visualidade, animação, efeitos, balanceamento simbólico ou condições de acesso não podem ser tratadas apenas como correções funcionais, bugs ou melhorias gráficas<3><4>56</4></3>. Nesse quadro, a epistemologia do consumo torna-se inseparável da arquitetura de mídia que enquadra o que o objeto “é” e do regime contratual que controla o quanto desse “ser” permanece estável."
+},
+{
+"k": "104c8e9ca27732a0",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A promessa de consumo é, portanto, performada publicamente, enquanto a fruição é mediada por sinais de visibilidade, prestígio e pertencimento. A alteração unilateral do item ou do personagem pode atingir não apenas uma utilidade técnica, mas a posição simbólica que foi produzida pela própria plataforma. Postman contribui exatamente nesse ponto, uma vez que sua crítica, antes direcionada ao <1>show business</1>, uma vez atualizada por ecossistemas digitais <2>p. 101</2> metrificados, permite compreender como critérios de credibilidade e valor são reorganizados até tornar o design da oferta e a dramaturgia da permanência parte do conteúdo consumido."
+},
+{
+"k": "30f8b5bc7751ae74",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Segundo Postman, a ascensão da televisão à hegemonia dos meios de comunicação redefiniu os parâmetros pelos quais informações são processadas, verdades são concebidas e capacidades intelectuais são avaliadas. A passagem da cultura tipográfica para a televisão não alterou apenas o suporte comunicacional; transformou critérios de verdade, inteligência e seriedade no discurso público <1>Postman</1><2>(Postman, 2006, [p. 23])</2>. Sob esse regime, a televisão favorece a fragmentação, reduz a possibilidade de discursos mais complexos e substitui a coerência argumentativa da cultura tipográfica por conversas públicas marcadas pela trivialidade, pela ruptura de sequência e pelo abandono progressivo de lógica, razão e regras de contradição <3>Postman</3><4>(Postman, 2006, [p. 58])</4>."
+},
+{
+"k": "78ff763f010102c8",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A política é uma das manifestações centrais<1><2>57</2></1> desse deslocamento. Para Postman, a televisão a reconfigura como ramo do show business, transformando o debate público em produto compatível com entretenimento <3>Postman</3><4>(Postman, 2006, [p. 16])</4>. Campanhas passam a operar pela formação de imagens, pela administração de performances e pela substituição de ideologias por aparência, como se o valor político pudesse ser absorvido pela eficácia de cenas prontas. Nesse contexto, “saber” política passa a significar familiaridade visual, e não necessariamente entendimento estruturado por linguagem e discurso <5>Postman</5><6>(Postman, 2006, [p. 86])</6>."
+},
+{
+"k": "8fe26720b27e4387",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Na educação, a busca por entretenimento também altera os critérios de aprendizagem. O processo crítico e aprofundado perde espaço para formas recreativas de acesso ao conteúdo, enquanto a dificuldade, a disciplina intelectual e a duração do esforço cognitivo passam a ser vistas como obstáculos à comunicação eficiente <1>Postman</1><2>(Postman, 2006, [p. 146])</2>. Daí a afirmação de que televisão e cultura imagética não constituem apenas estilo de comunicação, mas ameaça aos fundamentos da democracia liberal, na medida em que atingem sua base material: a liberdade de informação <3>Postman</3><4>(Postman, 2006, [p. 91])</4>."
+},
+{
+"k": "cd8a960b6b8235e3",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A conversão do espaço público em show business interessa menos por seu objeto setorial do que por seu mecanismo. O ponto está na formação de um regime em que signos e performances substituem progressivamente argumentos como critérios de reconhecimento, <1>p. 102</1> confiança e valor. Essa estrutura é decisiva para a tese porque, em plataformas digitais, o objeto de consumo não é apenas apresentado ao consumidor; ele é encenado em formatos que produzem confiança, urgência e adesão, tornando a experiência de consumo inseparável da ecologia de atenção em que é promovida e fruída."
+},
+{
+"k": "fab8ed145a0ecfde",
+"pagina": "tese/3-1-2/index.html",
+"pt": "O mecanismo central é a fragmentação. A imagem desmembra a realidade ao arrancar momentos de seus contextos e justapor eventos sem conexão lógica ou histórica, recriando o mundo como série de acontecimentos idiossincráticos <1>Postman</1><2>(Postman, 2006, [p. 55])</2>. Nesse ambiente, a inteligência passa a significar saber muitas coisas, e não saber sobre elas, isto é, acumular dados desconexos sem compreensão aprofundada <3>Postman</3><4>(Postman, 2006, [p. 74])</4>. A desinformação, portanto, não se reduz à falsidade; uma vez que também se manifesta como informação deslocada, irrelevante, fragmentada ou superficial, capaz de produzir ilusão de conhecimento e afastar o sujeito do conhecer efetivo <5>Postman</5><6>(Postman, 2006, [p. 74])</6>."
+},
+{
+"k": "f70f9ba6846f9339",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Essa forma de circulação informacional produz um presente sem historicidade, no qual a televisão opera como meio centrado no agora e dificulta a integração da experiência em uma narrativa temporal mais ampla <1>Postman</1><2>(Postman, 2006, [p. 76])</2>. O discurso público perde, assim, a forma que o tornava apto à racionalidade: sob a cultura do impresso, tendia à coerência, seriedade e continuidade; sob a governança televisiva, passa a ser organizado pela visualidade, pela brevidade e pela exigência de interesse imediato <3>Postman</3><4>(Postman, 2006, [p. 65-66])</4>. A informação é apresentada em forma simplificada, pouco substancial e descontextualizada, não necessariamente por censura explícita, mas porque a televisão opera como meta-meio, dirigindo tanto o que se conhece do mundo quanto os modos sociais de conhecer <5>Postman</5><6>(Postman, 2006, [p. 58])</6>."
+},
+{
+"k": "3bf0e0c700e3e292",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A partir dessa mudança de base, política, religião, notícias, educação e comércio passam a ser rearranjados como anexos congeniais do <1>show business</1>, e a cultura tende a se converter em arena generalizada de entretenimento <2>Postman</2><3>(Postman, 2006, [p. 58-59])</3>."
+},
+{
+"k": "a365555a079ca93e",
+"pagina": "tese/3-1-2/index.html",
+"pt": "O efeito não é apenas estético, mas institucional, porque a democracia liberal depende de uma ecologia informacional capaz de sustentar discernimento e deliberação. Nessa chave, a ameaça contemporânea à democracia não precisa assumir a forma de censura, pois se realiza quando o discurso político assume a forma de entretenimento e neutraliza a própria seriedade do debate público <1>Postman</1><2>(Postman, 2006, [p. 91-93])</2>. Ao deslocar o centro do discurso para a performance, o meio rebaixa a centralidade pública de temas substantivos e enfraquece as condições sociais do pensamento crítico, sobretudo quando a informação é apresentada de modo simplista e não contextual, isto é, como informação empacotada como entretenimento <3>Postman</3><4>(Postman, 2006, [p. 92])</4>."
+},
+{
+"k": "705776e4d6475f90",
+"pagina": "tese/3-1-2/index.html",
+"pt": "<1>p. 103</1> Se Ellul evidencia a técnica como ambiente estrutural, Postman explicita como um meio específico, a televisão, reorganiza formas de conhecer, debater e decidir. O ponto central não é a televisão enquanto objeto histórico isolado, mas a constatação de que a forma do meio altera a forma da racionalidade socialmente praticável. Quando o discurso público passa a ser medido pela capacidade de divertir e reter atenção, e não por densidade argumentativa ou busca de verdade, cada esfera precisa caber em quadros curtos, emocionalmente marcados e visualmente impactantes."
+},
+{
+"k": "ae14e2bbb58b28be",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Nessa chave, a televisão inaugura uma epistemologia centrada na imagem e no ritmo fragmentado. A informação chega em unidades breves e desconectadas, que exigem pouco esforço de concentração e não favorecem encadeamento histórico ou reconstrução causal. O problema, para esta tese, está na formação de uma gramática cultural treinada para consumir estímulos, e não para organizar experiências em mapas de sentido minimamente estáveis."
+},
+{
+"k": "c678211ce02417c7",
+"pagina": "tese/3-1-2/index.html",
+"pt": "No ambiente digital, essa lógica não desaparece: ela é intensificada, personalizada e tornada interativa. <1>Feeds</1>, <2>timelines</2>, notificações e interfaces gamificadas transplantam para as plataformas o mesmo regime de fragmentação, agora combinado à coleta permanente de dados e à modulação algorítmica da atenção. O consumidor já não apenas assiste ao fluxo, pois interage com ele, produz dados, recebe devolutivas e é continuamente reposicionado pela arquitetura do serviço. O entretenimento deixa de ser<3><4>58</4></3> conteúdo separado e passa a funcionar como ambiente técnico de permanência. É nesse fluxo governado de experiências, ajustado para maximizar engajamento, tempo de permanência e monetização, que o OIC passa a ganhar forma como objeto de fruição continuada."
+},
+{
+"k": "814755dac88a59eb",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Ao transpor o diagnóstico de Postman para o ambiente digital, o ponto decisivo não é afirmar que a televisão virou internet, mas identificar deslocamentos estruturais na ecologia da atenção: da difusão uniforme à distribuição personalizada; da recepção predominantemente passiva à interação contínua; das métricas grosseiras de audiência à metrificação fina de condutas. Esses deslocamentos reorganizam conhecimento e atenção e, por isso, têm implicações diretas para o consumo. A oferta passa a depender de curadorias técnicas, enquanto a experiência do consumidor se torna continuamente modulável."
+},
+{
+"k": "84c09e9832761ddf",
+"pagina": "tese/3-1-2/index.html",
+"pt": "<1>p. 104</1> A partir desse quadro, a vulnerabilidade do consumidor digital não pode ser reduzida à falta de informação corrigível por mais avisos, termos de uso ou cláusulas em destaque. O dever de informação permanece relevante, mas passa a operar dentro de uma ecologia em que forma, curadoria e visibilidade precedem a leitura. Antes que qualquer conteúdo seja efetivamente interpretado, a apresentação técnico-midiática do objeto já definiu o que aparece como visível, urgente, desejável ou natural. A vontade é exercida dentro de um repertório de referências e estímulos previamente coreografado pela plataforma. É nessa assimetria de produção de sentido que se prepara a categoria da vulnerabilidade semiótica, entendida como desvantagem estrutural na gramática de significados que orienta a relação do sujeito com o objeto imaterial de consumo. A arquitetura, assim, converte-se em normatividade prática porque organiza o campo do percebido, do crível e do natural antes que o dever informacional possa produzir seus efeitos."
+},
+{
+"k": "e8ae0740f2084a53",
+"pagina": "tese/3-1-2/index.html",
+"pt": "Influenciado pela teoria de Jacques Ellul, na obra <1>Amusing Ourselves to Death: Public Discourse in the Age of </1> <2>Show Business</2> (“Divertindo-nos até a morte: o discurso público na era do show business”, em tradução nossa), originalmente publicada em 1985, o pedagogo estadunidense Neil Postman <3>(2006)</3> investiga a influência da televisão sobre a cultura norteamericana, explorando as formas pelas quais a televisão, ao assumir a condição de meio de comunicação dominante, transformou o discurso público em entretenimento e impactou em profundidade as epistemologias sociais, culturais e políticas dos EUA. <4>↩</4>"
+},
+{
+"k": "c65702507b1911dc",
+"pagina": "tese/3-1-2/index.html",
+"pt": "A cinematic atua como forma editorial de conhecimento: ela enquadra o que deve ser visto como relevante e oferece uma orientação de leitura, em vez de oferecer dados técnicos sobre itens. No material oficial “Still Here | Season 2024 Cinematic”, a própria página organiza o conteúdo sob o título e o enunciado “Fight for tomorrow.” <1>Riot Games</1><2>(Riot Games, 2024d)</2>. Isso evidencia a função epistemológica do audiovisual no sentido postmaniano: o conteúdo é apresentado como chave de interpretação do “agora” e do “próximo”, moldando expectativas e critérios de relevância, sem que o consumidor precise acessar qualquer descrição técnica do objeto de consumo associado ao ecossistema. <3>↩</3>"
+}
+]

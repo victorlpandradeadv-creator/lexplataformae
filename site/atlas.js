@@ -353,3 +353,30 @@ document.addEventListener('click', function (ev) {
   ajustarIndices();
   if (pequeno.addEventListener) pequeno.addEventListener('change', ajustarIndices);
 })();
+
+/* Modo escuro. Sem escolha guardada, o site segue o aparelho. 10/11/2026. */
+(function () {
+  var raiz = document.documentElement;
+  var EN = (raiz.lang || '').indexOf('en') === 0;
+  function escuro() {
+    if (raiz.dataset.theme) return raiz.dataset.theme === 'dark';
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  function pinta() {
+    var e = escuro();
+    var rotulo = e ? (EN ? 'Light mode' : 'Modo claro') : (EN ? 'Dark mode' : 'Modo escuro');
+    document.querySelectorAll('.topo .tema').forEach(function (b) {
+      b.setAttribute('aria-pressed', e ? 'true' : 'false'); b.setAttribute('aria-label', rotulo); b.title = rotulo;
+    });
+  }
+  document.addEventListener('click', function (ev) {
+    var b = ev.target.closest && ev.target.closest('.topo .tema');
+    if (!b) return;
+    var novo = escuro() ? 'claro' : 'escuro';
+    raiz.dataset.theme = novo === 'escuro' ? 'dark' : 'light';
+    try { localStorage.setItem('lexp-tema', novo); } catch (e) {}
+    pinta();
+  });
+  if (window.matchMedia) { try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', pinta); } catch (e) {} }
+  pinta();
+})();

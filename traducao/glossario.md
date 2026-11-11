@@ -207,7 +207,7 @@ When the thesis quotes a foreign author in Portuguese translation (Postman, Han,
 | adimplemento | performance |
 | p. 769 a 773 | pp. 769 to 773 |
 | Como citar, the site's suggested citation | translate the page title and connective words, because the citation points to the English page |
-| Voltar à chamada da nota N | Back to note call N |
+| Voltar à chamada da nota N | Back to note reference N |
 | Esta seção começa no meio da página N | This section begins in the middle of page N |
 | Da/Do ... (section titles) | On ... |
 | feixe de fruição (short form) | enjoyment bundle |

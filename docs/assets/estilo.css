@@ -1236,6 +1236,18 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 .versoes { padding-left: 1.25rem; }
 .versoes li { margin: 0 0 0.75rem; }
 
+/* Modo escuro, por ordem do autor de 10/11/2026. Segue o aparelho e o botão do cabeçalho, guardado em lexp-tema.
+   A paleta escura é a de cores.css, feita em papel quente. Aqui só a rubrica, que precisa clarear para ler no escuro. */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --rubrica: #ec6b62; } }
+:root[data-theme="dark"] { --rubrica: #ec6b62; }
+.topo .tema { display: inline-grid; place-items: center; padding: 0; order: 98; background: none; border: 1px solid var(--linha); color: var(--tinta); border-radius: 999px; width: 2rem; height: 2rem; cursor: pointer; align-self: center; flex: none; }
+.topo .tema:hover { border-color: var(--rubrica); color: var(--rubrica); }
+.topo .tema:focus-visible { outline: 2px solid var(--rubrica); outline-offset: 2px; }
+@media print { .topo .tema { display: none; } }
+.topo .idioma { order: 99; }
+.topo .topo-marca { order: -1; }
+@media (max-width: 900px) { .topo .topo-marca { order: 1; margin-right: auto; } .topo .tema, .topo .idioma { order: 2; } .topo .integral { margin-left: 0; } }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

@@ -399,9 +399,10 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
     assinatura = "" if caminho == "autor/" else f'<p class="assinatura"><a href="{prefixo}autor/">Sobre o autor</a></p>'
     return f"""<!doctype html>
-<html lang="pt-BR" data-theme="light">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<script>try{{var t=localStorage.getItem('lexp-tema');if(t==='claro'||t==='escuro')document.documentElement.dataset.theme=t==='escuro'?'dark':'light'}}catch(e){{}}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(descricao)}">
@@ -434,6 +435,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     <a class="topo-marca" href="{inicio}"><span class="topo-projeto">Projeto</span><span class="topo-nome">Lex Plataformae</span></a>
     {menu_html(prefixo, caminho)}
     <a class="integral ciencia" href="{prefixo}tese/">Texto integral</a>
+    <button type="button" class="tema" aria-pressed="false" aria-label="Modo escuro" title="Modo escuro"><svg aria-hidden="true" viewBox="0 0 20 20" width="16" height="16"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 2.5a7.5 7.5 0 0 1 0 15z" fill="currentColor"/></svg></button>
   </header>
   <div class="legenda-desnudo" role="note"><p>{esc(legenda)}</p><label for="arq-tudo"><input type="checkbox" id="arq-tudo"> Mostrar toda a arquitetura</label></div>
   <main id="conteudo-principal" tabindex="-1">
@@ -4233,7 +4235,7 @@ def gerar_redirecionamentos():
             destino = f"/{novo}/" + (rel + "/" if rel != "." else "")
             alvo = SAIDA / velho / rel / "index.html"
             alvo.parent.mkdir(parents=True, exist_ok=True)
-            alvo.write_text(f'<!doctype html><html lang="pt-BR" data-theme="light"><head><meta charset="utf-8"><title>Mudou de endereço</title>'
+            alvo.write_text(f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Mudou de endereço</title>'
                             f'<meta name="robots" content="noindex"><link rel="canonical" href="{BASE}{destino}">'
                             f'<meta http-equiv="refresh" content="0; url={destino}"></head>'
                             f'<body><p>Esta página mudou para <a href="{destino}">{BASE}{destino}</a>.</p></body></html>', encoding="utf-8")
