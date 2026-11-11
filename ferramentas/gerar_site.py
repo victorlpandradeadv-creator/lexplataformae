@@ -4061,6 +4061,9 @@ def ocorrencias_do_nome(nome):
     return achados
 
 
+PERGUNTA_TERMO = json.loads((RAIZ / "conteudo" / "perguntas-termos.json").read_text(encoding="utf-8"))
+
+
 def gerar_instrumentos():
     """Índice de consulta por área, sem destacar as explicações do seu contexto."""
     prefixo = "../"
@@ -4080,7 +4083,12 @@ def gerar_instrumentos():
                                "percurso": parte["slug"], "ancora": "termo-" + slug_derivado(nome),
                                "fontes": bloco["citacoes"]})
     def item(nome):
-        links = "".join(f'<a href="{prefixo}caminho/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(p["titulo"])}</a>' for p in termos[nome])
+        # O link leva a pergunta que o próprio termo responde, e não o título da parte do caminho, que nem sempre fala dele.
+        # Revisão dos botões-pergunta, por ordem do autor de 11/11/2026.
+        pergunta_ = PERGUNTA_TERMO.get(nome)
+        if not pergunta_:
+            raise ValueError(f"Termo sem pergunta em conteudo/perguntas-termos.json: {nome}")
+        links = "".join(f'<a href="{prefixo}caminho/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(pergunta_)}</a>' for p in termos[nome][:1])
         return f'<li><h3>{esc(nome)}</h3><p>{links}</p></li>'
     areas = [a for a in AREA_NOME if any(AREA_TERMO.get(n) == a for n in termos)]
     indice = "".join(f'<li{estilo_area(a)}><a class="chip-area" href="#{a}">{esc(AREA_NOME[a])}</a></li>' for a in areas)
@@ -4126,7 +4134,7 @@ def gerar_derivados():
             '<article class="folha leitura derivado-pagina">'
             f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
             f'<h1>{esc(nome)}</h1>'
-            f'<p class="abertura-pagina">Explicado em palavras simples no caminho da skin, em <a href="{no_percurso}">{esc(parte["titulo"])}</a></p></header>'
+            f'<p class="abertura-pagina">Em palavras simples, no caminho da skin. <a href="{no_percurso}">{esc(PERGUNTA_TERMO.get(nome, parte["titulo"]))}</a></p></header>'
             f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(slug)), prefixo)}</div>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
             + f'<p class="ver-nove"><a href="{prefixo}conceitos/">Os nove conceitos</a></p>'
