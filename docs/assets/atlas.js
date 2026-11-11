@@ -420,6 +420,29 @@ document.addEventListener('click', function (ev) {
     });
     return n;
   }
+  /* Frase única que ocupa duas linhas. Se houver vírgula em que a quebra deixa cada parte numa linha só, a quebra vai para
+     a vírgula mais equilibrada, para a linha não terminar num artigo ou numa preposição solta. 11/11/2026. */
+  function virgula(el) {
+    var w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nos = [], t, melhor = null;
+    while ((t = w.nextNode())) nos.push(t);
+    var total = (el.textContent || '').length, corrido = 0;
+    nos.forEach(function (no) {
+      var re = /,\s+/g, m;
+      while ((m = re.exec(no.nodeValue))) {
+        var pos = corrido + m.index + 1, desequilibrio = Math.abs(total / 2 - pos);
+        if (pos < 12 || total - pos < 12) continue;
+        if (!melhor || desequilibrio < melhor.d) melhor = { no: no, i: m.index + 1, d: desequilibrio };
+      }
+      corrido += no.nodeValue.length;
+    });
+    if (!melhor) return false;
+    var resto = melhor.no.splitText(melhor.i);
+    var br = document.createElement('br'); br.className = 'qf';
+    resto.parentNode.insertBefore(br, resto);
+    if (linhas(el) === 2) return true;
+    limpa(el);
+    return false;
+  }
   function ajusta() {
     var raiz = document.querySelector('main') || document.body;
     Array.prototype.forEach.call(raiz.querySelectorAll('*'), function (el) {
@@ -440,6 +463,7 @@ document.addEventListener('click', function (ev) {
       var frases = quebra(el);
       if (frases > 0 && frases <= 2 && linhas(el) === frases + 1) return;
       limpa(el);
+      if (antes === 2 && virgula(el)) return;
       el.classList.add('curto');
     });
   }
