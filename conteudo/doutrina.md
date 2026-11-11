@@ -1109,7 +1109,7 @@ A plataforma que administra visibilidade, acesso, comparabilidade e inteligibili
 > É justamente por isso que a leitura concorrencial precisa recusar o chamado mito da concorrência (p. 770)
 >! A plataforma não precisa expulsar formalmente um concorrente para restringir sua competitividade. (p. 770)
 
-### Como isso se mostra na prática?
+### Como a plataforma distorce a concorrência sem excluir ninguém?
 
 Preferenciamento interno, autoprivilegiamento, barreiras informacionais, captura de inteligência competitiva e discriminação opaca não dependem necessariamente de exclusão ostensiva. Podem operar por microvantagens produzidas pela administração contínua da visibilidade. A plataforma define ou condiciona quais concorrentes serão visíveis, em que termos serão comparados e que dados serão extraídos da atuação deles.
 
@@ -1159,7 +1159,7 @@ Vendedores, parceiros e usuários profissionais periféricos podem seguir expost
 > Em todos esses casos, a questão juridicamente relevante está na densidade da governança da plataforma sobre sua inserção no ecossistema. (p. 778)
 >! O que decide é a estrutura real da sujeição, não a aparência contratual de horizontalidade. (p. 780)
 
-### Qual é o fundamento?
+### Em que se apoia a equiparação?
 
 O finalismo aprofundado funciona como critério de leitura, e a exposição funcional e a vulnerabilidade semiótica são dimensões da vulnerabilidade fática. A leitura funcional do art. 29 do CDC alcança quem, sem ser adquirente final clássico, está exposto às práticas comerciais, aos métodos de fornecimento e à governança privada em condição de vulnerabilidade juridicamente relevante.
 

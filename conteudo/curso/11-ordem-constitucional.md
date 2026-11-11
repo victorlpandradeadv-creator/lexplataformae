@@ -282,7 +282,7 @@ A primeira objeção é a de que a plataforma não é Estado, e a resposta, com 
 > Quando o ambiente técnico reorganiza a vulnerabilidade em escala, a reconstrução jurídica não é moralismo, mas resposta necessária para manter controláveis, em termos institucionais, os efeitos de novas formas de poder e de intrusão. (p. 348)
 >! Livre iniciativa, inovação e titularidade tecnológica não operam como salvo-condutos para inauditabilidade, irresponsabilidade blindada ou imunização contratual do fornecedor. (p. 512)
 
-## A plataforma vira Estado?
+## Até onde vai a contenção do poder da plataforma?
 
 A plataforma não precisa ser tratada como Estado para que os seus poderes sejam juridicamente conformáveis, e a contenção não exige dissolver a natureza privada da relação nem constitucionalizar toda disputa privada, porque se dirige a certos poderes exercidos por arquitetura, informação e efetivação em escala. A boa-fé impede que a liberdade de modelar o vínculo vire soberania privada, e não que essa liberdade exista. No caso Vanguard, o anti-cheat em kernel não é ilícito de modo automático, a legitimidade do combate a fraudes fica de pé, e o que se recusa é apenas a imunização jurídica de uma governança técnica profunda, persistente e opaca sobre a máquina alheia. O capítulo entrega o fundamento a partir do qual a governança de plataforma se torna juridicamente controlável, e o resultado de cada caso depende dos critérios dos capítulos sobre a auditabilidade aberta, a equivalência de valor funcional e o ilícito de arquitetura.
 

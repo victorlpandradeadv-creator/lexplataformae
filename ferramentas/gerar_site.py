@@ -742,7 +742,7 @@ CAMPOS_DIREITO = {"quando": "Como reconhecer esta situação?", "deve": "O que a
 # Revisão de rótulos de 05/11/2026, que trocou as três perguntas repetidas nos onze cartões por perguntas de cada situação.
 PERGUNTAS_DIREITO = {
     "a": {"quando": "Quando o que você comprou depende da plataforma?", "deve": "O que a plataforma deve preservar?",
-          "mostrar": "Como mostrar o que você comprou e como usa?", "pedir": "E se a empresa disser que é só serviço ou licença?",
+          "mostrar": "Como mostrar que o que você usa depende da plataforma?", "pedir": "E se a empresa disser que é só serviço ou licença?",
           "limite": "Reconhecer o produto já resolve o caso?"},
     "b": {"quando": "Quando os sinais da tela pesam contra você?", "deve": "Como a plataforma deve montar a experiência?",
           "mostrar": "Como mostrar o caminho que levou à sua decisão?", "pedir": "O que pedir quando a culpa é do ambiente?",
@@ -766,10 +766,10 @@ PERGUNTAS_DIREITO = {
           "mostrar": "Como mostrar que o problema forma um padrão?", "pedir": "Dá para pedir mais do que o conserto de um caso?",
           "limite": "Toda forma de vender e convencer é abusiva?"},
     "i": {"quando": "Quando a prova fica toda com a plataforma?", "deve": "O que a plataforma deve fazer com os registros?",
-          "mostrar": "O que você pode mostrar e o que está com a plataforma?", "pedir": "Como distribuir a prova conforme o acesso aos registros?",
+          "mostrar": "O que você pode mostrar e o que está com a plataforma?", "pedir": "O que pedir quando os registros estão com a plataforma?",
           "limite": "Você fica dispensado de contar o que aconteceu?"},
     "j": {"quando": "Quando os direitos sobre o jogo viram escudo?", "deve": "Como a empresa deve usar a exclusividade?",
-          "mostrar": "Como avaliar a justificativa para a restrição?", "pedir": "O que pedir quando a empresa invoca a obra?",
+          "mostrar": "Como mostrar se a restrição protege o jogo ou só blinda a empresa?", "pedir": "O que pedir quando a empresa invoca a obra?",
           "limite": "A empresa perde os direitos sobre o jogo?"},
     "k": {"quando": "Quando a perda pede mais do que dinheiro?", "deve": "Que resposta a plataforma deve dar?",
           "mostrar": "Como ligar a perda ao que a plataforma fez?", "pedir": "Que solução pode restaurar o que foi perdido?",
@@ -4088,8 +4088,9 @@ def gerar_instrumentos():
         pergunta_ = PERGUNTA_TERMO.get(nome)
         if not pergunta_:
             raise ValueError(f"Termo sem pergunta em conteudo/perguntas-termos.json: {nome}")
-        links = "".join(f'<a href="{prefixo}caminho/{p["slug"]}/#termo-{slug_derivado(nome)}">{esc(pergunta_)}</a>' for p in termos[nome][:1])
-        return f'<li><h3>{esc(nome)}</h3><p>{links}</p></li>'
+        p_ = termos[nome][0]
+        return (f'<li><a href="{prefixo}caminho/{p_["slug"]}/#termo-{slug_derivado(nome)}">'
+                f'<span class="termo-nome">{esc(nome)}</span><span class="termo-pergunta">{esc(pergunta_)}</span></a></li>')
     areas = [a for a in AREA_NOME if any(AREA_TERMO.get(n) == a for n in termos)]
     indice = "".join(f'<li{estilo_area(a)}><a class="chip-area" href="#{a}">{esc(AREA_NOME[a])}</a></li>' for a in areas)
     grupos = "".join(f'<section class="instrumentos-area" id="{a}"{estilo_area(a)}><h2>{esc(AREA_NOME[a])}</h2>'

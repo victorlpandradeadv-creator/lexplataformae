@@ -285,7 +285,7 @@ A categoria não diz que você comprou menos. Diz que você comprou um produto, 
 > Sob essa chave, a qualificação do OIC como produto imaterial não exige a negação da dimensão prestacional do vínculo. (p. 718)
 > A prestação não desaparece, mas comparece como modo de sustentação, atualização e conformação do próprio objeto de consumo. (p. 718)
 
-### imagem Que terreno a lei deixou demarcado em 1990?
+### imagem O que a lei de 1990 já previa e o que faltava nela?
 
 A lei demarcou um terreno em 1990, quando o Código de Defesa do Consumidor disse que produto pode ser imaterial. O espaço estava reservado, mas faltava construir nele critérios para os produtos que dependem de uma plataforma que continua mandando neles.
 
@@ -582,7 +582,7 @@ Para quem vê de fora, está tudo igual. Para você, que usava o item, algo se p
 > O nerf é o caso-limite porque mostra, com precisão, como a continuidade do nome e do acesso pode funcionar como prova autojustificante, enquanto a entrega relevante se desloca naquilo que o ambiente conta como potência e utilidade. (p. 329)
 > Vulnerabilidade semiótica nomeia, assim, esse tipo de perda estrutural de demonstrabilidade (p. 330)
 
-### importa E se o problema não for falta de atenção sua?
+### importa Por que mais informação nem sempre ajuda?
 
 Por isso mais informação nem sempre ajuda. O problema não é saber mais, e sim conseguir se orientar e reagir lá dentro.
 
@@ -1079,7 +1079,7 @@ Por isso a lei olha para o serviço inteiro, e não só para a frase que saiu na
 > Descreve ingresso em ecossistema de uso regulado, passível de condicionamento, limitação e reorganização por governança privada. (p. 758)
 > Em outras palavras, a fruição não reside apenas na resposta individual, mas no arranjo funcional que torna possível confiar, utilizar, revisar e contestar a prestação. (p. 759)
 
-### reducoes Por que uma resposta errada não resume o problema?
+### reducoes Que dois jeitos de olhar o conflito erram o alvo?
 
 Existem dois jeitos de olhar para esse conflito que parecem razoáveis, mas erram o alvo.
 

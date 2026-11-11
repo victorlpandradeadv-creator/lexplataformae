@@ -1279,6 +1279,24 @@ ul.problemas-lista { grid-template-columns: repeat(auto-fill, minmax(min(100%, 2
 .lateral-bloco a:is(:hover, :focus-visible) { color: var(--rubrica); }
 .titulo-frase { text-wrap: balance; }
 
+/* Conceitos de outros campos em faixas, por ordem do autor de 11/11/2026. O nome do conceito vem na cor da área, e a pergunta
+   que ele responde vem embaixo. A faixa inteira leva à explicação no caminho. */
+.instrumentos-lista { list-style: none; padding: 0; margin: .75rem 0 0; display: grid; gap: .5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); }
+.instrumentos-lista > li { margin: 0; padding: 0; border: 0; }
+.instrumentos-lista > li > a { display: block; position: relative; height: 100%; box-sizing: border-box;
+  padding: .8rem 2.6rem .8rem 1rem; border: 1px solid var(--linha); border-radius: 8px; background: var(--folha);
+  color: var(--tinta); text-decoration: none; transition: border-color .15s, background .15s; }
+.instrumentos-lista > li > a::after { content: "→"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%);
+  color: var(--rubrica); transition: transform .15s; }
+.instrumentos-lista > li > a:is(:hover, :focus-visible) { border-color: var(--rubrica);
+  background: color-mix(in srgb, var(--rubrica) 6%, var(--folha)); outline: none; }
+.instrumentos-lista > li > a:is(:hover, :focus-visible)::after { transform: translate(3px, -50%); }
+.instrumentos-lista .termo-nome { display: block; font-size: .85rem; font-weight: 600; color: var(--area-t, var(--tinta-2)); margin-bottom: .2rem; }
+.instrumentos-lista .termo-pergunta { display: block; font-weight: 600; line-height: 1.35; }
+.instrumentos-indice a { text-decoration: none; }
+.instrumentos-indice a:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 3px; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

@@ -1112,7 +1112,7 @@ O ponto mais importante aqui é que ninguém precisa adivinhar intenções. Não
 > Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. O foco está na finalidade funcional objetivamente inscrita no arranjo, tal como se revela por sua replicabilidade, por sua coerência interna e por seu impacto reiterado sobre a experiência do consumidor. (p. 732)
 > A categoria não depende de imputar intenção psicológica subjetiva nem de localizar um único ato como causa suficiente (p. 448)
 
-### teste A finalidade abusiva passa nas cinco perguntas?
+### teste Como saber se a finalidade do desenho é abusiva?
 
 Para não virar um rótulo que serve para tudo, a finalidade abusiva precisa passar por um teste com cinco perguntas, e todas precisam ter resposta sim.
 
@@ -1134,7 +1134,7 @@ E ela afeta de modo sério e duradouro o que você comprou, mesmo sem tirar tudo
 > A teleologia abusiva deve produzir impacto substancial e persistente nas condições práticas de uso e valor do objeto adquirido, ainda que não haja interrupção total. (p. 455)
 > A exigência impede que a categoria seja acionada por qualquer oscilação do serviço (p. 455)
 
-### limite Negócio agressivo já tem finalidade abusiva?
+### limite Todo negócio agressivo tem finalidade abusiva?
 
 Isso não é rótulo para qualquer coisa. Cobrar, convencer e governar um jogo não são abusos por si sós. Um negócio só agressivo, um desenho discutível ou um arranjo que é simplesmente eficiente para a empresa também não bastam.
 
@@ -1158,7 +1158,7 @@ Por isso se diz que, nesses casos, o desenho também é conduta. A forma como o 
 > O núcleo do parâmetro está em tratar a arquitetura como conduta. (p. 732)
 > O que se põe em questão não é o design enquanto estilo, linguagem visual ou estética de interface (p. 664)
 
-### mecanismo Tudo é inovação ou tudo está no contrato?
+### mecanismo Que dois erros esse jeito de olhar evita?
 
 Isso evita dois erros que são comuns. O primeiro é aceitar que tudo é inovação, como se o simples fato de a plataforma mudar o tempo todo a deixasse livre para rebaixar qualquer coisa. O segundo é ficar caçando cláusulas soltas no contrato, como se o serviço só pudesse ser controlado em pedaços de texto e nunca no jeito como ele funciona.
 
@@ -1433,7 +1433,7 @@ A razão é simples. Quando o que você perdeu foi a possibilidade de continuar 
 > [...] a integridade da experiência, a permanência do acesso, a inteligibilidade do vínculo ou a posição relacional do consumidor no ecossistema, a simples condenação pecuniária tende a operar como remédio pobre e estruturalmente ineficaz (p. 751)
 > O que se exige, sempre que possível, é restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança. (p. 751)
 
-### limite O dinheiro sai de cena?
+### limite A indenização em dinheiro deixa de valer?
 
 O dinheiro não sai de cena. Indenizar continua legítimo e, muitas vezes, indispensável, seja para cobrir perdas materiais, seja para reconhecer danos que não são só materiais. Ele só deixa de ser a resposta automática, como se toda perda desse tipo pudesse virar um número numa planilha, sem que ninguém olhasse para o que foi perdido.
 
