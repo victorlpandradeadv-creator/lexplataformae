@@ -380,3 +380,65 @@ document.addEventListener('click', function (ev) {
   if (window.matchMedia) { try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', pinta); } catch (e) {} }
   pinta();
 })();
+
+/* Quebras dos textos curtos. Em texto de até duas ou três linhas, cada frase que cabe inteira numa linha começa
+   numa linha própria, e o que sobra se distribui sem palavra solta na última linha. Parágrafos longos ficam como estão.
+   Revisão de quebras de 11/11/2026. */
+(function () {
+  var SEL = 'h1,h2,h3,h4,p,li,dt,dd,figcaption,summary,.porta a,.cartao a,td,th';
+  var MAX = 240;
+  var ABREV = /(?:\b(?:p|pp|art|arts|n|nº|cf|ex|Jr|Sr|Sra|Dr|Dra|v|vol|ed|No|Nos|e\.g|i\.e|etc))$/i;
+  function linhas(el) {
+    var tops = [], w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), no;
+    while ((no = w.nextNode())) {
+      if (!no.nodeValue.trim() || !no.parentElement.getClientRects().length) continue;
+      var cs = getComputedStyle(no.parentElement);
+      if (cs.visibility === 'hidden' || cs.position === 'absolute') continue;
+      var r = document.createRange(); r.selectNodeContents(no);
+      Array.prototype.forEach.call(r.getClientRects(), function (x) {
+        if (x.width < 1) return;
+        if (!tops.some(function (t) { return Math.abs(t - x.top) < x.height * 0.5; })) tops.push(x.top);
+      });
+    }
+    return tops.length;
+  }
+  function limpa(el) {
+    el.querySelectorAll('br.qf').forEach(function (b) { b.remove(); });
+    el.normalize();
+    el.classList.remove('curto');
+  }
+  function quebra(el) {
+    var n = 0, w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nos = [], t;
+    while ((t = w.nextNode())) nos.push(t);
+    nos.forEach(function (no) {
+      var re = /([.?!])(\s+)(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ“"(¿¡])/g, m, s = no.nodeValue, cortes = [];
+      while ((m = re.exec(s))) { if (!ABREV.test(s.slice(0, m.index))) cortes.push(m.index + 1); }
+      for (var i = cortes.length - 1; i >= 0; i--) {
+        var resto = no.splitText(cortes[i]);
+        var br = document.createElement('br'); br.className = 'qf';
+        resto.parentNode.insertBefore(br, resto); n++;
+      }
+    });
+    return n;
+  }
+  function ajusta() {
+    document.querySelectorAll(SEL).forEach(function (el) {
+      if (!el.offsetParent || el.closest('.tese-texto, pre, code')) return;
+      if (el.querySelector('p,li,div,ul,ol,h1,h2,h3,h4,br:not(.qf)')) return;
+      limpa(el);
+      var txt = (el.textContent || '').trim();
+      if (txt.length > MAX) return;
+      var antes = linhas(el);
+      if (antes < 2) return;
+      var frases = quebra(el);
+      if (frases > 0 && frases <= 2 && linhas(el) === frases + 1) return;
+      limpa(el);
+      el.classList.add('curto');
+    });
+  }
+  var espera;
+  function agenda() { clearTimeout(espera); espera = setTimeout(ajusta, 120); }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(ajusta); else ajusta();
+  window.addEventListener('resize', agenda);
+  document.addEventListener('click', function () { setTimeout(ajusta, 60); });
+})();

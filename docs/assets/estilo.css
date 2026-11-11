@@ -1250,6 +1250,9 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 
 ins.correcao{text-decoration:underline dotted;text-underline-offset:.2em;background:none}
 
+/* Quebras dos textos curtos, 11/11/2026. */
+.curto { text-wrap: balance !important; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

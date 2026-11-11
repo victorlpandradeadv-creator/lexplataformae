@@ -1031,3 +1031,6 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 @media (max-width: 900px) { .topo .topo-marca { order: 1; margin-right: auto; } .topo .tema, .topo .idioma { order: 2; } .topo .integral { margin-left: 0; } }
 
 ins.correcao{text-decoration:underline dotted;text-underline-offset:.2em;background:none}
+
+/* Quebras dos textos curtos, 11/11/2026. */
+.curto { text-wrap: balance !important; }
