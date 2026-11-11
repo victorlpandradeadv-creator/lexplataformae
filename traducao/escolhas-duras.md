@@ -5,7 +5,7 @@ Versão inglesa de 10/11/2026. Tudo está aplicado como descrito, e cada item mu
 1. OIC virou IOC, Immaterial Object of Consumption, porque é o que o abstract faz. A alternativa é manter OIC como sigla própria em qualquer idioma.
 2. Lei da plataforma virou the law of the platform. Platform law, em inglês, quer dizer o direito que regula plataformas, e diria o contrário.
 3. Ilícito de arquitetura virou unlawful act of architecture, por simetria com o unlawful act of abusive teleology do abstract. O abstract não traz o ilícito de arquitetura sozinho.
-4. Os modos viraram Information, Doctrine e Science. No common law, doctrine quer dizer regra assentada, e não a doutrina dos autores. Science soa estranho para Direito. Alternativas são Scholarship no lugar de Science e Legal doctrine no lugar de Doctrine.
+4. Decidido pelo autor em 11/11/2026. Os modos são Information, Doctrine e Scholarship. Doctrine se sustenta porque o site se apresenta como Direito brasileiro e o comparatista entende o termo. Scholarship diz ao leitor de fora o que o modo traz, que é método, fontes e arquitetura do argumento.
 5. Caminho virou Path, por decisão do autor de 10/11/2026. O caminho da skin é the path of the skin.
 6. Vício e defeito viraram quality defect e safety defect, para manter a distinção do CDC. Fato do produto virou product-caused accident.
 7. Decidido pelo autor em 11/11/2026. O site traduz a tese, e não as obras citadas. O que está em português no meio do texto é a leitura do autor, pelo método do capítulo 2, que trata os referenciais como instrumentos, e por isso vai traduzido como texto dele. As citações literais em língua estrangeira ficam como a tese as traz.

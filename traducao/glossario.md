@@ -118,7 +118,7 @@ Statute text quoted on the site is an unofficial translation. Keep article numbe
 | Modo | Mode |
 | Informação | Information |
 | Doutrina | Doctrine |
-| Ciência | Science |
+| Ciência | Scholarship |
 | Problemas | Problems |
 | Direitos, Seus direitos | Rights, Your rights |
 | Caminho | Path (decision of the author, 10/11/2026) |
@@ -162,7 +162,7 @@ Statute text quoted on the site is an unofficial translation. Keep article numbe
 - No didactic imperatives (Think, Imagine, Notice, See) unless the Portuguese has them.
 - Never promise outcomes. "Asking is no guarantee of getting."
 - Never conclude that a company or platform is abusive. Keep every modal and caveat ("may", "can", "possibly"). Never upgrade a possibility to a certainty.
-- The site does not attribute the doctrine to "the thesis" outside Science and the full text. Do not add such attributions.
+- The site does not attribute the doctrine to "the thesis" outside Scholarship and the full text. Do not add such attributions.
 - Keep the thesis title in Portuguese where it appears as a bibliographic title, followed by the English title in brackets only where the Portuguese page shows the title as running text.
   English title. On the legal regime of the Immaterial Object of Consumption (IOC) under the Lex Plataformae. The protection of the consumer's semiotic vulnerability in light of Brazil's constitutional and economic order.
 
