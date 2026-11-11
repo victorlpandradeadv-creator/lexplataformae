@@ -118,7 +118,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7.1.3 | Das diretrizes para controle de arquitetura e governança | 748 a 752 | 8 | 30 | Roteiro (As dez diretrizes de controle) |
 | 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | 13 | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
 | 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 10 | 8 | Laboratório (A sequência de cada família) |
-| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 25 | 17 | Laboratório (Família de plataforma) |
+| 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 44 | 17 | Laboratório (Família de plataforma) |
 | 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 30 | 17 | Laboratório (Família de plataforma) |
 | 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 26 | 17 | Laboratório (Família de plataforma) |
 | 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 7 | 12 | Laboratório (Desdobramento da tipologia) |

@@ -2596,14 +2596,28 @@ def gerar_laboratorio():
                 b = e.get(campo_)
                 if not b:
                     return ""
-                return (f'<section class="ext familia-passo"><h2 class="rotulo-ext">{esc(b.get("pergunta", ""))}</h2>'
-                        + "".join(f"<p>{esc(t)}</p>" for t in b["paragrafos"]) + expansao(b["citacoes"], prefixo) + "</section>")
+                # Linhas com hífen viram lista, e **trecho** no começo do parágrafo vira o destaque dele. 11/11/2026.
+                partes_, lista_ = [], []
+                def fecha_lista():
+                    if lista_:
+                        partes_.append("<ul>" + "".join(f"<li>{x}</li>" for x in lista_) + "</ul>")
+                        lista_.clear()
+                for t in b["paragrafos"]:
+                    h = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc(t))
+                    if t.startswith("- "):
+                        lista_.append(h[2:])
+                    else:
+                        fecha_lista()
+                        partes_.append(f"<p>{h}</p>")
+                fecha_lista()
+                return (f'<section class="ext familia-passo familia-{campo_}"><h2 class="rotulo-ext">{esc(b.get("pergunta", ""))}</h2>'
+                        + "".join(partes_) + expansao(b["citacoes"], prefixo) + "</section>")
             externo = (f'<a class="voltar" href="../">← Todas as plataformas</a>'
                        f'<header class="folha-cabeca ext-cabeca"><h1><span class="em-modo modo-0 modo-2">{esc(ext_texto(slug, "titulo"))}</span>'
                        f'<span class="em-modo modo-1">{esc(titulo_site(sec["titulo"]))}</span></h1></header>'
                        '<div class="pilha em-modo modo-0 modo-2">'
                        f'<section class="ext">{ext_html(slug, "resumo", prefixo)}</section>'
-                       + figura(f"familia-{slug}", prefixo) + bloco_familia("prova") + bloco_familia("resposta") + "</div>")
+                       + figura(f"familia-{slug}", prefixo) + "".join(bloco_familia(c_) for c_ in e if c_ not in ("titulo", "resumo")) + "</div>")
         outras = [(ext_texto(s2, "titulo"), f"../{s2}/") for _, s2 in FAMILIAS if s2 != slug and ext_texto(s2, "titulo")]
         fecho_familia = (saidas_html([("Seus direitos", f"{prefixo}direitos/"), ("Qual é o seu problema?", f"{prefixo}problemas/")] + outras)
                          + f'<section class="ext duvida">{botao_desnudar(True)}</section>')

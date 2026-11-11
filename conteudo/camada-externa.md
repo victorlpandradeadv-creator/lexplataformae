@@ -1047,35 +1047,133 @@ E quando o assistente que você usa muda de comportamento?
 
 ### resumo
 
-Um assistente de inteligência artificial não entrega só respostas soltas. Ele organiza como você entende um problema, em que você confia e como você decide. Você incorpora o que ele diz ao seu trabalho, revê, corrige e volta a perguntar.
+Você pergunta, o assistente responde, e você usa a resposta para decidir alguma coisa, seja escrever um texto, resolver uma dúvida de trabalho ou entender um contrato.
 
-Por isso o problema não se resume a uma resposta errada aqui e ali, nem ao contrato de licença do programa. O que importa é a confiança que sustenta o uso e a possibilidade de reconstruir o que aconteceu. Quando a qualidade muda, a pergunta é a mesma da skin. O que foi prometido, o que mudou e qual foi o efeito sobre quem dependia do serviço?
+Um dia ele passa a errar mais, a responder diferente ou a recusar o que antes fazia, e você não tem como saber o que mudou nem por quê.
 
+> Ela depende da continuidade do sistema, da estabilidade relativa da interface, da manutenção das condições de acesso, do modelo de apresentação das respostas, das advertências, dos limites contextuais, dos mecanismos de memória ou histórico quando existentes, e das regras privadas que estruturam o próprio campo de uso. (p. 759)
+
+### usa O que você está usando, afinal?
+
+Não importa se o serviço se chama inteligência artificial, assistente, chat ou ferramenta de produtividade. O nome não decide nada. O que decide é como o serviço funciona por dentro e quem controla esse funcionamento ao longo do tempo.
+
+E o serviço não entrega respostas soltas, como uma enciclopédia entregaria um verbete. Ele escolhe o que dizer, em que ordem e com que tom, e assim organiza o jeito como você entende o problema que levou até ele.
+
+Você confia na resposta, coloca essa resposta no seu trabalho, revê, corrige e volta a perguntar. O valor do serviço está justamente aí, porque ele não só responde, mas faz você tratar a resposta como um bom ponto de partida para agir.
+
+> A incidência do regime do Objeto Imaterial de Consumo sobre serviços de funcionalidade cognitiva não se define pelo rótulo de “inteligência artificial”, de “assistente”, de “chat” ou de “ferramenta de produtividade”, mas pela estrutura de governança que modula, no tempo, a utilidade entregue e a possibilidade de reconstruir promessa, alteração e impacto funcional por evidência acessível. (p. 757)
 > O que se oferece é ambiente de orientação cognitiva. (p. 757)
 > Trata-se de infraestrutura funcional que organiza como o usuário compreende o problema submetido, confia na resposta recebida, a incorpora à sua tomada de decisão, a revê, a corrige ou a reavalia diante de erro, oscilação ou mudança de desempenho. (p. 757)
-> A primeira é tratar o conflito como mera discussão sobre erro factual isolado (p. 757)
+> Consome um arranjo privado de seleção, formulação, priorização, síntese, linguagem de interface e apresentação de respostas que organiza a própria experiência do saber útil. (p. 758)
+> O serviço vale não apenas porque responde, mas porque induz o usuário a tratar a resposta como ponto relevante de orientação. (p. 758)
+
+### programa Por que isso não é só um programa que você usa?
+
+Os próprios termos de uso dos grandes assistentes mostram que você não recebe uma ferramenta pronta e parada. Você entra num ambiente regido por regras, políticas e diretrizes da empresa, que ela pode mudar, limitar e reorganizar quando quiser.
+
+O que você usa depende de muita coisa que fica do lado de lá. Depende de o sistema continuar no ar, da tela continuar parecida, das condições de acesso, dos avisos que aparecem, da memória da conversa quando ela existe e das regras internas do serviço.
+
+Por isso a lei olha para o serviço inteiro, e não só para a frase que saiu na tela.
+
+> Em ambos os casos, a moldura contratual não descreve apenas acesso a ferramenta estática. (p. 758)
+> Descreve ingresso em ecossistema de uso regulado, passível de condicionamento, limitação e reorganização por governança privada. (p. 758)
+> Em outras palavras, a fruição não reside apenas na resposta individual, mas no arranjo funcional que torna possível confiar, utilizar, revisar e contestar a prestação. (p. 759)
+
+### reducoes Por que uma resposta errada não resume o problema?
+
+Existem dois jeitos de olhar para esse conflito que parecem razoáveis, mas erram o alvo.
+
+O primeiro é achar que tudo se resume a saber se uma resposta específica estava certa ou errada. Só que o que você comprou não foi uma resposta, foi a orientação continuada que o serviço oferece.
+
+O segundo é tratar o caso como um simples contrato de licença de programa, como se você tivesse instalado um software no computador. Isso esconde que o serviço muda o tempo todo, e que quem muda é a empresa.
+
+> A primeira é tratar o conflito como mera discussão sobre erro factual isolado, como se a utilidade do serviço se resumisse à correção abstrata de cada resposta individual. (p. 757)
 > A segunda é reduzir a análise ao vocabulário contratual genérico do licenciamento de software ou da prestação técnica de suporte informacional. (p. 757)
-> a possibilidade institucional de reconstruir o nexo entre promessa, entrega, alteração e impacto (p. 757)
+> Nenhuma das duas leituras alcança o problema central. (p. 757)
+
+### formas Como o problema costuma aparecer?
+
+**Quando a resposta parece mais segura do que é.** O texto vem bem escrito, organizado e confiante, e passa uma impressão de certeza que o serviço não consegue sustentar.
+
+**Quando você não consegue entender o que aconteceu.** Você não sabe por que recebeu aquela resposta, se o serviço mudou de comportamento ou o que influenciou o resultado que orientou a sua decisão.
+
+**Quando as provas ficam todas com a empresa.** O histórico, o contexto da conversa e os registros internos estão com quem fornece o serviço, e não com você.
+
+Nada disso precisa ser uma mentira direta para contar. Basta que o serviço troque clareza por aparência de confiança e deixe você sozinho com o custo do erro, da mudança ou da perda.
+
+> Pode haver ruído informacional quando a arquitetura da resposta projeta aparência de segurança, completude ou suficiência incompatível com os limites reais da prestação. (p. 759)
+> Pode haver opacidade funcional quando o usuário não consegue reconstruir, em termos minimamente verificáveis, por que determinada saída lhe foi apresentada, em que medida houve alteração relevante do comportamento do sistema ou quais elementos do ambiente condicionaram a resposta que orientou sua conduta. (p. 759)
+> Pode haver, ainda, assimetria probatória aguda quando o impacto funcional da prestação depender de histórico, contexto interacional, parâmetros internos ou registros que permanecem concentrados no fornecedor. (p. 759)
+> Nesses cenários, a lesão não precisa aparecer como mentira direta para ser juridicamente relevante. (p. 759)
+> Basta que o ambiente substitua legibilidade por performance de confiança, deslocando para o usuário o custo de suportar erro, revisão, oscilação ou perda funcional sem trilhas institucionais adequadas de reconstrução. (p. 759)
+
+### nome Isso tem nome
+
+**Vulnerabilidade semiótica.** É a desvantagem de quem precisa confiar em sinais que outra pessoa controla. Aqui ela fica maior, porque você depende do assistente para entender as coisas e não tem como conferir os sinais de que a resposta é boa, completa e suficiente.
+
+> É vulnerabilidade semiótica intensificada por dependência epistêmica, isto é, por sujeição a ambiente que administra os signos da confiabilidade, da utilidade e da suficiência da resposta sem franquear, na mesma medida, meios de verificação e auditoria ao destinatário. (p. 758)
 
 ### prova Como provar que o assistente mudou?
 
-Uma resposta errada, sozinha, diz pouco. O que conta é reconstruir o caminho inteiro, com o histórico da conversa, os avisos que apareceram ou faltaram, o jeito como a resposta foi apresentada e o peso que ela teve na sua decisão.
+Uma resposta errada, sozinha, diz pouco. O que conta é reconstruir o caminho inteiro.
 
-Um aviso genérico de que o sistema pode errar não resolve tudo. E a variação do assistente não é um fato da natureza, porque o comportamento dele é governado por alguém. Por isso, quem fornece o serviço precisa guardar o mínimo que permita reconstruir o que aconteceu.
+- O histórico da conversa, com as perguntas e as respostas.
+- O contexto em que você usou o serviço.
+- Os avisos que apareceram ou que faltaram.
+- O jeito como a resposta foi apresentada.
+- O papel que a resposta teve na sua decisão.
+
+Guarde o que puder enquanto ainda está acessível, como capturas de tela, conversas exportadas e datas.
 
 > A evidência relevante tende a exigir reconstrução da jornada informacional, do contexto de uso, do histórico interacional disponível, das advertências presentes ou ausentes, da forma de apresentação da resposta e da função prática que ela exerceu na decisão do usuário. (p. 759-760)
+
+### armadilhas Quais armadilhas fazem você desistir cedo demais?
+
+**Achar que o problema é só a frase.** A frase convenceu você porque o serviço inteiro foi feito para parecer confiável, e isso também conta.
+
+**Achar que o aviso de que o sistema pode errar resolve tudo.** Um aviso genérico não basta, sozinho, para afastar qualquer problema com a informação que você recebeu.
+
+**Achar que a variação é coisa da técnica, como o tempo que muda.** O comportamento do assistente é governado pela empresa, e por isso a falta de clareza sobre ele precisa ter um limite.
+
+> O primeiro é a tendência de reduzir o conflito à frase emitida, ignorando a arquitetura semiótica que a tornou confiável ou operacional. (p. 760)
 > O segundo é a tendência de presumir que avisos genéricos sobre limitações do sistema bastariam, por si, para neutralizar qualquer problema de adequação informacional. (p. 760)
 > O terceiro é a tendência de tratar a variabilidade do modelo como fato bruto da técnica, e não como elemento governado cuja opacidade precisa ser juridicamente suportável. (p. 760)
+
+### deve O que a empresa deve garantir?
+
+Ninguém pode exigir que a empresa abra o código ou mostre como o sistema funciona por dentro. Mas, num serviço feito para orientar você, ela precisa garantir um mínimo que permita conferir o que aconteceu.
+
+Conforme o caso, isso inclui manter o histórico acessível, guardar registros mínimos da conversa e dizer com clareza os limites que realmente importam. Inclui também avisar de forma compreensível quando as regras de uso mudam e permitir reconstruir a ligação entre o que o serviço prometia e o efeito que ele teve.
+
+Sem isso, a empresa fica com dois poderes ao mesmo tempo. O de orientar você e o de decidir sozinha o que poderá ser contado e provado quando a orientação falhar.
+
+> Não se trata de exigir abertura irrestrita de modelo, código ou arquitetura interna. (p. 759)
 > Trata-se de reconhecer que, em serviços cuja utilidade consiste em orientar cognitivamente o usuário, deve haver verificabilidade institucional mínima sobre aspectos relevantes da prestação. (p. 759)
+> Isso inclui, conforme o caso, preservação de histórico acessível, rastros mínimos de interação, explicitação suficiente de limites materialmente relevantes, inteligibilidade sobre alterações de regime de uso e possibilidade de reconstruir o nexo entre promessa funcional do serviço e impacto produzido na experiência do usuário. (p. 759)
+> Sem isso, a plataforma retém não apenas o poder de fornecer orientação, mas também o poder de definir unilateralmente o que poderá ser narrado e provado quando essa orientação se mostrar inadequada, inconsistente ou lesiva. (p. 759)
 
 ### resposta O que pedir quando a confiança é quebrada?
 
-A resposta mais adequada costuma ser corrigir o que falhou, e não só pagar pelo prejuízo. Pode caber exigir registros que deem para conferir, rever o jeito como o serviço se comunica e recompor a confiança que foi perdida.
+A resposta mais adequada costuma ser corrigir o que falhou, e não só pagar pelo prejuízo. Pode caber pedir registros que deem para conferir, que a empresa reveja o jeito como o serviço se comunica e que a confiança perdida seja recomposta.
 
-Nos casos mais graves, quando a falta de transparência deixa de ser um resto técnico e passa a fazer parte do modo de explorar o serviço, a própria finalidade do desenho pode entrar em discussão.
+Nos casos mais graves, quando o serviço explora a sua confiança de forma repetida sem dar meios de conferir e contestar, a própria finalidade do desenho pode entrar em discussão. Isso vale sobretudo quando a falta de clareza não é um resto técnico, mas parte estável do jeito de lucrar com o serviço.
 
 > A resposta institucional mais adequada tenderá a privilegiar correção procedimental, reforço de trilhas verificáveis, revisão do arranjo comunicacional e recomposição funcional da confiança lesada, em vez de mera monetização abstrata do conflito. (p. 760)
-> [...] pode haver espaço para leitura em chave de teleologia abusiva, especialmente se a opacidade não for mero resíduo técnico, mas parte estável do modo de exploração do ambiente. (p. 760)
+> Em hipóteses mais graves, sobretudo quando a arquitetura do serviço administrar de forma reiterada confiança prática sem instrumentos proporcionais de reconstrução e contestação, pode haver espaço para leitura em chave de teleologia abusiva, especialmente se a opacidade não for mero resíduo técnico, mas parte estável do modo de exploração do ambiente. (p. 760)
+
+### teste Como saber se é o seu caso?
+
+Responda para você mesmo.
+
+- Você usava o serviço para decidir ou trabalhar, e não só por curiosidade?
+- A qualidade, o comportamento ou as regras mudaram sem explicação clara?
+- Você não consegue reconstruir o que aconteceu sem os registros da empresa?
+- A mudança teve efeito concreto sobre o que você fez ou perdeu?
+
+Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqui. Isso não garante o resultado, mas mostra por onde começar.
+
+> A fruição, aqui, deve ser lida como fruição cognitiva governada. (p. 758)
+> O que está em jogo não é apenas o conteúdo emitido, mas o regime de confiança funcional em que esse conteúdo é recebido, utilizado e convertido em conduta. (p. 758)
 
 ## infraestrutura-e-intermediacao
 
