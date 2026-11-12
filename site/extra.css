@@ -1084,3 +1084,78 @@ ul.problemas-lista { grid-template-columns: repeat(auto-fill, minmax(min(100%, 2
 .instrumentos-lista .termo-pergunta { display: block; font-weight: 600; line-height: 1.35; }
 .instrumentos-indice a { text-decoration: none; }
 .instrumentos-indice a:is(:hover, :focus-visible) { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Esquemas didáticos, em estrutura/esquemas.md e ferramentas/esquemas.py. 12/11/2026.
+   HTML com a gramática comum. Caixa de contorno fino, destaque no azul da tese para o que entra no regime,
+   saída em fundo de campo, atenção na rubrica. Setas desenhadas em CSS. Abaixo de 600px, uma coluna só. */
+.esquema { margin: 2rem 0; padding: 1.25rem 1.25rem 1rem; border: 1px solid var(--linha); border-radius: 8px; background: var(--folha); }
+.esquema .esq-titulo { font-family: var(--serifa); font-weight: 600; font-size: 1.15rem; line-height: 1.3; margin: 0 0 1rem; color: var(--tinta); }
+.esq-caixa { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.65rem 0.8rem; border: 1px solid var(--traco); border-radius: 8px; background: var(--folha); }
+.esq-nome { font-weight: 600; font-size: 0.98rem; line-height: 1.3; color: var(--tinta); }
+.esq-num { color: var(--tese-texto); }
+.esq-texto { font-size: 0.9rem; line-height: 1.4; color: var(--tinta-2); }
+.esq-caixa ul { margin: 0.35rem 0 0; padding-left: 1.1rem; font-size: 0.9rem; line-height: 1.4; color: var(--tinta); }
+.esq-caixa li + li { margin-top: 0.25rem; }
+.esq-ref { font-size: 0.75rem; color: var(--tinta-2); }
+.esq-caixa li .esq-ref { margin-left: 0.35rem; }
+.esq-caixa.destaque { border: 2px solid var(--tese-linha); background: color-mix(in srgb, var(--tese-linha) 9%, var(--folha)); }
+.esq-caixa.saida { background: var(--campo); border-color: var(--linha); }
+.esq-caixa.atencao { border: 1px dashed var(--traco); }
+.esq-caixa.atencao > .esq-texto { color: var(--rubrica); font-weight: 600; }
+.esq-nota { margin: 1rem 0 0; font-size: 0.9rem; line-height: 1.45; color: var(--tinta-2); }
+.esq-desce, .esq-lado { position: relative; font-size: 0.8rem; color: var(--tinta-2); }
+
+/* Árvore. Perguntas na primeira coluna, o não à direita, o sim descendo até a caixa de destaque. */
+.esq-arvore { display: grid; grid-template-columns: minmax(0, 1fr) 4.5rem minmax(0, 16rem); column-gap: 0; }
+.esq-arvore .esq-q, .esq-arvore .esq-desce, .esq-arvore .esq-sim-caixa { grid-column: 1; }
+.esq-arvore .esq-lado { grid-column: 2; align-self: center; height: 1px; background: var(--traco); margin-right: 6px; }
+.esq-arvore .esq-lado::after { content: ""; position: absolute; right: -6px; top: -4px; border: 4.5px solid transparent; border-left: 6px solid var(--traco); }
+.esq-arvore .esq-lado span { position: absolute; bottom: 4px; left: 50%; transform: translateX(-50%); }
+.esq-arvore .esq-nao-caixa { grid-column: 3; display: flex; }
+.esq-arvore .esq-nao-caixa .esq-caixa { flex: 1; }
+.esq-arvore .esq-desce { height: 1.9rem; }
+.esq-arvore .esq-desce::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 6px; width: 1px; background: var(--traco); }
+.esq-arvore .esq-desce::after { content: ""; position: absolute; left: calc(50% - 4px); bottom: 0; border: 4.5px solid transparent; border-top: 6px solid var(--traco); border-bottom: 0; }
+.esq-arvore .esq-desce span { position: absolute; left: calc(50% + 0.5rem); top: 0.3rem; }
+
+/* Fluxo. O portão com os campos, os dois ramos e as duas saídas lado a lado. */
+.esq-portao { list-style: none; margin: 0; padding: 0.75rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem;
+  border: 2px solid var(--tinta-2); border-radius: 8px; }
+.esq-portao > li { display: flex; margin: 0; }
+.esq-portao > li .esq-caixa { flex: 1; }
+.esq-ramos { display: grid; grid-template-columns: 1fr 1fr; }
+.esq-ramo { position: relative; height: 2.4rem; font-size: 0.8rem; color: var(--tinta-2); text-align: center; }
+.esq-ramo::before { content: ""; position: absolute; left: 50%; top: 0; bottom: 6px; width: 1px; background: var(--traco); }
+.esq-ramo::after { content: ""; position: absolute; left: calc(50% - 4px); bottom: 0; border: 4.5px solid transparent; border-top: 6px solid var(--traco); border-bottom: 0; }
+.esq-ramo { padding: 0.55rem 0 0 calc(50% + 0.5rem); text-align: left; }
+.esq-saidas { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+
+/* Colunas. Os dois lados e, no meio, a ponte, ligada a cada lado por um traço tracejado. */
+.esq-colunas { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr) minmax(0, 1fr); gap: 1.75rem; align-items: stretch; }
+.esq-colunas > .esq-caixa.lado { justify-content: flex-start; }
+.esq-ponte { position: relative; display: flex; }
+.esq-ponte > .esq-caixa { flex: 1; }
+.esq-ponte::before, .esq-ponte::after { content: ""; position: absolute; top: 50%; width: 1.75rem; border-top: 1px dashed var(--traco); }
+.esq-ponte::before { right: 100%; }
+.esq-ponte::after { left: 100%; }
+
+@media (max-width: 600px) {
+  .esquema { padding: 1rem 0.85rem 0.85rem; }
+  .esq-arvore { grid-template-columns: minmax(0, 1fr); }
+  .esq-arvore .esq-lado { grid-column: 1; height: auto; background: none; margin: 0.25rem 0 0; text-align: right; }
+  .esq-arvore .esq-lado::after { display: none; }
+  .esq-arvore .esq-lado span { position: static; transform: none; }
+  .esq-arvore .esq-q, .esq-arvore .esq-lado, .esq-arvore .esq-desce, .esq-arvore .esq-sim-caixa, .esq-arvore .esq-nao-caixa { grid-row: auto !important; }
+  .esq-arvore .esq-nao-caixa { grid-column: 1; margin-top: 1rem; }
+  .esq-portao, .esq-saidas, .esq-colunas { grid-template-columns: minmax(0, 1fr); }
+  .esq-ramos { display: none; }
+  .esq-saidas { margin-top: 1rem; }
+  .esq-colunas { gap: 1rem; }
+  .esq-ponte::before, .esq-ponte::after { left: 50%; right: auto; top: auto; width: 0; height: 1rem; border-top: 0; border-left: 1px dashed var(--traco); }
+  .esq-ponte::before { bottom: 100%; }
+  .esq-ponte::after { top: 100%; }
+}
+.esquema .so-estreito { display: none; }
+.esq-ramo-rotulo { margin: 0 0 0.3rem; font-size: 0.8rem; color: var(--tinta-2); }
+@media (max-width: 600px) { .esquema .so-estreito { display: inline; } .esquema p.so-estreito { display: block; } }
+@media print { .esquema { break-inside: avoid; } }

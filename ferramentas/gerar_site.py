@@ -16,6 +16,7 @@ import unicodedata
 from pathlib import Path
 
 import disposicao
+import esquemas
 
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
@@ -1528,6 +1529,8 @@ def bloco_percurso(b, prefixo):
                 f'<a href="{prefixo}plataformas/{arg}/">{esc(titulo)}</a></h2>{texto}{exp}</section>')
     if tipo == "ilustracao":
         return figura(arg, prefixo)
+    if tipo == "esquema":
+        return esquemas.esquema(arg, prefixo, esc, pg, expansao)
     if tipo in ("imagem", "mecanismo", "caso", "teste"):
         return f'<section class="ext didatico {tipo}"><p class="rotulo-ext">{esc(rotulo)}</p>{texto}{exp}</section>'
     if tipo == "limite":
@@ -2382,6 +2385,7 @@ def gerar_roteiro():
         + nav_roteiro("7.1.2", prefixo)
         + doutrina_html("situacoes abertura", prefixo)
         + como_usar
+        + esquemas.esquema("d1-portao", prefixo, esc, pg, expansao)
         + f'<nav class="bloco indice-roteiro" aria-label="As situações"><h2>As onze situações</h2><ol>{indice}</ol></nav>'
         + "".join(secoes)
         + doutrina_html("situacoes fecho", prefixo)

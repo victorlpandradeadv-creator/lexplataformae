@@ -213,6 +213,8 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 > O roteiro de qualificação deve exigir a demonstração de um padrão de degradação que não se confunde com variações ordinárias, instabilidades pontuais ou ajustes neutros de interface. (p. 429)
 > A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime (p. 429)
 
+### esquema i1-caso-entra
+
 ### limite Todo incômodo com o jogo vira direito?
 
 E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
@@ -1401,6 +1403,9 @@ Nada disso é automático. Há quem defenda que a inversão deveria valer sempre
 > Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido. (p. 736)
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 > O sinal mínimo de prova exige comparação funcional entre o antes e o depois, exame de versões relevantes, identificação do núcleo de utilidade afetado e avaliação do papel do objeto na experiência (p. 672)
+
+
+### esquema i4-quem-guarda
 
 ### caso Quem paga quando a fraude passa por uma função oficial do jogo?
 
