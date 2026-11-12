@@ -3656,7 +3656,7 @@ def gerar_autores():
         links_onde = [f'<a href="{prefixo}tese/{x}/" title="{esc(POR_SLUG[x]["titulo"])}">{esc(POR_SLUG[x]["n"] or POR_SLUG[x]["titulo"])}</a>' for x in maiores if x in POR_SLUG]
         onde = ", ".join(links_onde[:-1]) + (" e " if len(links_onde) > 1 else "") + (links_onde[-1] if links_onde else "")
         area_txt = "Fontes do objeto e do laboratório" if a["area"] == "laboratorio" else AREA_NOME.get(a["area"], a["area"])
-        dados_autor = [f'{len(fichas)} {"trecho" if len(fichas) == 1 else "trechos"} na tese', esc(area_txt)]
+        dados_autor = [f'{len(fichas)} {"trecho" if len(fichas) == 1 else "trechos"} na tese' if fichas else 'Na lista de referências', esc(area_txt)]
         if onde:
             dados_autor.append(f'{"mais presente em" if len(maiores) > 1 else "em"} {onde}')
         abertura_autor = f'<p class="abertura-pagina dados-autor">{" · ".join(dados_autor)}</p>'
@@ -3673,7 +3673,7 @@ def gerar_autores():
         destino.mkdir(parents=True, exist_ok=True)
         a["citacoes"] = len(fichas)
         (destino / "index.html").write_text(
-            pagina(f'{a["nome"]} · Autores · Lex Plataformae', f'{a["nome"]} na tese. As obras da lista de referências e os {len(fichas)} trechos em que a tese o cita.',
+            pagina(f'{a["nome"]} · Autores · Lex Plataformae', (f'{a["nome"]} na tese. As obras da lista de referências e ' + ('o trecho em que a tese o cita.' if len(fichas) == 1 else f'os {len(fichas)} trechos em que a tese o cita.') if fichas else f'{a["nome"]} na tese. As obras da lista de referências.'),
                    corpo, prefixo, f'autores/{a["slug"]}/', jsonld, camada="ciencia", superficie=prefixo,
                    irmas=(f'Também em {area_txt}', [(esc(x["nome"]), f'../{x["slug"]}/', x is a) for x in mesma_area(a)])), encoding="utf-8")
     secoes = []

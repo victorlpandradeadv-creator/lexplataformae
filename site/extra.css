@@ -1239,3 +1239,9 @@ body:not(:has(#nivel-2:checked)) .rodape > * { justify-self: auto; }
 :is(.termos-lista, .autores-lista, .conceitos-lista) a { display: inline-block; padding: .2rem .6rem; border: 1px solid var(--linha);
   border-radius: 999px; text-decoration: none; font-size: .92rem; line-height: 1.5; }
 :is(.termos-lista, .autores-lista, .conceitos-lista) a:is(:hover, :focus-visible) { border-color: currentColor; outline: none; }
+/* Endereços e palavras longas não estouram a largura no celular. Conferência visual de 12/11/2026. */
+@media (max-width: 700px) {
+  main, .folha, .folha * { overflow-wrap: anywhere; min-width: 0; }
+  main, .folha, .coluna-texto { max-width: 100%; }
+  .folha table { display: block; max-width: 100%; overflow-x: auto; }
+}
