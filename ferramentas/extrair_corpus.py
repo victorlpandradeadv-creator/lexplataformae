@@ -291,6 +291,15 @@ def main():
     faltando = [s["n"] or s["titulo"] for s in secoes if not s["blocos"]]
     dados = {"fonte": PDF.name, "deslocamento": DESLOCAMENTO, "secoes": secoes, "resumo": ler_resumo(doc),
              "epigrafe_abertura": [e for e in EPIGRAFES["epigrafes"] if e["pagina_pdf"] < PRIMEIRA + DESLOCAMENTO]}
+    # Parágrafo que começa por pontuação continua o anterior, partido pelo itálico no fim da linha (6.2.4.3.1, p. 610). 12/11/2026.
+    for sec in secoes:
+        novos = []
+        for b in sec["blocos"]:
+            if novos and b["tipo"] == "p" and novos[-1]["tipo"] == "p" and re.match(r"^[.,;:]", b["html"]):
+                novos[-1]["html"] = re.sub(r"\s+(</em>)?$", r"\1", novos[-1]["html"]) + b["html"]
+            else:
+                novos.append(b)
+        sec["blocos"] = novos
     SAIDA.write_text(json.dumps(dados, ensure_ascii=False), encoding="utf-8")
     total_notas = sum(len(s["notas"]) for s in secoes)
     print(f"{len(secoes)} seções, {total_notas} notas, {len(notas)} notas lidas. Seções vazias {faltando}")

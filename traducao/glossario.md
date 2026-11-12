@@ -215,4 +215,5 @@ When the thesis quotes a foreign author in Portuguese translation (Postman, Han,
 | vício redibitório | redhibitory defect |
 | consumerista | consumer-law (adjective) |
 | conceito-infraestrutura | infrastructure-concept |
-| Para operar | To operate |
+| Para operar | In practice (12/11/2026, antes To operate) |
+| prazo decadencial | forfeiture period (prazo decadencial), on first mention explained as the period after which the right itself is lost, under Brazilian law (12/11/2026) |

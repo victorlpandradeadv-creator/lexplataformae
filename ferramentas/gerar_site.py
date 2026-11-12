@@ -478,7 +478,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   <footer class="rodape">
     <div class="ciencia rodape-citar" data-arq="como citar · referência pronta desta página na versão atual">
       <p class="rotulo-citar">Como citar esta página</p>
-      <p class="referencia citar-pagina">ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}. <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}</p>
+      <p class="referencia citar-pagina">ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}{"" if titulo.split(" · ")[0].rstrip()[-1:] in "?!." else "."} <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}</p>
     </div>
     <div class="ciencia rodape-estudo">
       <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>

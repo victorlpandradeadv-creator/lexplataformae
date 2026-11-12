@@ -328,6 +328,18 @@ def traduz_pagina(arq, rel):
             aviso.append(b)
             aviso.append(".")
         conteudo.insert(0, aviso)
+    # Citação sugerida com o título inglês da página e a data à inglesa. 12/11/2026.
+    cit = sopa.select_one("p.citar-pagina")
+    if cit and sopa.title and sopa.title.string:
+        tit_en = sopa.title.string.split(" · ")[0].strip()
+        fim = "" if tit_en[-1:] in "?!." else "."
+        t = cit.get_text(" ")
+        v = re.search(r"(?:versão|version) ([\d.]+)", t); d = re.search(r"(\d{2})/(\d{2})/(\d{4})", t); u = re.search(r"https://\S+", t)
+        MESES = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
+        data = f"{MESES[int(d.group(2)) - 1]} {int(d.group(1))}, {d.group(3)}" if d else ""
+        t = (f'<p class="{" ".join(cit.get("class", []))}">ANDRADE, Victor L. P. {html.escape(tit_en)}{fim} <i>Lex Plataformae</i>, '
+             f'version {v.group(1) if v else ""}, {data}. Available at {html.escape(u.group(0)) if u else ""}</p>')
+        cit.replace_with(BeautifulSoup(t, "html.parser"))
     # Estilo dos acréscimos ingleses
     if sopa.head and not sopa.head.select_one('link[href$="en.css"]'):
         estilo = sopa.select_one('link[rel="stylesheet"]')
@@ -463,6 +475,8 @@ def main():
         _sh.copy(PDF_EN, EN / "thesis" / PDF_EN.name)
     sitemap()
     llms_en()
+    for k in [k for k, x in FALTAM.items() if x["pt"].startswith("ANDRADE, Victor L. P.")]:
+        del FALTAM[k]  # a citação sugerida é montada em inglês
     (T / "faltam.json").write_text(json.dumps(list(FALTAM.values()), ensure_ascii=False, indent=0), encoding="utf-8")
     palavras = sum(len(re.sub(r"<[^>]+>", " ", x["pt"]).split()) for x in FALTAM.values())
     print(f"{len(paginas)} páginas em docs/en/. Segmentos sem tradução {len(FALTAM)}, {palavras} palavras.")
