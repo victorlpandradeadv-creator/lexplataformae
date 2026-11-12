@@ -11,7 +11,7 @@ A versão nova precisa trazer as mesmas marcas numeradas do original.
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from marcas import assinatura
+from marcas import assinatura, marcar
 
 RAIZ = Path(__file__).resolve().parents[2]
 lote = sys.argv[1]
@@ -59,7 +59,7 @@ for l in sys.stdin:
     k, en = d.get("k"), d.get("en")
     if k not in orig or not isinstance(en, str) or not en.strip():
         ruins.append(f"chave desconhecida ou vazia: {k}"); continue
-    if assinatura(en) != assinatura(orig[k]["pt"]):
+    if assinatura(en) != assinatura(marcar(orig[k]["pt"])[0]):
         ruins.append(f"marcas diferentes em {k}"); continue
     atual[k] = en; vistos.add(k); vistos_novos.add(k); ok += 1
 import fcntl
