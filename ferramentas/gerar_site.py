@@ -1244,6 +1244,8 @@ def gerar_direitos():
 
 # Ilustrações conceituais. O plano fica em estrutura/ilustracoes.md e os arquivos em site/ilustracoes/<id>.webp.
 # Sem arquivo, o lugar aparece só no degrau Despir, como ilustração prevista.
+# O aviso de IA fica em cada legenda só na Ciência. Na Informação e na Doutrina ele aparece uma vez, na página do autor,
+# pela regra de não mostrar a fabricação do site ao leigo e ao técnico. Decisão do autor de 12/11/2026.
 ILUSTRACOES_DIR = RAIZ / "site" / "ilustracoes"
 EXTENSOES = (".webp", ".avif", ".png", ".jpg")
 AVISO_IA = "Ilustração conceitual feita com IA."
@@ -1311,7 +1313,7 @@ def figura(ident, prefixo, destaque=False):
         imgs += ">"
     return (f'<figure class="ilustracao {formato}"><picture>'
             f'{imgs}</picture>'
-            f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
+            f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia ciencia">{AVISO_IA}</span></figcaption>'
             + expansao(peca["citacoes"], prefixo) + "</figure>")
 # O rótulo de cada bloco didático é a pergunta própria que vem no cabeçalho do bloco, em conteudo/percurso.md e em
 # conteudo/camada-externa.md. Os rótulos abaixo são só reserva para bloco novo sem pergunta. Revisão de rótulos de 05/11/2026.
@@ -4187,6 +4189,8 @@ def gerar_autor():
         'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
+        + '<section class="ext"><p>As ilustrações conceituais do site foram feitas com inteligência artificial, a partir de um plano em que cada imagem '
+        'parte de um trecho da tese. Os esquemas foram montados à mão, em código.</p></section>'
         + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do caminho</h2>'
         f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
         '<p>Para conversar sobre esta teoria, o caminho é o LinkedIn.</p>'
