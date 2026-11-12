@@ -72,9 +72,13 @@ Parece terreno seu, mas é chão emprestado.
 
 Cena serena, sem ameaça nem queda. Os cabos sobem tensos e nenhuma mão os segura. Primeira aparição da armadura canônica.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-a-compra
 
@@ -108,9 +112,13 @@ Chegou até você, mas continua preso à loja.
 
 A peça que sai da caixa é o elmo da armadura canônica. O cordão não pode parecer corrente nem algema. Nada escrito na caixa.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## imagem-catraca
 
@@ -144,9 +152,13 @@ O que você comprou existe, mas só se usa do lado de dentro.
 
 O jardim é aberto e continua além do quadro. A grade não pode lembrar prisão, e a figura fica à vontade.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## imagem-estoque-fluxo
 
@@ -180,9 +192,13 @@ O valor da skin não fica guardado, ele corre.
 
 No trecho seco do cano, a peça fica inteira, só sem brilho. Ela não quebra nem some.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-o-desejo
 
@@ -216,9 +232,13 @@ O valor se acende no olhar dos outros.
 
 As silhuetas não formam plateia hostil nem torcida de jogo real. As linhas dos olhares vão em tracejado.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-o-dono
 
@@ -252,9 +272,13 @@ Cada vez que você participa, o castelo cresce.
 
 As pessoas jogam à vontade. Nada de correntes ou de esforço de carregar blocos, que dariam leitura de trabalho forçado.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## imagem-torneira
 
@@ -284,9 +308,13 @@ Torneira pingando gotas que carregam moedas, relógios e corações pequenos num
 
 Gota a gota, a conta chega.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-as-regras
 
@@ -320,9 +348,13 @@ O texto vira parede, e a parede vira punição.
 
 Nenhum texto legível nas páginas nem nas telas. O carimbo representa o enforcement do trecho da p. 365.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-o-normal
 
@@ -356,9 +388,13 @@ Ninguém reclama da chuva, e ela foi fabricada.
 
 Os fios e o andaime ficam nítidos para quem olha a imagem. As pessoas da cena olham para baixo.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-a-mudanca
 
@@ -392,9 +428,13 @@ Continua na conta, mas já não é a mesma.
 
 A perda é por dentro. A armadura oca não fica quebrada nem enferrujada, e o contorno é idêntico ao da inteira.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-o-desenho
 
@@ -428,9 +468,13 @@ Cada peça parece banal, mas juntas formam um programa.
 
 As linhas escondidas vão em tracejado cinza, pela regra geral da direção de arte. Planta genérica, sem loja real.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-a-lei
 
@@ -464,9 +508,13 @@ A construção se apoia no espaço que a lei já havia aberto em 1990.
 
 Díptico com ideia-oic. O terreno, a fundação, o contorno e os marcos são idênticos nas duas peças, e a primeira gerada serve de referência para a segunda. O marco de 1990 fica na legenda, sem números dentro da imagem.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-a-resposta
 
@@ -500,9 +548,13 @@ Antes do dinheiro, devolver o que foi tirado.
 
 As moedas ficam arrumadas e disponíveis, nunca jogadas ou empoeiradas. O trecho da p. 751 afasta a monetização automática, não a indenização.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-alem-do-jogo
 
@@ -536,9 +588,13 @@ Muda o ambiente, mas o jeito de governar é o mesmo.
 
 Nenhuma interface ou marca reconhecível nos cinco objetos.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## parte-o-nome
 
@@ -572,9 +628,13 @@ O poder que tem nome pode ser chamado a responder.
 
 Composição solene, com mais espaço e escala. Sem hieróglifos legíveis e sem cópia de papiro, tumba ou obra conhecida.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-oic
 
@@ -608,9 +668,13 @@ O espaço estava demarcado desde 1990, só faltava construir.
 
 Díptico com parte-a-lei, no mesmo terreno. A armação não pode lembrar casa nem lote à venda.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-feixe-de-fruicao-governada
 
@@ -640,9 +704,13 @@ Feixe de fios seguro por uma mão embaixo e por um mecanismo de roldanas em cima
 
 Cada fio do que você comprou passa por cima, pela mão de outro.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-lex-plataformae
 
@@ -676,9 +744,13 @@ Não é um contrato parado, é uma ordem que roda.
 
 Nada de brasão, balança da justiça ou símbolo de lei estatal. Texto ilegível.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-vulnerabilidade-semiotica
 
@@ -712,9 +784,13 @@ O sentido das coisas está do outro lado do balcão.
 
 A pessoa é competente e atenta, nunca confusa ou caricata. A fragilidade vem da posição dela, não dela.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-teleologia-abusiva
 
@@ -749,9 +825,13 @@ Não se procura uma intenção, e sim um programa reconhecível.
 
 Nenhuma figura armando a escada. A finalidade aparece só pela direção do padrão.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-ilicito-de-arquitetura
 
@@ -785,9 +865,13 @@ Nenhuma placa proíbe nada, mas o desenho prende.
 
 Traço arquitetônico preciso. Nenhuma placa e nenhum tom de prisão ou de horror. As cinco peças formam um conjunto estável.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-antecipacao-hipercuratorial
 
@@ -821,9 +905,13 @@ A espera também é vendida.
 
 Ponteiros e senhas sem números legíveis. A sala lembra uma galeria arrumada.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-auditabilidade-aberta
 
@@ -857,9 +945,13 @@ Não é abrir tudo, é abrir o suficiente.
 
 Quem olha pela janela pode incluir uma figura de toga e uma de jaleco, ao lado de uma pessoa comum. A janela não tem cortina do lado de dentro.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## ideia-equivalencia-de-valor-funcional
 
@@ -893,9 +985,13 @@ Igual por fora, mais leve por dentro.
 
 Sem etiquetas de antes e depois. A diferença de brilho e a posição dos pratos bastam. Dialoga com parte-a-mudanca.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## laboratorio
 
@@ -929,9 +1025,13 @@ Setores diferentes, o mesmo mecanismo.
 
 Telas sem interface de produto real.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## familia-funcionalidade-cognitiva
 
@@ -965,9 +1065,13 @@ Quem regula a resposta que você recebe?
 
 Fica claro que quem gira o botão não é quem usa. Nada de rosto de robô ou símbolo de empresa de IA.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## familia-infraestrutura-e-intermediacao
 
@@ -997,9 +1101,13 @@ Vitrine vista por lentes empilhadas que escondem ou aumentam partes do que está
 
 Você vê o mercado pelos filtros de outro.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## familia-produtividade-gig-economy
 
@@ -1033,9 +1141,13 @@ Quem desenha a rota é o aplicativo.
 
 Quem pedala está em movimento e ativo, nunca preso por fios. Nenhum logotipo de aplicativo real.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
 
 ## familia-administracao-de-confianca
 
@@ -1069,6 +1181,10 @@ O tom gentil também faz parte do desenho.
 
 A proteção é real. A imagem mostra a perda que ela torna imperceptível, sem lâmina escondida e sem tom de armadilha.
 
+### procedencia
+
+Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+
 ### estado
 
-prevista
+publicada
