@@ -1022,6 +1022,12 @@ body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
    A paleta escura é a de cores.css, feita em papel quente. Aqui só a rubrica, que precisa clarear para ler no escuro. */
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --rubrica: #ec6b62; } }
 :root[data-theme="dark"] { --rubrica: #ec6b62; }
+/* Ilustração com versão escura, 12/11/2026. A arte do tema em uso aparece e a outra some, seguindo o aparelho e o botão. */
+.ilustracao .arte-escura { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ilustracao .arte-clara { display: none; } :root:not([data-theme="light"]) .ilustracao .arte-escura { display: block; } }
+:root[data-theme="dark"] .ilustracao .arte-clara { display: none; }
+:root[data-theme="dark"] .ilustracao .arte-escura { display: block; }
+@media print { .ilustracao .arte-clara { display: block !important; } .ilustracao .arte-escura { display: none !important; } }
 .topo .tema { display: inline-grid; place-items: center; padding: 0; order: 98; background: none; border: 1px solid var(--linha); color: var(--tinta); border-radius: 999px; width: 2rem; height: 2rem; cursor: pointer; align-self: center; flex: none; }
 .topo .tema:hover { border-color: var(--rubrica); color: var(--rubrica); }
 .topo .tema:focus-visible { outline: 2px solid var(--rubrica); outline-offset: 2px; }

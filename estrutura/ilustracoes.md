@@ -2,6 +2,8 @@
 
 Plano das peças ilustrativas que o site vai receber quando a estrutura estiver pronta. Orientação do autor de 27/10/2026. As peças serão produzidas com IA e entram nos lugares previstos aqui. Plano do Claude, à espera da revisão do autor. Em 27/10/2026, a direção de arte passou para a paleta aprovada, e duas peças foram refeitas. A da compra deixou de dizer que nada sai da loja, e a da teleologia abusiva deixou de sugerir intenção.
 
+Em 12/11/2026, por ordem do autor de consolidar a estrutura antes da produção, cada peça passou a separar três informações. A ideia descreve o que a figura representa e é o único texto que aparece no lugar previsto, no modo Ciência. A legenda e o texto alternativo acompanham a figura pronta. O campo producao guarda as instruções para quem gera a imagem e nunca vai ao site. Na mesma data entraram as revisões de composição discutidas com o autor, todas conferidas contra o trecho que cada peça ilustra.
+
 Cada peça tem um endereço fixo no site. Enquanto o arquivo não existe, o lugar aparece só no degrau Despir, como contorno tracejado com a etiqueta "ilustração prevista". Quando o arquivo chega em `site/ilustracoes/`, o gerador põe a figura no lugar, com o texto alternativo e a legenda daqui, sem mexer em mais nada.
 
 Como toda frase explicativa do site, cada peça se ancora num trecho da tese, conferido por script junto com os demais (`python3 ferramentas/conferir_citacoes.py estrutura/ilustracoes.md`). A ilustração mostra a ideia do trecho. Não acrescenta afirmação nova.
@@ -16,9 +18,13 @@ Direção editorial revista em 10/11/2026. A família de imagens revela a estrut
 - Nenhum texto dentro da imagem. Nada de palavras, números, logotipos, marcas, interfaces reais ou símbolos de empresas.
 - Nenhum personagem, skin, mapa, item ou elemento visual de jogo real. A skin é sempre uma roupa ou armadura inventada, sem semelhança com personagens existentes. Nenhuma pessoa real.
 - Pessoas aparecem como silhuetas ou figuras sem rosto definido, de idades e corpos variados.
-- A identidade atual usa papel claro em todos os aparelhos. As imagens usam fundo transparente ou o papel quente do site. Não é necessário produzir versões escuras enquanto essa decisão estiver vigente.
+- O site segue o aparelho e tem modo escuro desde 10/11/2026. Traço escuro sobre fundo transparente some no tema escuro, e por isso cada peça leva o papel quente do site como fundo próprio. A versão escura é opcional. Quando `<id>-escuro.webp` existe, o gerador a mostra no tema escuro e a clara no tema claro, inclusive quando o leitor troca o tema pelo botão.
 - Perspectiva controlada, contornos precisos, hachuras discretas e poucas massas de cor. A aparência do objeto ocupa o primeiro plano e seus suportes ficam legíveis no segundo. Nenhuma textura atrás do texto da página.
 - A rubrica vermelha (#b3161c) pertence à interface. O azul Klein permanece reservado ao objeto comprado ou prometido nas ilustrações. A unidade vem do desenho e da composição, sem alterar as cores científicas por área.
+- A estrutura escondida das peças, inclusive as linhas de projeto da planta da loja, vem sempre em tracejado cinza. Nenhuma peça usa laranja.
+- A armadura é uma só em todas as peças em que aparece (inicio, parte-a-compra, imagem-catraca, imagem-estoque-fluxo, parte-o-desejo, parte-a-mudanca, ideia-oic e ideia-equivalencia-de-valor-funcional). Antes delas sai a folha canônica, que fica em `estrutura/referencias-visuais/armadura.webp` e não vai ao site. A folha fixa silhueta, proporções, componentes e material, com frente, costas, perfil, vista parcial e luz variada, e os estados inteira, fosca, oca e peça isolada. A armadura é inventada, chapada no azul Klein, e continua reconhecível mesmo quando perde o que a torna valiosa.
+- parte-a-lei e ideia-oic formam um díptico, porque ilustram o mesmo trecho da p. 24-25. O terreno, a fundação, o contorno e os marcos são idênticos nas duas.
+- A cena do curso que corta metade das aulas e continua cobrando o mesmo preço fica como candidata à página da equivalência de valor funcional, onde o texto usa essa imagem. Ela só entra no plano quando o texto da página estiver consolidado.
 - Ísis e Rá recebem composição mais solene, com maior espaço e escala, mantendo o mesmo traço. As HQs das epígrafes formam uma coleção artística separada.
 
 # Especificação técnica
@@ -62,6 +68,10 @@ Figura com armadura brilhante de pé sobre um pedaço de chão que flutua, preso
 
 Parece terreno seu, mas é chão emprestado.
 
+### producao
+
+Cena serena, sem ameaça nem queda. Os cabos sobem tensos e nenhuma mão os segura. Primeira aparição da armadura canônica.
+
 ### estado
 
 prevista
@@ -93,6 +103,10 @@ Mãos recebem uma caixa de presente cuja fita é um cordão comprido que volta p
 ### legenda
 
 Chegou até você, mas continua preso à loja.
+
+### producao
+
+A peça que sai da caixa é o elmo da armadura canônica. O cordão não pode parecer corrente nem algema. Nada escrito na caixa.
 
 ### estado
 
@@ -126,6 +140,10 @@ Catraca na entrada de um jardim, com uma figura de armadura brilhante do lado de
 
 O que você comprou existe, mas só se usa do lado de dentro.
 
+### producao
+
+O jardim é aberto e continua além do quadro. A grade não pode lembrar prisão, e a figura fica à vontade.
+
 ### estado
 
 prevista
@@ -146,7 +164,7 @@ B
 
 ### ideia
 
-À esquerda, uma gaveta com moedas paradas. À direita, um cano transparente com água correndo e uma peça de armadura levada pela corrente. Se a torneira fecha, a peça para e perde o brilho.
+À esquerda, uma gaveta com moedas paradas. À direita, um cano transparente com água correndo e uma peça de armadura levada pela corrente. Se a torneira fecha, a peça para, inteira, e perde o brilho.
 
 > O valor de uso do feixe, nessa condição, não é estoque, é fluxo. (p. 409)
 
@@ -157,6 +175,10 @@ Gaveta com moedas paradas ao lado de um cano transparente em que uma peça de ar
 ### legenda
 
 O valor da skin não fica guardado, ele corre.
+
+### producao
+
+No trecho seco do cano, a peça fica inteira, só sem brilho. Ela não quebra nem some.
 
 ### estado
 
@@ -178,7 +200,7 @@ A
 
 ### ideia
 
-Uma figura de armadura no centro de uma roda de silhuetas. O brilho da armadura não vem dela, vem dos olhares das pessoas em volta, que se cruzam e acendem a peça.
+Uma figura de armadura no centro de uma roda de silhuetas. O brilho da armadura não vem dela, vem dos olhares das pessoas em volta, que se cruzam e acendem a peça. Onde nenhum olhar alcança, a armadura fica fosca.
 
 > o espetáculo não é conjunto de imagens, mas relação social entre pessoas mediada por imagens (p. 282)
 
@@ -189,6 +211,10 @@ Figura de armadura no centro de uma roda de silhuetas cujos olhares acendem o br
 ### legenda
 
 O valor se acende no olhar dos outros.
+
+### producao
+
+As silhuetas não formam plateia hostil nem torcida de jogo real. As linhas dos olhares vão em tracejado.
 
 ### estado
 
@@ -210,7 +236,7 @@ A
 
 ### ideia
 
-Um castelo feito de blocos de servidores sobre nuvens. Lá embaixo, pessoas jogam, e cada gesto delas sobe como um tijolo que aumenta o castelo.
+Um castelo feito de blocos de servidores sobre nuvens. Lá embaixo, pessoas jogam, e cada gesto delas sobe como um tijolo que aumenta o castelo. No alto, uma única janela acesa guarda o painel de onde se decide quanto tudo vale.
 
 > Daí a força da imagem feudal: consumidores e usuários tornam-se “servos da nuvem” não porque deixam de consumir, mas porque sua participação passa a reproduzir o próprio capital que os governa. (p. 146)
 
@@ -221,6 +247,10 @@ Castelo de servidores sobre nuvens que cresce com tijolos levados pelas pessoas 
 ### legenda
 
 Cada vez que você participa, o castelo cresce.
+
+### producao
+
+As pessoas jogam à vontade. Nada de correntes ou de esforço de carregar blocos, que dariam leitura de trabalho forçado.
 
 ### estado
 
@@ -274,17 +304,21 @@ A
 
 ### ideia
 
-Um labirinto visto de cima cujas paredes são páginas de um contrato em pé. Na única saída, uma mão segura um carimbo. O texto vira parede, e a parede vira punição.
+Um labirinto visto de cima cujas paredes são páginas de um contrato em pé e telas acesas. Na única saída, uma mão segura um carimbo. O texto vira parede, e a parede vira punição.
 
 > A regra interna só ganha densidade normativa quando se converte em condições de possibilidade por arquitetura e em consequências por enforcement. (p. 365)
 
 ### alt
 
-Labirinto visto de cima com paredes feitas de páginas de contrato e uma mão com um carimbo na saída.
+Labirinto visto de cima com paredes feitas de páginas de contrato e de telas, e uma mão com um carimbo na saída.
 
 ### legenda
 
 O texto vira parede, e a parede vira punição.
+
+### producao
+
+Nenhum texto legível nas páginas nem nas telas. O carimbo representa o enforcement do trecho da p. 365.
 
 ### estado
 
@@ -318,6 +352,10 @@ Nuvens presas por fios a um andaime fazem chover sobre pessoas de guarda-chuva q
 
 Ninguém reclama da chuva, e ela foi fabricada.
 
+### producao
+
+Os fios e o andaime ficam nítidos para quem olha a imagem. As pessoas da cena olham para baixo.
+
 ### estado
 
 prevista
@@ -350,6 +388,10 @@ Duas armaduras iguais lado a lado, a primeira inteira e a segunda só com o cont
 
 Continua na conta, mas já não é a mesma.
 
+### producao
+
+A perda é por dentro. A armadura oca não fica quebrada nem enferrujada, e o contorno é idêntico ao da inteira.
+
 ### estado
 
 prevista
@@ -370,7 +412,7 @@ A
 
 ### ideia
 
-A planta baixa de uma loja em que todos os corredores, por caminhos diferentes, acabam no mesmo caixa. As linhas escondidas do projeto aparecem em laranja.
+A planta baixa de uma loja em que todos os corredores, por caminhos diferentes, acabam no mesmo caixa. As linhas escondidas do projeto, com os pontos de atrito e a saída oculta atrás das prateleiras, aparecem em tracejado.
 
 > Ela tende a emergir como programa de funcionamento (p. 670)
 
@@ -381,6 +423,10 @@ Planta baixa de uma loja em que todos os corredores levam ao mesmo caixa, com li
 ### legenda
 
 Cada peça parece banal, mas juntas formam um programa.
+
+### producao
+
+As linhas escondidas vão em tracejado cinza, pela regra geral da direção de arte. Planta genérica, sem loja real.
 
 ### estado
 
@@ -402,7 +448,7 @@ A
 
 ### ideia
 
-Uma construção contemporânea vista em corte, sustentada por uma fundação anterior, já demarcada e pronta para receber suas estruturas. O azul destaca a construção imaterial e o traço revela a continuidade com a fundação. O marco de 1990 fica na legenda HTML, sem números dentro da imagem. A cena do quadro de aulas reduzidas fica reservada para ilustrar a degradação do serviço, em vez da abertura deste capítulo.
+Uma construção contemporânea vista em corte, sustentada por uma fundação anterior, já demarcada e pronta para receber suas estruturas. O azul destaca a construção imaterial e o traço revela a continuidade com a fundação. É o mesmo terreno da ilustração do Objeto Imaterial de Consumo, agora com a obra pronta.
 
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 
@@ -413,6 +459,10 @@ Construção contemporânea em corte, com estruturas azuis apoiadas numa fundaç
 ### legenda
 
 A construção se apoia no espaço que a lei já havia aberto em 1990.
+
+### producao
+
+Díptico com ideia-oic. O terreno, a fundação, o contorno e os marcos são idênticos nas duas peças, e a primeira gerada serve de referência para a segunda. O marco de 1990 fica na legenda, sem números dentro da imagem.
 
 ### estado
 
@@ -434,17 +484,21 @@ A
 
 ### ideia
 
-Uma mão devolve a peça que faltava num mosaico, enquanto uma pilha de moedas fica de lado, sem uso.
+Uma mão devolve a peça que faltava num mosaico, enquanto uma pilha arrumada de moedas fica ao lado, ao alcance.
 
 > Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização. (p. 751)
 
 ### alt
 
-Mão encaixa a peça que faltava num mosaico, com uma pilha de moedas deixada de lado.
+Mão encaixa a peça que faltava num mosaico, com uma pilha de moedas ao lado.
 
 ### legenda
 
 Antes do dinheiro, devolver o que foi tirado.
+
+### producao
+
+As moedas ficam arrumadas e disponíveis, nunca jogadas ou empoeiradas. O trecho da p. 751 afasta a monetização automática, não a indenização.
 
 ### estado
 
@@ -478,6 +532,10 @@ Controle de videogame, balão de conversa, carrinho de compras, bolsa de entrega
 
 Muda o ambiente, mas o jeito de governar é o mesmo.
 
+### producao
+
+Nenhuma interface ou marca reconhecível nos cinco objetos.
+
 ### estado
 
 prevista
@@ -510,6 +568,10 @@ A
 
 O poder que tem nome pode ser chamado a responder.
 
+### producao
+
+Composição solene, com mais espaço e escala. Sem hieróglifos legíveis e sem cópia de papiro, tumba ou obra conhecida.
+
 ### estado
 
 prevista
@@ -530,17 +592,21 @@ A
 
 ### ideia
 
-Um terreno vazio demarcado com estacas e barbante, coberto de mato, e no meio dele a estrutura de uma construção começando a subir.
+Um terreno vazio demarcado com estacas e barbante, coberto de mato, e no meio dele a estrutura de uma construção começando a subir. É uma armação aberta, sem paredes, e no alto dela está a figura de armadura.
 
 > O Objeto Imaterial de Consumo (OIC) apresenta-se, nesse sentido, como o loteamento definitivo de um terreno que o legislador de 1990 já havia demarcado, embora a doutrina contemporânea o tenha mantido na condição de um terreno baldio. (p. 24-25)
 
 ### alt
 
-Terreno vazio demarcado com estacas e barbante, com a estrutura de uma construção começando a subir no meio.
+Terreno vazio demarcado com estacas e barbante, com uma armação começando a subir no meio e a figura de armadura no alto dela.
 
 ### legenda
 
 O espaço estava demarcado desde 1990, só faltava construir.
+
+### producao
+
+Díptico com parte-a-lei, no mesmo terreno. A armação não pode lembrar casa nem lote à venda.
 
 ### estado
 
@@ -606,6 +672,10 @@ Livro de regras aberto com engrenagens girando atrás das páginas, sem ninguém
 
 Não é um contrato parado, é uma ordem que roda.
 
+### producao
+
+Nada de brasão, balança da justiça ou símbolo de lei estatal. Texto ilegível.
+
 ### estado
 
 prevista
@@ -626,17 +696,21 @@ A
 
 ### ideia
 
-Uma pessoa segura um cartão coberto de sinais que não sabe ler. Do outro lado de um balcão, uma mão segura a lente que decifra os sinais e não a empresta.
+Uma pessoa atenta lê com cuidado um cartão coberto de sinais nítidos. A lente que dá sentido aos sinais fica do outro lado de um balcão, na mão de quem atende, que não a empresta. Atrás do balcão, a mesma etiqueta pende de dois objetos diferentes.
 
 > Há assimetria de sentido, ligada ao controle de códigos de leitura, categorias e classificações que definem o que conta como diferença relevante. (p. 322)
 
 ### alt
 
-Pessoa segura um cartão com sinais ilegíveis enquanto, do outro lado do balcão, uma mão guarda a lente que os decifra.
+Pessoa atenta lê um cartão de sinais enquanto, do outro lado do balcão, uma mão guarda a lente que dá sentido a eles.
 
 ### legenda
 
 O sentido das coisas está do outro lado do balcão.
+
+### producao
+
+A pessoa é competente e atenta, nunca confusa ou caricata. A fragilidade vem da posição dela, não dela.
 
 ### estado
 
@@ -658,18 +732,22 @@ A
 
 ### ideia
 
-Uma escada vista de lado, em que um degrau de cada lance é sempre mais alto que os outros. Uma régua encostada mostra que a diferença se repete, sempre no mesmo lugar.
+Uma escada vista de lado, com saídas laterais em cada patamar e uma vitrine iluminada no topo. O degrau mais alto está sempre logo antes de cada saída e nunca no caminho para a vitrine. Uma régua encostada mostra que a diferença se repete, sempre no mesmo lugar.
 
 > O segundo requisito é a reprodução como padrão. O desvio não pode ser episódio isolado, erro contingente ou exceção operacional. (p. 448)
 > O que se controla não é uma vontade íntima, mas um programa reconhecível (p. 732)
 
 ### alt
 
-Escada vista de lado com um degrau mais alto em cada lance e uma régua que mede a diferença repetida.
+Escada vista de lado em que o degrau mais alto aparece sempre antes das saídas, e uma régua mede a diferença repetida.
 
 ### legenda
 
-Não é preciso adivinhar a intenção, basta medir o padrão.
+Não se procura uma intenção, e sim um programa reconhecível.
+
+### producao
+
+Nenhuma figura armando a escada. A finalidade aparece só pela direção do padrão.
 
 ### estado
 
@@ -691,7 +769,7 @@ A
 
 ### ideia
 
-Um prédio em corte com escadas que só descem, portas que só abrem para dentro e janelas pintadas na parede. Nenhuma placa proíbe nada, e o desenho prende.
+Um prédio em corte com escadas que só descem, portas que só abrem para dentro, janelas pintadas na parede, a saída de emergência atrás de três portas trancadas e um corredor que volta ao começo. Nenhuma placa proíbe nada, e o desenho prende.
 
 > O núcleo do parâmetro está em tratar a arquitetura como conduta. (p. 732)
 
@@ -702,6 +780,10 @@ Prédio em corte com escadas que só descem, portas que só abrem para dentro e 
 ### legenda
 
 Nenhuma placa proíbe nada, mas o desenho prende.
+
+### producao
+
+Traço arquitetônico preciso. Nenhuma placa e nenhum tom de prisão ou de horror. As cinco peças formam um conjunto estável.
 
 ### estado
 
@@ -723,17 +805,21 @@ A
 
 ### ideia
 
-Uma sala de espera com cadeiras ocupadas e um relógio na parede. Por baixo de uma porta fechada vaza uma luz forte, e todos olham para ela.
+Uma sala de espera com cadeiras ocupadas e um relógio na parede. Por baixo de uma porta fechada vaza uma luz forte, e todos olham para ela. A luz é regulada por uma mão que sai pela fresta da porta, a mesma que move os ponteiros do relógio por um fio.
 
 > O presente deixa de ser o lugar de uma entrega estabilizada e torna-se uma antecâmara governada (p. 314)
 
 ### alt
 
-Sala de espera com pessoas olhando a luz que vaza por baixo de uma porta fechada.
+Sala de espera com pessoas olhando a luz que vaza por baixo de uma porta fechada, regulada por uma mão que também move o relógio.
 
 ### legenda
 
 A espera também é vendida.
+
+### producao
+
+Ponteiros e senhas sem números legíveis. A sala lembra uma galeria arrumada.
 
 ### estado
 
@@ -755,17 +841,21 @@ A
 
 ### ideia
 
-Uma caixa preta fechada com uma janela recortada num canto, por onde se veem algumas engrenagens. Não a caixa inteira aberta, só o bastante para ver o que mudou.
+Uma caixa preta fechada com uma janela recortada num canto, por onde se veem algumas engrenagens. Não a caixa inteira aberta, só o bastante para ver o que mudou. Do lado de fora, preso à caixa, um livro de registro aberto, e mais de uma pessoa consegue olhar pela janela.
 
 > Não transparência total, mas transparência suficiente. (p. 728)
 
 ### alt
 
-Caixa preta com uma pequena janela recortada que deixa ver algumas engrenagens por dentro.
+Caixa preta com uma pequena janela por onde algumas pessoas veem as engrenagens, com um livro de registro aberto ao lado.
 
 ### legenda
 
 Não é abrir tudo, é abrir o suficiente.
+
+### producao
+
+Quem olha pela janela pode incluir uma figura de toga e uma de jaleco, ao lado de uma pessoa comum. A janela não tem cortina do lado de dentro.
 
 ### estado
 
@@ -787,7 +877,7 @@ A
 
 ### ideia
 
-Uma balança de dois pratos com a mesma peça de armadura em cada um, a de antes e a de depois, idênticas por fora. O prato da de depois sobe, porque ela pesa menos.
+Uma balança de dois pratos com a mesma peça de armadura em cada um, a de antes e a de depois, idênticas por fora. A de depois é um pouco mais fosca, e o prato dela sobe, porque ela pesa menos.
 
 > O que importa é a preservação substancial do papel exercido pelo objeto na experiência adquirida (p. 729)
 
@@ -798,6 +888,10 @@ Balança com duas peças de armadura iguais, em que o prato da peça de depois s
 ### legenda
 
 Igual por fora, mais leve por dentro.
+
+### producao
+
+Sem etiquetas de antes e depois. A diferença de brilho e a posição dos pratos bastam. Dialoga com parte-a-mudanca.
 
 ### estado
 
@@ -819,7 +913,7 @@ B
 
 ### ideia
 
-Uma lupa sobre quatro telas diferentes, a de um assistente, a de uma loja, a de um aplicativo de entrega e a de um atendimento, e sob a lente as quatro mostram a mesma engrenagem.
+Uma lupa sobre quatro telas diferentes, a de um assistente, a de uma loja, a de um aplicativo de entrega e a de um atendimento, e sob a lente as quatro mostram a mesma engrenagem. Fora da lente, cada tela mantém a sua aparência.
 
 > A unidade do exame não está no ramo econômico nem na etiqueta mercadológica do serviço, mas no mecanismo predominante pelo qual a experiência do usuário é organizada, modulada, reconfigurada ou tornada contestável. (p. 755)
 
@@ -830,6 +924,10 @@ Lupa sobre quatro telas diferentes que, vistas pela lente, mostram a mesma engre
 ### legenda
 
 Setores diferentes, o mesmo mecanismo.
+
+### producao
+
+Telas sem interface de produto real.
 
 ### estado
 
@@ -851,7 +949,7 @@ B
 
 ### ideia
 
-Um balão de conversa com um botão de regular intensidade, como os de luz, girado por uma mão fora do quadro.
+Um balão de conversa seguro pela mão de quem usa, com um botão de regular intensidade, como os de luz, girado por outra mão, que vem de fora do quadro.
 
 > O que se oferece é ambiente de orientação cognitiva. (p. 757)
 
@@ -862,6 +960,10 @@ Balão de conversa com um botão de intensidade girado por uma mão fora da imag
 ### legenda
 
 Quem regula a resposta que você recebe?
+
+### producao
+
+Fica claro que quem gira o botão não é quem usa. Nada de rosto de robô ou símbolo de empresa de IA.
 
 ### estado
 
@@ -927,6 +1029,10 @@ Mão enorme desenha no mapa a rota de uma bicicleta de entrega, com estrelas de 
 
 Quem desenha a rota é o aplicativo.
 
+### producao
+
+Quem pedala está em movimento e ativo, nunca preso por fios. Nenhum logotipo de aplicativo real.
+
 ### estado
 
 prevista
@@ -947,17 +1053,21 @@ B
 
 ### ideia
 
-Uma capa macia e arredondada, com um rosto sorridente de interface, cobrindo a quina afiada de uma mesa.
+Uma capa macia e arredondada, com um rosto sorridente de interface, cobrindo a quina de uma mesa. A capa amortece de verdade, mas marcas no chão mostram que a mesa avança um pouco a cada dia sobre o caminho de quem passa.
 
 > Funcionam como técnica de governo da percepção, organizando o limiar a partir do qual a perda será percebida como aceitável, o abuso será lido como falha menor e a contestação será percebida como desnecessária, prematura ou desproporcional. (p. 781)
 
 ### alt
 
-Capa macia com rosto sorridente cobrindo a quina afiada de uma mesa.
+Capa macia com rosto sorridente na quina de uma mesa que avança aos poucos sobre o caminho.
 
 ### legenda
 
 O tom gentil também faz parte do desenho.
+
+### producao
+
+A proteção é real. A imagem mostra a perda que ela torna imperceptível, sem lâmina escondida e sem tom de armadilha.
 
 ### estado
 

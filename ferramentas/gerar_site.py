@@ -762,7 +762,7 @@ PERGUNTAS_DIREITO = {
     "g": {"quando": "Quando a punição passa do ponto?", "deve": "O que a plataforma deve fazer antes de punir?",
           "mostrar": "Como documentar a punição e a tentativa de contestar?", "pedir": "Que revisão pode ser pedida para a punição?",
           "limite": "Então a plataforma não pode punir?"},
-    "h": {"quando": "Quando a perda vira rotina do jogo?", "deve": "O que o desenho do jogo não pode buscar?",
+    "h": {"quando": "Quando a perda vira rotina do serviço?", "deve": "O que o desenho do serviço não pode buscar?",
           "mostrar": "Como mostrar que o problema forma um padrão?", "pedir": "Dá para pedir mais do que o conserto de um caso?",
           "limite": "Toda forma de vender e convencer é abusiva?"},
     "i": {"quando": "Quando a prova fica toda com a plataforma?", "deve": "O que a plataforma deve fazer com os registros?",
@@ -1297,11 +1297,19 @@ def figura(ident, prefixo, destaque=False):
     from PIL import Image
     with Image.open(arq) as im:
         largura, altura = im.size
-    # A identidade é clara em todos os aparelhos. Não selecionar uma arte escura
-    # só porque o sistema operacional prefere escuro.
+    # Modo escuro desde 10/11/2026. Com a versão -escuro, as duas artes vão no HTML e o estilo mostra a do tema
+    # em uso, que segue o aparelho e o botão do cabeçalho. Sem ela, a arte clara traz o próprio fundo de papel.
     carregamento = 'loading="eager" fetchpriority="high"' if destaque else 'loading="lazy"'
+    escura = arquivo_ilustracao(f"{ident}-escuro")
+    alt = esc(peca.get("alt", ""))
+    imgs = f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{alt}" width="{largura}" height="{altura}" {carregamento} decoding="async"'
+    if escura:
+        imgs += ' class="arte-clara">' + (f'<img src="{prefixo}assets/ilustracoes/{escura.name}" alt="{alt}" width="{largura}" height="{altura}" '
+                                          f'loading="lazy" decoding="async" class="arte-escura">')
+    else:
+        imgs += ">"
     return (f'<figure class="ilustracao {formato}"><picture>'
-            f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{esc(peca.get("alt", ""))}" width="{largura}" height="{altura}" {carregamento} decoding="async"></picture>'
+            f'{imgs}</picture>'
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia">{AVISO_IA}</span></figcaption>'
             + expansao(peca["citacoes"], prefixo) + "</figure>")
 # O rótulo de cada bloco didático é a pergunta própria que vem no cabeçalho do bloco, em conteudo/percurso.md e em
@@ -1673,7 +1681,7 @@ def gerar_inicio():
         <article class="porta porta-direito item-moldura">
           <p class="porta-rotulo">Trabalho com Direito</p>
           <h3><a href="doutrina/" data-modo="1">O caminho do jurista</a></h3>
-          <p>Os mesmos problemas, tratados como doutrina, com as situações para operar e a legislação.</p>
+          <p>Os mesmos problemas, tratados como doutrina. São onze situações, e cada uma diz quando o dever incide, o que a plataforma deve fornecer, que prova se pode exigir, como o caso se qualifica e que consequência ele pode ter. A legislação citada vem em texto integral, e quinze capítulos explicam o regime para quem vai operar com ele.</p>
           <p class="porta-mais"><a href="doutrina/" data-modo="1">Abrir em Doutrina</a> · <a href="roteiro/" data-modo="1">As situações</a></p>
         </article>
       </div>

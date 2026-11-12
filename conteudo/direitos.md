@@ -33,15 +33,15 @@ Quando aquilo que você usa depende, de forma estrutural, de um ambiente que a p
 
 ### deve
 
-Manter o que você comprou acessível, compreensível e preservado no que tem de útil. A plataforma pode mudar o ambiente, porque mudar faz parte desse tipo de fornecimento, mas só dentro dos limites do que é legítimo.
+A plataforma deve manter o que você comprou acessível, compreensível e preservado no que tem de útil. Ela pode mudar o ambiente, porque mudar faz parte desse tipo de fornecimento, mas só dentro dos limites do que é legítimo.
 
 ### mostrar
 
-Que o que você usa depende do ambiente da plataforma e como ela entrega essa experiência. Ajuda também mostrar a sua posição concreta na relação, como o que está na sua conta, o que você pagou e o que aquilo deixa você fazer.
+Ajuda mostrar que o que você usa depende do ambiente da plataforma e como ela entrega essa experiência. Ajuda também mostrar a sua posição concreta na relação, como o que está na sua conta, o que você pagou e o que aquilo deixa você fazer.
 
 ### pedir
 
-Que o caso seja tratado pela lei do consumidor, com o que você comprou visto como produto imaterial. A empresa não consegue fugir dessa conta só dizendo que presta um serviço ou que deu uma simples licença, porque o serviço é justamente o modo de manter o produto funcionando.
+Você pode pedir que o caso seja tratado pela lei do consumidor, com o que você comprou visto como produto imaterial. A empresa não consegue fugir dessa conta só dizendo que presta um serviço ou que deu uma simples licença, porque o serviço é justamente o modo de manter o produto funcionando.
 
 ### limite
 
@@ -77,15 +77,15 @@ Essa fragilidade não tem a ver com ingenuidade, falta de atenção ou pouca int
 
 ### deve
 
-Não montar a experiência de um jeito que só a plataforma entende. O desenho do ambiente precisa respeitar a boa-fé, que é o dever de lealdade entre as partes, a transparência e a possibilidade real de você compreender o que está usando.
+A plataforma não pode montar a experiência de um jeito que só ela entende. O desenho do ambiente precisa respeitar a boa-fé, que é o dever de lealdade entre as partes, a transparência e a possibilidade real de você compreender o que está usando.
 
 ### mostrar
 
-O caminho que você percorreu dentro do jogo até a compra ou até o problema, o que estava em destaque na tela e por onde a informação passava. Também importam os registros que permitem reconstituir como a sua expectativa se formou. Capturas de tela com data, gravações de tela e as telas de compra e de confirmação ajudam, porque mostram como o ambiente estava montado, e não só o que você lembra.
+Ajuda mostrar o caminho que você percorreu dentro do jogo até a compra ou até o problema, o que estava em destaque na tela e por onde a informação passava. Também importam os registros que permitem reconstituir como a sua expectativa se formou. Capturas de tela com data, gravações de tela e as telas de compra e de confirmação ajudam, porque mostram como o ambiente estava montado, e não só o que você lembra.
 
 ### pedir
 
-Que o problema seja tratado como questão do ambiente, e não como descuido seu. Se essa dependência dos sinais da plataforma ficar demonstrada, podem incidir deveres reforçados de informar, anunciar com clareza e apresentar provas. Conforme o caso, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
+Você pode pedir que o problema seja tratado como questão do ambiente, e não como descuido seu. Se essa dependência dos sinais da plataforma ficar demonstrada, podem incidir deveres reforçados de informar, anunciar com clareza e apresentar provas. Conforme o caso, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
 
 ### limite
 
@@ -122,15 +122,15 @@ Quando a plataforma troca a clareza por excesso de texto, espalha as informaçõ
 
 ### deve
 
-Dar informação que sirva de verdade, que ajude você a decidir e que possa ser conferida depois, se houver briga. Informação que existe em algum lugar, mas não orienta ninguém, não cumpre esse dever.
+A plataforma deve dar informação que sirva de verdade, que ajude você a decidir e que possa ser conferida depois, se houver briga. Informação que existe em algum lugar, mas não orienta ninguém, não cumpre esse dever.
 
 ### mostrar
 
-O que foi mostrado a você, em que momento, com que destaque e por qual canal. E se, do jeito como tudo estava organizado, dava para entender o que importava para comprar, para continuar ou para reagir.
+Ajuda mostrar o que foi exibido a você, em que momento, com que destaque e por qual canal. Ajuda também mostrar se, do jeito como tudo estava organizado, dava para entender o que importava para comprar, para continuar ou para reagir.
 
 ### pedir
 
-Que a plataforma corrija a forma de informar e torne visível o que importa. Que apresente o que de fato exibiu. E que recomponha o que você perdeu por causa da falta de clareza. Conforme o caso, a falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar.
+Você pode pedir que a plataforma corrija a forma de informar e torne visível o que importa, que apresente o que de fato exibiu e que recomponha o que você perdeu por causa da falta de clareza. Conforme o caso, a falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar.
 
 ### limite
 
@@ -162,15 +162,15 @@ Quando a compra vem depois de uma preparação cuidadosa. Pode ser uma contagem 
 
 ### deve
 
-Fazer o que foi anunciado corresponder ao que é entregue. A promessa, o valor anunciado e os custos que não apareciam precisam bater com a experiência que você recebe, inclusive depois que a plataforma muda o jogo.
+A plataforma deve fazer o que foi anunciado corresponder ao que é entregue. A promessa, o valor anunciado e os custos que não apareciam precisam bater com a experiência que você recebe, inclusive depois que a plataforma muda o jogo.
 
 ### mostrar
 
-Como era o ambiente de venda, quais peças de propaganda havia, o que estava em destaque, como o item foi apresentado e o que aconteceu depois, comparado com o que foi prometido.
+Ajuda mostrar como era o ambiente de venda, quais peças de propaganda havia, o que estava em destaque e como o item foi apresentado. Ajuda também comparar o que aconteceu depois com o que foi prometido.
 
 ### pedir
 
-Que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, dá para pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
+Você pode pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, dá para pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
 
 ### limite
 
@@ -202,17 +202,17 @@ Quando a plataforma muda algo importante no seu acesso, no desempenho do item, n
 
 ### deve
 
-Manter o mínimo de verificabilidade, o que quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa.
+A plataforma deve manter o mínimo de verificabilidade. Isso quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa.
 
 Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê. Isso não exige abrir todo o código do jogo nem tornar públicos os segredos da empresa. O exame deve se limitar ao que importa para o caso, preservando o sigilo necessário.
 
 ### mostrar
 
-Os registros essenciais do sistema, o histórico das versões que importam, os registros da punição e as justificativas mínimas. Junto com os dados de contexto, isso deve bastar para que quem vai decidir entenda o problema. Quase tudo isso costuma estar com a plataforma, e não com você.
+Ajudam os registros essenciais do sistema, o histórico das versões que importam, os registros da punição e as justificativas mínimas. Junto com os dados de contexto, isso deve bastar para que quem vai decidir entenda o problema. Quase tudo isso costuma estar com a plataforma, e não com você.
 
 ### pedir
 
-Que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha.
+Você pode pedir que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Pode pedir também que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha.
 
 ### limite
 
@@ -250,15 +250,15 @@ Você pode continuar dentro do jogo, com a conta, vendo o item e entrando quando
 
 ### deve
 
-Preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com os outros jogadores e, quando isso importa para o direito, o que ele significa.
+A plataforma deve preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com os outros jogadores e, quando isso importa para o direito, o que ele significa.
 
 ### mostrar
 
-Que utilidade o item tinha antes, o que mudou, qual foi o impacto concreto da mudança e por que a compensação oferecida, se houve alguma, não basta.
+Ajuda mostrar que utilidade o item tinha antes, o que mudou, qual foi o impacto concreto da mudança e por que a compensação oferecida, se houve alguma, não basta.
 
 ### pedir
 
-Em primeiro lugar, que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço, que é o nome que a lei dá ao problema que torna algo menos útil do que deveria ser.
+Em primeiro lugar, você pode pedir que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço, que é o nome que a lei dá ao problema que torna algo menos útil do que deveria ser.
 
 ### limite
 
@@ -295,11 +295,11 @@ Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de r
 
 ### deve
 
-Seguir procedimentos que dê para entender, dar um motivo que possa ser conferido, deixar que você conteste de forma razoável e não tratar você de forma arbitrária.
+A plataforma deve seguir procedimentos que dê para entender, dar um motivo que possa ser conferido, deixar que você conteste de forma razoável e não tratar você de forma arbitrária.
 
 ### mostrar
 
-Os registros da punição, o caminho de contestação que existia, os critérios usados, as dificuldades para desfazer a medida e o que ela causou na continuidade da sua experiência.
+Ajudam os registros da punição, o caminho de contestação que existia, os critérios usados, as dificuldades para desfazer a medida e o que ela causou na continuidade da sua experiência.
 
 ### pedir
 
@@ -333,21 +333,21 @@ Quando a perda é regra, o problema é o desenho
 
 ### quando
 
-Quando várias pequenas coisas funcionam juntas para tirar proveito da sua fragilidade ou para piorar a sua experiência como rotina do jogo. São pequenos atritos que cansam, perdas que todo mundo já acha normais e urgências fabricadas. São também a escassez artificial, a falta de clareza que trabalha a favor da empresa e as equivalências que mudam conforme a conveniência.
+Quando várias pequenas coisas funcionam juntas para tirar proveito da sua fragilidade ou para piorar a sua experiência como rotina do serviço. São pequenos atritos que cansam, perdas que todo mundo já acha normais e urgências fabricadas. São também a escassez artificial, a falta de clareza que trabalha a favor da empresa e as equivalências que mudam conforme a conveniência.
 
 Você não precisa provar que alguém quis prejudicar você. O que importa é a finalidade que aparece no próprio funcionamento do ambiente. Ela se vê pelo padrão que se repete, pela coerência entre as peças e pelo efeito que se produz de novo e de novo.
 
 ### deve
 
-Não montar a experiência com uma finalidade de exploração que contraria a boa-fé, a transparência e o equilíbrio, nem que desrespeita o que você legitimamente adquiriu.
+A plataforma não pode montar a experiência com uma finalidade de exploração que contraria a boa-fé, a transparência e o equilíbrio, nem que desrespeita o que você legitimamente adquiriu.
 
 ### mostrar
 
-O padrão, o fato de ele se repetir e a forma como as peças do ambiente se combinam. E o impacto relevante que isso tem sobre a sua liberdade de escolha na prática, sobre a sua compreensão ou sobre a utilidade do que você usa.
+Ajuda mostrar que existe um padrão, que ele se repete e como as peças do ambiente se combinam. Ajuda também mostrar o impacto relevante que isso tem sobre a sua liberdade de escolha na prática, sobre a sua compreensão ou sobre a utilidade do que você usa.
 
 ### pedir
 
-Mais do que o conserto de um episódio. Você pode pedir que os caminhos do jogo sejam refeitos, que a transparência aumente e que o desenho seja corrigido. Quando esse desenho produz um padrão de lesão que se repete, a resposta também pode alcançar a estrutura que o reproduz.
+Você pode pedir mais do que o conserto de um episódio. Pode pedir que os caminhos do serviço sejam refeitos, que a transparência aumente e que o desenho seja corrigido. Quando esse desenho produz um padrão de lesão que se repete, a resposta também pode alcançar a estrutura que o reproduz.
 
 ### limite
 
@@ -380,17 +380,17 @@ Quando quase tudo o que mostra o que aconteceu fica guardado com a plataforma. O
 
 ### deve
 
-Guardar e mostrar os registros mínimos necessários para reconstituir o que aconteceu. Poder ser conferida faz parte do jeito legítimo de fornecer.
+A plataforma deve guardar e mostrar os registros mínimos necessários para reconstituir o que aconteceu, porque poder ser conferida faz parte do jeito legítimo de fornecer.
 
 ### mostrar
 
-Da sua parte, contar de modo plausível o que você viveu, mostrar como aquilo se encaixa no jogo e reunir o que estava ao seu alcance. Da parte da plataforma, apresentar os registros, os históricos, as versões e as justificativas técnicas que importam para o caso.
+Da sua parte, ajuda contar de modo plausível o que você viveu, mostrar como aquilo se encaixa no jogo e reunir o que estava ao seu alcance. Da parte da plataforma, cabe apresentar os registros, os históricos, as versões e as justificativas técnicas que importam para o caso.
 
 Quanto mais o que aconteceu depende do que só a plataforma registra, menos razoável é exigir de você uma prova detalhada de algo que nunca esteve nas suas mãos.
 
 ### pedir
 
-Que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor, que fazem certos fatos valerem como verdadeiros até prova em contrário, e um dever reforçado de a plataforma colaborar com a prova.
+Você pode pedir que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor, que fazem certos fatos valerem como verdadeiros até prova em contrário, e um dever reforçado de a plataforma colaborar com a prova.
 
 ### limite
 
@@ -425,15 +425,15 @@ Vale entender o papel desses direitos. A propriedade intelectual não aparece aq
 
 ### deve
 
-Usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social, segundo a qual esses direitos existem também para servir ao interesse da sociedade. E se faz pelos limites que a Constituição impõe a quem exerce poder privado.
+A plataforma deve usar a exclusividade sem transformá-la em escudo para esconder tudo, piorar o que você comprou ou tirar o seu acesso sem razão. A conta entre os direitos da empresa e os seus se faz pela função social, segundo a qual esses direitos existem também para servir ao interesse da sociedade. E se faz pelos limites que a Constituição impõe a quem exerce poder privado.
 
 ### mostrar
 
-Se a restrição que a empresa invoca é mesmo necessária para proteger o jogo e a obra, ou se está servindo para blindar o jeito como ela governa o ambiente.
+Ajuda mostrar se a restrição que a empresa invoca é mesmo necessária para proteger o jogo e a obra, ou se está servindo para blindar o jeito como ela governa o ambiente.
 
 ### pedir
 
-Que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
+Você pode pedir que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
 
 ### limite
 
@@ -468,11 +468,11 @@ Quando o problema atinge o seu acesso, a continuidade do que você usa ou a equi
 
 ### deve
 
-Dar uma resposta que combine com o tipo de perda. Se o que você perdeu foi uma função, a resposta deve mirar essa função, e não só um valor em dinheiro que sobra no final.
+A plataforma deve dar uma resposta que combine com o tipo de perda. Se o que você perdeu foi uma função, a resposta deve mirar essa função, e não só um valor em dinheiro que sobra no final.
 
 ### mostrar
 
-A ligação entre a decisão ou o mecanismo da plataforma e a perda que você sofreu. E que é possível, técnica ou institucionalmente, restaurar, desfazer, trocar por algo equivalente ou corrigir o procedimento.
+Ajuda mostrar a ligação entre a decisão ou o mecanismo da plataforma e a perda que você sofreu. Ajuda também mostrar que é possível, técnica ou institucionalmente, restaurar, desfazer, trocar por algo equivalente ou corrigir o procedimento.
 
 ### pedir
 
