@@ -151,6 +151,12 @@ def resolve(rel_pagina, url):
 
 
 def ajusta_link(url, rel_pagina):
+    r = _ajusta_link(url, rel_pagina)
+    # Barra dupla em link relativo leva a /en// e quebra o estilo. 12/11/2026.
+    return r if re.match(r'^[a-z]+:', r) else re.sub(r'/{2,}', '/', r)
+
+
+def _ajusta_link(url, rel_pagina):
     if not url or url.startswith(("#", "mailto:", "tel:", "javascript:", "data:")):
         return url
     if url.startswith(BASE):
