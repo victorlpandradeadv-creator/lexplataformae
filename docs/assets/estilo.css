@@ -1012,10 +1012,7 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
   .fonte-par > summary { position: absolute; right: -1.9rem; top: 0.2rem; }
 }
 @media (hover: none) { .fonte-par > summary { opacity: 1; min-width: 2.75rem; min-height: 2.75rem; } }
-.curso-lista { padding-left: 1.5rem; }
-.curso-lista li { margin-block: 1.25rem; }
-.curso-lista li > a { font-family: var(--f-display); font-stretch: 112%; font-weight: 600; font-size: 1.125rem; }
-.curso-lista li > p { margin-block: 0.25rem 0; }
+/* O índice da Doutrina usa o componente .partes, como o índice do Caminho. 12/11/2026. */
 
 /* Como reclamar, acréscimo de 08/11/2026. O texto da lei abre sob demanda, e a nota de acréscimo fica discreta. */
 .lei-texto { margin: 0.75rem 0 0; border-top: 1px solid var(--linha); padding-top: 0.5rem; }
@@ -1377,6 +1374,89 @@ ul.problemas-lista { grid-template-columns: repeat(auto-fill, minmax(min(100%, 2
 .esq-ramo-rotulo { margin: 0 0 0.3rem; font-size: 0.8rem; color: var(--tinta-2); }
 @media (max-width: 600px) { .esquema .so-estreito { display: inline; } .esquema p.so-estreito { display: block; } }
 @media print { .esquema { break-inside: avoid; } }
+
+/* Revisão de disposição de 12/11/2026, por ordem do autor. Uma grade só e um eixo por página.
+   A capa usa o eixo central do começo ao fim. As páginas de leitura usam a borda esquerda da moldura. */
+.pagina-inicio .cena-titulo { align-items: center; text-align: center; }
+.pagina-inicio .cena-titulo .chamada { margin-inline: auto; }
+.pagina-inicio .atalhos-capa { justify-content: center; }
+.pagina-inicio > .ilustracao { max-width: 60rem; margin-inline: auto; }
+.pagina-inicio > .ilustracao figcaption { text-align: center; }
+.pagina-inicio .cena:not(.cena-titulo), .portas-texto, .nomes-discretos { width: min(100%, 46rem); margin-inline: auto; }
+.portas-titulo { text-align: center; }
+.portas-grade { align-items: stretch; }
+.porta > p:not(.porta-rotulo):not(.porta-mais) { min-height: 3em; }
+.porta .partes-curtas { display: grid; gap: 0.6rem; margin: 0.4rem 0 0; }
+.porta .partes-curtas li { margin: 0; display: flex; }
+.porta .partes-curtas a { flex: 1; min-height: 4.4rem; display: flex; align-items: center; box-sizing: border-box; }
+.inicio-fecho { display: block; width: min(100%, 46rem); margin-inline: auto; text-align: center; }
+.inicio-fecho > .convite { justify-items: center; max-width: none; }
+.inicio-fecho > .secao { text-align: left; }
+body:has(.pagina-inicio) .rodape { text-align: center; }
+body:not(:has(#nivel-2:checked)) .rodape { display: block; }
+body:not(:has(#nivel-2:checked)) .rodape > * { justify-self: auto; }
+.portas .porta ul.partes-curtas > li > a { min-height: 4.4rem; display: flex; align-items: center; box-sizing: border-box; }
+.pagina-inicio > figure.ilustracao > figcaption { text-align: center; justify-content: center; }
+.pagina-inicio .cena-titulo { min-height: clamp(18rem, 46svh, 30rem); }
+/* As faixas clicáveis quebram com equilíbrio, sem corte por frase. 12/11/2026. */
+:is(ul.partes-curtas, ul.problemas-lista, .outros ul, .indice-roteiro ul, ul.lugares) a { text-wrap: balance; }
+/* Portas em subgrade. Cada linha, do rótulo à saída, tem a mesma altura nas três, e as faixas se alinham entre elas. */
+@supports (grid-template-rows: subgrid) {
+  @media (min-width: 761px) {
+    .portas-grade { grid-template-rows: repeat(8, auto); row-gap: 0; }
+    .portas-grade > .porta { grid-row: span 8; display: grid; grid-template-rows: subgrid; row-gap: 0.6rem; }
+    .portas-grade > .porta > ul.partes-curtas { display: contents; }
+    .portas-grade > .porta > ul.partes-curtas > li { display: flex; }
+    .portas-grade > .porta > .porta-mais { align-self: end; }
+  }
+}
+/* Vocabulário na gramática comum. Sem moldura, texto em grade e não em colunas de jornal, cartões em grade de quatro
+   com a mesma altura. O oitavo cartão leva aos conceitos de outros campos. 12/11/2026. */
+.pagina-vocabulario .campo { border: 0; background: none; padding: 0; box-shadow: none; }
+.pagina-vocabulario .campo::before, .pagina-vocabulario .campo::after { display: none; }
+.pagina-vocabulario .campo-texto { columns: auto; display: grid; grid-template-columns: minmax(0, 46rem); gap: 0.75rem 3rem; }
+@media (min-width: 900px) {
+  .pagina-vocabulario .campo-texto:has(> p + p) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pagina-vocabulario .grade-conceitos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem; }
+  .pagina-vocabulario .eixo-cartoes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.pagina-vocabulario .campo-texto > :not(p) { grid-column: 1 / -1; }
+.pagina-vocabulario .campo-texto p { margin: 0; }
+.pagina-vocabulario .grade-conceitos > li, .pagina-vocabulario .eixo-cartoes > li { display: flex; min-width: 0; }
+.pagina-vocabulario .grade-conceitos > li > .cartao, .pagina-vocabulario .eixo-cartoes > li > .cartao { flex: 1; }
+.pagina-vocabulario .cartao-mais .cartao { border-style: dashed; }
+.pagina-vocabulario .cartao-mais .cartao b { background: none; color: var(--tinta); box-shadow: inset 0 -1px 0 var(--rubrica); padding-inline: 0; }
+/* Toda grade de cartões fica em grade de verdade, com a mesma altura na linha. 12/11/2026. */
+.grade-conceitos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 0.75rem; }
+.grade-conceitos > li { display: flex; min-width: 0; }
+.grade-conceitos > li > .cartao { flex: 1; }
+
+/* Nenhuma lista de links sublinhados. Revisão de 12/11/2026, por ordem do autor. O índice dos direitos, o link avulso para
+   reclamar, as listas simples da Ciência e o índice dos capítulos viram faixas. Nomes de autores e termos viram etiquetas. */
+:is(.folha) :is(.direitos-indice ol, ul.lista-simples, ol.lista-simples) {
+  list-style: none; padding: 0; margin: .75rem 0 0; display: grid; gap: .5rem; counter-reset: faixa; }
+.direitos-indice ol { grid-template-columns: minmax(0, 1fr); }
+:is(.folha) :is(.direitos-indice ol, ul.lista-simples, ol.lista-simples) > li { margin: 0; padding: 0; border: 0; }
+:is(.folha) :is(.direitos-indice ol, ul.lista-simples, ol.lista-simples) > li > a,
+:is(.folha, main) :is(p.ver-reclamar, p.ver-ideia, p.ver-direitos, p.ver-nove, p.ler-pdf) > a {
+  display: block; position: relative; height: 100%; box-sizing: border-box;
+  padding: .85rem 2.75rem .85rem 1rem; border: 1px solid var(--linha); border-radius: 8px;
+  background: var(--folha); color: var(--tinta); text-decoration: none; font-weight: 600;
+  transition: border-color .15s, background .15s; }
+:is(.folha) :is(.direitos-indice ol, ul.lista-simples, ol.lista-simples) > li > a::after,
+:is(.folha, main) :is(p.ver-reclamar, p.ver-ideia, p.ver-direitos, p.ver-nove, p.ler-pdf) > a::after {
+  content: "→"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--rubrica); font-weight: 400; transition: transform .15s; }
+:is(.folha) :is(.direitos-indice ol, ul.lista-simples, ol.lista-simples) > li > a:is(:hover, :focus-visible),
+:is(.folha, main) :is(p.ver-reclamar, p.ver-ideia, p.ver-direitos, p.ver-nove, p.ler-pdf) > a:is(:hover, :focus-visible) {
+  border-color: var(--rubrica); background: color-mix(in srgb, var(--rubrica) 6%, var(--folha)); outline: none; }
+.direitos-indice ol > li > a::before { counter-increment: faixa; content: counter(faixa) ". "; color: var(--tinta-2); font-weight: 400; }
+:is(p.ver-reclamar, p.ver-ideia, p.ver-direitos, p.ver-nove, p.ler-pdf) { margin: .75rem 0 0; }
+/* Etiquetas para nomes de autores e termos na Ciência. */
+:is(.termos-lista, .autores-lista, .conceitos-lista) { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+:is(.termos-lista, .autores-lista, .conceitos-lista) > li { margin: 0; }
+:is(.termos-lista, .autores-lista, .conceitos-lista) a { display: inline-block; padding: .2rem .6rem; border: 1px solid var(--linha);
+  border-radius: 999px; text-decoration: none; font-size: .92rem; line-height: 1.5; }
+:is(.termos-lista, .autores-lista, .conceitos-lista) a:is(:hover, :focus-visible) { border-color: currentColor; outline: none; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

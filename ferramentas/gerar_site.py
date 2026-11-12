@@ -679,12 +679,14 @@ def gerar_curso():
         (destino / "index.html").write_text(
             pagina(f'{c["titulo"]} · Caminho do jurista · Lex Plataformae', c["abertura"], corpo, prefixo, f'doutrina/{c["slug"]}/', jsonld,
                    camada="interna", superficie=prefixo, irmas=irmas_curso(c["slug"], prefixo)), encoding="utf-8")
-    itens = "".join(f'<li><a href="{c["slug"]}/">{esc(c["titulo"])}</a><p>{esc(c["abertura"])}</p></li>' for c in CURSO)
+    # O mesmo componente do índice do Caminho, número, título e resumo numa faixa só. Revisão de disposição de 12/11/2026.
+    itens = "".join(f'<li><a href="{c["slug"]}/"><span class="parte-num">{k}</span><span class="parte-titulo">{esc(c["titulo"])}</span>'
+                    f'<span class="parte-resumo">{esc(c["abertura"])}</span></a></li>' for k, c in enumerate(CURSO, 1))
     aplicacoes = "".join(f'<li><a href="../plataformas/{s}/">{esc(ext_texto(s, "titulo") or t)}</a></li>' for s, t in APLICACOES_CURSO)
     corpo = ('<article class="folha curso-indice"><header class="folha-cabeca"><h1>O caminho do jurista</h1>'
              '<p class="folha-lema">Este caminho reconstrói, para advogados, magistrados, membros do Ministério Público e estudantes, o regime jurídico do OIC. '
              'Cada capítulo parte de um problema, mostra por que a leitura comum não basta e chega ao que se pode demonstrar e pedir.</p></header>'
-             f'<section class="ext"><h2 class="rotulo-ext">Quais são os capítulos?</h2><ol class="curso-lista">{itens}</ol></section>'
+             f'<section class="ext"><h2 class="rotulo-ext">Quais são os capítulos?</h2><ol class="partes curso-lista">{itens}</ol></section>'
              f'<section class="ext"><h2 class="rotulo-ext">Como o regime se aplica a outras plataformas?</h2><ul class="partes-curtas">{aplicacoes}</ul></section>'
              + saidas_html([("As situações, para consulta", "../roteiro/"), ("A legislação", "../legislacao/"), ("Os conceitos", "../conceitos/")]) + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "CreativeWork", "name": "O caminho do jurista", "inLanguage": "pt-BR", "url": f"{BASE}/doutrina/",
@@ -1221,10 +1223,14 @@ def gerar_direitos():
     prefixo = "../"
     intro = DIREITOS.get("intro", {"paragrafos": [], "citacoes": []})
     indice = "".join(f'<li><a href="#{l}">{esc(DIREITOS[l]["titulo"])}</a></li>' for l in LETRAS_DIREITOS)
-    problemas = (f'<nav class="ext problemas-curto" aria-label="Por problema"><p class="rotulo-ext">Qual é o seu problema?</p>'
-                 f'{lista_problemas(PROBLEMAS, prefixo)}'
-                 + (f'<p class="ver-reclamar"><a href="{prefixo}como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
-                 + '</nav>') if PROBLEMAS else ""
+    # A lista inteira dos problemas mora em problemas/. Aqui fica a mesma faixa da página dos problemas, uma só, para a
+    # lista não aparecer em duas formas. Revisão de disposição de 12/11/2026.
+    problemas = (f'<nav class="ext problemas-curto" aria-label="Por problema"><ul class="partes problemas-lista">'
+                 f'<li><a href="{prefixo}problemas/"><span class="parte-titulo">Qual é o seu problema?</span>'
+                 f'<span class="parte-resumo">{len(PROBLEMAS)} problemas comuns, contados do jeito que acontecem, cada um com o que guardar e o que pedir.</span></a></li>'
+                 + (f'<li><a href="{prefixo}como-reclamar/"><span class="parte-titulo">{esc(COMO_RECLAMAR["titulo"])}</span>'
+                    f'<span class="parte-resumo">A própria empresa, o Consumidor.gov.br, o Procon e o Juizado, com o que cada um faz.</span></a></li>' if COMO_RECLAMAR else "")
+                 + '</ul></nav>') if PROBLEMAS else ""
     corpo = (f'<article class="folha direitos-pagina"><header class="folha-cabeca ext-cabeca"><h1>Seus direitos</h1></header>'
              f'<section class="ext">' + "".join(f"<p>{esc(t)}</p>" for t in intro["paragrafos"]) + expansao(intro["citacoes"], prefixo) + "</section>"
              + problemas +
@@ -1650,7 +1656,10 @@ def gerar_inicio():
     # Na Doutrina a história some e a capa abre nas portas. O vocabulário completo mora em conceitos/.
     def cena(campo_, classe=""):
         return (f'<section class="cena {classe} em-modo modo-0 modo-2">{ext_html("inicio", campo_, "")}</section>')
-    destaques = ["conta-bloqueada", "item-alterado", "servico-piorou", "jogo-encerrado", "crianca"]
+    # Portas com o mesmo contrato de conteúdo. Sobrelinha, título, uma frase, quatro entradas e uma saída.
+    # Revisão de disposição de 12/11/2026, por ordem do autor, para as três portas terem a mesma altura pelo conteúdo.
+    destaques = ["conta-bloqueada", "item-alterado", "servico-piorou", "jogo-encerrado"]
+    portas_caminho = ('<ul class="partes-curtas">' + "".join(f'<li><a href="caminho/{pt["slug"]}/">{esc(pt["titulo"])}</a></li>' for pt in PERCURSO[:4]) + "</ul>")
     destaques = [d for d in destaques if d in PROBLEMAS]
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
@@ -1674,20 +1683,28 @@ def gerar_inicio():
         <article class="porta porta-problema item-moldura">
           <p class="porta-rotulo">Aconteceu comigo</p>
           <h3><a href="problemas/">O que aconteceu com você?</a></h3>
+          <p>Comece pelo que você viveu. Cada problema mostra o que guardar e o que pedir.</p>
           {lista_problemas(destaques, "", "partes-curtas")}
-          <p class="porta-mais"><a href="problemas/">Todos os problemas</a>{f' · <a href="como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a>' if COMO_RECLAMAR else ""}</p>
+          <p class="porta-mais"><a href="problemas/">Todos os problemas</a></p>
         </article>
         <article class="porta porta-percurso item-moldura">
           <p class="porta-rotulo">Quero entender</p>
-          <h3><a href="caminho/o-desejo/">Siga a skin</a></h3>
-          <p>{esc(ext_texto("inicio", "percurso"))}</p>
-          <p class="porta-mais"><a href="caminho/o-desejo/">Continuar a história</a> · <a href="caminho/">As onze partes</a></p>
+          <h3><a href="caminho/a-compra/">Siga a skin</a></h3>
+          <p>Onze partes, do clique de compra ao que a lei pode fazer por você.</p>
+          {portas_caminho}
+          <p class="porta-mais"><a href="caminho/">As onze partes</a></p>
         </article>
         <article class="porta porta-direito item-moldura">
           <p class="porta-rotulo">Trabalho com Direito</p>
           <h3><a href="doutrina/" data-modo="1">O caminho do jurista</a></h3>
-          <p>Os mesmos problemas, tratados como doutrina. São onze situações, e cada uma diz quando o dever incide, o que a plataforma deve fornecer, que prova se pode exigir, como o caso se qualifica e que consequência ele pode ter. A legislação citada vem em texto integral, e quinze capítulos explicam o regime para quem vai operar com ele.</p>
-          <p class="porta-mais"><a href="doutrina/" data-modo="1">Abrir em Doutrina</a> · <a href="roteiro/" data-modo="1">As situações</a></p>
+          <p>Os mesmos problemas, tratados como doutrina para quem vai operar o regime.</p>
+          <ul class="partes-curtas">
+            <li><a href="roteiro/" data-modo="1">Onze situações, com dever, prova e consequência</a></li>
+            <li><a href="doutrina/" data-modo="1">Quinze capítulos sobre o regime</a></li>
+            <li><a href="legislacao/" data-modo="1">A legislação citada, em texto integral</a></li>
+            <li><a href="conceitos/" data-modo="1">O vocabulário, com definição e critérios</a></li>
+          </ul>
+          <p class="porta-mais"><a href="doutrina/" data-modo="1">Abrir em Doutrina</a></p>
         </article>
       </div>
     </section>
@@ -1762,9 +1779,8 @@ def gerar_inicio():
         {f'<blockquote class="citacao integra"><p>{esc(gatilho["texto"])}{pg(gatilho["ref"], pre, gatilho["texto"])}</p></blockquote>' if gatilho else ""}
       </div>
       <div class="campo-texto">{ext_html("inicio", "mapa", pre)}</div>
-      <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes_c}</ul>
+      <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes_c}<li class="cartao-mais"><a class="cartao cartao-ideia" href="{pre}instrumentos/"><span class="cartao-frase">As palavras que o caminho toma emprestadas da economia, da semiótica e de outros campos.</span><b>Conceitos que vêm de outros campos</b></a></li></ul>
       {fontes_c}
-      <p class="ver-ideia"><a href="{pre}instrumentos/">Conceitos que vêm de outros campos</a></p>
     </section>
 
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">

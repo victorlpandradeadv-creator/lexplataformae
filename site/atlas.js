@@ -322,14 +322,25 @@
 (function () {
   var chave = document.querySelector('.chave-mestra');
   if (!chave) return;
-  var ultimo = window.scrollY, pedido = false;
+  // No meio da página, a chave que volta com a subida recolhe de novo depois de alguns segundos parada, para não ficar
+  // sobre um link. No alto e no fim ela fica, e o fim da página reserva o espaço dela. Revisão de disposição de 12/11/2026.
+  var ultimo = window.scrollY, pedido = false, timer = null;
+  function livre() { return window.scrollY < 80 || window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 80; }
+  function esconderDepois() {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      if (!livre() && !chave.matches(':hover') && !chave.contains(document.activeElement)) chave.classList.add('recolhida');
+    }, 2500);
+  }
   function ajustar() {
     pedido = false;
-    var y = window.scrollY, fim = y + window.innerHeight >= document.documentElement.scrollHeight - 80;
-    if (fim || y < 80 || y < ultimo - 4) chave.classList.remove('recolhida');
+    var y = window.scrollY;
+    if (livre()) { clearTimeout(timer); chave.classList.remove('recolhida'); }
+    else if (y < ultimo - 4) { chave.classList.remove('recolhida'); esconderDepois(); }
     else if (y > ultimo + 4 && !chave.contains(document.activeElement)) chave.classList.add('recolhida');
     ultimo = y;
   }
+  chave.addEventListener('mouseleave', function () { if (!livre()) esconderDepois(); });
   window.addEventListener('scroll', function () { if (!pedido) { pedido = true; requestAnimationFrame(ajustar); } }, { passive: true });
   chave.addEventListener('focusin', function () { chave.classList.remove('recolhida'); });
 })();
@@ -386,6 +397,7 @@ document.addEventListener('click', function (ev) {
    Revisão de quebras de 11/11/2026. */
 (function () {
   var MAX = 240;
+  var QUEBRA_EM = 'h1, h2, h3, h4, .abertura-pagina, .porta > p:not(.porta-mais):not(.porta-rotulo), .cartao p, .cartao-conceito p, figcaption, .esq-titulo, .cena > p, .portas-texto > p, .resumo-ext';
   var ABREV = /(?:\b(?:p|pp|art|arts|n|nº|cf|ex|Jr|Sr|Sra|Dr|Dra|v|vol|ed|No|Nos|e\.g|i\.e|etc))$/i;
   function linhas(el) {
     var tops = [], w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), no;
@@ -445,7 +457,9 @@ document.addEventListener('click', function (ev) {
   }
   function ajusta() {
     var raiz = document.querySelector('main') || document.body;
-    Array.prototype.forEach.call(raiz.querySelectorAll('*'), function (el) {
+    /* Só títulos, aberturas, legendas e textos de cartão. O texto corrido e as faixas clicáveis correm normais, para a
+       coluna não ficar serrilhada. Revisão de disposição de 12/11/2026. */
+    Array.prototype.forEach.call(raiz.querySelectorAll(QUEBRA_EM), function (el) {
       if (!el.offsetParent || el.closest('.tese-texto, pre, code, svg, .modo, nav.trilha')) return;
       var d = getComputedStyle(el).display;
       if (d.indexOf('inline') === 0 || d === 'none' || d === 'contents') return;
