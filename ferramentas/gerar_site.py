@@ -3964,6 +3964,10 @@ img { max-width: 100%; }
         (assets / "cartoes").mkdir(exist_ok=True)
         for arq in (RAIZ / "site" / "cartoes").glob("*.png"):
             shutil.copy(arq, assets / "cartoes" / arq.name)
+        if (RAIZ / "site" / "cartoes" / "en").exists():
+            (assets / "cartoes" / "en").mkdir(exist_ok=True)
+            for arq in (RAIZ / "site" / "cartoes" / "en").glob("*.png"):
+                shutil.copy(arq, assets / "cartoes" / "en" / arq.name)
 
 
 def gerar_auxiliares():

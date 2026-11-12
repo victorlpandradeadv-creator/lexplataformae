@@ -119,12 +119,12 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7.1.4 | Da cidadania digital e limites ao poder privado de plataforma | 752 a 755 | 2 | 13 | Fichas (Integridade pessoal); Roteiro (Cidadania digital e limites) |
 | 7.2 | Dos modelos típicos de plataforma e incidência do OIC | 755 a 757 | 10 | 8 | Laboratório (A sequência de cada família) |
 | 7.2.1 | Dos OICs de funcionalidade cognitiva e regime de informação | 757 a 760 | 44 | 17 | Laboratório (Família de plataforma) |
-| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 30 | 17 | Laboratório (Família de plataforma) |
-| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 26 | 17 | Laboratório (Família de plataforma) |
+| 7.2.2 | Dos OICs de infraestrutura e intermediação | 760 a 765 | 50 | 17 | Laboratório (Família de plataforma) |
+| 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 47 | 17 | Laboratório (Família de plataforma) |
 | 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 7 | 12 | Laboratório (Desdobramento da tipologia) |
 | 7.2.5 | Da tutela coletiva sob auditabilidade aberta | 773 a 777 | 20 | 12 | Fichas (Auditabilidade aberta); Laboratório (Desdobramento da tipologia) |
 | 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 19 | 10 | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
-| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 28 | 12 | Laboratório (Família de plataforma) |
-| 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 2 | 10 | Laboratório (Subcaso da administração de confiança) |
+| 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 48 | 12 | Laboratório (Família de plataforma) |
+| 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 16 | 10 | Laboratório (Subcaso da administração de confiança) |
 | 7.3 | Dos padrões recorrentes de fricção, prova e recomposição | 787 a 789 | 2 | 6 | Fichas (Recomposição funcional e correção de regime); Laboratório (O que as famílias mostram) |
 | 8 | Conclusão | 791 a 802 | 25 | 5 | Fichas (Ilícito de arquitetura, Recomposição funcional e correção de regime); Atlas (Três leituras da tese) |

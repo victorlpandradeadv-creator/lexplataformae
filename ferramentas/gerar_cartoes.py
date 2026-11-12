@@ -93,9 +93,9 @@ def cartoes():
     return lista
 
 
-def pagina(frase, rotulo):
+def pagina(frase, rotulo, en=False):
     f = FONTES.as_uri()
-    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>
+    return f"""<!doctype html><html lang="{"en" if en else "pt-BR"}"><head><meta charset="utf-8"><style>
 @font-face {{ font-family: "Archivo"; font-weight: 100 900; font-stretch: 62% 125%; src: url({f}/archivo-latin-wdth-normal.woff2) format("woff2"); }}
 @font-face {{ font-family: "Newsreader"; font-style: italic; font-weight: 200 800; src: url({f}/newsreader-latin-opsz-italic.woff2) format("woff2"); }}
 @font-face {{ font-family: "IBM Plex Mono"; font-weight: 500; src: url({f}/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); }}
@@ -111,21 +111,43 @@ body {{ box-sizing: border-box; padding: 64px 72px; background: {INFO["papel"]};
 .chave i {{ display: inline-block; width: 44px; height: 26px; border-radius: 99px; background: {TESE["chapado"]}; position: relative; }}
 .chave i::after {{ content: ""; position: absolute; top: 4px; right: 4px; width: 18px; height: 18px; border-radius: 50%; background: {INFO["papel"]}; }}
 </style></head><body>
-<div class="marca"><small>Projeto</small>Lex Plataformae</div>
+<div class="marca"><small>{"Project" if en else "Projeto"}</small>Lex Plataformae</div>
 <p class="frase" id="frase">{html.escape(frase)}</p>
 <div class="pe"><span class="rotulo">{html.escape(rotulo)}</span><span class="url chave"><i></i>lexplataformae.com.br</span></div>
 </body></html>"""
 
 
+def cartoes_en():
+    """Cartões da versão inglesa, lidos do og:image:alt das páginas de docs/en/ (frase · rótulo · Lex Plataformae). 12/11/2026."""
+    import sys
+    vistos = {}
+    for pag in sorted((RAIZ / "docs" / "en").rglob("index.html")):
+        t = pag.read_text(encoding="utf-8")
+        img = re.search(r'content="[^"]*/assets/cartoes/(?:en/)?([\w-]+)\.png" property="og:image"', t)
+        alt = re.search(r'content="([^"]*)" property="og:image:alt"', t)
+        if not img or not alt or img.group(1) in vistos:
+            continue
+        partes = [html.unescape(x) for x in alt.group(1).split(" · ")]
+        if partes and partes[-1] == "Lex Plataformae":
+            partes = partes[:-1]
+        vistos[img.group(1)] = (partes[0], " · ".join(partes[1:]))
+    return [(k, f, r) for k, (f, r) in vistos.items()]
+
+
 def main():
+    import sys
+    global SAIDA
+    en = "--en" in sys.argv
+    if en:
+        SAIDA = SAIDA / "en"
     SAIDA.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as pw:
         nav = pw.chromium.launch()
         p = nav.new_page(viewport={"width": 1200, "height": 630})
         temp = SAIDA / "_cartao.html"
-        for ident, frase, rotulo in cartoes():
+        for ident, frase, rotulo in (cartoes_en() if en else cartoes()):
             # Página em arquivo, para que as fontes locais carreguem.
-            temp.write_text(pagina(frase, rotulo), encoding="utf-8")
+            temp.write_text(pagina(frase, rotulo, en), encoding="utf-8")
             p.goto(temp.as_uri())
             p.evaluate("document.fonts.ready.then(() => true)")
             p.wait_for_timeout(150)

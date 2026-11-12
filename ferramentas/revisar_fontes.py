@@ -72,7 +72,8 @@ for p in paginas:
     s = (D / p).read_text(encoding='utf-8')
     t = html.unescape(re.search(r'<title>(.*?)</title>', s).group(1))
     tit[t].append(p)
-    dsc = re.search(r'<meta name="description" content="([^"]*)"', s)
+    dsc = (re.search(r'<meta name="description" content="([^"]*)"', s)
+           or re.search(r'<meta content="([^"]*)" name="description"', s))
     if not dsc or not dsc.group(1).strip(): longas.append(('sem descrição', p))
     elif len(html.unescape(dsc.group(1))) > 158: longas.append(('longa', p))
 rep = {t: ps for t, ps in tit.items() if len(ps) > 1}

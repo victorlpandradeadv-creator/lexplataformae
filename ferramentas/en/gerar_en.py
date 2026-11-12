@@ -33,12 +33,35 @@ BASE = "https://lexplataformae.com.br"
 T = RAIZ / "traducao"
 
 # Avisos próprios da versão inglesa. Acréscimo posterior de 10/11/2026.
-AVISO_TESE = ("This is a machine translation of the thesis, produced for this site and not reviewed by the author. "
+AVISO_TESE = ("This is a machine translation of the thesis, produced for this site and reviewed for accuracy and continuity, but not yet reviewed by the author. "
               "The Portuguese original is the authoritative text.")
+PDF_EN = RAIZ / "site" / "andrade-2026-thesis-ioc-lex-plataformae-en.pdf"
 ROTULO_PT = "PT"
 TITULO_PT = "Free translation. Show the Portuguese original"
 TITULO_PT_LEI = "Unofficial translation. Show the Portuguese original"
 ARQUIVOS_SUBIR = ("assets/", "dados/", "fontes/")
+
+# Endereços em inglês, por ordem do autor de 12/11/2026. Cada parte do caminho português tem a sua parte inglesa
+# em traducao/enderecos.json. As âncoras dos títulos e dos termos também passam ao inglês, pelo texto traduzido.
+ENDERECOS = json.loads((T / "enderecos.json").read_text(encoding="utf-8"))
+IDS = {}
+
+
+def en_rel(rel):
+    """Caminho inglês de um caminho relativo à raiz de docs/."""
+    return "/".join(ENDERECOS.get(p, p) for p in rel.split("/"))
+
+
+def ancora_inglesa(texto, usados):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode().lower()
+    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")[:60].rstrip("-") or "section"
+    base, n = t, 2
+    while t in usados:
+        t = f"{base}-{n}"
+        n += 1
+    usados.add(t)
+    return t
 
 
 def memoria():
@@ -131,14 +154,19 @@ def ajusta_link(url, rel_pagina):
     if url.startswith(BASE):
         resto = url[len(BASE):]
         caminho = resto.lstrip("/")
-        return BASE + "/en/" + caminho if e_pagina(caminho) else url
+        return BASE + "/en/" + en_rel(caminho) if e_pagina(caminho) else url
     if re.match(r"^[a-z]+://", url):
         return url
     if url.startswith("/"):
-        return "/en" + url if e_pagina(url.lstrip("/")) else url
+        return "/en/" + en_rel(url.lstrip("/")) if e_pagina(url.lstrip("/")) else url
     alvo = resolve(rel_pagina, url)
     if e_pagina(alvo):
-        return url
+        frag = "#" + url.split("#", 1)[1] if "#" in url else ""
+        caminho = alvo.split("#")[0]
+        if url.startswith("#"):
+            return url
+        destino = prefixo_raiz(rel_pagina) + en_rel(caminho)
+        return (destino or "./") + frag
     frag = "#" + url.split("#", 1)[1] if "#" in url else ""
     return prefixo_raiz(rel_pagina) + "../" + alvo.split("#")[0] + frag
 
@@ -200,7 +228,8 @@ def alternativas(sopa, rel):
         return
     for l in cab.select('link[rel="alternate"][hreflang]'):
         l.decompose()
-    pt, en = url_publica(rel), BASE + "/en/" + url_publica(rel)[len(BASE) + 1:]
+    pt = url_publica(rel)
+    en = BASE + "/en/" + en_rel(pt[len(BASE) + 1:])
     for lang, href in (("pt-BR", pt), ("en", en), ("x-default", pt)):
         l = sopa.new_tag("link", rel="alternate", href=href)
         l["hreflang"] = lang
@@ -247,6 +276,14 @@ def traduz_pagina(arq, rel):
                 el[a] = traduz_attr(v, rel)
         if el.name == "meta" and (el.get("name") in META or el.get("property") in META):
             el["content"] = traduz_attr(el.get("content", ""), rel)
+            # A descrição traduzida pode passar de 158 caracteres, o limite das descrições do site. Corta na palavra. 12/11/2026.
+            if (el.get("name") == "description" or el.get("property") in ("og:description", "twitter:description")) and len(el["content"]) > 158:
+                el["content"] = el["content"][:157].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+        # Cartão de compartilhamento em inglês, gerado por gerar_cartoes.py --en a partir do og:image:alt. 12/11/2026.
+        if el.name == "meta" and el.get("property") in ("og:image", "twitter:image") or (el.name == "meta" and el.get("name") == "twitter:image"):
+            c = el.get("content", "")
+            if "/assets/cartoes/" in c and "/cartoes/en/" not in c and (RAIZ / "site" / "cartoes" / "en" / c.rsplit("/", 1)[1]).exists():
+                el["content"] = c.replace("/assets/cartoes/", "/assets/cartoes/en/")
         if el.name == "meta" and el.get("property") == "og:locale":
             el["content"] = "en_US"
         for a in ("href", "src", "action", "data-superficie", "poster"):
@@ -266,7 +303,7 @@ def traduz_pagina(arq, rel):
     for no in sopa.find_all(string=re.compile(re.escape(BASE) + r"/")):
         if no.parent.name in ("script", "style"):
             continue
-        novo = re.sub(re.escape(BASE) + r"/(?!en/)([^\s<\"']*)", lambda m: BASE + "/en/" + m.group(1) if e_pagina(m.group(1)) else m.group(0), str(no))
+        novo = re.sub(re.escape(BASE) + r"/(?!en/)([^\s<\"']*)", lambda m: BASE + "/en/" + en_rel(m.group(1)) if e_pagina(m.group(1)) else m.group(0), str(no))
         no.replace_with(novo)
     # Marca dos originais
     for bq, pt, lei in originais:
@@ -284,6 +321,12 @@ def traduz_pagina(arq, rel):
         a.string = "Ler em português"
         aviso.append(a)
         aviso.append(".")
+        if rel == "tese/index.html" and PDF_EN.exists():
+            aviso.append(" ")
+            b = sopa.new_tag("a", href=PDF_EN.name)
+            b.string = "Download this English translation as PDF"
+            aviso.append(b)
+            aviso.append(".")
         conteudo.insert(0, aviso)
     # Estilo dos acréscimos ingleses
     if sopa.head and not sopa.head.select_one('link[href$="en.css"]'):
@@ -291,6 +334,30 @@ def traduz_pagina(arq, rel):
         if estilo:
             l = sopa.new_tag("link", rel="stylesheet", href=estilo["href"].replace("estilo.css", "en.css"))
             estilo.insert_after(l)
+    for m in sopa.select('meta[http-equiv="refresh"]'):
+        c = m.get("content", "")
+        if "url=" in c:
+            antes, alvo = c.split("url=", 1)
+            m["content"] = antes + "url=" + ajusta_link(alvo, rel)
+    # Âncoras dos títulos e dos termos em inglês
+    usados, mapa = set(), {}
+    for el in sopa.select("[id]"):
+        velho = el["id"]
+        if el.name in ("h1", "h2", "h3", "h4", "h5") or velho.startswith("termo-"):
+            fonte_ = el if not velho.startswith("termo-") else (el.select_one("h2,h3,h4,strong,.termo-nome") or el)
+            fonte_ = copy.copy(fonte_)
+            for x in fonte_.select(".area-rotulo, .so-leitor, .pg, sup"):
+                x.decompose()
+            novo = ancora_inglesa(("term-" if velho.startswith("termo-") else "") + fonte_.get_text(" ", strip=True), usados)
+            mapa[velho] = novo
+            el["id"] = novo
+        else:
+            usados.add(velho)
+    for a in sopa.select('a[href^="#"]'):
+        f = a["href"][1:]
+        if f in mapa:
+            a["href"] = "#" + mapa[f]
+    IDS[en_rel(rel)] = mapa
     alternativas(sopa, rel)
     volta = prefixo_raiz(rel) + "../" + rel.replace("index.html", "")
     link_idioma(sopa, volta, "Português", "pt-BR")
@@ -300,7 +367,7 @@ def traduz_pagina(arq, rel):
 def marca_portugues(arq, rel):
     sopa = BeautifulSoup(arq.read_text(encoding="utf-8"), "lxml")
     alternativas(sopa, rel)
-    link_idioma(sopa, prefixo_raiz(rel) + "en/" + rel.replace("index.html", ""), "English", "en")
+    link_idioma(sopa, prefixo_raiz(rel) + "en/" + en_rel(rel.replace("index.html", "")), "English", "en")
     if sopa.head and not sopa.head.select_one('link[href$="en.css"]'):
         estilo = sopa.select_one('link[rel="stylesheet"]')
         if estilo:
@@ -314,7 +381,7 @@ def sitemap():
     linhas = ['<?xml version="1.0" encoding="UTF-8"?>',
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for u in urls:
-        en = BASE + "/en/" + u[len(BASE) + 1:]
+        en = BASE + "/en/" + en_rel(u[len(BASE) + 1:])
         alt = (f'<xhtml:link rel="alternate" hreflang="pt-BR" href="{u}"/>'
                f'<xhtml:link rel="alternate" hreflang="en" href="{en}"/>')
         linhas.append(f"  <url><loc>{u}</loc>{alt}</url>")
@@ -338,6 +405,23 @@ details.original .original-texto { display: block; margin-top: .4em; font-size: 
 """
 
 
+def llms_en():
+    """llms.txt da versão inglesa, com cada página inglesa pelo título e pela descrição traduzidos. 12/11/2026."""
+    linhas = ["# Lex Plataformae (English)", "",
+              "> English version of lexplataformae.com.br, which adapts the doctoral thesis by Victor L. P. Andrade, \"Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae\" (UNESP, Franca, 2026), on the legal regime of the Immaterial Object of Consumption (IOC) under Brazilian consumer law. Literal quotations appear in free translation, with the Portuguese original alongside. The full thesis text is a machine translation, reviewed for continuity but not yet reviewed by the author. The Portuguese version is authoritative.", "",
+              f"- [Portuguese version]({BASE}/llms.txt)", f"- [Thesis PDF, English translation]({BASE}/en/thesis/andrade-2026-thesis-ioc-lex-plataformae-en.pdf)", f"- [Thesis PDF, Portuguese original]({BASE}/tese/andrade-2026-tese-oic-lex-plataformae.pdf)", "", "## Pages", ""]
+    for f in sorted(EN.rglob("index.html")):
+        t = f.read_text(encoding="utf-8")
+        tit = re.search(r"<title>(.*?)</title>", t, re.S)
+        desc = re.search(r'<meta content="([^"]*)" name="description"', t) or re.search(r'<meta name="description" content="([^"]*)"', t)
+        if not tit or "http-equiv=\"refresh\"" in t or 'http-equiv="refresh"' in t:
+            continue
+        rel = f.relative_to(EN).parent.as_posix()
+        url = f"{BASE}/en/" + ("" if rel == "." else rel + "/")
+        linhas.append(f"- [{html.unescape(tit.group(1)).strip()}]({url})" + (f": {html.unescape(desc.group(1))}" if desc else ""))
+    (EN / "llms.txt").write_text("\n".join(linhas) + "\n", encoding="utf-8")
+
+
 def main():
     if EN.exists():
         import shutil
@@ -345,12 +429,40 @@ def main():
     paginas = [(p, p.relative_to(DOCS).as_posix()) for p in sorted(DOCS.rglob("*.html"))]
     (DOCS / "assets" / "en.css").write_text(CSS, encoding="utf-8")
     for arq, rel in paginas:
-        saida = EN / rel
+        saida = EN / en_rel(rel)
         saida.parent.mkdir(parents=True, exist_ok=True)
         saida.write_text(traduz_pagina(arq, rel), encoding="utf-8")
+    # Âncoras de outras páginas
+    for arq, rel in paginas:
+        er = en_rel(rel)
+        f = EN / er
+        sopa = BeautifulSoup(f.read_text(encoding="utf-8"), "lxml")
+        mudou = False
+        for a in sopa.select('a[href*="#"]'):
+            href = a["href"]
+            if href.startswith("#") or re.match(r"^[a-z]+://", href) and not href.startswith(BASE):
+                continue
+            caminho, frag = href.split("#", 1)
+            if href.startswith(BASE + "/en/"):
+                alvo = caminho[len(BASE) + 4:]
+            elif caminho.startswith("/"):
+                continue
+            else:
+                alvo = resolve(er, caminho)
+            alvo = alvo if alvo.endswith(".html") else (alvo.rstrip("/") + "/index.html").lstrip("/")
+            novo = IDS.get(alvo, {}).get(frag)
+            if novo:
+                a["href"] = caminho + "#" + novo
+                mudou = True
+        if mudou:
+            f.write_text(str(sopa), encoding="utf-8")
     for arq, rel in paginas:
         marca_portugues(arq, rel)
+    if PDF_EN.exists():
+        import shutil as _sh
+        _sh.copy(PDF_EN, EN / "thesis" / PDF_EN.name)
     sitemap()
+    llms_en()
     (T / "faltam.json").write_text(json.dumps(list(FALTAM.values()), ensure_ascii=False, indent=0), encoding="utf-8")
     palavras = sum(len(re.sub(r"<[^>]+>", " ", x["pt"]).split()) for x in FALTAM.values())
     print(f"{len(paginas)} páginas em docs/en/. Segmentos sem tradução {len(FALTAM)}, {palavras} palavras.")

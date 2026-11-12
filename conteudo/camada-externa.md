@@ -1179,37 +1179,149 @@ Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqu
 
 ### titulo
 
-Quem decide o que você vê numa loja virtual?
+Quem decide o que você vê numa loja virtual ou numa rede social?
 
 ### resumo
 
-Lojas virtuais, redes sociais e plataformas de anúncio costumam dizer que só aproximam as partes, como uma praça neutra. Na prática, escolhem o que aparece primeiro, o que fica escondido, quem parece confiável, o que é comparável e o que demora a chegar.
+Você procura um produto numa loja virtual, compara preços, olha as avaliações e escolhe o vendedor que parece mais confiável. Ou abre uma rede social e vê o que está em alta, o que os outros curtiram e o que parece importar naquele dia.
 
-Ou seja, quem compra ou vende não enxerga o mercado. Enxerga o mercado pelos filtros da plataforma. Rankings, reputação, destaque e recomendação não são detalhes da vitrine, porque fazem parte do que ela entrega e pesam na expectativa, no risco que se percebe e na escolha.
+Parece que você está olhando o mercado ou a conversa como eles são. Mas tudo chegou até você já escolhido, ordenado e destacado pela plataforma, com critérios que você não controla e quase nunca consegue conferir.
 
 > Plataformas dessa natureza não apenas conectam. Elas selecionam, hierarquizam, destacam, ocultam, aproximam, retardam, priorizam e reorganizam a forma pela qual a realidade do ambiente se torna perceptível ao usuário. (p. 761)
-> Em sua linguagem formal, elas frequentemente aparecem como espaços neutros de encontro entre vendedor e comprador (p. 761)
+> O mercado, a oferta e até mesmo a relevância social do que circula em seu interior comparecem ao consumidor e ao usuário por meio de filtros privados de visibilidade, saliência e inteligibilidade. (p. 761)
+
+### usa O que você está usando, afinal?
+
+Não importa o que foi vendido no fim nem o setor em que a plataforma atua. O que decide é como ela organiza a troca, o encontro e a comparação dentro do ambiente que ela administra.
+
+Essas plataformas costumam se apresentar como uma praça neutra, que só aproxima quem vende de quem compra, ou quem publica de quem lê. Isso é verdade só na superfície.
+
+O que você recebe é uma estrutura de visibilidade, reputação, curadoria, intermediação e entrega. Sem ela, o produto ou o conteúdo nem chegaria até você do jeito que chegou.
+
+> A incidência do regime do Objeto Imaterial de Consumo sobre plataformas de infraestrutura e intermediação não se define pelo objeto final negociado nem pela classificação econômica tradicional do setor em que a plataforma atua. (p. 760)
+> Em sua linguagem formal, elas frequentemente aparecem como espaços neutros de encontro entre vendedor e comprador, entre emissor e receptor, entre anunciante e audiência, entre produtores de conteúdo e público. (p. 761)
+> Essa descrição, embora parcialmente verdadeira em plano superficial, é insuficiente para captar a estrutura real do fornecimento. (p. 761)
+
+### vitrine Por que a vitrine faz parte do que você recebe?
+
+Você não consome só o produto de um terceiro ou o post que aparece na sua tela. Antes disso, você consome a moldura que define o que parece mais relevante, mais confiável, mais seguro, mais popular ou mais digno de atenção.
+
+Por isso ranking, reputação, destaque, recomendação e alcance não são detalhes da tela. Eles fazem parte da utilidade da plataforma e pesam no que você espera, no risco que você enxerga e na escolha que você faz.
+
+> Consomem, antes disso, molduras privadas que definem o que será visto como mais relevante, mais confiável, mais comparável, mais seguro, mais popular ou mais digno de atenção. (p. 761)
 > Rankings, reputação, destaque, recomendação, priorização e modulação de alcance não são elementos periféricos. Integram a utilidade funcional do ecossistema e influenciam diretamente a formação da expectativa, a avaliação do risco e a possibilidade de escolha racional. (p. 761)
+
+### onde Onde isso aparece no seu dia a dia?
+
+**Nas lojas virtuais.** Os termos de uso dos grandes marketplaces mostram que a plataforma organiza muito mais que anúncios. Ela cuida das regras, da visibilidade, do pagamento, da reputação, da entrega e da solução de conflitos.
+
+**Nas redes sociais.** Os termos das grandes redes mostram regras privadas sobre o que fica no ar, quem vê o quê, o que é moderado e como a conversa circula.
+
+Compra e conversa são coisas diferentes, mas o mecanismo é o mesmo. Nos dois casos, a plataforma governa o lugar onde as coisas aparecem e prepara o espaço em que você vai decidir.
+
+> Em ambos os casos, a plataforma não se limita a hospedar anúncios. Ela administra critérios de apresentação, confiança, priorização e legibilidade do mercado acessível ao consumidor. (p. 762)
+> Também aqui a plataforma não apenas “deixa aparecer” conteúdos produzidos por terceiros. Ela administra a forma como esses conteúdos entram no campo de percepção do usuário e como sua relevância é socialmente estabilizada. (p. 762)
+> Em ambos os casos, a plataforma governa o ambiente de aparição. (p. 762)
+
+### escolha Você escolhe mesmo sozinho?
+
+Você não escolhe diante de um mercado transparente, com todas as ofertas lado a lado. Você escolhe dentro de um campo que a plataforma já interpretou para você.
+
+Pesam na sua escolha a posição de destaque de um item, a cara de confiável de um vendedor, o jeito de mostrar as avaliações e a diferença entre o que é patrocinado e o que não é. Pesam também a ligação com pagamento e entrega e a ordem das categorias.
+
+No fim, a plataforma produz o mercado que você consegue enxergar.
+
+> O consumidor não escolhe no vazio, diante de universo transparente e simétrico de ofertas. Ele escolhe dentro de um campo já pré-interpretado pela plataforma. (p. 762)
+> A plataforma, portanto, produz o próprio mercado perceptível. (p. 762)
+
+### nome Isso tem nome
+
+**Vulnerabilidade semiótica.** É a desvantagem de quem precisa confiar em sinais que outra pessoa controla. Aqui ela cresce porque a tela da plataforma passa a fabricar o que é real para você, e o que ela não mostra quase deixa de existir.
+
+> Trata-se de vulnerabilidade semiótica intensificada pela dependência estrutural da interface como produtora do real acessível. (p. 763)
+> A plataforma define o que se destaca, o que se esconde, o que parece mais confiável, o que adquire aparência de consenso, o que surge como comparável e o que se torna praticamente invisível. (p. 763)
+
+### promessa O que a plataforma promete sem dizer?
+
+A promessa não está só no que a empresa diz em voz alta, como neutralidade, eficiência ou conveniência. Está também na promessa implícita de que você vai conseguir entender o mercado ou a conversa que aparece na tela.
+
+Quando os critérios são escondidos, quando há interesses internos que você não vê ou quando a ordem das coisas não pode ser conferida, o que você recebe é atingido no centro. Você perde a capacidade de ler o ambiente.
+
+> Em ambientes assim, a promessa do fornecedor não está apenas no discurso explícito de neutralidade, eficiência ou conveniência. Está também na promessa implícita de inteligibilidade do mercado ou da circulação social. (p. 763)
+> Quando essa inteligibilidade é governada por critérios opacos, interesses internos não transparentes ou padrões de hierarquização não auditáveis, a fruição passa a ser afetada em seu próprio núcleo de legibilidade. (p. 763)
 
 ### prova Como provar o que a vitrine escondeu?
 
-Não basta olhar o produto que chegou ou o post que sumiu. É preciso reconstruir a vitrine inteira, com a ordem das ofertas, o que era anúncio pago e o que não era, as avaliações, os selos de confiança e o alcance de cada coisa.
+Não basta olhar o produto que chegou ou o post que sumiu. É preciso reconstruir a experiência inteira. Conforme o caso, entram aqui alguns pontos.
 
-O erro mais comum é tratar a tela como simples enfeite. Ela faz parte do que a plataforma fornece, e o jeito como ela destaca e esconde pesa sobre toda a sua escolha, e não só sobre a compra que deu errado no fim.
+- Como as ofertas foram apresentadas.
+- O que era resultado pago e o que não era.
+- O papel das avaliações e da reputação.
+- A ligação entre destaque e entrega.
+- Os selos e sinais de confiança da tela.
+- O contexto em que o conteúdo apareceu e as regras de moderação.
+
+Na rede social, conta também como o feed, a recomendação e o alcance moldaram o que você via. Na loja virtual, contam o ranking, o destaque, a nota do vendedor e o patrocínio. Guarde capturas de tela com data enquanto ainda dá.
 
 > Não basta examinar o produto final adquirido ou o conteúdo individual removido, priorizado ou ocultado. É necessário reconstruir a arquitetura da experiência. (p. 763)
-> Isso inclui, conforme o caso, a forma de apresentação das ofertas, a distinção entre resultados orgânicos e pagos, o papel de avaliações e reputações [...] (p. 763)
+> Isso inclui, conforme o caso, a forma de apresentação das ofertas, a distinção entre resultados orgânicos e pagos, o papel de avaliações e reputações, a integração entre visibilidade e logística, os sinais de confiabilidade fornecidos pela interface, o contexto de aparição do conteúdo, os critérios de moderação relevantes e os mecanismos pelos quais a plataforma induz percepção de mercado, de consenso ou de prioridade. (p. 763)
+
+### armadilhas Quais armadilhas fazem você desistir cedo demais?
+
+**Achar que a tela é só enfeite.** O jeito de mostrar as coisas faz parte do que a plataforma fornece.
+
+**Achar que a plataforma só responde pelo que escreveu.** O que ela faz na prática com a visibilidade também conta, e não só o que está no contrato ou na propaganda.
+
+**Achar que o problema é só o último passo.** A compra frustrada ou o post removido são o fim de uma história. O que levou até ali foi a vitrine montada pela plataforma.
+
+Essas armadilhas deixam a plataforma com todo o poder sobre a sua escolha, escondido atrás de uma aparência de técnica neutra.
+
 > O primeiro é a tendência de tratar a interface como mero suporte visual, e não como parte constitutiva do fornecimento. (p. 763)
+> O segundo é a tendência de imaginar que a plataforma só responderia juridicamente pelo que dissesse expressamente em cláusula ou publicidade, como se a governança efetiva da visibilidade fosse juridicamente irrelevante. (p. 763)
+> O terceiro é a tendência de reduzir o litígio ao ato terminal, como a compra frustrada, a remoção de um conteúdo ou a suposta preferência por determinada oferta, sem investigar a estrutura privada de saliência que condicionou a experiência inteira do usuário. (p. 763)
+
+### deve O que a plataforma deve garantir?
+
+Ninguém pode exigir que a plataforma abra todos os seus sistemas. Mas ela precisa deixar conferível o mínimo sobre como apresenta, ordena, modera e avalia o que aparece.
+
+O que se pede é clareza suficiente para você entender como o ambiente organiza a sua experiência. E para entender como as escolhas da plataforma pesam no que você espera, na comparação entre ofertas e na chance de contestar.
+
+> A auditabilidade aberta exige verificabilidade institucional mínima sobre os critérios relevantes de apresentação, priorização, moderação, reputação e circulação, sem que isso implique abertura irrestrita de sistemas internos. (p. 764)
+> O que se demanda é inteligibilidade suficiente para compreender como o ambiente organiza a experiência do usuário e como determinadas escolhas da plataforma interferem na formação da expectativa, na comparabilidade entre alternativas e na possibilidade de contestação. (p. 764)
+
+### mudanca E se a plataforma muda as regras do jogo?
+
+Às vezes a plataforma muda a forma de intermediar, a lógica de quem aparece, os critérios de reputação ou as regras de circulação. Se a mudança piora muito o que você tinha legitimamente e nada compensa a perda, isso pode ser contestado.
+
+Isso vale para quem compra e vende na loja virtual e para quem publica e busca alcance na rede social.
+
+> A equivalência funcional, por sua vez, incide quando alterações do regime de intermediação, da lógica de visibilidade, dos critérios reputacionais ou das regras de circulação degradam de modo relevante a utilidade legitimamente incorporada ao vínculo, sem recomposição compatível. (p. 764)
+> Isso pode ocorrer tanto no comércio eletrônico quanto na circulação social de conteúdo, sempre que a plataforma altere substancialmente o papel funcional da infraestrutura que oferecia como ambiente de troca, alcance ou reconhecimento. (p. 764)
 
 ### resposta O que pedir de quem organiza a vitrine?
 
-O caminho é cobrar deveres sobre o próprio jeito de organizar. Cabe perguntar se ficou claro o que era patrocinado, se a reputação mostrada dava para conferir e se a falta de clareza nos critérios atrapalhou a comparação entre as ofertas.
+O caminho é cobrar deveres sobre o próprio jeito de organizar, e não só discutir o produto final ou o que um terceiro fez. Cabe perguntar se ficou claro o que a plataforma fazia ali e se dava para distinguir o patrocinado do resto.
 
-Quando a mesma empresa arbitra a vitrine e também ganha com o que acontece nela, a questão pode chegar ainda à concorrência entre quem vende.
+Cabe perguntar também se a reputação mostrada podia ser conferida e se critérios escondidos atrapalharam a comparação. E se a própria tela enganou, confundiu ou criou um desequilíbrio que a lei do consumidor não aceita.
+
+Nos casos mais graves, quando a mesma empresa arbitra a vitrine e ganha com o que acontece nela, a questão pode chegar a práticas abusivas mais amplas e à concorrência entre quem vende.
 
 > A consequência dogmática possível, nesse ambiente, tende a gravitar em torno de deveres procedimentais de controlabilidade da governança da interface. (p. 764)
-> Torna-se necessário examinar, em chave de OIC, se houve informação adequada sobre a natureza da intermediação, se a distinção entre prioridade orgânica e prioridade patrocinada foi materialmente inteligível, se a reputação exibida era funcionalmente verificável [...] (p. 764)
+> Torna-se necessário examinar, em chave de OIC, se houve informação adequada sobre a natureza da intermediação, se a distinção entre prioridade orgânica e prioridade patrocinada foi materialmente inteligível, se a reputação exibida era funcionalmente verificável, se a opacidade dos critérios comprometeu comparabilidade relevante e se a própria interface produziu enganosidade, obscurecimento ou assimetria estrutural incompatível com o regime consumerista. (p. 764)
 > Em hipóteses mais graves, especialmente quando a plataforma atuar simultaneamente como árbitra do ambiente e agente econômico interessado em seus resultados, a opacidade da hierarquização pode também dialogar com práticas abusivas mais amplas e com repercussões concorrenciais próprias. (p. 764)
+
+### teste Como saber se é o seu caso?
+
+Responda para você mesmo.
+
+- A sua escolha dependeu do que a plataforma destacou, escondeu ou ordenou?
+- Não ficou claro o que era anúncio pago ou como a reputação era calculada?
+- A plataforma mudou as regras de visibilidade ou de reputação sem explicar?
+- Você não consegue reconstruir o que aconteceu sem os registros da empresa?
+
+Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqui. Isso não garante o resultado, mas mostra por onde começar.
+
+> O subtipo demonstra, assim, que a plataforma de infraestrutura e intermediação não é mero corredor neutro por onde circulam vontades previamente formadas. Ela é agente de construção do campo em que essas vontades se tornam possíveis, perceptíveis e operacionalizáveis. (p. 764)
 
 ## produtividade-gig-economy
 
@@ -1219,34 +1331,144 @@ Quem manda no trabalho feito por aplicativo?
 
 ### resumo
 
-Aplicativos de entrega e de transporte chamam motoristas e entregadores de parceiros independentes. Mas quem distribui as chamadas, dá a nota, decide quem tem prioridade, define as regras para aceitar corridas e aplica as punições é o aplicativo.
+Você liga o aplicativo de entrega ou de transporte, aceita chamadas e recebe por tarefa. O contrato diz que você é parceiro independente e pode ligar e desligar quando quiser.
 
-Para quem trabalha assim, o aplicativo fornece mais do que um pagamento por tarefa. Fornece o próprio ambiente em que o trabalho se torna possível, e esse ambiente é governado por ele. Por isso não basta olhar o que o contrato diz sobre autonomia. É preciso olhar quem organiza, de fato, o acesso à demanda, a remuneração possível e a permanência no fluxo.
+Mas quem distribui as chamadas, dá a nota, decide quem tem prioridade e aplica as punições é o aplicativo. E um dia as chamadas rareiam, o ganho cai ou a conta é restrita, e você não sabe o que mudou nem por quê.
 
 > A plataforma organiza acesso à demanda, distribuição de chamadas, previsibilidade mínima de remuneração, permanência no fluxo produtivo, critérios reputacionais, padrões de priorização, regras de aceitação e mecanismos de sanção. (p. 765)
+
+### usa O que o aplicativo fornece a quem trabalha nele?
+
+Parece que o aplicativo só paga por corrida, entrega ou tarefa. Mas o que ele fornece de verdade é o próprio lugar onde o seu trabalho se torna possível.
+
+Sem ele você não tem acesso aos clientes, não sabe quanto pode ganhar e não continua na fila das chamadas. Por isso o que você usa não é uma coisa parada nem um serviço feito de fora para você, e sim um ambiente de trabalho que o aplicativo governa.
+
+A sua renda não nasce fora do aplicativo e só passa por ele. Ela depende do jeito como o aplicativo foi montado e de como ele muda.
+
+> Nessa família, a utilidade central não se resume ao pagamento final por corrida, entrega ou tarefa concluída. (p. 765)
 > O que se fornece, em termos funcionais, é uma infraestrutura privada de possibilidade econômica. (p. 765)
-> Os instrumentos mobilizados por iFood, 99Food, Uber e 99 insistem, com variações de linguagem, em caracterizar os parceiros como independentes (p. 765)
-> Esse ponto é importante porque impede que a análise seja capturada por narrativas excessivamente formais sobre autonomia contratual. (p. 765)
+> O objeto fruído, aqui, não é um bem estático nem um simples serviço externamente prestado ao trabalhador. (p. 765)
+> É um ambiente produtivo governado, sem o qual a atividade econômica cotidiana não se torna viável nos termos em que a própria plataforma a prometeu e a estruturou. (p. 765)
+> A renda não nasce fora do ambiente e apenas passa por ele. Ela depende materialmente da arquitetura do ambiente. (p. 766)
+
+### autonomia Por que o contrato que fala em autonomia não encerra a conversa?
+
+Os termos de uso dos grandes aplicativos de entrega e transporte repetem que você é independente, que a empresa só faz a ponte com os clientes e que não há chefe nem exclusividade.
+
+Só que esses mesmos termos trazem avaliações, análise de reclamações, métricas de aceitação, restrição temporária de corridas e desativação da conta. A independência fica no papel, e o controle fica na operação do dia a dia.
+
+Por isso não basta saber se você pode ligar e desligar o aplicativo. O que importa é que tudo de que você precisa para trabalhar é oferecido, ajustado e mudado por um sistema que você não controla.
+
+> Os instrumentos mobilizados por iFood, 99Food, Uber e 99 insistem, com variações de linguagem, em caracterizar os parceiros como independentes, em apresentar a plataforma como ambiente de intermediação tecnológica e em afastar vínculo hierárquico ou exclusividade obrigatória. (p. 765)
+> A plataforma afirma independência na ponta contratual e intensifica governança na ponta operacional. (p. 767)
+> A questão juridicamente relevante não é saber apenas se a plataforma se autodescreve como intermediária ou se o parceiro é formalmente livre para ligar e desligar o aplicativo. (p. 766)
+> Trata-se de reconhecer que a utilidade funcional indispensável ao exercício da atividade econômica é oferecida, modulada e reconfigurada por arquitetura privada que o sujeito não controla. (p. 766)
+
+### trabalhista Isso é só uma questão trabalhista?
+
+Não precisa ser. Aqui a pergunta não é se existe vínculo de emprego, nem se toda a relação deve virar contrato de trabalho.
+
+A pergunta é sobre o que o aplicativo fornece e como ele fornece. Esse olhar não transforma tudo numa causa trabalhista, mas também não aceita que o contrato que fala em autonomia feche o assunto.
+
+> O ponto central não está apenas em afirmar subordinação algorítmica em abstrato, nem em reclassificar automaticamente toda a relação sob categorias tradicionais do contrato de trabalho. (p. 766)
+> O foco, para os fins desta tipologia, está no regime de fornecimento. (p. 766)
+> Essa incidência não dissolve o subtipo em trabalhismo indiferenciado, mas também não se deixa neutralizar por autodescrições contratuais de autonomia formal. (p. 768)
+
+### nome Isso tem nome
+
+**Vulnerabilidade semiótica.** É a desvantagem de quem precisa confiar em sinais que outra pessoa controla. Aqui ela é mais aguda, porque você depende do aplicativo não só para receber chamadas, mas também para entender a sua posição, o seu risco e o seu ganho.
+
+As métricas, as mensagens de incentivo, os alertas de qualidade, as promoções e as notificações de desempenho funcionam como uma linguagem que governa o seu comportamento. E quem precisa decifrar essa linguagem, sem poder conferir o que há por trás, é você.
+
+> Trata-se de vulnerabilidade semiótica associada à dependência produtiva. (p. 766)
+> Métricas, mensagens de incentivo, alertas de qualidade, promoções, padrões de aceitação, dinâmicas de preço e notificações sobre desempenho operam como linguagem privada de governo da conduta. (p. 766)
+> Trata-se de regime semiótico que organiza a experiência econômica do sujeito e redistribui sobre ele os custos de interpretar um ambiente cujo funcionamento material ele não consegue auditar de forma autônoma. (p. 766)
+
+### formas Como o problema costuma aparecer?
+
+**Quando a distribuição das chamadas muda sem explicação.** As corridas ou entregas rareiam, e você não sabe se foi a demanda, a sua nota ou uma regra nova.
+
+**Quando o cálculo do pagamento muda.** O mesmo trabalho passa a render menos, e os parâmetros que explicariam a diferença ficam escondidos.
+
+**Quando chega a restrição ou o bloqueio.** A conta é limitada ou desativada, e você não consegue ligar a punição a uma causa que dê para conferir.
+
+**Quando a conta continua ativa, mas vale menos.** O nome do programa e a aparência da parceria seguem iguais, mas o que justificava você estar ali foi esvaziado.
+
+Tudo isso pesa mais do que um incômodo de contrato, porque mexe com a renda, com a previsibilidade do sustento e com a chance de continuar trabalhando.
+
+> A opacidade sobre distribuição de oportunidades, sobre critérios de priorização, sobre parâmetros de remuneração variável, sobre efeitos de avaliações e sobre causalidade de restrições recai, nesse contexto, não apenas sobre conforto contratual abstrato, mas sobre as próprias condições materiais de vida de sujeitos que dependem desse ambiente para trabalhar. (p. 767)
+> Mudanças em critérios de distribuição de chamadas, em parâmetros de precificação, em regras de elegibilidade, em modelos de incentivo ou em pesos reputacionais podem manter o nome do programa, a aparência da parceria e até a existência formal da conta, mas esvaziar de modo relevante a utilidade econômica que justificava a adesão e sustentava a continuidade da fruição produtiva. (p. 767)
+> Regula acesso a renda, previsibilidade mínima de sustento e possibilidade prática de permanecer economicamente ativo. (p. 767)
+
+### teste-conta A conta ativa prova que nada mudou?
+
+Não prova. A pergunta certa não é se a sua conta continua ligada.
+
+A pergunta é se o seu lugar no aplicativo continua valendo o mesmo que valia quando sustentava a sua expectativa de ganho e de continuar ali.
+
+> O teste jurídico não pode ser apenas se a conta continua ativa. Precisa ser se a posição funcional do parceiro no ambiente permanece substancialmente equivalente àquela que estruturava sua expectativa legítima de ganho e permanência. (p. 767-768)
 
 ### prova Como provar que a regra do aplicativo mudou?
 
-Mostrar que o ganho caiu ou que a conta foi bloqueada uma vez não basta. É preciso ligar a perda ao jeito como o aplicativo governa o trabalho, com o histórico de chamadas, as variações de pagamento, os alertas, os critérios informados ou escondidos e os registros de restrição.
+Mostrar que o ganho caiu ou que a conta foi bloqueada uma vez não basta. É preciso ligar a perda ao jeito como o aplicativo governa o trabalho.
 
-E a queda de ganho nem sempre é risco natural da atividade. Ela pode vir de uma mudança de regra que ninguém explicou.
+- O histórico de chamadas.
+- As variações de pagamento.
+- As mensagens e os alertas de desempenho do aplicativo.
+- Os critérios que foram informados e os que ficaram de fora.
+- Os registros de restrição e as avaliações recebidas.
+- Comparações de antes e depois da mudança.
+
+Guarde o que puder enquanto ainda está acessível, como capturas de tela, extratos de ganho e datas.
 
 > Não basta demonstrar que houve redução de ganhos ou bloqueio pontual. É necessário reconstruir a relação entre mecanismo de governança e impacto funcional. (p. 768)
 > Isso pode envolver histórico de chamadas, variações de remuneração, comunicações internas do aplicativo, alertas de desempenho, critérios informados ou omitidos, registros de restrição, padrões de avaliação e dados comparativos sobre a alteração do ambiente. (p. 768)
+
+### armadilhas Quais armadilhas fazem você desistir cedo demais?
+
+**Achar que ganho menor é só risco do trabalho.** A queda pode vir de uma mudança de regra feita pelo aplicativo sem explicação.
+
+**Olhar só para a punição final.** O bloqueio costuma ser o fim de uma história de metas, incentivos e ameaças, e essa história também conta.
+
+**Achar que a falta de clareza é coisa da tecnologia.** Esconder as métricas e os critérios não é inevitável, e é justamente parte do problema.
+
 > O primeiro é tratar a oscilação de ganho como puro risco natural da atividade, quando ela pode decorrer de reconfiguração unilateral opaca da infraestrutura de distribuição. (p. 768)
+> O segundo é tratar a sanção final como evento isolado, sem reconstruir o regime de conduta, incentivo e ameaça que a antecedeu. (p. 768)
+> O terceiro é aceitar a falta de transparência sobre métricas e critérios como consequência inevitável da tecnologia, quando justamente essa opacidade integra o problema jurídico central. (p. 768)
+
+### deve O que a empresa deve garantir?
+
+Ninguém pode exigir que o aplicativo abra o sistema inteiro, e o juiz não vira gerente da plataforma. Mas as mudanças que mexem com o seu trabalho precisam poder ser conferidas.
+
+Isso vale para regras novas, mudanças no cálculo, na prioridade e nas métricas, e para punições com efeito real. Explicações genéricas sobre eficiência, segurança ou algoritmo não bastam.
+
+Sem esse mínimo, o aplicativo fica com dois poderes ao mesmo tempo. O de organizar o seu trabalho e o de esconder os fatos de que você precisaria para contestar.
+
+> Alterações relevantes de regra, mudanças de cálculo, reconfigurações de prioridade, redefinições de métricas ou sanções com impacto material não podem ser escudadas por discurso genérico de eficiência, segurança ou otimização algorítmica. Devem ser tornadas minimamente verificáveis. (p. 767)
+> Isso não significa abrir integralmente o sistema, nem transformar o Judiciário em administrador técnico da plataforma. (p. 767)
+> Sem esse mínimo, a plataforma concentra simultaneamente poder de organizar a atividade econômica e poder de tornar opacos os fatos necessários para contestá-la. (p. 767)
 
 ### resposta O que pedir quando o aplicativo muda a regra?
 
-Uma conta ativa não prova que nada mudou. A pergunta é se o seu lugar no aplicativo continua equivalente ao que sustentava a sua expectativa de ganho e de permanência.
+Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de um jeito que dê para conferir e que os critérios de punição sejam revistos. Pode caber também pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.
 
-Quando a mudança esvazia esse lugar, pode caber exigir os registros, a motivação das restrições, a revisão dos critérios e a recomposição do que foi degradado. Isso não transforma tudo numa questão trabalhista, mas também não deixa o contrato que fala em autonomia encerrar a conversa.
+Nos casos mais graves, quando metas, punições e mudanças formam um plano estável para fazer você aceitar perdas e se comportar como o aplicativo quer, a própria finalidade do desenho pode entrar em discussão.
 
-> O teste jurídico não pode ser apenas se a conta continua ativa. Precisa ser se a posição funcional do parceiro no ambiente permanece substancialmente equivalente àquela que estruturava sua expectativa legítima de ganho e permanência. (p. 767-768)
-> A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime [...] (p. 768)
-> [...] não dissolve o subtipo em trabalhismo indiferenciado, mas também não se deixa neutralizar por autodescrições contratuais de autonomia formal. (p. 768)
+> A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime sempre que a plataforma houver degradado, por desenho, a utilidade produtiva que oferecia como infraestrutura. (p. 768)
+> Em hipóteses-limite, sobretudo quando a combinação entre mutabilidade, métricas, sanções e restrições revelar programa estável de normalização de perdas e captura de conduta, pode haver espaço para leitura em chave de teleologia abusiva. (p. 768)
+
+### teste Como saber se é o seu caso?
+
+Responda para você mesmo.
+
+- Você depende do aplicativo para ter renda, e não só para um bico ocasional?
+- As chamadas, o pagamento, as métricas ou as regras mudaram sem explicação clara?
+- Você recebeu restrição, bloqueio ou perda de prioridade sem uma causa que dê para conferir?
+- Você não consegue reconstruir o que aconteceu sem os registros do aplicativo?
+
+Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqui. Isso não garante o resultado, mas mostra por onde começar.
+
+> A fruição, portanto, é fruição produtiva de ambiente governado. O trabalhador-plataforma consome a própria infraestrutura que o torna economicamente operativo. (p. 766)
 
 ## administracao-de-confianca
 
@@ -1256,32 +1478,159 @@ Por que reclamar parece exagero?
 
 ### resumo
 
-Uma tela simpática, respostas gentis, um tom de cuidado e uma linguagem próxima também fazem parte do desenho. E podem fazer a perda parecer aceitável e a queixa parecer exagero antes mesmo de qualquer briga começar.
+Uma tela simpática, respostas gentis, um tom de cuidado e uma linguagem próxima também fazem parte do desenho da plataforma. E podem fazer a perda parecer aceitável e a queixa parecer exagero antes mesmo de qualquer briga começar.
 
-Em muitos casos o conflito é administrado antes de existir. A plataforma não cuida só da sua adesão inicial. Cuida também de quanto dano você tolera e de quanta energia você tem para reagir. A frustração vai sendo absorvida como parte do normal, e a reclamação nunca chega a ser feita.
+Em muitos casos o conflito é administrado antes de existir. A plataforma não cuida só da sua adesão inicial, porque cuida também de quanto dano você tolera e de quanta energia você ainda tem para reagir.
 
+> Em ecossistemas governados por plataforma, o conflito não começa quando o usuário decide litigar, reclamar ou formalizar inconformidade. (p. 780)
 > Em muitos casos, ele é governado antes disso. (p. 780)
-> A interface cordial, o tom assistivo, a promessa difusa de cuidado, a transparência apenas performática, a aparência de horizontalidade comunicacional e a personalização calculada da linguagem compõem materialmente o ambiente de fruição. (p. 781)
-> Funcionam como técnica de governo da percepção, organizando o limiar a partir do qual a perda será percebida como aceitável, o abuso será lido como falha menor e a contestação será percebida como desnecessária, prematura ou desproporcional. (p. 781)
 > A plataforma, nesse contexto, não administra apenas adesão inicial. Administra a tolerância ao dano e a energia de reação do usuário. (p. 781)
+
+### usa O que você está consumindo além do serviço?
+
+Você paga por acesso, conteúdo ou desempenho. Mas também recebe um ambiente que se apresenta como claro, prestativo, atento e digno de confiança, e isso faz parte do que a plataforma entrega.
+
+Essa confiança não nasce sozinha do bom serviço. Muitas vezes ela é produzida, ajustada e mantida pelo desenho da tela e do atendimento. Por isso a lei não olha só para o contrato escrito ou para a cláusula isolada, e olha também para o jeito como o ambiente fala com você.
+
+A confiança não precisa vir como garantia formal para ter efeito. Basta que ela leve você a aguentar atritos, aceitar justificativas vagas, achar normal uma perda e continuar usando o serviço mesmo quando ele já piorou.
+
+> O usuário não consome apenas acesso, utilidade, conteúdo ou desempenho. (p. 781)
+> Consome um ambiente que se apresenta como inteligível, assistivo, responsivo e, em alguma medida, digno de crédito prático. (p. 781)
+> Em plataformas, a confiança não é subproduto espontâneo da boa execução do serviço. (p. 781)
+> Frequentemente, ela é produzida, calibrada e mantida por desenho. (p. 781)
+> Essa confiança não precisa assumir a forma solene de garantia expressa para produzir efeitos jurídicos relevantes. (p. 781)
+> Basta que atue de maneira estável sobre a interpretação ordinária da experiência e sobre a disposição do usuário para suportar atritos, aceitar justificativas vagas, normalizar perdas e permanecer no ciclo de uso mesmo quando a fruição já foi funcionalmente degradada. (p. 781)
+
+### formas Como a queixa vai sendo apagada?
+
+**A perda vira rotina.** Num serviço que você usa todo dia, pequenas frustrações vão sendo absorvidas e deixam de parecer um problema. Passam a parecer o funcionamento normal do sistema.
+
+**O atrito ganha outro nome.** O que poderia ser lido como falha ou abuso aparece como ajuste técnico, limitação temporária, medida de segurança, atualização necessária ou simples etapa do uso.
+
+**O atendimento escuta, mas não resolve.** Mensagens de proximidade, respostas que parecem explicar e circuitos de atendimento feitos para receber a queixa sem reconstruir o problema vão tirando a sua força para contestar.
+
+O conflito não desaparece. Ele só é governado antes de virar reclamação formal ou processo, e assim a perda vira ruído tolerável.
+
+> A perda deixa de aparecer como evento excepcional e passa a ser metabolizada como parte do normal funcionamento do sistema. (p. 781)
+> Em vez de desencadear prontamente uma leitura de inadequação ou abusividade, ele pode ser reconfigurado pela plataforma como ajuste técnico, limitação temporária, inconveniente compreensível, medida de segurança, atualização necessária ou simples etapa do uso. (p. 781)
+> Persona, cordialidade operacional, mensagens de proximidade, simplificações excessivamente tranquilizadoras, respostas de aparência explicativa e circuitos de atendimento concebidos para absorver inconformidade sem efetiva reconstrução do problema podem operar, em conjunto, como técnica de desmobilização. (p. 782)
+> O conflito não desaparece. (p. 782)
+> Ele é governado em sua fase pré-jurídica, por meio de mecanismos que transformam perda em ruído tolerável, opacidade em normalidade e assimetria em experiência absorvível. (p. 782)
+
+### cordialidade Toda simpatia da empresa é um problema?
+
+Não. Linguagem acessível, atendimento educado e o esforço de manter uma boa relação com você são legítimos. O que importa não é se você se sentiu mais ou menos acolhido.
+
+O problema começa quando a gentileza passa a servir, de forma estrutural, para neutralizar a queixa. Por exemplo, quando a plataforma dá sensação de transparência sem explicar de verdade, dá impressão de escuta sem abrir caminho real para contestar ou usa tom humano sem assumir o dever de justificar o que fez.
+
+> Esse ponto exige cautela para não transformar toda cordialidade empresarial em ilicitude. (p. 782)
+> O problema não está no uso de linguagem acessível, no atendimento polido ou na tentativa legítima de manter relação funcionalmente estável com o usuário. (p. 782)
+> O problema começa quando esses elementos passam a integrar, de forma estrutural, um regime de neutralização prática do conflito. (p. 782)
+> A plataforma pode, por exemplo, oferecer sensação de transparência sem entregar inteligibilidade real, produzir impressão de escuta sem abrir vias efetivas de contestação, mobilizar tom humano sem assumir deveres proporcionais de motivação ou justificação e distribuir signos de cuidado que funcionam menos como informação adequada e mais como amortecimento semiótico da crítica. (p. 782)
+
+### nome Isso tem nome
+
+**Vulnerabilidade semiótica.** É a desvantagem de quem precisa confiar em sinais que outra pessoa controla. Aqui ela fica maior, porque a própria confiança é usada para diminuir a sua resistência. A plataforma produz sinais de clareza e de cuidado suficientes para você se acomodar, mesmo quando o que você usa já foi prejudicado.
+
+> A vulnerabilidade central desse subtipo é, novamente, vulnerabilidade semiótica, mas agora intensificada pela gestão da confiança como forma de modulação da resistência. (p. 782)
+> Está diante de ecossistema que produz sinais de inteligibilidade e cuidado suficientes para induzir acomodação, mesmo quando a materialidade da fruição já foi comprometida. (p. 782)
+
+### rumor E quando o boato sobre a próxima skin decide o que você compra?
+
+Nos jogos, circulam o tempo todo rumores, vazamentos e antecipações não oficiais sobre skins, campeões e eventos. Pessoas que vivem de vazar informação, influenciadores e canais especializados juntam imagens parciais e calendários presumidos e transformam tudo numa história que parece promessa.
+
+Aí você espera, adia compras, guarda dinheiro e reorganiza o que deseja com base em sinais que ninguém confirmou. Você compra em função da skin aguardada, e não só do que está à venda. O futuro passa a organizar o presente do seu consumo.
+
+Enquanto nada é oficial, a empresa pode negar, mudar o calendário, alterar o produto ou só observar a reação. Ela colhe o engajamento sem assumir o que foi antecipado.
+
+Isso não quer dizer que todo boato seja culpa da empresa, nem que ela controle tudo o que a comunidade diz. Ninguém pode exigir que ela impeça todo vazamento ou confirme cada boato. A questão é outra. Quando uma expectativa específica, repetida e capaz de guiar o seu gasto já se instalou, a empresa deixa de estar numa posição neutra.
+
+> O rumor, nesse contexto, não permanece simples ruído externo ao fornecimento. (p. 784)
+> Não se compra apenas o objeto disponível. Compra-se também em função do objeto antecipado, do evento pressentido, da skin aguardada, da atualização imaginada. O futuro passa a organizar o presente do consumo. (p. 785)
+> Quando o conteúdo circula sem confirmação oficial, a plataforma preserva margem de negação plausível e flexibilidade estratégica para reformular cronogramas, alterar produtos, recalibrar ofertas ou simplesmente colher reações sem plena assunção comunicacional do que foi antecipado. (p. 784)
+> Não se trata de impor dever impraticável de impedir todo rumor, todo leak ou toda especulação comunitária. Tampouco se trata de converter a empresa em certificadora universal de boatos. (p. 786)
+> Está em reconhecer que, uma vez instalada no ecossistema expectativa específica, reiterada e materialmente apta a orientar decisões de consumo, a plataforma já não permanece em posição neutra. (p. 785)
+
+### nome-rumor Isso também tem nome
+
+**Antecipação hipercuratorial.** É o jeito como a plataforma governa o que você espera do futuro do jogo. Ela não age só por anúncios, trailers e temporadas. Pode agir também por boatos organizados por terceiros, que a empresa tolera porque mantêm a comunidade atenta e pronta para gastar.
+
+> A antecipação hipercuratorial, já delimitada como mecanismo de governança do presente e do futuro da fruição, assume aqui forma específica. (p. 784)
+> Pode operar também por circuitos oficiosos de rumor curado, nos quais imagens parciais, referências técnicas, vazamentos fragmentários, calendários presumidos e especulações reputadas plausíveis são organizados por leakers, influenciadores e canais especializados em narrativas de futuro consumível. (p. 784)
+
+### situacoes Que situações de boato pesam mais?
+
+**O silêncio diante de uma expectativa que já move a comunidade.** A empresa se cala ou responde de forma evasiva sobre algo que já está guiando o planejamento dos jogadores.
+
+**A negativa que depois cai.** A empresa nega algo específico e depois faz praticamente a mesma coisa. Essa contradição entre o que disse e o que fez pode pesar quando se discute se houve engano.
+
+**A expectativa confirmada e depois frustrada.** A empresa confirma ou alimenta a expectativa e depois não entrega, sem explicar de forma proporcional.
+
+Em nenhum desses casos o problema é o serviço mudar, porque mudar faz parte dele. O problema é usar essa liberdade para nunca precisar explicar nada.
+
+> A primeira é a do silêncio ou da resposta evasiva diante de expectativa já estabilizada e economicamente influente. (p. 786)
+> A segunda é a da negativa específica posteriormente desmentida por prática substancialmente equivalente da própria plataforma. (p. 786)
+> Nessa hipótese, a contradição entre comunicação e conduta pode adquirir relevo próprio para o exame da enganosidade e da confiança legitimamente formada. (p. 786)
+> A terceira é a da confirmação ou indução positiva de expectativa posteriormente frustrada sem esclarecimento proporcional. (p. 786)
+> Em todas essas situações, o ponto não é punir a mutabilidade própria dos serviços digitais contínuos, mas impedir que sua flexibilidade estrutural seja convertida em imunidade comunicacional. (p. 786)
 
 ### prova Como provar uma queixa que foi amortecida?
 
-Aqui a prova passa pelo jeito de falar. Contam a linguagem da tela, o caminho do atendimento, as respostas prontas e as etapas que levam você a aceitar, esperar, relativizar ou desistir.
+Aqui a prova passa pelo jeito como a plataforma fala com você. O que conta é reconstruir o caminho que levou a sua frustração a sumir.
 
-O erro mais comum é achar que só a cláusula escrita produz efeito. Outro é achar que o conflito só começa quando alguém reclama fora da plataforma, quando ela pode governar justamente o momento em que a perda fica visível.
+- A linguagem da tela e das mensagens.
+- O caminho do atendimento, etapa por etapa.
+- As respostas prontas e as explicações que você recebeu.
+- O jeito como a perda foi apresentada a você.
+- As etapas que levaram você a aceitar, esperar, relativizar ou desistir.
+
+No caso dos boatos, guarde também o que circulava, quando circulava, o que você perguntou à empresa e o que ela respondeu ou deixou de responder. Capturas de tela e datas ajudam muito.
 
 > A evidência compatível com esse subtipo exige reconstrução do ambiente discursivo e procedimental em que a frustração se torna legível ou, ao contrário, é diluída. (p. 782)
 > Isso inclui a análise da linguagem da interface, dos fluxos de atendimento, dos modelos de resposta, das rotinas de explicação, da forma como a plataforma enquadra a perda e das etapas pelas quais o usuário é conduzido a aceitar, esperar, relativizar ou encerrar a inconformidade. (p. 782-783)
+
+### armadilhas Quais armadilhas fazem você desistir cedo demais?
+
+**Achar que só o contrato conta.** O jeito como a empresa fala com você também produz efeito, e não só as cláusulas e os atos formais.
+
+**Achar que confiança é só um sentimento seu.** A confiança, aqui, é algo que o ambiente organiza, e não uma impressão particular.
+
+**Achar que o conflito só começa quando você reclama fora da plataforma.** A plataforma pode governar justamente o momento em que você percebe que perdeu alguma coisa.
+
+> O primeiro é a tendência de considerar irrelevante a dimensão discursiva do fornecimento, como se apenas cláusulas e atos formais produzissem efeitos jurídicos. (p. 783)
+> O segundo é a tendência de tratar a confiança como sentimento privado do usuário, e não como arranjo funcional do ambiente. (p. 783)
 > O terceiro é a tendência de supor que o conflito começa apenas quando surge reclamação externa ou litígio, ignorando que a plataforma pode governar precisamente o momento em que a perda se torna institucionalmente perceptível. (p. 783)
+
+### deve O que a empresa deve garantir?
+
+O atendimento precisa servir para resolver, e não só para absorver a queixa. A empresa deve explicar de um jeito que dê para entender e conferir, e deve justificar as decisões que afetam você.
+
+Diante de boatos que já movem o gasto dos jogadores, a empresa não precisa confirmar cada especulação. Mas, quando é perguntada diretamente ou quando o boato se instala de forma persistente, pode caber o dever de esclarecer, de não se contradizer e de justificar. Nesse quadro, ficar calada pode deixar de ser uma escolha neutra e passar a ser falta de informação relevante.
+
+> [...] dever de esclarecimento, não contradição e justificação quando rumores ecossistemicamente relevantes, dotados de credibilidade social suficiente e funcionalmente aptos a influenciar planejamento de gasto, prioridade de compra ou espera de fruição, sejam objeto de provocação específica pelos usuários ou se integrem de forma persistente ao ambiente de consumo. (p. 786)
+> A omissão, nesse quadro, deixa de ser simples escolha comunicacional neutra e pode passar a ser insuficiência informacional relevante em contexto de expectativa operante. (p. 786)
 
 ### resposta O que pedir quando a reclamação some no atendimento?
 
-Educação no atendimento não é problema, e um tom simpático não vira ilegal por isso. O problema começa quando a cordialidade passa a servir para apagar a queixa.
+O caminho costuma ir além de pedir indenização pelo que já passou. Pode caber exigir que o atendimento seja corrigido, que as explicações fiquem claras e que existam caminhos de contestação que levem a algum lugar, e não só a um lugar onde a reclamação desaparece.
 
-Aí pode caber exigir mudanças no atendimento, explicações que deem para conferir e caminhos de contestação que levem a algum lugar, e não só a um lugar onde a reclamação desaparece.
+Nos casos mais graves, quando apagar a contestação faz parte do funcionamento normal da plataforma, a própria finalidade do desenho pode entrar em discussão.
 
-> O problema não está no uso de linguagem acessível, no atendimento polido ou na tentativa legítima de manter relação funcionalmente estável com o usuário. (p. 782)
-> O problema começa quando esses elementos passam a integrar, de forma estrutural, um regime de neutralização prática do conflito. (p. 782)
+> A resposta jurídica compatível com esse quadro tende a exigir mais do que simples reparação retrospectiva. (p. 783)
 > Pode reclamar correção dos fluxos de atendimento, reforço de inteligibilidade, proibição de rotinas discursivas funcionalmente enganosas, deveres procedimentais de motivação e desenho de vias de contestação que não sirvam apenas para absorver a inconformidade, mas para torná-la efetivamente processável e verificável. (p. 783)
+> O problema tende a gravitar em torno de insuficiência informacional qualificada, prática abusiva por administração opaca da expectativa e, em hipóteses mais densas, teleologia abusiva quando a neutralização da contestação se revelar integrada ao funcionamento ordinário do ecossistema. (p. 783)
+
+### teste Como saber se é o seu caso?
+
+Responda para você mesmo.
+
+- Você perdeu algo e foi convencido de que era normal, temporário ou necessário?
+- O atendimento foi gentil, mas nunca explicou de verdade nem resolveu?
+- Não havia um caminho claro para contestar a decisão?
+- Você gastou, guardou dinheiro ou esperou por algo que a empresa deixou circular sem confirmar nem negar com clareza?
+
+Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqui. Isso não garante o resultado, mas mostra por onde começar.
+
+> Basta administrar o modo como ele é percebido. (p. 783)
+> Em muitos ambientes, a plataforma não precisa impedir formalmente o conflito para reduzi-lo. (p. 783)
 
