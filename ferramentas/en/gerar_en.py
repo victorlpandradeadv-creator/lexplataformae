@@ -284,6 +284,9 @@ def traduz_pagina(arq, rel):
             c = el.get("content", "")
             if "/assets/cartoes/" in c and "/cartoes/en/" not in c and (RAIZ / "site" / "cartoes" / "en" / c.rsplit("/", 1)[1]).exists():
                 el["content"] = c.replace("/assets/cartoes/", "/assets/cartoes/en/")
+        if el.name == "link" and el.get("type") == "application/json" and str(el.get("href", "")).endswith("dados/atlas.json"):
+            el["href"] = prefixo_raiz(rel) + "en/dados/atlas.json"
+            el["title"] = "Atlas data (English)"
         if el.name == "meta" and el.get("property") == "og:locale":
             el["content"] = "en_US"
         for a in ("href", "src", "action", "data-superficie", "poster"):
@@ -421,7 +424,7 @@ def llms_en():
     """llms.txt da versão inglesa, com cada página inglesa pelo título e pela descrição traduzidos. 12/11/2026."""
     linhas = ["# Lex Plataformae (English)", "",
               "> English version of lexplataformae.com.br, which adapts the doctoral thesis by Victor L. P. Andrade, \"Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae\" (UNESP, Franca, 2026), on the legal regime of the Immaterial Object of Consumption (IOC) under Brazilian consumer law. Literal quotations appear in free translation, with the Portuguese original alongside. The full thesis text is a machine translation, reviewed for continuity but not yet reviewed by the author. The Portuguese version is authoritative.", "",
-              f"- [Portuguese version]({BASE}/llms.txt)", f"- [Thesis PDF, English translation]({BASE}/en/thesis/andrade-2026-thesis-ioc-lex-plataformae-en.pdf)", f"- [Thesis PDF, Portuguese original]({BASE}/tese/andrade-2026-tese-oic-lex-plataformae.pdf)", "", "## Pages", ""]
+              f"- [Portuguese version]({BASE}/llms.txt)", f"- [atlas.json, English]({BASE}/en/dados/atlas.json): concepts, definitions, delimiting criteria and readings, in free translation.", f"- [Thesis PDF, English translation]({BASE}/en/thesis/andrade-2026-thesis-ioc-lex-plataformae-en.pdf)", f"- [Thesis PDF, Portuguese original]({BASE}/tese/andrade-2026-tese-oic-lex-plataformae.pdf)", "", "## Pages", ""]
     for f in sorted(EN.rglob("index.html")):
         t = f.read_text(encoding="utf-8")
         tit = re.search(r"<title>(.*?)</title>", t, re.S)
@@ -432,6 +435,26 @@ def llms_en():
         url = f"{BASE}/en/" + ("" if rel == "." else rel + "/")
         linhas.append(f"- [{html.unescape(tit.group(1)).strip()}]({url})" + (f": {html.unescape(desc.group(1))}" if desc else ""))
     (EN / "llms.txt").write_text("\n".join(linhas) + "\n", encoding="utf-8")
+
+
+def atlas_en():
+    """atlas.json da versão inglesa, com as cadeias traduzidas em traducao/atlas-en.json. O original português segue em /dados/atlas.json. 12/11/2026."""
+    arq = T / "atlas-en.json"
+    if not arq.exists():
+        return
+    mapa = {x["pt"]: x["en"] for x in json.loads(arq.read_text(encoding="utf-8")) if x["en"]}
+    def tr(x, k=""):
+        if isinstance(x, dict):
+            return {kk: tr(v, kk) for kk, v in x.items()}
+        if isinstance(x, list):
+            return [tr(v, k) for v in x]
+        if isinstance(x, str) and k not in ("id", "slug"):
+            return mapa.get(x, x)
+        return x
+    d = tr(json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8")))
+    d = {"lingua": "en", "aviso": "Free translation. Quotations are translated from the Portuguese thesis, and the Portuguese original is authoritative.", "original": f"{BASE}/dados/atlas.json", **d}
+    (EN / "dados").mkdir(exist_ok=True)
+    (EN / "dados" / "atlas.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def main():
@@ -474,6 +497,7 @@ def main():
         import shutil as _sh
         _sh.copy(PDF_EN, EN / "thesis" / PDF_EN.name)
     sitemap()
+    atlas_en()
     llms_en()
     for k in [k for k, x in FALTAM.items() if x["pt"].startswith("ANDRADE, Victor L. P.")]:
         del FALTAM[k]  # a citação sugerida é montada em inglês

@@ -1,0 +1,1164 @@
+{
+ "lingua": "en",
+ "aviso": "Free translation. Quotations are translated from the Portuguese thesis, and the Portuguese original is authoritative.",
+ "original": "https://lexplataformae.com.br/dados/atlas.json",
+ "versao": "v0",
+ "abertura": {
+  "texto": "Naming is not poeticizing. Naming is shifting power from a regime of self-evidence to a regime of contestability.",
+  "ref": "p. 792"
+ },
+ "conceitos": [
+  {
+   "id": "oic",
+   "nome": "Immaterial Object of Consumption (IOC)",
+   "tipo": "conceito",
+   "eixo": true,
+   "par": {
+    "id": "feixe-de-fruicao-governada",
+    "rotulo": "legally organizes the"
+   },
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Qualifies the object. It is the trigger for the other parameters. \"This parameter thus serves as a trigger for the others.\" (p. 719)",
+     "citacoes": []
+    },
+    {
+     "rotulo": "How it integrates the others",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Without this internal articulation, each category could be read in isolation, as a conceptual label for a specific problem, and would lose the capacity to operate as a unified language for abuses by design, relevant degradations and proportional responses.",
+       "ref": "p. 394"
+      },
+      {
+       "texto": "Without the correct qualification of the object as governed immaterial enjoyment, the subsequent parameters tend to lose their grip, because auditability, functional equivalence, abusive teleology and remedies of restoration presuppose precisely the existence of a bond in which the utility consumed depends on continued administration of the environment.",
+       "ref": "p. 719"
+      },
+      {
+       "texto": "The IOC only fulfills a dogmatic function when it operates as a filter and as a roadmap.",
+       "ref": "p. 428"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "What is asserted is that, whenever the utility consumed presents itself as a position of enjoyment sustained by continuous private governance, there will be an immaterial product in a legally relevant sense for the incidence of art. 3, § 1, of the CDC.",
+       "ref": "p. 718"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "[...] the category of Immaterial Object of Consumption (IOC) is proposed as an infrastructure-concept capable of giving concrete form to the notion of immaterial product provided for in art. 3, § 1, of the Consumer Protection Code as a governed enjoyment bundle.",
+       "ref": "Abstract"
+      },
+      {
+       "texto": "The criterion, therefore, is not the materiality of the medium nor the nomenclature employed by the supplier, but the structural dependence of enjoyment on a governed environment.",
+       "ref": "p. 719"
+      }
+     ]
+    },
+    {
+     "rotulo": "Entry criteria",
+     "texto": "Four cumulative fields (p. 428-429). The promised object as an enjoyment bundle. The sustained position of enjoyment. Infrastructural governance as the mode of performing the supply. The typical possibility of relevant degradation without total rupture. Incidence is decided \"by the cumulative presence of verifiable elements of the regime\" (p. 429). This is the entry gate to the situations.",
+     "citacoes": []
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The mere existence of moderation, rankings, community rules or interface adjustments is not enough to trigger the IOC operator.",
+       "ref": "p. 430"
+      },
+      {
+       "texto": "Ordinary updates, regular curation, anti-abuse interventions and changes that do not reach the functional core of the enjoyment bundle remain within the normal field of performance and do not, by definition, constitute relevant degradation.",
+       "ref": "p. 430"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "5.1.2 and subsections, 6.2.3, 7.1.1.1.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "lex-plataformae",
+   "nome": "Lex Plataformae",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Names the private ordering under which the IOC is supplied, as the very title of the thesis says. It is not a step in any of the thesis's three sequences, and the regime sentence of the conclusion does not list it (p. 800).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The Lex Plataformae designates this regime in operation, in which rule, implementation and enforcement organize participation, visibility and sanction, with direct effects on the position of enjoyment that economically constitutes the IOC.",
+       "ref": "p. 364"
+      },
+      {
+       "texto": "It is for this reason that the Lex Plataformae must be treated as practical normativity in operation, since the implemented rule becomes the real mode of existence of the object and, consequently, the point at which the conflict ceases to be a dispute over clauses and becomes a dispute over the governance that defines what is possible in the ecosystem.",
+       "ref": "p. 372"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The expression Lex Plataformae is therefore meant to name not a set of pre-drafted clauses, but a private ordering that is technically executable, economically oriented and semiotically naturalized.",
+       "ref": "p. 27"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "[...] designates a type of private ordering centered on a platform as the institutional core that defines rules, visibilities, sanctions and regimes of proof through continuous architecture and updating.",
+       "ref": "p. 27"
+      },
+      {
+       "texto": "The Lex Plataformae designates this regime in operation, in which rule, implementation and enforcement organize participation, visibility and sanction, with direct effects on the position of enjoyment that economically constitutes the IOC.",
+       "ref": "p. 364"
+      },
+      {
+       "texto": "[...] private ordering grounded in architecture, curation, sanction and unilateral mutation, here called Lex Plataformae [...]",
+       "ref": "Abstract"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The Lex Plataformae, thus understood, neither replaces state law nor eliminates the incidence of the public legal order.",
+       "ref": "p. 28"
+      },
+      {
+       "texto": "The point here is not to turn the platform into a State [...]",
+       "ref": "p. 366"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "Introduction (p. 27-28), 4.2.4, 4.2.5, 5.2.4, 6.1.2.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "vulnerabilidade-semiotica",
+   "nome": "Semiotic vulnerability",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Locates the asymmetry (p. 800). In the exposition of chapter 5, it is the starting point. \"Presenting it first is not expository arbitrariness\" (p. 394).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "It is in this asymmetry of meaning production that the category of semiotic vulnerability is prepared, understood as a structural disadvantage in the grammar of meanings that guides the subject's relationship with the immaterial object of consumption.",
+       "ref": "p. 104"
+      },
+      {
+       "texto": "Without understanding that the consumer inhabits an environment whose intelligibility is partly reserved to the supplier, the definition of the Immaterial Object of Consumption as a bundle of enjoyment sustained over time would appear as a mere technical description of the digital good, and not as a category that organizes imputation, proof and restoration under the Consumer Protection Code.",
+       "ref": "p. 394"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Semiotic vulnerability can be defined, in short, as the objective condition of the consumer's exposure to a structural inequality of intelligibility and agency in platform-governed ecosystems of enjoyment, in which the production of meaning and the attribution of value depend on codes, metrics and regimes of visibility administered by the environment itself.",
+       "ref": "p. 396"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Semiotic vulnerability describes, on this plane, a structural loss of the capacity to verify, and not a defect in the consumer's attention.",
+       "ref": "p. 281"
+      },
+      {
+       "texto": "Semiotic vulnerability designates the consumer's structural exposure to the platform's unilateral control over the conditions that make the promise count as delivery when the good is a position of enjoyment and not an autonomous thing.",
+       "ref": "p. 321"
+      },
+      {
+       "texto": "Semiotic vulnerability thus names this kind of structural loss of demonstrability that occurs when meaning, scene, equivalence and time materially make up what is put into circulation and remain under the unilateral administration of the ecosystem.",
+       "ref": "p. 330"
+      },
+      {
+       "texto": "The term does not designate naivety, credulity or cultural deficiency of the consumer. It designates a mechanism of power inscribed in the architecture of supply [...]",
+       "ref": "p. 719-720"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "The second passage answers a question the site will often receive. Semiotic vulnerability is not informational asymmetry.",
+     "citacoes": [
+      {
+       "texto": "It is not enough that the case involves an interface, an algorithm or an online environment.",
+       "ref": "p. 721"
+      },
+      {
+       "texto": "The problem then shifts from 'knowing more' to 'being able to orient oneself and react'.",
+       "ref": "p. 396"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "4.1.5, 4.2.6, 5.1.1, 6.2.4 (including 6.2.4.1, the rejection of the term \"digital vulnerability\"), 7.1.1.2.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "teleologia-abusiva",
+   "nome": "Abusive teleology",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": {
+    "id": "ilicito-de-arquitetura",
+    "rotulo": "as a category of"
+   },
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Identifies the unlawful act (p. 800). It is the criterion of purpose. It depends on semiotic vulnerability and on the IOC. \"Its formulation depends on the two preceding categories.\" (p. 394)",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "There is no legally capturable abusive teleology without the structural asymmetry it exploits, nor without the enjoyment bundle it degrades, which is why the test of five cumulative requirements, developed in its own subsection, only becomes applicable once semiotic vulnerability and the IOC have been dogmatically established.",
+       "ref": "p. 394-395"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Abusive teleology thus describes a situation in which the practical purpose of the supply arrangement departs from legally tolerable limits and begins to orient the environment toward structural exploitation of vulnerability, toward relevant obscuring of enjoyment or toward the recurring conversion of mutability into a technology of capture.",
+       "ref": "p. 732"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Abusive teleology occupies this place as an unlawful act of architecture, that is, as a mode of imputation that reaches exploitative purposes inscribed in the technical and organizational design of the service, and not only in textual contractual commands.",
+       "ref": "p. 394"
+      },
+      {
+       "texto": "[...] abusiveness may arise not only from episodic failures, but from the very purpose inscribed in the architecture of the business when it is designed to exploit the consumer's semiotic vulnerability.",
+       "ref": "Abstract"
+      },
+      {
+       "texto": "Abusive teleology designates, within the CDC regime, a qualified form of unlawfulness in which the exploitation of vulnerability does not appear as an episodic deviation in the functioning of the service, but as a purpose incorporated into its very program of operation.",
+       "ref": "p. 665"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "This is not a matter of investigating the subjective psychological intent of business agents, nor of moralizing every form of monetization, persuasion or private governance.",
+       "ref": "p. 732"
+      },
+      {
+       "texto": "Abusive teleology cannot function as a moral wild card.",
+       "ref": "p. 456"
+      },
+      {
+       "texto": "[...] abusive teleology is not to be confused with a merely harsh business choice, with questionable design or with architecture that is simply efficient for the supplier.",
+       "ref": "p. 666"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "3.2.5, 5.1.3, 6.4, 6.4.1, 7.1.1.7.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "ilicito-de-arquitetura",
+   "nome": "Unlawful act of architecture",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": {
+    "id": "teleologia-abusiva",
+    "rotulo": "as a category of"
+   },
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Names the form of the unlawful act. It is architecture read as conduct. \"The core of the parameter lies in treating architecture as conduct.\" (p. 732) The thesis does not define it autonomously. It always appears next to abusive teleology, which the conclusion calls a \"category of unlawful act of architecture\" (p. 794). Section 7.1.2 treats it as a \"broader hypothesis of architectural unlawful act\" (p. 746). Proposed reading, to be confirmed. The unlawful act of architecture is the genus. Abusive teleology is the criterion that identifies it by purpose.",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The IOC incorporates this layer, but adds another: the reading of architecture as conduct and of abusive teleology as a design defect of the regime of governed enjoyment.",
+       "ref": "p. 573"
+      },
+      {
+       "texto": "In continuous digital services that administer Immaterial Objects of Consumption, performance is neither exhausted in the contractual text nor understandable without the governance that executes it.",
+       "ref": "p. 664"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "When this governance repeatedly organizes informational noise, decisional friction, evidentiary opacity, non-auditable mutation and insufficient restoration, the unlawful act is no longer only in the statement. It is in the architecture.",
+       "ref": "p. 664"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "When inducement, extraction and normalization of losses become stably incorporated into the design of the ecosystem, the problem ceases to be merely one of fragmentary nonperformance and comes to constitute a teleological unlawful act of architecture.",
+       "ref": "p. 732"
+      },
+      {
+       "texto": "It is in this sense that the teleological unlawful act of architecture can be qualified as legally imputable conduct.",
+       "ref": "p. 733"
+      },
+      {
+       "texto": "[...] the architecture of the service may organize enjoyment, but it may not do so as a stable program of exploitation.",
+       "ref": "p. 665"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "What is called into question is not design as style, visual language or interface aesthetics [...]",
+       "ref": "p. 664"
+      },
+      {
+       "texto": "It is this shift that makes it possible to qualify the unlawful act of architecture without leaving the grammar of the CDC and without yielding to the temptation of inventing a parallel law for platforms.",
+       "ref": "p. 665"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "5.1.3, 6.4, 6.4.1, 7.1.1.7, 7.1.2 (p. 746-747), Conclusion (p. 794).",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "antecipacao-hipercuratorial",
+   "nome": "Hypercuratorial anticipation",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Reads governed expectation (p. 800).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Hypercuratorial anticipation, in this sense, is not a marketing ornament but a technique for governing time that monetizes expectation as a regular way of sustaining value. This anticipation is economically relevant for IOCs because it sustains the conversion of expectation into present value, altering the very logic of the consumer's decision and permanence.",
+       "ref": "p. 316"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Hypercuratorial anticipation designates an economic-semiological technique by which the platform produces a consumable future through continuous curation, defining what will come, what will disappear, what will return and what will be raised to the status of an 'event'.",
+       "ref": "p. 313"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Hypercuratorial anticipation, in this sense, is not a marketing ornament but a technique for governing time that monetizes expectation as a regular way of sustaining value.",
+       "ref": "p. 316"
+      },
+      {
+       "texto": "[...] practices of hypercuratorial anticipation, by which the platform projects images of future performance, reward and experience without offering, to the same extent, real conditions of verification and control by the consumer.",
+       "ref": "p. 34"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "Pending. I did not find, for this concept, a general negative criterion like those the thesis offers for the others. The closest one deals with the extension to rumors.",
+     "citacoes": [
+      {
+       "texto": "[...] the control of the IOC must also reach the informal zones of expectation management, whenever they cease to be spontaneous community noise and come to form, functionally, part of the governance of desire, waiting and consumption planning.",
+       "ref": "p. 787"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "4.1.4, where it is born. Then 6.2.5, 7.1.1.4 (p. 725, within the parameter of offer and advertising) and 7.2.7.1.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "auditabilidade-aberta",
+   "nome": "Open auditability",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Controls the change (p. 800). Criterion of legitimacy.",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Open auditability thus arises as a direct response to the functional opacity typical of IOCs.",
+       "ref": "p. 636"
+      },
+      {
+       "texto": "For this reason, in IOCs, open auditability and functional equivalence do not operate on an object taken in abstraction, but on the concretely governed regime of enjoyment.",
+       "ref": "p. 663"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Open auditability means the existence of minimum conditions of verifiability over relevant aspects of the supply, so that protective bodies, the Judiciary, experts and, to a certain extent, consumers themselves can reconstruct the relationship between promise, change, sanction, functional impact and the justification presented by the supplier.",
+       "ref": "p. 727"
+      }
+     ]
+    },
+    {
+     "rotulo": "Short formulation",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Not total transparency, but sufficient transparency.",
+       "ref": "p. 728"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The expression does not designate unrestricted opening of source code, full exposure of the technological architecture or a general waiver of trade secrets.",
+       "ref": "p. 727"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "5.1.5, 6.3.1, 6.3.3, 7.1.1.5, 7.2.5.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "equivalencia-de-valor-funcional",
+   "nome": "Functional value equivalence",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Controls the change (p. 800). It also guides the remedy (p. 731).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Functional value equivalence operates as a criterion of lawfulness for unilateral changes made in continuous digital services that administer Immaterial Objects of Consumption.",
+       "ref": "p. 648"
+      },
+      {
+       "texto": "Functional value equivalence therefore constitutes the material core of the control of mutability in immaterial objects of consumption.",
+       "ref": "p. 731"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "What matters is the substantial preservation of the role played by the object in the acquired experience, considering its concrete utility in the ecosystem, its relational insertion in the environment of use and, when legally relevant, its identity or symbolic density.",
+       "ref": "p. 729"
+      }
+     ]
+    },
+    {
+     "rotulo": "Formulation for the introductory level",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "An object may continue to exist and yet no longer be, in a legally relevant sense, what was acquired.",
+       "ref": "p. 795"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Mutability, in itself, is not unlawful.",
+       "ref": "p. 729"
+      },
+      {
+       "texto": "From this perspective, legally legitimate mutability is that which substantially preserves the function of the object in the consumer's experience. This does not mean requiring perfect identity between the earlier and later versions, nor imposing a freeze on the service.",
+       "ref": "p. 730"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "5.1.5, 6.3.2, 7.1.1.6.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "feixe-de-fruicao-governada",
+   "nome": "Governed enjoyment bundle",
+   "tipo": "conceito",
+   "eixo": false,
+   "par": {
+    "id": "oic",
+    "rotulo": "legally organizes the"
+   },
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Always appears next to the IOC. The IOC names the legal category. The bundle names what it contains, the governed enjoyment that constitutes what was acquired. The thesis itself defines one through the other, when it speaks of \"the definition of the Immaterial Object of Consumption as a bundle of enjoyment sustained over time\" (p. 394).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Under the IOC",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "[...] the definition of the Immaterial Object of Consumption as a bundle of enjoyment sustained over time [...]",
+       "ref": "p. 394"
+      },
+      {
+       "texto": "The first field covered by the criteria is the promised object, understood as an enjoyment bundle.",
+       "ref": "p. 428"
+      }
+     ]
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Through this operator, the object can be described as a bundle of functionalities and meanings administered over the course of the relationship, coupled with permissions and limits of use, regimes of visibility and ordering, metrics and signals of recognition, and mechanisms of curation and enforcement executed by design.",
+       "ref": "p. 426"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The enjoyment bundle then appears as a collection of positions accessible through an institutional identifier and an infrastructure that stabilizes what is visible, usable and recognizable in the ecosystem.",
+       "ref": "p. 408-409"
+      },
+      {
+       "texto": "[...] the identification of a bundle of immaterial utilities that is only realized under conditions continuously organized by the supplier.",
+       "ref": "p. 717"
+      },
+      {
+       "texto": "The IOC does not behave as a 'good' merely because of an isolated functional utility, but as a functional and semiotic bundle, in which enjoyment depends on operations of public legibility and collective recognition.",
+       "ref": "p. 252"
+      }
+     ]
+    },
+    {
+     "rotulo": "Formulation for the introductory level",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The use value of the bundle, in this condition, is not stock, it is flow.",
+       "ref": "p. 409"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The criterion is not satisfied by ornamental lists of features or by generic advertising slogans.",
+       "ref": "p. 428"
+      },
+      {
+       "texto": "The fourth limit covers ordinary variations of the ecosystem that do not amount to relevant and persistent degradation of the bundle, such as updates, interface adjustments, anti-abuse measures, regular moderation and occasional instabilities.",
+       "ref": "p. 434"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "Abstract and keywords, 5.1.2, 5.1.2.3 (p. 428-434), 5.1.2.4, 7.1.1.1 (p. 717).",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "funcao-social-da-pi",
+   "nome": "Social function of intellectual property",
+   "tipo": "roteiro",
+   "eixo": false,
+   "par": null,
+   "secao": "7.1.1.9",
+   "campos": [
+    {
+     "rotulo": "Situation",
+     "texto": "Outside the Atlas, by the author's decision of 10/26/2026. It remains a step of the Situations (7.1.1.9).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Contains exclusivity (p. 800). The conclusion speaks of the \"social function of property and of intellectual property\".",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Intellectual property protects the ecosystem, but does not absolve its governance.",
+       "ref": "p. 739"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "[...] when intellectual property ceases to operate merely as an instrument for protecting creation or innovation and comes to structure environments of captive, continuous and governed enjoyment. In these contexts, exclusivity is not merely a legal title over an asset. It is also an infrastructure of private power over access, permanence, modulation, updating and contestation of the consumer's experience.",
+       "ref": "p. 738"
+      },
+      {
+       "texto": "The CDC does not eliminate intellectual property. Intellectual property does not suspend the CDC.",
+       "ref": "p. 738"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The relevant conflict often does not lie in the direct violation of a proprietary or authorial position, but in the way exclusive ownership is instrumentalized to govern enjoyment, redistribute risks, concentrate the power to change and hinder contestation. This does not represent an absorption of intellectual property by the CDC nor a reduction of its regime to consumerist logic.",
+       "ref": "p. 738"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "3.2.4, 6.5 and subsections, 7.1.1.9.",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "recomposicao-funcional",
+   "nome": "Functional restoration and regime correction",
+   "tipo": "roteiro",
+   "eixo": false,
+   "par": null,
+   "secao": "7.1.1.10",
+   "campos": [
+    {
+     "rotulo": "Situation",
+     "texto": "Outside the Atlas, by the author's decision of 10/26/2026. It remains a step of the Situations (7.1.1.10).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Function in the regime",
+     "texto": "Reorganizes the remedy (p. 800). It is the closure of the regime. \"This parameter thus serves to close the regime.\" (p. 740)",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Proposed canonical definition",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Priority protection, whenever technically and legally feasible, must seek functional restoration of enjoyment and correction of the regime that made it inadequate.",
+       "ref": "p. 739"
+      }
+     ]
+    },
+    {
+     "rotulo": "Competing formulations",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Regime correction, by contrast, makes it possible to treat the harm as architectural and not merely as an episode.",
+       "ref": "p. 741"
+      },
+      {
+       "texto": "Treating every injury of this kind as subject to merely monetary compensation means, in many cases, accepting that the supplier may unilaterally degrade, suppress or reconfigure enjoyment and then simply internalize the monetary cost of that conduct as an ordinary price of doing business. That is not adequate protection. It is the automatic monetization of abuse.",
+       "ref": "p. 797"
+      }
+     ]
+    },
+    {
+     "rotulo": "What it is not",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "The criterion is not the literal reproduction of the former state at any cost, but the functionally adequate restitution of the injured experience [...]",
+       "ref": "p. 740"
+      },
+      {
+       "texto": "Monetary compensation remains, of course, a legitimate and in many cases indispensable remedy. The parameter formulated here does not eliminate it.",
+       "ref": "p. 741"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "7.1.1.10, 7.3, Conclusion (p. 797-798).",
+     "citacoes": []
+    }
+   ]
+  },
+  {
+   "id": "integridade-pessoal",
+   "nome": "Personal integrity",
+   "tipo": "bens",
+   "eixo": false,
+   "par": null,
+   "secao": null,
+   "campos": [
+    {
+     "rotulo": "Situation",
+     "texto": "Outside the Atlas, by the author's decision of 10/26/2026. It belongs to the layer of protected goods, which is the role 5.1 assigns to it. In the gearing of 5.1, \"personal integrity describes the protected goods\" (p. 395).",
+     "citacoes": []
+    },
+    {
+     "rotulo": "Basis in the thesis",
+     "texto": "Personal integrity has a broader basis in 6.1.3, where the injury is measured by the attribute of personality affected, than in the definition of 5.1.4.",
+     "citacoes": [
+      {
+       "texto": "[...] when the injury is understood not from the suffering subjectively experienced, but from the attribute of personality objectively affected.",
+       "ref": "p. 534"
+      },
+      {
+       "texto": "The digital experience can reach legally relevant dimensions of personal integrity precisely because data protection, informational self-determination and the free development of personality form part of the existential core of the person in an informational environment [...]",
+       "ref": "p. 535"
+      },
+      {
+       "texto": "[...] for the very integrity of personality in digitally governed environments.",
+       "ref": "p. 800"
+      }
+     ]
+    },
+    {
+     "rotulo": "Definition in 5.1.4",
+     "texto": "",
+     "citacoes": [
+      {
+       "texto": "Personal integrity, in the regime of the Immaterial Object of Consumption, does not designate an emotional state or subjective discomfort arising from ordinary market frustrations. It designates the preservation of minimum conditions of agency, continuity and practical orientation of the consumer within a technical and organizational environment that permanently administers the possibilities of enjoyment.",
+       "ref": "p. 457"
+      }
+     ]
+    },
+    {
+     "rotulo": "Where it lives",
+     "texto": "5.1.4, 6.1.3, 7.1.4.",
+     "citacoes": []
+    }
+   ]
+  }
+ ],
+ "passos": {
+  "dever-de-informar": {
+   "nome": "Duty to inform",
+   "secao": "7.1.1.3",
+   "tipo": "roteiro"
+  },
+  "publicidade-e-oferta": {
+   "nome": "Advertising and offer",
+   "secao": "7.1.1.4",
+   "tipo": "roteiro"
+  },
+  "prova-e-onus": {
+   "nome": "Proof and burden",
+   "secao": "7.1.1.8",
+   "tipo": "roteiro"
+  }
+ },
+ "percursos": {
+  "consumidor": {
+   "nome": "Path of the consumer",
+   "onde": "5.1",
+   "fonte": "p. 394-395",
+   "logica": "Presents the concepts from the position of the one who consumes.",
+   "sequencia": [
+    {
+     "id": "vulnerabilidade-semiotica",
+     "papel": "describes the condition",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "oic",
+     "papel": "describes the object",
+     "par": "feixe-de-fruicao-governada",
+     "par_rotulo": "legally organizes the"
+    },
+    {
+     "id": "teleologia-abusiva",
+     "papel": "describes the unlawful act",
+     "par": "ilicito-de-arquitetura",
+     "par_rotulo": "as a category of"
+    },
+    {
+     "id": "integridade-pessoal",
+     "papel": "describes the protected goods",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "auditabilidade-aberta",
+     "papel": "operational criterion of verification and restoration",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "equivalencia-de-valor-funcional",
+     "papel": "operational criterion of verification and restoration",
+     "par": null,
+     "par_rotulo": null
+    }
+   ],
+   "trecho": {
+    "texto": "The starting point is not the object, but the position of the consumer that this object meets.",
+    "ref": "p. 394"
+   }
+  },
+  "julgador": {
+   "nome": "Path of the judge",
+   "onde": "7.1.1",
+   "fonte": "p. 716-717",
+   "logica": "Decides step by step. Each parameter prepares the next.",
+   "sequencia": [
+    {
+     "id": "oic",
+     "papel": "qualification of the object and of the regime of enjoyment",
+     "par": "feixe-de-fruicao-governada",
+     "par_rotulo": "legally organizes the"
+    },
+    {
+     "id": "vulnerabilidade-semiotica",
+     "papel": "governance of the meaning and intelligibility of the bond",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "dever-de-informar",
+     "papel": "organization of expectation, choice and contestation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "publicidade-e-oferta",
+     "papel": "organization of expectation, choice and contestation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "auditabilidade-aberta",
+     "papel": "criterion of verification, containment and imputation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "equivalencia-de-valor-funcional",
+     "papel": "criterion of verification, containment and imputation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "teleologia-abusiva",
+     "papel": "criterion of verification, containment and imputation",
+     "par": "ilicito-de-arquitetura",
+     "par_rotulo": "as a category of"
+    },
+    {
+     "id": "prova-e-onus",
+     "papel": "criterion of verification, containment and imputation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "funcao-social-da-pi",
+     "papel": "operational closure. Limit of private exclusivity",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "recomposicao-funcional",
+     "papel": "operational closure. Adequate form of response to the conflict",
+     "par": null,
+     "par_rotulo": null
+    }
+   ],
+   "trecho": {
+    "texto": "The statements should not be read as a horizontal inventory of concepts. Their function is to organize a staggered decision sequence, in which each parameter prepares the incidence of the next and limits the field of interpretive variation of the subsequent step.",
+    "ref": "p. 716-717"
+   }
+  },
+  "regime": {
+   "nome": "Path of the regime",
+   "onde": "Conclusion",
+   "fonte": "p. 800",
+   "logica": "Sums up the whole regime in one sentence, concept by concept.",
+   "sequencia": [
+    {
+     "id": "oic",
+     "papel": "qualifies the immaterial product",
+     "par": "feixe-de-fruicao-governada",
+     "par_rotulo": "legally organizes the"
+    },
+    {
+     "id": "vulnerabilidade-semiotica",
+     "papel": "locates the relevant asymmetry",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "antecipacao-hipercuratorial",
+     "papel": "reads governed expectation",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "teleologia-abusiva",
+     "papel": "may identify the unlawful act",
+     "par": "ilicito-de-arquitetura",
+     "par_rotulo": "as a category of"
+    },
+    {
+     "id": "auditabilidade-aberta",
+     "papel": "controls changes",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "equivalencia-de-valor-funcional",
+     "papel": "controls changes",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "funcao-social-da-pi",
+     "papel": "contains exclusivity",
+     "par": null,
+     "par_rotulo": null
+    },
+    {
+     "id": "recomposicao-funcional",
+     "papel": "reorganizes the remedies",
+     "par": null,
+     "par_rotulo": null
+    }
+   ],
+   "trecho": {
+    "texto": "The regime sets out to coherently articulate the qualification of the immaterial product by the Immaterial Object of Consumption, the location of the relevant asymmetry by semiotic vulnerability, the reading of governed expectation by hypercuratorial anticipation, the identification of the unlawful act by abusive teleology, the control of changes by open auditability and functional value equivalence, the containment of exclusivity by the social function of property and of intellectual property, and the reorganization of remedies around functional restoration and regime correction.",
+    "ref": "p. 800"
+   }
+  }
+ },
+ "epigrafes": {
+  "descricao": "The nine epigraphs of the thesis, in the order in which they appear. They emulate the nine Muses and form an arc from fear to the fermata (p. 78). The lyrics are not reproduced on the site.",
+  "playlist": {
+   "titulo": "Immaterial Object of Consumption (IOC)",
+   "autor": "Victor Andrade",
+   "url": "https://open.spotify.com/playlist/35U1fRVLPlpPGAlsmqyLAS",
+   "embed": "https://open.spotify.com/embed/playlist/35U1fRVLPlpPGAlsmqyLAS",
+   "conferida_em": "2026-10-26",
+   "observacao": "Order of the tracks checked against the thesis. Nine of nine, in the same sequence."
+  },
+  "epigrafes": [
+   {
+    "ordem": 1,
+    "abre": "Opening",
+    "artista": "Lily Allen",
+    "faixa": "The Fear",
+    "ano": 2009,
+    "pagina_pdf": 12,
+    "pre_textual": true
+   },
+   {
+    "ordem": 2,
+    "abre": "1 Introduction",
+    "artista": "Lorde",
+    "faixa": "The Love Club",
+    "ano": 2012,
+    "pagina_pdf": 22,
+    "pre_textual": true
+   },
+   {
+    "ordem": 3,
+    "abre": "2 On the methodological design and the observation protocol",
+    "artista": "Danni Carlos",
+    "faixa": "Coisas Que Eu Sei",
+    "ano": 2008,
+    "pagina_pdf": 46,
+    "pagina_impressa": 44
+   },
+   {
+    "ordem": 4,
+    "abre": "3 Technology, platforms and the techno-media economic order of digital consumption",
+    "artista": "Christina Aguilera",
+    "faixa": "Birds of Prey",
+    "ano": 2010,
+    "pagina_pdf": 84,
+    "pagina_impressa": 82
+   },
+   {
+    "ordem": 5,
+    "abre": "4 Semiotics and governance of enjoyment in continuous immaterial consumption",
+    "artista": "MARINA",
+    "faixa": "Oh No!",
+    "ano": 2010,
+    "pagina_pdf": 262,
+    "pagina_impressa": 260
+   },
+   {
+    "ordem": 6,
+    "abre": "5 On the legal regime of the Immaterial Object of Consumption (IOC) under the Lex Plataformae",
+    "artista": "K/DA",
+    "faixa": "Villain",
+    "ano": 2020,
+    "pagina_pdf": 392,
+    "pagina_impressa": 390,
+    "dialogo": {
+     "artista": "Scarlet Envy",
+     "obra": "RuPaul’s Drag Race: All Stars 6 Promo",
+     "ano": 2021,
+     "conferido": "p. 390, epigraph credit, checked on 11/04/2026"
+    }
+   },
+   {
+    "ordem": 7,
+    "abre": "6 On the protection of the consumer's semiotic vulnerability in light of Brazil's constitutional and economic order",
+    "artista": "Zélia Duncan",
+    "faixa": "Diz Nos Meus Olhos (Inclemência)",
+    "ano": 2005,
+    "pagina_pdf": 502,
+    "pagina_impressa": 500
+   },
+   {
+    "ordem": 8,
+    "abre": "7 On the typology of the models of incidence of the Immaterial Object of Consumption across different functional categories of platform",
+    "artista": "Marisa Monte",
+    "faixa": "Infinito Particular",
+    "ano": 2006,
+    "pagina_pdf": 714,
+    "pagina_impressa": 712
+   },
+   {
+    "ordem": 9,
+    "abre": "8 Conclusion",
+    "artista": "Pitty",
+    "faixa": "Temporal",
+    "ano": 2003,
+    "pagina_pdf": 792,
+    "pagina_impressa": 790
+   }
+  ]
+ }
+}

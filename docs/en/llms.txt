@@ -3,6 +3,7 @@
 > English version of lexplataformae.com.br, which adapts the doctoral thesis by Victor L. P. Andrade, "Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae" (UNESP, Franca, 2026), on the legal regime of the Immaterial Object of Consumption (IOC) under Brazilian consumer law. Literal quotations appear in free translation, with the Portuguese original alongside. The full thesis text is a machine translation, reviewed for continuity but not yet reviewed by the author. The Portuguese version is authoritative.
 
 - [Portuguese version](https://lexplataformae.com.br/llms.txt)
+- [atlas.json, English](https://lexplataformae.com.br/en/dados/atlas.json): concepts, definitions, delimiting criteria and readings, in free translation.
 - [Thesis PDF, English translation](https://lexplataformae.com.br/en/thesis/andrade-2026-thesis-ioc-lex-plataformae-en.pdf)
 - [Thesis PDF, Portuguese original](https://lexplataformae.com.br/tese/andrade-2026-tese-oic-lex-plataformae.pdf)
 
