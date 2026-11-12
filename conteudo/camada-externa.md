@@ -183,7 +183,7 @@ Abre o capítulo final. Traduz a desorientação de quem já não se reconhece, 
 
 A sexta canção nasce do próprio ambiente que serve de referência ilustrativa à tese, porque foi produzida pela empresa do jogo. Ela descreve, em primeira pessoa, um poder fundado no comando de um lado só, no uso dos afetos e no descarte do outro.
 
-Não é uma confissão, mas mostra o ambiente contando a si mesmo como cultura. Por isso a lei da plataforma governa também por enredo, estilo, personagem e performance, e não só por contrato, código e tela.
+Não é uma confissão, mas mostra o ambiente contando a si mesmo como cultura. E mostra que a lei da plataforma governa também por enredo, estilo, personagem e performance, e não só por contrato, código e tela.
 
 > Produzida pela própria Riot Games como parte do universo artístico do ecossistema aqui tomado como referência ilustrativa, a composição descreve, em primeira pessoa e em linguagem de entretenimento, uma estrutura de poder fundada em comando unilateral, instrumentalização afetiva, descarte do outro e ausência deliberada de empatia. (p. 76)
 > O ecossistema, ao se narrar culturalmente, projeta uma imagem inteligível do próprio regime de poder, e é esse gesto autodescritivo, não uma confissão jurídica, que importa ao argumento. (p. 76-77)
@@ -1450,7 +1450,7 @@ Sem esse mínimo, o aplicativo fica com dois poderes ao mesmo tempo. O de organi
 
 ### resposta O que pedir quando o aplicativo muda a regra?
 
-Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de um jeito que dê para conferir e que os critérios de punição sejam revistos. Pode caber também pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.
+Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de um jeito que dê para conferir e que os critérios de punição sejam revistos. Cabe ainda pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.
 
 Nos casos mais graves, quando metas, punições e mudanças formam um plano estável para fazer você aceitar perdas e se comportar como o aplicativo quer, a própria finalidade do desenho pode entrar em discussão.
 

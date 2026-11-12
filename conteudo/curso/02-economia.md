@@ -1,6 +1,6 @@
 # Como a plataforma extrai valor
 
-abertura: O consumo em plataforma tende a se organizar por um modelo de negócio que extrai valor do controle do acesso, da escassez produzida e da presença do próprio consumidor, e esse modelo explica condutas do fornecedor que a leitura da cláusula isolada não alcança. Lido com Varoufakis, Dowbor e Marx, esse modelo oferece ao jurista condições de imputação, e não uma condenação do mercado.
+abertura: O consumo em plataforma tende a se organizar por um modelo de negócio que extrai valor do controle do acesso, da escassez produzida e da presença do próprio consumidor, e esse modelo explica condutas do fornecedor que a leitura da cláusula isolada não alcança. Lido com Varoufakis, Dowbor e Marx, ele oferece ao jurista condições de imputação, e não uma condenação do mercado.
 secoes: 3.2, 3.2.1, 3.2.2, 3.2.3, 3.2.5, 3.2.6
 
 ## Por que o jurista do consumo precisa ler o modelo de negócio?
@@ -114,7 +114,7 @@ O vocabulário forte dessa análise, como humilhação jurídica e chantagem civ
 > Quando a tese tecnofeudal pede um momento de crueldade, ele não vem do discurso moral sobre comportamento. Ele vem do mecanismo de expropriação escrito. (p. 154)
 > Aqui, a palavra “suborno” é empregada de forma metafórica para descrever como a lealdade do consumidor é capturada através de um "sustento simbólico", em que o fornecedor troca meras linhas de código e escassez calibrada por horas de vida e atenção do usuário. (p. 224)
 
-O que o advogado tira do caso é outra coisa. O contrato não é exceção patológica, e sim a forma jurídica em que a estrutura se diz por escrito, e a negação de valor que ele contém não decide se a perda é juridicamente relevante, porque tenta colapsar por definição o que na prática funciona como patrimônio imaterial acumulado. O problema se traduz para o CDC pela vulnerabilidade fática do art. 4º, I, do CDC, que justifica deveres reforçados de transparência, lealdade e informação.
+O que o advogado tira do caso é outra coisa. O contrato não é exceção patológica, e sim a forma jurídica em que a estrutura se diz por escrito, e a negação de valor que ele contém não decide se a perda é juridicamente relevante, porque tenta colapsar por definição o que na prática funciona como patrimônio imaterial acumulado. O problema se traduz pela vulnerabilidade fática do art. 4º, I, do CDC, que justifica deveres reforçados de transparência, lealdade e informação.
 
 > O contrato observado não é exceção patológica. Ele é a forma jurídica em que a estrutura tecnofeudal se diz por escrito, e por isso permite reconhecer, no plano macro, o mesmo desenho institucional que organiza o ecossistema. (p. 155)
 > A cláusula é relevante porque tenta colapsar, por definição, aquilo que na prática opera como patrimônio imaterial acumulado. (p. 177)

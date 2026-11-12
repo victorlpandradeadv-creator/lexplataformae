@@ -590,7 +590,7 @@ Auditabilidade aberta, equivalência de valor funcional e teleologia abusiva dis
 
 A qualificação é a chave de entrada do regime. O foco sai da ontologia civilista do bem e vai para o regime continuado de manutenção, disponibilização e modulação da fruição. O consumidor não frui um bem presumivelmente estável, e sim uma experiência condicionada por infraestrutura técnica, curadoria de acesso, atualização, visibilidade, regras de interação e mecanismos privados de execução. Titularidade formal, licença de uso e disponibilidade nominal não esgotam o problema.
 
-A qualificação produz efeito em dois planos. Impede que o controle seja neutralizado pela alegação de mera prestação de serviço ou mera licença de conteúdo. E redefine a leitura do CDC, que passa a partir da fruição como relação governada, sem negar a relevância do contrato. A dimensão prestacional não desaparece, porque comparece como modo de sustentar, atualizar e conformar o próprio objeto. A antiga pergunta sobre produto ou serviço, em chave excludente, perde grande parte da utilidade analítica.
+A qualificação produz efeito em dois planos. Impede que o controle seja neutralizado pela alegação de mera prestação de serviço ou mera licença de conteúdo. E redefine a leitura do CDC, que passa a tomar como ponto de partida a fruição como relação governada, sem negar a relevância do contrato. A dimensão prestacional não desaparece, porque comparece como modo de sustentar, atualizar e conformar o próprio objeto. A antiga pergunta sobre produto ou serviço, em chave excludente, perde grande parte da utilidade analítica.
 
 > Ela desloca o foco da ontologia civilista do bem para o regime continuado de manutenção, disponibilização e modulação da fruição. (p. 717)
 > Em tais contextos, titularidade formal, licença de uso ou mera disponibilidade nominal do objeto não esgotam o problema jurídico. (p. 718)
@@ -675,7 +675,7 @@ O parâmetro não exige abertura de código-fonte nem renúncia generalizada a s
 
 ### Texto
 
-A mudança, em si, não é ilícita. O problema começa quando ela degrada, esvazia ou desvia, de modo relevante, a função que justificou a aquisição. O critério não se reduz a desempenho técnico nem a atributos isolados. Recai sobre o papel do objeto na experiência adquirida, sua utilidade no ecossistema, sua inserção relacional e, quando componha de modo objetivamente reconhecível o núcleo da aquisição, sua dimensão simbólica.
+A mudança, em si, não é ilícita. O problema começa quando ela degrada, esvazia ou desvia, de modo relevante, a função que justificou a aquisição. O critério não se reduz a desempenho técnico nem a atributos isolados. Recai sobre o papel do objeto na experiência adquirida, sua utilidade no ecossistema, sua inserção relacional e, quando compuser de modo objetivamente reconhecível o núcleo da aquisição, sua dimensão simbólica.
 
 A pergunta deixa de ser se a mudança cabia no poder geral de atualização. Passa a ser se a experiência continua funcionalmente equivalente, em termos substanciais. O parâmetro afasta os dois extremos, o congelamento do ambiente e a legitimação de toda alteração pela sobrevivência nominal do objeto. Também orienta o remédio, com prioridade para restauração, substituição equivalente e reversão técnica quando viável.
 

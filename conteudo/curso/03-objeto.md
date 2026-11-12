@@ -162,7 +162,7 @@ Nos remédios, a revisão não exige imprevisibilidade, e o consumidor pode pedi
 
 ## Não é só um serviço, ou só uma licença?
 
-A primeira é a de que só se presta um serviço ou de que só se concedeu uma licença. A resposta é que essas fórmulas não bastam para naturalizar a precariedade do vínculo, e que a recondução ao produto imaterial não nega a prestação, que aparece como modo de sustentar o objeto. Sem o conceito, a plataforma sempre venceria por dicionário privado.
+A primeira objeção é a de que só se presta um serviço ou de que só se concedeu uma licença. A resposta é que essas fórmulas não bastam para naturalizar a precariedade do vínculo, e que a recondução ao produto imaterial não nega a prestação, que aparece como modo de sustentar o objeto. Sem o conceito, a plataforma sempre venceria por dicionário privado.
 
 > Sob essa chave, a qualificação do OIC como produto imaterial não exige a negação da dimensão prestacional do vínculo. (p. 718)
 > Isso não significa negar a relevância do contrato, mas recusar sua suficiência explicativa em ambientes nos quais o conteúdo econômico da relação se realiza de modo continuado por mecanismos que excedem largamente o texto contratual. (p. 718)

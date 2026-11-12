@@ -454,7 +454,7 @@ Você não deixa de consumir por causa disso. O ponto é que, cada vez que parti
 
 Numa compra comum é diferente. Quando você compra uma geladeira, ela vai para a sua casa e passa a existir longe do alcance de quem vendeu, pelo menos enquanto durar o que se espera de uma geladeira. A loja ganha uma vez e pronto.
 
-Com a skin é diferente, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa.
+Com a skin não é assim, porque ela só funciona dentro de um lugar que você não controla. Ela atravessa atualizações, ajustes de equilíbrio, fim de eventos, troca de catálogo, mudanças na moeda do jogo e novas políticas. Por isso a plataforma não ganha só com a entrega da skin. Ganha também controlando o acesso e o tempo, ou seja, cobrando pela passagem, pela permanência e pela previsibilidade de um lugar que ela mesma governa.
 
 > Na economia industrial, o consumidor paga para adquirir um bem cuja existência, uma vez comprada, tende a se estabilizar fora do alcance do fornecedor, ao menos dentro de expectativas razoáveis de durabilidade e de disciplina dos vícios. (p. 210)
 > O consumidor não compra uma “coisa” e a leva consigo; ele ingressa em um regime de acesso em que o objeto se mantém funcional apenas dentro da infraestrutura que não controla, atravessado por atualizações, balanceamentos, encerramentos de eventos, rotatividade de catálogo, reconfigurações de moeda interna e mudanças de política (p. 210)
@@ -557,7 +557,7 @@ Para a empresa, isso vale muito, porque reduz o custo de testar o jogo e funcion
 
 Quem produz valor assim fica num lugar estranho. Participa muito da produção, mas fora de qualquer categoria de trabalho, de emprego ou de prestação de serviço. Não tem contrato, não tem salário e não é reconhecido como alguém que trabalha.
 
-Ao mesmo tempo, o seu progresso, o seu status, a sua reputação e até o seu acesso dependem das decisões de outro, como os de um trabalhador que vive sob condições definidas pelo patrão. A palavra lumpemproletariado nomeia quem trabalha à margem, sem os direitos de quem trabalha. Aplicada aqui, ela descreve alguém que é consumidor e, ao mesmo tempo, mão de obra, sem que o direito enxergue essa segunda parte.
+Ao mesmo tempo, o seu progresso, o seu status, a sua reputação e até o seu acesso dependem das decisões de outro, como acontece com um trabalhador que vive sob condições definidas pelo patrão. A palavra lumpemproletariado nomeia quem trabalha à margem, sem os direitos de quem trabalha. Aplicada aqui, ela descreve alguém que é consumidor e, ao mesmo tempo, mão de obra, sem que o direito enxergue essa segunda parte.
 
 > O consumidor-usuário de plataformas encontra-se formalmente fora da relação salarial e fora das categorias clássicas de trabalho que sustentaram a dogmática industrial, mas ele é materialmente incorporado ao regime de valorização como fonte constante de produtividade difusa e como base de sustentação do pedágio. Desse ponto de vista, o consumidor aproxima-se de um lumpemproletariado digital: participa intensamente da produção de valor, mas o faz em um plano opaco, fora das categorias tradicionais de trabalho, contrato de emprego ou prestação de serviços. (p. 223)
 > Quando o progresso, o status, a reputação e a própria continuidade de acesso ao Objeto Imaterial de Consumo se tornam dependentes de decisões unilaterais da plataforma, o consumidor se vê em posição análoga à do trabalhador submetido a condições de vida definidas por outrem, mas sem que o direito o reconheça como tal. (p. 223)
@@ -1059,7 +1059,7 @@ Quem controla esses vestígios controla, em boa parte, a reconstrução do que a
 
 ### nome auditabilidade-aberta
 
-A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ela sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada.
+A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada.
 
 Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.
 
@@ -1172,7 +1172,7 @@ O que se pede, no fim, são critérios já conhecidos. Informação que dê para
 
 ### termo Padrões obscuros
 
-Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscuros. É o caso da caixinha que já vem marcada para você assinar um serviço extra, no botão de cancelar escondido em cinza claro ou no aviso de que só restam poucas unidades quando não é verdade.
+Algumas armadilhas de tela já têm nome conhecido no mundo todo, padrões obscuros. É o caso da caixinha que já vem marcada para você assinar um serviço extra, do botão de cancelar escondido em cinza claro ou no aviso de que só restam poucas unidades quando não é verdade.
 
 O que pesa nesses casos não é uma frase isolada, e sim o jeito como as escolhas são apresentadas e induzidas. E a lei brasileira de proteção ao consumidor já permite punir vários casos de desenho enganoso. Assim o design deixa de ser tratado como estética neutra e volta a ser o que é, uma prática comercial com objetivo econômico, que o direito pode qualificar.
 

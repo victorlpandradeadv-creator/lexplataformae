@@ -209,7 +209,7 @@ O serviço piorou, e o preço continua o mesmo. Posso reclamar?
 
 ### abertura
 
-Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega, e a lei do consumidor trata como nula a mudança que a empresa faz sozinha no conteúdo ou na qualidade do que vende.
+Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega. A lei do consumidor trata como nula a mudança que a empresa faz sozinha no conteúdo ou na qualidade do que vende.
 
 > A redução raramente aparece como corte explícito de “aulas”, mas pode se manifestar como perda de alcance, rebaixamento persistente de performance, restrição cumulativa de funcionalidades, compressão de limites, reordenação de visibilidade ou alterações estruturais que elevam o custo de fruir a mesma utilidade. A lógica é a mesma. Mantêm-se o rótulo e o preço, e rebaixa-se a entrega de valor. (p. 480)
 > Se a continuidade é o regime normal, a utilidade fruída se estabiliza como expectativa de manutenção do patamar de entrega, e não como expectativa de acesso formal a um serviço que pode ser reconfigurado por conveniência do fornecedor. Por isso, o CDC trata a modificação unilateral de conteúdo ou qualidade como nulidade. (p. 479)
@@ -1435,7 +1435,7 @@ A proteção não faz de você dono de tudo o que a empresa registra, nem autor 
 
 > Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra, mas reforçam que sua biografia digital não é massa bruta totalmente indisponível ao titular e que a administração da memória de fruição precisa permanecer controlável, inteligível e minimamente acessível. (p. 542)
 
-Frustrações comuns e mudanças normais do serviço ficam de fora. A perda precisa ser significativa e persistente e poder ser descrita por critérios que dê para conferir.
+Frustrações comuns e mudanças normais do serviço ficam de fora. A perda precisa ser significativa e persistente, e precisa poder ser descrita por critérios conferíveis.
 
 > Integridade pessoal, no regime do Objeto Imaterial de Consumo, não designa estado emocional nem desconforto subjetivo decorrente de frustrações ordinárias do mercado. (p. 457)
 > Por isso, as categorias só operam quando o rebaixamento é significativo e persistente, quando altera substancialmente o patamar de agência e a posição do consumidor no ecossistema, e quando pode ser descrito por critérios verificáveis de perda no regime do OIC, sob os filtros de relevância e controlabilidade. (p. 467-468)

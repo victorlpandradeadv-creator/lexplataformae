@@ -244,7 +244,7 @@ Mudou, tem que manter o que valia
 
 ### quando
 
-Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou no recurso que deixava você fazer algo e foi retirado.
+Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou o recurso que deixava você fazer algo e foi retirado.
 
 Você pode continuar dentro do jogo, com a conta, vendo o item e entrando quando quiser, e mesmo assim ter perdido o principal. Manter funcionando não é o mesmo que manter o valor.
 

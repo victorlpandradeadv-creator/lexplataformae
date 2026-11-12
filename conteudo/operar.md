@@ -362,7 +362,7 @@ O art. 6º do CDC inclui a facilitação da defesa entre os direitos básicos, e
 
 ### cuidados
 
-A distribuição dinâmica prevista no art. 373, § 1º, do CPC depende de decisão fundamentada. Na publicidade, o art. 38 do CDC já atribui ao patrocinador o ônus de provar a veracidade e a correção da comunicação. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria.
+A distribuição dinâmica prevista no art. 373, § 1º, do CPC depende de decisão fundamentada. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria.
 
 > Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor. (p. 659)
 > A prova mínima exigível, do ponto de vista do consumidor, consiste em apresentação plausível da experiência lesiva, de sua inserção no ecossistema e dos elementos de contexto acessíveis (p. 747)
@@ -435,7 +435,7 @@ O art. 35 do CDC permite exigir o cumprimento forçado, aceitar prestação equi
 
 ### cuidados
 
-A resposta prioriza restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente e ajustes de governança. A indenização continua possível e, muitas vezes, indispensável, inclusive por danos extrapatrimoniais, mas não como resposta automática. Quando o dano revela padrão repetível, cabe correção de regime, com tutela inibitória, medidas estruturais e providências coletivas.
+A resposta prioriza restauração de acesso, reversão de sanções, preservação de histórico, substituição funcional equivalente e ajustes de governança. A indenização continua possível e tem papel importante, inclusive por danos extrapatrimoniais, mas não como resposta automática. Quando o dano revela padrão repetível, cabe correção de regime, com tutela inibitória, medidas estruturais e providências coletivas.
 
 > Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração. (p. 748)
 > A prova mínima exigível envolve demonstração do nexo entre o mecanismo de governança e a perda funcional, bem como da possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental. (p. 748)

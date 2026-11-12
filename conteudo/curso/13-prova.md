@@ -281,7 +281,7 @@ Em casos qualificados, o episódio serve ainda de ponte para a auditabilidade ab
 
 ## E quando o fornecedor diz que o consumidor não provou?
 
-A primeira e mais corrosiva é a de que o consumidor não provou, que converte a falta de acesso do consumidor em ausência de prova do próprio direito. Nesses ambientes, a ausência de prova pode ser menos fragilidade da pretensão e mais resultado do arranjo de governança do fornecedor, e o Direito não pode aceitar que a plataforma administre ao mesmo tempo a fruição, a narrativa do evento e as condições da sua verificabilidade.
+A primeira objeção, e a mais corrosiva, é a de que o consumidor não provou, que converte a falta de acesso do consumidor em ausência de prova do próprio direito. Nesses ambientes, a ausência de prova pode ser menos fragilidade da pretensão e mais resultado do arranjo de governança do fornecedor, e o Direito não pode aceitar que a plataforma administre ao mesmo tempo a fruição, a narrativa do evento e as condições da sua verificabilidade.
 
 > Esse parâmetro evita, com isso, uma das defesas mais corrosivas da opacidade estrutural, que é a conversão da falta de acesso do consumidor em ausência de prova do próprio direito alegado. (p. 735)
 >! A fórmula “você não provou” torna-se institucionalmente vazia quando não se examina quem controlava as condições de produção, preservação e exibição daquilo que deveria ser provado. (p. 735-736)
