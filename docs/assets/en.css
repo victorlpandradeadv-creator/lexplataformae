@@ -8,5 +8,7 @@ details.original > summary::-webkit-details-marker { display: none; }
 details.original > summary:hover, details.original > summary:focus-visible { opacity: 1; }
 details.original[open] { display: block; margin: .6em 0 0; }
 details.original .original-texto { display: block; margin-top: .4em; font-size: .9em; opacity: .85; font-style: normal; }
+.titulo-original { font-family: Newsreader, serif; font-style: italic; font-size: 1.05rem; opacity: .75; margin: .5rem 0 0; max-width: 46rem; }
+.botao-secundario { background: transparent !important; color: inherit !important; border: 1px solid currentColor; }
 .aviso-traducao { font-size: .875rem; padding: .75rem 1rem; border: 1px solid currentColor; border-radius: 2px; margin: 0 0 1.5rem; opacity: .85; }
 @media print { details.original > summary { display: none; } details.original .original-texto { display: block; } }

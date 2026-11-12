@@ -36,6 +36,8 @@ T = RAIZ / "traducao"
 AVISO_TESE = ("This is a machine translation of the thesis, produced for this site and reviewed for accuracy and continuity, but not yet reviewed by the author. "
               "The Portuguese original is the authoritative text.")
 PDF_EN = RAIZ / "site" / "andrade-2026-thesis-ioc-lex-plataformae-en.pdf"
+TITULO_TESE_EN = ("On the legal regime of the Immaterial Object of Consumption (IOC) under Lex Plataformae: "
+                  "protecting the consumer's semiotic vulnerability in light of Brazil's constitutional and economic order")
 ROTULO_PT = "PT"
 TITULO_PT = "Free translation. Show the Portuguese original"
 TITULO_PT_LEI = "Unofficial translation. Show the Portuguese original"
@@ -324,7 +326,24 @@ def traduz_pagina(arq, rel):
         a.string = "Ler em português"
         aviso.append(a)
         aviso.append(".")
-        if rel == "tese/index.html" and PDF_EN.exists():
+        if rel == "tese/index.html":
+            # Título inglês da tese, com o original logo abaixo, e o botão para o PDF inglês. 12/11/2026.
+            h1 = sopa.select_one("h1")
+            if h1 and "Do regime jurídico" in h1.get_text():
+                orig = h1.get_text()
+                h1.string = TITULO_TESE_EN
+                pt = sopa.new_tag("p", attrs={"class": "titulo-original", "lang": "pt-BR"})
+                pt.string = orig
+                h1.insert_after(pt)
+            for b in sopa.select('a.botao[href$=".pdf"]'):
+                if PDF_EN.exists():
+                    b["href"] = PDF_EN.name
+                    b.string = "Download the English translation as PDF"
+                    o = sopa.new_tag("a", attrs={"class": "botao botao-secundario", "href": prefixo_raiz(rel) + "../tese/andrade-2026-tese-oic-lex-plataformae.pdf", "hreflang": "pt-BR"})
+                    o.string = "Portuguese original (PDF)"
+                    b.insert_after(o)
+                    b.insert_after(" ")
+        if False:
             aviso.append(" ")
             b = sopa.new_tag("a", href=PDF_EN.name)
             b.string = "Download this English translation as PDF"
@@ -415,6 +434,8 @@ details.original > summary::-webkit-details-marker { display: none; }
 details.original > summary:hover, details.original > summary:focus-visible { opacity: 1; }
 details.original[open] { display: block; margin: .6em 0 0; }
 details.original .original-texto { display: block; margin-top: .4em; font-size: .9em; opacity: .85; font-style: normal; }
+.titulo-original { font-family: Newsreader, serif; font-style: italic; font-size: 1.05rem; opacity: .75; margin: .5rem 0 0; max-width: 46rem; }
+.botao-secundario { background: transparent !important; color: inherit !important; border: 1px solid currentColor; }
 .aviso-traducao { font-size: .875rem; padding: .75rem 1rem; border: 1px solid currentColor; border-radius: 2px; margin: 0 0 1.5rem; opacity: .85; }
 @media print { details.original > summary { display: none; } details.original .original-texto { display: block; } }
 """
