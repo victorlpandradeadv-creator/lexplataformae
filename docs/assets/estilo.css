@@ -473,7 +473,6 @@ body { padding-bottom: 6.5rem; }
   .nome-ext { padding: 1rem; }
 }
 body:not(:has(#nivel-0:checked)) :is(.expansao, .frase.interno, .campo-topo.interno) { margin-top: 1rem; }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) :is(.expansao, .frase.interno, .campo-topo.interno) { margin-top: 1.6rem; }
 body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
 @media (max-width: 420px) {
   .chave-mestra { padding-left: 0.3rem; }
@@ -481,7 +480,6 @@ body:not(:has(#nivel-0:checked)) .arquitetura { margin-top: 1rem; }
   .degraus { flex: 1; }
   .degraus label { flex: 1; padding: 0 0.5rem; font-size: 0.85rem; }
 }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .faixa { padding-inline: 0.75rem; margin-top: 1.7rem; }
 .nome-conceito { line-height: 1.3; }
 .ext-cabeca h1 { line-height: 1.3; }
 .titulo-interno { line-height: 1.3; }
@@ -765,7 +763,6 @@ body:not(:has(#nivel-2:checked)) .cita-sinal { font-size: max(0.6em, 11px); }
 @media (max-width: 640px) { .roteiro .operar { padding: 1rem; } }
 .roteiro .operar > .rotulo-ext { color: var(--tese-texto); font-weight: 600; }
 .operar-parte dd p { margin: 0; }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .roteiro .rotulo-quadro { margin-bottom: 1.4rem; }
 
 /* Conceitos derivados. Uma página para cada um, com o texto literal que o define. */
 .derivado-pagina h1 .nome-derivado { font-size: inherit; }
@@ -975,9 +972,6 @@ body:has(#nivel-0:checked) .esconde-0, body:has(#nivel-1:checked) .esconde-1, bo
 :is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) [data-arq]::after { opacity: 1; }
 :is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .faixa[data-arq]::after { top: -1.45rem; bottom: auto; }
 :is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .arquitetura { border-top: 2px dashed var(--desnudo); }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .sequencia { gap: 1.9rem; padding-top: 1.4rem; }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .campo { padding-top: 2.6rem; }
-:is(body.desnudo, body:has(#nivel-2:checked)):has(#arq-tudo:checked) .grade-conceitos { padding-top: 1.4rem; }
 @media (prefers-reduced-motion: reduce) {
   :is(body.desnudo, body:has(#nivel-2:checked)) [data-arq], :is(body.desnudo, body:has(#nivel-2:checked)) [data-arq-mesmo], :is(body.desnudo, body:has(#nivel-2:checked)) [data-arq]::after { transition: none; }
 }
@@ -1123,7 +1117,7 @@ h2, h3 { font-family: var(--serifa); font-stretch: 100%; }
 .nomes-discretos p { font-family: var(--serifa); font-size: 1.1rem; line-height: 1.9; }
 .nomes-discretos p a { color: var(--tinta); }
 /* Na Doutrina a capa abre direto nas portas. */
-body:has(#nivel-1:checked) .pagina-inicio .cena-titulo { min-height: auto; padding-block: 2rem 1rem; }
+body:is(:has(#nivel-1:checked), :has(#nivel-2:checked)) .pagina-inicio .cena-titulo { min-height: auto; padding-block: 4rem 1rem; }
 body:has(#nivel-1:checked) .pagina-inicio .desce { display: none; }
 
 /* A chave de modo em papel, sem o vermelho de alerta. */
@@ -1463,6 +1457,13 @@ body:not(:has(#nivel-2:checked)) .rodape > * { justify-self: auto; }
   main, .folha, .coluna-texto { max-width: 100%; }
   .folha table { display: block; max-width: 100%; overflow-x: auto; }
 }
+
+/* Aviso de IA da legenda em linha própria, discreto, na letra da legenda. Ciência, 12/11/2026. */
+figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-texto, inherit); font-size: .8rem; letter-spacing: 0; opacity: .75; }
+
+/* Um filete só. Na Ciência, os trechos de De onde vem ficam dentro do filete da expansão, sem filete próprio, separados por espaço. 12/11/2026. */
+.expansao blockquote.citacao { border-left: 0; padding-left: 0; }
+.expansao { gap: 0.9rem; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

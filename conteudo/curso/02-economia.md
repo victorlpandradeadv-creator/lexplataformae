@@ -328,7 +328,7 @@ Daí a afirmação que mais interessa ao litígio, a de que mudanças unilaterai
 >! Mudanças unilaterais que reconfiguram critérios de exibição, circulação, raridade e gramáticas de comparação não são “cosmética” neutra, pois incidem sobre o núcleo semiótico que compõe a utilidade social do OIC e estrutura a decisão do consumidor. (p. 258)
 > Resta avançar, com maior granularidade, para as operações concretas de interface, curadoria e circulação pelas quais a plataforma produz sentido e disciplina de presença, e para a qualificação jurídica desses arranjos quando deixam de ser gestão ordinária do serviço e passam a configurar teleologia abusiva, por reordenarem promessa, fruição e preservação mínima do valor legitimamente esperado no tempo. (p. 258-259)
 
-## O consumidor não pode simplesmente sair?
+## O consumidor não pode simplesmente sair, e isso tudo não é só metáfora ou evolução do serviço?
 
 A primeira objeção é a de que o consumidor pode sair quando quiser. A resposta, com Varoufakis, é que o monopólio de demanda não precisa proibir concorrentes e basta tornar a migração onerosa, de modo que a liberdade formal de sair existe e a material fica severamente encarecida. Sair significa abandonar histórico, reputação, itens, progressão e redes de sociabilidade, e quanto mais o objeto é fruição governada, mais a concorrência vira disputa por aprisionamento, e não por excelência do bem.
 

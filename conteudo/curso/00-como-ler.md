@@ -296,7 +296,7 @@ A aplicação segue uma sequência reiterável, do mecanismo de governança e da
 > Para o OIC, os critérios devem operar com prova possível e inferências controláveis, capazes de estabilizar expectativas sobre o núcleo do feixe de fruição mesmo quando o ecossistema tenta naturalizar a opacidade e a reconfigurabilidade como se fossem fatos indisputáveis. (p. 429)
 > Esse quadro não pretende mecanizar a decisão nem reduzir a complexidade do ambiente a fórmula rígida. Sua função é mais honesta e mais útil. Ele organiza, em linguagem consultável, a passagem entre estrutura de governança, dever violado, exigência probatória mínima, qualificação jurídica e consequência institucional possível. (p. 748)
 
-## E se disserem que é só um jogo?
+## Não é só um jogo, regido pela obra da empresa e pelo costume do setor?
 
 A primeira objeção é a de que se trata só de um jogo. Esse riso ou desdém é parte do problema, porque o desdém social torna a lesão mais fácil, mais aceitável e mais invisível. Plataformas de jogos movimentam valores expressivos em microtransações, bens virtuais e eventos competitivos, enquanto o ordenamento ainda opera, em larga medida, com categorias pensadas para bens corpóreos e prestações pontuais.
 

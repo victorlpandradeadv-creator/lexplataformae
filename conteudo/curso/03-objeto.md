@@ -160,7 +160,7 @@ Nos remédios, a revisão não exige imprevisibilidade, e o consumidor pode pedi
 > O consumidor pode exigir manutenção do vínculo com correção da prestação, modificação da cláusula lesiva, recomposição funcional da utilidade ou, em último caso, rescisão com os efeitos cabíveis. (p. 563)
 >! A prestação contínua não reduz a tutela; só muda a forma de medir o dano e de escolher o remédio. (p. 563)
 
-## Não é só um serviço, ou só uma licença?
+## Não é só um serviço ou uma licença, e isso não inventa um direito novo?
 
 A primeira objeção é a de que só se presta um serviço ou de que só se concedeu uma licença. A resposta é que essas fórmulas não bastam para naturalizar a precariedade do vínculo, e que a recondução ao produto imaterial não nega a prestação, que aparece como modo de sustentar o objeto. Sem o conceito, a plataforma sempre venceria por dicionário privado.
 

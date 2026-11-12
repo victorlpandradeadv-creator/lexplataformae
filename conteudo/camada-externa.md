@@ -459,7 +459,7 @@ Mas as regras que pesam no seu dia não estão só no contrato que ninguém lê.
 
 ### nome
 
-Lei da plataforma. O nome em latim é Lex Plataformae, e plataformae quer dizer da plataforma. Não é um contrato parado na gaveta, e sim uma ordem que roda como sistema, que mira um resultado econômico e que parece natural de tanto ser repetida.
+Lei da plataforma. Não é um contrato parado na gaveta, e sim uma ordem que roda como sistema, que mira um resultado econômico e que parece natural de tanto ser repetida.
 
 Ela não só anuncia regras. Ela classifica, registra, recomenda, bloqueia, restringe e muda o próprio ambiente em que você tenta usar o que comprou. E toda vez que se fala da plataforma que governa o lugar, é dela que se está falando.
 

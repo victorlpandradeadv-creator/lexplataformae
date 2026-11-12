@@ -203,7 +203,7 @@ A terceira recai sobre a governança. Quem administra acesso, permanência, visi
 > “Art. 6º As atividades de tratamento de dados pessoais deverão observar a boa-fé e os seguintes princípios: [...] II - adequação: compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento;” (Brasil, [2026]a). (p. 542)
 > “Art. 46. Os agentes de tratamento devem adotar medidas de segurança, técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados [...].” (Brasil, [2026]a). (p. 542)
 
-## Proteger trajetória não é proteger melindre?
+## Proteger trajetória e reputação não é proteger melindre?
 
 A primeira objeção é a do sentimentalismo, segundo a qual tutelar trajetória e reputação seria proteger melindre. Mas a lesão se mede pelo atributo objetivamente atingido, e a identidade simbólica é posição pública, coletivamente verificável. A segunda é a de que histórico e registros seriam tema de dados, alheio ao consumo, mas a administração desses elementos integra o próprio regime de fruição e interfere na integridade informativa e biográfica do consumidor. A terceira é a da falta de titularidade plena. O art. 24, VII, da Lei de Direitos Autorais responde a ela, porque mostra que o ordenamento já admite deveres mínimos de acesso para preservar a memória de objeto imaterial sob controle de terceiro, sem fazer do consumidor um autor.
 

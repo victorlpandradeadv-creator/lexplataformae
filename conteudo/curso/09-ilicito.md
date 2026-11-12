@@ -291,7 +291,7 @@ A sétima dá preferência, sempre que possível, à recomposição funcional e 
 >! A complexidade do digital não elimina o Direito. (p. 751)
 > Separar artificialmente esses planos produz decisões formalmente organizadas, mas materialmente cegas. (p. 751-752)
 
-## O contrato não autoriza a mudança?
+## O contrato não autoriza a mudança, e a categoria não é moralismo?
 
 A primeira objeção é a de que o contrato autoriza a mudança. É verdade que os termos normalizam a mutabilidade e estabilizam o cenário, ao tratar o conteúdo como licença revogável e admitir alterações, mas a teleologia abusiva não se reduz ao contrato, e a elasticidade contratual não resolve o problema quando a oferta incorporou o atributo ao núcleo do bem. A autonomia privada, ademais, não autoriza organizar a fruição em bases estruturalmente incompatíveis com boa-fé, equilíbrio e controlabilidade. A segunda é a de que nada foi falso, o texto não é escandaloso e o serviço continua disponível. A resposta é que o CDC não exige falsidade literal nem texto escandaloso para reagir.
 

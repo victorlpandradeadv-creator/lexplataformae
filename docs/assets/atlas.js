@@ -469,6 +469,9 @@ document.addEventListener('click', function (ev) {
         var fd = getComputedStyle(filhos[i]).display;
         if (fd !== 'none' && fd.indexOf('inline') !== 0 && fd !== 'contents') return;
       }
+      // Peça com página, aviso, nota ou código dentro não recebe quebra por frase, porque a etiqueta desloca a linha. 12/11/2026.
+      var etq = el.querySelectorAll('.pg, .aviso-ia, sup, code, .lei-ref, .ref');
+      for (var j = 0; j < etq.length; j++) { if (etq[j].getClientRects().length) { limpa(el); return; } }
       limpa(el);
       var txt = (el.textContent || '').trim();
       if (txt.length > MAX) return;

@@ -328,7 +328,7 @@ O direito positivo já dá um indício dessa leitura. Disciplinas específicas l
 > A questão deixa de ser apenas o conteúdo da promessa e passa a incluir o modo como ela se torna operatória, bem como as mediações que moldam a fruição sem se deixarem verificar plenamente pelo destinatário. Esse é o terreno conceitual em que a teleologia inscrita no design poderá ser reconstruída como estrutura de finalidade e em que exigências como auditabilidade e equivalência de valor funcional passarão a operar como parâmetros mínimos de legitimidade das trocas mediadas por sistemas. (p. 139)
 > A racionalidade de design deve ser enfrentada como dimensão material do fornecimento, preparando a síntese seguinte: o ambiente tecno-midiático não é cenário externo do OIC, mas sua condição de possibilidade. (p. 137)
 
-## A mudança não é só o software funcionando?
+## Não é só o software funcionando, já avisado nos termos, e criticar isso não é ser contra a tecnologia?
 
 A primeira objeção é a de que a mudança é só o funcionamento normal do software, um ajuste, uma atualização ou um balanceamento. Mas essa linguagem do setor esconde o núcleo normativo sob vocabulário de engenharia, porque, quando a plataforma altera unilateralmente um item cosmético raro ou redesenha um personagem, determina por código as condições materiais de fruição e o modo como o bem será reconhecido e comparado no mundo social do jogo. Se a alteração rebaixa o valor funcional e simbólico que motivou a aquisição, o problema deixa de ser nostalgia do usuário e passa a ser redefinição arquitetural do conteúdo entregue, com reflexo direto na auditabilidade e na imputação, que ficam aqui como horizonte, sem conclusão pela abusividade.
 

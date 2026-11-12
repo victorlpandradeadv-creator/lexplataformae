@@ -224,7 +224,7 @@ O direito de explorar, encerrar ou reorganizar a atividade permanece, mas não s
 > Se o encerramento do serviço se impõe, a ordem constitucional exige que ele seja compatibilizado, tanto quanto técnica e juridicamente possível, com soluções de continuidade, portabilidade, recomposição funcional, cessão da operação ou outras medidas idôneas a impedir que a arquitetura privada se converta em instrumento lícito de devastação patrimonial e existencial do consumidor. (p. 709)
 >! A exclusividade pode organizar o mercado; não pode legitimar a destruição administrada da fruição alheia como efeito colateral da própria decisão de sair dele. (p. 709)
 
-## Verificar o fornecimento não expõe o know-how?
+## Verificar o fornecimento não expõe o know-how e esvazia a propriedade intelectual?
 
 Quatro objeções costumam ser opostas a esses deveres. A primeira é a do segredo, segundo a qual verificar os efeitos do fornecimento exporia segredo industrial e know-how, palavra inglesa para o saber técnico reservado. A resposta vem de Barbosa. O contrato de know-how faz do fornecedor o senhor entre as partes, por organização contratual, e não por soberania oponível a todos, e a proteção do segredo depende de que a intenção de mantê-lo seja regulada obrigacionalmente e de que o conteúdo sigiloso seja concretamente delimitado. Onde há efeitos sobre fruição, recomposição ou contestação, o sigilo convive com o dever mínimo de tornar controlável o que se pretende opor ao consumidor, e o fornecedor pode proteger o segredo, mas não usar a palavra como névoa para tornar incontrastável o que faz sobre a fruição. O capítulo sobre a auditabilidade mostra os instrumentos que permitem verificar sem expor o ativo.
 

@@ -210,7 +210,7 @@ A auditabilidade, sozinha, não decide a legitimidade material da mudança, porq
 > Primeiro, reconstrói-se a mudança. Depois, mede-se sua legitimidade material. Essa ordem importa. Sem ela, o fornecedor sempre terá a vantagem da névoa. (p. 647)
 > Quando uma dessas condições falha, a legitimidade da mudança já se torna juridicamente suspeita. Quando ambas falham ao mesmo tempo, a hipótese se aproxima com força de vício de fornecimento, prática abusiva, quebra da confiança ou até de arquitetura de opacidade estrutural incompatível com o regime consumerista. (p. 638-639)
 
-## Auditar não é abrir o segredo industrial?
+## Auditar não abre o segredo industrial, multiplica o litígio e trava a inovação?
 
 A primeira objeção é a do segredo, segundo a qual exigir auditabilidade equivaleria a abrir o código, entregar o segredo industrial e desproteger o software. A resposta é que o ordenamento já convive com formas limitadas de escrutínio que preservam o ativo informacional, como o segredo de justiça, o acesso pericial restrito, a análise funcional delimitada e o controle institucional. Denis Borges Barbosa registra que o segredo de justiça restringe o acesso de terceiros a informações sensíveis, como o código-fonte, e impede o seu uso pela parte contrária para fins estranhos ao litígio. A compatibilização entre a proteção do ativo e a necessidade de verificação, portanto, não é novidade.
 
