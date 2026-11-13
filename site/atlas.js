@@ -15,6 +15,8 @@
     var aplicar = function (n) {
       document.body.classList.toggle('aberto', n > 0);
       document.body.classList.toggle('desnudo', n > 1);
+      /* A variante de outro modo sai também da árvore de leitura, para o modo leitura do navegador e o leitor de tela. */
+      document.querySelectorAll('.em-modo').forEach(function (el) { el.hidden = !el.classList.contains('modo-' + n); });
     };
     var lembrar = function (n) { try { localStorage.setItem('lexp-nivel', String(n)); } catch (e) {} };
     var atual = document.querySelector('input[name="nivel"]:checked');

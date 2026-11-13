@@ -22,7 +22,6 @@ Isso tem efeito na lei. A reclamação feita à empresa, quando você consegue p
 
 > § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca; (p. 558)
 
-lei: cdc-26
 
 ### prazo Quanto tempo você tem para reclamar?
 

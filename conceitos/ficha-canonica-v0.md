@@ -324,7 +324,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 ## Roteiro. Função social da propriedade intelectual
 
-**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Continua como passo do Roteiro (7.1.1.9).
+**Situação.** Não está entre os nove conceitos. Aparece no regime como limite da exclusividade, numa das situações para operar.
 
 **Função no regime.** Contém a exclusividade (p. 800). A conclusão fala em "função social da propriedade e da propriedade intelectual".
 
@@ -349,7 +349,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 ## Roteiro. Recomposição funcional e correção de regime
 
-**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Continua como passo do Roteiro (7.1.1.10).
+**Situação.** Não está entre os nove conceitos. Aparece no regime como a resposta, numa das situações para operar.
 
 **Função no regime.** Reorganiza o remédio (p. 800). É o fecho do regime. "Esse parâmetro cumpre, assim, função de fechamento do regime." (p. 740)
 
@@ -376,7 +376,7 @@ Alguns passos das sequências da tese não são conceitos do Atlas, mas continua
 
 ## Bens protegidos. Integridade pessoal
 
-**Situação.** Fora do Atlas, por decisão do autor em 26/10/2026. Integra a camada de bens protegidos, que é o papel que o 5.1 lhe atribui. Na engrenagem do 5.1, "a integridade pessoal descreve os bens protegidos" (p. 395).
+**Situação.** Não está entre os nove conceitos. Integra os bens protegidos, e é esse o papel que recebe quando os conceitos se articulam, já que "a integridade pessoal descreve os bens protegidos" (p. 395).
 
 **Lastro na tese.** A integridade pessoal tem lastro mais largo no 6.1.3, onde a lesão se mede pelo atributo da personalidade atingido, do que na definição do 5.1.4.
 

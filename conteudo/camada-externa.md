@@ -85,7 +85,7 @@ Por que nove canções?
 
 ### abertura
 
-A tese abre com duas epígrafes gerais e dá a cada capítulo de desenvolvimento uma canção, nove ao todo, sob o método exposto na seção 2.6. Elas não servem de ornamento nem de autoridade e não provam o argumento. Cada abertura condensa, em linguagem artística, o movimento que o capítulo realiza em linguagem jurídica.
+São nove aberturas, sob o método exposto na seção 2.6. A primeira abre a tese inteira, cada uma das outras oito abre uma das seções de 1 a 8, e a sexta põe duas vozes em diálogo. As canções não servem de ornamento nem de autoridade e não provam o argumento. Cada abertura condensa, em linguagem artística, o movimento que o capítulo realiza em linguagem jurídica.
 
 > As epígrafes não comparecem como ornamento, nem como autoridade substitutiva do método científico, tampouco como prova empírica do argumento. (p. 73)
 > A argumentação não se funda no excerto, nem dele extrai sua cadeia de validação. (p. 74)

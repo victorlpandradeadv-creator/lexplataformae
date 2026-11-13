@@ -1465,6 +1465,11 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .expansao blockquote.citacao { border-left: 0; padding-left: 0; }
 .expansao { gap: 0.9rem; }
 
+/* Citação repetida na mesma página. Fica só a página, com o caminho até a primeira ocorrência. Revisão de leitor de 12/11/2026. */
+.ja-citado { margin: 0.4rem 0 0.8rem; font-size: 0.85rem; color: var(--tinta-suave, inherit); }
+.ja-citado > a:first-child { color: inherit; }
+.ja-citado .pg { margin-left: 0.5rem; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

@@ -22,7 +22,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.12"
+VERSAO = "0.13"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -35,6 +35,7 @@ VERSOES = [
     ("0.10", "09/11/2026", "Adequação das camadas, com a Doutrina em quinze capítulos, os 24 problemas da Informação e a página Como reclamar."),
     ("0.11", "10/11/2026", "Menu unificado, capa narrativa, identidade editorial, o Caminho, a citação sugerida em cada página e este histórico de versões."),
     ("0.12", "10/11/2026", "Entra a versão inglesa do site inteiro, com o texto integral da tese em tradução por máquina e os trechos literais com o original à mão."),
+    ("0.13", "12/11/2026", "Revisão de leitor. Saem as notas de bastidor e os rótulos que faziam a tese falar, cada citação aparece uma vez por página, e a marca de página deixa de partir nomes próprios."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -58,14 +59,15 @@ CORRECOES_TEXTO = [
     ("Filomeno tratar a vulnerabilidade", "Filomeno tratar", "Filomeno trata"),
     ("não configura ornamento se aproxima", "não configura ornamento se aproxima", "não configura ornamento e se aproxima"),
     ("Cédric Duran em", "Cédric Duran em", "Cédric Durand em"),
+    ("A epígrafe abre o a seção", "abre o a seção", "abre a seção", "12/11/2026"),
 ]
 
 
 def _corrige(v):
     if isinstance(v, str):
-        for ctx, errado, certo in CORRECOES_TEXTO:
+        for ctx, errado, certo, *data in CORRECOES_TEXTO:
             if ctx in v:
-                marca = (f'<ins class="correcao" title="Correção posterior de {DATA_CORRECOES_TEXTO}. '
+                marca = (f'<ins class="correcao" title="Correção posterior de {data[0] if data else DATA_CORRECOES_TEXTO}. '
                          f'A tese registra: {errado}">{certo}</ins>').replace(": ", " ")
                 v = v.replace(ctx, ctx.replace(errado, marca, 1))
         return v
@@ -76,7 +78,46 @@ def _corrige(v):
     return v
 
 
-SECOES = _corrige(SECOES)
+# A marca de página que o PDF põe no meio de um nome próprio recua para antes do nome. Revisão de leitor de 12/11/2026.
+# Vale quando a palavra seguinte começa em maiúscula (ou é Jr.) e as anteriores formam um nome, até quatro palavras.
+_MARCA_PG = re.compile(r'\s*(<span class="pg-marca"[^>]*>[^<]*</span>)\s*(?=(?:<[^>/][^>]*>)*(?:[A-ZÀ-Ý]|Jr\b))')
+_PALAVRA_NOME = r'(?:[A-ZÀ-Ý][\wÀ-ÿ.\-]*|of|the|de|da|do|dos|das|van|von|del)'
+_CAUDA_NOME = re.compile(r'(?:(?:<[^>/][^>]*>)*' + _PALAVRA_NOME + r'\s*(?:</[^>]+>)*\s+){1,4}$')
+
+
+def marca_fora_do_nome(h):
+    if not isinstance(h, str) or "pg-marca" not in h:
+        return h
+    saida, pos = [], 0
+    for m in _MARCA_PG.finditer(h):
+        antes = h[pos:m.start()] + " "
+        c = _CAUDA_NOME.search(antes)
+        inicio = None
+        if c:
+            # A corrida começa na primeira palavra em maiúscula, e conectivos soltos no começo ficam fora.
+            for w in re.finditer(r'(?:<[^>]+>)*(' + _PALAVRA_NOME + r')', c.group(0)):
+                if w.group(1)[0].isupper():
+                    inicio = c.start() + w.start()
+                    break
+        if inicio is not None:
+            corte = pos + inicio
+            saida.append(h[pos:corte] + m.group(1) + " " + h[corte:m.start()].rstrip() + " ")
+        else:
+            saida.append(h[pos:m.end()])
+        pos = m.end()
+    saida.append(h[pos:])
+    return "".join(saida)
+
+
+def _marcas(v):
+    if isinstance(v, list):
+        return [_marcas(x) for x in v]
+    if isinstance(v, dict):
+        return {k: _marcas(x) for k, x in v.items()}
+    return marca_fora_do_nome(v)
+
+
+SECOES = _marcas(_corrige(SECOES))
 POR_NUMERO = {s["n"]: s for s in SECOES if s["n"]}
 POR_SLUG = {s["slug"]: s for s in SECOES}
 PAG2SLUG = {}
@@ -343,6 +384,35 @@ def sem_citacao_repetida(corpo):
     return _BQ.sub(troca, corpo)
 
 
+_BQ_INTEIRO = re.compile(r'<blockquote class="(citacao(?: nao-e)?)((?: [a-z0-9-]+)*)"><p>(.*?)</p></blockquote>', re.S)
+
+
+def citacao_uma_vez(corpo):
+    """Cada citação aparece uma vez por página, em qualquer modo. Revisão de leitor de 12/11/2026.
+
+    A ocorrência seguinte fica só com a página, que leva à primeira. Só se troca quando a primeira está à vista em todo modo
+    em que a seguinte aparece, para que o link nunca leve a um trecho escondido.
+    """
+    vistos = []  # (chave, id, visível fora da Ciência)
+    contador = [0]
+
+    def troca(m):
+        classe, extra, miolo = m.group(1), m.group(2), m.group(3)
+        texto = miolo.split('<a class="pg"')[0].split('<span class="pg"')[0]
+        chave = _chave_bq(texto).rstrip(" .")
+        so_ciencia = " ciencia" in f"{extra} "
+        if len(chave) > 40:
+            for k, ident, fora in vistos:
+                if (chave == k or chave in k) and (fora or so_ciencia):
+                    pgs = "".join(re.findall(r'<a class="pg".*?</a>|<span class="pg".*?</span>', miolo, re.S))
+                    return (f'<p class="ja-citado{extra}"><a href="#{ident}">Trecho já citado acima</a>{pgs}</p>')
+        contador[0] += 1
+        ident = f"cit-{contador[0]}"
+        vistos.append((chave, ident, not so_ciencia))
+        return f'<blockquote class="{classe}{extra}" id="{ident}"><p>{miolo}</p></blockquote>'
+    return _BQ_INTEIRO.sub(troca, corpo)
+
+
 # Rótulos de dado que se repetem item a item numa lista. O primeiro fica à vista e funciona como cabeçalho. Os demais ficam
 # só para leitor de tela. Revisão de rótulos de 05/11/2026.
 ROTULOS_DE_DADO = ("No site", "Cita", "Nos conceitos", "Nos parâmetros", "Bens protegidos", "Dispositivos", "Onde aparece no texto integral", "Conceitos que o trecho nomeia")
@@ -408,9 +478,15 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     descricao = resumo(descricao)
     # A coluna lateral sai dos títulos da própria página e das páginas irmãs. O índice nasce antes dos balões, com o texto limpo.
     corpo, indice = disposicao.ancorar_titulos(corpo)
+    # O subtítulo em forma de pergunta que entra no índice é título também para leitor de tela e buscador. Revisão de leitor de 12/11/2026.
+    # Vira h2 quando nenhum h2 veio antes, para a ordem dos títulos não pular nível.
+    corpo = re.sub(r'<p class="(rotulo-ext[^"]*)" id="([^"]+)">(.*?)</p>',
+                   lambda m: (lambda h: f'<{h} class="{m.group(1)}" id="{m.group(2)}">{m.group(3)}</{h}>')("h3" if "<h2" in corpo[:m.start()] else "h2"),
+                   corpo, flags=re.S)
     # Cada artigo citado com o nome da lei ganha o texto integral em rodapé. O texto integral da tese fica como está.
     # Cada citação de autor ou fonte da lista de referências vira balão. Vale também para o texto integral.
     corpo = sem_citacao_repetida(corpo)
+    corpo = citacao_uma_vez(corpo)
     corpo = rotulos_uma_vez(corpo)
     corpo = com_autores(corpo, prefixo)
     if lei:
@@ -1786,7 +1862,7 @@ def gerar_inicio():
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
       <h2 id="leituras-titulo">Três leituras do texto integral</h2>
       <p>O texto integral também percorre os conceitos em três ordens. São leituras do texto, não hierarquia entre os conceitos.</p>
-      <p class="nota-par">Acréscimo posterior de 05/11/2026. A etiqueta “organiza juridicamente o” é formulação do autor. O resumo da tese diz “enquanto feixe de fruição governada” (p. 11).</p>
+      <p class="nota-par">Acréscimo posterior de 05/11/2026. A ligação “organiza juridicamente o” é posterior ao texto integral, cujo resumo diz “enquanto feixe de fruição governada” (p. 11).</p>
       <fieldset class="percursos">
         <legend>Escolha uma leitura</legend>
         <div class="seletor">{opcoes}</div>
@@ -1871,9 +1947,9 @@ def gerar_conceito(c):
             if s["id"] == c["id"] or s.get("par") == c["id"]:
                 linhas.append(f'<li><b>{esc(p["nome"])}</b><span>{esc(s["papel"])}</span></li>')
     if linhas:
-        partes.append('<section class="bloco ciencia"><h2>Nas leituras da tese</h2><ul class="nos-percursos">' + "".join(linhas) + "</ul></section>")
+        partes.append('<section class="bloco ciencia"><h2>Nas três leituras</h2><ul class="nos-percursos">' + "".join(linhas) + "</ul></section>")
     elif c["tipo"] == "conceito":
-        partes.append('<section class="bloco ciencia"><h2>Nas leituras da tese</h2><p>Não aparece em nenhuma das três sequências da tese.</p></section>')
+        partes.append('<section class="bloco ciencia"><h2>Nas três leituras</h2><p>Não aparece em nenhuma das três leituras.</p></section>')
 
     letras = [l for l, (_, ids) in ROTEIRO_MAPA.items() if c["id"] in ids]
     nomes = nomeacoes().get(c["id"], {})
@@ -2875,7 +2951,10 @@ def referencias_do_autor(chave):
 
 def autores_no_trecho(texto, lista=None):
     lista = AUTORES if lista is None else lista
-    achados = [(texto.find(nome), nome, padrao, chave) for nome, padrao, chave in lista if nome in texto]
+    # Sem acento na comparação, porque o texto integral grafa Tércio e a lista de referências, Tercio.
+    plano = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode()
+    sem = lambda x: unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode()
+    achados = [(plano.find(sem(nome)), nome, padrao, chave) for nome, padrao, chave in lista if sem(nome) in plano]
     return [(nome, padrao, chave) for _, nome, padrao, chave in sorted(achados)]
 
 
@@ -3121,7 +3200,7 @@ def texto_do_artigo(curto, numero, det=""):
 def html_texto_lei(t, prefixo):
     if t["tipo"] == "tese":
         return (f'<blockquote class="lei-texto" data-ref="p. {t["pagina"]}" data-alvo="{prefixo}tese/{t["slug"]}/#n{t["nota"]}"><p>“{esc(t["texto"])}”</p></blockquote>'
-                f'<p class="lei-fonte ciencia">Na redação que a tese transcreve na nota {esc(t["nota"])}, p. {t["pagina"]}.</p>')
+                f'<p class="lei-fonte ciencia">Redação transcrita na nota {esc(t["nota"])}, p. {t["pagina"]}.</p>')
     linhas = "".join(f"<p>{esc(l)}</p>" for l in t["texto"])
     return (f'<blockquote class="lei-texto planalto">{linhas}</blockquote>'
             f'<p class="lei-fonte acrescimo">Texto em vigor copiado do <a href="{esc(t["fonte"])}" rel="noopener">site do Planalto</a> em 27/10/2026. Acréscimo posterior, fora da tese.</p>')
@@ -3681,7 +3760,7 @@ def gerar_autores():
         lista = sorted(grupos.get(area, []), key=lambda a: -a.get("citacoes", 0))
         if not lista:
             continue
-        itens = "".join(f'<li><a href="{a["slug"]}/">{esc(a["nome"])}</a> <span class="vezes">{a.get("citacoes", 0)}</span></li>' for a in lista)
+        itens = "".join(f'<li><a href="{a["slug"]}/">{esc(a["nome"])}</a> ' + (f'<span class="vezes">{a["citacoes"]}</span>' if a.get("citacoes") else "") + '</li>' for a in lista)
         secoes.append(f'<section class="bloco area-autores"{estilo_area(area)}><h2>{esc(AREA_NOME[area])}</h2><ul class="lista-autores">{itens}</ul></section>')
     corpo = ('<article class="folha leitura autores-indice"><header class="folha-cabeca"><h1>Autores</h1>'
              '<p>Os autores da lista de referências, pela área em que a tese os mobiliza.</p></header>'
@@ -3707,7 +3786,7 @@ def gerar_referencias():
         elif autor:
             destino = f'<a href="{prefixo}autores/{autor["slug"]}/">Página do autor</a>'
         n = cont.get(e["id"], 0)
-        meta = f'{chip_area(e["area"])} <span class="vezes">{n} {"citação" if n == 1 else "citações"}</span> {destino}'
+        meta = f'{chip_area(e["area"])} ' + (f'<span class="vezes">{n} {"citação" if n == 1 else "citações"}</span> ' if n else "") + f'{destino}'
         itens.append(f'<li id="{e["id"]}"{estilo_area(e["area"])}><p class="entrada">{html_do_corpus(e["html"], "referencias", prefixo)}</p><p class="meta-ref">{meta}</p></li>')
     corpo = ('<article class="folha leitura referencias"><header class="folha-cabeca"><h1>Referências</h1>'
              f'<p>A lista de referências da tese, na ordem e na forma em que está no <a href="{prefixo}tese/referencias/">texto integral</a>, '
@@ -3768,7 +3847,7 @@ def gerar_objeto_instrumentos():
         f'<div{estilo_area("laboratorio")}><small>Objeto</small><b>O regime da plataforma, visto no laboratório</b></div>'
         '<div style="--area:var(--a-economia)"><small>Lente</small><b>A área que o lê</b></div>'
         f'<div{estilo_area("direito")}><small>Qualificação</small><b>A categoria jurídica</b></div>'
-        '<div style="--area:var(--tese-linha)"><small>Tese</small><b>O conceito que a tese nomeia</b></div></div>'
+        '<div style="--area:var(--tese-linha)"><small>Conceito</small><b>O nome que o regime dá ao fenômeno</b></div></div>'
         f'<section class="bloco etapa"{estilo_area("laboratorio")}><h2>O objeto</h2>'
         f'<p>O laboratório de origem e as famílias de plataforma estão em <a href="{prefixo}plataformas/">Plataformas</a>. '
         f'A palavra do próprio objeto que o caminho usa é</p><ul class="termos-lista">{termo_link("Nerf")}</ul>'
@@ -3791,7 +3870,7 @@ def gerar_objeto_instrumentos():
 DOGMATICA = ["5", "6"]
 AUTORES_5 = [
     ("Rizzatto Nunes", r"\bNunes\b", "NUNES"), ("Karl Larenz", r"\bLarenz\b", "LARENZ"),
-    ("Tércio Sampaio Ferraz Jr.", r"\bFerraz\b", "FERRAZ JR."), ("Humberto Ávila", r"\bÁvila\b", "ÁVILA"),
+    ("Tercio Sampaio Ferraz Jr.", r"\bFerraz\b", "FERRAZ JR."), ("Humberto Ávila", r"\bÁvila\b", "ÁVILA"),
     ("Claudia Lima Marques", r"\bMarques\b", "MARQUES"), ("Ricardo Morishita Wada", r"\bWada\b", "WADA"),
     ("Miguel Reale", r"\bReale\b", "REALE"), ("Roberto Mangabeira Unger", r"\bUnger\b", "UNGER"),
 ]
@@ -4167,9 +4246,9 @@ def gerar_derivados():
         lista = "".join(f'<li><a href="{prefixo}tese/{sec["slug"]}/">{esc(rotulo_secao(sec))}</a> <span class="vezes">{n}×</span></li>' for sec, n in achados)
         corpo = (
             '<article class="folha leitura derivado-pagina">'
-            f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · nomeado pela tese, ao lado dos nove</span></p>'
+            f'<header class="folha-cabeca"><p class="sobrelinha">Conceito derivado<span class="ciencia"> · ao lado dos nove</span></p>'
             f'<h1>{esc(nome)}</h1>'
-            f'<p class="abertura-pagina">Em palavras simples, no caminho da skin. <a href="{no_percurso}">{esc(PERGUNTA_TERMO.get(nome, parte["titulo"]))}</a></p></header>'
+            f'<p class="abertura-pagina">A explicação em palavras simples está no caminho da skin, em <a href="{no_percurso}">{esc(PERGUNTA_TERMO.get(nome, parte["titulo"]))}</a></p></header>'
             f'<div class="pilha doutrina">{doutrina_html(f"derivado {nome}", prefixo)}{no_curso_html(capitulo_curso(slug=CURSO_CONCEITO.get(slug)), prefixo)}</div>'
             + (f'<section class="bloco ciencia" data-arq="contagem mecânica do nome no corpo e nas notas"><h2>Onde o texto integral usa o nome</h2><ul class="secoes-lista">{lista}</ul></section>' if lista else "")
             + f'<p class="ver-nove"><a href="{prefixo}conceitos/">Os nove conceitos</a></p>'
