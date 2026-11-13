@@ -315,14 +315,14 @@ def chave_mestra(nivel):
 # Cada item tem o endereço e os modos em que aparece. Em Ciência os itens dos outros modos aparecem numa segunda linha.
 MENU = [
     ("Problemas", "problemas/", (0, 1)),
-    ("Direitos", "direitos/", (0,)), ("Direitos", "roteiro/", (1,)),
-    ("Caminho", "caminho/", (0,)), ("Caminho", "doutrina/", (1,)),
+    ("Direitos", "direitos/", (0,)), ("Situações", "roteiro/", (1,)),
+    ("Caminho", "caminho/", (0,)), ("Doutrina", "doutrina/", (1,)),
     ("Vocabulário", "conceitos/", (0, 1)), ("Plataformas", "plataformas/", (0, 1)), ("Legislação", "legislacao/", (1,)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
     ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
-# Menu unificado, decisão do autor de 10/11/2026. Os mesmos nomes na Informação e na Doutrina, e o modo escolhe a profundidade.
-MENU_SEGUNDA = [("Problemas", "problemas/"), ("Direitos", "roteiro/"), ("Caminho", "doutrina/"), ("Vocabulário", "conceitos/"),
+# Menu unificado, decisão do autor de 10/11/2026. Desde 13/11/2026, por decisão do autor, a Doutrina tem nomes próprios, Situações e Doutrina.
+MENU_SEGUNDA = [("Problemas", "problemas/"), ("Situações", "roteiro/"), ("Doutrina", "doutrina/"), ("Vocabulário", "conceitos/"),
                 ("Plataformas", "plataformas/"), ("Legislação", "legislacao/")]
 
 
