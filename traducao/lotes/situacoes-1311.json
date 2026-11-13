@@ -1,0 +1,2027 @@
+[
+{
+"k": "871ccd9aa56b33a7",
+"pagina": "caminho/a-compra/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1><2>A informação precisa servir para alguma coisa</2>"
+},
+{
+"k": "4aad80c204d1d36d",
+"pagina": "caminho/a-lei/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1><2>O que você comprou é produto, mesmo sem nada nas mãos</2>"
+},
+{
+"k": "00d86690983895a9",
+"pagina": "caminho/a-mudanca/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1><2>Mudança relevante precisa deixar rastro</2>"
+},
+{
+"k": "f49e26b3e33269fd",
+"pagina": "caminho/a-mudanca/index.html",
+"pt": "<1>Mudou, tem que manter o que valia</1><2>Mudou, tem que manter o que valia</2>"
+},
+{
+"k": "94b517e2d3aadeed",
+"pagina": "caminho/a-resposta/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1><2>A prova que está com a plataforma tem que aparecer</2>"
+},
+{
+"k": "81753695b6832dc7",
+"pagina": "caminho/a-resposta/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1><2>A resposta deve recompor o que você perdeu</2>"
+},
+{
+"k": "ee5959c1465fe4b6",
+"pagina": "caminho/as-regras/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1><2>Punição precisa de motivo e de chance de defesa</2>"
+},
+{
+"k": "1d8e4b80a2faa69b",
+"pagina": "caminho/o-desejo/index.html",
+"pt": "<1>O que foi prometido precisa ser entregue</1><2>O que foi prometido precisa ser entregue</2>"
+},
+{
+"k": "cda7fee6e55139b1",
+"pagina": "caminho/o-desenho/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1><2>Quando a perda é regra, o problema é o desenho</2>"
+},
+{
+"k": "3af03b2e501f4355",
+"pagina": "caminho/o-dono/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1><2>Ser dona da obra não é desculpa para tudo</2>"
+},
+{
+"k": "51cc9c18c4e79d8d",
+"pagina": "caminho/o-normal/index.html",
+"pt": "<1>A plataforma não pode montar a experiência para você não entender</1><2>A plataforma não pode montar a experiência para você não entender</2>"
+},
+{
+"k": "bf83690fec21e9cb",
+"pagina": "conceitos/antecipacao-hipercuratorial/index.html",
+"pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "6661167671d4a8f5",
+"pagina": "conceitos/auditabilidade-aberta/index.html",
+"pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "422f91ea873734ef",
+"pagina": "conceitos/equivalencia-de-valor-funcional/index.html",
+"pt": "<1>Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "a969fd193f89bf81",
+"pagina": "conceitos/feixe-de-fruicao-governada/index.html",
+"pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "1b3f76546b037810",
+"pagina": "conceitos/funcao-social-da-pi/index.html",
+"pt": "<1>Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "441714455ecf457c",
+"pagina": "conceitos/ilicito-de-arquitetura/index.html",
+"pt": "<1>Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "9bee0bf1d12d6476",
+"pagina": "conceitos/recomposicao-funcional/index.html",
+"pt": "<1>O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "1d12e17373fd7412",
+"pagina": "conceitos/vulnerabilidade-semiotica/index.html",
+"pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "17849619b8c472c2",
+"pagina": "direitos/a/index.html",
+"pt": "O que você comprou é produto, mesmo sem nada nas mãos · Seus direitos · Lex Plataformae"
+},
+{
+"k": "183f5f2f39784559",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Direitos</1>"
+},
+{
+"k": "501887ebe407b2bb",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Seus direitos</1>"
+},
+{
+"k": "bf711d8428febe70",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Depois · A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "9cd95b20bf10cb34",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Todos os seus direitos</1>"
+},
+{
+"k": "718a1cdde3f10b99",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Qual é o seu problema?</1>"
+},
+{
+"k": "d1d5a5e38dac843f",
+"pagina": "direitos/a/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "cc39bbe558af8788",
+"pagina": "direitos/a/index.html",
+"pt": "<1>A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "229691d64ddea8a5",
+"pagina": "direitos/a/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "c713428e15d9acce",
+"pagina": "direitos/a/index.html",
+"pt": "<1>O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "3f043340c72a54b8",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "662077513e49c17b",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "a139f18126c58486",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "ab302d927bd4ac79",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "0e3f08d129e9df41",
+"pagina": "direitos/a/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "16b3f8d0063e3631",
+"pagina": "direitos/a/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "9187ffc18783866d",
+"pagina": "direitos/a/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "b2b3e7ee3250db3f",
+"pagina": "direitos/a/index.html",
+"pt": "Quando aquilo que você usa depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar. É o caso da skin que só funciona…"
+},
+{
+"k": "a05948ff5001d881",
+"pagina": "direitos/a/index.html",
+"pt": "O que você comprou é produto, mesmo sem nada nas mãos"
+},
+{
+"k": "994cdeb770d13a1e",
+"pagina": "direitos/b/index.html",
+"pt": "A plataforma não pode montar a experiência para você não entender · Seus direitos · Lex Plataformae"
+},
+{
+"k": "b8e14fce7fee5d94",
+"pagina": "direitos/b/index.html",
+"pt": "<1>Antes · O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "050b7a9db322eab9",
+"pagina": "direitos/b/index.html",
+"pt": "<1>Depois · A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "33c275f3869b29c6",
+"pagina": "direitos/b/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "ca88d7ee5aa0b273",
+"pagina": "direitos/b/index.html",
+"pt": "<1>A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "c9bd78f597ce4714",
+"pagina": "direitos/b/index.html",
+"pt": "Quase tudo o que você sabe sobre a sua skin passa por telas, avisos, ícones e caminhos que a plataforma desenha. É por eles que você descobre quanto ela…"
+},
+{
+"k": "465014e68977ac7c",
+"pagina": "direitos/b/index.html",
+"pt": "A plataforma não pode montar a experiência para você não entender"
+},
+{
+"k": "6aee8fa63e30a782",
+"pagina": "direitos/c/index.html",
+"pt": "A informação precisa servir para alguma coisa · Seus direitos · Lex Plataformae"
+},
+{
+"k": "d77c24d2b23fa4aa",
+"pagina": "direitos/c/index.html",
+"pt": "<1>Antes · A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "ce8c716f0558363b",
+"pagina": "direitos/c/index.html",
+"pt": "<1>Depois · O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "d6bd2d8869a2f915",
+"pagina": "direitos/c/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "52becaac94ec4fc9",
+"pagina": "direitos/c/index.html",
+"pt": "Quando a plataforma troca a clareza por excesso de texto, espalha as informações por lugares diferentes, quebra o caminho de quem tenta entender ou faz uma…"
+},
+{
+"k": "8bb07d2a491bd8b8",
+"pagina": "direitos/c/index.html",
+"pt": "A informação precisa servir para alguma coisa"
+},
+{
+"k": "5eac60bbf68b53c0",
+"pagina": "direitos/d/index.html",
+"pt": "O que foi prometido precisa ser entregue · Seus direitos · Lex Plataformae"
+},
+{
+"k": "c9492ada9fb6ab3d",
+"pagina": "direitos/d/index.html",
+"pt": "<1>Antes · A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "76c4fea9a2db1df9",
+"pagina": "direitos/d/index.html",
+"pt": "<1>Depois · Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "7d1ac8e1f78ea297",
+"pagina": "direitos/d/index.html",
+"pt": "<1>O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "eb3c50a4a284145c",
+"pagina": "direitos/d/index.html",
+"pt": "Quando a compra vem depois de uma preparação cuidadosa. Pode ser uma contagem regressiva, uma promessa de exclusividade, um aviso de que vai acabar, um…"
+},
+{
+"k": "709e1d0317727c43",
+"pagina": "direitos/d/index.html",
+"pt": "O que foi prometido precisa ser entregue"
+},
+{
+"k": "039b714444a2da05",
+"pagina": "direitos/e/index.html",
+"pt": "Mudança relevante precisa deixar rastro · Seus direitos · Lex Plataformae"
+},
+{
+"k": "33ef3689d19ffd09",
+"pagina": "direitos/e/index.html",
+"pt": "<1>Antes · O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "d861540e0dec6d4f",
+"pagina": "direitos/e/index.html",
+"pt": "<1>Depois · Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "5405773346015cd8",
+"pagina": "direitos/e/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "9311adac8f3249fe",
+"pagina": "direitos/e/index.html",
+"pt": "Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz…"
+},
+{
+"k": "fae453b9a69eec16",
+"pagina": "direitos/e/index.html",
+"pt": "Mudança relevante precisa deixar rastro"
+},
+{
+"k": "037ab0309d5fa886",
+"pagina": "direitos/f/index.html",
+"pt": "Mudou, tem que manter o que valia · Seus direitos · Lex Plataformae"
+},
+{
+"k": "260c87425eb70737",
+"pagina": "direitos/f/index.html",
+"pt": "<1>Antes · Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "6fde895538d0e35d",
+"pagina": "direitos/f/index.html",
+"pt": "<1>Depois · Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "f129a9370bd3608c",
+"pagina": "direitos/f/index.html",
+"pt": "<1>Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "d0c6496651e50f82",
+"pagina": "direitos/f/index.html",
+"pt": "Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um…"
+},
+{
+"k": "5266c93c4fb9088f",
+"pagina": "direitos/f/index.html",
+"pt": "Mudou, tem que manter o que valia"
+},
+{
+"k": "aa25821a89680401",
+"pagina": "direitos/g/index.html",
+"pt": "Punição precisa de motivo e de chance de defesa · Seus direitos · Lex Plataformae"
+},
+{
+"k": "f1214c021cb68a37",
+"pagina": "direitos/g/index.html",
+"pt": "<1>Antes · Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "60c652fc28afdcc3",
+"pagina": "direitos/g/index.html",
+"pt": "<1>Depois · Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "59f8a769ed5a3860",
+"pagina": "direitos/g/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "7145125126f0016c",
+"pagina": "direitos/g/index.html",
+"pt": "Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de reclamar dependem de punições que ninguém explica. Ou de dificuldades…"
+},
+{
+"k": "b3f8c69ffe23af3e",
+"pagina": "direitos/g/index.html",
+"pt": "Punição precisa de motivo e de chance de defesa"
+},
+{
+"k": "a2733bfb8d6cd95a",
+"pagina": "direitos/h/index.html",
+"pt": "Quando a perda é regra, o problema é o desenho · Seus direitos · Lex Plataformae"
+},
+{
+"k": "abc28d7517f68829",
+"pagina": "direitos/h/index.html",
+"pt": "<1>Antes · Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "44680f57b9bb1bfe",
+"pagina": "direitos/h/index.html",
+"pt": "<1>Depois · A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "0c34bb51de3390fb",
+"pagina": "direitos/h/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "112cf142a66fa32a",
+"pagina": "direitos/h/index.html",
+"pt": "Quando várias pequenas coisas funcionam juntas para tirar proveito da sua fragilidade ou para piorar a sua experiência como rotina do serviço. São pequenos…"
+},
+{
+"k": "e1aef90f74ea3f17",
+"pagina": "direitos/h/index.html",
+"pt": "Quando a perda é regra, o problema é o desenho"
+},
+{
+"k": "c6c42be67ff3f78d",
+"pagina": "direitos/i/index.html",
+"pt": "A prova que está com a plataforma tem que aparecer · Seus direitos · Lex Plataformae"
+},
+{
+"k": "cffe3256e599ebd0",
+"pagina": "direitos/i/index.html",
+"pt": "<1>Antes · Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "7b1a79423db28c23",
+"pagina": "direitos/i/index.html",
+"pt": "<1>Depois · Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "b75e8879a6b4af91",
+"pagina": "direitos/i/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "e4391ca4bf300cbd",
+"pagina": "direitos/i/index.html",
+"pt": "Quando quase tudo o que mostra o que aconteceu fica guardado com a plataforma. Os registros do sistema, o histórico da sua conta, as versões antigas das…"
+},
+{
+"k": "e4a6ab65776f9304",
+"pagina": "direitos/i/index.html",
+"pt": "A prova que está com a plataforma tem que aparecer"
+},
+{
+"k": "8fd5ab8b32037c95",
+"pagina": "direitos/index.html",
+"pt": "Os direitos, um por um"
+},
+{
+"k": "34d0e3322643e859",
+"pagina": "direitos/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "71d6236339ba3b48",
+"pagina": "direitos/index.html",
+"pt": "<1>A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "84e31915392a4bb0",
+"pagina": "direitos/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "60b8fb634f09b6f8",
+"pagina": "direitos/index.html",
+"pt": "<1>O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "2c123d6c2780ff36",
+"pagina": "direitos/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "3ecff471bfb3ef37",
+"pagina": "direitos/index.html",
+"pt": "<1>Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "ac963acd43cac2f0",
+"pagina": "direitos/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "59a2f2a8c4c3e246",
+"pagina": "direitos/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "88bfcb20560b2f3a",
+"pagina": "direitos/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "f3e22780114532af",
+"pagina": "direitos/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "657978c8221d64a0",
+"pagina": "direitos/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "dac518008bdb4da6",
+"pagina": "direitos/j/index.html",
+"pt": "Ser dona da obra não é desculpa para tudo · Seus direitos · Lex Plataformae"
+},
+{
+"k": "3853df7bbd80823a",
+"pagina": "direitos/j/index.html",
+"pt": "<1>Antes · A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "eae911b0a4149e3e",
+"pagina": "direitos/j/index.html",
+"pt": "<1>Depois · A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "34aa60cac260299e",
+"pagina": "direitos/j/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "39d48540b24bb9c0",
+"pagina": "direitos/j/index.html",
+"pt": "Quando a empresa usa os direitos que tem sobre o jogo para resistir a qualquer controle sobre o jeito como fornece o que você comprou. Entram aí direitos…"
+},
+{
+"k": "6bc4eb8b58fb3697",
+"pagina": "direitos/j/index.html",
+"pt": "Ser dona da obra não é desculpa para tudo"
+},
+{
+"k": "e19c107b96b779a9",
+"pagina": "direitos/k/index.html",
+"pt": "A resposta deve recompor o que você perdeu · Seus direitos · Lex Plataformae"
+},
+{
+"k": "84d38dafc6bc7856",
+"pagina": "direitos/k/index.html",
+"pt": "<1>Antes · Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "d661e6b6ae9eed44",
+"pagina": "direitos/k/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "f2bc0f0c45d1c5f7",
+"pagina": "direitos/k/index.html",
+"pt": "Quando o problema atinge o seu acesso, a continuidade do que você usa ou a equivalência do que comprou. Ou quando atinge o seu histórico, a sua posição…"
+},
+{
+"k": "9627569c64de6df8",
+"pagina": "direitos/k/index.html",
+"pt": "A resposta deve recompor o que você perdeu"
+},
+{
+"k": "80c27e283aeab480",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A empresa diz que eu só tenho uma licença. Então eu não comprei nada?</1>, <2>A lei já tem resposta?</2>, <3>A propriedade intelectual</3>, <4>Como a plataforma extrai valor</4>, <5>Como ler esta doutrina</5>, <6>O Objeto Imaterial de Consumo</6>, <7>O que você comprou é produto, mesmo sem nada nas mãos</7>, <8>O que você comprou, afinal?</8><9>, <10>Andrew Feenberg</10>, <11>Dogmática jurídica</11>, <12>Nelson Nery Jr.</12></9>."
+},
+{
+"k": "37d3ad4b0c47d696",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A lei já tem resposta?</1>, <2>A ordem constitucional e o marco setorial</2>, <3>A vulnerabilidade semiótica</3>, <4>Como a plataforma extrai valor</4>, <5>Como ler esta doutrina</5>, <6>Quando o consumidor só entende o que a interface deixa entender</6>."
+},
+{
+"k": "7d7b05e359c831c5",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A auditabilidade aberta</1>, <2>A ordem constitucional e o marco setorial</2>, <3>A prova</3>, <4>Como provar quando a prova está com a plataforma</4>, <5>Informação, publicidade e antecipação</5>, <6>Quando a plataforma mudou as regras e não deixou rastro</6>, <7>Quando o consumidor só entende o que a interface deixa entender</7><8>, <9>Antonio Herman V. Benjamin</9></8>."
+},
+{
+"k": "269a4cb4e9e6c4fb",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A ordem constitucional e o marco setorial</1>, <2>Quando a plataforma mudou as regras e não deixou rastro</2>."
+},
+{
+"k": "4be36bd13ffc3fcb",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A teleologia abusiva e o ilícito de arquitetura</1>, <2>O Objeto Imaterial de Consumo</2>, <3>Os remédios</3>, <4>Quando a atualização tirou o valor do que foi comprado</4><5>, <6>Antonio Herman V. Benjamin</6>, <7>Bruno Miragem</7>, <8>Dogmática jurídica</8></5>."
+},
+{
+"k": "653f2fae36ebeb14",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A lei da plataforma</1>, <2>A ordem constitucional e o marco setorial</2>, <3>A teleologia abusiva e o ilícito de arquitetura</3>, <4>Os remédios</4>, <5>Quando a atualização tirou o valor do que foi comprado</5><6>, <7>Antonio Herman V. Benjamin</7>, <8>Bruno Miragem</8></6>."
+},
+{
+"k": "120bdea843b651e9",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A vulnerabilidade semiótica</1>, <2>Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma</2>, <3>E quando dá errado?</3>, <4>O Objeto Imaterial de Consumo</4>, <5>Quando a perda é rotina do desenho, e não acidente</5>, <6>Vendo numa plataforma. A lei do consumidor me protege?</6><7>, <8>Fernando Costa de Azevedo</8></7>."
+},
+{
+"k": "7af38fa5aff565fb",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>Informação, publicidade e antecipação</1>, <2>O Objeto Imaterial de Consumo</2>, <3>Quando a vitrine prometeu mais do que foi entregue</3>."
+},
+{
+"k": "938d2070e11dd4da",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A vulnerabilidade semiótica</1>, <2>Informação, publicidade e antecipação</2>, <3>Quando a informação existe, mas some no excesso</3><4>, <5>Claudia Lima Marques</5></4>."
+},
+{
+"k": "8b860ccab7c93799",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>Informação, publicidade e antecipação</1>, <2>O que pedir, restaurar antes de indenizar</2>, <3>Os remédios</3>, <4>Perdi anos de histórico. Isso é mais do que um item?</4>, <5>Quando a vitrine prometeu mais do que foi entregue</5>."
+},
+{
+"k": "5a55edc37a723b70",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A prova</1>, <2>A vulnerabilidade semiótica</2>, <3>Como provar quando a prova está com a plataforma</3>, <4>Informação, publicidade e antecipação</4>, <5>Quando a vitrine prometeu mais do que foi entregue</5>."
+},
+{
+"k": "6c5c751cadf76fa9",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A lei da plataforma</1>, <2>A ordem constitucional e o marco setorial</2>, <3>A teleologia abusiva e o ilícito de arquitetura</3>, <4>Como a plataforma extrai valor</4>, <5>E se a perda fizer parte do plano?</5>, <6>Ilícito de arquitetura</6>, <7>Quando a perda é rotina do desenho, e não acidente</7>, <8>Quando o consumidor só entende o que a interface deixa entender</8><9>, <10>Claudia Lima Marques</10>, <11>Dogmática jurídica</11></9>."
+},
+{
+"k": "0c7fffa7e1f098c8",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A auditabilidade aberta</1>, <2>A prova</2>, <3>A vulnerabilidade semiótica</3>, <4>Informação, publicidade e antecipação</4>, <5>Quando a informação existe, mas some no excesso</5><6>, <7>Bruno Miragem</7>, <8>Claudia Lima Marques</8>, <9>Dogmática jurídica</9></6>."
+},
+{
+"k": "2f2658866b4b1cb5",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A ordem constitucional e o marco setorial</1>, <2>A vulnerabilidade semiótica</2>, <3>Informação, publicidade e antecipação</3>, <4>Quando a informação existe, mas some no excesso</4><5>, <6>Claudia Lima Marques</6>, <7>Dogmática jurídica</7></5>."
+},
+{
+"k": "b3155a26be75bd0f",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A equivalência de valor funcional</1>, <2>A ordem constitucional e o marco setorial</2>, <3>A propriedade intelectual</3>, <4>A teleologia abusiva e o ilícito de arquitetura</4>, <5>A vulnerabilidade semiótica</5>, <6>O Objeto Imaterial de Consumo</6>, <7>Quando a atualização tirou o valor do que foi comprado</7>, <8>Quando a informação existe, mas some no excesso</8><9>, <10>Claudia Lima Marques</10>, <11>Dogmática jurídica</11></9>."
+},
+{
+"k": "14f47a517b6cb391",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A prova</1>, <2>Quando a informação existe, mas some no excesso</2><3>, <4>Claudia Lima Marques</4></3>."
+},
+{
+"k": "de5b1329a57d460f",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A teleologia abusiva e o ilícito de arquitetura</1>, <2>O que pedir, restaurar antes de indenizar</2>, <3>Os remédios</3>, <4>Quando a perda é rotina do desenho, e não acidente</4>."
+},
+{
+"k": "790a9d5ebe24f112",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A ordem constitucional e o marco setorial</1>, <2>A propriedade intelectual</2>, <3>Quando a propriedade intelectual vira escudo</3>."
+},
+{
+"k": "7a446b44fa8365e2",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>O Objeto Imaterial de Consumo</1>, <2>Quando a atualização tirou o valor do que foi comprado</2>."
+},
+{
+"k": "723b802c3d06c7d3",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A prova</1>, <2>Como provar quando a prova está com a plataforma</2>."
+},
+{
+"k": "670cb9f39ebd92fc",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A prova</1>, <2>Os registros estão com a empresa. Como eu provo o que aconteceu?</2>, <3>Quando a plataforma mudou as regras e não deixou rastro</3>."
+},
+{
+"k": "a518ba4701dd4389",
+"pagina": "legislacao/index.html",
+"pt": "Aparece em <1>A propriedade intelectual</1>, <2>Como ler esta doutrina</2>, <3>Quando a propriedade intelectual vira escudo</3>."
+},
+{
+"k": "a1b11602db2ad568",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A informação precisa servir para alguma coisa</1>"
+},
+{
+"k": "f276fd4de498bb1e",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>Mudança relevante precisa deixar rastro</1>"
+},
+{
+"k": "ad93fa9077c4b354",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A prova que está com a plataforma tem que aparecer</1>"
+},
+{
+"k": "bee50c3f443f6fed",
+"pagina": "problemas/assistente/index.html",
+"pt": "<1>A resposta deve recompor o que você perdeu</1>"
+},
+{
+"k": "a00a59e3b7700bdc",
+"pagina": "problemas/conta-bloqueada/index.html",
+"pt": "<1>Punição precisa de motivo e de chance de defesa</1>"
+},
+{
+"k": "d3b52456ec7692f2",
+"pagina": "problemas/crianca/index.html",
+"pt": "<1>A plataforma não pode montar a experiência para você não entender</1>"
+},
+{
+"k": "c494483e0eb22175",
+"pagina": "problemas/crianca/index.html",
+"pt": "<1>Quando a perda é regra, o problema é o desenho</1>"
+},
+{
+"k": "9198d52a016abaf5",
+"pagina": "problemas/exclusivo-voltou/index.html",
+"pt": "<1>O que foi prometido precisa ser entregue</1>"
+},
+{
+"k": "751d2d73c0321676",
+"pagina": "problemas/exclusivo-voltou/index.html",
+"pt": "<1>Mudou, tem que manter o que valia</1>"
+},
+{
+"k": "e85a24e6f9229bc8",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
+},
+{
+"k": "068f27db79a12697",
+"pagina": "problemas/jogo-encerrado/index.html",
+"pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
+},
+{
+"k": "c9c8edde809010a5",
+"pagina": "roteiro/a/index.html",
+"pt": "Quando o que foi comprado depende do ambiente que a plataforma administra · Situações · Lex Plataformae"
+},
+{
+"k": "8375622e0caba493",
+"pagina": "roteiro/a/index.html",
+"pt": "Situação a) · 7.1.2 da tese"
+},
+{
+"k": "43939c10b4d4b4a3",
+"pagina": "roteiro/a/index.html",
+"pt": "A consequência institucional possível consiste na abertura dos filtros subsequentes do regime, impedindo que a controvérsia seja neutralizada pela alegação de mera prestação de serviço ou de simples licenciamento formal<1>p. 743</1>"
+},
+{
+"k": "12ace2a7f4503c05",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Trecho já citado acima</1><2>p. 743</2>"
+},
+{
+"k": "61f9d6767e7b80d8",
+"pagina": "roteiro/a/index.html",
+"pt": "A primeira categoria é a dos objetos cosmético-ornamentais.<1>p. 489</1>"
+},
+{
+"k": "7de44adfce76f399",
+"pagina": "roteiro/a/index.html",
+"pt": "A quarta categoria é a dos objetos de funcionalidade.<1>p. 490</1>"
+},
+{
+"k": "51d17fe06d16c05f",
+"pagina": "roteiro/a/index.html",
+"pt": "A quinta categoria é a dos objetos de tempo.<1>p. 490</1>"
+},
+{
+"k": "8c966320134fca5d",
+"pagina": "roteiro/a/index.html",
+"pt": "A sexta categoria é a dos objetos de reputação.<1>p. 490</1>"
+},
+{
+"k": "c450736abef3a80d",
+"pagina": "roteiro/a/index.html",
+"pt": "As categorias propostas não eliminam a complexidade do ecossistema nem pretendem reduzir objetos concretos a um único tipo.<1>p. 492</1>"
+},
+{
+"k": "182e666ccc0410de",
+"pagina": "roteiro/a/index.html",
+"pt": "A tipologia proposta, portanto, não cumpre função classificatória externa nem pretende esgotar a realidade por nomes. Sua utilidade é interna e operativa.<1>p. 482</1>"
+},
+{
+"k": "c16e863bb5d7c4f9",
+"pagina": "roteiro/a/index.html",
+"pt": "Os Termos de Serviço da Riot Games reconhecem expressamente um núcleo de “Conteúdo Virtual” associado à conta, composto por moeda do jogo, skins, emotes, acessórios e outros itens<1>p. 575</1>"
+},
+{
+"k": "2f96ede589639e9b",
+"pagina": "roteiro/a/index.html",
+"pt": "O OIC não substitui o produto imaterial do art. 3º, § 1º. Ele o concretiza em contexto de consumo contínuo e governado.<1>p. 579</1>"
+},
+{
+"k": "a3d2e7415e7be8c0",
+"pagina": "roteiro/a/index.html",
+"pt": "A dicotomia produto-serviço segue relevante, mas como variável instrumental para calibrar consequências específicas, não como totem definidor do regime inteiro.<1>p. 557</1>"
+},
+{
+"k": "d9fbb7dd3c86d953",
+"pagina": "roteiro/a/index.html",
+"pt": "Um marco suficiente para registrar esse dado é a Lei 14.852/2024<1>p. 493</1>"
+},
+{
+"k": "d295e65767984617",
+"pagina": "roteiro/a/index.html",
+"pt": "A existência de regulação setorial não substitui a infraestrutura consumerista<1>p. 548</1>"
+},
+{
+"k": "05ff3275d7d9cfc2",
+"pagina": "roteiro/a/index.html",
+"pt": "A aproximação entre esses três modelos decorre de núcleo estrutural comum: em todos, a fruição depende da operação contínua de ambiente técnico-organizacional governado privadamente<1>p. 488</1>"
+},
+{
+"k": "c26e8d429fe7292f",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>O Objeto Imaterial de Consumo, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.1 na tese</4></3> · <5>Objeto Imaterial de Consumo (OIC)</5> · <6>Feixe de fruição governada</6>"
+},
+{
+"k": "5e14c531ba84c122",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Depois · Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "c3e590af1adb467d",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Todas as situações</1>"
+},
+{
+"k": "b49d53f623e854d1",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "ba2711e30c017c79",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "9bd239ebf1fce57e",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "ee8e44067424fa99",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "f51d7feb2b454649",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "21c39348b68f7611",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "627fcaef8b83d52a",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "f4a4f47b76ed9034",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "09e660b9c9c25efa",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "feff4d59c54ec729",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "a212359578a60aa0",
+"pagina": "roteiro/a/index.html",
+"pt": "<1>O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "644431bcc4b30ab8",
+"pagina": "roteiro/a/index.html",
+"pt": "Quando o que foi comprado depende do ambiente que a plataforma administra Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "17be47919414466d",
+"pagina": "roteiro/a/index.html",
+"pt": "Quando o que foi comprado depende do ambiente que a plataforma administra · Lex Plataformae"
+},
+{
+"k": "323d363c9ee18373",
+"pagina": "roteiro/b/index.html",
+"pt": "Quando o consumidor só entende o que a interface deixa entender · Situações · Lex Plataformae"
+},
+{
+"k": "9a851d38d672f43b",
+"pagina": "roteiro/b/index.html",
+"pt": "Situação b) · 7.1.2 da tese"
+},
+{
+"k": "d363763aad4de9c9",
+"pagina": "roteiro/b/index.html",
+"pt": "O art. 4º, I, do CDC<1><2>1</2></1> reconhece a vulnerabilidade do consumidor, que nos ambientes digitais ganha forma própria. O art. 6º do CDC<3><4>2</4></3> garante informação adequada, proteção contra publicidade enganosa e facilitação da defesa, e o art. 39, IV, do CDC<5><6>3</6></5> veda prevalecer-se da fraqueza do consumidor."
+},
+{
+"k": "c6e04e47f24ee1fa",
+"pagina": "roteiro/b/index.html",
+"pt": "A partir dessa perspectiva, sustenta-se que a vulnerabilidade fática do consumidor, reconhecida expressamente no art. 4º, I, do CDC<1><2>1</2></1>, assume nos ambientes digitais uma forma própria, ligada à mediação por signos, interfaces e critérios privados de visibilidade e fruição<3>p. 34</3>"
+},
+{
+"k": "d437aee66e9f4b14",
+"pagina": "roteiro/b/index.html",
+"pt": "Os direitos básicos do consumidor, por sua vez, incluem informação adequada e clara, proteção contra publicidade enganosa e abusiva, prevenção e reparação de danos, e facilitação da defesa de seus direitos<1>p. 511</1>"
+},
+{
+"k": "0b1a077a6fd09482",
+"pagina": "roteiro/b/index.html",
+"pt": "[...] a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor e a vedação a práticas abusivas que se aproveitem da fraqueza do consumidor, imponham vantagem excessiva ou deixem o cumprimento da obrigação ao exclusivo critério do fornecedor<1>p. 520</1>"
+},
+{
+"k": "387b51f270a9f69f",
+"pagina": "roteiro/b/index.html",
+"pt": "Ela nomeia o ambiente em que a lesão ocorre, mas não isola o mecanismo juridicamente relevante da assimetria.<1>p. 584</1>"
+},
+{
+"k": "e708b59d22702a88",
+"pagina": "roteiro/b/index.html",
+"pt": "O problema juridicamente relevante passa a ser a administração desigual do sentido<1>p. 588</1>"
+},
+{
+"k": "29a23acfbae5b707",
+"pagina": "roteiro/b/index.html",
+"pt": "A categoria recorta melhor o mecanismo, disciplina melhor a prova e prepara melhor o remédio.<1>p. 590</1>"
+},
+{
+"k": "6c7110aea5b9fae0",
+"pagina": "roteiro/b/index.html",
+"pt": "Assim, a vulnerabilidade semiótica não se confunde com traço psicológico do consumidor, sinônimo genérico de fragilidade digital ou mera descrição ambiental da vida em rede. Trata-se de mecanismo estrutural de poder<1>p. 501</1>"
+},
+{
+"k": "1ac3f56837f7237c",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>p. 744</1> Sempre que expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependerem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor, haverá vulnerabilidade semiótica juridicamente relevante."
+},
+{
+"k": "a95637bc0a7b1cda",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>A vulnerabilidade semiótica, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.2 na tese</4></3> · <5>Vulnerabilidade semiótica</5>"
+},
+{
+"k": "6a7abd1991ae0998",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>Antes · Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "702000e65c7e8f2f",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>Depois · Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "37098d22a7d25f1a",
+"pagina": "roteiro/b/index.html",
+"pt": "art. 6º do CDC <1>↩</1>"
+},
+{
+"k": "39ebdd2898e12ede",
+"pagina": "roteiro/b/index.html",
+"pt": "art. 39, IV, do CDC <1>↩</1>"
+},
+{
+"k": "69ca80646ffb2381",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "d8c94e03bf3dc8f7",
+"pagina": "roteiro/b/index.html",
+"pt": "<1>Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "6bc9610e65e4b8f1",
+"pagina": "roteiro/b/index.html",
+"pt": "Quando o consumidor só entende o que a interface deixa entender Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "ca51c2536b6b1a93",
+"pagina": "roteiro/b/index.html",
+"pt": "Quando o consumidor só entende o que a interface deixa entender · Lex Plataformae"
+},
+{
+"k": "e189d5dba5fc9a6a",
+"pagina": "roteiro/c/index.html",
+"pt": "Quando a informação existe, mas some no excesso · Situações · Lex Plataformae"
+},
+{
+"k": "5339dcc93b3e0c36",
+"pagina": "roteiro/c/index.html",
+"pt": "Situação c) · 7.1.2 da tese"
+},
+{
+"k": "aeaf36f906a398a5",
+"pagina": "roteiro/c/index.html",
+"pt": "O art. 31 do CDC<1><2>1</2></1> exige informações corretas, claras, precisas e ostensivas na oferta e na apresentação. O art. 46 do CDC<3><4>2</4></3> afasta a obrigação do consumidor sem oportunidade real de conhecimento prévio ou diante de redação que dificulte a compreensão. Os §§ 3º e 4º do art. 54 do CDC<5><6>3</6></5> exigem contratos de adesão claros e cláusulas limitativas em destaque. O art. 47 do CDC<7><8>4</8></7> determina a interpretação das cláusulas de maneira mais favorável ao consumidor. Essa regra se articula ao controle de abusividade previsto no art. 51, IV, do CDC<9><10>5</10></9>."
+},
+{
+"k": "68a1d49af6c2b1ee",
+"pagina": "roteiro/c/index.html",
+"pt": "A oferta e a apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas e ostensivas<1>p. 601</1>"
+},
+{
+"k": "bf63ea8ad4ced049",
+"pagina": "roteiro/c/index.html",
+"pt": "Do mesmo modo, contratos de consumo não obrigam o consumidor quando não lhe é dada oportunidade real de conhecimento prévio do conteúdo, nem quando são redigidos de modo a dificultar a compreensão de seu sentido e alcance<1>p. 601</1>"
+},
+{
+"k": "7fa3b9c777aede1d",
+"pagina": "roteiro/c/index.html",
+"pt": "É justamente isso que o art. 54, sob os parágrafos 3º e 4º, do CDC explicita. Contratos de adesão devem ser redigidos em termos claros, com caracteres ostensivos e legíveis, de modo a facilitar sua compreensão, e cláusulas limitativas de direito precisam ser redigidas com destaque, permitindo imediata e fácil compreensão<1>p. 621</1>"
+},
+{
+"k": "19dd3466e8805ce5",
+"pagina": "roteiro/c/index.html",
+"pt": "As cláusulas contratuais serão interpretadas de maneira mais favorável ao consumidor.<1>p. 511</1>"
+},
+{
+"k": "03b74233e4f8265b",
+"pagina": "roteiro/c/index.html",
+"pt": "Por isso, a nova função do direito contratual recoloca em posição central o princípio da interpretação conforme a boa-fé, de modo que o art. 47 do CDC<1><2>4</2></1>, em conjunto com a cláusula geral do art. 51, IV, permite interpretar as cláusulas predispostas<3>p. 605</3>"
+},
+{
+"k": "6b5fa5bc4020e26f",
+"pagina": "roteiro/c/index.html",
+"pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.3 na tese</4></3>"
+},
+{
+"k": "0e5a880b375ce3ba",
+"pagina": "roteiro/c/index.html",
+"pt": "<1>Antes · Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "4ab28ef95f76147a",
+"pagina": "roteiro/c/index.html",
+"pt": "<1>Depois · Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "d190f07221a9c098",
+"pagina": "roteiro/c/index.html",
+"pt": "art. 31 do CDC <1>↩</1>"
+},
+{
+"k": "c52b119b2a17448e",
+"pagina": "roteiro/c/index.html",
+"pt": "art. 54 do CDC <1>↩</1>"
+},
+{
+"k": "d5676de3982925f4",
+"pagina": "roteiro/c/index.html",
+"pt": "art. 47 do CDC <1>↩</1>"
+},
+{
+"k": "4107d77f52655b75",
+"pagina": "roteiro/c/index.html",
+"pt": "art. 51, IV, do CDC <1>↩</1>"
+},
+{
+"k": "528d95fdb5f77ec1",
+"pagina": "roteiro/c/index.html",
+"pt": "<1>Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "99fc97947dd1f72b",
+"pagina": "roteiro/c/index.html",
+"pt": "Quando a informação existe, mas some no excesso Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "c6a8e33a0e2a015d",
+"pagina": "roteiro/c/index.html",
+"pt": "Quando a informação existe, mas some no excesso · Lex Plataformae"
+},
+{
+"k": "24f3c7230017a2b7",
+"pagina": "roteiro/d/index.html",
+"pt": "Quando a vitrine prometeu mais do que foi entregue · Situações · Lex Plataformae"
+},
+{
+"k": "946ac85a54f4a54a",
+"pagina": "roteiro/d/index.html",
+"pt": "Situação d) · 7.1.2 da tese"
+},
+{
+"k": "eb236b1524cbc963",
+"pagina": "roteiro/d/index.html",
+"pt": "O art. 30 do CDC<1><2>1</2></1> torna vinculante toda informação suficientemente precisa, e a apresentação na vitrine digital pode configurar oferta. O art. 35 do CDC<3><4>2</4></3> permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 38 do CDC<5><6>3</6></5> atribui a quem patrocina a publicidade o ônus de provar a veracidade e a correção da informação. Na antecipação curada da oferta, a omissão relevante aparece quando o essencial é deslocado para fora do foco da decisão. A publicidade é enganosa quando a utilidade ou a equivalência construída pelo ambiente promocional não encontra correspondência verificável na fruição. E é abusiva quando o desenho explora de modo sistemático a vulnerabilidade, comprimindo a deliberação por urgência artificial, recompensa simbólica e fragmentação das condições relevantes."
+},
+{
+"k": "282d1ca509b328ed",
+"pagina": "roteiro/d/index.html",
+"pt": "Peças promocionais, postagens, campanhas, influenciadores, disclaimers, asteriscos, remissões em cascata e letras miúdas servem para mapear como a expectativa foi produzida<1>p. 607</1>"
+},
+{
+"k": "702b85dcf44bab5c",
+"pagina": "roteiro/d/index.html",
+"pt": "Toda informação suficientemente precisa integra o contrato e vincula o fornecedor<1>p. 562</1>"
+},
+{
+"k": "d885f1401301b534",
+"pagina": "roteiro/d/index.html",
+"pt": "o que sustenta a leitura da vitrine digital como oferta vinculante<1>p. 433</1>"
+},
+{
+"k": "d803d27392cf7e01",
+"pagina": "roteiro/d/index.html",
+"pt": "Daí a importância do art. 35 do CDC<1><2>2</2></1><3>p. 540</3>"
+},
+{
+"k": "d94ed6db2aa27d60",
+"pagina": "roteiro/d/index.html",
+"pt": "que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos<1>p. 540</1>"
+},
+{
+"k": "4fef646b5e892173",
+"pagina": "roteiro/d/index.html",
+"pt": "É precisamente por tal motivo que o art. 38 do CDC<1><2>3</2></1>, aqui, se mostra tão importante. O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem a patrocina<3>p. 627</3>"
+},
+{
+"k": "23ccc60a79ed7ea1",
+"pagina": "roteiro/d/index.html",
+"pt": "A qualificação jurídica poderá recair em publicidade enganosa ou abusiva, oferta vinculante, prática abusiva por ambiguidade administrada e, quando articulada a programa exploratório mais amplo, elemento de teleologia abusiva<1>p. 745</1>"
+},
+{
+"k": "43dfe2800c68fecc",
+"pagina": "roteiro/d/index.html",
+"pt": "O jurista precisa perguntar como a expectativa foi produzida, em que momento as condições relevantes foram reveladas, com que destaque apareceram, qual foi a sequência efetiva entre promessa e aceitação<1>p. 633</1>"
+},
+{
+"k": "406406f9411d226f",
+"pagina": "roteiro/d/index.html",
+"pt": "A omissão relevante aparece quando o essencial é deliberadamente deslocado para fora do foco decisório.<1>p. 631</1>"
+},
+{
+"k": "fc66ecde4aaacb9b",
+"pagina": "roteiro/d/index.html",
+"pt": "A publicidade enganosa, por sua vez, manifesta-se quando a imagem de utilidade ou equivalência construída pelo ambiente promocional não encontra correspondência verificável na experiência efetiva de fruição<1>p. 631</1>"
+},
+{
+"k": "afc31c9441097d7d",
+"pagina": "roteiro/d/index.html",
+"pt": "Em contextos de antecipação hipercuratorial, a ilicitude pode residir precisamente na articulação entre elementos que, vistos separadamente, parecem neutros<1>p. 632</1>"
+},
+{
+"k": "547512392c00bb9c",
+"pagina": "roteiro/d/index.html",
+"pt": "Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará <1>p. 745</1> materialmente a oferta."
+},
+{
+"k": "c2731f741dd4b957",
+"pagina": "roteiro/d/index.html",
+"pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.4 na tese</4></3> · <5>Antecipação hipercuratorial</5>"
+},
+{
+"k": "3441c39fb15c9156",
+"pagina": "roteiro/d/index.html",
+"pt": "<1>Antes · Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "4b53fea171a74407",
+"pagina": "roteiro/d/index.html",
+"pt": "<1>Depois · Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "90c2e9c05d9f82c7",
+"pagina": "roteiro/d/index.html",
+"pt": "art. 30 do CDC <1>↩</1>"
+},
+{
+"k": "0f1691e601e58c22",
+"pagina": "roteiro/d/index.html",
+"pt": "art. 35 do CDC <1>↩</1>"
+},
+{
+"k": "9705208f5e7b4985",
+"pagina": "roteiro/d/index.html",
+"pt": "art. 38 do CDC <1>↩</1>"
+},
+{
+"k": "455acd1b25345d13",
+"pagina": "roteiro/d/index.html",
+"pt": "<1>Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "b7dde97f388fc335",
+"pagina": "roteiro/d/index.html",
+"pt": "Quando a vitrine prometeu mais do que foi entregue Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "fea9bd3082e8dc3f",
+"pagina": "roteiro/d/index.html",
+"pt": "Quando a vitrine prometeu mais do que foi entregue · Lex Plataformae"
+},
+{
+"k": "52f04aa3960e3843",
+"pagina": "roteiro/e/index.html",
+"pt": "Quando a plataforma mudou as regras e não deixou rastro · Situações · Lex Plataformae"
+},
+{
+"k": "2e87da27a70ea633",
+"pagina": "roteiro/e/index.html",
+"pt": "Situação e) · 7.1.2 da tese"
+},
+{
+"k": "f7b5b020402b5a88",
+"pagina": "roteiro/e/index.html",
+"pt": "A auditabilidade aberta é parâmetro, e não instituto estranho ao sistema. É desdobramento do dever de informação, da boa-fé objetiva e da facilitação da defesa do art. 6º do CDC<1><2>1</2></1>. O regime de exibição de documento ou coisa dos arts. 396 a 400 do CPC<3><4>2</4></3> é a via mais direta para operá-la. Ela é o patamar mínimo de verificabilidade externa que transforma modulações opacas em matéria de contraditório, prova e decisão."
+},
+{
+"k": "d6426167ddafaf67",
+"pagina": "roteiro/e/index.html",
+"pt": "No caso Vanguard, a proteção contra trapaças passou a depender de software carregado no núcleo do sistema operacional, iniciado com o computador e mantido como condição da fruição. A governança da plataforma chega, assim, ao próprio equipamento do consumidor. O interesse em preservar a integridade competitiva é legítimo, mas a questão é se ele basta para autorizar essa expansão sem controle reforçado. Os arts. 8º, 10 e 12 do CDC<1><2>3</2></1> alcançam o risco que a arquitetura transfere ao equipamento, e o art. 6º da Lei nº 13.709/2018<3><4>4</4></3> exige finalidade, necessidade e transparência no tratamento de dados. O ponto não é afirmar a ilicitude automática do software, e sim recusar a sua imunização jurídica. Segurança alegada não substitui segurança juridicamente demonstrada, e a auditabilidade aberta impede que a plataforma se oculte atrás de opacidade técnica e de segredo industrial."
+},
+{
+"k": "2583cb4866ee145f",
+"pagina": "roteiro/e/index.html",
+"pt": "Em litígios relacionados a plataforma, as garantias processuais satisfazem a necessidade de reação às respostas genéricas como “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público” ou “não temos capacidade de reconstruir o procedimento”<1>p. 660</1>"
+},
+{
+"k": "e4dc8759e849a769",
+"pagina": "roteiro/e/index.html",
+"pt": "No mesmo sentido, o regime de exibição de documento ou coisa previsto nos arts. 396 a 400 do CPC<1><2>2</2></1> oferece a via mais direta para operacionalizar a auditabilidade aberta.<3>p. 659</3>"
+},
+{
+"k": "8641909060566591",
+"pagina": "roteiro/e/index.html",
+"pt": "desde que o requerimento indique, de modo tão completo quanto possível, o documento ou registro pretendido, sua finalidade probatória e as circunstâncias que demonstram estar ele com a parte<1>p. 659</1>"
+},
+{
+"k": "b57f130e85b80384",
+"pagina": "roteiro/e/index.html",
+"pt": "Isso permite pedidos cirúrgicos, não pescarias processuais. Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada.<1>p. 660</1>"
+},
+{
+"k": "089a75f5335b2ce3",
+"pagina": "roteiro/e/index.html",
+"pt": "Se o fornecedor negar possuir o documento, o art. 398<1>p. 660</1>"
+},
+{
+"k": "247a2fff9a24bcc1",
+"pagina": "roteiro/e/index.html",
+"pt": "permite que o requerente demonstre por outros meios que a negativa é inverídica; se a recusa for injustificada, o art. 400<1>p. 660</1>"
+},
+{
+"k": "97e27ecd8ed11bb1",
+"pagina": "roteiro/e/index.html",
+"pt": "autoriza o juiz a admitir como verdadeiros os fatos que o documento serviria para provar<1>p. 660</1>"
+},
+{
+"k": "755a118f78a117af",
+"pagina": "roteiro/e/index.html",
+"pt": "[...] porque a disciplina analítica decorre da explicitação prévia das lentes conceituais e da exigência de reconstrução verificável por elementos atribuíveis ao fornecedor e publicamente recuperáveis, entre os quais se incluem registros de atualização, racionalidades declaradas de mudança, políticas de acesso e critérios internos de sanção<1>p. 498-499</1>"
+},
+{
+"k": "2a594adf4fe5bd21",
+"pagina": "roteiro/e/index.html",
+"pt": "Auditabilidade aberta designa o patamar mínimo de verificabilidade externa capaz de transformar modulações opacas em matéria suscetível de contraditório, prova e decisão.<1>p. 469</1>"
+},
+{
+"k": "b726a60ea02fd851",
+"pagina": "roteiro/e/index.html",
+"pt": "O caso do anti-cheat Vanguard expõe, de forma particularmente nítida, uma mutação qualitativa na governança privada do objeto imaterial de consumo.<1>p. 520</1>"
+},
+{
+"k": "47d002114c47103d",
+"pagina": "roteiro/e/index.html",
+"pt": "As comunicações oficiais da própria Riot mostram que o Vanguard é apresentado como sistema composto por client e driver em modo kernel, iniciado no boot do computador e mantido como condição estrutural da fruição em mais de um ecossistema de jogo<1>p. 521</1>"
+},
+{
+"k": "2a04567f3e5d2f2b",
+"pagina": "roteiro/e/index.html",
+"pt": "O CDC não permite invisibilizar o Vanguard como se fosse mera opção de engenharia.<1>p. 532</1>"
+},
+{
+"k": "8ba2bd029e7bfd98",
+"pagina": "roteiro/e/index.html",
+"pt": "O tratamento de dados vinculado ao Vanguard não pode ser justificado em bloco pela rubrica genérica de “segurança”, porque precisa observar finalidade legítima, específica, explícita e informada<1>p. 533</1>"
+},
+{
+"k": "315e650e2bbdae5c",
+"pagina": "roteiro/e/index.html",
+"pt": "[...] evidencia-se a pretensão de soberania prática sobre o consumidor e sobre seus meios materiais, o que reforça a necessidade de auditabilidade aberta como exigência mínima para que a plataforma não se oculte atrás de opacidade técnica e de segredo industrial<1>p. 499</1>"
+},
+{
+"k": "9aacfc620f87fdb4",
+"pagina": "roteiro/e/index.html",
+"pt": "<1>A auditabilidade aberta, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.5 na tese</4></3> · <5>Auditabilidade aberta</5>"
+},
+{
+"k": "6df018c46dd7ad83",
+"pagina": "roteiro/e/index.html",
+"pt": "<1>Antes · Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "1410b6dcdb5686b5",
+"pagina": "roteiro/e/index.html",
+"pt": "<1>Depois · Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "20d5a9912a9e6bdb",
+"pagina": "roteiro/e/index.html",
+"pt": "art. 6º do CDC <1>↩</1>"
+},
+{
+"k": "0d4b461bf35edac2",
+"pagina": "roteiro/e/index.html",
+"pt": "arts. 396 a 400 do CPC <1>↩</1>"
+},
+{
+"k": "008dd4b1dc10d199",
+"pagina": "roteiro/e/index.html",
+"pt": "arts. 8º, 10 e 12 do CDC <1>↩</1>"
+},
+{
+"k": "ab1e5f79ca84db83",
+"pagina": "roteiro/e/index.html",
+"pt": "art. 6º da Lei nº 13.709/2018 <1>↩</1>"
+},
+{
+"k": "3ddbd51e911cf33d",
+"pagina": "roteiro/e/index.html",
+"pt": "<1>Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "fec839636aa413e8",
+"pagina": "roteiro/e/index.html",
+"pt": "Quando a plataforma mudou as regras e não deixou rastro Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "9ca6380be3cda47c",
+"pagina": "roteiro/e/index.html",
+"pt": "Quando a plataforma mudou as regras e não deixou rastro · Lex Plataformae"
+},
+{
+"k": "f13b680c41310f98",
+"pagina": "roteiro/f/index.html",
+"pt": "Quando a atualização tirou o valor do que foi comprado · Situações · Lex Plataformae"
+},
+{
+"k": "307b2b42bb40ccdd",
+"pagina": "roteiro/f/index.html",
+"pt": "Situação f) · 7.1.2 da tese"
+},
+{
+"k": "83dfd999c52f419b",
+"pagina": "roteiro/f/index.html",
+"pt": "O art. 51, XIII, do CDC<1><2>1</2></1> torna nula a cláusula que autoriza a modificação unilateral do conteúdo ou da qualidade da prestação após a contratação. Os arts. 18 e 20 do CDC<3><4>2</4></3> abrem a porta do vício de qualidade, que não exige a inutilidade total. Os arts. 421 e 422 do Código Civil<5><6>3</6></5> limitam a liberdade contratual pela função social do contrato e exigem boa-fé também na execução."
+},
+{
+"k": "fd419e3cf4cc0799",
+"pagina": "roteiro/f/index.html",
+"pt": "Em hipóteses de rebaixamento unilateral da fruição, a porta do vício de qualidade permanece disponível<1>p. 557</1>"
+},
+{
+"k": "52739d73fcc0f639",
+"pagina": "roteiro/f/index.html",
+"pt": "justamente porque a inadequação relevante não precisa assumir a forma grosseira da inutilidade total<1>p. 557</1>"
+},
+{
+"k": "94a50f73f5ef7489",
+"pagina": "roteiro/f/index.html",
+"pt": "A responsabilidade objetiva por defeitos do serviço e por informações insuficientes ou inadequadas, a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor<1>p. 520</1>"
+},
+{
+"k": "ae17406022e9be76",
+"pagina": "roteiro/f/index.html",
+"pt": "A liberdade contratual encontra limites na função social do contrato<1>p. 561</1>"
+},
+{
+"k": "0138b2a0e6ca247d",
+"pagina": "roteiro/f/index.html",
+"pt": "A boa-fé objetiva exige respeito ao modo concreto como a fruição foi organizada, mantida e legitimamente confiada pelo consumidor ao longo do tempo.<1>p. 560</1>"
+},
+{
+"k": "dfa4e5e30cfd81e3",
+"pagina": "roteiro/f/index.html",
+"pt": "A integridade funcional, ligada ao desempenho, às condições de uso e à utilidade efetivamente entregue. E a integridade simbólica, ligada a pertencimento, reputação, distinção e promessas de identidade mediadas por signos e equivalências internas do ambiente, quando esses elementos integram a prestação tal como oferecida e percebida.<1>p. 391</1>"
+},
+{
+"k": "dad658e03733ce9d",
+"pagina": "roteiro/f/index.html",
+"pt": "Em outras palavras, tornou-se inequívoco que a questão decisiva não é se algo “ainda existe” em sentido formal, mas se a equivalência prática do adquirido permanece reconhecível e operatória<1>p. 498</1>"
+},
+{
+"k": "df8f4b9cfb69f099",
+"pagina": "roteiro/f/index.html",
+"pt": "[...] mas se a equivalência prática do adquirido permanece reconhecível e operatória, o que desloca o debate para critérios de equivalência de valor funcional e para deveres de recomposição que não se satisfaçam com substitutos simbólicos vazios<1>p. 498</1>"
+},
+{
+"k": "cf53b40a1771bc36",
+"pagina": "roteiro/f/index.html",
+"pt": "A prova mínima exigível requer demonstração da utilidade <1>p. 746</1> anteriormente incorporada ao vínculo, da mudança ocorrida, do impacto funcional concreto da alteração e da insuficiência de eventual recomposição oferecida."
+},
+{
+"k": "370b8cefb33bf75c",
+"pagina": "roteiro/f/index.html",
+"pt": "<1>A equivalência de valor funcional, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.6 na tese</4></3> · <5>Equivalência de valor funcional</5>"
+},
+{
+"k": "ce8bddccca8bc565",
+"pagina": "roteiro/f/index.html",
+"pt": "<1>Antes · Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "7d4b2ff7c2f638e7",
+"pagina": "roteiro/f/index.html",
+"pt": "<1>Depois · Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "6af14348d0f360bd",
+"pagina": "roteiro/f/index.html",
+"pt": "arts. 18 e 20 do CDC <1>↩</1>"
+},
+{
+"k": "c32eb908d7365558",
+"pagina": "roteiro/f/index.html",
+"pt": "arts. 421 e 422 do Código Civil <1>↩</1>"
+},
+{
+"k": "c1ac34297938397f",
+"pagina": "roteiro/f/index.html",
+"pt": "<1>Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "468efe874c3e66b5",
+"pagina": "roteiro/f/index.html",
+"pt": "Quando a atualização tirou o valor do que foi comprado Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "665f9fe3573cfb48",
+"pagina": "roteiro/f/index.html",
+"pt": "Quando a atualização tirou o valor do que foi comprado · Lex Plataformae"
+},
+{
+"k": "357faa55d65c2dd9",
+"pagina": "roteiro/g/index.html",
+"pt": "Quando punir é fácil e contestar é difícil · Situações · Lex Plataformae"
+},
+{
+"k": "16c5d7918e7829e8",
+"pagina": "roteiro/g/index.html",
+"pt": "Situação g) · 7.1.2 da tese"
+},
+{
+"k": "b67864ebd7886a14",
+"pagina": "roteiro/g/index.html",
+"pt": "O art. 39 do CDC<1><2>1</2></1> veda práticas abusivas, inclusive deixar o cumprimento da obrigação ao exclusivo critério do fornecedor. A cláusula-barreira, que dificulta o exercício da pretensão sem justificativa plausível, contraria o art. 51, IV, do CDC<3><4>2</4></3>. Conforme o caso, há defeito do serviço quando se compromete a segurança jurídica e procedimental da fruição. A defesa do consumidor, como direito fundamental e princípio da ordem econômica, já basta para enquadrar formas privadas de governo que produzem efeitos amplos e reiterados sobre a fruição, ainda que não se confundam com poder estatal."
+},
+{
+"k": "27c00061af2781c9",
+"pagina": "roteiro/g/index.html",
+"pt": "[...] por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada<1>p. 660</1>"
+},
+{
+"k": "0ce5c43e2b47a54d",
+"pagina": "roteiro/g/index.html",
+"pt": "Claudia Lima Marques mostra que a “cláusula-barreira” é contrária ao art. 51, IV, do CDC<1><2>2</2></1>, justamente porque desequilibra substancialmente a relação contratual <3>Marques</3><4>(Marques, 2016, p. 1236)</4>.<5>p. 669</5>"
+},
+{
+"k": "b102a67acf41b601",
+"pagina": "roteiro/g/index.html",
+"pt": "A qualificação jurídica possível pode envolver prática abusiva, defeito do serviço quando houver comprometimento da segurança jurídica e procedimental da fruição, além de integração a hipótese mais ampla de ilícito arquitetural.<1>p. 746</1>"
+},
+{
+"k": "f65ed1b857957a34",
+"pagina": "roteiro/g/index.html",
+"pt": "Em chave dogmática, o Caso dos Presentes Irregulares permite formular alegações bastante precisas.<1>p. 617</1>"
+},
+{
+"k": "1eb4057fb3f19f8d",
+"pagina": "roteiro/g/index.html",
+"pt": "A primeira é a de inadequação do serviço por falha na segurança e na governança do ambiente transacional, com posterior redistribuição abusiva do risco ao consumidor.<1>p. 617</1>"
+},
+{
+"k": "dbe8452c0fd9b7ab",
+"pagina": "roteiro/g/index.html",
+"pt": "A segunda é a de violação da confiança legítima, porque a própria plataforma oferecia a funcionalidade de gifting como canal ordinário e institucionalizado de circulação de conteúdo.<1>p. 617</1>"
+},
+{
+"k": "9adc3c1c1f04e083",
+"pagina": "roteiro/g/index.html",
+"pt": "A terceira é a de abusividade da resposta privada, por presunção ampliada de má-fé e ausência de individualização confiável das condutas.<1>p. 617</1>"
+},
+{
+"k": "a6850abe98e5c424",
+"pagina": "roteiro/g/index.html",
+"pt": "A quarta é a de ineficácia, no caso concreto, das cláusulas usadas para transformar a fruição em tolerância absolutamente precária e para negar recomposição.<1>p. 617</1>"
+},
+{
+"k": "e2203fbe39563b76",
+"pagina": "roteiro/g/index.html",
+"pt": "<1>Antes · Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "1d012098347c8c84",
+"pagina": "roteiro/g/index.html",
+"pt": "<1>Depois · Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "dad6285e3590fb7e",
+"pagina": "roteiro/g/index.html",
+"pt": "art. 51, IV, do CDC <1>↩</1>"
+},
+{
+"k": "c72bbab0d872b78a",
+"pagina": "roteiro/g/index.html",
+"pt": "<1>Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "9301b39cf94791ed",
+"pagina": "roteiro/g/index.html",
+"pt": "Quando punir é fácil e contestar é difícil Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "04c3575461207bd1",
+"pagina": "roteiro/g/index.html",
+"pt": "Quando punir é fácil e contestar é difícil · Lex Plataformae"
+},
+{
+"k": "6ea24b825c2c3e1c",
+"pagina": "roteiro/h/index.html",
+"pt": "Quando a perda é rotina do desenho, e não acidente · Situações · Lex Plataformae"
+},
+{
+"k": "17fa7c1c67306280",
+"pagina": "roteiro/h/index.html",
+"pt": "Situação h) · 7.1.2 da tese"
+},
+{
+"k": "03ca38cdb616e2af",
+"pagina": "roteiro/h/index.html",
+"pt": "O art. 39 do CDC<1><2>1</2></1> veda práticas abusivas, como prevalecer-se da fraqueza do consumidor. O art. 51, IV, do CDC<3><4>2</4></3>, lido a partir da cláusula-barreira, permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica. O art. 84 do CDC<5><6>3</6></5> sustenta a tutela específica, e diante de padrão reiterado o sistema pede também tutela inibitória. O art. 29 do CDC<7><8>4</8></7> alcança quem está exposto às práticas da plataforma. O enquadramento no CDC passa por três portas. A primeira é o vício de qualidade, quando o programa produz perda relevante de adequação, continuidade ou equivalência da fruição. A segunda são as práticas abusivas, quando escassez artificial, urgência fabricada e fricções assimétricas operam de modo previsível e repetido. A terceira são as cláusulas abusivas, quando o programa ganha forma em termos, políticas e aceites predispostos. Não é preciso sair do CDC nem inventar um direito paralelo das plataformas."
+},
+{
+"k": "ab600900b904ec8d",
+"pagina": "roteiro/h/index.html",
+"pt": "Ele surge quando defaults, fricções, urgências fabricadas, rotas de cancelamento hostis, equivalências elásticas, regimes de sanção ou arranjos de prova funcionam em conjunto como método de exploração.<1>p. 666</1>"
+},
+{
+"k": "0cdcde8d12e3b76e",
+"pagina": "roteiro/h/index.html",
+"pt": "Portanto, a prova da prática abusiva não pode se tornar prisioneira do microevento. Ela exige combinação de evidências de fluxo, documentação de campanhas, regras de ecossistema, prints ou gravações do percurso decisório<1>p. 676</1>"
+},
+{
+"k": "b4726be98f2c0571",
+"pagina": "roteiro/h/index.html",
+"pt": "[...] a disciplina dos vícios de qualidade que tornem o serviço impróprio ou lhe diminuam o valor e a vedação a práticas abusivas que se aproveitem da fraqueza do consumidor<1>p. 520</1>"
+},
+{
+"k": "4cd13f337e3025c6",
+"pagina": "roteiro/h/index.html",
+"pt": "Claudia Lima Marques mostra que a “cláusula-barreira” é contrária ao art. 51, IV, do CDC<1><2>2</2></1><3>p. 669</3>"
+},
+{
+"k": "52c39f0c4c43bf81",
+"pagina": "roteiro/h/index.html",
+"pt": "Aplicado ao ilícito de teleologia abusiva, esse raciocínio permite controlar arranjos procedimentais inteiros concebidos para produzir fricção assimétrica, aumentar custo de reversão e desmobilizar contestação.<1>p. 669</1>"
+},
+{
+"k": "09cd5e81fc0acee8",
+"pagina": "roteiro/h/index.html",
+"pt": "e do art. 84<1>p. 540</1>"
+},
+{
+"k": "0e51c224f42d7397",
+"pagina": "roteiro/h/index.html",
+"pt": "que consagra tutela específica da obrigação e resultado prático equivalente ao adimplemento<1>p. 540</1>"
+},
+{
+"k": "88c4c9dec4931d68",
+"pagina": "roteiro/h/index.html",
+"pt": "A utilidade do art. 29 do CDC<1><2>4</2></1><3>p. 779</3>"
+},
+{
+"k": "722aa66e1bbde376",
+"pagina": "roteiro/h/index.html",
+"pt": "Ele não exige sair do CDC nem inventar um direito paralelo das plataformas. Vício, defeito, prática abusiva e cláusula abusiva continuam sendo as portas do sistema.<1>p. 679</1>"
+},
+{
+"k": "a157acc4a4674e02",
+"pagina": "roteiro/h/index.html",
+"pt": "A prova mínima exigível consiste na demonstração do padrão, de sua replicabilidade, da coordenação entre mecanismos do ecossistema e do impacto relevante produzido sobre autonomia prática, <1>p. 747</1> inteligibilidade ou utilidade da experiência."
+},
+{
+"k": "61f6852933e168ed",
+"pagina": "roteiro/h/index.html",
+"pt": "<1>A teleologia abusiva e o ilícito de arquitetura, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.7 na tese</4></3> · <5>Teleologia abusiva</5> · <6>Ilícito de arquitetura</6>"
+},
+{
+"k": "f82be9190a32cc00",
+"pagina": "roteiro/h/index.html",
+"pt": "<1>Antes · Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "1a10c405e0faa3f5",
+"pagina": "roteiro/h/index.html",
+"pt": "<1>Depois · Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "6e09b81aaa0217bb",
+"pagina": "roteiro/h/index.html",
+"pt": "art. 84 do CDC <1>↩</1>"
+},
+{
+"k": "30cf0025c56849b4",
+"pagina": "roteiro/h/index.html",
+"pt": "art. 29 do CDC <1>↩</1>"
+},
+{
+"k": "f716fefb673d5760",
+"pagina": "roteiro/h/index.html",
+"pt": "<1>Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "31ac36a7434fbfee",
+"pagina": "roteiro/h/index.html",
+"pt": "Quando a perda é rotina do desenho, e não acidente Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "92e171e950991a5f",
+"pagina": "roteiro/h/index.html",
+"pt": "Quando a perda é rotina do desenho, e não acidente · Lex Plataformae"
+},
+{
+"k": "2acd0b44c2fdfdb5",
+"pagina": "roteiro/i/index.html",
+"pt": "Como provar quando a prova está com a plataforma · Situações · Lex Plataformae"
+},
+{
+"k": "feaca71e514cc352",
+"pagina": "roteiro/i/index.html",
+"pt": "Situação i) · 7.1.2 da tese"
+},
+{
+"k": "e2ea61498d8fe604",
+"pagina": "roteiro/i/index.html",
+"pt": "O art. 6º do CDC<1><2>1</2></1> inclui a facilitação da defesa entre os direitos básicos, e a inversão do ônus da prova é, em muitos casos, o único instrumento capaz de viabilizar a tutela. O art. 373, § 1º, do CPC<3><4>2</4></3> permite a distribuição diversa do ônus probatório diante de excessiva dificuldade de uma parte ou de maior facilidade da outra. Na publicidade, o art. 38 do CDC<5><6>3</6></5> atribui o ônus a quem a patrocina."
+},
+{
+"k": "c467638658ec3ae6",
+"pagina": "roteiro/i/index.html",
+"pt": "A distribuição dinâmica prevista no art. 373, § 1º, do CPC<1><2>2</2></1> depende de decisão fundamentada. A redistribuição não elimina a necessidade de verossimilhança, de encadeamento argumentativo e de delimitação do objeto controvertido. O que ela elimina é a ficção de simetria."
+},
+{
+"k": "0b28af609e7a5f50",
+"pagina": "roteiro/i/index.html",
+"pt": "O art. 373, § 1º<1>p. 659</1>"
+},
+{
+"k": "26cdad7578b1a793",
+"pagina": "roteiro/i/index.html",
+"pt": "[...] poderá o juiz atribuir o ônus da prova de modo diverso, desde que o faça por decisão fundamentada<1>p. 659</1>"
+},
+{
+"k": "0967f5a42aec2a9a",
+"pagina": "roteiro/i/index.html",
+"pt": "Essa consequência é reafirmada quando se sustenta ser insuficiente a proteção hoje oferecida pelo CDC e pela LGPD diante das novas bases de relacionamento em ambiente digital<1>p. 593</1>"
+},
+{
+"k": "ae6db61cee15b8b3",
+"pagina": "roteiro/i/index.html",
+"pt": "Em vez de recortar seletivamente o mecanismo específico de produção da assimetria, a categoria funciona como fundamento para um regime protetivo ampliado em massa.<1>p. 593</1>"
+},
+{
+"k": "59b41fc2c04dd2e0",
+"pagina": "roteiro/i/index.html",
+"pt": "O ônus da prova da veracidade e correção da informação ou comunicação publicitária cabe a quem a patrocina<1>p. 627</1>"
+},
+{
+"k": "ea2ca35f3767ba80",
+"pagina": "roteiro/i/index.html",
+"pt": "<1>A prova, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.8 na tese</4></3>"
+},
+{
+"k": "2f712a0999c46a12",
+"pagina": "roteiro/i/index.html",
+"pt": "<1>Antes · Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "de2637540546365f",
+"pagina": "roteiro/i/index.html",
+"pt": "<1>Depois · Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "d9e533ba8f86fa1e",
+"pagina": "roteiro/i/index.html",
+"pt": "art. 373, § 1º, do CPC <1>↩</1>"
+},
+{
+"k": "12c7e011cca73cc2",
+"pagina": "roteiro/i/index.html",
+"pt": "<1>Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "f8741de87384b22d",
+"pagina": "roteiro/i/index.html",
+"pt": "Como provar quando a prova está com a plataforma Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "5465e0ab8cd1788c",
+"pagina": "roteiro/i/index.html",
+"pt": "Como provar quando a prova está com a plataforma · Lex Plataformae"
+},
+{
+"k": "ac8eed25b6503fe0",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>a)</2> Quando o que foi comprado depende do ambiente que a plataforma administra</1>"
+},
+{
+"k": "9ab0728065aff4af",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>b)</2> Quando o consumidor só entende o que a interface deixa entender</1>"
+},
+{
+"k": "a73cb2fd020cc9fe",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>c)</2> Quando a informação existe, mas some no excesso</1>"
+},
+{
+"k": "f0fadf26ba0b90bc",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>d)</2> Quando a vitrine prometeu mais do que foi entregue</1>"
+},
+{
+"k": "7e0df935c63d653e",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>e)</2> Quando a plataforma mudou as regras e não deixou rastro</1>"
+},
+{
+"k": "51e049b1a183ca45",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>f)</2> Quando a atualização tirou o valor do que foi comprado</1>"
+},
+{
+"k": "04b85f7f68ae678d",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>g)</2> Quando punir é fácil e contestar é difícil</1>"
+},
+{
+"k": "f316ec0f2a8f4920",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>h)</2> Quando a perda é rotina do desenho, e não acidente</1>"
+},
+{
+"k": "5671385c9693f2ba",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>i)</2> Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "c97bc3c875b005cd",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>j)</2> Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "964801a4e1ede0e2",
+"pagina": "roteiro/index.html",
+"pt": "<1><2>k)</2> O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "774bd4a5dce53916",
+"pagina": "roteiro/j/index.html",
+"pt": "Quando a propriedade intelectual vira escudo · Situações · Lex Plataformae"
+},
+{
+"k": "1e2026a68d7a1697",
+"pagina": "roteiro/j/index.html",
+"pt": "Situação j) · 7.1.2 da tese"
+},
+{
+"k": "e4fe7b17cf941286",
+"pagina": "roteiro/j/index.html",
+"pt": "O art. 5º, XXIX, da Constituição<1><2>1</2></1> liga a proteção das criações industriais, das marcas e de outros signos ao interesse social e ao desenvolvimento, e não protege a exclusividade como fim em si. A propriedade se submete à função social, e a defesa do consumidor integra a ordem econômica. Os arts. 7º e 8º da Lei nº 9.609/1998<3><4>2</4></3> impõem ao fornecedor de software deveres de informação e de suporte durante a validade técnica. A proteção do programa de computador no Brasil segue regime especial predominantemente autoral, e não lógica patentária sobre função, método ou resultado, de modo que o controle técnico da infraestrutura não se converte em poder total sobre a experiência consumida."
+},
+{
+"k": "5e8104b1cc5fc962",
+"pagina": "roteiro/j/index.html",
+"pt": "Em litígios relacionados a plataforma, as garantias processuais satisfazem a necessidade de reação às respostas genéricas como “não mais possuímos tal informação”, “são dados de uso interno”, “são informações não acessíveis ao público”<1>p. 660</1>"
+},
+{
+"k": "15fd52804c620b48",
+"pagina": "roteiro/j/index.html",
+"pt": "A propriedade submete-se à função social<1>p. 507</1>"
+},
+{
+"k": "23ad64beafe8fd63",
+"pagina": "roteiro/j/index.html",
+"pt": "A Constituição a inscreve, de um lado, no plano dos direitos fundamentais<1>p. 504</1>"
+},
+{
+"k": "ef17d0fc0845ce38",
+"pagina": "roteiro/j/index.html",
+"pt": "e, de outro, no núcleo principiológico da ordem econômica<1>p. 504</1>"
+},
+{
+"k": "07a2b6fd2b37b818",
+"pagina": "roteiro/j/index.html",
+"pt": "O art. 7º impõe que o contrato de licença, o documento fiscal e os suportes e embalagens indiquem, de forma facilmente legível, o prazo de validade técnica da versão comercializada, e o art. 8º converte esse prazo em obrigação de assegurar serviços técnicos complementares relativos ao adequado funcionamento do programa durante a validade técnica<1>p. 51</1>"
+},
+{
+"k": "f0960524bf254637",
+"pagina": "roteiro/j/index.html",
+"pt": "A própria disciplina jurídica prevê segredo de justiça, o que restringe o acesso de terceiros a informações sensíveis, como o código-fonte<1>p. 643</1>"
+},
+{
+"k": "91193ac1e7ea0fc6",
+"pagina": "roteiro/j/index.html",
+"pt": "Esse limite ganha contorno particularmente nítido em hipóteses de encerramento de atividades, descontinuação de serviços ou desligamento definitivo de servidores.<1>p. 709</1>"
+},
+{
+"k": "10896500f2b0731b",
+"pagina": "roteiro/j/index.html",
+"pt": "À medida que parcelas relevantes da vida contemporânea migram para ecossistemas digitais privados, a precariedade formal das licenças de uso já não pode ser lida como autorização automática para o sacrifício integral de objetos imateriais de consumo incorporados à trajetória do consumidor<1>p. 709</1>"
+},
+{
+"k": "a3219a87aa18052e",
+"pagina": "roteiro/j/index.html",
+"pt": "A infraestrutura de propriedade intelectual que sustenta a plataforma não é homogênea. Marcas, direitos autorais, software, sinais distintivos, interfaces e institutos conexos não conferem o mesmo tipo nem a mesma extensão de exclusividade.<1>p. 682</1>"
+},
+{
+"k": "da0820bc05c5fd34",
+"pagina": "roteiro/j/index.html",
+"pt": "O ordenamento brasileiro não autoriza tratar todo controle técnico do ambiente como se decorresse de uma soberania unitária e irrestrita sobre a experiência consumida.<1>p. 682</1>"
+},
+{
+"k": "c38116c4b1e41ec6",
+"pagina": "roteiro/j/index.html",
+"pt": "A exclusividade não se confunde com imunidade contra auditabilidade.<1>p. 695</1>"
+},
+{
+"k": "9cbbbed81001b539",
+"pagina": "roteiro/j/index.html",
+"pt": "Nesse quadro, a propriedade intelectual não deve ser reduzida nem demonizada.<1>p. 680</1>"
+},
+{
+"k": "c03b392bbb56dc98",
+"pagina": "roteiro/j/index.html",
+"pt": "O ponto é apenas recusar sua leitura como autorização automática para opacidade, para mutabilidade oportunista ou para blindagem contra controle.<1>p. 680</1>"
+},
+{
+"k": "4d1690efc1a0e115",
+"pagina": "roteiro/j/index.html",
+"pt": "A <1>p. 748</1> consequência institucional consiste em compatibilizar exclusividade e tutela consumerista por meio de auditabilidade delimitada, controle da equivalência funcional e sujeição do exercício da PI aos deveres de adequação, transparência e recomposição."
+},
+{
+"k": "74be839cc8d51d6f",
+"pagina": "roteiro/j/index.html",
+"pt": "<1>A propriedade intelectual, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.9 na tese</4></3> · <5>Função social da propriedade intelectual</5>"
+},
+{
+"k": "7453bf1be2fa78c9",
+"pagina": "roteiro/j/index.html",
+"pt": "<1>Antes · Como provar quando a prova está com a plataforma</1>"
+},
+{
+"k": "351ee41f8dea94e5",
+"pagina": "roteiro/j/index.html",
+"pt": "<1>Depois · O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "516f0a51541193c3",
+"pagina": "roteiro/j/index.html",
+"pt": "arts. 7º e 8º da Lei nº 9.609/1998 <1>↩</1>"
+},
+{
+"k": "283a071eb38120dd",
+"pagina": "roteiro/j/index.html",
+"pt": "<1>Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "d56c0e076f1e4240",
+"pagina": "roteiro/j/index.html",
+"pt": "Quando a propriedade intelectual vira escudo Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "3d3d7f7a146101b2",
+"pagina": "roteiro/j/index.html",
+"pt": "Quando a propriedade intelectual vira escudo · Lex Plataformae"
+},
+{
+"k": "7c1524ebb8c99930",
+"pagina": "roteiro/k/index.html",
+"pt": "O que pedir, restaurar antes de indenizar · Situações · Lex Plataformae"
+},
+{
+"k": "60a3aacd6e5f2324",
+"pagina": "roteiro/k/index.html",
+"pt": "Situação k) · 7.1.2 da tese"
+},
+{
+"k": "8b7f1fa84fe1bc05",
+"pagina": "roteiro/k/index.html",
+"pt": "O art. 35 do CDC<1><2>1</2></1> permite exigir o cumprimento forçado, aceitar prestação equivalente ou rescindir com perdas e danos. O art. 84 do CDC<3><4>2</4></3> consagra a tutela específica da obrigação e o resultado prático equivalente ao adimplemento."
+},
+{
+"k": "ca685855226580ac",
+"pagina": "roteiro/k/index.html",
+"pt": "Daí a importância do art. 35 do CDC<1><2>1</2></1><3>p. 540</3>"
+},
+{
+"k": "0b7b7f1ab5329fe9",
+"pagina": "roteiro/k/index.html",
+"pt": "que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos, e do art. 84<1>p. 540</1>"
+},
+{
+"k": "003e65d17658013e",
+"pagina": "roteiro/k/index.html",
+"pt": "Nessas hipóteses, a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes. O que se recusa é sua transformação em resposta automática e preferencial em qualquer hipótese<1>p. 742</1>"
+},
+{
+"k": "84b9af6b9a4ed40f",
+"pagina": "roteiro/k/index.html",
+"pt": "<1>Os remédios, no caminho do jurista</1> · <2>O parâmetro</2><3> · <4>Enunciado 7.1.1.10 na tese</4></3> · <5>Recomposição funcional e correção de regime</5>"
+},
+{
+"k": "b08fd4ce0bddc1f0",
+"pagina": "roteiro/k/index.html",
+"pt": "<1>Antes · Quando a propriedade intelectual vira escudo</1>"
+},
+{
+"k": "0ed09cb0a55a32d2",
+"pagina": "roteiro/k/index.html",
+"pt": "<1>O que pedir, restaurar antes de indenizar</1>"
+},
+{
+"k": "61b20a017dbec067",
+"pagina": "roteiro/k/index.html",
+"pt": "O que pedir, restaurar antes de indenizar Fatos típicos, prova, fundamento normativo, cuidados e o que pedir."
+},
+{
+"k": "65cb0eafeddf9808",
+"pagina": "roteiro/k/index.html",
+"pt": "O que pedir, restaurar antes de indenizar · Lex Plataformae"
+},
+{
+"k": "5849df01f74ba0e7",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>O Objeto Imaterial de Consumo, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "56c26f7e5aedf971",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A vulnerabilidade semiótica, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "76a3ac06ce88e04e",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "fbb65233bc708ee2",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>Informação, publicidade e antecipação, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "2d78bc8fb751d8e2",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A auditabilidade aberta, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "bf237789168e5c6a",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A equivalência de valor funcional, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "d7f074d46ca7d368",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A teleologia abusiva e o ilícito de arquitetura, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "fd2b54bd7edafb18",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A prova, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "f856b6f1a3a0c2cd",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>A propriedade intelectual, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "dd24965b50bc528e",
+"pagina": "roteiro/parametros/index.html",
+"pt": "<1>Os remédios, no caminho do jurista</1> · <2>A situação no quadro</2><3> · <4>Ler no texto integral</4></3>"
+},
+{
+"k": "7ee9e0bfa13fbf81",
+"pagina": "tese/7-1-1-1/index.html",
+"pt": "<1>Para operar · Bloco a do enquadramento</1>"
+},
+{
+"k": "4cdc7234d8a65d93",
+"pagina": "tese/7-1-1-10/index.html",
+"pt": "<1>Para operar · Bloco k do enquadramento</1>"
+},
+{
+"k": "6a60af7c773798ad",
+"pagina": "tese/7-1-1-2/index.html",
+"pt": "<1>Para operar · Bloco b do enquadramento</1>"
+},
+{
+"k": "e8324d2a2f260aa4",
+"pagina": "tese/7-1-1-3/index.html",
+"pt": "<1>Para operar · Bloco c do enquadramento</1>"
+},
+{
+"k": "ad7ee66a1d3266c8",
+"pagina": "tese/7-1-1-4/index.html",
+"pt": "<1>Para operar · Bloco d do enquadramento</1>"
+},
+{
+"k": "b612713de6d25f8b",
+"pagina": "tese/7-1-1-5/index.html",
+"pt": "<1>Para operar · Bloco e do enquadramento</1>"
+},
+{
+"k": "a7173debcf2e6439",
+"pagina": "tese/7-1-1-6/index.html",
+"pt": "<1>Para operar · Bloco f do enquadramento</1>"
+},
+{
+"k": "288aeae5aa2ba112",
+"pagina": "tese/7-1-1-7/index.html",
+"pt": "<1>Para operar · Bloco h do enquadramento</1>"
+},
+{
+"k": "b0efde45aa3ad69c",
+"pagina": "tese/7-1-1-8/index.html",
+"pt": "<1>Para operar · Bloco i do enquadramento</1>"
+},
+{
+"k": "a6df482b50d5913a",
+"pagina": "tese/7-1-1-9/index.html",
+"pt": "<1>Para operar · Bloco j do enquadramento</1>"
+}
+]
