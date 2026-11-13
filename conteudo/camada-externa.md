@@ -44,6 +44,14 @@ Nesses lugares nada fica parado. Muitas mudanças são normais e fazem parte da 
 > Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição. (p. 430)
 > Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar? (p. 21)
 
+### doutrina
+
+O regime começa pela qualificação do objeto. Quando o que se ofertou é um feixe de fruição sustentado por governança contínua, e pode perder valor sem ruptura total, os demais parâmetros passam a operar. A resposta preferencial é recompor a função perdida, e a indenização em dinheiro fica como resposta residual ou complementar.
+
+> Esse parâmetro exerce, assim, função de gatilho para os demais. (p. 719)
+> A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime (p. 429)
+> A monetização permanece possível, mas como resposta residual ou complementar, não como reflexo automático da lesão. (p. 748)
+
 ### percurso
 
 Este caminho segue a sua skin, do clique de compra até a pergunta sobre o que a lei pode fazer por você. São onze partes. Cada uma responde a uma pergunta, explica o que está por trás dela e deixa outra pergunta no ar, e no fim de cada parte está o que você pode exigir.
@@ -68,7 +76,7 @@ No caminho aparecem nove conceitos próprios e outros que vêm de outros campos 
 
 ### convite
 
-Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. A chave no canto da tela troca o modo de leitura. Doutrina traz a ficha e o guia para quem vai defender um direito, e Ciência mostra de onde saiu cada frase e como cada peça foi montada.
+Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. O seletor de modo, no canto da tela, troca a leitura. Doutrina traz a ficha e o guia para quem vai defender um direito, e Ciência mostra de onde saiu cada frase e como cada peça foi montada.
 
 ### trilha
 
@@ -1014,17 +1022,14 @@ E quando a equivalência se perde, o que deve acontecer? Dinheiro de volta, ou o
 
 ### titulo
 
-Isso só acontece nos jogos?
+Em que outras plataformas isso acontece?
 
 ### abertura
 
-Não. Os jogos foram o lugar onde estes conceitos foram testados primeiro, porque ali tudo aparece mais nítido. A conta, a moeda, as punições e as mudanças estão à vista de qualquer jogador. Fora dos jogos, os mesmos efeitos costumam ser apresentados como inevitáveis, e por isso ficam mais difíceis de enxergar.
+Aqui estão as quatro famílias de plataforma lado a lado. As perguntas são as mesmas em todas, como a plataforma governa o uso, do que depende quem está ali, o que dá para provar e que resposta faz sentido quando algo se perde.
 
-O que une os casos não é o setor da economia nem o tipo de tecnologia. É o mecanismo pelo qual a plataforma organiza, ajusta e refaz a experiência de quem usa, e torna a contestação mais fácil ou mais difícil. Por isso não importa se o serviço se chama aplicativo, loja, rede ou assistente. Importa como ele governa o que você usa.
+O que aproxima as famílias é o mecanismo pelo qual a experiência de quem usa é organizada e refeita, e não o setor da economia nem o nome do serviço.
 
-Quatro famílias de plataforma mostram faces diferentes do mesmo problema. Em cada uma, as perguntas são as mesmas. Como a plataforma governa o uso? Do que depende quem está ali? O que dá para provar e o que fica escondido? E que resposta faz sentido quando algo dá errado?
-
-> A diferença é que, fora do jogo, os mesmos efeitos tendem a ser apresentados como inevitáveis, e não como escolhas de arquitetura (p. 23)
 > A unidade do exame não está no ramo econômico nem na etiqueta mercadológica do serviço, mas no mecanismo predominante pelo qual a experiência do usuário é organizada, modulada, reconfigurada ou tornada contestável. (p. 755)
 > É esse mecanismo, e não o nome do setor, que fornece a base da comparabilidade (p. 755)
 > Cada um deles permite observar como a mesma grade de controlabilidade se comporta diante de problemas específicos de promessa, confiança, opacidade, mutabilidade, sanção, reputação, intermediação ou administração da expectativa. (p. 757)

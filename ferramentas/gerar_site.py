@@ -27,12 +27,12 @@ VERSAO = "0.13"
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
     ("0.4", "27/10/2026", "Entram as situações do quadro de enquadramento e as famílias de plataforma."),
-    ("0.5", "27/10/2026", "O site passa a se ler em três camadas, e o nome do autor fica por último."),
-    ("0.6", "27/10/2026", "Entram o caminho da skin e a chave de leitura em três degraus."),
-    ("0.7", "27/10/2026", "Entram a paleta, a chave Modo com Informação, Doutrina e Ciência, o menu por modo e o bloco do texto integral."),
+    ("0.5", "27/10/2026", "O site passa a se ler em três modos, e o nome do autor fica por último."),
+    ("0.6", "27/10/2026", "Entram o caminho da skin e o seletor com três modos de leitura."),
+    ("0.7", "27/10/2026", "Entram a paleta, o seletor de modo com Informação, Doutrina e Ciência, o menu por modo e o bloco do texto integral."),
     ("0.8", "03/11/2026", "Os capítulos 5 e 6 chegam completos à Informação e à Doutrina, com as páginas por problema e a auditoria de design."),
     ("0.9", "05/11/2026", "Revisão da disposição das páginas e da voz do site."),
-    ("0.10", "09/11/2026", "Adequação das camadas, com a Doutrina em quinze capítulos, os 24 problemas da Informação e a página Como reclamar."),
+    ("0.10", "09/11/2026", "Adequação dos modos, com a Doutrina em quinze capítulos, os 24 problemas da Informação e a página Como reclamar."),
     ("0.11", "10/11/2026", "Menu unificado, capa narrativa, identidade editorial, o Caminho, a citação sugerida em cada página e este histórico de versões."),
     ("0.12", "10/11/2026", "Entra a versão inglesa do site inteiro, com o texto integral da tese em tradução por máquina e os trechos literais com o original à mão."),
     ("0.13", "12/11/2026", "Revisão de leitor. Saem as notas de bastidor e os rótulos que faziam a tese falar, cada citação aparece uma vez por página, e a marca de página deixa de partir nomes próprios."),
@@ -508,7 +508,10 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     legenda = LEGENDA["interna" if interna else "mista"]
     cartao = imagem if imagem and (RAIZ / "site" / "cartoes" / f"{imagem}.png").exists() else "inicio"
     # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
-    assinatura = "" if caminho == "autor/" else f'<p class="assinatura"><a href="{prefixo}autor/">Sobre o autor</a></p>'
+    # Rodapé com Como reclamar ao lado de Sobre o autor, sem o PDF, que fica na Ciência. Revisão de leitor aprovada em 13/11/2026.
+    reclamar = f'<a href="{prefixo}como-reclamar/">Como reclamar</a>' if COMO_RECLAMAR and caminho != "como-reclamar/" else ""
+    autor = "" if caminho == "autor/" else f'<a href="{prefixo}autor/">Sobre o autor</a>'
+    assinatura = f'<p class="assinatura">{" ".join(x for x in (reclamar, autor) if x)}</p>' if (reclamar or autor) else ""
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -1115,16 +1118,46 @@ def lista_problemas(slugs, prefixo, classe="partes-curtas"):
     return (f'<ul class="{classe}">' + "".join(f'<li><a href="{prefixo}problemas/{s}/">{esc(PROBLEMAS[s]["titulo"])}</a></li>' for s in slugs) + "</ul>")
 
 
+# Os 24 problemas em cinco famílias, pela revisão de leitor aprovada pelo autor em 13/11/2026.
+FAMILIAS_PROBLEMAS = [
+    ("Perdi o acesso", ["conta-bloqueada", "presente-retirado", "jogo-encerrado", "sair", "historia-perdida"]),
+    ("O que comprei mudou", ["item-alterado", "servico-piorou", "exclusivo-voltou", "moeda", "so-licenca", "programa-no-aparelho"]),
+    ("Fui levado a comprar", ["promessa", "sorteio", "pressa", "crianca"]),
+    ("Não consigo provar nem reclamar", ["regras-escondidas", "prova", "reclamacao-some", "muita-gente"]),
+    ("Fora dos jogos", ["assistente", "loja-virtual", "rede-social", "trabalho-por-app", "vendo-na-plataforma"]),
+]
+
+
+def familia_do_problema(p):
+    """A lateral da página de problema traz só a família dele e o caminho para todos. Revisão de leitor de 13/11/2026."""
+    for nome, slugs in FAMILIAS_PROBLEMAS:
+        if p["slug"] in slugs:
+            itens = [(esc(PROBLEMAS[x]["titulo"]), f'../{x}/', x == p["slug"]) for x in slugs if x in PROBLEMAS]
+            return (nome, itens + [("Todos os problemas", "../", False)])
+    return ("Todos os problemas", [(esc(x["titulo"]), f'../{x["slug"]}/', x is p) for x in PROBLEMAS.values()])
+
+
 def gerar_problemas():
     if not PROBLEMAS:
         return
     raiz = SAIDA / "problemas"
     raiz.mkdir(parents=True, exist_ok=True)
-    itens = "".join(f'<li><a href="{p["slug"]}/"><span class="parte-titulo">{esc(p["titulo"])}</span>'
-                    f'<span class="parte-resumo">{esc(primeira_frase(p["abertura"][0]))}</span></a></li>' for p in PROBLEMAS.values())
+    def item(p):
+        return (f'<li><a href="{p["slug"]}/"><span class="parte-titulo">{esc(p["titulo"])}</span>'
+                f'<span class="parte-resumo">{esc(primeira_frase(p["abertura"][0]))}</span></a></li>')
+    vistos = set()
+    grupos = []
+    for nome, slugs in FAMILIAS_PROBLEMAS:
+        lista = [PROBLEMAS[x] for x in slugs if x in PROBLEMAS]
+        vistos.update(x["slug"] for x in lista)
+        if lista:
+            grupos.append(f'<h2 class="rotulo-ext">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}</ul>')
+    resto = [p for p in PROBLEMAS.values() if p["slug"] not in vistos]
+    if resto:
+        raise SystemExit("Problema sem família em FAMILIAS_PROBLEMAS: " + ", ".join(p["slug"] for p in resto))
     corpo = (f'<article class="folha problemas-pagina"><p class="sobrelinha-ext"><a href="../direitos/">Seus direitos</a></p>'
              f'<header class="folha-cabeca ext-cabeca"><h1>Qual é o seu problema?</h1></header>'
-             f'<ul class="partes problemas-lista">{itens}</ul>'
+             + "".join(grupos)
              + (f'<p class="ver-reclamar"><a href="../como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
              + cuidado_html("../")
              + f'<section class="ext duvida"><div class="acoes"><a class="botao" href="../direitos/">Todos os seus direitos</a>{botao_desnudar()}</div></section></article>')
@@ -1180,7 +1213,7 @@ def gerar_problemas():
         (destino / "index.html").write_text(
             pagina(f'{p["titulo"]} · Lex Plataformae', " ".join(p["abertura"]), corpo, prefixo, f'problemas/{p["slug"]}/', jsonld, camada="mista",
                    imagem=f'problema-{p["slug"]}',
-                   irmas=("Todos os problemas", [(esc(x["titulo"]), f'../{x["slug"]}/', x is p) for x in PROBLEMAS.values()])),
+                   irmas=familia_do_problema(p)),
             encoding="utf-8")
 
 
@@ -1751,6 +1784,17 @@ def gerar_inicio():
     {cena("cena-compra")}
     {cena("cena-mudanca", "cena-incomodo")}
     {cena("cena-virada", "cena-virada")}
+
+    <section class="cena capa-doutrina em-modo modo-1" aria-labelledby="regime-titulo">
+      <h2 id="regime-titulo">O regime em um parágrafo</h2>
+      {ext_html("inicio", "doutrina", "")}
+      <nav class="ext saidas" aria-label="Por onde entrar"><ul class="partes-curtas">
+        <li><a href="roteiro/">Situações, com dever, prova e consequência</a></li>
+        <li><a href="doutrina/">Doutrina, em quinze capítulos</a></li>
+        <li><a href="legislacao/">Legislação citada, em texto integral</a></li>
+        <li><a href="conceitos/">Vocabulário, com definição e critérios</a></li>
+      </ul></nav>
+    </section>
 
     <section class="portas" aria-labelledby="portas-titulo">
       <div class="portas-texto em-modo modo-0 modo-2">{ext_html("inicio", "portas", "")}</div>
@@ -3833,8 +3877,8 @@ def gerar_objeto_instrumentos():
     for area in ("tecnica", "economia", "antropologia", "semiotica", "poder"):
         termos = sorted(t for t, ar in AREA_TERMO.items() if ar == area)
         lentes.append(f'<section class="lente"{estilo_area(area)}><h3>{esc(AREA_NOME[area])}</h3>'
-                      f'<p class="rotulo-ext">Instrumentos no caminho</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
-                      f'<p class="rotulo-ext">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
+                      f'<p class="rotulo-ext rotulo-dado">Instrumentos no caminho</p><ul class="termos-lista">{"".join(termo_link(t) for t in termos)}</ul>'
+                      f'<p class="rotulo-ext rotulo-dado">Autores</p><ul class="autores-lista">{autores_da_area(area)}</ul></section>')
     juridicos = sorted(t for t, ar in AREA_TERMO.items() if ar == "direito")
     nove = "".join(f'<li><a class="chapado" href="{prefixo}conceitos/{c["id"]}/">{nome_html(c)}</a></li>' for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]))
     dez = "".join(f'<li><a href="{prefixo}{caminho_derivado(t)}"><span class="nome-derivado">{esc(t)}</span></a></li>' for t in sorted(DERIVADOS))

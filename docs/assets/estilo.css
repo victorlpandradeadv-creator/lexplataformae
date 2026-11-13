@@ -1252,21 +1252,21 @@ ins.correcao{text-decoration:underline dotted;text-underline-offset:.2em;backgro
 
 /* Listas de links em faixas clicáveis, por ordem do autor de 11/11/2026. Cada item é uma faixa inteira, com borda fina,
    seta à direita e a borda na rubrica sob o mouse e no foco. O sublinhado sai das listas. */
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) {
   list-style: none; padding: 0; margin: .75rem 0 0; display: grid; gap: .5rem; }
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li {
   margin: 0; padding: 0; border: 0; }
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a {
   display: block; position: relative; height: 100%; box-sizing: border-box;
   padding: .85rem 2.75rem .85rem 1rem; border: 1px solid var(--linha); border-radius: 8px;
   background: var(--folha); color: var(--tinta); text-decoration: none; font-weight: 600;
   transition: border-color .15s, background .15s; }
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a::after {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a::after {
   content: "→"; position: absolute; right: 1rem; top: 50%; transform: translateY(-50%);
   color: var(--rubrica); font-weight: 400; transition: transform .15s; }
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible) {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible) {
   border-color: var(--rubrica); background: color-mix(in srgb, var(--rubrica) 6%, var(--folha)); outline: none; }
-:is(.folha, .portas) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible)::after {
+:is(.folha, .portas, .capa-doutrina) :is(ul.partes-curtas, .outros ul, .indice-roteiro ul, ul.lugares, ul.problemas-lista) > li > a:is(:hover, :focus-visible)::after {
   transform: translate(3px, -50%); }
 ul.problemas-lista > li > a > span { display: block; }
 ul.problemas-lista .parte-resumo { font-weight: 400; color: var(--tinta-2); margin-top: .3rem; }
@@ -1469,6 +1469,30 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .ja-citado { margin: 0.4rem 0 0.8rem; font-size: 0.85rem; color: var(--tinta-suave, inherit); }
 .ja-citado > a:first-child { color: inherit; }
 .ja-citado .pg { margin-left: 0.5rem; }
+
+/* Com a coluna lateral à vista, a lista dos outros nomes no fim da ficha repetiria a lateral. Revisão de leitor de 13/11/2026. */
+@media (min-width: 900px) { nav.outros { display: none; } }
+
+/* Rodapé e seletor de modo, revisão de leitor aprovada pelo autor em 13/11/2026.
+   Os links do rodapé seguem os do resto do site. O seletor ganha uma faixa própria no pé da tela, que o fim da página
+   reserva, para não ficar sobre texto, ilustração ou índice. O rótulo sobe para 12px. */
+.assinatura { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
+.assinatura a { color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 3px; }
+.chave-nome { font-size: 0.75rem; }
+@media (min-width: 641px) {
+  .chave-mestra {
+    left: 0; right: 0; bottom: 0; transform: none; max-width: none; justify-content: flex-end;
+    padding: 0.35rem max(1rem, calc((100vw - 1200px) / 2 + 1rem)); border: 0; border-top: 1px solid color-mix(in srgb, var(--tinta) 22%, transparent);
+    border-radius: 0; background: var(--folha); box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none;
+  }
+  .chave-mestra.recolhida { transform: translateY(100%); }
+  body { padding-bottom: 3.5rem; }
+  .lateral-fixa { max-height: calc(100dvh - 6.5rem); }
+}
+.problemas-pagina h2.rotulo-ext { margin: 2.75rem 0 0.75rem; }
+.problemas-pagina h2.rotulo-ext + .problemas-lista { margin-top: 0; }
+.chave-nome { font-variant-caps: normal; text-transform: uppercase; letter-spacing: 0.08em; }
+.capa-doutrina .saidas { margin-top: 2rem; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

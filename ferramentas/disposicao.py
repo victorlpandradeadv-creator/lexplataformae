@@ -152,7 +152,8 @@ def _modos(classes):
 def _candidato(no):
     if no.tag in ("h2", "h3"):
         return True
-    return no.tag == "p" and "rotulo-ext" in no.classes
+    # O rótulo de dado que se repete em cada seção não entra no índice. Revisão de leitor de 13/11/2026.
+    return no.tag == "p" and "rotulo-ext" in no.classes and "rotulo-dado" not in no.classes
 
 
 def ancorar_titulos(corpo):
