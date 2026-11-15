@@ -1503,6 +1503,10 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .porta-perda .porta-mais{margin-top:auto}
 .chamada{text-wrap:balance}
 .cena-caso{text-align:center;font-family:var(--serifa);font-weight:500;font-size:clamp(1.8rem,3.4vw,2.6rem);margin:5rem auto 1.5rem;max-width:40rem;text-wrap:balance}
+/* As seis portas pela perda têm três peças (título, frase, saída) e ficam fora da subgrade de oito linhas. 15/11/2026. */
+.portas-grade.grade-perda { grid-template-rows: none; row-gap: 1.5rem; }
+.portas-grade.grade-perda > .porta-perda { grid-row: auto; display: flex; flex-direction: column; gap: 0.75rem; }
+.portas-grade.grade-perda > .porta-perda > .porta-mais { margin-top: auto; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
