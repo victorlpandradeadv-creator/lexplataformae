@@ -17,6 +17,7 @@ from pathlib import Path
 
 import disposicao
 import esquemas
+import solidos
 
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
@@ -516,6 +517,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
     corpo = esquemas.inserir(corpo, caminho, prefixo, esc, pg, expansao)
+    corpo = solidos.inserir(corpo, caminho)
     canonico = BASE + "/" + caminho
     descricao = resumo(descricao)
     # A coluna lateral sai dos títulos da própria página e das páginas irmãs. O índice nasce antes dos balões, com o texto limpo.

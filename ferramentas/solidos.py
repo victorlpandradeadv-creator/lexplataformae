@@ -471,7 +471,9 @@ class Peca:
 
 
 ESTILO = (
+    ":root{--sol-azul:#002fa7}@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--sol-azul:#497ef7}}:root[data-theme=dark]{--sol-azul:#497ef7}"
     ".solidos{--s-t:var(--tinta,#211c17);--s-t2:var(--tinta-2,#615953);--s-az:var(--sol-azul,#002fa7);--s-p:var(--papel,#faf6ef)}"
+    ".solidos-fig{margin:1.75rem 0}.solidos-fig svg{display:block;max-width:100%;height:auto;margin:0 auto}.solidos-fig figcaption{margin-top:.5rem}"
     ".solidos path,.solidos ellipse,.solidos rect,.solidos circle{fill:none;stroke-linecap:round;stroke-linejoin:round}"
     ".s-linha{stroke:var(--s-t);stroke-width:1.6}"
     ".s-oculta{stroke:var(--s-t2);stroke-width:1.1;stroke-dasharray:3 4}"
@@ -529,6 +531,31 @@ PECAS = carregar()
 
 def svg(ident):
     return Peca(ident, dict(PECAS[ident], desenho=list(PECAS[ident]["desenho"]))).svg()
+
+
+def inserir(corpo, caminho):
+    """Põe na página as peças cujo campo pagina é este caminho, depois do título dado em posicao."""
+    for ident, p in PECAS.items():
+        if p.get("pagina", "").strip() != caminho:
+            continue
+        peca = (f'<figure class="solidos-fig">{svg(ident)}'
+                f'<figcaption class="ciencia nota-acrescimo">Linguagem geométrica acrescentada em 15/11/2026. '
+                f'É acréscimo posterior à tese, que não propõe ontologia geométrica da propriedade intelectual.</figcaption></figure>')
+        alvo = p.get("posicao", "").partition(" ")[2]
+        achados = list(re.finditer(r"<h[23][^>]*>", corpo))
+        for k, m in enumerate(achados):
+            fim = corpo.find("</h", m.end())
+            if alvo.lower() in re.sub(r"<[^>]+>", "", corpo[m.end():fim]).lower():
+                prox = achados[k + 1].start() if k + 1 < len(achados) else corpo.rfind("</article>")
+                fecha = corpo.find("</section>", m.end())
+                pos = fecha + 10 if 0 <= fecha < prox else prox
+                while corpo.startswith('<figure class="solidos-fig"', pos):
+                    pos = corpo.find("</figure>", pos) + 9
+                corpo = corpo[:pos] + peca + corpo[pos:]
+                break
+        else:
+            raise SystemExit(f"Sólido {ident}: título '{alvo}' não encontrado em {caminho}")
+    return corpo
 
 
 PRANCHA = """<!DOCTYPE html>

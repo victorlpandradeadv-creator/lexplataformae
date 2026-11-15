@@ -24,6 +24,12 @@ Ações do desenho.
 
 ## pi-quatro-solidos
 
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Por que a propriedade intelectual da plataforma não é um bloco único
+
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Por que a propriedade intelectual da plataforma não é um bloco único?
 
@@ -48,6 +54,12 @@ Cubo, esfera, cilindro e pirâmide lado a lado, cada um com o nome da dimensão 
 - rotulo D sinal distintivo
 
 ## pi-papel-dominio-publico
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Por que a questão não é ser contra ou a favor
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Por que a questão não é ser contra ou a favor da propriedade intelectual?
@@ -75,6 +87,12 @@ Muitos sólidos soltos sobre o papel, com um só deles envolvido por um contorno
 - rotulo 200,170 o papel é o domínio público
 
 ## pi-cubo-software
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois O que a proteção do software autoriza
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título O que a proteção do software autoriza e o que ela não autoriza?
@@ -113,6 +131,12 @@ Esfera inteira e a mesma esfera em corte, com o contorno de proteção só em vo
 
 ## pi-cilindro-ornamento
 
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Por que a marca e o desenho industrial importam
+
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Por que a marca e o desenho industrial importam do lado do consumidor?
 
@@ -130,6 +154,12 @@ Cilindro com padrão na superfície e, ao lado, a mesma superfície desenrolada,
 - contorno C.pele
 
 ## pi-piramide-marca
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Por que a marca e o desenho industrial importam
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois de pi-cilindro-ornamento.
@@ -149,6 +179,12 @@ Pirâmide com um sinal na base e um vetor do vértice até a origem, com o conto
 - rotulo 165,-125 origem
 
 ## pi-exclusividade-e-poder
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Onde está, afinal, a tensão
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Onde está, afinal, a tensão entre exclusividade e proteção do consumidor?
@@ -171,6 +207,12 @@ O mesmo sólido protegido duas vezes. Na primeira, o fluxo azul do uso sai livre
 
 ## pi-licenca
 
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Chamar o vínculo de licença afasta o CDC
+
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Chamar o vínculo de licença afasta o CDC?
 
@@ -188,6 +230,12 @@ O mesmo desenho da exclusividade e do poder da plataforma, com uma etiqueta de l
 - etiqueta 40 -108 licença
 
 ## pi-funcao-social
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois O que o art. 5º, XXIX, da Constituição exige
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título O que o art. 5º, XXIX, da Constituição exige da exclusividade?
@@ -229,6 +277,12 @@ Sólido pequeno com o contorno de proteção inchado em anéis que cobrem outros
 
 ## pi-encerramento
 
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois O que acontece quando o serviço é encerrado
+
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título O que acontece quando o serviço é encerrado?
 
@@ -246,6 +300,12 @@ Sólido protegido que continua com o contorno, enquanto o tracejado da plataform
 - ponte A 250 60
 
 ## pi-convivencia
+
+### pagina
+doutrina/propriedade-intelectual/
+
+### posicao
+depois Como o CDC e a propriedade intelectual convivem
 
 ### lugar
 Doutrina, capítulo Propriedade intelectual, depois do título Como o CDC e a propriedade intelectual convivem no exame do caso?
