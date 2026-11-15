@@ -1161,7 +1161,7 @@ FAMILIAS_PROBLEMAS = [
     ("Fui empurrado a pagar", ["sorteio", "pressa", "regras-escondidas", "crianca", "loja-virtual"]),
     ("Quero sair e levar o que é meu", ["sair", "historia-perdida"]),
     ("A plataforma decide sobre mim sem explicar", ["rede-social", "assistente", "trabalho-por-app", "vendo-na-plataforma"]),
-    ("Em qualquer porta, provar e reclamar", ["prova", "reclamacao-some", "muita-gente"]),
+    ("Provar e reclamar", ["prova", "reclamacao-some", "muita-gente"]),
 ]
 FAMILIA_ID = ["acesso", "mudou", "empurrado", "sair", "decide", "comum"]
 
@@ -1357,6 +1357,13 @@ def carregar_alem_do_consumo():
 
 ALEM = carregar_alem_do_consumo()
 DATA_ALEM = "15 de novembro de 2026"
+# Artigos que a tese não cita e que a página Além do consumo traz, para o rodapé de lei. Texto do Planalto de 15/11/2026.
+LEIS_EXTRAS = {}
+for _id, _l in (ALEM or {}).get("leis", {}).items():
+    _curto = "Código Civil" if _id.startswith("cc-") else "CDC"
+    _num = _l["rotulo"].split()[1].rstrip(",")
+    _LEI_FONTES = {"Código Civil": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm", "CDC": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"}
+    LEIS_EXTRAS[(_curto, int(_num) if _num.isdigit() else _num)] = {"tipo": "planalto", "texto": [_l["texto"]], "fonte": _LEI_FONTES[_curto], "data": "15/11/2026", "artigo": _num}
 
 
 def gerar_alem_do_consumo():
@@ -1378,7 +1385,7 @@ def gerar_alem_do_consumo():
         extra = ' nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026' if x["campo"] == "nota" else ""
         rot = f'<p class="sobrelinha">Nota do autor · {DATA_ALEM}</p>' if x["campo"] == "nota" else ""
         return (f'<section class="ext em-modo {modos} alem-{x["campo"]}{extra}">{rot}<h2 class="pergunta-secao" id="{x["campo"]}">{esc(x["pergunta"])}</h2>'
-                + "".join(f"<p>{esc(t)}</p>" for t in x["paragrafos"]) + leis_html(x["lei"]) + expansao(x["citacoes"], prefixo) + "</section>")
+                + "".join(f"<p>{esc(t)}</p>" for t in x["paragrafos"]) + expansao(x["citacoes"], prefixo) + "</section>")
 
     corpo = (f'<article class="folha alem-pagina">'
              f'<p class="sobrelinha-ext"><a href="{prefixo}problemas/#porta-decide">A plataforma decide sobre mim</a> · <a href="{prefixo}direitos/">Seus direitos</a></p>'
@@ -1928,25 +1935,20 @@ def gerar_inicio():
         return (f'<section class="cena {classe} em-modo modo-0 modo-2">{ext_html("inicio", campo_, "")}</section>')
     # Portas com o mesmo contrato de conteúdo. Sobrelinha, título, uma frase, quatro entradas e uma saída.
     # Revisão de disposição de 12/11/2026, por ordem do autor, para as três portas terem a mesma altura pelo conteúdo.
-    destaques = ["conta-bloqueada", "item-alterado", "servico-piorou", "jogo-encerrado"]
     portas_caminho = ('<ul class="partes-curtas">' + "".join(f'<li><a href="caminho/{pt["slug"]}/">{esc(pt["titulo"])}</a></li>' for pt in PERCURSO[:4]) + "</ul>")
-    destaques = [d for d in destaques if d in PROBLEMAS]
     # Cinco portas pela perda, logo abaixo da pergunta aberta da capa, e a saída comum. Acréscimo de 15/11/2026, por ordem do autor.
     # Cada porta leva à sua família em problemas/. A quinta leva também à página de quem não é consumidor.
     def porta_perda(i):
         fid = FAMILIA_ID[i]
         nome, slugs = FAMILIAS_PROBLEMAS[i]
-        mais = (f'<p class="porta-mais"><a href="alem-do-consumo/">Quando não é relação de consumo</a></p>' if fid == "decide" else "")
+        n = len([s for s in slugs if s in PROBLEMAS])
         return (f'<article class="porta porta-perda item-moldura"><h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
-                f'{ext_html("inicio", "porta-" + fid, "")}{lista_problemas([s for s in slugs[:3] if s in PROBLEMAS], "", "partes-curtas")}'
-                f'<p class="porta-mais"><a href="problemas/#porta-{fid}">Ver todos desta porta</a></p>{mais}</article>')
+                f'{ext_html("inicio", "porta-" + fid, "")}'
+                f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Os " + str(n) + " problemas desta porta" if n > 1 else "O problema desta porta"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao em-modo modo-0 modo-2" aria-labelledby="perda-titulo">'
                     f'<h2 class="portas-titulo" id="perda-titulo">Escolha o que aconteceu</h2>'
-                    f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(5))}</div>'
-                    f'<div class="porta-comum">{ext_html("inicio", "porta-comum", "")}'
-                    f'{lista_problemas(FAMILIAS_PROBLEMAS[5][1], "", "partes-curtas lista-duas")}'
-                    + (f'<p class="ver-reclamar"><a href="como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
-                    + '<p class="porta-mais"><a href="caminho/a-compra/">Ou siga uma skin do começo ao fim</a></p></div></section>')
+                    f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>'
+                    f'<h2 class="cena-caso em-modo modo-0 modo-2">Você comprou uma skin. Ela é sua?</h2>')
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
@@ -1978,13 +1980,6 @@ def gerar_inicio():
       <div class="portas-texto em-modo modo-0 modo-2">{ext_html("inicio", "portas", "")}</div>
       <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
       <div class="portas-grade">
-        <article class="porta porta-problema item-moldura">
-          <p class="porta-rotulo">Aconteceu comigo</p>
-          <h3><a href="problemas/">O que aconteceu com você?</a></h3>
-          <p>Comece pelo que você viveu. Cada problema mostra o que guardar e o que pedir.</p>
-          {lista_problemas(destaques, "", "partes-curtas")}
-          <p class="porta-mais"><a href="problemas/">Todos os problemas</a></p>
-        </article>
         <article class="porta porta-percurso item-moldura">
           <p class="porta-rotulo">Quero entender</p>
           <h3><a href="caminho/a-compra/">Siga a skin</a></h3>
@@ -2055,9 +2050,9 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "Você comprou uma skin. Ela é sua? Um caminho pelo que acontece com o que se compra no mundo digital, e nove conceitos para contestar isso."
+    desc = "O que uma plataforma tirou de você? Cinco portas pelo que você perdeu, o caminho de uma skin e nove conceitos para contestar."
     corpo = f'<div class="pagina-inicio">{corpo}</div>'
-    (SAIDA / "index.html").write_text(pagina("Lex Plataformae · Você comprou uma skin. Ela é sua?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
+    (SAIDA / "index.html").write_text(pagina("Lex Plataformae · O que uma plataforma tirou de você?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
     # A página do vocabulário, em conceitos/. Antes era a seção #conceitos da capa. Decisão do autor de 10/11/2026.
     pre, base_v = "../", ""
@@ -3448,7 +3443,7 @@ def html_texto_lei(t, prefixo):
                 f'<p class="lei-fonte ciencia">Redação transcrita na nota {esc(t["nota"])}, p. {t["pagina"]}.</p>')
     linhas = "".join(f"<p>{esc(l)}</p>" for l in t["texto"])
     return (f'<blockquote class="lei-texto planalto">{linhas}</blockquote>'
-            f'<p class="lei-fonte acrescimo">Texto em vigor copiado do <a href="{esc(t["fonte"])}" rel="noopener">site do Planalto</a> em 27/10/2026. Acréscimo posterior, fora da tese.</p>')
+            f'<p class="lei-fonte acrescimo">Texto em vigor copiado do <a href="{esc(t["fonte"])}" rel="noopener">site do Planalto</a> em {t.get("data", "27/10/2026")}. Acréscimo posterior, fora da tese.</p>')
 
 
 class _Leis:
@@ -3501,11 +3496,14 @@ def com_lei(corpo, prefixo):
             curto, _ = _diploma(m.group("dip"))
             nums = m.group("nums")
             det = re.sub(r"\s+", " ", re.sub(r"§\s*", "§ ", m.group("det"))).strip(" ,")
+            def chave_num(x):
+                s = re.match(r"\d+(?:-[A-Z])?", x).group()
+                return int(s) if s.isdigit() else s
             if re.search(r"\sa\s", nums):
-                numeros = [int(re.match(r"\d+", nums).group())]
+                numeros = [chave_num(nums)]
             else:
-                numeros = [int(re.match(r"\d+", x).group()) for x in re.split(r"\s*(?:,|\se\s)\s*", nums) if x and re.match(r"\d+", x)]
-            textos = [t for t in (texto_do_artigo(curto, n, det if len(numeros) == 1 else "") for n in numeros) if t]
+                numeros = [chave_num(x) for x in re.split(r"\s*(?:,|\se\s)\s*", nums) if x and re.match(r"\d+", x)]
+            textos = [t for t in ((texto_do_artigo(curto, n, det if len(numeros) == 1 else "") if isinstance(n, int) else None) or LEIS_EXTRAS.get((curto, n)) for n in numeros) if t]
             if not textos:
                 return m.group(0)
             if PAGINA_ATUAL[0]:

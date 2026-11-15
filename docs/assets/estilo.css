@@ -1498,6 +1498,11 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .grade-perda{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
 .porta-perda h3{margin-top:0}
 .porta-comum{margin-top:1.5rem}
+.grade-perda{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){.grade-perda{grid-template-columns:1fr}}
+.porta-perda .porta-mais{margin-top:auto}
+.chamada{text-wrap:balance}
+.cena-caso{text-align:center;font-family:var(--serifa);font-weight:500;font-size:clamp(1.8rem,3.4vw,2.6rem);margin:5rem auto 1.5rem;max-width:40rem;text-wrap:balance}
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

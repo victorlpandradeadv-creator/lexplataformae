@@ -48,7 +48,7 @@ O alcance caiu, a regra do aplicativo mudou ou a loja puniu sem dizer por quê. 
 
 ### porta-comum
 
-Em qualquer porta, chega a hora de provar o que aconteceu e de reclamar onde a resposta conta.
+Seja qual for a porta, chega a hora de provar o que aconteceu e de reclamar onde a resposta conta.
 
 ### cena-compra
 
