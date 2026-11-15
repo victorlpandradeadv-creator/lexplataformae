@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
-CAMPOS_META = {"molde", "modo", "lugar", "titulo", "nota"}
+CAMPOS_META = {"molde", "modo", "lugar", "titulo", "nota", "pagina", "posicao", "rotulos"}
 
 
 def carregar():
@@ -120,7 +120,141 @@ def _colunas(p, prefixo, esc, pg):
             + '</div>')
 
 
-MOLDES = {"arvore": _arvore, "fluxo": _fluxo, "colunas": _colunas}
+def _etapas(p, prefixo, esc, pg):
+    """Sequência vertical de etapas. Cada grupo é uma etapa, com cabeçalho e itens, e uma seta leva à seguinte."""
+    etapas = [g for g in p["grupos"].values() if g]
+    partes = []
+    for k, g in enumerate(etapas):
+        partes.append(f'<li class="esq-etapa"><span class="esq-etapa-num" aria-hidden="true">{k + 1}</span>{_grupo(g, prefixo, esc, pg, "destaque" if k == 0 else "")}</li>')
+    return f'<ol class="esq-corpo esq-etapas">{"".join(partes)}</ol>'
+
+
+def _grade(p, prefixo, esc, pg):
+    """Caixas lado a lado, sem ordem entre elas. A primeira linha de cada grupo é o cabeçalho."""
+    grupos = list(p["grupos"].items())
+    n = len(grupos)
+    return (f'<div class="esq-corpo esq-grade" style="--esq-cols:{min(n, 4)}">'
+            + "".join(_grupo(g, prefixo, esc, pg, "destaque" if nome.startswith("destaque") else ("saida" if nome.startswith("saida") else "")) for nome, g in grupos)
+            + "</div>")
+
+
+def _constelacao(p, prefixo, esc, pg):
+    """Um centro e satélites dos dois lados, cada um ligado ao centro por um traço."""
+    centro = p["grupos"].get("centro", [])
+    sats = p["grupos"].get("satelites", [])
+    meio = (len(sats) + 1) // 2
+    esq, dir_ = sats[:meio], sats[meio:]
+    col = lambda itens, lado: (f'<ul class="esq-sats {lado}">' + "".join(f'<li>{_caixa(c, prefixo, esc, pg)}</li>' for c in itens) + "</ul>")
+    return ('<div class="esq-corpo esq-constelacao">' + col(esq, "esq") + f'<div class="esq-centro">{_grupo(centro, prefixo, esc, pg, "destaque")}</div>'
+            + col(dir_, "dir") + "</div>")
+
+
+def _camadas(p, prefixo, esc, pg):
+    """Faixas empilhadas, de cima para baixo. Cada grupo é uma faixa, com o nome à esquerda e o conteúdo à direita."""
+    faixas = []
+    for k, (nome, g) in enumerate(p["grupos"].items()):
+        if not g:
+            continue
+        cab, resto = g[0], g[1:]
+        itens = "".join(f'<li>{esc(i["nome"])}{(": " if False else "")}{_ref(i, prefixo, pg)}</li>' for i in resto)
+        texto = f'<span class="esq-texto">{esc(cab["texto"])}</span>' if cab.get("texto") else ""
+        faixas.append(f'<div class="esq-faixa{" destaque" if nome.startswith("destaque") else ""}"><div class="esq-faixa-nome"><span class="esq-nome">{esc(cab["nome"])}</span>{_ref(cab, prefixo, pg)}</div>'
+                      f'<div class="esq-faixa-corpo">{texto}{("<ul>" + itens + "</ul>") if itens else ""}</div></div>')
+    return f'<div class="esq-corpo esq-camadas">{"".join(faixas)}</div>'
+
+
+def _comparacao(p, prefixo, esc, pg):
+    """Linhas por dimensão, com a coluna do antes e a do depois. Cada linha é 'dimensão | antes | depois'."""
+    rot = [x.strip() for x in p.get("rotulos", "Antes|Depois").split("|")]
+    linhas = p["grupos"].get("linhas", [])
+    cab = f'<div class="esq-cmp-cab" aria-hidden="true"><span></span><span>{esc(rot[0])}</span><span>{esc(rot[1])}</span></div>'
+    corpo = "".join(f'<div class="esq-cmp-linha"><span class="esq-cmp-dim">{esc(l["nome"])}</span>'
+                    f'<span class="esq-caixa"><span class="so-leitor">{esc(rot[0])}. </span>{esc(l["texto"])}</span>'
+                    f'<span class="esq-caixa destaque"><span class="so-leitor">{esc(rot[1])}. </span>{esc(l["ref"])}</span></div>' for l in linhas)
+    return f'<div class="esq-corpo esq-comparacao">{cab}{corpo}</div>'
+
+
+def _ligacoes(p, prefixo, esc, pg):
+    """Cada linha liga uma perda às respostas que podem atendê-la. Grupo 'linhas', com 'perda | resposta; resposta* | p. n'.
+    A resposta marcada com * aparece em destaque."""
+    rot = [x.strip() for x in p.get("rotulos", "|").split("|")]
+    linhas = p["grupos"].get("linhas", [])
+    cab = f'<div class="esq-lig-cab" aria-hidden="true"><span>{esc(rot[0])}</span><span>{esc(rot[1] if len(rot) > 1 else "")}</span></div>'
+    def chips(t):
+        out = []
+        for r in [x.strip() for x in t.split(";") if x.strip()]:
+            d = r.endswith("*")
+            out.append(f'<li class="esq-chip{" destaque" if d else ""}">{esc(r.rstrip("*").strip())}</li>')
+        return "<ul class=\"esq-chips\">" + "".join(out) + "</ul>"
+    corpo = "".join(f'<div class="esq-lig-linha"><span class="esq-caixa esq-lig-perda"><span class="esq-nome">{esc(l["nome"])}</span></span>'
+                    f'<span class="esq-lig-seta" aria-hidden="true"></span>{chips(l["texto"])}</div>' for l in linhas)
+    return f'<div class="esq-corpo esq-ligacoes">{cab}{corpo}</div>'
+
+
+def _portas(p, prefixo, esc, pg):
+    """Uma origem que se abre em portas, e uma faixa comum embaixo que atravessa as portas."""
+    g = p["grupos"]
+    origem = _grupo(g.get("origem", []), prefixo, esc, pg, "destaque")
+    portas = "".join(f'<li>{_caixa(c, prefixo, esc, pg)}</li>' for c in g.get("portas", []))
+    comum = _grupo(g.get("comum", []), prefixo, esc, pg, "atencao")
+    n = len(g.get("portas", []))
+    return (f'<div class="esq-corpo esq-portas" style="--esq-cols:{n}"><div class="esq-origem">{origem}</div>'
+            f'<div class="esq-leque" aria-hidden="true">{"<span></span>" * n}</div><ul class="esq-portas-lista">{portas}</ul>'
+            f'<div class="esq-comum">{comum}</div></div>')
+
+
+def _trilhas(p, prefixo, esc, pg):
+    """Colunas paralelas, cada uma uma lista ordenada. A primeira linha do grupo é o nome da coluna."""
+    cols = []
+    for g in p["grupos"].values():
+        if not g:
+            continue
+        cab, resto = g[0], g[1:]
+        texto = f'<span class="esq-texto">{esc(cab["texto"])}</span>' if cab.get("texto") else ""
+        cols.append(f'<div class="esq-caixa esq-trilha"><span class="esq-nome">{esc(cab["nome"])}</span>{texto}{_ref(cab, prefixo, pg)}'
+                    f'<ol>' + "".join(f'<li>{esc(i["nome"])}{(" <span class=" + chr(34) + "esq-texto" + chr(34) + ">" + esc(i["texto"]) + "</span>") if i.get("texto") else ""}{_ref(i, prefixo, pg)}</li>' for i in resto) + "</ol></div>")
+    return f'<div class="esq-corpo esq-trilhas" style="--esq-cols:{len(cols)}">{"".join(cols)}</div>'
+
+
+MOLDES = {"arvore": _arvore, "fluxo": _fluxo, "colunas": _colunas, "etapas": _etapas, "grade": _grade, "constelacao": _constelacao,
+          "camadas": _camadas, "comparacao": _comparacao, "ligacoes": _ligacoes, "portas": _portas, "trilhas": _trilhas}
+
+
+def inserir(corpo, caminho, prefixo, esc, pg, expansao):
+    """Põe na página os esquemas cujo campo pagina é este caminho. A posição é 'antes <texto de título>', 'depois <texto de título>'
+    ou, sem posição, antes das saídas. Esquemas chamados pelo próprio gerador não usam esse campo."""
+    for ident, p in ESQUEMAS.items():
+        if p.get("pagina", "").strip() != caminho:
+            continue
+        peca = esquema(ident, prefixo, esc, pg, expansao)
+        pos = p.get("posicao", "")
+        modo, _, alvo = pos.partition(" ")
+        feito = False
+        if alvo:
+            achados = list(re.finditer(r"<h[23][^>]*>", corpo))
+            for k, m in enumerate(achados):
+                fim = corpo.find("</h", m.end())
+                texto = re.sub(r"<[^>]+>", "", corpo[m.end():fim])
+                if alvo.lower() in texto.lower():
+                    if modo == "antes":
+                        ini = corpo.rfind("<section", 0, m.start())
+                        ini = ini if ini >= 0 and corpo.find("</section>", ini) > m.start() and corpo.find("<section", ini + 1, m.start()) < 0 else m.start()
+                        corpo = corpo[:ini] + peca + corpo[ini:]
+                    else:
+                        fecha = corpo.find("</section>", m.end())
+                        prox = achados[k + 1].start() if k + 1 < len(achados) else len(corpo)
+                        alvo_pos = fecha + len("</section>") if 0 <= fecha < prox else prox
+                        corpo = corpo[:alvo_pos] + peca + corpo[alvo_pos:]
+                    feito = True
+                    break
+            if not feito:
+                raise SystemExit(f"Esquema {ident}: título '{alvo}' não encontrado em {caminho}")
+        if not feito:
+            k = corpo.find('<nav class="ext saidas"')
+            k = k if k >= 0 else corpo.rfind("</article>")
+            corpo = corpo[:k] + peca + corpo[k:]
+    return corpo
+
 
 
 def esquema(ident, prefixo, esc, pg, expansao):
@@ -128,7 +262,7 @@ def esquema(ident, prefixo, esc, pg, expansao):
     if not p or p.get("molde") not in MOLDES:
         return ""
     USADOS.add(ident)
-    modo = " interno" if p.get("modo") == "doutrina" else ""
+    modo = {"doutrina": " interno", "ciencia": " ciencia"}.get(p.get("modo"), "")
     tid = f"esquema-{ident}"
     nota = ""
     if p.get("nota"):

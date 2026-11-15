@@ -22,7 +22,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.15"
+VERSAO = "0.16"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -38,6 +38,7 @@ VERSOES = [
     ("0.13", "12/11/2026", "Revisão de leitor. Saem as notas de bastidor e os rótulos que faziam a tese falar, cada citação aparece uma vez por página, e a marca de página deixa de partir nomes próprios."),
     ("0.14", "13/11/2026", "Revisão de leitor, segunda parte. A Doutrina ganha nomes próprios e capa, os problemas se agrupam em famílias, Situações e Seus direitos passam a ter uma página por situação e os dois capítulos mais longos se leem em duas partes."),
     ("0.15", "15/11/2026", "Primeira grande adição posterior à defesa. A capa abre por uma pergunta e cinco portas pela perda, e entra a página do Objeto Imaterial de Fruição Governada, para quem depende de plataforma sem ser consumidor."),
+    ("0.16", "15/11/2026", "Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -479,6 +480,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     # Situações e Seus direitos têm uma página por situação desde 13/11/2026. Os links antigos para a âncora
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
+    corpo = esquemas.inserir(corpo, caminho, prefixo, esc, pg, expansao)
     canonico = BASE + "/" + caminho
     descricao = resumo(descricao)
     # A coluna lateral sai dos títulos da própria página e das páginas irmãs. O índice nasce antes dos balões, com o texto limpo.
@@ -566,7 +568,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
       <p class="referencia citar-pagina">ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}{"" if titulo.split(" · ")[0].rstrip()[-1:] in "?!." else "."} <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}</p>
     </div>
     <div class="ciencia rodape-estudo">
-      <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto.</p>
+      <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Pesquisa realizada com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001. Todos os direitos reservados até a definição da licença do projeto.</p>
     </div>
     {assinatura}
   </footer>
@@ -1934,7 +1936,9 @@ def gerar_inicio():
     # Capa narrativa, decisão do autor de 10/11/2026. A história desce em quatro telas e termina em três portas.
     # Na Doutrina a história some e a capa abre nas portas. O vocabulário completo mora em conceitos/.
     def cena(campo_, classe=""):
-        return (f'<section class="cena {classe} em-modo modo-0 modo-2">{ext_html("inicio", campo_, "")}</section>')
+        # A história da skin saiu da capa da Informação em 15/11/2026, por ordem do autor. Quem chega pela rede social
+        # escolhe pelo que viveu, e a skin fica como um caminho entre outros. Na Ciência a história continua, com os trechos.
+        return (f'<section class="cena {classe} em-modo modo-2">{ext_html("inicio", campo_, "")}</section>')
     # Portas com o mesmo contrato de conteúdo. Sobrelinha, título, uma frase, quatro entradas e uma saída.
     # Revisão de disposição de 12/11/2026, por ordem do autor, para as três portas terem a mesma altura pelo conteúdo.
     portas_caminho = ('<ul class="partes-curtas">' + "".join(f'<li><a href="caminho/{pt["slug"]}/">{esc(pt["titulo"])}</a></li>' for pt in PERCURSO[:4]) + "</ul>")
@@ -1950,7 +1954,7 @@ def gerar_inicio():
     portas_perda = (f'<section class="portas portas-perda-secao em-modo modo-0 modo-2" aria-labelledby="perda-titulo">'
                     f'<h2 class="portas-titulo" id="perda-titulo">Escolha o que aconteceu</h2>'
                     f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>'
-                    f'<h2 class="cena-caso em-modo modo-0 modo-2">Você comprou uma skin. Ela é sua?</h2>')
+                    f'<h2 class="cena-caso em-modo modo-2">Você comprou uma skin. Ela é sua?</h2>')
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
@@ -1979,7 +1983,7 @@ def gerar_inicio():
     </section>
 
     <section class="portas" aria-labelledby="portas-titulo">
-      <div class="portas-texto em-modo modo-0 modo-2">{ext_html("inicio", "portas", "")}</div>
+      <div class="portas-texto em-modo modo-2">{ext_html("inicio", "portas", "")}</div>
       <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
       <div class="portas-grade">
         <article class="porta porta-percurso item-moldura">
@@ -2040,6 +2044,8 @@ def gerar_inicio():
                 "name": TITULO_TESE,
                 "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade", "alternateName": "Victor L. P. Andrade"},
                 "datePublished": "2026",
+                "funder": {"@type": "Organization", "name": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)", "url": "https://www.gov.br/capes"},
+                "funding": {"@type": "Grant", "identifier": "88887.670298/2022-00", "funder": {"@type": "Organization", "name": "CAPES"}},
                 "inSupportOf": "Doutorado em Direito",
                 "sourceOrganization": {"@type": "CollegeOrUniversity", "name": "Universidade Estadual Paulista (UNESP)"},
                 "inLanguage": "pt-BR",
@@ -2654,6 +2660,22 @@ def blocos_do_roteiro():
     return {"secao": sec, "abertura": abertura, "itens": itens, "fecho": fecho}
 
 
+def quadro_situacoes(r, titulos):
+    """D3. As onze situações num quadro, com o que faz cada uma incidir, o dever e a consequência, na voz do site.
+    Tabela HTML, para leitor de tela, tradução e celular. Esquemas, lote 2, 15/11/2026."""
+    colunas = ["Quando incide", "Dever de fornecimento", "Consequência institucional"]
+    linhas = []
+    for it in r["itens"]:
+        campos = {s_["titulo"]: " ".join(s_["paragrafos"]) for s_ in DOUTRINA.get(f'quadro {it["letra"]}', [])}
+        celulas = "".join(f'<td data-rotulo="{esc(c)}">{esc(campos.get(c, ""))}</td>' for c in colunas)
+        linhas.append(f'<tr><th scope="row"><a href="{it["letra"]}/"><span class="letra ciencia">{it["letra"]})</span> {esc(titulos[it["letra"]])}</a></th>{celulas}</tr>')
+    return ('<figure class="esquema esquema-tabela interno" id="esquema-d3-quadro" aria-labelledby="esquema-d3-quadro-titulo" data-arq="esquema · d3-quadro">'
+            '<figcaption class="esq-titulo" id="esquema-d3-quadro-titulo">As onze situações lado a lado</figcaption>'
+            '<div class="esq-tabela-rolagem"><table class="esq-tabela"><thead><tr><th scope="col">Situação</th>'
+            + "".join(f'<th scope="col">{esc(c)}</th>' for c in colunas) + "</tr></thead><tbody>" + "".join(linhas) + "</tbody></table></div>"
+            '<p class="esq-nota">O quadro orienta a leitura e não mecaniza a decisão. Cada situação traz a prova mínima e a qualificação na sua página.</p></figure>')
+
+
 def gerar_roteiro():
     """Situações. O índice fica em roteiro/, com a abertura, o portão e o fecho, e cada situação tem página própria em
     roteiro/<letra>/. Revisão de leitor aprovada pelo autor em 13/11/2026, porque a página única passava de 100 mil caracteres."""
@@ -2724,6 +2746,7 @@ def gerar_roteiro():
         + f'<nav class="bloco indice-roteiro" aria-label="As situações"><h2>As onze situações</h2><ol>{indice}</ol></nav>'
         + como_usar
         + esquemas.esquema("d1-portao", prefixo, esc, pg, expansao)
+        + quadro_situacoes(r, titulos)
         + doutrina_html("situacoes fecho", prefixo)
         + '</article>'
     )
@@ -4341,7 +4364,7 @@ def gerar_auxiliares():
         "",
         "> Atlas do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae, a partir da tese de doutorado "
         "de Victor Luiz Pereira de Andrade (Victor L. P. Andrade), UNESP, Franca, 2026. Toda citação do site é transcrição literal "
-        "da tese, com a página indicada. Acréscimos posteriores à tese são marcados e datados.",
+        "da tese, com a página indicada. Acréscimos posteriores à tese são marcados e datados. Pesquisa realizada com apoio da CAPES, Código de Financiamento 001.",
         "",
         "Os nove conceitos se articulam no regime do OIC. Nas palavras da tese, " + "“" + (lambda q: q["texto"] if q else "")(next((q for q in (campo(EIXO, "Como integra os demais") or {"citacoes": []})["citacoes"] if q["ref"] == "p. 719"), None)) + "” (p. 719)",
         "",
@@ -4529,6 +4552,9 @@ def gerar_autor():
         'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
+        + '<section class="ext financiamento"><h2 class="rotulo-ext">Financiamento</h2>'
+          '<p>O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001.</p>'
+          '<p>A pesquisa contou com o apoio da CAPES no processo nº 88887.670298/2022-00, no Programa de Pós-Graduação em Direito da UNESP, como registram os agradecimentos da tese.</p></section>'
         + '<section class="ext"><p>As ilustrações conceituais do site foram feitas com inteligência artificial, a partir de um plano em que cada imagem '
         'parte de um trecho da tese. Os esquemas foram montados à mão, em código.</p></section>'
         + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do caminho</h2>'

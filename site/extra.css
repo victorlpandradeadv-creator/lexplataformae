@@ -1292,3 +1292,118 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .portas-grade.grade-perda > .porta-perda > .porta-mais { align-self: flex-start; text-align: left; }
 .problemas-pagina h2[id^="porta-"] { scroll-margin-top: 5rem; }
 .chamada .chamada-linha { text-wrap: balance; }
+
+/* Esquemas, lote 2 e revisão dos pilotos. 15/11/2026, por ordem do autor. Nenhuma caixa fica com vão vazio dentro.
+   Caixas só esticam quando o vizinho tem o mesmo conteúdo. Onde a altura varia, a caixa fica do tamanho do texto. */
+.esq-arvore .esq-nao-caixa { position: relative; align-items: center; padding-left: 1rem; }
+.esq-arvore .esq-nao-caixa::before { content: ""; position: absolute; left: 0; top: 1.4rem; bottom: 1.4rem; border-left: 1px solid var(--traco); }
+.esq-arvore .esq-nao-caixa .esq-caixa { flex: 1 1 auto; align-self: center; }
+.esq-arvore .esq-nao-caixa::after { content: ""; position: absolute; left: 0; top: 50%; width: 1rem; border-top: 1px solid var(--traco); }
+.esq-arvore .esq-lado { margin-right: 0; }
+.esq-arvore .esq-lado::after { display: none; }
+.esq-colunas { align-items: start; }
+.esq-colunas > .esq-caixa, .esq-ponte > .esq-caixa { align-self: start; }
+.esq-ponte { align-self: start; }
+.esq-ponte::before, .esq-ponte::after { top: 1.4rem; }
+
+/* Etapas */
+.esq-etapas { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.6rem; counter-reset: none; }
+.esq-etapa { position: relative; display: grid; grid-template-columns: 2rem minmax(0, 1fr); gap: 0.75rem; align-items: start; margin: 0; }
+.esq-etapa-num { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; border: 1px solid var(--tese-linha); color: var(--tese-texto); font-size: 0.9rem; font-weight: 600; }
+.esq-etapa + .esq-etapa::before { content: ""; position: absolute; left: 1rem; top: -1.6rem; height: 1.6rem; border-left: 1px solid var(--traco); }
+.esq-etapa .esq-caixa ul { columns: 2; column-gap: 1.5rem; }
+.esq-etapa .esq-caixa li { break-inside: avoid; }
+
+/* Grade */
+.esq-grade { display: grid; grid-template-columns: repeat(var(--esq-cols, 3), minmax(0, 1fr)); gap: 0.75rem; }
+
+/* Constelação. O centro fica no meio, os satélites dos dois lados, com um traço até o centro. */
+.esq-constelacao { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); gap: 0 2rem; align-items: center; }
+.esq-sats { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.esq-sats > li { position: relative; margin: 0; display: flex; }
+.esq-sats > li .esq-caixa { flex: 1; }
+.esq-sats.esq > li::after, .esq-sats.dir > li::before { content: ""; position: absolute; top: 50%; width: 2rem; border-top: 1px dashed var(--traco); }
+.esq-sats.esq > li::after { left: 100%; }
+.esq-sats.dir > li::before { right: 100%; }
+.esq-centro .esq-caixa { text-align: center; }
+
+/* Camadas */
+.esq-camadas { display: grid; gap: 0; border: 1px solid var(--traco); border-radius: 8px; overflow: hidden; }
+.esq-faixa { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 1rem; padding: 0.8rem 1rem; align-items: start; }
+.esq-faixa + .esq-faixa { border-top: 1px solid var(--traco); }
+.esq-faixa.destaque { background: color-mix(in srgb, var(--tese-linha) 9%, var(--folha)); }
+.esq-faixa-nome .esq-nome { display: block; }
+.esq-faixa-corpo ul { margin: 0.35rem 0 0; padding-left: 1.1rem; font-size: 0.9rem; line-height: 1.4; columns: 2; column-gap: 1.5rem; }
+.esq-faixa-corpo li { break-inside: avoid; }
+
+/* Comparação */
+.esq-comparacao { display: grid; gap: 0.6rem; }
+.esq-cmp-cab, .esq-cmp-linha { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr) minmax(0, 1fr); gap: 0.75rem; align-items: stretch; }
+.esq-cmp-cab span { font-size: 0.8rem; color: var(--tinta-2); text-transform: none; }
+.esq-cmp-dim { font-weight: 600; font-size: 0.95rem; align-self: center; color: var(--tinta); }
+.esq-cmp-linha .esq-caixa { font-size: 0.92rem; line-height: 1.4; color: var(--tinta); justify-content: center; }
+
+/* Ligações */
+.esq-ligacoes { display: grid; gap: 0.6rem; }
+.esq-lig-cab, .esq-lig-linha { display: grid; grid-template-columns: minmax(0, 13rem) 2rem minmax(0, 1fr); align-items: center; }
+.esq-lig-cab span:last-child { grid-column: 3; }
+.esq-lig-cab span { font-size: 0.8rem; color: var(--tinta-2); }
+.esq-lig-seta { height: 1px; background: var(--traco); position: relative; margin-right: 4px; }
+.esq-lig-seta::after { content: ""; position: absolute; right: -6px; top: -4px; border: 4.5px solid transparent; border-left: 6px solid var(--traco); }
+.esq-chips { list-style: none; margin: 0; padding: 0 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.esq-chip { margin: 0; padding: 0.35rem 0.65rem; border: 1px solid var(--traco); border-radius: 999px; font-size: 0.88rem; line-height: 1.3; color: var(--tinta-2); }
+.esq-chip.destaque { border-color: var(--tese-linha); color: var(--tinta); background: color-mix(in srgb, var(--tese-linha) 9%, var(--folha)); }
+
+/* Portas */
+.esq-portas { display: grid; gap: 0; }
+.esq-origem { max-width: 32rem; margin: 0 auto; width: 100%; }
+.esq-leque { display: grid; grid-template-columns: repeat(var(--esq-cols, 3), minmax(0, 1fr)); height: 1.8rem; position: relative; }
+.esq-leque::before { content: ""; position: absolute; left: calc(100% / var(--esq-cols, 3) / 2); right: calc(100% / var(--esq-cols, 3) / 2); top: 0.6rem; border-top: 1px solid var(--traco); }
+.esq-leque span { position: relative; }
+.esq-leque span::before { content: ""; position: absolute; left: 50%; top: 0.6rem; bottom: 0; border-left: 1px solid var(--traco); }
+.esq-leque::after { content: ""; position: absolute; left: 50%; top: 0; height: 0.6rem; border-left: 1px solid var(--traco); }
+.esq-portas-lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--esq-cols, 3), minmax(0, 1fr)); gap: 0.75rem; }
+.esq-portas-lista > li { display: flex; margin: 0; }
+.esq-portas-lista > li .esq-caixa { flex: 1; }
+.esq-comum { margin-top: 0.75rem; }
+
+/* Trilhas */
+.esq-trilhas { display: grid; grid-template-columns: repeat(var(--esq-cols, 3), minmax(0, 1fr)); gap: 0.75rem; align-items: start; }
+.esq-trilha ol { margin: 0.5rem 0 0; padding-left: 1.2rem; font-size: 0.9rem; line-height: 1.4; color: var(--tinta); }
+.esq-trilha li + li { margin-top: 0.3rem; }
+.esq-trilha li .esq-texto { display: block; font-size: 0.82rem; }
+
+/* Tabela D3 */
+.esq-tabela-rolagem { overflow-x: auto; }
+.esq-tabela { width: 100%; border-collapse: collapse; font-size: 0.88rem; line-height: 1.4; }
+.esq-tabela th, .esq-tabela td { text-align: left; vertical-align: top; padding: 0.6rem 0.7rem; border-top: 1px solid var(--traco); }
+.esq-tabela thead th { font-size: 0.8rem; color: var(--tinta-2); font-weight: 600; border-top: 0; }
+.esq-tabela tbody th { font-weight: 600; width: 22%; }
+.esq-tabela tbody th a { color: var(--tinta); text-decoration-color: var(--rubrica); }
+
+@media (max-width: 760px) {
+  .esq-arvore .esq-nao-caixa { padding-left: 0; }
+  .esq-arvore .esq-nao-caixa::before, .esq-arvore .esq-nao-caixa::after { display: none; }
+  .esq-grade, .esq-trilhas, .esq-portas-lista { grid-template-columns: minmax(0, 1fr); }
+  .esq-constelacao { grid-template-columns: minmax(0, 1fr); gap: 0.6rem; }
+  .esq-constelacao .esq-centro { order: -1; }
+  .esq-sats > li::before, .esq-sats > li::after { display: none; }
+  .esq-faixa, .esq-cmp-cab, .esq-cmp-linha, .esq-lig-cab, .esq-lig-linha { grid-template-columns: minmax(0, 1fr); }
+  .esq-cmp-cab, .esq-lig-cab, .esq-lig-seta, .esq-leque { display: none; }
+  .esq-chips { padding: 0.4rem 0 0; }
+  .esq-faixa-corpo ul, .esq-etapa .esq-caixa ul { columns: 1; }
+  .esq-tabela thead { display: none; }
+  .esq-tabela, .esq-tabela tbody, .esq-tabela tr, .esq-tabela th, .esq-tabela td { display: block; width: auto; }
+  .esq-tabela tr { border-top: 1px solid var(--traco); padding: 0.5rem 0; }
+  .esq-tabela th, .esq-tabela td { border: 0; padding: 0.25rem 0; }
+  .esq-tabela td::before { content: attr(data-rotulo); display: block; font-size: 0.78rem; color: var(--tinta-2); }
+}
+/* No esquema, o trecho já citado na página não se repete como aviso. Se todos já foram citados, o bloco some. */
+.esquema .ja-citado { display: none; }
+.esquema .expansao:not(:has(blockquote:not(.ja-citado))):not(:has(p.ja-citado ~ blockquote)) { }
+.esquema .expansao:not(:has(blockquote)) { display: none; }
+.esq-faixa-corpo, .esq-faixa-corpo .esq-texto { line-height: 1.4; font-size: 0.9rem; }
+.esq-faixa-corpo .esq-texto { display: block; }
+.esq-trilhas { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+/* Por onde seguir tem duas portas desde 15/11/2026, centradas no eixo da capa. */
+@media (min-width: 761px) { .portas:not(.portas-perda-secao) .portas-grade { grid-template-columns: repeat(2, minmax(0, 24rem)); justify-content: center; } }
