@@ -1509,6 +1509,7 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .portas-grade.grade-perda > .porta-perda > .porta-mais { margin-top: auto; }
 .portas-grade.grade-perda > .porta-perda > .porta-mais { align-self: flex-start; text-align: left; }
 .problemas-pagina h2[id^="porta-"] { scroll-margin-top: 5rem; }
+.chamada .chamada-linha { text-wrap: balance; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
