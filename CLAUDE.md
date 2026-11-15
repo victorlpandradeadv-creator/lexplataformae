@@ -168,7 +168,7 @@ As partes do site, dentro dessas camadas.
 
 - 15/11/2026. Revisão estética, segunda parte, e versão 0.17, por ordem do autor. As 29 ilustrações ganharam `<id>-escuro.webp` por negativo calculado em OKLab (`ferramentas/negativo.py`). O papel vira o papel escuro do site, o traço vira a tinta clara e o azul guarda o matiz. Vale para o acervo que já existe. Peça nova nasce com a versão escura definida na encomenda, por decisão do autor. O aviso Trecho já citado acima passou a considerar o modo dos ancestrais (`_modos_por_posicao`), e não aparece mais quando o trecho anterior está escondido no modo em uso. A página de problemas traz a frase de cada porta sob o título da família, e a faixa de reclamar e o aviso ocupam a largura toda. O título da página nunca aparece sublinhado. Na Ciência a legenda virou só o controle Mostrar toda a arquitetura, na linha da faixa de versão, e o título não desce mais. No celular os cinco itens do menu cabem numa linha.
 
-- 15/11/2026. Ilustrações no tema escuro, por ordem do autor, depois de teste no ar. O negativo calculado ficou escuro demais, e o tema escuro passa a mostrar a arte clara como prancha impressa, com brilho reduzido e moldura fina (fim de `site/extra.css`). Os arquivos `-escuro.webp` ficam no repositório, sem uso.
+- 15/11/2026. Ilustrações no tema escuro, por ordem do autor, depois de teste no ar. O negativo calculado ficou escuro demais e passa a negativo parcial, com o fundo um tom acima do papel e o traço menos claro, por filtro sobre `-escuro.webp` (fim de `site/extra.css`).
 
 ## Arquivos
 
