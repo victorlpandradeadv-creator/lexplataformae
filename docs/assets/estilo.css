@@ -1643,19 +1643,14 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
   .menu-modo > ul:first-child { display: grid; grid-template-columns: repeat(3, max-content); column-gap: 1.25rem; row-gap: 0; }
 }
 
-/* Teste 15/11/2026. Prancha impressa no tema escuro (a-compra, a-mudanca) e negativo parcial (o-desejo). */
-:root[data-theme="dark"] .ilustracao:has(img[src*="parte-a-compra"]) .arte-clara,
-:root[data-theme="dark"] .ilustracao:has(img[src*="parte-a-mudanca"]) .arte-clara { display:block; filter:brightness(.82) contrast(.96) sepia(.08); border:1px solid #3a332c; border-radius:3px; box-shadow:0 1px 0 #00000055; }
-:root[data-theme="dark"] .ilustracao:has(img[src*="parte-a-compra"]) .arte-escura,
-:root[data-theme="dark"] .ilustracao:has(img[src*="parte-a-mudanca"]) .arte-escura { display:none; }
-:root[data-theme="dark"] .ilustracao:has(img[src*="parte-o-desejo"]) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; }
+/* 15/11/2026. Prancha impressa no tema escuro, por ordem do autor. A arte clara volta, com brilho reduzido e moldura fina. */
+:root[data-theme="dark"] .ilustracao .arte-clara { display:block; filter:brightness(.82) contrast(.96) sepia(.08); border:1px solid #3a332c; border-radius:3px; }
+:root[data-theme="dark"] .ilustracao .arte-escura { display:none; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .ilustracao:has(img[src*="parte-a-compra"]) .arte-clara,
-  :root:not([data-theme="light"]) .ilustracao:has(img[src*="parte-a-mudanca"]) .arte-clara { display:block; filter:brightness(.82) contrast(.96) sepia(.08); border:1px solid #3a332c; border-radius:3px; }
-  :root:not([data-theme="light"]) .ilustracao:has(img[src*="parte-a-compra"]) .arte-escura,
-  :root:not([data-theme="light"]) .ilustracao:has(img[src*="parte-a-mudanca"]) .arte-escura { display:none; }
-  :root:not([data-theme="light"]) .ilustracao:has(img[src*="parte-o-desejo"]) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; }
+  :root:not([data-theme="light"]) .ilustracao .arte-clara { display:block; filter:brightness(.82) contrast(.96) sepia(.08); border:1px solid #3a332c; border-radius:3px; }
+  :root:not([data-theme="light"]) .ilustracao .arte-escura { display:none; }
 }
+@media print { .ilustracao .arte-clara { filter:none !important; border:0 !important; } }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
