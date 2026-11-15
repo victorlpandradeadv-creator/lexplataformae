@@ -1,6 +1,6 @@
-# Ilustrações novas, versão 0.17
+# Plano consolidado das ilustrações, versão 0.17
 
-Rascunho do Claude de 15/11/2026, por ordem do autor, refeito no mesmo dia para ficar pronto para execução. É planejamento, e nada daqui está no site. As peças seguem a direção de arte de `estrutura/ilustracoes.md` e acrescentam as regras abaixo. Quando o autor aprovar, cada peça passa para `estrutura/ilustracoes.md` no mesmo formato de campos, e o gerador a lê de lá.
+Rascunho do Claude de 15/11/2026, por ordem do autor, refeito no mesmo dia como plano consolidado de todas as peças do site, novas e antigas, para geração numa mesma sessão. É planejamento, e nada daqui está no site. As peças seguem a direção de arte de `estrutura/ilustracoes.md` e acrescentam as regras abaixo. Quando o autor aprovar, cada peça passa para `estrutura/ilustracoes.md` no mesmo formato de campos, e o gerador a lê de lá.
 
 Os trechos citados aqui passam pelo script, com `python3 ferramentas/conferir_citacoes.py estrutura/ilustracoes-novas.md`.
 
@@ -112,7 +112,89 @@ A peça inicio sai da capa da Informação e da Doutrina. Fica na capa da Ciênc
 
 Legendas e textos alternativos entram na memória de tradução na mesma rodada, em `traducao/saida/ilustracoes-novas.jsonl`.
 
-# 4. As peças
+# 4. Inventário
+
+Todas as peças do site, novas e antigas, para a mesma sessão de geração. Situação nova quer dizer desenhar as duas versões. Situação escura quer dizer desenhar só a versão escura a partir da clara publicada.
+
+| id | lugar | família | situação |
+|---|---|---|---|
+| porta-acesso | capa, problemas e lateral | vinheta | nova |
+| porta-mudou | capa, problemas e lateral | vinheta | nova |
+| porta-empurrado | capa, problemas e lateral | vinheta | nova |
+| porta-sair | capa, problemas e lateral | vinheta | nova |
+| porta-decide | capa, problemas e lateral | vinheta | nova |
+| porta-comum | capa, problemas e lateral | vinheta | nova |
+| problema-conta-bloqueada | problemas/conta-bloqueada/ | abertura | nova |
+| problema-item-alterado | problemas/item-alterado/ | abertura | nova |
+| problema-servico-piorou | problemas/servico-piorou/ | abertura | nova |
+| problema-presente-retirado | problemas/presente-retirado/ | abertura | nova |
+| problema-jogo-encerrado | problemas/jogo-encerrado/ | abertura | nova |
+| problema-so-licenca | problemas/so-licenca/ | abertura | nova |
+| problema-promessa | problemas/promessa/ | abertura | nova |
+| problema-exclusivo-voltou | problemas/exclusivo-voltou/ | abertura | nova |
+| problema-sorteio | problemas/sorteio/ | abertura | nova |
+| problema-moeda | problemas/moeda/ | abertura | nova |
+| problema-pressa | problemas/pressa/ | abertura | nova |
+| problema-regras-escondidas | problemas/regras-escondidas/ | abertura | nova |
+| problema-prova | problemas/prova/ | abertura | nova |
+| problema-reclamacao-some | problemas/reclamacao-some/ | abertura | nova |
+| problema-sair | problemas/sair/ | abertura | nova |
+| problema-historia-perdida | problemas/historia-perdida/ | abertura | nova |
+| problema-programa-no-aparelho | problemas/programa-no-aparelho/ | abertura | nova |
+| problema-crianca | problemas/crianca/ | abertura | nova |
+| problema-assistente | problemas/assistente/ | abertura | nova |
+| problema-loja-virtual | problemas/loja-virtual/ | abertura | nova |
+| problema-rede-social | problemas/rede-social/ | abertura | nova |
+| problema-trabalho-por-app | problemas/trabalho-por-app/ | abertura | nova |
+| problema-vendo-na-plataforma | problemas/vendo-na-plataforma/ | abertura | nova |
+| problema-muita-gente | problemas/muita-gente/ | abertura | nova |
+| direitos-continua | direitos/ | abertura | nova |
+| alem-do-consumo | alem-do-consumo/ | abertura | nova |
+| como-reclamar | como-reclamar/ | abertura | nova |
+| direito-a | direitos/ e direitos/a/ | vinheta | nova |
+| direito-b | direitos/ e direitos/b/ | vinheta | nova |
+| direito-c | direitos/ e direitos/c/ | vinheta | nova |
+| direito-d | direitos/ e direitos/d/ | vinheta | nova |
+| direito-e | direitos/ e direitos/e/ | vinheta | nova |
+| direito-f | direitos/ e direitos/f/ | vinheta | nova |
+| direito-g | direitos/ e direitos/g/ | vinheta | nova |
+| direito-h | direitos/ e direitos/h/ | vinheta | nova |
+| direito-i | direitos/ e direitos/i/ | vinheta | nova |
+| direito-j | direitos/ e direitos/j/ | vinheta | nova |
+| direito-k | direitos/ e direitos/k/ | vinheta | nova |
+| inicio | Página inicial, logo depois do título e dos atalhos, antes da narrativa da compra | abertura | escura |
+| parte-a-compra | Percurso, parte 1, A compra, na abertura | abertura | escura |
+| imagem-catraca | Percurso, parte 1, A compra, depois do bloco Uma imagem da catraca | interna | escura |
+| imagem-estoque-fluxo | Percurso, parte 1, A compra, depois do bloco Uma imagem da gaveta e do cano | interna | escura |
+| parte-o-desejo | Percurso, parte 2, O desejo, na abertura | abertura | escura |
+| parte-o-dono | Percurso, parte 3, O dono, na abertura | abertura | escura |
+| imagem-torneira | Percurso, parte 3, O dono, depois do bloco Uma imagem da torneira | interna | escura |
+| parte-as-regras | Percurso, parte 4, As regras, na abertura | abertura | escura |
+| parte-o-normal | Percurso, parte 5, O normal, na abertura | abertura | escura |
+| parte-a-mudanca | Percurso, parte 6, A mudança, na abertura | abertura | escura |
+| parte-o-desenho | Percurso, parte 7, O desenho, na abertura | abertura | escura |
+| parte-a-lei | Percurso, parte 8, A lei, na abertura | abertura | escura |
+| parte-a-resposta | Percurso, parte 9, A resposta, na abertura | abertura | escura |
+| parte-alem-do-jogo | Percurso, parte 10, Além do jogo, na abertura | abertura | escura |
+| parte-o-nome | Percurso, parte 11, O nome, na abertura | abertura | escura |
+| ideia-oic | Objeto Imaterial de Consumo, depois de Isso tem nome | abertura | escura |
+| ideia-feixe-de-fruicao-governada | Feixe de fruição governada, depois de Isso tem nome | abertura | escura |
+| ideia-lex-plataformae | Lex Plataformae, depois de Isso tem nome | abertura | escura |
+| ideia-vulnerabilidade-semiotica | Vulnerabilidade semiótica, depois de Isso tem nome | abertura | escura |
+| ideia-teleologia-abusiva | Teleologia abusiva, depois de Isso tem nome | abertura | escura |
+| ideia-ilicito-de-arquitetura | Ilícito de arquitetura, depois de Isso tem nome | abertura | escura |
+| ideia-antecipacao-hipercuratorial | Antecipação hipercuratorial, depois de Isso tem nome | abertura | escura |
+| ideia-auditabilidade-aberta | Auditabilidade aberta, depois de Isso tem nome | abertura | escura |
+| ideia-equivalencia-de-valor-funcional | Equivalência de valor funcional, depois de Isso tem nome | abertura | escura |
+| laboratorio | Laboratório, depois da abertura | abertura | escura |
+| familia-funcionalidade-cognitiva | Laboratório, funcionalidade cognitiva, depois do resumo | interna | escura |
+| familia-infraestrutura-e-intermediacao | Laboratório, infraestrutura e intermediação, depois do resumo | interna | escura |
+| familia-produtividade-gig-economy | Laboratório, produtividade sob a gig economy, depois do resumo | interna | escura |
+| familia-administracao-de-confianca | Laboratório, administração de confiança, depois do resumo | interna | escura |
+
+Total de 73 peças, 44 novas e 29 do acervo.
+
+# 5. Peças novas da entrada
 
 ## porta-acesso
 
@@ -570,20 +652,1554 @@ Anexar parte-a-lei.webp como referência de terreno. Mesmo terreno, mesma funda�
 
 proposta
 
-# 5. Ordem de produção
+## como-reclamar
 
-Primeiro as seis vinhetas, numa mesma sessão do gerador, para que a família saia homogênea. São as mais baratas e mudam a capa inteira. Antes de publicar, as seis são vistas juntas, lado a lado, nas duas versões.
+### pagina
 
-Depois direitos-continua e alem-do-consumo, que fecham as páginas de entrada.
+Como reclamar, depois do primeiro parágrafo e antes do esquema I6.
 
-Por último as quatro aberturas de problema, com os cartões refeitos no mesmo passo.
+### formato
 
-Cada lote passa pelos critérios de aceite antes de entrar, e o autor o vê no ar.
+16 x 9, abertura
 
-# 6. Ficam fora, por ora
+### prioridade
 
-As vinhetas dos onze direitos ficam para depois. Só valem se o índice de Seus direitos virar grade de cartões, porque numa lista de faixas a vinheta pequena atrapalha a leitura.
+B
 
-Os outros vinte problemas usam a vinheta da porta no cartão de compartilhamento e não ganham abertura própria.
+### objetivo
 
-Como reclamar, Situações, capítulos da Doutrina, fichas dos conceitos e páginas da Ciência não recebem peças novas.
+Dizer à pessoa que ela não está sozinha diante da empresa, e que há portas além do atendimento. O esquema logo abaixo organiza as portas, e a imagem só abre a página.
+
+### ideia
+
+Uma pessoa diante de um corredor com quatro portas abertas, cada uma com uma luz diferente saindo. A primeira, a mais próxima, é a da própria empresa.
+
+Acréscimo posterior, como a página. Não cita a tese, que não trata dos canais de reclamação.
+
+### alt
+
+Pessoa diante de um corredor com quatro portas abertas e iluminadas.
+
+### legenda
+
+Há mais de uma porta.
+
+### producao
+
+Corredor em perspectiva central, com quatro portas abertas, duas de cada lado, em distâncias crescentes. De cada uma sai um retângulo de luz no chão. Uma figura sem rosto, pequena, de costas, no começo do corredor. Sem placas, brasões ou símbolos de órgão público. Clara com luzes #f1ebe1 contornadas e a porta mais próxima em #002fa7. Escura com luzes #241f1a e porta #497ef7.
+
+### estado
+
+proposta
+
+# 6. Aberturas dos outros problemas
+
+Mesma família, formato e integração das aberturas de problema da seção 5. Cada uma vira também o cartão de compartilhamento da página.
+
+## problema-item-alterado
+
+### pagina
+
+Problemas, O que eu comprei mudou numa atualização. E agora? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que a mudança depois da venda é o problema, e não a mudança em si, que pode ser legítima.
+
+### ideia
+
+Uma vitrine em que a mesma armadura aparece duas vezes, antes e depois de uma atualização. Uma mão de fora do quadro troca uma peça dela com uma chave de ferramenta.
+
+> A mutabilidade, por si, não é ilícita. O problema começa quando ela deixa de operar como forma legítima de manutenção, aperfeiçoamento ou adaptação do fornecimento e passa a degradar, esvaziar ou desviar, de modo relevante, a função que justificou a aquisição e estruturou a expectativa legítima de fruição. (p. 729)
+
+### alt
+
+Mão que troca uma peça da armadura azul exposta numa vitrine, com a versão anterior ao lado.
+
+### legenda
+
+A peça que você comprou foi trocada depois.
+
+### producao
+
+Vitrine de museu com duas peanhas. Na da esquerda, a armadura canônica inteira. Na da direita, a mesma armadura, e uma mão sem corpo, vinda da borda de cima, ajusta uma ombreira com uma chave de ferramenta simples. A peça trocada fica em azul mais claro que o resto. Nada de dano. Clara com armadura #002fa7 e peça trocada #3a63d0. Escura com armadura #497ef7 e peça trocada #a1bdf9.
+
+### estado
+
+proposta
+
+## problema-servico-piorou
+
+### pagina
+
+Problemas, O serviço piorou, e o preço continua o mesmo. Posso reclamar? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+B
+
+### objetivo
+
+Fazer a pessoa ver a redução que não aparece como corte, a de pagar o mesmo e receber menos.
+
+### ideia
+
+Uma balança de feira. No prato do preço, a mesma pilha de moedas de sempre. No prato do serviço, uma caixa azul que foi ficando menor, com o contorno antigo em tracejado em volta.
+
+> A redução raramente aparece como corte explícito de “aulas”, mas pode se manifestar como perda de alcance, rebaixamento persistente de performance, restrição cumulativa de funcionalidades, compressão de limites, reordenação de visibilidade ou alterações estruturais que elevam o custo de fruir a mesma utilidade. A lógica é a mesma. Mantêm-se o rótulo e o preço, e rebaixa-se a entrega de valor. (p. 480)
+
+### alt
+
+Balança com a mesma pilha de moedas de um lado e, do outro, uma caixa menor dentro do contorno tracejado da caixa antiga.
+
+### legenda
+
+Mesmo preço, caixa menor.
+
+### producao
+
+Balança de dois pratos vista de frente. Prato da esquerda com uma pilha de moedas genéricas em tinta. Prato da direita com uma caixa azul pequena, e em volta dela o contorno tracejado de uma caixa maior. A balança pende para o lado das moedas. Clara com caixa #002fa7 e tracejado #615953. Escura com caixa #497ef7 e tracejado #a9a49c.
+
+### estado
+
+proposta
+
+## problema-presente-retirado
+
+### pagina
+
+Problemas, Um item que recebi de presente foi retirado da minha conta. E agora? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que quem recebeu de presente não fez nada de errado, e que a falha estava antes, no caminho.
+
+### ideia
+
+Duas mãos trocam um pacote azul. Atrás delas, longe, a corrente que trouxe o pacote tem um elo rompido, fora do alcance das duas.
+
+> A segunda camada é a do risco operacional já conhecido pela fornecedora. A Riot mantém, em mais de um título de seu portfólio, orientação específica para hipóteses de cobrança não autorizada, fraude financeira e contestação posterior de transações. Essas comunicações demonstram que o problema de chargeback e uso indevido de meios de pagamento não era fato externo, extraordinário ou imprevisível. Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão. (p. 610)
+
+### alt
+
+Duas pessoas trocando um presente azul, com uma corrente rompida ao fundo, longe delas.
+
+### legenda
+
+A falha estava antes de você.
+
+### producao
+
+Primeiro plano com duas figuras sem rosto, uma entregando à outra um pacote com laço, em azul. Ao fundo, uma corrente longa de tinta secundária atravessa o quadro na horizontal, com um elo aberto bem visível e distante das figuras. Clima de gentileza, não de crime. Clara com pacote #002fa7. Escura com pacote #497ef7 e corrente #a9a49c.
+
+### estado
+
+proposta
+
+## problema-promessa
+
+### pagina
+
+Problemas, O que foi anunciado não é o que eu recebi. E agora? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Separar o que foi mostrado antes da compra do que chegou depois.
+
+### ideia
+
+Um cartaz grande com a silhueta de uma armadura enorme e brilhante. Diante dele, uma pessoa abre uma caixa pequena com uma armadura menor e simples.
+
+> Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará materialmente a oferta. (p. 744-745)
+
+### alt
+
+Pessoa abrindo uma caixa pequena diante de um cartaz com a silhueta de uma armadura muito maior.
+
+### legenda
+
+O cartaz prometeu outra coisa.
+
+### producao
+
+Cartaz retangular ao fundo, sem texto, com a silhueta da armadura canônica em azul em brilho, grande e com raios. Em primeiro plano, uma figura sem rosto segura uma caixa aberta, e dentro dela a armadura canônica pequena em azul chapado, sem brilho. Clara com cartaz #3a63d0 e armadura #002fa7. Escura com cartaz #a1bdf9, sem halo largo, e armadura #497ef7.
+
+### estado
+
+proposta
+
+## problema-exclusivo-voltou
+
+### pagina
+
+Problemas, Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+B
+
+### objetivo
+
+Mostrar a promessa de exclusividade desfeita pela volta do item mais barato.
+
+### ideia
+
+Uma vitrine com um único item azul sob redoma. Do lado de fora, o mesmo item empilhado em caixas numa banca de promoção.
+
+> Quando a plataforma vende um item por valor elevado sob a promessa de exclusividade, ou apresenta a exclusividade como atributo relevante para justificar preço e dispêndio, ela incorpora essa qualidade ao conteúdo da oferta e à utilidade percebida do objeto. (p. 213)
+
+### alt
+
+Item sob redoma numa vitrine e, ao lado, o mesmo item empilhado numa banca.
+
+### legenda
+
+Era único. Voltou em pilha.
+
+### producao
+
+À esquerda, peanha com redoma de vidro e um único medalhão azul dentro. À direita, uma banca simples com seis ou sete medalhões iguais empilhados, em azul mais claro. Sem preço nem letreiro. Clara com medalhão da redoma #002fa7 e da banca #3a63d0. Escura com #497ef7 e #a1bdf9.
+
+### estado
+
+proposta
+
+## problema-sorteio
+
+### pagina
+
+Problemas, Paguei por um sorteio ou por uma caixa de recompensa. O que preciso saber? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que a chance existe, mas está escondida de quem paga.
+
+### ideia
+
+Uma caixa fechada com uma alavanca. Dentro, visível só por um corte, uma roda com muitas casas vazias e poucas azuis.
+
+> A discussão institucional tende, então, a concentrar-se em transparência mínima das condições de aquisição, proteção de públicos vulneráveis e controle de práticas de indução de consumo, não por moralização do setor, mas porque o fornecedor concentra critérios internos sobre disponibilidade, rotação, raridade e, quando aplicável, probabilidade, em condições de baixa reconstruibilidade externa. (p. 494-495)
+
+### alt
+
+Caixa com alavanca e, por um corte, uma roda com poucas casas azuis entre muitas vazias.
+
+### legenda
+
+A chance estava lá dentro, longe dos seus olhos.
+
+### producao
+
+Caixa de madeira com alavanca lateral, vista de três quartos. Um recorte técnico, em tracejado cinza, abre a lateral e mostra uma roda com vinte casas, só duas em azul chapado. Nada de cassino, cartas, dados ou moedas douradas. Clara com casas #002fa7 e recorte #615953. Escura com casas #497ef7 e recorte #a9a49c.
+
+### estado
+
+proposta
+
+## problema-moeda
+
+### pagina
+
+Problemas, A moeda do serviço passou a comprar menos. Isso é permitido? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+B
+
+### objetivo
+
+Mostrar a moeda interna que a plataforma recalibra quando quer.
+
+### ideia
+
+Uma balança de mercearia que pesa moedas azuis. Uma mão de fora do quadro gira o parafuso de ajuste da balança.
+
+> A Riot não descreve a moeda do jogo como simples meio de troca neutro. Ela a trata como parte de um circuito fechado, cuja equivalência pode ser recalibrada de modo unilateral. O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade (Riot Games, 2024e). (p. 176)
+
+### alt
+
+Balança pesando moedas azuis enquanto uma mão gira o parafuso de ajuste.
+
+### legenda
+
+Quem fez a moeda também mexe na balança.
+
+### producao
+
+Balança de ponteiro de mercearia, de frente, com um prato cheio de fichas redondas azuis. Embaixo, um parafuso de calibragem que uma mão sem corpo, vinda da borda direita, gira com os dedos. O ponteiro aponta para menos. Clara com fichas #002fa7. Escura com fichas #497ef7.
+
+### estado
+
+proposta
+
+## problema-pressa
+
+### pagina
+
+Problemas, A oferta dizia última chance. Fui pressionado a comprar? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Dar forma à urgência fabricada, que comprime o tempo de pensar.
+
+### ideia
+
+Uma ampulheta grande diante de um balcão, com a areia caindo rápido. Atrás do balcão, um calendário com folhas já arrancadas voando.
+
+> A primeira família dessas técnicas é a da escassez artificial e da urgência fabricada. Seu mecanismo é conhecido. Janelas curtas, rotação acelerada de ofertas, contadores regressivos, “edições limitadas”, eventos efêmeros e benefícios temporários são usados para deslocar a decisão do campo da comparação racional para o da resposta reativa. (p. 670)
+
+### alt
+
+Ampulheta com a areia caindo rápido diante de um balcão, e folhas de calendário voando ao fundo.
+
+### legenda
+
+A pressa também foi desenhada.
+
+### producao
+
+Balcão simples visto de frente. Sobre ele, uma ampulheta alta com areia azul caindo em fio grosso. Ao fundo, folhas de calendário sem números, soltas no ar, em tinta secundária. Nenhum relógio digital, sirene ou letreiro. Clara com areia #002fa7. Escura com areia #497ef7 e folhas #a9a49c.
+
+### estado
+
+proposta
+
+## problema-regras-escondidas
+
+### pagina
+
+Problemas, A regra que me prejudicou estava enterrada nos termos de uso. E agora? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que muito texto não é o mesmo que informação.
+
+### ideia
+
+Uma pessoa diante de uma montanha de papéis. Lá no meio, uma única folha azul, quase coberta pelas outras.
+
+> A simples acumulação de textos, links, avisos, políticas, termos e janelas explicativas não satisfaz, por si, a exigência de informação adequada. (p. 722)
+
+### alt
+
+Pessoa diante de uma montanha de papéis com uma única folha azul enterrada no meio.
+
+### legenda
+
+A regra estava lá. Debaixo de tudo.
+
+### producao
+
+Pilha enorme de folhas em tinta, ocupando dois terços do quadro, com traços de texto sem letras. No meio da pilha, uma folha azul aparece só pela ponta. À direita, uma figura sem rosto pequena olha para a pilha. Clara com folha #002fa7. Escura com folha #497ef7 e pilha só em contorno, sem massa chapada.
+
+### estado
+
+proposta
+
+## problema-prova
+
+### pagina
+
+Problemas, Os registros estão com a empresa. Como eu provo o que aconteceu? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que os registros do que aconteceu estão do lado da empresa.
+
+### ideia
+
+Um arquivo de gavetas atrás de um balcão alto. Do lado de cá, uma pessoa segura um único papel pequeno.
+
+> Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor. (p. 659)
+
+### alt
+
+Arquivo de gavetas atrás de um balcão alto e, do lado de cá, uma pessoa com um único papel.
+
+### legenda
+
+Os registros ficaram do outro lado do balcão.
+
+### producao
+
+Balcão alto ao centro, como de cartório. Atrás dele, uma parede de arquivos de gaveta, várias abertas, com fichas em azul. Do lado de cá, uma figura sem rosto segura um papel pequeno em tinta. Clara com fichas #002fa7. Escura com fichas #497ef7 e arquivos só em contorno.
+
+### estado
+
+proposta
+
+## problema-reclamacao-some
+
+### pagina
+
+Problemas, Reclamo, e a resposta nunca resolve. O que fazer? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+B
+
+### objetivo
+
+Mostrar o atendimento que responde sem resolver.
+
+### ideia
+
+Uma pessoa coloca uma carta numa caixa de correio. Por trás da caixa, a carta sai de volta pela outra fenda, igual, com um carimbo azul.
+
+> Em ecossistemas governados por plataforma, o conflito não começa quando o usuário decide litigar, reclamar ou formalizar inconformidade. Em muitos casos, ele é governado antes disso. (p. 780)
+
+### alt
+
+Carta entrando numa caixa de correio e saindo de volta pelo outro lado, só com um carimbo.
+
+### legenda
+
+Respondida. Não resolvida.
+
+### producao
+
+Caixa de correio simples de perfil, com duas fendas. Uma mão sem corpo coloca uma carta pela fenda da esquerda. Da fenda da direita sai a mesma carta, idêntica, agora com um carimbo redondo azul sem letras. Clara com carimbo #002fa7. Escura com carimbo #497ef7.
+
+### estado
+
+proposta
+
+## problema-historia-perdida
+
+### pagina
+
+Problemas, Perdi anos de histórico. Isso é mais do que um item? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que o histórico é mais do que um item, porque guarda anos.
+
+### ideia
+
+Uma estante de álbuns de fotografia em que as lombadas vão do mais novo ao mais velho. Uma mão de fora do quadro apaga a estante com uma borracha grande.
+
+> A cláusula 2.3 dos Termos de Serviço da Riot prevê que, encerrada a conta, o usuário perde acesso à conta, aos dados associados, à moeda do jogo e ao conteúdo virtual, sem reembolso em hipóteses de justa causa, com possibilidade ainda de cancelamento de outras contas e de acesso a outros serviços. A cláusula é valiosa porque desnuda o problema: não se perde apenas item isolado, mas a posição global de fruição, o histórico, o inventário, a trajetória e a continuidade prática de inserção no ecossistema (p. 540-541)
+
+### alt
+
+Estante de álbuns sendo apagada por uma borracha grande.
+
+### legenda
+
+Anos de história, uma borracha.
+
+### producao
+
+Estante de três prateleiras com álbuns de lombada larga em azul, alguns mais claros, de idades diferentes. Uma borracha grande, segurada por uma mão sem corpo vinda da direita, apagou a prateleira de baixo, que aparece só em tracejado. Clara com lombadas #002fa7 e #3a63d0. Escura com #497ef7 e #a1bdf9.
+
+### estado
+
+proposta
+
+## problema-programa-no-aparelho
+
+### pagina
+
+Problemas, O serviço exige um programa que roda no meu aparelho. Posso questionar? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+B
+
+### objetivo
+
+Mostrar o programa da empresa que ocupa o aparelho da pessoa.
+
+### ideia
+
+Um computador de mesa aberto, como num desenho técnico. Dentro, entre as peças, um pequeno guarda com lanterna, que é da empresa.
+
+> O que está em jogo é a redefinição das fronteiras materiais de soberania do usuário sobre seu próprio equipamento. (p. 521)
+
+### alt
+
+Computador aberto em desenho técnico, com um pequeno vigia de lanterna instalado entre as peças.
+
+### legenda
+
+O aparelho é seu. O vigia é deles.
+
+### producao
+
+Gabinete de computador visto em corte técnico, com placas e cabos em tinta. Num canto, uma figura minúscula sem rosto, com lanterna em azul, sentada como vigia. Linhas de projeto em tracejado cinza. Sem marca nem logotipo. Clara com vigia #002fa7. Escura com vigia #497ef7 e corte #a9a49c.
+
+### estado
+
+proposta
+
+## problema-crianca
+
+### pagina
+
+Problemas, Meu filho ou minha filha gastou num jogo. O que a lei diz? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Falar com o responsável, que vê a compra feita por quem ainda não entende o que paga.
+
+### ideia
+
+Uma criança alcança um botão azul alto, na ponta dos pés, enquanto um adulto chega por trás.
+
+> O recorte por menores funciona, assim, como gatilho institucional para tornar visíveis assimetrias de compreensão e de capacidade de contestação em ambientes governados por arquitetura. (p. 494)
+
+### alt
+
+Criança na ponta dos pés alcançando um botão azul, com um adulto chegando por trás.
+
+### legenda
+
+Para quem ainda não entende o preço, o botão é só um botão.
+
+### producao
+
+Parede lisa com um único botão redondo azul, alto. Uma criança sem rosto, na ponta dos pés, estende a mão para ele. Atrás, entrando pela esquerda, um adulto sem rosto, sem expressão de bronca. Nada de tela, jogo ou marca. Clara com botão #002fa7. Escura com botão #497ef7.
+
+### estado
+
+proposta
+
+## problema-assistente
+
+### pagina
+
+Problemas, O assistente de inteligência artificial mudou ou errou. O que posso exigir? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que o assistente vale porque orienta, e que o erro dele pesa por isso.
+
+### ideia
+
+Uma pessoa caminha seguindo uma lanterna azul que flutua à frente dela. A lanterna aponta para uma ponte que termina no meio.
+
+> O serviço vale não apenas porque responde, mas porque induz o usuário a tratar a resposta como ponto relevante de orientação. (p. 758)
+
+### alt
+
+Pessoa seguindo uma lanterna azul que aponta para uma ponte interrompida.
+
+### legenda
+
+Você confiou porque ele orienta.
+
+### producao
+
+Paisagem aberta com uma ponte de tábuas que termina no meio do vão. Uma figura sem rosto caminha em direção à ponte, e à frente dela flutua uma lanterna em azul em brilho, sem rosto nem robô. Clara com lanterna #3a63d0. Escura com lanterna #a1bdf9.
+
+### estado
+
+proposta
+
+## problema-loja-virtual
+
+### pagina
+
+Problemas, A loja virtual esconde quem é pago e quem é confiável. Isso conta? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar a escolha que a plataforma já pré-interpretou.
+
+### ideia
+
+Um corredor de prateleiras em que alguns produtos estão sob holofotes azuis. Os holofotes estão presos a cabos que sobem para fora do quadro.
+
+> O consumidor não escolhe no vazio, diante de universo transparente e simétrico de ofertas. Ele escolhe dentro de um campo já pré-interpretado pela plataforma. (p. 762)
+
+### alt
+
+Corredor de loja com produtos sob holofotes presos a cabos que sobem para fora do quadro.
+
+### legenda
+
+Quem acendeu essas luzes?
+
+### producao
+
+Corredor de supermercado em perspectiva central, com prateleiras dos dois lados e produtos genéricos sem rótulo. Três ou quatro produtos iluminados por cones de luz azul vindos de cima, de holofotes pendurados em cabos que somem na borda. Clara com luz #3a63d0. Escura com luz #a1bdf9, cones estreitos, sem massa larga.
+
+### estado
+
+proposta
+
+## problema-rede-social
+
+### pagina
+
+Problemas, Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar a voz que continua falando e deixou de ser ouvida.
+
+### ideia
+
+Uma pessoa fala num palco. Um painel de controle no canto vai baixando o volume das caixas de som, uma por uma.
+
+> Os Termos de Serviço da Meta descrevem ambiente em que o uso do Facebook se submete a regras privadas de permanência, visibilidade, compartilhamento, moderação e organização do conteúdo circulante, de modo que a experiência do usuário é mediada por critérios internos de distribuição e gestão da interação social (Facebook, [202-?]). (p. 762)
+
+### alt
+
+Pessoa falando num palco enquanto as caixas de som se apagam uma a uma.
+
+### legenda
+
+Você continua falando. Quem baixou o volume?
+
+### producao
+
+Palco pequeno com uma figura sem rosto falando. Em volta, cinco caixas de som, as da esquerda com ondas azuis, as da direita só em tracejado. No canto inferior, um painel com controles deslizantes, um deles sendo puxado para baixo por uma mão sem corpo. Clara com ondas #002fa7. Escura com ondas #497ef7.
+
+### estado
+
+proposta
+
+## problema-trabalho-por-app
+
+### pagina
+
+Problemas, Trabalho por aplicativo, e a regra mudou. Tenho o que pedir? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar a infraestrutura de possibilidade econômica que muda sob os pés de quem trabalha.
+
+### ideia
+
+Uma pessoa pedala numa esteira. Uma mão de fora do quadro troca a esteira por uma mais íngreme, sem parar.
+
+> O que se fornece, em termos funcionais, é uma infraestrutura privada de possibilidade econômica. (p. 765)
+
+### alt
+
+Pessoa pedalando numa esteira que uma mão inclina sem parar.
+
+### legenda
+
+A estrada é deles. O esforço é seu.
+
+### producao
+
+Figura sem rosto de bicicleta sobre uma esteira longa, de perfil. A esteira é azul chapado. Uma mão sem corpo, vinda da borda de cima, ergue a ponta da esteira, aumentando a inclinação. Sem logotipo, mochila de marca ou celular visível. Clara com esteira #002fa7. Escura com esteira #497ef7.
+
+### estado
+
+proposta
+
+## problema-vendo-na-plataforma
+
+### pagina
+
+Problemas, Vendo numa plataforma. A lei do consumidor me protege? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que vender não torna a pessoa imune à dependência.
+
+### ideia
+
+Uma banca numa feira, com a lona presa a postes que pertencem a outro. Um poste está sendo afrouxado.
+
+> O seller que depende de ranking, reputação, visibilidade e regras opacas de priorização não se torna imune à tutela consumerista apenas porque vende. (p. 778)
+
+### alt
+
+Banca de feira com a lona presa a postes de outro dono, um deles sendo afrouxado.
+
+### legenda
+
+A banca é sua. Os postes, não.
+
+### producao
+
+Banca de feira com mesa e mercadorias azuis, coberta por lona presa a quatro postes de tinta. Uma mão sem corpo, à direita, afrouxa o parafuso de um poste, e a lona já cede desse lado. A figura da banca, sem rosto, olha para cima. Clara com mercadorias #002fa7. Escura com mercadorias #497ef7.
+
+### estado
+
+proposta
+
+## problema-muita-gente
+
+### pagina
+
+Problemas, Aconteceu com muita gente. Dá para resolver de uma vez? Depois do primeiro parágrafo da abertura. Também o cartão.
+
+### formato
+
+16 x 9, abertura
+
+### prioridade
+
+A
+
+### objetivo
+
+Mostrar que o problema que se repete vem do desenho, e não de cada caso.
+
+### ideia
+
+Uma multidão vista do alto, e cada pessoa tem uma pequena marca azul igual, como se a mesma peça tivesse caído sobre todas.
+
+> Em ambientes de plataforma, a fonte lesiva pode residir no próprio desenho do regime de fornecimento, de modo que a unidade do problema não decorre primariamente da repetição empírica de episódios, mas da permanência de uma estrutura única, reiterável e funcionalmente expansiva de produção de perda, opacidade e assimetria. A lesão, então, não é apenas plural. É arquitetural. (p. 774)
+
+### alt
+
+Multidão vista do alto, com a mesma marca azul em cada pessoa.
+
+### legenda
+
+Não foi com você. Foi com todo mundo.
+
+### producao
+
+Vista de cima, em grade solta, de trinta a quarenta figuras sem rosto em tinta. Sobre o ombro de cada uma, um mesmo pequeno quadrado azul, como uma etiqueta. Linhas tracejadas cinza ligam as etiquetas a um único ponto fora do quadro, no alto. Clara com etiquetas #002fa7. Escura com etiquetas #497ef7 e linhas #a9a49c.
+
+### estado
+
+proposta
+
+# 7. Vinhetas dos onze direitos
+
+Família das vinhetas das portas, com os mesmos formatos e regras. O índice de Seus direitos passa de lista de faixas a grade de cartões, três por linha no computador e um por linha no celular, com a vinheta à esquerda do título. A mesma vinheta abre a página de cada direito, a 96 pixels, ao lado do título. Clara com azul #002fa7 e tinta #211c17 sobre #faf6ef. Escura com azul #497ef7 e tinta #ebe7e1 sobre #17130f.
+
+## direito-a
+
+### pagina
+
+Seus direitos, cartão O que você comprou é produto, mesmo sem nada nas mãos, e a página direitos/a/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito o que você comprou é produto, mesmo sem nada nas mãos um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Uma caixa azul sem fundo, em pé sobre a mesa, com nada dentro. Mesmo assim, ela tem sombra.
+
+> Sempre que a utilidade consumida depender estruturalmente de ambiente administrado, modulado e mutável por governança privada, com impacto sobre acesso, permanência, inteligibilidade ou atualização da experiência, estará configurado o campo de incidência do OIC. (p. 743)
+
+### alt
+
+Caixa azul vazia e sem fundo que projeta sombra.
+
+### producao
+
+Caixa azul sem tampa e sem fundo, vista de três quartos, com uma sombra curta de tinta secundária. É a única vinheta com sombra, porque a sombra diz que o objeto existe.
+
+### estado
+
+proposta
+
+## direito-b
+
+### pagina
+
+Seus direitos, cartão A plataforma não pode montar a experiência para você não entender, e a página direitos/b/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito a plataforma não pode montar a experiência para você não entender um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Um labirinto pequeno visto de cima, com a saída desenhada só em tracejado.
+
+> Sempre que expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependerem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor, haverá vulnerabilidade semiótica juridicamente relevante. (p. 744)
+
+### alt
+
+Labirinto visto de cima com a saída em tracejado.
+
+### producao
+
+Labirinto quadrado de linhas de tinta, com um ponto azul no centro e a saída desenhada em tracejado cinza.
+
+### estado
+
+proposta
+
+## direito-c
+
+### pagina
+
+Seus direitos, cartão A informação precisa servir para alguma coisa, e a página direitos/c/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito a informação precisa servir para alguma coisa um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Uma bula enrolada, com uma única linha em azul.
+
+> Sempre que a plataforma substituir legibilidade por excesso textual, dispersão estratégica, fragmentação de trajetórias informacionais ou transparência apenas performática, haverá inadequação do dever de informar. (p. 744)
+
+### alt
+
+Papel enrolado com uma única linha azul.
+
+### producao
+
+Rolo de papel aberto pela metade, com linhas de texto sugeridas em tinta e uma única linha em azul chapado.
+
+### estado
+
+proposta
+
+## direito-d
+
+### pagina
+
+Seus direitos, cartão O que foi prometido precisa ser entregue, e a página direitos/d/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito o que foi prometido precisa ser entregue um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Um envelope aberto do qual sai o objeto azul inteiro.
+
+> Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará materialmente a oferta. (p. 744-745)
+
+### alt
+
+Envelope aberto com um objeto azul inteiro saindo dele.
+
+### producao
+
+Envelope aberto de frente, com uma estrela azul saindo pela aba, inteira e do mesmo tamanho do envelope.
+
+### estado
+
+proposta
+
+## direito-e
+
+### pagina
+
+Seus direitos, cartão Mudança relevante precisa deixar rastro, e a página direitos/e/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito mudança relevante precisa deixar rastro um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Pegadas azuis que atravessam o quadro.
+
+> Sempre que alterações relevantes de acesso, desempenho, utilidade, regra de funcionamento ou sanção incidirem sobre a fruição sem preservação de trilhas mínimas de reconstrução institucional, haverá violação do parâmetro de auditabilidade aberta. (p. 745)
+
+### alt
+
+Pegadas azuis atravessando o quadro.
+
+### producao
+
+Quatro pegadas pequenas em azul, em diagonal, do canto de baixo à esquerda ao canto de cima à direita.
+
+### estado
+
+proposta
+
+## direito-f
+
+### pagina
+
+Seus direitos, cartão Mudou, tem que manter o que valia, e a página direitos/f/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito mudou, tem que manter o que valia um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Um vaso consertado, com as emendas em azul.
+
+> Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional. (p. 745)
+
+### alt
+
+Vaso consertado com emendas azuis.
+
+### producao
+
+Vaso simples em tinta, com duas linhas de emenda em azul que seguem o desenho do vaso, como o reparo que mantém o valor.
+
+### estado
+
+proposta
+
+## direito-g
+
+### pagina
+
+Seus direitos, cartão Punição precisa de motivo e de chance de defesa, e a página direitos/g/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito punição precisa de motivo e de chance de defesa um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Um martelo de juiz pousado sobre um livro aberto.
+
+> Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
+
+### alt
+
+Martelo de juiz pousado sobre um livro aberto.
+
+### producao
+
+Martelo de madeira pousado sobre um livro aberto. O livro é azul, e o martelo em tinta, para dizer que a regra vem antes do golpe.
+
+### estado
+
+proposta
+
+## direito-h
+
+### pagina
+
+Seus direitos, cartão Quando a perda é regra, o problema é o desenho, e a página direitos/h/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito quando a perda é regra, o problema é o desenho um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Uma planta de arquitetura com um degrau faltando, marcado em azul.
+
+> Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva. (p. 746)
+
+### alt
+
+Planta de escada com um degrau faltando, marcado em azul.
+
+### producao
+
+Planta técnica de uma escada vista de lado, em tracejado cinza, com o lugar de um degrau ausente marcado por um retângulo azul vazado.
+
+### estado
+
+proposta
+
+## direito-i
+
+### pagina
+
+Seus direitos, cartão A prova que está com a plataforma tem que aparecer, e a página direitos/i/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito a prova que está com a plataforma tem que aparecer um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Uma gaveta entreaberta com fichas azuis aparecendo.
+
+> Sempre que a plataforma concentrar os elementos essenciais para narrar, demonstrar e reconstruir o conflito, a disciplina probatória deverá reconhecer que a verificabilidade integra o próprio regime legítimo do fornecimento. (p. 747)
+
+### alt
+
+Gaveta entreaberta com fichas azuis aparecendo.
+
+### producao
+
+Gaveta de arquivo puxada até a metade, de frente, com fichas em azul chapado saindo da borda.
+
+### estado
+
+proposta
+
+## direito-j
+
+### pagina
+
+Seus direitos, cartão Ser dona da obra não é desculpa para tudo, e a página direitos/j/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito ser dona da obra não é desculpa para tudo um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Uma coroa pequena dentro de um círculo de linha fina, como um limite.
+
+> Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
+
+### alt
+
+Coroa dentro de um círculo de linha fina.
+
+### producao
+
+Coroa simples em tinta, centrada, envolvida por um círculo fino azul que não encosta nela.
+
+### estado
+
+proposta
+
+## direito-k
+
+### pagina
+
+Seus direitos, cartão A resposta deve recompor o que você perdeu, e a página direitos/k/.
+
+### formato
+
+1 x 1, vinheta
+
+### prioridade
+
+B
+
+### objetivo
+
+Dar ao direito a resposta deve recompor o que você perdeu um sinal próprio, para que a pessoa o reconheça na grade e o reencontre na página.
+
+### ideia
+
+Duas metades de um objeto azul se reencaixando.
+
+> Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração. (p. 748)
+
+### alt
+
+Duas metades de um objeto azul se encaixando.
+
+### producao
+
+Uma estrela azul partida em duas metades, levemente afastadas, com duas setas curtas de tinta indicando o reencaixe.
+
+### estado
+
+proposta
+
+# 8. Versão escura do acervo
+
+As 29 peças publicadas mantêm a versão clara. A versão escura é desenhada de novo, a partir da clara, e substitui o negativo calculado. O pedido é o mesmo para todas, com a peça clara anexada, mais a nota própria de cada uma.
+
+Pedido comum. Anexe a ilustração clara. Mesma composição, mesmas linhas, mesmo enquadramento e mesmas figuras. Troque só as cores pela tabela da seção 2.2. O fundo vira #17130f, o traço vira #ebe7e1, a hachura e o tracejado viram #a9a49c e o azul do objeto vira #497ef7. Céu, parede e chão ficam no fundo, sugeridos pelo traço, e nenhuma massa chapada passa de um quinto da área. Onde a clara usa luz pelo papel em branco, a escura usa #a1bdf9. Sem texto, sem logotipo, sem rubrica vermelha.
+
+## inicio-escuro
+
+Lugar. Página inicial, logo depois do título e dos atalhos, antes da narrativa da compra.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma figura com uma armadura inventada e brilhante está de pé sobre um pedaço de chão que flutua, sustentado por cabos que sobem para fora do quadro. Parece terreno dela, mas é um chão emprestado.
+
+Estado. proposta
+
+## parte-a-compra-escuro
+
+Lugar. Percurso, parte 1, A compra, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Alguém recebe uma caixa de presente com uma peça de armadura dentro. A peça chega às mãos de quem comprou, mas a fita da caixa é um cordão comprido que volta para a loja e não se solta.
+
+Estado. proposta
+
+## imagem-catraca-escuro
+
+Lugar. Percurso, parte 1, A compra, depois do bloco Uma imagem da catraca.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Uma catraca na entrada de um jardim. Do lado de dentro, a figura de armadura brilhante. A catraca não fica na saída, fica no caminho de quem quer continuar lá dentro. A figura existe e é de quem a comprou, e a catraca só controla as condições de uso.
+
+Estado. proposta
+
+## imagem-estoque-fluxo-escuro
+
+Lugar. Percurso, parte 1, A compra, depois do bloco Uma imagem da gaveta e do cano.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. À esquerda, uma gaveta com moedas paradas. À direita, um cano transparente com água correndo e uma peça de armadura levada pela corrente. Se a torneira fecha, a peça para, inteira, e perde o brilho.
+
+Estado. proposta
+
+## parte-o-desejo-escuro
+
+Lugar. Percurso, parte 2, O desejo, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma figura de armadura no centro de uma roda de silhuetas. O brilho da armadura não vem dela, vem dos olhares das pessoas em volta, que se cruzam e acendem a peça. Onde nenhum olhar alcança, a armadura fica fosca.
+
+Estado. proposta
+
+## parte-o-dono-escuro
+
+Lugar. Percurso, parte 3, O dono, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um castelo feito de blocos de servidores sobre nuvens. Lá embaixo, pessoas jogam, e cada gesto delas sobe como um tijolo que aumenta o castelo. No alto, uma única janela acesa guarda o painel de onde se decide quanto tudo vale.
+
+Estado. proposta
+
+## imagem-torneira-escuro
+
+Lugar. Percurso, parte 3, O dono, depois do bloco Uma imagem da torneira.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Uma torneira pingando. Cada gota carrega um objeto mínimo, uma moeda, um relógio pequeno, um coração pequeno, e o balde embaixo já está quase cheio.
+
+Estado. proposta
+
+## parte-as-regras-escuro
+
+Lugar. Percurso, parte 4, As regras, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um labirinto visto de cima cujas paredes são páginas de um contrato em pé e telas acesas. Na única saída, uma mão segura um carimbo. O texto vira parede, e a parede vira punição.
+
+Estado. proposta
+
+## parte-o-normal-escuro
+
+Lugar. Percurso, parte 5, O normal, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Nuvens penduradas por fios num andaime, como cenário de teatro, e chuva caindo sobre pessoas de guarda-chuva que olham para baixo e não veem os fios.
+
+Estado. proposta
+
+## parte-a-mudanca-escuro
+
+Lugar. Percurso, parte 6, A mudança, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. A mesma armadura duas vezes, lado a lado. A da esquerda está inteira. A da direita tem o mesmo contorno, mas por dentro está oca, só a linha do desenho.
+
+Estado. proposta
+
+## parte-o-desenho-escuro
+
+Lugar. Percurso, parte 7, O desenho, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. A planta baixa de uma loja em que todos os corredores, por caminhos diferentes, acabam no mesmo caixa. As linhas escondidas do projeto, com os pontos de atrito e a saída oculta atrás das prateleiras, aparecem em tracejado.
+
+Estado. proposta
+
+## parte-a-lei-escuro
+
+Lugar. Percurso, parte 8, A lei, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma construção contemporânea vista em corte, sustentada por uma fundação anterior, já demarcada e pronta para receber suas estruturas. O azul destaca a construção imaterial e o traço revela a continuidade com a fundação. É o mesmo terreno da ilustração do Objeto Imaterial de Consumo, agora com a obra pronta.
+
+Estado. proposta
+
+## parte-a-resposta-escuro
+
+Lugar. Percurso, parte 9, A resposta, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma mão devolve a peça que faltava num mosaico, enquanto uma pilha arrumada de moedas fica ao lado, ao alcance.
+
+Estado. proposta
+
+## parte-alem-do-jogo-escuro
+
+Lugar. Percurso, parte 10, Além do jogo, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um controle de videogame, um balão de conversa, um carrinho de compras, uma bolsa de entrega e um rosto sorridente de interface, todos presos por fios que descem para a mesma estrutura escondida no chão.
+
+Estado. proposta
+
+## parte-o-nome-escuro
+
+Lugar. Percurso, parte 11, O nome, na abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Ísis diante de Rá, o deus Sol, em traço que lembra a pintura egípcia sem copiar obra existente. Aos pés do Sol, uma serpente pequena feita da mesma luz dele.
+
+Estado. proposta
+
+## ideia-oic-escuro
+
+Lugar. Objeto Imaterial de Consumo, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um terreno vazio demarcado com estacas e barbante, coberto de mato, e no meio dele a estrutura de uma construção começando a subir. É uma armação aberta, sem paredes, e no alto dela está a figura de armadura.
+
+Estado. proposta
+
+## ideia-feixe-de-fruicao-governada-escuro
+
+Lugar. Feixe de fruição governada, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um feixe de fios de cores e espessuras diferentes, preso embaixo pela mão de quem usa e em cima por um mecanismo de roldanas que puxa, solta e corta cada fio.
+
+Estado. proposta
+
+## ideia-lex-plataformae-escuro
+
+Lugar. Lex Plataformae, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um livro de regras aberto cujas páginas, vistas por trás, são engrenagens funcionando sozinhas. Ninguém vira as páginas, e o livro roda.
+
+Estado. proposta
+
+## ideia-vulnerabilidade-semiotica-escuro
+
+Lugar. Vulnerabilidade semiótica, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma pessoa atenta lê com cuidado um cartão coberto de sinais nítidos. A lente que dá sentido aos sinais fica do outro lado de um balcão, na mão de quem atende, que não a empresta. Atrás do balcão, a mesma etiqueta pende de dois objetos diferentes.
+
+Estado. proposta
+
+## ideia-teleologia-abusiva-escuro
+
+Lugar. Teleologia abusiva, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma escada vista de lado, com saídas laterais em cada patamar e uma vitrine iluminada no topo. O degrau mais alto está sempre logo antes de cada saída e nunca no caminho para a vitrine. Uma régua encostada mostra que a diferença se repete, sempre no mesmo lugar.
+
+Estado. proposta
+
+## ideia-ilicito-de-arquitetura-escuro
+
+Lugar. Ilícito de arquitetura, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Um prédio em corte com escadas que só descem, portas que só abrem para dentro, janelas pintadas na parede, a saída de emergência atrás de três portas trancadas e um corredor que volta ao começo. Nenhuma placa proíbe nada, e o desenho prende.
+
+Estado. proposta
+
+## ideia-antecipacao-hipercuratorial-escuro
+
+Lugar. Antecipação hipercuratorial, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma sala de espera com cadeiras ocupadas e um relógio na parede. Por baixo de uma porta fechada vaza uma luz forte, e todos olham para ela. A luz é regulada por uma mão que sai pela fresta da porta, a mesma que move os ponteiros do relógio por um fio.
+
+Estado. proposta
+
+## ideia-auditabilidade-aberta-escuro
+
+Lugar. Auditabilidade aberta, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma caixa preta fechada com uma janela recortada num canto, por onde se veem algumas engrenagens. Não a caixa inteira aberta, só o bastante para ver o que mudou. Do lado de fora, preso à caixa, um livro de registro aberto, e mais de uma pessoa consegue olhar pela janela.
+
+Estado. proposta
+
+## ideia-equivalencia-de-valor-funcional-escuro
+
+Lugar. Equivalência de valor funcional, depois de Isso tem nome.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma balança de dois pratos com a mesma peça de armadura em cada um, a de antes e a de depois, idênticas por fora. A de depois é um pouco mais fosca, e o prato dela sobe, porque ela pesa menos.
+
+Estado. proposta
+
+## laboratorio-escuro
+
+Lugar. Laboratório, depois da abertura.
+
+Formato. 16 x 9, igual à clara.
+
+O que a versão escura precisa preservar. Uma lupa sobre quatro telas diferentes, a de um assistente, a de uma loja, a de um aplicativo de entrega e a de um atendimento, e sob a lente as quatro mostram a mesma engrenagem. Fora da lente, cada tela mantém a sua aparência.
+
+Estado. proposta
+
+## familia-funcionalidade-cognitiva-escuro
+
+Lugar. Laboratório, funcionalidade cognitiva, depois do resumo.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Um balão de conversa seguro pela mão de quem usa, com um botão de regular intensidade, como os de luz, girado por outra mão, que vem de fora do quadro.
+
+Estado. proposta
+
+## familia-infraestrutura-e-intermediacao-escuro
+
+Lugar. Laboratório, infraestrutura e intermediação, depois do resumo.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Uma vitrine vista através de várias lentes empilhadas, cada uma escondendo ou aumentando uma parte do que está à venda.
+
+Estado. proposta
+
+## familia-produtividade-gig-economy-escuro
+
+Lugar. Laboratório, produtividade sob a gig economy, depois do resumo.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Um mapa de cidade em que a rota de uma bicicleta de entrega é desenhada por uma mão enorme, com estrelas de avaliação flutuando sobre o caminho.
+
+Estado. proposta
+
+## familia-administracao-de-confianca-escuro
+
+Lugar. Laboratório, administração de confiança, depois do resumo.
+
+Formato. 4 x 3, igual à clara.
+
+O que a versão escura precisa preservar. Uma capa macia e arredondada, com um rosto sorridente de interface, cobrindo a quina de uma mesa. A capa amortece de verdade, mas marcas no chão mostram que a mesa avança um pouco a cada dia sobre o caminho de quem passa.
+
+Estado. proposta
+
+# 9. Ordem de produção
+
+A geração acontece numa mesma sessão, na ordem abaixo, para que cada família saia homogênea e cada peça nova já tenha a vizinha como referência.
+
+Primeiro as seis vinhetas das portas, juntas, e logo as onze dos direitos, que são da mesma família. Depois a folha canônica da armadura em versão escura, que serve de referência às peças escuras com armadura. Depois as 29 versões escuras do acervo, na ordem do Caminho, das ideias e de Plataformas. Depois as três aberturas das páginas de entrada, direitos-continua, alem-do-consumo e como-reclamar. Por último as 24 aberturas de problema, agrupadas pelas seis portas.
+
+Ao fim de cada família, as peças são vistas lado a lado nas duas versões, e só então seguem para os critérios de aceite. O autor vê cada lote no ar.
+
+# 10. Ajustes no site quando as peças chegarem
+
+A peça inicio sai da capa da Informação e da Doutrina e fica na Ciência e no Caminho. As vinhetas entram na capa, em problemas, na lateral dos problemas, no índice de Seus direitos e em cada página de direito. Seus direitos passa a grade de cartões. O filtro de negativo parcial sai de `site/extra.css` quando a última versão escura desenhada entrar, e `ferramentas/negativo.py` fica só como reserva. Os cartões de compartilhamento das 24 páginas de problema passam a usar a abertura. Legendas e textos alternativos vão para a tradução inglesa no mesmo passo.
