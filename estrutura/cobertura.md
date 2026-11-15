@@ -28,13 +28,13 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 3.1 | Técnica, mídia e vida cotidiana | 85 a 92 | 14 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.1 | Autonomia da técnica e reorganização da vida social | 92 a 98 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.2 | Mídia, entretenimento e reconfiguração da epistemologia | 98 a 104 | 1 | 2 | Fundamentos (Seções do capítulo 3) |
-| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 8 | 0 | Fundamentos (Seções do capítulo 3) |
+| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 9 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.4 | A tecnologia enquanto construção social e a racionalidade política do design | 120 a 137 | 13 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.1.5 | O ambiente tecno-midiático como condição de possibilidade do OIC | 137 a 139 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.2 | Arquitetura econômica das plataformas digitais | 139 a 145 | 2 | 0 | Fundamentos (Seções do capítulo 3) |
-| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 23 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
+| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 24 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.2.2 | O rentismo informacional sob plataformas | 183 a 208 | 3 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
-| 3.2.3 | Extração de valor, escassez artificial e o consumidor como exterior incorporado | 208 a 232 | 49 | 8 | Fundamentos (Seções do capítulo 3) |
+| 3.2.3 | Extração de valor, escassez artificial e o consumidor como exterior incorporado | 208 a 232 | 51 | 8 | Fundamentos (Seções do capítulo 3) |
 | 3.2.4 | A mutação da dinâmica concorrencial imaterial a partir da propriedade intelectual | 232 a 243 | 5 | 0 | Fichas (Função social da propriedade intelectual); Fundamentos (Seções do capítulo 3) |
 | 3.2.5 | O modelo de negócios e a teleologia arquitetural das plataformas | 243 a 247 | 0 | 0 | Fichas (Teleologia abusiva); Fundamentos (Seções do capítulo 3) |
 | 3.2.6 | Regimes de valor, produção de sentido e economia da atenção nas plataformas | 247 a 259 | 22 | 3 | Fundamentos (Seções do capítulo 3) |
@@ -50,7 +50,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.2 | Poder econômico privado e ordem constitucional | 347 a 351 | 5 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.2.3 | Psicopolítica, autoexploração e cativeiro identitário | 351 a 363 | 12 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 21 | 7 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
-| 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 8 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
+| 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 9 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
 | 5 | Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1 | Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo | 394 a 395 | 3 | 10 | Dogmática (Seções do capítulo 5); Atlas (Três leituras da tese) |
@@ -95,7 +95,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.3.3 | Dos mecanismos apropriados à viabilização de procedimentos de auditabilidade aberta e avaliação de equivalência funcional | 656 a 663 | 50 | 15 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.4 | Da teleologia abusiva e ilícito de arquitetura em serviços digitais contínuos | 663 a 665 | 15 | 8 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6) |
 | 6.4.1 | Do ilícito de teleologia abusiva: vício de concepção e prática abusiva | 665 a 669 | 11 | 8 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.4.2 | Das técnicas de captura por escassez, risco e dependência | 669 a 674 | 22 | 1 | Dogmática (Seções do capítulo 6) |
+| 6.4.2 | Das técnicas de captura por escassez, risco e dependência | 669 a 674 | 23 | 1 | Dogmática (Seções do capítulo 6) |
 | 6.4.3 | Do enquadramento em vícios de qualidade, cláusulas e práticas abusivas | 674 a 679 | 7 | 9 | Dogmática (Seções do capítulo 6) |
 | 6.5 | Da função social da propriedade intelectual à governança semiótica dos objetos imateriais de consumo | 679 a 681 | 1 | 3 | Fichas (Função social da propriedade intelectual); Dogmática (Seções do capítulo 6) |
 | 6.5.1 | Dos direitos de propriedade intelectual enquanto infraestrutura de governança semiótica | 681 a 695 | 1 | 3 | Dogmática (Seções do capítulo 6) |
@@ -123,7 +123,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7.2.3 | Dos OICs de produtividade sob a gig economy | 765 a 769 | 47 | 17 | Laboratório (Família de plataforma) |
 | 7.2.4 | Da concorrência sob a Lex Plataformae | 769 a 773 | 7 | 12 | Laboratório (Desdobramento da tipologia) |
 | 7.2.5 | Da tutela coletiva sob auditabilidade aberta | 773 a 777 | 20 | 12 | Fichas (Auditabilidade aberta); Laboratório (Desdobramento da tipologia) |
-| 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 19 | 10 | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
+| 7.2.6 | Do finalismo aprofundado e o consumidor equiparado em ecossistemas de plataforma | 777 a 780 | 20 | 10 | Dogmática (Dispositivos citados); Laboratório (Desdobramento da tipologia) |
 | 7.2.7 | Da administração de confiança à neutralização de conflitos por arquitetura | 780 a 783 | 48 | 12 | Laboratório (Família de plataforma) |
 | 7.2.7.1 | Da governança sobre rumores em antecipação hipercuratorial | 783 a 787 | 16 | 10 | Laboratório (Subcaso da administração de confiança) |
 | 7.3 | Dos padrões recorrentes de fricção, prova e recomposição | 787 a 789 | 2 | 6 | Fichas (Recomposição funcional e correção de regime); Laboratório (O que as famílias mostram) |

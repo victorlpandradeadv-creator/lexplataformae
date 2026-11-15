@@ -1494,6 +1494,11 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .chave-nome { font-variant-caps: normal; text-transform: uppercase; letter-spacing: 0.08em; }
 .capa-doutrina .saidas { margin-top: 2rem; }
 
+/* Cinco portas pela perda na capa. 15/11/2026. */
+.grade-perda{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
+.porta-perda h3{margin-top:0}
+.porta-comum{margin-top:1.5rem}
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

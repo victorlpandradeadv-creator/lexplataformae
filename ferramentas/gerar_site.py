@@ -22,7 +22,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.14"
+VERSAO = "0.15"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -37,6 +37,7 @@ VERSOES = [
     ("0.12", "10/11/2026", "Entra a versão inglesa do site inteiro, com o texto integral da tese em tradução por máquina e os trechos literais com o original à mão."),
     ("0.13", "12/11/2026", "Revisão de leitor. Saem as notas de bastidor e os rótulos que faziam a tese falar, cada citação aparece uma vez por página, e a marca de página deixa de partir nomes próprios."),
     ("0.14", "13/11/2026", "Revisão de leitor, segunda parte. A Doutrina ganha nomes próprios e capa, os problemas se agrupam em famílias, Situações e Seus direitos passam a ter uma página por situação e os dois capítulos mais longos se leem em duas partes."),
+    ("0.15", "15/11/2026", "Primeira grande adição posterior à defesa. A capa abre por uma pergunta e cinco portas pela perda, e entra a página do Objeto Imaterial de Fruição Governada, para quem depende de plataforma sem ser consumidor."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -1152,13 +1153,17 @@ def lista_problemas(slugs, prefixo, classe="partes-curtas"):
 
 
 # Os 24 problemas em cinco famílias, pela revisão de leitor aprovada pelo autor em 13/11/2026.
+# As cinco portas da capa, pela perda que a pessoa viveu, e a saída comum de provar e reclamar.
+# Mapeamento de 15/11/2026, por ordem do autor, que revê o agrupamento de 13/11/2026. O id de cada família é a âncora em problemas/.
 FAMILIAS_PROBLEMAS = [
-    ("Perdi o acesso", ["conta-bloqueada", "presente-retirado", "jogo-encerrado", "sair", "historia-perdida"]),
-    ("O que comprei mudou", ["item-alterado", "servico-piorou", "exclusivo-voltou", "moeda", "so-licenca", "programa-no-aparelho"]),
-    ("Fui levado a comprar", ["promessa", "sorteio", "pressa", "crianca"]),
-    ("Não consigo provar nem reclamar", ["regras-escondidas", "prova", "reclamacao-some", "muita-gente"]),
-    ("Fora dos jogos", ["assistente", "loja-virtual", "rede-social", "trabalho-por-app", "vendo-na-plataforma"]),
+    ("Perdi o acesso", ["conta-bloqueada", "presente-retirado", "jogo-encerrado"]),
+    ("O que comprei mudou", ["item-alterado", "servico-piorou", "so-licenca", "exclusivo-voltou", "moeda", "promessa", "programa-no-aparelho"]),
+    ("Fui empurrado a pagar", ["sorteio", "pressa", "regras-escondidas", "crianca", "loja-virtual"]),
+    ("Quero sair e levar o que é meu", ["sair", "historia-perdida"]),
+    ("A plataforma decide sobre mim sem explicar", ["rede-social", "assistente", "trabalho-por-app", "vendo-na-plataforma"]),
+    ("Em qualquer porta, provar e reclamar", ["prova", "reclamacao-some", "muita-gente"]),
 ]
+FAMILIA_ID = ["acesso", "mudou", "empurrado", "sair", "decide", "comum"]
 
 
 def familia_do_problema(p):
@@ -1180,11 +1185,11 @@ def gerar_problemas():
                 f'<span class="parte-resumo">{esc(primeira_frase(p["abertura"][0]))}</span></a></li>')
     vistos = set()
     grupos = []
-    for nome, slugs in FAMILIAS_PROBLEMAS:
+    for fid, (nome, slugs) in zip(FAMILIA_ID, FAMILIAS_PROBLEMAS):
         lista = [PROBLEMAS[x] for x in slugs if x in PROBLEMAS]
         vistos.update(x["slug"] for x in lista)
         if lista:
-            grupos.append(f'<h2 class="rotulo-ext">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}</ul>')
+            grupos.append(f'<h2 class="rotulo-ext" id="porta-{fid}">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}</ul>')
     resto = [p for p in PROBLEMAS.values() if p["slug"] not in vistos]
     if resto:
         raise SystemExit("Problema sem família em FAMILIAS_PROBLEMAS: " + ", ".join(p["slug"] for p in resto))
@@ -1295,6 +1300,104 @@ def gerar_como_reclamar():
     (destino / "index.html").write_text(
         pagina(f'{C["titulo"]} Procon, Consumidor.gov.br, Juizado e prazos · Lex Plataformae', primeira_frase(C["abertura"][0]), corpo, prefixo,
                "como-reclamar/", jsonld, camada="mista", imagem="como-reclamar"),
+        encoding="utf-8")
+
+
+# Além do consumo. A página do Objeto Imaterial de Fruição Governada (OIFG), primeira grande adição posterior à defesa,
+# publicada em 15/11/2026 por ordem do autor. Texto em conteudo/alem-do-consumo.md. A Informação não nomeia o OIFG.
+def carregar_alem_do_consumo():
+    arq = RAIZ / "conteudo" / "alem-do-consumo.md"
+    if not arq.exists():
+        return None
+    dados = {"titulo": "", "abertura": [], "secoes": [], "leis": {}}
+    bloco, atual, lei_id = None, None, None
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            bloco = linha[3:].strip()
+            atual = None
+            continue
+        if linha.startswith("### "):
+            nome, _, resto = linha[4:].strip().partition(" ")
+            if bloco == "leis":
+                lei_id = nome
+                dados["leis"][lei_id] = {"diploma": "", "rotulo": "", "texto": ""}
+            elif nome in ("titulo", "abertura"):
+                atual = nome
+            else:
+                modos, _, pergunta = resto.partition(" ")
+                atual = {"campo": nome, "modos": [int(m) for m in modos.split(",")], "pergunta": pergunta.strip(),
+                         "paragrafos": [], "citacoes": [], "lei": []}
+                dados["secoes"].append(atual)
+            continue
+        if not linha.strip() or bloco is None:
+            continue
+        if bloco == "leis" and lei_id:
+            l = dados["leis"][lei_id]
+            if not l["diploma"]:
+                l["diploma"], _, l["rotulo"] = linha.partition("|")
+            else:
+                l["texto"] = (l["texto"] + " " + linha.strip()).strip()
+            continue
+        if bloco != "pagina":
+            continue
+        if atual == "titulo":
+            dados["titulo"] = (dados["titulo"] + " " + linha.strip()).strip()
+        elif atual == "abertura":
+            dados["abertura"].append(linha.strip())
+        elif isinstance(atual, dict):
+            m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+            if m:
+                atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+            elif linha.startswith("lei:"):
+                atual["lei"] += [x.strip() for x in linha[4:].split(",") if x.strip()]
+            else:
+                atual["paragrafos"].append(linha.strip())
+    return dados
+
+
+ALEM = carregar_alem_do_consumo()
+DATA_ALEM = "15 de novembro de 2026"
+
+
+def gerar_alem_do_consumo():
+    A = ALEM
+    if not A:
+        return
+    prefixo = "../"
+
+    def leis_html(ids):
+        return "".join(
+            f'<details class="lei-texto"><summary>O que diz o {esc(A["leis"][i]["rotulo"])} do {esc(A["leis"][i]["diploma"].split(" (")[0])}</summary>'
+            f'<p>{esc(A["leis"][i]["texto"])}</p><p class="fonte-lei">{esc(A["leis"][i]["diploma"])}, no site do Planalto, em {DATA_ALEM}. Acréscimo posterior, fora da tese.</p></details>'
+            for i in ids if i in A["leis"])
+
+    def secao(x):
+        modos = " ".join(f"modo-{m}" for m in x["modos"])
+        if 1 in x["modos"] and 2 not in x["modos"]:
+            modos += " modo-2"
+        extra = ' nota-autor" data-arq="acréscimo posterior · fora do texto da tese de 2026' if x["campo"] == "nota" else ""
+        rot = f'<p class="sobrelinha">Nota do autor · {DATA_ALEM}</p>' if x["campo"] == "nota" else ""
+        return (f'<section class="ext em-modo {modos} alem-{x["campo"]}{extra}">{rot}<h2 class="pergunta-secao" id="{x["campo"]}">{esc(x["pergunta"])}</h2>'
+                + "".join(f"<p>{esc(t)}</p>" for t in x["paragrafos"]) + leis_html(x["lei"]) + expansao(x["citacoes"], prefixo) + "</section>")
+
+    corpo = (f'<article class="folha alem-pagina">'
+             f'<p class="sobrelinha-ext"><a href="{prefixo}problemas/#porta-decide">A plataforma decide sobre mim</a> · <a href="{prefixo}direitos/">Seus direitos</a></p>'
+             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(A["titulo"])}</h1></header>'
+             f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in A["abertura"])
+             + f'<p class="nota-acrescimo">Página acrescentada em {DATA_ALEM}.'
+             + '<span class="ciencia"> É a primeira grande adição posterior à defesa. A tese não nomeia o Objeto Imaterial de Fruição Governada, que ela contém sem desenvolver.</span></p></section>'
+             + "".join(secao(x) for x in A["secoes"])
+             + saidas_html([("A plataforma decide sobre mim sem explicar", f"{prefixo}problemas/#porta-decide"), ("Vendo numa plataforma", f"{prefixo}problemas/vendo-na-plataforma/"),
+                            ("Trabalho por aplicativo", f"{prefixo}problemas/trabalho-por-app/"), (esc(COMO_RECLAMAR["titulo"]) if COMO_RECLAMAR else "Como reclamar", f"{prefixo}como-reclamar/")])
+             + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": A["titulo"], "inLanguage": "pt-BR", "url": f"{BASE}/alem-do-consumo/",
+              "dateModified": "2026-11-15", "isBasedOn": BASE + "/#tese", "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"}}
+    destino = SAIDA / "alem-do-consumo"
+    destino.mkdir(parents=True, exist_ok=True)
+    (destino / "index.html").write_text(
+        pagina("Quando não é relação de consumo · Código Civil, plataformas e quem vende ou trabalha nelas · Lex Plataformae",
+               "Quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor continua protegido pelo Código Civil, com mais exigência de prova.",
+               corpo, prefixo, "alem-do-consumo/", jsonld, camada="mista", imagem="problemas"),
         encoding="utf-8")
 
 
@@ -1828,6 +1931,22 @@ def gerar_inicio():
     destaques = ["conta-bloqueada", "item-alterado", "servico-piorou", "jogo-encerrado"]
     portas_caminho = ('<ul class="partes-curtas">' + "".join(f'<li><a href="caminho/{pt["slug"]}/">{esc(pt["titulo"])}</a></li>' for pt in PERCURSO[:4]) + "</ul>")
     destaques = [d for d in destaques if d in PROBLEMAS]
+    # Cinco portas pela perda, logo abaixo da pergunta aberta da capa, e a saída comum. Acréscimo de 15/11/2026, por ordem do autor.
+    # Cada porta leva à sua família em problemas/. A quinta leva também à página de quem não é consumidor.
+    def porta_perda(i):
+        fid = FAMILIA_ID[i]
+        nome, slugs = FAMILIAS_PROBLEMAS[i]
+        mais = (f'<p class="porta-mais"><a href="alem-do-consumo/">Quando não é relação de consumo</a></p>' if fid == "decide" else "")
+        return (f'<article class="porta porta-perda item-moldura"><h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
+                f'{ext_html("inicio", "porta-" + fid, "")}{lista_problemas([s for s in slugs[:3] if s in PROBLEMAS], "", "partes-curtas")}'
+                f'<p class="porta-mais"><a href="problemas/#porta-{fid}">Ver todos desta porta</a></p>{mais}</article>')
+    portas_perda = (f'<section class="portas portas-perda-secao em-modo modo-0 modo-2" aria-labelledby="perda-titulo">'
+                    f'<h2 class="portas-titulo" id="perda-titulo">Escolha o que aconteceu</h2>'
+                    f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(5))}</div>'
+                    f'<div class="porta-comum">{ext_html("inicio", "porta-comum", "")}'
+                    f'{lista_problemas(FAMILIAS_PROBLEMAS[5][1], "", "partes-curtas lista-duas")}'
+                    + (f'<p class="ver-reclamar"><a href="como-reclamar/">{esc(COMO_RECLAMAR["titulo"])}</a></p>' if COMO_RECLAMAR else "")
+                    + '<p class="porta-mais"><a href="caminho/a-compra/">Ou siga uma skin do começo ao fim</a></p></div></section>')
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
@@ -1838,6 +1957,7 @@ def gerar_inicio():
         <a href="metodo/" data-modo="2">Pesquisar as fontes</a>
       </nav>
     </section>
+    {portas_perda}
     {figura("inicio", "", destaque=True)}
     {cena("cena-compra")}
     {cena("cena-mudanca", "cena-incomodo")}
@@ -3917,7 +4037,7 @@ def gerar_referencias():
              f'<p>A lista de referências da tese, na ordem e na forma em que está no <a href="{prefixo}tese/referencias/">texto integral</a>, '
              'com a área de cada entrada e o número de vezes em que o texto a cita.</p></header>'
              f'<section class="bloco"><h2>A lista da tese</h2><ol class="lista-referencias">{"".join(itens)}</ol></section>'
-             '<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior. Por enquanto, nada.</p></section>'
+             f'<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior.</p><ul class="partes-curtas"><li><a href="{prefixo}alem-do-consumo/#o-que-e">Objeto Imaterial de Fruição Governada (OIFG), 15/11/2026. Fontes, o Código Civil e a doutrina dos bens digitais de Zampier Lacerda, já presente na lista da tese.</a></li></ul></section>'
              "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "url": BASE + "/referencias/", "name": "Referências · Lex Plataformae",
               "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}
@@ -4212,7 +4332,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/", BASE + "/versoes/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + ([BASE + "/alem-do-consumo/"] if ALEM else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/", BASE + "/versoes/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -4567,6 +4687,7 @@ def main():
     gerar_curso()
     gerar_problemas()
     gerar_como_reclamar()
+    gerar_alem_do_consumo()
     gerar_epigrafes()
     for c in D["conceitos"]:
         gerar_conceito(c)

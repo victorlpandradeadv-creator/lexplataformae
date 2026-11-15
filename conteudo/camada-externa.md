@@ -12,7 +12,43 @@ Rascunho do Claude, de 27/10/2026, refeito no mesmo dia para ficar mais explicad
 
 ### chamada
 
-Você comprou uma skin. Ela é sua?
+O que uma plataforma tirou de você?
+
+### porta-acesso
+
+A conta foi bloqueada, o presente sumiu ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.
+
+> Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
+
+### porta-mudou
+
+O que você comprou continua na conta, mas deixou de fazer o que fazia quando você pagou por ele.
+
+> A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
+
+### porta-empurrado
+
+A oferta apressou, o sorteio escondeu as chances ou a regra que pesou contra você estava enterrada nos termos de uso.
+
+> Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa. (p. 670)
+
+### porta-sair
+
+Sair parece livre, mas custa o histórico, a reputação, os itens e as pessoas que você conheceu ali. Esse custo também conta.
+
+> O poder não se estabiliza só por preço, mas por custo de saída. (p. 217)
+> Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema. (p. 217)
+
+### porta-decide
+
+O alcance caiu, a regra do aplicativo mudou ou a loja puniu sem dizer por quê. Vale para quem compra, e também para quem vende ou trabalha ali.
+
+> A alteração de regra, o rebaixamento de alcance ou a suspensão sequer se transformam em objeto verificável e disputável no próprio sistema. (p. 381)
+> O que decide é a estrutura real da sujeição, não a aparência contratual de horizontalidade. (p. 780)
+
+### porta-comum
+
+Em qualquer porta, chega a hora de provar o que aconteceu e de reclamar onde a resposta conta.
 
 ### cena-compra
 
