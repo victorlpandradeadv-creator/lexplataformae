@@ -1289,3 +1289,4 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .portas-grade.grade-perda { grid-template-rows: none; row-gap: 1.5rem; }
 .portas-grade.grade-perda > .porta-perda { grid-row: auto; display: flex; flex-direction: column; gap: 0.75rem; }
 .portas-grade.grade-perda > .porta-perda > .porta-mais { margin-top: auto; }
+.portas-grade.grade-perda > .porta-perda > .porta-mais { align-self: flex-start; text-align: left; }
