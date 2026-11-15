@@ -22,7 +22,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.16"
+VERSAO = "0.17"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -39,6 +39,7 @@ VERSOES = [
     ("0.14", "13/11/2026", "Revisão de leitor, segunda parte. A Doutrina ganha nomes próprios e capa, os problemas se agrupam em famílias, Situações e Seus direitos passam a ter uma página por situação e os dois capítulos mais longos se leem em duas partes."),
     ("0.15", "15/11/2026", "Primeira grande adição posterior à defesa. A capa abre por uma pergunta e cinco portas pela perda, e entra a página do Objeto Imaterial de Fruição Governada, para quem depende de plataforma sem ser consumidor."),
     ("0.16", "15/11/2026", "Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor."),
+    ("0.17", "15/11/2026", "As ilustrações ganham versão própria para o tema escuro, e a revisão estética corrige o aviso de trecho já citado, a página de problemas, o título na Ciência e o menu no celular."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -390,28 +391,62 @@ def sem_citacao_repetida(corpo):
 _BQ_INTEIRO = re.compile(r'<blockquote class="(citacao(?: nao-e)?)((?: [a-z0-9-]+)*)"><p>(.*?)</p></blockquote>', re.S)
 
 
+def _modos_por_posicao(corpo):
+    """Em que modos cada abertura de blockquote fica à vista, pela soma das classes dos ancestrais.
+    em-modo modo-N limita aos modos citados, ciencia a {2} e interno a {1, 2}. Correção de 15/11/2026."""
+    pilha, saida = [], {}
+    vazios = {"br", "img", "input", "meta", "link", "hr", "source", "wbr"}
+    for m in re.finditer(r"<(/?)([a-zA-Z0-9]+)([^>]*)>", corpo):
+        fecha, tag, attrs = m.group(1), m.group(2).lower(), m.group(3)
+        if fecha:
+            while pilha and pilha[-1][0] != tag:
+                pilha.pop()
+            if pilha:
+                pilha.pop()
+            continue
+        cl = re.search(r'class="([^"]*)"', attrs)
+        classes = set(cl.group(1).split()) if cl else set()
+        modos = {0, 1, 2}
+        if "em-modo" in classes:
+            modos &= {int(c[5:]) for c in classes if re.fullmatch(r"modo-\d", c)}
+        if "ciencia" in classes:
+            modos &= {2}
+        if "interno" in classes:
+            modos &= {1, 2}
+        atual = (pilha[-1][1] if pilha else {0, 1, 2}) & modos
+        if tag == "blockquote":
+            saida[m.start()] = atual
+        if tag not in vazios and not attrs.rstrip().endswith("/"):
+            pilha.append((tag, atual))
+    return saida
+
+
 def citacao_uma_vez(corpo):
     """Cada citação aparece uma vez por página, em qualquer modo. Revisão de leitor de 12/11/2026.
 
     A ocorrência seguinte fica só com a página, que leva à primeira. Só se troca quando a primeira está à vista em todo modo
-    em que a seguinte aparece, para que o link nunca leve a um trecho escondido.
+    em que a seguinte aparece, para que o link nunca leve a um trecho escondido. Desde 15/11/2026 o modo vem dos ancestrais,
+    e não só da própria citação.
     """
-    vistos = []  # (chave, id, visível fora da Ciência)
+    vistos = []  # (chave, id, modos em que está à vista)
     contador = [0]
+    modos_de = _modos_por_posicao(corpo)
 
     def troca(m):
         classe, extra, miolo = m.group(1), m.group(2), m.group(3)
         texto = miolo.split('<a class="pg"')[0].split('<span class="pg"')[0]
         chave = _chave_bq(texto).rstrip(" .")
-        so_ciencia = " ciencia" in f"{extra} "
+        modos = modos_de.get(m.start(), {0, 1, 2})
+        if " ciencia" in f"{extra} ":
+            modos = modos & {2}
         if len(chave) > 40:
-            for k, ident, fora in vistos:
-                if (chave == k or chave in k) and (fora or so_ciencia):
+            for k, ident, onde in vistos:
+                if (chave == k or chave in k) and modos <= onde:
                     pgs = "".join(re.findall(r'<a class="pg".*?</a>|<span class="pg".*?</span>', miolo, re.S))
                     return (f'<p class="ja-citado{extra}"><a href="#{ident}">Trecho já citado acima</a>{pgs}</p>')
         contador[0] += 1
         ident = f"cit-{contador[0]}"
-        vistos.append((chave, ident, not so_ciencia))
+        vistos.append((chave, ident, modos))
         return f'<blockquote class="{classe}{extra}" id="{ident}"><p>{miolo}</p></blockquote>'
     return _BQ_INTEIRO.sub(troca, corpo)
 
@@ -1193,7 +1228,8 @@ def gerar_problemas():
         if lista:
             extra = ('<li><a href="../alem-do-consumo/"><span class="parte-titulo">Quando não é relação de consumo, a lei continua protegendo?</span>'
                      '<span class="parte-resumo">Para quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor.</span></a></li>') if fid == "decide" and ALEM else ""
-            grupos.append(f'<h2 class="rotulo-ext" id="porta-{fid}">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}{extra}</ul>')
+            frase = f'<div class="familia-frase">{ext_html("inicio", "porta-" + fid, "../")}</div>'
+            grupos.append(f'<h2 class="rotulo-ext" id="porta-{fid}">{esc(nome)}</h2>{frase}<ul class="partes problemas-lista">{"".join(item(x) for x in lista)}{extra}</ul>')
     resto = [p for p in PROBLEMAS.values() if p["slug"] not in vistos]
     if resto:
         raise SystemExit("Problema sem família em FAMILIAS_PROBLEMAS: " + ", ".join(p["slug"] for p in resto))

@@ -1626,6 +1626,23 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 /* Por onde seguir tem duas portas desde 15/11/2026, centradas no eixo da capa. */
 @media (min-width: 761px) { .portas:not(.portas-perda-secao) .portas-grade { grid-template-columns: repeat(2, minmax(0, 24rem)); justify-content: center; } }
 
+/* Revisão estética de 15/11/2026, segunda parte. */
+/* Página de problemas. Título e frase de cada família, a faixa de reclamar e o aviso ocupam a largura toda. */
+.problemas-pagina > :is(h2, .familia-frase, .ver-reclamar, .nota-cuidado, .duvida) { grid-column: 1 / -1; }
+.familia-frase > p { margin: 0 0 0.9rem; max-width: 46rem; color: var(--tinta-2); }
+/* O título da página nunca aparece como link sublinhado, nem quando é o próprio link da Doutrina. */
+.folha-cabeca h1 a { color: inherit; text-decoration: none; }
+/* Na Ciência a legenda vira uma linha ao lado da faixa de versão, e o título não desce. A explicação fica para leitor de tela
+   e aparece ao passar o mouse sobre o controle. */
+.moldura { position: relative; }
+:is(:is(body.desnudo, body:has(#nivel-2:checked)), body:has(#nivel-2:checked)) .legenda-desnudo { position: absolute; top: 0; right: 0; margin: 0; padding: 0 0.25rem; border: 0; background: none; display: flex; align-items: center; min-height: 1.6rem; z-index: 2; }
+.legenda-desnudo p { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.legenda-desnudo label { margin: 0; min-height: 1.6rem; font-size: 0.75rem; }
+/* Menu do celular. Os cinco itens ficam em duas linhas equilibradas, três e dois, em vez de um sozinho na segunda. */
+@media (max-width: 560px) {
+  .menu-modo > ul:first-child { display: grid; grid-template-columns: repeat(3, max-content); column-gap: 1.25rem; row-gap: 0; }
+}
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

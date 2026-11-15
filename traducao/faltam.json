@@ -174,12 +174,6 @@
 "pagina": "alem-do-consumo/index.html"
 },
 {
-"k": "b0b7fe23395e8eab",
-"tipo": "html",
-"pt": "<a href=\"#cit-2\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/7-1-1-1/#p719\">p. 719</a>",
-"pagina": "alem-do-consumo/index.html"
-},
-{
 "k": "6691308b675e83d8",
 "tipo": "html",
 "pt": "A intensidade dessa dependência varia conforme grau de lockin, centralidade de acervos vinculados à conta, relevância do histórico de uso, peso de métricas de reputação e restrições à transferência, interoperabilidade ou reconstrução do adquirido fora da plataforma.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/5-2-1/#p486\">p. 486</a>",
@@ -2244,6 +2238,30 @@
 "pagina": "problemas/historia-perdida/index.html"
 },
 {
+"k": "4d5a1984d3b964a9",
+"tipo": "html",
+"pt": "Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/3-2-1/#p155\">p. 155</a>",
+"pagina": "problemas/index.html"
+},
+{
+"k": "6a0e4d83fb189d5f",
+"tipo": "html",
+"pt": "A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/3-1-3/#p104\">p. 104</a>",
+"pagina": "problemas/index.html"
+},
+{
+"k": "1dca403fd35af6f2",
+"tipo": "html",
+"pt": "Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/6-4-2/#p670\">p. 670</a>",
+"pagina": "problemas/index.html"
+},
+{
+"k": "d07fcd28007483b3",
+"tipo": "html",
+"pt": "Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../tese/3-2-3/#p217\">p. 217</a>",
+"pagina": "problemas/index.html"
+},
+{
 "k": "8618e5451a0cb4e7",
 "tipo": "html",
 "pt": "<a href=\"../alem-do-consumo/\"><span class=\"parte-titulo\">Quando não é relação de consumo, a lei continua protegendo?</span><span class=\"parte-resumo\">Para quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor.</span></a>",
@@ -2448,9 +2466,15 @@
 "pagina": "roteiro/parametros/index.html"
 },
 {
-"k": "8b6d245c3639faa0",
+"k": "3721736881b00788",
 "tipo": "html",
-"pt": "<b>Versão 0.11</b>, de 15/11/2026. Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor.",
+"pt": "<b>Versão 0.11</b>, de 15/11/2026. As ilustrações ganham versão própria para o tema escuro, e a revisão estética corrige o aviso de trecho já citado, a página de problemas, o título na Ciência e o menu no celular.",
+"pagina": "versoes/index.html"
+},
+{
+"k": "8b32b45cdb645fbb",
+"tipo": "html",
+"pt": "<b>Versão 0.16</b>, de 15/11/2026. Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor.",
 "pagina": "versoes/index.html"
 },
 {
