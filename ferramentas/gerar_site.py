@@ -1189,7 +1189,9 @@ def gerar_problemas():
         lista = [PROBLEMAS[x] for x in slugs if x in PROBLEMAS]
         vistos.update(x["slug"] for x in lista)
         if lista:
-            grupos.append(f'<h2 class="rotulo-ext" id="porta-{fid}">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}</ul>')
+            extra = ('<li><a href="../alem-do-consumo/"><span class="parte-titulo">Quando não é relação de consumo, a lei continua protegendo?</span>'
+                     '<span class="parte-resumo">Para quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor.</span></a></li>') if fid == "decide" and ALEM else ""
+            grupos.append(f'<h2 class="rotulo-ext" id="porta-{fid}">{esc(nome)}</h2><ul class="partes problemas-lista">{"".join(item(x) for x in lista)}{extra}</ul>')
     resto = [p for p in PROBLEMAS.values() if p["slug"] not in vistos]
     if resto:
         raise SystemExit("Problema sem família em FAMILIAS_PROBLEMAS: " + ", ".join(p["slug"] for p in resto))
