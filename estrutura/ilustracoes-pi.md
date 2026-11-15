@@ -6,15 +6,27 @@ Os trechos citados passam pelo script, com `python3 ferramentas/conferir_citacoe
 
 # 1. Natureza e estatuto
 
-A linguagem dos sólidos é contribuição do autor posterior à tese. Entra no site como acréscimo datado de 15/11/2026, com a marca de acréscimo, como a página do OIFG. A tese não propõe ontologia geométrica da propriedade intelectual. O que ela afirma, e que cada peça ilustra, é a separação entre a exclusividade, que vale no seu plano próprio, e os poderes contratuais e técnicos da plataforma, que não decorrem dela. Toda peça que afirma uma relação jurídica se ancora num trecho da tese ou num dispositivo de lei. A geometria em si fica marcada como acréscimo.
+A linguagem dos sólidos é contribuição do autor posterior à tese. Entra no site como acréscimo datado de 15/11/2026, com a marca de acréscimo, como a página do OIFG. A tese não propõe ontologia geométrica da propriedade intelectual. O que ela afirma, e que cada peça ilustra, é a separação entre o controle mercadológico por exclusividade, que vale no seu plano próprio, e o poder sobre a fruição funcional dos bens, que dele não decorre. Toda peça que afirma uma relação jurídica se ancora num trecho da tese ou num dispositivo de lei. A geometria em si fica marcada como acréscimo.
 
 O conceito é Objeto Imaterial de Consumo. A forma Objeto Intelectual de Consumo, que aparece na proposta original, não entra em nenhum texto do projeto.
 
-# 2. Por que é um projeto separado
+# 2. O eixo do projeto
+
+A propriedade intelectual percorre a tese com uma só distinção. De um lado está o controle mercadológico que a exclusividade confere, o poder de explorar, reproduzir, distribuir e impedir que outro faça o mesmo. Do outro está a fruição funcional do bem sobre o qual esse controle incide, aquilo que o bem faz para quem o usa. A exclusividade é legítima no seu plano. O que a tese recusa é que ela se converta em poder irrestrito sobre a fruição funcional.
+
+Toda peça deste projeto mostra essa distinção, ou uma parte dela. A geometria serve a ela. Os sólidos são os bens, o contorno duplo é o controle por exclusividade, o azul é a fruição funcional e o tracejado cinza é o poder que a plataforma exerce sobre a fruição sem que ele decorra da exclusividade.
+
+> A proteção da propriedade intelectual permanece íntegra em seu plano próprio, mas isso não autoriza que sua invocação funcione como cláusula geral de imunização contra controle de adequação, transparência, lealdade, equivalência funcional e tutela da fruição. (p. 737)
+
+> Essa distinção é central, porque impede que o controle sobre execução, atualização e modulação do programa seja expandido, por contrato ou retórica, até o ponto de apagar a densidade consumerista da fruição continuadamente fornecida. (p. 687)
+
+A fruição funcional não é uma pessoa. É o uso, o resultado que o bem entrega. Por isso o sistema não precisa de figura humana. A fruição aparece como um fluxo azul que sai do sólido para fora, para o papel, onde o uso acontece.
+
+# 3. Por que é um projeto separado
 
 As 73 peças do primeiro projeto são cenas editoriais com figuras, e o azul marca o que é do leitor. Os sólidos formam outro sistema, abstrato e com semântica própria. Na mesma peça, as duas linguagens se anulariam. O que as une é a paleta, o traço, o papel e duas convenções que este projeto herda sem alterar, a do azul para a posição do consumidor e a do tracejado cinza para a estrutura escondida.
 
-# 3. Os quatro sólidos
+# 4. Os quatro sólidos
 
 | sólido | o que representa | por que a geometria diz isso | operação |
 |---|---|---|---|
@@ -27,7 +39,7 @@ O sólido nunca é o direito. O cubo não é direito autoral, a esfera não é p
 
 A esfera fica só com a dimensão técnica. O ornamento sai dela e vai para o cilindro, para não aproximar visualmente desenho industrial e patente, que é a confusão que o sistema quer desfazer.
 
-# 4. Gramática
+# 5. Gramática
 
 | recurso | significado | convenção no desenho |
 |---|---|---|
@@ -39,13 +51,13 @@ A esfera fica só com a dimensão técnica. O ornamento sai dela e vai para o ci
 | vetor | relação de identificação ou referência | seta fina saindo do vértice da pirâmide |
 | transparência | dimensões que coexistem no mesmo objeto | sólidos sobrepostos com as linhas de trás visíveis |
 | intersecção | elemento compartilhado entre manifestações | área comum sem contorno de incidência |
-| tracejado cinza | poder contratual e técnico da plataforma, que não decorre da exclusividade | a mesma convenção de estrutura escondida do primeiro projeto |
-| azul | posição jurídica do consumidor | a mesma convenção do primeiro projeto |
+| tracejado cinza | poder contratual e técnico da plataforma sobre a fruição, que não decorre da exclusividade | a mesma convenção de estrutura escondida do primeiro projeto. Quando ele cruza o fluxo azul, o desenho mostra o ponto em que a exclusividade virou poder sobre a fruição |
+| fluxo azul | fruição funcional, o que o bem faz para quem o usa | faixa azul que sai do sólido para o papel, sempre fora do contorno de incidência, porque a exclusividade não a absorve. Herda o azul do primeiro projeto, onde ele marca o que é do leitor |
 | superfície modificada | mudança de aparência ao longo do tempo | reservada para quando a peça falar da mudança depois da venda |
 
 A cor nunca carrega sozinha o significado. Cada convenção também se distingue pela forma da linha, para funcionar em impressão em preto, para pessoas com baixa visão de cor e no tema escuro.
 
-# 5. Meio de produção
+# 6. Meio de produção
 
 Os sólidos são geometria exata e precisam ser idênticos em todas as aparições, o que é difícil de garantir num gerador de imagens. Por isso este projeto se divide em duas camadas.
 
@@ -53,11 +65,11 @@ A primeira camada são os componentes geométricos, desenhados por código em SV
 
 A segunda camada são poucas cenas editoriais, geradas pela IA, em que os sólidos aparecem dentro de uma situação concreta, como a skin ou a loja. Seguem as regras de produção de `estrutura/ilustracoes-producao.md`, com os sólidos desenhados como referência anexa a partir dos SVG da primeira camada.
 
-# 6. Lugares
+# 7. Lugares
 
 A linguagem fica concentrada onde a tese trata da propriedade intelectual, no capítulo Propriedade intelectual da Doutrina, em `doutrina/propriedade-intelectual/`, que segue a ordem do 6.5. Na Informação, a linguagem aparece em só três lugares, para que o leigo encontre o sistema sem precisar aprendê-lo inteiro. Na Ciência, ganha uma página própria que apresenta a gramática.
 
-# 7. As peças
+# 8. As peças
 
 ## pi-quatro-solidos
 
@@ -67,7 +79,7 @@ Camada. SVG
 
 Objetivo. Apresentar os quatro sólidos de uma vez, cada um com o seu nome comum, e mostrar que a propriedade intelectual da plataforma é feita de peças de natureza diferente.
 
-Composição. Os quatro sólidos em linha, em traço simples, sobre o papel, sem nenhum contorno de incidência. Debaixo de cada um, o nome da dimensão, expressão, solução técnica, ornamento e sinal distintivo. Nenhum nome de direito aparece nesta peça.
+Composição. Os quatro sólidos em linha, em traço simples, sobre o papel, sem nenhum contorno de incidência. Debaixo de cada um, o nome da dimensão, expressão, solução técnica, ornamento e sinal distintivo. De cada sólido sai o seu fluxo azul, porque todo bem tem fruição antes de qualquer direito. Nenhum nome de direito aparece nesta peça.
 
 > A infraestrutura de propriedade intelectual que sustenta a plataforma não é homogênea. Marcas, direitos autorais, software, sinais distintivos, interfaces e institutos conexos não conferem o mesmo tipo nem a mesma extensão de exclusividade. (p. 682)
 
@@ -95,7 +107,7 @@ Camada. SVG
 
 Objetivo. Mostrar que a proteção do código não alcança o método de funcionamento nem o resultado que o usuário experimenta.
 
-Composição. Um cubo com o contorno de incidência rente às faces, que representam o código. De dentro dele sai uma esfera pequena, o método, que fica fora do contorno. Ao lado, o resultado da fruição em azul, também fora do contorno.
+Composição. Um cubo com o contorno de incidência rente às faces, que representam o código. De dentro dele sai uma esfera pequena, o método, que fica fora do contorno. Do cubo sai também o fluxo azul do resultado funcional, que o contorno não alcança.
 
 > A proteção autoral do software não se estende ao método de funcionamento em si mesmo, nem transforma o titular do código em titular absoluto do resultado funcional experimentado pelo usuário (Barbosa, 2017, p. 1890; p. 1899). (p. 687)
 
@@ -151,7 +163,7 @@ Camada. Cena editorial pela IA, com os sólidos como referência.
 
 Objetivo. Decompor um objeto concreto nas suas dimensões, para mostrar que a skin reúne regimes diferentes, cada um com o seu alcance.
 
-Composição. A armadura canônica de pé, em azul. Em volta dela, em transparência, os quatro sólidos sobrepostos às partes correspondentes, o cubo na arte, a esfera no efeito técnico, o cilindro no padrão da superfície e a pirâmide no emblema. Cada sólido com o seu contorno de incidência. Por fora de tudo, um tracejado cinza mais largo envolve a armadura inteira, o controle da plataforma.
+Composição. A armadura canônica de pé, em azul. Em volta dela, em transparência, os quatro sólidos sobrepostos às partes correspondentes, o cubo na arte, a esfera no efeito técnico, o cilindro no padrão da superfície e a pirâmide no emblema. Cada sólido com o seu contorno de incidência. Da armadura sai o fluxo azul da fruição, o uso dentro do jogo. Por fora de tudo, um tracejado cinza mais largo envolve a armadura e o fluxo, o controle da plataforma sobre a fruição.
 
 > A cláusula é reveladora porque mostra, sem rodeios, que o controle sobre signos, narrativas, jogabilidade, visuais e conteúdo não é periférico ao fornecimento. É parte da própria infraestrutura pela qual o ambiente é governado. (p. 684)
 
@@ -163,13 +175,13 @@ Lugar. Doutrina, capítulo Propriedade intelectual, depois do título Onde está
 
 Camada. SVG
 
-Objetivo. É a peça central do projeto. Mostra a diferença entre o que a exclusividade protege e o que a plataforma controla por contrato e por técnica.
+Objetivo. É a peça central do projeto e a tradução direta do eixo. Mostra a diferença entre o controle mercadológico que a exclusividade confere e o poder sobre a fruição funcional, que ela não confere.
 
-Composição. Um sólido com o contorno de incidência justo. Em volta, um tracejado cinza muito maior, que alcança também uma figura azul, o consumidor, e o que ele usa. Entre o contorno justo e o tracejado largo fica uma faixa de papel, que é o espaço que a exclusividade não explica.
+Composição. Em duas metades. À esquerda, um sólido com o contorno de incidência justo e o fluxo azul saindo livre para o papel. À direita, o mesmo sólido, o mesmo contorno, e um tracejado cinza que se fecha também sobre o fluxo azul e o corta. A exclusividade é igual nas duas metades. O que muda é o poder sobre a fruição.
 
 > A existência de exclusividade juridicamente protegida sobre conteúdos, signos, códigos, sistemas, ativos digitais ou estruturas de plataforma não equivale à legitimação irrestrita do modo como essa exclusividade é exercida no interior da relação de consumo. (p. 737)
 
-Texto alternativo. Sólido com contorno justo de proteção, dentro de um tracejado cinza muito maior que alcança também a figura azul do consumidor.
+Texto alternativo. O mesmo sólido protegido duas vezes. Na primeira, o fluxo azul do uso sai livre. Na segunda, um tracejado cinza fecha e corta o fluxo.
 
 ## pi-licenca
 
@@ -179,7 +191,7 @@ Camada. SVG
 
 Objetivo. Mostrar que o nome licença não muda a natureza do que foi fornecido nem afasta a proteção do consumidor.
 
-Composição. A composição de pi-exclusividade-e-poder, com uma etiqueta de papel presa ao tracejado cinza. A figura azul continua dentro, e a etiqueta não muda nenhuma linha do desenho.
+Composição. A composição de pi-exclusividade-e-poder, com uma etiqueta de papel presa ao tracejado cinza. O fluxo azul continua no mesmo lugar, e a etiqueta não muda nenhuma linha do desenho.
 
 > A qualificação jurídica possível preserva a validade da propriedade intelectual em seu plano próprio, mas afasta sua invocação como veto geral à incidência do CDC. (p. 747)
 
@@ -193,7 +205,7 @@ Camada. SVG
 
 Objetivo. Mostrar que a exclusividade tem direção, e que a Constituição a subordina ao interesse social e ao desenvolvimento.
 
-Composição. Um sólido com o contorno de incidência. Do contorno sai um vetor largo que aponta para fora, para o papel, onde há outros sólidos em formação. A exclusividade aparece como passagem, e não como muro.
+Composição. Um sólido com o contorno de incidência. Do contorno sai um vetor largo que aponta para fora, para o papel, onde há outros sólidos em formação, e o fluxo azul da fruição corre ao lado, livre. A exclusividade aparece como passagem, e não como muro.
 
 > Ao contrário, subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
 
@@ -207,7 +219,7 @@ Camada. SVG
 
 Objetivo. Mostrar o desvio que a linguagem quer evitar, o contorno que cresce além do que protege.
 
-Composição. Um sólido pequeno, com um contorno de incidência que foi inchando em anéis sucessivos até cobrir boa parte do papel e outros sólidos que não lhe pertencem.
+Composição. Um sólido pequeno, com um contorno de incidência que foi inchando em anéis sucessivos até cobrir boa parte do papel, outros sólidos que não lhe pertencem e o fluxo azul da fruição. É o contorno de exclusividade que se fez tracejado, o desvio que a linguagem existe para mostrar.
 
 > A metáfora do “latifúndio jurídico”, em Dowbor, descreve uma disfunção teleológica interna ao regime de Propriedade Intelectual (p. 235)
 
@@ -219,13 +231,13 @@ Lugar. Doutrina, capítulo Propriedade intelectual, depois do título O que acon
 
 Camada. SVG
 
-Objetivo. Mostrar que a exclusividade continua íntegra quando o serviço acaba, mas não autoriza apagar o que o consumidor já tinha.
+Objetivo. Mostrar que a exclusividade continua íntegra quando o serviço acaba, mas não autoriza apagar a fruição funcional já estabilizada.
 
-Composição. O contorno de incidência permanece em volta do sólido. O tracejado cinza da plataforma se desfaz. A figura azul continua no papel, com o que já era dela, sem o tracejado em volta.
+Composição. O contorno de incidência permanece em volta do sólido. O tracejado cinza da plataforma se desfaz. O fluxo azul não se apaga junto, e continua no papel com uma ponte tracejada que indica a passagem devida.
 
 > A função social da propriedade e da propriedade intelectual impede que a exclusividade opere como título bastante para legitimar o apagamento unilateral desses acervos sob o pretexto de liberdade empresarial, conveniência econômica ou reorientação estratégica do fornecedor. (p. 709)
 
-Texto alternativo. Sólido protegido que continua com o contorno, enquanto o tracejado da plataforma se desfaz e a figura azul permanece no papel.
+Texto alternativo. Sólido protegido que continua com o contorno, enquanto o tracejado da plataforma se desfaz e o fluxo azul do uso permanece no papel.
 
 ## pi-convivencia
 
@@ -235,11 +247,11 @@ Camada. SVG
 
 Objetivo. Fechar o capítulo com a regra compositiva, a de que os regimes incidem juntos sobre o mesmo problema sem perder a autonomia.
 
-Composição. Os quatro sólidos sobrepostos em transparência, cada um com o seu contorno, e a figura azul no meio. Nenhum contorno engole outro, e nenhum se funde com o tracejado.
+Composição. Os quatro sólidos sobrepostos em transparência, cada um com o seu contorno, e um só fluxo azul saindo do conjunto. Nenhum contorno engole outro, nenhum se funde com o tracejado e nenhum corta o fluxo.
 
 > A Constituição, o Código de Defesa do Consumidor e os regimes de propriedade intelectual não incidem aqui como blocos estanques, disputando primazia abstrata, mas como fontes simultaneamente convocadas por um mesmo problema jurídico. (p. 503)
 
-Texto alternativo. Quatro sólidos sobrepostos em transparência, cada um com contorno próprio, com a figura azul no meio.
+Texto alternativo. Quatro sólidos sobrepostos em transparência, cada um com contorno próprio, com um só fluxo azul saindo do conjunto.
 
 ## pi-escassez
 
@@ -249,11 +261,11 @@ Camada. SVG simplificado
 
 Objetivo. Dar ao leigo a ideia mais simples do sistema, a de que a exclusividade é uma cerca posta pelo Direito num campo que, sem ela, circularia livre.
 
-Composição. Um único cubo sobre o papel. Uma mão de fora do quadro desenha o contorno de incidência em volta dele. O resto do papel continua livre.
+Composição. Um único cubo sobre o papel, com o seu fluxo azul. Uma mão de fora do quadro desenha o contorno de incidência em volta do cubo, e só dele. O fluxo azul e o resto do papel continuam livres.
 
 > A própria ideia de propriedade intelectual já nasce como construção normativa de escassez artificial, criada para tornar economicamente apropriável aquilo que, em seu estado natural, circularia sem barreiras equivalentes. (p. 682)
 
-Texto alternativo. Mão desenhando um contorno em volta de um cubo, com o resto do papel livre.
+Texto alternativo. Mão desenhando um contorno em volta de um cubo, com o fluxo azul do uso e o resto do papel livres.
 
 ## pi-pagina-linguagem
 
@@ -265,26 +277,26 @@ Objetivo. Apresentar a gramática inteira ao especialista, com a origem, os quat
 
 Conteúdo. Texto do autor a partir da proposta de 15/11/2026, corrigido pelas decisões do mesmo dia, com a marca de acréscimo posterior. Traz pi-esfera-tecnica, pi-latifundio e uma versão de cada sólido com cada convenção.
 
-# 8. Ferramenta
+# 9. Ferramenta
 
 `ferramentas/solidos.py` desenha os sólidos em SVG por projeção isométrica fixa, com o mesmo ângulo e a mesma espessura de linha em todas as peças. Recebe uma composição descrita em texto, no mesmo espírito de `estrutura/esquemas.md`, com sólidos, posições, contornos, vetores e tracejados. Usa `currentColor` e as variáveis de cor do site, de modo que o tema escuro sai sem versão própria. Cada SVG traz título e descrição para leitor de tela, e o texto alternativo deste plano.
 
 As peças entram pelo mesmo mecanismo dos esquemas, com o campo `pagina` e o campo `posicao` antes ou depois de um título.
 
-# 9. Testes de inteligibilidade
+# 10. Testes de inteligibilidade
 
 Antes de a linguagem passar às cenas editoriais, cada convenção é testada sozinha. O teste mostra a peça sem legenda a leitores que não conhecem o sistema e pergunta o que ela diz. Uma convenção que precise de legenda em mais da metade das leituras é redesenhada. O leitor leigo simulado faz a primeira rodada, e o autor decide se convém um teste com pessoas reais.
 
-# 10. Ordem de execução
+# 11. Ordem de execução
 
 Primeiro a ferramenta e os quatro sólidos isolados, vistos pelo autor no ar. Depois as peças da Doutrina, na ordem do capítulo. Depois a página da Ciência. Por último as três peças da Informação e a cena editorial da skin, que só sai depois que as convenções passarem no teste.
 
-# 11. Problemas ainda abertos
+# 12. Problemas ainda abertos
 
 O contorno duplo para a incidência precisa ser testado contra o contorno simples dos sólidos, porque os dois são linhas em tinta.
 
 A intersecção sem contorno pode ser lida como área livre, quando a regra é que fora de uma exclusividade pode haver outra proteção. Talvez peça uma convenção própria.
 
-A figura azul do consumidor é a única figura humana do sistema. Resta decidir se ela é um ponto, um sólido próprio ou uma silhueta.
-
 O art. 95 da Lei de Propriedade Industrial ainda precisa entrar em `estrutura/dispositivos-planalto.json`, com o texto oficial.
+
+O fluxo azul precisa ser distinto do vetor de identificação da pirâmide. Os dois saem de um sólido para fora. Proposta inicial, o vetor é linha fina com ponta e o fluxo é faixa larga sem ponta.
