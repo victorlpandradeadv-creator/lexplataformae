@@ -1,0 +1,178 @@
+[
+  {
+    "id": "direito-a",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0,
+      "2": 0.0105,
+      "3": 0.0079,
+      "4": 0.1159,
+      "5": 0.0
+    }
+  },
+  {
+    "id": "direito-b",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.001,
+      "2": 0.0229,
+      "3": 0.0041,
+      "4": 0.0032,
+      "5": 0.0001
+    }
+  },
+  {
+    "id": "direito-c",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0,
+      "2": 0.0206,
+      "3": 0.0027,
+      "4": 0.0038,
+      "5": 0.0
+    }
+  },
+  {
+    "id": "direito-d",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0005,
+      "2": 0.0117,
+      "3": 0.002,
+      "4": 0.0656,
+      "5": 0.0007
+    }
+  },
+  {
+    "id": "direito-e",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0002,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0319,
+      "5": 0.0009
+    }
+  },
+  {
+    "id": "direito-f",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0,
+      "2": 0.0138,
+      "3": 0.0018,
+      "4": 0.0052,
+      "5": 0.0
+    }
+  },
+  {
+    "id": "direito-g",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0008,
+      "2": 0.0217,
+      "3": 0.0113,
+      "4": 0.0141,
+      "5": 0.0
+    }
+  },
+  {
+    "id": "direito-h",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0124,
+      "4": 0.0036,
+      "5": 0.0
+    }
+  },
+  {
+    "id": "direito-i",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0021,
+      "2": 0.0317,
+      "3": 0.0028,
+      "4": 0.0451,
+      "5": 0.001
+    }
+  },
+  {
+    "id": "direito-j",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0006,
+      "2": 0.0072,
+      "3": 0.0011,
+      "4": 0.0092,
+      "5": 0.0012
+    }
+  },
+  {
+    "id": "direito-k",
+    "size": [
+      480,
+      480
+    ],
+    "quality": 85,
+    "shared_geometry": true,
+    "color_area_fractions": {
+      "1": 0.0002,
+      "2": 0.0109,
+      "3": 0.0013,
+      "4": 0.0691,
+      "5": 0.0
+    }
+  }
+]

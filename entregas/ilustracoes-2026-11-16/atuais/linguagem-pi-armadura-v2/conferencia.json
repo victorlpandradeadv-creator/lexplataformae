@@ -1,0 +1,29 @@
+[
+  {
+    "peca": "pi-skin-objeto",
+    "dimensoes": [
+      1200,
+      900
+    ],
+    "alfa_identico": true,
+    "fundo_transparente": true
+  },
+  {
+    "peca": "pi-skin-dimensoes",
+    "dimensoes": [
+      1200,
+      900
+    ],
+    "alfa_identico": true,
+    "fundo_transparente": true
+  },
+  {
+    "peca": "pi-skin-controle",
+    "dimensoes": [
+      1200,
+      900
+    ],
+    "alfa_identico": true,
+    "fundo_transparente": true
+  }
+]

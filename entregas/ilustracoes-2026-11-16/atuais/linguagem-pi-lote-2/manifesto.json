@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pi-cilindro-superficie",
+    "titulo": "Superfície e padrão",
+    "descricao": "O mesmo padrão aparece na superfície curva e no plano aberto. O contorno duplo delimita o padrão examinado neste exemplo, sem declarar proteção de todo o objeto. Estudo visual; a hipótese jurídica e sua fonte serão especificadas na integração.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-piramide-origem",
+    "titulo": "Sinal e origem",
+    "descricao": "A pirâmide se relaciona a um ponto de origem por uma seta fina. A faixa azul, larga e sem ponta, representa o uso. Esta peça ensina a relação de identificação, sem presumir a existência ou o alcance de um direito de marca.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-licenca",
+    "titulo": "O nome não muda a relação",
+    "descricao": "A etiqueta vazia representa a denominação contratual, explicada aqui como licença. Ela se prende ao limite da plataforma. O contorno da proteção permanece igual, enquanto a faixa de uso aparece interrompida. A etiqueta não contém escrita.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-encerramento",
+    "titulo": "Preservar a continuidade",
+    "descricao": "À esquerda, o objeto protegido está dentro do limite tracejado da plataforma. À direita, o limite desaparece, mas o objeto e sua proteção permanecem. A faixa de uso continua nas duas situações. O desenho apresenta a continuidade a examinar, não uma solução técnica ou jurídica automática.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-funcao-social",
+    "titulo": "Proteção e resultados",
+    "descricao": "O objeto com contorno de proteção aparece ao lado de outras formas, agrupadas como resultados possíveis. A faixa de uso permanece contínua. A composição introduz a discussão da finalidade social; sua legenda editorial deverá explicitar a relação no caso tratado.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-convivencia",
+    "titulo": "Dimensões do mesmo objeto",
+    "descricao": "Cubo, esfera, cilindro e pirâmide ficam separados, ligados a uma mesma faixa de uso. Representam dimensões de um objeto comum. A ausência de contornos de proteção nesta introdução evita presumir que todos os regimes incidem automaticamente.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  }
+]

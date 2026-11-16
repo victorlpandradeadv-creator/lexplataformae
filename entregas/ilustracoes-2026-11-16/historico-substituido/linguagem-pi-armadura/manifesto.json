@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pi-skin-objeto",
+    "titulo": "A armadura como objeto",
+    "descricao": "A mesma armadura canônica, em vista frontal. Nenhum sinal distintivo, mecanismo ou ornamento novo foi acrescentado.",
+    "tamanho": [
+      1200,
+      900
+    ]
+  },
+  {
+    "id": "pi-skin-dimensoes",
+    "titulo": "Dimensões separadas",
+    "descricao": "Ao lado da armadura, cubo e esfera acima, cilindro e pirâmide abaixo: expressão, solução técnica, ornamento e distintividade. São perguntas de análise, não quatro proteções presumidas. A aparência da skin não comprova função técnica; esta referência não contém emblema.",
+    "tamanho": [
+      1200,
+      900
+    ]
+  },
+  {
+    "id": "pi-skin-controle",
+    "titulo": "Proteção e controle do uso",
+    "descricao": "Ao lado da armadura, duas situações com o mesmo cubo protegido. Acima, a faixa de uso é contínua. Abaixo, o limite tracejado da plataforma interrompe a faixa. O controle sobre o uso é representado separadamente da proteção examinada.",
+    "tamanho": [
+      1200,
+      900
+    ]
+  }
+]

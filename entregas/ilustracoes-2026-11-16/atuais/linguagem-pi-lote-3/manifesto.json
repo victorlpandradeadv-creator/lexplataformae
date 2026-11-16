@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pi-quatro-solidos",
+    "titulo": "Quatro dimensões",
+    "descricao": "Da esquerda para a direita: cubo para expressão, esfera para solução técnica, cilindro para ornamento e pirâmide para distintividade. Cada dimensão acompanha uma faixa de uso. As formas são convenções e não equivalem automaticamente a direitos.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-esfera-tecnica",
+    "titulo": "O funcionamento por dentro",
+    "descricao": "A esfera inteira aparece à esquerda. À direita, a organização interna é exposta por duas engrenagens. Não há contorno de incidência: o desenho apresenta funcionamento, sem presumir proteção jurídica do mecanismo.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-latifundio",
+    "titulo": "Controle além do recorte",
+    "descricao": "O contorno duplo da exclusividade permanece rente ao cubo. Dois limites tracejados mostram a ampliação do controle da plataforma, até envolver outras dimensões e o uso. O contorno da proteção não se transforma em controle: são elementos distintos.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-escassez",
+    "titulo": "A delimitação é acrescentada",
+    "descricao": "Primeiro, o cubo aparece sem contorno de incidência; depois, o mesmo cubo recebe um contorno duplo. O uso permanece contínuo. A sequência representa a construção de uma delimitação, sem afirmar ausência de outras proteções na primeira situação.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  }
+]

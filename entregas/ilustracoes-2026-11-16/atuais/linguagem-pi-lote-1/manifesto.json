@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pi-cubo-expressao",
+    "titulo": "Expressão",
+    "descricao": "O cubo representa a expressão do objeto. A faixa azul representa seu uso. A forma não declara, por si, a existência de um direito.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-esfera-solucao",
+    "titulo": "Solução técnica",
+    "descricao": "A esfera representa a dimensão técnica do objeto; suas linhas curvas indicam volume. A faixa representa o uso. Não há contorno de proteção nesta apresentação.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-cilindro-ornamento",
+    "titulo": "Ornamento",
+    "descricao": "O cilindro apresenta uma superfície que pode receber uma configuração ornamental. A faixa representa o uso. A incidência de proteção não é presumida.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-piramide-distintividade",
+    "titulo": "Distintividade",
+    "descricao": "A pirâmide representa a dimensão distintiva. A faixa azul representa o uso; não é uma seta de identificação de origem.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-cubo-software",
+    "titulo": "Expressão e funcionamento",
+    "descricao": "O cubo tem o contorno da proteção da expressão examinada. A esfera, apresentada separadamente, representa o funcionamento. Estar fora deste contorno não significa ausência de qualquer outra proteção.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  },
+  {
+    "id": "pi-papel-dominio-publico",
+    "titulo": "Uma exclusividade delimitada",
+    "descricao": "Somente o cubo recebe o contorno da exclusividade examinada. As outras dimensões permanecem separadas desse contorno. O fundo é neutro; não representa automaticamente domínio público.",
+    "largura": 1200,
+    "altura": 780,
+    "status": "estudo para aprovação",
+    "fundo": "transparente"
+  }
+]

@@ -1,0 +1,1257 @@
+[
+  {
+    "arquivo": "PENDENTES.md",
+    "bytes": 2124,
+    "sha256": "45d6cfb28e523a65010700d96a3d013608e6698383b0a0aea3b7129f2dd662ca"
+  },
+  {
+    "arquivo": "README.md",
+    "bytes": 3245,
+    "sha256": "f7ca5ca278b26468f7395d3390e2e9d95a261fe9c44abceb46a91af320d349b1"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/LEIA-ME.md",
+    "bytes": 919,
+    "sha256": "d19ff295b2b29d72e8f77ff957168d40cf18afb237263568b2d767d3108e9d8d"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/manifesto.json",
+    "bytes": 1129,
+    "sha256": "9673e75a75ef8fd86e8a4f84622dc9b858f4f7dfb3faac9705c3cd75aa7b94d6"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-acesso-escuro.png",
+    "bytes": 3697,
+    "sha256": "7ff205a1a73a64e3eff3cbe9194cd3408e5fac941318527dc1956fedb8e58ff2"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-acesso-escuro.webp",
+    "bytes": 1888,
+    "sha256": "52f4cc79cb5234ccf6b8fdcc4c6df1759b2a4457b8086377a0696c49d882d2db"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-acesso.png",
+    "bytes": 3357,
+    "sha256": "859462d4dea23e04de6b83cae4f3b5357d981ee5288f193087b6963815640c00"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-acesso.svg",
+    "bytes": 489,
+    "sha256": "cd6859732e969434c5c3a6ea297fb4f3917a6251d473b785966477ab7799fc4b"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-acesso.webp",
+    "bytes": 1768,
+    "sha256": "a1dfcbd83d19839dcfa0bd1f39b5b88c7d8de0fb6db251de9831bb428c4bb2b7"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-comum-escuro.png",
+    "bytes": 5758,
+    "sha256": "05c40ac1ee77b0ae70d97085690925a9fc2db12d535cba7ddd37804060cc6d37"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-comum-escuro.webp",
+    "bytes": 3320,
+    "sha256": "b11023befbdaba4423b62ebb97f41e77c074951735f03659b204a56d4f90fda5"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-comum.png",
+    "bytes": 5259,
+    "sha256": "185eaa62d15fa7b4dafaf5ac03dc5f69d78212de1853b05ecf4c074366f39153"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-comum.svg",
+    "bytes": 674,
+    "sha256": "db7260489f634459ce07a616498c0cce9c6b41a89e4d03c7e78841b277d96bdf"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-comum.webp",
+    "bytes": 3036,
+    "sha256": "187080640678ce6c205534c104b18f2116c1bedf40d86a861ff1321168cc1c0e"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-decide-escuro.png",
+    "bytes": 9368,
+    "sha256": "a37e68d3ee4076c6f763adefb3b27696216693d4d97a5fd2eaaddd5d0bb4856b"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-decide-escuro.webp",
+    "bytes": 4324,
+    "sha256": "ea783bc69b3256d9b0b942299ef887df2db27a3dcc431e8fcb5f5ab6d28979f1"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-decide.png",
+    "bytes": 8387,
+    "sha256": "e8ba7b00424f2892d9a03999af75dc7e3a12c44f931b5e02dc6d6abeef72f5e4"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-decide.svg",
+    "bytes": 5164,
+    "sha256": "1f33f498c8f103c04f96a0117daa96a631804d9236e8c5fe96362df1f2051aa1"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-decide.webp",
+    "bytes": 3810,
+    "sha256": "9a85fa5e618fa045219c11a6f794490bc96439917d8b50e87dd4119a26f84987"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-empurrado-escuro.png",
+    "bytes": 11047,
+    "sha256": "0972d77f0e97c14681a045caa809c538f85b9d0ba241fc8e9a28f2854c448e63"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-empurrado-escuro.webp",
+    "bytes": 6518,
+    "sha256": "19006f552abf9558c3be894abeec55272afa4b4ff45017dcbef22cfe356e6537"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-empurrado.png",
+    "bytes": 9604,
+    "sha256": "d7618a418e3b1860ea0f973845b6fb08e54fda03517d66ba6c14463debbcf002"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-empurrado.svg",
+    "bytes": 2314,
+    "sha256": "523b613816a93024abab1bb7278926a4e083cb8bb4468cd831092e74e7fcb0e5"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-empurrado.webp",
+    "bytes": 5324,
+    "sha256": "dca94f056e703c88f705ce12515d2d523762473bd013f6a222ac4847387d8f9b"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-mudou-escuro.png",
+    "bytes": 3537,
+    "sha256": "412aa5589385d6da0208e2d279ec8d534e7ddcf6fa1e39bdbee9db1e65b417d2"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-mudou-escuro.webp",
+    "bytes": 2650,
+    "sha256": "c398179515c4889994011bf163aaca6a9d38df33fec372421b0006438e8f2b29"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-mudou.png",
+    "bytes": 3184,
+    "sha256": "0b51ca7dc5a0fa7036f1bfa993b6b297ce6a5ec3d61e9a8102db56539d7c633d"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-mudou.svg",
+    "bytes": 696,
+    "sha256": "167bcfc76a6fd0de310f59ef54ca795fa96fef429dc45bd885d6133e4b4335c9"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-mudou.webp",
+    "bytes": 2366,
+    "sha256": "c6ae109d5618e8629938df595ee26fd94423bc7650a0f2b8c589ea752776649f"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-sair-escuro.png",
+    "bytes": 5331,
+    "sha256": "6a7aded0b1e718d4459113a0268c2981e3cd7bbfd7ade6e6a6455937080d7e43"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-sair-escuro.webp",
+    "bytes": 2826,
+    "sha256": "088e390d1230c6f9628f435baf3e6a24719d743b8046c9d94ec52177216f254a"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-sair.png",
+    "bytes": 4935,
+    "sha256": "8f2afe93094c3e615b0a5ef5226cdc27d27f6f20093355b5dbc3d525b2d1e479"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-sair.svg",
+    "bytes": 1011,
+    "sha256": "3bd76d432a5be7ee8070102b9c02f38deb3e5fd57b9d93c57daa096f0089d0fc"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/porta-sair.webp",
+    "bytes": 2526,
+    "sha256": "34f0abc62d8326339b4c637141bcba845a0ac0dec4b72fd0f1d8256665abc5b7"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/prancha-ciencia.png",
+    "bytes": 84814,
+    "sha256": "3245664fab0e61bcb6960fad78d41f3f69f890a110e950b78ee84a41a7607847"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/prancha-doutrina.png",
+    "bytes": 84952,
+    "sha256": "b6c78749cf2dfe3727fcc581032fa387df2294c3b4aa46f2f0d2434c11113cb5"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/prancha-informacao.png",
+    "bytes": 84983,
+    "sha256": "e94a0402f76a910c02f2c118aba1f4ddd4ba8212bb17d9dfaf8d86fc18375ee5"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/previa.html",
+    "bytes": 71385,
+    "sha256": "526e6086a5f44c32df87f4854dad4915cbbb94030d97af54622b3b8c98e7ac8f"
+  },
+  {
+    "arquivo": "atuais/familia-1-nova/prova-56px.png",
+    "bytes": 28180,
+    "sha256": "83d36d068ffad56fc74677e4d06009240521c4735a76e47dc2ac0655a64c2bd7"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/LEIA-ME.md",
+    "bytes": 1257,
+    "sha256": "bed0ed45f9d8ca6609baf20f05101560f92dc79014949113e9c1c66a487a53ae"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/conferencia.json",
+    "bytes": 442,
+    "sha256": "7e10eccdb3786ddf1e0c5967644b765eca22d02a54ecbed08e08ad015a67a05a"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-claro.png",
+    "bytes": 168893,
+    "sha256": "0d2bfa4ca2342af881c4678d7fb1991805e8a47803e3cfd29789a2eacaebd800"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-claro.svg",
+    "bytes": 13805,
+    "sha256": "dc65f00167c485039fca96e331d582fb0eb05cee07d98813b42f5e21faf1e305"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-claro.webp",
+    "bytes": 70072,
+    "sha256": "c87d099a877ab3647d6e651cbd0b504b59c009b86809cc6540a5a0df13209670"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-escuro.png",
+    "bytes": 189545,
+    "sha256": "779b68150b68917b91c8debd59d440e5d3987a1df31be906e45df9a8e95cdd0f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-escuro.svg",
+    "bytes": 13821,
+    "sha256": "fad05f79a07bdfd93517b804c7b381b9f0607c45290ae2d4c502f830ac7e303b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-controle-escuro.webp",
+    "bytes": 82266,
+    "sha256": "5448684e426d9bf578b551813509e9063f24661fb4d98a319faadb9af1abbc3c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-claro.png",
+    "bytes": 181851,
+    "sha256": "17a3df9c3356e330b7c088ab94b879aa0fbdf5d479438064a474736879e2d22a"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-claro.svg",
+    "bytes": 10568,
+    "sha256": "03ed2fd861c89e0d46f4b37c98533fdb0fc512038919be37520cf72eb719e1f0"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-claro.webp",
+    "bytes": 83422,
+    "sha256": "f34576faecaf35ea6551d24c7b0ea19fd62baa6f6303f42f594faa619267a367"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-escuro.png",
+    "bytes": 204952,
+    "sha256": "8562ac3162190a41d8909ca4a9ad92e7e78e2741d4d92fcd727d2d9f0d465e55"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-escuro.svg",
+    "bytes": 10584,
+    "sha256": "340d0b374248045921847fe5805c78e2754d5725b1ede0bef50103b316f9df90"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-dimensoes-escuro.webp",
+    "bytes": 98584,
+    "sha256": "6f86612a29088eac8038ec9c7f82deda1308f36d80f357bd2984f59c292ac1c1"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-claro.png",
+    "bytes": 118809,
+    "sha256": "c49fdee933a7af4910b7e60c21dcd2935e877c631a49a5281668613513221472"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-claro.svg",
+    "bytes": 1152,
+    "sha256": "2def22aa6bdd55869b66d2796cd3490f65974e87f287da66ccff420d1f988975"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-claro.webp",
+    "bytes": 56006,
+    "sha256": "b5615ffab5935ffd40af6642191a503ce80a01e43226d3295f3a1b7986d44f4b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-escuro.png",
+    "bytes": 130567,
+    "sha256": "58db22dbc7608c8db8d39814f265493e790a3ebb50240b8db3d4f0bc63508041"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-escuro.svg",
+    "bytes": 1168,
+    "sha256": "20ae6e94f5aa81d5ef9d23454d3ae33151adccaa5dc537dff0b0348ea8fdf1b7"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/pi-skin-objeto-escuro.webp",
+    "bytes": 64696,
+    "sha256": "b4c163d6edbfb3ab1ea9f597f87f79cfbd55df24b6817886177aad7634374cf2"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/prancha-ciencia.png",
+    "bytes": 561182,
+    "sha256": "cfb8982fae43bd9793497e19004b560da3fccc3312bddf66a79b6d91d676f9fb"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/prancha-doutrina.png",
+    "bytes": 562807,
+    "sha256": "f29d75d5c32d570e04ac802b5a7bad75a90d4987c2ca0c075261c6f42e5b1673"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/prancha-informacao.png",
+    "bytes": 560598,
+    "sha256": "b1cabcce70ad31ee3ea4b31ad24c204a4c5263fc1ff00aaa64065a3250110f39"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-armadura-v2/previa.html",
+    "bytes": 158785,
+    "sha256": "ff7eb1c369a5d8e2284bd28a866805d7e8aa9462ef8155774fb6693c5518db77"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/LEIA-ME.md",
+    "bytes": 1181,
+    "sha256": "b7fad1e1c4eae98e8b267023ff0c20a808cec458b0088bc4d6427d5f4d2095b0"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/manifesto.json",
+    "bytes": 2228,
+    "sha256": "f112d8d2a793c0faca9bd15a1fafd68cc19ba8e1ae7adc1b8dc5fb04aecf3e66"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cilindro-ornamento-claro.png",
+    "bytes": 7002,
+    "sha256": "c3e1757996ee76b60fed6466119444f318f0cd5331608c67d7d152c71ae4a20c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cilindro-ornamento-claro.webp",
+    "bytes": 1312,
+    "sha256": "b79efd560de387edd6a289fa1110e9734f04f36018b9c67b270b996fe8546a8c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cilindro-ornamento-escuro.png",
+    "bytes": 7009,
+    "sha256": "103ce13f4ce416713cc9173b04e155348fc72ee783eecb3728eaaf4fcfda66be"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cilindro-ornamento-escuro.webp",
+    "bytes": 1314,
+    "sha256": "3f660d32cec5ced7cf69aec1683a9cef77705fb47f6183ee98acb546e7a79e82"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cilindro-ornamento.svg",
+    "bytes": 3130,
+    "sha256": "c327742d73758cedeb883c2b0464f0b5bbcf1a21d090aab880d710c4108b9db0"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-expressao-claro.png",
+    "bytes": 7613,
+    "sha256": "b60989be702fde46aab9e040236f83a8c35886b18561172e9994aaa6994da58b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-expressao-claro.webp",
+    "bytes": 1870,
+    "sha256": "629750a9d5094e6ed5c5e982a843754862bca10b0844885f57d656bcded76fb5"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-expressao-escuro.png",
+    "bytes": 7620,
+    "sha256": "705795535db0edcaf4acb9f5435a38c6c4425927bb976619ab1b2e0fe70cc29c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-expressao-escuro.webp",
+    "bytes": 1872,
+    "sha256": "559b71fdca0000a735bf72cc0a37e5ee6f7ef4116bbb57db87b1958031171618"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-expressao.svg",
+    "bytes": 760,
+    "sha256": "46855c91bf32abaffd504341a3d10be025c3df6def8ac09325464547438d0ed4"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-software-claro.png",
+    "bytes": 11392,
+    "sha256": "2ed2d692876b8e8d8c8c8c09fbf8c41d6e4f35d6aae0e93c2457ba77d56ddeca"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-software-claro.webp",
+    "bytes": 3930,
+    "sha256": "fa0bcf4565bfa836547910e25a2e20910b55e4810d25eff9c77ed5e3b2603d8e"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-software-escuro.png",
+    "bytes": 11403,
+    "sha256": "09fa3b4163376e4b847371cae1f8fa5233a2d60659d3e8d2c71b93a6c6b39617"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-software-escuro.webp",
+    "bytes": 3948,
+    "sha256": "f8e2e510694c40eb20036e02f45fd318c2f67a12c0aa437775afa3d5d49b451d"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-cubo-software.svg",
+    "bytes": 6623,
+    "sha256": "e2c5a34b660af0c85c40dcbdb65d54be95e5b6956b0641b3c3d51c494e48cdbf"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-esfera-solucao-claro.png",
+    "bytes": 9849,
+    "sha256": "03a77f46ac8dec45c4e520137b40fa3e328e53020bf3869dd3a551c3e3662c4f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-esfera-solucao-claro.webp",
+    "bytes": 2786,
+    "sha256": "d81cb4cb9a8371eb74bdd36e6ea39c884109ca95c23d92602fbf3064ce821695"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-esfera-solucao-escuro.png",
+    "bytes": 9856,
+    "sha256": "1687d8bc6ae8b11cd117f535c3c35672cf7144ba06c784e1ed5b15bec39e062e"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-esfera-solucao-escuro.webp",
+    "bytes": 2788,
+    "sha256": "a861b33f05587cd168f788d59ca22591da6208df4f92e43015777194394182fd"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-esfera-solucao.svg",
+    "bytes": 5444,
+    "sha256": "5dfab338ae511f32358f8f0d20d6a1bce27041bca68a2c75d95b77e966e640ca"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-papel-dominio-publico-claro.png",
+    "bytes": 11825,
+    "sha256": "57dc2345249116b59f84949d46c6ba95071e22ad3168a15f7bc91124887b50d6"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-papel-dominio-publico-claro.webp",
+    "bytes": 3794,
+    "sha256": "87a5b3f89dff7374259cf44528c7dbf71bf6bea73166ca3e98b0a84df35f12d6"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-papel-dominio-publico-escuro.png",
+    "bytes": 11834,
+    "sha256": "e88502943d325f19eb7c19c5cb85c36de729c0891a2622d272ebd3fd0a86c902"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-papel-dominio-publico-escuro.webp",
+    "bytes": 3796,
+    "sha256": "f7e0544128954848ffe060bfb33d535672bdcca8c96ccd64b3f2acd6bff00c56"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-papel-dominio-publico.svg",
+    "bytes": 9332,
+    "sha256": "8320227e1a729d41092e6786bdd2ccffaae63ac3b2c5674dcc36c32ce40fe764"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-piramide-distintividade-claro.png",
+    "bytes": 9350,
+    "sha256": "be90ffede6ea8266e5093e213bca427550a40d205e4bf3be9cc6df74ac196f6f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-piramide-distintividade-claro.webp",
+    "bytes": 2840,
+    "sha256": "3726033c2dfae477eb1190c4d7d2e4ff5b3ba53c058a8ba1c3d29d7ebcc7b9a1"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-piramide-distintividade-escuro.png",
+    "bytes": 9357,
+    "sha256": "778ec572fd36227339e2186dd7c1b65b3778cdf94c17318f6642f9e3415e74a6"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-piramide-distintividade-escuro.webp",
+    "bytes": 2824,
+    "sha256": "914c92d36ee3ce96b779126a5914a158b0423c32dfbdb97ae091b9b9035336b0"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/pi-piramide-distintividade.svg",
+    "bytes": 746,
+    "sha256": "bf064608e7d5602e3f566b9d1ea46edbda339925ecfab9a51f5220b56c90eed9"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/prancha-ciencia.png",
+    "bytes": 189648,
+    "sha256": "70947f33a069b74f922b605053576caa4fccf6fe2d96dc6bd57aff2c3a123c93"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/prancha-doutrina.png",
+    "bytes": 191239,
+    "sha256": "e312b03629fa87f1e0e7b0f17f766d2a754ad2c1a21485d9f45bc817ce9dafbc"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/prancha-informacao.png",
+    "bytes": 189422,
+    "sha256": "b5bc638d7af6944549627943b2649ac3d172afd7d4c8be06c7fd2e091901bebb"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-1/previa.html",
+    "bytes": 167222,
+    "sha256": "d9ab9e5ac919cb9b68183c044cf723d479e4b68a64ca7592e26ee991b196998c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/LEIA-ME.md",
+    "bytes": 1234,
+    "sha256": "3f7df5697141f058733a34c1a2f89380768fb3105bceee2fc81f055ea43ce1c5"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/manifesto.json",
+    "bytes": 2806,
+    "sha256": "d72addc557f743bf86a012a6398b8c894fce84d6238da7fede326ec4263dba8d"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-cilindro-superficie-claro.png",
+    "bytes": 10601,
+    "sha256": "2deb1ff3ef07ccedc24836dea00aa1feab9520675923a179b0b30f265536de1f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-cilindro-superficie-claro.webp",
+    "bytes": 2332,
+    "sha256": "75161d33354e5e89ad1056da7d2f6f1a7ef497006e2543220a183f937db67d84"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-cilindro-superficie-escuro.png",
+    "bytes": 10669,
+    "sha256": "ba22d4e9f6dbcba710783077f34dc7a971eab6d69b382b8d18a8b6cf086bd834"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-cilindro-superficie-escuro.webp",
+    "bytes": 2334,
+    "sha256": "5da3c6bf0bd08b0f80d42b362f06fddbef340d58c08c7f459cbe270a1e842b91"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-cilindro-superficie.svg",
+    "bytes": 5063,
+    "sha256": "ac3fc4d00b696811e2ae54998cac08ea32c826d7ee0c2a3d55fbe33e4af6ed4f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-convivencia-claro.png",
+    "bytes": 10404,
+    "sha256": "45ab18eaa7bc546da6a759bbe14b525b0918768d4e0167f7e0184c169a01bcea"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-convivencia-claro.webp",
+    "bytes": 3432,
+    "sha256": "02f0cc34a7c8f19d477a6aee965ab5b0409583fa3d38e6065f0f422e79c01af2"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-convivencia-escuro.png",
+    "bytes": 10456,
+    "sha256": "ec5a1c8357b8747fe10513aa48aa9055b207a48bc8c80fbf5118307c88c7c4a6"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-convivencia-escuro.webp",
+    "bytes": 3436,
+    "sha256": "8d11353f844fbca842596ffcae7699fef41270429ab687e12526c827e7b4cc63"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-convivencia.svg",
+    "bytes": 9874,
+    "sha256": "757cd2fc926ac174b26d71b5fd6a985e62e4652b4c8ee8e88efb9b787c835a06"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-encerramento-claro.png",
+    "bytes": 9518,
+    "sha256": "b7068ffdb07ed13170d1cac53f21c0549a681f0fe1de5c210361612fa210c657"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-encerramento-claro.webp",
+    "bytes": 2850,
+    "sha256": "b5b7772290dde18bed266fd2ebcd5ee6fe5a055911ccaa14e43cc43fa5efb29a"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-encerramento-escuro.png",
+    "bytes": 9529,
+    "sha256": "de1fa1b33761bfe7a56e2b9c35ff077cd84c6d2edb508195af66290a4d7b528a"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-encerramento-escuro.webp",
+    "bytes": 2850,
+    "sha256": "0c97700e869d6b85c14ff8a5688aa1eace6496d48d8c8c8adf8bb864524f7e12"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-encerramento.svg",
+    "bytes": 6887,
+    "sha256": "c47ad58f02eae4529c8ba9be98119fd4f4643465ad51a32b30ff92f97a1bb37e"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-funcao-social-claro.png",
+    "bytes": 9640,
+    "sha256": "d7e2eabcc63f037276e5bb15f1e9a8a3dd4c01d6d086b173d2b160e465be66aa"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-funcao-social-claro.webp",
+    "bytes": 2876,
+    "sha256": "a912dd1a5566fb0a81ed265b66e07ae527fc59589d828f87336462b711c96405"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-funcao-social-escuro.png",
+    "bytes": 9650,
+    "sha256": "1356e35df219df3d7336a87fc093f95b0abb1a0ee40ef8c5be82a2c2e3dbee7a"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-funcao-social-escuro.webp",
+    "bytes": 2880,
+    "sha256": "b0ee098d21c1ad169976aef1cea44288a2877443652e4c8d3944e3acff6d8d66"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-funcao-social.svg",
+    "bytes": 4960,
+    "sha256": "76eac2b2d2e6e5970116209045ee7e2abad513a504bf8d674e60965ed0b249c9"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-licenca-claro.png",
+    "bytes": 10524,
+    "sha256": "6470ea92e2d9df8569e0e14910018427ab574cb7d70cef1bd571930b65d1667b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-licenca-claro.webp",
+    "bytes": 2834,
+    "sha256": "98cf90424745280ff1767f869d7bc6d8c6a8fed9a7ccff7e859036d3c3cefc52"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-licenca-escuro.png",
+    "bytes": 10535,
+    "sha256": "38d4344c7f58c30aeb81df72c8e100aee8f6ebc426e5d4bbf0dff7d4b9323904"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-licenca-escuro.webp",
+    "bytes": 2836,
+    "sha256": "a4ab06ac327945d235eb6cc30214417f2492de44ea7557de2032fefadfe1c481"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-licenca.svg",
+    "bytes": 12329,
+    "sha256": "f6c639cc2cfbc6e043199a6c7ea371d66630445ad805feed5ec62ab6d9445117"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-piramide-origem-claro.png",
+    "bytes": 9541,
+    "sha256": "4603acb951b1f9552c4363f8926c91b0bc0d2f8fe22bf1a2fcc2ba1d91c24ca5"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-piramide-origem-claro.webp",
+    "bytes": 2932,
+    "sha256": "17f6dd23a5d01464176671068c6d062c5311acfbe225511bf7b303d5b4cf2444"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-piramide-origem-escuro.png",
+    "bytes": 9550,
+    "sha256": "99059a90a080b2981f53c7483d8fb15b83b90a5a83925cd1ac5f25fca26b3263"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-piramide-origem-escuro.webp",
+    "bytes": 2940,
+    "sha256": "46c3bff9d1a5e3a1f8b0414ad69661ee4cfcf4c0c9cb5b6387def545eaab8442"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/pi-piramide-origem.svg",
+    "bytes": 2860,
+    "sha256": "00303e9507f9ff64fc3627046c4a93549126cccbbef8b51d2d5663deb139b332"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/prancha-ciencia.png",
+    "bytes": 188912,
+    "sha256": "369cf17ccb16ad91beced9ee9e4134a1cf984cc63191b8ff42978047965d829b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/prancha-doutrina.png",
+    "bytes": 189871,
+    "sha256": "826c3f37e45159acc5624bc9cd729adf2e3e9e94d796c66c9fc689f876fb5f6b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/prancha-informacao.png",
+    "bytes": 188161,
+    "sha256": "dc022d0c6d98739148a4373a733723ea88e4d2dcd43365fa313306b8779f68ea"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-2/previa.html",
+    "bytes": 266461,
+    "sha256": "38948c551e42b1ffecbcb8aa1d1dba02dad1d5a79010e348e1cb5c1fd91f4a91"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/LEIA-ME.md",
+    "bytes": 1015,
+    "sha256": "ad35c19f5c7e8802a7fc12d7e66d5ef292ec69b2f75834ac81197fcc061c2feb"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/linguagem-geometrica.html",
+    "bytes": 58947,
+    "sha256": "c5624e2bfd0e2f57564eddabc843befe399064bc948ed16057b19af551a6da84"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/manifesto.json",
+    "bytes": 1831,
+    "sha256": "bb595b24230ba85732dff16aa9faf5f2450a0a20882e41435ec21c122a089106"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-escassez-claro.png",
+    "bytes": 8542,
+    "sha256": "b85c548ea8b3ddaff055e38e769755b4cc48dd851c239b82711843801d603468"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-escassez-claro.webp",
+    "bytes": 2862,
+    "sha256": "4ce8442eb8831eee1468ee86c787355447b5716187759fb3c75f2bfbfde78fdd"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-escassez-escuro.png",
+    "bytes": 8549,
+    "sha256": "a79222c1777ba282d77a1faf1ee011544ab68288082616327d9b199b740f47fa"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-escassez-escuro.webp",
+    "bytes": 2864,
+    "sha256": "829e0964577197a1534e3773dd51dd6624763606a56d08d4b8d93db8ef0e996f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-escassez.svg",
+    "bytes": 1836,
+    "sha256": "6af89a05d2dd8a27c59f8c1392205cdf35db1ea8510d3556f2a87a1c2e6cea2c"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-esfera-tecnica-claro.png",
+    "bytes": 14149,
+    "sha256": "8ce9a3e9bbff2bc985433e5d90b487a9748c428540d33e4d238e1d33743a1ce1"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-esfera-tecnica-claro.webp",
+    "bytes": 4832,
+    "sha256": "c0ed0d51290b537640aa194047e4cc8933becb1dd69d296657f267b3fb4d9156"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-esfera-tecnica-escuro.png",
+    "bytes": 14167,
+    "sha256": "a2a4ab01116be258ff160260516c2d4602399a03e320408f5a86b05f2c716085"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-esfera-tecnica-escuro.webp",
+    "bytes": 4836,
+    "sha256": "71540bdf0ed4dc9edb64fe0dfe00c8e16979e428083c4c9cf0eec68fca48716d"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-esfera-tecnica.svg",
+    "bytes": 14425,
+    "sha256": "cb40fc6962b4e1d61f04566cbd014baa48e9ce7684d0e4d84508a6926b716fb9"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-latifundio-claro.png",
+    "bytes": 12117,
+    "sha256": "f256b9d64b4fe8d30a1fbf880f7aa3f1a84b512b0bdae9e0acbf3965059ee529"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-latifundio-claro.webp",
+    "bytes": 3814,
+    "sha256": "ca5a6c443ee9aee53385bca2a29ef3ec739cd992787a4dfee293203959ba5986"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-latifundio-escuro.png",
+    "bytes": 12126,
+    "sha256": "d277355b94a2c4128461438f735ce4c82867fe88cbccb95a62000153272fea1e"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-latifundio-escuro.webp",
+    "bytes": 3810,
+    "sha256": "d5b80dc521e6d7e8939bbec2831a7c2d78be0b5ee3a68c0d0ca9ee874d0e5fcd"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-latifundio.svg",
+    "bytes": 26684,
+    "sha256": "4a6b39f0d021a492bd15dcadb0b6c44ca1b4a3124f327bff6c35a8c365893946"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-quatro-solidos-claro.png",
+    "bytes": 10051,
+    "sha256": "0af53904445cf8134e3d7391c6dd78c721c2fc601bccbae7696d6fdc1591e206"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-quatro-solidos-claro.webp",
+    "bytes": 3452,
+    "sha256": "2f343f4c9c7df752b0b32c9106224dc1b16fc1dd9513c45a6e279f4d9a58847e"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-quatro-solidos-escuro.png",
+    "bytes": 10107,
+    "sha256": "1317b3f8e92d720e9a7c894ad903f95ff0ba69ba52df1965db12e63c38cb30b0"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-quatro-solidos-escuro.webp",
+    "bytes": 3458,
+    "sha256": "e83db3285011aae6018e7ac66a9e0187765d483e306e931539b02af1dea4167b"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/pi-quatro-solidos.svg",
+    "bytes": 9829,
+    "sha256": "fbe412c86615b52f261c3c74b14b7f44603e9e5aa7151ff7429c722766d4564f"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/prancha-ciencia.png",
+    "bytes": 174391,
+    "sha256": "28c55310935bf8771d63159643d2d866d2d80406dfc6bc3f1d9d07b631a91c65"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/prancha-doutrina.png",
+    "bytes": 175464,
+    "sha256": "c65d76d671b66b7849771d10c205e4d080c4efa0eb00d2c8242bb8aaa5b9d5b3"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/prancha-informacao.png",
+    "bytes": 174235,
+    "sha256": "ab0d30c5ca8f6bf5e1eb4e730294fe6db6955ff712b3ce2f1b90306a4d910c96"
+  },
+  {
+    "arquivo": "atuais/linguagem-pi-lote-3/previa.html",
+    "bytes": 326998,
+    "sha256": "ff4e1923953e9a3a7be9617a63ec78453340f3c77a5798606bf32fb793bfb019"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/ajustes-aceitos.md",
+    "bytes": 4144,
+    "sha256": "9beb2e195b00d91e33e3a7f4706f8dc1559763e900ac296f2b02e26969ca2066"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/comparacao-seis-contextos.png",
+    "bytes": 123644,
+    "sha256": "bba9890f5c73bb09a561cb88ea03c804735a3c66a4ed859f4b6e13a0c70f6c8c"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/conferencia.json",
+    "bytes": 661,
+    "sha256": "c6e95eca72cfd6836474db376ed98b1430266262721b100539515b8591578280"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-continuo-claro.png",
+    "bytes": 9697,
+    "sha256": "e75856e0de0ea44d6155992bfbdcefb6eea20b042a457a320c0a3627566d7541"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-continuo-escuro.png",
+    "bytes": 9756,
+    "sha256": "8944d5008a58219c22ff51bfb3647ed19f96393c3d0100ac1477394544ab4792"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-continuo.svg",
+    "bytes": 986,
+    "sha256": "4c44bc4645bde10aea5d11b5a043d68160776c4a52e89b1390de70d7231d3fcd"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-interrompido-claro.png",
+    "bytes": 10922,
+    "sha256": "c8d666f76737233393e9181033975a4ddbee5d623a6127a4a224613d43fddea0"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-interrompido-escuro.png",
+    "bytes": 10932,
+    "sha256": "437359011c79d861a0be281d1f84b9f0b0092607f2c33c786dd9e7ebaae90422"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/pi-uso-interrompido.svg",
+    "bytes": 1255,
+    "sha256": "127c0cd31d37f55a1e17e19cae033866042d9525a3c994121dcfa92d5919e07d"
+  },
+  {
+    "arquivo": "atuais/prototipo-pi/previa.html",
+    "bytes": 18043,
+    "sha256": "cdb53f2d735c1f86cbf9b32b386b270a348f4b0481adb8c52428a90f973f8942"
+  },
+  {
+    "arquivo": "fontes-producao/armadura-v2-export.py",
+    "bytes": 3123,
+    "sha256": "99d51fd0e2520e4b121993aa3fdf8aa8616d8fa93e64f567f2aff1c02cd6bc4a"
+  },
+  {
+    "arquivo": "fontes-producao/armadura-v2.py",
+    "bytes": 2725,
+    "sha256": "2e1d7781f0ed1cbf063c2725f37160e60b7540ea59eb4777b4199f33d0555162"
+  },
+  {
+    "arquivo": "fontes-producao/linguagem-pi.py",
+    "bytes": 8772,
+    "sha256": "fd29acf4ac641c3b9275d73eaa363d6611a91410d39319fb48e9aa0fa7388868"
+  },
+  {
+    "arquivo": "fontes-producao/pi-armadura.py",
+    "bytes": 6194,
+    "sha256": "265553d9011b0085d21bccdddaaaaacdbace8eafbcfe8bad563c80eeef1e63dd"
+  },
+  {
+    "arquivo": "fontes-producao/pi-lote-2.py",
+    "bytes": 5816,
+    "sha256": "35f53914727f0a7aa51bfa7886bebb022e5a8e2a0122b4d16a2989cb6fae52f5"
+  },
+  {
+    "arquivo": "fontes-producao/pi-lote-3.py",
+    "bytes": 7866,
+    "sha256": "f7044c6008ee2606e6324c764c67c919d0ea793bac343e668fbf020eeeedf06d"
+  },
+  {
+    "arquivo": "fontes-producao/portas-novas.py",
+    "bytes": 8607,
+    "sha256": "e5922ef320b5ff01cc96477e4145968a3f68dda56a8e261f4f7fd09a63e81467"
+  },
+  {
+    "arquivo": "fontes-producao/prototipo-pi.py",
+    "bytes": 6672,
+    "sha256": "ae2703256cdd5b617486cc07dca01c9492594c23268e6b58515946cf7a153513"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/comparacao.png",
+    "bytes": 142682,
+    "sha256": "088515e429d85a836579c30d0e42e8c0e29bdc3e217da05ab6f4e1f7a4a82023"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/leitura-56px.png",
+    "bytes": 20200,
+    "sha256": "07acf0569437eaad716c1436c1225e142f1a14357575954e10c5cd8542767a5d"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-acesso-escuro.webp",
+    "bytes": 2852,
+    "sha256": "2e39a08e7ed19f25c015f69247980bbe45da7aa8be1ab21ee0cfd3dc212aa2e1"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-acesso.webp",
+    "bytes": 2828,
+    "sha256": "980e7ed1bfb16962eb169c9644d926167c7c73cc4eb98c672d7cd9ddfb2bbc50"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-comum-escuro.webp",
+    "bytes": 7132,
+    "sha256": "a7fd9143dad24842ad78445ef1698c01c064fe963d2c117114b1b390de7c4e28"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-comum.webp",
+    "bytes": 6996,
+    "sha256": "0ed2a0aa2192affd15ec6c9eb0eaf05f43b043ae7a4cc9c25fbf1f8b652f641a"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-decide-escuro.webp",
+    "bytes": 3420,
+    "sha256": "07df695e708207bb3698cb3e3d7e2554fe9c064c0f0018f3627ea77f90eabfbe"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-decide.webp",
+    "bytes": 3518,
+    "sha256": "651fc17f4f9e9c77eb68f2b99af16d11a0f84b85d8c8cc9664aa77539c42e69a"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-empurrado-escuro.webp",
+    "bytes": 5198,
+    "sha256": "4a73b5c6cd3f229d8b7ad1f7879d141fce9a9ffc4a001522771a9a323bd0b089"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-empurrado.webp",
+    "bytes": 5114,
+    "sha256": "4490d2c70a2595e4fdae8bfab59fc3439c5008d42a4d0c8fa83caba7cf4fe0bc"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-mudou-escuro.webp",
+    "bytes": 4738,
+    "sha256": "21c94b865fc145e000f620fb19fc97d3959db365b81239ea3f841838551425fe"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-mudou.webp",
+    "bytes": 4794,
+    "sha256": "1f9c95d9bcb9b00023041f1776f37a1eaaebb672e9c6e2068b7ad5dcfb6f6857"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-sair-escuro.webp",
+    "bytes": 12814,
+    "sha256": "5666d32155bdc226d4df70d620e85f7b446bd867c8b95c0cb5dbd39f1abc012a"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/porta-sair.webp",
+    "bytes": 12276,
+    "sha256": "a4d86b685e34c5d868257199181755c8f05b418c5df65fcc58354ca830aeee86"
+  },
+  {
+    "arquivo": "historico-substituido/familia-1/producao.md",
+    "bytes": 4920,
+    "sha256": "c1ebbd1f6ae18d05738aef21549bbcc212a8b86ce8bb940c397257d8aa6d2db7"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/comparacao.png",
+    "bytes": 242049,
+    "sha256": "01c7dd6ab2fdfa5d07ce1c011736c026ee7049e1fd6b50b38fbea9f8e338c571"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/conferencia.json",
+    "bytes": 2732,
+    "sha256": "1dd3a51c8826e1dba9b7a1dc5c88a13ded2225cf2f8e6f7a4379004608f1b099"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-a-escuro.webp",
+    "bytes": 4246,
+    "sha256": "2eb0b71011d7e2133adc8cf5870be1b55b9af1003306ab3dbde03398c59fa4ae"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-a.webp",
+    "bytes": 3890,
+    "sha256": "5902358aad4d46daddd751d6769c1cf1b6ffa7be2ea8105753ba7b74f4518233"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-b-escuro.webp",
+    "bytes": 2180,
+    "sha256": "ac70ca7669a17fbdbd9b3dc4077686b2d607664facee04267c7a4dd7af1f3fc1"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-b.webp",
+    "bytes": 2122,
+    "sha256": "507cd3bf61c72b968d5b893c08f369c2a96146ef6d5aa76aabe61feac2205537"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-c-escuro.webp",
+    "bytes": 4856,
+    "sha256": "325d49d6e405a4d827c4daa73afa74e3df165077699ce96fcbabd10ba1b01da0"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-c.webp",
+    "bytes": 4768,
+    "sha256": "75444e1f2b8a9253dc473842b37397f562ab22cf4637e2e46ba1bb3c5c07afe4"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-d-escuro.webp",
+    "bytes": 5060,
+    "sha256": "f06fa0f6456f2bc261693d2933c0b16ad28c4bc2c85faa19f32a1dfb33d81118"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-d.webp",
+    "bytes": 5180,
+    "sha256": "c98adc8a55d5af7bdd6f0ef2a926250b6e74997e4f9805eb21ff3ad8392d7199"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-e-escuro.webp",
+    "bytes": 3284,
+    "sha256": "fffd003aba8ca2e433ef17af8d0b8eb87d31c4629c9e9d06fd97d8946ed7ee8a"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-e.webp",
+    "bytes": 3644,
+    "sha256": "af004e99247e291528fe5a230bcef6a9558c0e3686516476f77930f0ecfa2427"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-f-escuro.webp",
+    "bytes": 5660,
+    "sha256": "ee1f4b8ee13926ac234e607e0abc97a73e76e539955ea78b3e59763f8587984e"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-f.webp",
+    "bytes": 5952,
+    "sha256": "77779205b2458e96750b1f01bc91621f5839b135b2a5fcef150958d682f0bf83"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-g-escuro.webp",
+    "bytes": 7154,
+    "sha256": "b5ed64cb9843f30eeecad725076e7e5796741a819ce3a0951e6fa92dc413f500"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-g.webp",
+    "bytes": 6624,
+    "sha256": "92d8b35e699a0bb633dd09ed1351eb5a7b6d5f3f9ecb7b221f85013b5a6b44b4"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-h-escuro.webp",
+    "bytes": 2958,
+    "sha256": "dcead3364e1e6841e924289933803e02090f81942318a058fde0fefea8d96bd0"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-h.webp",
+    "bytes": 3042,
+    "sha256": "aa569e2f0b2f3b23b8f338abcf1c1de49f186f3c58180a254095544bdba3673c"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-i-escuro.webp",
+    "bytes": 4054,
+    "sha256": "3f14333799d7013aad51fc7327c387e05a84ba098e8f4833ff78a043750e8e13"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-i.webp",
+    "bytes": 4082,
+    "sha256": "4a9732900e1e1d69dba4e76525dcdaeb2c7741071a7cab2ee050a329c21f4cd6"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-j-escuro.webp",
+    "bytes": 5552,
+    "sha256": "d7a13b4efdfe62dd5ac0417dd6ac1c900e2b067d37d627b87a8271065e9baf2f"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-j.webp",
+    "bytes": 5840,
+    "sha256": "7874e272d48b15e6ed97a5cc43a4eea3593e369aeedc60f16b348831baacc06f"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-k-escuro.webp",
+    "bytes": 4426,
+    "sha256": "ec37d85700d672374c9391f6db52fd308d6d6815c60a5e05eb1116b4419380d9"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/direito-k.webp",
+    "bytes": 3988,
+    "sha256": "0abe4ae627b6e7ab236f8df0fb69d2f14e2e4ddfd712386b922166fd0eda4f8c"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/leitura-56px.png",
+    "bytes": 33459,
+    "sha256": "52d29799b99493d5d753d274a6aa2f31ee8cf081b5ae4d1a06ca162648c0e8f2"
+  },
+  {
+    "arquivo": "historico-substituido/familia-2/producao.md",
+    "bytes": 12111,
+    "sha256": "825a51f9390b9756a9b532cab9ae95c703bd108f910d1a998bef814cb7bf10a0"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/armadura-claro.png",
+    "bytes": 1374957,
+    "sha256": "a1778cf42522c9af267e62b6648abad19231654ed56fd6722a2168a6e1fd31a5"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/armadura-escuro.png",
+    "bytes": 1565961,
+    "sha256": "a672e88ee505ab5dac10aff5a50cde2700ce1021acee5b3c924ea45d63e4db47"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/manifesto.json",
+    "bytes": 1083,
+    "sha256": "1772f8f48fd16b93fd292250cdc9a7526daa38eb03cd1a7f46a98e70ee6fa330"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-claro.png",
+    "bytes": 249409,
+    "sha256": "82e5110cb9c8ca4defc25fcf9c562ac277c27d23675cc18691fa17dab81a34b1"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-claro.svg",
+    "bytes": 12926,
+    "sha256": "b370b2cd91936d602c967b70d6847d6e72fdf5379db1270a9a85d767f6d690c1"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-claro.webp",
+    "bytes": 171026,
+    "sha256": "855a72680025e3da5133b97a21d8aaf338d9fd2fedc398fb2691ecbf64550c7f"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-escuro.png",
+    "bytes": 287238,
+    "sha256": "ddc41475e5d251fcfb7ea65a0fc669c2b8ff709c08486bf390de4935eda6b9c9"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-escuro.svg",
+    "bytes": 12926,
+    "sha256": "31266a335b9f3132a3552b6797f529c63a6594e2da555a6fde0b9dde74907740"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-controle-escuro.webp",
+    "bytes": 208884,
+    "sha256": "ccbb44f2b18f6304e0f061cd864911eada081f0d3bde457b990e4c2f06f6c70f"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-claro.png",
+    "bytes": 250698,
+    "sha256": "814e2fc8844d620f136e98c96ab5ca7110e87672090968d3b2613fdd9c4792d0"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-claro.svg",
+    "bytes": 9687,
+    "sha256": "1b97a078aecf7a3cdde77c11a3d301e05938c19a6402ed440686954cd03e9423"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-claro.webp",
+    "bytes": 171890,
+    "sha256": "ac2dff3648d73e0dc9cbcdd4c9ba76419ea58099bef8dee95150df8d1d08dad9"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-escuro.png",
+    "bytes": 288752,
+    "sha256": "4d7f363ddfd9c1b3a565392ea3a9549a7707f58d7294887501af44fa6f901dee"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-escuro.svg",
+    "bytes": 9687,
+    "sha256": "0599a088bef4702bae8221401d6cfeba1fc8aa4be9ef205532f476ec06710c5f"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-dimensoes-escuro.webp",
+    "bytes": 209650,
+    "sha256": "bd325fcff260a0ceab66ed82a6fb20f81f14974989540c6ea767cfc597d115cb"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-claro.png",
+    "bytes": 243593,
+    "sha256": "283a6f5e85b7aaf4c239495aee812130fb96e78c5f37a4990777112f2b4dc0e8"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-claro.svg",
+    "bytes": 277,
+    "sha256": "3f9702cf17149cdd7677781be521a61e20a228d5dabf0c3f44db84196068f919"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-claro.webp",
+    "bytes": 167888,
+    "sha256": "44f9c49279048e9d1043d88887192344639974b036ff9efe5b904b6b6c17d194"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-escuro.png",
+    "bytes": 281715,
+    "sha256": "ab7550520b3c3d275cddec445989b1a388702fd4d1748bda4a3ed6e57728d0a4"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-escuro.svg",
+    "bytes": 277,
+    "sha256": "df9ea27016769b04f485f525390062e9f2bc3a52c23b55dd75502f5d73cb6c0c"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/pi-skin-objeto-escuro.webp",
+    "bytes": 206328,
+    "sha256": "2c6eef8aee88f56bc8354c7a673c5dae2db6bffc52676517c1372117fcd67679"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/prancha-ciencia.png",
+    "bytes": 823391,
+    "sha256": "2a78f39a9fa819e3994491825ffa6baea1c547d3dc0f447258d387a3bf26c54d"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/prancha-doutrina.png",
+    "bytes": 824262,
+    "sha256": "dab84a48639a7ba5a27bad703779753ee46ebfaa04e2705a1e4aed44f8a48c35"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/prancha-informacao.png",
+    "bytes": 824315,
+    "sha256": "7e9851ba99146761ef34efe67db3b992a154ae8de67b94c490f7f8de6fe3f2b7"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/previa.html",
+    "bytes": 144400,
+    "sha256": "7327bd3fbef6c6b8c808aa3d281d0193d00880ab618ceb2fc062337f427f8bba"
+  },
+  {
+    "arquivo": "historico-substituido/linguagem-pi-armadura/producao.md",
+    "bytes": 2124,
+    "sha256": "386e39448df0e67c13a85feda2af6adc8802e02b1146b90b59a712da6cb178b0"
+  },
+  {
+    "arquivo": "matrizes-compartilhadas/a1778cf42522c9af267e62b6648abad19231654ed56fd6722a2168a6e1fd31a5.png",
+    "bytes": 1374957,
+    "sha256": "a1778cf42522c9af267e62b6648abad19231654ed56fd6722a2168a6e1fd31a5"
+  },
+  {
+    "arquivo": "matrizes-compartilhadas/a672e88ee505ab5dac10aff5a50cde2700ce1021acee5b3c924ea45d63e4db47.png",
+    "bytes": 1565961,
+    "sha256": "a672e88ee505ab5dac10aff5a50cde2700ce1021acee5b3c924ea45d63e4db47"
+  },
+  {
+    "arquivo": "planejamento/nova-direcao-ilustracoes.md",
+    "bytes": 5938,
+    "sha256": "7bef90bda188d6598f562c07529a44f7335b970657cfe9001989a5bea1bc5c31"
+  },
+  {
+    "arquivo": "planejamento/planejamento-integral-ilustracoes.md",
+    "bytes": 50566,
+    "sha256": "9f718628e4567e0e37fcb1da6530eabbdf6297ac74151f519ea376119595b167"
+  }
+]

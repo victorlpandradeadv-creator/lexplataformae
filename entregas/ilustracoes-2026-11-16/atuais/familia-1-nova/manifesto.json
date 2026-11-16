@@ -1,0 +1,62 @@
+[
+  {
+    "id": "porta-acesso",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  },
+  {
+    "id": "porta-mudou",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  },
+  {
+    "id": "porta-empurrado",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  },
+  {
+    "id": "porta-sair",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  },
+  {
+    "id": "porta-decide",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  },
+  {
+    "id": "porta-comum",
+    "dimensoes": [
+      480,
+      480
+    ],
+    "alfa_identico": true,
+    "alt": "",
+    "uso": "Vinheta decorativa junto ao título de navegação"
+  }
+]

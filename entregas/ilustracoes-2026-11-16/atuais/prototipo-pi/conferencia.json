@@ -1,0 +1,50 @@
+[
+  {
+    "contexto": "Informação · claro",
+    "contrastes": [
+      15.68,
+      6.37,
+      9.92
+    ]
+  },
+  {
+    "contexto": "Informação · escuro",
+    "contrastes": [
+      15.0,
+      7.46,
+      4.94
+    ]
+  },
+  {
+    "contexto": "Doutrina · claro",
+    "contrastes": [
+      15.76,
+      6.19,
+      9.74
+    ]
+  },
+  {
+    "contexto": "Doutrina · escuro",
+    "contrastes": [
+      14.22,
+      7.62,
+      4.68
+    ]
+  },
+  {
+    "contexto": "Ciência · claro",
+    "contrastes": [
+      17.42,
+      7.12,
+      10.26
+    ]
+  },
+  {
+    "contexto": "Ciência · escuro",
+    "contrastes": [
+      15.46,
+      9.86,
+      4.93
+    ]
+  }
+]
