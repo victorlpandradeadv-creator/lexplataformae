@@ -1,0 +1,56 @@
+[
+  {
+    "id": "parte-a-compra",
+    "titulo": "A compra não encerra a dependência",
+    "alt": "Duas mãos recebem o capacete canônico, que permanece ligado a um ponto externo de controle. A posse do objeto e a sustentação do uso aparecem como relações diferentes.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": true
+  },
+  {
+    "id": "parte-o-desejo",
+    "titulo": "O valor também é relacional",
+    "alt": "Três pessoas dirigem sua atenção à armadura canônica. As ligações representam reconhecimento social, sem halo, pedestal ou iluminação que atribua valor ao objeto por si só.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": true
+  },
+  {
+    "id": "parte-o-dono",
+    "titulo": "As contribuições sustentam o controle",
+    "alt": "Três pessoas oferecem pequenas contribuições ligadas a uma estrutura elevada de controle. O desenho separa quem contribui da posição em que o comando está localizado.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": true
+  },
+  {
+    "id": "parte-as-regras",
+    "titulo": "As regras delimitam o percurso",
+    "alt": "Folhas sem escrita delimitam um percurso de uso. No final, uma passagem regulada controla sua continuidade. As folhas são uma metáfora para regras; não reproduzem contrato ou interface.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": false
+  },
+  {
+    "id": "parte-o-normal",
+    "titulo": "A condição aparente tem uma construção",
+    "alt": "Um objeto azul repousa numa superfície simples. Abaixo dela, a conexão técnica com um comando fica exposta, mostrando a estrutura que sustenta aquilo que parecia espontâneo.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": false
+  },
+  {
+    "id": "parte-a-resposta",
+    "titulo": "Recompor a função é o foco",
+    "alt": "Uma mão recoloca um módulo azul na abertura de um circuito de uso. Uma pequena ficha neutra fica ao lado, secundária. A recomposição é o foco; não se representa dinheiro como resposta automática.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial",
+    "matriz_gerada_por_IA": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "parte-a-compra",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-o-desejo",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-o-dono",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-as-regras",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-o-normal",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-a-resposta",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  }
+]
