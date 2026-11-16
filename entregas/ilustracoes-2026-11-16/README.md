@@ -7,6 +7,7 @@
 | Pasta em atuais/ | Conteúdo | Estado na conversa |
 |---|---|---|
 | familia-1-nova | Seis portas; 12 WebPs de 480 × 480, mestres, pranchas e prova a 56px | Entregue para revisão; envio autorizado. Sem aprovação visual específica registrada após a entrega |
+| familia-2-nova | Onze direitos; 22 WebPs e pacote completo com mestres e provas | Aguardando aprovação visual; não implantar automaticamente |
 | prototipo-pi | Comparação exclusividade / controle do uso | Aprovado visualmente |
 | linguagem-pi-lote-1 | Quatro sólidos e duas relações | Aprovado visualmente |
 | linguagem-pi-lote-2 | Seis relações explicativas | Aprovado visualmente |
@@ -28,8 +29,8 @@ Os três lotes PI e a armadura são complementares ao planejamento principal de 
 
 ## Histórico
 
-historico-substituido contém os primeiros lotes de fundos opacos e a primeira sequência da armadura. Preservados a pedido de enviar tudo, mas NÃO usar na implementação nova. Os ZIPs locais não foram duplicados aqui: todo o conteúdo descompactado está disponível, inclusive os mestres e provas.
+historico-substituido contém os primeiros lotes de fundos opacos e a primeira sequência da armadura. Preservados a pedido de enviar tudo, mas NÃO usar na implementação nova. Na primeira entrega, os ZIPs locais não foram duplicados. A Família 2 nova inclui WebPs e SVGs avulsos e um pacote ZIP completo com PNGs, pranchas e provas.
 
-planejamento reúne as instruções novas. PENDENTES.md lista as 67 composições restantes. fontes-producao guarda os scripts usados na sessão, que podem precisar de adaptação de caminhos locais. inventario-sha256.json permite verificar cada arquivo da entrega.
+planejamento reúne as instruções novas. PENDENTES.md lista as 56 composições restantes. fontes-producao guarda os scripts usados na sessão, que podem precisar de adaptação de caminhos locais. inventario-sha256.json permite verificar cada arquivo da entrega.
 
 Para evitar dezenas de cópias da mesma imagem embutida, as matrizes PNG de SVGs e prévias HTML foram extraídas, sem alteração dos pixels, para matrizes-compartilhadas. Manter os caminhos relativos ao mover essas prévias. WebPs e PNGs finais continuam independentes.

@@ -1,25 +1,14 @@
 # Produção pendente
 
-Planejamento principal: 73 composições. Seis portas entregues na nova direção. Restam 67 composições / 134 WebPs, com paletas clara e escura.
+Planejamento principal: 73 composições. Seis portas e onze direitos entregues na nova direção. A Família 2 aguarda aprovação visual. Restam 56 composições / 112 WebPs, com paletas clara e escura.
 
-- Família 2: 11 direitos.
+- Família 2: 11 direitos gerados, aguardando aprovação visual.
 - Família 3: 29 peças do acervo.
 - Família 4: 3 entradas.
 - Família 5: 24 problemas.
 
 Os diagramas de propriedade intelectual são suplementares, não abatem esses 67 itens. Os antigos direitos em historico-substituido não contam como produção nova.
 
-- direito-a
-- direito-b
-- direito-c
-- direito-d
-- direito-e
-- direito-f
-- direito-g
-- direito-h
-- direito-i
-- direito-j
-- direito-k
 - inicio
 - parte-a-compra
 - imagem-catraca
