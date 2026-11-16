@@ -1,0 +1,50 @@
+[
+  {
+    "id": "inicio",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "imagem-catraca",
+    "tamanho": [
+      1200,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "imagem-estoque-fluxo",
+    "tamanho": [
+      1200,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-a-mudanca",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-equivalencia-de-valor-funcional",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-feixe-de-fruicao-governada",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "inicio",
+    "titulo": "Um objeto, uma sustentação governada",
+    "alt": "A armadura permanece sobre uma pequena plataforma suspensa. Dois apoios ligam a plataforma a pontos de controle visíveis. A sustentação do uso depende de uma estrutura externa.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "imagem-catraca",
+    "titulo": "O circuito de uso pode ser interrompido",
+    "alt": "A armadura está intacta dentro de um circuito. Uma passagem regulável interrompe a continuidade do percurso, sem destruir o objeto.",
+    "largura": 1200,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "imagem-estoque-fluxo",
+    "titulo": "Guardar unidades e sustentar um fluxo",
+    "alt": "À esquerda, três unidades permanecem armazenadas. À direita, uma unidade depende de um circuito que tem uma interrupção visível. A unidade continua inteira.",
+    "largura": 1200,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "parte-a-mudanca",
+    "titulo": "O objeto permanece; a conexão muda",
+    "alt": "A mesma armadura aparece duas vezes sobre o mesmo suporte. Na primeira situação as conexões são contínuas; na segunda, elas são interrompidas. Não há dano físico à armadura.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-equivalencia-de-valor-funcional",
+    "titulo": "A mesma aparência, menos uso",
+    "alt": "Duas armaduras idênticas acompanham faixas de uso de extensões diferentes. A aparência permanece igual, mas a utilidade representada diminui. As faixas não são uma medida numérica.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-feixe-de-fruicao-governada",
+    "titulo": "Três vínculos sustentam a posição de uso",
+    "alt": "Uma armadura central depende de três vínculos ligados a controles separados. Cada ligação tem começo e fim visíveis. O desenho representa dependências, não fios físicos presentes no objeto.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  }
+]
