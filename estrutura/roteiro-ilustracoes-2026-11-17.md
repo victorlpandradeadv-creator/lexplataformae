@@ -27,7 +27,7 @@ No `main`, depois do commit `43cf9af2` (17/11/2026, Ilustrações da entrega de 
 
 ### 1.3 A posição
 
-A linha atual deve ser trocada inteira, e não remendada. O problema não está numa peça ou outra. Está na gramática, que troca a cena pelo símbolo, e nenhum ajuste de cor, escala ou legenda corrige isso. Os pictogramas de 16/11, as vinhetas das portas e dos direitos e as 32 composições SVG saem do ar.
+A linha atual deve ser trocada inteira, e não remendada. O problema não está numa peça ou outra. Está na gramática, que troca a cena pelo símbolo, e nenhum ajuste de cor, escala ou legenda corrige isso. Os pictogramas de 16/11, as vinhetas das portas e dos direitos e as 32 composições SVG saem do ar. A única exceção é a armadura suspensa da capa, que o autor manteve (2.0).
 
 A troca não começa do zero. O site já teve a linha certa. As 29 gravuras de 12/11 (commit `62bc844e`, Publica as 29 ilustrações conceituais) seguem o plano, têm metáfora com lastro, gente, cenário e azul só no objeto. As quatro gravuras das famílias, feitas na mesma mão, provam que a linha se sustenta fora do caminho da skin. A nova linha única do site é essa gravura editorial, e tudo o que falta será desenhado nela.
 
@@ -46,10 +46,14 @@ Uma ilustração entra no site se cumprir as quatro condições.
 
 Objetivo. Tirar do ar o que não comunica e devolver o que já comunicava, sem produzir nada novo. Uma sessão, um commit, publicado no `main`.
 
+### 2.0 A armadura suspensa da capa não muda
+
+Por decisão do autor de 17/11/2026, a peça `inicio.webp` que está hoje na capa fica como está. É a armadura azul de pé sobre a plataforma presa por dois fios, da entrega de 16/11. O autor a considera a única peça decente dessa entrega, e ela passa no critério do 1.4, porque o leitor vê que o chão é sustentado por outro. Não recuperar a versão de 12/11 dessa peça, nem a escura. A legenda dela, Parece terreno seu, mas é chão emprestado, já ficou centrada sob a figura em 17/11/2026.
+
 ### 2.1 Devolver as 29 gravuras de 12/11
 
-1. Recuperar do git os arquivos claros de `62bc844e` e os escuros de `8ce2572b` (15/11/2026, negativo calculado em OKLab), para os 29 ids abaixo. Exemplo `git show 62bc844e:site/ilustracoes/parte-a-compra.webp > site/ilustracoes/parte-a-compra.webp` e `git show 8ce2572b:site/ilustracoes/parte-a-compra-escuro.webp > site/ilustracoes/parte-a-compra-escuro.webp`.
-   - Capa e plataformas. `inicio`, `laboratorio`.
+1. Recuperar do git os arquivos claros de `62bc844e` e os escuros de `8ce2572b` (15/11/2026, negativo calculado em OKLab), para os 28 ids abaixo. Exemplo `git show 62bc844e:site/ilustracoes/parte-a-compra.webp > site/ilustracoes/parte-a-compra.webp` e `git show 8ce2572b:site/ilustracoes/parte-a-compra-escuro.webp > site/ilustracoes/parte-a-compra-escuro.webp`.
+   - Plataformas. `laboratorio`. A capa não entra, pelo 2.0.
    - Caminho. `parte-a-compra`, `parte-o-desejo`, `parte-o-dono`, `parte-as-regras`, `parte-o-normal`, `parte-a-mudanca`, `parte-o-desenho`, `parte-a-lei`, `parte-a-resposta`, `parte-alem-do-jogo`, `parte-o-nome`.
    - Peças dentro do caminho. `imagem-catraca`, `imagem-estoque-fluxo`, `imagem-torneira`.
    - Vocabulário. `ideia-oic`, `ideia-lex-plataformae`, `ideia-vulnerabilidade-semiotica`, `ideia-teleologia-abusiva`, `ideia-ilicito-de-arquitetura`, `ideia-antecipacao-hipercuratorial`, `ideia-auditabilidade-aberta`, `ideia-equivalencia-de-valor-funcional`, `ideia-feixe-de-fruicao-governada`.
@@ -71,11 +75,11 @@ Objetivo. Tirar do ar o que não comunica e devolver o que já comunicava, sem p
 ### 2.3 Tirar as vinhetas
 
 1. `vinheta()` deixa de ser chamada na capa (portas) e em `direitos/<letra>/`. Os arquivos `porta-*.webp` e `direito-*.webp` vão para `estrutura/rascunhos/vinhetas-2026-11-16/`.
-2. Os 32 pictogramas da Família 3 que as gravuras substituem não ficam no site. Mover para `estrutura/rascunhos/familia-3-2026-11-16/` os que não forem sobrescritos pelo passo 2.1. Os `pi-skin-*.webp` ficam, porque pertencem ao capítulo de PI.
+2. Os pictogramas da Família 3 que as gravuras substituem não ficam no site, salvo `inicio`. Mover para `estrutura/rascunhos/familia-3-2026-11-16/` os que não forem sobrescritos pelo passo 2.1. Os `pi-skin-*.webp` ficam, porque pertencem ao capítulo de PI.
 
 ### 2.4 Registro e publicação
 
-1. Em `estrutura/ilustracoes.md`, o campo `procedencia` das 29 peças volta a dizer gerada com o ChatGPT em 12/11/2026. Acrescentar uma linha datada de 17/11/2026 que explica a devolução.
+1. Em `estrutura/ilustracoes.md`, o campo `procedencia` das 28 peças devolvidas volta a dizer gerada com o ChatGPT em 12/11/2026. Acrescentar uma linha datada de 17/11/2026 que explica a devolução.
 2. No `CLAUDE.md`, os itens 8 e 9 da lista de desenvolvimento ganham uma linha datada que diz que a linha de 16/11 saiu do ar por decisão do autor e que as gravuras de 12/11 voltaram. Acrescentar em Decisões tomadas a regra da linha única do 1.3 e o critério do 1.4.
 3. Rodar `python3 ferramentas/gerar_site.py`, `python3 -I ferramentas/checar_site.py docs` e `python3 -I ferramentas/revisar_fontes.py`. Gerar os cartões se algum depender das ilustrações. Commit e push para `main` e para o ramo de trabalho.
 
@@ -85,7 +89,7 @@ Cada gravura foi lida pelo critério do 1.4. Vinte e sete ficam como estão. Dua
 
 | Peça | Página | Decisão | Por quê |
 |---|---|---|---|
-| inicio | capa da Informação | fica | Armadura num chão flutuante preso por cabos. O chão emprestado da p. 791 se lê sem legenda. |
+| inicio | capa da Informação | fica a de 16/11 | A armadura suspensa por fios, que está no ar. Decisão do autor, pelo 2.0. O chão emprestado da p. 791 se lê sem legenda. |
 | laboratorio | `plataformas/` | fica | Lente sobre quatro mesas de plataformas diferentes. Mostra o exame de vários ambientes. |
 | parte-a-compra | `caminho/a-compra/` | fica | O elmo sai da caixa, e um fio volta para a loja (p. 408). |
 | parte-o-desejo | `caminho/o-desejo/` | fica | A armadura no centro dos olhares. O valor vem de ser vista. |
@@ -344,7 +348,7 @@ São 49 peças novas e duas refeitas, 51 no total. As novas são onze direitos, 
 
 ## 8. Pontos que dependem do autor
 
-1. Confirmar a linha única da gravura editorial e a saída do conjunto de 16/11 (seção 1.3).
+1. Confirmar a linha única da gravura editorial e a saída do conjunto de 16/11 (seção 1.3), com a armadura suspensa da capa como única exceção.
 2. Confirmar se as portas da capa devem ter imagem. A alternativa é cartão só com texto, que é mais sóbrio.
 3. Decidir se a versão escura das peças novas sai pelo negativo calculado, como em 15/11, ou se cada peça nasce com a versão escura desenhada, como ele pediu para peças novas em 15/11/2026.
 4. Decidir se parte-o-desejo entra no lote 5.

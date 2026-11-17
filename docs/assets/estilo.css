@@ -1761,6 +1761,8 @@ a.mapa-centro:hover, a.mapa-centro:focus-visible { background: var(--rubrica); c
 .mapa-fora a { color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 3px; }
 @container (max-width: 54rem) { .mapa-centro { font-size: 1.35rem; } }
 .mapa-no a, .mapa-centro, .mapa-fora { text-wrap: balance; }
+/* A legenda centrada no eixo da figura, por ordem do autor de 17/11/2026. A medida de 65ch ficava presa à esquerda. */
+figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

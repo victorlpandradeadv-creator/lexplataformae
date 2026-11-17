@@ -62,7 +62,7 @@ Uma figura com uma armadura inventada e brilhante está de pé sobre um pedaço 
 
 ### alt
 
-Figura com armadura brilhante de pé sobre um pedaço de chão que flutua, preso por cabos que sobem para fora da imagem.
+Uma armadura azul de pé sobre uma plataforma estreita, suspensa no ar por dois cabos presos acima dela.
 
 ### legenda
 
