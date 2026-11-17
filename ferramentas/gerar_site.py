@@ -1508,6 +1508,8 @@ def carregar_siga():
 
 
 SIGA = carregar_siga()
+SIGA_DA_FAMILIA = {"funcionalidade-cognitiva": ["assistente"], "infraestrutura-e-intermediacao": ["comunidade", "pedido", "loja"],
+                   "produtividade-gig-economy": ["corrida", "loja"], "administracao-de-confianca": ["reclamacao"]}
 
 
 def gerar_siga():
@@ -3207,7 +3209,10 @@ def gerar_laboratorio():
                        f'<section class="ext">{ext_html(slug, "resumo", prefixo)}</section>'
                        + figura(f"familia-{slug}", prefixo) + "".join(bloco_familia(c_) for c_ in e if c_ not in ("titulo", "resumo")) + "</div>")
         outras = [(ext_texto(s2, "titulo"), f"../{s2}/") for _, s2 in FAMILIAS if s2 != slug and ext_texto(s2, "titulo")]
-        fecho_familia = (saidas_html([("Seus direitos", f"{prefixo}direitos/"), ("Qual é o seu problema?", f"{prefixo}problemas/")] + outras)
+        # Cada família termina nos caminhos Siga que acompanham o seu objeto central. 17/11/2026.
+        siga_familia = [(SIGA[x]["titulo"], f'{prefixo}siga/{x}/') for x in SIGA_DA_FAMILIA.get(slug, []) if x in SIGA]
+        fecho_familia = ((saidas_html(siga_familia, "Siga um caso do começo ao fim") if siga_familia else "")
+                         + saidas_html([("Seus direitos", f"{prefixo}direitos/"), ("Qual é o seu problema?", f"{prefixo}problemas/")] + outras)
                          + f'<section class="ext duvida">{botao_desnudar(True)}</section>')
         corpo = (f'<article class="folha leitura laboratorio">{externo}'
                  f'<div class="pilha doutrina em-modo modo-1 modo-2">{doutrina_html(f"familia {slug}", prefixo)}'
