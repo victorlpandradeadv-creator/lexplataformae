@@ -24,25 +24,25 @@ Não foi descuido seu. A mesma empresa que vende o acesso escreve as regras, apl
 
 ### porta-acesso
 
-A conta foi bloqueada, o presente sumiu ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.
+A conta foi bloqueada, algo que você tinha foi retirado ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.
 
 > Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
 
 ### porta-mudou
 
-O que você comprou continua na conta, mas deixou de fazer o que fazia quando você pagou por ele.
+O que você comprou ou assinou continua lá, mas deixou de fazer o que fazia quando você pagou por ele.
 
 > A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
 
 ### porta-empurrado
 
-A oferta apressou, o sorteio escondeu as chances ou a regra que pesou contra você estava enterrada nos termos de uso.
+A oferta apressou, as chances ou o custo real ficaram escondidos, ou a regra que pesou contra você estava enterrada nos termos de uso.
 
 > Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa. (p. 670)
 
 ### porta-sair
 
-Sair parece livre, mas custa o histórico, a reputação, os itens e as pessoas que você conheceu ali. Esse custo também conta.
+Sair parece livre, mas custa o histórico, a reputação, o que você comprou e as pessoas que você conheceu ali. Esse custo também conta.
 
 > O poder não se estabiliza só por preço, mas por custo de saída. (p. 217)
 > Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema. (p. 217)
@@ -60,27 +60,27 @@ Seja qual for a porta, chega a hora de provar o que aconteceu e de reclamar onde
 
 ### passo-pagou
 
-Você pagou com dinheiro de verdade, ou com horas de jogo que valiam dinheiro. O que recebeu ficou guardado numa conta que a empresa mantém.
+Você pagou com dinheiro, com tempo ou com atenção, numa loja, num aplicativo, numa rede social, num assistente ou num jogo. O que recebeu ficou dentro de um ambiente que a empresa mantém.
 
-> A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
+> O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
 
 ### passo-manda
 
-A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o ambiente e decidindo quem usa o quê.
+A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o serviço e decidindo o que você vê, o que você pode usar e quem fica.
 
 > [...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
 
 ### passo-mudou
 
-Um dia o item perde o efeito, a conta é banida ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar.
+Um dia a função piora, o alcance cai, a conta é suspensa ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar.
 
 > A alteração de regra, o rebaixamento de alcance ou a suspensão sequer se transformam em objeto verificável e disputável no próprio sistema. (p. 381)
 
 ### passo-ficou
 
-A perda fica com você, e as provas ficam com quem decidiu. Só que serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.
+A perda fica com você, e os registros ficam com quem decidiu. Só que um serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.
 
-> Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
+> Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar? (p. 21)
 > Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)
 
 ### chamada-doutrina

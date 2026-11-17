@@ -1932,9 +1932,15 @@
 "pagina": "index.html"
 },
 {
-"k": "870366d3bfa4081e",
+"k": "42eef6bbfca05917",
 "tipo": "html",
-"pt": "Você pagou com dinheiro de verdade, ou com horas de jogo que valiam dinheiro. O que recebeu ficou guardado numa conta que a empresa mantém.",
+"pt": "Você pagou com dinheiro, com tempo ou com atenção, numa loja, num aplicativo, numa rede social, num assistente ou num jogo. O que recebeu ficou dentro de um ambiente que a empresa mantém.",
+"pagina": "index.html"
+},
+{
+"k": "9ceb4c3ab67a76df",
+"tipo": "html",
+"pt": "<a href=\"#cit-4\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/7-1-1-1/#p719\">p. 719</a>",
 "pagina": "index.html"
 },
 {
@@ -1944,9 +1950,9 @@
 "pagina": "index.html"
 },
 {
-"k": "f1a31f012858c3aa",
+"k": "6e015f84d0a619cb",
 "tipo": "html",
-"pt": "A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o ambiente e decidindo quem usa o quê.",
+"pt": "A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o serviço e decidindo o que você vê, o que você pode usar e quem fica.",
 "pagina": "index.html"
 },
 {
@@ -1962,9 +1968,9 @@
 "pagina": "index.html"
 },
 {
-"k": "8fb20adf7d650834",
+"k": "c73d7df802b8e853",
 "tipo": "html",
-"pt": "Um dia o item perde o efeito, a conta é banida ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar.",
+"pt": "Um dia a função piora, o alcance cai, a conta é suspensa ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar.",
 "pagina": "index.html"
 },
 {
@@ -1980,9 +1986,15 @@
 "pagina": "index.html"
 },
 {
-"k": "cfb23b929cd021ab",
+"k": "b680efc0036af434",
 "tipo": "html",
-"pt": "A perda fica com você, e as provas ficam com quem decidiu. Só que serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.",
+"pt": "A perda fica com você, e os registros ficam com quem decidiu. Só que um serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.",
+"pagina": "index.html"
+},
+{
+"k": "da71516b834d40af",
+"tipo": "html",
+"pt": "<a href=\"#cit-5\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/1/#p21\">p. 21</a>",
 "pagina": "index.html"
 },
 {
@@ -2028,12 +2040,6 @@
 "pagina": "index.html"
 },
 {
-"k": "da71516b834d40af",
-"tipo": "html",
-"pt": "<a href=\"#cit-5\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/1/#p21\">p. 21</a>",
-"pagina": "index.html"
-},
-{
 "k": "8dbd6b2bb9b16588",
 "tipo": "html",
 "pt": "<span class=\"em-modo modo-0\">Comece pelo que aconteceu</span><span class=\"em-modo modo-1\">Os conflitos, pela perda</span><span class=\"em-modo modo-2\">Os casos, agrupados pela perda</span>",
@@ -2046,15 +2052,15 @@
 "pagina": "index.html"
 },
 {
-"k": "28bc329f9d517c44",
+"k": "a316db687c1f7869",
 "tipo": "html",
-"pt": "A conta foi bloqueada, o presente sumiu ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.",
+"pt": "A conta foi bloqueada, algo que você tinha foi retirado ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.",
 "pagina": "index.html"
 },
 {
-"k": "a364311c638228be",
+"k": "f0f9a5f3337ae109",
 "tipo": "html",
-"pt": "<a href=\"#cit-15\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-2-1/#p155\">p. 155</a>",
+"pt": "<a href=\"#cit-13\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-2-1/#p155\">p. 155</a>",
 "pagina": "index.html"
 },
 {
@@ -2076,15 +2082,15 @@
 "pagina": "index.html"
 },
 {
-"k": "49979ae75c765c39",
+"k": "ac7b820dec6e034a",
 "tipo": "html",
-"pt": "O que você comprou continua na conta, mas deixou de fazer o que fazia quando você pagou por ele.",
+"pt": "O que você comprou ou assinou continua lá, mas deixou de fazer o que fazia quando você pagou por ele.",
 "pagina": "index.html"
 },
 {
-"k": "7208b83745519d31",
+"k": "bbe6013a0bb8bbc7",
 "tipo": "html",
-"pt": "<a href=\"#cit-14\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-1-3/#p104\">p. 104</a>",
+"pt": "<a href=\"#cit-12\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-1-3/#p104\">p. 104</a>",
 "pagina": "index.html"
 },
 {
@@ -2106,9 +2112,9 @@
 "pagina": "index.html"
 },
 {
-"k": "bc6a2225b3b85c28",
+"k": "2904f56fb53b189b",
 "tipo": "html",
-"pt": "A oferta apressou, o sorteio escondeu as chances ou a regra que pesou contra você estava enterrada nos termos de uso.",
+"pt": "A oferta apressou, as chances ou o custo real ficaram escondidos, ou a regra que pesou contra você estava enterrada nos termos de uso.",
 "pagina": "index.html"
 },
 {
@@ -2136,9 +2142,9 @@
 "pagina": "index.html"
 },
 {
-"k": "12689d59b58c8f0b",
+"k": "0e38855b0381b0e5",
 "tipo": "html",
-"pt": "Sair parece livre, mas custa o histórico, a reputação, os itens e as pessoas que você conheceu ali. Esse custo também conta.",
+"pt": "Sair parece livre, mas custa o histórico, a reputação, o que você comprou e as pessoas que você conheceu ali. Esse custo também conta.",
 "pagina": "index.html"
 },
 {

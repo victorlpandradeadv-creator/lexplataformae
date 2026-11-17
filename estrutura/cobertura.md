@@ -12,7 +12,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 
 | Seção | Título | Páginas | Informação | Doutrina | Camadas |
 |---|---|---|---|---|---|
-| 1 | Introdução | 21 a 42 | 55 | 15 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
+| 1 | Introdução | 21 a 42 | 56 | 15 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
 | 2 | Do desenho metodológico e do protocolo de observação | 45 a 47 | 1 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
 | 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 4 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
 | 2.2 | Do recorte teórico-normativo e setorial | 54 a 56 | 2 | 0 | Método (O protocolo); Dogmática (A base normativa); Dogmática (Dispositivos citados) |
@@ -28,11 +28,11 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 3.1 | Técnica, mídia e vida cotidiana | 85 a 92 | 14 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.1 | Autonomia da técnica e reorganização da vida social | 92 a 98 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.2 | Mídia, entretenimento e reconfiguração da epistemologia | 98 a 104 | 1 | 2 | Fundamentos (Seções do capítulo 3) |
-| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 10 | 0 | Fundamentos (Seções do capítulo 3) |
+| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 9 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.4 | A tecnologia enquanto construção social e a racionalidade política do design | 120 a 137 | 13 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.1.5 | O ambiente tecno-midiático como condição de possibilidade do OIC | 137 a 139 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.2 | Arquitetura econômica das plataformas digitais | 139 a 145 | 2 | 0 | Fundamentos (Seções do capítulo 3) |
-| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 25 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
+| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 24 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.2.2 | O rentismo informacional sob plataformas | 183 a 208 | 3 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.2.3 | Extração de valor, escassez artificial e o consumidor como exterior incorporado | 208 a 232 | 51 | 8 | Fundamentos (Seções do capítulo 3) |
 | 3.2.4 | A mutação da dinâmica concorrencial imaterial a partir da propriedade intelectual | 232 a 243 | 5 | 0 | Fichas (Função social da propriedade intelectual); Fundamentos (Seções do capítulo 3) |
@@ -104,7 +104,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7 | Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma | 713 a 714 | 1 | 0 | Laboratório (O teste) |
 | 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | 8 | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
 | 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | 3 | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
-| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 21 | 18 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 22 | 18 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.2 | Dos parâmetros da vulnerabilidade semiótica como mecanismo | 719 a 721 | 13 | 13 | Fichas (Vulnerabilidade semiótica); Roteiro (Bloco b do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.3 | Dos parâmetros do dever de informar como adequação verificável | 722 a 724 | 7 | 7 | Roteiro (Bloco c do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.4 | Dos parâmetros da publicidade e oferta como gestão de sentido controlável | 724 a 726 | 7 | 8 | Fichas (Antecipação hipercuratorial); Roteiro (Bloco d do enquadramento); Roteiro (Parâmetros) |
