@@ -82,7 +82,7 @@ lei: cdc-5, cdc-82
 
 Ajuda levar capturas de tela com data, gravações da tela e as telas de compra, de aceite e de confirmação. Também contam as mensagens sobre raridade, tempo restante, desconto ou mudança.
 
-Ajuda comparar o que foi prometido com o que você recebeu e com o que mudou depois. Por isso vale guardar o anúncio, a postagem e as letras miúdas, além do protocolo de cada contato com a empresa.
+A comparação que mais pesa é entre o que foi prometido, o que você recebeu e o que mudou depois. Por isso vale guardar o anúncio, a postagem e as letras miúdas, além do protocolo de cada contato com a empresa.
 
 Parte dos registros mais importantes fica com a empresa, como o histórico de versões, as transações e as comunicações de mudança. Nesse caso, o pedido pode incluir que a empresa guarde e mostre esses registros.
 
