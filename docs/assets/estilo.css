@@ -1707,6 +1707,15 @@ figure.il .il-caixas { text-align: left; }
 figure.ilustracao figcaption { text-align: center; }
 .vinheta-direito img, .vinheta-direito svg { width: 100%; height: auto; }
 
+/* Caminhos Siga, 17/11/2026. */
+.siga-lista a { display: flex; flex-direction: column; gap: .2rem; }
+.siga-lista a span { font-weight: 400; color: var(--tinta-2); font-size: .95rem; }
+.siga-parte .pergunta-secao .parte-num { color: var(--rubrica); font-family: var(--f-dado, monospace); margin-right: .35rem; }
+.siga-parte { margin-top: 2.25rem; }
+.siga-caso { margin-top: 2.75rem; padding: 1.25rem 1.25rem .5rem; border-top: 2px solid var(--rubrica); background: var(--papel-2, transparent); }
+.siga-fontes { font-size: .9rem; padding-left: 1.1rem; }
+.siga-fontes li { margin: .35rem 0; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

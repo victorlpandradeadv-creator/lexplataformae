@@ -1462,6 +1462,107 @@ def gerar_alem_do_consumo():
         encoding="utf-8")
 
 
+# Caminhos Siga, um por família de plataforma, ao lado de Siga a skin. Acréscimo de 17/11/2026, por ordem do autor.
+# Texto em conteudo/siga.md. Cada caminho é uma página só, com sete partes, o caso documentado e as fontes.
+def carregar_siga():
+    arq = RAIZ / "conteudo" / "siga.md"
+    if not arq.exists():
+        return {}
+    dados, cam, atual = {}, None, None
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            cam = {"slug": linha[3:].strip(), "titulo": "", "chamada": "", "abertura": [], "partes": [], "caso": None}
+            dados[cam["slug"]] = cam
+            atual = None
+            continue
+        if cam is None:
+            continue
+        if linha.startswith("### "):
+            nome, _, resto = linha[4:].strip().partition(" ")
+            if nome in ("titulo", "chamada", "abertura"):
+                atual = nome
+            elif nome == "parte":
+                n, _, pergunta = resto.partition(" ")
+                atual = {"n": int(n), "pergunta": pergunta.strip(), "paragrafos": [], "citacoes": []}
+                cam["partes"].append(atual)
+            elif nome == "caso":
+                atual = {"pergunta": resto.strip(), "paragrafos": [], "fontes": []}
+                cam["caso"] = atual
+            continue
+        if not linha.strip():
+            continue
+        if atual in ("titulo", "chamada"):
+            cam[atual] = (cam[atual] + " " + linha.strip()).strip()
+        elif atual == "abertura":
+            cam["abertura"].append(linha.strip())
+        elif isinstance(atual, dict):
+            m = re.match(r"^> (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+            if m and "citacoes" in atual:
+                atual["citacoes"].append({"texto": m.group(1), "ref": m.group(2)})
+            elif linha.startswith("fonte:") and "fontes" in atual:
+                t, _, u = linha[6:].partition("|")
+                atual["fontes"].append((t.strip(), u.strip()))
+            else:
+                atual["paragrafos"].append(linha.strip())
+    return dados
+
+
+SIGA = carregar_siga()
+
+
+def gerar_siga():
+    if not SIGA:
+        return
+    caminhos = [("Siga a skin", "caminho/a-compra/", "Você comprou uma skin. Ela é sua?")] + [
+        (c["titulo"], f'siga/{c["slug"]}/', c["chamada"]) for c in SIGA.values()]
+    for c in SIGA.values():
+        prefixo = "../../"
+        partes = "".join(
+            f'<section class="ext siga-parte" id="parte-{x["n"]}"><h2 class="pergunta-secao"><span class="parte-num">{x["n"]}</span> {esc(x["pergunta"])}</h2>'
+            + "".join(f"<p>{esc(t)}</p>" for t in x["paragrafos"]) + expansao(x["citacoes"], prefixo) + "</section>"
+            for x in c["partes"])
+        caso = ""
+        if c["caso"]:
+            k = c["caso"]
+            caso = (f'<section class="ext siga-caso" id="caso" data-arq="acréscimo posterior · caso documentado depois da tese">'
+                    f'<p class="sobrelinha">Caso documentado · acréscimo de 17/11/2026</p><h2 class="pergunta-secao">{esc(k["pergunta"])}</h2>'
+                    + "".join(f"<p>{esc(t)}</p>" for t in k["paragrafos"])
+                    + ('<p class="siga-fontes-rotulo"><b>Fontes</b></p><ul class="siga-fontes">' + "".join(
+                        f'<li><a href="{esc(u)}" rel="noopener">{esc(t)}</a></li>' for t, u in k["fontes"]) + "</ul>" if k["fontes"] else "")
+                    + "</section>")
+        outros = [(t, prefixo + h) for t, h, _ in caminhos if not h.endswith(f'/{c["slug"]}/')]
+        corpo = (f'<article class="folha siga-pagina">'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}siga/">Siga um caso</a></p>'
+                 f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha">{esc(c["titulo"])}</p><h1>{esc(c["chamada"])}</h1></header>'
+                 f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in c["abertura"]) + "</section>"
+                 + partes + caso
+                 + saidas_html([(COMO_RECLAMAR["titulo"] if COMO_RECLAMAR else "Como reclamar", f"{prefixo}como-reclamar/"),
+                                ("Quando não é relação de consumo", f"{prefixo}alem-do-consumo/"), ("Todos os problemas", f"{prefixo}problemas/")])
+                 + saidas_html(outros, "Outros caminhos")
+                 + "</article>")
+        jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": c["chamada"], "inLanguage": "pt-BR",
+                  "url": f'{BASE}/siga/{c["slug"]}/', "dateModified": "2026-11-17", "isBasedOn": BASE + "/#tese"}
+        destino = SAIDA / "siga" / c["slug"]
+        destino.mkdir(parents=True, exist_ok=True)
+        desc = (c["abertura"][0] if c["abertura"] else c["chamada"])
+        desc = desc if len(desc) <= 158 else desc[:155].rsplit(" ", 1)[0] + "..."
+        (destino / "index.html").write_text(
+            pagina(f'{c["chamada"]} · {c["titulo"]} · Lex Plataformae', desc, corpo, prefixo, f'siga/{c["slug"]}/', jsonld, camada="mista", imagem="problemas",
+                   irmas=("Siga um caso", [(esc(t), prefixo + h, h.endswith(f'/{c["slug"]}/')) for t, h, _ in caminhos])),
+            encoding="utf-8")
+    prefixo = "../"
+    lista = "".join(f'<li><a href="{prefixo}{h}"><b>{esc(t)}</b><span>{esc(q)}</span></a></li>' for t, h, q in caminhos)
+    corpo = (f'<article class="folha siga-indice"><header class="folha-cabeca ext-cabeca"><h1>Siga um caso do começo ao fim</h1></header>'
+             f'<section class="ext abertura-problema"><p>Cada caminho acompanha uma coisa que você tem numa plataforma, do começo ao dia em que algo dá errado, e termina no que você pode exigir.</p>'
+             f'<p>Escolha o que mais se parece com a sua história. Cada um se lê sozinho.</p></section>'
+             f'<ul class="partes-curtas siga-lista">{lista}</ul></article>')
+    destino = SAIDA / "siga"
+    destino.mkdir(parents=True, exist_ok=True)
+    (destino / "index.html").write_text(
+        pagina("Siga um caso do começo ao fim · Lex Plataformae", "Sete caminhos, da skin à loja no aplicativo, que acompanham uma coisa sua numa plataforma até o que você pode exigir.",
+               corpo, prefixo, "siga/", None, camada="mista", imagem="problemas"), encoding="utf-8")
+
+
 # Epígrafes. A página da trilha sonora, com a função das nove canções e o que cada uma anuncia, nas palavras do 2.6.
 # Texto em conteudo/camada-externa.md, página epigrafes. Auditoria de estrutura de 04/11/2026.
 def credito_epigrafe(e):
@@ -2022,7 +2123,8 @@ def gerar_inicio():
         return (f'<section class="cena {classe} em-modo modo-2">{ext_html("inicio", campo_, "")}</section>')
     # Portas com o mesmo contrato de conteúdo. Sobrelinha, título, uma frase, quatro entradas e uma saída.
     # Revisão de disposição de 12/11/2026, por ordem do autor, para as três portas terem a mesma altura pelo conteúdo.
-    portas_caminho = ('<ul class="partes-curtas">' + "".join(f'<li><a href="caminho/{pt["slug"]}/">{esc(pt["titulo"])}</a></li>' for pt in PERCURSO[:4]) + "</ul>")
+    portas_caminho = ('<ul class="partes-curtas">' + '<li><a href="caminho/a-compra/">Siga a skin</a></li>' + "".join(
+        f'<li><a href="siga/{c["slug"]}/">{esc(c["titulo"])}</a></li>' for c in list(SIGA.values())[:3]) + "</ul>")
     # Cinco portas pela perda, logo abaixo da pergunta aberta da capa, e a saída comum. Acréscimo de 15/11/2026, por ordem do autor.
     # Cada porta leva à sua família em problemas/. A quinta leva também à página de quem não é consumidor.
     def porta_perda(i):
@@ -2102,10 +2204,10 @@ def gerar_inicio():
       <div class="portas-grade">
         <article class="porta porta-percurso item-moldura">
           <p class="porta-rotulo">Quero entender</p>
-          <h3><a href="caminho/a-compra/">Siga a skin</a></h3>
-          <p>Onze partes, do clique de compra ao que a lei pode fazer por você.</p>
+          <h3><a href="siga/">Siga um caso</a></h3>
+          <p>Uma história do começo ao fim, até o que você pode exigir.</p>
           {portas_caminho}
-          <p class="porta-mais"><a href="caminho/">As onze partes</a></p>
+          <p class="porta-mais"><a href="siga/">Ver os sete caminhos</a></p>
         </article>
         <article class="porta porta-direito item-moldura">
           <p class="porta-rotulo">Trabalho com Direito</p>
@@ -4514,7 +4616,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + ([BASE + "/alem-do-consumo/"] if ALEM else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/", BASE + "/versoes/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + ([BASE + "/alem-do-consumo/"] if ALEM else []) + ([BASE + "/siga/"] + [f"{BASE}/siga/{x}/" for x in SIGA] if SIGA else []) + ([BASE + "/linguagem-geometrica/"] if (SAIDA / "linguagem-geometrica").exists() else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/", BASE + "/versoes/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -4873,6 +4975,7 @@ def main():
     gerar_problemas()
     gerar_como_reclamar()
     gerar_alem_do_consumo()
+    gerar_siga()
     gerar_epigrafes()
     for c in D["conceitos"]:
         gerar_conceito(c)

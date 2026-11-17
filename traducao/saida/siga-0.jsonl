@@ -1,0 +1,75 @@
+{"k": "bc3a5b3805163000", "en": "<1>Follow a case</1>"}
+{"k": "d20838b46ba5c967", "en": "A story from beginning to end, up to what you can demand."}
+{"k": "23266a64c7a7191a", "en": "<1>Follow the community</1>"}
+{"k": "721d27bf16559325", "en": "<1>Follow the order</1>"}
+{"k": "23d9dd3ebd94b2ee", "en": "<1>Follow the assistant</1>"}
+{"k": "ef342e88050318c5", "en": "<1>See the seven paths</1>"}
+{"k": "6f9da38f5be5b454", "en": "You trust an artificial intelligence assistant. Who decides what it does for you? · Follow the assistant · Lex Plataformae"}
+{"k": "837ac753f61c9a08", "en": "<1>Follow a case</1>"}
+{"k": "1edecd9de5961f6e", "en": "Follow the assistant"}
+{"k": "d20fcaefb3abd9dd", "en": "<1>You trust an artificial intelligence assistant.</1> <2>Who decides what it does for you?</2>"}
+{"k": "7d7f7839fc4d4d48", "en": "You use an artificial intelligence assistant to study, work, write or decide. It speaks with confidence, and you came to trust it as guidance."}
+{"k": "0382e26260bf166b", "en": "This path follows that trust, from the first use to the day the assistant fails, changes or chooses whom to serve, and ends with what you can demand."}
+{"k": "560009f687657749", "en": "<1>1</1> What did you sign up for?"}
+{"k": "680fc9983d134e7b", "en": "You did not sign up for an answer. You signed up for an assistant that guides you, and its value lies precisely in your being able to trust what it says enough to act on it."}
+{"k": "1e08765d5fe559a9", "en": "That is why the problem is rarely a wrong sentence. The problem is the whole environment that turns what it says into something you trust."}
+{"k": "64e6e4b20825efe5", "en": "<1>2</1> Is today's assistant the same as yesterday's?"}
+{"k": "164b02cbd6d5bd59", "en": "Not always. The company swaps the model that answers, changes usage limits, cuts features and adjusts the assistant's behaviour behind the screen. The name stays the same, and you keep paying for the same plan."}
+{"k": "81121e20f38a4f60", "en": "This variation is not an accident of technology. It is the company's choice, and the lack of clarity about it must have a limit."}
+{"k": "56bc4f390c5fbf1d", "en": "<1>3</1> Why does it sound so sure?"}
+{"k": "73a0ab18e0793633", "en": "Because it was designed to. The assistant states what it knows and what it makes up with the same firmness, and the way the answer appears makes it look complete and reliable."}
+{"k": "30beac9ab4707f8b", "en": "When the appearance of certainty goes beyond what the service delivers, the cost of the error falls on you."}
+{"k": "15ec3eee6f9300fd", "en": "<1>4</1> Does it serve everyone the same way?"}
+{"k": "7c52d4bd459fe1ad", "en": "Not necessarily. Internal filters decide what the assistant agrees to do and what it refuses. When those filters treat equivalent requests differently, some people get what they ask for and others do not, by criteria nobody sees."}
+{"k": "c8e8207fd3f4ebc1", "en": "There is no need to prove that anyone meant to favour one side. It is enough that the design produces the difference and that it cannot be checked."}
+{"k": "36890933bd2c3e9d", "en": "<1>5</1> Is the error only in the answer?"}
+{"k": "9ea76dfcf42ace6a", "en": "No. Capability below what was promised, bias and misinformation served with an appearance of certainty arise from the way the service is built. A wrong answer can serve as evidence, but the problem lies in the regime that produced it."}
+{"k": "763cd32d3b354b6f", "en": "So looking only at the wrong sentence is looking in the wrong place."}
+{"k": "fb2340cb3c1c1bb3", "en": "<1>6</1> Can what happened be reconstructed?"}
+{"k": "0b758865e3ad3241", "en": "Rarely from your side. The history, the version in use, the filters and the limits stay with the company. You only have the screens you saved and your memory."}
+{"k": "bde6b4f57318c6a2", "en": "When the problem affects many people, users themselves can reconstruct how it works from outside, with repeated tests and screenshots. That is what happened in the case below."}
+{"k": "8240fc9dbb754e83", "en": "<1>7</1> What can you demand?"}
+{"k": "c23ec539c12b4659", "en": "You can demand access to the conversation history, a sufficient explanation of the limits that matter, notice before relevant changes and equal treatment for equal requests. Nobody needs to open the assistant's code for that."}
+{"k": "772fa7ee77eb13a8", "en": "When the failure arises from the design and affects all users, the response can be collective and correct how the service works, and not just your case."}
+{"k": "9908dffc1dad2ec1", "en": "Documented case · addition of 17/11/2026"}
+{"k": "446f256654005cb4", "en": "Has this happened before?"}
+{"k": "0d3360742c281baa", "en": "In October 2026, WhatsApp users reported that Meta AI generated posters with \"Flávio 22\" and refused equivalent requests with \"Lula 13\". Newsrooms such as Núcleo, Fast Company Brasil and Tecnoblog repeated the tests and recorded the difference."}
+{"k": "a4a9f96408556565", "en": "Meta acknowledged the failure. It said the filter blocked the candidates' names but did not always recognise a first name followed by the number, that the loophole was fixed on the 14th and that there was no political favouritism. The Superior Electoral Court ordered equal treatment of the two campaigns. What matters here is not intention, which the company denies, but that an invisible filter treated equivalent requests unequally."}
+{"k": "566778017a1cd99d", "en": "In 2025, paying ChatGPT subscribers woke up without the models they used, replaced without notice. After the backlash, OpenAI brought the old model back and promised to give notice before removing models."}
+{"k": "505117dff2e0c80c", "en": "<1>Sources</1>"}
+{"k": "43e3a09ea2d3959b", "en": "<1>Aos Fatos e Núcleo, IA da Meta favorece criação de imagens de Flávio Bolsonaro (2026)</1>"}
+{"k": "8ace4eb16cbb237f", "en": "<1>Fast Company Brasil, IA da Meta gerou cartaz com Flávio 22 e barrou Lula 13 (2026)</1>"}
+{"k": "310b50d62284ca7b", "en": "<1>Meta, A Meta não está interferindo nas eleições brasileiras (2026)</1>"}
+{"k": "d52dec7634f16f8f", "en": "<1>Times Brasil, Meta nega interferência e TSE determina tratamento igualitário (2026)</1>"}
+{"k": "35010e239d5ee6a9", "en": "<1>Tecnoblog, ChatGPT traz de volta modelo 4o após onda de reclamações (2025)</1>"}
+{"k": "3f25e05f261e810a", "en": "<1>Where to complain when the platform does not resolve it?</1>"}
+{"k": "68d08ccffae306a8", "en": "<1>When it is not a consumer relationship</1>"}
+{"k": "2067f98d2e6bb5e2", "en": "<1>Follow the skin</1>"}
+{"k": "d6e7d2f74b378d0e", "en": "<1>Follow the community</1>"}
+{"k": "3ac0a6110f4125c9", "en": "<1>Follow the order</1>"}
+{"k": "37d0ac70a1a790cf", "en": "<1>Follow the ride</1>"}
+{"k": "3e66f0c32b188106", "en": "<1>Follow the store</1>"}
+{"k": "7700633ba7b7b682", "en": "<1>Follow the complaint</1>"}
+{"k": "f45dde5da14ab55a", "en": "<1>1 What did you sign up for?</1>"}
+{"k": "37c3068c9a14fc73", "en": "<1>2 Is today's assistant the same as yesterday's?</1>"}
+{"k": "d48af1da7acf9097", "en": "<1>3 Why does it sound so sure?</1>"}
+{"k": "e2787b473d09f483", "en": "<1>4 Does it serve everyone the same way?</1>"}
+{"k": "dc5e832a3e39fef2", "en": "<1>5 Is the error only in the answer?</1>"}
+{"k": "09a7a679eaa68f9b", "en": "<1>6 Can what happened be reconstructed?</1>"}
+{"k": "0e1d47c613c10224", "en": "<1>7 What can you demand?</1>"}
+{"k": "3e5c07a03bfa58c2", "en": "<1>Has this happened before?</1>"}
+{"k": "7ca1bcd5f9f25861", "en": "Follow a case"}
+{"k": "fb5d4043a7c9e64f", "en": "<1>Follow the assistant</1>"}
+{"k": "4d033acae132ee2f", "en": "You use an artificial intelligence assistant to study, work, write or decide. It speaks with confidence, and you came to trust it as guidance."}
+{"k": "c3ca98885b4930a6", "en": "later addition · case documented after the thesis"}
+{"k": "15ed943b6331dfa3", "en": "You trust an artificial intelligence assistant. Who decides what it does for you?"}
+{"k": "18b85e015575e047", "en": "You built a community on a social network. Whose is it? · Follow the community · Lex Plataformae"}
+{"k": "6029d4023492dad5", "en": "Follow the community"}
+{"k": "125e7e532ee42646", "en": "<1>You built a community on a social network.</1> <2>Whose is it?</2>"}
+{"k": "805e6abea617e3f9", "en": "You spent years building a group, a page or a profile, and thousands of people came because of you. One day the network took it all down, and nobody properly explained why."}
+{"k": "3ba53db8633f23c3", "en": "This path follows your community, from the first member to the day it disappeared, and ends with what you can demand."}
+{"k": "e88c3c9424871fdb", "en": "<1>1</1> What did you build there?"}
+{"k": "644d7cdab914b97c", "en": "You created the group, wrote the rules, accepted members, put out fights and kept the conversation alive. People did not come for the network. They came because of the place you built and the way you looked after it."}
+{"k": "f904400aec7766bf", "en": "That has value, and not only for you. An active community brings attention, new people and conversation every day, and that is exactly what the network lives on."}
+{"k": "97935014b225072c", "en": "<1>2</1> Does the network just host your group?"}
+{"k": "05b4edc8da578581", "en": "No. The network decides who sees what you post, in what order, how prominently and for how long. It also decides what can stay online and what comes down."}
