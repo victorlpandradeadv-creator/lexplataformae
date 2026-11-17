@@ -515,7 +515,12 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     """
     ident_il = ILUSTRACAO_PAGINA.get(caminho) or (f"problema-{caminho.split('/')[1]}" if caminho.startswith("problemas/") and caminho.count("/") == 2 else None)
     if ident_il and 'class="il"' not in corpo and "</header>" in corpo:
-        corpo = corpo.replace("</header>", "</header>" + figura_svg(ident_il), 1)
+        # Nos problemas a figura vem depois da abertura, para a caixa não anteceder a frase que ela retoma.
+        m = re.search(r'<section class="ext abertura-problema">.*?</section>', corpo, re.S)
+        if m:
+            corpo = corpo[:m.end()] + figura_svg(ident_il) + corpo[m.end():]
+        else:
+            corpo = corpo.replace("</header>", "</header>" + figura_svg(ident_il), 1)
     # Situações e Seus direitos têm uma página por situação desde 13/11/2026. Os links antigos para a âncora
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)

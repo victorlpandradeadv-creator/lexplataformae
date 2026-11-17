@@ -352,9 +352,9 @@ def direitos_continua():
 
 
 def alem_do_consumo():
-    banca = (linha([(560, 520), (1040, 520)], "t1") + linha([(590, 520), (590, 700)], "t1") + linha([(1010, 520), (1010, 700)], "t1") +
+    banca = (linha([(590, 610), (590, 700)], "t1") + linha([(1010, 610), (1010, 700)], "t1") +
              modulo(650, 480, 56) + modulo(930, 480, 56) + caixa(972, 452, 56, 56, "t1", larg=10))
-    vendedor = pessoa(790, 505, 0.9)
+    vendedor = pessoa(790, 505, 0.9) + '<rect x="560" y="520" width="480" height="90" rx="4" class="s-t1 f-ap" stroke-width="12"/>'
     toldo = (linha([(540, 260), (1060, 260)], "t2", larg=12) + linha([(560, 260), (560, 300)], "t2") + linha([(1040, 260), (1040, 300)], "t2") +
              linha([(1060, 260), (1240, 260), (1240, 700)], "t2") + comando(1240, 190) +
              linha([(1180, 260), (1240, 320)], "t2"))
@@ -683,9 +683,9 @@ def problema_trabalho_por_app():
 
 def problema_vendo_na_plataforma():
     f, c = "problemas.md", "vendo-na-plataforma"
-    vendedor = pessoa(500, 505, 0.9) + linha([(300, 520), (760, 520)], "t1") + linha([(330, 520), (330, 700)], "t1") + modulo(390, 480, 56) + modulo(640, 480, 56)
-    apoio = linha([(730, 520), (730, 700)], "t2") + caixa(705, 590, 50, 40, "t2", larg=8)
-    cmd = comando(1280, 220) + linha([(1280, 266), (1280, 610), (755, 610)], "t2")
+    vendedor = pessoa(500, 505, 0.9) + '<rect x="300" y="520" width="460" height="90" rx="4" class="s-t1 f-ap" stroke-width="12"/>' + linha([(330, 610), (330, 700)], "t1") + modulo(390, 480, 56) + modulo(640, 480, 56)
+    apoio = linha([(730, 610), (730, 700)], "t2") + caixa(705, 630, 50, 40, "t2", larg=8)
+    cmd = comando(1280, 220) + linha([(1280, 266), (1280, 650), (755, 650)], "t2")
     return _prob("vendo-na-plataforma", "Vendo numa plataforma", "Uma pessoa vende numa bancada. Um lado da bancada depende de um apoio ajustado por um comando longe dali, fora do alcance dela.", [
         P("vendedor", (440, 230), vendedor, F(f, c, "Ter renda pela plataforma não tira, por si, essa proteção.", "A existência de interesse econômico")),
         P("apoio", (800, 700), apoio, F(f, c, "Quem vende depende do ranking, da reputação", "A plataforma não precisa expulsar")),
