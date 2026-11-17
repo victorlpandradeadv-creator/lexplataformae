@@ -12,7 +12,15 @@ Rascunho do Claude, de 27/10/2026, refeito no mesmo dia para ficar mais explicad
 
 ### chamada
 
-O que uma plataforma tirou de você?
+O que a plataforma tomou de você?
+
+### acolhimento
+
+Não foi descuido seu. A mesma empresa que vende o acesso escreve as regras, aplica as punições, guarda as provas e pode mudar tudo depois da compra. Comece pelo que aconteceu com você.
+
+> A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido. (p. 612)
+
+> [...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
 
 ### porta-acesso
 

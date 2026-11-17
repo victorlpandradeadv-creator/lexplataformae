@@ -1626,15 +1626,33 @@
 "pagina": "index.html"
 },
 {
-"k": "0fafa1932f5ea2a1",
+"k": "d57b16deb016526c",
 "tipo": "html",
-"pt": "<span class=\"chamada-linha\">O que uma plataforma tirou de você?</span>",
+"pt": "<span class=\"chamada-linha\">O que a plataforma tomou de você?</span>",
 "pagina": "index.html"
 },
 {
-"k": "12b115d85262d5f2",
+"k": "d020c590202f606d",
 "tipo": "html",
-"pt": "Escolha o que aconteceu",
+"pt": "Não foi descuido seu. A mesma empresa que vende o acesso escreve as regras, aplica as punições, guarda as provas e pode mudar tudo depois da compra. Comece pelo que aconteceu com você.",
+"pagina": "index.html"
+},
+{
+"k": "9fcd037962d0a019",
+"tipo": "html",
+"pt": "A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3-1/#p612\">p. 612</a>",
+"pagina": "index.html"
+},
+{
+"k": "921307c670d16f8e",
+"tipo": "html",
+"pt": "[...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/1/#p27\">p. 27</a>",
+"pagina": "index.html"
+},
+{
+"k": "3941f69edc6e3c0d",
+"tipo": "html",
+"pt": "Comece pelo que aconteceu",
 "pagina": "index.html"
 },
 {
@@ -1647,6 +1665,12 @@
 "k": "28bc329f9d517c44",
 "tipo": "html",
 "pt": "A conta foi bloqueada, o presente sumiu ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto.",
+"pagina": "index.html"
+},
+{
+"k": "6547aa7c30967015",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/a/\">a</a>, <a href=\"roteiro/b/\">b</a>, <a href=\"roteiro/e/\">e</a>, <a href=\"roteiro/g/\">g</a>, <a href=\"roteiro/i/\">i</a>, <a href=\"roteiro/j/\">j</a>, <a href=\"roteiro/k/\">k</a>",
 "pagina": "index.html"
 },
 {
@@ -1665,6 +1689,12 @@
 "k": "49979ae75c765c39",
 "tipo": "html",
 "pt": "O que você comprou continua na conta, mas deixou de fazer o que fazia quando você pagou por ele.",
+"pagina": "index.html"
+},
+{
+"k": "d2be9a7614fe0625",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/a/\">a</a>, <a href=\"roteiro/b/\">b</a>, <a href=\"roteiro/c/\">c</a>, <a href=\"roteiro/d/\">d</a>, <a href=\"roteiro/e/\">e</a>, <a href=\"roteiro/f/\">f</a>, <a href=\"roteiro/j/\">j</a>, <a href=\"roteiro/k/\">k</a>",
 "pagina": "index.html"
 },
 {
@@ -1689,6 +1719,12 @@
 "k": "531cd2b9c101c325",
 "tipo": "html",
 "pt": "Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-4-2/#p670\">p. 670</a>",
+"pagina": "index.html"
+},
+{
+"k": "0ddbb49eeb20f829",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/b/\">b</a>, <a href=\"roteiro/c/\">c</a>, <a href=\"roteiro/d/\">d</a>, <a href=\"roteiro/h/\">h</a>, <a href=\"roteiro/i/\">i</a>",
 "pagina": "index.html"
 },
 {
@@ -1722,6 +1758,12 @@
 "pagina": "index.html"
 },
 {
+"k": "306d1f105a6822bf",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/e/\">e</a>, <a href=\"roteiro/g/\">g</a>, <a href=\"roteiro/h/\">h</a>, <a href=\"roteiro/i/\">i</a>, <a href=\"roteiro/k/\">k</a>",
+"pagina": "index.html"
+},
+{
 "k": "2e1becfe6b11cb7c",
 "tipo": "html",
 "pt": "<a href=\"problemas/#porta-sair\">Os 2 problemas desta porta</a>",
@@ -1752,6 +1794,12 @@
 "pagina": "index.html"
 },
 {
+"k": "69efca59e5dda2c0",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/c/\">c</a>, <a href=\"roteiro/e/\">e</a>, <a href=\"roteiro/f/\">f</a>, <a href=\"roteiro/g/\">g</a>, <a href=\"roteiro/i/\">i</a>, <a href=\"roteiro/k/\">k</a>",
+"pagina": "index.html"
+},
+{
 "k": "c5cfaf3c65b731ab",
 "tipo": "html",
 "pt": "<a href=\"problemas/#porta-decide\">Os 4 problemas desta porta</a>",
@@ -1770,6 +1818,12 @@
 "pagina": "index.html"
 },
 {
+"k": "f6af637dd72b42d6",
+"tipo": "html",
+"pt": "Situações <a href=\"roteiro/b/\">b</a>, <a href=\"roteiro/c/\">c</a>, <a href=\"roteiro/e/\">e</a>, <a href=\"roteiro/g/\">g</a>, <a href=\"roteiro/h/\">h</a>, <a href=\"roteiro/i/\">i</a>",
+"pagina": "index.html"
+},
+{
 "k": "503e53c737464b20",
 "tipo": "html",
 "pt": "<a href=\"problemas/#porta-comum\">Os 3 problemas desta porta</a>",
@@ -1782,327 +1836,15 @@
 "pagina": "index.html"
 },
 {
-"k": "8433a948afa869ca",
+"k": "d2d9dbf7f13d630e",
 "tipo": "html",
-"pt": "<a href=\"#cit-2\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-1-3/#p104\">p. 104</a>",
+"pt": "<a href=\"#cit-4\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-1-3/#p104\">p. 104</a>",
 "pagina": "index.html"
 },
 {
-"k": "25979fbc5c1a98e4",
+"k": "8c050a3ed467db46",
 "tipo": "html",
-"pt": "<a href=\"#cit-1\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-2-1/#p155\">p. 155</a>",
-"pagina": "index.html"
-},
-{
-"k": "5a147bac9ae927ee",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\"><span class=\"esq-num\">1.</span> O que foi prometido dá para identificar?</span><span class=\"esq-texto\">A utilidade vendida, e não slogans nem listas de enfeite</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "58c9d0efbc00d4fe",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\"><span class=\"esq-num\">2.</span> A compra abriu um lugar que dura?</span><span class=\"esq-texto\">Uma posição que precisa continuar existindo para a coisa servir</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "db864a09a384b022",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\"><span class=\"esq-num\">3.</span> A plataforma governa esse lugar?</span><span class=\"esq-texto\">Regras internas, escolhas sobre o que aparece e punições</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "2587de17b6a95377",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\"><span class=\"esq-num\">4.</span> Dá para piorar sem sumir?</span><span class=\"esq-texto\">O acesso continua, mas o que você tinha é rebaixado ou esvaziado</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "cc9d4bef5b744f9c",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">O seu caso entra na categoria</span><span class=\"esq-texto\">Valem os direitos que o caminho explica daqui em diante</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "6d280688811f3872",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">A lei continua protegendo você</span><span class=\"esq-texto\">O caso fica fora da categoria e segue pelas regras gerais, como numa cobrança indevida, num defeito pontual ou num anúncio enganoso isolado</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p433\">p. 433-435</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "b993153867783849",
-"tipo": "html",
-"pt": "Isso é uma triagem, e não uma sentença. O que decide é encontrar os quatro ao mesmo tempo, e não a impressão de que a tecnologia está no meio. <span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "099608dc15cd84be",
-"tipo": "html",
-"pt": "A pergunta relevante não é se houve um “conteúdo” disponível em algum momento, mas qual utilidade foi economicamente ofertada em termos de funcionalidades e significações que, no regime do OIC, constituem o adquirido.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a>",
-"pagina": "index.html"
-},
-{
-"k": "fc8001519ed1b099",
-"tipo": "html",
-"pt": "O filtro aqui é decisivo, pois não basta a presença de mediação técnica em sentido trivial. Importa a existência de critérios internos e de mecanismos executivos que conformam estruturalmente a experiência de fruição e distribuem consequências ao consumidor.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a>",
-"pagina": "index.html"
-},
-{
-"k": "65b85b4f04c7733d",
-"tipo": "html",
-"pt": "Trata-se de delimitar a zona em que a fruição continua existindo formalmente, mas é rebaixada, esvaziada ou reconfigurada<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a>",
-"pagina": "index.html"
-},
-{
-"k": "b41b5e00a51be530",
-"tipo": "html",
-"pt": "<a href=\"#cit-12\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a>",
-"pagina": "index.html"
-},
-{
-"k": "a53c67ef6d3f6874",
-"tipo": "html",
-"pt": "O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p435\">p. 435</a>",
-"pagina": "index.html"
-},
-{
-"k": "d9aa94b1215b7fc2",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Objeto prometido como feixe de fruição</span><span class=\"esq-texto\">A utilidade ofertada em funcionalidades e significações, identificável</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "f5870e5459b07757",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Posição de fruição sustentada</span><span class=\"esq-texto\">A aquisição inaugura uma posição que precisa permanecer</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "75d4bb0a40edc91d",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Governança infraestrutural</span><span class=\"esq-texto\">Critérios internos e mecanismos executivos como modo de execução do fornecimento</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "202ace8a4980c8ed",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Degradação relevante sem ruptura total</span><span class=\"esq-texto\">A fruição continua formalmente, mas é rebaixada, esvaziada ou reconfigurada</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "1e14cff54b59bf74",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Incidência do regime</span><span class=\"esq-texto\">As onze situações, de a a k, operam o CDC a partir da qualificação do objeto</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "6ea32914b0352f67",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">Fora do OIC, a proteção comum segue</span><span class=\"esq-texto\">Os cinco limites de exclusão</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p433\">p. 433-435</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "7887c7335990c893",
-"tipo": "html",
-"pt": "Acesso pontual sem posição sustentada<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p433\">p. 433</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "0a263210e5e2f5b5",
-"tipo": "html",
-"pt": "Canal ou vitrine que não governa a utilidade<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "9c901adbed612504",
-"tipo": "html",
-"pt": "Valor simbólico acessório ao núcleo do feixe<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "14a5fe05868e0159",
-"tipo": "html",
-"pt": "Variações ordinárias do ecossistema<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "c0ab8a9d19d973ea",
-"tipo": "html",
-"pt": "Conflito cujo núcleo é outro<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p435\">p. 435</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "a5f27259a6d9b831",
-"tipo": "html",
-"pt": "A incidência se decide pela presença cumulativa de elementos verificáveis, e não por intuição tecnológica nem por deferência ao contrato. <span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "5225146ad5a22376",
-"tipo": "html",
-"pt": "Como filtro, define o que entra e o que permanece fora do campo de incidência, impedindo que qualquer relação digital com aparência de continuidade seja absorvida pela categoria e impedindo, também, que o fornecedor expulse o conflito do CDC por rotulagem estratégica<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a>",
-"pagina": "index.html"
-},
-{
-"k": "9920785f34929118",
-"tipo": "html",
-"pt": "<a href=\"#cit-15\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p428\">p. 428</a>",
-"pagina": "index.html"
-},
-{
-"k": "bdb6d2bf855633c7",
-"tipo": "html",
-"pt": "<a href=\"#cit-17\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p429\">p. 429</a>",
-"pagina": "index.html"
-},
-{
-"k": "006d492876b9bc3f",
-"tipo": "html",
-"pt": "O primeiro limite é o acesso pontual sem posição de fruição sustentada.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p433\">p. 433</a>",
-"pagina": "index.html"
-},
-{
-"k": "e138d26bc8f28b93",
-"tipo": "html",
-"pt": "O segundo limite é a hipótese em que a plataforma funciona como canal ou vitrine, mas não governa, em termos estruturais, a utilidade adquirida<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a>",
-"pagina": "index.html"
-},
-{
-"k": "8b43bc11e731852f",
-"tipo": "html",
-"pt": "O terceiro limite recai sobre situações em que o valor simbólico ou semiótico é funcionalmente acessório e não integra o núcleo do feixe de fruição prometido.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a>",
-"pagina": "index.html"
-},
-{
-"k": "2829567e94b18352",
-"tipo": "html",
-"pt": "O quarto limite abrange variações ordinárias do ecossistema que não configuram degradação relevante e persistente do feixe, como atualizações, ajustes de interface, medidas antiabuso, moderação regular e instabilidades pontuais.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p434\">p. 434</a>",
-"pagina": "index.html"
-},
-{
-"k": "552d2dbbb106da00",
-"tipo": "html",
-"pt": "<a href=\"#cit-18\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/5-1-2-3/#p435\">p. 435</a>",
-"pagina": "index.html"
-},
-{
-"k": "199f9d1c0e9ccb8b",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">O que você pode guardar</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "522e67e3634acde8",
-"tipo": "html",
-"pt": "Capturas de tela com data e gravações de tela<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "ff2070e007784e3d",
-"tipo": "html",
-"pt": "As telas de compra e de confirmação<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "8d7020239bf2088c",
-"tipo": "html",
-"pt": "Anúncios e avisos do que foi prometido<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "82ec4a45e106d128",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">O que a lei oferece no meio</span><span class=\"esq-texto\">Nada disso é automático</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "86c9fd45fcbf1148",
-"tipo": "html",
-"pt": "A inversão do ônus da prova, quando o juiz a decide<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4/#p583\">p. 583</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "51b180ec27876786",
-"tipo": "html",
-"pt": "A ordem para guardar evidências e exibir documentos<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "b2ee0cf96131c499",
-"tipo": "html",
-"pt": "Outra divisão do trabalho de provar, quando um lado tem muita dificuldade e o outro muita facilidade<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "f39277820b38e3d2",
-"tipo": "html",
-"pt": "<span class=\"esq-nome\">O que fica com a plataforma</span><span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "766672053ee9232f",
-"tipo": "html",
-"pt": "Registros do sistema e histórico das mudanças<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "54ea2dbd773c8f4e",
-"tipo": "html",
-"pt": "Versões antigas das telas<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "21180f9ea4cfd005",
-"tipo": "html",
-"pt": "Critérios usados para punir e conversas internas do suporte<span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "177d6a1494a61d50",
-"tipo": "html",
-"pt": "Você ainda conta uma história coerente e mostra um mínimo, como o antes e o depois. O que não se pode é exigir de você a prova detalhada do que nunca esteve nas suas mãos. <span class=\"esq-ref ciencia\"><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/7-1-1-8/#p736\">p. 736</a></span>",
-"pagina": "index.html"
-},
-{
-"k": "b962475a3613ab30",
-"tipo": "html",
-"pt": "A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a>",
-"pagina": "index.html"
-},
-{
-"k": "ce90253211d03f8b",
-"tipo": "html",
-"pt": "Compara-se a promessa publicitária e institucional com a fruição efetivamente entregue e com suas alterações posteriores.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4-3/#p607\">p. 607</a>",
-"pagina": "index.html"
-},
-{
-"k": "bdc6f2acefd36673",
-"tipo": "html",
-"pt": "Em litígios sobre OICs, essa é precisamente a configuração normal: logs, trilhas de interface, históricos de alteração, critérios de sanção, comunicações internas de suporte e registros técnicos relevantes ficam concentrados no fornecedor.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a>",
-"pagina": "index.html"
-},
-{
-"k": "893db5eaded2ce5c",
-"tipo": "html",
-"pt": "A especialização tecnológica do serviço e a posição dominante do fornecedor fazem da inversão do ônus da prova, em muitos casos, o único instrumento capaz de viabilizar efetivamente a tutela do consumidor<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-2-4/#p583\">p. 583</a>",
-"pagina": "index.html"
-},
-{
-"k": "77e721482f6bb36a",
-"tipo": "html",
-"pt": "O terceiro mecanismo é propriamente processual: preservação de evidências, exibição de documentos e redistribuição dinâmica do ônus da prova.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a>",
-"pagina": "index.html"
-},
-{
-"k": "4d81caa454bd6da3",
-"tipo": "html",
-"pt": "O art. 373, § 1º, permite a distribuição diversa do ônus probatório quando houver excessiva dificuldade para uma parte cumprir o encargo ou maior facilidade da outra em produzir a prova do fato contrário<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/6-3-3/#p659\">p. 659</a>",
-"pagina": "index.html"
-},
-{
-"k": "04c23e1d53b74e58",
-"tipo": "html",
-"pt": "Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido.<a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/7-1-1-8/#p736\">p. 736</a>",
+"pt": "<a href=\"#cit-3\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"tese/3-2-1/#p155\">p. 155</a>",
 "pagina": "index.html"
 },
 {

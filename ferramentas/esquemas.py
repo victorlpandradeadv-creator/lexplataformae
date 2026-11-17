@@ -224,7 +224,8 @@ def inserir(corpo, caminho, prefixo, esc, pg, expansao):
     """Põe na página os esquemas cujo campo pagina é este caminho. A posição é 'antes <texto de título>', 'depois <texto de título>'
     ou, sem posição, antes das saídas. Esquemas chamados pelo próprio gerador não usam esse campo."""
     for ident, p in ESQUEMAS.items():
-        if p.get("pagina", "").strip() != caminho:
+        # Esquema sem página é chamado pelo próprio gerador. Sem esta guarda ele caía na capa, cujo caminho é vazio.
+        if not p.get("pagina", "").strip() or p["pagina"].strip() != caminho:
             continue
         peca = esquema(ident, prefixo, esc, pg, expansao)
         pos = p.get("posicao", "")

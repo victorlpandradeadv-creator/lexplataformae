@@ -1677,6 +1677,15 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .lpi-linhas dt { font-weight: 600; } .lpi-linhas dd { margin: 0; }
 @media (max-width: 560px) { .lpi-linhas { grid-template-columns: 1fr; } .lpi-linhas dd { margin-bottom: 0.5rem; } }
 
+/* 17/11/2026, por ordem do autor. Acolhimento logo abaixo da pergunta da capa, no eixo central, e a linha das situações
+   em cada porta, só a partir da Doutrina. */
+.cena-titulo .acolhimento { max-width: 38rem; margin: 1.25rem auto 0; text-align: center; }
+.cena-titulo .acolhimento > p { font-family: var(--f-display); font-size: 1.25rem; line-height: 1.5; color: var(--tinta); margin: 0; }
+@media (max-width: 560px) { .cena-titulo .acolhimento > p { font-size: 1.0625rem; } }
+.porta-situacoes { font-size: 0.85rem; color: var(--tinta-2); margin: 0.5rem 0 0; }
+.porta-situacoes a { color: var(--rubrica); }
+.historia-skin { margin-top: 3rem; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

@@ -2029,17 +2029,22 @@ def gerar_inicio():
         fid = FAMILIA_ID[i]
         nome, slugs = FAMILIAS_PROBLEMAS[i]
         n = len([s for s in slugs if s in PROBLEMAS])
+        # 17/11/2026, por ordem do autor. A mesma porta nos três modos. Na Doutrina e na Ciência ela mostra também as
+        # situações do regime que os problemas dela acionam, para a capa ser a mesma casa com mais luzes acesas.
+        letras = sorted({l for s in slugs if s in PROBLEMAS for l in PROBLEMAS[s].get("direitos", []) if re.fullmatch(r"[a-k]", l)})
+        situacoes = ('<p class="porta-situacoes em-modo modo-1 modo-2">Situações ' + ", ".join(
+            f'<a href="roteiro/{l}/">{l}</a>' for l in letras) + '</p>') if letras else ""
         return (f'<article class="porta porta-perda item-moldura">{vinheta("porta-" + fid, "")}<h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
-                f'{ext_html("inicio", "porta-" + fid, "")}'
+                f'{ext_html("inicio", "porta-" + fid, "")}{situacoes}'
                 f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Os " + str(n) + " problemas desta porta" if n > 1 else "O problema desta porta"}</a></p></article>')
-    portas_perda = (f'<section class="portas portas-perda-secao em-modo modo-0 modo-2" aria-labelledby="perda-titulo">'
-                    f'<h2 class="portas-titulo" id="perda-titulo">Escolha o que aconteceu</h2>'
-                    f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>'
-                    f'<h2 class="cena-caso em-modo modo-2">Você comprou uma skin. Ela é sua?</h2>')
+    portas_perda = (f'<section class="portas portas-perda-secao" aria-labelledby="perda-titulo">'
+                    f'<h2 class="portas-titulo" id="perda-titulo">Comece pelo que aconteceu</h2>'
+                    f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>')
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
       <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
+      <div class="acolhimento">{ext_html("inicio", "acolhimento", "")}</div>
       <nav class="atalhos-capa" aria-label="Escolha seu caminho">
         <a href="problemas/">Encontrar meu problema</a>
         <a href="#portas-titulo">Explorar os caminhos</a>
@@ -2047,12 +2052,8 @@ def gerar_inicio():
       </nav>
     </section>
     {portas_perda}
-    {figura("inicio", "", destaque=True)}
-    {cena("cena-compra")}
-    {cena("cena-mudanca", "cena-incomodo")}
-    {cena("cena-virada", "cena-virada")}
 
-    <section class="cena capa-doutrina em-modo modo-1" aria-labelledby="regime-titulo">
+    <section class="cena capa-doutrina em-modo modo-1 modo-2" aria-labelledby="regime-titulo">
       <h2 id="regime-titulo">O regime em um parágrafo</h2>
       {ext_html("inicio", "doutrina", "")}
       <nav class="ext saidas" aria-label="Por onde entrar"><ul class="partes-curtas">
@@ -2063,8 +2064,9 @@ def gerar_inicio():
       </ul></nav>
     </section>
 
+    {figura("inicio", "", destaque=True)}
+
     <section class="portas" aria-labelledby="portas-titulo">
-      <div class="portas-texto em-modo modo-2">{ext_html("inicio", "portas", "")}</div>
       <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
       <div class="portas-grade">
         <article class="porta porta-percurso item-moldura">
@@ -2088,6 +2090,14 @@ def gerar_inicio():
         </article>
       </div>
     </section>
+
+    <div class="historia-skin em-modo modo-2">
+    <h2 class="cena-caso">Você comprou uma skin. Ela é sua?</h2>
+    {cena("cena-compra")}
+    {cena("cena-mudanca", "cena-incomodo")}
+    {cena("cena-virada", "cena-virada")}
+    <div class="portas-texto">{ext_html("inicio", "portas", "")}</div>
+    </div>
 
     <section class="nomes-discretos" aria-labelledby="nomes-titulo">
       <h2 id="nomes-titulo">Isso tem nome</h2>
