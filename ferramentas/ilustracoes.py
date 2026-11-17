@@ -809,6 +809,8 @@ def main():
             continue
         (SAIDA / f"{c['id']}.svg").write_text(svg(c, "var"), encoding="utf-8")
         (SAIDA / f"{c['id']}.html").write_text(fragmento(c), encoding="utf-8")
+        (RAIZ / "site" / "ilustracoes-svg").mkdir(exist_ok=True)
+        (RAIZ / "site" / "ilustracoes-svg" / f"{c['id']}.html").write_text(fragmento(c), encoding="utf-8")
         exportar(c, SAIDA)
         feitas.append(c)
     (SAIDA / "manifesto.json").write_text(json.dumps(

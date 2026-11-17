@@ -1918,3 +1918,52 @@ body:has(#nivel-2:checked) {
   --nota: #2f2d1c;
   --nota-borda: #48452c;
 }
+
+/* Ilustrações interativas. Feito em 16/11/2026, por orientação do autor.
+   A figura é SVG embutido, desenhado por ferramentas/ilustracoes.py. Cada peça é tocável.
+   Fora do modo desnudo, tocar numa peça abre a caixa dela, logo abaixo da imagem.
+   No modo desnudo, os marcadores numerados aparecem sobre a figura e todas as caixas se mostram.
+   No celular as caixas se empilham debaixo da imagem. Na tela larga, ficam ao lado.
+   O trecho da tese só aparece a partir de Doutrina, pela classe interno do site. */
+
+:root { --il-azul: #002fa7; --il-apoio: #f1ebe1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --il-azul: #497ef7; --il-apoio: #241f1a; } }
+:root[data-theme="dark"] { --il-azul: #497ef7; --il-apoio: #241f1a; }
+
+.il { margin: 1.5rem 0; }
+.il-quadro { position: relative; max-width: 44rem; }
+.il-svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+.il-peca { cursor: pointer; outline: none; transition: opacity 0.15s ease; }
+.il-alvo { pointer-events: all; }
+.il:has(.il-peca.ativa) .il-peca:not(.ativa),
+.il:has(.il-caixa:hover) .il-peca:not(.acesa),
+.il-quadro:has(.il-peca:hover) .il-peca:not(:hover) { opacity: 0.32; }
+.il-peca:focus-visible { opacity: 1; }
+.il-peca:focus-visible > :first-child { filter: drop-shadow(0 0 0 currentColor); }
+
+.il-marcas { pointer-events: none; display: none; }
+.il-marca circle { fill: var(--desnudo); }
+.il-marca text { fill: var(--papel, #fff); font: 600 48px "IBM Plex Mono", ui-monospace, monospace; text-anchor: middle; }
+
+.il-caixas { list-style: none; margin: 0.75rem 0 0; padding: 0; display: grid; gap: 0.6rem; }
+.il-caixa { display: none; position: relative; padding: 0.8rem 0.9rem 0.8rem 2.6rem; border: 1px dashed var(--desnudo); border-radius: 6px; font-size: 0.95rem; line-height: 1.5; }
+.il-caixa.aberta { display: block; animation: il-surgir 0.18s ease-out; }
+.il-caixa.acesa { border-style: solid; }
+.il-num { position: absolute; left: 0.7rem; top: 0.8rem; width: 1.3rem; height: 1.3rem; border-radius: 50%; background: var(--desnudo); color: var(--papel, #fff); font: 600 0.75rem/1.3rem "IBM Plex Mono", ui-monospace, monospace; text-align: center; }
+.il-leigo { margin: 0; }
+.il-tese { margin: 0.5rem 0 0; padding: 0; font-size: 0.88rem; opacity: 0.85; }
+.il-tese p { margin: 0; }
+@keyframes il-surgir { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* Modo desnudo. Marcadores sobre a figura e todas as caixas à mostra. */
+:is(body.desnudo, body:has(#nivel-2:checked)) .il-marcas { display: inline; }
+:is(body.desnudo, body:has(#nivel-2:checked)) .il-caixa { display: block; }
+
+/* Tela larga no modo desnudo. As caixas ficam ao lado da figura. */
+@media (min-width: 900px) {
+  :is(body.desnudo, body:has(#nivel-2:checked)) .il { display: grid; grid-template-columns: minmax(0, 3fr) minmax(16rem, 2fr); gap: 1.25rem; align-items: start; }
+  :is(body.desnudo, body:has(#nivel-2:checked)) .il-caixas { margin-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) { .il-caixa.aberta { animation: none; } .il-peca { transition: none; } }

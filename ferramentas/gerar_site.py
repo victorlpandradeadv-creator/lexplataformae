@@ -48,7 +48,7 @@ PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
 # Marca de versão do estilo e do script, para que o navegador do leitor busque a versão nova logo depois de cada publicação.
 import hashlib as _hashlib
 VERSAO_ASSETS = _hashlib.sha1(b"".join((RAIZ / f).read_bytes() for f in (
-    "site/extra.css", "site/cores.css", "site/atlas.js", "prototipo/modelo.html") if (RAIZ / f).exists())).hexdigest()[:10]
+    "site/extra.css", "site/cores.css", "site/atlas.js", "site/ilustracoes.css", "site/ilustracoes.js", "prototipo/modelo.html") if (RAIZ / f).exists())).hexdigest()[:10]
 
 D = json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))
 _corpus = RAIZ / "dados" / "corpus.json"
@@ -513,6 +513,9 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
+    ident_il = ILUSTRACAO_PAGINA.get(caminho) or (f"problema-{caminho.split('/')[1]}" if caminho.startswith("problemas/") and caminho.count("/") == 2 else None)
+    if ident_il and 'class="il"' not in corpo and "</header>" in corpo:
+        corpo = corpo.replace("</header>", "</header>" + figura_svg(ident_il), 1)
     # Situações e Seus direitos têm uma página por situação desde 13/11/2026. Os links antigos para a âncora
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
@@ -611,6 +614,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   </footer>
 </div>
 <script src="{prefixo}assets/atlas.js?v={VERSAO_ASSETS}" defer></script>
+<script src="{prefixo}assets/ilustracoes.js?v={VERSAO_ASSETS}" defer></script>
 </body>
 </html>
 """
@@ -1611,12 +1615,32 @@ def arquivo_ilustracao(ident):
     return None
 
 
+# Ilustrações interativas em SVG, desde 16/11/2026, por orientação do autor. ferramentas/ilustracoes.py desenha cada
+# composição e grava o fragmento em site/ilustracoes-svg/<id>.html, com as caixas de cada peça. Quando o fragmento existe,
+# ele vem no lugar do WebP. Componente em site/ilustracoes.css e site/ilustracoes.js.
+ILUSTRACOES_SVG_DIR = RAIZ / "site" / "ilustracoes-svg"
+# Peças fora do plano antigo, postas logo depois do título da página.
+ILUSTRACAO_PAGINA = {"direitos/": "direitos-continua", "alem-do-consumo/": "alem-do-consumo", "como-reclamar/": "como-reclamar"}
+
+
+def figura_svg(ident, legenda=""):
+    arq = ILUSTRACOES_SVG_DIR / f"{ident}.html"
+    if not arq.exists():
+        return ""
+    frag = arq.read_text(encoding="utf-8").strip()
+    rodape = f'<figcaption>{esc(legenda)} <span class="aviso-ia ciencia">{AVISO_IA}</span></figcaption>' if legenda else \
+        f'<figcaption class="ciencia"><span class="aviso-ia">{AVISO_IA}</span></figcaption>'
+    return frag[: frag.rindex("</figure>")] + rodape + "</figure>"
+
+
 def figura(ident, prefixo, destaque=False):
     """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir."""
     peca = ILUSTRACOES.get(ident)
     if not peca:
-        return ""
+        return figura_svg(ident)
     ILUSTRACOES_USADAS.add(ident)
+    if (ILUSTRACOES_SVG_DIR / f"{ident}.html").exists():
+        return figura_svg(ident, peca.get("legenda", ""))
     formato = "formato-4x3" if peca.get("formato", "").startswith("4") else "formato-16x9"
     arq = arquivo_ilustracao(ident)
     if not arq:
@@ -4362,6 +4386,7 @@ img { max-width: 100%; }
     extra = (RAIZ / "site" / "extra.css").read_text(encoding="utf-8")
     # As cores vêm de estrutura/cores.json, por ferramentas/cores/gerar_css.py, e entram por último.
     extra += "\n" + (RAIZ / "site" / "cores.css").read_text(encoding="utf-8")
+    extra += "\n" + (RAIZ / "site" / "ilustracoes.css").read_text(encoding="utf-8")
     assets = SAIDA / "assets"
     (assets / "fontes").mkdir(parents=True, exist_ok=True)
     # O degrau Despir vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.
@@ -4370,6 +4395,7 @@ img { max-width: 100%; }
     for arq in (RAIZ / "ferramentas" / "fontes").iterdir():
         shutil.copy(arq, assets / "fontes" / arq.name)
     shutil.copy(RAIZ / "site" / "atlas.js", assets / "atlas.js")
+    shutil.copy(RAIZ / "site" / "ilustracoes.js", assets / "ilustracoes.js")
     if ILUSTRACOES_DIR.exists():
         (assets / "ilustracoes").mkdir(exist_ok=True)
         for arq in ILUSTRACOES_DIR.iterdir():
