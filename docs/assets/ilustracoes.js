@@ -49,3 +49,21 @@
     });
   });
 })();
+
+// 17/11/2026, por ordem do autor. O desenho ocupa o quadro inteiro. O viewBox se ajusta ao que está desenhado, com folga.
+(function () {
+  document.querySelectorAll('svg.il-svg').forEach(function (svg) {
+    try {
+      var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      Array.prototype.forEach.call(svg.children, function (el) {
+        if (!el.getBBox || /^(style|title|desc|defs)$/i.test(el.tagName)) return;
+        var b = el.getBBox();
+        if (!b.width && !b.height) return;
+        x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y); x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height);
+      });
+      if (!isFinite(x0)) return;
+      var f = 48;
+      svg.setAttribute('viewBox', (x0 - f) + ' ' + (y0 - f) + ' ' + (x1 - x0 + 2 * f) + ' ' + (y1 - y0 + 2 * f));
+    } catch (e) {}
+  });
+})();
