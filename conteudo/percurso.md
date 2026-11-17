@@ -288,7 +288,7 @@ Por isso a pergunta que importa não é quanto custa, e sim o que faz algo parec
 
 ### termo Consumo como ritual
 
-As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que as pessoas se alinham com uns, se separa de outros e dá sentido ao que vive. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.
+As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que as pessoas se alinham com uns, se separam de outros e dão sentido ao que vivem. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.
 
 Ficar fora desse circuito, por isso, não é só um desconforto, porque significa perder voz e perder opções. Quando você pensa em sair de um jogo, o custo não é só o dinheiro que ficou para trás, mas também o risco de se isolar e de enfraquecer laços que foram feitos ali dentro.
 

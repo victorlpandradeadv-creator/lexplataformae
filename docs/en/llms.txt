@@ -9,7 +9,7 @@
 
 ## Pages
 
-- [Quando não é relação de consumo · Código Civil, plataformas e quem vende ou trabalha nelas · Lex Plataformae](https://lexplataformae.com.br/en/alem-do-consumo/): Quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor continua protegido pelo Código Civil, com mais exigência de prova.
+- [When it is not a consumer relationship · Civil Code, platforms and those who sell or work on them · Lex Plataformae](https://lexplataformae.com.br/en/alem-do-consumo/): Whoever sells, works or builds a clientele on a platform without being a consumer is still protected by the Civil Code, with a greater demand for proof.
 - [About the author · Victor L. P. Andrade · Lex Plataformae](https://lexplataformae.com.br/en/author/): About the author. The doctoral thesis that everything on this site comes from.
 - [Ada Pellegrini Grinover · Authors · Lex Plataformae](https://lexplataformae.com.br/en/authors/ada-pellegrini-grinover/): Ada Pellegrini Grinover in the thesis. The works in the reference list.
 - [Adalberto Pasqualotto · Authors · Lex Plataformae](https://lexplataformae.com.br/en/authors/adalberto-pasqualotto/): Adalberto Pasqualotto in the thesis. The works in the list of references and the 10 passages in which the thesis cites this author.
@@ -148,7 +148,7 @@
 - [Theoretical foundations · Lex Plataformae](https://lexplataformae.com.br/en/foundations/): Chapters 3 and 4 of the thesis, organized by the authors and functions that the opening of each chapter declares, with the sections in which each author is…
 - [How to read the geometric language · Lex Plataformae](https://lexplataformae.com.br/en/geometric-language/): How to read the shapes, lines and bands of the geometric language of intellectual property. A later addition to the thesis, from November 2026.
 - [Where can you complain when the platform won't fix the problem? Procon, consumidor.gov.br, Small Claims Court and deadlines · Lex Plataformae](https://lexplataformae.com.br/en/how-to-complain/): When talking to the platform gets you nowhere, Brazilian law offers other routes, and almost all of them are free.
-- [Lex Plataformae · O que a plataforma tomou de você?](https://lexplataformae.com.br/en/): O que a plataforma tomou de você? Como a perda acontece depois da compra, por onde começar e o que você pode exigir.
+- [Lex Plataformae · What did the platform take from you?](https://lexplataformae.com.br/en/): What did the platform take from you? How the loss happens after the purchase, where to start and what you can demand.
 - [Concepts by field of knowledge · Lex Plataformae](https://lexplataformae.com.br/en/instruments/): Find the complementary, instrumental and derived concepts and read each explanation in the context of the skin's path.
 - [Cited legislation, with the full text of each article · Lex Plataformae](https://lexplataformae.com.br/en/legislation/): The Brazilian statutory articles the thesis relies on, in full and organized by statute, for those who practice law.
 - [Research method · Lex Plataformae](https://lexplataformae.com.br/en/method/): The methodological design and the observation protocol of the thesis, chapter 2, in the original text. Strategy, scope, sources, reading procedures and…

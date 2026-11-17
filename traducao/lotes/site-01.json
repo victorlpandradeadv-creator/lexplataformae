@@ -1,13 +1,13 @@
 [
  {
-  "k": "bb1e72332a50b7ff",
+  "k": "f3a79e9f2c285b13",
   "pagina": "index.html",
-  "pt": "Lex Plataformae · Você comprou uma skin. Ela é sua?"
+  "pt": "Lex Plataformae · O que a plataforma tomou de você?"
  },
  {
-  "k": "17457c1cb0d1b92b",
+  "k": "f2dc8b95676cbe42",
   "pagina": "index.html",
-  "pt": "<1><2>Versão 0.11</2> · em construção</1>"
+  "pt": "<1><2>Versão 0.17</2> · em construção</1>"
  },
  {
   "k": "191572bf3b5192d2",
@@ -25,9 +25,9 @@
   "pt": "<1>Direitos</1>"
  },
  {
-  "k": "5a50fd662a456878",
+  "k": "854b3aad8fefeae8",
   "pagina": "index.html",
-  "pt": "<1>Direitos</1>"
+  "pt": "<1>Situações</1>"
  },
  {
   "k": "e3a989044b78bd12",
@@ -35,9 +35,9 @@
   "pt": "<1>Caminho</1>"
  },
  {
-  "k": "1263330ffb149f9f",
+  "k": "395e84930bc641a1",
   "pagina": "index.html",
-  "pt": "<1>Caminho</1>"
+  "pt": "<1>Doutrina</1>"
  },
  {
   "k": "84d99b0f2f7b879f",
@@ -90,19 +90,204 @@
   "pt": "<1>Texto integral</1>"
  },
  {
-  "k": "26242368f0e6db0a",
+  "k": "97c467ec4a4b3992",
   "pagina": "index.html",
-  "pt": "<1>Você comprou uma skin.</1> <2>Ela é sua?</2>"
+  "pt": "<1>English</1>"
  },
  {
-  "k": "67111048b98fa197",
+  "k": "27e8f674b3112409",
   "pagina": "index.html",
-  "pt": "<1>Encontrar meu problema</1>\n<2>Explorar os caminhos</2>\n<3>Pesquisar as fontes</3>"
+  "pt": "<1><2>O que a plataforma tomou de você?</2></1><3><4>Por que a compra digital não termina na entrega?</4></3><5><6>Em que momento isso passou a parecer normal?</6></5>"
  },
  {
-  "k": "b012ea15892a3af9",
+  "k": "d020c590202f606d",
   "pagina": "index.html",
-  "pt": "Uma figura com uma armadura inventada e brilhante está de pé sobre um pedaço de chão que flutua, sustentado por cabos que sobem para fora do quadro. Parece terreno dela, mas é um chão emprestado."
+  "pt": "Não foi descuido seu. A mesma empresa que vende o acesso escreve as regras, aplica as punições, guarda as provas e pode mudar tudo depois da compra. Comece pelo que aconteceu com você."
+ },
+ {
+  "k": "9fcd037962d0a019",
+  "pagina": "index.html",
+  "pt": "A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido.<1>p. 612</1>"
+ },
+ {
+  "k": "921307c670d16f8e",
+  "pagina": "index.html",
+  "pt": "[...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas<1>p. 27</1>"
+ },
+ {
+  "k": "0a3e7e8ef2f33be1",
+  "pagina": "index.html",
+  "pt": "Quando o que se vende é uma posição de uso sustentada por uma plataforma, a relação de consumo continua depois do pagamento. O fornecedor segue governando o objeto, e é essa governança contínua que pede critérios próprios de dever, prova e consequência."
+ },
+ {
+  "k": "5b5755067ec51b1e",
+  "pagina": "index.html",
+  "pt": "O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC<1><2>1</2></1>.<3>p. 718</3>"
+ },
+ {
+  "k": "e67b75ef5b334f4b",
+  "pagina": "index.html",
+  "pt": "O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado.<1>p. 719</1>"
+ },
+ {
+  "k": "2095ed8a77fe5588",
+  "pagina": "index.html",
+  "pt": "A pergunta vem da introdução e organiza a pesquisa inteira. Daqui se chega ao objeto, aos instrumentos, ao método que torna cada inferência conferível e ao texto integral, com cada frase do site ligada à página de onde saiu."
+ },
+ {
+  "k": "cc9ec5af008ba0e3",
+  "pagina": "index.html",
+  "pt": "Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar?<1>p. 21</1>"
+ },
+ {
+  "k": "88d8096acb12ab3f",
+  "pagina": "index.html",
+  "pt": "Aqui são reunidos os elementos necessários para tornar auditável a investigação, incluindo a estratégia de pesquisa, o recorte empírico e as técnicas de coleta e leitura do material mobilizado.<1>p. 47</1>"
+ },
+ {
+  "k": "bdc98b97cc16956d",
+  "pagina": "index.html",
+  "pt": "Como a perda acontece"
+ },
+ {
+  "k": "8ae1982e22190917",
+  "pagina": "index.html",
+  "pt": "Você pagou"
+ },
+ {
+  "k": "42eef6bbfca05917",
+  "pagina": "index.html",
+  "pt": "Você pagou com dinheiro, com tempo ou com atenção, numa loja, num aplicativo, numa rede social, num assistente ou num jogo. O que recebeu ficou dentro de um ambiente que a empresa mantém."
+ },
+ {
+  "k": "9ceb4c3ab67a76df",
+  "pagina": "index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 719</2>"
+ },
+ {
+  "k": "85f3250033492bbc",
+  "pagina": "index.html",
+  "pt": "A empresa continuou mandando"
+ },
+ {
+  "k": "6e015f84d0a619cb",
+  "pagina": "index.html",
+  "pt": "A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o serviço e decidindo o que você vê, o que você pode usar e quem fica."
+ },
+ {
+  "k": "f0d42d123315d6bc",
+  "pagina": "index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 27</2>"
+ },
+ {
+  "k": "a4cda69f5f365c56",
+  "pagina": "index.html",
+  "pt": "Ela mudou, puniu ou desligou"
+ },
+ {
+  "k": "c73d7df802b8e853",
+  "pagina": "index.html",
+  "pt": "Um dia a função piora, o alcance cai, a conta é suspensa ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar."
+ },
+ {
+  "k": "7ab8a2a0460a741e",
+  "pagina": "index.html",
+  "pt": "A alteração de regra, o rebaixamento de alcance ou a suspensão sequer se transformam em objeto verificável e disputável no próprio sistema.<1>p. 381</1>"
+ },
+ {
+  "k": "6f51247632896638",
+  "pagina": "index.html",
+  "pt": "A perda ficou com você"
+ },
+ {
+  "k": "b680efc0036af434",
+  "pagina": "index.html",
+  "pt": "A perda fica com você, e os registros ficam com quem decidiu. Só que um serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso."
+ },
+ {
+  "k": "da71516b834d40af",
+  "pagina": "index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 21</2>"
+ },
+ {
+  "k": "e36189adcf87bb2b",
+  "pagina": "index.html",
+  "pt": "Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito<1>p. 655</1>"
+ },
+ {
+  "k": "08cb1ac1c409a54a",
+  "pagina": "index.html",
+  "pt": "O regime em um parágrafo"
+ },
+ {
+  "k": "53e897d53a72ac50",
+  "pagina": "index.html",
+  "pt": "O regime começa pela qualificação do objeto. Quando o que se ofertou é um feixe de fruição sustentado por governança contínua, e pode perder valor sem ruptura total, os demais parâmetros passam a operar. A resposta preferencial é recompor a função perdida, e a indenização em dinheiro fica como resposta residual ou complementar."
+ },
+ {
+  "k": "94eb5e9f4a313be9",
+  "pagina": "index.html",
+  "pt": "Esse parâmetro exerce, assim, função de gatilho para os demais.<1>p. 719</1>"
+ },
+ {
+  "k": "8311d05ab5cc4da1",
+  "pagina": "index.html",
+  "pt": "A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime<1>p. 429</1>"
+ },
+ {
+  "k": "a9e76beaef085fcf",
+  "pagina": "index.html",
+  "pt": "A monetização permanece possível, mas como resposta residual ou complementar, não como reflexo automático da lesão.<1>p. 748</1>"
+ },
+ {
+  "k": "a5274fada9b756ff",
+  "pagina": "index.html",
+  "pt": "<1>Onze situações, com dever, prova e consequência</1>"
+ },
+ {
+  "k": "0bf7acaa9319c185",
+  "pagina": "index.html",
+  "pt": "<1>Doutrina, em quinze capítulos</1>"
+ },
+ {
+  "k": "51911a568296f0f3",
+  "pagina": "index.html",
+  "pt": "<1>Legislação citada, em texto integral</1>"
+ },
+ {
+  "k": "65b5401acababaaa",
+  "pagina": "index.html",
+  "pt": "<1>Vocabulário, com definição e critérios</1>"
+ },
+ {
+  "k": "d9259194265ed252",
+  "pagina": "index.html",
+  "pt": "A pesquisa por dentro"
+ },
+ {
+  "k": "3ec8d9c1fdd16089",
+  "pagina": "index.html",
+  "pt": "<1>Método e protocolo</1>"
+ },
+ {
+  "k": "8d834e473bbe4723",
+  "pagina": "index.html",
+  "pt": "<1>Fundamentos, com os autores de cada campo</1>"
+ },
+ {
+  "k": "dda6e75c6343643b",
+  "pagina": "index.html",
+  "pt": "<1>Dogmática, capítulos 5 e 6</1>"
+ },
+ {
+  "k": "554df0e6d38af2d2",
+  "pagina": "index.html",
+  "pt": "<1>Texto integral, seção a seção</1>"
+ },
+ {
+  "k": "ed59adea1785edfe",
+  "pagina": "index.html",
+  "pt": "O caso de origem. Você comprou uma skin. Ela é sua?"
  },
  {
   "k": "2a438e1d75daef92",
@@ -140,11 +325,6 @@
   "pt": "Não é só nos jogos. Um assistente de inteligência artificial, uma loja virtual ou um aplicativo de trabalho podem funcionar do mesmo jeito, sempre que o que você usa depende de um ambiente que a empresa mantém, atualiza, reorganiza e controla."
  },
  {
-  "k": "e67b75ef5b334f4b",
-  "pagina": "index.html",
-  "pt": "O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado.<1>p. 719</1>"
- },
- {
   "k": "bbf1bc2298d1a5c9",
   "pagina": "index.html",
   "pt": "O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição<1>p. 755</1>"
@@ -155,19 +335,174 @@
   "pt": "Nesses lugares nada fica parado. Muitas mudanças são normais e fazem parte da vida do serviço. Outras não são, e o tempo, a atenção, a reputação e o dinheiro que você colocou ali não aparecem em nota fiscal nenhuma. Em que momento isso passou a parecer normal?"
  },
  {
-  "k": "e36189adcf87bb2b",
-  "pagina": "index.html",
-  "pt": "Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito<1>p. 655</1>"
- },
- {
   "k": "c47a3e8a4028b71a",
   "pagina": "index.html",
   "pt": "Atualizações ordinárias, curadoria regular, intervenções antiabuso e mudanças que não atingem o núcleo funcional do feixe de fruição permanecem no campo normal de execução e não constituem degradação relevante por definição.<1>p. 430</1>"
  },
  {
-  "k": "cc9ec5af008ba0e3",
+  "k": "8dbd6b2bb9b16588",
   "pagina": "index.html",
-  "pt": "Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar?<1>p. 21</1>"
+  "pt": "<1>Comece pelo que aconteceu</1><2>Os conflitos, pela perda</2><3>Os casos, agrupados pela perda</3>"
+ },
+ {
+  "k": "009125329474c178",
+  "pagina": "index.html",
+  "pt": "<1>Perdi o acesso</1>"
+ },
+ {
+  "k": "a316db687c1f7869",
+  "pagina": "index.html",
+  "pt": "A conta foi bloqueada, algo que você tinha foi retirado ou o serviço anunciou que vai acabar, e o que estava lá dentro foi embora junto."
+ },
+ {
+  "k": "f0f9a5f3337ae109",
+  "pagina": "index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 155</2>"
+ },
+ {
+  "k": "6547aa7c30967015",
+  "pagina": "index.html",
+  "pt": "Situações <1>a</1>, <2>b</2>, <3>e</3>, <4>g</4>, <5>i</5>, <6>j</6>, <7>k</7>"
+ },
+ {
+  "k": "6a74d9045efbb4ac",
+  "pagina": "index.html",
+  "pt": "<1>Os 3 problemas desta porta</1>"
+ },
+ {
+  "k": "6cc42c943bc5e248",
+  "pagina": "index.html",
+  "pt": "<1>O que comprei mudou</1>"
+ },
+ {
+  "k": "ac7b820dec6e034a",
+  "pagina": "index.html",
+  "pt": "O que você comprou ou assinou continua lá, mas deixou de fazer o que fazia quando você pagou por ele."
+ },
+ {
+  "k": "bbe6013a0bb8bbc7",
+  "pagina": "index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 104</2>"
+ },
+ {
+  "k": "d2be9a7614fe0625",
+  "pagina": "index.html",
+  "pt": "Situações <1>a</1>, <2>b</2>, <3>c</3>, <4>d</4>, <5>e</5>, <6>f</6>, <7>j</7>, <8>k</8>"
+ },
+ {
+  "k": "f31798bb9cd1343e",
+  "pagina": "index.html",
+  "pt": "<1>Os 7 problemas desta porta</1>"
+ },
+ {
+  "k": "df449c151d5052fb",
+  "pagina": "index.html",
+  "pt": "<1>Fui empurrado a pagar</1>"
+ },
+ {
+  "k": "2904f56fb53b189b",
+  "pagina": "index.html",
+  "pt": "A oferta apressou, as chances ou o custo real ficaram escondidos, ou a regra que pesou contra você estava enterrada nos termos de uso."
+ },
+ {
+  "k": "531cd2b9c101c325",
+  "pagina": "index.html",
+  "pt": "Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa.<1>p. 670</1>"
+ },
+ {
+  "k": "0ddbb49eeb20f829",
+  "pagina": "index.html",
+  "pt": "Situações <1>b</1>, <2>c</2>, <3>d</3>, <4>h</4>, <5>i</5>"
+ },
+ {
+  "k": "f4edc73684254a86",
+  "pagina": "index.html",
+  "pt": "<1>Os 5 problemas desta porta</1>"
+ },
+ {
+  "k": "f5157f44853b9300",
+  "pagina": "index.html",
+  "pt": "<1>Quero sair e levar o que é meu</1>"
+ },
+ {
+  "k": "0e38855b0381b0e5",
+  "pagina": "index.html",
+  "pt": "Sair parece livre, mas custa o histórico, a reputação, o que você comprou e as pessoas que você conheceu ali. Esse custo também conta."
+ },
+ {
+  "k": "84423256f38fd107",
+  "pagina": "index.html",
+  "pt": "O poder não se estabiliza só por preço, mas por custo de saída.<1>p. 217</1>"
+ },
+ {
+  "k": "0feaa4ad1e05621e",
+  "pagina": "index.html",
+  "pt": "Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema.<1>p. 217</1>"
+ },
+ {
+  "k": "306d1f105a6822bf",
+  "pagina": "index.html",
+  "pt": "Situações <1>e</1>, <2>g</2>, <3>h</3>, <4>i</4>, <5>k</5>"
+ },
+ {
+  "k": "2e1becfe6b11cb7c",
+  "pagina": "index.html",
+  "pt": "<1>Os 2 problemas desta porta</1>"
+ },
+ {
+  "k": "4ec63c64f3a1a0b7",
+  "pagina": "index.html",
+  "pt": "<1>A plataforma decide sobre mim sem explicar</1>"
+ },
+ {
+  "k": "6b622e6b50bc06ad",
+  "pagina": "index.html",
+  "pt": "O alcance caiu, a regra do aplicativo mudou ou a loja puniu sem dizer por quê. Vale para quem compra, e também para quem vende ou trabalha ali."
+ },
+ {
+  "k": "eecd6dd80996d3c4",
+  "pagina": "index.html",
+  "pt": "O que decide é a estrutura real da sujeição, não a aparência contratual de horizontalidade.<1>p. 780</1>"
+ },
+ {
+  "k": "69efca59e5dda2c0",
+  "pagina": "index.html",
+  "pt": "Situações <1>c</1>, <2>e</2>, <3>f</3>, <4>g</4>, <5>i</5>, <6>k</6>"
+ },
+ {
+  "k": "c5cfaf3c65b731ab",
+  "pagina": "index.html",
+  "pt": "<1>Os 4 problemas desta porta</1>"
+ },
+ {
+  "k": "c2fe13690a6d0949",
+  "pagina": "index.html",
+  "pt": "<1>Provar e reclamar</1>"
+ },
+ {
+  "k": "ea21ac48257766a5",
+  "pagina": "index.html",
+  "pt": "Seja qual for a porta, chega a hora de provar o que aconteceu e de reclamar onde a resposta conta."
+ },
+ {
+  "k": "f6af637dd72b42d6",
+  "pagina": "index.html",
+  "pt": "Situações <1>b</1>, <2>c</2>, <3>e</3>, <4>g</4>, <5>h</5>, <6>i</6>"
+ },
+ {
+  "k": "503e53c737464b20",
+  "pagina": "index.html",
+  "pt": "<1>Os 3 problemas desta porta</1>"
+ },
+ {
+  "k": "8c6f75bd5d71312f",
+  "pagina": "index.html",
+  "pt": "Parece terreno seu, mas é chão emprestado. <1>Ilustração conceitual feita com IA.</1>"
+ },
+ {
+  "k": "fbdae96df4e8c600",
+  "pagina": "index.html",
+  "pt": "A travessia realizada neste trabalho começou pela constatação de que existe um tipo de consumo em que o sujeito imagina estar em terreno próprio, mas só se move dentro de um chão concedido, revogável e reconfigurável.<1>p. 791</1>"
  },
  {
   "k": "eb9acc63492d098b",
@@ -175,59 +510,44 @@
   "pt": "Por onde seguir"
  },
  {
-  "k": "93c85f70dc47f1e2",
-  "pagina": "index.html",
-  "pt": "Aconteceu comigo"
- },
- {
-  "k": "16d1eb163faa1029",
-  "pagina": "index.html",
-  "pt": "<1>O que aconteceu com você?</1>"
- },
- {
-  "k": "07f299259a1aff51",
-  "pagina": "index.html",
-  "pt": "<1>Minha conta foi bloqueada ou banida. E o que eu comprei?</1>"
- },
- {
-  "k": "4b3b36c9705fc0b9",
-  "pagina": "index.html",
-  "pt": "<1>O que eu comprei mudou numa atualização. E agora?</1>"
- },
- {
-  "k": "835bdbbb2cbd0a6b",
-  "pagina": "index.html",
-  "pt": "<1>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</1>"
- },
- {
-  "k": "9c53e30751be68fa",
-  "pagina": "index.html",
-  "pt": "<1>O serviço vai acabar. O que acontece com o que eu comprei?</1>"
- },
- {
-  "k": "f10d6f35fcda65ad",
-  "pagina": "index.html",
-  "pt": "<1>Meu filho ou minha filha gastou num jogo. O que a lei diz?</1>"
- },
- {
-  "k": "04b1d98d6383677b",
-  "pagina": "index.html",
-  "pt": "<1>Todos os problemas</1> · <2>Onde reclamar quando a plataforma não resolve?</2>"
- },
- {
   "k": "3069465c8707d7c0",
   "pagina": "index.html",
   "pt": "Quero entender"
  },
  {
-  "k": "4c6cc7123b483fcf",
+  "k": "1edfa5f567817197",
   "pagina": "index.html",
   "pt": "<1>Siga a skin</1>"
  },
  {
-  "k": "9b9547703ee5d3b5",
+  "k": "f72982819ee3cd0c",
   "pagina": "index.html",
-  "pt": "<1>Continuar a história</1> · <2>As onze partes</2>"
+  "pt": "Onze partes, do clique de compra ao que a lei pode fazer por você."
+ },
+ {
+  "k": "5d33f254cac7af23",
+  "pagina": "index.html",
+  "pt": "<1>O que você comprou, afinal?</1>"
+ },
+ {
+  "k": "5e9be433edf16b42",
+  "pagina": "index.html",
+  "pt": "<1>Por que essa skin vale tanto?</1>"
+ },
+ {
+  "k": "6c2cf95e6a9e50c6",
+  "pagina": "index.html",
+  "pt": "<1>De quem é o lugar onde a sua skin vale?</1>"
+ },
+ {
+  "k": "b9e63d8ca3b8f8fb",
+  "pagina": "index.html",
+  "pt": "<1>Quem manda depois da compra?</1>"
+ },
+ {
+  "k": "3d6bbdafabba27c0",
+  "pagina": "index.html",
+  "pt": "<1>As onze partes</1>"
  },
  {
   "k": "249313f9c72c77c0",
@@ -240,14 +560,34 @@
   "pt": "<1>O caminho do jurista</1>"
  },
  {
-  "k": "aef658f9e7d1a0f6",
+  "k": "fa81e74a0cc5314d",
   "pagina": "index.html",
-  "pt": "Os mesmos problemas, tratados como doutrina, com as situações para operar e a legislação."
+  "pt": "Os mesmos problemas, tratados como doutrina para quem vai operar o regime."
  },
  {
-  "k": "22666569b1513180",
+  "k": "222f1953912384a2",
   "pagina": "index.html",
-  "pt": "<1>Abrir em Doutrina</1> · <2>As situações</2>"
+  "pt": "<1>Onze situações, com dever, prova e consequência</1>"
+ },
+ {
+  "k": "2f2c2b2067a7b3d3",
+  "pagina": "index.html",
+  "pt": "<1>Quinze capítulos sobre o regime</1>"
+ },
+ {
+  "k": "c7d1cb271f5b23d6",
+  "pagina": "index.html",
+  "pt": "<1>A legislação citada, em texto integral</1>"
+ },
+ {
+  "k": "55c9c0e3dc67ce7e",
+  "pagina": "index.html",
+  "pt": "<1>O vocabulário, com definição e critérios</1>"
+ },
+ {
+  "k": "4ffbf580e2e6ba7d",
+  "pagina": "index.html",
+  "pt": "<1>Abrir em Doutrina</1>"
  },
  {
   "k": "d5466ce1ee802aec",
@@ -265,9 +605,9 @@
   "pt": "<1>Todo o vocabulário</1>"
  },
  {
-  "k": "a3bb68c624280fb8",
+  "k": "4998e68690c3987d",
   "pagina": "index.html",
-  "pt": "Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. A chave no canto da tela troca o modo de leitura. Doutrina traz a ficha e o guia para quem vai defender um direito, e Ciência mostra de onde saiu cada frase e como cada peça foi montada."
+  "pt": "Tudo aqui foi escrito para ser entendido sem conhecimento jurídico, mas por baixo de cada frase existe o texto de onde ela saiu. O seletor de modo, no canto da tela, troca a leitura. Doutrina traz a ficha e o guia para quem vai defender um direito, e Ciência mostra de onde saiu cada frase e como cada peça foi montada."
  },
  {
   "k": "d746d0ea85ef36d6",
@@ -295,39 +635,54 @@
   "pt": "<1>Por que nove canções?</1>"
  },
  {
-  "k": "022b7247af651a2b",
+  "k": "aa94eded820ec34c",
   "pagina": "index.html",
-  "pt": "ANDRADE, Victor L. P. Lex Plataformae. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/"
+  "pt": "ANDRADE, Victor L. P. Lex Plataformae. <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/"
  },
  {
-  "k": "0f6f817b117d9e88",
+  "k": "485ad9f12d74ab1a",
   "pagina": "index.html",
-  "pt": "<1>Texto integral em PDF</1>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Todos os direitos reservados até a definição da licença do projeto."
+  "pt": "<1>Texto integral em PDF</1>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Pesquisa realizada com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001. Todos os direitos reservados até a definição da licença do projeto."
  },
  {
-  "k": "3fe328006031dbae",
+  "k": "79e4a9378196df76",
   "pagina": "index.html",
-  "pt": "<1>Sobre o autor</1>"
+  "pt": "<1>Como reclamar</1> <2>Sobre o autor</2>"
  },
  {
-  "k": "9e777cb0b6771cb7",
+  "k": "8e7d639fd35f6d50",
   "pagina": "index.html",
-  "pt": "Você comprou uma skin. Ela é sua? Um caminho pelo que acontece com o que se compra no mundo digital, e nove conceitos para contestar isso."
+  "pt": "O que a plataforma tomou de você? Como a perda acontece depois da compra, por onde começar e o que você pode exigir."
  },
  {
-  "k": "ca7d4d6555a2cb35",
+  "k": "6fe49b5f8ca588e9",
   "pagina": "index.html",
-  "pt": "Escolha seu caminho"
+  "pt": "Por onde entrar"
  },
  {
-  "k": "b34204f6340465b6",
+  "k": "65a6532c71b14dd9",
   "pagina": "index.html",
-  "pt": "ilustração prevista · inicio"
+  "pt": "Por onde entrar na pesquisa"
+ },
+ {
+  "k": "75c9b74b1217f4ac",
+  "pagina": "index.html",
+  "pt": "Figura com armadura brilhante de pé sobre um pedaço de chão que flutua, preso por cabos que sobem para fora da imagem."
  },
  {
   "k": "ffa1ebdcc12f5b3f",
   "pagina": "index.html",
   "pt": "Desnudar a arquitetura"
+ },
+ {
+  "k": "b7d3392abfdba6cc",
+  "pagina": "index.html",
+  "pt": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
+ },
+ {
+  "k": "1d4db3184d7ff63c",
+  "pagina": "index.html",
+  "pt": "CAPES"
  },
  {
   "k": "f1106ea4cfa50010",
@@ -350,6 +705,11 @@
   "pt": "<1>Autores</1>"
  },
  {
+  "k": "a79aa855b1f8c41c",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "47b0508db6fbc7fa",
   "pagina": "caminho/a-compra/index.html",
   "pt": "<1>Caminho</1> · Parte 1 de 11"
@@ -360,9 +720,14 @@
   "pt": "O que você comprou, afinal?"
  },
  {
-  "k": "dadc0e1392a1bb23",
+  "k": "dd49bb9736f89c50",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Alguém recebe uma caixa de presente com uma peça de armadura dentro. A peça chega às mãos de quem comprou, mas a fita da caixa é um cordão comprido que volta para a loja e não se solta."
+  "pt": "Chegou até você, mas continua preso à loja. <1>Ilustração conceitual feita com IA.</1>"
+ },
+ {
+  "k": "9e30d7c55411ac30",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "Campeões, skins, emotes e moeda do jogo integram o catálogo de bens que só se tornam fruíveis como licença de acesso associada à conta, e não como coisas transportáveis para fora dela<1>p. 408</1>"
  },
  {
   "k": "92fb61ca1b08b34a",
@@ -370,9 +735,9 @@
   "pt": "A cena mais comum é esta. Você abriu a loja do jogo, escolheu uma skin e apertou o botão que diz comprar. O dinheiro saiu do seu cartão e, poucos segundos depois, a skin apareceu no seu inventário, ao lado das outras que você já tinha."
  },
  {
-  "k": "5e886e1353448a54",
+  "k": "c5ad77e91d7d8419",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar."
+  "pt": "A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que sirva para alguma coisa. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar."
  },
  {
   "k": "e320becf8b2fd7b3",
@@ -545,9 +910,9 @@
   "pt": "A conta do jogador no ecossistema Riot oferece um exemplo metodologicamente privilegiado de objeto imaterial de consumo em sua forma mais “infraestrutural”. Ela não se resume a uma credencial de login. Ela é o ponto organizacional que mantém unido o feixe de fruição, porque concentra, em um mesmo registro institucional, o inventário de conteúdos virtuais licenciados, os marcadores de progressão, os identificadores sociais e os sinais de reputação pelos quais a presença do usuário é lida, exibida e reconhecida no ambiente.<1>p. 408</1>"
  },
  {
-  "k": "9e30d7c55411ac30",
+  "k": "957a57ad0390ecf8",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Campeões, skins, emotes e moeda do jogo integram o catálogo de bens que só se tornam fruíveis como licença de acesso associada à conta, e não como coisas transportáveis para fora dela<1>p. 408</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 408</2>"
  },
  {
   "k": "933788259ecd6a39",
@@ -575,9 +940,9 @@
   "pt": "O que uma catraca de metrô tem a ver com a sua skin?"
  },
  {
-  "k": "b88415515b80cd79",
+  "k": "13b8815c0efd2703",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "O que você comprou existe e tem valor, mas só dá para usar do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia."
+  "pt": "O que você comprou existe e tem valor, mas só pode ser usado do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia."
  },
  {
   "k": "127d9229a311535d",
@@ -600,14 +965,19 @@
   "pt": "Compra-se, na prática, uma tolerância de acesso que pode ser retirada<1>p. 153</1>"
  },
  {
-  "k": "b535e4c45d7dfc7e",
+  "k": "9cb5603d1e2d5d7d",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Uma catraca na entrada de um jardim. Do lado de dentro, a figura de armadura brilhante. A catraca não fica na saída, fica no caminho de quem quer continuar lá dentro. A figura existe e é de quem a comprou, e a catraca só controla as condições de uso."
+  "pt": "O que você comprou existe, mas só se usa do lado de dentro. <1>Ilustração conceitual feita com IA.</1>"
  },
  {
-  "k": "ba3a0a957d1ba332",
+  "k": "b2c5dfc24570b9b9",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas que dá para identificar, e esse reconhecimento desmonta a ideia de que nada foi entregue."
+  "pt": "<1>Trecho já citado acima</1><2>p. 186</2>"
+ },
+ {
+  "k": "7a042e6699f64302",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "E o que você comprou não deixa de existir só porque não se pode segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue."
  },
  {
   "k": "7292e13e2336a8af",
@@ -725,14 +1095,19 @@
   "pt": "Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar.<1>p. 409</1>"
  },
  {
-  "k": "8030f52e3e076516",
+  "k": "3bc0753de17e13cd",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "À esquerda, uma gaveta com moedas paradas. À direita, um cano transparente com água correndo e uma peça de armadura levada pela corrente. Se a torneira fecha, a peça para e perde o brilho."
+  "pt": "O valor da skin não fica guardado, ele corre. <1>Ilustração conceitual feita com IA.</1>"
  },
  {
-  "k": "48415bc0ad16406a",
+  "k": "38073318f8315c1e",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária."
+  "pt": "<1>Trecho já citado acima</1><2>p. 409</2>"
+ },
+ {
+  "k": "c68a23704f8b999f",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode desaparecer sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária."
  },
  {
   "k": "9036b7244e1c5b93",
@@ -755,9 +1130,9 @@
   "pt": "A lei brasileira já tinha deixado espaço para isso. Em 1990, o Código de Defesa do Consumidor disse que produto é qualquer bem, material ou imaterial. A porta estava aberta para bens que circulam sem corpo e que dependem de condições técnicas mantidas o tempo todo. Mas a maneira de pensar o produto continuou presa ao objeto físico, ou a uma entrega que começa e termina num instante."
  },
  {
-  "k": "0c00a31b8a8deae4",
+  "k": "587f738c2edf4541",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Era como um terreno que a lei demarcou e que ficou vazio. O Objeto Imaterial de Consumo é a construção feita nesse terreno. Ele é a categoria jurídica do caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar."
+  "pt": "Era como um terreno que a lei demarcou e que ficou vazio. O OIC é a construção feita nesse terreno. Ele é a categoria jurídica do caso em que aquilo que você consome depende, de forma estrutural, de um ambiente que a plataforma administra, ajusta e pode mudar."
  },
  {
   "k": "b7e70ae2a2ec214b",
@@ -955,14 +1330,99 @@
   "pt": "A incidência não se decide por intuição tecnológica nem por deferência automática ao contrato, mas pela presença cumulativa de elementos verificáveis do regime<1>p. 429</1>"
  },
  {
+  "k": "5ae7e74b66866487",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "As quatro perguntas valem juntas"
+ },
+ {
+  "k": "4481764126b5f7fa",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "Responda às quatro perguntas em ordem. Com sim em todas, o seu caso entra na categoria. Com um não em qualquer delas, a lei continua protegendo você."
+ },
+ {
+  "k": "cb3072f8a3ead071",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1><2>1.</2> O que foi prometido dá para identificar?</1><3>A utilidade vendida, e não slogans nem listas de enfeite</3><4><5>p. 428</5></4>"
+ },
+ {
+  "k": "e276383bf7705f69",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>não<2>, vá à última caixa</2></1>"
+ },
+ {
+  "k": "32ad521725f3a06a",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>sim</1>"
+ },
+ {
+  "k": "4b04eea3ad5b417b",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1><2>2.</2> A compra abriu um lugar que dura?</1><3>Uma posição que precisa continuar existindo para a coisa servir</3><4><5>p. 428</5></4>"
+ },
+ {
+  "k": "cdda6d8304517dbe",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1><2>3.</2> A plataforma governa esse lugar?</1><3>Regras internas, escolhas sobre o que aparece e punições</3><4><5>p. 428</5></4>"
+ },
+ {
+  "k": "e44fe23b0e65135f",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1><2>4.</2> Dá para piorar sem sumir?</1><3>O acesso continua, mas o que você tinha é rebaixado ou esvaziado</3><4><5>p. 429</5></4>"
+ },
+ {
+  "k": "818d913fda3c6bf3",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>O seu caso entra na categoria</1><2>Valem os direitos que o caminho explica daqui em diante</2><3><4>p. 429</4></3>"
+ },
+ {
+  "k": "5d1905a676f36038",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>A lei continua protegendo você</1><2>O caso fica fora da categoria e segue pelas regras gerais, como numa cobrança indevida, num defeito pontual ou num anúncio enganoso isolado</2><3><4>p. 433-435</4></3>"
+ },
+ {
+  "k": "a802b86204fad2a9",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "Isso é uma triagem, e não uma sentença. O que decide é encontrar os quatro ao mesmo tempo, e não a impressão de que a tecnologia está no meio. <1><2>p. 429</2></1>"
+ },
+ {
+  "k": "a76a6b9ba9f4f3ce",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 428</2>"
+ },
+ {
+  "k": "8e156c4ff7c6610c",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 428</2>"
+ },
+ {
+  "k": "d13032795d2553d4",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 428</2>"
+ },
+ {
+  "k": "fdfba984208d4258",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 429</2>"
+ },
+ {
+  "k": "1d288a980d7e1310",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 429</2>"
+ },
+ {
+  "k": "f769462a8fa2cc7d",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC.<1>p. 435</1>"
+ },
+ {
   "k": "942e5a6848ef82c7",
   "pagina": "caminho/a-compra/index.html",
   "pt": "Todo incômodo com o jogo vira direito?"
  },
  {
-  "k": "18ee3ba48e063047",
+  "k": "09c19dec09662a4e",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua."
+  "pt": "E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, reconhecível por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua."
  },
  {
   "k": "69c46d9b1d17a35e",
@@ -1015,9 +1475,9 @@
   "pt": "Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas<1>p. 434</1>"
  },
  {
-  "k": "f769462a8fa2cc7d",
+  "k": "f707f19b1dd85e09",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "O quinto limite é o caso em que o núcleo do conflito é outro, como vício pontual clássico, cobrança indevida, publicidade enganosa localizada ou inadimplemento específico de oferta. Nessas hipóteses, a dogmática consumerista comum tende a resolver o litígio sem ganho real em mobilizar o OIC.<1>p. 435</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 435</2>"
  },
  {
   "k": "bf3a34237c7f99bb",
@@ -1050,7 +1510,7 @@
   "pt": "O que você pode exigir?"
  },
  {
-  "k": "490cc51640be718b",
+  "k": "871ccd9aa56b33a7",
   "pagina": "caminho/a-compra/index.html",
   "pt": "<1>A informação precisa servir para alguma coisa</1><2>A informação precisa servir para alguma coisa</2>"
  },
@@ -1070,9 +1530,9 @@
   "pt": "Que informação a plataforma deve dar?"
  },
  {
-  "k": "52eb434a8703710a",
+  "k": "9302c3427470318d",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Dar informação que sirva de verdade, que ajude você a decidir e que possa ser conferida depois, se houver briga. Informação que existe em algum lugar, mas não orienta ninguém, não cumpre esse dever."
+  "pt": "A plataforma deve dar informação que sirva de verdade, que ajude você a decidir e que possa ser conferida depois, se houver briga. Informação que existe em algum lugar, mas não orienta ninguém, não cumpre esse dever."
  },
  {
   "k": "d7c4f284064df32b",
@@ -1080,9 +1540,9 @@
   "pt": "Como mostrar o que foi informado e o que faltou?"
  },
  {
-  "k": "f5b7f4316485017e",
+  "k": "00f033c53a8834d0",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "O que foi mostrado a você, em que momento, com que destaque e por qual canal. E se, do jeito como tudo estava organizado, dava para entender o que importava para comprar, para continuar ou para reagir."
+  "pt": "Ajuda mostrar o que foi exibido a você, em que momento, com que destaque e por qual canal. Ajuda também mostrar se, do jeito como tudo estava organizado, dava para entender o que importava para comprar, para continuar ou para reagir."
  },
  {
   "k": "7f69074235f4cb43",
@@ -1090,9 +1550,9 @@
   "pt": "O que pedir quando a informação falhou?"
  },
  {
-  "k": "14b6f728b4a64383",
+  "k": "b1615c95f00dc16e",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "Que a plataforma corrija a forma de informar e torne visível o que importa. Que apresente o que de fato exibiu. E que recomponha o que você perdeu por causa da falta de clareza. Conforme o caso, a falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar."
+  "pt": "Você pode pedir que a plataforma corrija a forma de informar e torne visível o que importa, que apresente o que de fato exibiu e que recomponha o que você perdeu por causa da falta de clareza. Conforme o caso, a falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar."
  },
  {
   "k": "d29a975d4248ed7f",
@@ -1135,9 +1595,9 @@
   "pt": "A consequência institucional possível inclui dever de correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada por opacidade decisória.<1>p. 744</1>"
  },
  {
-  "k": "a933ebe3fec7e3a0",
+  "k": "7a86b79fc1e1ecbd",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "O ponto não é afirmar que o consumidor “não leu” ou “não entendeu”<1>p. 401</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 401</2>"
  },
  {
   "k": "b57fa58b4b924aca",
@@ -1250,9 +1710,9 @@
   "pt": "<1><2>2</2>Por que essa skin vale tanto?</1>"
  },
  {
-  "k": "4cd92c16dc9112ca",
+  "k": "be88409930cf3fb1",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "<1><2>3</2>Quem ganha com o seu clique?</1>"
+  "pt": "<1><2>3</2>De quem é o lugar onde a sua skin vale?</1>"
  },
  {
   "k": "c32c82c840435df4",
@@ -1295,9 +1755,9 @@
   "pt": "<1><2>11</2>Por que dar nome a tudo isso?</1>"
  },
  {
-  "k": "749566a01d423428",
+  "k": "72aa4cf5cc711581",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "ANDRADE, Victor L. P. O que você comprou, afinal?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-compra/"
+  "pt": "ANDRADE, Victor L. P. O que você comprou, afinal? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-compra/"
  },
  {
   "k": "e1b88cd418759496",
@@ -1305,14 +1765,14 @@
   "pt": "O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em que alguma coisa some. Parte 1 de 11 do caminho da skin."
  },
  {
-  "k": "a80e0e243026b850",
+  "k": "439b41681be28a48",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "ilustração prevista · parte-a-compra"
+  "pt": "Mãos recebem uma caixa de presente cuja fita é um cordão comprido que volta para dentro de uma loja."
  },
  {
-  "k": "663814d5952b370a",
+  "k": "dac65822021117c3",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "ilustração prevista · imagem-catraca"
+  "pt": "Catraca na entrada de um jardim, com uma figura de armadura brilhante do lado de dentro."
  },
  {
   "k": "77afa164611b948a",
@@ -1325,9 +1785,14 @@
   "pt": "A ficha do conceito"
  },
  {
-  "k": "e9f0605c13dc9357",
+  "k": "3dda45d7ca58a990",
   "pagina": "caminho/a-compra/index.html",
-  "pt": "ilustração prevista · imagem-estoque-fluxo"
+  "pt": "Gaveta com moedas paradas ao lado de um cano transparente em que uma peça de armadura é levada pela água."
+ },
+ {
+  "k": "dfd96550d141c425",
+  "pagina": "caminho/a-compra/index.html",
+  "pt": "esquema · i1-caso-entra"
  },
  {
   "k": "74946d1cf3bc2d7e",
@@ -1355,6 +1820,11 @@
   "pt": "A lei já tem resposta? · Siga a skin · Lex Plataformae"
  },
  {
+  "k": "99d9faba2157a3a8",
+  "pagina": "caminho/a-lei/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "58e3f3411988de97",
   "pagina": "caminho/a-lei/index.html",
   "pt": "<1>Caminho</1> · Parte 8 de 11"
@@ -1365,9 +1835,9 @@
   "pt": "A lei já tem resposta?"
  },
  {
-  "k": "02ef9934bf122fdd",
+  "k": "6b23c4ef451e90fd",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Uma construção contemporânea vista em corte, sustentada por uma fundação anterior, já demarcada e pronta para receber suas estruturas. O azul destaca a construção imaterial e o traço revela a continuidade com a fundação. O marco de 1990 fica na legenda HTML, sem números dentro da imagem. A cena do quadro de aulas reduzidas fica reservada para ilustrar a degradação do serviço, em vez da abertura deste capítulo."
+  "pt": "A construção se apoia no espaço que a lei já havia aberto em 1990. <1>Ilustração conceitual feita com IA.</1>"
  },
  {
   "k": "5137776dc5ebbae1",
@@ -1375,9 +1845,9 @@
   "pt": "Talvez você esteja pensando que falta uma lei nova, só para jogos e plataformas digitais. Não é bem assim. O que falta, na maior parte dos casos, é ler a lei que já existe com os olhos certos."
  },
  {
-  "k": "389fcdfec0d1f763",
+  "k": "5bb1300177eb0427",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "O Objeto Imaterial de Consumo não pede um sistema à parte, com regras próprias para o mundo digital. Ele é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo."
+  "pt": "O OIC não pede um sistema à parte, com regras próprias para o mundo digital. Ele é uma atualização da leitura que já cabe dentro do Código de Defesa do Consumidor e dos princípios da Constituição que dão base a ele. Em outras palavras, a lei já tinha as ferramentas, e faltava apontá-las para o lugar certo."
  },
  {
   "k": "cb8353f9f88b96ba",
@@ -1690,9 +2160,9 @@
   "pt": "O caminho, então, não é inventar outro direito, nem criar regras paralelas só para plataformas. É ajustar a leitura do que já está escrito. O que faltava eram nomes capazes de tornar certas perdas visíveis, para que elas possam ser mostradas, provadas e cobradas."
  },
  {
-  "k": "4e8d495136b32b0c",
+  "k": "70208675ab63f62f",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Isso também quer dizer que nada aqui decide um caso sozinho. As ferramentas existem, mas cada conflito ainda depende do que aconteceu, do que dá para mostrar e de como quem decide lê os fatos."
+  "pt": "Isso também quer dizer que nada aqui decide um caso sozinho. As ferramentas existem, mas cada conflito ainda depende do que aconteceu, do que se consegue provar e de como quem decide lê os fatos."
  },
  {
   "k": "38f9b561d7874efd",
@@ -1705,7 +2175,7 @@
   "pt": "Esse quadro não pretende mecanizar a decisão nem reduzir a complexidade do ambiente a fórmula rígida.<1>p. 748</1>"
  },
  {
-  "k": "ffd9f1fc834a4a86",
+  "k": "4aad80c204d1d36d",
   "pagina": "caminho/a-lei/index.html",
   "pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1><2>O que você comprou é produto, mesmo sem nada nas mãos</2>"
  },
@@ -1725,19 +2195,19 @@
   "pt": "O que a plataforma deve preservar?"
  },
  {
-  "k": "3a29073eae6b7984",
+  "k": "6390ac3ac7d1e999",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Manter o que você comprou acessível, compreensível e preservado no que tem de útil. A plataforma pode mudar o ambiente, porque mudar faz parte desse tipo de fornecimento, mas só dentro dos limites do que é legítimo."
+  "pt": "A plataforma deve manter o que você comprou acessível, compreensível e preservado no que tem de útil. Ela pode mudar o ambiente, porque mudar faz parte desse tipo de fornecimento, mas só dentro dos limites do que é legítimo."
  },
  {
-  "k": "e3bdf12332768624",
+  "k": "53e62f9fa270bd92",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Como mostrar o que você comprou e como usa?"
+  "pt": "Como mostrar que o que você usa depende da plataforma?"
  },
  {
-  "k": "c6e7b8da5659ade2",
+  "k": "779fba705d2c21e0",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Que o que você usa depende do ambiente da plataforma e como ela entrega essa experiência. Ajuda também mostrar a sua posição concreta na relação, como o que está na sua conta, o que você pagou e o que aquilo deixa você fazer."
+  "pt": "Ajuda mostrar que o que você usa depende do ambiente da plataforma e como ela entrega essa experiência. Ajuda também mostrar a sua posição concreta na relação, como o que está na sua conta, o que você pagou e o que aquilo deixa você fazer."
  },
  {
   "k": "3bf1a141ec90fcea",
@@ -1745,9 +2215,9 @@
   "pt": "E se a empresa disser que é só serviço ou licença?"
  },
  {
-  "k": "d992cbe67d9cc10d",
+  "k": "36dfed97da87239c",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Que o caso seja tratado pela lei do consumidor, com o que você comprou visto como produto imaterial. A empresa não consegue fugir dessa conta só dizendo que presta um serviço ou que deu uma simples licença, porque o serviço é justamente o modo de manter o produto funcionando."
+  "pt": "Você pode pedir que o caso seja tratado pela lei do consumidor, com o que você comprou visto como produto imaterial. A empresa não consegue fugir dessa conta só dizendo que presta um serviço ou que deu uma simples licença, porque o serviço é justamente o modo de manter o produto funcionando."
  },
  {
   "k": "f66b90911705b258",
@@ -1815,9 +2285,9 @@
   "pt": "“Art. 4º. A Política Nacional das Relações de Consumo tem por objetivo […] atendidos os seguintes princípios: I - reconhecimento da vulnerabilidade do consumidor no mercado de consumo; III - harmonização dos interesses dos participantes das relações de consumo […], sempre com base na boa-fé e equilíbrio nas relações entre consumidores e fornecedores; VI - coibição e repressão eficientes de todos os abusos praticados no mercado de consumo […].”"
  },
  {
-  "k": "10d6a76ba09830c8",
+  "k": "0f931c065973f180",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "Na redação que a tese transcreve na nota 499, p. 511."
+  "pt": "Redação transcrita na nota 499, p. 511."
  },
  {
   "k": "f25eea3897a04772",
@@ -1945,9 +2415,9 @@
   "pt": "<1><2>8</2>A lei já tem resposta?</1>"
  },
  {
-  "k": "3fea51a631e54e64",
+  "k": "2ec4123e1395f2c1",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "ANDRADE, Victor L. P. A lei já tem resposta?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-lei/"
+  "pt": "ANDRADE, Victor L. P. A lei já tem resposta? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-lei/"
  },
  {
   "k": "0bab1591ef972034",
@@ -1955,14 +2425,19 @@
   "pt": "Mais do que parece, porque o espaço estava aberto desde 1990. Parte 8 de 11 do caminho da skin."
  },
  {
-  "k": "992eaf978e941c99",
+  "k": "25e321d2fa7a6e5c",
   "pagina": "caminho/a-lei/index.html",
-  "pt": "ilustração prevista · parte-a-lei"
+  "pt": "Construção contemporânea em corte, com estruturas azuis apoiadas numa fundação anterior e demarcada."
  },
  {
   "k": "e4a36cbe31e92c88",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "E se a sua skin mudar amanhã? · Siga a skin · Lex Plataformae"
+ },
+ {
+  "k": "89a8b264218a459e",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "6ea54a62363508fe",
@@ -1975,9 +2450,14 @@
   "pt": "E se a sua skin mudar amanhã?"
  },
  {
-  "k": "e1fe44feb34d93fb",
+  "k": "016ca4eddc0c0c4b",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "A mesma armadura duas vezes, lado a lado. A da esquerda está inteira. A da direita tem o mesmo contorno, mas por dentro está oca, só a linha do desenho."
+  "pt": "Continua na conta, mas já não é a mesma. <1>Ilustração conceitual feita com IA.</1>"
+ },
+ {
+  "k": "06259ffa455be6a1",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "Um objeto pode continuar existindo e, ainda assim, já não ser, em sentido jurídico relevante, aquilo que foi adquirido.<1>p. 795</1>"
  },
  {
   "k": "9b494f7819f2c11e",
@@ -2240,9 +2720,9 @@
   "pt": "O consumidor não perde apenas “uma feature”; perde substância funcional do que comprou e é frequentemente empurrado a buscar substitutos dentro do mesmo ecossistema.<1>p. 672</1>"
  },
  {
-  "k": "06259ffa455be6a1",
+  "k": "a18ca917733591cf",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Um objeto pode continuar existindo e, ainda assim, já não ser, em sentido jurídico relevante, aquilo que foi adquirido.<1>p. 795</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 795</2>"
  },
  {
   "k": "dd73034e3b631a6e",
@@ -2305,14 +2785,14 @@
   "pt": "<1>Auditabilidade aberta</1>"
  },
  {
-  "k": "00038179a3e70e20",
+  "k": "c1daf59e83234cca",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ela sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada."
+  "pt": "A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada."
  },
  {
-  "k": "4124166c0ce1988c",
+  "k": "8b59ffe8151b8c9b",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total."
+  "pt": "Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total."
  },
  {
   "k": "96a6155118da8515",
@@ -2360,7 +2840,7 @@
   "pt": "Se a plataforma promete uma experiência curada de valor, raridade, desempenho ou vantagem, e depois a reequilibra ou a rebaixa sob critérios opacos, a frustração não é mero dissabor. Pode ser inadequação relevante da própria fruição governada.<1>p. 634</1>"
  },
  {
-  "k": "f5dd30b6df3466b2",
+  "k": "00d86690983895a9",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "<1>Mudança relevante precisa deixar rastro</1><2>Mudança relevante precisa deixar rastro</2>"
  },
@@ -2370,9 +2850,9 @@
   "pt": "Quando uma mudança precisa deixar rastro?"
  },
  {
-  "k": "f4570942832bf912",
+  "k": "ac9427e896248f2d",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz isso sem guardar o mínimo de registro para que dê para reconstituir o que aconteceu. É o caso do item que perde força numa atualização sem explicação que dê para conferir, ou da conta suspensa sem que se saiba com base em quê."
+  "pt": "Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz isso sem guardar o mínimo de registro para reconstituir o que aconteceu. É o caso do item que perde força numa atualização sem explicação verificável, ou da conta suspensa sem que se saiba com base em quê."
  },
  {
   "k": "22427e7418d65be4",
@@ -2380,9 +2860,9 @@
   "pt": "Que rastro a plataforma deve guardar?"
  },
  {
-  "k": "87aa4dd8fe170a01",
+  "k": "ac85fc272ab3bcf4",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Manter o mínimo de verificabilidade, o que quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa."
+  "pt": "A plataforma deve manter o mínimo de verificabilidade. Isso quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa."
  },
  {
   "k": "d252fd741eb9aec8",
@@ -2395,9 +2875,9 @@
   "pt": "Que registros permitem entender a mudança ou a punição?"
  },
  {
-  "k": "148a9d0e4160e549",
+  "k": "7e6b5307c04cac11",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Os registros essenciais do sistema, o histórico das versões que importam, os registros da punição e as justificativas mínimas. Junto com os dados de contexto, isso deve bastar para que quem vai decidir entenda o problema. Quase tudo isso costuma estar com a plataforma, e não com você."
+  "pt": "Ajudam os registros essenciais do sistema, o histórico das versões que importam, os registros da punição e as justificativas mínimas. Junto com os dados de contexto, isso deve bastar para que quem vai decidir entenda o problema. Quase tudo isso costuma estar com a plataforma, e não com você."
  },
  {
   "k": "d4d33b1f3db16f09",
@@ -2405,9 +2885,9 @@
   "pt": "O que pedir para reconstituir a mudança?"
  },
  {
-  "k": "09821e17d46c1c7f",
+  "k": "7fb360a1625a570c",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha."
+  "pt": "Você pode pedir que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Pode pedir também que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha."
  },
  {
   "k": "f5756f8137ac6e88",
@@ -2435,6 +2915,11 @@
   "pt": "É por essa razão que auditabilidade aberta deve ser entendida como desdobramento interno do dever de informação e não como instituto estranho ao microssistema.<1>p. 641</1>"
  },
  {
+  "k": "7b420485af13b89e",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 648</2>"
+ },
+ {
   "k": "27ec7028a0a94534",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "A exigência de auditabilidade aberta não se confunde com abertura integral do código-fonte nem com supressão do sigilo técnico do software.<1>p. 643</1>"
@@ -2450,12 +2935,17 @@
   "pt": "A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou sanção com base em inteligibilidade institucional mínima.<1>p. 745</1>"
  },
  {
+  "k": "93d1a7d67320baf3",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 642</2>"
+ },
+ {
   "k": "2e2c62b9e9b814b2",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "Pode atingir acesso e permanência, integridade funcional do objeto, equivalências prometidas, posição simbólica do OIC no ecossistema, ou mesmo as condições de prova e contestação do consumidor.<1>p. 642</1>"
  },
  {
-  "k": "7c8c86d6072f901f",
+  "k": "f49e26b3e33269fd",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "<1>Mudou, tem que manter o que valia</1><2>Mudou, tem que manter o que valia</2>"
  },
@@ -2465,9 +2955,9 @@
   "pt": "Quando a atualização tira a função do que você comprou?"
  },
  {
-  "k": "a685b8b2ac3557dc",
+  "k": "cfcd9dcf8a954372",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou no recurso que deixava você fazer algo e foi retirado."
+  "pt": "Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou o recurso que deixava você fazer algo e foi retirado."
  },
  {
   "k": "388efd9315ecc035",
@@ -2480,9 +2970,9 @@
   "pt": "O que a plataforma deve preservar no item?"
  },
  {
-  "k": "6b99e4a39c860775",
+  "k": "a1eb6936d82e49b8",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com os outros jogadores e, quando isso importa para o direito, o que ele significa."
+  "pt": "A plataforma deve preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com os outros jogadores e, quando isso importa para o direito, o que ele significa."
  },
  {
   "k": "1489b33351f556d7",
@@ -2490,9 +2980,9 @@
   "pt": "Como mostrar o que mudou na utilidade do item?"
  },
  {
-  "k": "bdd06f96e27916b8",
+  "k": "839898d33ac7db2b",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Que utilidade o item tinha antes, o que mudou, qual foi o impacto concreto da mudança e por que a compensação oferecida, se houve alguma, não basta."
+  "pt": "Ajuda mostrar que utilidade o item tinha antes, o que mudou, qual foi o impacto concreto da mudança e por que a compensação oferecida, se houve alguma, não basta."
  },
  {
   "k": "1054f760e61f1689",
@@ -2500,9 +2990,9 @@
   "pt": "Que solução pode recompor a utilidade perdida?"
  },
  {
-  "k": "c3181177eae62f3a",
+  "k": "52d3cca4fe7afeff",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "Em primeiro lugar, que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço, que é o nome que a lei dá ao problema que torna algo menos útil do que deveria ser."
+  "pt": "Em primeiro lugar, você pode pedir que a função volte. Isso pode ser desfazer a mudança quando for tecnicamente possível, trocar o item por algo equivalente ou corrigir a forma como a atualização foi feita. Dinheiro não deve ser a resposta automática. Conforme o caso, a perda pode ser tratada como vício de qualidade do produto ou do serviço, que é o nome que a lei dá ao problema que torna algo menos útil do que deveria ser."
  },
  {
   "k": "52a7342326c899a5",
@@ -2520,9 +3010,9 @@
   "pt": "Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional.<1>p. 745</1>"
  },
  {
-  "k": "f28d3674f1959fa8",
+  "k": "fd34af6ea020acf1",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida<1>p. 637</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 637</2>"
  },
  {
   "k": "411cefefd5b545ac",
@@ -2550,6 +3040,11 @@
   "pt": "A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda.<1>p. 746</1>"
  },
  {
+  "k": "28d6bf5436f2b0ca",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 730</2>"
+ },
+ {
   "k": "f8855aab724118bd",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "O que o parâmetro recusa não é a mudança em si, mas sua instrumentalização para transferir ao consumidor o custo de reconfigurações que destroem ou rebaixam significativamente a utilidade adquirida sem recomposição compatível.<1>p. 730</1>"
@@ -2573,6 +3068,46 @@
   "k": "2d153617cd8f1d59",
   "pagina": "caminho/a-mudanca/index.html",
   "pt": "<1>← Por que tudo isso parece normal?</1><2>E se a perda fizer parte do plano? →</2>"
+ },
+ {
+  "k": "422884227a68ec21",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "O teste compara o papel do item, e não só se ele continua na conta"
+ },
+ {
+  "k": "ca4ee2f58a01ff6a",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1></1><2>O que valia na compra</2><3>O que sobrou depois da mudança</3>"
+ },
+ {
+  "k": "a0b52cdc39222157",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>O que o item faz</1><2><3>O que valia na compra. </3>Funciona e cumpre a utilidade pela qual você pagou</2><4><5>O que sobrou depois da mudança. </5>Continua abrindo, mas perdeu a função que justificava a compra</4>"
+ },
+ {
+  "k": "999f5b807c5387a5",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>A relação com os outros</1><2><3>O que valia na compra. </3>Marca o seu lugar e é reconhecido por quem joga com você</2><4><5>O que sobrou depois da mudança. </5>Ficou comum, rebaixado ou fora do lugar que ocupava</4>"
+ },
+ {
+  "k": "cd4617d4fe2d338d",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>O que ele significa</1><2><3>O que valia na compra. </3>Carrega distinção, história ou pertencimento</2><4><5>O que sobrou depois da mudança. </5>Perdeu o sentido que fazia dele algo seu</4>"
+ },
+ {
+  "k": "4b4db67f85338318",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "Nada disso exige congelar o serviço. O teste pede que o papel do item seja preservado em essência, e não que nada mude. <1><2>p. 729-730</2></1>"
+ },
+ {
+  "k": "65c467010837bca2",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 729</2>"
+ },
+ {
+  "k": "c5102dba047b42d6",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 729</2>"
  },
  {
   "k": "a27e2223585a64c0",
@@ -2630,9 +3165,9 @@
   "pt": "<1><2>6</2>E se a sua skin mudar amanhã?</1>"
  },
  {
-  "k": "547b6e398c72335a",
+  "k": "712a1758c1797b16",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "ANDRADE, Victor L. P. E se a sua skin mudar amanhã?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-mudanca/"
+  "pt": "ANDRADE, Victor L. P. E se a sua skin mudar amanhã? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/caminho/a-mudanca/"
  },
  {
   "k": "5bdcb4bb2454e7f0",
@@ -2640,14 +3175,24 @@
   "pt": "Ela continua na conta, mas já não é a mesma. Parte 6 de 11 do caminho da skin."
  },
  {
-  "k": "01c4acd28e10dd1f",
+  "k": "bc1fa0777959a621",
   "pagina": "caminho/a-mudanca/index.html",
-  "pt": "ilustração prevista · parte-a-mudanca"
+  "pt": "Duas armaduras iguais lado a lado, a primeira inteira e a segunda só com o contorno, oca por dentro."
+ },
+ {
+  "k": "5b9944ba736acb84",
+  "pagina": "caminho/a-mudanca/index.html",
+  "pt": "esquema · i3-antes-depois"
  },
  {
   "k": "601fdc4224e7a5c3",
   "pagina": "caminho/a-resposta/index.html",
   "pt": "E quando dá errado? · Siga a skin · Lex Plataformae"
+ },
+ {
+  "k": "f3deb17a6ef694e0",
+  "pagina": "caminho/a-resposta/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "ab5b92903eb49647",
@@ -2660,9 +3205,14 @@
   "pt": "E quando dá errado?"
  },
  {
-  "k": "8ff5e70c18d96080",
+  "k": "ba699470aa1aed3a",
   "pagina": "caminho/a-resposta/index.html",
-  "pt": "Uma mão devolve a peça que faltava num mosaico, enquanto uma pilha de moedas fica de lado, sem uso."
+  "pt": "Antes do dinheiro, devolver o que foi tirado. <1>Ilustração conceitual feita com IA.</1>"
+ },
+ {
+  "k": "fef91ec307729e4c",
+  "pagina": "caminho/a-resposta/index.html",
+  "pt": "Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização.<1>p. 751</1>"
  },
  {
   "k": "792f6d7cefaa21ab",
@@ -2718,220 +3268,5 @@
   "k": "a6af8325fe0d0213",
   "pagina": "caminho/a-resposta/index.html",
   "pt": "E quando a prova está toda com a empresa?"
- },
- {
-  "k": "7004d16539f587b7",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "E a lei já tem ferramentas para o resto. Uma delas é a inversão do ônus da prova. Normalmente, quem alega um fato precisa prová-lo. Na relação de consumo, o juiz pode inverter esse peso a favor do consumidor. E, quando o serviço é muito técnico e o fornecedor domina tudo, essa inversão muitas vezes é o único jeito de a proteção funcionar."
- },
- {
-  "k": "244ac69d23e5cf57",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Há outras. O juiz pode mandar a plataforma guardar as evidências e exibir documentos. E pode dividir o trabalho de provar de outro jeito quando uma parte tem muita dificuldade e a outra tem muita facilidade de produzir a prova."
- },
- {
-  "k": "1183ca2ff4aab36d",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Nada disso é automático. Há quem defenda que a inversão deveria valer sempre, para toda relação digital, mas hoje ela depende da avaliação do juiz no caso. Por isso você ainda precisa contar uma história coerente, que pareça verdadeira, e deixar claro o que está discutindo. O que muda é que não se pode exigir de você a prova detalhada de algo que nunca esteve nas suas mãos. E, para começar, você não precisa do código inteiro do jogo. Basta um mínimo, como comparar o antes e o depois e mostrar o que foi afetado."
- },
- {
-  "k": "7c6e5d5eb7126002",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A especialização tecnológica do serviço e a posição dominante do fornecedor fazem da inversão do ônus da prova, em muitos casos, o único instrumento capaz de viabilizar efetivamente a tutela do consumidor<1>p. 583</1>"
- },
- {
-  "k": "4eb921c6d4fb40e4",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O terceiro mecanismo é propriamente processual: preservação de evidências, exibição de documentos e redistribuição dinâmica do ônus da prova.<1>p. 659</1>"
- },
- {
-  "k": "6c9284608386864e",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O art. 373, § 1º, permite a distribuição diversa do ônus probatório quando houver excessiva dificuldade para uma parte cumprir o encargo ou maior facilidade da outra em produzir a prova do fato contrário<1>p. 659</1>"
- },
- {
-  "k": "f378ce064bc216f3",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "[...] razão pela qual a vulnerabilidade digital e a hipossuficiência correspondente deveriam ser afirmadas em chave universal, com inversão do ônus da prova ope legis, e não apenas ope judicis<1>p. 593</1>"
- },
- {
-  "k": "d41117092333e6e8",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido.<1>p. 736</1>"
- },
- {
-  "k": "23a8fe5936fefaf0",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance.<1>p. 736</1>"
- },
- {
-  "k": "0d2d64b852388a7a",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O sinal mínimo de prova exige comparação funcional entre o antes e o depois, exame de versões relevantes, identificação do núcleo de utilidade afetado e avaliação do papel do objeto na experiência<1>p. 672</1>"
- },
- {
-  "k": "c625408cb270d81a",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Quem paga quando a fraude passa por uma função oficial do jogo?"
- },
- {
-  "k": "56d8d5d4393ace97",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Há um caso que mostra como o risco pode cair no seu colo. Num jogo online, mandar presentes aos amigos era uma função oficial, que a própria empresa oferecia dentro do jogo, com regras e limites. Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo normal, seguro e vantajoso, e ninguém deixava claro o que era permitido, tolerado ou proibido."
- },
- {
-  "k": "d9367775262b85f9",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Quando apareceram fraudes com cartões, a empresa desligou a função de presentes no Brasil por um longo período, retirou itens recebidos e bloqueou contas ou as voltou a um estado anterior. A medida atingiu também quem tinha recebido presentes de boa-fé, sem saber de fraude nenhuma. E quem perdeu skins ficou com a tarefa de provar, item por item, de onde veio cada uma, com extratos antigos, e-mails e capturas que tivesse guardado."
- },
- {
-  "k": "a91724a282efb43f",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O caso ajuda a entender três coisas. A empresa já conhecia o risco de fraude, e por isso esse risco faz parte da atividade dela e não pode ser tratado como culpa de quem recebeu o presente. Uma licença revogável no contrato não basta para jogar sobre você a falha do sistema. E daí nascem pedidos concretos, como devolver o que foi retirado quando nenhuma prova individual afasta a sua boa-fé, guardar e mostrar os registros e corrigir a informação sobre onde comprar com segurança."
- },
- {
-  "k": "d76f4c4fb98a380f",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Ao contrário, a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio<1>p. 610</1>"
- },
- {
-  "k": "fa56655aad708cee",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "materiais promocionais e vitrines digitais apresentavam a compra externa de moeda virtual como prática ordinária, segura, vantajosa e compatível com o ecossistema do jogo<1>p. 612</1>"
- },
- {
-  "k": "6da5f89bbc8edaa0",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido.<1>p. 612</1>"
- },
- {
-  "k": "f8caf1a2911e1917",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Nessa ambiência, não é juridicamente sério presumir que o consumidor médio sempre distinguiria, com clareza suficiente, parceiro tolerado, revenda legítima, mercado cinzento e fraude vinculada a cartão clonado<1>p. 612</1>"
- },
- {
-  "k": "9284f49fdc546ba5",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A empresa desativou por longo período a funcionalidade de presentes no servidor brasileiro, suprimiu ativos recebidos e operou restaurações regressivas ou bloqueios em contas atingidas<1>p. 611</1>"
- },
- {
-  "k": "03c79c9a593a3279",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "[...] suprimiu ativos, interrompeu funcionalidade oficial de circulação de conteúdo e operou sanções fundadas em presunções amplas de corresponsabilidade, inclusive sobre usuários que não participaram conscientemente da fraude<1>p. 610</1>"
- },
- {
-  "k": "7cfe303041ab65fe",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Uma vez removidos os ativos ou revertido o estado da conta, o usuário passa a depender de extratos antigos, e-mails dispersos, capturas pretéritas e memória reconstruída para provar que determinado conteúdo integrava legitimamente sua posição de fruição<1>p. 616</1>"
- },
- {
-  "k": "5c81f8da8606243d",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O episódio mostra como a plataforma, ao operar reversão ampla do estado da conta, transfere ao jogador o encargo quase arqueológico de reconstituir item por item aquilo que já fazia parte de sua esfera de fruição<1>p. 616</1>"
- },
- {
-  "k": "68f7a46da010feac",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão<1>p. 610</1>"
- },
- {
-  "k": "483ff0c5a43ea7d4",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O risco passa a integrar o círculo profissional da própria operação econômica.<1>p. 611</1>"
- },
- {
-  "k": "b7c935f62477289c",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O ponto dogmático central, porém, é que esse vocabulário contratual não basta para converter o consumidor em destinatário legítimo do risco sistêmico.<1>p. 615</1>"
- },
- {
-  "k": "73c184deccce42c0",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição<1>p. 617</1>"
- },
- {
-  "k": "809886d5b40c68c1",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "<1>Recomposição funcional</1><2><3>Recomposição funcional</3></2>"
- },
- {
-  "k": "fe8933597ce905e8",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "E o que se pede, afinal? Antes de dinheiro, que se devolva o que foi tirado. Isso pode ser restaurar o seu acesso, rever ou desfazer a punição e devolver à skin a função que ela tinha. Pode ser também preservar o seu histórico, oferecer um substituto que cumpra o mesmo papel e corrigir o procedimento que causou o problema."
- },
- {
-  "k": "3cccf36cc84ba7ec",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A razão é simples. Quando o que você perdeu foi a possibilidade de continuar usando algo, uma indenização sozinha costuma ser um remédio pobre. Ela põe um número no lugar da perda, mas não devolve a conta, o histórico nem o lugar que você tinha no jogo."
- },
- {
-  "k": "fef91ec307729e4c",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Em hipóteses de lesão arquitetural, a resposta jurídica deve privilegiar recomposição funcional e correção procedimental, em vez de recorrer automaticamente à monetização.<1>p. 751</1>"
- },
- {
-  "k": "4bd63c8cb9bad4bc",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "[...] a integridade da experiência, a permanência do acesso, a inteligibilidade do vínculo ou a posição relacional do consumidor no ecossistema, a simples condenação pecuniária tende a operar como remédio pobre e estruturalmente ineficaz<1>p. 751</1>"
- },
- {
-  "k": "237c52a39caabbd4",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O que se exige, sempre que possível, é restauração de acesso, reversão ou revisão de sanções, recomposição de funcionalidade, preservação de histórico, substituição equivalente e ajuste de procedimentos de governança.<1>p. 751</1>"
- },
- {
-  "k": "d59def4d6d9913c9",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O dinheiro sai de cena?"
- },
- {
-  "k": "c87bf3faa917d464",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O dinheiro não sai de cena. Indenizar continua legítimo e, muitas vezes, indispensável, seja para cobrir perdas materiais, seja para reconhecer danos que não são só materiais. Ele só deixa de ser a resposta automática, como se toda perda desse tipo pudesse virar um número numa planilha, sem que ninguém olhasse para o que foi perdido."
- },
- {
-  "k": "2479f566eea2b4a0",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A indenização pecuniária permanece, evidentemente, como remédio legítimo e em muitos casos indispensável. O parâmetro aqui formulado não a elimina.<1>p. 741</1>"
- },
- {
-  "k": "6021afe6f12b8e94",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Nessas hipóteses, a compensação monetária continua a desempenhar papel importante, seja para ressarcir perdas materiais, seja para reconhecer danos extrapatrimoniais quando presentes<1>p. 742</1>"
- },
- {
-  "k": "2b62b9c827e1f4a0",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "O que se recusa é sua transformação em resposta automática e preferencial em qualquer hipótese<1>p. 742</1>"
- },
- {
-  "k": "59caef6d9498e44f",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "<1>Correção de regime</1><2><3>Correção de regime</3></2>"
- },
- {
-  "k": "e3b0f567e5eaed24",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Às vezes o seu caso é só um sintoma. Se o mesmo desenho produz a mesma perda em série, consertar o seu caso não resolve, porque amanhã a perda acontece com outra pessoa, ou com você de novo."
- },
- {
-  "k": "8c74945993f11831",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "Nesses casos, a resposta precisa chegar à fonte. Isso abre espaço para ordens que impeçam a repetição, para mudanças na estrutura do serviço, para ações coletivas e para mecanismos obrigatórios de conformidade, ligados ao dever de deixar as mudanças verificáveis. Sem isso, a lei só põe preço no dano e deixa intacta a máquina que o produz."
- },
- {
-  "k": "f50f3f5ba22e4b09",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A correção de regime, ao contrário, permite tratar o dano como arquitetural e não apenas como episódio. Com isso, torna-se possível justificar tutela inibitória, medidas estruturais, providências coletivas e até mecanismos de compliance compulsório compatíveis com auditabilidade aberta e controle institucional da fruição.<1>p. 741</1>"
- },
- {
-  "k": "992894153c50f58b",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "A primazia da recomposição funcional e da correção de regime impede que a tutela consumerista se limite a precificar danos enquanto preserva intacta a máquina que os produz.<1>p. 742</1>"
- },
- {
-  "k": "914567861792e30d",
-  "pagina": "caminho/a-resposta/index.html",
-  "pt": "<1>Dano-arquitetura</1><2><3>Dano-arquitetura</3></2>"
  }
 ]

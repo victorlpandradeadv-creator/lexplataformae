@@ -1,13 +1,783 @@
 [
  {
+  "k": "e18132294846f228",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A perda costuma ser relevante quando você fica de fora ou muito limitado para participar, ou quando as condições de uso pioram de forma substancial. Também é relevante quando selos, raridades e históricos são apagados ou desvalorizados, ou quando você continua dentro mas perde de vez a posição que dava valor ao que tinha."
+ },
+ {
+  "k": "b244861b08d21a08",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A trajetória do consumidor não é mero “registro” passivo mantido pela plataforma, nem depósito informacional sem sujeito. Ela é resultado biográfico produzido por escolhas reiteradas, desempenho, investimento de tempo, aquisição, cooperação, acúmulo de sinais de pertencimento e permanência no ecossistema. Ainda que essa construção ocorra sob mediação da Lex Plataformae, continua sendo atribuível ao consumidor como expressão de continuidade biográfica no interior do regime de fornecimento.<1>p. 537</1>"
+ },
+ {
+  "k": "015e90046c28f196",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "O que se acumula é feixe de memória, identidade e reconhecimento, de modo que sua supressão ou reclassificação unilateral não pode ser tratada como simples variação técnica irrelevante.<1>p. 537</1>"
+ },
+ {
+  "k": "212b8e5dbdf85152",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Que registros ajudam a reconstituir a história que sumiu?"
+ },
+ {
+  "k": "89ef3ab53c2ff0e9",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Depois do apagamento, o que sobra para provar são extratos antigos, e-mails, capturas de tela e a sua memória. Por isso vale guardar, enquanto ainda dá, capturas datadas do perfil, do inventário, das conquistas e do histórico."
+ },
+ {
+  "k": "f8ddaee352f095ff",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Mesmo depois da perda, você pode pedir à empresa a confirmação e o acesso aos dados que ela guarda sobre você, o que ajuda a reconstituir o que existia. A empresa também deve guardar com segurança os registros que importam."
+ },
+ {
+  "k": "a9e5d162ad9d0b3a",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "O que se pode pedir quando a história inteira foi apagada?"
+ },
+ {
+  "k": "07b50cc966502c70",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A primeira resposta buscada é restaurar o que foi apagado, quando isso for possível, em vez de converter tudo direto em dinheiro. A lei do consumidor permite exigir o cumprimento da obrigação ou algo equivalente, e o juiz pode buscar um resultado prático que corresponda a esse cumprimento."
+ },
+ {
+  "k": "243c0141094a4673",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "O apagamento, a redefinição de progresso ou a punição que elimina a sua história precisa de um motivo verificável e de preservação mínima dos registros. Quando cabível, o pedido pode ser a restauração da posição que você tinha."
+ },
+ {
+  "k": "6ca61bf55d846e36",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Em casos graves, perder a conta, o histórico ou a trajetória pode ser tratado como dano moral, que é o dano à pessoa, e não só ao bolso. Isso acontece quando a perda atinge de modo demonstrável a sua história, o seu pertencimento ou a reputação e a memória construídas ali, e um mero aborrecimento não basta."
+ },
+ {
+  "k": "5f7846b46060283b",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Quando a relação de consumo frustra expectativas legítimas quanto à adequação, utilidade, segurança ou qualidade da prestação, o sistema consumerista não se orienta automaticamente à monetização residual da perda. Busca, em primeiro plano, recompor materialmente a posição do consumidor, satisfazer seus interesses e evitar danos maiores, inclusive em dimensão não patrimonial <1>Marques</1><2>(Marques, 2016, p. 1383; p. 856)</2>. Daí a importância do art. 35 do CDC<3><4>1</4></3>, que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos, e do art. 84 [...] que consagra tutela específica da obrigação e resultado prático equivalente ao adimplemento.<5>p. 539-540</5>"
+ },
+ {
+  "k": "df8f1a934626cf3f",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A quem pedir a sua história de volta?"
+ },
+ {
+  "k": "113db961bdbd1daf",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "O primeiro endereço é a própria empresa, que administra a conta e os registros, para pedir o motivo da medida, os registros dela e a restauração. Ela não pode tratar a sua história digital como uma caixa-preta, que é um sistema fechado que ninguém de fora consegue ver."
+ },
+ {
+  "k": "c0f6ba6dc2ab3281",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Se a empresa não responde, o caso pode ser levado ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o peso da prova conforme quem tem acesso a eles."
+ },
+ {
+  "k": "564ebf7fadaeb12f",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Quando o apagamento ou a redefinição atinge muita gente de uma vez, a resposta pode ir além do seu caso, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor."
+ },
+ {
+  "k": "cb110bd32ea24634",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A consequência institucional dessa leitura recai sobre a própria governança da plataforma. Se ela administra acesso, permanência, visibilidade, sanções e trilhas de participação, então também administra inclusão e exclusão no espaço social digital. Daí decorre a necessidade de parâmetros mínimos de devido processo privado: motivação verificável, coerência decisória, previsibilidade procedimental e vias inteligíveis de contestação. Essa exigência não deriva de benevolência da empresa, mas da relevância pública dos efeitos produzidos por sua governança sobre memória, reputação, continuidade de trajetória e posição simbólica do consumidor. A administração da biografia digital alheia não pode operar como caixa-preta soberana.<1>p. 541-542</1>"
+ },
+ {
+  "k": "fcb1cbbe1453d697",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "O terceiro mecanismo é propriamente processual: preservação de evidências, exibição de documentos e redistribuição dinâmica do ônus da prova. Quando a prova nasce e permanece sob controle da plataforma, o sistema processual não pode fingir neutralidade.<1>p. 659</1>"
+ },
+ {
+  "k": "54c036545ece1515",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Até onde vai a proteção da sua história na plataforma?"
+ },
+ {
+  "k": "ffd5a660d57a8e82",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A proteção não faz de você dono de tudo o que a empresa registra, nem autor do que você construiu ali. O que ela exige é que a memória do que você viveu no ambiente continue controlável, compreensível e minimamente acessível."
+ },
+ {
+  "k": "67ad31c1aa937582",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Frustrações comuns e mudanças normais do serviço ficam de fora. A perda precisa ser significativa e persistente, e precisa poder ser descrita por critérios conferíveis."
+ },
+ {
+  "k": "cee08357a9bc24b7",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "A restauração vale quando é possível e devida. Quando não é, o dinheiro continua possível, mas como resposta que completa ou substitui a restauração, e não como reflexo automático da perda."
+ },
+ {
+  "k": "3ac941bdcc2a7a9d",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra, mas reforçam que sua biografia digital não é massa bruta totalmente indisponível ao titular e que a administração da memória de fruição precisa permanecer controlável, inteligível e minimamente acessível.<1>p. 542</1>"
+ },
+ {
+  "k": "9bb7d041705a2b9b",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Integridade pessoal, no regime do Objeto Imaterial de Consumo, não designa estado emocional nem desconforto subjetivo decorrente de frustrações ordinárias do mercado.<1>p. 457</1>"
+ },
+ {
+  "k": "da6773aca72756a7",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Por isso, as categorias só operam quando o rebaixamento é significativo e persistente, quando altera substancialmente o patamar de agência e a posição do consumidor no ecossistema, e quando pode ser descrito por critérios verificáveis de perda no regime do OIC, sob os filtros de relevância e controlabilidade.<1>p. 467-468</1>"
+ },
+ {
+  "k": "4b7d38bbbfee41c2",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Quero sair, mas perderia tudo o que construí ali. Isso conta?</1>"
+ },
+ {
+  "k": "c685204f8f18b723",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>O serviço vai acabar. O que acontece com o que eu comprei?</1>"
+ },
+ {
+  "k": "f614db45a56b1339",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Como saber se a perda foi além de um item?</1>"
+ },
+ {
+  "k": "7184c2d497e6867e",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Que registros ajudam a reconstituir a história que sumiu?</1>"
+ },
+ {
+  "k": "7f85907937794649",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>O que se pode pedir quando a história inteira foi apagada?</1>"
+ },
+ {
+  "k": "5aab4a60c864d7e3",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>A quem pedir a sua história de volta?</1>"
+ },
+ {
+  "k": "d2da8c00a099c605",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Até onde vai a proteção da sua história na plataforma?</1>"
+ },
+ {
+  "k": "72ac90c2e9022bee",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Quero sair e levar o que é meu"
+ },
+ {
+  "k": "59e93a25b6a87d82",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Quero sair, mas perderia tudo o que construí ali. Isso conta?</1>"
+ },
+ {
+  "k": "69ad9eb445fb8bbe",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "<1>Perdi anos de histórico. Isso é mais do que um item?</1>"
+ },
+ {
+  "k": "5a682b4dd7c6b75b",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "ANDRADE, Victor L. P. Perdi anos de histórico. Isso é mais do que um item? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/historia-perdida/"
+ },
+ {
+  "k": "6a42a55e586cb320",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Um banimento, que é a expulsão definitiva da conta, uma redefinição de progresso ou um apagamento levou embora anos de histórico, inventário, conquistas e…"
+ },
+ {
+  "k": "23818a9e7cd4af62",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "1. O que fica na conta ao longo dos anos não é só acesso, mas histórico, memória, reconhecimento e o lugar que você ocupa ali."
+ },
+ {
+  "k": "922de9e936ec6c20",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "2. Um banimento, que é a expulsão definitiva da conta, uma redefinição de progresso ou um apagamento levou embora anos de histórico, inventário, conquistas e reputação."
+ },
+ {
+  "k": "d0cbf2ef907ad2bc",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "3. Essa perda pode ir além do preço do que você comprou, porque vai junto a continuidade da sua própria história naquele ambiente."
+ },
+ {
+  "k": "e91ae71069625524",
+  "pagina": "problemas/historia-perdida/index.html",
+  "pt": "Perdi anos de histórico. Isso é mais do que um item?"
+ },
+ {
+  "k": "6729ec6981472fe7",
+  "pagina": "problemas/index.html",
+  "pt": "Problemas comuns com contas, itens e jogos digitais · Lex Plataformae"
+ },
+ {
+  "k": "dff83efb75dae022",
+  "pagina": "problemas/index.html",
+  "pt": "<1>Problemas</1>"
+ },
+ {
+  "k": "5a834090035f07ae",
+  "pagina": "problemas/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
+  "k": "1805929db691a3dd",
+  "pagina": "problemas/index.html",
+  "pt": "Qual é o seu problema?"
+ },
+ {
+  "k": "4d5a1984d3b964a9",
+  "pagina": "problemas/index.html",
+  "pt": "Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo<1>p. 155</1>"
+ },
+ {
+  "k": "9f9d9c3e675110c2",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Minha conta foi bloqueada ou banida. E o que eu comprei?</2><3>Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou.</3></1>"
+ },
+ {
+  "k": "5b89d6b2bafaad23",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Um item que recebi de presente foi retirado da minha conta. E agora?</2><3>Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho.</3></1>"
+ },
+ {
+  "k": "9c50553e040e9a84",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O serviço vai acabar. O que acontece com o que eu comprei?</2><3>A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona.</3></1>"
+ },
+ {
+  "k": "6a0e4d83fb189d5f",
+  "pagina": "problemas/index.html",
+  "pt": "A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção.<1>p. 104</1>"
+ },
+ {
+  "k": "e1c5f6f6fc6c078f",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O que eu comprei mudou numa atualização. E agora?</2><3>Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou.</3></1>"
+ },
+ {
+  "k": "a97de85e4f74321a",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</2><3>Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa.</3></1>"
+ },
+ {
+  "k": "27069a4f24717bbe",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>A empresa diz que eu só tenho uma licença. Então eu não comprei nada?</2><3>Você pagou, o botão dizia comprar, e o contrato chama o que você recebeu de licença, que é uma permissão de uso que pode ser retirada.</3></1>"
+ },
+ {
+  "k": "c26229a90552004f",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</2><3>Você pagou mais porque o item era raro, de edição especial ou de última chance, e depois ele voltou à venda por menos, em outra loja ou em outra moeda.</3></1>"
+ },
+ {
+  "k": "d0eed48604203a03",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>A moeda do serviço passou a comprar menos. Isso é permitido?</2><3>Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas.</3></1>"
+ },
+ {
+  "k": "3e63c6b3193ff11e",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O que foi anunciado não é o que eu recebi. E agora?</2><3>Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso fazia esperar.</3></1>"
+ },
+ {
+  "k": "f17c5cf158126738",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O serviço exige um programa que roda no meu aparelho. Posso questionar?</2><3>Alguns serviços só funcionam se você instalar um programa que roda no fundo do seu computador e liga junto com ele, mesmo com o jogo fechado.</3></1>"
+ },
+ {
+  "k": "1dca403fd35af6f2",
+  "pagina": "problemas/index.html",
+  "pt": "Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa.<1>p. 670</1>"
+ },
+ {
+  "k": "9c8ac4c71233ca14",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Paguei por um sorteio ou por uma caixa de recompensa. O que preciso saber?</2><3>Você pagou para tentar a sorte, numa caixa de recompensa ou num sorteio de itens, e o que saiu quase nunca foi o que você queria.</3></1>"
+ },
+ {
+  "k": "5b36030669358bfa",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>A oferta dizia última chance. Fui pressionado a comprar?</2><3>A contagem regressiva, a edição limitada ou o aviso de que o item ia sumir fizeram você decidir depressa, talvez antes de entender tudo o que estava comprando.</3></1>"
+ },
+ {
+  "k": "b5f3cd81a7cb4ebb",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</2><3>A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar.</3></1>"
+ },
+ {
+  "k": "7516e681c005532c",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Meu filho ou minha filha gastou num jogo. O que a lei diz?</2><3>Seu filho ou sua filha gastou dinheiro num jogo, em compras pequenas e repetidas, em caixas de recompensa ou em ofertas que voltavam a cada evento.</3></1>"
+ },
+ {
+  "k": "04b7911d9a6d179d",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>A loja virtual esconde quem é pago e quem é confiável. Isso conta?</2><3>Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza.</3></1>"
+ },
+ {
+  "k": "d07fcd28007483b3",
+  "pagina": "problemas/index.html",
+  "pt": "Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema.<1>p. 217</1>"
+ },
+ {
+  "k": "644f6ebf6d5b4482",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Quero sair, mas perderia tudo o que construí ali. Isso conta?</2><3>Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro.</3></1>"
+ },
+ {
+  "k": "7dc4034d6f4f6c7b",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Perdi anos de histórico. Isso é mais do que um item?</2><3>Um banimento, que é a expulsão definitiva da conta, uma redefinição de progresso ou um apagamento levou embora anos de histórico, inventário, conquistas e reputação.</3></1>"
+ },
+ {
+  "k": "e02f708777af4056",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?</2><3>Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma.</3></1>"
+ },
+ {
+  "k": "2564bbc8f09708bb",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>O assistente de inteligência artificial mudou ou errou. O que posso exigir?</2><3>Você usou um assistente de inteligência artificial, que é o programa que conversa, resume e orienta, e a resposta se mostrou errada ou o serviço passou a funcionar de outro jeito.</3></1>"
+ },
+ {
+  "k": "4430bf8a1b8eb068",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Trabalho por aplicativo, e a regra mudou. Tenho o que pedir?</2><3>Você trabalha com entregas ou corridas por aplicativo e, depois de uma mudança de regra que ninguém explicou, as chamadas diminuíram, o ganho caiu ou chegou uma restrição.</3></1>"
+ },
+ {
+  "k": "7ad2b06efa5fa443",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Vendo numa plataforma. A lei do consumidor me protege?</2><3>Você vende numa loja virtual ou usa a plataforma para ganhar dinheiro, e ouviu que a lei do consumidor não vale para você porque você tem um negócio.</3></1>"
+ },
+ {
+  "k": "8618e5451a0cb4e7",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Quando não é relação de consumo, a lei continua protegendo?</2><3>Para quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor.</3></1>"
+ },
+ {
+  "k": "415c910c4c15313e",
+  "pagina": "problemas/index.html",
+  "pt": "Provar e reclamar"
+ },
+ {
+  "k": "02f3a57fbcc7609e",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Os registros estão com a empresa. Como eu provo o que aconteceu?</2><3>Na maior parte dos conflitos com plataformas, quem guarda os registros do que aconteceu é a empresa, e não você.</3></1>"
+ },
+ {
+  "k": "48a95ca3ec3beae0",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Reclamo, e a resposta nunca resolve. O que fazer?</2><3>O atendimento é gentil, responde rápido e pede para aguardar, mas o problema continua, e você acaba deixando para lá.</3></1>"
+ },
+ {
+  "k": "31810d3449a4f991",
+  "pagina": "problemas/index.html",
+  "pt": "<1><2>Aconteceu com muita gente. Dá para resolver de uma vez?</2><3>O mesmo problema atingiu muita gente no mesmo serviço, e cada pessoa ficou do seu lado, achando que foi azar.</3></1>"
+ },
+ {
+  "k": "0559bfe3deb3f4ab",
+  "pagina": "problemas/index.html",
+  "pt": "<1>Todos os seus direitos</1>"
+ },
+ {
+  "k": "436b5041a8266e68",
+  "pagina": "problemas/index.html",
+  "pt": "ANDRADE, Victor L. P. Problemas comuns com contas, itens e jogos digitais. <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/"
+ },
+ {
+  "k": "b91951c9bdc64a64",
+  "pagina": "problemas/index.html",
+  "pt": "Conta bloqueada, item alterado, jogo encerrado e outros problemas comuns, com o que a plataforma deve e o que você pode pedir."
+ },
+ {
+  "k": "39126f18f7bba9b2",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O que eu comprei mudou numa atualização. E agora? · Lex Plataformae"
+ },
+ {
+  "k": "9dbf29ed5e1daf48",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
+  "k": "e550988725ccf254",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>O que eu comprei mudou numa atualização.</1> <2>E agora?</2>"
+ },
+ {
+  "k": "d4935a608d454333",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou. O item continua lá, mas já não serve do mesmo jeito, e o que importa é saber se a mudança tirou dele o papel que justificou a compra."
+ },
+ {
+  "k": "24ad86ada670ce31",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A mutabilidade, por si, não é ilícita. O problema começa quando ela deixa de operar como forma legítima de manutenção, aperfeiçoamento ou adaptação do fornecimento e passa a degradar, esvaziar ou desviar, de modo relevante, a função que justificou a aquisição e estruturou a expectativa legítima de fruição.<1>p. 729</1>"
+ },
+ {
+  "k": "b6759c74702c5e8e",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O caso típico é o do item que segue no inventário, com o mesmo nome, mas ficou fraco demais."
+ },
+ {
+  "k": "88249f9cd3f494f8",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida, mudanças de interface que desorganizam o uso ordinário, redefinições de regras que rebaixam a equivalência do que foi prometido <1>(p. 637)</1>"
+ },
+ {
+  "k": "ef0b2e5683f3864f",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O item continua lá, mas já não serve do mesmo jeito, e o que importa é saber se a mudança tirou dele o papel que justificou a compra."
+ },
+ {
+  "k": "d2dc08aeaa2db40a",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A permanência do item, da funcionalidade, da conta, do acesso ou da feature não neutraliza, por si, o esvaziamento da experiência se o papel concreto do objeto for degradado, desviado ou tornado substancialmente diverso daquele que justificou a aquisição. <1>(p. 730)</1>"
+ },
+ {
+  "k": "76970bfd33229a59",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou."
+ },
+ {
+  "k": "600198f36334fd5d",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A mutabilidade, por si, não é ilícita. O problema começa quando ela deixa de operar como forma legítima de manutenção, aperfeiçoamento ou adaptação do fornecimento e passa a degradar, esvaziar ou desviar, de modo relevante, a função que justificou a aquisição e estruturou a expectativa legítima de fruição. <1>(p. 729)</1>"
+ },
+ {
+  "k": "7b272cd51a6f00e9",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Como saber se a atualização passou de um simples ajuste?"
+ },
+ {
+  "k": "731d4a6381f47fef",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O caso típico é o do item que segue no inventário, com o mesmo nome, mas ficou fraco demais. Ele pode também ter perdido uma função importante ou o lugar que tinha entre os outros jogadores. Também entram a tela refeita de um jeito que atrapalha o uso de todo dia e a regra nova que rebaixa o que tinha sido prometido como equivalente."
+ },
+ {
+  "k": "7d6d593a2ecfe16a",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A pergunta não é se o item ainda existe, nem se o contrato deixava a empresa mudar. A pergunta é se ele ainda cumpre, no essencial, o papel que tinha na sua experiência. Esse papel inclui a utilidade, a relação com os outros e, quando isso importa, o que o item significa."
+ },
+ {
+  "k": "80cf1f1c50717bfe",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Um item pode valer de seis jeitos ao mesmo tempo"
+ },
+ {
+  "k": "afd899b87889d34d",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Aparência</1><2>Mostra algo aos outros e marca o seu lugar no jogo</2><3><4>p. 489</4></3>"
+ },
+ {
+  "k": "8e1d367af9a719ab",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Progressão</1><2>O direito de percorrer uma trilha de metas, como num passe de evento</2><3><4>p. 491</4></3>"
+ },
+ {
+  "k": "5c9d36d703ce2776",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Acesso e permanência</1><2>A conta, que na prática é uma posição que pode ser retirada</2><3><4>p. 489</4></3>"
+ },
+ {
+  "k": "18cd1472fcf5ab48",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Uma skin de edição limitada</1><2>Vale pela aparência e pelo tempo, ao mesmo tempo</2><3><4>p. 491</4></3>"
+ },
+ {
+  "k": "d1bf27e132ec4e4f",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Funções</1><2>Permissões e facilidades de uso que fazem parte do que você paga</2><3><4>p. 490</4></3>"
+ },
+ {
+  "k": "0099b2146d15d9d1",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Tempo</1><2>Temporadas, prazos e itens que voltam à loja de vez em quando, ou nunca mais</2><3><4>p. 490</4></3>"
+ },
+ {
+  "k": "dbeba586e71d622e",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Reputação</1><2>O reconhecimento que o jogo mede e que pode travar recompensas</2><3><4>p. 492</4></3>"
+ },
+ {
+  "k": "2da7c498deaf44cd",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Separar as formas mostra o que foi atingido quando algo muda, mesmo com o item ainda na conta. <1><2>p. 492</2></1>"
+ },
+ {
+  "k": "82899ffff85937aa",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Que provas do antes e do depois valem a pena guardar?"
+ },
+ {
+  "k": "114613eb44d4584b",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O ponto de partida é o anúncio do item, com as vantagens que ele prometia, porque é a partir da oferta que se mede o que precisava continuar existindo. Ajudam também capturas de tela com data, gravações e as telas da compra, que mostram como o item era e não só o que você lembra dele."
+ },
+ {
+  "k": "3dd469f259a50f6a",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "As notas de atualização são os textos em que a empresa conta o que mudou em cada versão. Elas servem como informação geral, mas raramente deixam comparar o antes e o depois de um item. Por isso a sua proteção não pode depender de você ter arquivado tudo, já que o histórico completo das versões fica com a empresa."
+ },
+ {
+  "k": "eab6408f57e75387",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A oferta e a confiança por ela despertada oferecem base direta para essa identificação, pois o consumidor contrata em vista das vantagens e qualidades anunciadas, surgindo daí o dever jurídico de manutenção das condições ofertadas ou, ao menos, de preservação substancial de sua utilidade <1>Miragem</1><2>(Miragem, 2020, p. 424)</2>.<3>p. 652</3>"
+ },
+ {
+  "k": "d4ad6d8162ac0c5c",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O que pedir antes de falar em dinheiro?"
+ },
+ {
+  "k": "de39af238333eb0f",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A primeira resposta é a função voltar. O pedido pode incluir desfazer a mudança, quando isso for tecnicamente viável, ou trocar o item por outro que cumpra o mesmo papel. Também pode incluir corrigir a forma como a atualização foi feita."
+ },
+ {
+  "k": "795fd17f24b6f3db",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Quando a mudança rebaixou de modo relevante o que você usava, a saída deve dar a você ao menos uma escolha. Pode ser reembolso, crédito ou troca por um item de valor equivalente. Os termos de uso, que são o contrato que você aceita ao criar a conta, ajudam aqui. Os de um grande jogo já preveem reembolso ou troca quando um item comprado há pouco é retirado por completo."
+ },
+ {
+  "k": "fcc68f9576b5e438",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Também cabe pedir que a empresa diga o que mudou, quando, por qual motivo e com que efeito sobre o item. E a indenização em dinheiro continua possível quando restaurar não for viável ou não bastar."
+ },
+ {
+  "k": "f48658753e5911a1",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Por onde começar a reclamar de uma atualização?"
+ },
+ {
+  "k": "64dfa1c39e1f8a81",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A reclamação começa pela própria empresa. Continuar usando o serviço depois da mudança não quer dizer, por si, que você concordou com ela. Quem já investiu na conta muitas vezes segue em frente por não ter saída."
+ },
+ {
+  "k": "d1d3e44fe6b66546",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público."
+ },
+ {
+  "k": "a818c0851f4d6551",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Que mudanças ficam fora dessa proteção?"
+ },
+ {
+  "k": "4457c92f29be9208",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A empresa pode atualizar, e ninguém exige que o item fique idêntico para sempre nem que o serviço pare no tempo. Retoques pequenos, mudanças miúdas e oscilações normais da vida do serviço não bastam."
+ },
+ {
+  "k": "0deff0450901a999",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "A mudança só de aparência, em regra, fica de fora, e gostar mais da versão antiga não basta. Ela passa a contar quando o valor simbólico do item era o centro do que foi vendido. Ou quando se soma a outros sinais de um padrão que explora quem usa."
+ },
+ {
+  "k": "05d77aae17aeb0cc",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Mesmo com uma perda relevante, a mudança ainda pode ser aceita quando a empresa mostra uma razão verificável. Para isso ela precisa também oferecer uma recomposição à altura, que é devolver o que foi perdido ou algo que cumpra a mesma função."
+ },
+ {
+  "k": "094ff10f395d5f3d",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</1>"
+ },
+ {
+  "k": "10a56d4acd4e1146",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Como saber se a atualização passou de um simples ajuste?</1>"
+ },
+ {
+  "k": "ed15f38832844e51",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Que provas do antes e do depois valem a pena guardar?</1>"
+ },
+ {
+  "k": "23d938538e224009",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>O que pedir antes de falar em dinheiro?</1>"
+ },
+ {
+  "k": "8ab0676719212f23",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Por onde começar a reclamar de uma atualização?</1>"
+ },
+ {
+  "k": "046b2850b7bdeaff",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Que mudanças ficam fora dessa proteção?</1>"
+ },
+ {
+  "k": "07809456860fd508",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>O que eu comprei mudou numa atualização. E agora?</1>"
+ },
+ {
+  "k": "2675836dde73f5ca",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "<1>Paguei caro por algo exclusivo, e ele voltou mais barato. Isso pode?</1>"
+ },
+ {
+  "k": "dc27a92f7c30a87c",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "ANDRADE, Victor L. P. O que eu comprei mudou numa atualização. E agora? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/item-alterado/"
+ },
+ {
+  "k": "c98d2c4ae0565b03",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou. O item continua lá, mas já não serve do mesmo…"
+ },
+ {
+  "k": "597825ceb338ce74",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "1. O caso típico é o do item que segue no inventário, com o mesmo nome, mas ficou fraco demais."
+ },
+ {
+  "k": "e9b92d2829dd982c",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "2. O item continua lá, mas já não serve do mesmo jeito, e o que importa é saber se a mudança tirou dele o papel que justificou a compra."
+ },
+ {
+  "k": "ab29d916132ad801",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "3. Uma atualização, que é a mudança que a empresa faz no programa depois da venda, mexeu no que você comprou."
+ },
+ {
+  "k": "1e527eb83a5b12b6",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "esquema · i2-formas-de-valor"
+ },
+ {
+  "k": "ec799105a91667c0",
+  "pagina": "problemas/item-alterado/index.html",
+  "pt": "O que eu comprei mudou numa atualização. E agora?"
+ },
+ {
+  "k": "57ff1a28cf48ca6c",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O serviço vai acabar. O que acontece com o que eu comprei? · Lex Plataformae"
+ },
+ {
+  "k": "d0d92b9d0aebc833",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
+  "k": "11998cfee1f086d6",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "<1>O serviço vai acabar.</1> <2>O que acontece com o que eu comprei?</2>"
+ },
+ {
+  "k": "ca82effc2e63ba17",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona. Ela pode encerrar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro."
+ },
+ {
+  "k": "c8f5752beacd5929",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Ela pode encerrar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro."
+ },
+ {
+  "k": "3cc74be9c72f3112",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O direito de explorar, encerrar ou reorganizar atividade econômica não se confunde com um suposto direito de aniquilar, sem deveres de transição, preservação ou transferência, a fruição funcional já estabilizada na esfera do consumidor. <1>(p. 709)</1>"
+ },
+ {
+  "k": "f196580594b598ed",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O que você comprou só funciona enquanto alguém mantém os servidores ligados e o ambiente de pé."
+ },
+ {
+  "k": "240e6235a5ae3f14",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Quando o serviço apresenta indisponibilidade, não é apenas o acesso que falha, mas o próprio conteúdo virtual perde utilidade imediata, porque o ambiente que o torna fruível deixa de operar. <1>(p. 409)</1>"
+ },
+ {
+  "k": "7246eb71a504bd21",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Vão junto fotos, históricos, bibliotecas, contatos, progresso, reputação e investimentos de anos, que não viram coisa sem valor só porque estão guardados na estrutura de outra empresa."
+ },
+ {
+  "k": "83997e5d76c6b6bb",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Fotografias, históricos, bibliotecas, redes de contato, progressões, identidades projetadas, posições reputacionais e investimentos de longa duração não podem ser juridicamente tratados como resíduos sem densidade apenas porque se encontram tecnicamente alojados em infraestrutura alheia. <1>(p. 796)</1>"
+ },
+ {
+  "k": "8d5399a09f42a6cb",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Como saber se o fim do serviço atinge o que você tinha?"
+ },
+ {
+  "k": "d3b6c6748b790a78",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O que você comprou só funciona enquanto alguém mantém os servidores ligados e o ambiente de pé. Quando o serviço para, o item pode continuar na conta, mas deixa de servir para qualquer coisa."
+ },
+ {
+  "k": "a17fbd9e82391074",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O fim atinge mais do que itens soltos. Vão junto fotos, históricos, bibliotecas, contatos, progresso, reputação e investimentos de anos, que não viram coisa sem valor só porque estão guardados na estrutura de outra empresa."
+ },
+ {
+  "k": "847aef32dffaf42f",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O contrato pode chamar tudo de licença precária, que é uma permissão que pode acabar a qualquer hora. Mesmo assim, isso não autoriza por si só que tudo seja sacrificado de uma vez."
+ },
+ {
+  "k": "32fd2f6b976515c3",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Fotografias, históricos, bibliotecas, redes de contato, progressões, identidades projetadas, posições reputacionais e investimentos de longa duração não podem ser juridicamente tratados como resíduos sem densidade apenas porque se encontram tecnicamente alojados em infraestrutura alheia.<1>p. 796</1>"
+ },
+ {
+  "k": "5109c90cb501f3b7",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "À medida que parcelas relevantes da vida contemporânea migram para ecossistemas digitais privados, a precariedade formal das licenças de uso já não pode ser lida como autorização automática para o sacrifício integral de objetos imateriais de consumo incorporados à trajetória do consumidor.<1>p. 709</1>"
+ },
+ {
+  "k": "cc5bf7de4caea5d9",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O que vale guardar antes que os servidores sejam desligados?"
+ },
+ {
+  "k": "f5bfe37af09f4b27",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Convém reunir o anúncio do encerramento, os comprovantes do que você comprou e capturas de tela da sua conta, da biblioteca e do progresso, com data. Se for um programa, a nota fiscal, a licença e a embalagem também importam, porque a lei manda que eles informem por quanto tempo a versão vendida funciona."
+ },
+ {
+  "k": "b39ddcd7fb1fb9f5",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O histórico das suas compras e as comunicações da empresa também ficam com ela, e você pode pedir que sejam preservados."
+ },
+ {
+  "k": "0868515d3e3acb0a",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "O que ainda se pode pedir quando o fim é inevitável?"
+ },
+ {
+  "k": "5f061a5da78c9ad6",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Tanto quanto for técnica e juridicamente possível, o pedido pode incluir manter o serviço de outro jeito ou deixar você levar o que tem para outro lugar. Pode incluir também recompor o que se perdeu ou passar a operação para outra empresa. Em resumo, a saída precisa vir com transição, preservação ou transferência."
+ },
+ {
+  "k": "98e28543683eb52a",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "Se for um programa de computador, quem vende precisa garantir os serviços técnicos que o mantêm funcionando durante o prazo informado, mesmo depois de parar de vendê-lo."
+ },
+ {
+  "k": "bd578ab36eeafb2f",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "E quando nada disso for possível ou não bastar, a indenização em dinheiro continua no caminho."
+ },
+ {
+  "k": "cf92bc720b48fb1c",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "A quem recorrer quando um serviço inteiro vai sair do ar?"
+ },
+ {
   "k": "15ad59dbe43219cc",
   "pagina": "problemas/jogo-encerrado/index.html",
   "pt": "O primeiro passo costuma ser perguntar à própria empresa, por escrito, como vai ser a transição e o que acontece com o que está na sua conta. Ser dona do jogo ou do programa não basta, sozinho, para justificar a destruição de tudo."
  },
  {
-  "k": "ed8d2acdc9717563",
+  "k": "d83675083afc4f9d",
   "pagina": "problemas/jogo-encerrado/index.html",
-  "pt": "O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir, e a página dos canais apresenta cada um."
+  "pt": "O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir."
  },
  {
   "k": "9c3916655d736cd3",
@@ -35,12 +805,12 @@
   "pt": "Também não é necessário recorrer a uma ideia forte de propriedade do consumidor sobre o bem digital para exigir estabilidade mínima.<1>p. 708</1>"
  },
  {
-  "k": "7f99b90426e57c4b",
+  "k": "e85a24e6f9229bc8",
   "pagina": "problemas/jogo-encerrado/index.html",
   "pt": "<1>Ser dona da obra não é desculpa para tudo</1>"
  },
  {
-  "k": "d8e408e954989edf",
+  "k": "068f27db79a12697",
   "pagina": "problemas/jogo-encerrado/index.html",
   "pt": "<1>O que você comprou é produto, mesmo sem nada nas mãos</1>"
  },
@@ -65,9 +835,9 @@
   "pt": "<1>O que vale guardar antes que os servidores sejam desligados?</1>"
  },
  {
-  "k": "974c68326c7ab0f7",
+  "k": "c3137d510e58923a",
   "pagina": "problemas/jogo-encerrado/index.html",
-  "pt": "<1>O que dá para pedir quando o fim é inevitável?</1>"
+  "pt": "<1>O que ainda se pode pedir quando o fim é inevitável?</1>"
  },
  {
   "k": "0a555028b9208912",
@@ -80,19 +850,39 @@
   "pt": "<1>Até onde vai essa proteção quando o serviço acaba?</1>"
  },
  {
+  "k": "02968e38a1c92362",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "<1>Minha conta foi bloqueada ou banida. E o que eu comprei?</1>"
+ },
+ {
   "k": "baf393349e0d1b34",
   "pagina": "problemas/jogo-encerrado/index.html",
   "pt": "<1>O serviço vai acabar. O que acontece com o que eu comprei?</1>"
  },
  {
-  "k": "bc4bfb5d8347028e",
+  "k": "5f883e5d292f1ef3",
   "pagina": "problemas/jogo-encerrado/index.html",
-  "pt": "ANDRADE, Victor L. P. O serviço vai acabar. O que acontece com o que eu comprei?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/jogo-encerrado/"
+  "pt": "ANDRADE, Victor L. P. O serviço vai acabar. O que acontece com o que eu comprei? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/jogo-encerrado/"
  },
  {
   "k": "60be664ced57f1af",
   "pagina": "problemas/jogo-encerrado/index.html",
   "pt": "A empresa anunciou que vai encerrar o jogo, o aplicativo ou o serviço, ou desligar os servidores, que são os computadores dela onde tudo funciona. Ela pode…"
+ },
+ {
+  "k": "460c75455a45d290",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "1. Ela pode encerrar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro."
+ },
+ {
+  "k": "a1e4a4fe1e907959",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "2. O que você comprou só funciona enquanto alguém mantém os servidores ligados e o ambiente de pé."
+ },
+ {
+  "k": "3e052a00cecaaa9e",
+  "pagina": "problemas/jogo-encerrado/index.html",
+  "pt": "3. Vão junto fotos, históricos, bibliotecas, contatos, progresso, reputação e investimentos de anos, que não viram coisa sem valor só porque estão guardados na estrutura de outra empresa."
  },
  {
   "k": "fbb709da6e513ba6",
@@ -105,6 +895,11 @@
   "pt": "A loja virtual esconde quem é pago e quem é confiável. Isso conta? · Lex Plataformae"
  },
  {
+  "k": "2b00e00422ca4081",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "b9873edd8f06e5da",
   "pagina": "problemas/loja-virtual/index.html",
   "pt": "<1>A loja virtual esconde quem é pago e quem é confiável.</1> <2>Isso conta?</2>"
@@ -115,9 +910,24 @@
   "pt": "Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza. Isso conta, porque a ordem da vitrine, a marca do que é anúncio pago e a reputação mostrada fazem parte do que a plataforma fornece."
  },
  {
-  "k": "4a00046935035155",
+  "k": "23dcdd3087583dc1",
   "pagina": "problemas/loja-virtual/index.html",
-  "pt": "O consumidor não escolhe no vazio, diante de universo transparente e simétrico de ofertas. Ele escolhe dentro de um campo já pré-interpretado pela plataforma.<1>p. 762</1>"
+  "pt": "Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza."
+ },
+ {
+  "k": "6ef0967201c460b4",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "Ela escolhe o que aparece primeiro, o que fica escondido, quem parece confiável e o que dá para comparar."
+ },
+ {
+  "k": "75946f015c17a41e",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "Quando a mesma empresa organiza a vitrine e também ganha com o que acontece nela, a situação fica mais séria."
+ },
+ {
+  "k": "4f86542932a51a99",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "Em hipóteses mais graves, especialmente quando a plataforma atuar simultaneamente como árbitra do ambiente e agente econômico interessado em seus resultados, a opacidade da hierarquização pode também dialogar com práticas abusivas mais amplas e com repercussões concorrenciais próprias. <1>(p. 764)</1>"
  },
  {
   "k": "858ff533986064c4",
@@ -185,9 +995,9 @@
   "pt": "Em marketplaces, pode envolver a forma como ranking, destaque, classificação de seller e lógica de patrocínio produzem um mercado perceptível já previamente selecionado.<1>p. 763</1>"
  },
  {
-  "k": "99dc33ea439539ee",
+  "k": "8cc17e63ba957670",
   "pagina": "problemas/loja-virtual/index.html",
-  "pt": "O que dá para cobrar de quem monta a vitrine?"
+  "pt": "O que se pode cobrar de quem monta a vitrine?"
  },
  {
   "k": "38b95e62e13cba0d",
@@ -200,21 +1010,6 @@
   "pt": "O pedido pode incluir clareza mínima sobre os critérios que decidem a ordem, o destaque e a reputação, sem que a empresa precise abrir os sistemas internos. Quando ela muda as regras e isso rebaixa de modo relevante o que a loja oferecia, pode caber recompor o que se perdeu."
  },
  {
-  "k": "beebb03d835d94f0",
-  "pagina": "problemas/loja-virtual/index.html",
-  "pt": "Torna-se necessário examinar, em chave de OIC, se houve informação adequada sobre a natureza da intermediação, se a distinção entre prioridade orgânica e prioridade patrocinada foi materialmente inteligível, se a reputação exibida era funcionalmente verificável, se a opacidade dos critérios comprometeu comparabilidade relevante e se a própria interface produziu enganosidade, obscurecimento ou assimetria estrutural incompatível com o regime consumerista.<1>p. 764</1>"
- },
- {
-  "k": "ffc4a4727dbd25fd",
-  "pagina": "problemas/loja-virtual/index.html",
-  "pt": "A auditabilidade aberta exige verificabilidade institucional mínima sobre os critérios relevantes de apresentação, priorização, moderação, reputação e circulação, sem que isso implique abertura irrestrita de sistemas internos.<1>p. 764</1>"
- },
- {
-  "k": "716e0b51533336cb",
-  "pagina": "problemas/loja-virtual/index.html",
-  "pt": "A equivalência funcional, por sua vez, incide quando alterações do regime de intermediação, da lógica de visibilidade, dos critérios reputacionais ou das regras de circulação degradam de modo relevante a utilidade legitimamente incorporada ao vínculo, sem recomposição compatível.<1>p. 764</1>"
- },
- {
   "k": "50bdf411b048e6fb",
   "pagina": "problemas/loja-virtual/index.html",
   "pt": "A quem levar a reclamação sobre a vitrine da loja?"
@@ -225,9 +1020,9 @@
   "pt": "O primeiro passo costuma ser a própria loja, por escrito e com as telas salvas. A reclamação não precisa parar na compra que deu errado, porque a forma como a vitrine destacou e escondeu as ofertas também conta. Isso vale mesmo quando nada disso estava escrito no contrato ou no anúncio."
  },
  {
-  "k": "583281f196ac09cd",
+  "k": "8c47f937807dc2e1",
   "pagina": "problemas/loja-virtual/index.html",
-  "pt": "Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são caminhos que a página dos canais apresenta."
+  "pt": "Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são os caminhos para isso."
  },
  {
   "k": "4d8f7fc249fa5d4c",
@@ -285,9 +1080,9 @@
   "pt": "<1>Que telas da vitrine vale a pena salvar?</1>"
  },
  {
-  "k": "7a2279c683ecf85b",
+  "k": "83fb5f71c5190b7e",
   "pagina": "problemas/loja-virtual/index.html",
-  "pt": "<1>O que dá para cobrar de quem monta a vitrine?</1>"
+  "pt": "<1>O que se pode cobrar de quem monta a vitrine?</1>"
  },
  {
   "k": "71cff8a4e3ba1ba8",
@@ -300,19 +1095,39 @@
   "pt": "<1>Quando a ordem da vitrine não dá motivo para reclamar?</1>"
  },
  {
+  "k": "ee8786345a6431f2",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "<1>Meu filho ou minha filha gastou num jogo. O que a lei diz?</1>"
+ },
+ {
   "k": "deaa8d2a33ba2a06",
   "pagina": "problemas/loja-virtual/index.html",
   "pt": "<1>A loja virtual esconde quem é pago e quem é confiável. Isso conta?</1>"
  },
  {
-  "k": "9a4645d21806bf09",
+  "k": "83f31a848aafa43e",
   "pagina": "problemas/loja-virtual/index.html",
-  "pt": "ANDRADE, Victor L. P. A loja virtual esconde quem é pago e quem é confiável. Isso conta?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/loja-virtual/"
+  "pt": "ANDRADE, Victor L. P. A loja virtual esconde quem é pago e quem é confiável. Isso conta? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/loja-virtual/"
  },
  {
   "k": "a611afdb47f0f200",
   "pagina": "problemas/loja-virtual/index.html",
   "pt": "Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que…"
+ },
+ {
+  "k": "a1dc868c3b5b981e",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "1. Numa loja virtual com muitos vendedores, o chamado marketplace, você escolhe entre o que a plataforma pôs à frente, com os selos, as notas e os destaques que ela organiza."
+ },
+ {
+  "k": "7d90420a8f72d715",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "2. Ela escolhe o que aparece primeiro, o que fica escondido, quem parece confiável e o que dá para comparar."
+ },
+ {
+  "k": "f98885c10030d3de",
+  "pagina": "problemas/loja-virtual/index.html",
+  "pt": "3. Quando a mesma empresa organiza a vitrine e também ganha com o que acontece nela, a situação fica mais séria."
  },
  {
   "k": "b1572188dd67c910",
@@ -323,6 +1138,11 @@
   "k": "cddd93e996e307af",
   "pagina": "problemas/moeda/index.html",
   "pt": "A moeda do serviço passou a comprar menos. Isso é permitido? · Lex Plataformae"
+ },
+ {
+  "k": "d99fcbeab9ac19e2",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "30a98ad98056dfa5",
@@ -343,6 +1163,36 @@
   "k": "be2fd735d356ad4b",
   "pagina": "problemas/moeda/index.html",
   "pt": "O que se observa, porém, no consumo imaterial governado por plataforma, é uma inversão de lógica. O fornecedor não se limita a competir dentro de um mercado. Ele desenha o próprio mundo de referência em que o consumo ocorre, controla catálogo, visibilidade, regras de circulação, unidade prática de conta e condições de permanência, e então passa a exercer, simultaneamente, funções análogas às de mercado e às de autoridade normativa, definindo por conta própria o patamar de preços e o ritmo de inflação interna.<1>p. 179</1>"
+ },
+ {
+  "k": "5bb0a78a5362eb96",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas."
+ },
+ {
+  "k": "c1510d802fc0f095",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "A Riot não descreve a moeda do jogo como simples meio de troca neutro. Ela a trata como parte de um circuito fechado, cuja equivalência pode ser recalibrada de modo unilateral. O termo admite que, “às vezes”, a empresa pode alterar o poder de compra da Moeda do Jogo, inclusive aumentando o número de moedas necessárias para adquirir produtos virtuais como skins, e coloca esse movimento sob a promessa genérica de aviso e de progressividade <1>Riot Games</1><2>(Riot Games, 2024e)</2>. <3>(p. 176)</3>"
+ },
+ {
+  "k": "97e85ca34060f1bb",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "A empresa que vende a moeda é a mesma que fixa os preços lá dentro, e por isso a mudança precisa ser vista com cuidado."
+ },
+ {
+  "k": "5787a216c9b5cdda",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "O que se observa, porém, no consumo imaterial governado por plataforma, é uma inversão de lógica. O fornecedor não se limita a competir dentro de um mercado. Ele desenha o próprio mundo de referência em que o consumo ocorre, controla catálogo, visibilidade, regras de circulação, unidade prática de conta e condições de permanência, e então passa a exercer, simultaneamente, funções análogas às de mercado e às de autoridade normativa, definindo por conta própria o patamar de preços e o ritmo de inflação interna. <1>(p. 179)</1>"
+ },
+ {
+  "k": "158e7afd99b135e6",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "Cada moeda funciona como um idioma próprio, e quem precisa traduzir tudo é você."
+ },
+ {
+  "k": "18d84816a57ecbe4",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "O consumidor deixa de lidar com um preço que pode ser comparado e auditado em linha reta, e passa a lidar com múltiplas gramáticas internas que exigem leitura situacional, porque cada moeda “fala” um idioma diferente. <1>(p. 397)</1>"
  },
  {
   "k": "13cd7b9aca1cddd1",
@@ -390,9 +1240,9 @@
   "pt": "Que registros mostram quanto a sua moeda valia?"
  },
  {
-  "k": "6440c06933d2e9fb",
+  "k": "e8f0cc8aa76f4cbe",
   "pagina": "problemas/moeda/index.html",
-  "pt": "Vale guardar quanto você pagou em reais por cada pacote, o saldo que tinha e o preço em moedas dos itens que importam, antes e depois da mudança. O aviso da empresa também merece ficar guardado, porque o contrato de um grande jogo promete avisar quando uma mudança afetar a moeda de forma negativa e significativa."
+  "pt": "O essencial é registrar quanto você pagou em reais por cada pacote, o saldo que tinha e o preço em moedas dos itens que importam, antes e depois da mudança. O aviso da empresa também merece ficar guardado, porque o contrato de um grande jogo promete avisar quando uma mudança afetar a moeda de forma negativa e significativa."
  },
  {
   "k": "5b727bf018862ec2",
@@ -435,14 +1285,14 @@
   "pt": "A quem recorrer quando a mudança na moeda atinge todo mundo?"
  },
  {
-  "k": "884b1e9562500a2d",
+  "k": "b026c30b71648f86",
   "pagina": "problemas/moeda/index.html",
-  "pt": "O primeiro passo costuma ser a própria empresa. O contrato que diz que a moeda não é reembolsável abre exceção para quando os seus direitos de consumidor garantem o reembolso. Por isso a resposta não para no que está escrito ali."
+  "pt": "Antes de tudo, a reclamação vai à própria empresa. O contrato que diz que a moeda não é reembolsável abre exceção para quando os seus direitos de consumidor garantem o reembolso. Por isso a resposta não para no que está escrito ali."
  },
  {
-  "k": "1cce39ad8832d867",
+  "k": "6b92aca5cbdda7b4",
   "pagina": "problemas/moeda/index.html",
-  "pt": "Uma mudança na moeda atinge ao mesmo tempo todos os que têm saldo. Por isso é o tipo de caso que pode ir ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta. Nesses casos a resposta pode mirar a regra inteira, e não só o seu saldo."
+  "pt": "Uma mudança na moeda atinge ao mesmo tempo todos os que têm saldo. Por isso é o tipo de caso que pode ir ao Procon, à Defensoria ou ao Ministério Público. Nesses casos a resposta pode mirar a regra inteira, e não só o seu saldo."
  },
  {
   "k": "3509e1bb0836c89e",
@@ -495,14 +1345,29 @@
   "pt": "<1>A moeda do serviço passou a comprar menos. Isso é permitido?</1>"
  },
  {
-  "k": "542a5cae196a0230",
+  "k": "4e16cc71af79b33c",
   "pagina": "problemas/moeda/index.html",
-  "pt": "ANDRADE, Victor L. P. A moeda do serviço passou a comprar menos. Isso é permitido?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/moeda/"
+  "pt": "ANDRADE, Victor L. P. A moeda do serviço passou a comprar menos. Isso é permitido? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/moeda/"
  },
  {
   "k": "7fccc2cf64ba0b85",
   "pagina": "problemas/moeda/index.html",
   "pt": "Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas. A…"
+ },
+ {
+  "k": "8ac82e700c6e8f6e",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "1. Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas."
+ },
+ {
+  "k": "fbf93a7aaa0d879f",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "2. A empresa que vende a moeda é a mesma que fixa os preços lá dentro, e por isso a mudança precisa ser vista com cuidado."
+ },
+ {
+  "k": "8bfc4771e078f816",
+  "pagina": "problemas/moeda/index.html",
+  "pt": "3. Cada moeda funciona como um idioma próprio, e quem precisa traduzir tudo é você."
  },
  {
   "k": "dfa09ee0cce2b68a",
@@ -513,6 +1378,11 @@
   "k": "b5fb7fc23af9d5ea",
   "pagina": "problemas/muita-gente/index.html",
   "pt": "Aconteceu com muita gente. Dá para resolver de uma vez? · Lex Plataformae"
+ },
+ {
+  "k": "4daca41bbdf98cfd",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "ecb09737429fa58f",
@@ -530,6 +1400,36 @@
   "pt": "Em ambientes de plataforma, a fonte lesiva pode residir no próprio desenho do regime de fornecimento, de modo que a unidade do problema não decorre primariamente da repetição empírica de episódios, mas da permanência de uma estrutura única, reiterável e funcionalmente expansiva de produção de perda, opacidade e assimetria. A lesão, então, não é apenas plural. É arquitetural.<1>p. 774</1>"
  },
  {
+  "k": "df4a1c20fe0d257e",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "O mesmo problema atingiu muita gente no mesmo serviço, e cada pessoa ficou do seu lado, achando que foi azar."
+ },
+ {
+  "k": "29f4dbfe20abcbaa",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "O atingimento não é homogêneo em todos os seus efeitos, mas é comum em sua matriz. <1>(p. 776)</1>"
+ },
+ {
+  "k": "11a5dcdf0783d6fc",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "Os casos não precisam ser iguais, porque o que se repete é a fonte do problema."
+ },
+ {
+  "k": "5d5d9290b960d2b2",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "A tutela coletiva se justifica quando a fonte lesiva permanece unitária, reiterável e incorporada ao funcionamento ordinário da plataforma. <1>(p. 774)</1>"
+ },
+ {
+  "k": "3ab5f0cf7f5aa799",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "O sinal é uma origem única, que se repete e faz parte do jeito normal de o serviço funcionar."
+ },
+ {
+  "k": "82396f74baac656b",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "Em ambientes de plataforma, a fonte lesiva pode residir no próprio desenho do regime de fornecimento, de modo que a unidade do problema não decorre primariamente da repetição empírica de episódios, mas da permanência de uma estrutura única, reiterável e funcionalmente expansiva de produção de perda, opacidade e assimetria. A lesão, então, não é apenas plural. É arquitetural. <1>(p. 774)</1>"
+ },
+ {
   "k": "dc6afdbd4b392132",
   "pagina": "problemas/muita-gente/index.html",
   "pt": "Como saber se o problema vem do desenho e não de cada caso?"
@@ -540,9 +1440,9 @@
   "pt": "O sinal é uma origem única, que se repete e faz parte do jeito normal de o serviço funcionar. Os casos não precisam ser iguais, porque o que se repete é a fonte do problema."
  },
  {
-  "k": "d3d516854cdd1b01",
+  "k": "f8aec44ad4126164",
   "pagina": "problemas/muita-gente/index.html",
-  "pt": "O ranking é a ordem em que a plataforma mostra ofertas ou pessoas. Alguns exemplos são uma política de punição sem clareza, mudanças que não deixam rastro e um ranking que decide tudo sem histórico que dê para usar. Também entram a tela que esconde o essencial no meio de informação demais e o atendimento que absorve a reclamação antes de ela virar conflito."
+  "pt": "O ranking é a ordem em que a plataforma mostra ofertas ou pessoas. Alguns exemplos são uma política de punição sem clareza, mudanças que não deixam rastro e um ranking que decide tudo sem histórico utilizável. Também entram a tela que esconde o essencial no meio de informação demais e o atendimento que absorve a reclamação antes de ela virar conflito."
  },
  {
   "k": "a8adea7511925a7b",
@@ -585,9 +1485,9 @@
   "pt": "O que uma resposta coletiva pode pedir que um caso sozinho não alcança?"
  },
  {
-  "k": "a90d9345b713ff2f",
+  "k": "314427db8bebd99a",
   "pagina": "problemas/muita-gente/index.html",
-  "pt": "A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo que dê para conferir nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking."
+  "pt": "A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo verificável nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking."
  },
  {
   "k": "831c2a7b68e4d810",
@@ -660,19 +1560,44 @@
   "pt": "<1>Quando muita gente atingida não basta para uma resposta coletiva?</1>"
  },
  {
+  "k": "3c79db7dcc1dda25",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "<1>Os registros estão com a empresa. Como eu provo o que aconteceu?</1>"
+ },
+ {
+  "k": "262f5c28ef978f42",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "<1>Reclamo, e a resposta nunca resolve. O que fazer?</1>"
+ },
+ {
   "k": "12619d4dcc8acb9e",
   "pagina": "problemas/muita-gente/index.html",
   "pt": "<1>Aconteceu com muita gente. Dá para resolver de uma vez?</1>"
  },
  {
-  "k": "5cdd202b7cc9b7fc",
+  "k": "739915aa0ed24cd4",
   "pagina": "problemas/muita-gente/index.html",
-  "pt": "ANDRADE, Victor L. P. Aconteceu com muita gente. Dá para resolver de uma vez?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/muita-gente/"
+  "pt": "ANDRADE, Victor L. P. Aconteceu com muita gente. Dá para resolver de uma vez? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/muita-gente/"
  },
  {
   "k": "1498ca881fc03f77",
   "pagina": "problemas/muita-gente/index.html",
   "pt": "O mesmo problema atingiu muita gente no mesmo serviço, e cada pessoa ficou do seu lado, achando que foi azar. Quando a perda nasce do próprio desenho do…"
+ },
+ {
+  "k": "fe6a03dc7701bde5",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "1. O mesmo problema atingiu muita gente no mesmo serviço, e cada pessoa ficou do seu lado, achando que foi azar."
+ },
+ {
+  "k": "23e6f8922b6444d3",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "2. Os casos não precisam ser iguais, porque o que se repete é a fonte do problema."
+ },
+ {
+  "k": "a1f542fb379bb1b3",
+  "pagina": "problemas/muita-gente/index.html",
+  "pt": "3. O sinal é uma origem única, que se repete e faz parte do jeito normal de o serviço funcionar."
  },
  {
   "k": "40569e4b220cd818",
@@ -685,6 +1610,11 @@
   "pt": "Um item que recebi de presente foi retirado da minha conta. E agora? · Lex Plataformae"
  },
  {
+  "k": "38bbca02784a2bd7",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "d860557976a97d8d",
   "pagina": "problemas/presente-retirado/index.html",
   "pt": "<1>Um item que recebi de presente foi retirado da minha conta.</1> <2>E agora?</2>"
@@ -693,6 +1623,36 @@
   "k": "c89ab9396c965e57",
   "pagina": "problemas/presente-retirado/index.html",
   "pt": "Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho. Quando a fraude passa por uma função que a própria empresa oferece, o risco faz parte do negócio dela e não pode cair inteiro sobre quem recebeu de boa-fé."
+ },
+ {
+  "k": "a29f709d8f2a6681",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho."
+ },
+ {
+  "k": "bb1b72d2f066e020",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "A segunda camada é a do risco operacional já conhecido pela fornecedora. A Riot mantém, em mais de um título de seu portfólio, orientação específica para hipóteses de cobrança não autorizada, fraude financeira e contestação posterior de transações. Essas comunicações demonstram que o problema de chargeback e uso indevido de meios de pagamento não era fato externo, extraordinário ou imprevisível. Tratava-se de risco operacional reconhecido institucionalmente, com fluxos internos de apuração, reembolso e suspensão. <1>(p. 610)</1>"
+ },
+ {
+  "k": "55885f8fd4447af3",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "O que costuma estar por trás é o chargeback, que acontece quando alguém contesta a compra no cartão e o banco desfaz o pagamento."
+ },
+ {
+  "k": "b39922b5ec53e2f8",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "Em política oficial específica, a empresa declara que a reversão bancária autoriza suspensão da Conta Riot até ressarcimento integral, podendo inclusive ensejar banimento permanente em caso de recorrência, e estende o efeito sancionatório também às operações de presente, alcançando não apenas quem enviou, mas também quem recebeu o conteúdo. <1>(p. 612)</1>"
+ },
+ {
+  "k": "dcfe57ab8dbb1d0f",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "Conta muito saber se a função era oficial."
+ },
+ {
+  "k": "ad1aa91291aa77ad",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "A função de presentes não operava à margem da plataforma, nem constituía prática clandestina ou intrinsecamente desviada. Ao contrário, a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio. <1>(p. 610)</1>"
  },
  {
   "k": "33df99516ac197ef",
@@ -715,9 +1675,9 @@
   "pt": "Conta muito saber se a função era oficial. Num caso concreto, mandar presentes era uma função regular, dentro do jogo e com regras e limites, de modo que a confiança de quem recebia foi criada pela própria empresa."
  },
  {
-  "k": "f252eed9f8f1e7c2",
+  "k": "777ccb83eb6101c8",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo seguro e vantajoso, e ninguém deixava claro o que era oficial, tolerado ou proibido. Por isso não dá para presumir que qualquer pessoa saberia separar a revenda legítima da fraude com cartão clonado."
+  "pt": "Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo seguro e vantajoso, e ninguém deixava claro o que era oficial, tolerado ou proibido. Por isso não se pode presumir que qualquer pessoa saberia separar a revenda legítima da fraude com cartão clonado."
  },
  {
   "k": "771a1a3203b78593",
@@ -770,9 +1730,9 @@
   "pt": "O episódio mostra como a plataforma, ao operar reversão ampla do estado da conta, transfere ao jogador o encargo quase arqueológico de reconstituir item por item aquilo que já fazia parte de sua esfera de fruição.<1>p. 616</1>"
  },
  {
-  "k": "1e73bc7b1494e91c",
+  "k": "783b6cb8ddad7ed8",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "A linguagem empregada nesses ambientes mimetizava legitimidade comercial, profissionalismo visual, integração funcional posterior com o client oficial, promessas plausíveis de economia e retórica de segurança.<1>p. 612</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 612</2>"
  },
  {
   "k": "ecb07d66c7a10339",
@@ -780,9 +1740,9 @@
   "pt": "A quinta é a de assimetria probatória, com necessidade de preservação de trilhas, históricos de transação, origem dos itens removidos, critérios utilizados para rollback e justificativa individualizada das medidas adotadas.<1>p. 617</1>"
  },
  {
-  "k": "94067ad2f7261b25",
+  "k": "3ad9f58c71516131",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "O que dá para pedir de volta?"
+  "pt": "O que se pode pedir de volta?"
  },
  {
   "k": "0b61a5bb2e94d808",
@@ -790,9 +1750,9 @@
   "pt": "Quando nenhuma prova individual e consistente afasta a sua boa-fé, o pedido pode ser que os itens retirados voltem e que a sua conta seja recomposta. Também cabe pedir que a empresa guarde e mostre os registros e explique por que a medida atingiu você em particular."
  },
  {
-  "k": "f63fa9cb0a0b715b",
+  "k": "4f296d9fbc8d4db8",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "O pedido pode incluir ainda que a empresa informe com clareza onde dá para comprar com segurança e que deixe de aplicar regras que jogam todo o risco da fraude sobre quem compra."
+  "pt": "O pedido pode incluir ainda que a empresa informe com clareza onde se pode comprar com segurança e que deixe de aplicar regras que jogam todo o risco da fraude sobre quem compra."
  },
  {
   "k": "a84ed436e3fbf1e3",
@@ -815,9 +1775,9 @@
   "pt": "A quem levar o caso quando muita gente perdeu presentes ao mesmo tempo?"
  },
  {
-  "k": "db3851dc891a5427",
+  "k": "a04e7ffdf0a6c015",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha."
+  "pt": "O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o Procon, o Consumidor.gov.br e o Juizado são os caminhos seguintes."
  },
  {
   "k": "93350b3a533435ca",
@@ -850,14 +1810,19 @@
   "pt": "A devolução depende de a sua boa-fé não ter sido afastada por uma prova individual e consistente."
  },
  {
-  "k": "e73f7a13a865556f",
+  "k": "52aac7e8b6faeed3",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "Relatos de outros jogadores ajudam a mostrar o quadro, mas sozinhos não provam o que houve. E pedir não é o mesmo que conseguir, porque cada caso depende do que dá para mostrar."
+  "pt": "Relatos de outros jogadores ajudam a mostrar o quadro, mas sozinhos não provam o que houve. E pedir não é o mesmo que conseguir, porque cada caso depende do que se consegue provar."
  },
  {
-  "k": "d4a676dc98d1e65a",
+  "k": "a143f531096137f9",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta<1>p. 617</1>"
+  "pt": "<1>Trecho já citado acima</1><2>p. 611</2>"
+ },
+ {
+  "k": "36ea8f4b1396c28c",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 617</2>"
  },
  {
   "k": "3d88dae274d2837a",
@@ -870,9 +1835,9 @@
   "pt": "<1>O que ajuda a provar de onde veio cada item?</1>"
  },
  {
-  "k": "2fb0accd36102026",
+  "k": "3b9c33ef06737ad8",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "<1>O que dá para pedir de volta?</1>"
+  "pt": "<1>O que se pode pedir de volta?</1>"
  },
  {
   "k": "7cd8296a255f9a5b",
@@ -890,14 +1855,29 @@
   "pt": "<1>Um item que recebi de presente foi retirado da minha conta. E agora?</1>"
  },
  {
-  "k": "39cbfc91780416cd",
+  "k": "2a0c148381ddb28a",
   "pagina": "problemas/presente-retirado/index.html",
-  "pt": "ANDRADE, Victor L. P. Um item que recebi de presente foi retirado da minha conta. E agora?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/presente-retirado/"
+  "pt": "ANDRADE, Victor L. P. Um item que recebi de presente foi retirado da minha conta. E agora? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/presente-retirado/"
  },
  {
   "k": "5ae296813741194a",
   "pagina": "problemas/presente-retirado/index.html",
   "pt": "Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho. Quando a fraude…"
+ },
+ {
+  "k": "de1dbaea90b7b239",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "1. Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho."
+ },
+ {
+  "k": "29334a00612b528b",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "2. O que costuma estar por trás é o chargeback, que acontece quando alguém contesta a compra no cartão e o banco desfaz o pagamento."
+ },
+ {
+  "k": "7b79d8713406fe6b",
+  "pagina": "problemas/presente-retirado/index.html",
+  "pt": "3. Conta muito saber se a função era oficial."
  },
  {
   "k": "d362f7e1be254ee8",
@@ -908,6 +1888,11 @@
   "k": "491e2a8ba93251a4",
   "pagina": "problemas/pressa/index.html",
   "pt": "A oferta dizia última chance. Fui pressionado a comprar? · Lex Plataformae"
+ },
+ {
+  "k": "dc11ea4ac063fb44",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "b79fe161ab14c16b",
@@ -925,6 +1910,36 @@
   "pt": "A primeira família dessas técnicas é a da escassez artificial e da urgência fabricada. Seu mecanismo é conhecido. Janelas curtas, rotação acelerada de ofertas, contadores regressivos, “edições limitadas”, eventos efêmeros e benefícios temporários são usados para deslocar a decisão do campo da comparação racional para o da resposta reativa.<1>p. 670</1>"
  },
  {
+  "k": "2079831b4eca74e9",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "A contagem regressiva, a edição limitada ou o aviso de que o item ia sumir fizeram você decidir depressa, talvez antes de entender tudo o que estava comprando."
+ },
+ {
+  "k": "198b9cfbad20ebc1",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "A primeira família dessas técnicas é a da escassez artificial e da urgência fabricada. Seu mecanismo é conhecido. Janelas curtas, rotação acelerada de ofertas, contadores regressivos, “edições limitadas”, eventos efêmeros e benefícios temporários são usados para deslocar a decisão do campo da comparação racional para o da resposta reativa. <1>(p. 670)</1>"
+ },
+ {
+  "k": "7d8d01a30f854c59",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "Um item digital poderia ser vendido a todo mundo, a qualquer hora, sem acabar."
+ },
+ {
+  "k": "92a4697976be3c6b",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "Em objetos digitais, o custo marginal de reprodução tende a cair drasticamente e, em tese, a disponibilidade poderia expandir-se sem exigir capacidade produtiva comparável à fábrica, à logística e à extração de insumos. Por isso, quando se observa nesses mercados um regime persistente de indisponibilidade, exclusividade e última chance, não se está diante de condição natural do objeto, mas de escolha institucional deliberada, de modo que a escassez não aparece como fato, mas como projeto <1>(p. 209)</1>"
+ },
+ {
+  "k": "eb37d218c4cab3e5",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam num canto."
+ },
+ {
+  "k": "e02b3ab77ef94450",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "O fornecedor enfatiza urgência, benefício, raridade ou prestígio, mas relega a condições laterais aquilo que realmente define a substância da fruição, como limitações relevantes de uso, mutabilidade ordinária do objeto, parâmetros de equivalência, perdas possíveis, janelas restritas de aproveitamento, exigências adicionais para concretização da promessa ou condições específicas para manutenção do valor anunciado. <1>(p. 631)</1>"
+ },
+ {
   "k": "ce75753dbe5c066e",
   "pagina": "problemas/pressa/index.html",
   "pt": "Como saber se a pressa foi fabricada?"
@@ -940,9 +1955,9 @@
   "pt": "A pressa também pode vir em série, com passes, metas por prazo, eventos em etapas e recompensas que dependem de voltar sempre. Nesse arranjo, desistir deixa de ser só parar e passa a significar perder o que você acumulou e cair de posição diante dos outros."
  },
  {
-  "k": "b2ded0fcd61cd9cd",
+  "k": "303938765a14587d",
   "pagina": "problemas/pressa/index.html",
-  "pt": "O sinal mais forte é a combinação. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam num canto. E você não precisa provar que alguém quis apressar você."
+  "pt": "O sinal mais forte é a combinação. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam em segundo plano. E você não precisa provar que alguém quis apressar você."
  },
  {
   "k": "6db5b73e974b8aa4",
@@ -960,19 +1975,24 @@
   "pt": "O fornecedor enfatiza urgência, benefício, raridade ou prestígio, mas relega a condições laterais aquilo que realmente define a substância da fruição, como limitações relevantes de uso, mutabilidade ordinária do objeto, parâmetros de equivalência, perdas possíveis, janelas restritas de aproveitamento, exigências adicionais para concretização da promessa ou condições específicas para manutenção do valor anunciado.<1>p. 631</1>"
  },
  {
+  "k": "e301b0da3fe81ceb",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada.<1>p. 732</1>"
+ },
+ {
   "k": "897b595fceba97f5",
   "pagina": "problemas/pressa/index.html",
   "pt": "Que telas mostram a pressa depois que a oferta acabou?"
  },
  {
-  "k": "be70b78cd9b9d4f3",
+  "k": "41d9ef971ee203da",
   "pagina": "problemas/pressa/index.html",
-  "pt": "Vale guardar a tela com o tempo restante, o aviso de edição limitada e a oferta do jeito que aparecia, com data. Também ajuda anotar quando a mesma campanha ou a mesma última chance voltou, porque a repetição mostra que a urgência era rotina da loja."
+  "pt": "Convém registrar a tela com o tempo restante, o aviso de edição limitada e a oferta do jeito que aparecia, com data. Também ajuda anotar quando a mesma campanha ou a mesma última chance voltou, porque a repetição mostra que a urgência era rotina da loja."
  },
  {
-  "k": "ce5319e6e66a754c",
+  "k": "e90d8073625535b0",
   "pagina": "problemas/pressa/index.html",
-  "pt": "Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncios do que viria e as mudanças feitas no meio do caminho. Com eles dá para comparar a promessa do começo com o que foi entregue no fim."
+  "pt": "Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncios do que viria e as mudanças feitas no meio do caminho. Com eles se compara a promessa do começo com o que foi entregue no fim."
  },
  {
   "k": "8b4b3b22a1f723cd",
@@ -980,14 +2000,14 @@
   "pt": "O sinal mínimo de prova, aqui, não depende de intuição sobre manipulação. Ele aparece em telas de tempo restante, em histórico de repetição de campanhas temporárias, em rotação programada de ofertas e na própria arquitetura visual que antecipa benefício e posterga condição relevante.<1>p. 670</1>"
  },
  {
-  "k": "9763bd98aa42d805",
+  "k": "178ce289d48c6b5b",
   "pagina": "problemas/pressa/index.html",
-  "pt": "O que dá para pedir quando a compra foi empurrada pela pressa?"
+  "pt": "O que pedir quando a compra foi empurrada pela pressa?"
  },
  {
-  "k": "8c1b5a98f7b7ac63",
+  "k": "1608c781e2ad2a41",
   "pagina": "problemas/pressa/index.html",
-  "pt": "O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito que dê para comparar e no momento certo."
+  "pt": "O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito comparável e no momento certo."
  },
  {
   "k": "133c1990ae6df20f",
@@ -1015,9 +2035,9 @@
   "pt": "A própria empresa é o primeiro endereço, com as telas guardadas, para pedir a informação que faltou ou a correção da oferta."
  },
  {
-  "k": "982512dafdc21beb",
+  "k": "40ed2c872ab404f2",
   "pagina": "problemas/pressa/index.html",
-  "pt": "Se ela não resolve, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela se presta à resposta coletiva, por ação coletiva ou por órgãos públicos de defesa do consumidor."
+  "pt": "Se ela não resolve, vale levar o caso ao Procon, ao Consumidor.gov.br ou ao Juizado. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela pede resposta para todos, seja por ação coletiva, seja pelos órgãos públicos de defesa do consumidor."
  },
  {
   "k": "639c119917059d0a",
@@ -1055,9 +2075,9 @@
   "pt": "<1>Que telas mostram a pressa depois que a oferta acabou?</1>"
  },
  {
-  "k": "f00ec0d93aa877f4",
+  "k": "50446848957a692f",
   "pagina": "problemas/pressa/index.html",
-  "pt": "<1>O que dá para pedir quando a compra foi empurrada pela pressa?</1>"
+  "pt": "<1>O que pedir quando a compra foi empurrada pela pressa?</1>"
  },
  {
   "k": "cac63b954d18ff9d",
@@ -1075,14 +2095,29 @@
   "pt": "<1>A oferta dizia última chance. Fui pressionado a comprar?</1>"
  },
  {
-  "k": "89658200d379537a",
+  "k": "14e6888066cb1a83",
   "pagina": "problemas/pressa/index.html",
-  "pt": "ANDRADE, Victor L. P. A oferta dizia última chance. Fui pressionado a comprar?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/pressa/"
+  "pt": "ANDRADE, Victor L. P. A oferta dizia última chance. Fui pressionado a comprar? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/pressa/"
  },
  {
   "k": "37d7fc2d6a91eb2c",
   "pagina": "problemas/pressa/index.html",
   "pt": "A contagem regressiva, a edição limitada ou o aviso de que o item ia sumir fizeram você decidir depressa, talvez antes de entender tudo o que estava…"
+ },
+ {
+  "k": "d74e8e83e738881c",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "1. A contagem regressiva, a edição limitada ou o aviso de que o item ia sumir fizeram você decidir depressa, talvez antes de entender tudo o que estava comprando."
+ },
+ {
+  "k": "2404bc7beefa70c6",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "2. Um item digital poderia ser vendido a todo mundo, a qualquer hora, sem acabar."
+ },
+ {
+  "k": "0deb77490b9f1856",
+  "pagina": "problemas/pressa/index.html",
+  "pt": "3. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam num canto."
  },
  {
   "k": "87d5c287ce5da4d6",
@@ -1095,6 +2130,11 @@
   "pt": "O serviço exige um programa que roda no meu aparelho. Posso questionar? · Lex Plataformae"
  },
  {
+  "k": "e51ae1889fe1e14e",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "5e1a9b773f62f6be",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "<1>O serviço exige um programa que roda no meu aparelho.</1> <2>Posso questionar?</2>"
@@ -1105,9 +2145,44 @@
   "pt": "Alguns serviços só funcionam se você instalar um programa que roda no fundo do seu computador e liga junto com ele, mesmo com o jogo fechado. Combater trapaça é legítimo, mas a palavra segurança não encerra a discussão sobre até onde a empresa pode mandar na sua máquina."
  },
  {
+  "k": "ca499aa40224699f",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "O que está em jogo é a redefinição das fronteiras materiais de soberania do usuário sobre seu próprio equipamento.<1>p. 521</1>"
+ },
+ {
   "k": "530012d00def2616",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "A soberania privada da plataforma, em outras palavras, deixa de governar apenas o jogo e começa a disputar as condições mínimas de confiabilidade da própria máquina do usuário. Sob o vocabulário da segurança, essa expansão costuma aparecer como se fosse simples inevitabilidade técnica. Mas o discurso da segurança não neutraliza, por si só, a relevância jurídica da arquitetura adotada.<1>p. 522</1>"
+ },
+ {
+  "k": "45f8c0c63e90ec1a",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "Combater trapaça é legítimo, mas a palavra segurança não encerra a discussão sobre até onde a empresa pode mandar na sua máquina."
+ },
+ {
+  "k": "9b7b21504ea1a530",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "A soberania privada da plataforma, em outras palavras, deixa de governar apenas o jogo e começa a disputar as condições mínimas de confiabilidade da própria máquina do usuário. Sob o vocabulário da segurança, essa expansão costuma aparecer como se fosse simples inevitabilidade técnica. Mas o discurso da segurança não neutraliza, por si só, a relevância jurídica da arquitetura adotada. <1>(p. 522)</1>"
+ },
+ {
+  "k": "1c6315fdabb8807f",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "Ele liga quando o computador liga, e a empresa pode impedir o jogo se ele for desligado ou removido."
+ },
+ {
+  "k": "31ff290e52633a40",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "Quando a proteção do ambiente concorrencial do OIC passa a depender de software carregado em nível de kernel, isto é, na camada mais profunda e privilegiada do sistema operacional <1>(p. 521)</1>"
+ },
+ {
+  "k": "4cf0a1ae5ab3b80c",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "A pergunta é se esse interesse basta para a empresa ganhar tanto poder sobre o seu equipamento sem um controle mais forte."
+ },
+ {
+  "k": "74316c7b154a03aa",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "O problema passa a ser de proporcionalidade, necessidade, transparência e justificabilidade do grau de ingerência técnica exigido do consumidor. <1>(p. 523)</1>"
  },
  {
   "k": "ce0be483cefdf18e",
@@ -1140,6 +2215,11 @@
   "pt": "Os Termos de Serviço da Riot não só admitem monitoramento ativo no dispositivo do usuário e execução de software antitrapaça em segundo plano, como também reservam à empresa o poder de alterar, atualizar, restringir recursos, exigir software e atualizações compulsórias, redistribuir ao usuário os custos de adequação técnica e limitar sua própria exposição patrimonial.<1>p. 526</1>"
  },
  {
+  "k": "38abb5d51caf3b3a",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "A própria Riot, em documentos voltados a desenvolvedores e a usuários de VALORANT, admite que o Vanguard pode bloquear aplicações de terceiros, exigir alterações sensíveis em BIOS ou UEFI, impor habilitação de TPM 2.0, Secure Boot, IOMMU, integridade de memória e outras camadas de segurança, além de reconhecer que mudanças incorretas nessas configurações podem causar problemas sérios no computador.<1>p. 526-527</1>"
+ },
+ {
   "k": "c0720731d4951403",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "A questão jurídica séria nunca foi se existe interesse legítimo em preservar a integridade competitiva; claro que existe. A questão é outra: se esse interesse basta para autorizar, sem controle reforçado, a expansão do poder técnico do fornecedor sobre a base material do equipamento do consumidor.<1>p. 532</1>"
@@ -1160,14 +2240,19 @@
   "pt": "Se o computador começar a travar, ajudam os registros de falha que o próprio sistema gera. Num caso relatado, foi pela leitura desses registros que o usuário associou as falhas ao programa."
  },
  {
+  "k": "5f51d0170c485eee",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "<1>Trecho já citado acima</1><2>p. 526</2>"
+ },
+ {
   "k": "ab0e62306ea6974d",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "Em um dos casos, o usuário relata BSOD recorrente e associa o problema ao arquivo vgk.sys, isto é, ao driver de baixo nível vinculado ao Vanguard, com base na leitura dos próprios minidumps do sistema<1>p. 529</1>"
  },
  {
-  "k": "975a4227a92431ea",
+  "k": "1da957fbf3c38c88",
   "pagina": "problemas/programa-no-aparelho/index.html",
-  "pt": "O que dá para exigir da empresa sobre esse programa?"
+  "pt": "O que se pode exigir da empresa sobre esse programa?"
  },
  {
   "k": "56398d1f622191b2",
@@ -1215,9 +2300,9 @@
   "pt": "O primeiro pedido de informação vai à própria empresa, que deve dizer de forma clara o alcance do programa, os riscos e quem trata os seus dados, sem se esconder atrás da palavra segurança."
  },
  {
-  "k": "78135e679f325821",
+  "k": "faaee70a205ef617",
   "pagina": "problemas/programa-no-aparelho/index.html",
-  "pt": "Se ela não responder ou se o programa causar prejuízo ao seu equipamento, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha."
+  "pt": "Se ela não responder ou se o programa causar prejuízo ao seu equipamento, há o Procon, o Consumidor.gov.br e o Juizado."
  },
  {
   "k": "1ceaf5ea79532020",
@@ -1250,6 +2335,16 @@
   "pt": "Também não se pede que a empresa abra o código do programa. O que se discute é se o grau de acesso exigido é proporcional, necessário, transparente e justificável."
  },
  {
+  "k": "ec349ec8b0789916",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "O ponto aqui não é afirmar automaticamente a ilicitude total do anti-cheat em kernel, mas recusar sua imunização jurídica.<1>p. 533</1>"
+ },
+ {
+  "k": "d6aa4cbda916671b",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "Não se trata de negar a legitimidade do combate a fraudes, mas de negar que essa legitimidade autorize, por si só, governança técnica profunda, preventiva, persistente e opaca sobre a máquina alheia.<1>p. 534</1>"
+ },
+ {
   "k": "a4b2ed9b419733ac",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "Mesmo os relatos mais extremos de possível bricking ou perda severa de disponibilidade do equipamento têm utilidade ilustrativa para o argumento, ainda que não autorizem afirmações periciais conclusivas. Seu valor está em mostrar como o risco irradiado ao hardware integra a recepção empírica do caso e conversa diretamente com a tese de que a governança do OIC pode ultrapassar o ambiente do jogo e alcançar a própria funcionalidade material da máquina. É a forma-limite do problema. Não a única, nem necessariamente a mais frequente, mas a que torna impossível fingir que estamos só falando de “mais um software do jogo”.<1>p. 531-532</1>"
@@ -1270,9 +2365,9 @@
   "pt": "<1>O que registrar sobre o programa e o seu computador?</1>"
  },
  {
-  "k": "61033a93f9854400",
+  "k": "579389cade06387f",
   "pagina": "problemas/programa-no-aparelho/index.html",
-  "pt": "<1>O que dá para exigir da empresa sobre esse programa?</1>"
+  "pt": "<1>O que se pode exigir da empresa sobre esse programa?</1>"
  },
  {
   "k": "8399ad01cd555bec",
@@ -1290,14 +2385,29 @@
   "pt": "<1>O serviço exige um programa que roda no meu aparelho. Posso questionar?</1>"
  },
  {
-  "k": "36d82520d7d3ef5e",
+  "k": "6ca7a6acad4ea851",
   "pagina": "problemas/programa-no-aparelho/index.html",
-  "pt": "ANDRADE, Victor L. P. O serviço exige um programa que roda no meu aparelho. Posso questionar?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/programa-no-aparelho/"
+  "pt": "ANDRADE, Victor L. P. O serviço exige um programa que roda no meu aparelho. Posso questionar? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/programa-no-aparelho/"
  },
  {
   "k": "1772d3250d65789d",
   "pagina": "problemas/programa-no-aparelho/index.html",
   "pt": "Alguns serviços só funcionam se você instalar um programa que roda no fundo do seu computador e liga junto com ele, mesmo com o jogo fechado. Combater…"
+ },
+ {
+  "k": "74ca68eca0dbb44b",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "1. Combater trapaça é legítimo, mas a palavra segurança não encerra a discussão sobre até onde a empresa pode mandar na sua máquina."
+ },
+ {
+  "k": "954d8f88dfa40f12",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "2. Ele liga quando o computador liga, e a empresa pode impedir o jogo se ele for desligado ou removido."
+ },
+ {
+  "k": "a21743b72f0d2bfe",
+  "pagina": "problemas/programa-no-aparelho/index.html",
+  "pt": "3. A pergunta é se esse interesse basta para a empresa ganhar tanto poder sobre o seu equipamento sem um controle mais forte."
  },
  {
   "k": "4fe77c92f05151d2",
@@ -1310,6 +2420,11 @@
   "pt": "O que foi anunciado não é o que eu recebi. E agora? · Lex Plataformae"
  },
  {
+  "k": "0fd70e0eb0059145",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "<1>English</1>"
+ },
+ {
   "k": "e0b27065f6e00b53",
   "pagina": "problemas/promessa/index.html",
   "pt": "<1>O que foi anunciado não é o que eu recebi.</1> <2>E agora?</2>"
@@ -1318,6 +2433,36 @@
   "k": "eca4d85ad8b6c391",
   "pagina": "problemas/promessa/index.html",
   "pt": "Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso fazia esperar. Quando o anúncio ajudou a formar o que você entendeu que estava comprando, ele passa a fazer parte da oferta, e a diferença entre o prometido e o entregue pode ser cobrada."
+ },
+ {
+  "k": "989f7917e1164b13",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "A oferta é aquilo que a empresa se compromete a entregar quando anuncia."
+ },
+ {
+  "k": "0eb8b60d0422b1d7",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "A promessa juridicamente relevante nem sempre se encontra concentrada em um único enunciado. <1>(p. 725)</1>"
+ },
+ {
+  "k": "4366dae98487e9ea",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso fazia esperar."
+ },
+ {
+  "k": "91860dd1190d2201",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará materialmente a oferta. <1>(p. 744-745)</1>"
+ },
+ {
+  "k": "059538454286deb0",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "Uma frase solta e animada, sem peso na sua decisão, não basta."
+ },
+ {
+  "k": "bafe2366b94ced3a",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "O controle da oferta deve recair sobre o que foi prometido como valor e como função, sobre o que foi ocultado como custo, limitação ou condição de precariedade, e sobre a correspondência entre essa moldura semiótica e a fruição real disponibilizada ao consumidor. <1>(p. 725)</1>"
  },
  {
   "k": "89be3d5e1e92c9d7",
@@ -1365,9 +2510,9 @@
   "pt": "Que provas do anúncio vale salvar antes que ele saia do ar?"
  },
  {
-  "k": "1b62cc42713d6a0a",
+  "k": "90f2c86585b11e07",
   "pagina": "problemas/promessa/index.html",
-  "pt": "Vale guardar as peças de propaganda, as prévias, as telas da loja com o que estava em destaque e as telas de compra e de confirmação, com data. Também ajuda registrar o que aconteceu depois, para comparar a promessa de antes com o que você pôde usar."
+  "pt": "A prova central são as peças de propaganda, as prévias, as telas da loja com o que estava em destaque e as telas de compra e de confirmação, com data. Também ajuda registrar o que aconteceu depois, para comparar a promessa de antes com o que você pôde usar."
  },
  {
   "k": "58ad86d105178413",
@@ -1375,9 +2520,9 @@
   "pt": "Esses registros pesam mais do que a lembrança, porque mostram como o ambiente de venda estava montado. A conversa deixa de ser sobre o que você entendeu e passa a ser sobre o que a tela apresentava."
  },
  {
-  "k": "f6d60b6a0348de99",
+  "k": "4d3ac8431098b32c",
   "pagina": "problemas/promessa/index.html",
-  "pt": "O que dá para exigir quando a entrega ficou abaixo do anúncio?"
+  "pt": "O que se pode exigir quando a entrega ficou abaixo do anúncio?"
  },
  {
   "k": "bcf4b9fd7026f501",
@@ -1415,9 +2560,9 @@
   "pt": "O primeiro endereço costuma ser a própria empresa, com o anúncio e as telas na mão, porque é dela o dever de fazer o que foi prometido bater com o que foi entregue."
  },
  {
-  "k": "d5b85588545e23c0",
+  "k": "b9f956068d73eab8",
   "pagina": "problemas/promessa/index.html",
-  "pt": "Se a empresa não corrige, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor."
+  "pt": "Se a empresa não corrige, a reclamação segue para fora dela, no Procon, no Consumidor.gov.br ou no Juizado. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor."
  },
  {
   "k": "fc899b5d815e1528",
@@ -1450,9 +2595,9 @@
   "pt": "<1>Que provas do anúncio vale salvar antes que ele saia do ar?</1>"
  },
  {
-  "k": "cbc2596436dfbcc9",
+  "k": "71040ca658360ff4",
   "pagina": "problemas/promessa/index.html",
-  "pt": "<1>O que dá para exigir quando a entrega ficou abaixo do anúncio?</1>"
+  "pt": "<1>O que se pode exigir quando a entrega ficou abaixo do anúncio?</1>"
  },
  {
   "k": "976f0de1760cf875",
@@ -1470,14 +2615,29 @@
   "pt": "<1>O que foi anunciado não é o que eu recebi. E agora?</1>"
  },
  {
-  "k": "b16fc979857cf9e3",
+  "k": "f340cc5f3f1e014a",
   "pagina": "problemas/promessa/index.html",
-  "pt": "ANDRADE, Victor L. P. O que foi anunciado não é o que eu recebi. E agora?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/promessa/"
+  "pt": "ANDRADE, Victor L. P. O que foi anunciado não é o que eu recebi. E agora? <1>Lex Plataformae</1>, versão 0.17, 15/11/2026. Disponível em https://lexplataformae.com.br/problemas/promessa/"
  },
  {
   "k": "013ae3064a84f4a5",
   "pagina": "problemas/promessa/index.html",
   "pt": "Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso…"
+ },
+ {
+  "k": "01f5c6986afe7ba2",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "1. A oferta é aquilo que a empresa se compromete a entregar quando anuncia."
+ },
+ {
+  "k": "2915b265cc00af10",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "2. Você comprou depois de ver prévias, contagens regressivas, selos de raridade ou promessas de destaque, e o que chegou depois não corresponde ao que tudo isso fazia esperar."
+ },
+ {
+  "k": "712a0c312add82ca",
+  "pagina": "problemas/promessa/index.html",
+  "pt": "3. Uma frase solta e animada, sem peso na sua decisão, não basta."
  },
  {
   "k": "e8f7a5ad890254e8",
@@ -1488,6 +2648,11 @@
   "k": "8691b46591cc18bd",
   "pagina": "problemas/prova/index.html",
   "pt": "Os registros estão com a empresa. Como eu provo o que aconteceu? · Lex Plataformae"
+ },
+ {
+  "k": "f2ece2a6a1eeb9c0",
+  "pagina": "problemas/prova/index.html",
+  "pt": "<1>English</1>"
  },
  {
   "k": "167ebb5bf5af73e7",
@@ -1508,6 +2673,36 @@
   "k": "e36da07b63a1742b",
   "pagina": "problemas/prova/index.html",
   "pt": "Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido.<1>p. 736</1>"
+ },
+ {
+  "k": "80eb0c6d90d230dd",
+  "pagina": "problemas/prova/index.html",
+  "pt": "Por isso o trabalho de provar pode ser dividido de acordo com o acesso de cada um, sem dispensar você de contar com coerência o que viveu."
+ },
+ {
+  "k": "808c3778d82291c4",
+  "pagina": "problemas/prova/index.html",
+  "pt": "Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. Isso não elimina a necessidade de verossimilhança, de encadeamento argumentativo ou de delimitação do objeto controvertido. <1>(p. 736)</1>"
+ },
+ {
+  "k": "aa817da6f5a225cb",
+  "pagina": "problemas/prova/index.html",
+  "pt": "A empresa sabe o que mostrou a você, quando mostrou, qual versão estava valendo, que transação aconteceu e que regra usou numa punição."
+ },
+ {
+  "k": "1b08dfdafc272a85",
+  "pagina": "problemas/prova/index.html",
+  "pt": "Em OICs, o fornecedor não controla apenas o objeto e o ambiente; controla também a memória institucional do fornecimento. Sabe o que foi mostrado, quando foi mostrado, como foi alterado, qual versão estava vigente, que trilha de interface conduziu à contratação, qual parâmetro foi aplicado numa sanção, que transação ocorreu e em que contexto técnico. Quando todos esses elementos permanecem sob monopólio da plataforma, a governança do serviço torna-se também governança da prova. <1>(p. 658)</1>"
+ },
+ {
+  "k": "0b3c5173d5c5d0cb",
+  "pagina": "problemas/prova/index.html",
+  "pt": "Quando tudo isso fica só com ela, quem controla o serviço passa a controlar também a prova."
+ },
+ {
+  "k": "1ef5840d4b1e3d4d",
+  "pagina": "problemas/prova/index.html",
+  "pt": "Em ambientes de fruição governada, a verificabilidade integra o próprio dever de conformação legítima do vínculo. <1>(p. 735)</1>"
  },
  {
   "k": "6f412754799c8538",
@@ -1590,9 +2785,9 @@
   "pt": "A empresa deve guardar e mostrar os registros mínimos do que aconteceu, e por isso o primeiro pedido pode ir a ela, com a indicação exata do que você quer ver. Quando questionada, cabe a ela mostrar que informou e que agiu dentro do que prometeu."
  },
  {
-  "k": "edca5b86d77c4b5f",
+  "k": "e6333bd011487dbc",
   "pagina": "problemas/prova/index.html",
-  "pt": "As ferramentas mais fortes, como a ordem para mostrar documentos e a divisão diferente do trabalho de provar, funcionam dentro de um processo. Por isso, quando a prova está toda com a empresa, ajuda contar com um advogado ou com a Defensoria, e o Juizado e os outros caminhos estão na página dos canais."
+  "pt": "As ferramentas mais fortes, como a ordem para mostrar documentos e a divisão diferente do trabalho de provar, funcionam dentro de um processo. Por isso, quando a prova está toda com a empresa, ajuda contar com um advogado ou com a Defensoria, e o Juizado também recebe esse tipo de causa."
  },
  {
   "k": "1ab98831d7aa73e4",
@@ -1618,1065 +2813,5 @@
   "k": "45ff6876d47a2376",
   "pagina": "problemas/prova/index.html",
   "pt": "Nada disso dispensa você de contar uma história coerente e plausível e de deixar claro o que está discutindo. O que cai é a ideia de que você e a empresa estão em pé de igualdade para provar."
- },
- {
-  "k": "fb60f8339c2d8429",
-  "pagina": "problemas/prova/index.html",
-  "pt": "A divisão diferente da prova não é automática. Ela responde ao caso concreto e fica mais forte quanto mais os registros estão concentrados com a empresa."
- },
- {
-  "k": "6e614ec3b2f620a9",
-  "pagina": "problemas/prova/index.html",
-  "pt": "E ninguém pede o código inteiro do sistema nem os segredos da empresa. O exame técnico, que se chama perícia, olha só o que mudou e o efeito que isso teve sobre o que você usa."
- },
- {
-  "k": "84a25ee32bed91bb",
-  "pagina": "problemas/prova/index.html",
-  "pt": "Quanto mais intensa a concentração privada de registros, maior a exigência de preservação, de exibição delimitada e de justificação verificável.<1>p. 736</1>"
- },
- {
-  "k": "7102c66c9e54dffd",
-  "pagina": "problemas/prova/index.html",
-  "pt": "O quarto mecanismo é a perícia técnica orientada a impacto funcional, e não a engenharia total do ecossistema.<1>p. 661</1>"
- },
- {
-  "k": "add4638564eb5c49",
-  "pagina": "problemas/prova/index.html",
-  "pt": "arts. 396 a 400 do CPC <1>↩</1>"
- },
- {
-  "k": "f95c6d564b49849d",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>Como saber se a falta de prova não é culpa sua?</1>"
- },
- {
-  "k": "e33819bdc4f42256",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>O que está ao seu alcance e vale a pena guardar desde já?</1>"
- },
- {
-  "k": "ad28cefb02ce497e",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>Como pedir os registros sem cair num pedido vago demais?</1>"
- },
- {
-  "k": "088eb4036e52e361",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>Quem pode ajudar a tirar a prova das mãos da empresa?</1>"
- },
- {
-  "k": "08bd8cdc6a0647b4",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>O que continua sendo tarefa sua?</1>"
- },
- {
-  "k": "07ff6724ad296e61",
-  "pagina": "problemas/prova/index.html",
-  "pt": "<1>Os registros estão com a empresa. Como eu provo o que aconteceu?</1>"
- },
- {
-  "k": "64003f692dc3d8a2",
-  "pagina": "problemas/prova/index.html",
-  "pt": "ANDRADE, Victor L. P. Os registros estão com a empresa. Como eu provo o que aconteceu?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/prova/"
- },
- {
-  "k": "c6364a2b0abf4eaf",
-  "pagina": "problemas/prova/index.html",
-  "pt": "Na maior parte dos conflitos com plataformas, quem guarda os registros do que aconteceu é a empresa, e não você. Por isso o trabalho de provar pode ser…"
- },
- {
-  "k": "1abae234fd2880c1",
-  "pagina": "problemas/prova/index.html",
-  "pt": "Os registros estão com a empresa. Como eu provo o que aconteceu?"
- },
- {
-  "k": "cee4f03fb959f4c7",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Reclamo, e a resposta nunca resolve. O que fazer? · Lex Plataformae"
- },
- {
-  "k": "5f5312f1e7eb6788",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Reclamo, e a resposta nunca resolve.</1> <2>O que fazer?</2>"
- },
- {
-  "k": "b83b0ad9603d66f1",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O atendimento é gentil, responde rápido e pede para aguardar, mas o problema continua, e você acaba deixando para lá. Muitas vezes o conflito é administrado antes de virar reclamação, e o tom cordial não muda o que você perdeu."
- },
- {
-  "k": "bdb04badf58adabc",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Em ecossistemas governados por plataforma, o conflito não começa quando o usuário decide litigar, reclamar ou formalizar inconformidade. Em muitos casos, ele é governado antes disso.<1>p. 780</1>"
- },
- {
-  "k": "ced62f0d10da32bf",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O usuário não está apenas diante de ambiente opaco ou de critérios que não controla. Está diante de ecossistema que produz sinais de inteligibilidade e cuidado suficientes para induzir acomodação, mesmo quando a materialidade da fruição já foi comprometida.<1>p. 782</1>"
- },
- {
-  "k": "09771a80444ff102",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Como saber se o atendimento está resolvendo ou só acalmando?"
- },
- {
-  "k": "0a0999344910c3ff",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Há sinais que se repetem. A resposta parece explicar, mas não diz o que houve, e o tom é de amigo, mas nenhum caminho de contestação se abre."
- },
- {
-  "k": "1b32c50930bf0fcb",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A perda também costuma ser apresentada como ajuste técnico, limitação temporária, medida de segurança ou etapa normal do uso. Num serviço que você usa todo dia, as pequenas frustrações vão sendo absorvidas uma a uma, até a perda parecer parte do normal."
- },
- {
-  "k": "133c667fd11a7c62",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O teste não é se você se sentiu bem atendido. É se o atendimento funciona de um jeito que desvia a leitura da perda e tira força da sua reclamação."
- },
- {
-  "k": "d99d2ee33dccad43",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A plataforma pode, por exemplo, oferecer sensação de transparência sem entregar inteligibilidade real, produzir impressão de escuta sem abrir vias efetivas de contestação, mobilizar tom humano sem assumir deveres proporcionais de motivação ou justificação e distribuir signos de cuidado que funcionam menos como informação adequada e mais como amortecimento semiótico da crítica.<1>p. 782</1>"
- },
- {
-  "k": "3993a940894df629",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A perda deixa de aparecer como evento excepcional e passa a ser metabolizada como parte do normal funcionamento do sistema. O mesmo ocorre com o atrito. Em vez de desencadear prontamente uma leitura de inadequação ou abusividade, ele pode ser reconfigurado pela plataforma como ajuste técnico, limitação temporária, inconveniente compreensível, medida de segurança, atualização necessária ou simples etapa do uso.<1>p. 781</1>"
- },
- {
-  "k": "f1868e95f408c7af",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Que conversas com o atendimento vale a pena guardar?"
- },
- {
-  "k": "dd73a8fe5130e237",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Vale guardar as conversas com o atendimento, as respostas prontas e as justificativas que a empresa deu. Também ajuda anotar as etapas pelas quais você foi levado, como esperar, tentar de novo ou aceitar uma explicação vaga, porque é por elas que se vê como a perda foi conduzida."
- },
- {
-  "k": "1b34dace9631f942",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A evidência compatível com esse subtipo exige reconstrução do ambiente discursivo e procedimental em que a frustração se torna legível ou, ao contrário, é diluída. Isso inclui a análise da linguagem da interface, dos fluxos de atendimento, dos modelos de resposta, das rotinas de explicação, da forma como a plataforma enquadra a perda e das etapas pelas quais o usuário é conduzido a aceitar, esperar, relativizar ou encerrar a inconformidade.<1>p. 782-783</1>"
- },
- {
-  "k": "5b84a24cfcceccf9",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O que pedir para a reclamação sair do lugar?"
- },
- {
-  "k": "b0c5a96a6aea004e",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O pedido pode ser que a empresa explique de forma compreensível o que aconteceu e por quê, com o motivo concreto da decisão. Pode ser também que ela ofereça um caminho de contestação que trate a sua reclamação de verdade, e não só a acalme."
- },
- {
-  "k": "5ffb1d8f4fe0b25f",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A reclamação original continua de pé. Se o problema era a conta, o item ou a cobrança, o pedido sobre ele segue valendo, porque o atendimento que acalma não apaga o conflito."
- },
- {
-  "k": "900670b09ea76d0d",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A resposta jurídica compatível com esse quadro tende a exigir mais do que simples reparação retrospectiva. Pode reclamar correção dos fluxos de atendimento, reforço de inteligibilidade, proibição de rotinas discursivas funcionalmente enganosas, deveres procedimentais de motivação e desenho de vias de contestação que não sirvam apenas para absorver a inconformidade, mas para torná-la efetivamente processável e verificável.<1>p. 783</1>"
- },
- {
-  "k": "e7588400454ef704",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O conflito não desaparece. Ele é governado em sua fase pré-jurídica, por meio de mecanismos que transformam perda em ruído tolerável, opacidade em normalidade e assimetria em experiência absorvível.<1>p. 782</1>"
- },
- {
-  "k": "a79ce741677766b9",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Para onde levar a reclamação quando o atendimento só dá voltas?"
- },
- {
-  "k": "987efe525b117313",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível."
- },
- {
-  "k": "29ac464c46acd76e",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "As conversas guardadas servem ali para mostrar como o atendimento conduziu o caso. E quando o mesmo jeito de responder atinge muita gente, órgãos públicos de defesa do consumidor podem cobrar procedimentos de contestação compreensíveis para todos."
- },
- {
-  "k": "615d4dfe0bf1276f",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "A contestação pode ser adiada, desmobilizada ou dissolvida antes de ganhar forma institucional.<1>p. 782</1>"
- },
- {
-  "k": "3760c95c3f4d1169",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Atendimento gentil é um problema?"
- },
- {
-  "k": "c5cb8e855a8e6c48",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Não. Linguagem simples, atendimento educado e o esforço da empresa para manter uma boa relação com você não são ilegais. O problema começa quando esse jeito de atender passa a fazer parte, de forma estrutural, de um modo de esvaziar os conflitos."
- },
- {
-  "k": "a03a141f47a5858b",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Também não há garantia de que a reclamação vá dar certo. O que muda é que a perda deixa de ser tratada como ruído e volta a ser um problema que pode ser examinado."
- },
- {
-  "k": "9c200960140d02b2",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O problema não está no uso de linguagem acessível, no atendimento polido ou na tentativa legítima de manter relação funcionalmente estável com o usuário. O problema começa quando esses elementos passam a integrar, de forma estrutural, um regime de neutralização prática do conflito.<1>p. 782</1>"
- },
- {
-  "k": "066b52341bca2cbc",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Como saber se o atendimento está resolvendo ou só acalmando?</1>"
- },
- {
-  "k": "82862d7126d80141",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Que conversas com o atendimento vale a pena guardar?</1>"
- },
- {
-  "k": "9e456690ca0f7de0",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>O que pedir para a reclamação sair do lugar?</1>"
- },
- {
-  "k": "6eadeea1efc034b1",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Para onde levar a reclamação quando o atendimento só dá voltas?</1>"
- },
- {
-  "k": "a14ed262b319b855",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Atendimento gentil é um problema?</1>"
- },
- {
-  "k": "b80aee26c4f8b4a5",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "<1>Reclamo, e a resposta nunca resolve. O que fazer?</1>"
- },
- {
-  "k": "7ded0a3fd58ee7ad",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "ANDRADE, Victor L. P. Reclamo, e a resposta nunca resolve. O que fazer?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/reclamacao-some/"
- },
- {
-  "k": "22e7ff97aa346cbf",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "O atendimento é gentil, responde rápido e pede para aguardar, mas o problema continua, e você acaba deixando para lá. Muitas vezes o conflito é administrado…"
- },
- {
-  "k": "7f0e22c124de2913",
-  "pagina": "problemas/reclamacao-some/index.html",
-  "pt": "Reclamo, e a resposta nunca resolve. O que fazer?"
- },
- {
-  "k": "843106506108344e",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir? · Lex Plataformae"
- },
- {
-  "k": "2aa6ecd40c9985ec",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>Meu alcance caiu ou fui punido numa rede social.</1> <2>Tenho o que pedir?</2>"
- },
- {
-  "k": "570038c176ca8ad3",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma. Quando o alcance cai, um conteúdo some ou a conta é punida, a questão pode ir além da publicação e chegar ao jeito como a plataforma governa o que aparece."
- },
- {
-  "k": "2129744262f6c091",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Os Termos de Serviço da Meta descrevem ambiente em que o uso do Facebook se submete a regras privadas de permanência, visibilidade, compartilhamento, moderação e organização do conteúdo circulante, de modo que a experiência do usuário é mediada por critérios internos de distribuição e gestão da interação social <1>FACEBOOK</1><2>(Facebook, [202-?])</2>.<3>p. 762</3>"
- },
- {
-  "k": "3ba2dcb4998a6623",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Como saber se a queda de alcance ou a punição passou do ponto?"
- },
- {
-  "k": "cab64b19fcddc450",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Toda rede ajusta o que aparece, e mudar não é problema por si. Pode haver problema quando a mudança mexe na lógica de visibilidade, nos critérios de reputação ou nas regras de circulação. Isso conta quando ela rebaixa de modo relevante o que a rede oferecia como lugar de alcance e de reconhecimento, sem nada que recomponha a perda."
- },
- {
-  "k": "ba0d79533bb87c04",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Com a punição é parecido. O seu acesso, a sua permanência, a sua visibilidade e a sua chance de reclamar podem depender de punições que ninguém explica. Quando isso acontece, ou quando o caminho de volta é muito mais difícil que o de ida, há sinal de que o poder de punir pode estar sendo mal usado."
- },
- {
-  "k": "6776285d27ef2768",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "A equivalência funcional, por sua vez, incide quando alterações do regime de intermediação, da lógica de visibilidade, dos critérios reputacionais ou das regras de circulação degradam de modo relevante a utilidade legitimamente incorporada ao vínculo, sem recomposição compatível. Isso pode ocorrer tanto no comércio eletrônico quanto na circulação social de conteúdo, sempre que a plataforma altere substancialmente o papel funcional da infraestrutura que oferecia como ambiente de troca, alcance ou reconhecimento.<1>p. 764</1>"
- },
- {
-  "k": "98d7d0ae008a8a40",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Que registros ajudam a mostrar a queda ou a punição?"
- },
- {
-  "k": "49314ee319c041e0",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Ajudam capturas de tela com data dos números de alcance antes e depois, do aviso de punição, da regra que a rede apontou e das mensagens trocadas com o atendimento. Vale guardar também o conteúdo atingido, o caminho de contestação que existia e o que a medida causou no seu uso da rede."
- },
- {
-  "k": "b9dbc906e54ea4f2",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "O que mais pesa, porém, é o jeito como o feed, a recomendação e a reputação moldam o que circula, e esses dados ficam com a rede. Por isso não é razoável exigir de você uma prova detalhada de algo que nunca esteve ao seu alcance."
- },
- {
-  "k": "dc0a9d09a8cede5c",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Em redes sociais, essa reconstrução pode envolver ainda o exame da forma como o feed, a recomendação, o alcance e a gestão reputacional condicionam a própria percepção do que está em circulação.<1>p. 763</1>"
- },
- {
-  "k": "891fc567a6604dde",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "O que dá para pedir à rede depois da punição ou da queda?"
- },
- {
-  "k": "055518fda7b78fd7",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Se a punição não tiver um motivo que dê para conferir, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender."
- },
- {
-  "k": "ab9989b540e39a8b",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Também cabe pedir clareza mínima sobre os critérios de moderação, que é a revisão do que pode ficar no ar, e sobre os critérios de distribuição do que aparece. Isso não obriga a rede a abrir os sistemas internos, mas precisa bastar para entender como a decisão afetou você e para contestá-la."
- },
- {
-  "k": "7a20a1e74cd56ffa",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "A auditabilidade aberta exige verificabilidade institucional mínima sobre os critérios relevantes de apresentação, priorização, moderação, reputação e circulação, sem que isso implique abertura irrestrita de sistemas internos. O que se demanda é inteligibilidade suficiente para compreender como o ambiente organiza a experiência do usuário e como determinadas escolhas da plataforma interferem na formação da expectativa, na comparabilidade entre alternativas e na possibilidade de contestação.<1>p. 764</1>"
- },
- {
-  "k": "34ac4ba4f6a0e8d1",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "A quem recorrer quando a rede não explica a punição?"
- },
- {
-  "k": "e62335621570434a",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "O primeiro caminho costuma ser o canal de contestação da própria rede, por escrito e com as telas guardadas. Uma resposta gentil que fala em ajuste técnico ou em medida de segurança não equivale a uma explicação. E a sensação de ter sido ouvido não é o mesmo que ter uma via real de contestação."
- },
- {
-  "k": "fc2cc342b26f8077",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Quando a mesma política de punição atinge muitas contas sem explicação, a resposta pode ser coletiva e alcançar o sistema de punição inteiro. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria aparecem na página dos canais."
- },
- {
-  "k": "b530cc365c3f7829",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Quando a rede pode punir ou mudar o alcance sem que isso vire direito seu?"
- },
- {
-  "k": "650601edaa5e2835",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo que dê para conferir, de coerência entre uma decisão e outra e de um caminho compreensível de contestação."
- },
- {
-  "k": "6bac4df9868e8941",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Uma queda pequena ou passageira não basta, porque a perda precisa ser relevante e duradoura, e não um incômodo de um dia. Também nem toda relação feita por meio de tecnologia entra na proteção do consumidor."
- },
- {
-  "k": "96f74d79ba2efd33",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Há possibilidade típica de degradação relevante do feixe sem ruptura total do acesso, de modo persistente e substantivo, e não como desconforto pontual.<1>p. 433</1>"
- },
- {
-  "k": "8ee3dcdaee50db93",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>Como saber se a queda de alcance ou a punição passou do ponto?</1>"
- },
- {
-  "k": "b903a93d2068d123",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>Que registros ajudam a mostrar a queda ou a punição?</1>"
- },
- {
-  "k": "592eda1f10180441",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>O que dá para pedir à rede depois da punição ou da queda?</1>"
- },
- {
-  "k": "687ed0436cfb67d5",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>A quem recorrer quando a rede não explica a punição?</1>"
- },
- {
-  "k": "e2c1d5be7e8d057b",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>Quando a rede pode punir ou mudar o alcance sem que isso vire direito seu?</1>"
- },
- {
-  "k": "d90011e73b9b216f",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "<1>Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?</1>"
- },
- {
-  "k": "ec1d9f76dd071a65",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "ANDRADE, Victor L. P. Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/rede-social/"
- },
- {
-  "k": "e2b1b058b535667b",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma. Quando o alcance cai…"
- },
- {
-  "k": "262e8e642e809e12",
-  "pagina": "problemas/rede-social/index.html",
-  "pt": "Meu alcance caiu ou fui punido numa rede social. Tenho o que pedir?"
- },
- {
-  "k": "1c9b3c9e0e35b0fa",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A regra que me prejudicou estava enterrada nos termos de uso. E agora? · Lex Plataformae"
- },
- {
-  "k": "333691124ccaacb7",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso.</1> <2>E agora?</2>"
- },
- {
-  "k": "01b382ca8df0315a",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar. Estar escrito em algum lugar não basta, porque o que conta é se, na hora de decidir, você tinha como entender o que aquela regra significava."
- },
- {
-  "k": "b77111d8fc8c1364",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A simples acumulação de textos, links, avisos, políticas, termos e janelas explicativas não satisfaz, por si, a exigência de informação adequada.<1>p. 722</1>"
- },
- {
-  "k": "aed7bb9b8ac94056",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Como saber se a regra foi mesmo escondida?"
- },
- {
-  "k": "faf9fbdacd1d3bb4",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A informação pode falhar de três jeitos. Pode haver texto demais, de modo que o essencial se perde no meio do resto, ou a regra pode estar espalhada por documentos, telas e menus que não se ligam."
- },
- {
-  "k": "a51226071b0b761d",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O terceiro jeito é o próprio caminho da tela, que destaca o que atrai e empurra o que pesa contra você para lugares onde quase ninguém olha. Nos três casos a regra existe, mas não informa."
- },
- {
-  "k": "8176e94f598ad1b6",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A pergunta, então, é se a regra apareceu de forma clara e no momento em que podia mudar a sua decisão de comprar, de continuar ou de reagir."
- },
- {
-  "k": "f31425e02689d6b1",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A inadequação informacional, assim, pode assumir a forma de excesso, dispersão e arquitetura de fluxo. Excesso, quando a sobrecarga textual torna impraticável distinguir o essencial do acessório. Dispersão, quando os elementos relevantes do vínculo são pulverizados em múltiplos documentos, telas e caminhos sem integração suficiente.<1>p. 722</1>"
- },
- {
-  "k": "af16b6ed3484a674",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A pergunta juridicamente relevante deixa de ser se determinado dado estava em algum lugar do ecossistema documental do fornecedor. Passa a ser se esse dado foi tornado acessível, compreensível e relevante no momento em que poderia influenciar a formação legítima da expectativa ou a reação do consumidor.<1>p. 723</1>"
- },
- {
-  "k": "5a39d98396f7267b",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Que telas mostram como a regra chegou até você?"
- },
- {
-  "k": "beff6d9db82afb5d",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Ajuda guardar o caminho que você percorreu até aceitar ou comprar, com as telas, os botões, os avisos e o lugar onde ficava o link para os termos. Também vale guardar a versão dos termos que valia naquele dia, porque esses textos mudam com o tempo."
- },
- {
-  "k": "9026cfda0cdd86e4",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Se a regra chegou por nota de atualização, que é o texto que a empresa publica quando muda o serviço, vale guardar essa nota e a data em que ela saiu. Publicar a nota não basta quando a mudança mexe no centro do que você usa."
- },
- {
-  "k": "983fda758708fabb",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O consumidor não encontra apenas um texto contratual centralizado e estável. Enfrenta fluxos sucessivos de interface, avisos dispersos, menus secundários, centrais de ajuda, políticas versionadas, explicações parciais, comunicações promocionais, notificações contextuais e alterações posteriores que redesenham o campo informacional sem oferecer síntese material do que mudou.<1>p. 722</1>"
- },
- {
-  "k": "09c265fe74941f78",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O que dá para pedir quando a regra não foi bem informada?"
- },
- {
-  "k": "2f46274b8f101cb6",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir que seja reposto o que você perdeu por causa da falta de clareza."
- },
- {
-  "k": "accfaa0b7905c3a0",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Conforme o caso, a regra obscura pode deixar de valer contra você. A lei do consumidor diz que o contrato não obriga quando você não teve chance real de conhecer o conteúdo antes, ou quando foi escrito de um jeito que dificulta a compreensão."
- },
- {
-  "k": "b376b6128341ddd0",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Quando o texto é confuso, a confusão pode pesar contra a empresa, porque foi ela que redigiu o contrato e você não teve como negociar."
- },
- {
-  "k": "cc89906e4b3debc3",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O CDC já contém o núcleo normativo desse problema. A oferta e a apresentação de produtos ou serviços devem assegurar informações corretas, claras, precisas e ostensivas. Isso significa que a complexidade técnica do fornecimento não autoriza o fornecedor a se esconder atrás de vocabulário indecifrável, cascatas documentais ou arquiteturas comunicacionais que entregam palavras e retêm sentido. Do mesmo modo, contratos de consumo não obrigam o consumidor quando não lhe é dada oportunidade real de conhecimento prévio do conteúdo, nem quando são redigidos de modo a dificultar a compreensão de seu sentido e alcance.<1>p. 601</1>"
- },
- {
-  "k": "ad0686ae0fa46400",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O que se pede é correção do ambiente decisório, neutralização da obscuridade, exibição de registros e recomposição da fruição afetada.<1>p. 609</1>"
- },
- {
-  "k": "07fdd88306113b48",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Cláusulas predispostas devem ser lidas de modo a respeitar os legítimos interesses de quem as aceitou sem poder negociá-las, e a redação obscura aciona justamente a presunção de que o fornecedor falhou no dever de organizar o consentimento em bases leais.<1>p. 604</1>"
- },
- {
-  "k": "4ce7ca5bc106b198",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A quem mostrar que a regra estava escondida?"
- },
- {
-  "k": "b50941349625a678",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A reclamação à empresa pode pedir que ela mostre onde e quando a regra foi apresentada a você. Se a resposta for só que tudo estava no contrato, ela confunde existir com informar."
- },
- {
-  "k": "4ea289ae60bf69d6",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Fora da empresa, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor."
- },
- {
-  "k": "2134a17e43d46556",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A centralidade da adequação verificável também impede que a defesa padrão do fornecedor se satisfaça com a alegação de que “tudo estava no contrato”. Essa fórmula confunde existência formal com cumprimento material do dever.<1>p. 723</1>"
- },
- {
-  "k": "c2482a2478496fe8",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Todo contrato comprido é ilegal?"
- },
- {
-  "k": "457d06963403faf7",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Não. O que se pergunta é se uma pessoa comum podia ler e entender o que a regra significava, que direitos e deveres criava e que consequências ela trazia."
- },
- {
-  "k": "da68954d2b147d50",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A discussão também não é sobre você ter lido ou não. É sobre se, do jeito como a informação foi organizada, ela servia para orientar a sua decisão."
- },
- {
-  "k": "41d56f5971c1db0a",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A regra estar no contrato não salva a empresa, mas também não a condena sozinha, porque tudo depende de como o conjunto foi organizado."
- },
- {
-  "k": "b950466287b2af24",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "O que importa é se o consumidor médio podia ler e compreender o que aquelas cláusulas significavam, quais direitos e obrigações estavam sendo assumidos e quais consequências práticas decorriam da adesão.<1>p. 604</1>"
- },
- {
-  "k": "2b315eef0f4de018",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "Em ambientes de alta complexidade informacional, o contrato pode até conter referência nominal ao risco, à alteração ou à limitação controvertida, mas ainda assim deixar de informar de maneira adequada se a organização do conjunto comunicacional produz ruído, minimiza o impacto do dado relevante ou inviabiliza sua conexão prática com a decisão do consumidor.<1>p. 723</1>"
- },
- {
-  "k": "3235489ba2853960",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>Como saber se a regra foi mesmo escondida?</1>"
- },
- {
-  "k": "1fd14d9b2502592f",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>Que telas mostram como a regra chegou até você?</1>"
- },
- {
-  "k": "f080c7b7641c3f23",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>O que dá para pedir quando a regra não foi bem informada?</1>"
- },
- {
-  "k": "5f57198d7e197456",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>A quem mostrar que a regra estava escondida?</1>"
- },
- {
-  "k": "cfa2f97c5e23cc25",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>Todo contrato comprido é ilegal?</1>"
- },
- {
-  "k": "d13bc70cca18185e",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "<1>A regra que me prejudicou estava enterrada nos termos de uso. E agora?</1>"
- },
- {
-  "k": "ee1422bc0348228b",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "ANDRADE, Victor L. P. A regra que me prejudicou estava enterrada nos termos de uso. E agora?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/regras-escondidas/"
- },
- {
-  "k": "6c196620c2706dbf",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A empresa diz que a regra estava nos termos de uso, que são o contrato que você aceita ao criar a conta ou ao comprar. Estar escrito em algum lugar não…"
- },
- {
-  "k": "af155d8b8f5386dd",
-  "pagina": "problemas/regras-escondidas/index.html",
-  "pt": "A regra que me prejudicou estava enterrada nos termos de uso. E agora?"
- },
- {
-  "k": "25ce4c9b2e00e041",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Quero sair, mas perderia tudo o que construí ali. Isso conta? · Lex Plataformae"
- },
- {
-  "k": "4850bb360aa6499c",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>Quero sair, mas perderia tudo o que construí ali.</1> <2>Isso conta?</2>"
- },
- {
-  "k": "eb400972c227312d",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro. Esse custo de sair conta, e ajuda a explicar por que a empresa fica com deveres maiores diante de quem já depende do ambiente."
- },
- {
-  "k": "b26d7c39d5a7e1b0",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Como saber se o custo de sair passou a prender você?"
- },
- {
-  "k": "cc9c1d1c5fedbaf9",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Sair de um serviço comum é trocar de fornecedor. Aqui é diferente, porque o histórico, o ranque, os sinais de prestígio e os vínculos que você fez ficam com a empresa e só valem lá dentro. Ir embora interrompe a sua existência reconhecível naquele mundo."
- },
- {
-  "k": "6b3a9256ed3a20f8",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Esse custo vai além do dinheiro e da comodidade, porque inclui perder a continuidade da sua história e as posições de reconhecimento que você ocupa lá. Nada disso supõe que você esteja preso de verdade ou incapaz de agir, já que o que conta é a dependência na prática. E a dificuldade de largar não é fraqueza sua, e sim um efeito previsível de um ambiente que mede, compara e recompensa quem fica."
- },
- {
-  "k": "a81e9ea1ecdbf718",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O sinal mais claro aparece quando a empresa muda as regras e você aceita só porque sair custaria mais. Numa relação longa assim, o seu sim depois da mudança muitas vezes é só uma adesão forçada ao novo estado das coisas."
- },
- {
-  "k": "6998563761072fd9",
-  "pagina": "problemas/sair/index.html",
-  "pt": "A barreira de saída pode ser descrita como uma forma de morte social no interior do ecossistema. A expressão não opera como dramatização moral, mas como descrição funcional do efeito produzido quando a plataforma concentra os registros que sustentam pertencimento e relevância, isto é, histórico, repertório, posição ranqueada, sinais de prestígio, vínculos comunitários e rastros de participação. Abandonar o ambiente, nessas condições, não se assemelha a migrar de um serviço para outro, porque implica interromper a própria existência socialmente reconhecível naquele mundo, com perda de continuidade simbólica e apagamento prático de marcas de trajetória que se tornaram condição de comensurabilidade pública.<1>p. 359</1>"
- },
- {
-  "k": "e6c2fab471bf66fd",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Nesse mesmo registro, a identidade simbólica e a integridade pessoal se conectam por dois efeitos de dependência que podem ser nomeados como cativeiro simbólico e cativeiro identitário. [...] O segundo designa a forma de dependência em que o custo de saída não se esgota em dimensões financeiras ou de conveniência, porque implica perda de continuidade narrativa e de posições de reconhecimento cuja existência se dá, de maneira decisiva, dentro do ecossistema, por redes, históricos, papéis e circuitos internos de valor.<1>p. 466</1>"
- },
- {
-  "k": "34d838575b7f5d72",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O que vale registrar antes de decidir ir embora?"
- },
- {
-  "k": "47d473b869c9592d",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Vale registrar o seu histórico, o ranque, os selos e títulos, o inventário e as recompensas que só você tem, com capturas de tela e datas. Depois que a conta some ou fica para trás, sobram só extratos, e-mails, capturas antigas e memória para mostrar o que existia."
- },
- {
-  "k": "ec3a294c9903fcb2",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O que mostra o peso do que você construiu não é a tristeza de sair, e sim o valor que o próprio sistema dá àquilo, por selos, visibilidade, requisitos para participar e reputação. Antes de sair, também cabe pedir à empresa a confirmação e o acesso aos dados que ela guarda sobre você, além da portabilidade, que é a transferência desses dados."
- },
- {
-  "k": "6d6fccb58aa2665d",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O que dá para pedir quando ficar e sair custam caro?"
- },
- {
-  "k": "0d49e5c00a378a57",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Quando a empresa muda algo importante no que você usa, ela deve avisar com informação farta, clara e a tempo. A razão é que, para quem depende do ambiente, sair, se adaptar ou contestar nunca é neutro."
- },
- {
-  "k": "b7abf50860d23376",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Essa dependência reforça os deveres da empresa de ser transparente, de deixar você contestar, de tornar as mudanças conferíveis e de recompor o que você perdeu. O tamanho desses deveres acompanha o poder que ela exerce sobre o ambiente."
- },
- {
-  "k": "299e0b14f2bf66d4",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O desenho do ambiente pode se aproveitar do custo de sair, junto com caminhos de cancelamento difíceis, pressa fabricada e falta de clareza. Quando isso se repete como método, a lei do consumidor pode tratar o conjunto como prática abusiva. Aí o pedido pode alcançar a correção do próprio desenho."
- },
- {
-  "k": "355daef92620377b",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Quando a empresa modifica conteúdo, qualidade, parâmetros ou condições relevantes da fruição, precisa oferecer informação farta, inteligível e em tempo útil, justamente porque o consumidor está inserido numa relação de dependência prática em que o custo de saída, adaptação ou contestação não é neutro <1>Marques</1><2>(Marques, 2016, p. 1319-1320)</2>.<3>p. 658</3>"
- },
- {
-  "k": "33e156caa3e8e2c6",
-  "pagina": "problemas/sair/index.html",
-  "pt": "A quem recorrer quando sair significa perder tudo?"
- },
- {
-  "k": "eb0a0fa1c2c2e343",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O primeiro endereço é a própria empresa, que deve responder ao pedido dos seus dados e à contestação de mudanças que pesaram no que você tinha."
- },
- {
-  "k": "a609cfdad7a0dd2e",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Se ela não responde, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como o custo de sair costuma ser o mesmo para todos os usuários, a resposta também pode ser coletiva, por ação coletiva ou por órgãos públicos de defesa do consumidor."
- },
- {
-  "k": "7676dde2ad01c018",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Até onde vai a proteção de quem quer sair?"
- },
- {
-  "k": "d38aaaa81361dce3",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma que dê para mostrar, o custo de ir embora."
- },
- {
-  "k": "0b34f98a39f696dc",
-  "pagina": "problemas/sair/index.html",
-  "pt": "O ranque existe enquanto a conta e o serviço existem, e a proteção dos dados não faz de você dono de tudo o que a empresa registra. Frustrações pequenas e mudanças normais do serviço também ficam de fora, porque a perda precisa ser significativa, duradoura e descritível por critérios conferíveis."
- },
- {
-  "k": "00bf50408d106a07",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra<1>p. 542</1>"
- },
- {
-  "k": "7128e1284a481bf3",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>Como saber se o custo de sair passou a prender você?</1>"
- },
- {
-  "k": "a7c0f3cbeb8dcf65",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>O que vale registrar antes de decidir ir embora?</1>"
- },
- {
-  "k": "144de0ba6bae5cd3",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>O que dá para pedir quando ficar e sair custam caro?</1>"
- },
- {
-  "k": "824a5654d5732293",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>A quem recorrer quando sair significa perder tudo?</1>"
- },
- {
-  "k": "c925254fc92ea5d2",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>Até onde vai a proteção de quem quer sair?</1>"
- },
- {
-  "k": "1f6183a186708161",
-  "pagina": "problemas/sair/index.html",
-  "pt": "<1>Quero sair, mas perderia tudo o que construí ali. Isso conta?</1>"
- },
- {
-  "k": "a4a9956d1abd463f",
-  "pagina": "problemas/sair/index.html",
-  "pt": "ANDRADE, Victor L. P. Quero sair, mas perderia tudo o que construí ali. Isso conta?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/sair/"
- },
- {
-  "k": "a3f7627a19a8b357",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro. Esse…"
- },
- {
-  "k": "8a26da04dd94653a",
-  "pagina": "problemas/sair/index.html",
-  "pt": "Quero sair, mas perderia tudo o que construí ali. Isso conta?"
- },
- {
-  "k": "2cc26a62e1bdfad0",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O serviço piorou, e o preço continua o mesmo. Posso reclamar? · Lex Plataformae"
- },
- {
-  "k": "edb7cfd57fbc6ed9",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>O serviço piorou, e o preço continua o mesmo.</1> <2>Posso reclamar?</2>"
- },
- {
-  "k": "5d578599b2411b62",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma coisa. O nome e o preço ficaram iguais, e o que encolheu foi a entrega, e a lei do consumidor trata como nula a mudança que a empresa faz sozinha no conteúdo ou na qualidade do que vende."
- },
- {
-  "k": "4aaeb1f9a99ed0c8",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Como saber se a piora não é só impressão sua?"
- },
- {
-  "k": "445b2265fb918fcf",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Um curso que corta metade das aulas no meio do semestre e continua cobrando o mesmo preço faz o que qualquer pessoa acharia errado. Nas plataformas o corte quase nunca vem com esse nome, e aparece como alcance menor, desempenho rebaixado aos poucos, funções que somem e limites mais apertados."
- },
- {
-  "k": "ea43a35319fbc4fb",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Isso vale para qualquer serviço que dura no tempo, como assinaturas, aplicativos e programas. Vale até para aparelhos que recebem atualização do firmware, que é o programa interno que faz o aparelho funcionar. O que aproxima esses casos não é o setor, e sim o jeito como cada serviço organiza o acesso e o que você espera dele."
- },
- {
-  "k": "e5b9171935e95121",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O que conta é a piora persistente e relevante, que tira o essencial do que você contratou. A casca do serviço pode continuar intacta enquanto o conteúdo foi esvaziado."
- },
- {
-  "k": "838fead86428660d",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Ao comentar o art. 51, XIII, Nunes pergunta, de modo deliberadamente frontal, como seria possível alterar unilateralmente um contrato e, ainda assim, conferir validade jurídica à alteração <1>Nunes</1><2>(Nunes, 2018, [p. 508-509])</2>. O exemplo que ele oferece, do fornecedor que reduz aulas mantendo o mesmo preço <3>Nunes</3><4>(Nunes, 2018, [p. 508-509])</4>, funciona como régua objetiva para plataformas.<5>p. 479-480</5>"
- },
- {
-  "k": "5440222a7ea1f584",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O exemplo de atualizações que degradam acessibilidade e compatibilidade em software ou firmware ajuda a visualizar a estrutura do problema. Nesses casos, ninguém discute seriamente que toda atualização seja ilícita. O que se discute é se, sob o pretexto de melhoria, a atualização compromete de modo relevante o uso, o desempenho ou a compatibilidade de bens ainda dentro da durabilidade esperada, sem informação adequada, sem consentimento efetivo e sem vias mitigatórias.<1>p. 655</1>"
- },
- {
-  "k": "bdcd1610f7ffb38b",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O que importa não é se a plataforma se apresenta como ferramenta cognitiva, infraestrutura de mercado, ambiente produtivo ou sistema de reputação, mas como ela organiza acesso, modula expectativas, distribui riscos e condiciona a possibilidade de reconstrução institucional do conflito.<1>p. 756</1>"
- },
- {
-  "k": "87f7001b0d285a86",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Em linguagem menos pomposa e mais útil: não basta deixar a casca do vínculo intacta se o conteúdo fruído foi esvaziado.<1>p. 651</1>"
- },
- {
-  "k": "fc8f7a6017601230",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Como registrar uma piora que chega aos poucos?"
- },
- {
-  "k": "a9901eb09ac59339",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Vale guardar a descrição do plano ou da oferta do dia em que você contratou, com o que estava incluído. Ajudam também capturas de tela com data que mostrem o antes e o depois. Os avisos de mudança que a empresa mandou também contam, porque ela deveria ter dito o essencial a tempo de você entender e reagir."
- },
- {
-  "k": "3c2315a6bbcab834",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Anotar o dia em que você percebeu a piora também ajuda, já que num serviço contínuo a perda pode aparecer só com o uso prolongado. E você não precisa ter tudo arquivado, porque o histórico das versões e das decisões fica com a empresa."
- },
- {
-  "k": "a97c0cb6338ddafc",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "A contagem deve dialogar com o momento real de cognoscibilidade da inadequação, sobretudo quando esta só emerge no uso prolongado ou na deterioração superveniente da prestabilidade<1>p. 558</1>"
- },
- {
-  "k": "9c90737866bd37ca",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "A plataforma detém o histórico completo de decisões, versões e critérios, enquanto o consumidor recebe apenas fragmentos comunicacionais<1>p. 471</1>"
- },
- {
-  "k": "e8f40b7c4fb41d94",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O que pedir quando a entrega encolheu e a cobrança não?"
- },
- {
-  "k": "05dfa97e3a03cb43",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O pedido pode começar pela volta do serviço ao nível que você contratou. Isso pode ser desfazer a mudança, oferecer uma versão alternativa ou trocar por algo que cumpra a mesma função. Pode ser também corrigir os ajustes ou manter a compatibilidade com o que você já usa."
- },
- {
-  "k": "61891ccf16eae62d",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Conforme o caso, a piora pode ser um defeito de qualidade que diminui o valor do serviço. Aí a lei também permite pedir abatimento, que é um desconto proporcional no preço, ou encerrar o contrato sem multa. Para isso não é preciso discutir se a empresa teve culpa."
- },
- {
-  "k": "ecab86f50a4d47cd",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "E cabe pedir que a empresa diga o que mudou, quando e por quê, em vez de responder só que o serviço evoluiu. Quando ela fala em atualização ou em melhoria, o que precisa ficar demonstrado é que o essencial foi preservado."
- },
- {
-  "k": "8ea907f60ccff134",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Diante de vícios de qualidade que diminuam o valor do serviço, o consumidor pode exigir a rescisão contratual sem multa ou o abatimento proporcional do preço, sem necessidade de discutir culpa do fornecedor, pois se trata de responsabilidade objetiva <1>Bessa</1><2>(Benjamin; Marques; Bessa, 2021, [p. 354])</2>.<3>p. 563</3>"
- },
- {
-  "k": "f70e9483a3d5b640",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "A quem levar a reclamação de um serviço que piorou para todos?"
- },
- {
-  "k": "281575d8c7f19d76",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "A reclamação começa pela própria empresa, e continuar pagando não quer dizer que você aceitou a piora. Quando a mudança é relevante, ela deveria ter sido comunicada de um jeito que desse para entender, e o seu silêncio não vale como concordância."
- },
- {
-  "k": "dcb54182c6fc19ae",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Quando a piora atinge todos os clientes ao mesmo tempo, ela é o tipo de problema que pode ir ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta. Nesses casos a resposta pode corrigir o serviço para todo mundo, e não só reparar o seu caso."
- },
- {
-  "k": "a53994a2d53f5cb6",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Quando a mudança no serviço não dá motivo para reclamar?"
- },
- {
-  "k": "3a8d035f3367f4d7",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Serviços que duram anos precisam mudar, e trocar o meio ou o método pode ser legítimo e até necessário para que eles continuem viáveis. O limite é usar a mudança para jogar sobre você riscos que são da empresa, piorar a qualidade ou cortar funções relevantes."
- },
- {
-  "k": "0e5e2b1bdfd04538",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Oscilação de um dia ou ajuste pequeno não bastam, e nem toda diminuição é ilegal. Também não se pode supor que todo serviço digital cause esse problema com a mesma força, porque cada caso depende de como aquele serviço funciona."
- },
- {
-  "k": "65353a166003b1a2",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Mudanças de meio e método podem ser legítimas, e por vezes necessárias, para manter o fornecimento viável. O limite é que elas não podem ser usadas para deslocar riscos estruturais ao consumidor, degradar qualidade, restringir funcionalidades relevantes, corroer condições de acesso ou reconfigurar regimes de participação e reconhecimento que integravam a fruição economicamente estabilizada.<1>p. 480</1>"
- },
- {
-  "k": "1c32c5ac78e23982",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Houve perda marginal, inserida na evolução ordinária do serviço, ou houve esvaziamento substancial do núcleo funcional da fruição? Nem toda diminuição é ilícita.<1>p. 653</1>"
- },
- {
-  "k": "c5341bb37f6e2cd8",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição.<1>p. 755</1>"
- },
- {
-  "k": "7581ad07b4fd35c5",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>Como saber se a piora não é só impressão sua?</1>"
- },
- {
-  "k": "34d16cf7cfeee6eb",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>Como registrar uma piora que chega aos poucos?</1>"
- },
- {
-  "k": "6ceedb0a5f49815a",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>O que pedir quando a entrega encolheu e a cobrança não?</1>"
- },
- {
-  "k": "8b890bfb341e7139",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>A quem levar a reclamação de um serviço que piorou para todos?</1>"
- },
- {
-  "k": "560ab73194619423",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>Quando a mudança no serviço não dá motivo para reclamar?</1>"
- },
- {
-  "k": "eeefd24fd3ea56e3",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "<1>O serviço piorou, e o preço continua o mesmo. Posso reclamar?</1>"
- },
- {
-  "k": "667e748879d2d8b4",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "ANDRADE, Victor L. P. O serviço piorou, e o preço continua o mesmo. Posso reclamar?. <1>Lex Plataformae</1>, versão 0.11, 10/11/2026. Disponível em https://lexplataformae.com.br/problemas/servico-piorou/"
- },
- {
-  "k": "7f97321498e2b712",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "Você paga o mesmo de antes, mas recebe menos, porque o serviço perdeu funções, apertou limites, ficou mais lento ou passou a exigir mais para render a mesma…"
- },
- {
-  "k": "a79bfe8ec9e231f6",
-  "pagina": "problemas/servico-piorou/index.html",
-  "pt": "O serviço piorou, e o preço continua o mesmo. Posso reclamar?"
- },
- {
-  "k": "291c717a35b4465e",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "A empresa diz que eu só tenho uma licença. Então eu não comprei nada? · Lex Plataformae"
- },
- {
-  "k": "c49322f59bb6a4d8",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "<1>A empresa diz que eu só tenho uma licença.</1> <2>Então eu não comprei nada?</2>"
- },
- {
-  "k": "b7b067b16506828b",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Você pagou, o botão dizia comprar, e o contrato chama o que você recebeu de licença, que é uma permissão de uso que pode ser retirada. O nome que o contrato dá não decide sozinho a sua proteção, porque a lei do consumidor trata como produto também o que não tem corpo."
- },
- {
-  "k": "5ae8fc0d2c9ac422",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Como saber se a palavra licença está sendo usada contra você?"
- },
- {
-  "k": "5562e439cb92d820",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Acontece quando você reclama de algo que sumiu ou piorou e a resposta é que você nunca teve nada, porque tudo era uma permissão que podia evaporar. Coisas sem corpo também são bens para o direito, e quando houve pagamento de verdade a palavra licença não basta para apagar o que você recebeu."
- },
- {
-  "k": "6221179f0a293500",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "O próprio contrato costuma ajudar você. Os mesmos termos de uso que falam em licença reconhecem que há um conteúdo ligado à sua conta, como moeda, skins e outros itens. E admitem que você pode tê-lo comprado, ganhado ou recebido de presente."
- },
- {
-  "k": "c8d7da3db8b260b7",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "O que decide a proteção não é o item ser digital nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende de um ambiente que a plataforma mantém, ajusta e pode mudar. Essa dependência pesa no seu acesso, na sua permanência e no que você consegue entender."
- },
- {
-  "k": "56ddb24b155ac31c",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Quando há efetivo desembolso econômico ou incorporação relevante de utilidade à esfera do sujeito, a linguagem da licença não basta para apagar a densidade jurídica do ativo, nem para neutralizar a incidência de normas de ordem pública <1>Lacerda</1><2>(Lacerda, 2024, p. 124; p. 193)</2>.<3>p. 573</3>"
- },
- {
-  "k": "f0175a22e2bd86e6",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Que documentos mostram o que você recebeu de fato?"
- },
- {
-  "k": "99ef976c6791a39d",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Vale guardar o comprovante de pagamento e a tela da compra com a palavra que o botão usava. Ajuda também uma captura do inventário ou da biblioteca com o que está na sua conta. Isso mostra que você decidiu pela linguagem da compra, mesmo que o contrato fale em licença."
- },
- {
-  "k": "ad018e52f35339cd",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Os termos de uso do dia da compra também merecem ficar guardados, porque é neles que a empresa reconhece o conteúdo ligado à sua conta e as formas de consegui-lo."
- },
- {
-  "k": "86f54a7c90547985",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "O que pedir quando a resposta é que tudo era só licença?"
- },
- {
-  "k": "697b5a2a53d2c993",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "O pedido pode começar por tratar o caso pela lei do consumidor, com o que você comprou visto como produto imaterial, que é o produto sem corpo. O serviço que a empresa presta não apaga isso, porque é justamente o modo como ela mantém e atualiza o que vendeu."
- },
- {
-  "k": "c7d4e29b6d69bc8f",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Tratado o caso como compra de um produto, você pode cobrar que o que foi prometido continue sendo entregue ao longo do tempo. Até a cláusula de encerramento de conta de um grande jogo ressalva que a perda do acesso não afeta os direitos que você tiver pelas leis de defesa do consumidor."
- },
- {
-  "k": "26636b51dc1b06bb",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "A qualificação jurídica daí resultante é a de produto imaterial submetido ao regime do art. 3º, § 1º, do CDC<1><2>1</2></1>, sem que a dimensão prestacional do vínculo afaste o controle da fruição como núcleo do fornecimento.<3>p. 743</3>"
- },
- {
-  "k": "99bed846936884ff",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Quem decide se a licença afasta os seus direitos?"
- },
- {
-  "k": "d84f1305424e92c3",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Não é a empresa sozinha. O caso continua dentro da lei do consumidor, sem precisar de uma lei nova para o digital. Por isso segue os caminhos de qualquer reclamação de consumo, que começam pela empresa e passam, se preciso, pelo Procon, pelo Consumidor.gov.br ou pelo Juizado."
- },
- {
-  "k": "1140d056127cfe26",
-  "pagina": "problemas/so-licenca/index.html",
-  "pt": "Se a dúvida for sobre herança, sobre o que acontece com a conta depois da morte de alguém ou sobre passar o item adiante, a conversa é outra. Esses conflitos costumam ser tratados pelas regras do direito civil, que são as que cuidam de quem é dono de quê."
  }
 ]

@@ -484,6 +484,16 @@ def atlas_en():
     (EN / "dados" / "atlas.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+SVG_EN = json.loads((T / "ilustracoes-svg-en.json").read_text()) if (T / "ilustracoes-svg-en.json").exists() else {}
+
+
+def svg_en(h):
+    """Título e descrição das ilustrações em SVG, que o corte em segmentos não alcança. 17/11/2026."""
+    def troca(m):
+        return m.group(1) + SVG_EN.get(m.group(2), m.group(2)) + m.group(3)
+    return re.sub(r'(<(?:title|desc) id="[^"]+">)([^<]*)(</(?:title|desc)>)', troca, h)
+
+
 def main():
     if EN.exists():
         import shutil
@@ -493,7 +503,7 @@ def main():
     for arq, rel in paginas:
         saida = EN / en_rel(rel)
         saida.parent.mkdir(parents=True, exist_ok=True)
-        saida.write_text(traduz_pagina(arq, rel), encoding="utf-8")
+        saida.write_text(svg_en(traduz_pagina(arq, rel)), encoding="utf-8")
     # Âncoras de outras páginas
     for arq, rel in paginas:
         er = en_rel(rel)

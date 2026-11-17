@@ -396,7 +396,7 @@ def problema_conta_bloqueada():
     posicao = pessoa(1240, 560, segura="esq") + modulo(1110, 500)
     return _prob("conta-bloqueada", "Conta bloqueada", "O ambiente da plataforma, à esquerda, liga-se a um módulo azul nas mãos de uma pessoa. A ligação está cortada, e o módulo continua inteiro e identificável.", [
         P("posicao", (1110, 400), posicao, F(f, c, "você perde também o acesso a tudo o que estava nela", "Se a conta é encerrada")),
-        P("corte", (890, 360), ligacao, F(f, c, "O que se exige é que a punição tenha motivo que dê para conferir", "Em ecossistemas de plataforma, sanções")),
+        P("corte", (890, 360), ligacao, F(f, c, "O que se exige é que a punição tenha motivo verificável", "Em ecossistemas de plataforma, sanções")),
         P("ambiente", (360, 200), ambiente, F(f, c, "Muitas vezes a conta continua ativa, mas fica menos visível", "A punição relevante muitas vezes")),
     ])
 
