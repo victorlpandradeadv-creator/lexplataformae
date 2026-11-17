@@ -1,0 +1,147 @@
+[
+ {
+  "id": "familia-funcionalidade-cognitiva",
+  "largura": 1200,
+  "altura": 900,
+  "alt": "Uma pergunta e uma resposta em balões. Dentro da resposta, três blocos azuis de capacidade e um lugar vazio. Um comando da plataforma, fora da conversa, liga-se a esse lugar.",
+  "pecas": [
+   {
+    "n": 1,
+    "id": "pergunta",
+    "leigo": "Você pergunta, o assistente responde, e você usa a resposta para decidir alguma coisa, seja escrever um texto, resolver uma dúvida de trabalho ou entender um contrato.",
+    "tese": "Trata-se de infraestrutura funcional que organiza como o usuário compreende o problema submetido, confia na resposta recebida, a incorpora à sua tomada de decisão, a revê, a corrige ou a reavalia diante de erro, oscilação ou mudança de desempenho.",
+    "pagina": "757"
+   },
+   {
+    "n": 2,
+    "id": "capacidade",
+    "leigo": "O que você usa depende de muita coisa que fica do lado de lá. Depende de o sistema continuar no ar, da tela continuar parecida, das condições de acesso, dos avisos que aparecem, da memória da conversa quando ela existe e das regras internas do serviço.",
+    "tese": "Ela depende da continuidade do sistema, da estabilidade relativa da interface, da manutenção das condições de acesso, do modelo de apresentação das respostas, das advertências, dos limites contextuais, dos mecanismos de memória ou histórico quando existentes, e das regras privadas que estruturam o próprio campo de uso.",
+    "pagina": "759"
+   },
+   {
+    "n": 3,
+    "id": "comando",
+    "leigo": "Você entra num ambiente regido por regras, políticas e diretrizes da empresa, que ela pode mudar, limitar e reorganizar quando quiser.",
+    "tese": "Descreve ingresso em ecossistema de uso regulado, passível de condicionamento, limitação e reorganização por governança privada.",
+    "pagina": "758"
+   }
+  ]
+ },
+ {
+  "id": "familia-infraestrutura-e-intermediacao",
+  "largura": 1200,
+  "altura": 900,
+  "alt": "Três ofertas iguais passam por um filtro da plataforma. Do outro lado, uma chega em destaque azul, outra chega pequena e a terceira não chega.",
+  "pecas": [
+   {
+    "n": 1,
+    "id": "ofertas",
+    "leigo": "Parece que você está olhando o mercado ou a conversa como eles são. Mas tudo chegou até você já escolhido, ordenado e destacado pela plataforma, com critérios que você não controla e quase nunca consegue conferir.",
+    "tese": "Plataformas dessa natureza não apenas conectam. Elas selecionam, hierarquizam, destacam, ocultam, aproximam, retardam, priorizam e reorganizam a forma pela qual a realidade do ambiente se torna perceptível ao usuário.",
+    "pagina": "761"
+   },
+   {
+    "n": 2,
+    "id": "filtro",
+    "leigo": "Compra e conversa são coisas diferentes, mas o mecanismo é o mesmo. Nos dois casos, a plataforma governa o lugar onde as coisas aparecem e prepara o espaço em que você vai decidir.",
+    "tese": "Em ambos os casos, a plataforma governa o ambiente de aparição.",
+    "pagina": "762"
+   },
+   {
+    "n": 3,
+    "id": "chega",
+    "leigo": "Você não escolhe diante de um mercado transparente, com todas as ofertas lado a lado. Você escolhe dentro de um campo que a plataforma já interpretou para você.",
+    "tese": "O consumidor não escolhe no vazio, diante de universo transparente e simétrico de ofertas. Ele escolhe dentro de um campo já pré-interpretado pela plataforma.",
+    "pagina": "762"
+   }
+  ]
+ },
+ {
+  "id": "familia-produtividade-gig-economy",
+  "largura": 1200,
+  "altura": 900,
+  "alt": "Uma pessoa no começo de uma rota azul. Um comando da plataforma, acima, inclina o trecho do meio, e a rota segue mais baixa do que a linha tracejada que ela seguia antes.",
+  "pecas": [
+   {
+    "n": 1,
+    "id": "rota",
+    "leigo": "Parece que o aplicativo só paga por corrida, entrega ou tarefa. Mas o que ele fornece de verdade é o próprio lugar onde o seu trabalho se torna possível.",
+    "tese": "O que se fornece, em termos funcionais, é uma infraestrutura privada de possibilidade econômica.",
+    "pagina": "765"
+   },
+   {
+    "n": 2,
+    "id": "comando",
+    "leigo": "O que importa é que tudo de que você precisa para trabalhar é oferecido, ajustado e mudado por um sistema que você não controla.",
+    "tese": "Trata-se de reconhecer que a utilidade funcional indispensável ao exercício da atividade econômica é oferecida, modulada e reconfigurada por arquitetura privada que o sujeito não controla.",
+    "pagina": "766"
+   },
+   {
+    "n": 3,
+    "id": "desvio",
+    "leigo": "A pergunta é se o seu lugar no aplicativo continua valendo o mesmo que valia quando sustentava a sua expectativa de ganho e de continuar ali.",
+    "tese": "O teste jurídico não pode ser apenas se a conta continua ativa. Precisa ser se a posição funcional do parceiro no ambiente permanece substancialmente equivalente àquela que estruturava sua expectativa legítima de ganho e permanência.",
+    "pagina": "767-768"
+   }
+  ]
+ },
+ {
+  "id": "familia-administracao-de-confianca",
+  "largura": 1200,
+  "altura": 900,
+  "alt": "Um bloco azul cai sobre uma superfície que amortece o contato. Ao lado, o limite do que se aceita foi empurrado para longe da posição que tinha antes.",
+  "pecas": [
+   {
+    "n": 1,
+    "id": "apoio",
+    "leigo": "Essa confiança não nasce sozinha do bom serviço. Muitas vezes ela é produzida, ajustada e mantida pelo desenho da tela e do atendimento.",
+    "tese": "Em plataformas, a confiança não é subproduto espontâneo da boa execução do serviço. Frequentemente, ela é produzida, calibrada e mantida por desenho.",
+    "pagina": "781"
+   },
+   {
+    "n": 2,
+    "id": "perda",
+    "leigo": "Num serviço que você usa todo dia, pequenas frustrações vão sendo absorvidas e deixam de parecer um problema. Passam a parecer o funcionamento normal do sistema.",
+    "tese": "A perda deixa de aparecer como evento excepcional e passa a ser metabolizada como parte do normal funcionamento do sistema.",
+    "pagina": "781"
+   },
+   {
+    "n": 3,
+    "id": "limite",
+    "leigo": "A confiança não precisa vir como garantia formal para ter efeito. Basta que ela leve você a aguentar atritos, aceitar justificativas vagas, achar normal uma perda e continuar usando o serviço mesmo quando ele já piorou.",
+    "tese": "Basta que atue de maneira estável sobre a interpretação ordinária da experiência e sobre a disposição do usuário para suportar atritos, aceitar justificativas vagas, normalizar perdas e permanecer no ciclo de uso mesmo quando a fruição já foi funcionalmente degradada.",
+    "pagina": "781"
+   }
+  ]
+ },
+ {
+  "id": "parte-o-nome",
+  "largura": 1600,
+  "altura": 900,
+  "alt": "Dois perfis frente a frente, Ísis à esquerda e Rá à direita, com o disco do Sol acima. Entre eles, um vínculo azul com um ponto no meio, o nome.",
+  "pecas": [
+   {
+    "n": 1,
+    "id": "ra",
+    "leigo": "Rá, o deus Sol, reinava sobre todos, mas não era invulnerável.",
+    "tese": "Seu interesse é forçar o sol a reconhecer que não é absoluto.",
+    "pagina": "792"
+   },
+   {
+    "n": 2,
+    "id": "isis",
+    "leigo": "Ísis não queria destruir o Sol. Queria só que ele reconhecesse que não era absoluto.",
+    "tese": "Ao mesmo tempo, Ísis não deseja aniquilar o sol.",
+    "pagina": "792"
+   },
+   {
+    "n": 3,
+    "id": "nome",
+    "leigo": "Uma vez nomeado, o poder deixa de ser pura presença, que simplesmente está lá, e passa a poder ser chamado, delimitado e obrigado a responder pelo que faz.",
+    "tese": "Uma vez nomeado, o poder deixa de operar como pura presença natural e passa a ser invocável, delimitável e, portanto, obrigado a responder por seus atos.",
+    "pagina": "792"
+   }
+  ]
+ }
+]
