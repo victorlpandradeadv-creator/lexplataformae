@@ -28,6 +28,8 @@ Você criou o grupo, escreveu as regras, aceitou membros, apagou brigas e mantev
 
 Isso tem valor, e não só para você. Uma comunidade ativa traz atenção, gente nova e conversa todos os dias, e é exatamente disso que a rede vive.
 
+> Em outras palavras, a comunidade não aparece apenas como “efeito social” do produto, mas como parte de seu valor econômico e de sua arquitetura de monetização. (p. 135)
+
 ### parte 2 A rede só hospeda o seu grupo?
 
 Não. A rede decide quem vê o que você publica, em que ordem, com que destaque e por quanto tempo. Ela também decide o que pode ficar no ar e o que sai.
@@ -43,6 +45,9 @@ Nem toda. Hoje se vende a ideia de construir comunidade como estratégia de mark
 Há também comunidades montadas para vender, com perfis falsos, curtidas compradas e entusiasmo encomendado. A rede define o que parece popular e o que parece confiável, e lucra com as duas, a verdadeira e a de fachada.
 
 > A plataforma define o que se destaca, o que se esconde, o que parece mais confiável, o que adquire aparência de consenso, o que surge como comparável e o que se torna praticamente invisível. (p. 763)
+
+> Visibilidade, narrativa, pertencimento e engajamento não são ornamentos. (p. 22)
+> A comunidade não nasce do nada e nem se mantém por acaso. (p. 22)
 
 ### parte 4 Por que os posts começaram a chegar a menos gente?
 
@@ -235,6 +240,8 @@ Raramente pelo seu lado. O histórico, a versão em uso, os filtros e os limites
 
 Quando o problema atinge muita gente, os próprios usuários podem reconstruir o funcionamento por fora, com testes repetidos e capturas de tela. Foi assim no caso abaixo.
 
+> O padrão probatório compatível com esse subtipo não pode, por isso, reproduzir ingenuamente a lógica do evento isolado. (p. 759)
+
 ### parte 7 O que você pode exigir?
 
 Você pode exigir acesso ao histórico da conversa, explicação suficiente dos limites que importam, aviso antes de mudanças relevantes e tratamento igual para pedidos iguais. Ninguém precisa abrir o código do assistente para isso.
@@ -312,6 +319,8 @@ A conta é suspensa ou desativada, e a resposta é uma mensagem genérica sobre 
 
 O aplicativo pode desligar parceiros. O que não pode é fazer isso sem motivo verificável e sem uma chance real de defesa.
 
+> Alterações relevantes de regra, mudanças de cálculo, reconfigurações de prioridade, redefinições de métricas ou sanções com impacto material não podem ser escudadas por discurso genérico de eficiência, segurança ou otimização algorítmica. (p. 767)
+
 ### parte 6 Você está protegido?
 
 Está, mas o caminho depende do caso. A lei do consumidor pode alcançar quem usa o aplicativo para ter renda, quando ele concentra o controle sobre a sua permanência, a sua visibilidade e a sua chance de contestar. Quando ela não alcança, entra o Código Civil, com mais cuidado na prova.
@@ -358,6 +367,8 @@ O cliente compra de você, mas chega pela plataforma. É ela que mostra a sua lo
 
 Sem a tela dela, a sua loja fica invisível. Essa dependência é o ponto de partida de tudo.
 
+> A liberdade formal de aderir ou sair do ambiente convive, aqui, com dependência intensa em relação às condições privadas de acesso à demanda, de cálculo de ganhos, de formação de reputação, de leitura de desempenho e de manutenção da elegibilidade no fluxo produtivo. (p. 766)
+
 ### parte 2 Aparecer custa quanto?
 
 Cada vez mais. Promoções, cupons subsidiados por você e planos de destaque viram condição para aparecer bem. A plataforma decide quais lojas serão vistas, em que ordem e com que selos.
@@ -380,9 +391,12 @@ Nem sempre. A sua nota cai por atraso na entrega que você não controla, por ca
 
 Você responde por um sistema de reputação cujos critérios não pode conferir.
 
+
 ### parte 5 Os dados de quem compra são de quem?
 
 Da plataforma. Ela sabe quem compra de você, quanto, quando e o que mais procura, e você vê só uma parte disso. Esses dados valem muito, inclusive para ela mesma.
+
+> A auditabilidade aberta incide como exigência de inteligibilidade mínima sobre critérios relevantes de ranking, destaque, recomendação, preferenciamento, moderação econômica do ambiente e eventual uso de dados estratégicos obtidos da própria intermediação. (p. 772)
 
 ### parte 6 A plataforma também concorre com você?
 
@@ -433,6 +447,8 @@ Pode ser qualquer coisa. A conta bloqueada, o item que mudou, o grupo derrubado,
 
 Cada um desses problemas tem o seu caminho. Este acompanha o que acontece com a reclamação depois que você a faz.
 
+> O que importa não é se a plataforma se apresenta como ferramenta cognitiva, infraestrutura de mercado, ambiente produtivo ou sistema de reputação, mas como ela organiza acesso, modula expectativas, distribui riscos e condiciona a possibilidade de reconstrução institucional do conflito. (p. 756)
+
 ### parte 2 Por que o atendimento é tão gentil?
 
 Porque a gentileza também é desenhada. O tom próximo, as desculpas prontas e o pedido para aguardar fazem você se sentir ouvido. Nada disso é errado por si.
@@ -455,11 +471,13 @@ Você tenta de novo, recebe outro protocolo e outra resposta pronta. Cada contat
 
 O circuito não precisa negar a sua reclamação. Basta que ela nunca chegue ao fim.
 
+> O que importa não é saber se o usuário “sentiu-se” mais ou menos acolhido, mas se a plataforma estruturou signos, rotinas e protocolos capazes de deslocar a leitura da perda, reduzir a força crítica da experiência e enfraquecer a probabilidade de contestação inteligível. (p. 782)
+
 ### parte 5 Por que você acaba desistindo?
 
 Porque o cansaço também conta. Num serviço que você usa todo dia, pequenas frustrações vão sendo absorvidas uma a uma, até a perda parecer normal.
 
-Quando você desiste, o conflito não desaparece. Ele só nunca chega a existir para fora da empresa.
+Quando você desiste, o conflito não desaparece. Ele continua existindo, mas fica preso dentro da empresa.
 
 > O conflito não desaparece. (p. 782)
 
@@ -467,7 +485,10 @@ Quando você desiste, o conflito não desaparece. Ele só nunca chega a existir 
 
 Impede que a perda vire um problema que alguém de fora examine. Uma reclamação que se dissolve no atendimento não vira número no Procon, não vira processo e não mostra que muita gente passou pela mesma coisa.
 
-É aí que está o ponto. O conflito pode ser governado antes de nascer.
+Assim o conflito é governado antes de virar caso.
+
+> Em ecossistemas governados por plataforma, o conflito não começa quando o usuário decide litigar, reclamar ou formalizar inconformidade. (p. 780)
+> A contestação pode ser adiada, desmobilizada ou dissolvida antes de ganhar forma institucional. (p. 782)
 
 ### parte 7 Como sair do circuito?
 
