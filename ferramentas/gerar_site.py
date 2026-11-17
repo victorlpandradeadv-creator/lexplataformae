@@ -1512,6 +1512,55 @@ SIGA_DA_FAMILIA = {"funcionalidade-cognitiva": ["assistente"], "infraestrutura-e
                    "produtividade-gig-economy": ["corrida", "loja"], "administracao-de-confianca": ["reclamacao"]}
 
 
+# Mapa dos caminhos Siga. Um centro com uma seta para cada caminho, para o leitor ver que pode seguir um deles.
+# Pedido do autor de 17/11/2026. O desenho fica no SVG, e cada caminho é um link de verdade, legível sem script.
+# Abaixo de 54 rem de largura o mapa vira uma coluna, com o centro no alto e uma seta para cada caminho.
+def mapa_siga(prefixo, centro_href=None):
+    import math
+    itens = [("Siga a skin", "caminho/a-compra/", "Você comprou uma skin. Ela é sua?")] + [
+        (c["titulo"], f'siga/{c["slug"]}/', c["chamada"]) for c in SIGA.values()]
+    W, H, cx, cy, rx, ry = 1600, 900, 800, 450, 590, 335
+    n = len(itens)
+    linhas, nos, regras = [], [], []
+    for i, (t, h, q) in enumerate(itens):
+        a = math.radians(-90 + 360 * i / n)
+        x, y = cx + rx * math.cos(a), cy + ry * math.sin(a)
+        dx, dy = x - cx, y - cy
+        d = math.hypot(dx, dy)
+        ux, uy = dx / d, dy / d
+        # Sai da borda da elipse do centro e para antes da caixa do caminho.
+        t0 = 1 / math.sqrt((ux / 205) ** 2 + (uy / 118) ** 2)
+        t1 = min(190 / abs(ux) if ux else 1e9, 64 / abs(uy) if uy else 1e9) + 16
+        x0, y0, x1, y1 = cx + ux * t0, cy + uy * t0, x - ux * t1, y - uy * t1
+        linhas.append(f'<line class="mapa-linha mapa-l{i}" x1="{x0:.0f}" y1="{y0:.0f}" x2="{x1:.0f}" y2="{y1:.0f}" marker-end="url(#mapa-seta)"/>')
+        nos.append(f'<li class="mapa-no mapa-n{i}" style="--x:{x / W * 100:.2f}%;--y:{y / H * 100:.2f}%">'
+                   f'<a href="{prefixo}{h}"><b>{esc(t)}</b><span>{esc(q)}</span></a></li>')
+        regras.append(f'.mapa-siga:has(.mapa-n{i} a:is(:hover,:focus-visible)) .mapa-l{i}')
+    centro_txt = '<b>Siga um caso</b><span>Escolha a história mais parecida com a sua e vá do começo ao fim.</span>'
+    centro = (f'<a class="mapa-centro" href="{prefixo}{centro_href}">{centro_txt}</a>' if centro_href
+              else f'<p class="mapa-centro">{centro_txt}</p>')
+    estilo = "<style>" + ",".join(regras) + "{stroke:var(--rubrica);stroke-width:5}</style>"
+    return (f'<div class="mapa-siga">{estilo}<div class="mapa-palco">'
+            f'<svg class="mapa-fios" viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false"><defs>'
+            '<marker id="mapa-seta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">'
+            '<path d="M0 0 L10 5 L0 10 z" class="mapa-ponta"/></marker></defs>'
+            f'<ellipse class="mapa-anel" cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}"/>' + "".join(linhas) + "</svg>"
+            + centro + f'<ul class="mapa-nos">{"".join(nos)}</ul></div></div>')
+
+
+def convite_jurista(prefixo):
+    """Depois do mapa, a pergunta a quem trabalha com Direito, com as quatro entradas da Doutrina."""
+    return (f'<section class="convite-jurista" aria-labelledby="jurista-titulo"><p class="porta-rotulo">Trabalho com Direito</p>'
+            f'<h2 id="jurista-titulo">Você vai operar o regime?</h2>'
+            '<p>Os mesmos problemas aparecem tratados como doutrina, com dever, prova e consequência, para quem advoga, julga ou estuda.</p>'
+            '<ul class="partes-curtas">'
+            f'<li><a href="{prefixo}doutrina/" data-modo="1">O caminho do jurista, em quinze capítulos</a></li>'
+            f'<li><a href="{prefixo}roteiro/" data-modo="1">Onze situações, com dever, prova e consequência</a></li>'
+            f'<li><a href="{prefixo}legislacao/" data-modo="1">A legislação citada, em texto integral</a></li>'
+            f'<li><a href="{prefixo}conceitos/" data-modo="1">O vocabulário, com definição e critérios</a></li>'
+            "</ul></section>")
+
+
 def gerar_siga():
     if not SIGA:
         return
@@ -1553,11 +1602,10 @@ def gerar_siga():
                    irmas=("Siga um caso", [(esc(t), prefixo + h, h.endswith(f'/{c["slug"]}/')) for t, h, _ in caminhos])),
             encoding="utf-8")
     prefixo = "../"
-    lista = "".join(f'<li><a href="{prefixo}{h}"><b>{esc(t)}</b><span>{esc(q)}</span></a></li>' for t, h, q in caminhos)
     corpo = (f'<article class="folha siga-indice"><header class="folha-cabeca ext-cabeca"><h1>Siga um caso do começo ao fim</h1></header>'
              f'<section class="ext abertura-problema"><p>Cada caminho acompanha uma coisa que você tem numa plataforma, do começo ao dia em que algo dá errado, e termina no que você pode exigir.</p>'
-             f'<p>Escolha o que mais se parece com a sua história. Cada um se lê sozinho.</p></section>'
-             f'<ul class="partes-curtas siga-lista">{lista}</ul></article>')
+             f'<p>Cada um se lê sozinho, e nenhum depende de outro.</p></section>'
+             + mapa_siga(prefixo) + convite_jurista(prefixo) + '</article>')
     destino = SAIDA / "siga"
     destino.mkdir(parents=True, exist_ok=True)
     (destino / "index.html").write_text(
@@ -2125,8 +2173,6 @@ def gerar_inicio():
         return (f'<section class="cena {classe} em-modo modo-2">{ext_html("inicio", campo_, "")}</section>')
     # Portas com o mesmo contrato de conteúdo. Sobrelinha, título, uma frase, quatro entradas e uma saída.
     # Revisão de disposição de 12/11/2026, por ordem do autor, para as três portas terem a mesma altura pelo conteúdo.
-    portas_caminho = ('<ul class="partes-curtas">' + '<li><a href="caminho/a-compra/">Siga a skin</a></li>' + "".join(
-        f'<li><a href="siga/{c["slug"]}/">{esc(c["titulo"])}</a></li>' for c in list(SIGA.values())[:3]) + "</ul>")
     # Cinco portas pela perda, logo abaixo da pergunta aberta da capa, e a saída comum. Acréscimo de 15/11/2026, por ordem do autor.
     # Cada porta leva à sua família em problemas/. A quinta leva também à página de quem não é consumidor.
     def porta_perda(i):
@@ -2201,29 +2247,10 @@ def gerar_inicio():
 
     {figura("inicio", "", destaque=True)}
 
-    <section class="portas em-modo modo-0" aria-labelledby="portas-titulo">
+    <section class="portas portas-mapa em-modo modo-0" aria-labelledby="portas-titulo">
       <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
-      <div class="portas-grade">
-        <article class="porta porta-percurso item-moldura">
-          <p class="porta-rotulo">Quero entender</p>
-          <h3><a href="siga/">Siga um caso</a></h3>
-          <p>Uma história do começo ao fim, até o que você pode exigir.</p>
-          {portas_caminho}
-          <p class="porta-mais"><a href="siga/">Ver os sete caminhos</a></p>
-        </article>
-        <article class="porta porta-direito item-moldura">
-          <p class="porta-rotulo">Trabalho com Direito</p>
-          <h3><a href="doutrina/" data-modo="1">O caminho do jurista</a></h3>
-          <p>Os mesmos problemas, tratados como doutrina para quem vai operar o regime.</p>
-          <ul class="partes-curtas">
-            <li><a href="roteiro/" data-modo="1">Onze situações, com dever, prova e consequência</a></li>
-            <li><a href="doutrina/" data-modo="1">Quinze capítulos sobre o regime</a></li>
-            <li><a href="legislacao/" data-modo="1">A legislação citada, em texto integral</a></li>
-            <li><a href="conceitos/" data-modo="1">O vocabulário, com definição e critérios</a></li>
-          </ul>
-          <p class="porta-mais"><a href="doutrina/" data-modo="1">Abrir em Doutrina</a></p>
-        </article>
-      </div>
+      {mapa_siga("", "siga/")}
+      {convite_jurista("")}
     </section>
 
 

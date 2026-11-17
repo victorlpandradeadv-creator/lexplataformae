@@ -1497,3 +1497,41 @@ figure.ilustracao figcaption { text-align: center; }
 .siga-caso { margin-top: 2.75rem; padding: 1.25rem 1.25rem .5rem; border-top: 2px solid var(--rubrica); background: var(--papel-2, transparent); }
 .siga-fontes { font-size: .9rem; padding-left: 1.1rem; }
 .siga-fontes li { margin: .35rem 0; }
+
+/* Mapa dos caminhos Siga, pedido do autor de 17/11/2026. Um centro e uma seta para cada caminho.
+   O palco tem a proporção do SVG, e cada caminho fica na ponta da sua seta. Em largura curta vira coluna. */
+.mapa-siga { container-type: inline-size; margin-block: 1.5rem 3rem; }
+.mapa-palco { position: relative; aspect-ratio: 16 / 9; max-width: 1180px; margin-inline: auto; }
+.mapa-fios { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.mapa-anel { fill: none; stroke: var(--linha); stroke-width: 2; stroke-dasharray: 4 10; }
+.mapa-linha { stroke: var(--tinta-2); stroke-width: 3; transition: stroke .15s; }
+.mapa-ponta { fill: context-stroke; }
+.mapa-centro { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 24%; aspect-ratio: 205 / 118;
+  margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; text-align: center;
+  border-radius: 50%; background: var(--tinta); color: var(--papel); padding: 1rem 1.6rem; text-decoration: none; box-sizing: border-box; }
+.mapa-centro b { font-family: var(--f-texto); font-size: clamp(1.1rem, 2.2cqi, 1.6rem); font-weight: 600; line-height: 1.1; }
+.mapa-centro span { font-size: clamp(.78rem, 1.15cqi, .92rem); line-height: 1.35; opacity: .85; }
+a.mapa-centro:hover, a.mapa-centro:focus-visible { background: var(--rubrica); color: #fff; }
+.mapa-nos { list-style: none; margin: 0; padding: 0; }
+.mapa-no { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); width: 23%; }
+.mapa-no a { display: flex; flex-direction: column; gap: .3rem; padding: .8rem 1rem; border: 1.5px solid var(--linha); border-radius: 10px;
+  background: var(--papel); color: var(--tinta); text-decoration: none; box-shadow: 0 1px 0 var(--linha); transition: border-color .15s, transform .15s; }
+.mapa-no a b { font-family: var(--f-display); font-size: clamp(.95rem, 1.45cqi, 1.1rem); font-weight: 750; line-height: 1.2; }
+.mapa-no a b::after { content: " →"; color: var(--rubrica); }
+.mapa-no a span { font-size: clamp(.8rem, 1.15cqi, .92rem); line-height: 1.35; color: var(--tinta-2); }
+.mapa-no a:hover, .mapa-no a:focus-visible { border-color: var(--rubrica); transform: translateY(-2px); }
+@container (max-width: 54rem) {
+  .mapa-palco { aspect-ratio: auto; display: grid; gap: 0; justify-items: center; }
+  .mapa-fios { display: none; }
+  .mapa-centro { position: static; transform: none; width: min(100%, 22rem); aspect-ratio: auto; border-radius: 999px; padding: 1.1rem 1.6rem; }
+  .mapa-nos { display: grid; gap: .5rem; width: 100%; padding-top: 1.6rem; position: relative; }
+  .mapa-nos::before { content: ""; position: absolute; left: 50%; top: 0; height: 1.6rem; border-left: 2px solid var(--tinta-2); }
+  .mapa-no { position: static; transform: none; width: 100%; }
+  .mapa-no a { flex-direction: column; }
+}
+.convite-jurista { max-width: 46rem; margin: 1rem auto 0; padding-top: 2rem; border-top: 1px solid var(--linha); text-align: center; }
+.convite-jurista h2 { font-family: var(--f-texto); font-size: 1.6rem; margin: .2rem 0 .6rem; }
+.convite-jurista > p:not(.porta-rotulo) { color: var(--tinta-2); margin: 0 auto 1rem; max-width: 38rem; }
+.convite-jurista .partes-curtas { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: .5rem; text-align: left; }
+.siga-indice .mapa-siga { --larg: min(74rem, 100vw - 3rem); width: var(--larg); margin-inline: calc((100% - var(--larg)) / 2); }
+.convite-jurista h2 { font-weight: 500; }
