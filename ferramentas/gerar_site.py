@@ -2036,7 +2036,7 @@ def gerar_inicio():
             f'<a href="roteiro/{l}/">{l}</a>' for l in letras) + '</p>') if letras else ""
         return (f'<article class="porta porta-perda item-moldura">{vinheta("porta-" + fid, "")}<h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
                 f'{ext_html("inicio", "porta-" + fid, "")}{situacoes}'
-                f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Os " + str(n) + " problemas desta porta" if n > 1 else "O problema desta porta"}</a></p></article>')
+                f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Ver os " + str(n) + " casos" if n > 1 else "Ver o caso"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao" aria-labelledby="perda-titulo">'
                     f'<h2 class="portas-titulo" id="perda-titulo"><span class="em-modo modo-0">Comece pelo que aconteceu</span><span class="em-modo modo-1">Os conflitos, pela perda</span><span class="em-modo modo-2">Os casos, agrupados pela perda</span></h2>'
                     f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>')

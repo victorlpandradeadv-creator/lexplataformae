@@ -78,7 +78,7 @@ Um dia a função piora, o alcance cai, a conta é suspensa ou o serviço acaba.
 
 ### passo-ficou
 
-A perda fica com você, e os registros ficam com quem decidiu. Só que um serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.
+A perda fica com você, e os registros ficam com quem decidiu. Mas serviço digital não pode mudar de qualquer jeito, e quando passa do limite alguém responde por isso.
 
 > Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar? (p. 21)
 > Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)

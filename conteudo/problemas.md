@@ -49,7 +49,7 @@ O resto costuma ficar com a empresa, que guarda o tipo de punição aplicada, o 
 
 ### pedir O que se pode pedir quando a conta foi fechada sem explicação?
 
-Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.
+Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Junto com isso, a empresa pode ser cobrada a dizer qual punição aplicou e por qual motivo, e a oferecer um caminho de contestação que funcione.
 
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 > Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada. (p. 660)
@@ -146,7 +146,7 @@ As notas de atualização são os textos em que a empresa conta o que mudou em c
 
 ### pedir O que pedir antes de falar em dinheiro?
 
-A primeira resposta é a função voltar. O pedido pode incluir desfazer a mudança, quando isso for tecnicamente viável, ou trocar o item por outro que cumpra o mesmo papel. Também pode incluir corrigir a forma como a atualização foi feita.
+A primeira resposta é a função voltar. O pedido pode incluir desfazer a mudança, quando isso for tecnicamente viável, ou trocar o item por outro que cumpra o mesmo papel, além de corrigir a forma como a atualização foi feita.
 
 > A consequência institucional possível prioriza recomposição funcional, reversão técnica quando viável, substituição equivalente e correção da forma de atualização, em vez de mera monetização automática da perda. (p. 746)
 
@@ -155,7 +155,7 @@ Quando a mudança rebaixou de modo relevante o que você usava, a saída deve da
 > Se a alteração rebaixa de modo relevante aquilo que estruturava a utilidade para aquele consumidor, a recomposição deve incluir, ao menos, mecanismos de escolha que impeçam o cativeiro por surpresa, com alternativas como reembolso, crédito, troca por outro cosmético de valor equivalente ou formas análogas de recuperação do investimento para reinserção do consumidor no ecossistema, sem exigir dele a prova impossível de uma caixa-preta. (p. 471)
 > Se decidirmos retirar completamente certos Produtos Virtuais que você tenha comprado recentemente, lhe providenciaremos um reembolso ou uma substituição. (p. 614)
 
-Também cabe pedir que a empresa diga o que mudou, quando, por qual motivo e com que efeito sobre o item. E a indenização em dinheiro continua possível quando restaurar não for viável ou não bastar.
+A empresa ainda deve dizer o que mudou, quando, por qual motivo e com que efeito sobre o item. E a indenização em dinheiro continua possível quando restaurar não for viável ou não bastar.
 
 > O dever de fornecimento correspondente é o de manter verificabilidade mínima sobre o que foi alterado, quando o foi, por que motivo foi justificado e quais efeitos funcionalmente relevantes produziu. (p. 745)
 > Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração. (p. 748)
@@ -342,7 +342,7 @@ O resto fica com a empresa, como o histórico das transações, a origem dos ite
 
 ### pedir O que se pode pedir de volta?
 
-Quando nenhuma prova individual e consistente afasta a sua boa-fé, o pedido pode ser que os itens retirados voltem e que a sua conta seja recomposta. Também cabe pedir que a empresa guarde e mostre os registros e explique por que a medida atingiu você em particular.
+Quando nenhuma prova individual e consistente afasta a sua boa-fé, o pedido pode ser que os itens retirados voltem e que a sua conta seja recomposta. A empresa pode ser chamada a guardar e mostrar os registros e a explicar por que a medida atingiu você em particular.
 
 > O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição e neutralização de cláusulas ou práticas que transfiram integralmente ao consumidor os riscos estruturais do sistema. (p. 617)
 
@@ -709,7 +709,7 @@ A compensação pode mirar o próprio ponto da perda. Num grande jogo, quando sk
 
 > Em nota ao público, a desenvolvedora afirma que, quando skins Prestígio antigas retornassem à loja, os proprietários originais receberiam versões modificadas exclusivas “em reconhecimento do investimento”, e que essas versões modificadas não estarão disponíveis para compra através da nova moeda então introduzida no ecossistema, a Mythic Essence (Riot Games, 2022j). Trata-se de uma recomposição simbólica dirigida diretamente ao ponto de perda, preservando um diferencial público de distinção para os titulares originais. (p. 453)
 
-Também cabe pedir que a oferta seja corrigida e cumprida e que a comunicação que não corresponde à realidade pare.
+A oferta pode ainda ser corrigida e cumprida, e a comunicação que não corresponde à realidade, interrompida.
 
 > A consequência institucional possível abrange correção da oferta, recomposição funcional, tutela inibitória sobre a comunicação e, conforme o caso, invalidação de estratégias promocionais incompatíveis com a experiência real entregue. (p. 745)
 
@@ -1051,7 +1051,7 @@ Se a regra chegou por nota de atualização, que é o texto que a empresa public
 
 ### pedir O que se pode pedir quando a regra não foi bem informada?
 
-O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir que seja reposto o que você perdeu por causa da falta de clareza.
+O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. E o que você perdeu por causa da falta de clareza pode ser reposto.
 
 > A consequência institucional possível inclui dever de correção do arranjo comunicacional, reforço de transparência útil, ordens de exibição e recomposição da fruição afetada por opacidade decisória. (p. 744)
 
@@ -1690,7 +1690,7 @@ Parte do histórico e dos registros fica só com a empresa. Por isso a sua prote
 
 ### pedir O que pedir além de uma resposta certa?
 
-O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.
+O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela, uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.
 
 > Trata-se de reconhecer que, em serviços cuja utilidade consiste em orientar cognitivamente o usuário, deve haver verificabilidade institucional mínima sobre aspectos relevantes da prestação. Isso inclui, conforme o caso, preservação de histórico acessível, rastros mínimos de interação, explicitação suficiente de limites materialmente relevantes, inteligibilidade sobre alterações de regime de uso e possibilidade de reconstruir o nexo entre promessa funcional do serviço e impacto produzido na experiência do usuário. (p. 759)
 
@@ -1862,7 +1862,7 @@ Se a punição não tiver um motivo verificável, nem um caminho razoável de co
 
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 
-Também cabe pedir clareza mínima sobre os critérios de moderação, que é a revisão do que pode ficar no ar, e sobre os critérios de distribuição do que aparece. Isso não obriga a rede a abrir os sistemas internos, mas precisa bastar para entender como a decisão afetou você e para contestá-la.
+Vale cobrar também clareza mínima sobre os critérios de moderação, que é a revisão do que pode ficar no ar, e sobre os critérios de distribuição do que aparece. Isso não obriga a rede a abrir os sistemas internos, mas precisa bastar para entender como a decisão afetou você e para contestá-la.
 
 > A auditabilidade aberta exige verificabilidade institucional mínima sobre os critérios relevantes de apresentação, priorização, moderação, reputação e circulação, sem que isso implique abertura irrestrita de sistemas internos. O que se demanda é inteligibilidade suficiente para compreender como o ambiente organiza a experiência do usuário e como determinadas escolhas da plataforma interferem na formação da expectativa, na comparabilidade entre alternativas e na possibilidade de contestação. (p. 764)
 
@@ -1941,7 +1941,7 @@ A queda de ganho nem sempre é risco normal da atividade, porque pode vir de uma
 
 ### pedir O que se pode pedir quando o aplicativo muda a regra?
 
-O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
+O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir, com clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
 
 > A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime sempre que a plataforma houver degradado, por desenho, a utilidade produtiva que oferecia como infraestrutura. (p. 768)
 
@@ -2033,7 +2033,7 @@ Os registros de venda, as notas e as decisões ficam concentrados na plataforma.
 
 ### pedir O que quem vende pode pedir à plataforma?
 
-O pedido pode incluir clareza mínima sobre os critérios que decidem a ordem das ofertas e sobre a preferência que a plataforma dá a algumas delas. Também pode incluir controle das mudanças que rebaixam a sua posição sem excluir você e um olhar atento para o uso dos dados que ela colhe ao intermediar as vendas.
+O pedido pode incluir clareza mínima sobre os critérios que decidem a ordem das ofertas e sobre a preferência que a plataforma dá a algumas delas. Entram ainda o controle das mudanças que rebaixam a sua posição sem excluir você e um olhar atento para o uso dos dados que ela colhe ao intermediar as vendas.
 
 > Sempre que a plataforma, ao organizar a fruição, passar também a organizar de maneira opaca e assimétrica as condições perceptíveis de competição no interior do ecossistema, deverá haver exigência de controlabilidade compatível com a dupla dimensão do problema. Isso significa, no mínimo, auditabilidade mínima sobre critérios relevantes de hierarquização, inteligibilidade sobre práticas de destaque e preferenciamento, controle de alterações que deformem a equivalência funcional da permanência concorrencial e leitura não ingênua do uso de dados obtidos pela própria posição de intermediação. (p. 773)
 
