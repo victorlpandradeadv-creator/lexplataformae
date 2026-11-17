@@ -618,6 +618,30 @@
 "pagina": "caminho/a-compra/index.html"
 },
 {
+"k": "95edb35355c4728c",
+"tipo": "html",
+"pt": "E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.",
+"pagina": "caminho/a-compra/index.html"
+},
+{
+"k": "03a1303b02325ce5",
+"tipo": "html",
+"pt": "Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.",
+"pagina": "caminho/a-compra/index.html"
+},
+{
+"k": "09c19dec09662a4e",
+"tipo": "html",
+"pt": "E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, reconhecível por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.",
+"pagina": "caminho/a-compra/index.html"
+},
+{
+"k": "70208675ab63f62f",
+"tipo": "html",
+"pt": "Isso também quer dizer que nada aqui decide um caso sozinho. As ferramentas existem, mas cada conflito ainda depende do que aconteceu, do que se consegue provar e de como quem decide lê os fatos.",
+"pagina": "caminho/a-lei/index.html"
+},
+{
 "k": "8b59ffe8151b8c9b",
 "tipo": "html",
 "pt": "Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.",
@@ -684,6 +708,12 @@
 "pagina": "caminho/a-mudanca/index.html"
 },
 {
+"k": "780e1ed6c7fa3e32",
+"tipo": "html",
+"pt": "Nada disso vira fórmula automática. O caminho só organiza perguntas. Que forma de governo da plataforma está em jogo? Que dever foi violado? Que prova mínima se pode exigir? Como o caso se qualifica para o direito? E que resposta faz sentido para ele?",
+"pagina": "caminho/a-resposta/index.html"
+},
+{
 "k": "52fc3a24a84937d3",
 "tipo": "html",
 "pt": "O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.",
@@ -702,15 +732,57 @@
 "pagina": "caminho/as-regras/index.html"
 },
 {
+"k": "96d0a211fbc97446",
+"tipo": "html",
+"pt": "Se a punição não tiver motivo verificável ou um caminho razoável de contestação, pode caber sua revisão ou reversão. Você também pode pedir que a plataforma cumpra deveres de procedimento e que crie ou melhore um caminho real de contestação. Quando o problema se repete com muita gente, também cabe pedir que o sistema de punição como um todo seja corrigido.",
+"pagina": "caminho/as-regras/index.html"
+},
+{
 "k": "992e11463c8ec29c",
 "tipo": "html",
 "pt": "A plataforma tem poder de punir, mas ter esse poder não basta. A punição precisa de motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.",
 "pagina": "caminho/as-regras/index.html"
 },
 {
+"k": "955acaca314215a8",
+"tipo": "html",
+"pt": "A ausência deixa de ser uma pausa e vira uma queda mensurável. E o risco não está só no item, mas no sentido do que se perde e no calendário, que transforma atraso em desvantagem, mesmo quando a skin continua lá, tecnicamente acessível.",
+"pagina": "caminho/o-desejo/index.html"
+},
+{
+"k": "5a8c0a6a6bd6a6b7",
+"tipo": "html",
+"pt": "Você pode pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, cabe pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.",
+"pagina": "caminho/o-desejo/index.html"
+},
+{
+"k": "f4490aea33189e8e",
+"tipo": "html",
+"pt": "E há finalidades legítimas que a plataforma pode e deve perseguir, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando se consegue mostrar, com razões, que o desenho aponta principalmente para explorar a sua fragilidade e capturar valor de forma desproporcional, e não para esses fins.",
+"pagina": "caminho/o-desenho/index.html"
+},
+{
+"k": "47793221384f0889",
+"tipo": "html",
+"pt": "Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que se pode sublinhar. Mas, às vezes, nenhuma cláusula sozinha é o problema.",
+"pagina": "caminho/o-desenho/index.html"
+},
+{
 "k": "e619fdfe742d0ffa",
 "tipo": "html",
 "pt": "O que se pede, no fim, são critérios já conhecidos. Informação que se entenda de verdade, respeito à confiança, equivalência do que foi comprado, mudanças que deixem rastro, possibilidade real de desfazer o que foi feito e um mínimo de chance de contestar. Quando o desenho passa a funcionar contra esses critérios, o próprio serviço vira instrumento de exploração.",
+"pagina": "caminho/o-desenho/index.html"
+},
+{
+"k": "7be6cdffbcc44efc",
+"tipo": "html",
+"pt": "Em casos graves, perder a conta, o histórico ou a trajetória pode atingir a sua personalidade e gerar dano moral. Isso acontece quando a perda atinge, de modo demonstrável, a sua história, o seu pertencimento ou a reputação e a memória que você construiu lá dentro.",
+"pagina": "caminho/o-desenho/index.html"
+},
+{
+"k": "9f77382240e923f2",
+"tipo": "html",
+"pt": "Nem toda forma de vender, de convencer ou de administrar o jogo é abusiva. O que se controla é um programa reconhecível no funcionamento do ambiente, e não uma vontade escondida de alguém.",
 "pagina": "caminho/o-desenho/index.html"
 },
 {
@@ -730,6 +802,18 @@
 "tipo": "attr",
 "pt": "3. Uma vez nomeado, o poder deixa de ser pura presença, que simplesmente está lá, e passa a poder ser chamado, delimitado e obrigado a responder pelo que faz.",
 "pagina": "caminho/o-nome/index.html"
+},
+{
+"k": "40aaa9be213539c4",
+"tipo": "html",
+"pt": "Então a skin que muda, o personagem refeito do zero e a punição que vai crescendo até o banimento não são efeitos naturais de uma tecnologia que evolui. São decisões de desenho, porque alguém decidiu que seria assim, e é essa decisão que pode ser questionada.",
+"pagina": "caminho/o-normal/index.html"
+},
+{
+"k": "4840b19d8ee181e7",
+"tipo": "html",
+"pt": "Você clicou em aceitar, mas aceitou dentro de uma moldura de linguagem que já deixava você fora do centro da relação. Não foi um erro sobre um preço ou sobre um prazo, que se pode apontar e corrigir.",
+"pagina": "caminho/o-normal/index.html"
 },
 {
 "k": "d78047d5d6698c64",
@@ -886,6 +970,18 @@
 "tipo": "attr",
 "pt": "esquema · d6-oic-feixe",
 "pagina": "conceitos/feixe-de-fruicao-governada/index.html"
+},
+{
+"k": "9b3b8a9fa9edf240",
+"tipo": "html",
+"pt": "Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que se pode sublinhar e mostrar ao juiz. Mas há casos em que nenhuma cláusula, sozinha, é o problema.",
+"pagina": "conceitos/ilicito-de-arquitetura/index.html"
+},
+{
+"k": "5afd46d14d61d1fa",
+"tipo": "html",
+"pt": "São cinco peças que se organizam juntas e se repetem. O ruído na informação, que confunde em vez de orientar. O atrito na hora de decidir, que empurra para um lado. A prova fora do alcance de quem usa. As mudanças que não se podem conferir. E a reparação que não cobre a perda.",
+"pagina": "conceitos/ilicito-de-arquitetura/index.html"
 },
 {
 "k": "a6a26721286bcaa9",
@@ -1048,6 +1144,30 @@
 "tipo": "html",
 "pt": "Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele. Entre eles estão transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos verificáveis, um caminho real para contestar e a recomposição do que foi perdido.",
 "pagina": "conceitos/lex-plataformae/index.html"
+},
+{
+"k": "d4140587fc5658e2",
+"tipo": "html",
+"pt": "As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e cujo defeito se vê olhando. Elas não dão conta, sozinhas, de um produto que continua sendo mexido depois da venda. O que decide se você está nesse tipo de situação não é o item ser digital, nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende do ambiente que a plataforma governa.",
+"pagina": "conceitos/oic/index.html"
+},
+{
+"k": "fa536bf2841ff225",
+"tipo": "html",
+"pt": "O foco sai da cabeça do empresário e vai para o desenho. Isso torna o problema demonstrável, porque desenho se mostra com telas, regras, histórico de mudanças e efeitos repetidos, enquanto intenção ninguém consegue provar de fora.",
+"pagina": "conceitos/teleologia-abusiva/index.html"
+},
+{
+"k": "f2ca4d5a9fe99280",
+"tipo": "html",
+"pt": "E a plataforma tem finalidades legítimas, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando se consegue mostrar, com razões, que o desenho aponta principalmente para explorar a fragilidade de quem usa e capturar valor de forma desproporcional, e não para esses fins.",
+"pagina": "conceitos/teleologia-abusiva/index.html"
+},
+{
+"k": "6f69a470312b9b72",
+"tipo": "html",
+"pt": "Leia com um cuidado. Nada disso é fórmula pronta nem garantia de resultado, porque cada caso depende do que aconteceu, do que se consegue provar e de como quem vai decidir lê os fatos. O que muda é a forma de contar o conflito, que deixa de ser um episódio solto e passa a ser o jeito como a plataforma fornece o que vendeu.",
+"pagina": "direitos/index.html"
 },
 {
 "k": "1f11596f875c67d7",
@@ -2376,6 +2496,12 @@
 "pagina": "plataformas/produtividade-gig-economy/index.html"
 },
 {
+"k": "4cfe7108528aa422",
+"tipo": "html",
+"pt": "O que pedir além de uma resposta certa?",
+"pagina": "problemas/assistente/index.html"
+},
+{
 "k": "24318c1f414ecad6",
 "tipo": "html",
 "pt": "O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.",
@@ -2385,6 +2511,12 @@
 "k": "34d4f83eb6015606",
 "tipo": "html",
 "pt": "Se a mesma falta de clareza atinge todos os que usam o serviço, porque faz parte do jeito normal de ele funcionar, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria são os caminhos para isso.",
+"pagina": "problemas/assistente/index.html"
+},
+{
+"k": "23c53daae7d964bf",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-alem-de-uma-resposta-certa\">O que pedir além de uma resposta certa?</a>",
 "pagina": "problemas/assistente/index.html"
 },
 {
@@ -2424,6 +2556,12 @@
 "pagina": "problemas/conta-bloqueada/index.html"
 },
 {
+"k": "50fa26d665201b73",
+"tipo": "html",
+"pt": "O que se pode pedir quando a conta foi fechada sem explicação?",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
 "k": "fbb2e0fd606a3a15",
 "tipo": "html",
 "pt": "Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.",
@@ -2439,6 +2577,18 @@
 "k": "e689668db5b3ca47",
 "tipo": "html",
 "pt": "A empresa tem poder de punir, e ter esse poder não é o problema. O que se exige é que a punição tenha motivo verificável, coerência entre uma decisão e outra e um caminho compreensível para contestar.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "183983ffac131411",
+"tipo": "html",
+"pt": "Nada disso garante que a conta volte, porque cada caso depende do que aconteceu e do que se consegue provar. E a lei de proteção de dados não faz de você dono de tudo o que a empresa registra sobre a sua conta.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "63bfd369fd29d3dd",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-pedir-quando-a-conta-foi-fechada-s\">O que se pode pedir quando a conta foi fechada sem explicação?</a>",
 "pagina": "problemas/conta-bloqueada/index.html"
 },
 {
@@ -2458,6 +2608,12 @@
 "tipo": "attr",
 "pt": "3. Muitas vezes a conta continua ativa, mas fica menos visível, perde recompensas e tem o chat cortado, e isso também tira valor do que você comprou, porque continuar dentro em posição pior já é uma perda.",
 "pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "28b163600608b74f",
+"tipo": "html",
+"pt": "A base são os extratos e os e-mails de cada compra, as telas da loja e de confirmação e os avisos de evento, de prazo ou de oferta que apareciam no jogo. Esses registros mostram como o ambiente estava montado, o que pesa mais do que a lembrança de cada compra.",
+"pagina": "problemas/crianca/index.html"
 },
 {
 "k": "5fa989673570a328",
@@ -2496,9 +2652,27 @@
 "pagina": "problemas/crianca/index.html"
 },
 {
-"k": "1e4d4e5280fd33dd",
+"k": "de14a79ab058a394",
 "tipo": "html",
-"pt": "O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.",
+"pt": "A oferta precisa ficar registrada do jeito que apareceu, com as palavras exclusivo, raro ou última chance, o prazo anunciado, o preço e a moeda usada. Depois, ajuda registrar quando e como o item voltou, em que loja, por qual preço e em qual moeda.",
+"pagina": "problemas/exclusivo-voltou/index.html"
+},
+{
+"k": "b61391a234885265",
+"tipo": "html",
+"pt": "O que pedir quando a raridade foi desfeita?",
+"pagina": "problemas/exclusivo-voltou/index.html"
+},
+{
+"k": "8c3a47b1e720c159",
+"tipo": "html",
+"pt": "O primeiro endereço é a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.",
+"pagina": "problemas/exclusivo-voltou/index.html"
+},
+{
+"k": "3276a0dc7e11eaae",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-quando-a-raridade-foi-desfeita\">O que pedir quando a raridade foi desfeita?</a>",
 "pagina": "problemas/exclusivo-voltou/index.html"
 },
 {
@@ -2520,6 +2694,12 @@
 "pagina": "problemas/exclusivo-voltou/index.html"
 },
 {
+"k": "a9e5d162ad9d0b3a",
+"tipo": "html",
+"pt": "O que se pode pedir quando a história inteira foi apagada?",
+"pagina": "problemas/historia-perdida/index.html"
+},
+{
 "k": "243c0141094a4673",
 "tipo": "html",
 "pt": "O apagamento, a redefinição de progresso ou a punição que elimina a sua história precisa de um motivo verificável e de preservação mínima dos registros. Quando cabível, o pedido pode ser a restauração da posição que você tinha.",
@@ -2529,6 +2709,12 @@
 "k": "c0f6ba6dc2ab3281",
 "tipo": "html",
 "pt": "Se a empresa não responde, o caso pode ser levado ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o peso da prova conforme quem tem acesso a eles.",
+"pagina": "problemas/historia-perdida/index.html"
+},
+{
+"k": "7f85907937794649",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-pedir-quando-a-historia-inteira-fo\">O que se pode pedir quando a história inteira foi apagada?</a>",
 "pagina": "problemas/historia-perdida/index.html"
 },
 {
@@ -2646,9 +2832,39 @@
 "pagina": "problemas/item-alterado/index.html"
 },
 {
+"k": "114613eb44d4584b",
+"tipo": "html",
+"pt": "O ponto de partida é o anúncio do item, com as vantagens que ele prometia, porque é a partir da oferta que se mede o que precisava continuar existindo. Ajudam também capturas de tela com data, gravações e as telas da compra, que mostram como o item era e não só o que você lembra dele.",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
+"k": "d4ad6d8162ac0c5c",
+"tipo": "html",
+"pt": "O que pedir antes de falar em dinheiro?",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
+"k": "64dfa1c39e1f8a81",
+"tipo": "html",
+"pt": "A reclamação começa pela própria empresa. Continuar usando o serviço depois da mudança não quer dizer, por si, que você concordou com ela. Quem já investiu na conta muitas vezes segue em frente por não ter saída.",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
 "k": "d1d3e44fe6b66546",
 "tipo": "html",
 "pt": "Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público.",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
+"k": "05d77aae17aeb0cc",
+"tipo": "html",
+"pt": "Mesmo com uma perda relevante, a mudança ainda pode ser aceita quando a empresa mostra uma razão verificável. Para isso ela precisa também oferecer uma recomposição à altura, que é devolver o que foi perdido ou algo que cumpra a mesma função.",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
+"k": "23d938538e224009",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-antes-de-falar-em-dinheiro\">O que pedir antes de falar em dinheiro?</a>",
 "pagina": "problemas/item-alterado/index.html"
 },
 {
@@ -2676,9 +2892,27 @@
 "pagina": "problemas/item-alterado/index.html"
 },
 {
+"k": "f5bfe37af09f4b27",
+"tipo": "html",
+"pt": "Convém reunir o anúncio do encerramento, os comprovantes do que você comprou e capturas de tela da sua conta, da biblioteca e do progresso, com data. Se for um programa, a nota fiscal, a licença e a embalagem também importam, porque a lei manda que eles informem por quanto tempo a versão vendida funciona.",
+"pagina": "problemas/jogo-encerrado/index.html"
+},
+{
+"k": "0868515d3e3acb0a",
+"tipo": "html",
+"pt": "O que ainda se pode pedir quando o fim é inevitável?",
+"pagina": "problemas/jogo-encerrado/index.html"
+},
+{
 "k": "d83675083afc4f9d",
 "tipo": "html",
 "pt": "O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir.",
+"pagina": "problemas/jogo-encerrado/index.html"
+},
+{
+"k": "c3137d510e58923a",
+"tipo": "html",
+"pt": "<a href=\"#o-que-ainda-se-pode-pedir-quando-o-fim-e-inevita\">O que ainda se pode pedir quando o fim é inevitável?</a>",
 "pagina": "problemas/jogo-encerrado/index.html"
 },
 {
@@ -2700,9 +2934,21 @@
 "pagina": "problemas/jogo-encerrado/index.html"
 },
 {
+"k": "8cc17e63ba957670",
+"tipo": "html",
+"pt": "O que se pode cobrar de quem monta a vitrine?",
+"pagina": "problemas/loja-virtual/index.html"
+},
+{
 "k": "8c47f937807dc2e1",
 "tipo": "html",
 "pt": "Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são os caminhos para isso.",
+"pagina": "problemas/loja-virtual/index.html"
+},
+{
+"k": "83fb5f71c5190b7e",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-cobrar-de-quem-monta-a-vitrine\">O que se pode cobrar de quem monta a vitrine?</a>",
 "pagina": "problemas/loja-virtual/index.html"
 },
 {
@@ -2722,6 +2968,18 @@
 "tipo": "attr",
 "pt": "3. Quando a mesma empresa organiza a vitrine e também ganha com o que acontece nela, a situação fica mais séria.",
 "pagina": "problemas/loja-virtual/index.html"
+},
+{
+"k": "e8f0cc8aa76f4cbe",
+"tipo": "html",
+"pt": "O essencial é registrar quanto você pagou em reais por cada pacote, o saldo que tinha e o preço em moedas dos itens que importam, antes e depois da mudança. O aviso da empresa também merece ficar guardado, porque o contrato de um grande jogo promete avisar quando uma mudança afetar a moeda de forma negativa e significativa.",
+"pagina": "problemas/moeda/index.html"
+},
+{
+"k": "b026c30b71648f86",
+"tipo": "html",
+"pt": "Antes de tudo, a reclamação vai à própria empresa. O contrato que diz que a moeda não é reembolsável abre exceção para quando os seus direitos de consumidor garantem o reembolso. Por isso a resposta não para no que está escrito ali.",
+"pagina": "problemas/moeda/index.html"
 },
 {
 "k": "6b92aca5cbdda7b4",
@@ -2778,9 +3036,39 @@
 "pagina": "problemas/muita-gente/index.html"
 },
 {
+"k": "777ccb83eb6101c8",
+"tipo": "html",
+"pt": "Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo seguro e vantajoso, e ninguém deixava claro o que era oficial, tolerado ou proibido. Por isso não se pode presumir que qualquer pessoa saberia separar a revenda legítima da fraude com cartão clonado.",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
+"k": "3ad9f58c71516131",
+"tipo": "html",
+"pt": "O que se pode pedir de volta?",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
+"k": "4f296d9fbc8d4db8",
+"tipo": "html",
+"pt": "O pedido pode incluir ainda que a empresa informe com clareza onde se pode comprar com segurança e que deixe de aplicar regras que jogam todo o risco da fraude sobre quem compra.",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
 "k": "a04e7ffdf0a6c015",
 "tipo": "html",
 "pt": "O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o Procon, o Consumidor.gov.br e o Juizado são os caminhos seguintes.",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
+"k": "52aac7e8b6faeed3",
+"tipo": "html",
+"pt": "Relatos de outros jogadores ajudam a mostrar o quadro, mas sozinhos não provam o que houve. E pedir não é o mesmo que conseguir, porque cada caso depende do que se consegue provar.",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
+"k": "3b9c33ef06737ad8",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-pedir-de-volta\">O que se pode pedir de volta?</a>",
 "pagina": "problemas/presente-retirado/index.html"
 },
 {
@@ -2802,6 +3090,30 @@
 "pagina": "problemas/presente-retirado/index.html"
 },
 {
+"k": "303938765a14587d",
+"tipo": "html",
+"pt": "O sinal mais forte é a combinação. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam em segundo plano. E você não precisa provar que alguém quis apressar você.",
+"pagina": "problemas/pressa/index.html"
+},
+{
+"k": "41d9ef971ee203da",
+"tipo": "html",
+"pt": "Convém registrar a tela com o tempo restante, o aviso de edição limitada e a oferta do jeito que aparecia, com data. Também ajuda anotar quando a mesma campanha ou a mesma última chance voltou, porque a repetição mostra que a urgência era rotina da loja.",
+"pagina": "problemas/pressa/index.html"
+},
+{
+"k": "e90d8073625535b0",
+"tipo": "html",
+"pt": "Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncios do que viria e as mudanças feitas no meio do caminho. Com eles se compara a promessa do começo com o que foi entregue no fim.",
+"pagina": "problemas/pressa/index.html"
+},
+{
+"k": "178ce289d48c6b5b",
+"tipo": "html",
+"pt": "O que pedir quando a compra foi empurrada pela pressa?",
+"pagina": "problemas/pressa/index.html"
+},
+{
 "k": "1608c781e2ad2a41",
 "tipo": "html",
 "pt": "O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito comparável e no momento certo.",
@@ -2811,6 +3123,12 @@
 "k": "40ed2c872ab404f2",
 "tipo": "html",
 "pt": "Se ela não resolve, vale levar o caso ao Procon, ao Consumidor.gov.br ou ao Juizado. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela pede resposta para todos, seja por ação coletiva, seja pelos órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/pressa/index.html"
+},
+{
+"k": "50446848957a692f",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-quando-a-compra-foi-empurrada-pela-p\">O que pedir quando a compra foi empurrada pela pressa?</a>",
 "pagina": "problemas/pressa/index.html"
 },
 {
@@ -2832,9 +3150,21 @@
 "pagina": "problemas/pressa/index.html"
 },
 {
+"k": "1da957fbf3c38c88",
+"tipo": "html",
+"pt": "O que se pode exigir da empresa sobre esse programa?",
+"pagina": "problemas/programa-no-aparelho/index.html"
+},
+{
 "k": "faaee70a205ef617",
 "tipo": "html",
 "pt": "Se ela não responder ou se o programa causar prejuízo ao seu equipamento, há o Procon, o Consumidor.gov.br e o Juizado.",
+"pagina": "problemas/programa-no-aparelho/index.html"
+},
+{
+"k": "579389cade06387f",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-exigir-da-empresa-sobre-esse-progr\">O que se pode exigir da empresa sobre esse programa?</a>",
 "pagina": "problemas/programa-no-aparelho/index.html"
 },
 {
@@ -2856,9 +3186,27 @@
 "pagina": "problemas/programa-no-aparelho/index.html"
 },
 {
+"k": "90f2c86585b11e07",
+"tipo": "html",
+"pt": "A prova central são as peças de propaganda, as prévias, as telas da loja com o que estava em destaque e as telas de compra e de confirmação, com data. Também ajuda registrar o que aconteceu depois, para comparar a promessa de antes com o que você pôde usar.",
+"pagina": "problemas/promessa/index.html"
+},
+{
+"k": "4d3ac8431098b32c",
+"tipo": "html",
+"pt": "O que se pode exigir quando a entrega ficou abaixo do anúncio?",
+"pagina": "problemas/promessa/index.html"
+},
+{
 "k": "b9f956068d73eab8",
 "tipo": "html",
 "pt": "Se a empresa não corrige, a reclamação segue para fora dela, no Procon, no Consumidor.gov.br ou no Juizado. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/promessa/index.html"
+},
+{
+"k": "71040ca658360ff4",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-exigir-quando-a-entrega-ficou-abai\">O que se pode exigir quando a entrega ficou abaixo do anúncio?</a>",
 "pagina": "problemas/promessa/index.html"
 },
 {
@@ -2904,6 +3252,12 @@
 "pagina": "problemas/prova/index.html"
 },
 {
+"k": "57ad2f7b2801bea7",
+"tipo": "html",
+"pt": "As conversas com o atendimento são prova, assim como as respostas prontas e as justificativas que a empresa deu. Também ajuda anotar as etapas pelas quais você foi levado, como esperar, tentar de novo ou aceitar uma explicação vaga, porque é por elas que se vê como a perda foi conduzida.",
+"pagina": "problemas/reclamacao-some/index.html"
+},
+{
 "k": "7bf627e0becd0b5d",
 "tipo": "html",
 "pt": "Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, ao Procon, ao Consumidor.gov.br ou ao Juizado. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.",
@@ -2928,6 +3282,12 @@
 "pagina": "problemas/reclamacao-some/index.html"
 },
 {
+"k": "1c5c1e91a746c24a",
+"tipo": "html",
+"pt": "O que pedir à rede depois da punição ou da queda?",
+"pagina": "problemas/rede-social/index.html"
+},
+{
 "k": "e39afdc04de5443e",
 "tipo": "html",
 "pt": "Se a punição não tiver um motivo verificável, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender.",
@@ -2943,6 +3303,12 @@
 "k": "a72d8944f4d148ac",
 "tipo": "html",
 "pt": "A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.",
+"pagina": "problemas/rede-social/index.html"
+},
+{
+"k": "f8fbeb2e699ead2d",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-a-rede-depois-da-punicao-ou-da-queda\">O que pedir à rede depois da punição ou da queda?</a>",
 "pagina": "problemas/rede-social/index.html"
 },
 {
@@ -2964,9 +3330,21 @@
 "pagina": "problemas/rede-social/index.html"
 },
 {
+"k": "d24745f1ddfe7f5e",
+"tipo": "html",
+"pt": "O que se pode pedir quando a regra não foi bem informada?",
+"pagina": "problemas/regras-escondidas/index.html"
+},
+{
 "k": "65a174ca39d4ff4d",
 "tipo": "html",
 "pt": "Fora da empresa, o próximo passo é o Procon, o Consumidor.gov.br ou o Juizado. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/regras-escondidas/index.html"
+},
+{
+"k": "24efd764dee1b289",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-pedir-quando-a-regra-nao-foi-bem-i\">O que se pode pedir quando a regra não foi bem informada?</a>",
 "pagina": "problemas/regras-escondidas/index.html"
 },
 {
@@ -2988,6 +3366,12 @@
 "pagina": "problemas/regras-escondidas/index.html"
 },
 {
+"k": "1dd2e13033f62590",
+"tipo": "html",
+"pt": "O que pedir quando ficar e sair custam caro?",
+"pagina": "problemas/sair/index.html"
+},
+{
 "k": "918327dc8fe41831",
 "tipo": "html",
 "pt": "Se ela não responde, a reclamação pode ir ao Procon, ao Consumidor.gov.br ou ao Juizado. O custo de sair costuma ser o mesmo para todos os usuários. Por isso a resposta pode valer para todos, por ação coletiva ou pelos órgãos públicos de defesa do consumidor.",
@@ -2997,6 +3381,12 @@
 "k": "87e0ec234f14820a",
 "tipo": "html",
 "pt": "Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma demonstrável, o custo de ir embora.",
+"pagina": "problemas/sair/index.html"
+},
+{
+"k": "086bb6e2cc0db5ee",
+"tipo": "html",
+"pt": "<a href=\"#o-que-pedir-quando-ficar-e-sair-custam-caro\">O que pedir quando ficar e sair custam caro?</a>",
 "pagina": "problemas/sair/index.html"
 },
 {
@@ -3016,6 +3406,18 @@
 "tipo": "attr",
 "pt": "3. O sinal mais claro aparece quando a empresa muda as regras e você aceita só porque sair custaria mais.",
 "pagina": "problemas/sair/index.html"
+},
+{
+"k": "24571f04cd1c46f6",
+"tipo": "html",
+"pt": "A base da prova é a descrição do plano ou da oferta do dia em que você contratou, com o que estava incluído. Ajudam também capturas de tela com data que mostrem o antes e o depois. Os avisos de mudança que a empresa mandou também contam, porque ela deveria ter dito o essencial a tempo de você entender e reagir.",
+"pagina": "problemas/servico-piorou/index.html"
+},
+{
+"k": "402949013ecd5085",
+"tipo": "html",
+"pt": "A reclamação começa pela própria empresa, e continuar pagando não quer dizer que você aceitou a piora. Quando a mudança é relevante, ela deveria ter sido comunicada de modo compreensível, e o seu silêncio não vale como concordância.",
+"pagina": "problemas/servico-piorou/index.html"
 },
 {
 "k": "f2ed6bb2fa8952ca",
@@ -3042,6 +3444,18 @@
 "pagina": "problemas/servico-piorou/index.html"
 },
 {
+"k": "affe3edaf8f3ebd4",
+"tipo": "html",
+"pt": "Acontece quando você reclama de algo que sumiu ou piorou e a resposta é que você nunca teve nada, porque tudo era uma permissão que podia desaparecer. Coisas sem corpo também são bens para o direito, e quando houve pagamento de verdade a palavra licença não basta para apagar o que você recebeu.",
+"pagina": "problemas/so-licenca/index.html"
+},
+{
+"k": "c89507dc065924e1",
+"tipo": "html",
+"pt": "Primeiro vêm o comprovante de pagamento e a tela da compra com a palavra que o botão usava. Ajuda também uma captura do inventário ou da biblioteca com o que está na sua conta. Isso mostra que você decidiu pela linguagem da compra, mesmo que o contrato fale em licença.",
+"pagina": "problemas/so-licenca/index.html"
+},
+{
 "k": "ff464e40e9687aa6",
 "tipo": "attr",
 "pt": "1. Você pagou, o botão dizia comprar, e o contrato chama o que você recebeu de licença, que é uma permissão de uso que pode ser retirada.",
@@ -3060,9 +3474,27 @@
 "pagina": "problemas/so-licenca/index.html"
 },
 {
+"k": "7d4249eadcf14b7e",
+"tipo": "html",
+"pt": "A peça principal é a tela que descrevia o sorteio, com as chances, a garantia por número de tentativas, o teto de gasto e o prazo. A própria descrição oficial é uma prova importante, porque mostra que o caminho até o item foi desenhado como uma série de tentativas pagas, e não como compra direta.",
+"pagina": "problemas/sorteio/index.html"
+},
+{
+"k": "b84a01d205d0b664",
+"tipo": "html",
+"pt": "O que se pode cobrar de quem vende o sorteio?",
+"pagina": "problemas/sorteio/index.html"
+},
+{
 "k": "78f564f49043d0fb",
 "tipo": "html",
 "pt": "Se ela não resolve, restam o Procon, o Consumidor.gov.br e o Juizado, cada um com o seu ritmo e o seu custo. Como o sorteio é o mesmo para todos, um problema no desenho dele tende a atingir muita gente, e a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/sorteio/index.html"
+},
+{
+"k": "96f30998f731eeb9",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-cobrar-de-quem-vende-o-sorteio\">O que se pode cobrar de quem vende o sorteio?</a>",
 "pagina": "problemas/sorteio/index.html"
 },
 {
@@ -3084,6 +3516,12 @@
 "pagina": "problemas/sorteio/index.html"
 },
 {
+"k": "a2a4991da4215077",
+"tipo": "html",
+"pt": "O que se pode pedir quando o aplicativo muda a regra?",
+"pagina": "problemas/trabalho-por-app/index.html"
+},
+{
 "k": "414219e737ec3ac3",
 "tipo": "html",
 "pt": "O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.",
@@ -3093,6 +3531,12 @@
 "k": "1703fa76760cac6d",
 "tipo": "html",
 "pt": "Quando a mesma mudança atinge todos os que trabalham no aplicativo, a resposta pode ser coletiva e pedir critérios mínimos de distribuição e de prioridade para todos. O Ministério Público e a Defensoria podem agir nesses casos.",
+"pagina": "problemas/trabalho-por-app/index.html"
+},
+{
+"k": "60f8a5bb201e9393",
+"tipo": "html",
+"pt": "<a href=\"#o-que-se-pode-pedir-quando-o-aplicativo-muda-a-r\">O que se pode pedir quando o aplicativo muda a regra?</a>",
 "pagina": "problemas/trabalho-por-app/index.html"
 },
 {

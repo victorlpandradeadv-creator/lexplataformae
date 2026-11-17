@@ -368,7 +368,7 @@ Quem compra uma geladeira leva a geladeira para casa. A partir daí, ela funcion
 
 Com muita coisa digital não é assim. Quem compra um item num jogo, uma assinatura num aplicativo ou um acesso numa plataforma também compra algo. Mas o uso disso continua dependendo, todos os dias, de um ambiente que a empresa mantém, ajusta e pode mudar. O que você tem só funciona do lado de dentro, sob as regras de quem governa o lugar.
 
-As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e cujo defeito dá para ver olhando. Elas não dão conta, sozinhas, de um produto que continua sendo mexido depois da venda. O que decide se você está nesse tipo de situação não é o item ser digital, nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende do ambiente que a plataforma governa.
+As regras antigas foram pensadas para coisas estáveis, entregues de uma vez e cujo defeito se vê olhando. Elas não dão conta, sozinhas, de um produto que continua sendo mexido depois da venda. O que decide se você está nesse tipo de situação não é o item ser digital, nem o nome que a empresa dá a ele. É o quanto aquilo que você usa depende do ambiente que a plataforma governa.
 
 > Na economia industrial, o consumidor paga para adquirir um bem cuja existência, uma vez comprada, tende a se estabilizar fora do alcance do fornecedor, ao menos dentro de expectativas razoáveis de durabilidade e de disciplina dos vícios. (p. 210)
 > O problema já não se deixa apreender satisfatoriamente pela gramática clássica do produto ou do serviço, concebidos sob pressupostos de estabilidade, entrega pontual e defeito cognoscível por inspeção relativamente direta. (p. 501)
@@ -767,7 +767,7 @@ Visto sozinho, isso já pode ser publicidade enganosa por omissão. Visto como p
 
 ### importa Por que olhar o desenho, e não a intenção?
 
-O foco sai da cabeça do empresário e vai para o desenho. Isso torna o problema demonstrável, porque desenho dá para mostrar com telas, regras, histórico de mudanças e efeitos repetidos, enquanto intenção ninguém consegue provar de fora.
+O foco sai da cabeça do empresário e vai para o desenho. Isso torna o problema demonstrável, porque desenho se mostra com telas, regras, histórico de mudanças e efeitos repetidos, enquanto intenção ninguém consegue provar de fora.
 
 E a resposta pode ir além do seu caso. Quando a perda nasce do programa do serviço, cabe pedir que os caminhos do jogo sejam refeitos, que a transparência aumente e que o desenho seja corrigido, inclusive com medidas coletivas.
 
@@ -779,7 +779,7 @@ E a resposta pode ir além do seu caso. Quando a perda nasce do programa do serv
 
 Também não é rótulo para tudo. Cobrar, convencer e governar um jogo não são abusos por si sós. Um negócio só agressivo, um desenho discutível ou um arranjo simplesmente eficiente para a empresa também não bastam.
 
-E a plataforma tem finalidades legítimas, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando dá para mostrar, com razões, que o desenho aponta principalmente para explorar a fragilidade de quem usa e capturar valor de forma desproporcional, e não para esses fins.
+E a plataforma tem finalidades legítimas, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando se consegue mostrar, com razões, que o desenho aponta principalmente para explorar a fragilidade de quem usa e capturar valor de forma desproporcional, e não para esses fins.
 
 > A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
 > [...] a teleologia abusiva não se confunde com opção empresarial apenas severa, com design discutível ou com arquitetura simplesmente eficiente para o fornecedor. (p. 666)
@@ -797,7 +797,7 @@ Uma infração pode estar no desenho de um aplicativo?
 
 ### fenomeno
 
-Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que dá para sublinhar e mostrar ao juiz. Mas há casos em que nenhuma cláusula, sozinha, é o problema.
+Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que se pode sublinhar e mostrar ao juiz. Mas há casos em que nenhuma cláusula, sozinha, é o problema.
 
 O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas e um caminho para cancelar que parece feito para você desistir. E também equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Cada peça parece pequena. Juntas, funcionam como método.
 
@@ -825,7 +825,7 @@ Num prédio, a saída de emergência pode ficar atrás de três portas trancadas
 
 ### mecanismo Que cinco peças formam o ilícito?
 
-São cinco peças que se organizam juntas e se repetem. O ruído na informação, que confunde em vez de orientar. O atrito na hora de decidir, que empurra para um lado. A prova fora do alcance de quem usa. As mudanças que não dá para conferir. E a reparação que não cobre a perda.
+São cinco peças que se organizam juntas e se repetem. O ruído na informação, que confunde em vez de orientar. O atrito na hora de decidir, que empurra para um lado. A prova fora do alcance de quem usa. As mudanças que não se podem conferir. E a reparação que não cobre a perda.
 
 Nenhuma delas, sozinha, faz o ilícito. O que faz é o conjunto estável. E isso evita dois erros comuns. Um é aceitar que tudo é inovação, como se mudar o tempo todo deixasse a plataforma livre para rebaixar qualquer coisa. O outro é ficar caçando cláusulas soltas, como se o serviço só pudesse ser controlado em pedaços de texto e nunca no jeito como funciona.
 

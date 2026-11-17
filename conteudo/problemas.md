@@ -47,7 +47,7 @@ O resto costuma ficar com a empresa, que guarda o tipo de punição aplicada, o 
 > O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência. (p. 658)
 > Diante da concentração de registros, cabe preservação e exibição de trilhas do fornecimento, com redistribuição racional do ônus e presunções favoráveis ao consumidor quando o fornecedor não coopera ou mantém a prova em caixa-preta. (p. 609)
 
-### pedir O que dá para pedir quando a conta foi fechada sem explicação?
+### pedir O que se pode pedir quando a conta foi fechada sem explicação?
 
 Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.
 
@@ -91,7 +91,7 @@ Os termos de uso, que são o contrato que você aceita ao criar a conta, costuma
 > A cláusula 2.3 dos Termos de Serviço da Riot prevê que, encerrada a conta, o usuário perde acesso à conta, aos dados associados, à moeda do jogo e ao conteúdo virtual, sem reembolso em hipóteses de justa causa, com possibilidade ainda de cancelamento de outras contas e de acesso a outros serviços (p. 540)
 > A exclusividade é exercida, aqui, como poder de apagamento integral da experiência consumida, o que impede tratar sanção, exclusão ou rollback como meros ajustes internos sem relevância jurídica existencial. (p. 541)
 
-Nada disso garante que a conta volte, porque cada caso depende do que aconteceu e do que dá para mostrar. E a lei de proteção de dados não faz de você dono de tudo o que a empresa registra sobre a sua conta.
+Nada disso garante que a conta volte, porque cada caso depende do que aconteceu e do que se consegue provar. E a lei de proteção de dados não faz de você dono de tudo o que a empresa registra sobre a sua conta.
 
 > A prova mínima exigível envolve demonstração do nexo entre o mecanismo de governança e a perda funcional, bem como da possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental. (p. 748)
 > O uso de dados vinculados à trajetória, ao histórico e à biografia digital do consumidor deve permanecer compatível com as finalidades informadas e com o contexto da relação, precisa ser inteligível ao titular, e não elimina as faculdades de confirmação da existência, acesso, correção, eliminação ou portabilidade de dados tratados. Também pressupõe gestão segura de registros e trilhas relevantes. Esses dispositivos não transformam o consumidor em proprietário absoluto de tudo o que a plataforma registra (p. 542)
@@ -134,7 +134,7 @@ A pergunta não é se o item ainda existe, nem se o contrato deixava a empresa m
 
 ### guardar Que provas do antes e do depois valem a pena guardar?
 
-Vale guardar o anúncio do item, com as vantagens que ele prometia, porque é a partir da oferta que se mede o que precisava continuar existindo. Ajudam também capturas de tela com data, gravações e as telas da compra, que mostram como o item era e não só o que você lembra dele.
+O ponto de partida é o anúncio do item, com as vantagens que ele prometia, porque é a partir da oferta que se mede o que precisava continuar existindo. Ajudam também capturas de tela com data, gravações e as telas da compra, que mostram como o item era e não só o que você lembra dele.
 
 > A oferta e a confiança por ela despertada oferecem base direta para essa identificação, pois o consumidor contrata em vista das vantagens e qualidades anunciadas, surgindo daí o dever jurídico de manutenção das condições ofertadas ou, ao menos, de preservação substancial de sua utilidade (Miragem, 2020, p. 424). (p. 652)
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
@@ -144,7 +144,7 @@ As notas de atualização são os textos em que a empresa conta o que mudou em c
 > O formato é útil para informação geral e para transparência comunicacional mínima, mas não é desenhado como ferramenta de auditabilidade comparativa voltada ao consumidor que precisa reconstruir tecnicamente um antes e depois de um cosmético específico, com parâmetros objetivos de demonstração. (p. 471)
 > Em um regime em que o fornecedor pode atualizar continuamente e até automaticamente, a auditabilidade não pode depender do acaso de o consumidor ter arquivado evidências ou de ter conhecimento técnico para produzir comparações artesanais. (p. 471)
 
-### pedir O que dá para pedir antes de falar em dinheiro?
+### pedir O que pedir antes de falar em dinheiro?
 
 A primeira resposta é a função voltar. O pedido pode incluir desfazer a mudança, quando isso for tecnicamente viável, ou trocar o item por outro que cumpra o mesmo papel. Também pode incluir corrigir a forma como a atualização foi feita.
 
@@ -162,7 +162,7 @@ Também cabe pedir que a empresa diga o que mudou, quando, por qual motivo e com
 
 ### quem Por onde começar a reclamar de uma atualização?
 
-O primeiro passo costuma ser a própria empresa. Continuar usando o serviço depois da mudança não quer dizer, por si, que você concordou com ela. Quem já investiu na conta muitas vezes segue em frente por não ter saída.
+A reclamação começa pela própria empresa. Continuar usando o serviço depois da mudança não quer dizer, por si, que você concordou com ela. Quem já investiu na conta muitas vezes segue em frente por não ter saída.
 
 > Esse dever de comunicação qualificada também impede que a plataforma transforme silêncio, passividade ou mera permanência do consumidor no ambiente em aceitação ficta de mutações relevantes. (p. 658)
 > Em contratos cativos, o chamado “consenso” superveniente frequentemente não passa de adesão forçada ao novo estado de coisas, especialmente quando o consumidor já está investido na relação e depende do ecossistema para continuar fruindo aquilo que adquiriu. (p. 654-655)
@@ -185,7 +185,7 @@ A mudança só de aparência, em regra, fica de fora, e gostar mais da versão a
 > Não é equivalência a mera preferência estética por uma experiência antiga, nem o inconformismo com variações ordinárias do serviço. (p. 477)
 > Por isso, em regra, ficam fora do alcance do conceito alterações predominantemente estéticas, salvo quando, no caso concreto, componham um conjunto convergente de sinais apto a sustentar reconhecimento objetivo de ilícito arquitetural por indícios estruturais de teleologia abusiva. (p. 434)
 
-Mesmo com uma perda relevante, a mudança ainda pode ser aceita quando a empresa mostra uma razão que dá para conferir. Para isso ela precisa também oferecer uma recomposição à altura, que é devolver o que foi perdido ou algo que cumpra a mesma função.
+Mesmo com uma perda relevante, a mudança ainda pode ser aceita quando a empresa mostra uma razão verificável. Para isso ela precisa também oferecer uma recomposição à altura, que é devolver o que foi perdido ou algo que cumpra a mesma função.
 
 > Mesmo quando há perda relevante, a mutação pode ainda ser juridicamente tolerável se houver justificativa verificável e recomposição adequada. (p. 653)
 
@@ -231,7 +231,7 @@ O que conta é a piora persistente e relevante, que tira o essencial do que voc�
 
 ### guardar Como registrar uma piora que chega aos poucos?
 
-Vale guardar a descrição do plano ou da oferta do dia em que você contratou, com o que estava incluído. Ajudam também capturas de tela com data que mostrem o antes e o depois. Os avisos de mudança que a empresa mandou também contam, porque ela deveria ter dito o essencial a tempo de você entender e reagir.
+A base da prova é a descrição do plano ou da oferta do dia em que você contratou, com o que estava incluído. Ajudam também capturas de tela com data que mostrem o antes e o depois. Os avisos de mudança que a empresa mandou também contam, porque ela deveria ter dito o essencial a tempo de você entender e reagir.
 
 > A oferta e a confiança por ela despertada oferecem base direta para essa identificação, pois o consumidor contrata em vista das vantagens e qualidades anunciadas, surgindo daí o dever jurídico de manutenção das condições ofertadas ou, ao menos, de preservação substancial de sua utilidade (Miragem, 2020, p. 424). (p. 652)
 > Quando a mudança é apta a impactar o núcleo de fruição do OIC, a boa-fé exige comunicação orientada ao essencial, hierarquizada e temporalmente adequada ao momento em que o consumidor ainda pode compreender o impacto, reagir, decidir e, se necessário, contestar. (p. 657)
@@ -258,7 +258,7 @@ E cabe pedir que a empresa diga o que mudou, quando e por quê, em vez de respon
 
 ### quem A quem levar a reclamação de um serviço que piorou para todos?
 
-A reclamação começa pela própria empresa, e continuar pagando não quer dizer que você aceitou a piora. Quando a mudança é relevante, ela deveria ter sido comunicada de um jeito que desse para entender, e o seu silêncio não vale como concordância.
+A reclamação começa pela própria empresa, e continuar pagando não quer dizer que você aceitou a piora. Quando a mudança é relevante, ela deveria ter sido comunicada de modo compreensível, e o seu silêncio não vale como concordância.
 
 > Esse dever de comunicação qualificada também impede que a plataforma transforme silêncio, passividade ou mera permanência do consumidor no ambiente em aceitação ficta de mutações relevantes. (p. 658)
 
@@ -321,7 +321,7 @@ Conta muito saber se a função era oficial. Num caso concreto, mandar presentes
 > A função de presentes não operava à margem da plataforma, nem constituía prática clandestina ou intrinsecamente desviada. Ao contrário, a própria Riot a apresentava como funcionalidade regular, integrada ao client do jogo, submetida a requisitos objetivos de elegibilidade, limites quantitativos, restrições regionais e fluxos padronizados de envio. (p. 610)
 > O gifting integrava a arquitetura ordinária do serviço. A confiança do consumidor na licitude da circulação de conteúdo virtual por esse canal não era capricho subjetivo. Era confiança produzida pela própria plataforma e apoiada em funcionalidade oficialmente oferecida (p. 610)
 
-Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo seguro e vantajoso, e ninguém deixava claro o que era oficial, tolerado ou proibido. Por isso não dá para presumir que qualquer pessoa saberia separar a revenda legítima da fraude com cartão clonado.
+Ao mesmo tempo, lojas de fora vendiam a moeda do jogo como algo seguro e vantajoso, e ninguém deixava claro o que era oficial, tolerado ou proibido. Por isso não se pode presumir que qualquer pessoa saberia separar a revenda legítima da fraude com cartão clonado.
 
 > O mercado de Riot Points e de códigos externos era atravessado por uma zona cinzenta semiótica, na qual materiais promocionais e vitrines digitais apresentavam a compra externa de moeda virtual como prática ordinária, segura, vantajosa e compatível com o ecossistema do jogo. A linguagem empregada nesses ambientes mimetizava legitimidade comercial, profissionalismo visual, integração funcional posterior com o client oficial, promessas plausíveis de economia e retórica de segurança. Nessa ambiência, não é juridicamente sério presumir que o consumidor médio sempre distinguiria, com clareza suficiente, parceiro tolerado, revenda legítima, mercado cinzento e fraude vinculada a cartão clonado. A vulnerabilidade não decorre de ingenuidade privada, mas da ausência de demarcação comunicacional robusta entre o que era admitido, tolerado, oficial ou proibido. (p. 611-612)
 
@@ -340,13 +340,13 @@ O resto fica com a empresa, como o histórico das transações, a origem dos ite
 
 > A quinta é a de assimetria probatória, com necessidade de preservação de trilhas, históricos de transação, origem dos itens removidos, critérios utilizados para rollback e justificativa individualizada das medidas adotadas. (p. 617)
 
-### pedir O que dá para pedir de volta?
+### pedir O que se pode pedir de volta?
 
 Quando nenhuma prova individual e consistente afasta a sua boa-fé, o pedido pode ser que os itens retirados voltem e que a sua conta seja recomposta. Também cabe pedir que a empresa guarde e mostre os registros e explique por que a medida atingiu você em particular.
 
 > O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta, preservação e exibição de registros mínimos do fornecimento, correção informacional sobre canais legítimos de aquisição e neutralização de cláusulas ou práticas que transfiram integralmente ao consumidor os riscos estruturais do sistema. (p. 617)
 
-O pedido pode incluir ainda que a empresa informe com clareza onde dá para comprar com segurança e que deixe de aplicar regras que jogam todo o risco da fraude sobre quem compra.
+O pedido pode incluir ainda que a empresa informe com clareza onde se pode comprar com segurança e que deixe de aplicar regras que jogam todo o risco da fraude sobre quem compra.
 
 > Se a própria plataforma institucionaliza determinada funcionalidade, conhece os riscos correlatos e permite que a circulação de valor se desenvolva em ambiente comunicacional objetivamente confuso, não pode tratar o consumidor como fiador universal das falhas do sistema. (p. 615)
 
@@ -380,7 +380,7 @@ A devolução depende de a sua boa-fé não ter sido afastada por uma prova indi
 
 > O regime consumerista comporta, aqui, pedidos de recomposição funcional da posição de fruição, restauração de ativos quando a boa-fé do usuário não foi infirmada por prova individualizada robusta (p. 617)
 
-Relatos de outros jogadores ajudam a mostrar o quadro, mas sozinhos não provam o que houve. E pedir não é o mesmo que conseguir, porque cada caso depende do que dá para mostrar.
+Relatos de outros jogadores ajudam a mostrar o quadro, mas sozinhos não provam o que houve. E pedir não é o mesmo que conseguir, porque cada caso depende do que se consegue provar.
 
 > Os relatos comunitários não são a prova central de um ilícito, mas têm utilidade para formular e ilustrar uma, ainda que hipotética, experiência consumerista de longa duração na qual se vislumbra restrição e sedimentação de uma política punitiva ampla sobre a base brasileira (p. 611)
 > A prova mínima exigível envolve demonstração do nexo entre o mecanismo de governança e a perda funcional, bem como da possibilidade técnica ou institucional de recomposição, reversão, substituição equivalente ou correção procedimental. (p. 748)
@@ -426,7 +426,7 @@ O contrato pode chamar tudo de licença precária, que é uma permissão que pod
 
 ### guardar O que vale guardar antes que os servidores sejam desligados?
 
-Vale guardar o anúncio do encerramento, os comprovantes do que você comprou e capturas de tela da sua conta, da biblioteca e do progresso, com data. Se for um programa, a nota fiscal, a licença e a embalagem também importam, porque a lei manda que eles informem por quanto tempo a versão vendida funciona.
+Convém reunir o anúncio do encerramento, os comprovantes do que você comprou e capturas de tela da sua conta, da biblioteca e do progresso, com data. Se for um programa, a nota fiscal, a licença e a embalagem também importam, porque a lei manda que eles informem por quanto tempo a versão vendida funciona.
 
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
 > O art. 7º impõe que o contrato de licença, o documento fiscal e os suportes e embalagens indiquem, de forma facilmente legível, o prazo de validade técnica da versão comercializada, e o art. 8º converte esse prazo em obrigação de assegurar serviços técnicos complementares relativos ao adequado funcionamento do programa durante a validade técnica, inclusive quando houver retirada de circulação comercial (p. 51)
@@ -435,7 +435,7 @@ O histórico das suas compras e as comunicações da empresa também ficam com e
 
 > O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência. (p. 658)
 
-### pedir O que dá para pedir quando o fim é inevitável?
+### pedir O que ainda se pode pedir quando o fim é inevitável?
 
 Tanto quanto for técnica e juridicamente possível, o pedido pode incluir manter o serviço de outro jeito ou deixar você levar o que tem para outro lugar. Pode incluir também recompor o que se perdeu ou passar a operação para outra empresa. Em resumo, a saída precisa vir com transição, preservação ou transferência.
 
@@ -499,7 +499,7 @@ Você pagou, o botão dizia comprar, e o contrato chama o que você recebeu de l
 
 ### caso Como saber se a palavra licença está sendo usada contra você?
 
-Acontece quando você reclama de algo que sumiu ou piorou e a resposta é que você nunca teve nada, porque tudo era uma permissão que podia evaporar. Coisas sem corpo também são bens para o direito, e quando houve pagamento de verdade a palavra licença não basta para apagar o que você recebeu.
+Acontece quando você reclama de algo que sumiu ou piorou e a resposta é que você nunca teve nada, porque tudo era uma permissão que podia desaparecer. Coisas sem corpo também são bens para o direito, e quando houve pagamento de verdade a palavra licença não basta para apagar o que você recebeu.
 
 > A doutrina dos bens digitais de Bruno Torquato Zampier Lacerda cumpre função importante porque resolve, com boa densidade, um problema que não pode ser contornado por retórica contratual ou por nostalgia da tangibilidade: ativos tecnodigitais são bens jurídicos e não desaparecem do mundo do Direito só porque são incorpóreos. (p. 565)
 > Quando há efetivo desembolso econômico ou incorporação relevante de utilidade à esfera do sujeito, a linguagem da licença não basta para apagar a densidade jurídica do ativo, nem para neutralizar a incidência de normas de ordem pública (Lacerda, 2024, p. 124; p. 193). (p. 573)
@@ -515,7 +515,7 @@ O que decide a proteção não é o item ser digital nem o nome que a empresa d�
 
 ### guardar Que documentos mostram o que você recebeu de fato?
 
-Vale guardar o comprovante de pagamento e a tela da compra com a palavra que o botão usava. Ajuda também uma captura do inventário ou da biblioteca com o que está na sua conta. Isso mostra que você decidiu pela linguagem da compra, mesmo que o contrato fale em licença.
+Primeiro vêm o comprovante de pagamento e a tela da compra com a palavra que o botão usava. Ajuda também uma captura do inventário ou da biblioteca com o que está na sua conta. Isso mostra que você decidiu pela linguagem da compra, mesmo que o contrato fale em licença.
 
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
 > O resultado é uma desigualdade objetiva de decodificação e de agência, porque o consumidor decide sob a gramática do “comprar”, mas a fruição se realiza sob a gramática da “licença revogável” associada à conta (p. 401-402)
@@ -604,7 +604,7 @@ O ponto que decide é se o anúncio pesou de verdade no jeito como você entende
 
 ### guardar Que provas do anúncio vale salvar antes que ele saia do ar?
 
-Vale guardar as peças de propaganda, as prévias, as telas da loja com o que estava em destaque e as telas de compra e de confirmação, com data. Também ajuda registrar o que aconteceu depois, para comparar a promessa de antes com o que você pôde usar.
+A prova central são as peças de propaganda, as prévias, as telas da loja com o que estava em destaque e as telas de compra e de confirmação, com data. Também ajuda registrar o que aconteceu depois, para comparar a promessa de antes com o que você pôde usar.
 
 > A prova mínima exigível envolve reconstrução do ambiente promocional, das peças de comunicação, das saliências simbólicas, do contexto de apresentação do objeto e da relação entre promessa antecedente e fruição posterior. (p. 745)
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração. (p. 607)
@@ -613,7 +613,7 @@ Esses registros pesam mais do que a lembrança, porque mostram como o ambiente d
 
 > O relevante aí não é a memória subjetiva do usuário, mas a arquitetura efetivamente apresentada. A alegação deixa de ser “eu não entendi” e passa a ser “o ambiente foi desenhado desta forma”. (p. 607)
 
-### pedir O que dá para exigir quando a entrega ficou abaixo do anúncio?
+### pedir O que se pode exigir quando a entrega ficou abaixo do anúncio?
 
 O pedido pode ser que a oferta seja cumprida ou corrigida e que você recupere a função ou a posição que o anúncio prometia, ou algo equivalente. Quando a mesma comunicação continua levando outras pessoas ao erro, também cabe pedir que ela pare.
 
@@ -694,12 +694,12 @@ Isso não é só vaidade. Num item que os outros veem, o status, a raridade e o 
 
 ### guardar Que provas da promessa de exclusividade vale a pena guardar?
 
-Vale guardar a oferta do jeito que ela apareceu, com as palavras exclusivo, raro ou última chance, o prazo anunciado, o preço e a moeda usada. Depois, ajuda registrar quando e como o item voltou, em que loja, por qual preço e em qual moeda.
+A oferta precisa ficar registrada do jeito que apareceu, com as palavras exclusivo, raro ou última chance, o prazo anunciado, o preço e a moeda usada. Depois, ajuda registrar quando e como o item voltou, em que loja, por qual preço e em qual moeda.
 
 > A prova mínima exigível envolve reconstrução do ambiente promocional, das peças de comunicação, das saliências simbólicas, do contexto de apresentação do objeto e da relação entre promessa antecedente e fruição posterior. (p. 745)
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação (p. 607)
 
-### pedir O que dá para pedir quando a raridade foi desfeita?
+### pedir O que pedir quando a raridade foi desfeita?
 
 Conforme o caso, o pedido pode incluir devolver o que foi pago, abater o preço ou compensar com algo que cumpra a mesma função. Se a volta do item causou um prejuízo a mais, que você consiga demonstrar, também pode haver indenização por perdas e danos.
 
@@ -715,7 +715,7 @@ Também cabe pedir que a oferta seja corrigida e cumprida e que a comunicação 
 
 ### quem A quem levar a reclamação da exclusividade desfeita?
 
-O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.
+O primeiro endereço é a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.
 
 > A escassez, aqui, pode operar como expediente de captação de consentimento sob inadequação informativa, com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta, além de romper a equivalência entre dispêndio e utilidade entregue tal como legitimamente esperada. (p. 214)
 
@@ -780,7 +780,7 @@ Nesse arranjo, a maior parte das tentativas devolve moedas e itens que você nã
 
 ### guardar Que registros mostram quanto custou tentar?
 
-Vale guardar a tela que descrevia o sorteio, com as chances, a garantia por número de tentativas, o teto de gasto e o prazo. A própria descrição oficial é uma prova importante, porque mostra que o caminho até o item foi desenhado como uma série de tentativas pagas, e não como compra direta.
+A peça principal é a tela que descrevia o sorteio, com as chances, a garantia por número de tentativas, o teto de gasto e o prazo. A própria descrição oficial é uma prova importante, porque mostra que o caminho até o item foi desenhado como uma série de tentativas pagas, e não como compra direta.
 
 > A prova do caráter exploratório não depende de leitura subjetiva, porque o próprio material institucional descreve a estrutura em termos de probabilidade, progressão e garantias por tentativas, além de apresentar um teto de investimento. O elemento probatório relevante é a admissão do desenho do acesso como trajetória de extração probabilística, e não como compra direta do bem (Riot Games, 2024a). (p. 450)
 
@@ -789,7 +789,7 @@ Como a moeda do jogo fica entre o seu dinheiro e o sorteio, o custo real em reai
 > Modelo de monetização baseado em sorteios aleatórios de itens virtuais, inspirado em máquinas de venda de cápsulas (gashapon). Sob a perspectiva dos OIC, representa arquitetura de extração que condiciona a fruição de bens desejados a mecanismos probabilísticos e sorteios sucessivos, muitas vezes ocultando o custo real da aquisição por meio de moedas intermediárias e opacidade estatística (p. 299)
 > Uma vez removidos os ativos ou revertido o estado da conta, o usuário passa a depender de extratos antigos, e-mails dispersos, capturas pretéritas e memória reconstruída para provar que determinado conteúdo integrava legitimamente sua posição de fruição. (p. 616)
 
-### pedir O que dá para cobrar de quem vende o sorteio?
+### pedir O que se pode cobrar de quem vende o sorteio?
 
 O primeiro pedido é de clareza sobre as condições de compra, inclusive as chances, quando houver. Esse é justamente o foco que a discussão sobre caixas de recompensa costuma ter, junto com a proteção de quem é mais vulnerável.
 
@@ -869,7 +869,7 @@ A mudança no que a moeda compra entra no mesmo teste das outras mudanças. A pe
 
 ### guardar Que registros mostram quanto a sua moeda valia?
 
-Vale guardar quanto você pagou em reais por cada pacote, o saldo que tinha e o preço em moedas dos itens que importam, antes e depois da mudança. O aviso da empresa também merece ficar guardado, porque o contrato de um grande jogo promete avisar quando uma mudança afetar a moeda de forma negativa e significativa.
+O essencial é registrar quanto você pagou em reais por cada pacote, o saldo que tinha e o preço em moedas dos itens que importam, antes e depois da mudança. O aviso da empresa também merece ficar guardado, porque o contrato de um grande jogo promete avisar quando uma mudança afetar a moeda de forma negativa e significativa.
 
 > Normalmente, fazemos isso apenas em etapas progressivas, mas você será avisado (por meio de postagens em nosso site, aplicativo ou jogo) se pretendermos fazer alterações que afetem significativamente sua Moeda do Jogo de maneira negativa. (p. 614)
 > A prova mínima exigível requer identificação do que foi mostrado, em que momento, com qual saliência, por quais canais e em que medida essa organização permitia ao consumidor compreender o que era juridicamente relevante para aderir, permanecer ou reagir. (p. 744)
@@ -892,7 +892,7 @@ Se a mudança fez o que você já tinha deixar de valer o mesmo, cabe pedir que 
 
 ### quem A quem recorrer quando a mudança na moeda atinge todo mundo?
 
-O primeiro passo costuma ser a própria empresa. O contrato que diz que a moeda não é reembolsável abre exceção para quando os seus direitos de consumidor garantem o reembolso. Por isso a resposta não para no que está escrito ali.
+Antes de tudo, a reclamação vai à própria empresa. O contrato que diz que a moeda não é reembolsável abre exceção para quando os seus direitos de consumidor garantem o reembolso. Por isso a resposta não para no que está escrito ali.
 
 > Sujeito à lei aplicável, quaisquer valores aplicáveis e outras cobranças por serviços baseados em valores (inclusive a Moeda do Jogo) são pagos antecipadamente e não são reembolsáveis, no todo ou em parte, exceto conforme expressamente previsto nestes Termos ou em nossa política de reembolsos ou a menos que seus direitos como consumidor lhe concedam direito a um reembolso. (p. 614)
 
@@ -948,22 +948,22 @@ A pressa também pode vir em série, com passes, metas por prazo, eventos em eta
 > Teasers, pré-vendas, progressões condicionadas, passes, recompensas seriadas e metas temporárias constroem uma trajetória em que o valor deixa de residir apenas no objeto e passa a residir no custo de “ficar para trás”. O efeito jurídico relevante é a conversão da fruição em percurso dirigido, no qual a desistência deixa de significar mera interrupção do consumo e passa a representar perda de valor acumulado, regressão de posição e descontinuidade de expectativa já instalada. (p. 670-671)
 > Perder uma janela, falhar em um marco ou ignorar um ciclo não equivale a “perder uma chance”, mas a cair de posição no regime público de comparação que o ecossistema atualiza em tempo real. (p. 318)
 
-O sinal mais forte é a combinação. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam num canto. E você não precisa provar que alguém quis apressar você.
+O sinal mais forte é a combinação. A urgência fica em destaque, enquanto os limites de uso, a chance de o item mudar e as perdas possíveis ficam em segundo plano. E você não precisa provar que alguém quis apressar você.
 
 > O fornecedor enfatiza urgência, benefício, raridade ou prestígio, mas relega a condições laterais aquilo que realmente define a substância da fruição, como limitações relevantes de uso, mutabilidade ordinária do objeto, parâmetros de equivalência, perdas possíveis, janelas restritas de aproveitamento, exigências adicionais para concretização da promessa ou condições específicas para manutenção do valor anunciado. (p. 631)
 > Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. (p. 732)
 
 ### guardar Que telas mostram a pressa depois que a oferta acabou?
 
-Vale guardar a tela com o tempo restante, o aviso de edição limitada e a oferta do jeito que aparecia, com data. Também ajuda anotar quando a mesma campanha ou a mesma última chance voltou, porque a repetição mostra que a urgência era rotina da loja.
+Convém registrar a tela com o tempo restante, o aviso de edição limitada e a oferta do jeito que aparecia, com data. Também ajuda anotar quando a mesma campanha ou a mesma última chance voltou, porque a repetição mostra que a urgência era rotina da loja.
 
 > O sinal mínimo de prova, aqui, não depende de intuição sobre manipulação. Ele aparece em telas de tempo restante, em histórico de repetição de campanhas temporárias, em rotação programada de ofertas e na própria arquitetura visual que antecipa benefício e posterga condição relevante. (p. 670)
 
-Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncios do que viria e as mudanças feitas no meio do caminho. Com eles dá para comparar a promessa do começo com o que foi entregue no fim.
+Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncios do que viria e as mudanças feitas no meio do caminho. Com eles se compara a promessa do começo com o que foi entregue no fim.
 
 > O sinal mínimo de prova surge em estruturas de progressão, regras de evento, exigências temporais, modificações introduzidas no meio do ciclo e comparação entre a promessa inicial e a entrega efetiva ao longo da trajetória. (p. 671)
 
-### pedir O que dá para pedir quando a compra foi empurrada pela pressa?
+### pedir O que pedir quando a compra foi empurrada pela pressa?
 
 O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito comparável e no momento certo.
 
@@ -1049,7 +1049,7 @@ Se a regra chegou por nota de atualização, que é o texto que a empresa public
 
 > Em serviços digitais contínuos, não basta que a plataforma “publique uma atualização”, “solte uma nota de patch” ou enterre a modificação em camadas de texto, links ou avisos genéricos. (p. 657)
 
-### pedir O que dá para pedir quando a regra não foi bem informada?
+### pedir O que se pode pedir quando a regra não foi bem informada?
 
 O pedido pode ser que a empresa corrija a forma de informar, deixe à vista o que importa e mostre o que de fato exibiu a você. Também cabe pedir que seja reposto o que você perdeu por causa da falta de clareza.
 
@@ -1229,7 +1229,7 @@ O teste não é se você se sentiu bem atendido. É se o atendimento funciona de
 
 ### guardar Que conversas com o atendimento vale a pena guardar?
 
-Vale guardar as conversas com o atendimento, as respostas prontas e as justificativas que a empresa deu. Também ajuda anotar as etapas pelas quais você foi levado, como esperar, tentar de novo ou aceitar uma explicação vaga, porque é por elas que se vê como a perda foi conduzida.
+As conversas com o atendimento são prova, assim como as respostas prontas e as justificativas que a empresa deu. Também ajuda anotar as etapas pelas quais você foi levado, como esperar, tentar de novo ou aceitar uma explicação vaga, porque é por elas que se vê como a perda foi conduzida.
 
 > A evidência compatível com esse subtipo exige reconstrução do ambiente discursivo e procedimental em que a frustração se torna legível ou, ao contrário, é diluída. Isso inclui a análise da linguagem da interface, dos fluxos de atendimento, dos modelos de resposta, das rotinas de explicação, da forma como a plataforma enquadra a perda e das etapas pelas quais o usuário é conduzido a aceitar, esperar, relativizar ou encerrar a inconformidade. (p. 782-783)
 
@@ -1315,7 +1315,7 @@ O que mostra o peso do que você construiu não é a tristeza de sair, e sim o v
 > O sinal mínimo de prova não está em relato subjetivo de tristeza ou frustração, mas na demonstração objetiva de como o próprio sistema atribui valor social ao objeto, por meio de marcadores internos, visibilidade, requisitos de participação, restrições de acesso e efeitos reputacionais. (p. 673)
 > O uso de dados vinculados à trajetória, ao histórico e à biografia digital do consumidor deve permanecer compatível com as finalidades informadas e com o contexto da relação, precisa ser inteligível ao titular, e não elimina as faculdades de confirmação da existência, acesso, correção, eliminação ou portabilidade de dados tratados. (p. 542)
 
-### pedir O que dá para pedir quando ficar e sair custam caro?
+### pedir O que pedir quando ficar e sair custam caro?
 
 Quando a empresa muda algo importante no que você usa, ela deve avisar com informação farta, clara e a tempo. A razão é que, para quem depende do ambiente, sair, se adaptar ou contestar nunca é neutro.
 
@@ -1400,7 +1400,7 @@ Mesmo depois da perda, você pode pedir à empresa a confirmação e o acesso ao
 
 > O uso de dados vinculados à trajetória, ao histórico e à biografia digital do consumidor deve permanecer compatível com as finalidades informadas e com o contexto da relação, precisa ser inteligível ao titular, e não elimina as faculdades de confirmação da existência, acesso, correção, eliminação ou portabilidade de dados tratados. Também pressupõe gestão segura de registros e trilhas relevantes. (p. 542)
 
-### pedir O que dá para pedir quando a história inteira foi apagada?
+### pedir O que se pode pedir quando a história inteira foi apagada?
 
 A primeira resposta buscada é restaurar o que foi apagado, quando isso for possível, em vez de converter tudo direto em dinheiro. A lei do consumidor permite exigir o cumprimento da obrigação ou algo equivalente, e o juiz pode buscar um resultado prático que corresponda a esse cumprimento.
 
@@ -1501,7 +1501,7 @@ Se o computador começar a travar, ajudam os registros de falha que o próprio s
 
 > Em um dos casos, o usuário relata BSOD recorrente e associa o problema ao arquivo vgk.sys, isto é, ao driver de baixo nível vinculado ao Vanguard, com base na leitura dos próprios minidumps do sistema (p. 529)
 
-### pedir O que dá para exigir da empresa sobre esse programa?
+### pedir O que se pode exigir da empresa sobre esse programa?
 
 O pedido pode ser informação clara sobre o que o programa faz, que dados ele trata, para quê e quem trata esses dados. A lei de proteção de dados exige finalidade específica, limite ao necessário e transparência, e um clique em aceitar não resolve isso sozinho.
 
@@ -1585,7 +1585,7 @@ Quando promessas de progresso, vontade de pertencer ao grupo e propaganda dentro
 
 ### guardar Que registros ajudam a mostrar como o gasto aconteceu?
 
-Vale guardar os extratos e os e-mails de cada compra, as telas da loja e de confirmação e os avisos de evento, de prazo ou de oferta que apareciam no jogo. Esses registros mostram como o ambiente estava montado, o que pesa mais do que a lembrança de cada compra.
+A base são os extratos e os e-mails de cada compra, as telas da loja e de confirmação e os avisos de evento, de prazo ou de oferta que apareciam no jogo. Esses registros mostram como o ambiente estava montado, o que pesa mais do que a lembrança de cada compra.
 
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração. O relevante aí não é a memória subjetiva do usuário, mas a arquitetura efetivamente apresentada. (p. 607)
 
@@ -1688,7 +1688,7 @@ Parte do histórico e dos registros fica só com a empresa. Por isso a sua prote
 
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 
-### pedir O que dá para pedir além de uma resposta certa?
+### pedir O que pedir além de uma resposta certa?
 
 O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.
 
@@ -1772,7 +1772,7 @@ Capturas de tela com data e gravações da tela ajudam a mostrar como a vitrine 
 > A primeira fonte de lastro são trilhas de interface e fluxo decisório: capturas de tela datadas, gravações de tela, telas de compra, aceite, upgrade, confirmação, mensagens sobre raridade, equivalência, tempo restante, desconto, evento ou alteração. (p. 607)
 > Em marketplaces, pode envolver a forma como ranking, destaque, classificação de seller e lógica de patrocínio produzem um mercado perceptível já previamente selecionado. (p. 763)
 
-### pedir O que dá para cobrar de quem monta a vitrine?
+### pedir O que se pode cobrar de quem monta a vitrine?
 
 A conversa pode ir além do produto e alcançar o jeito de montar a vitrine. Cabe perguntar se ficou claro quem vendia e qual era o papel da plataforma, se dava para separar o anúncio pago do resto e se a reputação mostrada podia ser conferida. Também cabe perguntar se a falta de clareza nos critérios atrapalhou a comparação ou se a tela induziu você a erro.
 
@@ -1856,7 +1856,7 @@ O que mais pesa, porém, é o jeito como o feed, a recomendação e a reputaçã
 > Em redes sociais, essa reconstrução pode envolver ainda o exame da forma como o feed, a recomendação, o alcance e a gestão reputacional condicionam a própria percepção do que está em circulação. (p. 763)
 > Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
 
-### pedir O que dá para pedir à rede depois da punição ou da queda?
+### pedir O que pedir à rede depois da punição ou da queda?
 
 Se a punição não tiver um motivo verificável, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender.
 
@@ -1939,7 +1939,7 @@ A queda de ganho nem sempre é risco normal da atividade, porque pode vir de uma
 
 > Há, aqui, pontos de cegueira recorrentes que precisam ser evitados. O primeiro é tratar a oscilação de ganho como puro risco natural da atividade, quando ela pode decorrer de reconfiguração unilateral opaca da infraestrutura de distribuição. O segundo é tratar a sanção final como evento isolado, sem reconstruir o regime de conduta, incentivo e ameaça que a antecedeu. (p. 768)
 
-### pedir O que dá para pedir quando o aplicativo muda a regra?
+### pedir O que se pode pedir quando o aplicativo muda a regra?
 
 O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
 

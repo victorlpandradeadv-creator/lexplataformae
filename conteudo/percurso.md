@@ -107,7 +107,7 @@ O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamen
 
 ### texto
 
-E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas que dá para identificar, e esse reconhecimento desmonta a ideia de que nada foi entregue.
+E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.
 
 > A empresa define expressamente “Conteúdo Virtual” como conjunto que inclui moeda do jogo, campeões, skins, emotes, acessórios e outros itens associados à conta (p. 566)
 > e admite que esse conteúdo pode ser obtido não só por compra clássica, mas também por ganho, recompensa, presente ou outras dinâmicas internas do ecossistema (p. 566)
@@ -149,7 +149,7 @@ O valor dela não fica guardado num canto só seu. Depende de servidores ligados
 
 ### texto
 
-Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item que dá para identificar, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
+Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
 
 > afasta, logo de saída, a fraude semântica da “licença revogável” como fórmula capaz de evaporar tudo o que já foi economicamente incorporado à esfera do usuário (p. 566)
 > Se há objeto virtual identificável, associado à conta e fruído no ecossistema, há juridicidade a ser levada a sério, ainda que a plataforma tente recobri-la com vocabulário de precariedade. (p. 566)
@@ -217,7 +217,7 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 
 ### limite Todo incômodo com o jogo vira direito?
 
-E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, que dá para reconhecer por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
+E nem todo incômodo vira direito. Essa categoria não serve para transformar qualquer desconforto do uso digital em perda que a lei repara, nem para condenar toda escolha técnica da empresa. Uma atualização, uma mudança na tela ou uma nova ordem nas listas do jogo não são ilícitas por si sós. O que conta é a piora séria e duradoura, reconhecível por critérios e que atinge o centro do que foi vendido, mesmo quando o acesso continua.
 
 Há também casos que ficam de fora desde o começo. Um serviço que acontece uma vez e acaba ali, sem uma posição que dure, segue as regras comuns de serviço. Uma plataforma que só funciona como vitrine, sem governar de verdade o que você usa, também tende a ficar de fora. E uma mudança só de aparência, quando o valor simbólico não fazia parte do centro do que foi vendido, em regra não basta.
 
@@ -343,7 +343,7 @@ Aí ficar no jogo deixa de ser só lazer e vira tarefa. Permanecer significa con
 
 Com tudo isso junto, aparece uma regra silenciosa. Se o que você pode perder é o momento certo, o status e o pertencimento, faltar passa a custar caro. Quem some por umas semanas perde posição, perde o evento e perde a skin que só estava à venda naquela janela.
 
-A ausência deixa de ser uma pausa e vira uma queda que dá para medir. E o risco não está só no item, mas no sentido do que se perde e no calendário, que transforma atraso em desvantagem, mesmo quando a skin continua lá, tecnicamente acessível.
+A ausência deixa de ser uma pausa e vira uma queda mensurável. E o risco não está só no item, mas no sentido do que se perde e no calendário, que transforma atraso em desvantagem, mesmo quando a skin continua lá, tecnicamente acessível.
 
 > Quando o risco eficiente é perder timing, status e pertencimento, a disciplina de presença se instala como técnica de governo do tempo. A ausência deixa de ser mera interrupção e passa a produzir queda mensurável, apagamento progressivo e descontinuidade prática, tornando a permanência a forma racional de evitar perda. (p. 254)
 > É semiótico porque depende do sentido social do que se perde, e temporal porque funciona por janelas, calendários, ciclos e ritmos que convertem atraso em desvantagem objetiva mesmo quando o objeto imaterial permanece tecnicamente acessível. (p. 254)
@@ -859,7 +859,7 @@ O código é o conjunto de decisões que define o que um sistema faz. Se esse c�
 
 ### texto
 
-Então a skin que muda, o personagem refeito do zero e a punição que vai crescendo até o banimento não são efeitos naturais de uma tecnologia que evolui. São decisões de desenho, porque alguém decidiu que seria assim, e é sobre essa decisão que dá para fazer perguntas.
+Então a skin que muda, o personagem refeito do zero e a punição que vai crescendo até o banimento não são efeitos naturais de uma tecnologia que evolui. São decisões de desenho, porque alguém decidiu que seria assim, e é essa decisão que pode ser questionada.
 
 > A alteração de um cosmético raro, a reconfiguração de um personagem por rework e a gradação de sanções até o banimento não são efeitos naturais de uma tecnologia em evolução, mas decisões de arquitetura (p. 120-121)
 
@@ -907,7 +907,7 @@ Muita informação também esconde. São documentos em camadas, links que levam 
 
 ### termo Consentimento viciado por sentido
 
-Você clicou em aceitar, mas aceitou dentro de uma moldura de linguagem que já deixava você fora do centro da relação. Não foi um erro sobre um preço ou sobre um prazo, que dá para apontar e corrigir.
+Você clicou em aceitar, mas aceitou dentro de uma moldura de linguagem que já deixava você fora do centro da relação. Não foi um erro sobre um preço ou sobre um prazo, que se pode apontar e corrigir.
 
 Foi algo mais fundo, porque o próprio jeito de fornecer criou uma dificuldade de decifrar, de comparar e de prever as consequências que importavam. Você recebeu o texto, mas não recebeu a chave para entender o código que dá sentido a ele. É uma incapacidade controlada, produzida pelas condições de comunicação, e não um descuido seu.
 
@@ -1140,7 +1140,7 @@ E ela afeta de modo sério e duradouro o que você comprou, mesmo sem tirar tudo
 
 Isso não é rótulo para qualquer coisa. Cobrar, convencer e governar um jogo não são abusos por si sós. Um negócio só agressivo, um desenho discutível ou um arranjo que é simplesmente eficiente para a empresa também não bastam.
 
-E há finalidades legítimas que a plataforma pode e deve perseguir, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando dá para mostrar, com razões, que o desenho aponta principalmente para explorar a sua fragilidade e capturar valor de forma desproporcional, e não para esses fins.
+E há finalidades legítimas que a plataforma pode e deve perseguir, como a segurança, a estabilidade e o equilíbrio do jogo. A finalidade abusiva só aparece quando se consegue mostrar, com razões, que o desenho aponta principalmente para explorar a sua fragilidade e capturar valor de forma desproporcional, e não para esses fins.
 
 > A teleologia abusiva não pode funcionar como coringa moral. (p. 456)
 > [...] a teleologia abusiva não se confunde com opção empresarial apenas severa, com design discutível ou com arquitetura simplesmente eficiente para o fornecedor. (p. 666)
@@ -1149,7 +1149,7 @@ E há finalidades legítimas que a plataforma pode e deve perseguir, como a segu
 
 ### nome ilicito-de-arquitetura
 
-Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que dá para sublinhar. Mas, às vezes, nenhuma cláusula sozinha é o problema.
+Estamos acostumados a procurar o abuso numa cláusula do contrato, numa frase que se pode sublinhar. Mas, às vezes, nenhuma cláusula sozinha é o problema.
 
 O problema é o conjunto que se repete. Opções que já vêm marcadas, atritos para fazer o que você quer, urgências fabricadas e um caminho para cancelar que parece feito para você desistir. E também equivalências que mudam conforme a conveniência, punições difíceis de entender e provas impossíveis de reunir. Quando essas peças funcionam juntas como método, de modo estável, o problema já não está só no texto. Está no desenho.
 
@@ -1203,7 +1203,7 @@ A sua história ali foi feita de escolhas repetidas, de desempenho, de tempo, de
 
 ### texto
 
-Em casos graves, perder a conta, o histórico ou a trajetória pode atingir a sua personalidade e gerar dano moral. Isso acontece quando a perda atinge, de um jeito que dá para demonstrar, a sua história, o seu pertencimento ou a reputação e a memória que você construiu lá dentro.
+Em casos graves, perder a conta, o histórico ou a trajetória pode atingir a sua personalidade e gerar dano moral. Isso acontece quando a perda atinge, de modo demonstrável, a sua história, o seu pertencimento ou a reputação e a memória que você construiu lá dentro.
 
 Não é qualquer chateação que chega a esse ponto, e por isso é preciso mostrar o que foi atingido. Mas, quando tudo muda e você já não se sente o mesmo, isso não é drama nem aborrecimento passageiro. É a consequência previsível de um regime em que o valor do que você usa e o seu lugar no jogo dependem da administração de outro.
 
@@ -1349,7 +1349,7 @@ A lei garante a liberdade de criar, vender e explorar jogos, mas sob a Constitui
 
 O caminho, então, não é inventar outro direito, nem criar regras paralelas só para plataformas. É ajustar a leitura do que já está escrito. O que faltava eram nomes capazes de tornar certas perdas visíveis, para que elas possam ser mostradas, provadas e cobradas.
 
-Isso também quer dizer que nada aqui decide um caso sozinho. As ferramentas existem, mas cada conflito ainda depende do que aconteceu, do que dá para mostrar e de como quem decide lê os fatos.
+Isso também quer dizer que nada aqui decide um caso sozinho. As ferramentas existem, mas cada conflito ainda depende do que aconteceu, do que se consegue provar e de como quem decide lê os fatos.
 
 > É esse deslocamento que permite qualificar o ilícito de arquitetura sem sair da gramática do CDC e sem cair na tentação de inventar um direito paralelo para plataformas. (p. 665)
 > Quando faltam categorias capazes de tornar certas perdas juridicamente visíveis, de nomeá-las, demonstrá-las e imputá-las, o espaço da irresponsabilidade não permanece neutro e passa a funcionar como margem de otimização. (p. 25)
@@ -1480,7 +1480,7 @@ O mesmo desenho que prende você pode afastar concorrentes. Quando a forma como 
 
 ### texto
 
-Nada disso vira fórmula automática. O caminho só organiza perguntas. Que forma de governo da plataforma está em jogo? Que dever foi violado? Que prova mínima dá para exigir? Como o caso se qualifica para o direito? E que resposta faz sentido para ele?
+Nada disso vira fórmula automática. O caminho só organiza perguntas. Que forma de governo da plataforma está em jogo? Que dever foi violado? Que prova mínima se pode exigir? Como o caso se qualifica para o direito? E que resposta faz sentido para ele?
 
 O resto é juízo, caso a caso, por quem vai decidir. O que esses nomes fazem é garantir que as perguntas certas sejam feitas.
 

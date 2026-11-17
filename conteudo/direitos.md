@@ -14,7 +14,7 @@ Quando o que você compra só existe dentro de uma plataforma, a venda não term
 
 A seguir estão os principais deveres, um por situação. Em cada um você encontra quando ele aparece, o que a plataforma deve, o que ajuda a mostrar o problema, o que você pode pedir e até onde isso vai.
 
-Leia com um cuidado. Nada disso é fórmula pronta nem garantia de resultado, porque cada caso depende do que aconteceu, do que dá para mostrar e de como quem vai decidir lê os fatos. O que muda é a forma de contar o conflito, que deixa de ser um episódio solto e passa a ser o jeito como a plataforma fornece o que vendeu.
+Leia com um cuidado. Nada disso é fórmula pronta nem garantia de resultado, porque cada caso depende do que aconteceu, do que se consegue provar e de como quem vai decidir lê os fatos. O que muda é a forma de contar o conflito, que deixa de ser um episódio solto e passa a ser o jeito como a plataforma fornece o que vendeu.
 
 > A fruição, aqui, não aparece como efeito acidental de um contrato formalmente concluído, mas como núcleo material da relação de consumo. (p. 717-718)
 > Em consumo contínuo, a aquisição inaugura uma posição no ecossistema e não uma entrega exaurida em um instante. (p. 428)
@@ -170,7 +170,7 @@ Ajuda mostrar como era o ambiente de venda, quais peças de propaganda havia, o 
 
 ### pedir
 
-Você pode pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, dá para pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
+Você pode pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, cabe pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
 
 ### limite
 
@@ -303,7 +303,7 @@ Ajudam os registros da punição, o caminho de contestação que existia, os cri
 
 ### pedir
 
-Se a punição não tiver motivo verificável ou um caminho razoável de contestação, pode caber sua revisão ou reversão. Você também pode pedir que a plataforma cumpra deveres de procedimento e que crie ou melhore um caminho real de contestação. Quando o problema se repete com muita gente, também dá para pedir que o sistema de punição como um todo seja corrigido.
+Se a punição não tiver motivo verificável ou um caminho razoável de contestação, pode caber sua revisão ou reversão. Você também pode pedir que a plataforma cumpra deveres de procedimento e que crie ou melhore um caminho real de contestação. Quando o problema se repete com muita gente, também cabe pedir que o sistema de punição como um todo seja corrigido.
 
 ### limite
 
@@ -351,7 +351,7 @@ Você pode pedir mais do que o conserto de um episódio. Pode pedir que os camin
 
 ### limite
 
-Nem toda forma de vender, de convencer ou de administrar o jogo é abusiva. O que se controla é um programa que dá para reconhecer no funcionamento do ambiente, e não uma vontade escondida de alguém.
+Nem toda forma de vender, de convencer ou de administrar o jogo é abusiva. O que se controla é um programa reconhecível no funcionamento do ambiente, e não uma vontade escondida de alguém.
 
 > Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva. (p. 746)
 > Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. O foco está na finalidade funcional objetivamente inscrita no arranjo, tal como se revela por sua replicabilidade, por sua coerência interna e por seu impacto reiterado sobre a experiência do consumidor. (p. 732)
