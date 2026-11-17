@@ -1471,7 +1471,7 @@ def carregar_siga():
     dados, cam, atual = {}, None, None
     for linha in arq.read_text(encoding="utf-8").splitlines():
         if linha.startswith("## "):
-            cam = {"slug": linha[3:].strip(), "titulo": "", "chamada": "", "abertura": [], "partes": [], "caso": None}
+            cam = {"slug": linha[3:].strip(), "historia": "", "titulo": "", "chamada": "", "abertura": [], "partes": [], "caso": None}
             dados[cam["slug"]] = cam
             atual = None
             continue
@@ -1479,7 +1479,7 @@ def carregar_siga():
             continue
         if linha.startswith("### "):
             nome, _, resto = linha[4:].strip().partition(" ")
-            if nome in ("titulo", "chamada", "abertura"):
+            if nome in ("historia", "titulo", "chamada", "abertura"):
                 atual = nome
             elif nome == "parte":
                 n, _, pergunta = resto.partition(" ")
@@ -1491,7 +1491,7 @@ def carregar_siga():
             continue
         if not linha.strip():
             continue
-        if atual in ("titulo", "chamada"):
+        if atual in ("historia", "titulo", "chamada"):
             cam[atual] = (cam[atual] + " " + linha.strip()).strip()
         elif atual == "abertura":
             cam["abertura"].append(linha.strip())
@@ -1515,37 +1515,45 @@ SIGA_DA_FAMILIA = {"funcionalidade-cognitiva": ["assistente"], "infraestrutura-e
 # Mapa dos caminhos Siga. Um centro com uma seta para cada caminho, para o leitor ver que pode seguir um deles.
 # Pedido do autor de 17/11/2026. O desenho fica no SVG, e cada caminho é um link de verdade, legível sem script.
 # Abaixo de 54 rem de largura o mapa vira uma coluna, com o centro no alto e uma seta para cada caminho.
-def mapa_siga(prefixo, centro_href=None):
+HISTORIA_SKIN = ("Comprei uma skin e ela deixou de ser o que era", "caminho/a-compra/")
+
+
+def historias_siga():
+    """As histórias em primeira pessoa do mapa, cada uma com o seu endereço. Revisão do autor de 17/11/2026."""
+    return [HISTORIA_SKIN] + [(c["historia"] or c["titulo"], f'siga/{c["slug"]}/') for c in SIGA.values()]
+
+
+def mapa_siga(prefixo, pergunta="Qual destas é a sua história?", titulo_id=None):
     import math
-    itens = [("Siga a skin", "caminho/a-compra/", "Você comprou uma skin. Ela é sua?")] + [
-        (c["titulo"], f'siga/{c["slug"]}/', c["chamada"]) for c in SIGA.values()]
+    itens = historias_siga()
     W, H, cx, cy, rx, ry = 1600, 900, 800, 450, 590, 335
     n = len(itens)
     linhas, nos, regras = [], [], []
-    for i, (t, h, q) in enumerate(itens):
+    for i, (t, h) in enumerate(itens):
         a = math.radians(-90 + 360 * i / n)
         x, y = cx + rx * math.cos(a), cy + ry * math.sin(a)
         dx, dy = x - cx, y - cy
         d = math.hypot(dx, dy)
         ux, uy = dx / d, dy / d
-        # Sai da borda da elipse do centro e para antes da caixa do caminho.
+        # Sai da borda da elipse do centro e para antes da caixa da história.
         t0 = 1 / math.sqrt((ux / 205) ** 2 + (uy / 118) ** 2)
-        t1 = min(190 / abs(ux) if ux else 1e9, 64 / abs(uy) if uy else 1e9) + 16
+        t1 = min(190 / abs(ux) if ux else 1e9, 52 / abs(uy) if uy else 1e9) + 16
         x0, y0, x1, y1 = cx + ux * t0, cy + uy * t0, x - ux * t1, y - uy * t1
         linhas.append(f'<line class="mapa-linha mapa-l{i}" x1="{x0:.0f}" y1="{y0:.0f}" x2="{x1:.0f}" y2="{y1:.0f}" marker-end="url(#mapa-seta)"/>')
         nos.append(f'<li class="mapa-no mapa-n{i}" style="--x:{x / W * 100:.2f}%;--y:{y / H * 100:.2f}%">'
-                   f'<a href="{prefixo}{h}"><b>{esc(t)}</b><span>{esc(q)}</span></a></li>')
+                   f'<a href="{prefixo}{h}">{esc(t)}</a></li>')
         regras.append(f'.mapa-siga:has(.mapa-n{i} a:is(:hover,:focus-visible)) .mapa-l{i}')
-    centro_txt = '<b>Siga um caso</b><span>Escolha a história mais parecida com a sua e vá do começo ao fim.</span>'
-    centro = (f'<a class="mapa-centro" href="{prefixo}{centro_href}">{centro_txt}</a>' if centro_href
-              else f'<p class="mapa-centro">{centro_txt}</p>')
+    ident = f' id="{titulo_id}" tabindex="-1"' if titulo_id else ""
+    centro = (f'<h2 class="mapa-centro"{ident}>{esc(pergunta)}</h2>' if titulo_id
+              else f'<p class="mapa-centro">{esc(pergunta)}</p>')
     estilo = "<style>" + ",".join(regras) + "{stroke:var(--rubrica);stroke-width:5}</style>"
     return (f'<div class="mapa-siga">{estilo}<div class="mapa-palco">'
             f'<svg class="mapa-fios" viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false"><defs>'
             '<marker id="mapa-seta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">'
             '<path d="M0 0 L10 5 L0 10 z" class="mapa-ponta"/></marker></defs>'
             f'<ellipse class="mapa-anel" cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}"/>' + "".join(linhas) + "</svg>"
-            + centro + f'<ul class="mapa-nos">{"".join(nos)}</ul></div></div>')
+            + centro + f'<ul class="mapa-nos">{"".join(nos)}</ul></div>'
+            f'<p class="mapa-fora">Não está aqui? <a href="{prefixo}problemas/">Veja todos os problemas</a></p></div>')
 
 
 def convite_jurista(prefixo):
@@ -1564,8 +1572,7 @@ def convite_jurista(prefixo):
 def gerar_siga():
     if not SIGA:
         return
-    caminhos = [("Siga a skin", "caminho/a-compra/", "Você comprou uma skin. Ela é sua?")] + [
-        (c["titulo"], f'siga/{c["slug"]}/', c["chamada"]) for c in SIGA.values()]
+    caminhos = [(t, h, "") for t, h in historias_siga()]
     for c in SIGA.values():
         prefixo = "../../"
         partes = "".join(
@@ -1583,13 +1590,13 @@ def gerar_siga():
                     + "</section>")
         outros = [(t, prefixo + h) for t, h, _ in caminhos if not h.endswith(f'/{c["slug"]}/')]
         corpo = (f'<article class="folha siga-pagina">'
-                 f'<p class="sobrelinha-ext"><a href="{prefixo}siga/">Siga um caso</a></p>'
-                 f'<header class="folha-cabeca ext-cabeca"><p class="sobrelinha">{esc(c["titulo"])}</p><h1>{esc(c["chamada"])}</h1></header>'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}siga/">Outras histórias</a></p>'
+                 f'<header class="folha-cabeca ext-cabeca"><h1>{esc(c["chamada"])}</h1></header>'
                  f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in c["abertura"]) + "</section>"
                  + partes + caso
                  + saidas_html([(COMO_RECLAMAR["titulo"] if COMO_RECLAMAR else "Como reclamar", f"{prefixo}como-reclamar/"),
                                 ("Quando não é relação de consumo", f"{prefixo}alem-do-consumo/"), ("Todos os problemas", f"{prefixo}problemas/")])
-                 + saidas_html(outros, "Outros caminhos")
+                 + saidas_html(outros, "Outras histórias")
                  + "</article>")
         jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": c["chamada"], "inLanguage": "pt-BR",
                   "url": f'{BASE}/siga/{c["slug"]}/', "dateModified": "2026-11-17", "isBasedOn": BASE + "/#tese"}
@@ -1598,18 +1605,17 @@ def gerar_siga():
         desc = (c["abertura"][0] if c["abertura"] else c["chamada"])
         desc = desc if len(desc) <= 158 else desc[:155].rsplit(" ", 1)[0] + "..."
         (destino / "index.html").write_text(
-            pagina(f'{c["chamada"]} · {c["titulo"]} · Lex Plataformae', desc, corpo, prefixo, f'siga/{c["slug"]}/', jsonld, camada="mista", imagem="problemas",
-                   irmas=("Siga um caso", [(esc(t), prefixo + h, h.endswith(f'/{c["slug"]}/')) for t, h, _ in caminhos])),
+            pagina(f'{c["chamada"]} · Lex Plataformae', desc, corpo, prefixo, f'siga/{c["slug"]}/', jsonld, camada="mista", imagem="problemas",
+                   irmas=("Outras histórias", [(esc(t), prefixo + h, h.endswith(f'/{c["slug"]}/')) for t, h, _ in caminhos])),
             encoding="utf-8")
     prefixo = "../"
-    corpo = (f'<article class="folha siga-indice"><header class="folha-cabeca ext-cabeca"><h1>Siga um caso do começo ao fim</h1></header>'
-             f'<section class="ext abertura-problema"><p>Cada caminho acompanha uma coisa que você tem numa plataforma, do começo ao dia em que algo dá errado, e termina no que você pode exigir.</p>'
-             f'<p>Cada um se lê sozinho, e nenhum depende de outro.</p></section>'
-             + mapa_siga(prefixo) + convite_jurista(prefixo) + '</article>')
+    corpo = (f'<article class="folha siga-indice"><header class="folha-cabeca ext-cabeca"><h1>Qual destas é a sua história?</h1></header>'
+             f'<section class="ext abertura-problema"><p>Cada história começa no que você tem numa plataforma e chega ao que você pode exigir quando ela tira isso de você. Cada uma se lê sozinha.</p></section>'
+             + mapa_siga(prefixo, "Escolha a mais parecida com a sua") + convite_jurista(prefixo) + '</article>')
     destino = SAIDA / "siga"
     destino.mkdir(parents=True, exist_ok=True)
     (destino / "index.html").write_text(
-        pagina("Siga um caso do começo ao fim · Lex Plataformae", "Sete caminhos, da skin à loja no aplicativo, que acompanham uma coisa sua numa plataforma até o que você pode exigir.",
+        pagina("Qual destas é a sua história? · Lex Plataformae", "Sete histórias, da skin à loja no aplicativo, sobre o que uma plataforma pode tirar de você e o que você pode exigir.",
                corpo, prefixo, "siga/", None, camada="mista", imagem="problemas"), encoding="utf-8")
 
 
@@ -2248,8 +2254,7 @@ def gerar_inicio():
     {figura("inicio", "", destaque=True)}
 
     <section class="portas portas-mapa em-modo modo-0" aria-labelledby="portas-titulo">
-      <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
-      {mapa_siga("", "siga/")}
+      {mapa_siga("", titulo_id="portas-titulo")}
       {convite_jurista("")}
     </section>
 
@@ -3237,8 +3242,8 @@ def gerar_laboratorio():
                        + figura(f"familia-{slug}", prefixo) + "".join(bloco_familia(c_) for c_ in e if c_ not in ("titulo", "resumo")) + "</div>")
         outras = [(ext_texto(s2, "titulo"), f"../{s2}/") for _, s2 in FAMILIAS if s2 != slug and ext_texto(s2, "titulo")]
         # Cada família termina nos caminhos Siga que acompanham o seu objeto central. 17/11/2026.
-        siga_familia = [(SIGA[x]["titulo"], f'{prefixo}siga/{x}/') for x in SIGA_DA_FAMILIA.get(slug, []) if x in SIGA]
-        fecho_familia = ((saidas_html(siga_familia, "Siga um caso do começo ao fim") if siga_familia else "")
+        siga_familia = [(SIGA[x]["historia"] or SIGA[x]["titulo"], f'{prefixo}siga/{x}/') for x in SIGA_DA_FAMILIA.get(slug, []) if x in SIGA]
+        fecho_familia = ((saidas_html(siga_familia, "Histórias desta família") if siga_familia else "")
                          + saidas_html([("Seus direitos", f"{prefixo}direitos/"), ("Qual é o seu problema?", f"{prefixo}problemas/")] + outras)
                          + f'<section class="ext duvida">{botao_desnudar(True)}</section>')
         corpo = (f'<article class="folha leitura laboratorio">{externo}'

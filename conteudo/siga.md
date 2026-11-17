@@ -2,11 +2,15 @@
 
 Caminhos da Informação que acompanham um objeto do começo ao fim, como Siga a skin, um por família de plataforma. Acréscimo de 17/11/2026, por ordem do autor. Cada caminho se sustenta sozinho e explica o fundamento com o exemplo do próprio leitor, sem depender de outro caminho.
 
-Formato. `## <slug>`, com `### titulo`, `### chamada` (a pergunta do alto), `### abertura`, sete `### parte <n> <pergunta>` e um `### caso <pergunta>` com o caso documentado depois da tese. Trechos `> texto (p. n)` ficam à vista só na Ciência. No caso, `fonte: título | endereço` lista as reportagens e notas, com data de consulta 17/11/2026, à vista em todos os modos, porque não são texto da tese.
+Formato. `## <slug>`, com `### historia` (a frase em primeira pessoa do mapa Qual destas é a sua história?, de 17/11/2026), `### titulo`, `### chamada` (a pergunta do alto), `### abertura`, sete `### parte <n> <pergunta>` e um `### caso <pergunta>` com o caso documentado depois da tese. Trechos `> texto (p. n)` ficam à vista só na Ciência. No caso, `fonte: título | endereço` lista as reportagens e notas, com data de consulta 17/11/2026, à vista em todos os modos, porque não são texto da tese.
 
 Regras. As mesmas de Seus direitos e dos problemas. Segunda pessoa, nada de dois pontos, ponto e vírgula ou travessão, nenhuma menção a tese ou autor no texto, nenhuma frase acima de 37 palavras. Pedir não é garantia de conseguir. O caso documentado afirma só o que as fontes confirmam. Rascunho do Claude de 17/11/2026, à espera da revisão do autor.
 
 ## comunidade
+
+### historia
+
+A rede derrubou a comunidade que eu criei
 
 ### titulo
 
@@ -19,8 +23,6 @@ Você construiu uma comunidade numa rede social. De quem ela é?
 ### abertura
 
 Você passou anos montando um grupo, uma página ou um perfil, e milhares de pessoas vieram por sua causa. Um dia a rede derrubou tudo, e ninguém explicou direito por quê.
-
-Este caminho acompanha a sua comunidade, do primeiro membro ao dia em que ela sumiu, e termina no que você pode exigir.
 
 ### parte 1 O que você construiu ali?
 
@@ -95,6 +97,10 @@ fonte: Forbes Brasil, Facebook remove contas no Brasil por venda de engajamento 
 
 ## pedido
 
+### historia
+
+Paguei, veio errado e a loja disse que só intermedeia
+
 ### titulo
 
 Siga o pedido
@@ -106,8 +112,6 @@ Você comprou num marketplace. Quem escolheu o que você comprou?
 ### abertura
 
 Você buscou um produto numa loja virtual com muitos vendedores, escolheu entre as ofertas da tela e pagou. O que chegou não era o esperado, ou não chegou, e a loja respondeu que só faz a intermediação.
-
-Este caminho acompanha o seu pedido, da busca à disputa, e termina no que você pode exigir.
 
 ### parte 1 Você estava vendo o mercado?
 
@@ -179,6 +183,10 @@ fonte: Tecnoblog, Mercado Livre será investigado pela Senacon por venda de livr
 
 ## assistente
 
+### historia
+
+Confiei no assistente de IA e ele me deixou na mão
+
 ### titulo
 
 Siga o assistente
@@ -190,8 +198,6 @@ Você confia num assistente de inteligência artificial. Quem decide o que ele f
 ### abertura
 
 Você usa um assistente de inteligência artificial para estudar, trabalhar, escrever ou decidir. Ele fala com segurança, e você passou a confiar nele como se fosse uma orientação.
-
-Este caminho acompanha essa confiança, do primeiro uso ao dia em que o assistente falha, muda ou escolhe a quem atender, e termina no que você pode exigir.
 
 ### parte 1 O que você contratou?
 
@@ -266,6 +272,10 @@ fonte: Tecnoblog, ChatGPT traz de volta modelo 4o após onda de reclamações (2
 
 ## corrida
 
+### historia
+
+O aplicativo cortou minhas corridas e o meu ganho
+
 ### titulo
 
 Siga a corrida
@@ -277,8 +287,6 @@ Você trabalha por aplicativo. Quem decide quanto você ganha amanhã?
 ### abertura
 
 Você faz entregas ou corridas pelo aplicativo e ouviu que é livre para trabalhar quando, como e onde quiser. Mesmo assim, as chamadas diminuíram, o ganho caiu ou a conta foi bloqueada sem explicação.
-
-Este caminho acompanha a sua corrida, do momento em que você liga o aplicativo ao dia do bloqueio, e termina no que você pode exigir.
 
 ### parte 1 O que o aplicativo fornece de verdade?
 
@@ -347,6 +355,10 @@ fonte: Migalhas, iFood deve reativar conta e indenizar entregador por bloqueio i
 
 ## loja
 
+### historia
+
+Minha loja sumiu da busca do aplicativo
+
 ### titulo
 
 Siga a loja
@@ -358,8 +370,6 @@ Sua loja vende pelo aplicativo. Quem manda no seu negócio?
 ### abertura
 
 Você tem um restaurante no iFood, ou vende no Mercado Livre, na Shopee ou na Amazon. Os clientes chegam pela tela da plataforma, e é ela que decide quem aparece, quanto custa aparecer e quem continua ali.
-
-Este caminho acompanha a sua loja, do dia em que você abriu dentro do aplicativo ao dia em que ela sumiu da busca, e termina no que você pode exigir.
 
 ### parte 1 De quem é o cliente?
 
@@ -427,6 +437,10 @@ fonte: Canaltech, iFood firma acordo após Cade proibir exclusividade com redes 
 
 ## reclamacao
 
+### historia
+
+Reclamei, fui bem atendido e nada aconteceu
+
 ### titulo
 
 Siga a reclamação
@@ -439,13 +453,11 @@ Você reclamou, foi bem atendido e nada aconteceu. Por quê?
 
 Algo deu errado com a sua conta, a sua compra, a sua comunidade ou o seu trabalho no aplicativo. Você reclamou, foi atendido com gentileza, esperou e, no fim, deixou para lá.
 
-Este caminho acompanha a sua reclamação, do primeiro contato ao dia em que ela some, e mostra como tirá-la desse circuito.
-
 ### parte 1 O que deu errado?
 
 Pode ser qualquer coisa. A conta bloqueada, o item que mudou, o grupo derrubado, o pedido que não chegou, o assistente que errou, a corrida que rendeu menos, a loja que sumiu da busca.
 
-Cada um desses problemas tem o seu caminho. Este acompanha o que acontece com a reclamação depois que você a faz.
+Cada um desses problemas tem a sua página. Esta trata do que acontece com a reclamação depois que você a faz.
 
 > O que importa não é se a plataforma se apresenta como ferramenta cognitiva, infraestrutura de mercado, ambiente produtivo ou sistema de reputação, mas como ela organiza acesso, modula expectativas, distribui riscos e condiciona a possibilidade de reconstrução institucional do conflito. (p. 756)
 

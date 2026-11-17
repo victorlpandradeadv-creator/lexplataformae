@@ -1753,6 +1753,14 @@ a.mapa-centro:hover, a.mapa-centro:focus-visible { background: var(--rubrica); c
 .convite-jurista .partes-curtas { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: .5rem; text-align: left; }
 .siga-indice .mapa-siga { --larg: min(74rem, 100vw - 3rem); width: var(--larg); margin-inline: calc((100% - var(--larg)) / 2); }
 .convite-jurista h2 { font-weight: 500; }
+/* O centro é a pergunta, e cada caixa é uma história em primeira pessoa. Revisão do autor de 17/11/2026. */
+.mapa-centro { font-family: var(--f-texto); font-size: clamp(1.15rem, 2.3cqi, 1.7rem); font-weight: 500; line-height: 1.15; scroll-margin-top: 1.5rem; }
+.mapa-no a { font-family: var(--f-display); font-size: clamp(.95rem, 1.5cqi, 1.1rem); font-weight: 650; line-height: 1.3; display: block; padding: .9rem 1.1rem; }
+.mapa-no a::after { content: " →"; color: var(--rubrica); white-space: nowrap; }
+.mapa-fora { text-align: center; margin: 1.2rem 0 0; color: var(--tinta-2); }
+.mapa-fora a { color: var(--tinta); text-decoration-color: var(--rubrica); text-underline-offset: 3px; }
+@container (max-width: 54rem) { .mapa-centro { font-size: 1.35rem; } }
+.mapa-no a, .mapa-centro, .mapa-fora { text-wrap: balance; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
