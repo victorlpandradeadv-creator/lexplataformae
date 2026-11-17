@@ -1650,9 +1650,16 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
   .menu-modo > ul:first-child { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 0.5rem; }
 }
 
-/* 15/11/2026. Negativo parcial no tema escuro, por ordem do autor. Fundo um tom acima do papel e traço menos claro. */
-:root[data-theme="dark"] .ilustracao .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ilustracao .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; } }
+/* 15/11/2026, negativo parcial no tema escuro. Revogado em 17/11/2026, porque as peças novas já nascem com a versão escura
+   desenhada, sem filtro, e com fundo transparente. */
+
+/* 17/11/2026. Vinhetas das portas da capa e de cada direito, da entrega do GPT de 16/11/2026, por ordem do autor.
+   Decorativas, do mesmo tamanho em todos os cartões, para as portas continuarem simétricas. */
+.vinheta, .vinheta.ilustracao:not(.prevista) { display: block; padding: 0; gap: 0; }
+.vinheta img { display: block; width: 100%; height: auto; }
+.porta-perda .vinheta { width: 88px; margin: 0 0 0.75rem; }
+.vinheta-direito { width: 132px; margin: 0 0 1.25rem; }
+@media (max-width: 560px) { .porta-perda .vinheta { width: 72px; } .vinheta-direito { width: 108px; } }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */

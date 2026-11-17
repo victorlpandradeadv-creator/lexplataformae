@@ -513,6 +513,9 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
+    m_dir = re.fullmatch(r"direitos/([a-k])/", caminho)
+    if m_dir and "</header>" in corpo and "vinheta-direito" not in corpo:
+        corpo = corpo.replace("</header>", "</header>" + vinheta(f"direito-{m_dir.group(1)}", prefixo, "vinheta vinheta-direito"), 1)
     ident_il = ILUSTRACAO_PAGINA.get(caminho) or (f"problema-{caminho.split('/')[1]}" if caminho.startswith("problemas/") and caminho.count("/") == 2 else None)
     if ident_il and 'class="il"' not in corpo and "</header>" in corpo:
         # Nos problemas a figura vem depois da abertura, para a caixa não anteceder a frase que ela retoma.
@@ -1628,6 +1631,17 @@ ILUSTRACOES_SVG_DIR = RAIZ / "site" / "ilustracoes-svg"
 ILUSTRACAO_PAGINA = {"direitos/": "direitos-continua", "alem-do-consumo/": "alem-do-consumo", "como-reclamar/": "como-reclamar"}
 
 
+def vinheta(ident, prefixo, classe="vinheta"):
+    """Vinheta decorativa, com a arte do tema em uso. Família 1 (portas) e Família 2 (direitos), feitas pelo GPT e
+    entregues em 16/11/2026. Integradas em 17/11/2026, por ordem do autor. Texto alternativo vazio, porque o título ao lado diz tudo."""
+    if not (ILUSTRACOES_DIR / f"{ident}.webp").exists():
+        return ""
+    escuro = (f'<img class="arte-escura" src="{prefixo}assets/ilustracoes/{ident}-escuro.webp" alt="" width="480" height="480" loading="lazy">'
+              if (ILUSTRACOES_DIR / f"{ident}-escuro.webp").exists() else "")
+    return (f'<span class="{classe} ilustracao" aria-hidden="true"><img class="arte-clara" src="{prefixo}assets/ilustracoes/{ident}.webp" '
+            f'alt="" width="480" height="480" loading="lazy">{escuro}</span>')
+
+
 def figura_svg(ident, legenda=""):
     arq = ILUSTRACOES_SVG_DIR / f"{ident}.html"
     if not arq.exists():
@@ -2015,7 +2029,7 @@ def gerar_inicio():
         fid = FAMILIA_ID[i]
         nome, slugs = FAMILIAS_PROBLEMAS[i]
         n = len([s for s in slugs if s in PROBLEMAS])
-        return (f'<article class="porta porta-perda item-moldura"><h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
+        return (f'<article class="porta porta-perda item-moldura">{vinheta("porta-" + fid, "")}<h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
                 f'{ext_html("inicio", "porta-" + fid, "")}'
                 f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Os " + str(n) + " problemas desta porta" if n > 1 else "O problema desta porta"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao em-modo modo-0 modo-2" aria-labelledby="perda-titulo">'
