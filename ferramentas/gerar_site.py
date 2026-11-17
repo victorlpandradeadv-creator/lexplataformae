@@ -2038,35 +2038,66 @@ def gerar_inicio():
                 f'{ext_html("inicio", "porta-" + fid, "")}{situacoes}'
                 f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Os " + str(n) + " problemas desta porta" if n > 1 else "O problema desta porta"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao" aria-labelledby="perda-titulo">'
-                    f'<h2 class="portas-titulo" id="perda-titulo">Comece pelo que aconteceu</h2>'
+                    f'<h2 class="portas-titulo" id="perda-titulo"><span class="em-modo modo-0">Comece pelo que aconteceu</span><span class="em-modo modo-1">Os conflitos, pela perda</span><span class="em-modo modo-2">Os casos, agrupados pela perda</span></h2>'
                     f'<div class="portas-grade grade-perda">{"".join(porta_perda(i) for i in range(6))}</div></section>')
+    def chamada(campo_, modo):
+        return (f'<span class="em-modo {modo}">' + "".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", campo_))).strip() + '</span>')
+    # A capa da Informação mostra o problema antes das portas, em quatro passos. Por ordem do autor de 17/11/2026,
+    # cada modo tem capa própria. Informação pela perda, Doutrina pelo problema jurídico, Ciência pelo problema de pesquisa.
+    titulos_passos = [("passo-pagou", "Você pagou"), ("passo-manda", "A empresa continuou mandando"),
+                      ("passo-mudou", "Ela mudou, puniu ou desligou"), ("passo-ficou", "A perda ficou com você")]
+    passos_capa = "".join(f'<li class="passo-capa"><span class="passo-num" aria-hidden="true">{i}</span><h3>{esc(t)}</h3>{ext_html("inicio", k, "")}</li>'
+                          for i, (k, t) in enumerate(titulos_passos, 1))
     nomes_discretos = " · ".join(f'<a href="conceitos/{c["id"]}/">{nome_html(c)}</a>' for c in [EIXO] + ([gemeo] if gemeo else []) + independentes)
     corpo = f"""
     <section class="cena cena-titulo" aria-labelledby="titulo">
-      <h1 class="chamada" id="titulo">{"".join(f'<span class="chamada-linha">{esc(f)}</span> ' for f in re.split(r"(?<=[.!?])\s+", ext_texto("inicio", "chamada"))).strip()}</h1>
-      <div class="acolhimento">{ext_html("inicio", "acolhimento", "")}</div>
-      <nav class="atalhos-capa" aria-label="Escolha seu caminho">
-        <a href="problemas/">Encontrar meu problema</a>
-        <a href="#portas-titulo">Explorar os caminhos</a>
-        <a href="metodo/" data-modo="2">Pesquisar as fontes</a>
-      </nav>
+      <h1 class="chamada" id="titulo">{chamada("chamada", "modo-0")}{chamada("chamada-doutrina", "modo-1")}{chamada("chamada-ciencia", "modo-2")}</h1>
+      <div class="acolhimento em-modo modo-0">{ext_html("inicio", "acolhimento", "")}</div>
+      <div class="acolhimento em-modo modo-1">{ext_html("inicio", "abertura-doutrina", "")}</div>
+      <div class="acolhimento em-modo modo-2">{ext_html("inicio", "abertura-ciencia", "")}</div>
     </section>
-    {portas_perda}
 
-    <section class="cena capa-doutrina em-modo modo-1 modo-2" aria-labelledby="regime-titulo">
+    <section class="mecanismo-capa em-modo modo-0" aria-labelledby="mecanismo-titulo">
+      <h2 class="portas-titulo" id="mecanismo-titulo">Como a perda acontece</h2>
+      <ol class="passos-capa">{passos_capa}</ol>
+    </section>
+
+    <section class="cena capa-doutrina em-modo modo-1" aria-labelledby="regime-titulo">
       <h2 id="regime-titulo">O regime em um parágrafo</h2>
       {ext_html("inicio", "doutrina", "")}
       <nav class="ext saidas" aria-label="Por onde entrar"><ul class="partes-curtas">
-        <li><a href="roteiro/">Situações, com dever, prova e consequência</a></li>
+        <li><a href="roteiro/">Onze situações, com dever, prova e consequência</a></li>
         <li><a href="doutrina/">Doutrina, em quinze capítulos</a></li>
         <li><a href="legislacao/">Legislação citada, em texto integral</a></li>
         <li><a href="conceitos/">Vocabulário, com definição e critérios</a></li>
       </ul></nav>
     </section>
 
+    <section class="cena capa-doutrina em-modo modo-2" aria-labelledby="pesquisa-titulo">
+      <h2 id="pesquisa-titulo">A pesquisa por dentro</h2>
+      <nav class="ext saidas" aria-label="Por onde entrar na pesquisa"><ul class="partes-curtas">
+        <li><a href="objeto-e-instrumentos/">Objeto e instrumentos</a></li>
+        <li><a href="metodo/">Método e protocolo</a></li>
+        <li><a href="fundamentos/">Fundamentos, com os autores de cada campo</a></li>
+        <li><a href="dogmatica/">Dogmática, capítulos 5 e 6</a></li>
+        <li><a href="referencias/">Referências</a></li>
+        <li><a href="tese/">Texto integral, seção a seção</a></li>
+      </ul></nav>
+    </section>
+
+    <div class="historia-skin em-modo modo-2">
+    <h2 class="cena-caso">O caso de origem. Você comprou uma skin. Ela é sua?</h2>
+    {cena("cena-compra")}
+    {cena("cena-mudanca", "cena-incomodo")}
+    {cena("cena-virada", "cena-virada")}
+    <div class="portas-texto">{ext_html("inicio", "portas", "")}</div>
+    </div>
+
+    {portas_perda}
+
     {figura("inicio", "", destaque=True)}
 
-    <section class="portas" aria-labelledby="portas-titulo">
+    <section class="portas em-modo modo-0" aria-labelledby="portas-titulo">
       <h2 class="portas-titulo" id="portas-titulo" tabindex="-1">Por onde seguir</h2>
       <div class="portas-grade">
         <article class="porta porta-percurso item-moldura">
@@ -2091,13 +2122,6 @@ def gerar_inicio():
       </div>
     </section>
 
-    <div class="historia-skin em-modo modo-2">
-    <h2 class="cena-caso">Você comprou uma skin. Ela é sua?</h2>
-    {cena("cena-compra")}
-    {cena("cena-mudanca", "cena-incomodo")}
-    {cena("cena-virada", "cena-virada")}
-    <div class="portas-texto">{ext_html("inicio", "portas", "")}</div>
-    </div>
 
     <section class="nomes-discretos" aria-labelledby="nomes-titulo">
       <h2 id="nomes-titulo">Isso tem nome</h2>
@@ -2149,9 +2173,9 @@ def gerar_inicio():
              "inLanguage": "pt-BR", "isBasedOn": BASE + "/#tese", "hasDefinedTerm": termos},
         ],
     }
-    desc = "O que uma plataforma tirou de você? Cinco portas pelo que você perdeu, o caminho de uma skin e nove conceitos para contestar."
+    desc = "O que a plataforma tomou de você? Como a perda acontece depois da compra, por onde começar e o que você pode exigir."
     corpo = f'<div class="pagina-inicio">{corpo}</div>'
-    (SAIDA / "index.html").write_text(pagina("Lex Plataformae · O que uma plataforma tirou de você?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
+    (SAIDA / "index.html").write_text(pagina("Lex Plataformae · O que a plataforma tomou de você?", desc, corpo, "", "", jsonld, camada="mista"), encoding="utf-8")
 
     # A página do vocabulário, em conceitos/. Antes era a seção #conceitos da capa. Decisão do autor de 10/11/2026.
     pre, base_v = "../", ""

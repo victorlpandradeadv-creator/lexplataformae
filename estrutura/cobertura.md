@@ -6,14 +6,14 @@ Toda seção está no corpus, em texto integral. Esta tabela mostra em que outra
 
 116 de 116 seções já têm lugar em alguma camada. Faltam 0.
 
-Na Informação, 98 de 116 seções têm algum trecho condensado. Na Doutrina, 86 de 116.
+Na Informação, 99 de 116 seções têm algum trecho condensado. Na Doutrina, 86 de 116.
 
 As colunas Informação e Doutrina contam os trechos literais que os textos de cada modo condensam e que vêm da seção. Informação conta o percurso, as ideias e Seus direitos. Doutrina conta o Guia para operar e as fichas, e marca com integral as seções que a Doutrina traz inteiras, como as situações, as diretrizes e as plataformas.
 
 | Seção | Título | Páginas | Informação | Doutrina | Camadas |
 |---|---|---|---|---|---|
-| 1 | Introdução | 21 a 42 | 52 | 15 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
-| 2 | Do desenho metodológico e do protocolo de observação | 45 a 47 | 0 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
+| 1 | Introdução | 21 a 42 | 55 | 15 | Fichas (Lex Plataformae); A tese (O plano da tese); Dogmática (Dispositivos citados); Laboratório (O laboratório de origem) |
+| 2 | Do desenho metodológico e do protocolo de observação | 45 a 47 | 1 | 0 | Método (Abertura do capítulo e objeto e instrumentos); Fundamentos (O uso não exegético dos conceitos) |
 | 2.1 | Da estratégia teórico-metodológica | 47 a 54 | 4 | 1 | Método (O protocolo); Dogmática (Dispositivos citados) |
 | 2.2 | Do recorte teórico-normativo e setorial | 54 a 56 | 2 | 0 | Método (O protocolo); Dogmática (A base normativa); Dogmática (Dispositivos citados) |
 | 2.3 | Do ecossistema de referência e estratégia de exemplificação | 56 a 59 | 0 | 0 | Método (O protocolo); Laboratório (O laboratório de origem) |
@@ -28,11 +28,11 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 3.1 | Técnica, mídia e vida cotidiana | 85 a 92 | 14 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.1 | Autonomia da técnica e reorganização da vida social | 92 a 98 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.2 | Mídia, entretenimento e reconfiguração da epistemologia | 98 a 104 | 1 | 2 | Fundamentos (Seções do capítulo 3) |
-| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 9 | 0 | Fundamentos (Seções do capítulo 3) |
+| 3.1.3 | Técnica incorporada às rotinas e dessimbolização da experiência | 104 a 120 | 10 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.1.4 | A tecnologia enquanto construção social e a racionalidade política do design | 120 a 137 | 13 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.1.5 | O ambiente tecno-midiático como condição de possibilidade do OIC | 137 a 139 | 0 | 0 | Fundamentos (Seções do capítulo 3) |
 | 3.2 | Arquitetura econômica das plataformas digitais | 139 a 145 | 2 | 0 | Fundamentos (Seções do capítulo 3) |
-| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 24 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
+| 3.2.1 | Capitalismo industrial e tecnofeudalismo | 145 a 183 | 25 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.2.2 | O rentismo informacional sob plataformas | 183 a 208 | 3 | 0 | Dogmática (Dispositivos citados); Fundamentos (Seções do capítulo 3) |
 | 3.2.3 | Extração de valor, escassez artificial e o consumidor como exterior incorporado | 208 a 232 | 51 | 8 | Fundamentos (Seções do capítulo 3) |
 | 3.2.4 | A mutação da dinâmica concorrencial imaterial a partir da propriedade intelectual | 232 a 243 | 5 | 0 | Fichas (Função social da propriedade intelectual); Fundamentos (Seções do capítulo 3) |
@@ -50,7 +50,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 4.2.2 | Poder econômico privado e ordem constitucional | 347 a 351 | 5 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.2.3 | Psicopolítica, autoexploração e cativeiro identitário | 351 a 363 | 12 | 0 | Fundamentos (Seções do capítulo 4) |
 | 4.2.4 | Regras privadas, enforcement e a governança da plataforma | 363 a 379 | 21 | 7 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
-| 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 9 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
+| 4.2.5 | O consumidor-cidadão sob a Lex Plataformae | 379 a 386 | 10 | 4 | Fichas (Lex Plataformae); Fundamentos (Seções do capítulo 4) |
 | 4.2.6 | A vulnerabilidade semiótica e a exigência de critérios operacionais e institucionais | 386 a 389 | 0 | 0 | Fichas (Vulnerabilidade semiótica); Fundamentos (Seções do capítulo 4) |
 | 5 | Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae | 391 a 394 | 3 | 1 | Dogmática (Abertura do capítulo 5); Dogmática (Dispositivos citados) |
 | 5.1 | Dos conceitos estruturantes do regime jurídico do Objeto Imaterial de Consumo | 394 a 395 | 3 | 10 | Dogmática (Seções do capítulo 5); Atlas (Três leituras da tese) |
@@ -85,13 +85,13 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 6.2.4.1.1 | Da revisão crítica da literatura recente | 590 a 601 | 1 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.2 | Da linguagem, código e consentimento viciado por sentido | 601 a 605 | 8 | 8 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.3 | Da operacionalização da vulnerabilidade semiótica em OICs | 605 a 609 | 24 | 3 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.2.4.3.1 | O caso dos presentes irregulares | 609 a 618 | 43 | 9 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
+| 6.2.4.3.1 | O caso dos presentes irregulares | 609 a 618 | 44 | 9 | Dogmática (Seções do capítulo 6); Laboratório (O laboratório de origem) |
 | 6.2.4.4 | Da informação excessiva às práticas de transparência performática: dever de informar e adequação informativa | 618 a 623 | 3 | 4 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.4.5 | Da publicidade enganosa por arquitetura semiótica | 623 a 629 | 3 | 6 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.2.5 | Da informação, publicidade e práticas abusivas em contextos sob antecipação hipercuratorial | 629 a 634 | 11 | 6 | Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.3 | Da auditabilidade aberta e equivalência de valor funcional enquanto critérios de legitimidade para arquiteturas de plataforma | 635 a 639 | 22 | 5 | Dogmática (Seções do capítulo 6) |
 | 6.3.1 | Do conceito jurídico de auditabilidade aberta em serviços digitais contínuos | 639 a 648 | 15 | 6 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
-| 6.3.2 | Da equivalência de valor funcional como parâmetro de licitude de alterações | 648 a 656 | 19 | 4 | Fichas (Equivalência de valor funcional); Dogmática (Seções do capítulo 6) |
+| 6.3.2 | Da equivalência de valor funcional como parâmetro de licitude de alterações | 648 a 656 | 20 | 4 | Fichas (Equivalência de valor funcional); Dogmática (Seções do capítulo 6) |
 | 6.3.3 | Dos mecanismos apropriados à viabilização de procedimentos de auditabilidade aberta e avaliação de equivalência funcional | 656 a 663 | 50 | 15 | Fichas (Auditabilidade aberta); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
 | 6.4 | Da teleologia abusiva e ilícito de arquitetura em serviços digitais contínuos | 663 a 665 | 15 | 8 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6) |
 | 6.4.1 | Do ilícito de teleologia abusiva: vício de concepção e prática abusiva | 665 a 669 | 11 | 8 | Fichas (Ilícito de arquitetura, Teleologia abusiva); Dogmática (Seções do capítulo 6); Dogmática (Dispositivos citados) |
@@ -104,7 +104,7 @@ As colunas Informação e Doutrina contam os trechos literais que os textos de c
 | 7 | Da tipologia dos modelos de incidência do Objeto Imaterial de Consumo em diferentes categorias funcionais de plataforma | 713 a 714 | 1 | 0 | Laboratório (O teste) |
 | 7.1 | Dos parâmetros de controlabilidade do OIC | 714 a 716 | 0 | 8 | Roteiro (Partes do Roteiro); Roteiro (Parâmetros) |
 | 7.1.1 | Dos enunciados operacionais de controlabilidade do OIC | 716 a 717 | 0 | 3 | Roteiro (Por que a ordem importa); Roteiro (Parâmetros); Atlas (Três leituras da tese) |
-| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 19 | 18 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
+| 7.1.1.1 | Dos parâmetros para qualificação do Objeto Imaterial de Consumo enquanto produto imaterial sob fruição governada | 717 a 719 | 21 | 18 | Fichas (Feixe de fruição governada, Objeto Imaterial de Consumo (OIC)); Dogmática (Dispositivos citados); Roteiro (Bloco a do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.2 | Dos parâmetros da vulnerabilidade semiótica como mecanismo | 719 a 721 | 13 | 13 | Fichas (Vulnerabilidade semiótica); Roteiro (Bloco b do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.3 | Dos parâmetros do dever de informar como adequação verificável | 722 a 724 | 7 | 7 | Roteiro (Bloco c do enquadramento); Roteiro (Parâmetros) |
 | 7.1.1.4 | Dos parâmetros da publicidade e oferta como gestão de sentido controlável | 724 a 726 | 7 | 8 | Fichas (Antecipação hipercuratorial); Roteiro (Bloco d do enquadramento); Roteiro (Parâmetros) |

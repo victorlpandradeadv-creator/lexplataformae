@@ -58,6 +58,53 @@ O alcance caiu, a regra do aplicativo mudou ou a loja puniu sem dizer por quê. 
 
 Seja qual for a porta, chega a hora de provar o que aconteceu e de reclamar onde a resposta conta.
 
+### passo-pagou
+
+Você pagou com dinheiro de verdade, ou com horas de jogo que valiam dinheiro. O que recebeu ficou guardado numa conta que a empresa mantém.
+
+> A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
+
+### passo-manda
+
+A venda acabou, mas o poder da empresa continuou. Ela segue escrevendo as regras, atualizando o ambiente e decidindo quem usa o quê.
+
+> [...] a Lex Plataformae designa um tipo de ordenação privada centrada em uma plataforma enquanto núcleo institucional que define regras, visibilidades, sanções e regimes de prova por meio de arquitetura e atualização contínuas (p. 27)
+
+### passo-mudou
+
+Um dia o item perde o efeito, a conta é banida ou o serviço acaba. Muitas vezes a decisão chega sem um motivo que você consiga conferir ou contestar.
+
+> A alteração de regra, o rebaixamento de alcance ou a suspensão sequer se transformam em objeto verificável e disputável no próprio sistema. (p. 381)
+
+### passo-ficou
+
+A perda fica com você, e as provas ficam com quem decidiu. Só que serviço digital pode mudar, mas não de qualquer jeito, e quando passa do limite alguém responde por isso.
+
+> Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
+> Ela permite reconhecer o óbvio sofisticado: serviços digitais contínuos mudam, mas não podem mudar de qualquer jeito (p. 655)
+
+### chamada-doutrina
+
+Por que a compra digital não termina na entrega?
+
+### abertura-doutrina
+
+Quando o que se vende é uma posição de uso sustentada por uma plataforma, a relação de consumo continua depois do pagamento. O fornecedor segue governando o objeto, e é essa governança contínua que pede critérios próprios de dever, prova e consequência.
+
+> O que se afirma é que, sempre que a utilidade consumida se apresente como posição de fruição sustentada por governança privada contínua, haverá produto imaterial em sentido juridicamente relevante para a incidência do art. 3º, § 1º, do CDC. (p. 718)
+> O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
+
+### chamada-ciencia
+
+Em que momento isso passou a parecer normal?
+
+### abertura-ciencia
+
+A pergunta vem da introdução e organiza a pesquisa inteira. Daqui se chega ao objeto, aos instrumentos, ao método que torna cada inferência conferível e ao texto integral, com cada frase do site ligada à página de onde saiu.
+
+> Em que momento se naturalizou que tempo, atenção, reputação, acervo, vínculo e patrimônio podem ser capturados e desfeitos por desenho, sem que isso seja nomeado com o peso que merece e, sobretudo, sem gerar as consequências que deveria gerar? (p. 21)
+> Aqui são reunidos os elementos necessários para tornar auditável a investigação, incluindo a estratégia de pesquisa, o recorte empírico e as técnicas de coleta e leitura do material mobilizado. (p. 47)
+
 ### cena-compra
 
 Você pagou com dinheiro de verdade. A skin está na sua conta, você usa nas partidas e os outros jogadores veem.
