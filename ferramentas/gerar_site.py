@@ -528,7 +528,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
     corpo = esquemas.inserir(corpo, caminho, prefixo, esc, pg, expansao)
-    corpo = solidos.inserir(corpo, caminho)
+    corpo = solidos.inserir(corpo, caminho, prefixo)
     canonico = BASE + "/" + caminho
     descricao = resumo(descricao)
     # A coluna lateral sai dos títulos da própria página e das páginas irmãs. O índice nasce antes dos balões, com o texto limpo.
@@ -3207,6 +3207,48 @@ METODO = ["2.1", "2.2", "2.3", "2.4", "2.4.1", "2.4.2", "2.4.3", "2.5", "2.6", "
 METODO_LIGACOES = {"2.3": ("O laboratório de origem", "plataformas/#origem"), "2.6": ("As epígrafes", "epigrafes/")}
 
 
+
+def gerar_linguagem_geometrica():
+    """Como ler a linguagem geométrica. Página da Ciência, da entrega do GPT de 16/11/2026, por ordem do autor de 17/11/2026.
+    Acréscimo posterior à tese, datado. As convenções e as legendas são as da entrega."""
+    prefixo = "../"
+    p = solidos.lpi_peca
+    quatro = [("pi-cubo-expressao", "Cubo", "Expressão"), ("pi-esfera-solucao", "Esfera", "Solução técnica"),
+              ("pi-cilindro-ornamento", "Cilindro", "Ornamento"), ("pi-piramide-distintividade", "Pirâmide", "Distintividade")]
+    linhas = [("Contorno duplo", "Alcance da exclusividade examinada naquele exemplo."),
+              ("Limite tracejado", "Controle contratual ou técnico da plataforma."),
+              ("Faixa larga sem ponta", "Uso ou resultado funcional. Uma lacuna indica interrupção."),
+              ("Seta fina com ponta", "Relação de identificação de origem."),
+              ("Fundo da página", "Espaço neutro. Não significa automaticamente domínio público.")]
+    corpo = (
+        '<article class="folha leitura linguagem-geometrica">'
+        '<header class="folha-cabeca"><p class="sobrelinha">Acréscimo posterior à tese · 15/11/2026, refeito em 16/11/2026</p>'
+        '<h1>Como ler a linguagem geométrica</h1>'
+        '<p class="abertura-pagina">As formas desta página são convenções de explicação, e não uma classificação geométrica proposta pela tese. '
+        'Comece por uma distinção. A dimensão de um objeto, o alcance de uma exclusividade e o controle exercido pela plataforma são coisas diferentes.</p></header>'
+        '<section class="bloco"><h2>As quatro formas</h2>'
+        '<div class="lpi-grade lpi-4">' + "".join(
+            f'<figure class="lpi-peca">{p(i, prefixo)[len("<figure class=\"lpi-peca\">"):-len("</figure>")].split("<figcaption")[0]}'
+            f'<figcaption class="lpi-leg"><strong>{f}</strong> {d}</figcaption></figure>' for i, f, d in quatro) + '</div>'
+        '<p>Reconhecer uma forma não permite concluir que exista proteção jurídica. A incidência de um direito depende do caso e de seus requisitos.</p></section>'
+        '<section class="bloco"><h2>Linhas que dizem coisas diferentes</h2><dl class="lpi-linhas">'
+        + "".join(f'<dt>{a}</dt><dd>{b}</dd>' for a, b in linhas) + '</dl></section>'
+        '<section class="bloco"><h2>Um exemplo de leitura</h2>'
+        '<p>O cubo mantém seu contorno duplo. O limite tracejado da plataforma cruza a faixa do uso, que aparece interrompida. A imagem distingue a proteção do objeto do controle sobre seu uso.</p>'
+        + solidos.lpi_grupo(["pi-uso-continuo", "pi-uso-interrompido"], prefixo, False) + '</section>'
+        '<section class="bloco"><h2>A armadura em sequência</h2>'
+        + solidos.lpi_grupo(["pi-skin-objeto", "pi-skin-dimensoes", "pi-skin-controle"], prefixo, False) + '</section>'
+        '<section class="bloco"><h2>Relações</h2>'
+        + "".join(solidos.lpi_grupo([i], prefixo, False) for i in ("pi-quatro-solidos", "pi-esfera-tecnica", "pi-latifundio", "pi-escassez"))
+        + '<p class="ler-pdf"><a href="' + prefixo + 'doutrina/propriedade-intelectual/">As peças no capítulo Propriedade intelectual</a></p></section>'
+        '</article>')
+    desc = "Como ler as formas, linhas e faixas da linguagem geométrica da propriedade intelectual. Acréscimo posterior à tese, de novembro de 2026."
+    pasta = SAIDA / "linguagem-geometrica"
+    pasta.mkdir(exist_ok=True)
+    (pasta / "index.html").write_text(pagina("Como ler a linguagem geométrica · Lex Plataformae", desc, corpo, prefixo, "linguagem-geometrica/", None,
+                                             camada="ciencia", superficie=prefixo), encoding="utf-8")
+
+
 def gerar_metodo():
     cap = POR_NUMERO.get("2")
     if not cap or not all(n in POR_NUMERO for n in METODO):
@@ -4808,6 +4850,7 @@ def main():
     gerar_laboratorio()
     gerar_fundamentos()
     gerar_metodo()
+    gerar_linguagem_geometrica()
     gerar_dogmatica()
     gerar_autores()
     gerar_referencias()

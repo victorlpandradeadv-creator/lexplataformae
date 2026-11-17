@@ -20,6 +20,7 @@ Gramática (seção 5 do plano).
     tracejado cinza              poder da plataforma sobre a fruição, que não decorre da exclusividade
 """
 import math
+import json
 import re
 import sys
 from html import escape
@@ -533,7 +534,81 @@ def svg(ident):
     return Peca(ident, dict(PECAS[ident], desenho=list(PECAS[ident]["desenho"]))).svg()
 
 
-def inserir(corpo, caminho):
+# 17/11/2026, por ordem do autor. A entrega do GPT de 16/11/2026 refez as peças da linguagem geométrica, com as convenções
+# aprovadas (contorno duplo, tracejado da plataforma, faixa de uso sem ponta), e acrescentou a sequência da armadura.
+# Quando a peça refeita existe em site/linguagem-pi/, ela entra no lugar do desenho antigo, com a legenda da entrega.
+LPI_DIR = Path(__file__).resolve().parents[1] / "site" / "linguagem-pi"
+LPI = json.loads((LPI_DIR / "manifesto.json").read_text(encoding="utf-8")) if (LPI_DIR / "manifesto.json").exists() else {}
+LPI_MAPA = {"pi-piramide-marca": ["pi-piramide-distintividade"], "pi-exclusividade-e-poder": ["pi-uso-continuo", "pi-uso-interrompido"]}
+# Peças novas da entrega, com o lugar no capítulo Propriedade intelectual da Doutrina.
+LPI_EXTRAS = [
+    (["pi-skin-objeto", "pi-skin-dimensoes", "pi-skin-controle"], "doutrina/propriedade-intelectual/", "Por que a propriedade intelectual da plataforma não é um bloco único"),
+    (["pi-cilindro-superficie", "pi-piramide-origem"], "doutrina/propriedade-intelectual/", "Por que a marca e o desenho industrial importam"),
+]
+NOTA_LPI = ('<figcaption class="ciencia nota-acrescimo">Linguagem geométrica acrescentada em 15/11/2026 e refeita em 16/11/2026. '
+            'É acréscimo posterior à tese, que não propõe ontologia geométrica da propriedade intelectual. '
+            '<a href="{prefixo}linguagem-geometrica/">Como ler a linguagem geométrica</a>.</figcaption>')
+
+
+def lpi_peca(ident, prefixo=""):
+    """Uma peça refeita, em SVG embutido, com título e descrição à vista. A armadura vem em WebP, com a arte do tema."""
+    d = LPI.get(ident, {})
+    leg = f'<figcaption class="lpi-leg"><strong>{d.get("titulo", "")}</strong> {d.get("descricao", "")}</figcaption>'
+    if ident.startswith("pi-skin-"):
+        arte = (f'<span class="ilustracao lpi-arte"><img class="arte-clara" src="{prefixo}assets/ilustracoes/{ident}.webp" alt="" width="1200" height="900" loading="eager">'
+                f'<img class="arte-escura" src="{prefixo}assets/ilustracoes/{ident}-escuro.webp" alt="" width="1200" height="900" loading="lazy"></span>')
+    else:
+        arte = f'<div class="lpi-arte">{(LPI_DIR / (ident + ".svg")).read_text(encoding="utf-8")}</div>'
+    return f'<figure class="lpi-peca">{arte}{leg}</figure>'
+
+
+def lpi_grupo(idents, prefixo="", nota=True):
+    return (f'<figure class="solidos-fig lpi lpi-{len(idents)}"><div class="lpi-grade">' + "".join(lpi_peca(i, prefixo) for i in idents)
+            + '</div>' + (NOTA_LPI.format(prefixo=prefixo) if nota else "") + '</figure>')
+
+
+def _lpi_idents(ident):
+    ids = LPI_MAPA.get(ident, [ident])
+    return ids if all((LPI_DIR / (i + ".svg")).exists() for i in ids) else None
+
+
+def _por_no_titulo(corpo, alvo, peca, rotulo):
+    achados = list(re.finditer(r"<h[23][^>]*>", corpo))
+    for k, m in enumerate(achados):
+        fim = corpo.find("</h", m.end())
+        if alvo.lower() in re.sub(r"<[^>]+>", "", corpo[m.end():fim]).lower():
+            prox = achados[k + 1].start() if k + 1 < len(achados) else corpo.rfind("</article>")
+            fecha = corpo.find("</section>", m.end())
+            pos = fecha + 10 if 0 <= fecha < prox else prox
+            while corpo.startswith('<figure class="solidos-fig', pos):
+                pos = corpo.find("</figure>", pos) + 9
+                # pula o figure interno das peças refeitas até fechar o grupo
+                while corpo.count("<figure", 0, pos) > corpo.count("</figure>", 0, pos):
+                    pos = corpo.find("</figure>", pos) + 9
+            return corpo[:pos] + peca + corpo[pos:]
+    raise SystemExit(f"Sólido {rotulo}: título '{alvo}' não encontrado")
+
+
+def inserir(corpo, caminho, prefixo=None):
+    """Põe na página as peças cujo campo pagina é este caminho, depois do título dado em posicao."""
+    if prefixo is None:
+        prefixo = "../" * caminho.count("/")
+    for ident, p in PECAS.items():
+        # Peça sem página é rascunho. Sem esta guarda ela caía na capa, cujo caminho é vazio.
+        if not p.get("pagina", "").strip() or p["pagina"].strip() != caminho:
+            continue
+        ids = _lpi_idents(ident)
+        peca = lpi_grupo(ids, prefixo) if ids else (f'<figure class="solidos-fig">{svg(ident)}'
+                f'<figcaption class="ciencia nota-acrescimo">Linguagem geométrica acrescentada em 15/11/2026. '
+                f'É acréscimo posterior à tese, que não propõe ontologia geométrica da propriedade intelectual.</figcaption></figure>')
+        corpo = _por_no_titulo(corpo, p.get("posicao", "").partition(" ")[2], peca, ident)
+    for ids, pag, alvo in LPI_EXTRAS:
+        if pag == caminho and all((LPI_DIR / (i + ".svg")).exists() or i.startswith("pi-skin-") for i in ids):
+            corpo = _por_no_titulo(corpo, alvo, lpi_grupo(ids, prefixo), ids[0])
+    return corpo
+
+
+def _inserir_antigo(corpo, caminho):
     """Põe na página as peças cujo campo pagina é este caminho, depois do título dado em posicao."""
     for ident, p in PECAS.items():
         # Peça sem página é rascunho. Sem esta guarda ela caía na capa, cujo caminho é vazio.

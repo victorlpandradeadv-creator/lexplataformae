@@ -1442,3 +1442,19 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 .porta-perda .vinheta { width: 88px; margin: 0 0 0.75rem; }
 .vinheta-direito { width: 132px; margin: 0 0 1.25rem; }
 @media (max-width: 560px) { .porta-perda .vinheta { width: 72px; } .vinheta-direito { width: 108px; } }
+
+/* 17/11/2026. Linguagem geométrica da propriedade intelectual, peças refeitas na entrega de 16/11/2026.
+   Os desenhos usam currentColor, --traco e --tese-linha. A faixa de uso fica no azul das ilustrações, nunca no acento do modo. */
+.lpi { --traco: var(--tinta-2); --tese-linha: var(--il-azul, #002fa7); color: var(--tinta); margin: 1.75rem 0; }
+.lpi-grade { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); align-items: start; }
+.lpi-1 .lpi-grade { grid-template-columns: minmax(0, 36rem); }
+.lpi-peca { margin: 0; display: grid; gap: 0.5rem; }
+.lpi-arte svg, .lpi-arte img { display: block; width: 100%; height: auto; }
+.lpi-arte.ilustracao { padding: 0; }
+.lpi-leg { font-size: 0.9rem; line-height: 1.45; color: var(--tinta-2); }
+.lpi-leg strong { display: block; color: var(--tinta); font-weight: 600; }
+.lpi > .nota-acrescimo { margin-top: 0.75rem; }
+.linguagem-geometrica .lpi-grade.lpi-4 { --traco: var(--tinta-2); --tese-linha: var(--il-azul, #002fa7); color: var(--tinta); }
+.lpi-linhas { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1.25rem; }
+.lpi-linhas dt { font-weight: 600; } .lpi-linhas dd { margin: 0; }
+@media (max-width: 560px) { .lpi-linhas { grid-template-columns: 1fr; } .lpi-linhas dd { margin-bottom: 0.5rem; } }
