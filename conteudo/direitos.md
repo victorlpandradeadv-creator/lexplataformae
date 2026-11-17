@@ -85,7 +85,7 @@ Ajuda mostrar o caminho que você percorreu dentro do jogo até a compra ou até
 
 ### pedir
 
-Você pode pedir que o problema seja tratado como questão do ambiente, e não como descuido seu. Se essa dependência dos sinais da plataforma ficar demonstrada, podem incidir deveres reforçados de informar, anunciar com clareza e apresentar provas. Conforme o caso, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
+O primeiro pedido é que o problema seja tratado como questão do ambiente, e não como descuido seu. Se essa dependência dos sinais da plataforma ficar demonstrada, podem incidir deveres reforçados de informar, anunciar com clareza e apresentar provas. Dependendo dos fatos, a prática pode ser vista como abusiva, como informação insuficiente ou como engano por ambiguidade ou por omissão. Somado a outros elementos, isso pode até mudar quem precisa provar o quê.
 
 ### limite
 
@@ -130,7 +130,7 @@ Ajuda mostrar o que foi exibido a você, em que momento, com que destaque e por 
 
 ### pedir
 
-Você pode pedir que a plataforma corrija a forma de informar e torne visível o que importa, que apresente o que de fato exibiu e que recomponha o que você perdeu por causa da falta de clareza. Conforme o caso, a falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar.
+Cabe pedir que a plataforma corrija a forma de informar e torne visível o que importa, que apresente o que de fato exibiu e que recomponha o que você perdeu por causa da falta de clareza. A falha pode ser tratada como defeito na qualidade da informação ou como prática abusiva. Pode até levar à invalidade de cláusulas que contrariam o que você tinha razão de esperar.
 
 ### limite
 
@@ -170,7 +170,7 @@ Ajuda mostrar como era o ambiente de venda, quais peças de propaganda havia, o 
 
 ### pedir
 
-Você pode pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, cabe pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. Conforme o caso, a lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
+O anúncio vincula, e por isso cabe pedir que a oferta seja corrigida e cumprida, que o que você perdeu seja recomposto e que a comunicação enganosa pare. Em alguns casos, cabe pedir que estratégias de venda incompatíveis com o que é realmente entregue sejam derrubadas. A lei pode tratar isso como publicidade enganosa ou abusiva, ou como oferta que obriga quem anunciou.
 
 ### limite
 
@@ -212,7 +212,7 @@ Ajudam os registros essenciais do sistema, o histórico das versões que importa
 
 ### pedir
 
-Você pode pedir que esses registros sejam preservados e mostrados e que haja perícia, que é o exame feito por um especialista, sobre pontos delimitados. Pode pedir também que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Conforme o caso, também pode haver presunções contra a plataforma, que fazem certos fatos contarem a seu favor quando faltam os registros que só ela tinha.
+O pedido começa pelos registros, que precisam ser preservados e mostrados, e pode incluir perícia, que é o exame feito por um especialista, sobre pontos delimitados. Você também pode pedir que se verifique, com base no mínimo de clareza que a plataforma deve, se a mudança ou a punição foi legítima. Se a plataforma não apresentar os registros que só ela tinha, pode haver presunções contra ela, que fazem certos fatos contarem a seu favor.
 
 ### limite
 
@@ -390,7 +390,7 @@ Quanto mais o que aconteceu depende do que só a plataforma registra, menos razo
 
 ### pedir
 
-Você pode pedir que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor, que fazem certos fatos valerem como verdadeiros até prova em contrário, e um dever reforçado de a plataforma colaborar com a prova.
+O pedido aqui é que o peso da prova seja distribuído de acordo com quem tem acesso a ela. Conforme o caso, também pode haver presunções a seu favor, que fazem certos fatos valerem como verdadeiros até prova em contrário, e um dever reforçado de a plataforma colaborar com a prova.
 
 ### limite
 
@@ -433,7 +433,7 @@ Ajuda mostrar se a restrição que a empresa invoca é mesmo necessária para pr
 
 ### pedir
 
-Você pode pedir que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
+O pedido central é que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
 
 ### limite
 
