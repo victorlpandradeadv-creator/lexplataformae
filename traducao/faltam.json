@@ -618,15 +618,21 @@
 "pagina": "caminho/a-compra/index.html"
 },
 {
-"k": "95edb35355c4728c",
+"k": "13b8815c0efd2703",
 "tipo": "html",
-"pt": "E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.",
+"pt": "O que você comprou existe e tem valor, mas só pode ser usado do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.",
 "pagina": "caminho/a-compra/index.html"
 },
 {
-"k": "03a1303b02325ce5",
+"k": "7a042e6699f64302",
 "tipo": "html",
-"pt": "Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.",
+"pt": "E o que você comprou não deixa de existir só porque não se pode segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.",
+"pagina": "caminho/a-compra/index.html"
+},
+{
+"k": "c68a23704f8b999f",
+"tipo": "html",
+"pt": "Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode desaparecer sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.",
 "pagina": "caminho/a-compra/index.html"
 },
 {
@@ -714,9 +720,21 @@
 "pagina": "caminho/a-resposta/index.html"
 },
 {
-"k": "52fc3a24a84937d3",
+"k": "3a712cfa41f2f339",
 "tipo": "html",
-"pt": "O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.",
+"pt": "O que une esses casos não é o setor da economia nem o tipo de tecnologia. É o jeito como a plataforma governa o uso, administra o que você espera, controla o que se consegue entender e torna a contestação mais fácil ou mais difícil.",
+"pagina": "caminho/alem-do-jogo/index.html"
+},
+{
+"k": "779d94737b1def06",
+"tipo": "html",
+"pt": "A pergunta é sempre a mesma, em qualquer lugar. É possível saber o que foi prometido e o que mudou? E é possível reagir?",
+"pagina": "caminho/alem-do-jogo/index.html"
+},
+{
+"k": "c0e48601922498b9",
+"tipo": "html",
+"pt": "O ranque não manda você jogar mais. É você quem quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.",
 "pagina": "caminho/as-regras/index.html"
 },
 {
@@ -742,6 +760,30 @@
 "tipo": "html",
 "pt": "A plataforma tem poder de punir, mas ter esse poder não basta. A punição precisa de motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.",
 "pagina": "caminho/as-regras/index.html"
+},
+{
+"k": "1b1e9bf75db30773",
+"tipo": "html",
+"pt": "Uma skin muda o visual do personagem, os efeitos e as animações, e faz isso de novo em cada partida. Há quem coloque nela muito dinheiro, muitas horas e muita atenção. Visto de fora, parece exagero pagar caro por uma roupa que não existe fora da tela.",
+"pagina": "caminho/o-desejo/index.html"
+},
+{
+"k": "919bc5304c44ab17",
+"tipo": "html",
+"pt": "As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que as pessoas se alinham com uns, se separa de outros e dá sentido ao que vive. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.",
+"pagina": "caminho/o-desejo/index.html"
+},
+{
+"k": "e963e34f3c0bab4e",
+"tipo": "html",
+"pt": "Numa música, uma nota sozinha não diz quase nada, porque a música está na relação entre as notas. Com as coisas que consumimos acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.",
+"pagina": "caminho/o-desejo/index.html"
+},
+{
+"k": "b67f28d04d94af59",
+"tipo": "html",
+"pt": "O espetáculo não é um monte de imagens, e sim pessoas se relacionando por meio de imagens. Numa partida, a sua skin é vista, comparada e comentada, e o valor dela se faz nessa cena que não para nunca.",
+"pagina": "caminho/o-desejo/index.html"
 },
 {
 "k": "955acaca314215a8",
@@ -786,6 +828,12 @@
 "pagina": "caminho/o-desenho/index.html"
 },
 {
+"k": "6dff7df5529cd7b5",
+"tipo": "html",
+"pt": "Tudo começou com uma pergunta simples, saber se a skin é sua. No caminho, apareceu um tipo de consumo em que você imagina estar pisando em terreno próprio, mas só anda num chão emprestado, que pode ser retirado e refeito a qualquer momento.",
+"pagina": "caminho/o-nome/index.html"
+},
+{
 "k": "66ca8babc1e87636",
 "tipo": "attr",
 "pt": "1. Rá, o deus Sol, reinava sobre todos, mas não era invulnerável.",
@@ -802,6 +850,24 @@
 "tipo": "attr",
 "pt": "3. Uma vez nomeado, o poder deixa de ser pura presença, que simplesmente está lá, e passa a poder ser chamado, delimitado e obrigado a responder pelo que faz.",
 "pagina": "caminho/o-nome/index.html"
+},
+{
+"k": "b792e86a4b39bf82",
+"tipo": "html",
+"pt": "Ninguém processa a chuva, porque o clima acontece e cada um se ajeita. Por isso, quando uma perda chega com cara de clima, ninguém pensa em reclamar, e a vida segue.",
+"pagina": "caminho/o-normal/index.html"
+},
+{
+"k": "ae22110cc74e7e82",
+"tipo": "html",
+"pt": "Nas plataformas acontece o mesmo, com mais força. É a tela que decide o que aparece primeiro, o que se consegue entender e o que parece verdadeiro. Personalizar, ranquear e medir não são simples funções de um aplicativo, porque carregam critérios de valor e de visibilidade que orientam o comportamento de milhões de pessoas.",
+"pagina": "caminho/o-normal/index.html"
+},
+{
+"k": "9929a5fc7232d06e",
+"tipo": "html",
+"pt": "O código é o conjunto de decisões que define o que um sistema faz. Se esse código é escrito por pessoas, ele tem direção, e direção pode ser reconstruída, examinada e criticada. Não há fatalismo nisso, porque o que foi escolhido também poderia ter sido escolhido de outro jeito.",
+"pagina": "caminho/o-normal/index.html"
 },
 {
 "k": "40aaa9be213539c4",

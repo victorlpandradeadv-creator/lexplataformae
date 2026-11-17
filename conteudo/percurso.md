@@ -95,7 +95,7 @@ O contrato também não faz diferença entre quem passou anos juntando itens e q
 
 ### imagem O que uma catraca de metrô tem a ver com a sua skin?
 
-O que você comprou existe e tem valor, mas só dá para usar do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.
+O que você comprou existe e tem valor, mas só pode ser usado do lado de dentro de uma catraca, dessas de estação de metrô, e quem controla a catraca é a plataforma. Ela decide quem passa, quem fica e em que condições, tanto pelo contrato quanto pela tecnologia.
 
 O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamento comprasse só uma tolerância para ficar lá dentro, que pode ser retirada a qualquer momento. Mas a catraca muda as condições de uso e não apaga o que você comprou.
 
@@ -107,7 +107,7 @@ O contrato tenta convencer você de que a catraca é tudo, como se o seu pagamen
 
 ### texto
 
-E o que você comprou não deixa de existir só porque não dá para segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.
+E o que você comprou não deixa de existir só porque não se pode segurar com a mão. A própria empresa define no contrato o que é conteúdo virtual, dá nome aos itens e os liga à sua conta. Ela também admite que você pode conseguir esse conteúdo comprando, ganhando em missões ou recebendo de presente. Ao fazer isso, ela reconhece que existe ali um conjunto de coisas identificável, e esse reconhecimento desmonta a ideia de que nada foi entregue.
 
 > A empresa define expressamente “Conteúdo Virtual” como conjunto que inclui moeda do jogo, campeões, skins, emotes, acessórios e outros itens associados à conta (p. 566)
 > e admite que esse conteúdo pode ser obtido não só por compra clássica, mas também por ganho, recompensa, presente ou outras dinâmicas internas do ecossistema (p. 566)
@@ -149,7 +149,7 @@ O valor dela não fica guardado num canto só seu. Depende de servidores ligados
 
 ### texto
 
-Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode evaporar sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
+Com tudo isso junto, fica claro por que a expressão licença revogável merece desconfiança. Ela dá a impressão de que nada foi entregue e de que tudo pode desaparecer sem consequência. Mas, se existe um item identificável, ligado à sua conta e usado no jogo, existe algo que o direito precisa levar a sério. E isso vale mesmo que o contrato fale dele com palavras de coisa precária.
 
 > afasta, logo de saída, a fraude semântica da “licença revogável” como fórmula capaz de evaporar tudo o que já foi economicamente incorporado à esfera do usuário (p. 566)
 > Se há objeto virtual identificável, associado à conta e fruído no ecossistema, há juridicidade a ser levada a sério, ainda que a plataforma tente recobri-la com vocabulário de precariedade. (p. 566)
@@ -259,7 +259,7 @@ Ela é um sinal que todo mundo lá dentro sabe ler, e quem cuida dos sinais é a
 
 ### texto
 
-Uma skin muda o visual do personagem, os efeitos e as animações, e faz isso de novo em cada partida. Tem gente que coloca nela muito dinheiro, muitas horas e muita atenção. Visto de fora, parece exagero pagar caro por uma roupa que não existe fora da tela.
+Uma skin muda o visual do personagem, os efeitos e as animações, e faz isso de novo em cada partida. Há quem coloque nela muito dinheiro, muitas horas e muita atenção. Visto de fora, parece exagero pagar caro por uma roupa que não existe fora da tela.
 
 Visto de dentro, faz sentido, porque lá a skin é um sinal que todo mundo sabe ler. Ela diz quem você é, quanto tempo você tem de jogo e a que grupo você pertence. Quem compra uma skin rara não compra só um efeito bonito, e sim pertencimento, prestígio e a chance de ser reconhecido pelos outros.
 
@@ -288,7 +288,7 @@ Por isso a pergunta que importa não é quanto custa, e sim o que faz algo parec
 
 ### termo Consumo como ritual
 
-As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que a gente se alinha com uns, se separa de outros e dá sentido ao que vive. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.
+As coisas que consumimos funcionam como placas, em que umas dizem bem-vindo e outras dizem fique de fora. É por meio delas que as pessoas se alinham com uns, se separa de outros e dá sentido ao que vive. A skin faz isso dentro do jogo, porque mostra a que turma você pertence e quem não pertence a ela.
 
 Ficar fora desse circuito, por isso, não é só um desconforto, porque significa perder voz e perder opções. Quando você pensa em sair de um jogo, o custo não é só o dinheiro que ficou para trás, mas também o risco de se isolar e de enfraquecer laços que foram feitos ali dentro.
 
@@ -300,7 +300,7 @@ Ficar fora desse circuito, por isso, não é só um desconforto, porque signific
 
 ### imagem O que uma música ensina sobre o valor de uma skin?
 
-Numa música, uma nota sozinha não diz quase nada, porque a música está na relação entre as notas. Com as coisas que a gente consome acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.
+Numa música, uma nota sozinha não diz quase nada, porque a música está na relação entre as notas. Com as coisas que consumimos acontece algo parecido. Uma skin isolada diz pouco, porque o sentido dela vem do lugar que ela ocupa ao lado das outras, do que é comum e do que é raro.
 
 Por isso, quando a plataforma mexe no conjunto, mexe no sentido de cada peça. Lançar uma skin nova pode mudar o que a sua dizia, mesmo que ninguém tenha tocado nela. Quem cuida da vitrine cuida também da linguagem que faz o seu item significar alguma coisa.
 
@@ -321,7 +321,7 @@ E esse sentido estraga com o tempo. Parte do que uma skin significa vence, como 
 
 ### termo Espetáculo
 
-O espetáculo não é um monte de imagens, e sim gente se relacionando por meio de imagens. Numa partida, a sua skin é vista, comparada e comentada, e o valor dela se faz nessa cena que não para nunca.
+O espetáculo não é um monte de imagens, e sim pessoas se relacionando por meio de imagens. Numa partida, a sua skin é vista, comparada e comentada, e o valor dela se faz nessa cena que não para nunca.
 
 Isso quer dizer que a promessa da skin não fica parada na loja, porque circula como cena social, em que uns olham e outros são olhados. É essa vitrine permanente que mantém o desejo aceso e faz você querer continuar ali.
 
@@ -706,7 +706,7 @@ Por isso não basta dizer que tudo é só liberdade de contratar. E o mercado n�
 
 ### termo Psicopolítica
 
-O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.
+O ranque não manda você jogar mais. É você quem quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.
 
 Então você corre atrás de um critério que não enxerga, por vontade própria, e o lazer vira autoexploração. Ninguém precisa ameaçar você, porque o próprio medo de cair faz você investir mais tempo e mais atenção. E não basta fazer mais. É preciso também ser do jeito certo, comportado e bem avaliado, para continuar tendo direito à experiência inteira.
 
@@ -807,7 +807,7 @@ E isso não acontece só nos jogos, que apenas deixam ver, quase a olho nu, a pr
 
 ### imagem Por que ninguém processa a chuva?
 
-Ninguém processa a chuva, porque o clima acontece e a gente se ajeita. Por isso, quando uma perda chega com cara de clima, ninguém pensa em reclamar, e a vida segue.
+Ninguém processa a chuva, porque o clima acontece e cada um se ajeita. Por isso, quando uma perda chega com cara de clima, ninguém pensa em reclamar, e a vida segue.
 
 Só que, numa plataforma, esse clima é fabricado e vem em sequência previsível, com uma explicação rasa e com aparência de normalidade total. O dano deixa de ser um acontecimento e passa a fazer parte da rotina de quem governa o lugar. E quando uma empresa passa a governar a sua participação como se fosse clima, e não como uma escolha que pode ser controlada, a lei já chegou atrasada.
 
@@ -828,7 +828,7 @@ A técnica costuma parecer que anda sozinha. Ela escolhe sempre o meio mais efic
 
 O meio muda o que conta. Quando a televisão tomou o lugar da palavra impressa como principal forma de conversa pública, a aparência e a performance ganharam peso sobre o argumento. Não mudou só o jeito de dizer, mudou o que parecia importante e o que parecia verdade.
 
-Nas plataformas acontece o mesmo, com mais força. É a tela que decide o que aparece primeiro, o que dá para entender e o que parece verdadeiro. Personalizar, ranquear e medir não são simples funções de um aplicativo, porque carregam critérios de valor e de visibilidade que orientam o comportamento de milhões de pessoas.
+Nas plataformas acontece o mesmo, com mais força. É a tela que decide o que aparece primeiro, o que se consegue entender e o que parece verdadeiro. Personalizar, ranquear e medir não são simples funções de um aplicativo, porque carregam critérios de valor e de visibilidade que orientam o comportamento de milhões de pessoas.
 
 > Em Amusing Ourselves to Death, o autor analisa como a televisão, ao substituir a palavra impressa como principal meio de comunicação pública, reorganiza a forma do discurso e, com isso, reconfigura o próprio conteúdo cultural (p. 89)
 > No campo político, a lógica visual desloca o peso do argumento para aparência, performance e administração de impressões (p. 89)
@@ -850,7 +850,7 @@ No digital, isso não fica só no anúncio, porque vira desenho, e a tela decide
 
 Mas a técnica não cai do céu, porque alguém decide o que ela faz. Telas, travas, permissões, prêmios e punições carregam finalidades sociais e econômicas. Se a tecnologia é feita por pessoas, as escolhas concretas de desenho importam para o direito.
 
-O código é o conjunto de decisões que define o que um sistema faz. Se esse código é escrito por gente, ele tem direção, e direção pode ser reconstruída, examinada e criticada. Não há fatalismo nisso, porque o que foi escolhido também poderia ter sido escolhido de outro jeito.
+O código é o conjunto de decisões que define o que um sistema faz. Se esse código é escrito por pessoas, ele tem direção, e direção pode ser reconstruída, examinada e criticada. Não há fatalismo nisso, porque o que foi escolhido também poderia ter sido escolhido de outro jeito.
 
 > A crítica de Andrew Feenberg impede que esse diagnóstico seja recebido como fatalismo. (p. 86)
 > Se a tecnologia é construção social, as mediações concretas importam juridicamente: interfaces, fricções, permissões, incentivos e punições materializam finalidades sociais e econômicas em artefatos e plataformas. (p. 86)
@@ -1515,7 +1515,7 @@ O jogo foi o ponto de partida porque ali tudo aparece mais nítido. A conta, a m
 
 ### texto
 
-O que une esses casos não é o setor da economia nem o tipo de tecnologia. É o jeito como a plataforma governa o uso, administra o que você espera, controla o que dá para entender e torna a contestação mais fácil ou mais difícil.
+O que une esses casos não é o setor da economia nem o tipo de tecnologia. É o jeito como a plataforma governa o uso, administra o que você espera, controla o que se consegue entender e torna a contestação mais fácil ou mais difícil.
 
 Por isso não basta olhar o nome do serviço, se ele se apresenta como aplicativo, loja, rede ou assistente. O que importa é o mecanismo principal pelo qual a sua experiência é organizada, ajustada, refeita e tornada contestável ou não. É esse mecanismo, e não o rótulo do setor, que permite comparar casos tão diferentes à primeira vista.
 
@@ -1569,7 +1569,7 @@ Em muitos casos o conflito é administrado antes de existir. A plataforma não c
 
 Mostrar o mecanismo não é condenar o serviço. Nem toda plataforma reproduz o problema, e as que reproduzem não o fazem com a mesma força. Também não é toda relação mediada por tecnologia que entra na proteção do consumidor.
 
-A pergunta é sempre a mesma, em qualquer lugar. Dá para saber o que foi prometido e o que mudou? E dá para reagir?
+A pergunta é sempre a mesma, em qualquer lugar. É possível saber o que foi prometido e o que mudou? E é possível reagir?
 
 > O ponto, aqui, não é reunir exemplos digitais sob uma mesma rubrica por mera afinidade tecnológica, nem sugerir que toda plataforma contemporânea reproduz, com idêntica intensidade, a mesma forma de vulnerabilidade, opacidade ou captura da fruição (p. 755)
 > Nem toda relação economicamente mediada por tecnologia justificará incidência do CDC. (p. 780)
@@ -1592,7 +1592,7 @@ Porque o que tem nome pode ser cobrado.
 
 ### texto
 
-Tudo começou com uma pergunta simples, a de saber se a skin é sua. No caminho, apareceu um tipo de consumo em que você imagina estar pisando em terreno próprio, mas só anda num chão emprestado, que pode ser retirado e refeito a qualquer momento.
+Tudo começou com uma pergunta simples, saber se a skin é sua. No caminho, apareceu um tipo de consumo em que você imagina estar pisando em terreno próprio, mas só anda num chão emprestado, que pode ser retirado e refeito a qualquer momento.
 
 Nesse chão, o acesso, a permanência e até o sentido do que você comprou dependem de uma administração que nunca para. E essa administração não se apresenta como gestão de alguém. Ela se apresenta como normalidade técnica, como o jeito que as coisas são.
 
