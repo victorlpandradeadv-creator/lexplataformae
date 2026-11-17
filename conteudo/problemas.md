@@ -1941,7 +1941,7 @@ A queda de ganho nem sempre é risco normal da atividade, porque pode vir de uma
 
 ### pedir O que se pode pedir quando o aplicativo muda a regra?
 
-O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir, com clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
+O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Cabe ainda clareza sobre o que define a distribuição das chamadas, e a reposição do que a mudança piorou.
 
 > A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime sempre que a plataforma houver degradado, por desenho, a utilidade produtiva que oferecia como infraestrutura. (p. 768)
 
