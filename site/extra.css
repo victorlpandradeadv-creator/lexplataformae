@@ -1420,9 +1420,16 @@ figcaption .aviso-ia { display: block; margin-top: .3rem; font-family: var(--f-t
 :is(body.desnudo, body:has(#nivel-2:checked)) .legenda-desnudo { position: absolute; top: 0; right: 0; margin: 0; padding: 0 0.25rem; border: 0; background: none; display: flex; align-items: center; min-height: 1.6rem; z-index: 2; }
 .legenda-desnudo p { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .legenda-desnudo label { margin: 0; min-height: 1.6rem; font-size: 0.75rem; }
-/* Menu do celular. Os cinco itens ficam em duas linhas equilibradas, três e dois, em vez de um sozinho na segunda. */
+/* Menu do celular. Desde 17/11/2026, por crítica do autor à simetria, os cinco itens ficam numa linha só, distribuídos
+   pela largura toda. O menu da Doutrina e da Ciência, mais longo, corre de lado com o dedo. Abaixo de 380px os cinco
+   da Informação não cabem, e caem em duas linhas de colunas iguais. */
 @media (max-width: 560px) {
-  .menu-modo > ul:first-child { display: grid; grid-template-columns: repeat(3, max-content); column-gap: 1.25rem; row-gap: 0; }
+  .menu-modo > ul:first-child { display: flex; flex-wrap: nowrap; justify-content: space-between; gap: 0.3rem; overflow-x: auto; scrollbar-width: none; }
+  .menu-modo > ul:first-child::-webkit-scrollbar { display: none; }
+  .menu-modo > ul:first-child a { font-size: 12.5px; padding-left: 0; padding-right: 0; }
+}
+@media (max-width: 379px) {
+  .menu-modo > ul:first-child { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 0.5rem; }
 }
 
 /* 15/11/2026. Negativo parcial no tema escuro, por ordem do autor. Fundo um tom acima do papel e traço menos claro. */

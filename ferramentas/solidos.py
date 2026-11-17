@@ -536,7 +536,8 @@ def svg(ident):
 def inserir(corpo, caminho):
     """Põe na página as peças cujo campo pagina é este caminho, depois do título dado em posicao."""
     for ident, p in PECAS.items():
-        if p.get("pagina", "").strip() != caminho:
+        # Peça sem página é rascunho. Sem esta guarda ela caía na capa, cujo caminho é vazio.
+        if not p.get("pagina", "").strip() or p["pagina"].strip() != caminho:
             continue
         peca = (f'<figure class="solidos-fig">{svg(ident)}'
                 f'<figcaption class="ciencia nota-acrescimo">Linguagem geométrica acrescentada em 15/11/2026. '
