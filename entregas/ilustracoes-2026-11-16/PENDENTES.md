@@ -1,21 +1,15 @@
 # Produção pendente
 
-Planejamento principal: 73 composições. Seis portas e onze direitos entregues na nova direção. Família 2 aprovada visualmente. Dezoito peças do acervo geradas; grupos 1 e 2 aprovados visualmente, grupo 3 em revisão. Restam 38 composições / 76 WebPs, com paletas clara e escura.
+Planejamento principal: 73 composições. Seis portas e onze direitos entregues na nova direção. Família 2 aprovada visualmente. Vinte e quatro peças do acervo geradas; grupos 1 a 3 aprovados visualmente, grupo 4 em revisão. Restam 32 composições / 64 WebPs, com paletas clara e escura.
 
 - Família 2: 11 direitos gerados e aprovados visualmente.
-- Família 3: 18 peças geradas; 11 pendentes. Aprovação final da família ainda pendente.
+- Família 3: 24 peças geradas; 5 pendentes. Aprovação final da família ainda pendente.
 - Família 4: 3 entradas.
 - Família 5: 24 problemas.
 
 Os diagramas de propriedade intelectual são suplementares, não abatem o inventário principal. Os antigos direitos em historico-substituido não contam como produção nova.
 
-- imagem-torneira
-- parte-o-desenho
-- parte-a-lei
-- parte-alem-do-jogo
 - parte-o-nome
-- ideia-antecipacao-hipercuratorial
-- laboratorio
 - familia-funcionalidade-cognitiva
 - familia-infraestrutura-e-intermediacao
 - familia-produtividade-gig-economy

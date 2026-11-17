@@ -1,0 +1,50 @@
+[
+  {
+    "id": "imagem-torneira",
+    "tamanho": [
+      1200,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-o-desenho",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-a-lei",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "parte-alem-do-jogo",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-antecipacao-hipercuratorial",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "laboratorio",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  }
+]

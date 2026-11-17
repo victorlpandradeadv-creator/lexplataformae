@@ -1,0 +1,50 @@
+[
+  {
+    "id": "imagem-torneira",
+    "titulo": "Acumulação por parcelas",
+    "alt": "Parcelas sucessivas entram por uma única passagem e se acumulam num recipiente aberto.",
+    "largura": 1200,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "parte-o-desenho",
+    "titulo": "O desenho das escolhas",
+    "alt": "Duas entradas convergem para a mesma operação; uma saída lateral exige um percurso com desvios.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "parte-a-lei",
+    "titulo": "A lei e a estrutura contemporânea",
+    "alt": "Uma estrutura aberta conecta-se por apoios contínuos a uma fundação anterior.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "parte-alem-do-jogo",
+    "titulo": "Além do jogo",
+    "alt": "Comunicação, criação e trabalho dependem de uma estrutura comum de controle.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-antecipacao-hipercuratorial",
+    "titulo": "Antecipação hipercuratorial",
+    "alt": "Uma abertura revela apenas parte da oferta; o mesmo comando regula a exposição e a passagem até ela.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "laboratorio",
+    "titulo": "Laboratório de plataformas",
+    "alt": "Três serviços distintos revelam o mesmo vínculo de controle por pequenas aberturas de inspeção.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  }
+]
