@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ideia-oic",
+    "titulo": "Objeto de institucionalização constitutiva",
+    "alt": "Uma posição de uso é sustentada por apoios conectados dentro de uma estrutura aberta.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-lex-plataformae",
+    "titulo": "Lex Plataformae",
+    "alt": "Uma folha de regras liga-se diretamente ao eixo de uma engrenagem que regula a passagem do objeto de uso.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-vulnerabilidade-semiotica",
+    "titulo": "Vulnerabilidade semiótica",
+    "alt": "O leitor recebe um sinal, mas a peça que permite interpretá-lo está além de um limite de acesso.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-teleologia-abusiva",
+    "titulo": "Teleologia abusiva",
+    "alt": "A rota até a aquisição é direta; a rota de saída exige contornar três barreiras sucessivas.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-ilicito-de-arquitetura",
+    "titulo": "Ilícito de arquitetura",
+    "alt": "Um canal tem três abas inclinadas que cedem na direção de avanço e encostam em batentes no retorno.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  },
+  {
+    "id": "ideia-auditabilidade-aberta",
+    "titulo": "Auditabilidade aberta",
+    "alt": "Uma janela permite examinar uma ligação específica do mecanismo; um registro acompanha a inspeção.",
+    "largura": 1600,
+    "altura": 900,
+    "estado": "estudo para aprovação; Família 3 parcial"
+  }
+]

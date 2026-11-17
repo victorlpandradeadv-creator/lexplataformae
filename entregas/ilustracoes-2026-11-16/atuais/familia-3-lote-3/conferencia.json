@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ideia-oic",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-lex-plataformae",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-vulnerabilidade-semiotica",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-teleologia-abusiva",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-ilicito-de-arquitetura",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  },
+  {
+    "id": "ideia-auditabilidade-aberta",
+    "tamanho": [
+      1600,
+      900
+    ],
+    "alpha_identico": true
+  }
+]

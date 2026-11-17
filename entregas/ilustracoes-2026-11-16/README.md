@@ -9,7 +9,8 @@
 | familia-1-nova | Seis portas; 12 WebPs de 480 × 480, mestres, pranchas e prova a 56px | Entregue para revisão; envio autorizado. Sem aprovação visual específica registrada após a entrega |
 | familia-2-nova | Onze direitos; 22 WebPs e pacote completo com mestres e provas | Aprovado visualmente; integração pendente |
 | familia-3-lote-1 | Seis peças do acervo; 12 WebPs e pacote completo | Grupo aprovado visualmente; família ainda incompleta |
-| familia-3-lote-2 | Seis cenas narrativas; 12 WebPs e pacote completo | Grupo em revisão; família ainda incompleta |
+| familia-3-lote-2 | Seis cenas narrativas; 12 WebPs e pacote completo | Grupo aprovado visualmente; família ainda incompleta |
+| familia-3-lote-3 | Seis conceitos; pacote completo com 12 WebPs, PNGs, SVGs e provas | Grupo em revisão; família ainda incompleta |
 | prototipo-pi | Comparação exclusividade / controle do uso | Aprovado visualmente |
 | linguagem-pi-lote-1 | Quatro sólidos e duas relações | Aprovado visualmente |
 | linguagem-pi-lote-2 | Seis relações explicativas | Aprovado visualmente |
@@ -33,6 +34,6 @@ Os três lotes PI e a armadura são complementares ao planejamento principal de 
 
 historico-substituido contém os primeiros lotes de fundos opacos e a primeira sequência da armadura. Preservados a pedido de enviar tudo, mas NÃO usar na implementação nova. Na primeira entrega, os ZIPs locais não foram duplicados. A Família 2 nova inclui WebPs e SVGs avulsos e um pacote ZIP completo com PNGs, pranchas e provas.
 
-planejamento reúne as instruções novas. PENDENTES.md lista as 44 composições restantes. fontes-producao guarda os scripts usados na sessão, que podem precisar de adaptação de caminhos locais. inventario-sha256.json permite verificar cada arquivo da entrega.
+planejamento reúne as instruções novas. PENDENTES.md lista as 38 composições restantes. fontes-producao guarda os scripts usados na sessão, que podem precisar de adaptação de caminhos locais. inventario-sha256.json registra a primeira entrega; os lotes posteriores possuem manifestos e conferências próprios.
 
 Para evitar dezenas de cópias da mesma imagem embutida, as matrizes PNG de SVGs e prévias HTML foram extraídas, sem alteração dos pixels, para matrizes-compartilhadas. Manter os caminhos relativos ao mover essas prévias. WebPs e PNGs finais continuam independentes.
