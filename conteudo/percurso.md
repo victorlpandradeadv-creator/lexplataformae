@@ -22,7 +22,7 @@ O botão diz comprar, o contrato diz licença, e a diferença aparece no dia em 
 
 A cena mais comum é esta. Você abriu a loja do jogo, escolheu uma skin e apertou o botão que diz comprar. O dinheiro saiu do seu cartão e, poucos segundos depois, a skin apareceu no seu inventário, ao lado das outras que você já tinha.
 
-A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que dê para fazer alguma coisa com ela. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
+A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que sirva para alguma coisa. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.
 
 > Tanto o senso comum quanto até mesmo o próprio Código Civil brasileiro utilizam o verbo “comprar” sob o significado de se estar adquirindo algo que passa a ser “seu”, no sentido de que se espera estabilidade mínima, permanência e alguma forma de controle sobre o que foi adquirido (p. 400-401)
 > Sua estrutura clássica é a troca de coisa por preço (p. 400)
@@ -706,7 +706,7 @@ Por isso não basta dizer que tudo é só liberdade de contratar. E o mercado n�
 
 ### termo Psicopolítica
 
-O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que dê para acompanhar. O que você vê é a posição, e o cálculo fica escondido.
+O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.
 
 Então você corre atrás de um critério que não enxerga, por vontade própria, e o lazer vira autoexploração. Ninguém precisa ameaçar você, porque o próprio medo de cair faz você investir mais tempo e mais atenção. E não basta fazer mais. É preciso também ser do jeito certo, comportado e bem avaliado, para continuar tendo direito à experiência inteira.
 
@@ -768,7 +768,7 @@ Ajustar as categorias do direito, nesses casos, não é moralismo nem implicânc
 
 A plataforma não vira um Estado por isso, nem fica acima da lei do país. A lei da plataforma não substitui as leis brasileiras. Ela é uma camada de regras privadas que fica entre você e o que você comprou, e que o direito não pode tratar como simples cenário técnico. Também não se trata de levar qualquer briga de jogo para a Constituição.
 
-O que se pede é proporcional ao poder que a empresa exerce. Transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos que dê para conferir, um caminho real para contestar e a recomposição do que foi perdido.
+O que se pede é proporcional ao poder que a empresa exerce. Transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos verificáveis, um caminho real para contestar e a recomposição do que foi perdido.
 
 > A Lex Plataformae, assim compreendida, não substitui o Direito estatal nem elimina a incidência do ordenamento público. Ela designa, antes, a camada normativa privada que se interpõe entre o sujeito e a fruição, organizando a experiência concreta do consumo por meios que o Direito não pode tratar como simples pano de fundo tecnológico. (p. 28)
 > Isso não implica equiparar plataforma a Estado nem constitucionalizar toda disputa privada (p. 348)
@@ -1061,7 +1061,7 @@ Quem controla esses vestígios controla, em boa parte, a reconstrução do que a
 
 A plataforma não pode mudar o que você usa e, ao mesmo tempo, guardar em segredo absoluto o que mudou, quando mudou, por que mudou, que efeito isso teve e quais registros permitem reconstruir o caso. Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê, e serve para que a mudança possa ser verificada.
 
-Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.
+Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.
 
 E vale um limite. Esse dever não aparece em qualquer ajuste pequeno ou mudança só de aparência. Ele começa quando a alteração afeta de verdade o que você usa, a sua permanência ou a sua chance de provar e contestar.
 
@@ -1164,7 +1164,7 @@ Por isso se diz que, nesses casos, o desenho também é conduta. A forma como o 
 
 Isso evita dois erros que são comuns. O primeiro é aceitar que tudo é inovação, como se o simples fato de a plataforma mudar o tempo todo a deixasse livre para rebaixar qualquer coisa. O segundo é ficar caçando cláusulas soltas no contrato, como se o serviço só pudesse ser controlado em pedaços de texto e nunca no jeito como ele funciona.
 
-O que se pede, no fim, são critérios já conhecidos. Informação que dê para entender de verdade, respeito à confiança, equivalência do que foi comprado, mudanças que deixem rastro, possibilidade real de desfazer o que foi feito e um mínimo de chance de contestar. Quando o desenho passa a funcionar contra esses critérios, o próprio serviço vira instrumento de exploração.
+O que se pede, no fim, são critérios já conhecidos. Informação que se entenda de verdade, respeito à confiança, equivalência do que foi comprado, mudanças que deixem rastro, possibilidade real de desfazer o que foi feito e um mínimo de chance de contestar. Quando o desenho passa a funcionar contra esses critérios, o próprio serviço vira instrumento de exploração.
 
 > O primeiro seria dissolver o problema na linguagem vaga da “inovação” ou da “natureza dinâmica” da plataforma, como se a contínua reorganização do ambiente bastasse para imunizar qualquer rebaixamento relevante da fruição. O segundo seria reduzir a resposta jurídica à caça atomizada de cláusulas isoladas, como se o fornecimento só pudesse ser controlado em seus fragmentos textuais e nunca em sua lógica operacional. (p. 664)
 > E esses critérios já foram preparados ao longo do percurso anterior: inteligibilidade material da informação, proteção da confiança, equivalência de valor funcional, auditabilidade aberta, possibilidade real de reversão e condições mínimas de contestação. (p. 664)

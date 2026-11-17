@@ -608,7 +608,7 @@ Quando você é punido, com suspensão temporária ou corte do chat, a sua nota 
 
 Quando a regra que vale é a que está rodando, a disputa deixa de ser só sobre o texto do contrato e passa a ser sobre quem governa o que é possível fazer ali dentro.
 
-Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele. Entre eles estão transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos que dê para conferir, um caminho real para contestar e a recomposição do que foi perdido.
+Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele. Entre eles estão transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos verificáveis, um caminho real para contestar e a recomposição do que foi perdido.
 
 > [...] uma vez que a regra implementada se torna o modo real de existência do objeto e, por consequência, o ponto em que o conflito deixa de ser disputa sobre cláusulas e passa a ser disputa sobre a governança que define o possível no ecossistema (p. 372)
 > Por isso, impõem-se parâmetros proporcionais de transparência qualificada, estabilidade mínima, motivação verificável, contestabilidade e recomposição. (p. 364)
@@ -989,7 +989,7 @@ Numa plataforma é assim por padrão. Quem controla o desenho, os critérios, os
 
 O que precisa ficar ao alcance é simples de dizer. O que mudou, quando mudou, por que mudou, que efeito a mudança teve e quais registros permitem reconstruir o caso.
 
-Não se pede o segredo da empresa nem o código do jogo. Pede-se um mínimo que dê para demonstrar, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa e se respeitou previsibilidade, proporção e chance de contestar. Num conflito, há instrumentos para chegar a esse mínimo, como ordens para guardar e mostrar registros, perícia em pontos delimitados e, conforme o caso, presunções contra ela.
+Não se pede o segredo da empresa nem o código do jogo. Pede-se um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa e se respeitou previsibilidade, proporção e chance de contestar. Num conflito, há instrumentos para chegar a esse mínimo, como ordens para guardar e mostrar registros, perícia em pontos delimitados e, conforme o caso, presunções contra ela.
 
 > Em outras palavras, a plataforma não pode pretender alterar o regime de fruição e, ao mesmo tempo, manter em sigilo absoluto o que de fato alterou, quando alterou, por que alterou, que efeitos relevantes a mudança produz e quais registros permitem reconstruir o episódio em caso de conflito (p. 636)
 > O standard não exige exposição do segredo industrial como fetiche purificador. Exige, isso sim, um mínimo demonstrável capaz de impedir que informação, boa-fé e transparência se convertam em performances vazias. (p. 636)
@@ -1486,7 +1486,7 @@ As métricas, as mensagens de incentivo, os alertas de qualidade, as promoções
 
 **Quando o cálculo do pagamento muda.** O mesmo trabalho passa a render menos, e os parâmetros que explicariam a diferença ficam escondidos.
 
-**Quando chega a restrição ou o bloqueio.** A conta é limitada ou desativada, e você não consegue ligar a punição a uma causa que dê para conferir.
+**Quando chega a restrição ou o bloqueio.** A conta é limitada ou desativada, e você não consegue ligar a punição a uma causa verificável.
 
 **Quando a conta continua ativa, mas vale menos.** O nome do programa e a aparência da parceria seguem iguais, mas o que justificava você estar ali foi esvaziado.
 
@@ -1546,7 +1546,7 @@ Sem esse mínimo, o aplicativo fica com dois poderes ao mesmo tempo. O de organi
 
 ### resposta O que pedir quando o aplicativo muda a regra?
 
-Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de um jeito que dê para conferir e que os critérios de punição sejam revistos. Cabe ainda pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.
+Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de modo verificável e que os critérios de punição sejam revistos. Cabe ainda pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.
 
 Nos casos mais graves, quando metas, punições e mudanças formam um plano estável para fazer você aceitar perdas e se comportar como o aplicativo quer, a própria finalidade do desenho pode entrar em discussão.
 
@@ -1559,7 +1559,7 @@ Responda para você mesmo.
 
 - Você depende do aplicativo para ter renda, e não só para um bico ocasional?
 - As chamadas, o pagamento, as métricas ou as regras mudaram sem explicação clara?
-- Você recebeu restrição, bloqueio ou perda de prioridade sem uma causa que dê para conferir?
+- Você recebeu restrição, bloqueio ou perda de prioridade sem uma causa verificável?
 - Você não consegue reconstruir o que aconteceu sem os registros do aplicativo?
 
 Quanto mais respostas sim, mais o seu caso se parece com o que a lei protege aqui. Isso não garante o resultado, mas mostra por onde começar.
@@ -1699,7 +1699,7 @@ No caso dos boatos, guarde também o que circulava, quando circulava, o que voc�
 
 ### deve O que a empresa deve garantir?
 
-O atendimento precisa servir para resolver, e não só para absorver a queixa. A empresa deve explicar de um jeito que dê para entender e conferir, e deve justificar as decisões que afetam você.
+O atendimento precisa servir para resolver, e não só para absorver a queixa. A empresa deve explicar de modo compreensível e verificável, e deve justificar as decisões que afetam você.
 
 Diante de boatos que já movem o gasto dos jogadores, a empresa não precisa confirmar cada especulação. Mas, quando é perguntada diretamente ou quando o boato se instala de forma persistente, pode caber o dever de esclarecer, de não se contradizer e de justificar. Nesse quadro, ficar calada pode deixar de ser uma escolha neutra e passar a ser falta de informação relevante.
 

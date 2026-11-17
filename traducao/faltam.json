@@ -612,6 +612,24 @@
 "pagina": "autores/ada-pellegrini-grinover/index.html"
 },
 {
+"k": "c5ad77e91d7d8419",
+"tipo": "html",
+"pt": "A palavra do botão não está ali por acaso. No português de todo dia, e também no Código Civil, comprar é trocar dinheiro por uma coisa que passa a ser sua. Quem compra espera que a coisa fique, que não desapareça sem motivo e que sirva para alguma coisa. Isso vale mesmo quando você sabe que o item é digital, porque a palavra desperta essa expectativa sozinha, como um atalho que a cabeça toma sem pensar.",
+"pagina": "caminho/a-compra/index.html"
+},
+{
+"k": "8b59ffe8151b8c9b",
+"tipo": "html",
+"pt": "Também não se trata de abrir o código do jogo nem de entregar os segredos da empresa. O que se pede é um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa. É transparência suficiente, e não total.",
+"pagina": "caminho/a-mudanca/index.html"
+},
+{
+"k": "ac9427e896248f2d",
+"tipo": "html",
+"pt": "Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz isso sem guardar o mínimo de registro para reconstituir o que aconteceu. É o caso do item que perde força numa atualização sem explicação verificável, ou da conta suspensa sem que se saiba com base em quê.",
+"pagina": "caminho/a-mudanca/index.html"
+},
+{
 "k": "422884227a68ec21",
 "tipo": "html",
 "pt": "O teste compara o papel do item, e não só se ele continua na conta",
@@ -664,6 +682,36 @@
 "tipo": "attr",
 "pt": "esquema · i3-antes-depois",
 "pagina": "caminho/a-mudanca/index.html"
+},
+{
+"k": "52fc3a24a84937d3",
+"tipo": "html",
+"pt": "O ranque não manda você jogar mais. É você que quer subir. Por trás do ranque visível existe um número secreto que mede você, e a empresa diz que o ranque serve justamente para traduzir esse número numa forma que se possa acompanhar. O que você vê é a posição, e o cálculo fica escondido.",
+"pagina": "caminho/as-regras/index.html"
+},
+{
+"k": "9c6401b7b456c978",
+"tipo": "html",
+"pt": "O que se pede é proporcional ao poder que a empresa exerce. Transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos verificáveis, um caminho real para contestar e a recomposição do que foi perdido.",
+"pagina": "caminho/as-regras/index.html"
+},
+{
+"k": "465e888d1af3d566",
+"tipo": "html",
+"pt": "A plataforma deve seguir procedimentos compreensíveis, dar um motivo que possa ser conferido, deixar que você conteste de forma razoável e não tratar você de forma arbitrária.",
+"pagina": "caminho/as-regras/index.html"
+},
+{
+"k": "992e11463c8ec29c",
+"tipo": "html",
+"pt": "A plataforma tem poder de punir, mas ter esse poder não basta. A punição precisa de motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.",
+"pagina": "caminho/as-regras/index.html"
+},
+{
+"k": "e619fdfe742d0ffa",
+"tipo": "html",
+"pt": "O que se pede, no fim, são critérios já conhecidos. Informação que se entenda de verdade, respeito à confiança, equivalência do que foi comprado, mudanças que deixem rastro, possibilidade real de desfazer o que foi feito e um mínimo de chance de contestar. Quando o desenho passa a funcionar contra esses critérios, o próprio serviço vira instrumento de exploração.",
+"pagina": "caminho/o-desenho/index.html"
 },
 {
 "k": "66ca8babc1e87636",
@@ -748,6 +796,12 @@
 "tipo": "attr",
 "pt": "esquema · i6-onde-reclamar",
 "pagina": "como-reclamar/index.html"
+},
+{
+"k": "2e44d65ac76c5075",
+"tipo": "html",
+"pt": "Não se pede o segredo da empresa nem o código do jogo. Pede-se um mínimo demonstrável, suficiente para ver se houve mudança relevante, ligá-la ao que foi prometido e conferir se ela teve justificativa e se respeitou previsibilidade, proporção e chance de contestar. Num conflito, há instrumentos para chegar a esse mínimo, como ordens para guardar e mostrar registros, perícia em pontos delimitados e, conforme o caso, presunções contra ela.",
+"pagina": "conceitos/auditabilidade-aberta/index.html"
 },
 {
 "k": "2e910375b525d92c",
@@ -988,6 +1042,12 @@
 "tipo": "attr",
 "pt": "esquema · c3-tres-leituras",
 "pagina": "conceitos/index.html"
+},
+{
+"k": "2c7aec0761bb63d8",
+"tipo": "html",
+"pt": "Isso muda o que se pode pedir. Se a plataforma exerce esse tipo de poder, ela precisa de limites proporcionais a ele. Entre eles estão transparência que sirva para alguma coisa, um mínimo de estabilidade, motivos verificáveis, um caminho real para contestar e a recomposição do que foi perdido.",
+"pagina": "conceitos/lex-plataformae/index.html"
 },
 {
 "k": "1f11596f875c67d7",
@@ -2160,6 +2220,12 @@
 "pagina": "objeto-e-instrumentos/index.html"
 },
 {
+"k": "609bfebdc32f5f71",
+"tipo": "html",
+"pt": "O atendimento precisa servir para resolver, e não só para absorver a queixa. A empresa deve explicar de modo compreensível e verificável, e deve justificar as decisões que afetam você.",
+"pagina": "plataformas/administracao-de-confianca/index.html"
+},
+{
 "k": "82f7ba3181422e85",
 "tipo": "html",
 "pt": "<a href=\"#cit-15\">Trecho já citado acima</a><a class=\"pg\" data-arq=\"âncora · leva ao trecho exato da tese\" href=\"../../tese/7-2-7/#p782\">p. 782</a>",
@@ -2274,6 +2340,24 @@
 "pagina": "plataformas/infraestrutura-e-intermediacao/index.html"
 },
 {
+"k": "3cfeb142d387eb5d",
+"tipo": "html",
+"pt": "<strong>Quando chega a restrição ou o bloqueio.</strong> A conta é limitada ou desativada, e você não consegue ligar a punição a uma causa verificável.",
+"pagina": "plataformas/produtividade-gig-economy/index.html"
+},
+{
+"k": "575c37f54274a5a8",
+"tipo": "html",
+"pt": "Quando a mudança esvazia o seu lugar no aplicativo, pode caber pedir que os registros sejam guardados e mostrados. Também pode caber pedir que as restrições sejam explicadas de modo verificável e que os critérios de punição sejam revistos. Cabe ainda pedir clareza sobre como as chamadas são distribuídas e a recomposição do que foi degradado.",
+"pagina": "plataformas/produtividade-gig-economy/index.html"
+},
+{
+"k": "2ae43529c379ac85",
+"tipo": "html",
+"pt": "Você recebeu restrição, bloqueio ou perda de prioridade sem uma causa verificável?",
+"pagina": "plataformas/produtividade-gig-economy/index.html"
+},
+{
 "k": "df515181e645e790",
 "tipo": "attr",
 "pt": "1. Parece que o aplicativo só paga por corrida, entrega ou tarefa. Mas o que ele fornece de verdade é o próprio lugar onde o seu trabalho se torna possível.",
@@ -2290,6 +2374,18 @@
 "tipo": "attr",
 "pt": "3. A pergunta é se o seu lugar no aplicativo continua valendo o mesmo que valia quando sustentava a sua expectativa de ganho e de continuar ali.",
 "pagina": "plataformas/produtividade-gig-economy/index.html"
+},
+{
+"k": "24318c1f414ecad6",
+"tipo": "html",
+"pt": "O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.",
+"pagina": "problemas/assistente/index.html"
+},
+{
+"k": "34d4f83eb6015606",
+"tipo": "html",
+"pt": "Se a mesma falta de clareza atinge todos os que usam o serviço, porque faz parte do jeito normal de ele funcionar, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria são os caminhos para isso.",
+"pagina": "problemas/assistente/index.html"
 },
 {
 "k": "e5e009ec81461bb6",
@@ -2316,6 +2412,36 @@
 "pagina": "problemas/assistente/index.html"
 },
 {
+"k": "122b6083fcd1e758",
+"tipo": "html",
+"pt": "Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou. A empresa pode punir, mas a punição precisa de um motivo verificável e de um caminho real de defesa.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "5b44f3d170a742a8",
+"tipo": "html",
+"pt": "O sinal de alerta aparece quando a punição chega sem um motivo compreensível ou quando o caminho para contestar não leva a lugar nenhum. Aparece também quando desfazer a medida é muito mais difícil do que foi aplicá-la.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "fbb2e0fd606a3a15",
+"tipo": "html",
+"pt": "Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "d2e3f3c6273a6fae",
+"tipo": "html",
+"pt": "Se a empresa não explica nem revê a punição, a reclamação pode sair dela e ir ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o trabalho de provar de acordo com quem tem acesso a eles.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "e689668db5b3ca47",
+"tipo": "html",
+"pt": "A empresa tem poder de punir, e ter esse poder não é o problema. O que se exige é que a punição tenha motivo verificável, coerência entre uma decisão e outra e um caminho compreensível para contestar.",
+"pagina": "problemas/conta-bloqueada/index.html"
+},
+{
 "k": "8a5a6de4d76ed3db",
 "tipo": "attr",
 "pt": "1. Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou.",
@@ -2332,6 +2458,18 @@
 "tipo": "attr",
 "pt": "3. Muitas vezes a conta continua ativa, mas fica menos visível, perde recompensas e tem o chat cortado, e isso também tira valor do que você comprou, porque continuar dentro em posição pior já é uma perda.",
 "pagina": "problemas/conta-bloqueada/index.html"
+},
+{
+"k": "5fa989673570a328",
+"tipo": "html",
+"pt": "Há também uma autoridade pública encarregada de fazer valer essas regras, a Agência Nacional de Proteção de Dados. O caso também pode ir ao Procon, ao Consumidor.gov.br ou ao Juizado.",
+"pagina": "problemas/crianca/index.html"
+},
+{
+"k": "decee17b9d0efdba",
+"tipo": "html",
+"pt": "Como o desenho do jogo é o mesmo para todas as crianças que jogam, um problema nele tende a ser coletivo. Nesse caso, a correção pode valer para todas elas, por ação coletiva ou pelos órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/crianca/index.html"
 },
 {
 "k": "3970ca2e4eece30d",
@@ -2358,6 +2496,12 @@
 "pagina": "problemas/crianca/index.html"
 },
 {
+"k": "1e4d4e5280fd33dd",
+"tipo": "html",
+"pt": "O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.",
+"pagina": "problemas/exclusivo-voltou/index.html"
+},
+{
 "k": "d6855acf1ac6bb4f",
 "tipo": "attr",
 "pt": "1. Você pagou mais porque o item era raro, de edição especial ou de última chance, e depois ele voltou à venda por menos, em outra loja ou em outra moeda.",
@@ -2374,6 +2518,18 @@
 "tipo": "attr",
 "pt": "3. Num item que os outros veem, o status, a raridade e o reconhecimento fazem parte do que você adquiriu.",
 "pagina": "problemas/exclusivo-voltou/index.html"
+},
+{
+"k": "243c0141094a4673",
+"tipo": "html",
+"pt": "O apagamento, a redefinição de progresso ou a punição que elimina a sua história precisa de um motivo verificável e de preservação mínima dos registros. Quando cabível, o pedido pode ser a restauração da posição que você tinha.",
+"pagina": "problemas/historia-perdida/index.html"
+},
+{
+"k": "c0f6ba6dc2ab3281",
+"tipo": "html",
+"pt": "Se a empresa não responde, o caso pode ser levado ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o peso da prova conforme quem tem acesso a eles.",
+"pagina": "problemas/historia-perdida/index.html"
 },
 {
 "k": "72ac90c2e9022bee",
@@ -2490,6 +2646,12 @@
 "pagina": "problemas/item-alterado/index.html"
 },
 {
+"k": "d1d3e44fe6b66546",
+"tipo": "html",
+"pt": "Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público.",
+"pagina": "problemas/item-alterado/index.html"
+},
+{
 "k": "597825ceb338ce74",
 "tipo": "attr",
 "pt": "1. O caso típico é o do item que segue no inventário, com o mesmo nome, mas ficou fraco demais.",
@@ -2514,6 +2676,12 @@
 "pagina": "problemas/item-alterado/index.html"
 },
 {
+"k": "d83675083afc4f9d",
+"tipo": "html",
+"pt": "O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir.",
+"pagina": "problemas/jogo-encerrado/index.html"
+},
+{
 "k": "460c75455a45d290",
 "tipo": "attr",
 "pt": "1. Ela pode encerrar o negócio, mas esse direito não inclui apagar tudo sem nenhum cuidado com quem estava lá dentro.",
@@ -2530,6 +2698,12 @@
 "tipo": "attr",
 "pt": "3. Vão junto fotos, históricos, bibliotecas, contatos, progresso, reputação e investimentos de anos, que não viram coisa sem valor só porque estão guardados na estrutura de outra empresa.",
 "pagina": "problemas/jogo-encerrado/index.html"
+},
+{
+"k": "8c47f937807dc2e1",
+"tipo": "html",
+"pt": "Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são os caminhos para isso.",
+"pagina": "problemas/loja-virtual/index.html"
 },
 {
 "k": "a1dc868c3b5b981e",
@@ -2550,6 +2724,12 @@
 "pagina": "problemas/loja-virtual/index.html"
 },
 {
+"k": "6b92aca5cbdda7b4",
+"tipo": "html",
+"pt": "Uma mudança na moeda atinge ao mesmo tempo todos os que têm saldo. Por isso é o tipo de caso que pode ir ao Procon, à Defensoria ou ao Ministério Público. Nesses casos a resposta pode mirar a regra inteira, e não só o seu saldo.",
+"pagina": "problemas/moeda/index.html"
+},
+{
 "k": "8ac82e700c6e8f6e",
 "tipo": "attr",
 "pt": "1. Você comprou moeda interna com dinheiro de verdade, como as moedas de um jogo ou os créditos de um aplicativo, e agora o mesmo item custa mais moedas.",
@@ -2566,6 +2746,18 @@
 "tipo": "attr",
 "pt": "3. Cada moeda funciona como um idioma próprio, e quem precisa traduzir tudo é você.",
 "pagina": "problemas/moeda/index.html"
+},
+{
+"k": "f8aec44ad4126164",
+"tipo": "html",
+"pt": "O ranking é a ordem em que a plataforma mostra ofertas ou pessoas. Alguns exemplos são uma política de punição sem clareza, mudanças que não deixam rastro e um ranking que decide tudo sem histórico utilizável. Também entram a tela que esconde o essencial no meio de informação demais e o atendimento que absorve a reclamação antes de ela virar conflito.",
+"pagina": "problemas/muita-gente/index.html"
+},
+{
+"k": "314427db8bebd99a",
+"tipo": "html",
+"pt": "A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo verificável nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking.",
+"pagina": "problemas/muita-gente/index.html"
 },
 {
 "k": "fe6a03dc7701bde5",
@@ -2586,6 +2778,12 @@
 "pagina": "problemas/muita-gente/index.html"
 },
 {
+"k": "a04e7ffdf0a6c015",
+"tipo": "html",
+"pt": "O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o Procon, o Consumidor.gov.br e o Juizado são os caminhos seguintes.",
+"pagina": "problemas/presente-retirado/index.html"
+},
+{
 "k": "de1dbaea90b7b239",
 "tipo": "attr",
 "pt": "1. Você recebeu um item de presente pela função oficial do jogo, e depois ele sumiu da sua conta porque houve fraude em algum ponto do caminho.",
@@ -2602,6 +2800,18 @@
 "tipo": "attr",
 "pt": "3. Conta muito saber se a função era oficial.",
 "pagina": "problemas/presente-retirado/index.html"
+},
+{
+"k": "1608c781e2ad2a41",
+"tipo": "html",
+"pt": "O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito comparável e no momento certo.",
+"pagina": "problemas/pressa/index.html"
+},
+{
+"k": "40ed2c872ab404f2",
+"tipo": "html",
+"pt": "Se ela não resolve, vale levar o caso ao Procon, ao Consumidor.gov.br ou ao Juizado. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela pede resposta para todos, seja por ação coletiva, seja pelos órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/pressa/index.html"
 },
 {
 "k": "d74e8e83e738881c",
@@ -2622,6 +2832,12 @@
 "pagina": "problemas/pressa/index.html"
 },
 {
+"k": "faaee70a205ef617",
+"tipo": "html",
+"pt": "Se ela não responder ou se o programa causar prejuízo ao seu equipamento, há o Procon, o Consumidor.gov.br e o Juizado.",
+"pagina": "problemas/programa-no-aparelho/index.html"
+},
+{
 "k": "74ca68eca0dbb44b",
 "tipo": "attr",
 "pt": "1. Combater trapaça é legítimo, mas a palavra segurança não encerra a discussão sobre até onde a empresa pode mandar na sua máquina.",
@@ -2638,6 +2854,12 @@
 "tipo": "attr",
 "pt": "3. A pergunta é se esse interesse basta para a empresa ganhar tanto poder sobre o seu equipamento sem um controle mais forte.",
 "pagina": "problemas/programa-no-aparelho/index.html"
+},
+{
+"k": "b9f956068d73eab8",
+"tipo": "html",
+"pt": "Se a empresa não corrige, a reclamação segue para fora dela, no Procon, no Consumidor.gov.br ou no Juizado. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/promessa/index.html"
 },
 {
 "k": "01f5c6986afe7ba2",
@@ -2658,6 +2880,12 @@
 "pagina": "problemas/promessa/index.html"
 },
 {
+"k": "e6333bd011487dbc",
+"tipo": "html",
+"pt": "As ferramentas mais fortes, como a ordem para mostrar documentos e a divisão diferente do trabalho de provar, funcionam dentro de um processo. Por isso, quando a prova está toda com a empresa, ajuda contar com um advogado ou com a Defensoria, e o Juizado também recebe esse tipo de causa.",
+"pagina": "problemas/prova/index.html"
+},
+{
 "k": "c31185802a780636",
 "tipo": "attr",
 "pt": "1. Por isso o trabalho de provar pode ser dividido de acordo com o acesso de cada um, sem dispensar você de contar com coerência o que viveu.",
@@ -2674,6 +2902,12 @@
 "tipo": "attr",
 "pt": "3. Quando tudo isso fica só com ela, quem controla o serviço passa a controlar também a prova.",
 "pagina": "problemas/prova/index.html"
+},
+{
+"k": "7bf627e0becd0b5d",
+"tipo": "html",
+"pt": "Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, ao Procon, ao Consumidor.gov.br ou ao Juizado. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.",
+"pagina": "problemas/reclamacao-some/index.html"
 },
 {
 "k": "3974be87aa94fa07",
@@ -2694,6 +2928,24 @@
 "pagina": "problemas/reclamacao-some/index.html"
 },
 {
+"k": "e39afdc04de5443e",
+"tipo": "html",
+"pt": "Se a punição não tiver um motivo verificável, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender.",
+"pagina": "problemas/rede-social/index.html"
+},
+{
+"k": "c347fa50750acdb0",
+"tipo": "html",
+"pt": "Quando a mesma política de punição atinge muitas contas sem explicação, a resposta pode ser coletiva e alcançar o sistema de punição inteiro. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria podem agir nesses casos.",
+"pagina": "problemas/rede-social/index.html"
+},
+{
+"k": "a72d8944f4d148ac",
+"tipo": "html",
+"pt": "A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.",
+"pagina": "problemas/rede-social/index.html"
+},
+{
 "k": "b51dc8973c6fdcb1",
 "tipo": "attr",
 "pt": "1. Numa rede social, o que você vê e quantas pessoas veem o que você publica, o chamado alcance, dependem de regras da própria plataforma.",
@@ -2710,6 +2962,12 @@
 "tipo": "attr",
 "pt": "3. O seu acesso, a sua permanência, a sua visibilidade e a sua chance de reclamar podem depender de punições que ninguém explica.",
 "pagina": "problemas/rede-social/index.html"
+},
+{
+"k": "65a174ca39d4ff4d",
+"tipo": "html",
+"pt": "Fora da empresa, o próximo passo é o Procon, o Consumidor.gov.br ou o Juizado. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/regras-escondidas/index.html"
 },
 {
 "k": "8c49a2e5caefeec5",
@@ -2730,6 +2988,18 @@
 "pagina": "problemas/regras-escondidas/index.html"
 },
 {
+"k": "918327dc8fe41831",
+"tipo": "html",
+"pt": "Se ela não responde, a reclamação pode ir ao Procon, ao Consumidor.gov.br ou ao Juizado. O custo de sair costuma ser o mesmo para todos os usuários. Por isso a resposta pode valer para todos, por ação coletiva ou pelos órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/sair/index.html"
+},
+{
+"k": "87e0ec234f14820a",
+"tipo": "html",
+"pt": "Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma demonstrável, o custo de ir embora.",
+"pagina": "problemas/sair/index.html"
+},
+{
 "k": "2d34f1cb757c0e4b",
 "tipo": "attr",
 "pt": "1. Você pensa em largar o jogo, a rede ou o serviço, mas sair significa perder o ranque, a reputação, o histórico e os laços que só existem lá dentro.",
@@ -2746,6 +3016,12 @@
 "tipo": "attr",
 "pt": "3. O sinal mais claro aparece quando a empresa muda as regras e você aceita só porque sair custaria mais.",
 "pagina": "problemas/sair/index.html"
+},
+{
+"k": "f2ed6bb2fa8952ca",
+"tipo": "html",
+"pt": "Quando a piora atinge todos os clientes ao mesmo tempo, ela é o tipo de problema que pode ir ao Procon, à Defensoria ou ao Ministério Público. Nesses casos a resposta pode corrigir o serviço para todo mundo, e não só reparar o seu caso.",
+"pagina": "problemas/servico-piorou/index.html"
 },
 {
 "k": "ac4aa1f756710ffc",
@@ -2784,6 +3060,12 @@
 "pagina": "problemas/so-licenca/index.html"
 },
 {
+"k": "78f564f49043d0fb",
+"tipo": "html",
+"pt": "Se ela não resolve, restam o Procon, o Consumidor.gov.br e o Juizado, cada um com o seu ritmo e o seu custo. Como o sorteio é o mesmo para todos, um problema no desenho dele tende a atingir muita gente, e a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.",
+"pagina": "problemas/sorteio/index.html"
+},
+{
 "k": "df5e4e51e75c235a",
 "tipo": "attr",
 "pt": "1. Esse é um dos pontos mais sensíveis do consumo nos jogos, porque quem decide as chances, a moeda, a raridade e os prazos é a própria empresa.",
@@ -2802,6 +3084,18 @@
 "pagina": "problemas/sorteio/index.html"
 },
 {
+"k": "414219e737ec3ac3",
+"tipo": "html",
+"pt": "O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.",
+"pagina": "problemas/trabalho-por-app/index.html"
+},
+{
+"k": "1703fa76760cac6d",
+"tipo": "html",
+"pt": "Quando a mesma mudança atinge todos os que trabalham no aplicativo, a resposta pode ser coletiva e pedir critérios mínimos de distribuição e de prioridade para todos. O Ministério Público e a Defensoria podem agir nesses casos.",
+"pagina": "problemas/trabalho-por-app/index.html"
+},
+{
 "k": "75428b20bdcb6905",
 "tipo": "attr",
 "pt": "1. Você trabalha com entregas ou corridas por aplicativo e, depois de uma mudança de regra que ninguém explicou, as chamadas diminuíram, o ganho caiu ou chegou uma restrição.",
@@ -2818,6 +3112,12 @@
 "tipo": "attr",
 "pt": "3. Mesmo assim, podem esvaziar de modo relevante o ganho que justificava ficar.",
 "pagina": "problemas/trabalho-por-app/index.html"
+},
+{
+"k": "4a15c33a29174773",
+"tipo": "html",
+"pt": "Quando a lei do consumidor alcança quem vende, ela vale sobretudo para as práticas comerciais da plataforma e para as cláusulas do contrato. Diante de uma punição, pesa ainda ter um motivo verificável e um caminho real de contestação.",
+"pagina": "problemas/vendo-na-plataforma/index.html"
 },
 {
 "k": "9c20a3d952bfdf7f",

@@ -14,7 +14,7 @@ Minha conta foi bloqueada ou banida. E o que eu comprei?
 
 ### abertura
 
-Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou. A empresa pode punir, mas a punição precisa de um motivo que dê para conferir e de um caminho real de defesa.
+Quando a conta é bloqueada ou banida, que é a expulsão definitiva, você perde também o acesso a tudo o que estava nela, inclusive o que comprou. A empresa pode punir, mas a punição precisa de um motivo verificável e de um caminho real de defesa.
 
 > Se a conta é encerrada, perde-se acesso não apenas ao “jogo”, mas ao conjunto de dados e conteúdos virtuais que estruturavam a experiência, além de se afirmar ausência de reembolso em hipóteses de justa causa (p. 375)
 > Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
@@ -25,7 +25,7 @@ A punição nem sempre é a expulsão. Muitas vezes a conta continua ativa, mas 
 
 > A punição relevante muitas vezes não é expulsar, mas rebaixar, porque continuar dentro, porém menos visível, menos elegível e menos reconhecível, equivale a degradar a posição de fruição e a corroer o valor que dependia de comensurabilidade e validação em circuito. (p. 373)
 
-O sinal de alerta aparece quando a punição chega sem um motivo que dê para entender ou quando o caminho para contestar não leva a lugar nenhum. Aparece também quando desfazer a medida é muito mais difícil do que foi aplicá-la.
+O sinal de alerta aparece quando a punição chega sem um motivo compreensível ou quando o caminho para contestar não leva a lugar nenhum. Aparece também quando desfazer a medida é muito mais difícil do que foi aplicá-la.
 
 > Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
 
@@ -49,7 +49,7 @@ O resto costuma ficar com a empresa, que guarda o tipo de punição aplicada, o 
 
 ### pedir O que dá para pedir quando a conta foi fechada sem explicação?
 
-Se a punição não tem motivo que dê para conferir nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.
+Se a punição não tem motivo verificável nem caminho razoável de contestação, o pedido pode ser que ela seja revista ou desfeita. Também cabe pedir que a empresa diga qual punição aplicou e por qual motivo, e que ofereça um caminho de contestação que funcione.
 
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 > Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada. (p. 660)
@@ -70,7 +70,7 @@ O primeiro caminho é o canal de contestação da própria empresa, porque ela d
 
 > O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição. (p. 746)
 
-Se a empresa não explica nem revê a punição, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o trabalho de provar de acordo com quem tem acesso a eles.
+Se a empresa não explica nem revê a punição, a reclamação pode sair dela e ir ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o trabalho de provar de acordo com quem tem acesso a eles.
 
 > Quando a prova nasce e permanece sob controle da plataforma, o sistema processual não pode fingir neutralidade. (p. 659)
 > O art. 373, § 1º, permite a distribuição diversa do ônus probatório quando houver excessiva dificuldade para uma parte cumprir o encargo ou maior facilidade da outra em produzir a prova do fato contrário (p. 659)
@@ -82,7 +82,7 @@ Quando muita gente é punida do mesmo jeito, a resposta pode ir além do seu cas
 
 ### limite Até onde vai a defesa de quem foi punido?
 
-A empresa tem poder de punir, e ter esse poder não é o problema. O que se exige é que a punição tenha motivo que dê para conferir, coerência entre uma decisão e outra e um caminho compreensível para contestar.
+A empresa tem poder de punir, e ter esse poder não é o problema. O que se exige é que a punição tenha motivo verificável, coerência entre uma decisão e outra e um caminho compreensível para contestar.
 
 > Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
 
@@ -167,7 +167,7 @@ O primeiro passo costuma ser a própria empresa. Continuar usando o serviço dep
 > Esse dever de comunicação qualificada também impede que a plataforma transforme silêncio, passividade ou mera permanência do consumidor no ambiente em aceitação ficta de mutações relevantes. (p. 658)
 > Em contratos cativos, o chamado “consenso” superveniente frequentemente não passa de adesão forçada ao novo estado de coisas, especialmente quando o consumidor já está investido na relação e depende do ecossistema para continuar fruindo aquilo que adquiriu. (p. 654-655)
 
-Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta.
+Se a empresa não responde, um advogado ou o Juizado podem ajudar a pedir coisas pontuais, como o histórico de versões daquele item. Também podem pedir uma perícia, que é o exame feito por um especialista, limitada ao que mudou. Quando a mesma atualização atingiu muita gente, o caso pode ir também ao Procon, à Defensoria ou ao Ministério Público.
 
 > Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada. (p. 660)
 > A consequência institucional inclui ordens de preservação e exibição de registros, perícia delimitada, presunções desfavoráveis ao fornecedor e controle da licitude da alteração ou sanção com base em inteligibilidade institucional mínima. (p. 745)
@@ -262,7 +262,7 @@ A reclamação começa pela própria empresa, e continuar pagando não quer dize
 
 > Esse dever de comunicação qualificada também impede que a plataforma transforme silêncio, passividade ou mera permanência do consumidor no ambiente em aceitação ficta de mutações relevantes. (p. 658)
 
-Quando a piora atinge todos os clientes ao mesmo tempo, ela é o tipo de problema que pode ir ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta. Nesses casos a resposta pode corrigir o serviço para todo mundo, e não só reparar o seu caso.
+Quando a piora atinge todos os clientes ao mesmo tempo, ela é o tipo de problema que pode ir ao Procon, à Defensoria ou ao Ministério Público. Nesses casos a resposta pode corrigir o serviço para todo mundo, e não só reparar o seu caso.
 
 > Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual. Ela pode assumir feição estrutural: dever de preservar trilhas mínimas, protocolizar comunicação qualificada para alterações relevantes, organizar procedimentos de contestação inteligíveis, manter relatórios mínimos de impacto funcional ou ajustar o regime de fornecimento para impedir repetição do problema. Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > A tutela coletiva se justifica quando a fonte lesiva permanece unitária, reiterável e incorporada ao funcionamento ordinário da plataforma. (p. 774)
@@ -357,7 +357,7 @@ Os termos de uso, que são o contrato aceito ao criar a conta, chamam o que voc�
 
 ### quem A quem levar o caso quando muita gente perdeu presentes ao mesmo tempo?
 
-O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha.
+O primeiro pedido vai à própria empresa, com o que você guardou sobre a origem dos itens. Se a resposta for só que os termos de uso permitem retirar o conteúdo, o Procon, o Consumidor.gov.br e o Juizado são os caminhos seguintes.
 
 > No caso dos presentes irregulares, isso significa que a Riot não poderia tratar a retirada de skins, a suspensão de funcionalidades e a imputação de débito ao destinatário de boa-fé como simples decorrência neutra de seus termos de uso. (p. 615-616)
 
@@ -455,7 +455,7 @@ O primeiro passo costuma ser perguntar à própria empresa, por escrito, como va
 
 > Em relações de consumo contínuas, não há direito de propriedade intelectual que sustente, por si só, a extinção integral da infraestrutura com consequente sacrifício integral dos OICs. (p. 796)
 
-O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir, e a página dos canais apresenta cada um.
+O encerramento atinge todos os usuários de uma vez. Por isso é o tipo de caso em que órgãos como o Procon, a Defensoria e o Ministério Público podem agir.
 
 > O sexto mecanismo é a atuação institucional coordenada. Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
 
@@ -635,7 +635,7 @@ O primeiro endereço costuma ser a própria empresa, com o anúncio e as telas n
 
 > O dever de fornecimento correspondente é o de assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada sob mutabilidade administrada. (p. 745)
 
-Se a empresa não corrige, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor.
+Se a empresa não corrige, a reclamação segue para fora dela, no Procon, no Consumidor.gov.br ou no Juizado. Quando o mesmo anúncio alcança muita gente, a resposta pode ir além do seu caso e mexer na própria comunicação, por ação coletiva ou pela atuação de órgãos públicos de defesa do consumidor.
 
 > Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual. (p. 662)
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
@@ -715,7 +715,7 @@ Também cabe pedir que a oferta seja corrigida e cumprida e que a comunicação 
 
 ### quem A quem levar a reclamação da exclusividade desfeita?
 
-O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br, que a página dos canais apresenta.
+O primeiro passo costuma ser a própria empresa, com a oferta original em mãos. A forma de anunciar pode ser tratada como publicidade enganosa por omissão, que é a propaganda que cala o que importava para decidir. O caso também cabe no Procon e no Consumidor.gov.br.
 
 > A escassez, aqui, pode operar como expediente de captação de consentimento sob inadequação informativa, com potencial enquadramento como publicidade enganosa por omissão e descumprimento da oferta, além de romper a equivalência entre dispêndio e utilidade entregue tal como legitimamente esperada. (p. 214)
 
@@ -810,7 +810,7 @@ O primeiro endereço é a própria empresa, pedindo as condições e as chances 
 
 > Em vez de requerer genericamente “todos os dados do sistema”, o consumidor pode postular, por exemplo, o histórico de versões relevantes de determinado item, a trilha de telas exibidas no percurso de compra, os registros mínimos da transação específica, o conteúdo da comunicação de alteração ou a categoria e o motivo da sanção aplicada. (p. 660)
 
-Se ela não resolve, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como o sorteio é o mesmo para todos, um problema no desenho dele tende a atingir muita gente, e a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.
+Se ela não resolve, restam o Procon, o Consumidor.gov.br e o Juizado, cada um com o seu ritmo e o seu custo. Como o sorteio é o mesmo para todos, um problema no desenho dele tende a atingir muita gente, e a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.
 
 > Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
@@ -896,7 +896,7 @@ O primeiro passo costuma ser a própria empresa. O contrato que diz que a moeda 
 
 > Sujeito à lei aplicável, quaisquer valores aplicáveis e outras cobranças por serviços baseados em valores (inclusive a Moeda do Jogo) são pagos antecipadamente e não são reembolsáveis, no todo ou em parte, exceto conforme expressamente previsto nestes Termos ou em nossa política de reembolsos ou a menos que seus direitos como consumidor lhe concedam direito a um reembolso. (p. 614)
 
-Uma mudança na moeda atinge ao mesmo tempo todos os que têm saldo. Por isso é o tipo de caso que pode ir ao Procon, à Defensoria ou ao Ministério Público, que a página dos canais apresenta. Nesses casos a resposta pode mirar a regra inteira, e não só o seu saldo.
+Uma mudança na moeda atinge ao mesmo tempo todos os que têm saldo. Por isso é o tipo de caso que pode ir ao Procon, à Defensoria ou ao Ministério Público. Nesses casos a resposta pode mirar a regra inteira, e não só o seu saldo.
 
 > Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual. Ela pode assumir feição estrutural: dever de preservar trilhas mínimas, protocolizar comunicação qualificada para alterações relevantes, organizar procedimentos de contestação inteligíveis, manter relatórios mínimos de impacto funcional ou ajustar o regime de fornecimento para impedir repetição do problema. Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > A tutela coletiva se justifica quando a fonte lesiva permanece unitária, reiterável e incorporada ao funcionamento ordinário da plataforma. (p. 774)
@@ -965,7 +965,7 @@ Em passes e eventos, servem as regras do evento, as metas com prazo, os anúncio
 
 ### pedir O que dá para pedir quando a compra foi empurrada pela pressa?
 
-O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito que dê para comparar e no momento certo.
+O pedido pode começar pela informação. Quando a loja usa intensidade e escassez para apressar a decisão, ela precisa mostrar o essencial ali, na hora da compra, em destaque, de um jeito comparável e no momento certo.
 
 > Não basta existir texto. É preciso que o conteúdo essencial seja apresentado de forma comparável, hierarquizada, ostensiva e tempestiva. Se a arquitetura promocional do ambiente cria intensidade e escassez para apressar a decisão, o dever de informar precisa funcionar como contrapeso dessa aceleração, e não como ritual burocrático consumado em documentos de fundo. (p. 633)
 
@@ -984,7 +984,7 @@ A própria empresa é o primeiro endereço, com as telas guardadas, para pedir a
 
 > O dever de fornecimento correspondente é o de assegurar correspondência entre promessa, valor anunciado, custos ocultados e experiência efetivamente disponibilizada sob mutabilidade administrada. (p. 745)
 
-Se ela não resolve, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela se presta à resposta coletiva, por ação coletiva ou por órgãos públicos de defesa do consumidor.
+Se ela não resolve, vale levar o caso ao Procon, ao Consumidor.gov.br ou ao Juizado. Como a pressa fabricada costuma ser rotina da loja, e não um caso só seu, ela pede resposta para todos, seja por ação coletiva, seja pelos órgãos públicos de defesa do consumidor.
 
 > Quando o litígio revela padrão reiterado de opacidade, reconfiguração abusiva ou supressão não verificável de valor funcional, a resposta não precisa se limitar ao caso individual. Ela pode assumir feição estrutural: dever de preservar trilhas mínimas, protocolizar comunicação qualificada para alterações relevantes, organizar procedimentos de contestação inteligíveis, manter relatórios mínimos de impacto funcional ou ajustar o regime de fornecimento para impedir repetição do problema. Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 
@@ -1072,7 +1072,7 @@ A reclamação à empresa pode pedir que ela mostre onde e quando a regra foi ap
 > O fornecedor não cumpre seu papel apenas jogando informação no ambiente; também precisa demonstrar, quando questionado, que informou adequadamente, que exerceu regularmente seu poder de alteração e que o impacto produzido foi compatível com a prestação prometida. (p. 660)
 > A centralidade da adequação verificável também impede que a defesa padrão do fornecedor se satisfaça com a alegação de que “tudo estava no contrato”. Essa fórmula confunde existência formal com cumprimento material do dever. (p. 723)
 
-Fora da empresa, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor.
+Fora da empresa, o próximo passo é o Procon, o Consumidor.gov.br ou o Juizado. Quando a mesma regra atinge todos os clientes, a correção pode vir para todos, pela atuação de órgãos públicos de defesa do consumidor.
 
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. Esses standards oferecem critério concreto para termos de ajustamento, recomendações, investigações civis e exigências mínimas de governança: relatórios de impacto funcional em alterações relevantes, protocolos de transparência verificável, preservação de registros essenciais, procedimentos de contestação compreensíveis e critérios mínimos de recomposição em caso de degradação relevante da fruição. (p. 662-663)
 
@@ -1165,7 +1165,7 @@ A empresa deve guardar e mostrar os registros mínimos do que aconteceu, e por i
 > O dever correspondente é o de preservar e exibir registros mínimos necessários à reconstrução do evento controvertido. (p. 747)
 > O fornecedor não cumpre seu papel apenas jogando informação no ambiente; também precisa demonstrar, quando questionado, que informou adequadamente, que exerceu regularmente seu poder de alteração e que o impacto produzido foi compatível com a prestação prometida. (p. 660)
 
-As ferramentas mais fortes, como a ordem para mostrar documentos e a divisão diferente do trabalho de provar, funcionam dentro de um processo. Por isso, quando a prova está toda com a empresa, ajuda contar com um advogado ou com a Defensoria, e o Juizado e os outros caminhos estão na página dos canais.
+As ferramentas mais fortes, como a ordem para mostrar documentos e a divisão diferente do trabalho de provar, funcionam dentro de um processo. Por isso, quando a prova está toda com a empresa, ajuda contar com um advogado ou com a Defensoria, e o Juizado também recebe esse tipo de causa.
 
 > No mesmo sentido, o regime de exibição de documento ou coisa previsto nos arts. 396 a 400 do CPC oferece a via mais direta para operacionalizar a auditabilidade aberta. (p. 659)
 
@@ -1245,7 +1245,7 @@ A reclamação original continua de pé. Se o problema era a conta, o item ou a 
 
 ### quem Para onde levar a reclamação quando o atendimento só dá voltas?
 
-Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.
+Quando a conversa com a empresa só gira, pode ser melhor levar a reclamação para fora dela, ao Procon, ao Consumidor.gov.br ou ao Juizado. Esperar que o próprio atendimento reconheça a perda pode deixar o problema sem resposta, já que a empresa também influencia o momento em que a perda fica visível.
 
 > A contestação pode ser adiada, desmobilizada ou dissolvida antes de ganhar forma institucional. (p. 782)
 > Em muitos ambientes, a plataforma não precisa impedir formalmente o conflito para reduzi-lo. Basta administrar o modo como ele é percebido. (p. 783)
@@ -1336,14 +1336,14 @@ O primeiro endereço é a própria empresa, que deve responder ao pedido dos seu
 
 > O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição. (p. 746)
 
-Se ela não responde, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Como o custo de sair costuma ser o mesmo para todos os usuários, a resposta também pode ser coletiva, por ação coletiva ou por órgãos públicos de defesa do consumidor.
+Se ela não responde, a reclamação pode ir ao Procon, ao Consumidor.gov.br ou ao Juizado. O custo de sair costuma ser o mesmo para todos os usuários. Por isso a resposta pode valer para todos, por ação coletiva ou pelos órgãos públicos de defesa do consumidor.
 
 > Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
 
 ### limite Até onde vai a proteção de quem quer sair?
 
-Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma que dê para mostrar, o custo de ir embora.
+Nem toda relação intensa com um jogo é um problema, e manter clientes com desafios e recompensas não é ilegal por si. O que conta é quando isso eleva, de forma demonstrável, o custo de ir embora.
 
 > O interesse jurídico aqui não é patologizar toda relação intensa com o jogo, mas reconhecer que a dinâmica de retenção e recompensa pode funcionar como mecanismo objetivo de elevação do custo de saída e de ampliação da dependência da continuidade do vínculo (Azevedo; Torres, 2023, p. 20; p. 21; p. 23-24). (p. 673)
 
@@ -1407,7 +1407,7 @@ A primeira resposta buscada é restaurar o que foi apagado, quando isso for poss
 > Quando a relação de consumo frustra expectativas legítimas quanto à adequação, utilidade, segurança ou qualidade da prestação, o sistema consumerista não se orienta automaticamente à monetização residual da perda. Busca, em primeiro plano, recompor materialmente a posição do consumidor, satisfazer seus interesses e evitar danos maiores, inclusive em dimensão não patrimonial (Marques, 2016, p. 1383; p. 856). Daí a importância do art. 35 do CDC, que permite exigir cumprimento forçado da obrigação, aceitar prestação equivalente ou rescindir o contrato com perdas e danos, e do art. 84 [...] que consagra tutela específica da obrigação e resultado prático equivalente ao adimplemento. (p. 539-540)
 > Primeiro se tenta restaurar a posição de fruição; só depois se considera uma alternativa para reparação. (p. 540)
 
-O apagamento, a redefinição de progresso ou a punição que elimina a sua história precisa de um motivo que dê para conferir e de preservação mínima dos registros. Quando cabível, o pedido pode ser a restauração da posição que você tinha.
+O apagamento, a redefinição de progresso ou a punição que elimina a sua história precisa de um motivo verificável e de preservação mínima dos registros. Quando cabível, o pedido pode ser a restauração da posição que você tinha.
 
 > A consequência não é autoralizar o consumidor, mas reconhecer que apagamentos, resets, exclusões de inventário, supressões de histórico e sanções que eliminem a biografia construída no ambiente exigem motivação verificável, preservação mínima de registros e, quando cabível, recomposição por restauração da posição de fruição. (p. 543)
 
@@ -1421,7 +1421,7 @@ O primeiro endereço é a própria empresa, que administra a conta e os registro
 
 > A consequência institucional dessa leitura recai sobre a própria governança da plataforma. Se ela administra acesso, permanência, visibilidade, sanções e trilhas de participação, então também administra inclusão e exclusão no espaço social digital. Daí decorre a necessidade de parâmetros mínimos de devido processo privado: motivação verificável, coerência decisória, previsibilidade procedimental e vias inteligíveis de contestação. Essa exigência não deriva de benevolência da empresa, mas da relevância pública dos efeitos produzidos por sua governança sobre memória, reputação, continuidade de trajetória e posição simbólica do consumidor. A administração da biografia digital alheia não pode operar como caixa-preta soberana. (p. 541-542)
 
-Se a empresa não responde, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o peso da prova conforme quem tem acesso a eles.
+Se a empresa não responde, o caso pode ser levado ao Procon, ao Consumidor.gov.br ou ao Juizado. Num processo, o juiz pode mandar a empresa mostrar os registros e dividir o peso da prova conforme quem tem acesso a eles.
 
 > O terceiro mecanismo é propriamente processual: preservação de evidências, exibição de documentos e redistribuição dinâmica do ônus da prova. Quando a prova nasce e permanece sob controle da plataforma, o sistema processual não pode fingir neutralidade. (p. 659)
 
@@ -1522,7 +1522,7 @@ O primeiro pedido de informação vai à própria empresa, que deve dizer de for
 
 > O tratamento de dados vinculado ao Vanguard não pode ser justificado em bloco pela rubrica genérica de “segurança”, porque precisa observar finalidade legítima, específica, explícita e informada, necessidade, com limitação ao mínimo indispensável, e transparência, com informações claras, precisas e acessíveis. Também exige base legal adequada, não se satisfaz automaticamente com aceites ritualizados e genéricos, e pressupõe medidas técnicas e administrativas aptas à proteção efetiva dos dados. Em outras palavras, a plataforma não pode invocar segurança como justificativa totalizante enquanto mantém opacidade sobre alcance, necessidade e agentes do tratamento. Segurança alegada não substitui segurança juridicamente demonstrada. (p. 533)
 
-Se ela não responder ou se o programa causar prejuízo ao seu equipamento, o caso pode seguir pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha.
+Se ela não responder ou se o programa causar prejuízo ao seu equipamento, há o Procon, o Consumidor.gov.br e o Juizado.
 
 > Há ainda fontes que sistematizam o caso já sob lente de direitos do consumidor e de percepção pública de risco, associando o Vanguard a presença técnica persistente, ausência de alternativa real de recusa, ampliação do controle sobre a máquina e funcionamento contínuo fora do momento estrito de jogo. O ponto é importante porque mostra que a disputa não é apenas técnica nem apenas cultural. Ela já é percebida como problema de direitos do consumidor, precisamente porque a fruição do OIC passa a ser condicionada a uma subordinação material do equipamento do usuário a critérios privados de segurança e compatibilidade. (p. 531)
 
@@ -1614,11 +1614,11 @@ O primeiro endereço é a própria empresa. Quem fornece esses serviços no Bras
 
 > O estatuto impõe deveres concretos de retirada de conteúdo violador de direitos e exige representante legal no país com poderes para receber citações, enquanto o decreto regulamentador designa autoridade administrativa, prevê ordens de bloqueio e aciona inclusive a camada infraestrutural técnica do ambiente digital por meio de articulação com Anatel e CGI.br. (p. 547)
 
-Há também uma autoridade pública encarregada de fazer valer essas regras, a Agência Nacional de Proteção de Dados. O caso pode seguir ainda pelo Procon, pelo Consumidor.gov.br ou pelo Juizado, caminhos que a página dos canais detalha.
+Há também uma autoridade pública encarregada de fazer valer essas regras, a Agência Nacional de Proteção de Dados. O caso também pode ir ao Procon, ao Consumidor.gov.br ou ao Juizado.
 
 > “Art. 1º Este Decreto [...] designa a Agência Nacional de Proteção de Dados - ANPD como autoridade administrativa autônoma [...]. (p. 547)
 
-Como o desenho do jogo é o mesmo para todas as crianças que jogam, um problema nele tende a ser coletivo. Nesse caso, a resposta pode vir por ação coletiva ou por órgãos públicos de defesa do consumidor.
+Como o desenho do jogo é o mesmo para todas as crianças que jogam, um problema nele tende a ser coletivo. Nesse caso, a correção pode valer para todas elas, por ação coletiva ou pelos órgãos públicos de defesa do consumidor.
 
 > Isso é especialmente importante em plataformas, onde a ilicitude costuma vir em lote, não em peça única. (p. 662)
 > Sem abrir frente regulatória paralela, a subseção mostra que auditabilidade aberta e equivalência funcional também podem orientar a ação de órgãos de tutela em mercados de plataforma. (p. 662)
@@ -1690,7 +1690,7 @@ Parte do histórico e dos registros fica só com a empresa. Por isso a sua prote
 
 ### pedir O que dá para pedir além de uma resposta certa?
 
-O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é que dê para ligar o que foi prometido ao efeito que você sofreu.
+O pedido pode incluir, conforme o caso, acesso ao histórico da conversa e aos registros mínimos dela. Também pode incluir uma explicação suficiente dos limites que importam e clareza sobre as mudanças no jeito de usar o serviço. O objetivo é poder ligar o que foi prometido ao efeito que você sofreu.
 
 > Trata-se de reconhecer que, em serviços cuja utilidade consiste em orientar cognitivamente o usuário, deve haver verificabilidade institucional mínima sobre aspectos relevantes da prestação. Isso inclui, conforme o caso, preservação de histórico acessível, rastros mínimos de interação, explicitação suficiente de limites materialmente relevantes, inteligibilidade sobre alterações de regime de uso e possibilidade de reconstruir o nexo entre promessa funcional do serviço e impacto produzido na experiência do usuário. (p. 759)
 
@@ -1705,7 +1705,7 @@ O primeiro caminho costuma ser a própria empresa, com o pedido do histórico e 
 
 > Quem controla o serviço controla, em larga medida, os registros decisivos da relação. Logs, históricos de versão, transações, parâmetros de interface, comunicações de mudança e documentação técnica relevante tendem a permanecer em poder do fornecedor. Por isso, a operacionalização da categoria precisa vir acompanhada de pedidos de preservação e exibição de documentação mínima do fornecimento. (p. 608)
 
-Se a mesma falta de clareza atinge todos os que usam o serviço, porque faz parte do jeito normal de ele funcionar, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria são caminhos que a página dos canais detalha.
+Se a mesma falta de clareza atinge todos os que usam o serviço, porque faz parte do jeito normal de ele funcionar, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria são os caminhos para isso.
 
 > A tutela coletiva se justifica quando a fonte lesiva permanece unitária, reiterável e incorporada ao funcionamento ordinário da plataforma. (p. 774)
 
@@ -1789,7 +1789,7 @@ O primeiro passo costuma ser a própria loja, por escrito e com as telas salvas.
 
 > Há, nesse subtipo, pontos de cegueira recorrentes que precisam ser evitados. O primeiro é a tendência de tratar a interface como mero suporte visual, e não como parte constitutiva do fornecimento. O segundo é a tendência de imaginar que a plataforma só responderia juridicamente pelo que dissesse expressamente em cláusula ou publicidade, como se a governança efetiva da visibilidade fosse juridicamente irrelevante. O terceiro é a tendência de reduzir o litígio ao ato terminal, como a compra frustrada, a remoção de um conteúdo ou a suposta preferência por determinada oferta, sem investigar a estrutura privada de saliência que condicionou a experiência inteira do usuário. (p. 763)
 
-Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são caminhos que a página dos canais apresenta.
+Quando o mesmo critério pouco claro de ordem ou de reputação atinge todo mundo que compra ali, a resposta pode ser coletiva. O Procon, o Consumidor.gov.br e o Ministério Público são os caminhos para isso.
 
 > Uma política opaca de sanções, um regime não auditável de alteração funcional, uma lógica de interface que dilui o essencial sob excesso informacional, um sistema de ranqueamento materialmente decisivo sem histórico aproveitável ou uma arquitetura de confiança que absorve e neutraliza contestação antes que ela se torne litígio são todos exemplos de problemas cuja unidade está no desenho, não no episódio. (p. 775)
 
@@ -1858,7 +1858,7 @@ O que mais pesa, porém, é o jeito como o feed, a recomendação e a reputaçã
 
 ### pedir O que dá para pedir à rede depois da punição ou da queda?
 
-Se a punição não tiver um motivo que dê para conferir, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender.
+Se a punição não tiver um motivo verificável, nem um caminho razoável de contestação, pode caber a revisão ou a reversão dela. O pedido também pode incluir que a rede crie ou melhore um caminho real para você se defender.
 
 > A consequência institucional inclui reversão ou revisão de sanções, deveres procedimentais, criação ou aperfeiçoamento de mecanismos de contestação e, em casos estruturalmente repetitivos, correção do regime de enforcement do ecossistema. (p. 746)
 
@@ -1873,13 +1873,13 @@ O primeiro caminho costuma ser o canal de contestação da própria rede, por es
 > A perda deixa de aparecer como evento excepcional e passa a ser metabolizada como parte do normal funcionamento do sistema. O mesmo ocorre com o atrito. Em vez de desencadear prontamente uma leitura de inadequação ou abusividade, ele pode ser reconfigurado pela plataforma como ajuste técnico, limitação temporária, inconveniente compreensível, medida de segurança, atualização necessária ou simples etapa do uso. (p. 781)
 > A plataforma pode, por exemplo, oferecer sensação de transparência sem entregar inteligibilidade real, produzir impressão de escuta sem abrir vias efetivas de contestação, mobilizar tom humano sem assumir deveres proporcionais de motivação ou justificação e distribuir signos de cuidado que funcionam menos como informação adequada e mais como amortecimento semiótico da crítica. (p. 782)
 
-Quando a mesma política de punição atinge muitas contas sem explicação, a resposta pode ser coletiva e alcançar o sistema de punição inteiro. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria aparecem na página dos canais.
+Quando a mesma política de punição atinge muitas contas sem explicação, a resposta pode ser coletiva e alcançar o sistema de punição inteiro. O Procon, o Consumidor.gov.br, o Ministério Público e a Defensoria podem agir nesses casos.
 
 > Uma política opaca de sanções, um regime não auditável de alteração funcional, uma lógica de interface que dilui o essencial sob excesso informacional, um sistema de ranqueamento materialmente decisivo sem histórico aproveitável ou uma arquitetura de confiança que absorve e neutraliza contestação antes que ela se torne litígio são todos exemplos de problemas cuja unidade está no desenho, não no episódio. (p. 775)
 
 ### limite Quando a rede pode punir ou mudar o alcance sem que isso vire direito seu?
 
-A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo que dê para conferir, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.
+A rede tem poder de punir e de organizar o que aparece, mas esse poder sozinho não basta. Ela precisa de um motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.
 
 > Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
 
@@ -1941,7 +1941,7 @@ A queda de ganho nem sempre é risco normal da atividade, porque pode vir de uma
 
 ### pedir O que dá para pedir quando o aplicativo muda a regra?
 
-O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de um jeito que dê para conferir e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
+O pedido pode incluir que o aplicativo conserve e mostre os registros mínimos, explique as restrições de modo verificável e reveja os critérios usados para restringir. Também pode incluir clareza sobre o que define a distribuição das chamadas e a reposição do que a mudança piorou.
 
 > A resposta institucional mais adequada tenderá a privilegiar preservação e exibição de registros mínimos, deveres de motivação verificável, revisão de critérios de restrição, inteligibilidade sobre parâmetros relevantes de distribuição de oportunidades e recomposição funcional do regime sempre que a plataforma houver degradado, por desenho, a utilidade produtiva que oferecia como infraestrutura. (p. 768)
 
@@ -1960,7 +1960,7 @@ Se o aplicativo disser que você não tem proteção porque é parceiro e ganha 
 > O parceiro que utiliza a infraestrutura para produzir renda não deixa de ser vulnerável apenas porque aufere receita. (p. 778)
 > O CDC pode incidir não apenas onde houver aquisição final clássica, mas também onde a plataforma produzir sujeição funcional relevante a ambiente privado de governança que administre, de forma concentrada, acesso, permanência, visibilidade, verificabilidade e contestação. (p. 779-780)
 
-Quando a mesma mudança atinge todos os que trabalham no aplicativo, a resposta pode ser coletiva e pedir critérios mínimos de distribuição e de prioridade para todos. O Ministério Público, a Defensoria e os demais caminhos aparecem na página dos canais.
+Quando a mesma mudança atinge todos os que trabalham no aplicativo, a resposta pode ser coletiva e pedir critérios mínimos de distribuição e de prioridade para todos. O Ministério Público e a Defensoria podem agir nesses casos.
 
 > A tutela coletiva mostra-se, então, particularmente vocacionada a impor medidas inibitórias, procedimentais e analíticas aptas a reintroduzir verificabilidade institucional no ambiente. Isso pode envolver deveres de preservação de registros mínimos, exigência de motivação verificável para sanções materialmente relevantes, manutenção de histórico acessível de alterações relevantes, explicitação de critérios operacionais mínimos de distribuição, prioridade ou ranqueamento, e outras providências que não se dirigem apenas a reparar danos pretéritos, mas a reorganizar as condições futuras de controlabilidade da fruição. (p. 775)
 
@@ -2037,7 +2037,7 @@ O pedido pode incluir clareza mínima sobre os critérios que decidem a ordem da
 
 > Sempre que a plataforma, ao organizar a fruição, passar também a organizar de maneira opaca e assimétrica as condições perceptíveis de competição no interior do ecossistema, deverá haver exigência de controlabilidade compatível com a dupla dimensão do problema. Isso significa, no mínimo, auditabilidade mínima sobre critérios relevantes de hierarquização, inteligibilidade sobre práticas de destaque e preferenciamento, controle de alterações que deformem a equivalência funcional da permanência concorrencial e leitura não ingênua do uso de dados obtidos pela própria posição de intermediação. (p. 773)
 
-Quando a lei do consumidor alcança quem vende, ela vale sobretudo para as práticas comerciais da plataforma e para as cláusulas do contrato. Diante de uma punição, pesa ainda ter um motivo que dê para conferir e um caminho real de contestação.
+Quando a lei do consumidor alcança quem vende, ela vale sobretudo para as práticas comerciais da plataforma e para as cláusulas do contrato. Diante de uma punição, pesa ainda ter um motivo verificável e um caminho real de contestação.
 
 > [...] a Corte descreve o art. 29 como portador de um conceito próprio e amplíssimo de consumidor por equiparação, especialmente voltado aos capítulos das práticas comerciais e da proteção contratual (p. 779)
 > Em ecossistemas de plataforma, sanções não operam apenas como resposta disciplinar pontual a uma conduta atribuída ao usuário. Elas podem afetar acesso, permanência, visibilidade, reputação, inserção relacional e continuidade da fruição. Por isso, devem ser controladas por critérios mais densos do que a simples existência formal de poder sancionatório. Exigem motivação verificável, coerência decisória e vias inteligíveis de contestação. (p. 749)
@@ -2100,7 +2100,7 @@ O sinal é uma origem única, que se repete e faz parte do jeito normal de o ser
 > A tutela coletiva se justifica quando a fonte lesiva permanece unitária, reiterável e incorporada ao funcionamento ordinário da plataforma. (p. 774)
 > A tipologia revela justamente que certos danos são programáticos. Não porque todos os casos sejam iguais, mas porque a fonte de sua produção permanece estruturalmente a mesma. (p. 776)
 
-O ranking é a ordem em que a plataforma mostra ofertas ou pessoas. Alguns exemplos são uma política de punição sem clareza, mudanças que não deixam rastro e um ranking que decide tudo sem histórico que dê para usar. Também entram a tela que esconde o essencial no meio de informação demais e o atendimento que absorve a reclamação antes de ela virar conflito.
+O ranking é a ordem em que a plataforma mostra ofertas ou pessoas. Alguns exemplos são uma política de punição sem clareza, mudanças que não deixam rastro e um ranking que decide tudo sem histórico utilizável. Também entram a tela que esconde o essencial no meio de informação demais e o atendimento que absorve a reclamação antes de ela virar conflito.
 
 > Uma política opaca de sanções, um regime não auditável de alteração funcional, uma lógica de interface que dilui o essencial sob excesso informacional, um sistema de ranqueamento materialmente decisivo sem histórico aproveitável ou uma arquitetura de confiança que absorve e neutraliza contestação antes que ela se torne litígio são todos exemplos de problemas cuja unidade está no desenho, não no episódio. (p. 775)
 
@@ -2122,7 +2122,7 @@ Os relatos de outros usuários não são a prova principal de um problema. Mesmo
 
 ### pedir O que uma resposta coletiva pode pedir que um caso sozinho não alcança?
 
-A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo que dê para conferir nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking.
+A resposta coletiva pode pedir medidas que impeçam a perda de continuar e que tornem o serviço conferível dali em diante. Entram aí guardar registros mínimos, dar um motivo verificável nas punições relevantes, manter um histórico acessível das mudanças e explicar os critérios mínimos de distribuição, de prioridade e de ranking.
 
 > A tutela coletiva mostra-se, então, particularmente vocacionada a impor medidas inibitórias, procedimentais e analíticas aptas a reintroduzir verificabilidade institucional no ambiente. Isso pode envolver deveres de preservação de registros mínimos, exigência de motivação verificável para sanções materialmente relevantes, manutenção de histórico acessível de alterações relevantes, explicitação de critérios operacionais mínimos de distribuição, prioridade ou ranqueamento, e outras providências que não se dirigem apenas a reparar danos pretéritos, mas a reorganizar as condições futuras de controlabilidade da fruição. (p. 775)
 

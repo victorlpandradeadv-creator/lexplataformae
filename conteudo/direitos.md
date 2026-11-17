@@ -198,7 +198,7 @@ Mudança relevante precisa deixar rastro
 
 ### quando
 
-Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz isso sem guardar o mínimo de registro para que dê para reconstituir o que aconteceu. É o caso do item que perde força numa atualização sem explicação que dê para conferir, ou da conta suspensa sem que se saiba com base em quê.
+Quando a plataforma muda algo importante no seu acesso, no desempenho do item, na utilidade dele ou nas regras do jogo, ou quando aplica uma punição. E faz isso sem guardar o mínimo de registro para reconstituir o que aconteceu. É o caso do item que perde força numa atualização sem explicação verificável, ou da conta suspensa sem que se saiba com base em quê.
 
 ### deve
 
@@ -295,7 +295,7 @@ Quando o seu acesso, a sua permanência, a sua visibilidade ou a sua chance de r
 
 ### deve
 
-A plataforma deve seguir procedimentos que dê para entender, dar um motivo que possa ser conferido, deixar que você conteste de forma razoável e não tratar você de forma arbitrária.
+A plataforma deve seguir procedimentos compreensíveis, dar um motivo que possa ser conferido, deixar que você conteste de forma razoável e não tratar você de forma arbitrária.
 
 ### mostrar
 
@@ -307,7 +307,7 @@ Se a punição não tiver motivo verificável ou um caminho razoável de contest
 
 ### limite
 
-A plataforma tem poder de punir, mas ter esse poder não basta. A punição precisa de motivo que dê para conferir, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.
+A plataforma tem poder de punir, mas ter esse poder não basta. A punição precisa de motivo verificável, de coerência entre uma decisão e outra e de um caminho compreensível de contestação.
 
 > Sempre que acesso, permanência, visibilidade ou contestação forem condicionados por sanções opacas, fricções seletivas, custos de reação excessivos ou mecanismos assimétricos de reversão, haverá indício de governança abusiva do vínculo. (p. 746)
 > O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição. (p. 746)
