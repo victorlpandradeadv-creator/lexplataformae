@@ -156,7 +156,7 @@ Vale a direção de arte de `estrutura/ilustracoes.md`, com cinco acréscimos.
 2. **Telas sem texto.** Quando a cena precisa de uma tela de celular, o conteúdo dela é desenhado com sinais visuais, como cadeado, ampulheta, relógio, seta, carrinho, presente, estrela ou lixeira. Nenhuma letra ou número. Linhas cinza fazem as vezes de texto.
 3. **Gente comum.** Idades, corpos e trabalhos variados, sem rosto detalhado e sem pessoa real. Uma mesma pessoa pode reaparecer na mesma página, mas não há personagem fixo no site.
 4. **A armadura só onde a skin é o assunto.** Nos direitos e nos problemas de jogo, o objeto em jogo é a armadura canônica de `estrutura/referencias-visuais/armadura.webp`, pequena, na tela do celular ou no inventário. Nos problemas de outras plataformas, o objeto azul é o do próprio caso, como a comunidade, o pedido, a loja ou a conversa.
-5. **Formatos.** Abertura de problema e de história, 16 x 9, 1600 por 900. Direito, 4 x 3, 1200 por 900, posto no alto da página como figura comum, e não como vinheta. Porta da capa, 1 x 1, 640 por 640, com o desenho ocupando o quadro inteiro, sem vão. Até 250 KB. Versão escura gerada pelo `ferramentas/negativo.py` e ajustada pelo filtro do negativo parcial, salvo decisão diferente do autor.
+5. **Formatos.** Abertura de problema e de história, 16 x 9, 1600 por 900. Direito, 4 x 3, 1200 por 900, posto no alto da página como figura comum, e não como vinheta. Porta da capa, 4 x 3, 1200 por 900, na largura do cartão. Até 250 KB. Versão escura gerada pelo `ferramentas/negativo.py` e ajustada pelo filtro do negativo parcial, salvo decisão diferente do autor.
 
 ### 4.2 Modelo de encomenda
 
@@ -260,18 +260,65 @@ Lugar. Alto de `direitos/<letra>/`, logo depois do título, por `figura("direito
 - **Alt.** Mãos de restaurador encaixam as peças da armadura de volta, guiadas pelo desenho dela inteira.
 - **Legenda.** Responder é pôr de volta o que foi tirado.
 
-### 4.4 Portas da capa, seis peças 1 x 1
+### 4.4 Capa da Informação, seis portas
 
-Lugar. Cartões das portas na capa da Informação. A peça ocupa o quadro do cartão inteiro, sem vão.
+**O que há na capa hoje.** Lido em 17/11/2026, nos três modos.
+- Seis vinhetas geométricas, uma em cada cartão de Comece pelo que aconteceu (`porta-acesso`, `porta-mudou`, `porta-empurrado`, `porta-sair`, `porta-decide`, `porta-comum`), postas por `vinheta()`. São a primeira imagem que o leitor vê depois do título, e nenhuma se lê. Saem na Fase 1 (2.3) e voltam aqui, refeitas.
+- A armadura suspensa (`inicio.webp`), que fica, pelo 2.0.
+- O mapa Qual destas é a sua história?, que é diagrama de navegação feito pelo gerador, e não ilustração. Fica fora desta revisão.
+- Os quatro passos de Como a perda acontece e o convite ao jurista não têm imagem, e continuam sem.
 
-- **porta-acesso. Perdi o acesso.** Mão segurando um celular cuja tela é uma porta fechada com cadeado. Azul na armadura vista pela fresta da porta.
-- **porta-mudou. O que comprei mudou.** A armadura de frente para um espelho que a devolve diferente. Azul nas duas.
-- **porta-empurrado. Fui empurrado a pagar.** Uma pessoa sobre uma esteira rolante que leva a um caixa, com as mãos nos bolsos. Azul na moeda que ela segura.
-- **porta-sair. Quero sair e levar o que é meu.** Uma pessoa na porta de saída com uma caixa de mudança nos braços. Da caixa, fios presos ao batente puxam de volta. Azul no conteúdo da caixa.
-- **porta-decide. A plataforma decide sobre mim sem explicar.** Uma pessoa pequena diante de uma janela de guichê opaca. Da janela sai só um carimbo. Azul no papel carimbado nas mãos da pessoa.
-- **porta-comum. Provar e reclamar.** Uma pessoa organiza prints num envelope. Azul no envelope.
+**Lugar e formato.** Alto de cada cartão, ocupando a largura inteira do cartão, em 4 x 3, 1200 por 900. Sai o glifo pequeno no canto. No celular, o cartão vira coluna e a imagem continua na largura toda. As seis peças devem ter a mesma altura e o mesmo enquadramento, porque os cartões estão lado a lado (regra de 12/11/2026, cartões na mesma linha seguem o mesmo contrato).
 
-Âncoras. As mesmas das portas em `conteudo/camada-externa.md`, campo inicio, e, para a porta de sair, o custo de saída das p. 169, 217, 249, 486 e 709.
+**Regra própria das portas.** A capa da Informação é universal desde 17/11/2026, por crítica do autor. As portas não podem falar só de jogo. A armadura não aparece aqui. Cada porta mostra um objeto do dia a dia digital, e o conjunto das seis deve variar entre jogo, rede social, compra online, aplicativo de trabalho e assistente, para que qualquer leitor se ache em ao menos uma.
+
+**Texto alternativo.** A imagem é decorativa dentro de um cartão que já tem título e frase, e por isso continua com `alt` vazio no site. O campo `alt` do plano fica preenchido para a encomenda e para a Ciência.
+
+**porta-acesso. Perdi o acesso.**
+- **Falha atual.** Um traço, uma barra vertical e um quadrado azul. Ninguém lê porta trancada.
+- **Âncora.** p. 155, a perda da conta, dos dados e do conteúdo virtual com o encerramento.
+- **Cena.** Uma pessoa diante da porta de vidro de um prédio, à noite, com a chave na mão. A chave não entra, porque a fechadura foi trocada por uma tampa lisa. Através do vidro, na sala iluminada, as coisas dela continuam nas prateleiras, um controle de jogo, um álbum de fotos e uma caixa de compras.
+- **Azul.** As coisas dela atrás do vidro.
+- **Evitar.** Arrombamento, polícia, alarme, qualquer sinal de crime.
+- **Alt do plano.** Uma pessoa com a chave na mão diante de uma porta sem fechadura, vendo as próprias coisas do outro lado do vidro.
+
+**porta-mudou. O que comprei mudou.**
+- **Falha atual.** Dois quadrados azuis sobre suportes. Não mostra mudança nenhuma.
+- **Âncora.** p. 104, a promessa que fica na conta e perde o encaixe que lhe dava valor.
+- **Cena.** Uma pessoa segura um objeto que comprou, uma luminária de mesa. A luminária continua igual por fora, mas a lâmpada, que acendia forte na caixa aberta ao lado, agora mal acende. Na parede, a sombra da luz antiga, grande, e a da luz de agora, pequena.
+- **Azul.** A luz, a antiga na sombra da parede e a fraca na lâmpada.
+- **Evitar.** Quebra visível. O objeto continua inteiro. O que mudou foi o que ele faz.
+- **Alt do plano.** Uma pessoa segura uma luminária que continua igual por fora, mas acende muito menos do que acendia quando foi comprada.
+
+**porta-empurrado. Fui empurrado a pagar.**
+- **Falha atual.** Duas linhas convergindo para um círculo azul.
+- **Âncora.** p. 670, o programa de funcionamento que comprime o tempo de reflexão e dificulta a reversão.
+- **Cena.** Uma pessoa sobre uma esteira rolante de aeroporto que termina num caixa. Ela tenta andar para trás e não sai do lugar. Nas paredes da esteira, relógios correndo e setas grandes, todas apontando para o caixa. Ao lado da esteira, fora dela, uma escada comum, vazia, que leva para fora.
+- **Azul.** O cartão de pagamento na mão da pessoa.
+- **Alt do plano.** Uma pessoa numa esteira rolante que só leva ao caixa, cercada de relógios e setas, enquanto a saída fica de lado.
+
+**porta-sair. Quero sair e levar o que é meu.**
+- **Falha atual.** Uma barra, um traço e três quadrados azuis.
+- **Âncora.** p. 217, o custo de saída, que inclui histórico, reputação, biblioteca, itens e redes de sociabilidade.
+- **Cena.** Uma pessoa na porta de um apartamento, de mala na mão, pronta para se mudar. Tudo o que ela juntou ficou dentro, preso ao chão, os livros, as fotos com amigos, os troféus e a mesa onde recebia gente. Pela janela, o vizinho acena.
+- **Azul.** As coisas que ficam presas lá dentro.
+- **Evitar.** Despejo, oficial de justiça, briga.
+- **Alt do plano.** Uma pessoa sai de casa com uma mala pequena, e tudo o que construiu lá dentro fica preso ao chão.
+
+**porta-decide. A plataforma decide sobre mim sem explicar.**
+- **Falha atual.** Linhas tracejadas e dois pontos.
+- **Âncora.** p. 381, a alteração de regra, o rebaixamento de alcance ou a suspensão que nem chegam a virar objeto verificável, e p. 780, a estrutura real da sujeição.
+- **Cena.** Um guichê de vidro fosco, sem rosto do outro lado. Pela fresta sai uma folha carimbada que cai na mão de uma pessoa. Atrás dela, uma fila com um entregador de capacete, uma vendedora com uma caixa e alguém com o celular, cada um com a sua folha carimbada.
+- **Azul.** As folhas carimbadas.
+- **Evitar.** Letras no carimbo.
+- **Alt do plano.** Um guichê de vidro fosco entrega folhas carimbadas a uma fila de pessoas, sem ninguém visível do outro lado.
+
+**porta-comum. Provar e reclamar.**
+- **Falha atual.** Um retângulo azul e um balão.
+- **Âncora.** A frase do campo porta-comum em `conteudo/camada-externa.md` é acréscimo de acesso. A cena se ancora na distribuição da prova, p. 735-736, e em Como reclamar, acréscimo de 08/11/2026.
+- **Cena.** Uma mesa de cozinha com prints impressos, o celular, um caderno de anotações e um envelope sendo fechado por duas mãos. Ao fundo, pela janela, um prédio público comum.
+- **Azul.** O envelope.
+- **Alt do plano.** Mãos fecham um envelope sobre uma mesa cheia de prints e anotações.
 
 ### 4.5 Problemas, vinte e quatro peças 16 x 9
 
@@ -324,7 +371,7 @@ Lugar. Logo depois do título de `siga/<slug>/`. A história da skin usa as peç
 1. **Plano.** Cada peça nova entra em `estrutura/ilustracoes.md` com os campos do 4.2. Os trechos literais passam pelo `conferir_citacoes.py` antes do commit.
 2. **Gerador.**
    - `figura("direito-<letra>")` no alto das páginas dos direitos, no lugar de `vinheta()`. A figura usa o formato 4 x 3 e a largura da coluna de texto.
-   - Os cartões das portas recebem `figura("porta-<id>")` em formato 1 x 1, com a imagem ocupando o cartão. Criar o caso do formato 1 x 1 em `figura()` (hoje só há 16 x 9 e 4 x 3).
+   - Os cartões das portas recebem `figura("porta-<id>")` em 4 x 3, na largura inteira do cartão, com `alt` vazio e sem legenda.
    - `pagina()` põe `figura("problema-<slug>")` depois do título dos problemas e `figura("siga-<slug>")` depois do título das histórias.
    - `ILUSTRACAO_PAGINA` volta a ter `alem-do-consumo/` e `como-reclamar/`, agora com WebP.
 3. **Tamanho na página.** A figura de abertura ocupa a largura da coluna de texto, nunca menos. Nenhuma peça fica isolada num vão. Conferir a 1.280, 1.000 e 390 px nos dois temas.
@@ -339,9 +386,9 @@ O componente de peças tocáveis (`site/ilustracoes.js` e `site/ilustracoes.css`
 ## 7. Ordem de trabalho
 
 1. **Lote 1.** Fase 1 inteira. Sem produção. Publicar no mesmo dia.
-2. **Lote 2.** As onze peças dos direitos, porque foi a página que o autor apontou e porque são as que mais precisam. Encomendas escritas pelo Claude, imagens geradas pelo autor, conferência e publicação.
+2. **Lote 2.** As seis portas da capa e as onze peças dos direitos. A capa é a primeira tela do site, e o direito b foi a página que o autor apontou. Encomendas escritas pelo Claude, imagens geradas pelo autor, conferência e publicação.
 3. **Lote 3.** Os 24 problemas, em quatro grupos de seis, na ordem das famílias da capa.
-4. **Lote 4.** As seis portas, as seis histórias e as duas avulsas.
+4. **Lote 4.** As seis histórias e as duas avulsas.
 5. **Lote 5.** As duas gravuras a refazer (parte-a-lei e ideia-lex-plataformae) e, se o autor quiser, a candidata parte-o-desejo.
 
 São 49 peças novas e duas refeitas, 51 no total. As novas são onze direitos, seis portas, vinte e quatro problemas, duas avulsas e seis histórias. As refeitas são parte-a-lei e ideia-lex-plataformae. A candidata parte-o-desejo seria a 52ª.
@@ -349,7 +396,7 @@ São 49 peças novas e duas refeitas, 51 no total. As novas são onze direitos, 
 ## 8. Pontos que dependem do autor
 
 1. Confirmar a linha única da gravura editorial e a saída do conjunto de 16/11 (seção 1.3), com a armadura suspensa da capa como única exceção.
-2. Confirmar se as portas da capa devem ter imagem. A alternativa é cartão só com texto, que é mais sóbrio.
+2. Confirmar as cenas das portas da capa (4.4). A alternativa é cartão só com texto, mais sóbrio.
 3. Decidir se a versão escura das peças novas sai pelo negativo calculado, como em 15/11, ou se cada peça nasce com a versão escura desenhada, como ele pediu para peças novas em 15/11/2026.
 4. Decidir se parte-o-desejo entra no lote 5.
 5. Gerar as imagens com o ChatGPT a partir das encomendas, como em 12/11.
