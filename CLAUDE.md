@@ -39,6 +39,7 @@ As partes do site, dentro dessas camadas.
 - Citações são literais e conferidas por script contra o texto da tese antes de qualquer envio.
 - Nada vai ao ar sem a leitura e a aprovação do autor. Desde 27/10/2026, enquanto o site não tiver tráfego relevante, o autor manda publicar e revisa no ar.
 - Desde 28/10/2026, por decisão do autor, ele só revisa cada parte quando a estrutura inteira estiver montada. Até lá, tudo se faz com base na tese, que foi revisada extensivamente e é a fonte mais confiável, com revisão mecânica do Claude e do GPT. Não pedir revisão parcial ao autor nem propor validação por partes antes disso.
+- Desde 17/11/2026, por ordem do autor, toda mudança feita vai ao ar no `main` logo depois de conferida. Mudança não publicada não conta como feita.
 - Todo conteúdo que não esteja na tese de 2026 recebe data e marca de acréscimo posterior.
 - Orientações do autor na conversa não viram texto do site, nem como palavra solta, rótulo, etiqueta ou dica. Servem para reler a tese e mostrar o que ela já diz. Só entra como acréscimo posterior o que o autor mandar publicar.
 - O site não pode ter nenhum padrão escuro de interface. Deve passar nos próprios critérios de auditabilidade aberta e equivalência de valor funcional.
