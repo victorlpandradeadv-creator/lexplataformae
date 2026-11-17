@@ -417,7 +417,7 @@ A quarta é se a coisa pode piorar sem sumir. É o caso em que o acesso continua
 
 ### caso Por que a conta é o retrato do problema inteiro?
 
-Num jogo online, a conta reúne personagens, skins, emotes e a moeda do jogo, e nada disso sai dela. Ela não é só login e senha. É ali que ficam juntos o inventário, o progresso, o nome de jogador e os sinais pelos quais os outros reconhecem você.
+Num jogo online, a conta reúne personagens, skins, emotes e a moeda do jogo, e nada disso sai dela. Por trás do login e da senha ficam juntos o inventário, o progresso, o nome de jogador e os sinais pelos quais os outros reconhecem você.
 
 A conta organiza o seu acesso, mas não dá a você a posse do conteúdo, que continua dependendo do ambiente e das regras da empresa. Quando o jogo cai, o que está na conta não serve para nada até ele voltar. Por isso a conta pode ser vista como o objeto imaterial de consumo central, um retrato em miniatura da categoria inteira.
 
@@ -509,7 +509,7 @@ Uma mudança num só fio pode atingir o centro do que você comprou. O acesso co
 
 ### caso O que uma skin precisa do jogo para funcionar?
 
-Uma skin não é só uma imagem colada no personagem. Algumas mudam de forma durante a própria partida, com transformações, efeitos e animações. Isso só acontece se o jogo continuar capaz de desenhar modelos, efeitos, animações e telas, que são refeitos a cada atualização.
+Muitas skins vão além de uma imagem colada no personagem, e algumas mudam de forma durante a própria partida, com transformações, efeitos e animações. Isso só acontece se o jogo continuar capaz de desenhar modelos, efeitos, animações e telas, que são refeitos a cada atualização.
 
 O visual, a leitura que os outros fazem dele e a transformação acontecem de novo em cada partida, como um desempenho repetido. Por isso o que você comprou não foi um arquivo parado. Foi uma posição de uso que só se realiza enquanto o ambiente continua funcionando de um certo jeito.
 
@@ -635,7 +635,7 @@ Por que ler os termos de uso não resolve?
 
 Dentro de um jogo ou de um aplicativo, as coisas valem o que o ambiente diz que valem. Raridade, prestígio, nível, reputação e até o que conta como erro são definidos lá dentro. E quem define esses sinais, e decide como eles mudam, é a plataforma.
 
-Por isso você pode ler cada linha dos termos de uso e continuar sem conseguir conferir se recebeu o que foi prometido. Não por falta de atenção, e sim porque o sentido das coisas lá dentro é fixado por regras e registros que você não controla. O problema não é só saber pouco. É não conseguir verificar, entender e contestar num ambiente que outro organiza.
+Por isso você pode ler cada linha dos termos de uso e continuar sem conseguir conferir se recebeu o que foi prometido. Não por falta de atenção, e sim porque o sentido das coisas lá dentro é fixado por regras e registros que você não controla. Mais do que saber pouco, o problema é não conseguir verificar, entender e contestar num ambiente que outro organiza.
 
 > [...] como a condição objetiva de exposição do consumidor a uma desigualdade estrutural de inteligibilidade e de agência em ecossistemas de fruição governados por plataforma, nos quais a produção de sentido e a atribuição de valor dependem de códigos, métricas e regimes de visibilidade administrados pelo próprio ambiente (p. 396)
 > a promessa não é auditável apenas por leitura individual, porque o sentido que sustenta valor e fruição é estabilizado por regras e registros do ecossistema, enquanto a plataforma controla quais correlações serão ativadas e quais percursos de leitura serão tornados disponíveis (p. 281)
@@ -888,7 +888,7 @@ Com isso, a expectativa passa a valer como se já fosse presente. Ela vira motiv
 
 Antecipação hipercuratorial. Curadoria é decidir o que vai ser visto, premiado e repetido, como faz quem monta uma exposição. Aqui ela é tão intensa, tão hiper, que passa a governar o tempo e a vender a própria espera.
 
-Não é só propaganda bonita. É uma forma de governar o tempo que transforma a expectativa num jeito regular de manter o valor das coisas. E ela faz uma promessa sobre o futuro sem dar a você, na mesma medida, como conferir se essa promessa vai ser cumprida.
+Parece só propaganda bonita, mas funciona como um método que transforma a expectativa num jeito regular de manter o valor das coisas. E ela faz uma promessa sobre o futuro sem dar a você, na mesma medida, como conferir se essa promessa vai ser cumprida.
 
 > A plataforma aparece como instância de administração privada que organiza a fruição por arquitetura, regras e enforcement, definindo acesso, permanência e visibilidade. Isso inclui tanto decisões explícitas, como políticas e sanções, quanto decisões embutidas no design, na curadoria e nas métricas que selecionam o que será visto, premiado e reproduzido (p. 262)
 > A antecipação hipercuratorial, nesse sentido, não é ornamento de marketing, mas técnica de governo do tempo que monetiza a expectativa como forma regular de manutenção do valor. (p. 316)
