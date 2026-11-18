@@ -1193,7 +1193,7 @@ publicada
 
 # Lote 2 do roteiro de 17/11/2026
 
-Encomendas das seis portas da capa e das onze páginas de Seus direitos, escritas pelo Claude em 17/11/2026 a partir de `estrutura/roteiro-ilustracoes-2026-11-17.md`, por ordem do autor. O autor gera as imagens com o ChatGPT a partir do campo producao, e o Claude confere cada arquivo pelo critério de aceite antes de pôr no site. A versão escura sai pelo negativo calculado e pelo filtro do negativo parcial, salvo decisão diferente do autor.
+Encomendas das seis portas da capa e das onze páginas de Seus direitos, escritas pelo Claude em 17/11/2026 a partir de `estrutura/roteiro-ilustracoes-2026-11-17.md`, por ordem do autor. Em 17/11/2026, por ordem do autor, o Claude gerou as dezessete peças no Canva a partir do campo producao e conferiu cada arquivo pelo critério de aceite antes de pôr no site. A versão escura sai pelo negativo calculado e pelo filtro do negativo parcial, salvo decisão diferente do autor.
 
 ## direito-a
 
@@ -1229,11 +1229,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-b
 
@@ -1269,11 +1269,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-c
 
@@ -1309,11 +1309,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-d
 
@@ -1349,11 +1349,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-e
 
@@ -1389,11 +1389,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-f
 
@@ -1429,11 +1429,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-g
 
@@ -1469,11 +1469,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-h
 
@@ -1509,11 +1509,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-i
 
@@ -1549,11 +1549,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-j
 
@@ -1589,11 +1589,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## direito-k
 
@@ -1629,11 +1629,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-acesso
 
@@ -1665,11 +1665,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-mudou
 
@@ -1701,11 +1701,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-empurrado
 
@@ -1737,11 +1737,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-sair
 
@@ -1773,11 +1773,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-decide
 
@@ -1809,11 +1809,11 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
 
 ## porta-comum
 
@@ -1845,8 +1845,8 @@ Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sob
 
 ### procedencia
 
-Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+Gerada com o gerador de imagens do Canva pelo Claude, em 17/11/2026, a partir do campo producao desta peça, das gravuras familia-produtividade-gig-economy e parte-o-desenho. Conferida pelo Claude contra a ideia da peça e publicada por ordem do autor.
 
 ### estado
 
-encomendada
+publicada
