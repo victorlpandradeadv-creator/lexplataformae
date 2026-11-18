@@ -1548,3 +1548,7 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 /* 15/11/2026. Negativo parcial no tema escuro, por ordem do autor. Fundo um tom acima do papel e traço menos claro. Devolvido em 17/11/2026 com as gravuras de 12/11. */
 :root[data-theme="dark"] .ilustracao:not(.escura-desenhada) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ilustracao:not(.escura-desenhada) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; } }
+/* Lote 2 do roteiro de 17/11/2026. A gravura do direito ocupa a largura da coluna de texto, e a da porta, a largura do cartão. */
+.ilustracao.figura-direito, .ilustracao.figura-direito.formato-4x3 { max-width: none; margin-bottom: 1.5rem; }
+.porta-perda figure.ilustracao.decorativa { max-width: none; margin: -0.25rem 0 0.4rem; padding: 0; }
+.porta-perda figure.ilustracao.decorativa img { aspect-ratio: 4 / 3; object-fit: cover; }

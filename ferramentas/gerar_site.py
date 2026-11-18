@@ -518,6 +518,10 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     ident_il = ILUSTRACAO_PAGINA.get(caminho)
     if ident_il and "</header>" in corpo:
         corpo = corpo.replace("</header>", "</header>" + figura(ident_il, prefixo), 1)
+    # Lote 2 do roteiro de 17/11/2026. Cada direito abre com a sua gravura, na largura da coluna de texto.
+    m_dir = re.fullmatch(r"direitos/([a-k])/", caminho)
+    if m_dir and "</header>" in corpo and "figura-direito" not in corpo:
+        corpo = corpo.replace("</header>", "</header>" + figura(f"direito-{m_dir.group(1)}", prefixo, classe="figura-direito"), 1)
     # Situações e Seus direitos têm uma página por situação desde 13/11/2026. Os links antigos para a âncora
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
@@ -1805,15 +1809,21 @@ def figura_svg(ident, legenda=""):
     return frag[: frag.rindex("</figure>")] + rodape + "</figure>"
 
 
-def figura(ident, prefixo, destaque=False):
-    """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir."""
+def figura(ident, prefixo, destaque=False, decorativa=False, classe=""):
+    """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir.
+    A peça decorativa, como a das portas da capa, vai sem legenda e com texto alternativo vazio, porque o cartão já diz
+    tudo, e sem arquivo não deixa marca, para os cartões lado a lado continuarem iguais."""
     peca = ILUSTRACOES.get(ident)
     if not peca:
         return ""
     ILUSTRACOES_USADAS.add(ident)
     # Desde 17/11/2026 o WebP do plano vale sempre. O SVG interativo saiu do ar por decisão do autor.
     formato = "formato-4x3" if peca.get("formato", "").startswith("4") else "formato-16x9"
+    if classe:
+        formato += " " + classe
     arq = arquivo_ilustracao(ident)
+    if not arq and decorativa:
+        return ""
     if not arq:
         return (f'<figure class="ilustracao prevista arq {formato}" data-arq="ilustração prevista · {esc(ident)}">'
                 f'<p>{esc(peca.get("ideia", ""))}</p></figure>')
@@ -1824,7 +1834,7 @@ def figura(ident, prefixo, destaque=False):
     # em uso, que segue o aparelho e o botão do cabeçalho. Sem ela, a arte clara traz o próprio fundo de papel.
     carregamento = 'loading="eager" fetchpriority="high"' if destaque else 'loading="lazy"'
     escura = arquivo_ilustracao(f"{ident}-escuro")
-    alt = esc(peca.get("alt", ""))
+    alt = "" if decorativa else esc(peca.get("alt", ""))
     imgs = f'<img src="{prefixo}assets/ilustracoes/{arq.name}" alt="{alt}" width="{largura}" height="{altura}" {carregamento} decoding="async"'
     if escura:
         imgs += ' class="arte-clara">' + (f'<img src="{prefixo}assets/ilustracoes/{escura.name}" alt="{alt}" width="{largura}" height="{altura}" '
@@ -1833,6 +1843,8 @@ def figura(ident, prefixo, destaque=False):
         imgs += ">"
     if ident in ESCURA_DESENHADA:
         formato += " escura-desenhada"
+    if decorativa:
+        return f'<figure class="ilustracao {formato} decorativa" aria-hidden="true"><picture>{imgs}</picture></figure>'
     return (f'<figure class="ilustracao {formato}"><picture>'
             f'{imgs}</picture>'
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia ciencia">{AVISO_IA}</span></figcaption>'
@@ -2187,7 +2199,7 @@ def gerar_inicio():
         letras = sorted({l for s in slugs if s in PROBLEMAS for l in PROBLEMAS[s].get("direitos", []) if re.fullmatch(r"[a-k]", l)})
         situacoes = ('<p class="porta-situacoes em-modo modo-1 modo-2">Situações ' + ", ".join(
             f'<a href="roteiro/{l}/">{l}</a>' for l in letras) + '</p>') if letras else ""
-        return (f'<article class="porta porta-perda item-moldura"><h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
+        return (f'<article class="porta porta-perda item-moldura">{figura("porta-" + fid, "", decorativa=True)}<h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
                 f'{ext_html("inicio", "porta-" + fid, "")}{situacoes}'
                 f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Ver os " + str(n) + " casos" if n > 1 else "Ver o caso"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao" aria-labelledby="perda-titulo">'

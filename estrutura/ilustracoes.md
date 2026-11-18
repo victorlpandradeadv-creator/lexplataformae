@@ -1190,3 +1190,663 @@ Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir d
 ### estado
 
 publicada
+
+# Lote 2 do roteiro de 17/11/2026
+
+Encomendas das seis portas da capa e das onze páginas de Seus direitos, escritas pelo Claude em 17/11/2026 a partir de `estrutura/roteiro-ilustracoes-2026-11-17.md`, por ordem do autor. O autor gera as imagens com o ChatGPT a partir do campo producao, e o Claude confere cada arquivo pelo critério de aceite antes de pôr no site. A versão escura sai pelo negativo calculado e pelo filtro do negativo parcial, salvo decisão diferente do autor.
+
+## direito-a
+
+### pagina
+
+Seus direitos, página O que você comprou é produto, mesmo sem nada nas mãos, em direitos/a/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa no sofá vê a armadura cair no inventário do celular. Ao lado, numa mesinha, a caixa aberta de um par de sapatos comprado numa loja comum. As duas compras têm o mesmo peso na cena.
+
+> A qualificação jurídica daí resultante é a de produto imaterial submetido ao regime do art. 3º, § 1º, do CDC, sem que a dimensão prestacional do vínculo afaste o controle da fruição como núcleo do fornecimento. (p. 743)
+
+### alt
+
+Uma pessoa vê no celular o item que acabou de comprar, ao lado de uma caixa de sapatos aberta.
+
+### legenda
+
+As duas são compras.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a armadura na tela do celular. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Uma pessoa sentada no sofá olha o celular. Na tela, a armadura acaba de cair no inventário, com um sinal de confirmação. Ao lado, numa mesinha, uma caixa de sapatos aberta, com o par dentro e o papel de seda. As duas compras ficam em pé de igualdade, com a mesma luz e o mesmo peso na composição. Evitar. Texto ou números na tela ou na caixa, marca de loja, nota fiscal legível.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-b
+
+### pagina
+
+Seus direitos, página A plataforma não pode montar a experiência para você não entender, em direitos/b/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Duas mãos seguram um celular com uma loja de jogo na tela. O botão de compra é enorme, a armadura brilha e uma ampulheta corre no canto. O caminho para as condições é uma linha cinza quase invisível embaixo.
+
+> Sempre que expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependerem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor, haverá vulnerabilidade semiótica juridicamente relevante. (p. 744)
+
+### alt
+
+Num celular, uma loja de jogo com um botão de compra enorme e um relógio correndo, enquanto o acesso às condições é uma linha quase invisível.
+
+### legenda
+
+Tudo grande para comprar, tudo pequeno para entender.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a armadura na vitrine da tela. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Close de um celular seguro por duas mãos. A tela é uma loja de jogo carregada. No centro, um botão enorme com um carrinho, a armadura em destaque com brilho e uma ampulheta correndo no canto. Embaixo, quase invisível, uma linha cinza minúscula com um pequeno ícone de documento, o caminho para as condições. O polegar está a caminho do botão grande. Linhas tracejadas finas mostram que a tela tem camadas por trás. Evitar. Interface real reconhecível, qualquer letra ou número na tela, ar de ameaça.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-c
+
+### pagina
+
+Seus direitos, página A informação precisa servir para alguma coisa, em direitos/c/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+A mesma pessoa aparece duas vezes. À esquerda, diante de um rolo de papel que desce do celular e se amontoa no chão. À direita, com um cartão pequeno de três sinais claros, um relógio, uma seta de mudança e um item riscado.
+
+> A informação, no CDC, não cumpre sua função só porque existe em algum lugar, nem porque foi depositada em documentos extensos, remissões, FAQs ou históricos de atualização que o consumidor dificilmente localizará, compreenderá e conectará ao impacto (p. 641)
+
+### alt
+
+Uma pessoa soterrada por um rolo de termos e, ao lado, a mesma pessoa lendo um cartão curto com três sinais claros.
+
+### legenda
+
+Muita informação não é informação.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em o cartão útil da metade direita. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Duas metades. À esquerda, uma pessoa diante de um rolo de papel que desce do celular e se acumula no chão em montes, de tão comprido, coberto de linhas cinza. À direita, a mesma pessoa segura um cartão pequeno com três ícones grandes e claros, um relógio, uma seta de mudança e um item riscado. Evitar. Letras no papel ou no cartão, tom cômico exagerado.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-d
+
+### pagina
+
+Seus direitos, página O que foi prometido precisa ser entregue, em direitos/d/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Um outdoor de rua mostra a armadura cercada de raios e faíscas. Embaixo dele, uma pessoa abre o celular e vê a mesma armadura sem nenhum efeito, opaca, e olha de uma para a outra.
+
+> Sempre que a fruição for precedida por ciclos curados de antecipação, promessa, escassez sugerida, distinção simbólica ou equivalências insinuadas, a publicidade integrará materialmente a oferta. (p. 744-745)
+
+### alt
+
+Uma pessoa compara a armadura cheia de efeitos de um anúncio de rua com a armadura apagada que recebeu no celular.
+
+### legenda
+
+O anúncio também é promessa.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as duas armaduras, a do anúncio cheia de efeitos e a da tela sem brilho. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Um outdoor de rua mostra a armadura cercada de raios, faíscas e efeitos. Embaixo do outdoor, uma pessoa abre o celular, e na tela a mesma armadura aparece sem nenhum dos efeitos, opaca. A pessoa olha de um para o outro. Evitar. Texto no outdoor, marca, preço.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-e
+
+### pagina
+
+Seus direitos, página Mudança relevante precisa deixar rastro, em direitos/e/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Pegadas na neve atravessam um pátio até uma vitrine onde a armadura mudou de forma. Uma vassoura, que sai de uma porta lateral, apaga parte delas, e uma pessoa segue as que restam com o celular na mão.
+
+> O dever de fornecimento correspondente é o de manter verificabilidade mínima sobre o que foi alterado, quando o foi, por que motivo foi justificado e quais efeitos funcionalmente relevantes produziu. (p. 745)
+
+### alt
+
+Pegadas na neve levam a uma vitrine onde a armadura mudou, e uma vassoura apaga parte delas.
+
+### legenda
+
+Quem muda deixa rastro. Ou deveria.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a armadura na vitrine. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Neve fresca num pátio. Pegadas atravessam o pátio até uma vitrine onde a armadura mudou de forma. Uma das pegadas está sendo apagada por uma vassoura empunhada por uma mão que sai de uma porta lateral. Uma pessoa de casaco segue as pegadas que restam, com o celular na mão. Evitar. Clima de crime ou perseguição, rosto de quem varre.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-f
+
+### pagina
+
+Seus direitos, página Mudou, tem que manter o que valia, em direitos/f/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma balança de feira equilibra a armadura antiga e a nova, de desenhos diferentes e do mesmo peso. Uma pessoa confere o fiel de perto, e na parede fica a sombra da armadura antiga.
+
+> O dever de fornecimento correspondente é o de preservar, em termos substanciais, o papel funcional, relacional e, quando juridicamente relevante, simbólico do objeto na experiência do consumidor. (p. 745)
+
+### alt
+
+Uma balança equilibra a armadura antiga e a nova, de desenhos diferentes, e uma pessoa confere o equilíbrio.
+
+### legenda
+
+Pode mudar a forma. O valor tem de ficar.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as duas armaduras. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Uma balança de feira de dois pratos. Num prato, a armadura antiga, cheia. No outro, a nova, com outro desenho, mas do mesmo peso, e a balança em equilíbrio. Uma pessoa confere o fiel da balança de perto. Atrás, na parede, a sombra da armadura antiga. Evitar. Armadura oca ou quebrada, balança da justiça, venda nos olhos. Não repetir a composição da peça ideia-equivalencia-de-valor-funcional, em que uma das armaduras está oca.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-g
+
+### pagina
+
+Seus direitos, página Punição precisa de motivo e de chance de defesa, em direitos/g/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa está trancada do lado de fora de uma porta de vidro com um cadeado grande, e lá dentro a armadura dela fica pendurada num armário. Ela aperta a campainha, e o fio dá a volta e retorna ao próprio botão.
+
+> O dever de fornecimento correspondente é o de assegurar procedimentos minimamente inteligíveis, motivação verificável, possibilidade razoável de contestação e tratamento não arbitrário do usuário na administração da fruição. (p. 746)
+
+### alt
+
+Uma pessoa trancada do lado de fora vê a própria armadura atrás do vidro e aperta uma campainha cujo fio volta para ela mesma.
+
+### legenda
+
+Trancar exige motivo. E alguém do outro lado.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a armadura atrás do vidro. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Uma pessoa diante de uma porta de vidro fechada, com um cadeado grande. Do outro lado do vidro, o inventário dela, com a armadura pendurada num armário. Na porta, uma campainha. A pessoa aperta a campainha, e o fio da campainha, em tracejado cinza, dá a volta e volta para o próprio botão, sem chegar a lugar nenhum. Evitar. Polícia, prisão, grades de cela, sinal de crime.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-h
+
+### pagina
+
+Seus direitos, página Quando a perda é regra, o problema é o desenho, em direitos/h/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma fila de pessoas com moedas espera diante de uma máquina de garra. A armadura fica no alto, fora do alcance, e o mecanismo aparece por dentro, regulado para soltar, enquanto o pote de moedas transborda.
+
+> O foco está na finalidade funcional objetivamente inscrita no arranjo, tal como se revela por sua replicabilidade, por sua coerência interna e por seu impacto reiterado sobre a experiência do consumidor. (p. 732)
+
+### alt
+
+Uma fila espera diante de uma máquina de garra em que a armadura fica fora do alcance, e o mecanismo aparece regulado para soltar.
+
+### legenda
+
+Quando ninguém consegue, o problema é a máquina.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a armadura dentro da máquina. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Uma máquina de parque de diversões, de garra de pegar bichinho. Dentro, a armadura no alto, fora do alcance. A garra é desenhada frouxa, aberta demais. Ao lado, uma fila de pessoas com moedas na mão, e no chão um pote de moedas cheio. Linhas tracejadas cinza mostram o mecanismo da garra por dentro da máquina, regulado para soltar. Evitar. Dono da máquina rindo ou qualquer sinal de intenção pessoal. O que aparece é o padrão do mecanismo, não a vontade de alguém.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-i
+
+### pagina
+
+Seus direitos, página A prova que está com a plataforma tem que aparecer, em direitos/i/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+À esquerda, uma pessoa na mesa da cozinha com prints e o celular. À direita, uma sala de arquivos atrás de uma grade, com caixas em prateleiras altas. Entre as duas, uma mão de juiz aponta para a grade pedindo que ela abra.
+
+> Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
+
+### alt
+
+Uma pessoa com prints na mesa de casa, e ao lado uma sala de arquivos trancada, para a qual uma mão aponta pedindo abertura.
+
+### legenda
+
+Quem guarda a prova tem de mostrá-la.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em uma das caixas na prateleira, a que guarda o registro do caso. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Duas metades. À esquerda, uma pessoa sentada à mesa da cozinha com prints espalhados e o celular. À direita, uma sala de servidores atrás de uma grade, com caixas arquivadas em prateleiras altas. Entre as metades, uma mão de juiz, só a manga e a mão, aponta para a grade pedindo que ela abra. Evitar. Martelo, toga inteira, balança da justiça, letras nas caixas.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-j
+
+### pagina
+
+Seus direitos, página Ser dona da obra não é desculpa para tudo, em direitos/j/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Num ateliê, pessoas usam as armaduras que compraram dentro de uma grande tela pintada. O artista, dono da obra, ergue um pano para cobrir a tela inteira, e uma moldura tracejada em volta das pessoas mostra o que não é só dele.
+
+> O dever correspondente é o de exercer a exclusividade sem convertê-la em escudo para opacidade absoluta, mutabilidade degradante ou supressão arbitrária da fruição. (p. 747)
+
+### alt
+
+Um artista vai cobrir com um pano a tela em que pessoas usam as armaduras que compraram, e uma moldura em volta delas mostra o que não é só dele.
+
+### legenda
+
+A obra é da empresa. A compra é sua.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as armaduras das pessoas dentro da pintura. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Um ateliê com uma grande tela pintada que é o cenário de um jogo. O artista, dono da obra, está ao lado. Dentro da pintura, pessoas que compraram a armadura a vestem e convivem. O artista ergue um pano para cobrir a tela inteira. Uma moldura tracejada cinza em volta das pessoas mostra que a parte delas não é dele cobrir. Evitar. Assinatura do artista, pintura famosa reconhecível, símbolo de copyright.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## direito-k
+
+### pagina
+
+Seus direitos, página A resposta deve recompor o que você perdeu, em direitos/k/, logo depois do título.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Duas mãos de restaurador, com luvas finas, encaixam de volta as peças quebradas da armadura numa mesa, guiadas por uma folha com o desenho dela inteira. Uma pessoa observa da porta.
+
+> Sempre que a lesão atingir acesso, continuidade, equivalência, histórico, posição relacional ou densidade significativa da fruição, a resposta jurídica deverá priorizar recomposição funcional, reservando indenização pecuniária para hipóteses de inviabilidade ou insuficiência da restauração. (p. 748)
+
+### alt
+
+Mãos de restaurador encaixam as peças da armadura de volta, guiadas pelo desenho dela inteira.
+
+### legenda
+
+Responder é pôr de volta o que foi tirado.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as peças da armadura. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp e a folha canônica da armadura, estrutura/referencias-visuais/armadura.webp. Cena. Uma mesa de restaurador. As peças da armadura, que estavam quebradas, são encaixadas de volta por duas mãos com luvas finas. Ao lado, uma folha com o desenho da armadura inteira, que serve de molde. Uma pessoa observa da porta. Evitar. Dinheiro, cheque ou moedas na mesa.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-acesso
+
+### pagina
+
+Página inicial, cartão Perdi o acesso, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa, à noite, está diante da porta de vidro de um prédio com a chave na mão, mas a fechadura virou uma tampa lisa. Atrás do vidro, na sala iluminada, as coisas dela continuam nas prateleiras.
+
+> Encerrada a conta, o usuário não terá mais acesso à conta, nem aos dados associados, nem ao Conteúdo Virtual, incluindo moeda do jogo, e a consequência é a perda definitiva sem reembolso quando o senhorio entende que havia motivo (p. 155)
+
+### alt
+
+Uma pessoa com a chave na mão diante de uma porta sem fechadura, vendo as próprias coisas do outro lado do vidro.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as coisas dela atrás do vidro, um controle de jogo, um álbum de fotos e uma caixa de compras. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Uma pessoa diante da porta de vidro de um prédio, à noite, com a chave na mão. A chave não entra, porque a fechadura foi trocada por uma tampa lisa. Através do vidro, na sala iluminada, as coisas dela continuam nas prateleiras, um controle de jogo, um álbum de fotos e uma caixa de compras. Evitar. Arrombamento, polícia, alarme, qualquer sinal de crime. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-mudou
+
+### pagina
+
+Página inicial, cartão O que comprei mudou, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa segura uma luminária de mesa que continua igual por fora, mas mal acende. Na parede, a sombra da luz antiga é grande e a de agora é pequena, ao lado da caixa aberta em que ela veio.
+
+> A promessa de distinção permanece nominalmente na conta, mas deixa de encontrar, no mundo do jogo, o encaixe que conferia valor ao investimento de tempo, dinheiro e atenção. (p. 104)
+
+### alt
+
+Uma pessoa segura uma luminária que continua igual por fora, mas acende muito menos do que acendia quando foi comprada.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em a luz, a antiga no halo grande da parede e a fraca na lâmpada. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Uma pessoa segura um objeto que comprou, uma luminária de mesa. A luminária continua igual por fora, mas a lâmpada, que acendia forte, agora mal acende. Ao lado, a caixa aberta em que ela veio. Na parede, o halo da luz antiga, grande, e o da luz de agora, pequeno. Evitar. Quebra visível. O objeto continua inteiro, e o que mudou foi o que ele faz. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-empurrado
+
+### pagina
+
+Página inicial, cartão Fui empurrado a pagar, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa está numa esteira rolante que termina num caixa, cercada de relógios e setas que apontam para ele. Ela tenta andar para trás e não sai do lugar, enquanto ao lado uma escada comum e vazia leva para fora.
+
+> Ela tende a emergir como programa de funcionamento, isto é, como articulação entre múltiplos mecanismos que comprimem tempo de reflexão, reorganizam expectativa, aumentam custo de saída, dificultam reversão e tornam a fruição progressivamente dependente do próprio ambiente que a governa. (p. 670)
+
+### alt
+
+Uma pessoa numa esteira rolante que só leva ao caixa, cercada de relógios e setas, enquanto a saída fica de lado.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em o cartão de pagamento na mão da pessoa. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Uma pessoa sobre uma esteira rolante de aeroporto que termina num caixa. Ela tenta andar para trás e não sai do lugar. Nas paredes da esteira, relógios correndo e setas grandes, todas apontando para o caixa. Ao lado da esteira, fora dela, uma escada comum, vazia, que leva para fora. Evitar. Vendedor empurrando a pessoa, letras ou preços nas placas. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-sair
+
+### pagina
+
+Página inicial, cartão Quero sair e levar o que é meu, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Uma pessoa está na porta de um apartamento com uma mala pequena, pronta para se mudar. Tudo o que ela juntou ficou dentro, preso ao chão, os livros, as fotos com amigos, os troféus e a mesa onde recebia gente.
+
+> Sair significa abandonar histórico, reputação, biblioteca, itens, progressão, investimentos afetivos, redes de sociabilidade e, em certos casos, a própria capacidade de participar de comunidades que se organizam dentro daquele ecossistema. (p. 217)
+
+### alt
+
+Uma pessoa sai de casa com uma mala pequena, e tudo o que construiu lá dentro fica preso ao chão.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as coisas que ficam presas lá dentro. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Uma pessoa na porta de um apartamento, de mala pequena na mão, pronta para se mudar. Tudo o que ela juntou ficou dentro, preso ao chão por parafusos visíveis, os livros, as fotos com amigos, os troféus e a mesa onde recebia gente. Pela janela, um vizinho acena. Evitar. Despejo, oficial de justiça, briga. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-decide
+
+### pagina
+
+Página inicial, cartão A plataforma decide sobre mim sem explicar, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Um guichê de vidro fosco, sem ninguém visível do outro lado, entrega folhas carimbadas pela fresta. Atrás de quem recebe a sua, a fila traz um entregador de capacete, uma vendedora com uma caixa e alguém com o celular.
+
+> A alteração de regra, o rebaixamento de alcance ou a suspensão sequer se transformam em objeto verificável e disputável no próprio sistema. (p. 381)
+
+### alt
+
+Um guichê de vidro fosco entrega folhas carimbadas a uma fila de pessoas, sem ninguém visível do outro lado.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em as folhas carimbadas. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Um guichê de vidro fosco, sem rosto do outro lado. Pela fresta sai uma folha carimbada que cai na mão de uma pessoa. Atrás dela, uma fila com um entregador de capacete, uma vendedora com uma caixa e alguém com o celular, cada um com a sua folha carimbada. Evitar. Letras no carimbo ou nas folhas, bandeira, brasão. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
+
+## porta-comum
+
+### pagina
+
+Página inicial, cartão Provar e reclamar, no alto, na largura do cartão. Decorativa, sem legenda e com texto alternativo vazio no site.
+
+### formato
+
+4 x 3
+
+### prioridade
+
+A
+
+### ideia
+
+Duas mãos fecham um envelope sobre uma mesa de cozinha cheia de prints impressos, o celular e um caderno de anotações. Pela janela, ao fundo, aparece um prédio público comum.
+
+> Quanto mais dependente da governança interna for a reconstrução do conflito, menos razoável será exigir do consumidor demonstração minuciosa de fatos cujo suporte documental e técnico jamais esteve sob seu alcance. (p. 736)
+
+### alt
+
+Mãos fecham um envelope sobre uma mesa cheia de prints e anotações.
+
+### producao
+
+Ilustração editorial em gravura a nanquim, traço fino e hachura discreta, sobre papel creme (#faf6ef), com fundo opaco. Uma só cor além do preto, o azul Klein chapado (#002fa7), usado apenas em o envelope. Estruturas escondidas em linhas tracejadas cinza (#615953). Nenhuma letra, número, logotipo, marca, interface real ou personagem conhecido. Telas mostram só ícones e linhas. Pessoas comuns, de idades e corpos variados, sem rosto detalhado. Formato 4:3, 1200 por 900 pixels, muito espaço livre, nada colado às bordas. Arquivo WebP de até 250 KB. Siga o traço das imagens de referência anexas. Imagens de referência anexas para o traço, familia-produtividade-gig-economy.webp e parte-o-desenho.webp. Cena. Uma mesa de cozinha com prints impressos, o celular, um caderno de anotações e um envelope sendo fechado por duas mãos. Ao fundo, pela janela, um prédio público comum. Evitar. Letras nos prints, no caderno ou no envelope, tribunal, martelo. A armadura do site não aparece.
+
+### procedencia
+
+Encomenda escrita pelo Claude em 17/11/2026. A gerar pelo autor com o ChatGPT.
+
+### estado
+
+encomendada
