@@ -4,6 +4,8 @@ Plano das peças ilustrativas que o site vai receber quando a estrutura estiver 
 
 Em 12/11/2026, por ordem do autor de consolidar a estrutura antes da produção, cada peça passou a separar três informações. A ideia descreve o que a figura representa e é o único texto que aparece no lugar previsto, no modo Ciência. A legenda e o texto alternativo acompanham a figura pronta. O campo producao guarda as instruções para quem gera a imagem e nunca vai ao site. Na mesma data entraram as revisões de composição discutidas com o autor, todas conferidas contra o trecho que cada peça ilustra.
 
+Em 17/11/2026, por decisão do autor, a linha de 16/11/2026 saiu do ar. Os pictogramas planos, as vinhetas das portas e dos direitos e as 32 composições SVG não comunicavam a situação da página. As 28 gravuras de 12/11/2026 voltaram, com as versões escuras de 15/11/2026 e o filtro do negativo parcial. A armadura suspensa da capa, de 16/11/2026, ficou. A linha única do site passa a ser a gravura editorial de 12/11/2026, salvo a linguagem geométrica da propriedade intelectual, que é código ensinado e fica só na Doutrina e na Ciência. O roteiro está em `estrutura/roteiro-ilustracoes-2026-11-17.md`.
+
 Cada peça tem um endereço fixo no site. Enquanto o arquivo não existe, o lugar aparece só no degrau Despir, como contorno tracejado com a etiqueta "ilustração prevista". Quando o arquivo chega em `site/ilustracoes/`, o gerador põe a figura no lugar, com o texto alternativo e a legenda daqui, sem mexer em mais nada.
 
 Como toda frase explicativa do site, cada peça se ancora num trecho da tese, conferido por script junto com os demais (`python3 ferramentas/conferir_citacoes.py estrutura/ilustracoes.md`). A ilustração mostra a ideia do trecho. Não acrescenta afirmação nova.
@@ -74,7 +76,7 @@ Cena serena, sem ameaça nem queda. Os cabos sobem tensos e nenhuma mão os segu
 
 ### procedencia
 
-Gerada com o gerador de imagens do ChatGPT, da OpenAI, em 12/11/2026, a partir do campo producao desta peça e da folha canônica da armadura. Conferida pelo Claude contra a ideia da peça.
+Gerada com o ChatGPT na entrega de 16/11/2026, Família 3, com versão escura desenhada e fundo transparente. Substituiu a versão de 12/11/2026 e ficou no ar por decisão do autor de 17/11/2026, como única peça mantida dessa entrega.
 
 ### estado
 

@@ -1545,3 +1545,6 @@ a.mapa-centro:hover, a.mapa-centro:focus-visible { background: var(--rubrica); c
 .mapa-no a, .mapa-centro, .mapa-fora { text-wrap: balance; }
 /* A legenda centrada no eixo da figura, por ordem do autor de 17/11/2026. A medida de 65ch ficava presa à esquerda. */
 figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
+/* 15/11/2026. Negativo parcial no tema escuro, por ordem do autor. Fundo um tom acima do papel e traço menos claro. Devolvido em 17/11/2026 com as gravuras de 12/11. */
+:root[data-theme="dark"] .ilustracao:not(.escura-desenhada) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ilustracao:not(.escura-desenhada) .arte-escura { filter:brightness(1.55) contrast(.78); border-radius:3px; } }

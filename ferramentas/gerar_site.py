@@ -513,17 +513,11 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
-    m_dir = re.fullmatch(r"direitos/([a-k])/", caminho)
-    if m_dir and "</header>" in corpo and "vinheta-direito" not in corpo:
-        corpo = corpo.replace("</header>", "</header>" + vinheta(f"direito-{m_dir.group(1)}", prefixo, "vinheta vinheta-direito"), 1)
-    ident_il = ILUSTRACAO_PAGINA.get(caminho) or (f"problema-{caminho.split('/')[1]}" if caminho.startswith("problemas/") and caminho.count("/") == 2 else None)
-    if ident_il and 'class="il"' not in corpo and "</header>" in corpo:
-        # Nos problemas a figura vem depois da abertura, para a caixa não anteceder a frase que ela retoma.
-        m = re.search(r'<section class="ext abertura-problema">.*?</section>', corpo, re.S)
-        if m:
-            corpo = corpo[:m.end()] + figura_svg(ident_il) + corpo[m.end():]
-        else:
-            corpo = corpo.replace("</header>", "</header>" + figura_svg(ident_il), 1)
+    # 17/11/2026, por decisão do autor. Saíram as vinhetas dos direitos e os SVG dos problemas e das páginas avulsas.
+    # Essas páginas ficam sem ilustração até as gravuras novas do roteiro de 17/11/2026.
+    ident_il = ILUSTRACAO_PAGINA.get(caminho)
+    if ident_il and "</header>" in corpo:
+        corpo = corpo.replace("</header>", "</header>" + figura(ident_il, prefixo), 1)
     # Situações e Seus direitos têm uma página por situação desde 13/11/2026. Os links antigos para a âncora
     # da letra passam a levar à página dela.
     corpo = re.sub(r'((?:roteiro|direitos)/)#([a-k])"', r'\1\2/"', corpo)
@@ -622,7 +616,6 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   </footer>
 </div>
 <script src="{prefixo}assets/atlas.js?v={VERSAO_ASSETS}" defer></script>
-<script src="{prefixo}assets/ilustracoes.js?v={VERSAO_ASSETS}" defer></script>
 </body>
 </html>
 """
@@ -1785,7 +1778,10 @@ def arquivo_ilustracao(ident):
 # ele vem no lugar do WebP. Componente em site/ilustracoes.css e site/ilustracoes.js.
 ILUSTRACOES_SVG_DIR = RAIZ / "site" / "ilustracoes-svg"
 # Peças fora do plano antigo, postas logo depois do título da página.
-ILUSTRACAO_PAGINA = {"direitos/": "direitos-continua", "alem-do-consumo/": "alem-do-consumo", "como-reclamar/": "como-reclamar"}
+# Vazio desde 17/11/2026, quando os SVG saíram do ar por decisão do autor. Volta a ter peças em WebP na Fase 3 do roteiro.
+ILUSTRACAO_PAGINA = {}
+# Peças cuja versão escura já nasce desenhada e não leva o filtro do negativo parcial. A armadura suspensa da capa, de 16/11/2026.
+ESCURA_DESENHADA = {"inicio"}
 
 
 def vinheta(ident, prefixo, classe="vinheta"):
@@ -1813,10 +1809,9 @@ def figura(ident, prefixo, destaque=False):
     """A peça ilustrativa prevista para um lugar. Com arquivo, a figura. Sem arquivo, a marca no degrau Despir."""
     peca = ILUSTRACOES.get(ident)
     if not peca:
-        return figura_svg(ident)
+        return ""
     ILUSTRACOES_USADAS.add(ident)
-    if (ILUSTRACOES_SVG_DIR / f"{ident}.html").exists():
-        return figura_svg(ident, peca.get("legenda", ""))
+    # Desde 17/11/2026 o WebP do plano vale sempre. O SVG interativo saiu do ar por decisão do autor.
     formato = "formato-4x3" if peca.get("formato", "").startswith("4") else "formato-16x9"
     arq = arquivo_ilustracao(ident)
     if not arq:
@@ -1836,6 +1831,8 @@ def figura(ident, prefixo, destaque=False):
                                           f'loading="lazy" decoding="async" class="arte-escura">')
     else:
         imgs += ">"
+    if ident in ESCURA_DESENHADA:
+        formato += " escura-desenhada"
     return (f'<figure class="ilustracao {formato}"><picture>'
             f'{imgs}</picture>'
             f'<figcaption>{esc(peca.get("legenda", ""))} <span class="aviso-ia ciencia">{AVISO_IA}</span></figcaption>'
@@ -2190,7 +2187,7 @@ def gerar_inicio():
         letras = sorted({l for s in slugs if s in PROBLEMAS for l in PROBLEMAS[s].get("direitos", []) if re.fullmatch(r"[a-k]", l)})
         situacoes = ('<p class="porta-situacoes em-modo modo-1 modo-2">Situações ' + ", ".join(
             f'<a href="roteiro/{l}/">{l}</a>' for l in letras) + '</p>') if letras else ""
-        return (f'<article class="porta porta-perda item-moldura">{vinheta("porta-" + fid, "")}<h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
+        return (f'<article class="porta porta-perda item-moldura"><h3><a href="problemas/#porta-{fid}">{esc(nome)}</a></h3>'
                 f'{ext_html("inicio", "porta-" + fid, "")}{situacoes}'
                 f'<p class="porta-mais"><a href="problemas/#porta-{fid}">{"Ver os " + str(n) + " casos" if n > 1 else "Ver o caso"}</a></p></article>')
     portas_perda = (f'<section class="portas portas-perda-secao" aria-labelledby="perda-titulo">'
@@ -4620,7 +4617,6 @@ img { max-width: 100%; }
     extra = (RAIZ / "site" / "extra.css").read_text(encoding="utf-8")
     # As cores vêm de estrutura/cores.json, por ferramentas/cores/gerar_css.py, e entram por último.
     extra += "\n" + (RAIZ / "site" / "cores.css").read_text(encoding="utf-8")
-    extra += "\n" + (RAIZ / "site" / "ilustracoes.css").read_text(encoding="utf-8")
     assets = SAIDA / "assets"
     (assets / "fontes").mkdir(parents=True, exist_ok=True)
     # O degrau Despir vale também sem JavaScript. body.desnudo passa a casar ainda com o terceiro degrau marcado.
@@ -4629,7 +4625,6 @@ img { max-width: 100%; }
     for arq in (RAIZ / "ferramentas" / "fontes").iterdir():
         shutil.copy(arq, assets / "fontes" / arq.name)
     shutil.copy(RAIZ / "site" / "atlas.js", assets / "atlas.js")
-    shutil.copy(RAIZ / "site" / "ilustracoes.js", assets / "ilustracoes.js")
     if ILUSTRACOES_DIR.exists():
         (assets / "ilustracoes").mkdir(exist_ok=True)
         for arq in ILUSTRACOES_DIR.iterdir():
