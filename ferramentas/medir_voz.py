@@ -30,6 +30,9 @@ MAX_SEQUENCIA = 2
 
 IMPERATIVO = re.compile(r"\b(Pense|Imagine|imagine|Repare|repare|Veja|Olhe|Suponha|Perceba|Considere|Lembre-se)\b")
 TEORIA_IDEIA = re.compile(r"\b([Aa] ideia de Objeto|[Nn]ove ideias|[Ee]stas ideias|[Ee]ssa ideia|[Dd]essa ideia|[Dd]a ideia inteira|[Aa] ideia inteira|[Oo]utra ideia|[Aa]s ideias|[Vv]olte às ideias|Isso tem nome|[Tt]em nome,|[ÉE] o nome desse)\b")
+# Textos que o padrão acusa e o autor aprovou como estão. O título de seção Isso tem nome (capa de 10/11/2026 e famílias de 11/11/2026)
+# e a linha do mapa Não está aqui? Veja todos os problemas (17/11/2026). Só o texto exato passa. Registro de 21/11/2026.
+APROVADOS = {"Isso tem nome", "Não está aqui? Veja todos os problemas"}
 ANAFORA = re.compile(r"^(\[\.\.\.\]|\[…\]|Ess[ae]s?\b|Est[ae]s?\b|Isso\b|Isto\b|Por isso\b|Assim\b|Daí\b|Nesse\b|Nessa\b|Neste\b|Nesta\b|Tal\b|Tais\b|Dessa\b|Desse\b|Desta\b|Deste\b|Ele\b|Ela\b|Eles\b|Elas\b|Portanto\b|Logo\b|Contudo\b|Porém\b|Entretanto\b|Todavia\b|Além disso\b|Por outro lado\b|Com isso\b|Aqui\b|Ali\b|O mesmo\b|A mesma\b|Também\b|Mais\b|Por sua vez\b|Em seguida\b|Só então\b|Fixad[oa]\b|A partir dessa\b|Sob essa\b|Nessa\b)")
 PROPRIO_TEXTO = re.compile(r"\b(esta tese|presente tese|nesta tese|para esta tese|a tese|presente trabalho|neste trabalho|este trabalho|presente pesquisa|esta pesquisa|nesta pesquisa|presente investigação|esta investigação|nesta seção|esta seção|presente seção|seção seguinte|subseção|neste capítulo|este capítulo|capítulo \d|seção \d|[Aa] (primeira|segunda|terceira|quarta|quinta|sexta|sétima|oitava) seção|presente sistematização|sistematização|anteriormente|acima(?! d[oa]s?\b)|adiante|a seguir|como visto|como se viu|até aqui|passo seguinte|ora denominad\w+|doravante|mobilizad\w+|o que se afirma|sustenta-se|propõe-se|defende-se|adota-se|em chave|nessa chave|sob essa chave|nesse registro|nesse ponto|\d\.\d\.\d)\b")
 TESE_NA_PROSA = re.compile(r"\b[Tt]eses?\b")
@@ -191,7 +194,8 @@ def medir(raiz):
     paginas = []
     for arq in sorted(raiz.rglob("*.html")):
         rel = arq.relative_to(raiz).as_posix().replace("index.html", "")
-        if rel.startswith(("tese/", "assets/")):
+        # A versão inglesa fica fora, porque as regras de voz são do português e a tese traduzida é texto integral. Correção de 21/11/2026.
+        if rel.startswith(("tese/", "assets/", "en/")):
             continue
         main, minimo = ler_pagina(arq)
         if main is None:
@@ -253,7 +257,7 @@ def relatorio(paginas, estrito=False):
         for b in p["blocos"]:
             if b["voz"] in ("site", "titulo"):
                 for padrao, nome in ((IMPERATIVO, "imperativo"), (TEORIA_IDEIA, "teoria como ideia")):
-                    if padrao.search(b["texto"]):
+                    if padrao.search(b["texto"]) and b["texto"].strip() not in APROVADOS:
                         tom[nome] += 1
                         ex.append((p["u"], b["texto"][:90]))
     print(f"  literal {lit} palavras. Tom {dict(tom)}")

@@ -72,10 +72,10 @@ def problemas():
 def cartoes():
     e = externa()
     nomes = {c["id"]: NOME_COMUM.get(c["id"], c["nome"]) for c in json.loads((RAIZ / "dados" / "atlas.json").read_text(encoding="utf-8"))["conceitos"]}
-    lista = [("inicio", " ".join(e["inicio"]["chamada"]), "Um percurso pelo consumo digital")]
+    lista = [("inicio", " ".join(e["inicio"]["chamada"]), "Um caminho pelo consumo digital")]
     partes = percurso()
     for i, parte in enumerate(partes, 1):
-        lista.append((f"percurso-{parte['slug']}", parte["titulo"], f"Percurso da skin · parte {i} de {len(partes)}"))
+        lista.append((f"percurso-{parte['slug']}", parte["titulo"], f"Caminho da skin · parte {i} de {len(partes)}"))
     for cid in e.get("cartoes", {}):
         if cid in e and e[cid].get("titulo"):
             lista.append((cid, e[cid]["titulo"][0], nomes.get(cid, "")))
@@ -85,11 +85,44 @@ def cartoes():
         lista.append(("problemas", "Qual é o seu problema?", "Seus direitos · por problema"))
     for prob in problemas():
         lista.append((f"problema-{prob['slug']}", prob["titulo"], "Seus direitos · por problema"))
-    lista.append(("laboratorio", e["laboratorio"]["titulo"][0], "Laboratório"))
+    lista.append(("laboratorio", e["laboratorio"]["titulo"][0], "Plataformas"))
     for fam in ("funcionalidade-cognitiva", "infraestrutura-e-intermediacao", "produtividade-gig-economy", "administracao-de-confianca"):
         if fam in e and e[fam].get("titulo"):
-            lista.append((fam, e[fam]["titulo"][0], "Laboratório"))
+            lista.append((fam, e[fam]["titulo"][0], "Plataformas"))
+    # Cartões das páginas novas de 15/11 e 17/11/2026, que usavam o cartão de outra página. Correção de 21/11/2026.
+    lista.append(("siga", "Qual destas é a sua história?", "Seus direitos · por história"))
+    for slug, chamada in siga():
+        lista.append((f"siga-{slug}", chamada, "Qual destas é a sua história?"))
+    for ident, arq, rotulo in (("como-reclamar", "como-reclamar.md", "Seus direitos"), ("alem-do-consumo", "alem-do-consumo.md", "Seus direitos")):
+        t = titulo_arquivo(arq)
+        if t:
+            lista.append((ident, t, rotulo))
     lista.append(("autor", "Quem está por trás desta teoria?", "Victor L. P. Andrade"))
+    return lista
+
+
+def titulo_arquivo(nome):
+    """A primeira linha do campo titulo de um arquivo de conteudo/."""
+    arq = RAIZ / "conteudo" / nome
+    if not arq.exists():
+        return ""
+    m = re.search(r"^### titulo\s*\n\s*\n?(.+)$", arq.read_text(encoding="utf-8"), re.M)
+    return m.group(1).strip() if m else ""
+
+
+def siga():
+    """Os caminhos de conteudo/siga.md, com a pergunta do alto de cada página."""
+    arq = RAIZ / "conteudo" / "siga.md"
+    if not arq.exists():
+        return []
+    lista, slug, campo = [], None, None
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            slug, campo = linha[3:].strip(), None
+        elif linha.startswith("### "):
+            campo = linha[4:].strip()
+        elif slug and campo == "chamada" and linha.strip() and not any(s == slug for s, _ in lista):
+            lista.append((slug, linha.strip()))
     return lista
 
 
@@ -121,7 +154,18 @@ def cartoes_en():
     """Cartões da versão inglesa, lidos do og:image:alt das páginas de docs/en/ (frase · rótulo · Lex Plataformae). 12/11/2026."""
     import sys
     vistos = {}
-    for pag in sorted((RAIZ / "docs" / "en").rglob("index.html")):
+    raiz_en = RAIZ / "docs" / "en"
+    # Primeiro as páginas que dão nome ao próprio cartão, depois as que só o herdam, da mais rasa à mais funda.
+    # Antes a ordem era alfabética, e o cartão padrão da capa saía da página de um autor citado. Correção de 21/11/2026.
+    def dona(pag):
+        t = pag.read_text(encoding="utf-8")
+        img = re.search(r'content="[^"]*/assets/cartoes/(?:en/)?([\w-]+)\.png" property="og:image"', t)
+        rel = pag.parent.relative_to(raiz_en).as_posix()
+        ultimo = "" if rel == "." else rel.rsplit("/", 1)[-1]
+        nome = img.group(1) if img else ""
+        propria = nome == "inicio" and rel == "." or nome in (ultimo, f"siga-{ultimo}", f"problema-{ultimo}") or nome.endswith("-" + ultimo)
+        return (0 if propria else 1, rel.count("/") + (rel != "."), rel)
+    for pag in sorted(raiz_en.rglob("index.html"), key=dona):
         t = pag.read_text(encoding="utf-8")
         img = re.search(r'content="[^"]*/assets/cartoes/(?:en/)?([\w-]+)\.png" property="og:image"', t)
         alt = re.search(r'content="([^"]*)" property="og:image:alt"', t)
@@ -130,6 +174,9 @@ def cartoes_en():
         partes = [html.unescape(x) for x in alt.group(1).split(" · ")]
         if partes and partes[-1] == "Lex Plataformae":
             partes = partes[:-1]
+        # A capa inglesa põe o nome do site antes da pergunta. A frase do cartão é a pergunta. Correção de 21/11/2026.
+        if len(partes) > 1 and partes[0] == "Lex Plataformae":
+            partes = partes[1:] + ["Path through digital consumption"]
         vistos[img.group(1)] = (partes[0], " · ".join(partes[1:]))
     return [(k, f, r) for k, (f, r) in vistos.items()]
 

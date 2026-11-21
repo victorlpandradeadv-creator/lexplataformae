@@ -1,5 +1,7 @@
 # Instruções de produção das ilustrações do site Lex Plataformae
 
+> Superado em 17/11/2026 pelo roteiro `estrutura/roteiro-ilustracoes-2026-11-17.md`, que é o plano em vigor. Este arquivo fica só como registro. A capa citada aqui mudou de título em 17/11/2026.
+
 Este documento é para a IA que vai gerar as imagens. Ele traz tudo o que é preciso para produzir as peças, numa mesma sessão, sem consultar mais nada. Gerado em 15/11/2026 a partir de `estrutura/ilustracoes-novas.md`, que segue sendo o plano de referência.
 
 # Como trabalhar

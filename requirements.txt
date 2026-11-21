@@ -1,0 +1,7 @@
+# Bibliotecas que as ferramentas usam. Instalar com pip install -r requirements.txt e, para os cartões, playwright install chromium.
+shapely
+playwright
+Pillow
+PyMuPDF
+beautifulsoup4
+numpy

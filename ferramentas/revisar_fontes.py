@@ -12,9 +12,10 @@ import re, sys, html, json
 from pathlib import Path
 from collections import Counter, defaultdict
 R = Path(__file__).resolve().parent.parent
-INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md', 'conteudo/como-reclamar.md']
+INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md', 'conteudo/como-reclamar.md', 'conteudo/siga.md', 'conteudo/alem-do-consumo.md']
 TODOS = INFO + ['conteudo/operar.md']
-IGN = {'partes', 'ideias', 'blocos', 'direitos', 'relacionados', 'cartoes'}
+# leis guarda o texto do Planalto, que é literal. As linhas fonte: dos casos guardam título e endereço da reportagem. 21/11/2026.
+IGN = {'partes', 'ideias', 'blocos', 'direitos', 'relacionados', 'cartoes', 'leis'}
 def prosa(arq):
     pag = campo = None
     for i, l in enumerate((R / arq).read_text(encoding='utf-8').splitlines(), 1):
@@ -22,9 +23,9 @@ def prosa(arq):
         if l.startswith('### '):
             campo, _, pergunta = l[4:].strip().partition(' ')
             # A pergunta própria do bloco, no cabeçalho, passa pelas mesmas regras do texto.
-            if pag and campo not in IGN and pergunta.strip().endswith('?'): yield i, pag, campo, pergunta.strip()
+            if pag and pag not in IGN and campo not in IGN and pergunta.strip().endswith('?'): yield i, pag, campo, pergunta.strip()
             continue
-        if not pag or not campo or campo in IGN or not l.strip() or l.startswith(('>', '#', 'lei:')): continue
+        if not pag or pag in IGN or not campo or campo in IGN or not l.strip() or l.startswith(('>', '#', 'lei:', 'fonte:')): continue
         yield i, pag, campo, l.strip()
 print('# 1. Frases acima de 37 palavras na Informação')
 n = 0

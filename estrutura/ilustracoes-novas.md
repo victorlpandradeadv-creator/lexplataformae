@@ -1,5 +1,7 @@
 # Plano consolidado das ilustrações, versão 0.17
 
+> Superado em 17/11/2026 pelo roteiro `estrutura/roteiro-ilustracoes-2026-11-17.md`, que é o plano em vigor. Este arquivo fica só como registro. A capa citada aqui mudou de título em 17/11/2026.
+
 Rascunho do Claude de 15/11/2026, por ordem do autor, refeito no mesmo dia como plano consolidado de todas as peças do site, novas e antigas, para geração numa mesma sessão. É planejamento, e nada daqui está no site. As peças seguem a direção de arte de `estrutura/ilustracoes.md` e acrescentam as regras abaixo. Quando o autor aprovar, cada peça passa para `estrutura/ilustracoes.md` no mesmo formato de campos, e o gerador a lê de lá.
 
 Os trechos citados aqui passam pelo script, com `python3 ferramentas/conferir_citacoes.py estrutura/ilustracoes-novas.md`.

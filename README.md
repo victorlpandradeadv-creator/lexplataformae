@@ -4,7 +4,7 @@ Atlas, roteiro e laboratório do regime jurídico do Objeto Imaterial de Consumo
 
 ## Situação
 
-Em construção. O site ainda não está no ar em lexplataformae.com.br.
+No ar em https://lexplataformae.com.br, em português e em inglês, servido pelo GitHub Pages a partir da pasta `docs/`.
 
 ## Direitos
 

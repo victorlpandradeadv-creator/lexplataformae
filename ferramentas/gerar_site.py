@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.17"
+VERSAO = "0.18"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -41,6 +41,7 @@ VERSOES = [
     ("0.15", "15/11/2026", "Primeira grande adição posterior à defesa. A capa abre por uma pergunta e cinco portas pela perda, e entra a página do Objeto Imaterial de Fruição Governada, para quem depende de plataforma sem ser consumidor."),
     ("0.16", "15/11/2026", "Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor."),
     ("0.17", "15/11/2026", "As ilustrações ganham versão própria para o tema escuro, e a revisão estética corrige o aviso de trecho já citado, a página de problemas, o título na Ciência e o menu no celular."),
+    ("0.18", "21/11/2026", "A capa passa a perguntar O que a plataforma tomou de você?, cada modo ganha capa própria, sete histórias deixam o leitor começar pelo que aconteceu, as gravuras voltam como linha única das ilustrações, com as portas e os direitos ilustrados, e cada página nova ganha imagem própria de compartilhamento."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -1455,7 +1456,7 @@ def gerar_alem_do_consumo():
     (destino / "index.html").write_text(
         pagina("Quando não é relação de consumo · Código Civil, plataformas e quem vende ou trabalha nelas · Lex Plataformae",
                "Quem vende, trabalha ou monta clientela numa plataforma sem ser consumidor continua protegido pelo Código Civil, com mais exigência de prova.",
-               corpo, prefixo, "alem-do-consumo/", jsonld, camada="mista", imagem="problemas"),
+               corpo, prefixo, "alem-do-consumo/", jsonld, camada="mista", imagem="alem-do-consumo"),
         encoding="utf-8")
 
 
@@ -1602,7 +1603,7 @@ def gerar_siga():
         desc = (c["abertura"][0] if c["abertura"] else c["chamada"])
         desc = desc if len(desc) <= 158 else desc[:155].rsplit(" ", 1)[0] + "..."
         (destino / "index.html").write_text(
-            pagina(f'{c["chamada"]} · Lex Plataformae', desc, corpo, prefixo, f'siga/{c["slug"]}/', jsonld, camada="mista", imagem="problemas",
+            pagina(f'{c["chamada"]} · Lex Plataformae', desc, corpo, prefixo, f'siga/{c["slug"]}/', jsonld, camada="mista", imagem=f'siga-{c["slug"]}',
                    irmas=("Outras histórias", [(esc(t), prefixo + h, h.endswith(f'/{c["slug"]}/')) for t, h, _ in caminhos])),
             encoding="utf-8")
     prefixo = "../"
@@ -1613,7 +1614,7 @@ def gerar_siga():
     destino.mkdir(parents=True, exist_ok=True)
     (destino / "index.html").write_text(
         pagina("Qual destas é a sua história? · Lex Plataformae", "Sete histórias, da skin à loja no aplicativo, sobre o que uma plataforma pode tirar de você e o que você pode exigir.",
-               corpo, prefixo, "siga/", None, camada="mista", imagem="problemas"), encoding="utf-8")
+               corpo, prefixo, "siga/", None, camada="mista", imagem="siga"), encoding="utf-8")
 
 
 # Epígrafes. A página da trilha sonora, com a função das nove canções e o que cada uma anuncia, nas palavras do 2.6.
