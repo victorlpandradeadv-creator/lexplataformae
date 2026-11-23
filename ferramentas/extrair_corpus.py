@@ -90,19 +90,51 @@ def html_spans(spans, limite):
 def tabela_html(tabela, pagina, marca=None):
     """Quadro da tese em HTML, com a marca da página antes dele quando ela ainda não foi posta."""
     def celula(caixa, tag):
-        t = norm(pagina.get_text("text", clip=caixa).replace(chr(10), " ")) if caixa else ""
-        return f"<{tag}>{html.escape(t)}</{tag}>"
+        # Linha a linha, com o itálico e o negrito da tese (dark patterns, p. 600, 22/11/2026).
+        if not caixa:
+            return f"<{tag}></{tag}>"
+        h = ""
+        for b in pagina.get_text("dict", clip=caixa)["blocks"]:
+            for l in b.get("lines", []):
+                sp = [s for s in l["spans"] if s["text"]]
+                if sp:
+                    h = juntar(h, html_spans(sp, 0))
+        h = re.sub(r"\s+", " ", unicodedata.normalize("NFC", h).replace("­", "")).strip()
+        h = re.sub(r"\s+(</(?:em|strong)>)", r"\1", h)
+        return f"<{tag}>{h}</{tag}>"
     corpo = ""
     for i, linha in enumerate(tabela.rows):
         corpo += "<tr>" + "".join(celula(c, "th" if i == 0 else "td") for c in linha.cells) + "</tr>"
     return (marca or "") + f"<table>{corpo}</table>"
 
 
+_MARCA = re.compile(r'<span class="pg-marca"[^>]*>[^<]*</span>')
+
+
+# Começo de entrada da lista de referências, com o sobrenome ou o nome da entidade em caixa alta.
+# Na virada de página a entrada nova não tem linha vazia antes dela, e sem isso colava na anterior (22/11/2026).
+INICIO_ENTRADA = re.compile(r"^\s*(?:<strong>)?[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ][A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ'’&\-\. ]*?[A-Z0-9ÁÉÍÓÚÂÊÔÃÕÇÜ…\.](?:</strong>)?[,.]")
+
+
 def juntar(atual, novo):
     if not atual:
         return novo.lstrip()
-    limpo = re.sub(r"<[^>]+>", "", atual).rstrip()
-    if limpo.endswith("-") and len(limpo) > 1 and limpo[-2].isalpha():
+    # A marca de página não conta como texto ao decidir a junção (watch-<marca>party, 22/11/2026).
+    cru = re.sub(r"<[^>]+>", "", _MARCA.sub("", atual))
+    limpo = cru.rstrip()
+    seguinte = re.sub(r"<[^>]+>", "", _MARCA.sub("", novo)).lstrip()
+    if not limpo:
+        return atual.rstrip() + " " + novo.lstrip()
+    if limpo.endswith("-") and len(limpo) > 1:
+        # Palavra composta ou intervalo partido no fim da linha (vale-tudo, 15-16, [202-?], 2007-2009).
+        # O espaço depois do hífen, quando a própria linha o traz, fica (produzir- tal, nota 328).
+        if (limpo[-2].isalpha() or limpo[-2].isdigit()) and cru == limpo:
+            return atual.rstrip() + novo.lstrip()
+    if limpo.endswith("–") and len(limpo) > 1 and limpo[-2].isdigit() and seguinte[:1].isdigit():
+        return atual.rstrip() + novo.lstrip()
+    # Endereço da web partido na linha. Só se cola quando o endereço ainda não fechou com ponto.
+    ultimo = limpo.split(" ")[-1]
+    if re.match(r"\(?(?:https?://|www\.)", ultimo) and not ultimo.endswith("."):
         return atual.rstrip() + novo.lstrip()
     return atual.rstrip() + " " + novo.lstrip()
 
@@ -180,7 +212,9 @@ def main():
         unidas = []
         for y, x, sp in linhas:
             if unidas and abs(unidas[-1][0] - y) < 1.5 and x > unidas[-1][1] and abs(sp[0]["size"] - unidas[-1][2][0]["size"]) < 0.3:
-                unidas[-1] = (unidas[-1][0], unidas[-1][1], unidas[-1][2] + sp)
+                # Pedaço em branco na margem não dá a posição da linha. Vale o recuo do texto (p. 45 e 618, 22/11/2026).
+                x0 = unidas[-1][1] if any(s["text"].strip() for s in unidas[-1][2]) else x
+                unidas[-1] = (unidas[-1][0], x0, unidas[-1][2] + sp)
             else:
                 unidas.append((y, x, sp))
         linhas = unidas
@@ -208,13 +242,14 @@ def main():
                 em_notas = True
                 n = primeiro["text"].strip()
                 resto = spans[spans.index(primeiro) + 1:]
-                notas[n] = {"n": n, "html": html_spans(resto, 0).strip(), "pagina": impressa}
+                notas[n] = {"n": n, "html": html_spans(resto, 0).lstrip(), "pagina": impressa}
                 ultima_nota = n
                 continue
-            # Continuação de nota, nesta página ou vinda da anterior.
-            if visiveis and abs(primeiro["size"] - 10.1) < 0.3 and abs(x - margem) < 4:
+            # Continuação de nota, nesta página ou vinda da anterior. A linha sem número na posição do número
+            # também continua a nota, como o segundo parágrafo da nota 277 (p. 256, 22/11/2026).
+            if visiveis and abs(primeiro["size"] - 10.1) < 0.3 and (abs(x - margem) < 4 or (em_notas and ultima_nota and -17 < x - margem < -11)):
                 if ultima_nota:
-                    notas[ultima_nota]["html"] = juntar(notas[ultima_nota]["html"], html_spans(spans, 0).strip())
+                    notas[ultima_nota]["html"] = juntar(notas[ultima_nota]["html"], html_spans(spans, 0).lstrip())
                 em_notas = True
                 continue
             if em_notas:
@@ -269,7 +304,9 @@ def main():
                 if not bloco or bloco["tipo"] != "citacao":
                     abrir_bloco("citacao")
                 acrescentar(h)
-            elif abs(x - margem) < 4 and bloco and bloco["tipo"] == "p":
+            elif abs(x - margem) < 4 and bloco and bloco["tipo"] == "p" and not (
+                    atual["slug"] == "referencias" and marca_pendente and re.sub(r"<[^>]+>", "", bloco["html"]).rstrip().endswith(".")
+                    and INICIO_ENTRADA.match(h)):
                 acrescentar(h)
             else:
                 abrir_bloco("p")
@@ -281,6 +318,8 @@ def main():
             marca_pendente = None
     fechar_bloco()
 
+    for nota in notas.values():
+        nota["html"] = nota["html"].strip()
     # Cada seção recebe as notas que chama.
     for s in secoes:
         chamadas = re.findall(r'id="r(\d+)"', s.get("titulo_html", ""))

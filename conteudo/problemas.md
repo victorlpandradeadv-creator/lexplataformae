@@ -44,7 +44,7 @@ Vale guardar o aviso da punição com a data, a mensagem que explica o motivo, s
 
 O resto costuma ficar com a empresa, que guarda o tipo de punição aplicada, o motivo e o efeito que ela teve na conta. Por isso o pedido pode incluir que ela preserve e mostre esses registros.
 
-> O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência. (p. 658)
+> O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência (Benjamin; Marques; Bessa, 2021, p. 131; p. 145; p. 184). (p. 658)
 > Diante da concentração de registros, cabe preservação e exibição de trilhas do fornecimento, com redistribuição racional do ônus e presunções favoráveis ao consumidor quando o fornecedor não coopera ou mantém a prova em caixa-preta. (p. 609)
 
 ### pedir O que se pode pedir quando a conta foi fechada sem explicação?
@@ -433,7 +433,7 @@ Convém reunir o anúncio do encerramento, os comprovantes do que você comprou 
 
 O histórico das suas compras e as comunicações da empresa também ficam com ela, e você pode pedir que sejam preservados.
 
-> O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência. (p. 658)
+> O que se exige aqui não é uma devassa total do sistema, mas um núcleo documental mínimo: histórico de versões relevantes; registros essenciais de alteração com impacto funcional; trilhas de consentimento e de fluxo decisório; histórico de transações relevantes; comunicações de mudança; e, quando houver enforcement, registros básicos do evento decisório, como categoria aplicada, motivo e consequência (Benjamin; Marques; Bessa, 2021, p. 131; p. 145; p. 184). (p. 658)
 
 ### pedir O que ainda se pode pedir quando o fim é inevitável?
 

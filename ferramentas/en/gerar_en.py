@@ -367,7 +367,15 @@ def traduz_pagina(arq, rel):
         data = f"{MESES[int(d.group(2)) - 1]} {int(d.group(1))}, {d.group(3)}" if d else ""
         t = (f'<p class="{" ".join(cit.get("class", []))}">ANDRADE, Victor L. P. {html.escape(tit_en)}{fim} <i>Lex Plataformae</i>, '
              f'version {v.group(1) if v else ""}, {data}. Available at {html.escape(u.group(0)) if u else ""}</p>')
+        # No texto integral a citação é a da tese, que fica em português, como toda referência. 22/11/2026.
+        if t_cru := cit.decode_contents():
+            if t_cru.startswith("ANDRADE, Victor Luiz Pereira de."):
+                ref = re.sub(r"\s*(?:Disponível em|Available at) \S+\s*$", "", t_cru)
+                t = f'<p class="{" ".join(cit.get("class", []))}">{ref} Available at {html.escape(u.group(0)) if u else ""}</p>'
         cit.replace_with(BeautifulSoup(t, "html.parser"))
+    # Os metadados do Google Acadêmico ficam só na página portuguesa da tese, para que a obra apareça uma vez. 22/11/2026.
+    for m in sopa.select('meta[name^="citation_"]'):
+        m.decompose()
     # Estilo dos acréscimos ingleses
     if sopa.head and not sopa.head.select_one('link[href$="en.css"]'):
         estilo = sopa.select_one('link[rel="stylesheet"]')

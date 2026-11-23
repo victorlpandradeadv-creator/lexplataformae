@@ -65,7 +65,7 @@ O núcleo é o mesmo do OIC. A dependência estrutural da fruição em relação
 A fórmula que resume o deslocamento é simples. Pode-se ter sem controlar o ter. O titular conserva o bem, e outro conserva o poder sobre as condições da fruição.
 
 > O critério, portanto, não é a materialidade do suporte nem a nomenclatura empregada pelo fornecedor, mas a dependência estrutural da fruição em relação a um ambiente governado. (p. 719)
-> A intensidade dessa dependência varia conforme grau de lockin, centralidade de acervos vinculados à conta, relevância do histórico de uso, peso de métricas de reputação e restrições à transferência, interoperabilidade ou reconstrução do adquirido fora da plataforma. (p. 486)
+> A intensidade dessa dependência varia conforme grau de lock-in, centralidade de acervos vinculados à conta, relevância do histórico de uso, peso de métricas de reputação e restrições à transferência, interoperabilidade ou reconstrução do adquirido fora da plataforma. (p. 486)
 
 ### piso 1 De onde parte a categoria?
 

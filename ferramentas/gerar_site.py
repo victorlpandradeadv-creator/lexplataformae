@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.18"
+VERSAO = "0.19"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -42,6 +42,7 @@ VERSOES = [
     ("0.16", "15/11/2026", "Entram os esquemas didáticos dos lotes 2 e 3, quinze peças nos três modos. A capa da Informação passa a abrir só pelas portas, e o financiamento da CAPES aparece na página do autor."),
     ("0.17", "15/11/2026", "As ilustrações ganham versão própria para o tema escuro, e a revisão estética corrige o aviso de trecho já citado, a página de problemas, o título na Ciência e o menu no celular."),
     ("0.18", "21/11/2026", "A capa passa a perguntar O que a plataforma tomou de você?, cada modo ganha capa própria, sete histórias deixam o leitor começar pelo que aconteceu, as gravuras voltam como linha única das ilustrações, com as portas e os direitos ilustrados, e cada página nova ganha imagem própria de compartilhamento."),
+    ("0.19", "22/11/2026", "O texto integral passa a conferir palavra por palavra com o PDF da tese, com a frase que faltava na nota 277, os intervalos de páginas e os endereços da web sem espaço partido, as entradas da lista de referências separadas na virada de página e as referências entre parênteses sempre à vista. A tese ganha os metadados do Google Acadêmico e um PDF com autoria declarada."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -155,6 +156,13 @@ for _s in SECOES:
 
 TITULO_TESE = ("Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae: "
                "a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil")
+
+
+# A referência da tese como ela própria a registra nas folhas de resumo (p. 10 a 12 do PDF). No texto integral,
+# o rodapé da Ciência cita a tese, e não a página do site. 22/11/2026.
+REFERENCIA_TESE = ("ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>: "
+                   "a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. 829p. "
+                   "Tese (Doutorado em Direito) - Universidade Estadual Paulista “Júlio de Mesquita Filho”, Faculdade de Ciências Humanas e Sociais, Franca, 2026.")
 
 
 def esc(t):
@@ -506,7 +514,32 @@ def rotulos_uma_vez(corpo):
     return re.sub(r'data-arq="([^"]*)"', arq, corpo)
 
 
-def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True, irmas=None):
+def metas_highwire(resumo):
+    """Metadados que o Google Acadêmico lê na página da tese (Highwire Press). 22/11/2026.
+
+    Só a página de entrada do texto integral os traz, para que o buscador veja uma obra só, e não 117."""
+    pares = [("citation_title", TITULO_TESE), ("citation_author", "Andrade, Victor Luiz Pereira de"),
+             ("citation_publication_date", "2026"), ("citation_dissertation_institution", "Universidade Estadual Paulista (UNESP)"),
+             ("citation_language", "pt"), ("citation_pdf_url", f"{BASE}/tese/{PDF_NOME}"),
+             ("citation_abstract_html_url", f"{BASE}/tese/"), ("citation_fulltext_html_url", f"{BASE}/tese/1/")]
+    if resumo:
+        pares.append(("citation_keywords", "; ".join(resumo["palavras_chave"])))
+    return "".join(f'<meta name="{n}" content="{esc(v)}">\n' for n, v in pares)
+
+
+def publicar_pdf_tese(destino):
+    """O PDF servido é o da tese, com o texto e as páginas intactos, os metadados de autoria preenchidos
+    e a compressão sem perda refeita, para ficar abaixo do limite de 5 MB do Google Acadêmico. 22/11/2026.
+    O original em tese/ continua sendo a fonte de verdade e não muda."""
+    import pymupdf
+    doc = pymupdf.open(RAIZ / "tese" / PDF_NOME)
+    doc.set_metadata({**doc.metadata, "title": TITULO_TESE, "author": "Victor Luiz Pereira de Andrade",
+                      "subject": "Tese de doutorado em Direito. Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, Franca, 2026.",
+                      "keywords": "objeto imaterial de consumo; feixe de fruição governada; vulnerabilidade semiótica; Lex Plataformae; direito do consumidor"})
+    doc.save(destino, garbage=4, deflate=True, deflate_images=False, deflate_fonts=True, clean=True)
+
+
+def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="interna", superficie=None, imagem=None, lei=True, irmas=None, meta_extra=""):
     """Monta a página.
 
     camada 'mista' abre em Informação e ganha conteúdo em Doutrina e estrutura em Ciência.
@@ -575,7 +608,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(descricao)}">
 <meta name="author" content="Victor L. P. Andrade">
-<link rel="canonical" href="{esc(canonico)}">
+{meta_extra}<link rel="canonical" href="{esc(canonico)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lex Plataformae">
 <meta property="og:title" content="{esc(titulo)}">
@@ -611,8 +644,8 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
   </main>
   <footer class="rodape">
     <div class="ciencia rodape-citar" data-arq="como citar · referência pronta desta página na versão atual">
-      <p class="rotulo-citar">Como citar esta página</p>
-      <p class="referencia citar-pagina">ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}{"" if titulo.split(" · ")[0].rstrip()[-1:] in "?!." else "."} <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}</p>
+      <p class="rotulo-citar">{"Como citar a tese" if caminho.startswith("tese/") else "Como citar esta página"}</p>
+      <p class="referencia citar-pagina">{REFERENCIA_TESE + " Disponível em " + esc(canonico) if caminho.startswith("tese/") else f'ANDRADE, Victor L. P. {esc(titulo.split(" · ")[0])}{"" if titulo.split(" · ")[0].rstrip()[-1:] in "?!." else "."} <i>Lex Plataformae</i>, versão {VERSAO}, {DATA_VERSAO}. Disponível em {esc(canonico)}'}</p>
     </div>
     <div class="ciencia rodape-estudo">
       <p><a href="{prefixo}tese/{PDF_NOME}">Texto integral em PDF</a>. Todo texto entre aspas é transcrição literal, com a página indicada. Acréscimos posteriores aparecem marcados e datados. Pesquisa realizada com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001. Todos os direitos reservados até a definição da licença do projeto.</p>
@@ -2694,7 +2727,8 @@ def gerar_tese():
               "inLanguage": "pt-BR", "abstract": resumo["texto"] if resumo else None,
               "keywords": resumo["palavras_chave"] if resumo else None, "url": BASE + "/tese/"}
     (pasta / "index.html").write_text(
-        pagina("Texto integral · Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld, camada="mista", lei=False),
+        pagina("Texto integral · Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae", resumir_texto(resumo["texto"]) if resumo else TITULO_TESE, corpo, "../", "tese/", jsonld, camada="mista", lei=False,
+               meta_extra=metas_highwire(resumo)),
         encoding="utf-8")
 
     # Uma página por seção.
@@ -4725,7 +4759,7 @@ def gerar_auxiliares():
     shutil.copy(RAIZ / "dados" / "atlas.json", SAIDA / "dados" / "atlas.json")
     shutil.copy(RAIZ / "dados" / "epigrafes.json", SAIDA / "dados" / "epigrafes.json")
     (SAIDA / "tese").mkdir(exist_ok=True)
-    shutil.copy(RAIZ / "tese" / PDF_NOME, SAIDA / "tese" / PDF_NOME)
+    publicar_pdf_tese(SAIDA / "tese" / PDF_NOME)
     corpo = ('<article class="folha"><header class="folha-cabeca"><p class="sobrelinha">Página não encontrada</p>'
              '<h1>Este endereço não existe</h1></header><p>A página que você procurou não está aqui, ou mudou de lugar. '
              '<a href="/">Volte ao começo</a> e siga pelo menu.</p></article>')
@@ -4853,9 +4887,10 @@ def gerar_autor():
         '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás desta teoria</p><h1>Victor L. P. Andrade</h1></header>'
         '<section class="ext"><p>Tudo o que você leu neste site deriva de uma tese de doutorado em Direito, '
         'apresentada à Universidade Estadual Paulista e defendida em 30 de março de 2026, sob a orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
-        '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>. '
-        'A tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. '
-        'Tese (Doutorado em Direito). Universidade Estadual Paulista, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
+        # A referência como a própria tese a registra nas folhas de resumo (p. 10 a 12 do PDF), com o título em negrito. 22/11/2026.
+        '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>: '
+        'a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. 829p. '
+        'Tese (Doutorado em Direito) - Universidade Estadual Paulista “Júlio de Mesquita Filho”, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
         + '<section class="ext financiamento"><h2 class="rotulo-ext">Financiamento</h2>'

@@ -287,7 +287,7 @@ Pelo atributo da personalidade objetivamente atingido, e não pelo sofrimento su
 
 No plano do consumo, o conceito não cria um bem novo. Ele torna controlável uma forma específica de perda.
 
-> [...] reforçando um circuito de permanência que converte a participação do indivíduo em um insumo de valorização para a plataforma. Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema. (p. 224-225)
+> O medo de perder o que foi acumulado, de ver sua identidade digital desvalorizada ou apagada, torna-se instrumento de disciplina, consolidando uma forma de cativeiro existencial que se adiciona ao cativeiro econômico já descrito. Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema. (p. 224-225)
 > A dependência, nesse registro, não é psicológica no sentido individualizante, mas institucional e semiótica, porque decorre de um regime de visibilidade e de sanção que define o que conta como valor, pertença e progresso legítimo e, correlatamente, define como isso pode ser rebaixado, apagado ou desautorizado. (p. 225)
 > Em termos jurídico-consumeristas, a relevância do conceito não é criar um bem novo, mas tornar controlável uma forma específica de perda no fato do consumo (p. 225)
 >! O resultado é um cativeiro identitário, no qual o pedágio se estabiliza como taxa de manutenção do lugar, não como preço pontual de um item. (p. 258)
@@ -299,8 +299,7 @@ No plano do consumo, o conceito não cria um bem novo. Ele torna controlável um
 É o vício que não se resume a erro factual pontual, como confundir um preço ou um prazo. O consumidor adere dentro de uma moldura de linguagem que o deixa fora do centro de inteligibilidade da relação. As condições comunicacionais do fornecimento produzem, de forma estrutural, a incapacidade de decodificar, comparar e antecipar consequências relevantes.
 
 > O consumidor não erra apenas um dado. Ele adere dentro de uma moldura de linguagem que já o coloca fora do centro de inteligibilidade da relação. É nesse ponto que se pode falar em consentimento viciado por sentido. Não se trata de erro factual pontual, como confundir um preço ou um prazo isolado. (p. 603)
-> Trata-se de incapacidade controlada. (p. 603)
-> estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes (p. 604)
+> Trata-se de incapacidade estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes. (p. 603-604)
 >! O consumidor recebe o texto, mas não recebe acesso real ao código que organiza seu significado. (p. 603)
 
 ## derivado Consumidor-cidadão

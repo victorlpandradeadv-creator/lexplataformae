@@ -1771,6 +1771,15 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 .porta-perda figure.ilustracao.decorativa { max-width: none; margin: -0.25rem 0 0.4rem; padding: 0; }
 .porta-perda figure.ilustracao.decorativa img { aspect-ratio: 4 / 3; object-fit: cover; }
 
+/* 22/11/2026. No texto integral a referência entre parênteses fica sempre à vista, em todos os modos, como está na tese.
+   O texto que se lê, se copia e se indexa é o da tese, sem o nome do autor no lugar da referência. */
+#conteudo-principal .texto-integral .cita-sinal { display: none !important; }
+#conteudo-principal .texto-integral .cita-grupo.cita-grupo:not(:focus-within),
+#conteudo-principal .texto-integral .cita-grupo.cita-grupo {
+  position: relative !important; width: auto !important; height: auto !important; overflow: visible !important;
+  clip-path: none !important; white-space: normal !important;
+}
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

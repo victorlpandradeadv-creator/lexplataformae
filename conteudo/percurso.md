@@ -582,7 +582,7 @@ Então por que não ir embora? Porque sair custa mais do que dinheiro. Ao sair, 
 
 Essa dependência não é fraqueza sua nem coisa da sua cabeça. Ela vem do jeito como o lugar é montado, porque é a plataforma que define o que conta como valor, como pertencimento e como progresso, e que pode rebaixar ou apagar tudo isso. Com o tempo, o pedágio deixa de ser o preço de um item e vira a taxa que mantém o seu lugar. Dar nome a isso não cria um bem novo. Serve para que essa forma de perda possa ser vista e controlada.
 
-> [...] reforçando um circuito de permanência que converte a participação do indivíduo em um insumo de valorização para a plataforma. Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema. (p. 224-225)
+> O medo de perder o que foi acumulado, de ver sua identidade digital desvalorizada ou apagada, torna-se instrumento de disciplina, consolidando uma forma de cativeiro existencial que se adiciona ao cativeiro econômico já descrito. Esse efeito pode ser nomeado, com precisão operacional, como cativeiro identitário, entendido como modalidade de dependência em que o custo de saída não se reduz ao plano patrimonial, mas envolve perda de reconhecimento, de reputação e de continuidade narrativa objetivada em registros públicos de desempenho, acervos, históricos e sinais de distinção produzidos no interior do ecossistema. (p. 224-225)
 > A dependência, nesse registro, não é psicológica no sentido individualizante, mas institucional e semiótica, porque decorre de um regime de visibilidade e de sanção que define o que conta como valor, pertença e progresso legítimo e, correlatamente, define como isso pode ser rebaixado, apagado ou desautorizado. (p. 225)
 > Em termos jurídico-consumeristas, a relevância do conceito não é criar um bem novo, mas tornar controlável uma forma específica de perda no fato do consumo (p. 225)
 > O resultado é um cativeiro identitário, no qual o pedágio se estabiliza como taxa de manutenção do lugar, não como preço pontual de um item. (p. 258)
@@ -842,7 +842,7 @@ A publicidade pega símbolos da cultura, como amizade, coragem e prestígio, e o
 No digital, isso não fica só no anúncio, porque vira desenho, e a tela decide quando, como e para quem cada sinal aparece, se repete e é premiado. A manipulação, então, não está só no conteúdo da mensagem, mas no jeito como ela é distribuída.
 
 > Para o autor, empresas mobilizam símbolos culturais para atribuir a produtos materiais a capacidade ilusória de satisfazer necessidades emocionais e sociais (p. 90)
-> 42 Segundo Willem H. Vanderburg (2016), a dessimbolização cultural representa o processo de enfraquecimento da capacidade humana de se atribuir significado às experiências, resultando em uma compreensão fragmentada e empobrecida da vida como um todo (p. 90)
+> Segundo Willem H. Vanderburg (2016), a dessimbolização cultural representa o processo de enfraquecimento da capacidade humana de se atribuir significado às experiências, resultando em uma compreensão fragmentada e empobrecida da vida como um todo (p. 90)
 > a dessimbolização não atua apenas no discurso publicitário, mas se acopla a arquiteturas técnicas que administram visibilidade, repetição e recompensa (p. 91)
 > A manipulação semiótica, portanto, não se dá apenas pelo conteúdo das mensagens, mas pela forma de sua distribuição e pela lógica de interface que define quando, como e para quem certos signos aparecem. (p. 91)
 
@@ -909,12 +909,11 @@ Muita informação também esconde. São documentos em camadas, links que levam 
 
 Você clicou em aceitar, mas aceitou dentro de uma moldura de linguagem que já deixava você fora do centro da relação. Não foi um erro sobre um preço ou sobre um prazo, que se pode apontar e corrigir.
 
-Foi algo mais fundo, porque o próprio jeito de fornecer criou uma dificuldade de decifrar, de comparar e de prever as consequências que importavam. Você recebeu o texto, mas não recebeu a chave para entender o código que dá sentido a ele. É uma incapacidade controlada, produzida pelas condições de comunicação, e não um descuido seu.
+Foi algo mais fundo, porque o próprio jeito de fornecer criou uma dificuldade de decifrar, de comparar e de prever as consequências que importavam. Você recebeu o texto, mas não recebeu a chave para entender o código que dá sentido a ele. É uma incapacidade produzida pela própria estrutura da comunicação, e não um descuido seu.
 
 > O consumidor não erra apenas um dado. Ele adere dentro de uma moldura de linguagem que já o coloca fora do centro de inteligibilidade da relação. É nesse ponto que se pode falar em consentimento viciado por sentido. Não se trata de erro factual pontual, como confundir um preço ou um prazo isolado. (p. 603)
 > O consumidor recebe o texto, mas não recebe acesso real ao código que organiza seu significado. (p. 603)
-> Trata-se de incapacidade controlada. (p. 603)
-> estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes (p. 604)
+> Trata-se de incapacidade estruturalmente produzida, pelas condições comunicacionais do fornecimento, de decodificar, comparar e antecipar consequências relevantes. (p. 603-604)
 
 ### texto
 
@@ -1531,7 +1530,7 @@ Por isso o problema não se resume a uma resposta errada aqui e ali. O que impor
 > O que se oferece é ambiente de orientação cognitiva. (p. 757)
 > Trata-se de infraestrutura funcional que organiza como o usuário compreende o problema submetido, confia na resposta recebida, a incorpora à sua tomada de decisão, a revê, a corrige ou a reavalia diante de erro, oscilação ou mudança de desempenho. (p. 757)
 > A primeira é tratar o conflito como mera discussão sobre erro factual isolado (p. 757)
-> a possibilidade institucional de reconstruir o nexo entre promessa, entrega, alteração e impacto (p. 757)
+> [...] na possibilidade institucional de reconstruir o nexo entre promessa, entrega, alteração e impacto. (p. 757)
 
 ### familia infraestrutura-e-intermediacao
 

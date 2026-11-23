@@ -10,9 +10,16 @@ Formatos reconhecidos
     "trecho citado" (p. 123)
 
 Trechos suprimidos marcados com [...] são conferidos fragmento a fragmento.
+
+Desde 22/11/2026 cada fragmento precisa estar também num fluxo só do corpus (dados/corpus.json), ou o
+corpo do texto ou uma nota de rodapé. No texto da página, o pdftotext põe as notas logo depois do corpo,
+e um trecho podia emendar o fim do corpo com o começo do rodapé sem que nada acusasse
+(Trata-se de incapacidade controlada, p. 603).
 A numeração de página é a impressa. No PDF da tese, página impressa = página do PDF - 2.
 Requer o utilitário pdftotext (poppler-utils).
 """
+import html
+import json
 import re
 import subprocess
 import sys
@@ -96,8 +103,52 @@ def achado(fragmento, ref, por_pagina):
     return fragmento in palheiro or atravessa_pagina(fragmento, ref, por_pagina)
 
 
+def fluxos():
+    """Corpo do texto por página impressa e cada nota de rodapé à parte, a partir do corpus."""
+    arquivo = RAIZ / "dados" / "corpus.json"
+    if not arquivo.exists():
+        return None
+    dados = json.loads(arquivo.read_text(encoding="utf-8"))
+    corpo, pagina = {}, None
+    notas = []
+    def limpar(h):
+        h = re.sub(r'<sup class="nota-ref">.*?</sup>', "", h)
+        h = re.sub(r'<span class="pg-marca"[^>]*>[^<]*</span>', lambda m: m.group(0), h)
+        return h
+    for sec in dados["secoes"]:
+        titulo = re.sub(r"<[^>]+>", "", limpar(sec.get("titulo_html", "")))
+        for b in sec["blocos"]:
+            for parte in re.split(r'(<span class="pg-marca" id="p\d+"[^>]*>[^<]*</span>)', limpar(b["html"])):
+                m = re.match(r'<span class="pg-marca" id="p(\d+)"', parte)
+                if m:
+                    pagina = int(m.group(1))
+                    continue
+                if pagina is not None:
+                    texto = html.unescape(re.sub(r"<[^>]+>", " " if b["tipo"] == "tabela" else "", parte))
+                    corpo.setdefault(pagina, []).append(texto)
+            corpo.setdefault(pagina, [])
+        for n in sec.get("notas", []):
+            notas.append((n["pagina"], normalizar(html.unescape(re.sub(r"<[^>]+>", "", limpar(n["html"]))))))
+    return {k: normalizar(" ".join(v)) for k, v in corpo.items()}, notas
+
+
+def num_fluxo(fragmento, ref, fl):
+    """O fragmento está inteiro no corpo das páginas citadas ou numa só nota delas."""
+    if fl is None or ref == "Resumo":
+        return True
+    corpo, notas = fl
+    numeros = [int(x) for x in ref[3:].split("-")]
+    a, b = numeros[0], numeros[-1]
+    if b < min(corpo):
+        return True  # páginas anteriores à introdução, como o resumo, ficam fora do corpus
+    if fragmento in " ".join(corpo.get(n, "") for n in range(a, b + 1)):
+        return True
+    return any(fragmento in t for p, t in notas if a - 3 <= p <= b)
+
+
 def main(arquivos):
     versoes = (paginas(), paginas(manter_hifen=True))
+    fl = fluxos()
     total = falhas = 0
     for arquivo in arquivos:
         for trecho, ref in citacoes(Path(arquivo).read_text(encoding="utf-8")):
@@ -106,6 +157,9 @@ def main(arquivos):
                 if len(fragmento) > 8 and not any(achado(normalizar(fragmento), ref, v) for v in versoes):
                     falhas += 1
                     print(f"NÃO ENCONTRADA  {arquivo}  {ref}  {fragmento[:100]}")
+                elif len(fragmento) > 8 and not num_fluxo(normalizar(fragmento), ref, fl):
+                    falhas += 1
+                    print(f"EMENDA ENTRE CORPO E NOTA  {arquivo}  {ref}  {fragmento[:100]}")
     print(f"{total} citações conferidas, {falhas} não encontradas.")
     return 1 if falhas else 0
 
