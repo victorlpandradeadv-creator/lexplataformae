@@ -11,7 +11,7 @@ mem = json.loads((T / "memoria.json").read_text()) if (T / "memoria.json").exist
 (T / "lotes").mkdir(exist_ok=True)
 vistos = set(mem)
 ORDEM = ["index.html", "caminho", "problemas", "direitos", "como-reclamar", "conceitos", "plataformas", "doutrina", "roteiro",
-         "legislacao", "instrumentos", "autor", "epigrafes", "metodo", "fundamentos", "dogmatica", "objeto-e-instrumentos", "autores", "referencias", "versoes"]
+         "legislacao", "instrumentos", "autor", "epigrafes", "metodo", "fundamentos", "dogmatica", "objeto-e-instrumentos", "autores", "referencias"]
 def peso(p):
     top = p.split("/")[0]
     return (ORDEM.index(top) if top in ORDEM else 50, p)
