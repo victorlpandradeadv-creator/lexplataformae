@@ -5136,8 +5136,9 @@ def gerar_autor():
         + doutrina_html("autor", prefixo)
         + '<section class="ext financiamento">'
           # Por ordem do autor de 25/11/2026, sem a fórmula O presente trabalho. O crédito, o código e o processo continuam.
-          '<p>A pesquisa teve apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, a CAPES, com o Código de Financiamento 001, '
-          'no processo nº 88887.670298/2022-00.</p></section>'
+          # Texto do autor, de 25/11/2026.
+          '<p>A pesquisa, realizada de 2022 a 2026, contou com o apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). '
+          'Processo nº 88887.670298/2022-00.</p></section>'
         + # Uso de IA, por ordem do autor de 25/11/2026, que pediu um parágrafo mais abrangente.
         '<section class="ext"><p>Este site foi construído com uso supervisionado de inteligência artificial, das ilustrações conceituais '
         'à organização do texto, à tradução para o inglês e ao código que monta as páginas. O conteúdo parte da tese, e o que veio depois dela aparece marcado como acréscimo. '
