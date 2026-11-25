@@ -5123,11 +5123,11 @@ def gerar_autor():
     prefixo = "../"
     corpo = (
         '<article class="folha autor-pagina">'
-        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Sobre</p><h1>Victor L. P. Andrade</h1></header>'
+        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Sobre</p><h1 class="so-leitor">Victor L. P. Andrade</h1></header>'
         # Texto do autor, de 25/11/2026.
-        '<section class="ext"><p>O conteúdo deste site se deriva da tese de doutorado em Direito apresentada pelo Dr. Victor L. P. Andrade '
+        '<section class="ext"><p>O conteúdo deste site se deriva da tese de doutorado em Direito apresentada pelo <b>Dr. Victor L. P. Andrade</b> '
         'ao Programa de Pós-graduação em Direito da Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, '
-        'sob orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
+        'sob orientação da <b>Prof.ª Dr.ª Luciana Lopes Canavez</b>.</p>'
         # A referência como a própria tese a registra nas folhas de resumo (p. 10 a 12 do PDF), com o título em negrito. 22/11/2026.
         '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>: '
         'a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. 829p. '
