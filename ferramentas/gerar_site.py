@@ -2449,6 +2449,7 @@ def gerar_inicio():
       <ul class="grade-conceitos" data-arq="conceitos independentes · sem ordem nem hierarquia">{cartoes_c}<li class="cartao-mais"><a class="cartao cartao-ideia" href="{pre}instrumentos/"><span class="cartao-frase">As palavras que o caminho toma emprestadas da economia, da semiótica e de outros campos.</span><b>Conceitos que vêm de outros campos</b></a></li></ul>
       {fontes_c}
     </section>
+    {ampliacoes_vocabulario(pre)}
 
     <section class="secao leituras ciencia" aria-labelledby="leituras-titulo">
       <h2 id="leituras-titulo">Três leituras do texto integral</h2>
@@ -2470,6 +2471,28 @@ def gerar_inicio():
         pagina("Vocabulário para contestar o consumo digital · Lex Plataformae",
                "Os nove nomes que respondem, cada um, por uma parte do que acontece com o que se compra no mundo digital.",
                corpo_v, pre, "conceitos/", {}, camada="mista"), encoding="utf-8")
+
+
+def ampliacoes_vocabulario(pre):
+    """Os nomes que o vocabulário ganhou depois da tese, na Doutrina e na Ciência. Nenhum deles entra como décimo conceito.
+    Correção de 24/11/2026, depois de o autor não achar a autometria em conceitos/."""
+    itens = []
+    if ALEM:
+        itens.append(("Objeto Imaterial de Fruição Governada (OIFG)", f"{pre}alem-do-consumo/#o-que-e",
+                      "O gênero civil de que o OIC é a espécie consumerista, para quem depende de uma plataforma sem ser consumidor.",
+                      "15/11/2026", "Nome acrescentado em 15 de novembro de 2026."))
+    if SAIDA_RESP:
+        itens.append(("Autometria", f"{pre}saida-responsavel/#criterio",
+                      "O critério que mede os deveres do fornecedor pelas escolhas que ele mesmo fez.",
+                      "24/11/2026", "Nome acrescentado em 24 de novembro de 2026."))
+    if not itens:
+        return ""
+    lis = "".join(f'<li><a class="cartao cartao-ideia" href="{href}"><span class="cartao-frase">{esc(frase)}</span><b>{esc(nome)}</b></a>'
+                  f'<p class="cartao-marca">{marca_acrescimo(data, explica)}</p></li>' for nome, href, frase, data, explica in itens)
+    return (f'<section class="secao em-modo modo-1 modo-2 ampliacoes-vocabulario" id="ampliacoes" aria-labelledby="ampliacoes-titulo" '
+            f'data-arq="acréscimo posterior · fora do texto da tese de 2026"><h2 id="ampliacoes-titulo">Dois nomes que ampliam o vocabulário</h2>'
+            f'<p>O vocabulário cresce sem virar lista de dez. Um nome alcança quem não é consumidor, e o outro mede quanto cada caso exige.</p>'
+            f'<ul class="grade-conceitos grade-ampliacoes">{lis}</ul></section>')
 
 
 def gerar_conceito(c):

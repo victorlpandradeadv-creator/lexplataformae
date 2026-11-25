@@ -1793,6 +1793,12 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 .marca-acrescimo:hover .marca-explica, .marca-acrescimo:focus .marca-explica, .marca-acrescimo:focus-within .marca-explica { opacity: 1; visibility: visible; }
 @media print { .marca-acrescimo .marca-explica { position: static; opacity: 1; visibility: visible; border: 0; padding: 0 0 0 0.3rem; } }
 
+/* Nomes que o vocabulário ganhou depois da tese, em conceitos/. 24/11/2026. */
+.ampliacoes-vocabulario .grade-ampliacoes { grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+.ampliacoes-vocabulario .grade-ampliacoes > li { display: flex; flex-direction: column; }
+.ampliacoes-vocabulario .grade-ampliacoes > li > .cartao { flex: 1; }
+.ampliacoes-vocabulario .cartao-marca { margin: 0.35rem 0 0; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {
