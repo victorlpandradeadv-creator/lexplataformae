@@ -12,7 +12,7 @@ import re, sys, html, json
 from pathlib import Path
 from collections import Counter, defaultdict
 R = Path(__file__).resolve().parent.parent
-INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md', 'conteudo/como-reclamar.md', 'conteudo/siga.md', 'conteudo/alem-do-consumo.md']
+INFO = ['conteudo/percurso.md', 'conteudo/camada-externa.md', 'conteudo/direitos.md', 'conteudo/problemas.md', 'conteudo/como-reclamar.md', 'conteudo/siga.md', 'conteudo/alem-do-consumo.md', 'conteudo/saida-responsavel.md']
 TODOS = INFO + ['conteudo/operar.md']
 # leis guarda o texto do Planalto, que é literal. As linhas fonte: dos casos guardam título e endereço da reportagem. 21/11/2026.
 IGN = {'partes', 'ideias', 'blocos', 'direitos', 'relacionados', 'cartoes', 'leis'}

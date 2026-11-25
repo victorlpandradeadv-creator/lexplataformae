@@ -93,7 +93,7 @@ def cartoes():
     lista.append(("siga", "Qual destas é a sua história?", "Seus direitos · por história"))
     for slug, chamada in siga():
         lista.append((f"siga-{slug}", chamada, "Qual destas é a sua história?"))
-    for ident, arq, rotulo in (("como-reclamar", "como-reclamar.md", "Seus direitos"), ("alem-do-consumo", "alem-do-consumo.md", "Seus direitos")):
+    for ident, arq, rotulo in (("como-reclamar", "como-reclamar.md", "Seus direitos"), ("alem-do-consumo", "alem-do-consumo.md", "Seus direitos"), ("saida-responsavel", "saida-responsavel.md", "Seus direitos")):
         t = titulo_arquivo(arq)
         if t:
             lista.append((ident, t, rotulo))

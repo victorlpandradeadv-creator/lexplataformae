@@ -1784,6 +1784,15 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 .copia-arquivada { color: var(--f-tinta-2, inherit); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .siga-fontes .copia-arquivada { font-size: .85em; }
 
+/* Marca de acréscimo posterior, de 24/11/2026, por orientação do autor. Só a data, pequena, e a explicação ao passar o mouse,
+   no foco ou no toque. Nunca frase no meio do texto. */
+.marca-acrescimo { position: relative; display: inline-block; font-size: 0.75rem; line-height: 1.3; color: var(--tinta-suave, var(--tinta)); border-bottom: 1px dotted currentColor; cursor: help; }
+.marca-acrescimo:focus-visible { outline: 2px solid var(--rubrica); outline-offset: 2px; }
+.marca-acrescimo .marca-explica { position: absolute; left: 0; top: calc(100% + 0.35rem); z-index: 20; width: max-content; max-width: 18rem; padding: 0.4rem 0.6rem;
+  font-size: 0.8125rem; line-height: 1.35; color: var(--tinta); background: var(--papel, #fff); border: 1px solid var(--rubrica); opacity: 0; visibility: hidden; transition: opacity 0.12s; }
+.marca-acrescimo:hover .marca-explica, .marca-acrescimo:focus .marca-explica, .marca-acrescimo:focus-within .marca-explica { opacity: 1; visibility: visible; }
+@media print { .marca-acrescimo .marca-explica { position: static; opacity: 1; visibility: visible; border: 0; padding: 0 0 0 0.3rem; } }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {
