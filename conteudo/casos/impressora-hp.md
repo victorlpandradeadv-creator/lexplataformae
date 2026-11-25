@@ -120,7 +120,11 @@ Se a impressora parou de aceitar um cartucho que funcionava depois de uma atuali
 
 Dá para pedir que a impressora volte a aceitar o que aceitava, com a versão anterior do programa ou com a opção de recusar a atualização, que a HP já oferece para alguns modelos. Quando isso não der, entram a troca, o abatimento no preço ou a devolução do dinheiro.
 
-Pedir não é garantia de conseguir. O resultado depende do modelo, das provas e de quem vai decidir, e a página sobre como reclamar mostra os caminhos e os prazos.
+Você não precisa provar como o programa da impressora funciona por dentro. Basta mostrar que o cartucho funcionava e deixou de funcionar depois da atualização. Os registros do sistema estão com a HP, e é ela quem tem de explicar o que mudou.
+
+> Nesses cenários, exigir prova exaustiva da parte vulnerável como se as condições de produção do litígio fossem simétricas significa, na prática, premiar o controle privado da obscuridade. (p. 735)
+
+O primeiro pedido vai para a própria HP. Se ela não resolver, o Procon, o consumidor.gov.br e o Juizado estão ao seu alcance, e a página sobre como reclamar mostra como usar cada um e em que prazo.
 
 ### qualificacao 1 Como o caso se qualifica?
 
