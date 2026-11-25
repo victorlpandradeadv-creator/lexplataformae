@@ -4027,8 +4027,28 @@ def com_lei(corpo, prefixo):
     return novo[:corte] + rodape + novo[corte:] if corte >= 0 else novo + rodape
 
 
+# Texto oficial dos artigos da página de Legislação, copiado do site do Planalto pelo navegador do autor em 25/11/2026,
+# por ordem do autor, que achou dispositivos duplicados e trechos cortados na página. Fica em estrutura/leis-planalto.json.
+LEIS_PLANALTO = json.loads((RAIZ / "estrutura" / "leis-planalto.json").read_text(encoding="utf-8")) if (RAIZ / "estrutura" / "leis-planalto.json").exists() else {"leis": {}}
+# Artigos longos de que a página traz só o caput e os incisos que o site usa.
+SO_CITADOS = {("Constituição", 5): "Só o caput e os incisos que o site usa."}
+
+
+def _linha_viva(l):
+    """Tira as linhas que só guardam o lugar de um dispositivo revogado ou vetado."""
+    resto = re.sub(r"\([^)]*\)", "", l)
+    resto = re.sub(r"^(§\s*\d+[º°o]?|Parágrafo único\.?|[IVXLC]+|[a-z]\))\s*[-–.]?\s*", "", resto.strip())
+    return bool(resto.strip(" .;-–"))
+
+
+def _chave_art(n):
+    m = re.match(r"(\d+)(.*)", str(n))
+    return (int(m.group(1)), m.group(2))
+
+
 def gerar_legislacao():
-    """A página de legislação do técnico. Cada artigo que a tese transcreve ou cita, com o texto integral, por lei."""
+    """A página de legislação do técnico. Cada artigo que o site usa, uma vez só, com o texto oficial em vigor, por lei.
+    As transcrições da tese ficam como remissão na Ciência, sem repetir o texto, desde 25/11/2026."""
     prefixo = "../"
     dados = leis()
     indice = dispositivos()["indice"]
@@ -4041,45 +4061,69 @@ def gerar_legislacao():
     for (curto, numero), e in dados.items():
         for t in e["tese"]:
             citado_em.setdefault((curto, numero), set()).add(t["slug"])
+    chaves = set(dados) | {k for k in LEIS_EXTRAS}
+    for curto, v in LEIS_PLANALTO["leis"].items():
+        for a in v["arts"]:
+            chaves.add((curto, int(a) if a.isdigit() else a))
     grupos, nav = [], []
     for curto in ORDEM_LEIS:
-        numeros = sorted(n for c, n in dados if c == curto)
+        numeros = sorted({n for c, n in chaves if c == curto}, key=_chave_art)
         if not numeros:
             continue
         nome, oficial = NOME_LEI[curto]
         ancora_lei = "lei-" + re.sub(r"[^a-z0-9]+", "-", curto.lower()).strip("-")
+        lei_pl = LEIS_PLANALTO["leis"].get(curto, {})
         itens = []
         for n in numeros:
-            e = dados[(curto, n)]
-            rotulo = f"arts. {e['planalto']['artigo']}" if e["planalto"] and " a " in e["planalto"]["artigo"] else f"art. {n}{'º' if n < 10 else ''}"
-            textos = []
-            vistos = set()
-            for t in sorted(e["tese"], key=lambda t: -len(t["texto"])):
-                if t["texto"] in vistos or any(t["texto"] in v for v in vistos):
-                    continue
-                vistos.add(t["texto"])
-                textos.append(html_texto_lei({"tipo": "tese", **t}, prefixo))
-            if e["planalto"]:
-                textos.append(html_texto_lei({"tipo": "planalto", **e["planalto"]}, prefixo))
+            e = dados.get((curto, n), {"tese": [], "planalto": None})
+            faixa = e["planalto"] and " a " in e["planalto"]["artigo"]
+            n_txt = str(n)
+            rotulo = f"arts. {e['planalto']['artigo']}" if faixa else f"art. {n_txt}{'º' if isinstance(n, int) and n < 10 else ''}"
+            if faixa:
+                linhas, fonte, data = e["planalto"]["texto"], e["planalto"]["fonte"], e["planalto"].get("data", "27/10/2026")
+            elif lei_pl.get("arts", {}).get(n_txt):
+                linhas, fonte, data = lei_pl["arts"][n_txt], lei_pl["url"], LEIS_PLANALTO["consulta"]
+            elif e["planalto"]:
+                linhas, fonte, data = e["planalto"]["texto"], e["planalto"]["fonte"], e["planalto"].get("data", "27/10/2026")
+            elif (curto, n) in LEIS_EXTRAS:
+                x = LEIS_EXTRAS[(curto, n)]
+                linhas, fonte, data = x["texto"], x["fonte"], x["data"]
+            else:
+                linhas, fonte, data = [], None, None
+            linhas = [l for l in linhas if _linha_viva(l)]
+            textos = ""
+            if linhas:
+                textos = (f'<blockquote class="lei-texto planalto">{"".join(f"<p>{esc(l)}</p>" for l in linhas)}</blockquote>'
+                          + (f'<p class="lei-fonte">{esc(SO_CITADOS[(curto, n)])}</p>' if (curto, n) in SO_CITADOS else "")
+                          + f'<p class="lei-fonte acrescimo">Texto em vigor no <a href="{esc(fonte)}" rel="noopener">site do Planalto</a>, consultado em {data}.</p>')
+            notas_tese = sorted({(t["nota"], t["pagina"], t["slug"]) for t in e["tese"]}, key=lambda x: int(x[0]))
+            if notas_tese:
+                textos += ('<p class="lei-fonte ciencia">Transcrito na tese ' + ("na nota " if len(notas_tese) == 1 else "nas notas ")
+                           + ", ".join(f'<a href="{prefixo}tese/{sl}/#n{nt}">{nt}</a> (p. {pg})' for nt, pg, sl in notas_tese) + ".</p>")
             secs = sorted(citado_em.get((curto, n), []), key=lambda slug: SECOES.index(POR_SLUG[slug]))
             onde = ", ".join(f'<a href="{prefixo}tese/{slug}/">{esc(POR_SLUG[slug]["n"] or POR_SLUG[slug]["titulo"].capitalize())}</a>' for slug in secs)
             usos = LEI_USOS.get((curto, n), {})
-            publicos = [f'<a href="{prefixo}{c}">{esc(t)}</a>' for c, (t, cam) in sorted(usos.items(), key=lambda x: x[1][0]) if cam != "ciencia"]
-            estudo = [f'<a href="{prefixo}{c}">{esc(t)}</a>' for c, (t, cam) in sorted(usos.items(), key=lambda x: x[1][0]) if cam == "ciencia"]
+            vistos, publicos, estudo = set(), [], []
+            for c, (t, cam) in sorted(usos.items(), key=lambda x: x[1][0]):
+                if t in vistos:
+                    continue
+                vistos.add(t)
+                (estudo if cam == "ciencia" else publicos).append(f'<a href="{prefixo}{c}">{esc(t)}</a>')
             aparece = ""
             if publicos:
-                aparece = ('<p class="lei-usos">Aparece em ' + ", ".join(publicos[:8])
-                           + ("" if not estudo else f'<span class="ciencia">, {", ".join(estudo[:6])}</span>') + ".</p>")
+                aparece = ('<p class="lei-usos">Aparece em ' + ", ".join(publicos)
+                           + ("" if not estudo else f'<span class="ciencia">, {", ".join(estudo)}</span>') + ".</p>")
             elif estudo:
-                aparece = f'<p class="lei-usos ciencia">Aparece em {", ".join(estudo[:6])}.</p>'
-            itens.append(f'<li class="artigo-lei" id="{ancora_lei}-{n}"><h3>{esc(rotulo)}</h3>{"".join(textos)}{aparece}'
+                aparece = f'<p class="lei-usos ciencia">Aparece em {", ".join(estudo)}.</p>'
+            ancora = f"{ancora_lei}-{n_txt.lower()}"
+            itens.append(f'<li class="artigo-lei" id="{ancora}"><h3>{esc(rotulo)}</h3>{textos}{aparece}'
                          + (f'<p class="lei-fonte ciencia">Citado em {onde}.</p>' if onde else "") + "</li>")
         nav.append(f'<li><a href="#{ancora_lei}">{esc(nome)}</a></li>')
         grupos.append(f'<section class="bloco lei-grupo" id="{ancora_lei}" aria-labelledby="{ancora_lei}-titulo">'
                       f'<h2 id="{ancora_lei}-titulo">{esc(nome)}</h2><p class="lei-oficial">{esc(oficial)}</p><ol class="artigos-lei">{"".join(itens)}</ol></section>')
     corpo = ('<article class="folha leitura legislacao">'
              '<header class="folha-cabeca"><p class="sobrelinha">Para operar</p><h1>Legislação</h1>'
-             '<p class="abertura-pagina">Os artigos de lei que aparecem nas situações, nas diretrizes e nas plataformas, com o texto integral, para não precisar abrir a lei. '
+             '<p class="abertura-pagina">Os artigos de lei que o site usa, cada um uma vez, com o texto em vigor no site do Planalto, para não precisar abrir a lei. '
              'Cada artigo leva de volta às páginas em que é usado.</p></header>'
              f'<nav class="bloco indice-roteiro" aria-label="Leis"><h2>Por lei</h2><ol>{"".join(nav)}</ol></nav>'
              + "".join(grupos)
