@@ -1799,6 +1799,11 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 .ampliacoes-vocabulario .grade-ampliacoes > li > .cartao { flex: 1; }
 .ampliacoes-vocabulario .cartao-marca { margin: 0.35rem 0 0; }
 
+/* Leia também, as ampliações ligadas às páginas do mesmo assunto. 24/11/2026. */
+.ampliacoes-ligadas { margin-top: 2rem; }
+.ampliacoes-ligadas li { display: flex; flex-direction: column; }
+.ampliacoes-ligadas .cartao-marca { margin: 0.3rem 0 0; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

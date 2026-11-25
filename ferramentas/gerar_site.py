@@ -549,6 +549,16 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     camada 'ciencia' é página do expert, que só existe em Ciência. Escolher outro modo leva à superfície.
     camada 'externa' não tem arquitetura própria a mostrar.
     """
+    # Ampliações ligadas, de 24/11/2026. Entram antes das saídas da página, ou no fim do artigo.
+    _amp = ampliacoes_da_pagina(caminho, prefixo)
+    if _amp:
+        if '<nav class="ext saidas"' in corpo:
+            corpo = corpo.replace('<nav class="ext saidas"', _amp + '<nav class="ext saidas"', 1)
+        elif "</article>" in corpo:
+            _i = corpo.rfind("</article>")
+            corpo = corpo[:_i] + _amp + corpo[_i:]
+        else:
+            corpo = corpo + _amp
     # 17/11/2026, por decisão do autor. Saíram as vinhetas dos direitos e os SVG dos problemas e das páginas avulsas.
     # Essas páginas ficam sem ilustração até as gravuras novas do roteiro de 17/11/2026.
     ident_il = ILUSTRACAO_PAGINA.get(caminho)
@@ -1468,6 +1478,39 @@ for _id, _l in (SAIDA_RESP or {}).get("leis", {}).items():
         _num = _l["rotulo"].split()[1].rstrip(",")
         LEIS_EXTRAS.setdefault(("Código Civil", int(_num) if _num.isdigit() else _num),
                                {"tipo": "planalto", "texto": [_l["texto"]], "fonte": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm", "data": "24/11/2026", "artigo": _num})
+
+
+# Ampliações ligadas. Cada acréscimo posterior à tese aparece nas páginas que tratam do mesmo assunto, e não só na própria página.
+# Revisão integral de 24/11/2026, por ordem do autor, depois de ele não achar a autometria no vocabulário.
+# Na Informação o link leva o título leigo da página. Na Doutrina e na Ciência leva o nome e uma frase.
+AMPLIACOES = [
+    {"id": "oifg", "href": "alem-do-consumo/", "ancora": "#o-que-e", "data": "15/11/2026", "explica": "Acréscimo posterior, de 15 de novembro de 2026.",
+     "leigo": "Quando não é relação de consumo, a lei continua protegendo?",
+     "nome": "Objeto Imaterial de Fruição Governada (OIFG)",
+     "frase": "O gênero civil de que o OIC é a espécie consumerista, para quem depende de uma plataforma sem ser consumidor.",
+     "paginas": ["problemas/vendo-na-plataforma/", "problemas/trabalho-por-app/", "problemas/loja-virtual/", "plataformas/consumidor-equiparado/",
+                 "plataformas/infraestrutura-e-intermediacao/", "plataformas/produtividade-gig-economy/", "doutrina/objeto/", "doutrina/vulnerabilidade/",
+                 "conceitos/oic/", "conceitos/feixe-de-fruicao-governada/", "doutrina/"]},
+    {"id": "autometria", "href": "saida-responsavel/", "ancora": "#criterio", "data": "24/11/2026", "explica": "Acréscimo posterior, de 24 de novembro de 2026.",
+     "leigo": "Se a plataforma vai embora, quanto tempo ela deve dar?",
+     "nome": "Autometria",
+     "frase": "O critério que mede os deveres do fornecedor pelas escolhas que ele mesmo fez, a começar pelo encerramento do serviço.",
+     "paginas": ["problemas/sair/", "problemas/historia-perdida/", "caminho/a-lei/", "direitos/j/", "roteiro/j/", "doutrina/propriedade-intelectual/",
+                 "doutrina/remedios/", "doutrina/ordem-constitucional/", "doutrina/ordem-constitucional/2/", "doutrina/lei-da-plataforma/",
+                 "doutrina/equivalencia/", "doutrina/"]},
+]
+
+
+def ampliacoes_da_pagina(caminho, prefixo):
+    itens = [a for a in AMPLIACOES if caminho in a["paginas"] and (a["id"] != "oifg" or ALEM) and (a["id"] != "autometria" or SAIDA_RESP)]
+    if not itens:
+        return ""
+    lis = "".join(
+        f'<li><a href="{prefixo}{a["href"]}"><span class="em-modo modo-0">{esc(a["leigo"])}</span>'
+        f'<span class="em-modo modo-1 modo-2"><b>{esc(a["nome"])}</b>. {esc(a["frase"])}</span></a>'
+        f'<p class="cartao-marca">{marca_acrescimo(a["data"], a["explica"])}</p></li>' for a in itens)
+    return (f'<aside class="ext ampliacoes-ligadas" aria-label="Leia também" data-arq="acréscimo posterior · fora do texto da tese de 2026">'
+            f'<p class="rotulo-ext">Leia também</p><ul class="partes-curtas">{lis}</ul></aside>')
 
 
 def marca_acrescimo(data_curta, texto):
@@ -4876,6 +4919,16 @@ def gerar_auxiliares():
     for c in [EIXO] + em_ordem([x for x in conceitos_do_atlas() if x is not EIXO]):
         can = canonica(c)
         linhas.append(f"- [{c['nome']}]({url_conceito(c['id'])}): {can['texto']} ({can['ref']})")
+    # Ampliações posteriores à tese, que até 24/11/2026 não apareciam no llms.txt. Revisão integral de 24/11/2026.
+    linhas += ["", "## Ampliações posteriores à tese", "", "Acréscimos feitos depois da defesa, marcados e datados no site. Não estão no texto da tese de 2026."]
+    if ALEM:
+        linhas.append(f"- [{ALEM['titulo']}]({BASE}/alem-do-consumo/): o Objeto Imaterial de Fruição Governada (OIFG), gênero civil de que o OIC é a espécie consumerista, para quem depende de uma plataforma sem ser consumidor. Acréscimo de 15/11/2026.")
+    if SAIDA_RESP:
+        linhas.append(f"- [{SAIDA_RESP['titulo']}]({BASE}/saida-responsavel/): a autometria, critério pelo qual os deveres do fornecedor se medem pelas escolhas que ele mesmo fez, com a régua da vinculação contratual e a da vinculação material no encerramento do serviço. Acréscimo de 24/11/2026.")
+    if COMO_RECLAMAR:
+        linhas.append(f"- [{COMO_RECLAMAR['titulo']}]({BASE}/como-reclamar/): Procon, consumidor.gov.br, Juizado e prazos, com o texto das leis. Acréscimo de 08/11/2026.")
+    if SIGA:
+        linhas.append(f"- [Qual destas é a sua história?]({BASE}/siga/): caminhos por objeto de cada família de plataforma, com casos documentados depois da tese. Acréscimo de 17/11/2026.")
     linhas += ["", "## Conceitos complementares e instrumentais", "", f"- [Conceitos por área]({BASE}/instrumentos/): índice dos termos do percurso, com links para as explicações em contexto. Instrumentos e categorias jurídicas por área, derivados e vocabulário do objeto em grupos próprios."]
     linhas += ["", "## Conceitos derivados", "", "Dez conceitos que a tese nomeia ao lado dos nove, cada um com página própria na voz do site. Os trechos literais que os sustentam ficam à vista no modo Ciência."]
     linhas += [f"- [{t}]({BASE}/{caminho_derivado(t)})" for t in sorted(DERIVADOS)]
