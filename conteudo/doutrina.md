@@ -1190,7 +1190,7 @@ Em cada família se mantêm distintos o mecanismo lesivo, o problema probatório
 
 ## autor
 
-### Como a pesquisa nasceu
+### Texto
 
 A pesquisa nasceu de um percurso que atravessou a dimensão institucional da propriedade industrial e ganhou nitidez no entretenimento interativo, onde a fruição depende de centros privados de decisão e de infraestruturas opacas. Não nasceu de uma agenda institucional prévia, e sim de um incômodo que se repetiu por anos, enquanto camadas técnicas deixavam de ser ferramentas e passavam a funcionar como ambiente.
 

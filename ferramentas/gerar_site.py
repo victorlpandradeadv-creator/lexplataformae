@@ -609,7 +609,7 @@ def pagina(titulo, descricao, corpo, prefixo, caminho, jsonld=None, camada="inte
     # Na página do autor o percurso termina no LinkedIn, e a assinatura do rodapé não se repete.
     # Rodapé com Como reclamar ao lado de Sobre o autor, sem o PDF, que fica na Ciência. Revisão de leitor aprovada em 13/11/2026.
     reclamar = f'<a href="{prefixo}como-reclamar/">Como reclamar</a>' if COMO_RECLAMAR and caminho != "como-reclamar/" else ""
-    autor = "" if caminho == "autor/" else f'<a href="{prefixo}autor/">Sobre o autor</a>'
+    autor = "" if caminho == "autor/" else f'<a href="{prefixo}autor/">Sobre</a>'
     assinatura = f'<p class="assinatura">{" ".join(x for x in (reclamar, autor) if x)}</p>' if (reclamar or autor) else ""
     return f"""<!doctype html>
 <html lang="pt-BR">
@@ -5123,7 +5123,7 @@ def gerar_autor():
     prefixo = "../"
     corpo = (
         '<article class="folha autor-pagina">'
-        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás desta teoria</p><h1>Victor L. P. Andrade</h1></header>'
+        '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Sobre</p><h1>Victor L. P. Andrade</h1></header>'
         # Texto do autor, de 25/11/2026.
         '<section class="ext"><p>O conteúdo deste site se deriva da tese de doutorado em Direito apresentada pelo Dr. Victor L. P. Andrade '
         'ao Programa de Pós-graduação em Direito da Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, '
@@ -5134,7 +5134,7 @@ def gerar_autor():
         'Tese (Doutorado em Direito) - Universidade Estadual Paulista “Júlio de Mesquita Filho”, Faculdade de Ciências Humanas e Sociais, Franca, 2026.</p>'
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
-        + '<section class="ext financiamento"><h2 class="rotulo-ext">Financiamento</h2>'
+        + '<section class="ext financiamento">'
           # Por ordem do autor de 25/11/2026, sem a fórmula O presente trabalho. O crédito, o código e o processo continuam.
           '<p>A pesquisa teve apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, a CAPES, com o Código de Financiamento 001, '
           'no processo nº 88887.670298/2022-00.</p></section>'
