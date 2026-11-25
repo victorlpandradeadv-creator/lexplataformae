@@ -1561,3 +1561,7 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
   position: relative !important; width: auto !important; height: auto !important; overflow: visible !important;
   clip-path: none !important; white-space: normal !important;
 }
+
+/* Cópias arquivadas das referências da web, acréscimo de 24/11/2026. */
+.copia-arquivada { color: var(--f-tinta-2, inherit); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.siga-fontes .copia-arquivada { font-size: .85em; }

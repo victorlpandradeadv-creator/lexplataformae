@@ -1780,6 +1780,10 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
   clip-path: none !important; white-space: normal !important;
 }
 
+/* Cópias arquivadas das referências da web, acréscimo de 24/11/2026. */
+.copia-arquivada { color: var(--f-tinta-2, inherit); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.siga-fontes .copia-arquivada { font-size: .85em; }
+
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
 :root {

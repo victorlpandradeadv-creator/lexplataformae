@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.19"
+VERSAO = "0.20"
 # Histórico público das versões, pela lição do Code v2 de Lessig, por ordem do autor de 10/11/2026. A página versoes/ só existe na Ciência.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -43,6 +43,7 @@ VERSOES = [
     ("0.17", "15/11/2026", "As ilustrações ganham versão própria para o tema escuro, e a revisão estética corrige o aviso de trecho já citado, a página de problemas, o título na Ciência e o menu no celular."),
     ("0.18", "21/11/2026", "A capa passa a perguntar O que a plataforma tomou de você?, cada modo ganha capa própria, sete histórias deixam o leitor começar pelo que aconteceu, as gravuras voltam como linha única das ilustrações, com as portas e os direitos ilustrados, e cada página nova ganha imagem própria de compartilhamento."),
     ("0.19", "22/11/2026", "O texto integral passa a conferir palavra por palavra com o PDF da tese, com a frase que faltava na nota 277, os intervalos de páginas e os endereços da web sem espaço partido, as entradas da lista de referências separadas na virada de página e as referências entre parênteses sempre à vista. A tese ganha os metadados do Google Acadêmico e um PDF com autoria declarada."),
+    ("0.20", "24/11/2026", "Cada referência da web, na lista da tese e nas fontes dos casos, passa a trazer o link da cópia arquivada no Internet Archive, a mais próxima da data de acesso, e as páginas que ainda não tinham cópia foram arquivadas."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -1617,7 +1618,7 @@ def gerar_siga():
                     f'<p class="sobrelinha">Caso documentado · acréscimo de 17/11/2026</p><h2 class="pergunta-secao">{esc(k["pergunta"])}</h2>'
                     + "".join(f"<p>{esc(t)}</p>" for t in k["paragrafos"])
                     + ('<p class="siga-fontes-rotulo"><b>Fontes</b></p><ul class="siga-fontes">' + "".join(
-                        f'<li><a href="{esc(u)}" rel="noopener">{esc(t)}</a></li>' for t, u in k["fontes"]) + "</ul>" if k["fontes"] else "")
+                        f'<li><a href="{esc(u)}" rel="noopener">{esc(t)}</a>{(" · " + link_copia(u)) if link_copia(u) else ""}</li>' for t, u in k["fontes"]) + "</ul>" if k["fontes"] else "")
                     + "</section>")
         outros = [(t, prefixo + h) for t, h, _ in caminhos if not h.endswith(f'/{c["slug"]}/')]
         corpo = (f'<article class="folha siga-pagina">'
@@ -3988,6 +3989,45 @@ CORRECOES_REFS = [("WARREN, Samuel D.; BRANDEIS, Louis D.", "[201-?]", "1890")]
 DATA_CORRECOES_REFS = "09/11/2026"
 
 
+# Cópias arquivadas das referências da web, acréscimo de 24/11/2026, por ordem do autor. O site guarda só o link
+# da cópia que o Internet Archive mantém, a mais próxima da data de acesso, porque a página é de terceiro.
+# O inventário fica em estrutura/acervo/referencias.json, com a data de acesso, a natureza e o campo arquivo.
+DATA_ACERVO = "24/11/2026"
+_ACERVO = {}
+
+
+def _url_chave(u):
+    return re.sub(r"^https?://(www\.)?", "", u.replace("&amp;", "&")).rstrip("/").lower()
+
+
+def acervo():
+    if not _ACERVO:
+        arq = RAIZ / "estrutura" / "acervo" / "referencias.json"
+        if arq.exists():
+            for x in json.loads(arq.read_text(encoding="utf-8")):
+                if x.get("arquivo"):
+                    _ACERVO[_url_chave(x["url"])] = x
+    return _ACERVO
+
+
+def copia_arquivada(url):
+    """O link da cópia arquivada e a data dela, em dd/mm/aaaa, ou None."""
+    x = acervo().get(_url_chave(url))
+    if not x:
+        return None
+    ts = x["arquivo"]
+    import datetime as _dt
+    hora = _dt.datetime.strptime(ts[:14].ljust(14, "0"), "%Y%m%d%H%M%S") - _dt.timedelta(hours=3)  # o arquivo data em UTC, o site em Brasília
+    return f'https://web.archive.org/web/{ts}/{x["url"]}', hora.strftime("%d/%m/%Y")
+
+
+def link_copia(url, classe="copia-arquivada"):
+    c = copia_arquivada(url)
+    if not c:
+        return ""
+    return f'<a class="{classe}" href="{esc(c[0])}" rel="noopener">Cópia arquivada em {c[1]}</a>'
+
+
 def referencias():
     """As entradas da lista de referências da tese, na ordem e na forma da tese, separadas também quando a virada de página as colou."""
     if _REFS:
@@ -4394,12 +4434,17 @@ def gerar_referencias():
         elif autor:
             destino = f'<a href="{prefixo}autores/{autor["slug"]}/">Página do autor</a>'
         n = cont.get(e["id"], 0)
-        meta = f'{chip_area(e["area"])} ' + (f'<span class="vezes">{n} {"citação" if n == 1 else "citações"}</span> ' if n else "") + f'{destino}'
+        copias = " ".join(dict.fromkeys(link_copia(u) for u in re.findall(r'https?://[^\s<>"]+?(?=\.?(?:\s|<|$))', re.sub(r"<[^>]+>", " ", e["html"])) if link_copia(u)))
+        meta = f'{chip_area(e["area"])} ' + (f'<span class="vezes">{n} {"citação" if n == 1 else "citações"}</span> ' if n else "") + f'{destino}' + (f' {copias}' if copias else "")
         itens.append(f'<li id="{e["id"]}"{estilo_area(e["area"])}><p class="entrada">{html_do_corpus(e["html"], "referencias", prefixo)}</p><p class="meta-ref">{meta}</p></li>')
     corpo = ('<article class="folha leitura referencias"><header class="folha-cabeca"><h1>Referências</h1>'
              f'<p>A lista de referências da tese, na ordem e na forma em que está no <a href="{prefixo}tese/referencias/">texto integral</a>, '
              'com a área de cada entrada e o número de vezes em que o texto a cita.</p></header>'
              f'<section class="bloco"><h2>A lista da tese</h2><ol class="lista-referencias">{"".join(itens)}</ol></section>'
+             f'<section class="bloco acrescimo" id="copias-arquivadas" data-arq="acréscimo posterior · {DATA_ACERVO}"><h2>Cópias arquivadas</h2>'
+             f'<p>Endereço da web some ou muda de conteúdo com o tempo. Por isso, desde {DATA_ACERVO}, cada entrada com endereço traz o link da cópia que o Internet Archive guarda, a mais próxima da data de acesso, e a data dessa cópia. '
+             'Quando a cópia é posterior ao acesso, ela mostra a página como estava naquele dia, que pode não ser a versão lida. '
+             'O site não hospeda essas páginas, porque são de terceiros, e guarda só o caminho até a cópia. O texto das leis que a tese cita sem transcrever está na <a href="' + prefixo + 'legislacao/">Legislação</a>.</p></section>'
              f'<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior.</p><ul class="partes-curtas"><li><a href="{prefixo}alem-do-consumo/#o-que-e">Objeto Imaterial de Fruição Governada (OIFG), 15/11/2026. Fontes, o Código Civil e a doutrina dos bens digitais de Zampier Lacerda, já presente na lista da tese.</a></li></ul></section>'
              "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "url": BASE + "/referencias/", "name": "Referências · Lex Plataformae",
