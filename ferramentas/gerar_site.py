@@ -23,7 +23,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "docs"
 BASE = "https://lexplataformae.com.br"
 REPO = "https://github.com/victorlpandradeadv-creator/lexplataformae"
-VERSAO = "0.21"
+VERSAO = "0.22"
 # Histórico das versões. Desde 25/11/2026, por ordem do autor, é registro interno do projeto e não vai mais ao site. Serve à data da citação sugerida.
 VERSOES = [
     ("0.3", "26/10/2026", "Primeira versão publicada, em construção, com o texto integral dividido em seções citáveis e uma página por conceito."),
@@ -45,6 +45,7 @@ VERSOES = [
     ("0.19", "22/11/2026", "O texto integral passa a conferir palavra por palavra com o PDF da tese, com a frase que faltava na nota 277, os intervalos de páginas e os endereços da web sem espaço partido, as entradas da lista de referências separadas na virada de página e as referências entre parênteses sempre à vista. A tese ganha os metadados do Google Acadêmico e um PDF com autoria declarada."),
     ("0.20", "24/11/2026", "Cada referência da web, na lista da tese e nas fontes dos casos, passa a trazer o link da cópia arquivada no Internet Archive, a mais próxima da data de acesso, e as páginas que ainda não tinham cópia foram arquivadas."),
     ("0.21", "24/11/2026", "Segunda grande adição posterior à defesa. A página Se a plataforma vai embora, quanto tempo ela deve dar? traz a autometria, a régua das escolhas do fornecedor, com a vinculação contratual e a vinculação material do encerramento, e as marcas de acréscimo passam a ser só a data, com a explicação ao passar o mouse."),
+    ("0.22", "25/11/2026", "Entra a seção Casos comentados, notícias sobre plataformas lidas pelo direito brasileiro, com o fato confirmado separado da versão que circula. O primeiro caso é o da impressora da HP que recusa cartuchos depois de atualizada."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -334,12 +335,13 @@ MENU = [
     ("Direitos", "direitos/", (0,)), ("Situações", "roteiro/", (1,)),
     ("Caminho", "caminho/", (0,)), ("Doutrina", "doutrina/", (1,)),
     ("Vocabulário", "conceitos/", (0, 1)), ("Plataformas", "plataformas/", (0, 1)), ("Legislação", "legislacao/", (1,)),
+    ("Casos", "casos/", (0, 1)),
     ("Método", "metodo/", (2,)), ("Fundamentos", "fundamentos/", (2,)), ("Dogmática", "dogmatica/", (2,)),
     ("Objeto e instrumentos", "objeto-e-instrumentos/", (2,)), ("Autores", "autores/", (2,)), ("Referências", "referencias/", (2,)),
 ]
 # Menu unificado, decisão do autor de 10/11/2026. Desde 13/11/2026, por decisão do autor, a Doutrina tem nomes próprios, Situações e Doutrina.
 MENU_SEGUNDA = [("Problemas", "problemas/"), ("Situações", "roteiro/"), ("Doutrina", "doutrina/"), ("Vocabulário", "conceitos/"),
-                ("Plataformas", "plataformas/"), ("Legislação", "legislacao/")]
+                ("Plataformas", "plataformas/"), ("Legislação", "legislacao/"), ("Casos", "casos/")]
 
 
 def menu_html(prefixo, atual=""):
@@ -358,7 +360,7 @@ def menu_html(prefixo, atual=""):
 
 # Páginas que o gerador escreve. O menu só mostra endereço que existe.
 PAGINAS_PRONTAS = {"caminho/", "direitos/", "plataformas/", "roteiro/", "roteiro/diretrizes/", "metodo/", "fundamentos/", "dogmatica/", "legislacao/",
-                   "autores/", "referencias/", "objeto-e-instrumentos/", "problemas/", "como-reclamar/", "doutrina/", "conceitos/"}
+                   "autores/", "referencias/", "objeto-e-instrumentos/", "problemas/", "como-reclamar/", "doutrina/", "conceitos/", "casos/"}
 
 
 _BQ = re.compile(r'<blockquote class="citacao(?: nao-e)?"><p>(.*?)(?=<a class="pg"|<span class="pg"|</p>)', re.S)
@@ -1498,11 +1500,20 @@ AMPLIACOES = [
      "paginas": ["problemas/sair/", "problemas/historia-perdida/", "caminho/a-lei/", "direitos/j/", "roteiro/j/", "doutrina/propriedade-intelectual/",
                  "doutrina/remedios/", "doutrina/ordem-constitucional/", "doutrina/ordem-constitucional/2/", "doutrina/lei-da-plataforma/",
                  "doutrina/equivalencia/", "doutrina/"]},
+    # Casos comentados, desde 25/11/2026. Cada caso aparece nas páginas do mesmo assunto.
+    {"id": "caso-impressora-hp", "href": "casos/impressora-hp/", "ancora": "", "data": "25/11/2026", "explica": "Caso comentado em 25 de novembro de 2026.",
+     "leigo": "Comprei a impressora. Quem decide que cartucho ela aceita?",
+     "nome": "Caso comentado, a impressora da HP",
+     "frase": "O bloqueio de cartuchos por atualização, lido pela equivalência de valor funcional e pela venda casada funcional.",
+     "paginas": ["problemas/programa-no-aparelho/", "problemas/servico-piorou/", "problemas/regras-escondidas/", "doutrina/equivalencia/",
+                 "doutrina/ilicito/", "conceitos/equivalencia-de-valor-funcional/", "conceitos/teleologia-abusiva/",
+                 "conceitos/ilicito-de-arquitetura/", "doutrina/propriedade-intelectual/"]},
 ]
 
 
 def ampliacoes_da_pagina(caminho, prefixo):
-    itens = [a for a in AMPLIACOES if caminho in a["paginas"] and (a["id"] != "oifg" or ALEM) and (a["id"] != "autometria" or SAIDA_RESP)]
+    itens = [a for a in AMPLIACOES if caminho in a["paginas"] and (a["id"] != "oifg" or ALEM) and (a["id"] != "autometria" or SAIDA_RESP)
+             and (not a["id"].startswith("caso-") or any(a["href"] == f'casos/{c["meta"]["slug"]}/' for c in CASOS))]
     if not itens:
         return ""
     lis = "".join(
@@ -1605,6 +1616,160 @@ def gerar_saida_responsavel():
         pagina("Quando a plataforma vai embora · aviso, transição e devolução medidos pelas escolhas da empresa · Lex Plataformae",
                "Quem vendeu plano de um ano ou manteve o serviço por anos responde por uma saída na mesma medida, com aviso, transição e devolução.",
                corpo, prefixo, "saida-responsavel/", jsonld, camada="mista", imagem="saida-responsavel"),
+        encoding="utf-8")
+
+
+# Casos comentados. Seção de notícias comentadas, acréscimo de 25/11/2026, por ordem do autor, que mandou rascunhar a seção
+# e montar a primeira edição. Capa em conteudo/casos-comentados.md e um arquivo por caso em conteudo/casos/.
+# Cada caso separa o fato confirmado da versão que circula e lê o caso pelo direito brasileiro. As fontes ficam à vista em todos os modos.
+def carregar_caso(arq):
+    """Lê um arquivo no formato de alem-do-consumo.md, com `fonte: título | endereço` por seção e o bloco `## meta`."""
+    if not arq.exists():
+        return None
+    dados = {"titulo": "", "abertura": [], "secoes": [], "meta": {}}
+    bloco, atual = None, None
+    for linha in arq.read_text(encoding="utf-8").splitlines():
+        if linha.startswith("## "):
+            bloco, atual = linha[3:].strip(), None
+            continue
+        if not linha.strip() or bloco is None:
+            continue
+        if bloco == "meta":
+            k, _, v = linha.partition(":")
+            dados["meta"][k.strip()] = v.strip()
+            continue
+        if bloco != "pagina":
+            continue
+        if linha.startswith("### "):
+            nome, _, resto = linha[4:].strip().partition(" ")
+            if nome in ("titulo", "abertura"):
+                atual = nome
+            else:
+                modos, _, pergunta = resto.partition(" ")
+                atual = {"campo": nome, "modos": [int(m) for m in modos.split(",")], "pergunta": pergunta.strip(),
+                         "paragrafos": [], "citacoes": [], "impacto": [], "fontes": [], "ordem": []}
+                dados["secoes"].append(atual)
+            continue
+        if atual == "titulo":
+            dados["titulo"] = (dados["titulo"] + " " + linha.strip()).strip()
+        elif atual == "abertura":
+            dados["abertura"].append(linha.strip())
+        elif isinstance(atual, dict):
+            m = re.match(r"^>(!?) (.+?) \((p\. [\d\-]+)\)\s*$", linha)
+            if m:
+                q = {"texto": m.group(2), "ref": m.group(3)}
+                atual["impacto" if m.group(1) else "citacoes"].append(q)
+                atual["ordem"].append(("impacto" if m.group(1) else "citacao", q))
+            elif linha.startswith("fonte:"):
+                t, _, u = linha[6:].partition("|")
+                atual["fontes"].append((t.strip(), u.strip()))
+            else:
+                atual["paragrafos"].append(linha.strip())
+                atual["ordem"].append(("p", linha.strip()))
+    return dados
+
+
+CASOS_CAPA = carregar_caso(RAIZ / "conteudo" / "casos-comentados.md")
+CASOS = sorted((c for c in (carregar_caso(a) for a in sorted((RAIZ / "conteudo" / "casos").glob("*.md"))) if c and c["meta"].get("slug")),
+               key=lambda c: c["meta"].get("data", ""), reverse=True) if (RAIZ / "conteudo" / "casos").exists() else []
+
+
+def _data_curta(iso):
+    a, m, d = iso.split("-")
+    return f"{d}/{m}/{a}"
+
+
+def _data_longa(iso):
+    meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+    a, m, d = iso.split("-")
+    return f"{int(d)} de {meses[int(m) - 1]} de {a}"
+
+
+def _secao_caso(x, prefixo):
+    modos = " ".join(f"modo-{m}" for m in x["modos"])
+    if 1 in x["modos"] and 2 not in x["modos"]:
+        modos += " modo-2"
+    corpo, cits = [], []
+
+    def solta():
+        if cits:
+            corpo.append(expansao(list(cits), prefixo))
+            cits.clear()
+    for tipo, v in x.get("ordem", []):
+        if tipo == "citacao":
+            cits.append(v)
+            continue
+        solta()
+        if tipo == "p":
+            corpo.append(f"<p>{esc(v)}</p>")
+        else:
+            corpo.append(f'<aside class="caixa-citacao"><blockquote class="citacao impacto"><p>{esc(v["texto"])}{pg(v["ref"], prefixo, v["texto"])}</p></blockquote></aside>')
+    solta()
+    fontes = ""
+    if x["fontes"]:
+        # As fontes ficam recolhidas, para não pesar na leitura do leigo, e se abrem num toque. Sem script, o details funciona igual.
+        fontes = (f'<details class="caso-fontes"><summary>Fontes desta parte ({len(x["fontes"])})</summary><ul class="siga-fontes">' + "".join(
+            f'<li><a href="{esc(u)}" rel="noopener">{esc(t)}</a>{(" · " + link_copia(u)) if link_copia(u) else ""}</li>' for t, u in x["fontes"]) + "</ul></details>")
+    return (f'<section class="ext em-modo {modos} caso-{x["campo"]}"><h2 class="pergunta-secao" id="{x["campo"]}">{esc(x["pergunta"])}</h2>'
+            + "".join(corpo) + fontes + "</section>")
+
+
+def gerar_casos():
+    if not CASOS_CAPA:
+        return
+    # Cada caso
+    for c in CASOS:
+        slug, iso = c["meta"]["slug"], c["meta"]["data"]
+        prefixo = "../../"
+        outros = [(o["titulo"], f'{prefixo}casos/{o["meta"]["slug"]}/') for o in CASOS if o is not c]
+        corpo = (f'<article class="folha alem-pagina caso-pagina">'
+                 f'<p class="sobrelinha-ext"><a href="{prefixo}casos/">{esc(CASOS_CAPA["titulo"])}</a> · '
+                 + marca_acrescimo(_data_curta(iso), f"Caso comentado em {_data_longa(iso)}.") + '</p>'
+                 f'<header class="folha-cabeca ext-cabeca"><h1>{esc(c["titulo"])}</h1></header>'
+                 f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in c["abertura"]) + '</section>'
+                 + "".join(_secao_caso(x, prefixo) for x in c["secoes"])
+                 + saidas_html([(COMO_RECLAMAR["titulo"] if COMO_RECLAMAR else "Como reclamar", f"{prefixo}como-reclamar/"),
+                                ("O serviço exige um programa que roda no meu aparelho. Posso questionar?", f"{prefixo}problemas/programa-no-aparelho/"),
+                                ("O serviço piorou, e o preço continua o mesmo. Posso reclamar?", f"{prefixo}problemas/servico-piorou/"),
+                                ("Todos os problemas", f"{prefixo}problemas/")])
+                 + saidas_html(outros, "Outros casos")
+                 + "</article>")
+        desc = c["meta"].get("resumo") or c["abertura"][0]
+        desc = desc if len(desc) <= 158 else desc[:155].rsplit(" ", 1)[0] + "..."
+        jsonld = {"@context": "https://schema.org", "@type": "Article", "headline": c["titulo"], "inLanguage": "pt-BR",
+                  "url": f"{BASE}/casos/{slug}/", "datePublished": iso, "dateModified": iso, "isBasedOn": BASE + "/#tese",
+                  "author": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade"},
+                  "citation": sorted({u for x in c["secoes"] for _, u in x["fontes"]})}
+        destino = SAIDA / "casos" / slug
+        destino.mkdir(parents=True, exist_ok=True)
+        (destino / "index.html").write_text(
+            pagina(f'{c["titulo"]} · Casos comentados · Lex Plataformae', desc, corpo, prefixo, f"casos/{slug}/", jsonld, camada="mista",
+                   imagem=f"casos-{slug}", irmas=(CASOS_CAPA["titulo"], [(esc(o["titulo"]), f'{prefixo}casos/{o["meta"]["slug"]}/', o is c) for o in CASOS])),
+            encoding="utf-8")
+    # A capa da seção
+    prefixo = "../"
+    A = CASOS_CAPA
+    lista = ('<nav class="ext casos-lista" aria-label="Casos"><ul class="partes problemas-lista">' + "".join(
+        f'<li><a href="{prefixo}casos/{c["meta"]["slug"]}/"><span class="parte-titulo">{esc(c["titulo"])}</span>'
+        f'<span class="parte-resumo">{esc(c["meta"].get("resumo", ""))}</span></a>'
+        f'<p class="cartao-marca">{marca_acrescimo(_data_curta(c["meta"]["data"]), "Caso comentado em " + _data_longa(c["meta"]["data"]) + ".")}</p></li>'
+        for c in CASOS) + "</ul></nav>") if CASOS else ""
+    corpo = (f'<article class="folha alem-pagina casos-indice">'
+             f'<p class="sobrelinha-ext">' + marca_acrescimo("25/11/2026", "Seção acrescentada em 25 de novembro de 2026.") + '</p>'
+             f'<header class="folha-cabeca ext-cabeca"><h1>{esc(A["titulo"])}</h1></header>'
+             f'<section class="ext abertura-problema">' + "".join(f"<p>{esc(t)}</p>" for t in A["abertura"]) + '</section>'
+             + lista + "".join(_secao_caso(x, prefixo) for x in A["secoes"])
+             + saidas_html([("Todos os problemas", f"{prefixo}problemas/"), (COMO_RECLAMAR["titulo"] if COMO_RECLAMAR else "Como reclamar", f"{prefixo}como-reclamar/")])
+             + "</article>")
+    jsonld = {"@context": "https://schema.org", "@type": "CollectionPage", "headline": A["titulo"], "inLanguage": "pt-BR", "url": f"{BASE}/casos/",
+              "dateModified": max([c["meta"]["data"] for c in CASOS] or ["2026-11-25"]),
+              "hasPart": [{"@type": "Article", "headline": c["titulo"], "url": f'{BASE}/casos/{c["meta"]["slug"]}/'} for c in CASOS]}
+    destino = SAIDA / "casos"
+    destino.mkdir(parents=True, exist_ok=True)
+    (destino / "index.html").write_text(
+        pagina("Casos comentados · notícias sobre plataformas lidas pelo direito do consumidor · Lex Plataformae",
+               "Notícias sobre plataformas e aparelhos conectados, com o fato confirmado separado da versão que circula e o que a lei brasileira diz.",
+               corpo, prefixo, "casos/", jsonld, camada="mista", imagem="casos"),
         encoding="utf-8")
 
 
@@ -4924,7 +5089,7 @@ def gerar_auxiliares():
         "User-agent: *\nAllow: /\n\n"
         + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in ("GPTBot", "ClaudeBot", "Claude-Web", "anthropic-ai", "Google-Extended", "CCBot", "PerplexityBot", "Applebot-Extended"))
         + f"Sitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
-    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + ([BASE + "/alem-do-consumo/"] if ALEM else []) + ([BASE + "/saida-responsavel/"] if SAIDA_RESP else []) + ([BASE + "/siga/"] + [f"{BASE}/siga/{x}/" for x in SIGA] if SIGA else []) + ([BASE + "/linguagem-geometrica/"] if (SAIDA / "linguagem-geometrica").exists() else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
+    urls = [BASE + "/conceitos/", BASE + "/doutrina/"] + [f'{BASE}/doutrina/{c["slug"]}/' for c in CURSO] + [BASE + "/instrumentos/", BASE + "/", BASE + "/caminho/", BASE + "/direitos/", BASE + "/problemas/", BASE + "/epigrafes/"] + ([BASE + "/como-reclamar/"] if COMO_RECLAMAR else []) + ([BASE + "/alem-do-consumo/"] if ALEM else []) + ([BASE + "/saida-responsavel/"] if SAIDA_RESP else []) + ([BASE + "/casos/"] + [f'{BASE}/casos/{c["meta"]["slug"]}/' for c in CASOS] if CASOS_CAPA else []) + ([BASE + "/siga/"] + [f"{BASE}/siga/{x}/" for x in SIGA] if SIGA else []) + ([BASE + "/linguagem-geometrica/"] if (SAIDA / "linguagem-geometrica").exists() else []) + [f"{BASE}/problemas/{s}/" for s in PROBLEMAS] + [f'{BASE}/caminho/{parte["slug"]}/' for parte in PERCURSO] + [url_conceito(c["id"]) for c in D["conceitos"]] + [BASE + "/tese/"] + [f'{BASE}/tese/{x["slug"]}/' for x in SECOES] + [f"{BASE}/direitos/{l}/" for l in LETRAS_DIREITOS] + [f"{BASE}/doutrina/{x}/2/" for x in CURSO_EM_DUAS] + [f"{BASE}/roteiro/{l}/" for l in "abcdefghijk" if (SAIDA / "roteiro" / l).exists()] + [BASE + "/roteiro/", BASE + "/roteiro/parametros/", BASE + "/roteiro/diretrizes/", BASE + "/roteiro/limites/", BASE + "/plataformas/", BASE + "/fundamentos/", BASE + "/metodo/", BASE + "/dogmatica/", BASE + "/legislacao/", BASE + "/autores/", BASE + "/referencias/", BASE + "/objeto-e-instrumentos/", BASE + "/autor/"] + [f'{BASE}/autores/{a["slug"]}/' for a in autores_pessoas().values() if not a.get("proprio")] + [f"{BASE}/plataformas/{slug}/" for _, slug in FAMILIAS + DESDOBRAMENTOS] + [f"{BASE}/{c}" for c in paginas_derivadas() if f"{BASE}/{c}" not in [url_conceito(x["id"]) for x in D["conceitos"]]]
     (SAIDA / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -4969,6 +5134,9 @@ def gerar_auxiliares():
         linhas.append(f"- [{ALEM['titulo']}]({BASE}/alem-do-consumo/): o Objeto Imaterial de Fruição Governada (OIFG), gênero civil de que o OIC é a espécie consumerista, para quem depende de uma plataforma sem ser consumidor. Acréscimo de 15/11/2026.")
     if SAIDA_RESP:
         linhas.append(f"- [{SAIDA_RESP['titulo']}]({BASE}/saida-responsavel/): a autometria, critério pelo qual os deveres do fornecedor se medem pelas escolhas que ele mesmo fez, com a régua da vinculação contratual e a da vinculação material no encerramento do serviço. Acréscimo de 24/11/2026.")
+    if CASOS_CAPA:
+        linhas.append(f"- [Casos comentados]({BASE}/casos/): notícias sobre plataformas e aparelhos conectados, com o fato confirmado separado da versão que circula e a leitura pelo direito brasileiro. Seção de 25/11/2026.")
+        linhas += [f"  - [{c['titulo']}]({BASE}/casos/{c['meta']['slug']}/): {c['meta'].get('resumo', '')} Caso de {_data_curta(c['meta']['data'])}." for c in CASOS]
     if COMO_RECLAMAR:
         linhas.append(f"- [{COMO_RECLAMAR['titulo']}]({BASE}/como-reclamar/): Procon, consumidor.gov.br, Juizado e prazos, com o texto das leis. Acréscimo de 08/11/2026.")
     if SIGA:
@@ -5283,6 +5451,7 @@ def main():
     gerar_como_reclamar()
     gerar_alem_do_consumo()
     gerar_saida_responsavel()
+    gerar_casos()
     gerar_siga()
     gerar_epigrafes()
     for c in D["conceitos"]:

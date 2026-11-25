@@ -107,5 +107,7 @@
  "pedido": "order",
  "corrida": "ride",
  "loja": "store",
- "reclamacao": "complaint"
+ "reclamacao": "complaint",
+ "casos": "cases",
+ "impressora-hp": "hp-printer"
 }

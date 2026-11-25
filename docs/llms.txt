@@ -84,6 +84,8 @@ A primeira vista do site conta a tese inteira a partir da compra de uma skin, em
 Acréscimos feitos depois da defesa, marcados e datados no site. Não estão no texto da tese de 2026.
 - [Quando não é relação de consumo, a lei continua protegendo?](https://lexplataformae.com.br/alem-do-consumo/): o Objeto Imaterial de Fruição Governada (OIFG), gênero civil de que o OIC é a espécie consumerista, para quem depende de uma plataforma sem ser consumidor. Acréscimo de 15/11/2026.
 - [Se a plataforma vai embora, quanto tempo ela deve dar?](https://lexplataformae.com.br/saida-responsavel/): a autometria, critério pelo qual os deveres do fornecedor se medem pelas escolhas que ele mesmo fez, com a régua da vinculação contratual e a da vinculação material no encerramento do serviço. Acréscimo de 24/11/2026.
+- [Casos comentados](https://lexplataformae.com.br/casos/): notícias sobre plataformas e aparelhos conectados, com o fato confirmado separado da versão que circula e a leitura pelo direito brasileiro. Seção de 25/11/2026.
+  - [Comprei a impressora. Quem decide que cartucho ela aceita?](https://lexplataformae.com.br/casos/impressora-hp/): A HP atualiza impressoras para recusar cartuchos que antes funcionavam. O que aconteceu, o que a versão das redes troca e o que a lei brasileira diz. Caso de 25/11/2026.
 - [Onde reclamar quando a plataforma não resolve?](https://lexplataformae.com.br/como-reclamar/): Procon, consumidor.gov.br, Juizado e prazos, com o texto das leis. Acréscimo de 08/11/2026.
 - [Qual destas é a sua história?](https://lexplataformae.com.br/siga/): caminhos por objeto de cada família de plataforma, com casos documentados depois da tese. Acréscimo de 17/11/2026.
 

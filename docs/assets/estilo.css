@@ -1803,6 +1803,13 @@ figure.ilustracao figcaption { margin-inline: auto; text-align: center; }
 .ampliacoes-ligadas { margin-top: 2rem; }
 .ampliacoes-ligadas li { display: flex; flex-direction: column; }
 .ampliacoes-ligadas .cartao-marca { margin: 0.3rem 0 0; }
+/* Casos comentados, 25/11/2026. As fontes de cada parte ficam recolhidas e se abrem num toque. A data do caso fica sob o cartão da lista. */
+.caso-fontes { margin-top: 1rem; font-size: 0.95rem; }
+.caso-fontes > summary { cursor: pointer; font-weight: 600; color: var(--tinta-2); }
+.caso-fontes > summary:is(:hover, :focus-visible) { color: var(--rubrica); }
+.caso-fontes[open] > summary { margin-bottom: 0.5rem; }
+.casos-lista .cartao-marca { margin: 0.35rem 0 0; }
+.casos-lista + section { margin-top: 2rem; }
 
 /* Gerado por ferramentas/cores/gerar_css.py a partir de estrutura/cores.json. Não editar à mão. */
 /* Tokens globais e o modo Informação, que é o padrão. */
