@@ -410,7 +410,8 @@
   "referencia": "RIOT GAMES. The Harrowing?. Ask Riot, 26 out. 2017c",
   "natureza": "protegida",
   "arquivo": "20260216141559",
-  "distancia_dias": -13
+  "distancia_dias": -13,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/en-us/2017/10/dev-missions-update/",
@@ -419,7 +420,8 @@
   "referencia": "RIOT GAMES. /dev: Missions Update. Por Riot_Mort. League of Legends, out. 2017f",
   "natureza": "protegida",
   "arquivo": "20260417063424",
-  "distancia_dias": 47
+  "distancia_dias": 47,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/en-us/2018/01/champion-roadmap-january-2018/",
@@ -428,7 +430,8 @@
   "referencia": "RIOT GAMES. Champion Roadmap: January 2018. Por Reav3. League of Legends, 31 jan. 2018c",
   "natureza": "protegida",
   "arquivo": "20260222061138",
-  "distancia_dias": -7
+  "distancia_dias": -7,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/en-us/2018/01/dev-update-on-runes-reforged/",
@@ -437,7 +440,8 @@
   "referencia": "p. 818 RIOT GAMES. /dev: Update on Runes Reforged. Por Fearless. League of Legends, 22 jan. 2018a",
   "natureza": "protegida",
   "arquivo": "20260524035847",
-  "distancia_dias": 84
+  "distancia_dias": 84,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/en-us/2018/02/ask-riot-balancing-champions/",
@@ -446,7 +450,8 @@
   "referencia": "RIOT GAMES. Balancing Champions. Por Riot Maple Nectar; Riot King Cobra; DontHassleDaHoff. League of Legends, 8 fev. 2018b",
   "natureza": "protegida",
   "arquivo": "20250211131632",
-  "distancia_dias": -383
+  "distancia_dias": -383,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/pt-br/2019/05/dev-champion-balance-framework/",
@@ -455,7 +460,8 @@
   "referencia": "RIOT GAMES. /dev: Plano de Balanceamento de Campeões. Por RiotRepertoir. Nexus, 30 maio 2019",
   "natureza": "protegida",
   "arquivo": "20251007041036",
-  "distancia_dias": -145
+  "distancia_dias": -145,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://nexus.leagueoflegends.com/pt-br/2019/08/ask-riot-most-popular-skin/",
@@ -464,7 +470,8 @@
   "referencia": "RIOT GAMES. Qual a skin mais popular? Por IamCarlos; MechaHawk; Riot Stephiroth. League of Legends, 8 ago. 2019b",
   "natureza": "protegida",
   "arquivo": "20240730081649",
-  "distancia_dias": -579
+  "distancia_dias": -579,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://olhardigital.com.br/2025/06/25/pro/voce-reparou-parte-do-facebook-esta-sumindo/",
@@ -536,8 +543,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Xbox Game Pass FAQ. Por Wolf. League of Legends - Suporte ao Jogador, 12 dez. 2022o",
   "natureza": "termos",
-  "arquivo": "20251003180602",
-  "distancia_dias": -149
+  "arquivo": "20261125003256",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003180602",
+  "endereco_atual": "https://support.riotgames.com/en-us/riot/gameplay/xbox-game-pass-faqs"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/12720701428115-Price-Tiers-for-Skins-in-League-of-Legends-SEA",
@@ -545,8 +554,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Price Tiers for Skins in League of Legends (SEA). League of Legends - Player Support, 4 jan. 2023a",
   "natureza": "termos",
-  "arquivo": "20251003191105",
-  "distancia_dias": -149
+  "arquivo": "20261125003306",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003191105",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/account/price-tiers-for-skins-in-league-of-legends-sea"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/201752824-Reward-BE-XP-System-Breakdown",
@@ -554,8 +565,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Reward (BE/XP) System Breakdown. Por Chipteck. League of Legends - Suporte ao Jogador, 11 nov. 2025o",
   "natureza": "termos",
-  "arquivo": "20260202225409",
-  "distancia_dias": -27
+  "arquivo": "20261125003327",
+  "distancia_dias": 269,
+  "arquivo_original": "20260202225409",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/rewards/reward-bexp-system-breakdown"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/202083304-Champion-Pricing-Overview",
@@ -563,8 +576,10 @@
   "origem": "tese",
   "referencia": "p. 824 RIOT GAMES. Champion Pricing Overview. Por Nancymon. League of Legends - Suporte ao Jogador, 25 jun. 2025i",
   "natureza": "termos",
-  "arquivo": "20251003182523",
-  "distancia_dias": -149
+  "arquivo": "20261125003420",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003182523",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/store/champion-pricing-overview"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/209939463-Honor-and-Hextech-Crafting-Restrictions",
@@ -572,8 +587,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Honor and Hextech Crafting Restrictions. League of Legends - Player Support, 18 set. 2017b",
   "natureza": "termos",
-  "arquivo": "20251003180351",
-  "distancia_dias": -149
+  "arquivo": "20261125003431",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003180351",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/penalties/honor-and-hextech-crafting-restrictions"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/233073948-Elementalist-Lux-FAQ",
@@ -581,8 +598,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Elementalist Lux FAQ. Por CopperKitten. League of Legends - Suporte ao Jogador, 25 mar. 2022e",
   "natureza": "termos",
-  "arquivo": "20251003182934",
-  "distancia_dias": -149
+  "arquivo": "20261125003529",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003182934",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/store/elementalist-lux-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/24169857932435-Riot-Vanguard-FAQ-League-of-Legends",
@@ -590,8 +609,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Riot Vanguard FAQ (League of Legends). League of Legends Support, 3 maio 2024r",
   "natureza": "termos",
-  "arquivo": "20260309110344",
-  "distancia_dias": 0
+  "arquivo": "20261125003555",
+  "distancia_dias": 261,
+  "arquivo_original": "20260309110344",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/performance/riot-vanguard-faq-league-of-legends"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/33630227186195-LoL-Price-Changes-2024-LATAM-BR",
@@ -599,8 +620,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. LoL Price Changes - 2024 (LATAM &amp; BR). League of Legends - Player Support, 21 set. 2024c",
   "natureza": "termos",
-  "arquivo": "20251003184755",
-  "distancia_dias": -149
+  "arquivo": "20261125003524",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003184755",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/account/lol-price-changes-2024-latam-br"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/360042792214-Eternals-FAQ-League-of-Legends",
@@ -608,8 +631,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Eternals FAQ - League of Legends. Por whatacoolwitch. League of Legends - Suporte ao Jogador, 17 mar. 2022f",
   "natureza": "termos",
-  "arquivo": "20251003183646",
-  "distancia_dias": -149
+  "arquivo": "20261125003535",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003183646",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/store/eternals-faq-league-of-legends"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4405781372051-MMR-Rank-and-LP",
@@ -617,8 +642,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. MMR, Rank, and LP. Por Laserface. League of Legends - Suporte ao Jogador, 7 jan. 2026h",
   "natureza": "termos",
-  "arquivo": "20260223000647",
-  "distancia_dias": -6
+  "arquivo": "20261125003606",
+  "distancia_dias": 269,
+  "arquivo_original": "20260223000647",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/gameplay/mmr-rank-and-lp"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4406003617555-Ranked-Years-Seasons-and-End-of-Season-Rewards",
@@ -626,8 +653,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Ranked Years, Seasons, and End-of-Season Rewards. League of Legends - Player Support, 8 maio 2025g",
   "natureza": "termos",
-  "arquivo": "20260319000538",
-  "distancia_dias": 18
+  "arquivo": "20261125003617",
+  "distancia_dias": 269,
+  "arquivo_original": "20260319000538",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/rewards/ranked-years-seasons-and-end-of-season-rewards"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4463262511635-Mythic-Shop-and-Mythic-Essence-FAQ",
@@ -635,8 +664,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Mythic Shop and Mythic Essence FAQ. Por Skittle Sniper. League of Legends - Suporte ao Jogador, 11 dez. 2024n",
   "natureza": "termos",
-  "arquivo": "20251107111938",
-  "distancia_dias": -114
+  "arquivo": "20261125003628",
+  "distancia_dias": 269,
+  "arquivo_original": "20251107111938",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/rewards/mythic-shop-and-mythic-essence-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/en-us/articles/6005348905363-Challenges-FAQ-League-of-Legends",
@@ -644,8 +675,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Challenges FAQ - League of Legends. League of Legends - Player Support, 30 nov. 2022b",
   "natureza": "termos",
-  "arquivo": "20251003181535",
-  "distancia_dias": -149
+  "arquivo": "20261125003814",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003181535",
+  "endereco_atual": "https://support.riotgames.com/en-us/league-of-legends/gameplay/challenges-faq-league-of-legends"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/115008256847-Miss%C3%B5es",
@@ -653,8 +686,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Missões. Por Isto. League of Legends - Suporte ao Jogador, 26 set. 2017d",
   "natureza": "termos",
-  "arquivo": "20251003183357",
-  "distancia_dias": -149
+  "arquivo": "20260629053107",
+  "distancia_dias": 120,
+  "arquivo_original": "20251003183357",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/introducing-missions"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/115008474148-Guia-de-Honra-do-League-of-Legends",
@@ -662,8 +697,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Guia de Honra do League of Legends. League of Legends - Suporte ao Jogador, 31 mar. 2025a",
   "natureza": "termos",
-  "arquivo": "20251006102523",
-  "distancia_dias": -146
+  "arquivo": "20261125003741",
+  "distancia_dias": 269,
+  "arquivo_original": "20251006102523",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/rewards/league-of-legends-honor-guide"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/115012568988-Sua-Loja-Perguntas-Frequentes",
@@ -671,8 +708,10 @@
   "origem": "tese",
   "referencia": "p. 821 RIOT GAMES. Sua Loja - Perguntas Frequentes. League of Legends - Suporte ao Jogador, 20 jul. 2023b",
   "natureza": "termos",
-  "arquivo": "20251003181412",
-  "distancia_dias": -149
+  "arquivo": "20260811210627",
+  "distancia_dias": 163,
+  "arquivo_original": "20251003181412",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/your-shop-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201751864-LoL-Pol%C3%ADtica-de-Reembolso",
@@ -680,8 +719,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. LoL - Política de Reembolso. Por Isto. League of Legends - Suporte ao Jogador, 5 dez. 2025k",
   "natureza": "termos",
-  "arquivo": "20251003180929",
-  "distancia_dias": -149
+  "arquivo": "20261125003423",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003180929",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/billing/lol-refund-policy"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201751904-Ambiente-P%C3%BAblico-de-Testes-PBE-Perguntas-Frequentes",
@@ -689,8 +730,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Ambiente Público de Testes (PBE) - Perguntas Frequentes. Por Nancymon. League of Legends - Suporte ao Jogador, 4 jul. 2024j",
   "natureza": "termos",
-  "arquivo": "20251008171645",
-  "distancia_dias": -144
+  "arquivo": "20260920171557",
+  "distancia_dias": 203,
+  "arquivo_original": "20251008171645",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/support-tools/public-beta-environment-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201752824-Detalhamento-do-sistema-de-recompensas-EA-EXP",
@@ -698,8 +741,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Detalhamento do sistema de recompensas (EA/EXP). Por Chipteck. League of Legends - Suporte ao Jogador, 14 nov. 2025j",
   "natureza": "termos",
-  "arquivo": "20260225093845",
-  "distancia_dias": -4
+  "arquivo": "20261016115131",
+  "distancia_dias": 229,
+  "arquivo_original": "20260225093845",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/rewards/reward-bexp-system-breakdown"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201752944-Skins-Legado-e-Limitadas-Guia",
@@ -707,8 +752,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Skins Legado e Limitadas - Guia. League of Legends - Suporte ao Jogador, 3 set. 2025h",
   "natureza": "termos",
-  "arquivo": "20251003182728",
-  "distancia_dias": -149
+  "arquivo": "20261125003911",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003182728",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/guide-to-legacy-and-limited-skins"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201752954-Gerenciamento-de-partidas-e-preenchimento-autom%C3%A1tico",
@@ -716,8 +763,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Gerenciamento de partidas e preenchimento automático. League of Legends - Suporte ao Jogador, 4 fev. 2026a",
   "natureza": "termos",
-  "arquivo": "20251003185000",
-  "distancia_dias": -149
+  "arquivo": "20260629053055",
+  "distancia_dias": 120,
+  "arquivo_original": "20251003185000",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/matchmaking-and-autofill"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/201752964-Guia-de-Presentes-Perguntas-frequentes",
@@ -725,8 +774,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Guia de Presentes – Perguntas frequentes. League of Legends – Suporte ao Jogador, 18 set. 2025r",
   "natureza": "termos",
-  "arquivo": "20251008163810",
-  "distancia_dias": -152
+  "arquivo": "20261125003843",
+  "distancia_dias": 261,
+  "arquivo_original": "20251008163810",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/gifting-guide-and-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/202294884-Calend%C3%A1rio-de-Atualiza%C3%A7%C3%B5es-de-Campe%C3%B5es",
@@ -734,8 +785,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Calendário de Atualizações de Campeões. Por Morgageddon. League of Legends - Suporte ao Jogador, 26 maio 2021c",
   "natureza": "termos",
-  "arquivo": "20251014091831",
-  "distancia_dias": -138
+  "arquivo": "20261125003940",
+  "distancia_dias": 269,
+  "arquivo_original": "20251014091831",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/champion-update-schedule"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/203149980-M%C3%A9todos-de-Pagamento-FAQ",
@@ -743,8 +796,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Métodos de Pagamento - FAQ. Por Boneco de Olinda. League of Legends - Suporte ao Jogador, 30 jul. 2024l",
   "natureza": "termos",
-  "arquivo": "20251008155108",
-  "distancia_dias": -144
+  "arquivo": "20261125003954",
+  "distancia_dias": 269,
+  "arquivo_original": "20251008155108",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/billing/metodos-de-pagamento-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/203799564-Perguntas-Frequentes-sobre-a-DJ-Sona",
@@ -752,8 +807,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Perguntas Frequentes sobre a DJ Sona. Por Nancymon. League of Legends - Suporte ao Jogador, 28 mar. 2022h",
   "natureza": "termos",
-  "arquivo": "20251003180904",
-  "distancia_dias": -149
+  "arquivo": "20261125004017",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003180904",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/dj-sona-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/20590555887251-Cobran%C3%A7a-n%C3%A3o-autorizada-da-Riot-Games",
@@ -761,8 +818,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Cobrança não autorizada da Riot Games. League of Legends – Suporte ao Jogador, 20 set. 2023e",
   "natureza": "termos",
-  "arquivo": "20251003183221",
-  "distancia_dias": -157
+  "arquivo": "20260614103417",
+  "distancia_dias": 97,
+  "arquivo_original": "20251003183221",
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/security/unauthorized-charge-from-riot-games"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/207489286-Sistema-de-Feedback-Instant%C3%A2neo-Perguntas-Frequentes",
@@ -770,8 +829,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Sistema de Feedback Instantâneo - Perguntas Frequentes. Por Itsumo. League of Legends - Suporte ao Jogador, 4 fev. 2026i",
   "natureza": "termos",
-  "arquivo": "20251003184217",
-  "distancia_dias": -149
+  "arquivo": "20261125004027",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003184217",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/penalties/instant-feedback-system-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/209939463-Cria%C3%A7%C3%A3o-Hextec-e-Honra-Restri%C3%A7%C3%B5es-de-Comportamento",
@@ -779,8 +840,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Criação Hextec e Honra - Restrições de Comportamento. League of Legends - Suporte ao Jogador, 31 ago. 2017a",
   "natureza": "termos",
-  "arquivo": "20260521021436",
-  "distancia_dias": 81
+  "arquivo": "20260610050755",
+  "distancia_dias": 101,
+  "arquivo_original": "20260521021436",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/penalties/honor-and-hextech-crafting-restrictions"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/25323643321747-League-of-Legends-Festival-Lunar-2024",
@@ -788,8 +851,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. League of Legends - Festival Lunar 2024. League of Legends - Suporte ao Jogador, 28 fev. 2024b",
   "natureza": "termos",
-  "arquivo": "20251003181116",
-  "distancia_dias": -149
+  "arquivo": "20261125004016",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003181116",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/events/league-of-legends-lunar-revel-2024"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/33630227186195-Mudan%C3%A7as-nos-pre%C3%A7os-do-LoL-2024-Am%C3%A9rica-Latina-e-Brasil",
@@ -797,8 +862,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Mudanças nos preços do LoL - 2024 (América Latina e Brasil). Por Laserface. League of Legends - Suporte ao Jogador, 25 set. 2024m",
   "natureza": "termos",
-  "arquivo": "20251003184755",
-  "distancia_dias": -149
+  "arquivo": "20261125004123",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003184755",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/account/lol-price-changes-2024-latam-br"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/35821278718995-O-Santu%C3%A1rio",
@@ -806,8 +873,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. O Santuário. League of Legends - Suporte ao Jogador, 18 ago. 2025d",
   "natureza": "termos",
-  "arquivo": "20251007062200",
-  "distancia_dias": -145
+  "arquivo": "20261125004037",
+  "distancia_dias": 269,
+  "arquivo_original": "20251007062200",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/the-sanctum"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/360038430973-Perguntas-Frequentes-de-suspens%C3%A3o-banimento-do-League-of-Legends",
@@ -815,8 +884,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Perguntas Frequentes de suspensão/banimento do League of Legends.  League of Legends - Suporte ao Jogador, 3 fev. 2026e",
   "natureza": "termos",
-  "arquivo": "20260228095724",
-  "distancia_dias": -1
+  "arquivo": "20261125004108",
+  "distancia_dias": 269,
+  "arquivo_original": "20260228095724",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/penalties/league-of-legends-suspension-ban-faq"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/360042792214-Perguntas-Frequentes-Eternos-League-of-Legends",
@@ -824,8 +895,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Perguntas Frequentes: Eternos - League of Legends. Por whatacoolwitch. League of Legends - Suporte ao Jogador, 17 mar. 2022i",
   "natureza": "termos",
-  "arquivo": "20251003183643",
-  "distancia_dias": -149
+  "arquivo": "20261125004121",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003183643",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/store/eternals-faq-league-of-legends"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/36416633092499-Fim-da-Temporada-2024-Etapa-3",
@@ -833,8 +906,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Fim da Temporada 2024 - Etapa 3. Por Laserface. League of Legends - Suporte ao Jogador, 26 dez. 2024k",
   "natureza": "termos",
-  "arquivo": "20251003182031",
-  "distancia_dias": -149
+  "arquivo": "20261125004130",
+  "distancia_dias": 269,
+  "arquivo_original": "20251003182031",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/end-of-season-2024-split-3"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4402981557267-Protegendo-a-Sua-Conta",
@@ -842,8 +917,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Protegendo a Sua Conta. Por Wolf. League of Legends - Suporte ao Jogador, 30 abr. 2025n",
   "natureza": "termos",
-  "arquivo": "20260521021437",
-  "distancia_dias": 81
+  "arquivo": "20260611220023",
+  "distancia_dias": 102,
+  "arquivo_original": "20260521021437",
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/account/protecting-your-account"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4403733573011-Chargebacks",
@@ -851,8 +928,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Chargebacks. Por Wolf. League of Legends - Suporte ao Jogador, 14 out. 2025s",
   "natureza": "termos",
-  "arquivo": "20260521021436",
-  "distancia_dias": 73
+  "arquivo": "20261106031204",
+  "distancia_dias": 242,
+  "arquivo_original": "20260521021436",
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/billing/chargebacks"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4405776545427-Mestre-Gr%C3%A3o-Mestre-e-Desafiante-os-tiers-mais-altos",
@@ -860,8 +939,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Mestre, Grão-Mestre e Desafiante: os tiers mais altos. Por Skittle Sniper. League of Legends - Suporte ao Jogador, 2 fev. 2026g",
   "natureza": "termos",
-  "arquivo": "20251006105916",
-  "distancia_dias": -146
+  "arquivo": "20260808221108",
+  "distancia_dias": 160,
+  "arquivo_original": "20251006105916",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/master-grandmaster-and-challenger-the-apex-tiers"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4405781372051-MMR-ranque-e-PdL",
@@ -869,8 +950,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. MMR, ranque e PdL. League of Legends - Suporte ao Jogador, 3 fev. 2026c",
   "natureza": "termos",
-  "arquivo": "20251006105238",
-  "distancia_dias": -146
+  "arquivo": "20261125004302",
+  "distancia_dias": 269,
+  "arquivo_original": "20251006105238",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/mmr-rank-and-lp"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4406004330643-Tiers-divis%C3%B5es-e-filas-das-ranqueadas",
@@ -878,8 +961,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Tiers, divisões e filas das ranqueadas. Por Laserface. League of Legends - Suporte ao Jogador, 17 fev. 2026j",
   "natureza": "termos",
-  "arquivo": "20251006105956",
-  "distancia_dias": -146
+  "arquivo": "20260605032611",
+  "distancia_dias": 96,
+  "arquivo_original": "20251006105956",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/gameplay/ranked-tiers-divisions-and-queues"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/4410278943635-Pontos-de-Objetivo-ao-jogar-partidas",
@@ -887,8 +972,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Pontos de Objetivo ao jogar partidas. League of Legends - Suporte ao Jogador, 17 mar. 2025f",
   "natureza": "termos",
-  "arquivo": "20260521021436",
-  "distancia_dias": 81
+  "arquivo": "20260808123622",
+  "distancia_dias": 160,
+  "arquivo_original": "20260521021436",
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/events/objective-points-for-playing-games"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/46228902283923-League-of-Legends-Recompensas-ranqueadas-do-Fim-da-Temporada-2025",
@@ -899,7 +986,7 @@
   "arquivo": "20261125001008",
   "capturada_em": "2026-11-24",
   "distancia_dias": 269,
-  "redireciona_para": "https://support.riotgames.com/pt-br/league-of-legends/rewards/league-of-legends-end-of-season-2025-ranked-rewards"
+  "endereco_atual": "https://support.riotgames.com/pt-br/league-of-legends/rewards/league-of-legends-end-of-season-2025-ranked-rewards"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/49641859007635-Portal-dos-Respons%C3%A1veis-da-Riot-Games",
@@ -910,7 +997,7 @@
   "arquivo": "20261125001051",
   "capturada_em": "2026-11-24",
   "distancia_dias": 251,
-  "redireciona_para": "https://support.riotgames.com/pt-br/riot/account/riot-games-parent-portal"
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/account/riot-games-parent-portal"
  },
  {
   "url": "https://support-leagueoflegends.riotgames.com/hc/pt-br/articles/49641878678291-Verifica%C3%A7%C3%A3o-de-idade",
@@ -921,7 +1008,7 @@
   "arquivo": "20261125001135",
   "capturada_em": "2026-11-24",
   "distancia_dias": 251,
-  "redireciona_para": "https://support.riotgames.com/pt-br/riot/account/age-verification"
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/account/age-verification"
  },
  {
   "url": "https://support-valorant.riotgames.com/hc/en-us/articles/22291331362067-Vanguard-Restrictions",
@@ -929,8 +1016,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Vanguard Restrictions. Por Wolf. VALORANT Support, 18 dez. 2025q",
   "natureza": "termos",
-  "arquivo": "20260309131521",
-  "distancia_dias": 0
+  "arquivo": "20261110194519",
+  "distancia_dias": 246,
+  "arquivo_original": "20260309131521",
+  "endereco_atual": "https://support.riotgames.com/en-us/riot/performance/vanguard-security-requirements"
  },
  {
   "url": "https://support-valorant.riotgames.com/hc/en-us/articles/360046160933-What-is-Vanguard",
@@ -938,8 +1027,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. What is Vanguard? VALORANT Support, 5 jan. 2024t",
   "natureza": "termos",
-  "arquivo": "20260305113811",
-  "distancia_dias": -4
+  "arquivo": "20261013091604",
+  "distancia_dias": 218,
+  "arquivo_original": "20260305113811",
+  "endereco_atual": "https://support.riotgames.com/en-us/riot/performance/what-is-vanguard"
  },
  {
   "url": "https://support-valorant.riotgames.com/hc/en-us/articles/48441713812755-VAN-Incompatible-Software",
@@ -947,8 +1038,10 @@
   "origem": "tese",
   "referencia": "p. 826 RIOT GAMES. VAN: Incompatible Software. Por Wolf. VALORANT Support, 23 jan. 2026k",
   "natureza": "termos",
-  "arquivo": "20260416193030",
-  "distancia_dias": 38
+  "arquivo": "20260830172847",
+  "distancia_dias": 174,
+  "arquivo_original": "20260416193030",
+  "endereco_atual": "https://support.riotgames.com/en-us/riot/performance/error-van-incompatible-software"
  },
  {
   "url": "https://support-valorant.riotgames.com/hc/pt-br/articles/20590571987987-Cobran%C3%A7a-n%C3%A3o-autorizada-da-Riot-Games",
@@ -956,8 +1049,10 @@
   "origem": "tese",
   "referencia": "RIOT GAMES. Cobrança não autorizada da Riot Games. Suporte de VALORANT, 20 set. 2023f",
   "natureza": "termos",
-  "arquivo": "20251010125700",
-  "distancia_dias": -150
+  "arquivo": "20260614103417",
+  "distancia_dias": 97,
+  "arquivo_original": "20251010125700",
+  "endereco_atual": "https://support.riotgames.com/pt-br/riot/security/unauthorized-charge-from-riot-games"
  },
  {
   "url": "https://support-valorant.riotgames.com/hc/pt-br/articles/360049090894-Cart%C3%B5es-vale-presente-pr%C3%A9-pagos",
@@ -966,7 +1061,8 @@
   "referencia": "RIOT GAMES. Cartões vale-presente pré-pagos. Suporte de VALORANT, 12 dez. 2023g",
   "natureza": "termos",
   "arquivo": "20251213031240",
-  "distancia_dias": -86
+  "distancia_dias": -86,
+  "situacao": "fora do ar, sem endereço novo, vale a cópia arquivada"
  },
  {
   "url": "https://support-wildrift.riotgames.com/hc/pt-br/articles/360051608034-Wild-Cores",
@@ -2025,7 +2121,7 @@
   "arquivo": "20261125001329",
   "capturada_em": "2026-11-24",
   "distancia_dias": 8,
-  "redireciona_para": "https://www.rotajuridica.com.br/tj-de-goias-garante-reintegracao-de-comerciante-ao-ifood-e-fixa-indenizacao/"
+  "endereco_atual": "https://www.rotajuridica.com.br/tj-de-goias-garante-reintegracao-de-comerciante-ao-ifood-e-fixa-indenizacao/"
  },
  {
   "url": "https://www.surrenderat20.net/2013/07/spirit-guard-udyr-now-available_16.html",

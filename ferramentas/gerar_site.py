@@ -4112,14 +4112,17 @@ def copia_arquivada(url):
     ts = x["arquivo"]
     import datetime as _dt
     hora = _dt.datetime.strptime(ts[:14].ljust(14, "0"), "%Y%m%d%H%M%S") - _dt.timedelta(hours=3)  # o arquivo data em UTC, o site em Brasília
-    return f'https://web.archive.org/web/{ts}/{x["url"]}', hora.strftime("%d/%m/%Y")
+    return f'https://web.archive.org/web/{ts}/{x.get("endereco_atual") or x["url"]}', hora.strftime("%d/%m/%Y")
 
 
 def link_copia(url, classe="copia-arquivada"):
+    """O endereço atual, quando a página mudou de lugar, e a cópia arquivada."""
     c = copia_arquivada(url)
     if not c:
         return ""
-    return f'<a class="{classe}" href="{esc(c[0])}" rel="noopener">Cópia arquivada em {c[1]}</a>'
+    x = acervo().get(_url_chave(url), {})
+    atual = (f'<a class="{classe}" href="{esc(x["endereco_atual"])}" rel="noopener">Endereço atual</a> ' if x.get("endereco_atual") else "")
+    return atual + f'<a class="{classe}" href="{esc(c[0])}" rel="noopener">Cópia arquivada em {c[1]}</a>'
 
 
 def referencias():
@@ -4537,7 +4540,7 @@ def gerar_referencias():
              f'<section class="bloco"><h2>A lista da tese</h2><ol class="lista-referencias">{"".join(itens)}</ol></section>'
              f'<section class="bloco acrescimo" id="copias-arquivadas" data-arq="acréscimo posterior · {DATA_ACERVO}"><h2>Cópias arquivadas</h2>'
              f'<p>Endereço da web some ou muda de conteúdo com o tempo. Por isso, desde {DATA_ACERVO}, cada entrada com endereço traz o link da cópia que o Internet Archive guarda, a mais próxima da data de acesso, e a data dessa cópia. '
-             'Quando a cópia é posterior ao acesso, ela mostra a página como estava naquele dia, que pode não ser a versão lida. '
+             'Quando a cópia é posterior ao acesso, ela mostra a página como estava naquele dia. Quando a página mudou de endereço, a entrada traz também o endereço atual, e a cópia é a do endereço novo. '
              'O site não hospeda essas páginas, porque são de terceiros, e guarda só o caminho até a cópia. O texto das leis que a tese cita sem transcrever está na <a href="' + prefixo + 'legislacao/">Legislação</a>.</p></section>'
              f'<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior.</p><ul class="partes-curtas"><li><a href="{prefixo}alem-do-consumo/#o-que-e">Objeto Imaterial de Fruição Governada (OIFG), 15/11/2026. Fontes, o Código Civil e a doutrina dos bens digitais de Zampier Lacerda, já presente na lista da tese.</a></li>' + (f'<li><a href="{prefixo}saida-responsavel/#nota">Autometria, a régua das escolhas do fornecedor, e saída responsável, 24/11/2026. Fontes, o art. 473 do Código Civil e o art. 51, XI, do CDC, além das passagens da tese que a página indica.</a></li>' if SAIDA_RESP else '') + '</ul></section>'
              "</article>")
