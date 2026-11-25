@@ -1190,9 +1190,9 @@ Em cada família se mantêm distintos o mecanismo lesivo, o problema probatório
 
 ## autor
 
-### Como este trabalho nasceu
+### Como a pesquisa nasceu
 
-O trabalho nasceu de um percurso que atravessou a dimensão institucional da propriedade industrial e ganhou nitidez no entretenimento interativo, onde a fruição depende de centros privados de decisão e de infraestruturas opacas. Não nasceu de uma agenda institucional prévia, e sim de um incômodo que se repetiu por anos, enquanto camadas técnicas deixavam de ser ferramentas e passavam a funcionar como ambiente.
+A pesquisa nasceu de um percurso que atravessou a dimensão institucional da propriedade industrial e ganhou nitidez no entretenimento interativo, onde a fruição depende de centros privados de decisão e de infraestruturas opacas. Não nasceu de uma agenda institucional prévia, e sim de um incômodo que se repetiu por anos, enquanto camadas técnicas deixavam de ser ferramentas e passavam a funcionar como ambiente.
 
 Veio também da docência e da necessidade de sustentar o Direito do Consumidor como linguagem de proteção, e não como ritual. Ensinar e acompanhar discussões sobre tutela coletiva do consumo levou a perspectiva para além do contrato enquanto papel, até o consumo enquanto rotina, expectativa e frustração.
 

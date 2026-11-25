@@ -2391,11 +2391,11 @@ def gerar_inicio():
       <h2 id="pesquisa-titulo">A pesquisa por dentro</h2>
       <nav class="ext saidas" aria-label="Por onde entrar na pesquisa"><ul class="partes-curtas">
         <li><a href="objeto-e-instrumentos/">Objeto e instrumentos</a></li>
-        <li><a href="metodo/">Método e protocolo</a></li>
-        <li><a href="fundamentos/">Fundamentos, com os autores de cada campo</a></li>
-        <li><a href="dogmatica/">Dogmática, capítulos 5 e 6</a></li>
+        <li><a href="metodo/">Método</a></li>
+        <li><a href="fundamentos/">Fundamentos</a></li>
+        <li><a href="dogmatica/">Dogmática</a></li>
         <li><a href="referencias/">Referências</a></li>
-        <li><a href="tese/">Texto integral, seção a seção</a></li>
+        <li><a href="tese/">Texto integral</a></li>
       </ul></nav>
     </section>
 
@@ -5080,8 +5080,10 @@ def gerar_autor():
     corpo = (
         '<article class="folha autor-pagina">'
         '<header class="folha-cabeca ext-cabeca"><p class="sobrelinha-ext">Quem está por trás desta teoria</p><h1>Victor L. P. Andrade</h1></header>'
-        '<section class="ext"><p>Tudo o que você leu neste site deriva de uma tese de doutorado em Direito, '
-        'apresentada à Universidade Estadual Paulista e defendida em 30 de março de 2026, sob a orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
+        # Texto do autor, de 25/11/2026.
+        '<section class="ext"><p>O conteúdo deste site se deriva da tese de doutorado em Direito apresentada pelo Dr. Victor L. P. Andrade '
+        'ao Programa de Pós-graduação em Direito da Universidade Estadual Paulista (UNESP), Faculdade de Ciências Humanas e Sociais, '
+        'sob orientação da Prof.ª Dr.ª Luciana Lopes Canavez.</p>'
         # A referência como a própria tese a registra nas folhas de resumo (p. 10 a 12 do PDF), com o título em negrito. 22/11/2026.
         '<p class="referencia">ANDRADE, Victor Luiz Pereira de. <b>Do regime jurídico do Objeto Imaterial de Consumo (OIC) sob a Lex Plataformae</b>: '
         'a tutela da vulnerabilidade semiótica do consumidor à luz da ordem constitucional e econômica do Brasil. 2026. 829p. '
@@ -5089,14 +5091,17 @@ def gerar_autor():
         f'<p class="acoes"><a class="botao" href="{prefixo}tese/{PDF_NOME}">Ler a tese completa em PDF</a> <a href="{prefixo}tese/">Ler seção por seção</a></p></section>'
         + doutrina_html("autor", prefixo)
         + '<section class="ext financiamento"><h2 class="rotulo-ext">Financiamento</h2>'
-          '<p>O presente trabalho foi realizado com apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Código de Financiamento 001.</p>'
-          '<p>A pesquisa contou com o apoio da CAPES no processo nº 88887.670298/2022-00, no Programa de Pós-Graduação em Direito da UNESP, como registram os agradecimentos da tese.</p></section>'
-        + '<section class="ext"><p>As ilustrações conceituais do site foram feitas com inteligência artificial, a partir de um plano em que cada imagem '
-        'parte de um trecho da tese. Os esquemas foram montados à mão, em código.</p></section>'
-        + '<section class="ext fim-percurso" aria-labelledby="fim-titulo"><h2 class="rotulo-ext" id="fim-titulo">Fim do caminho</h2>'
-        f'<p>A trajetória acadêmica completa está no <a href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a>.</p>'
-        '<p>Para conversar sobre esta teoria, o caminho é o LinkedIn.</p>'
-        f'<p class="acoes"><a class="botao" href="{AUTOR_LINKEDIN}" rel="me noopener">Victor L. P. Andrade no LinkedIn</a></p></section>'
+          # Por ordem do autor de 25/11/2026, sem a fórmula O presente trabalho. O crédito, o código e o processo continuam.
+          '<p>A pesquisa teve apoio da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, a CAPES, com o Código de Financiamento 001, '
+          'no processo nº 88887.670298/2022-00.</p></section>'
+        + # Uso de IA, por ordem do autor de 25/11/2026, que pediu um parágrafo mais abrangente.
+        '<section class="ext"><p>Este site foi construído com uso supervisionado de inteligência artificial, das ilustrações conceituais '
+        'à organização do texto, à tradução para o inglês e ao código que monta as páginas. O conteúdo parte da tese, e o que veio depois dela aparece marcado como acréscimo. '
+        'O site está em revisão e melhoria constantes, e cada versão corrige e amplia a anterior.</p></section>'
+        # Por ordem do autor de 25/11/2026, sem o título Fim do caminho e sem frases. Só os dois botões.
+        + '<section class="ext fim-percurso">'
+        f'<p class="acoes"><a class="botao" href="{AUTOR_LATTES}" rel="me noopener">Currículo Lattes</a> '
+        f'<a class="botao" href="{AUTOR_LINKEDIN}" rel="me noopener">LinkedIn</a></p></section>'
         + "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "ProfilePage", "url": BASE + "/autor/",
               "mainEntity": {"@type": "Person", "name": "Victor Luiz Pereira de Andrade", "alternateName": "Victor L. P. Andrade",
