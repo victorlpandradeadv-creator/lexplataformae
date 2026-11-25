@@ -217,3 +217,5 @@ When the thesis quotes a foreign author in Portuguese translation (Postman, Han,
 | conceito-infraestrutura | infrastructure-concept |
 | Para operar | In practice (12/11/2026, antes To operate) |
 | prazo decadencial | forfeiture period (prazo decadencial), on first mention explained as the period after which the right itself is lost, under Brazilian law (12/11/2026) |
+| autometria, autométrico (24/11/2026) | autometry, autometric (keep duty or principle nearby, as in autometric duty, because autometrics is a software library name) |
+| a régua (da autometria) | the yardstick |

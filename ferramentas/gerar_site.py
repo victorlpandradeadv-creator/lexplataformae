@@ -44,7 +44,7 @@ VERSOES = [
     ("0.18", "21/11/2026", "A capa passa a perguntar O que a plataforma tomou de você?, cada modo ganha capa própria, sete histórias deixam o leitor começar pelo que aconteceu, as gravuras voltam como linha única das ilustrações, com as portas e os direitos ilustrados, e cada página nova ganha imagem própria de compartilhamento."),
     ("0.19", "22/11/2026", "O texto integral passa a conferir palavra por palavra com o PDF da tese, com a frase que faltava na nota 277, os intervalos de páginas e os endereços da web sem espaço partido, as entradas da lista de referências separadas na virada de página e as referências entre parênteses sempre à vista. A tese ganha os metadados do Google Acadêmico e um PDF com autoria declarada."),
     ("0.20", "24/11/2026", "Cada referência da web, na lista da tese e nas fontes dos casos, passa a trazer o link da cópia arquivada no Internet Archive, a mais próxima da data de acesso, e as páginas que ainda não tinham cópia foram arquivadas."),
-    ("0.21", "24/11/2026", "Segunda grande adição posterior à defesa. A página Se a plataforma vai embora, quanto tempo ela deve dar? traz a régua das escolhas do fornecedor, com a vinculação contratual e a vinculação material do encerramento, e as marcas de acréscimo passam a ser só a data, com a explicação ao passar o mouse."),
+    ("0.21", "24/11/2026", "Segunda grande adição posterior à defesa. A página Se a plataforma vai embora, quanto tempo ela deve dar? traz a autometria, a régua das escolhas do fornecedor, com a vinculação contratual e a vinculação material do encerramento, e as marcas de acréscimo passam a ser só a data, com a explicação ao passar o mouse."),
 ]
 DATA_VERSAO = VERSOES[-1][1]
 PDF_NOME = "andrade-2026-tese-oic-lex-plataformae.pdf"
@@ -1459,8 +1459,8 @@ for _id, _l in (ALEM or {}).get("leis", {}).items():
     _LEI_FONTES = {"Código Civil": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm", "CDC": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"}
     LEIS_EXTRAS[(_curto, int(_num) if _num.isdigit() else _num)] = {"tipo": "planalto", "texto": [_l["texto"]], "fonte": _LEI_FONTES[_curto], "data": "15/11/2026", "artigo": _num}
 
-# Saída responsável. A régua das escolhas do fornecedor, segunda grande adição posterior à defesa, publicada em 24/11/2026
-# por ordem do autor. Texto em conteudo/saida-responsavel.md. A Informação não nomeia a régua.
+# Saída responsável. A autometria, régua das escolhas do fornecedor, segunda grande adição posterior à defesa, publicada em 24/11/2026
+# por ordem do autor. Texto em conteudo/saida-responsavel.md. A Informação não usa o nome autometria.
 SAIDA_RESP = carregar_alem_do_consumo("saida-responsavel.md")
 DATA_SAIDA = "24 de novembro de 2026"
 for _id, _l in (SAIDA_RESP or {}).get("leis", {}).items():
@@ -4516,7 +4516,7 @@ def gerar_referencias():
              f'<p>Endereço da web some ou muda de conteúdo com o tempo. Por isso, desde {DATA_ACERVO}, cada entrada com endereço traz o link da cópia que o Internet Archive guarda, a mais próxima da data de acesso, e a data dessa cópia. '
              'Quando a cópia é posterior ao acesso, ela mostra a página como estava naquele dia, que pode não ser a versão lida. '
              'O site não hospeda essas páginas, porque são de terceiros, e guarda só o caminho até a cópia. O texto das leis que a tese cita sem transcrever está na <a href="' + prefixo + 'legislacao/">Legislação</a>.</p></section>'
-             f'<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior.</p><ul class="partes-curtas"><li><a href="{prefixo}alem-do-consumo/#o-que-e">Objeto Imaterial de Fruição Governada (OIFG), 15/11/2026. Fontes, o Código Civil e a doutrina dos bens digitais de Zampier Lacerda, já presente na lista da tese.</a></li>' + (f'<li><a href="{prefixo}saida-responsavel/#nota">Régua das escolhas do fornecedor e saída responsável, 24/11/2026. Fontes, o art. 473 do Código Civil e o art. 51, XI, do CDC, além das passagens da tese que a página indica.</a></li>' if SAIDA_RESP else '') + '</ul></section>'
+             f'<section class="bloco" id="ampliacoes"><h2>Ampliações</h2><p>O que o site acrescentar à teoria depois da tese entra aqui, com data e marca de acréscimo posterior.</p><ul class="partes-curtas"><li><a href="{prefixo}alem-do-consumo/#o-que-e">Objeto Imaterial de Fruição Governada (OIFG), 15/11/2026. Fontes, o Código Civil e a doutrina dos bens digitais de Zampier Lacerda, já presente na lista da tese.</a></li>' + (f'<li><a href="{prefixo}saida-responsavel/#nota">Autometria, a régua das escolhas do fornecedor, e saída responsável, 24/11/2026. Fontes, o art. 473 do Código Civil e o art. 51, XI, do CDC, além das passagens da tese que a página indica.</a></li>' if SAIDA_RESP else '') + '</ul></section>'
              "</article>")
     jsonld = {"@context": "https://schema.org", "@type": "WebPage", "url": BASE + "/referencias/", "name": "Referências · Lex Plataformae",
               "isBasedOn": {"@type": "Thesis", "@id": BASE + "/#tese", "name": TITULO_TESE}}

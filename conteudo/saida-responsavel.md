@@ -1,6 +1,6 @@
 # Saída responsável
 
-Página da régua das escolhas do fornecedor. Segunda grande adição posterior à defesa, publicada em 24/11/2026 por ordem do autor. A régua não está na tese. A base dela está no texto defendido, na reciprocidade institucional proporcional ao domínio exercido (p. 350), na recusa do direito de aniquilar a fruição estabilizada ao encerrar o serviço (p. 709 e 796), nos deveres da Lei do Software ligados ao prazo de validade técnica (p. 51) e na leitura dos vínculos continuados (p. 560-561). O que é posterior é usar as escolhas do próprio fornecedor como medida da contrapartida, com as duas réguas do encerramento. Os textos de lei que a tese não cita vêm do site do Planalto, copiados pelo navegador do autor em 24/11/2026.
+Página da autometria, a régua das escolhas do fornecedor, nome escolhido pelo autor em 24/11/2026. Segunda grande adição posterior à defesa, publicada em 24/11/2026 por ordem do autor. A régua não está na tese. A base dela está no texto defendido, na reciprocidade institucional proporcional ao domínio exercido (p. 350), na recusa do direito de aniquilar a fruição estabilizada ao encerrar o serviço (p. 709 e 796), nos deveres da Lei do Software ligados ao prazo de validade técnica (p. 51) e na leitura dos vínculos continuados (p. 560-561). O que é posterior é usar as escolhas do próprio fornecedor como medida da contrapartida, com as duas réguas do encerramento. Os textos de lei que a tese não cita vêm do site do Planalto, copiados pelo navegador do autor em 24/11/2026.
 
 Formato. O mesmo de `alem-do-consumo.md`. `### <campo> <modos> <pergunta>`, com os modos em que a seção aparece (0 Informação, 1 Doutrina, 2 Ciência, separados por vírgula). Parágrafos, trechos `> texto (p. n)` à vista só na Ciência e `lei:` com os dispositivos do bloco `## leis`. Rascunho do Claude, à espera da revisão do autor.
 
@@ -14,7 +14,7 @@ Se a plataforma vai embora, quanto tempo ela deve dar?
 
 A empresa pode decidir fechar um serviço ou sair do país. Mas quem escolheu vender planos de um ano, ou manter o serviço de pé por quinze anos, não pode ir embora como se tivesse chegado ontem.
 
-A medida do que ela deve vem das escolhas que ela mesma fez. Quanto mais ela prendeu você ao serviço, mais cuidado a saída exige.
+A medida do que ela deve vem das escolhas que ela mesma fez. A régua é dela, e quanto mais ela prendeu você ao serviço, mais cuidado a saída exige.
 
 ### quem 0 Quem marca o prazo?
 
@@ -50,15 +50,15 @@ A lei também ainda não fixa um número, como tantos meses de aviso por ano de 
 
 > A exclusividade pode organizar o mercado; não pode legitimar a destruição administrada da fruição alheia como efeito colateral da própria decisão de sair dele. (p. 709)
 
-### criterio 1 Que critério mede a contrapartida exigível?
+### criterio 1 O que é a autometria?
 
-A extensão dos deveres do fornecedor se mede pelas escolhas que ele próprio faz ao organizar a atividade. A duração dos contratos que comercializa, o tempo em que mantém o ambiente, o controle que retém sobre a fruição e o poder que exerce sobre terceiros fornecem a régua. A liberdade econômica fornece a régua da responsabilidade econômica.
+Autometria é o critério pelo qual a extensão dos deveres do fornecedor se mede pelas escolhas que ele próprio faz ao organizar a atividade. É a medida que o próprio fornecedor fornece. A duração dos contratos que comercializa, o tempo em que mantém o ambiente, o controle que retém sobre a fruição e o poder que exerce sobre terceiros fornecem a régua. A liberdade econômica fornece a régua da responsabilidade econômica.
 
-O ponto de partida é a ordem econômica de 1988. A livre iniciativa nasce, no art. 170 da Constituição, ao lado da função social da propriedade, da livre concorrência e da defesa do consumidor. Como mostra Eros Roberto Grau, ela não é soberania patrimonial irrestrita, e a defesa do consumidor atua desde dentro da própria racionalidade econômica. A régua dá a essa coexistência uma técnica de concretização. A escolha empresarial continua livre, e a contrapartida dela deixa de ser arbitrada de fora para ser lida nas condições materiais que o próprio fornecedor constituiu.
+O ponto de partida é a ordem econômica de 1988. A livre iniciativa nasce, no art. 170 da Constituição, ao lado da função social da propriedade, da livre concorrência e da defesa do consumidor. Como mostra Eros Roberto Grau, ela não é soberania patrimonial irrestrita, e a defesa do consumidor atua desde dentro da própria racionalidade econômica. A autometria dá a essa coexistência uma técnica de concretização. A escolha empresarial continua livre, e a contrapartida dela deixa de ser arbitrada de fora para ser lida nas condições materiais que o próprio fornecedor constituiu.
 
-O mesmo raciocínio já sustenta a reciprocidade institucional proporcional ao domínio exercido sobre reconhecimento, permanência e sanção. A plataforma não vira Estado, mas, quando governa acesso e permanência em escala, deve contrapartidas na medida desse governo. A régua estende esse critério do poder de sanção às demais escolhas do modelo de negócio.
+O mesmo raciocínio já sustenta a reciprocidade institucional proporcional ao domínio exercido sobre reconhecimento, permanência e sanção. A plataforma não vira Estado, mas, quando governa acesso e permanência em escala, deve contrapartidas na medida desse governo. A autometria estende esse critério do poder de sanção às demais escolhas do modelo de negócio.
 
-A incidência não depende de ilícito. Um modelo de negócio pode ser plenamente legítimo e, justamente por ser exercido com a extensão que tem, atrair deveres proporcionais. Por isso a régua opera também em chave preventiva.
+A incidência não depende de ilícito. Um modelo de negócio pode ser plenamente legítimo e, justamente por ser exercido com a extensão que tem, atrair deveres proporcionais. Por isso a autometria opera também em chave preventiva.
 
 >! A livre iniciativa, no arranjo constitucional de 1988, não se confunde com soberania contratual irrestrita nem com liberdade privada de desenhar regimes de plataforma imunes a controle. (p. 505)
 > Quando a normatividade prática é exercida por regras internas mutáveis, por arquitetura de acesso e por intermediação informacional opaca, o déficit relevante não é a ausência de um rótulo jurídico-público, mas a ausência de reciprocidade institucional proporcional ao domínio exercido sobre reconhecimento, permanência e sanção. (p. 350)
@@ -97,9 +97,9 @@ Não. A vinculação contratual protege expectativas temporalmente expressas, e 
 
 A cumulação impede também a evasão pela forma. Se só a duração formal contasse, bastaria fatiar planos anuais em mensalidades sucessivas. Se só a idade da pessoa jurídica contasse, bastaria reorganizar a sociedade para zerar a contagem. A régua alcança a substância econômica e funcional da atividade, e não a roupa contratual ou societária que ela veste.
 
-### limites 1 O que a régua não autoriza?
+### limites 1 O que a autometria não autoriza?
 
-A régua não converte atividade duradoura em obrigação perpétua de funcionar. O fornecedor conserva a liberdade de sair do mercado. Os deveres proporcionais incidem sobre as condições da saída, sobre a preservação do que foi constituído e sobre as medidas de transição, portabilidade, cessão da operação ou recomposição. A liberdade de encerrar não se confunde com a liberdade de escolher qualquer forma de encerrar.
+A autometria não converte atividade duradoura em obrigação perpétua de funcionar. O fornecedor conserva a liberdade de sair do mercado. Os deveres proporcionais incidem sobre as condições da saída, sobre a preservação do que foi constituído e sobre as medidas de transição, portabilidade, cessão da operação ou recomposição. A liberdade de encerrar não se confunde com a liberdade de escolher qualquer forma de encerrar.
 
 A variável relevante é o poder exercido e a dependência constituída, e não o porte econômico. Uma empresa pode crescer vendendo um produto melhor sem concentrar poder sobre o cliente. O porte pode auxiliar na aferição da capacidade de cumprimento, mas não é a medida principal.
 
@@ -108,23 +108,31 @@ Nem toda dimensão se mede por fórmula. O tempo se conta com facilidade, e o gr
 > Também não é necessário recorrer a uma ideia forte de propriedade do consumidor sobre o bem digital para exigir estabilidade mínima. (p. 708)
 > Se o encerramento do serviço se impõe, a ordem constitucional exige que ele seja compatibilizado, tanto quanto técnica e juridicamente possível, com soluções de continuidade, portabilidade, recomposição funcional, cessão da operação ou outras medidas idôneas a impedir que a arquitetura privada se converta em instrumento lícito de devastação patrimonial e existencial do consumidor. (p. 709)
 
-### alem 1 A régua vale só para o encerramento?
+### alem 1 A autometria vale só para o encerramento?
 
 Não. O encerramento é a aplicação mais visível, mas cada escolha do modelo de negócio que amplia o poder do fornecedor sobre terceiros atrai contrapartida da mesma medida. Quem decide investigar, qualificar condutas e punir deve motivação, defesa e gradação tanto mais robustas quanto mais graves e irreversíveis forem as sanções. Quem condiciona a fruição de um produto já adquirido à autenticação permanente nos próprios servidores retém controle que não precisaria reter, e essa dependência técnica atrai deveres de continuidade e de meios alternativos de fruição. Quem reserva para si o poder de mudar o produto responde por um controle proporcional das mudanças, que é o campo da equivalência de valor funcional.
 
-A dependência, em nenhum desses casos, é ilícita por si. O problema é criá-la sem a contrapartida que ela exige. E a régua muda o cálculo antes mesmo da relação de consumo, porque o modelo mais controlador deixa de ser automaticamente o mais conveniente quando carrega os custos da dependência que cria. A lei não precisa escolher entre tecnologias. Basta ligar a cada escolha a consequência que ela produz.
+A dependência, em nenhum desses casos, é ilícita por si. O problema é criá-la sem a contrapartida que ela exige. E a autometria muda o cálculo antes mesmo da relação de consumo, porque o modelo mais controlador deixa de ser automaticamente o mais conveniente quando carrega os custos da dependência que cria. A lei não precisa escolher entre tecnologias. Basta ligar a cada escolha a consequência que ela produz.
 
 > A exclusividade permanece elemento legítimo de organização do ecossistema. (p. 710)
 
-### nota 2 Por que esta régua não está na tese?
+### nota 2 Por que a autometria não está na tese?
 
-A régua das escolhas do fornecedor é formulação posterior à defesa. O texto defendido contém as peças dela, mas não a montagem. Ele exige reciprocidade institucional proporcional ao domínio exercido (p. 350) e recusa ao fornecedor o direito de aniquilar a fruição estabilizada quando encerra o serviço (p. 709 e 796). Lê na Lei do Software deveres ligados ao prazo de validade técnica, inclusive depois da retirada de circulação (p. 51). E mostra que a duração dos vínculos intensifica dependência e confiança (p. 560-561).
+A autometria é formulação posterior à defesa. O texto defendido contém as peças dela, mas não a montagem. Ele exige reciprocidade institucional proporcional ao domínio exercido (p. 350) e recusa ao fornecedor o direito de aniquilar a fruição estabilizada quando encerra o serviço (p. 709 e 796). Lê na Lei do Software deveres ligados ao prazo de validade técnica, inclusive depois da retirada de circulação (p. 51). E mostra que a duração dos vínculos intensifica dependência e confiança (p. 560-561).
 
 O que esta página acrescenta é a medida. A pergunta que a tese deixou em aberto no encerramento era como converter o dever constitucional de preservação em obrigação mensurável. A resposta é que a medida vem das escolhas do próprio fornecedor, com uma régua contratual, tirada da duração dos contratos que ele vende, e uma régua material, tirada do tempo em que ele mantém o ambiente. Os dispositivos do art. 473 do Código Civil e do art. 51, XI, do CDC entram como acréscimo, porque a tese não os cita.
 
-### lugar 2 Onde a régua se encaixa entre os nove conceitos?
+### lugar 2 Onde a autometria se encaixa entre os nove conceitos?
 
-A régua não é um décimo conceito. Os nove dizem o que é consumido, que regime governa a fruição, que vulnerabilidade nasce dali, como se qualifica o ilícito e como se controla e recompõe a perda. A régua responde a uma pergunta transversal a todos eles, a de quanto se exige em cada caso. Por isso funciona como critério de calibragem do regime, e não como categoria ao lado das outras.
+A autometria não é um décimo conceito. Os nove dizem o que é consumido, que regime governa a fruição, que vulnerabilidade nasce dali, como se qualifica o ilícito e como se controla e recompõe a perda. A autometria responde a uma pergunta transversal a todos eles, a de quanto se exige em cada caso. Por isso funciona como critério de calibragem do regime, e não como categoria ao lado das outras.
+
+### nome 2 Por que autometria?
+
+O nome vem do grego autós, si mesmo, e métron, medida. Designa a medida dada por si mesmo, e daí o adjetivo autométrico, como em dever autométrico. A formação acompanha a de antecipação hipercuratorial, também forjada do grego, e evita as palavras que já têm dono. Proporcionalidade puxaria o teste de adequação, necessidade e proporcionalidade em sentido estrito, e correspectividade puxaria o sinalagma contratual, quando o mérito do critério é justamente sair do contrato.
+
+Há uma ironia deliberada no nome. A plataforma que mede tudo de quem está dentro dela, cada métrica, posição e engajamento, passa a ter os próprios deveres medidos pela métrica que ela mesma escolheu.
+
+O emblema é um brocardo latino antigo, de atribuição incerta, patere legem quam ipse fecisti, suporta a lei que tu mesmo fizeste. Se a Lex Plataformae é a lei que a plataforma faz para os outros, a autometria é a plataforma suportando a lei que fez. O critério não se confunde com o risco-proveito, do brocardo ubi emolumentum, ibi onus, onde está o proveito está o ônus. O risco-proveito mede pelo ganho, e a autometria mede pela escolha e pela dependência que ela criou, mesmo sem lucro.
 
 ## leis
 
