@@ -14,7 +14,7 @@ Quando o que você compra só existe dentro de uma plataforma, a venda não term
 
 A seguir estão os principais deveres, um por situação. Em cada um você encontra quando ele aparece, o que a plataforma deve, o que ajuda a mostrar o problema, o que você pode pedir e até onde isso vai.
 
-Leia com um cuidado. Nada disso é fórmula pronta nem garantia de resultado, porque cada caso depende do que aconteceu, do que se consegue provar e de como quem vai decidir lê os fatos. O que muda é a forma de contar o conflito, que deixa de ser um episódio solto e passa a ser o jeito como a plataforma fornece o que vendeu.
+Antes, um cuidado. Nada disso é fórmula pronta nem garantia de resultado, porque cada caso depende do que aconteceu, do que se consegue provar e de como quem vai decidir lê os fatos. O que muda é a forma de contar o conflito, que deixa de ser um episódio solto e passa a ser o jeito como a plataforma fornece o que vendeu.
 
 > A fruição, aqui, não aparece como efeito acidental de um contrato formalmente concluído, mas como núcleo material da relação de consumo. (p. 717-718)
 > Em consumo contínuo, a aquisição inaugura uma posição no ecossistema e não uma entrega exaurida em um instante. (p. 428)
@@ -71,7 +71,7 @@ A plataforma não pode montar a experiência para você não entender
 
 ### quando
 
-Quase tudo o que você sabe sobre a sua skin passa por telas, avisos, ícones e caminhos que a plataforma desenha. É por eles que você descobre quanto ela vale, que risco corre ao comprar e como reclamar se algo der errado. Quando a sua expectativa e a sua chance de contestar dependem desses sinais controlados pela empresa, você fica numa posição frágil. E o direito leva essa fragilidade em conta.
+Quase tudo o que você sabe sobre o que comprou passa por telas, avisos, ícones e caminhos que a plataforma desenha. É por eles que você descobre quanto aquilo vale, que risco corre ao comprar e como reclamar se algo der errado. Quando a sua expectativa e a sua chance de contestar dependem desses sinais controlados pela empresa, você fica numa posição frágil. E o direito leva essa fragilidade em conta.
 
 Essa fragilidade não tem a ver com ingenuidade, falta de atenção ou pouca intimidade com tecnologia. Ela nasce do jeito como o ambiente é montado. Quem desenha a tela decide o que fica em destaque, o que fica escondido e em que ordem as coisas aparecem. E costuma ficar também com os registros que permitiriam contar a história depois.
 
@@ -81,7 +81,7 @@ A plataforma não pode montar a experiência de um jeito que só ela entende. O 
 
 ### mostrar
 
-Ajuda mostrar o caminho que você percorreu dentro do jogo até a compra ou até o problema, o que estava em destaque na tela e por onde a informação passava. Também importam os registros que permitem reconstituir como a sua expectativa se formou. Capturas de tela com data, gravações de tela e as telas de compra e de confirmação ajudam, porque mostram como o ambiente estava montado, e não só o que você lembra.
+Ajuda mostrar o caminho que você percorreu dentro da plataforma até a compra ou até o problema, o que estava em destaque na tela e por onde a informação passava. Também importam os registros que permitem reconstituir como a sua expectativa se formou. Capturas de tela com data, gravações de tela e as telas de compra e de confirmação ajudam, porque mostram como o ambiente estava montado, e não só o que você lembra.
 
 ### pedir
 
@@ -89,7 +89,7 @@ O primeiro pedido é que o problema seja tratado como questão do ambiente, e n�
 
 ### limite
 
-Isso não quer dizer que todo jogo complicado viole direitos, nem que você seja incapaz diante do digital. A fragilidade que conta é a que aparece quando os sinais controlados pela plataforma conduzem a sua expectativa ou atrapalham a sua reação.
+Isso não quer dizer que todo serviço complicado viole direitos, nem que você seja incapaz diante do digital. A fragilidade que conta é a que aparece quando os sinais controlados pela plataforma conduzem a sua expectativa ou atrapalham a sua reação.
 
 > Sempre que expectativa, percepção de valor, avaliação de risco ou capacidade de contestação dependerem de signos, interfaces, fluxos e trilhas informacionais controlados pelo fornecedor, haverá vulnerabilidade semiótica juridicamente relevante. (p. 744)
 > O termo não designa ingenuidade, credulidade ou deficiência cultural do consumidor. (p. 719)
@@ -162,7 +162,7 @@ Quando a compra vem depois de uma preparação cuidadosa. Pode ser uma contagem 
 
 ### deve
 
-A plataforma deve fazer o que foi anunciado corresponder ao que é entregue. A promessa, o valor anunciado e os custos que não apareciam precisam bater com a experiência que você recebe, inclusive depois que a plataforma muda o jogo.
+A plataforma deve fazer o que foi anunciado corresponder ao que é entregue. A promessa, o valor anunciado e os custos que não apareciam precisam bater com a experiência que você recebe, inclusive depois que a plataforma muda as regras.
 
 ### mostrar
 
@@ -204,7 +204,7 @@ Quando a plataforma muda algo importante no seu acesso, no desempenho do item, n
 
 A plataforma deve manter o mínimo de verificabilidade. Isso quer dizer deixar possível saber o que foi mudado, quando, com que justificativa e com que efeito no que você usa.
 
-Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê. Isso não exige abrir todo o código do jogo nem tornar públicos os segredos da empresa. O exame deve se limitar ao que importa para o caso, preservando o sigilo necessário.
+Esse dever não é uma lei nova com nome próprio. Ele sai do dever de informar, da boa-fé e da facilitação da defesa do consumidor, que a lei já prevê. Isso não exige abrir todo o código do sistema nem tornar públicos os segredos da empresa. O exame deve se limitar ao que importa para o caso, preservando o sigilo necessário.
 
 ### mostrar
 
@@ -246,11 +246,11 @@ Mudou, tem que manter o que valia
 
 Quando a plataforma muda a experiência de um jeito que piora, esvazia ou desvia de verdade a função que levou você a comprar. É o item que, depois de um ajuste, continua no inventário, mas ficou tão fraco que perdeu a razão de existir, ou o recurso que deixava você fazer algo e foi retirado.
 
-Você pode continuar dentro do jogo, com a conta, vendo o item e entrando quando quiser, e mesmo assim ter perdido o principal. Manter funcionando não é o mesmo que manter o valor.
+Você pode continuar dentro do serviço, com a conta, vendo o item e entrando quando quiser, e mesmo assim ter perdido o principal. Manter funcionando não é o mesmo que manter o valor.
 
 ### deve
 
-A plataforma deve preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com os outros jogadores e, quando isso importa para o direito, o que ele significa.
+A plataforma deve preservar, no que é substancial, o papel que o item tinha na sua experiência. Isso inclui o que ele faz, a relação que ele cria com as outras pessoas e, quando isso importa para o direito, o que ele significa.
 
 ### mostrar
 
@@ -262,7 +262,7 @@ Em primeiro lugar, você pode pedir que a função volte. Isso pode ser desfazer
 
 ### limite
 
-A plataforma pode atualizar o jogo, e ninguém exige que o item fique idêntico para sempre nem que o jogo pare no tempo. Muitas mudanças são, de fato, a evolução natural do ambiente. O problema é a mudança que joga sobre você o custo de piorar de forma séria o que você comprou, sem uma recomposição à altura.
+A plataforma pode atualizar o serviço, e ninguém exige que o item fique idêntico para sempre nem que o serviço pare no tempo. Muitas mudanças são, de fato, a evolução natural do ambiente. O problema é a mudança que joga sobre você o custo de piorar de forma séria o que você comprou, sem uma recomposição à altura.
 
 > Sempre que a plataforma alterar a experiência de modo a degradar, esvaziar ou desviar substancialmente a função que justificou a aquisição, haverá ruptura da equivalência de valor funcional. (p. 745)
 > A força do critério aparece com nitidez em hipóteses como remoções de funcionalidades relevantes, nerfs que esvaziam utilidade adquirida (p. 637)
@@ -351,7 +351,7 @@ Você pode pedir mais do que o conserto de um episódio. Pode pedir que os camin
 
 ### limite
 
-Nem toda forma de vender, de convencer ou de administrar o jogo é abusiva. O que se controla é um programa reconhecível no funcionamento do ambiente, e não uma vontade escondida de alguém.
+Nem toda forma de vender, de convencer ou de administrar o serviço é abusiva. O que se controla é um programa reconhecível no funcionamento do ambiente, e não uma vontade escondida de alguém.
 
 > Sempre que microfricções, perdas normalizadas, urgências fabricadas, escassezes artificiais, opacidade estratégica, equivalências elásticas e outros mecanismos operarem de modo coordenado para extrair valor da vulnerabilidade ou degradar a fruição como rotina do ambiente, haverá hipótese de teleologia abusiva. (p. 746)
 > Não se trata de investigar intenção psicológica subjetiva de agentes empresariais, nem de moralizar toda forma de monetização, persuasão ou governança privada. O foco está na finalidade funcional objetivamente inscrita no arranjo, tal como se revela por sua replicabilidade, por sua coerência interna e por seu impacto reiterado sobre a experiência do consumidor. (p. 732)
@@ -384,7 +384,7 @@ A plataforma deve guardar e mostrar os registros mínimos necessários para reco
 
 ### mostrar
 
-Da sua parte, ajuda contar de modo plausível o que você viveu, mostrar como aquilo se encaixa no jogo e reunir o que estava ao seu alcance. Da parte da plataforma, cabe apresentar os registros, os históricos, as versões e as justificativas técnicas que importam para o caso.
+Da sua parte, ajuda contar de modo plausível o que você viveu, mostrar como aquilo se encaixa no funcionamento da plataforma e reunir o que estava ao seu alcance. Da parte da plataforma, cabe apresentar os registros, os históricos, as versões e as justificativas técnicas que importam para o caso.
 
 Quanto mais o que aconteceu depende do que só a plataforma registra, menos razoável é exigir de você uma prova detalhada de algo que nunca esteve nas suas mãos.
 
@@ -419,7 +419,7 @@ Ser dona da obra não é desculpa para tudo
 
 ### quando
 
-Quando a empresa usa os direitos que tem sobre o jogo para resistir a qualquer controle sobre o jeito como fornece o que você comprou. Entram aí direitos autorais, segredos de negócio, licenças e o controle sobre o próprio sistema.
+Quando a empresa usa os direitos que tem sobre o jogo, o programa ou o conteúdo para resistir a qualquer controle sobre o jeito como fornece o que você comprou. Entram aí direitos autorais, segredos de negócio, licenças e o controle sobre o próprio sistema.
 
 Vale entender o papel desses direitos. A propriedade intelectual não aparece aqui só como um obstáculo vindo de fora. É ela que ajuda a empresa a definir o que pode ser usado, por quanto tempo e em que condições. Ela protege a criação, mas também firma a autoridade da empresa sobre o modo como você usa o que comprou. Por isso faz parte da própria estrutura do que é vendido.
 
@@ -429,15 +429,15 @@ A plataforma deve usar a exclusividade sem transformá-la em escudo para esconde
 
 ### mostrar
 
-Ajuda mostrar se a restrição que a empresa invoca é mesmo necessária para proteger o jogo e a obra, ou se está servindo para blindar o jeito como ela governa o ambiente.
+Ajuda mostrar se a restrição que a empresa invoca é mesmo necessária para proteger a obra, ou se está servindo para blindar o jeito como ela governa o ambiente.
 
 ### pedir
 
-O pedido central é que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o jogo for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
+O pedido central é que a lei do consumidor continue valendo. Na prática, isso pode significar um exame delimitado dos registros, que preserve os segredos, e o controle da equivalência do que você comprou. Pode significar também que a empresa respeite os deveres de adequação, transparência e recomposição. E, se o serviço for encerrado, que a saída venha, tanto quanto for possível, com transição, preservação ou transferência do que você tinha lá dentro.
 
 ### limite
 
-Os direitos de propriedade intelectual sobre o jogo, a arte e o código continuam protegidos. Ninguém pede que a empresa abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
+Os direitos de propriedade intelectual sobre a obra, a arte e o código continuam protegidos. Ninguém pede que a empresa abra mão da obra. O que se discute é usar essa exclusividade como veto geral contra a proteção do consumidor.
 
 > Sempre que a plataforma invocar titularidade exclusiva, segredo empresarial, licenciamento ou estrutura proprietária do ecossistema para resistir ao controle do modo de fornecimento, a compatibilização deverá ser feita à luz da função social e dos limites constitucionais do exercício das posições privadas. (p. 747)
 > Ao contrário, subordina expressamente a garantia legal do privilégio sobre inventos industriais e da proteção às criações industriais, marcas, nomes de empresa e outros signos distintivos ao interesse social e ao desenvolvimento tecnológico e econômico do País (p. 702)
@@ -464,7 +464,7 @@ A resposta deve recompor o que você perdeu
 
 ### quando
 
-Quando o problema atinge o seu acesso, a continuidade do que você usa ou a equivalência do que comprou. Ou quando atinge o seu histórico, a sua posição diante dos outros jogadores ou o peso que aquilo tinha para você.
+Quando o problema atinge o seu acesso, a continuidade do que você usa ou a equivalência do que comprou. Ou quando atinge o seu histórico, a sua posição diante das outras pessoas ou o peso que aquilo tinha para você.
 
 ### deve
 
